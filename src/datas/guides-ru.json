@@ -1,0 +1,37 @@
+[
+  {
+    "id": "level-11",
+    "title": "Cookingdom Уровень 11<br />Попкорн",
+    "pageTitle": "Cookingdom Уровень 11 - Попкорн",
+    "pageSubtitle": "Полное руководство по Cookingdom Уровень 11 Попкорн, поможет вам легко пройти!",
+    "category": "11-20",
+    "isSpecial": false,
+    "imageUrl": "https://placehold.co/200x150/fff0f5/a08ee6?text=Lvl+11",
+    "detailsRoute": "/level-11",
+    "iframeUrl": "https://www.youtube.com/embed/5mFzPngHJF8",
+    "seo": {
+      "title": "Cookingdom Уровень 11 Руководство - Попкорн",
+      "description": "Стратегическое руководство по Cookingdom Уровень 11, включая машину для попкорна.",
+      "keywords": "cookingdom, уровень 11, попкорн, руководство"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "https://placehold.co/300x200/e8f4f8/7aa0c7?text=Level+11+Sidebar",
+      "levelInfoHtml": "<h3>Попкорн</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 3 звезды</p>",
+      "featuredGuides": [
+        {
+          "id": "level-1",
+          "title": "Уровень 1<br/>Первая пицца",
+          "imageUrl": "https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+1",
+          "detailsRoute": "/level-1"
+        },
+        {
+          "id": "level-2",
+          "title": "Уровень 2<br/>Простой салат",
+          "imageUrl": "https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+2",
+          "detailsRoute": "/level-2"
+        }
+      ]
+    },
+    "detailsHtml": "<h2>Уровень 11: Испытание попкорном</h2><p>Радуйте клиентов свежим попкорном!</p>"
+  }
+]

@@ -1,0 +1,166 @@
+<script setup>
+import { ref, computed, watch } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { RouterLink } from 'vue-router'
+
+const { t, locale } = useI18n()
+
+const blogPosts = ref([])
+const isLoading = ref(true)
+
+// 动态加载博客文章数据的函数
+const loadBlogPosts = async (lang) => {
+  isLoading.value = true
+  try {
+    let dataModule
+    if (lang === 'zh') {
+      dataModule = await import('@/datas/blog-posts-zh.json')
+    } else if (lang === 'ru') {
+      dataModule = await import('@/datas/blog-posts-ru.json')
+    } else {
+      dataModule = await import('@/datas/blog-posts.json') // 默认 en
+    }
+    blogPosts.value = dataModule.default || dataModule
+  } catch (error) {
+    console.error(`Failed to load blog posts for locale ${lang}:`, error)
+    blogPosts.value = []
+  } finally {
+    isLoading.value = false
+  }
+}
+
+// 初始化加载
+loadBlogPosts(locale.value)
+
+// 监听语言变化，重新加载数据
+watch(locale, (newLocale) => {
+  loadBlogPosts(newLocale)
+})
+
+// 格式化日期函数 (可选)
+const formatDate = (dateString) => {
+  if (!dateString) return ''
+  const options = { year: 'numeric', month: 'long', day: 'numeric' }
+  return new Date(dateString).toLocaleDateString(locale.value, options)
+}
+</script>
+
+<template>
+  <div class="blog-view">
+    <h1>{{ $t('nav.blog') }}</h1>
+
+    <div v-if="isLoading" class="loading-message">
+      <p>Loading posts...</p>
+    </div>
+
+    <div v-else-if="blogPosts.length > 0" class="blog-post-list">
+      <article v-for="post in blogPosts" :key="post.id" class="blog-post-card">
+        <RouterLink :to="{ name: 'blog-detail', params: { id: post.id } }" class="post-link">
+          <img v-if="post.imageUrl" :src="post.imageUrl" :alt="post.listTitle" class="post-image" />
+          <div class="post-content">
+            <h2 class="post-title" v-html="post.listTitle"></h2>
+            <p class="post-date">{{ formatDate(post.publishDate) }}</p>
+            <!-- 可以在这里显示摘要 (如果之后加回 excerpt 字段) -->
+            <!-- <p class="post-excerpt">{{ post.excerpt }}</p> -->
+          </div>
+        </RouterLink>
+      </article>
+    </div>
+
+    <div v-else class="no-posts-message">
+      <p>{{ $t('blog.placeholder_text', 'No blog posts available yet.') }}</p>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.blog-view {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #5b4b8a;
+  font-size: 2.2rem;
+}
+
+.loading-message,
+.no-posts-message {
+  text-align: center;
+  color: #888;
+  font-size: 1.2em;
+  padding: 40px 0;
+}
+
+.blog-post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.blog-post-card {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(160, 142, 230, 0.2);
+}
+
+.post-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.post-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.post-content {
+  padding: 1.5rem;
+}
+
+.post-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #5b4b8a;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #a08ee6;
+  margin-bottom: 1rem;
+}
+
+.post-excerpt {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .blog-post-list {
+    grid-template-columns: 1fr; /* Stack on mobile */
+    gap: 20px;
+  }
+  .post-title {
+    font-size: 1.2rem;
+  }
+  .post-content {
+    padding: 1rem;
+  }
+}
+</style> 

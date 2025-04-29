@@ -1,0 +1,193 @@
+{
+  "message": {
+    "hello": "Hello World"
+  },
+  "example": "This is an example text.",
+  "header": {
+    "logo": "Cookingdom"
+  },
+  "nav": {
+    "home": "🏠 Home",
+    "guides": "📖 Guides",
+    "blog": "✍️ Blog",
+    "download": "⬇️ Download"
+  },
+  "footer": {
+    "about": {
+      "title": "Cookingdom Fansite",
+      "description": "The cutest Cookingdom game guide fansite, sharing tips and fun."
+    },
+    "links": {
+      "quickNav": {
+        "title": "Quick Nav"
+      },
+      "popularLevels": {
+        "title": "Popular Levels",
+        "level5": "Level 5 Steak",
+        "level7": "Level 7 BBQ",
+        "level19": "Level 19 Burger",
+        "level26": "Level 26 King Crab"
+      },
+      "help": {
+        "title": "Help & Support",
+        "about": "About Us",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "privacy": "Privacy Policy"
+      }
+    },
+    "bottom": {
+      "copyright": "&copy; {year} Cookingdom Fansite (Unofficial)",
+      "credits": "Made with ♡ by Fans | Cookingdom game copyright belongs to its developers.",
+      "disclaimer": "Disclaimer: This website (CookingdomFans.com - example) is an unofficial fansite created by enthusiasts and is not affiliated with the official Cookingdom game or its publishers. For informational and entertainment purposes only."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Cookingdom Full Level Guide",
+      "description": "Your companion through all 31 levels of this charming cooking adventure ✨ Complete guides, simple cheats, and video walkthroughs.",
+      "button": {
+        "viewGuides": "View Level Guides",
+        "gameFeatures": "Game Features",
+        "downloadGame": "Download Game"
+      }
+    },
+    "features": {
+      "title": "Cookingdom Game Features",
+      "description": "Explore the delightful features that make Cookingdom a unique and relaxing cooking simulation experience",
+      "card1": {
+        "title": "Relaxing Cooking Sim",
+        "description": "Enjoy the pure joy of making food without time limits or pressure."
+      },
+      "card2": {
+        "title": "Fun Mini-Games",
+        "description": "Complete cooking steps like chopping and stirring through step-by-step mini-games."
+      },
+      "card3": {
+        "title": "Kitchen Customization",
+        "description": "Decorate and upgrade your unique kitchen space to your liking."
+      },
+      "card4": {
+        "title": "Relaxing & Friendly Vibe",
+        "description": "Cute visuals and soothing music create a cozy gaming atmosphere."
+      },
+      "card5": {
+        "title": "Cross-Platform Play",
+        "description": "Available for free download on both iOS and Android devices."
+      }
+    },
+    "downloads": {
+      "title": "Download Cookingdom Game",
+      "description": "Get Cookingdom for free on your iOS or Android device!",
+      "ios": {
+        "title": "iOS Version",
+        "description": "Cookingdom app for iPhone and iPad",
+        "meta": {
+          "type": "App Store",
+          "size": "Free"
+        },
+        "button": "Go to App Store"
+      },
+      "android": {
+        "title": "Android Version",
+        "description": "Cookingdom app for Android devices",
+        "meta": {
+          "type": "Google Play",
+          "size": "Free"
+        },
+        "button": "Go to Google Play"
+      }
+    },
+    "about": {
+      "title": "About Cookingdom Game",
+      "description1": "Cookingdom is a super fun, relaxing casual cooking simulation game that lets you experience the joy of cooking in a friendly and relaxed atmosphere. It combines simple, intuitive controls with progressively deeper cooking challenges, suitable for players of all ages.",
+      "description2": "The core of the game lies in completing the entire process from preparation to cooking to plating through a series of interactive mini-games. Whether it's chopping vegetables, stirring, controlling heat, or plating decoratively, each step is designed to be easy to pick up and full of fun.",
+      "description3": "As you progress through the levels, you'll unlock new recipes, kitchen utensils, and kitchen decorations. You can freely customize your kitchen to create your personalized cooking space. The game has no strict time limits, encouraging you to enjoy the cooking process at your own pace."
+    },
+    "stats": {
+      "title": "Game Stats",
+      "downloads": "Downloads",
+      "countries": "Countries",
+      "recipes": "Unique Recipes",
+      "rating": "User Rating"
+    },
+    "howToPlay": {
+      "title": "How to Play Cookingdom",
+      "step1": {
+        "title": "What is Cookingdom",
+        "description": "Cookingdom is a relaxing and cozy cooking simulation game that takes you on an unprecedented culinary adventure. By following these tips in Cookingdom, you can quickly become an expert, impressing your friends with your virtual cooking skills. Remember, the goal of Cookingdom is to enjoy the cooking process, so have fun and let your creativity flow!"
+      },
+      "step2": {
+        "title": "Tutorials and Guidance",
+        "description": "When you first start Cookingdom, the game provides easy-to-understand tutorials explaining how to perform each cooking task. These tutorials are designed to help you get familiar with the game's controls and mechanics. Whether you're a beginner or just need a refresher, pay attention to these initial guides."
+      },
+      "step3": {
+        "title": "Completing Levels",
+        "description": "Each level in Cookingdom presents a specific dish you need to prepare. Follow the on-screen instructions, complete the mini-games for each step (chopping, stirring, baking, etc.), and aim for the best score. Success is usually measured by accuracy and sometimes speed in the mini-games."
+      },
+      "step4": {
+        "title": "Using Guides",
+        "description": "If you find yourself stuck on a particular level or just want to optimize your cooking process, use the guides provided on this site! We offer step-by-step walkthroughs, tips for tricky mini-games, and video examples to help you master every recipe."
+      },
+      "step5": {
+        "title": "Community Interaction",
+        "description": "Join the Cookingdom community online! Share your kitchen designs, ask for help, and discuss strategies with other players. Check out the links in our footer to connect."
+      }
+    },
+    "faq": {
+      "title": "🤔 Frequently Asked Questions (FAQ)",
+      "q1": {
+        "question": "Is Cookingdom free to play?",
+        "answer": "Yes, Cookingdom is free to download and play on both iOS and Android devices. It may offer optional in-app purchases for cosmetic items or minor boosts, but the core gameplay is accessible without spending money."
+      },
+      "q2": {
+        "question": "Are the guides on this site official?",
+        "answer": "No, this is an unofficial fansite created by enthusiasts. The guides and information are based on player experience and community knowledge. While we strive for accuracy, always refer to official game resources if needed."
+      },
+      "q3": {
+        "question": "How often are the guides updated?",
+        "answer": "We aim to keep the guides updated with major game changes or new level releases. However, as a fan project, updates depend on volunteer time and community contributions. Check back regularly!"
+      },
+      "q4": {
+        "question": "Can I contribute to the guides?",
+        "answer": "We love community contributions! If you have tips, corrections, or video walkthroughs, please reach out through our contact page or social media links (Discord/Reddit in the footer). We'll review and credit contributions."
+      }
+    },
+    "tips": {
+      "title": "Cookingdom Cooking Tips and Tricks",
+      "description": "Master these tips to make your kitchen career more efficient and easily earn three-star ratings!",
+      "tip1_title": "Upgrade Kitchenware:",
+      "tip1_text": "Faster stoves and larger pots can significantly reduce cooking time.",
+      "tip2_title": "Prep Ahead:",
+      "tip2_text": "While waiting for one dish to finish, you can prepare ingredients for the next one.",
+      "tip3_title": "Focus on Customer Satisfaction:",
+      "tip3_text": "Completing orders quickly and accurately earns more tips and good reviews.",
+      "tip4_title": "Plan Kitchen Layout:",
+      "tip4_text": "Place frequently used equipment in convenient locations.",
+      "tip5_title": "Participate in Special Events:",
+      "tip5_text": "Events often offer generous rewards to help you level up faster.",
+      "viewMoreButton": "View More Tips"
+    }
+  },
+  "guideDetail": {
+    "backLink": "← Back to Guides",
+    "iframeTitle": "Embedded Content",
+    "featuredLevelsTitle": "Featured Levels",
+    "loadingOrNotFound": "Loading guide details or guide not found..."
+  },
+  "seo": {
+    "defaultTitle": "Cookingdom Guide",
+    "notFoundTitle": "Guide Not Found | Cookingdom"
+  },
+  "guides": {
+    "title": "📖Cookingdom Guides",
+    "tabs": {
+      "special": "Special Levels",
+      "levels1_10": "Levels 1-10",
+      "levels11_20": "Levels 11-20",
+      "levels21_30": "Levels 21-30",
+      "levels31_40": "Levels 31-40"
+    },
+    "noGuidesAvailable": "No guides available for this category yet."
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "level-11",
+    "title": "Cookingdom Level 11<br />Popcorn",
+    "pageTitle": "烹饪大师第11级 - 爆米花",
+    "pageSubtitle": "Cookingdom 第11级 爆米花 终极指南, 助你轻松过关!",
+    "category": "11-20",
+    "isSpecial": false,
+    "imageUrl": "https://placehold.co/200x150/fff0f5/a08ee6?text=Lvl+11",
+    "detailsRoute": "/level-11",
+    "iframeUrl": "https://www.youtube.com/embed/5mFzPngHJF8",
+    "seo": {
+      "title": "Cookingdom Level 11 Guide - Popcorn",
+      "description": "Strategy guide for Cookingdom Level 11, featuring the Popcorn machine.",
+      "keywords": "cookingdom, level 11, popcorn, guide"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "https://placehold.co/300x200/e8f4f8/7aa0c7?text=Level+11+Sidebar",
+      "levelInfoHtml": "<h3>爆米花</h3><p><strong>困难:</strong> 简单的</p><p><strong>预计时间:</strong> 2分钟</p><p><strong>奖励:</strong> 3星</p>",
+      "featuredGuides": [
+        {
+          "id": "level-1",
+          "title": "1级<br/>第一块披萨",
+          "imageUrl": "https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+1",
+          "detailsRoute": "/level-1"
+        },
+        {
+          "id": "level-2",
+          "title": "2级<br/>简易沙拉",
+          "imageUrl": "https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+2",
+          "detailsRoute": "/level-2"
+        }
+      ]
+    },
+    "detailsHtml": "<h2>Level 11: Popcorn Challenge</h2><p>Keep the customers happy with fresh popcorn!</p>"
+  }
+]
