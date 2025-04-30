@@ -42,11 +42,16 @@ const scrollToSection = (sectionId) => {
 
 // Placeholder images for the slider
 const sliderImages = ref([
-  'https://placehold.co/300x300/a08ee6/ffffff?text=Card_1',
-  'https://placehold.co/300x300/ff85a2/ffffff?text=Card_2',
-  'https://placehold.co/300x300/ffdd57/8c6d3f?text=Card_3',
-  'https://placehold.co/300x300/b3e0ff/5b4b8a?text=Card_4',
-  'https://placehold.co/300x300/ffcc80/ffffff?text=Card_5',
+  '/images/banner1.webp',
+  '/images/banner2.webp',
+  '/images/banner3.webp',
+  '/images/banner4.webp',
+  '/images/banner5.webp',
+  '/images/banner6.webp',
+  '/images/banner7.webp',
+  '/images/banner8.webp',
+  '/images/banner9.png',
+  '/images/banner10.webp',
 ])
 
 // Swiper modules to use
@@ -284,9 +289,6 @@ const swiperModules = [Autoplay, EffectCoverflow]
               <strong>{{ $t('home.tips.tip5_title') }}</strong> {{ $t('home.tips.tip5_text') }}
             </li>
           </ul>
-          <div style="text-align: center; margin-top: 1.5rem">
-            <button class="btn btn-secondary">{{ $t('home.tips.viewMoreButton') }}</button>
-          </div>
         </div>
       </section>
 
@@ -334,7 +336,7 @@ main {
 /* Hero Section Styles */
 .hero-section {
   background-color: #fff0f5; /* Original light lavender blush */
-  padding: 4rem 0 3rem; /* Keep adjusted padding */
+  padding: 0 0 3rem; /* Keep adjusted padding */
   /* text-align removed as content is left-aligned */
 }
 
@@ -423,7 +425,7 @@ main {
 .hero-swiper-container.card-slider {
   flex: 0 0 auto;
   width: 550px;
-  height: 320px;
+  height: 420px;
   position: relative;
   /* overflow: visible; */ /* Coverflow might handle overflow differently, let's test without it first */
 }
@@ -439,8 +441,8 @@ main {
 .hero-swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 280px; /* Keep slide width */
-  height: 280px; /* Keep slide height */
+  width: 300px; /* Keep slide width */
+  height: 400px; /* Keep slide height */
   border-radius: 15px;
   overflow: hidden;
   /* Remove manual transform and opacity, coverflow effect handles it */
@@ -834,7 +836,6 @@ main {
 }
 .how-to-play-section h2 .icon {
   margin-right: 0.5rem;
-  vertical-align: middle;
 }
 
 .play-steps-list {

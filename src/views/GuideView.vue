@@ -16,13 +16,28 @@ const loadLevels = async (lang) => {
     let dataModule
     // 注意：实际项目中可能需要更健壮的路径处理
     if (lang === 'zh') {
-      dataModule = await import('@/datas/guides-zh.json')
+      dataModule = await import('@/datas/guides-zh.js')
+      // 使用正确的导出名称 guidesZh
+      allLevels.value = dataModule.guidesZh
     } else if (lang === 'ru') {
-      dataModule = await import('@/datas/guides-ru.json')
+      dataModule = await import('@/datas/guides-ru.js')
+      // 假设俄语文件导出 guidesRu (如果不是，需要相应修改)
+      // **需要确认 guides-ru.js 的导出名**
+      // 暂时假设是 guidesRu
+      allLevels.value = dataModule.guidesRu
     } else {
-      dataModule = await import('@/datas/guides.json') // 默认 en
+      dataModule = await import('@/datas/guides.js') // 默认 en
+      // 英文文件导出 guides
+      allLevels.value = dataModule.guides
     }
-    allLevels.value = dataModule.default || dataModule
+
+    // 添加检查，确保数据成功加载
+    if (!allLevels.value) {
+      console.error(
+        `Failed to access the correct export from data module for locale ${lang} in GuideView. Expected 'guides', 'guidesZh', or 'guidesRu'.`
+      )
+      allLevels.value = [] // 确保出错时清空
+    }
   } catch (error) {
     console.error(`Failed to load guides for locale ${lang}:`, error)
     allLevels.value = [] // 加载失败则清空
@@ -51,7 +66,7 @@ const filteredLevels = computed(() => {
     } else {
       // 假设 category 格式为 '1-10', '11-20' 等，与 tab key 'levels1_10' 对应
       const categoryMap = {
-        levels1_10: '1-10',
+        levels1_10: '01-10',
         levels11_20: '11-20',
         levels21_30: '21-30',
         levels31_40: '31-40',

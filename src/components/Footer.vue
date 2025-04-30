@@ -1,8 +1,25 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-// No script logic needed for the footer component itself yet
+import { useI18n } from 'vue-i18n'
+import { defaultLang } from '@/i18n' // Import defaultLang
+
+const { t, locale } = useI18n()
+
 // 获取当前年份用于版权信息
 const currentYear = new Date().getFullYear()
+
+// 辅助函数生成路由对象，处理语言前缀和额外参数
+function getLocalizedRoute(name, params = {}) {
+  // 接收 params，默认为空对象
+  const currentLocale = locale.value
+  if (currentLocale === defaultLang) {
+    // 合并 name 和 params
+    return { name: name, params: params }
+  } else {
+    // 合并 name-lang, lang 参数, 和其他 params
+    return { name: `${name}-lang`, params: { ...params, lang: currentLocale } }
+  }
+}
 </script>
 
 <template>
@@ -10,8 +27,8 @@ const currentYear = new Date().getFullYear()
     <div class="container">
       <div class="footer-content">
         <div class="footer-about">
-          <h3>{{ $t('footer.about.title') }}</h3>
-          <p>{{ $t('footer.about.description') }}</p>
+          <h3>{{ t('footer.about.title') }}</h3>
+          <p>{{ t('footer.about.description') }}</p>
           <div class="social-icons">
             <a href="#" aria-label="Discord">💬</a>
             <a href="#" aria-label="Reddit">👽</a>
@@ -20,61 +37,59 @@ const currentYear = new Date().getFullYear()
         </div>
         <div class="footer-links">
           <div class="link-column">
-            <h4>{{ $t('footer.links.quickNav.title') }}</h4>
+            <h4>{{ t('footer.links.quickNav.title') }}</h4>
             <ul>
               <li>
-                <RouterLink :to="{ name: 'home' }">{{ $t('nav.home') }}</RouterLink>
+                <RouterLink :to="getLocalizedRoute('home')">{{ t('nav.home') }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="{ name: 'guides' }">{{ $t('nav.guides') }}</RouterLink>
+                <RouterLink :to="getLocalizedRoute('guides')">{{ t('nav.guides') }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="{ name: 'blog' }">{{ $t('nav.blog') }}</RouterLink>
+                <RouterLink :to="getLocalizedRoute('blog')">{{ t('nav.blog') }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="{ name: 'download' }">{{ $t('nav.download') }}</RouterLink>
+                <RouterLink :to="getLocalizedRoute('download')">{{ t('nav.download') }}</RouterLink>
               </li>
             </ul>
           </div>
           <div class="link-column">
-            <h4>{{ $t('footer.links.popularLevels.title') }}</h4>
+            <h4>{{ t('footer.links.popularLevels.title') }}</h4>
             <ul>
               <li>
-                <RouterLink :to="{ name: 'guide-detail', params: { id: 'level-5' } }">
-                  {{ $t('footer.links.popularLevels.level5') }}
-                </RouterLink>
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-5' })">{{
+                  t('footer.links.popularLevels.level5')
+                }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="{ name: 'guide-detail', params: { id: 'level-7' } }">
-                  {{ $t('footer.links.popularLevels.level7') }}
-                </RouterLink>
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-7' })">{{
+                  t('footer.links.popularLevels.level7')
+                }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="{ name: 'guide-detail', params: { id: 'level-19' } }">
-                  {{ $t('footer.links.popularLevels.level19') }}
-                </RouterLink>
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-19' })">{{
+                  t('footer.links.popularLevels.level19')
+                }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="{ name: 'guide-detail', params: { id: 'level-26' } }">
-                  {{ $t('footer.links.popularLevels.level26') }}
-                </RouterLink>
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-26' })">{{
+                  t('footer.links.popularLevels.level26')
+                }}</RouterLink>
               </li>
             </ul>
           </div>
           <div class="link-column">
-            <h4>{{ $t('footer.links.help.title') }}</h4>
+            <h4>{{ t('footer.links.help.title') }}</h4>
             <ul>
               <li>
-                <a href="#">{{ $t('footer.links.help.about') }}</a>
+                <RouterLink :to="getLocalizedRoute('privacy-policy')">{{
+                  t('footer.privacy')
+                }}</RouterLink>
               </li>
               <li>
-                <a href="#">{{ $t('footer.links.help.faq') }}</a>
-              </li>
-              <li>
-                <a href="#">{{ $t('footer.links.help.contact') }}</a>
-              </li>
-              <li>
-                <a href="#">{{ $t('footer.links.help.privacy') }}</a>
+                <RouterLink :to="getLocalizedRoute('terms-of-service')">{{
+                  t('footer.terms')
+                }}</RouterLink>
               </li>
             </ul>
           </div>
@@ -82,12 +97,12 @@ const currentYear = new Date().getFullYear()
       </div>
       <div class="footer-bottom">
         <p>
-          <span v-html="$t('footer.bottom.copyright', { year: currentYear })"></span>
+          <span v-html="t('footer.bottom.copyright', { year: currentYear })"></span>
           <span class="separator"> | </span>
-          <span v-html="$t('footer.bottom.credits')"></span>
+          <span v-html="t('footer.bottom.credits')"></span>
         </p>
         <p style="font-size: 0.8em; color: #aaa; margin-top: 0.5rem">
-          {{ $t('footer.bottom.disclaimer') }}
+          {{ t('footer.bottom.disclaimer') }}
         </p>
       </div>
     </div>
@@ -216,35 +231,19 @@ const currentYear = new Date().getFullYear()
   font-size: 0.85rem;
   color: #b1a4cc; /* Muted purple */
   padding-top: 1.5rem; /* Use padding instead of margin */
-  /* margin: 0 auto; Removed, handled by container */
 }
 
 .footer-bottom p {
   margin-bottom: 0.3rem;
 }
 
-.footer-bottom .heart {
-  color: #ff85a2; /* Kawaii pink heart */
-  font-size: 1.1em;
-  display: inline-block; /* Allows transform */
-  animation: heartbeat 1.5s infinite ease-in-out;
+/* Styles for the separator within footer-bottom */
+.footer-bottom .separator {
+  color: #7c6f9f; /* Match previous styling if needed */
+  margin: 0 0.5em; /* Adjust spacing as needed */
 }
 
-/* Optional: Add heartbeat animation */
-@keyframes heartbeat {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Remove styles that relied on being inside HomeView if any */
-/* For example, global styles or overrides. But these seem self-contained. */
+/* Remove styles for the deleted legal-links paragraph */
 
 /* --- Media Queries --- */
 
@@ -321,10 +320,5 @@ const currentYear = new Date().getFullYear()
   .footer-bottom p {
     margin-bottom: 0.2rem;
   }
-}
-
-/* Style for the separator, optional */
-.separator {
-  margin: 0 0.5em;
 }
 </style> 

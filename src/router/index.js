@@ -5,7 +5,12 @@ import GuideView from '../views/GuideView.vue'
 import BlogView from '../views/BlogView.vue'
 import BlogDetailView from '../views/BlogDetailView.vue'
 import DownloadView from '../views/DownloadView.vue'
+import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
+import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import { i18n, supportedLangs, defaultLang } from '@/i18n'
+
+const nonDefaultLangs = supportedLangs.filter((lang) => lang !== defaultLang)
+const langParamRegex = nonDefaultLangs.join('|')
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,45 +42,68 @@ const router = createRouter({
       component: DownloadView,
     },
     {
-      path: '/:id(level-\\d+)',
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: PrivacyPolicyView,
+    },
+    {
+      path: '/terms-of-service',
+      name: 'terms-of-service',
+      component: TermsOfServiceView,
+    },
+    {
+      path: '/:id(Cookingdom-game-level-\\d+)',
       name: 'guide-detail',
       component: GuideDetail,
       props: true,
     },
     {
-      path: '/:lang(zh|ru)',
+      path: `/:lang(${langParamRegex})/`,
       name: 'home-lang',
       component: HomeView,
+      props: true,
     },
     {
-      path: '/:lang(zh|ru)/guides',
+      path: `/:lang(${langParamRegex})/guides`,
       name: 'guides-lang',
       component: GuideView,
-      props: (route) => ({ lang: route.params.lang }),
+      props: true,
     },
     {
-      path: '/:lang(zh|ru)/blog',
+      path: `/:lang(${langParamRegex})/blog`,
       name: 'blog-lang',
       component: BlogView,
-      props: (route) => ({ lang: route.params.lang }),
+      props: true,
     },
     {
-      path: '/:lang(zh|ru)/blog/:id',
+      path: `/:lang(${langParamRegex})/blog/:id`,
       name: 'blog-detail-lang',
       component: BlogDetailView,
-      props: (route) => ({ lang: route.params.lang, id: route.params.id }),
+      props: true,
     },
     {
-      path: '/:lang(zh|ru)/download',
+      path: `/:lang(${langParamRegex})/download`,
       name: 'download-lang',
       component: DownloadView,
-      props: (route) => ({ lang: route.params.lang }),
+      props: true,
     },
     {
-      path: '/:lang(zh|ru)/:id(level-\\d+)',
+      path: `/:lang(${langParamRegex})/privacy-policy`,
+      name: 'privacy-policy-lang',
+      component: PrivacyPolicyView,
+      props: true,
+    },
+    {
+      path: `/:lang(${langParamRegex})/terms-of-service`,
+      name: 'terms-of-service-lang',
+      component: TermsOfServiceView,
+      props: true,
+    },
+    {
+      path: `/:lang(${langParamRegex})/:id(Cookingdom-game-level-\\d+)`,
       name: 'guide-detail-lang',
       component: GuideDetail,
-      props: (route) => ({ lang: route.params.lang, id: route.params.id }),
+      props: true,
     },
   ],
 })
@@ -105,8 +133,12 @@ router.beforeEach((to, from, next) => {
 
   if (targetLang === defaultLang && pathFirstPart === defaultLang) {
     const toPathWithoutLang = to.path.substring(('/' + defaultLang).length) || '/'
-    console.log(`Redirecting (remove default prefix) from ${to.path} to ${toPathWithoutLang}`)
-    return next(toPathWithoutLang)
+    if (to.fullPath !== toPathWithoutLang) {
+      console.log(
+        `Redirecting (remove default lang prefix) from ${to.fullPath} to ${toPathWithoutLang}`,
+      )
+      return next(toPathWithoutLang)
+    }
   }
 
   next()

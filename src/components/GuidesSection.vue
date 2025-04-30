@@ -9,7 +9,7 @@
         <button :class="{ active: activeTab === 'special' }" @click="setActiveTab('special')">
           {{ $t('guides.tabs.special') }}
         </button>
-        <button :class="{ active: activeTab === '1-10' }" @click="setActiveTab('1-10')">
+        <button :class="{ active: activeTab === '01-10' }" @click="setActiveTab('01-10')">
           {{ $t('guides.tabs.levels1_10') }}
         </button>
         <button :class="{ active: activeTab === '11-20' }" @click="setActiveTab('11-20')">

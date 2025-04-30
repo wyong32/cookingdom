@@ -29,55 +29,55 @@
         "level26": "Level 26 King Crab"
       },
       "help": {
-        "title": "Help & Support",
-        "about": "About Us",
-        "faq": "FAQ",
-        "contact": "Contact",
-        "privacy": "Privacy Policy"
+        "title": "Help & Info",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
       }
     },
     "bottom": {
-      "copyright": "&copy; {year} Cookingdom Fansite (Unofficial)",
+      "copyright": "© {year} Cookingdom. All rights reserved.",
       "credits": "Made with ♡ by Fans | Cookingdom game copyright belongs to its developers.",
       "disclaimer": "Disclaimer: This website (CookingdomFans.com - example) is an unofficial fansite created by enthusiasts and is not affiliated with the official Cookingdom game or its publishers. For informational and entertainment purposes only."
-    }
+    },
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   },
   "home": {
     "hero": {
-      "title": "Cookingdom Full Level Guide",
-      "description": "Your companion through all 31 levels of this charming cooking adventure ✨ Complete guides, simple cheats, and video walkthroughs.",
+      "title": "Cookingdom Game: Complete Walkthrough Guides",
+      "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom all Level Walkthrough Guides, simple cheats, and video walkthroughs.",
       "button": {
-        "viewGuides": "View Level Guides",
-        "gameFeatures": "Game Features",
-        "downloadGame": "Download Game"
+        "viewGuides": "View Cookingdom Walkthrough Guides",
+        "gameFeatures": "Explore Game Features",
+        "downloadGame": "Download the Game"
       }
     },
     "features": {
-      "title": "Cookingdom Game Features",
-      "description": "Explore the delightful features that make Cookingdom a unique and relaxing cooking simulation experience",
+      "title": "Features of the Cookingdom Game",
+      "description": "Explore the delightful features that make Cookingdom a uniquely relaxing cooking simulation game",
       "card1": {
         "title": "Relaxing Cooking Sim",
-        "description": "Enjoy the pure joy of making food without time limits or pressure."
+        "description": "Enjoy the pure joy of making food without time limits or pressure in the Cookingdom game."
       },
       "card2": {
         "title": "Fun Mini-Games",
-        "description": "Complete cooking steps like chopping and stirring through step-by-step mini-games."
+        "description": "Complete cooking steps like chopping and stirring through step-by-step mini-games within the Cookingdom game."
       },
       "card3": {
         "title": "Kitchen Customization",
-        "description": "Decorate and upgrade your unique kitchen space to your liking."
+        "description": "Decorate and upgrade your unique kitchen space to your liking as you progress in the Cookingdom game."
       },
       "card4": {
         "title": "Relaxing & Friendly Vibe",
-        "description": "Cute visuals and soothing music create a cozy gaming atmosphere."
+        "description": "Cute visuals and soothing music create a cozy gaming atmosphere throughout the Cookingdom game."
       },
       "card5": {
         "title": "Cross-Platform Play",
-        "description": "Available for free download on both iOS and Android devices."
+        "description": "Available for free download on both iOS and Android devices, enjoy the Cookingdom game anywhere."
       }
     },
     "downloads": {
-      "title": "Download Cookingdom Game",
+      "title": "Download the Cookingdom Game",
       "description": "Get Cookingdom for free on your iOS or Android device!",
       "ios": {
         "title": "iOS Version",
@@ -99,54 +99,55 @@
       }
     },
     "about": {
-      "title": "About Cookingdom Game",
-      "description1": "Cookingdom is a super fun, relaxing casual cooking simulation game that lets you experience the joy of cooking in a friendly and relaxed atmosphere. It combines simple, intuitive controls with progressively deeper cooking challenges, suitable for players of all ages.",
-      "description2": "The core of the game lies in completing the entire process from preparation to cooking to plating through a series of interactive mini-games. Whether it's chopping vegetables, stirring, controlling heat, or plating decoratively, each step is designed to be easy to pick up and full of fun.",
-      "description3": "As you progress through the levels, you'll unlock new recipes, kitchen utensils, and kitchen decorations. You can freely customize your kitchen to create your personalized cooking space. The game has no strict time limits, encouraging you to enjoy the cooking process at your own pace."
+      "title": "⭐ About the Cookingdom Game",
+      "description1": "The Cookingdom game is a super fun, relaxing casual cooking simulation that lets you experience the joy of cooking in a friendly, stress-free environment. It combines simple, intuitive controls with progressively challenging cooking tasks, making the Cookingdom game suitable for players of all ages.",
+      "description2": "The core gameplay of the Cookingdom game involves completing the entire process from food prep to cooking and plating through a series of interactive mini-games. Whether it's chopping vegetables, stirring, controlling heat, or decorative plating, each step in the Cookingdom game is designed to be easy to learn and full of fun.",
+      "description3": "As you advance through the levels in the Cookingdom game, you'll unlock new recipes, kitchen utensils, and decorations. You can freely customize your kitchen to create your personalized cooking space. The game features no strict time limits, encouraging you to enjoy the relaxing cooking process offered by the Cookingdom game at your own pace."
     },
     "stats": {
-      "title": "Game Stats",
+      "title": "Cookingdom Game Stats",
       "downloads": "Downloads",
       "countries": "Countries",
       "recipes": "Unique Recipes",
       "rating": "User Rating"
     },
     "howToPlay": {
-      "title": "How to Play Cookingdom",
+      "title": "How to Play the Cookingdom Game",
       "step1": {
-        "title": "What is Cookingdom",
-        "description": "Cookingdom is a relaxing and cozy cooking simulation game that takes you on an unprecedented culinary adventure. By following these tips in Cookingdom, you can quickly become an expert, impressing your friends with your virtual cooking skills. Remember, the goal of Cookingdom is to enjoy the cooking process, so have fun and let your creativity flow!"
+        "title": "What is the Cookingdom Game?",
+        "description": "The Cookingdom game is a relaxing and cozy cooking simulator that takes you on an unparalleled culinary adventure. By following these tips within the Cookingdom game, you'll quickly become an expert, impressing friends with your virtual culinary skills. Remember, the goal of the Cookingdom game is to enjoy the process, so have fun and let your creativity shine!"
       },
       "step2": {
-        "title": "Tutorials and Guidance",
-        "description": "When you first start Cookingdom, the game provides easy-to-understand tutorials explaining how to perform each cooking task. These tutorials are designed to help you get familiar with the game's controls and mechanics. Whether you're a beginner or just need a refresher, pay attention to these initial guides."
+        "title": "Learning the Ropes",
+        "description": "When you first start the Cookingdom game, it provides easy-to-follow tutorials explaining how to perform each cooking task. These guides are designed to help you get familiar with the controls and game mechanics of the Cookingdom game. Pay attention to these initial guides."
       },
       "step3": {
         "title": "Completing Levels",
-        "description": "Each level in Cookingdom presents a specific dish you need to prepare. Follow the on-screen instructions, complete the mini-games for each step (chopping, stirring, baking, etc.), and aim for the best score. Success is usually measured by accuracy and sometimes speed in the mini-games."
+        "description": "Each level in the Cookingdom game presents a specific dish you need to prepare. Follow the on-screen instructions, complete the mini-games for each step (chopping, mixing, baking, etc.), and aim for the best score. Success in the Cookingdom game is usually measured by accuracy and sometimes speed in the mini-games."
       },
       "step4": {
-        "title": "Using Guides",
-        "description": "If you find yourself stuck on a particular level or just want to optimize your cooking process, use the guides provided on this site! We offer step-by-step walkthroughs, tips for tricky mini-games, and video examples to help you master every recipe."
+        "title": "Using Cookingdom Walkthrough Guides",
+        "description": "If you get stuck on a certain level or just want to optimize your cooking in the Cookingdom game, make use of the Cookingdom Walkthrough Guides provided on this site! We offer step-by-step instructions, tips for tricky mini-games, and video examples to help you master every recipe and achieve top scores with our Cookingdom all Level Walkthrough Guides.",
+        "prompt": "Check our comprehensive Cookingdom Walkthrough Guides for detailed help!"
       },
       "step5": {
-        "title": "Community Interaction",
-        "description": "Join the Cookingdom community online! Share your kitchen designs, ask for help, and discuss strategies with other players. Check out the links in our footer to connect."
+        "title": "Engaging with the Community",
+        "description": "Join the Cookingdom game community online! Share your kitchen designs, ask for help, and discuss strategies with fellow players of the Cookingdom game. Follow the links in our footer to join."
       }
     },
     "faq": {
-      "title": "🤔 Frequently Asked Questions (FAQ)",
+      "title": "🤔 Cookingdom Game FAQ",
       "q1": {
-        "question": "Is Cookingdom free to play?",
-        "answer": "Yes, Cookingdom is free to download and play on both iOS and Android devices. It may offer optional in-app purchases for cosmetic items or minor boosts, but the core gameplay is accessible without spending money."
+        "question": "Is the Cookingdom game free to play?",
+        "answer": "Yes, the Cookingdom game is free to download and play on both iOS and Android devices. It may offer optional in-app purchases for cosmetic items or minor boosts, but the core gameplay is accessible without spending money."
       },
       "q2": {
         "question": "Are the guides on this site official?",
-        "answer": "No, this is an unofficial fansite created by enthusiasts. The guides and information are based on player experience and community knowledge. While we strive for accuracy, always refer to official game resources if needed."
+        "answer": "No, this is an unofficial fansite created by enthusiasts for the Cookingdom game. The guides and information are based on player experience and community knowledge. While we strive for accuracy, always refer to official Cookingdom game resources if needed."
       },
       "q3": {
         "question": "How often are the guides updated?",
-        "answer": "We aim to keep the guides updated with major game changes or new level releases. However, as a fan project, updates depend on volunteer time and community contributions. Check back regularly!"
+        "answer": "We aim to keep the guides updated with major Cookingdom game changes or new level releases. However, as a fan project, updates depend on volunteer time and community contributions. Check back regularly!"
       },
       "q4": {
         "question": "Can I contribute to the guides?",
@@ -154,19 +155,18 @@
       }
     },
     "tips": {
-      "title": "Cookingdom Cooking Tips and Tricks",
-      "description": "Master these tips to make your kitchen career more efficient and easily earn three-star ratings!",
+      "title": "💡 Cookingdom Game Tips & Tricks",
+      "description": "Master these Cookingdom game tips to make your kitchen career more efficient and achieve three-star ratings with ease! Applying these strategies will enhance your experience in the Cookingdom game. Consider checking our Cookingdom Walkthrough Guides for level-specific strategies.",
       "tip1_title": "Upgrade Kitchenware:",
-      "tip1_text": "Faster stoves and larger pots can significantly reduce cooking time.",
+      "tip1_text": "Faster stoves and larger pots can significantly reduce cooking time in the Cookingdom game.",
       "tip2_title": "Prep Ahead:",
       "tip2_text": "While waiting for one dish to finish, you can prepare ingredients for the next one.",
       "tip3_title": "Focus on Customer Satisfaction:",
-      "tip3_text": "Completing orders quickly and accurately earns more tips and good reviews.",
+      "tip3_text": "Completing orders quickly and accurately earns more tips and good reviews in the Cookingdom game.",
       "tip4_title": "Plan Kitchen Layout:",
-      "tip4_text": "Place frequently used equipment in convenient locations.",
+      "tip4_text": "Place frequently used equipment in convenient locations for efficient workflow in the Cookingdom game.",
       "tip5_title": "Participate in Special Events:",
-      "tip5_text": "Events often offer generous rewards to help you level up faster.",
-      "viewMoreButton": "View More Tips"
+      "tip5_text": "Events often offer generous rewards to help you level up faster."
     }
   },
   "guideDetail": {
@@ -180,7 +180,7 @@
     "notFoundTitle": "Guide Not Found | Cookingdom"
   },
   "guides": {
-    "title": "📖Cookingdom Guides",
+    "title": "📖 Cookingdom Walkthrough Guides",
     "tabs": {
       "special": "Special Levels",
       "levels1_10": "Levels 1-10",
@@ -189,5 +189,117 @@
       "levels31_40": "Levels 31-40"
     },
     "noGuidesAvailable": "No guides available for this category yet."
+  },
+  "page": {
+    "privacy": {
+      "title": "Cookingdom Guide Fansite Privacy Policy",
+      "contentPlaceholder": "",
+      "lastUpdated": "Last Updated: April 30, 2025",
+      "intro": "Thank you for visiting the Cookingdom Guide Fansite (hereinafter \"the Site\"). We value your privacy highly and are committed to protecting your personal information. Please read the following privacy policy carefully to understand how we collect, use, store, and protect your personal data.",
+      "section1": {
+        "title": "1. Personal Information We Collect",
+        "p1": "When you visit the Site, we may collect the following types of personal information: Automatically collected technical information: Such as your IP address, browser type, device type, operating system version, access times, etc. This information is collected automatically through Cookies and similar technologies to improve our services and user experience.",
+        "p2": "Information voluntarily provided by users: When you register an account, subscribe to newsletters, participate in discussions, or provide feedback on the Site, we may collect information such as your email address, username, message content, etc."
+      },
+      "section2": {
+        "title": "2. Use of Information",
+        "intro": "The information we collect is primarily used for the following purposes:",
+        "b1": "Providing services and support: To provide you with game guides, news updates, technical support, and other services based on your requests.",
+        "b2": "Personalizing experience: To provide customized content and recommendations based on your interests and preferences.",
+        "b3": "Improving website functionality: To analyze user behavior, improve website design and features, and enhance user experience.",
+        "b4": "Marketing and communication: To send you game-related updates, offers, promotions, and other information via email or other channels (if you consent to receive them)."
+      },
+      "section3": {
+        "title": "3. How We Protect Your Information",
+        "p1": "We implement appropriate technical and administrative measures to protect your personal information from unauthorized access, disclosure, or alteration. These measures include data encryption, access control, and regular security reviews."
+      },
+      "section4": {
+        "title": "4. Information Sharing",
+        "intro": "We do not sell or rent your personal information to third parties. We only share your information in the following circumstances:",
+        "b1": "Service Providers: We may share your information with third parties who provide technical support, website hosting, and other services. These service providers are limited to providing services for us and are required to adhere to confidentiality obligations.",
+        "b2": "Legal Requirements: We may disclose your information if required by law or legal process."
+      },
+      "section5": {
+        "title": "5. Use of Cookies",
+        "p1": "We use Cookies and similar technologies to collect and store your preferences, browsing habits, and other information. You can disable Cookies through your browser settings, but please note that this may affect your ability to use some features of the Site."
+      },
+      "section6": {
+        "title": "6. Third-Party Links",
+        "p1": "The Site may contain links to other websites. We are not responsible for the privacy practices of these third-party websites. We recommend that you review their privacy policies when visiting other sites."
+      },
+      "section7": {
+        "title": "7. Children's Privacy",
+        "p1": "Our services are not directed to children under the age of 13. If we discover that we have inadvertently collected personal information from a child under 13, we will promptly take steps to delete the relevant information."
+      },
+      "section8": {
+        "title": "8. Your Rights",
+        "p1": "In accordance with relevant laws and regulations, you have the right to request access to, correct, or delete the personal information we have collected about you. If you have any questions or requests regarding the processing of your personal information, please contact us using the contact information below."
+      },
+      "section9": {
+        "title": "9. Contact Us",
+        "p1": "If you have any questions about this Privacy Policy or need more information, please contact us via the following method:",
+        "email": "Email: maieldilmie223321@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Cookingdom Guide Fansite Terms of Service",
+      "contentPlaceholder": "",
+      "lastUpdated": "Last Updated: April 30, 2025",
+      "intro": "Welcome to the Cookingdom Guide Fansite (hereinafter \"the Site\"). Before accessing or using the services provided by the Site, please read the following terms of service carefully. Accessing or using the Site signifies your agreement to comply with these terms. If you do not agree to these terms, please do not use the Site.",
+      "section1": {
+        "title": "1. Service Content",
+        "p1": "The Site provides guides, tips, update information, community discussions, user reviews, and related content for the \"Cookingdom\" game. We are dedicated to providing players with high-quality game resources and support to help enhance their gaming experience."
+      },
+      "section2": {
+        "title": "2. User Account",
+        "p1": "To fully utilize certain features of the Site, you may need to create an account. When registering, you agree to provide accurate and complete personal information and to update this information promptly to maintain its accuracy. You are responsible for the security of your account and password and agree not to share your account information with any third party."
+      },
+      "section3": {
+        "title": "3. User Conduct",
+        "intro": "When using the Site, you agree to:",
+        "b1": "Not post content that violates laws, regulations, or is unethical (including but not limited to malware, advertisements, spam, harassing messages, content infringing on others' copyright or privacy rights).",
+        "b2": "Respect the rights of other users and not interfere with the normal operation of the Site.",
+        "b3": "Not obtain content, data, or systems of the Site through any illegal means.",
+        "p1": "If you violate these conduct guidelines, the Site reserves the right to suspend or terminate your account and take necessary legal action."
+      },
+      "section4": {
+        "title": "4. Content Use",
+        "p1": "All content provided on the Site (including text, images, videos, audio, etc.) is the property of the Site or its licensors and is protected by copyright law. Without authorization from the Site, you may not copy, distribute, modify, display, or sell the Site's content in any form.",
+        "p2": "Users may access and use the Site's content for non-commercial purposes in compliance with these Terms of Service, but any commercial use of the content requires prior explicit permission from the Site."
+      },
+      "section5": {
+        "title": "5. Intellectual Property",
+        "p1": "All logos, trademarks, service marks, etc., related to the Site are the intellectual property of the Site or its licensors. Without authorization from the Site, you may not use or copy this intellectual property in any form."
+      },
+      "section6": {
+        "title": "6. Service Interruption and Termination",
+        "p1": "The Site may temporarily interrupt service for maintenance, updates, or other reasons. We will make reasonable efforts to notify users in advance but assume no liability for any consequences arising from service interruptions. The Site reserves the right to modify, suspend, or terminate part or all of its services at any time without prior notice."
+      },
+      "section7": {
+        "title": "7. Third-Party Websites",
+        "p1": "The Site may contain links to other websites operated by third parties. We have no control over the content or privacy policies of these websites and therefore assume no responsibility for their content and privacy practices. We recommend that you carefully read their terms of service and privacy policies when visiting these sites."
+      },
+      "section8": {
+        "title": "8. Disclaimer",
+        "p1": "The Site makes its best effort to ensure the accuracy and completeness of the content provided but makes no express or implied warranties regarding the accuracy, reliability, or completeness of any content. We assume no liability for any direct or indirect losses resulting from the use of the Site's content."
+      },
+      "section9": {
+        "title": "9. User Data and Privacy",
+        "p1": "The collection, use, and protection of your personal data are detailed in our Privacy Policy. Please carefully read our Privacy Policy and agree to its terms before using the Site's services."
+      },
+      "section10": {
+        "title": "10. Governing Law and Dispute Resolution",
+        "p1": "These Terms of Service are governed by the laws of the People's Republic of China. Any disputes arising from or related to these terms shall be submitted to the court with jurisdiction in the location of the Site for adjudication."
+      },
+      "section11": {
+        "title": "11. Modification of Terms",
+        "p1": "The Site reserves the right to modify or update these Terms of Service at any time. The modified terms become effective once published. Your continued use of the Site's services signifies your acceptance of the modified terms. We recommend that you periodically review this page to stay informed about the latest terms of service."
+      },
+      "section12": {
+        "title": "12. Contact Us",
+        "p1": "If you have any questions about these Terms of Service or need more information, please contact us via the following method:",
+        "email": "Email: maieldilmie223321@gmail.com"
+      }
+    }
   }
 }

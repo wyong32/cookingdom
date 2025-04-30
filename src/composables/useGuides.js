@@ -17,16 +17,33 @@ export function useGuides() {
       let dataModule
       if (lang === 'zh') {
         // 动态导入中文指南数据
-        dataModule = await import('@/datas/guides-zh.json')
+        dataModule = await import('@/datas/guides-zh.js')
+        // 使用正确的导出名称 guidesZh
+        guides.value = dataModule.guidesZh
       } else if (lang === 'ru') {
-        dataModule = await import('@/datas/guides-ru.json')
+        dataModule = await import('@/datas/guides-ru.js')
+        // 假设俄语文件导出 guidesRu (如果不是，需要相应修改)
+        // **需要确认 guides-ru.js 的导出名**
+        // 暂时假设是 guidesRu
+        guides.value = dataModule.guidesRu
       } else {
         // 默认动态导入英文指南数据
-        dataModule = await import('@/datas/guides.json')
+        dataModule = await import('@/datas/guides.js')
+        // 英文文件导出 guides
+        guides.value = dataModule.guides
       }
-      // JSON 模块通常有一个默认导出，包含数组内容
-      guides.value = dataModule.default || dataModule
-      console.log(`Successfully loaded ${guides.value.length} guides for locale: ${lang}`)
+      // JS 模块导出了名为 guides 的常量  <-- 这行注释现在不完全准确了，但可以保留或删除
+      // guides.value = dataModule.guides <-- 删除这行旧代码
+      // console.log(`Successfully loaded ${guides.value.length} guides for locale: ${lang}`) <-- 这行日志在 guides.value 为 undefined 时会报错，移到后面
+      if (guides.value) {
+        console.log(`Successfully loaded ${guides.value.length} guides for locale: ${lang}`)
+      } else {
+        console.error(
+          `Failed to access the correct export from data module for locale ${lang}. Expected 'guides', 'guidesZh', or 'guidesRu'.`,
+        )
+        error.value = new Error(`Could not find expected export in data file for locale ${lang}`)
+        guides.value = [] // 确保出错时清空
+      }
     } catch (err) {
       console.error(`Failed to load guides for locale ${lang}:`, err)
       error.value = err

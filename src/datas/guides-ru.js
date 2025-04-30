@@ -1,0 +1,4341 @@
+export const guidesRu = [
+  {
+    id: 'cookingdom-game-level-1',
+    title: 'Cookingdom Уровень 1<br />Первая пицца',
+    pageTitle: 'Cookingdom Уровень 1 - Руководство по первой пицце',
+    pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: 'https://placehold.co/200x150/e8f4f8/7aa0c7?text=Lvl+1',
+    detailsRoute: '/cookingdom-game-level-1',
+    iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
+    seo: {
+      title: 'Cookingdom Уровень 1 Руководство - Первая пицца',
+      description:
+        'Узнайте, как приготовить, испечь и подать свою первую пиццу в Cookingdom Уровень 1. Поймите основы кулинарии и обслуживания клиентов.',
+      keywords: 'cookingdom, уровень 1, первая пицца, руководство, основы, обучение',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/e8f4f8/7aa0c7?text=Level+1+Sidebar',
+      levelInfoHtml:
+        '<h3>Первая пицца</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1 минута</p><p><strong>Награда:</strong> 3 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-2',
+          title: 'Уровень 2<br/>Простой салат',
+          imageUrl: 'https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+2',
+          detailsRoute: '/cookingdom-game-level-2',
+        },
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Уровень 11<br/>Попкорн',
+          imageUrl: 'https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+11',
+          detailsRoute: '/cookingdom-game-level-11',
+        },
+      ],
+    },
+    detailsHtml: `<h2>Введение в игру</h2>
+<p>На первом уровне Cookingdom игроки учатся готовить и подавать пиццу, одно из самых простых блюд в игре. Этот уровень сосредоточен на ознакомлении игроков с процессом приготовления, подготовкой ингредиентов и основным ритмом работы ресторана.</p>
+<h2>Цель Уровня 1</h2>
+<p>Вам нужно будет приготовить и подать первую пиццу клиенту. Приготовление пиццы включает несколько этапов: подготовка ингредиентов, выпечка и подача. Цель — быстро и точно удовлетворить потребности клиента для завершения задания.</p>
+<h2>Процесс приготовления пиццы</h2>
+<h3>Подготовьте ингредиенты для пиццы:</h3>
+<p>Сначала соберите основные ингредиенты: основа для пиццы, томатный соус, сыр и другие начинки (например, колбаса, грибы).</p>
+<ul>
+  <li><strong>Основа для пиццы:</strong> Возьмите основу из зоны ингредиентов.</li>
+  <li><strong>Томатный соус:</strong> Равномерно распределите соус по основе.</li>
+  <li><strong>Сыр:</strong> Посыпьте сыром, обеспечивая равномерное покрытие.</li>
+</ul>
+<h3>Добавьте начинки:</h3>
+<p>На Уровне 1 начинки простые. Используйте базовые, такие как колбаса или грибы.</p>
+<ul>
+  <li>Перетащите начинки на пиццу, обеспечивая равномерное распределение. Это улучшает вкус и удовлетворенность клиента.</li>
+</ul>
+<h3>Выпекайте пиццу:</h3>
+<p>Поместите подготовленную пиццу в духовку.</p>
+<p><strong>Примечание:</strong> Время выпечки критично. Слишком долгое выпекание сожжет пиццу; слишком короткое оставит ее сырой.</p>
+<p>Внимательно следите за процессом выпечки пиццы, чтобы обеспечить идеальный цвет и текстуру.</p>
+<h3>Проверьте готовность пиццы:</h3>
+<p>Наблюдайте за внешним видом пиццы. Когда она станет золотисто-коричневой и начнет пахнуть ароматно, она готова.</p>
+<p>Перепеченная пицца становится обугленной и невкусной, что может разочаровать клиентов.</p>
+<h3>Подайте пиццу:</h3>
+<p>Достаньте испеченную пиццу из духовки и немедленно подайте ее на стол клиенту.</p>
+<p>Время важно: Долгое ожидание снижает удовлетворенность клиента, влияя на ваш счет и награды.</p>
+<h2>Советы и хитрости</h2>
+<ul>
+  <li><strong>Управление временем:</strong> Научитесь управлять временем, особенно при готовке и подготовке. Требуется точный контроль духовки.</li>
+  <li><strong>Заранее готовьте ингредиенты:</strong> Пока пицца выпекается, готовьте другие ингредиенты или убирайте кухню. Готовьте заранее для более быстрой подачи.</li>
+  <li><strong>Работа с духовкой:</strong> Ознакомьтесь с духовкой. У каждой еды свое время выпечки; освойте их.</li>
+  <li><strong>Терпение клиента:</strong> Долгое ожидание снижает терпение и счет. Ускорьте обслуживание.</li>
+  <li><strong>Практикуйте многозадачность:</strong> Во время выпечки готовьте другие блюда или убирайте, чтобы повысить эффективность. На поздних уровнях больше клиентов и блюд, так что практика поможет.</li>
+</ul>
+<h2>Резюме</h2>
+<p>Приготовление первой пиццы — это вводное задание в Cookingdom. Оно знакомит вас с основами готовки и подачи, управлением ингредиентами, контролем времени приготовления и потребностями клиентов. Цель — понять основы управления временем и навыков подготовки для более сложных уровней впереди.</p>
+<p>Завершение Уровня 1 дает монеты и награды, открывая больше кухонного оборудования и рецептов для более богатого игрового опыта.</p>`,
+  },
+  {
+    id: 'cookingdom-game-level-2',
+    title: 'Cookingdom Уровень 2<br />Простой салат',
+    pageTitle: 'Cookingdom Уровень 2 - Руководство по простому салату',
+    pageSubtitle: 'Научитесь готовить быстрые и легкие салаты в Cookingdom Уровень 2.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: 'https://placehold.co/200x150/f0fff0/8ea0a0?text=Lvl+2',
+    detailsRoute: '/cookingdom-game-level-2',
+    iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
+    seo: {
+      title: 'Cookingdom Уровень 2 Руководство - Простой салат',
+      description:
+        'Освойте рецепт простого салата в Cookingdom Уровень 2. Узнайте об ингредиентах, заправке и быстром обслуживании клиентов.',
+      keywords:
+        'cookingdom, уровень 2, простой салат, руководство, рецепт салата, управление временем',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/f0fff0/8ea0a0?text=Level+2+Sidebar',
+      levelInfoHtml:
+        '<h3>Простой салат</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-1',
+          title: 'Уровень 1<br/>Первая пицца',
+          imageUrl: 'https://placehold.co/60x60/e8f4f8/7aa0c7?text=Lvl+1',
+          detailsRoute: '/cookingdom-game-level-1',
+        },
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Уровень 11<br/>Попкорн',
+          imageUrl: 'https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+11',
+          detailsRoute: '/cookingdom-game-level-11',
+        },
+      ],
+    },
+    detailsHtml: `<h2>Введение в игру</h2>
+<p>На втором уровне Cookingdom игроки учатся готовить более простое блюдо – салат. По сравнению с пиццей, приготовление салата проще, но это требует от игроков более эффективного управления кухней и запросами клиентов, особенно по мере увеличения числа клиентов, что делает управление временем критически важным.</p>
+<h2>Цель Уровня 2</h2>
+<ul>
+  <li><strong>Приготовить простой салат:</strong> Салат – это базовое блюдо, обычно состоящее из основных овощей, заправки и некоторых добавок. Игроки учатся быстро готовить салаты и вовремя доставлять их.</li>
+  <li><strong>Освоить ингредиенты для салата:</strong> Салат не требует духовки или сложной готовки, но нуждается в различных овощах и заправках. Понимание и использование этих ингредиентов – ключ к успеху.</li>
+  <li><strong>Обрабатывать запросы клиентов:</strong> Салаты готовятся быстрее пиццы, и запросы клиентов меняются быстрее. Игрокам нужно быстро готовить ингредиенты и подавать блюда.</li>
+</ul>
+<h2>Этапы приготовления салата</h2>
+<h3>Подготовьте ингредиенты:</h3>
+<p>Основные ингредиенты обычно включают салат-латук, огурец, помидоры, морковь и т.д. У каждого клиента могут быть разные предпочтения (например, больше латука, меньше огурца).</p>
+<ul>
+  <li>Выберите соответствующие овощи из зоны ингредиентов для салата в соответствии с заказами клиентов и положите их в салатницу.</li>
+</ul>
+<h3>Добавьте заправку:</h3>
+<p>Заправки, такие как «Тысяча островов» или винегрет, являются ключевыми. Выберите правильную в зависимости от предпочтений клиента.</p>
+<ul>
+  <li><strong>Совет:</strong> Выбор неправильной заправки не удовлетворяет клиентов и снижает оценку.</li>
+</ul>
+<h3>Смешайте салат:</h3>
+<p>Равномерно смешайте ингредиенты и заправку. Хотя это просто, правильное смешивание улучшает вкус и удовлетворенность.</p>
+<h3>Подайте клиенту:</h3>
+<p>Доставьте готовый салат на стол клиента быстро, в пределах времени ожидания, чтобы избежать снижения удовлетворенности.</p>
+<ul>
+  <li><strong>Примечание:</strong> Салаты готовятся быстрее пиццы, что сокращает время ожидания клиента и дает вам больше времени на другие заказы.</li>
+</ul>
+<h2>Советы и хитрости</h2>
+<ul>
+  <li><strong>Заранее готовьте ингредиенты:</strong> Несмотря на быстрое время приготовления, подготовка овощей и заправок заранее помогает повысить эффективность, особенно при частых изменениях спроса. Готовьте следующий салат, пока смешивается текущий.</li>
+  <li><strong>Подавайте быстро:</strong> Минимизируйте время ожидания. Быстрое приготовление и доставка повышают удовлетворенность и оценки.</li>
+  <li><strong>Освойте предпочтения клиентов:</strong> Обращайте внимание на конкретные запросы по ингредиентам или заправкам. Быстро определяйте и выполняйте предпочтения.</li>
+  <li><strong>Используйте ускорители:</strong> Используйте внутриигровые предметы для ускорения подготовки ингредиентов или готовки, что особенно полезно при одновременном обслуживании нескольких клиентов.</li>
+  <li><strong>Улучшайте оборудование:</strong> Используйте монеты для улучшения кухонного оборудования. Хотя салаты не нуждаются в сложных устройствах, таких как духовки, повышение эффективности рабочего стола помогает обрабатывать больше заказов.</li>
+</ul>
+<h2>Резюме</h2>
+<p>Уровень 2 сосредоточен на освоении процесса приготовления простого салата. Хотя это проще, чем пицца, он требует эффективного управления временем и подготовки ингредиентов. Этот уровень помогает вам адаптироваться к высокоэффективным кухонным операциям, обслуживая нескольких клиентов и их разнообразные потребности.</p>
+<p>Завершение Уровня 2 открывает больше рецептов и оборудования, подготавливая вас к более сложным уровням.</p>`,
+  },
+  {
+    id: 'cookingdom-game-level-3',
+    title: 'Cookingdom Уровень 3<br />Жареный картофель',
+    pageTitle: 'Cookingdom Уровень 3 - Руководство по жареному картофелю',
+    pageSubtitle: 'Научитесь готовить хрустящий жареный картофель в Cookingdom Уровень 3.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: 'https://placehold.co/200x150/fff8dc/cd853f?text=Lvl+3',
+    detailsRoute: '/cookingdom-game-level-3',
+    iframeUrl: 'https://www.youtube.com/embed/oWpl7YwOYbw',
+    seo: {
+      title: 'Cookingdom Уровень 3 Руководство - Жареный картофель',
+      description:
+        'Освойте жареный картофель в Cookingdom Уровень 3. Узнайте о техниках жарки, управлении несколькими клиентами и эффективности кухни.',
+      keywords:
+        'cookingdom, уровень 3, жареный картофель, руководство, жарка, управление временем, эффективность кухни',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fff8dc/cd853f?text=Level+3+Sidebar',
+      levelInfoHtml:
+        '<h3>Жареный картофель</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-1',
+          title: 'Уровень 1<br/>Первая пицца',
+          imageUrl: 'https://placehold.co/60x60/e8f4f8/7aa0c7?text=Lvl+1',
+          detailsRoute: '/cookingdom-game-level-1',
+        },
+        {
+          id: 'cookingdom-game-level-2',
+          title: 'Уровень 2<br/>Простой салат',
+          imageUrl: 'https://placehold.co/60x60/f0fff0/8ea0a0?text=Lvl+2',
+          detailsRoute: '/cookingdom-game-level-2',
+        },
+      ],
+    },
+    detailsHtml: `<h2>Введение в игру</h2>
+<p>На Уровне 3 игроки учатся готовить жареный картофель. Хотя это относительно просто, требуется большее управление временем и детальная работа, особенно при сложных запросах клиентов. Этот уровень вводит процесс жарки, обучая игроков использовать кухонное оборудование для ускорения приготовления и подачи вкусной картошки фри.</p>
+<h2>Цель Уровня 3</h2>
+<ul>
+  <li><strong>Приготовить жареный картофель:</strong> Освоить правильный процесс жарки с использованием фритюрницы, даже если он не имеет сложных шагов, как у духовки.</li>
+  <li><strong>Обслуживать нескольких клиентов:</strong> Ожидайте больше клиентов, чем на предыдущих уровнях, что требует быстрой обработки нескольких заказов и эффективного обслуживания.</li>
+  <li><strong>Повысить эффективность кухни:</strong> Научиться эффективно использовать кухонное оборудование, например, быстро готовить картофель и ускорять жарку.</li>
+</ul>
+<h2>Этапы приготовления жареного картофеля</h2>
+<h3>Подготовьте картофель:</h3>
+<p>Возьмите картофель из зоны ингредиентов и нарежьте его соломкой. Вы можете подготовить его заранее или при поступлении заказа.</p>
+<ul>
+  <li><strong>Совет:</strong> Заранее подготовленный картофель сокращает время ожидания клиента, особенно при одновременном прибытии нескольких.</li>
+</ul>
+<h3>Обжарьте картофель:</h3>
+<p>Положите нарезанную картофельную соломку во фритюрницу. Контролируйте время жарки, чтобы она была хрустящей снаружи и мягкой внутри.</p>
+<ul>
+  <li>Наблюдайте за изменением картофеля во время жарки, чтобы избежать пережаривания (чтобы он не стал горелым или жирным).</li>
+  <li><strong>Совет:</strong> Картофель обычно готов, когда становится золотисто-коричневым и всплывает на поверхность; вынимайте его своевременно.</li>
+</ul>
+<h3>Добавьте приправы:</h3>
+<p>После жарки добавьте дополнительные приправы, такие как соль или перец, для улучшения вкуса и удовлетворенности клиента.</p>
+<h3>Подайте клиенту:</h3>
+<p>Немедленно доставьте готовый жареный картофель. Хотя он готовится относительно быстро, своевременное обслуживание все равно необходимо, чтобы избежать долгого ожидания.</p>
+<h2>Советы и хитрости</h2>
+<ul>
+  <li><strong>Заранее готовьте ингредиенты:</strong> При потенциально частых запросах клиентов, подготовка картофельной соломки и фритюрницы является ключом к эффективности. Подготовка экономит значительное время, особенно при наличии нескольких ожидающих клиентов.</li>
+  <li><strong>Освойте время жарки:</strong> Держите время жарки в нужных пределах. Слишком долгое время делает картофель жирным или горелым; слишком короткое — недостаточно хрустящим. Следите за его внешним видом и изменениями во фритюрнице.</li>
+  <li><strong>Используйте кухонное оборудование:</strong> Вы можете разблокировать ускорители или оборудование, например, быструю фритюрницу. Используйте их для ускорения готовки в пиковое время.</li>
+  <li><strong>Приоритезируйте заказы клиентов:</strong> Несколько клиентов могут прибыть одновременно. Отдавайте приоритет тем, кто ждет дольше, чтобы они быстрее получили еду.</li>
+  <li><strong>Подавайте быстро:</strong> Поддерживайте эффективное обслуживание, чтобы минимизировать время ожидания. Поскольку картошка фри готовится быстро, используйте сэкономленное время для подготовки следующего блюда или уборки кухни.</li>
+</ul>
+<h2>Резюме</h2>
+<p>Приготовление жареного картофеля на Уровне 3 простое, но требует эффективного управления кухней и контроля времени. Вы научитесь работать с оборудованием для жарки и удовлетворять потребности нескольких клиентов. По мере продвижения в игре, сталкиваясь с более разнообразными блюдами и сложными задачами, повышение эффективности кухни имеет решающее значение для успеха.</p>
+<p>Завершение Уровня 3 открывает больше рецептов и оборудования, подготавливая вас к уровням повышенной сложности.</p>`,
+  },
+  {
+    id: 'cookingdom-game-level-4',
+    title: 'Уровень 4:<br>Ролл-мороженое',
+    pageTitle: 'Cookingdom Уровень 4 - Руководство по ролл-мороженому',
+    pageSubtitle:
+      'Изучите искусство приготовления идеального ролл-мороженого в Cookingdom Уровень 4.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-4',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 4: Ролл-мороженое | Советы и стратегия',
+      description:
+        'Освойте Уровень 4 в Cookingdom! Узнайте, как приготовить вкусное ролл-мороженое с нашим пошаговым руководством, советами по заморозке и комбинациями ингредиентов.',
+      keywords: 'cookingdom, уровень 4, ролл-мороженое, гайд, заморозка, начинки, стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/e0f7fa/00796b?text=Level+4+Sidebar',
+      levelInfoHtml:
+        '<h3>Ролл-мороженое</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 2.5 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-1',
+          title: 'Уровень 1<br/>Первая пицца',
+          imageUrl: 'https://placehold.co/60x60/e8f4f8/7aa0c7?text=Lvl+1',
+          detailsRoute: '/cookingdom-game-level-1',
+        },
+        {
+          id: 'cookingdom-game-level-2',
+          title: 'Уровень 2<br/>Простой салат',
+          imageUrl: 'https://placehold.co/60x60/f0fff0/8ea0a0?text=Lvl+2',
+          detailsRoute: '/cookingdom-game-level-2',
+        },
+        {
+          id: 'cookingdom-game-level-3',
+          title: 'Уровень 3<br/>Жареный картофель',
+          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
+          detailsRoute: '/cookingdom-game-level-3',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Introduction</h2>
+<p>In Level 4 of Cookingdom, players will learn how to make Rolled Ice-cream. Compared to previous dishes, the process for rolled ice-cream is more detailed, involving freezing operations and clever ingredient combinations. The goal of this level is to master the ice-cream freezing technique and quickly prepare and serve rolled ice-cream upon customer orders.</p>
+
+<h2 id="goal">Level 4 Goals</h2>
+<ul>
+    <li><strong>Make Rolled Ice-cream:</strong> Making rolled ice-cream is more complex than regular ice-cream, requiring players to use a freezing platform, manage the cooling process, and roll it into attractive ice-cream rolls.</li>
+    <li><strong>Control Freezing Time:</strong> The freezing time for rolled ice-cream needs precise control to ensure the texture and shape of the ice-cream rolls meet requirements.</li>
+    <li><strong>Handle Multiple Customers:</strong> As the game progresses, Level 4 will bring more customers, requiring players to manage time effectively and handle multiple orders.</li>
+</ul>
+
+<h2 id="steps">Rolled Ice-cream Making Steps</h2>
+<ol>
+    <li>
+        <h3>Prepare Ice-cream Base:</h3>
+        <p>In the kitchen area, select the basic ice-cream base suitable for rolled ice-cream (usually milk, sugar, vanilla, etc.). Pour the base onto the freezing platform.</p>
+        <p>This is the first step in making rolled ice-cream. Ensure the base ratio is correct to achieve a smooth ice-cream texture.</p>
+    </li>
+    <li>
+        <h3>Choose Toppings:</h3>
+        <p>On the freezing platform, you can add various toppings according to customer requests, such as fruits, chocolate chips, nuts, etc.</p>
+        <p><strong>Tip:</strong> Choose the toppings requested by the customer and ensure they are evenly distributed on the ice-cream. Different toppings can affect the taste and appearance of the ice-cream, and beautiful decorations help increase customer satisfaction.</p>
+    </li>
+    <li>
+        <h3>Freeze and Form Ice-cream Rolls:</h3>
+        <p>After mixing the ice-cream base and toppings, begin freezing. On the freezing platform, the ice-cream will quickly solidify, and you need to use a spatula to neatly roll it into rolls.</p>
+        <p><strong>Technique:</strong> Ensure the spatula movements are even to prevent the ice-cream from breaking or having an irregular shape.</p>
+    </li>
+    <li>
+        <h3>Plate and Serve:</h3>
+        <p>Remove the rolled ice-cream from the freezing platform, gently place it on a plate, and garnish with some extra toppings or syrup.</p>
+        <p>Once ready, immediately deliver the rolled ice-cream to the customer's table, ensuring they receive their meal as quickly as possible within the waiting time.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips and Tricks</h2>
+<ul>
+    <li>
+        <strong>Control Freezing Time:</strong> Freezing time is crucial when making rolled ice-cream. Too long might make the ice-cream too hard to roll; too short might make it too soft to shape. Observe the changes on the freezing platform and judge the state of the ice-cream accordingly.
+    </li>
+    <li>
+        <strong>Topping Combinations:</strong> In Level 4, customers may request different toppings. Remember to add appropriate fruits, nuts, or candies based on their needs. Too many or too few toppings can affect the appearance and taste. Try using diverse toppings to attract customer attention.
+    </li>
+    <li>
+        <strong>Ensure Uniform Rolls:</strong> When scraping the ice-cream into rolls, ensure each roll is uniform in size and shape. Uniform rolls look more appealing and increase customer satisfaction.
+    </li>
+    <li>
+        <strong>Utilize Kitchen Equipment:</strong> If the game provides speed-up items or equipment, use them to accelerate the freezing process or ingredient preparation. Proper use of these items can improve efficiency and help you handle peak-time orders better.
+    </li>
+    <li>
+        <strong>Serve Quickly:</strong> Although making rolled ice-cream takes time, it's relatively short. Ensure timely completion and serving to avoid customer dissatisfaction due to long waits.
+    </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>Level 4 of Cookingdom introduces more operational skills for rolled ice-cream making, especially regarding the freezing process and topping combinations. Mastering freezing time, spatula techniques, and diverse topping combinations are key to success. As the game progresses, you'll face more varied dishes and customer demands, so improving kitchen efficiency and mastering multitasking will be essential skills for passing the level.</p>
+<p>After completing Level 4, you will unlock more recipes and kitchen equipment, allowing you to tackle more challenging tasks.</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-5',
+    title: 'Уровень 5:<br>Рыба на гриле',
+    pageTitle: 'Cookingdom Уровень 5 - Руководство по рыбе на гриле',
+    pageSubtitle: 'Освойте искусство жарки рыбы на гриле в Cookingdom Уровень 5.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-5',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 5: Рыба на гриле | Советы и стратегия',
+      description:
+        'Узнайте, как идеально приготовить рыбу на гриле в Cookingdom Уровень 5. Получите советы по контролю температуры, времени и управлению заказами клиентов.',
+      keywords:
+        'cookingdom, уровень 5, рыба на гриле, гайд, гриль, контроль температуры, управление временем',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/c8e6c9/2e7d32?text=Level+5+Sidebar',
+      levelInfoHtml:
+        '<h3>Рыба на гриле</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-2',
+          title: 'Уровень 2<br/>Простой салат',
+          imageUrl: 'https://placehold.co/60x60/f0fff0/8ea0a0?text=Lvl+2',
+          detailsRoute: '/cookingdom-game-level-2',
+        },
+        {
+          id: 'cookingdom-game-level-3',
+          title: 'Уровень 3<br/>Жареный картофель',
+          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
+          detailsRoute: '/cookingdom-game-level-3',
+        },
+        {
+          id: 'cookingdom-game-level-4',
+          title: 'Уровень 4<br/>Ролл-мороженое',
+          imageUrl: 'https://placehold.co/60x60/e0f7fa/00796b?text=Lvl+4',
+          detailsRoute: '/cookingdom-game-level-4',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p>In Cookingdom, each level introduces a new cooking challenge, and in Level 5, players are tasked with preparing Grilled Fish. Compared to the previous levels, grilling fish requires careful attention to timing and heat control. You will need to master grilling techniques, ensure the fish is cooked just right, and serve your customers promptly to keep them happy.</p>
+<p>As you progress in Cookingdom, new skills are unlocked, and with each new level, you'll encounter more complex recipes and customer demands. This level introduces grilling as a key technique and will test your ability to manage time efficiently in the kitchen.</p>
+
+<h2 id="goal">Level 5 Goals</h2>
+<ul>
+    <li><strong>Cook Grilled Fish:</strong> In this level, you'll learn how to grill fish to perfection. Cookingdom gives you the necessary tools to control the grill's temperature, but you must monitor the fish closely to ensure it doesn't burn or undercook. The goal is to grill the fish evenly and achieve the right texture and flavor.</li>
+    <li><strong>Control the Heat:</strong> Grilling fish requires precise control of heat. You need to grill the fish just long enough for it to develop a crispy, golden exterior while keeping the inside tender and moist. Overcooking or undercooking will result in unhappy customers.</li>
+    <li><strong>Efficiently Serve Customers:</strong> As more customers start to arrive, you'll need to handle multiple orders at once. Cookingdom will test your ability to manage time and prioritize orders while ensuring each dish is prepared perfectly.</li>
+</ul>
+
+<h2 id="steps">Steps to Make Grilled Fish</h2>
+<ol>
+    <li>
+        <h3>Prepare the Fish:</h3>
+        <p>First, take the fish from the ingredients area and place it on the grill. In Cookingdom, there may be different types of fish available, so make sure to select the right one based on customer requests.</p>
+        <p><strong>Tip:</strong> If the customer specifies a certain type of fish, prepare it quickly to avoid delays.</p>
+    </li>
+    <li>
+        <h3>Season the Fish:</h3>
+        <p>Once the fish is placed on the grill, add the appropriate seasoning. Common seasonings include salt, pepper, or other spices based on customer preferences.</p>
+        <p><strong>Tip:</strong> Proper seasoning enhances the flavor of the fish. Be careful not to overdo it, as too much seasoning can overpower the natural taste of the fish.</p>
+    </li>
+    <li>
+        <h3>Grill the Fish:</h3>
+        <p>Keep an eye on the grill as the fish cooks. You need to control the grilling time precisely to ensure the fish is cooked through but not overdone. The fish should develop a golden, crispy exterior and a moist, tender interior.</p>
+        <p><strong>Tip:</strong> If you see the fish turning golden or slightly bubbling, it's time to check it. Don't wait too long, as overcooked fish will lose its delicate texture.</p>
+    </li>
+    <li>
+        <h3>Serve the Fish:</h3>
+        <p>Once the fish is grilled to perfection, take it off the grill and place it on a plate. Optionally, you can add garnishes like lemon wedges, herbs, or a side dish to enhance the presentation.</p>
+        <p>Serve the dish promptly to the customer to avoid lowering their satisfaction due to long waiting times.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips & Tricks</h2>
+<ul>
+    <li>
+        <strong>Mastering Grill Time:</strong> The key to grilling fish in Cookingdom is perfect timing. If you leave the fish on the grill too long, it will become dry and overcooked. If it's undercooked, it'll be too raw. Watch for the golden-brown color and bubbling edges to know when the fish is ready.
+    </li>
+    <li>
+        <strong>Efficient Order Management:</strong> As the game progresses, more customers will come in, and it's crucial to manage their orders efficiently. Prioritize orders based on their waiting times and prep ingredients ahead of time to save time during high-demand periods.
+    </li>
+    <li>
+        <strong>Upgrading Kitchen Equipment:</strong> As you progress in Cookingdom, you can unlock new kitchen equipment. Upgrading your grill or other cooking devices will help you cook faster and more efficiently, which is essential for managing more customers and their orders.
+    </li>
+    <li>
+        <strong>Use Boosters and Speedups:</strong> In some levels, you can use boosters or speed-up items to cook the fish faster or prepare other ingredients. These tools can be lifesavers when you're dealing with a large number of orders at once.
+    </li>
+    <li>
+        <strong>Customer Satisfaction:</strong> Remember that Cookingdom is all about satisfying your customers. The quicker you serve them with well-prepared food, the better your scores. Timely service and perfect dishes will keep your customers happy and your rating high.
+    </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>Level 5 in Cookingdom introduces the challenge of grilling fish. The key to success is controlling the grill's temperature and timing to ensure the fish is perfectly cooked. Managing multiple orders, upgrading kitchen equipment, and using boosters will help you complete the level successfully.</p>
+<p>Once you finish this level, you'll unlock more kitchen upgrades and new recipes that will take your culinary skills to the next level. Keep refining your cooking and time-management skills to stay ahead of the game!</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-6',
+    title: 'Уровень 6:<br>Кофе Эспрессо',
+    pageTitle: 'Cookingdom Уровень 6 - Руководство по Кофе Эспрессо',
+    pageSubtitle: 'Научитесь варить идеальный эспрессо в Cookingdom Уровень 6.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-6',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 6: Кофе Эспрессо | Советы и стратегия',
+      description:
+        'Освойте искусство варки Кофе Эспрессо в Cookingdom Уровень 6. Советы по помолу, времени варки и управлению заказами.',
+      keywords:
+        'cookingdom, уровень 6, кофе эспрессо, эспрессо, гайд, кофе, варка, управление временем',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/efebe9/6d4c41?text=Level+6+Sidebar',
+      levelInfoHtml:
+        '<h3>Кофе Эспрессо</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-3',
+          title: 'Уровень 3<br/>Жареный картофель',
+          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
+          detailsRoute: '/cookingdom-game-level-3',
+        },
+        {
+          id: 'cookingdom-game-level-4',
+          title: 'Уровень 4<br/>Ролл-мороженое',
+          imageUrl: 'https://placehold.co/60x60/e0f7fa/00796b?text=Lvl+4',
+          detailsRoute: '/cookingdom-game-level-4',
+        },
+        {
+          id: 'cookingdom-game-level-5',
+          title: 'Уровень 5<br/>Рыба на гриле',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/2e7d32?text=Lvl+5',
+          detailsRoute: '/cookingdom-game-level-5',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p>In Cookingdom, each level introduces new challenges and recipes to master. In Level 6, you'll face the task of preparing a Café Espresso, a crucial skill for expanding your café offerings and increasing customer satisfaction. This level is focused on learning how to brew the perfect espresso shot, a key element of coffee-based beverages that will appear more frequently as you progress through the game.</p>
+<p>As you move through this level, you'll also begin to deal with more complex customer orders and need to handle multiple drinks simultaneously. It's time to sharpen your time management skills and improve your efficiency in the kitchen!</p>
+
+<h2 id="goal">Level 6 Goals</h2>
+<ul>
+    <li><strong>Prepare Café Espresso:</strong> In this level, you will focus on making the perfect espresso. The process is relatively simple but requires precision to get the balance right. You will need to use the coffee machine, control the grind of the beans, and ensure the right amount of water flows through.</li>
+    <li><strong>Manage Multiple Orders:</strong> As customers begin to order coffee and espresso, you must keep track of multiple drinks simultaneously. This involves preparing different beverages while ensuring the quality of each.</li>
+    <li><strong>Serve with Precision and Speed:</strong> Since espresso shots require a short brewing time, you must serve them quickly. Keeping an eye on multiple orders at once and serving each one promptly will be crucial for maximizing customer satisfaction.</li>
+</ul>
+
+<h2 id="steps">Steps to Make Café Espresso</h2>
+<ol>
+    <li>
+        <h3>Grind the Coffee Beans:</h3>
+        <p>The first step in making a great Café Espresso is selecting and grinding the right coffee beans. In Cookingdom, the coffee grinder will be available for use. Make sure to adjust the grind size properly, as the espresso requires a finer grind than other coffee drinks.</p>
+        <p><strong>Tip:</strong> If the grind is too coarse, the espresso will be weak. If it's too fine, the coffee might taste bitter.</p>
+    </li>
+    <li>
+        <h3>Prepare the Espresso Machine:</h3>
+        <p>Once the coffee beans are ground, place the grounds into the portafilter of the espresso machine. Ensure the grounds are evenly distributed and tamped down to avoid uneven extraction.</p>
+        <p><strong>Tip:</strong> A well-packed portafilter ensures a uniform extraction, which is crucial for a balanced espresso shot.</p>
+    </li>
+    <li>
+        <h3>Brew the Espresso:</h3>
+        <p>Place the portafilter in the espresso machine and start the brewing process. The machine will force hot water through the finely ground coffee, creating a rich and aromatic espresso shot.</p>
+        <p><strong>Tip:</strong> Pay attention to the brewing time. Typically, a shot of espresso takes about 25-30 seconds to brew. The espresso should have a rich crema (golden foam) on top.</p>
+    </li>
+    <li>
+        <h3>Serve the Espresso:</h3>
+        <p>Once brewed, serve the espresso in a small cup. In Cookingdom, you might have the option to add a garnish, like a sugar cube or a cinnamon stick, but traditionally, espresso is served plain.</p>
+        <p><strong>Tip:</strong> Speed is crucial! Since espresso is a quick drink to prepare, make sure to serve it promptly to avoid keeping customers waiting.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips & Tricks</h2>
+<ul>
+    <li>
+        <strong>Control the Grind:</strong> The grind of your coffee beans will have a significant impact on the flavor of your espresso. Ensure the grind is fine enough for a proper extraction but not so fine that the water can't flow through it. A balanced grind will ensure a rich and flavorful espresso shot.
+    </li>
+    <li>
+        <strong>Time the Brewing Process:</strong> Espresso brewing time is typically between 25-30 seconds. If the brewing process is too quick, your espresso might taste watery or under-extracted. If it's too slow, it may be over-extracted and bitter. Timing is key to perfecting your espresso.
+    </li>
+    <li>
+        <strong>Keep Track of Multiple Orders:</strong> As more customers start arriving, you will have multiple orders to manage. Cookingdom will challenge you with simultaneous orders for different drinks, so be prepared to juggle multiple tasks at once. Prioritize orders based on customer patience and the complexity of the drink.
+    </li>
+    <li>
+        <strong>Upgrade Your Coffee Equipment:</strong> As you progress through Cookingdom, upgrading your espresso machine or grinder will increase your efficiency and improve the quality of your espresso shots. Investing in better equipment can help you handle more orders in less time.
+    </li>
+    <li>
+        <strong>Serve Quickly to Maximize Satisfaction:</strong> Customers in Cookingdom get impatient if they have to wait too long for their order. Since espresso is a quick drink to prepare, you should serve it as soon as it's ready to keep your customers happy and boost your ratings.
+    </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>In Level 6 of Cookingdom, making the perfect Café Espresso is all about controlling the coffee grind, brewing time, and serving quickly. With more customers ordering drinks, you'll need to efficiently manage your time, multitask, and prioritize orders to ensure a smooth operation. Mastering espresso will unlock a variety of coffee drinks and challenges that will appear in future levels.</p>
+<p>This level serves as a great introduction to more advanced coffee-based recipes, preparing you for the increasingly complex orders that await in later stages of the game. By the end of this level, you'll have a solid understanding of coffee preparation and be ready to handle more advanced cooking and drink-making techniques.</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-7',
+    title: 'Уровень 7:<br>Яичница-глазунья',
+    pageTitle: 'Cookingdom Уровень 7 - Руководство по Яичнице-глазунье',
+    pageSubtitle: 'Научитесь готовить идеальную яичницу-глазунью в Cookingdom Уровень 7.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-7',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 7: Яичница-глазунья | Советы и стратегия',
+      description:
+        'Освойте яичницу-глазунью в Cookingdom Уровень 7. Советы по контролю температуры, избеганию разбитых желтков и быстрому обслуживанию.',
+      keywords:
+        'cookingdom, уровень 7, яичница-глазунья, гайд, яйца, контроль температуры, управление временем',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fffde7/fbc02d?text=Level+7+Sidebar',
+      levelInfoHtml:
+        '<h3>Яичница-глазунья</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1 минута</p><p><strong>Награда:</strong> 3 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-4',
+          title: 'Уровень 4<br/>Ролл-мороженое',
+          imageUrl: 'https://placehold.co/60x60/e0f7fa/00796b?text=Lvl+4',
+          detailsRoute: '/cookingdom-game-level-4',
+        },
+        {
+          id: 'cookingdom-game-level-5',
+          title: 'Уровень 5<br/>Рыба на гриле',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/2e7d32?text=Lvl+5',
+          detailsRoute: '/cookingdom-game-level-5',
+        },
+        {
+          id: 'cookingdom-game-level-6',
+          title: 'Уровень 6<br/>Кофе Эспрессо',
+          imageUrl: 'https://placehold.co/60x60/efebe9/6d4c41?text=Lvl+6',
+          detailsRoute: '/cookingdom-game-level-6',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p>In Cookingdom, each level introduces new cooking challenges and recipes that test your culinary skills and time management. Level 7 focuses on preparing Sunny Eggs, a simple yet delicate dish that requires precision to ensure the egg yolk remains intact while cooking. As you advance through Cookingdom, you'll need to master this dish to meet the growing demands of your customers, who will expect perfect sunny-side-up eggs.</p>
+<p>This level introduces more complex multitasking as you juggle multiple orders, but don't worry — with the right approach, you can handle it. Let's dive into the steps to make the perfect sunny eggs!</p>
+
+<h2 id="goal">Level 7 Goals</h2>
+<ul>
+    <li><strong>Cook Sunny Eggs:</strong> In Cookingdom, sunny eggs are a classic breakfast dish. The goal of this level is to prepare the eggs perfectly with the yolk intact while avoiding overcooking the whites. Cooking the eggs to the perfect level of doneness will be the key to success in this level.</li>
+    <li><strong>Manage Multiple Orders Efficiently:</strong> As in previous levels, you will need to handle multiple orders at once. In this level, sunny eggs will be a popular item on the menu, so you need to keep track of the time and serve each dish on time.</li>
+    <li><strong>Serve Quickly and Precisely:</strong> Cookingdom customers are impatient, and they expect their sunny eggs to be cooked just right. Overcooking the eggs or serving them too late will lower your score, so timing and efficiency are essential.</li>
+</ul>
+
+<h2 id="steps">Steps to Make Sunny Eggs</h2>
+<ol>
+    <li>
+        <h3>Prepare the Pan:</h3>
+        <p>To cook sunny eggs, start by heating the pan. Once the pan is hot, add a small amount of oil or butter to prevent the eggs from sticking. Make sure the oil is evenly spread across the pan surface.</p>
+        <p><strong>Tip:</strong> A non-stick pan is best for sunny eggs to avoid breaking the yolk.</p>
+    </li>
+    <li>
+        <h3>Crack the Eggs:</h3>
+        <p>Carefully crack the eggs and place them into the pan. Be sure to avoid breaking the yolk. Cookingdom will give you the option to crack the eggs one at a time, so be patient and make sure the yolk stays intact as you place each egg in the pan.</p>
+        <p><strong>Tip:</strong> If you're cooking multiple eggs, be sure they're spaced far enough apart to avoid them touching and sticking together.</p>
+    </li>
+    <li>
+        <h3>Cook the Eggs:</h3>
+        <p>Let the eggs cook on medium heat for a few minutes until the whites are fully set and the yolk is still runny. The key here is to cook the whites completely without overcooking the yolk. The eggs should have a soft, golden yolk in the center.</p>
+        <p><strong>Tip:</strong> Don't flip the eggs! Sunny eggs are meant to be cooked on one side only, and flipping can cause the yolk to break.</p>
+    </li>
+    <li>
+        <h3>Serve the Sunny Eggs:</h3>
+        <p>Once the eggs are cooked to perfection, carefully slide them onto a plate. In Cookingdom, you can garnish the eggs with herbs or serve them with a side, depending on the customer's order.</p>
+        <p><strong>Tip:</strong> Serve the eggs immediately to keep them fresh and avoid customer dissatisfaction due to long waiting times.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips & Tricks</h2>
+<ul>
+    <li>
+        <strong>Monitor Heat Carefully:</strong> In Cookingdom, controlling the heat is key to making perfect sunny eggs. If the heat is too high, the eggs may cook too fast and cause the whites to burn before the yolk is done. Keep the heat at a moderate level to ensure a nice golden yolk with fully cooked whites.
+    </li>
+    <li>
+        <strong>Don't Rush:</strong> Although the eggs seem simple to make, rushing through the process can result in broken yolks or overcooked eggs. Take your time and focus on cooking the eggs just right. Customers in Cookingdom are picky about the quality of their food.
+    </li>
+    <li>
+        <strong>Multitasking:</strong> Cookingdom will test your multitasking skills, as you'll often need to prepare sunny eggs while other orders are also waiting. Be sure to prioritize orders based on time and complexity, and don't forget to check on the eggs regularly while working on other dishes.
+    </li>
+    <li>
+        <strong>Use Boosters for Efficiency:</strong> As you progress through Cookingdom, you'll unlock boosters and speed-ups that can help you cook faster or improve your efficiency. Using these tools strategically can help you complete orders on time, especially when multiple customers are ordering sunny eggs.
+    </li>
+    <li>
+        <strong>Customer Satisfaction:</strong> Cookingdom is all about satisfying your customers. If your eggs are perfectly cooked and served promptly, you'll earn high ratings. Always aim to serve the eggs as soon as they're ready to avoid disappointing your customers.
+    </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>Level 7 in Cookingdom is all about perfecting the art of cooking sunny eggs. The key to success is controlling the heat, cooking the eggs just right without overcooking them, and serving them as soon as they're ready. Time management and multitasking are crucial as you prepare sunny eggs along with other dishes.</p>
+<p>With the right technique and quick service, you'll easily complete this level and keep your customers happy. As you advance through Cookingdom, you'll encounter more complex recipes and customer orders, so mastering the basics of sunny eggs will set you up for future success.</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-8',
+    title: 'Уровень 8:<br>Стейк',
+    pageTitle: 'Cookingdom Уровень 8 - Руководство по Стейку',
+    pageSubtitle: 'Научитесь готовить идеальный стейк по заказу в Cookingdom Уровень 8.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-8',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 8: Стейк | Советы и стратегия',
+      description:
+        'Освойте приготовление стейка (rare, medium, well-done) в Cookingdom Уровень 8. Советы по времени, температуре и управлению заказами.',
+      keywords:
+        'cookingdom, уровень 8, стейк, гайд, гриль, жарка, прожарка, rare, medium, well-done, управление временем',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fbe9e7/bf360c?text=Level+8+Sidebar',
+      levelInfoHtml:
+        '<h3>Стейк</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3.5 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-5',
+          title: 'Уровень 5<br/>Рыба на гриле',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/2e7d32?text=Lvl+5',
+          detailsRoute: '/cookingdom-game-level-5',
+        },
+        {
+          id: 'cookingdom-game-level-6',
+          title: 'Уровень 6<br/>Кофе Эспрессо',
+          imageUrl: 'https://placehold.co/60x60/efebe9/6d4c41?text=Lvl+6',
+          detailsRoute: '/cookingdom-game-level-6',
+        },
+        {
+          id: 'cookingdom-game-level-7',
+          title: 'Уровень 7<br/>Яичница-глазунья',
+          imageUrl: 'https://placehold.co/60x60/fffde7/fbc02d?text=Lvl+7',
+          detailsRoute: '/cookingdom-game-level-7',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p>In Cookingdom, each new level challenges you with a more complex dish. Level 8 is no exception, as you're tasked with preparing a perfectly cooked Steak. This dish requires precise timing, heat control, and careful attention to customer orders. As you move forward in Cookingdom, cooking steak will become a cornerstone of your menu, and handling the complexity of different steak doneness levels will be crucial to keep your customers happy.</p>
+<p>In this level, you'll need to manage your kitchen efficiently while ensuring every steak is cooked to the right level, whether it's rare, medium, or well-done. Let's dive into the details of making the perfect steak!</p>
+
+<h2 id="goal">Level 8 Goals</h2>
+<ul>
+    <li><strong>Cook Steak to Perfection:</strong> Cookingdom requires you to cook steak to different levels of doneness: rare, medium, and well-done. Each customer will have their own preference, and it's essential to cook each steak just right to meet those expectations.</li>
+    <li><strong>Handle Multiple Steak Orders:</strong> As with previous levels, managing multiple orders is critical. Cookingdom will test your ability to handle more complex orders at the same time while ensuring each steak is cooked properly.</li>
+    <li><strong>Serve the Steak Promptly:</strong> Customers in Cookingdom get impatient, so serving each steak as soon as it's cooked is essential. Timing is key to earning the best possible ratings.</li>
+</ul>
+
+<h2 id="steps">Steps to Make Steak</h2>
+<ol>
+    <li>
+        <h3>Prepare the Pan or Grill:</h3>
+        <p>Before cooking, heat your pan or grill to a high temperature. The key to a good steak is getting the pan or grill hot enough to sear the outside while keeping the inside juicy. Add some oil or butter to the pan to prevent the steak from sticking.</p>
+        <p><strong>Tip:</strong> A hot pan or grill is essential to achieving that delicious crust on the steak.</p>
+    </li>
+    <li>
+        <h3>Season the Steak:</h3>
+        <p>Once your pan is hot, season the steak with salt, pepper, and any other spices or herbs you prefer. Some customers in Cookingdom may have specific seasoning requests, so be sure to check their orders for any preferences.</p>
+        <p><strong>Tip:</strong> Use a generous amount of seasoning to enhance the steak's flavor. Don't forget to season both sides of the steak.</p>
+    </li>
+    <li>
+        <h3>Cook the Steak:</h3>
+        <p>Place the steak in the hot pan or on the grill. Depending on the doneness requested by the customer, cook the steak for the following times:</p>
+        <ul>
+            <li>Rare: 2-3 minutes per side.</li>
+            <li>Medium: 4-5 minutes per side.</li>
+            <li>Well-Done: 6-7 minutes per side.</li>
+        </ul>
+        <p><strong>Tip:</strong> Flip the steak only once to avoid losing juices. Use tongs to flip the steak gently.</p>
+    </li>
+    <li>
+        <h3>Check for Doneness:</h3>
+        <p>Use the visual and tactile cues to check the doneness of the steak:</p>
+        <ul>
+            <li>Rare: Cool to the touch and red in the center.</li>
+            <li>Medium: Slightly firm with a pink center.</li>
+            <li>Well-Done: Firm and browned through, with no pink inside.</li>
+        </ul>
+        <p><strong>Tip:</strong> In Cookingdom, you may also see a visual indicator or timer that shows when the steak is ready, helping you avoid overcooking.</p>
+    </li>
+    <li>
+        <h3>Rest the Steak:</h3>
+        <p>Once the steak is cooked to the correct doneness, remove it from the pan or grill and let it rest for a minute or two. This helps redistribute the juices and ensures a tender, juicy steak.</p>
+        <p><strong>Tip:</strong> Don't skip this step! Resting the steak is essential for maintaining its flavor and moisture.</p>
+    </li>
+    <li>
+        <h3>Serve the Steak:</h3>
+        <p>Once the steak has rested, place it on a plate and serve it to the customer. You can garnish the steak with sides like mashed potatoes, vegetables, or sauces, depending on the order.</p>
+        <p><strong>Tip:</strong> Serve the steak as soon as it's ready to keep your customers happy and avoid any dissatisfaction due to slow service.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips & Tricks</h2>
+<ul>
+    <li>
+        <strong>Mastering Steak Doneness:</strong> In Cookingdom, cooking the steak to the correct level of doneness is essential. Customers will specify how they want their steak, and delivering it perfectly cooked will earn you high ratings. Pay close attention to their orders and use the correct cooking times to achieve the perfect steak.
+    </li>
+    <li>
+        <strong>Efficient Order Management:</strong> As more customers arrive, you will need to handle multiple steak orders at once. Prioritize based on the time each customer has been waiting. Make sure to check each steak's doneness and avoid overcooking them while managing other dishes.
+    </li>
+    <li>
+        <strong>Upgrades and Equipment:</strong> As you progress through Cookingdom, you can upgrade your cooking equipment. A higher-quality grill or pan will cook steaks faster and more efficiently. Consider upgrading your tools to speed up the cooking process and improve your results.
+    </li>
+    <li>
+        <strong>Use Speed Boosts and Boosters:</strong> Cookingdom offers boosts and speed-ups to help you handle busy times. Use them to speed up cooking or serve your customers faster, especially when you have multiple steak orders to manage at once.
+    </li>
+    <li>
+        <strong>Customer Satisfaction:</strong> Customer patience is a big factor in Cookingdom. If you keep customers waiting too long for their steak, they may leave unhappy. Always aim to serve your steaks hot and promptly, and keep your customers satisfied for the best results.
+    </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>In Level 8 of Cookingdom, preparing the perfect Steak is all about controlling the cooking times and ensuring that each customer's steak is cooked to their preferred level of doneness. You'll need to master grilling and pan-searing techniques, manage multiple orders simultaneously, and serve the steak while it's still fresh and juicy.</p>
+<p>By the end of this level, you'll have gained valuable skills in steak preparation that will help you tackle even more complex dishes in future levels. With careful attention to detail and quick service, you'll be able to handle the steak orders like a pro and keep your customers coming back for more!</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-9',
+    title: 'Уровень 9:<br>Паста',
+    pageTitle: 'Cookingdom Уровень 9 - Руководство по Пасте',
+    pageSubtitle: 'Научитесь готовить идеальную пасту с соусом в Cookingdom Уровень 9.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-9',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 9: Паста | Советы и стратегия',
+      description:
+        'Освойте приготовление пасты в Cookingdom Уровень 9. Советы по варке пасты, приготовлению соусов и комбинированию заказов.',
+      keywords:
+        'cookingdom, уровень 9, паста, спагетти, макароны, соус, гайд, стратегия, управление временем',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fff3e0/ff9800?text=Level+9+Sidebar',
+      levelInfoHtml:
+        '<h3>Паста</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-1',
+          title: 'Уровень 1:<br>Пицца',
+          imageUrl: 'https://placehold.co/60x60/ffebee/c62828?text=Lvl+1',
+          detailsRoute: '/cookingdom-game-level-1',
+        },
+        {
+          id: 'cookingdom-game-level-2',
+          title: 'Уровень 2:<br>Салат',
+          imageUrl: 'https://placehold.co/60x60/e8f5e9/2e7d32?text=Lvl+2',
+          detailsRoute: '/cookingdom-game-level-2',
+        },
+        {
+          id: 'cookingdom-game-level-3',
+          title: 'Уровень 3:<br>Картофель фри',
+          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
+          detailsRoute: '/cookingdom-game-level-3',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p>Welcome to Level 9 of Cookingdom! In this level, you'll be mastering the art of making Pasta, a staple dish in many cuisines. Cooking pasta requires attention to timing and sauce preparation. As you progress, customers will start ordering different types of pasta dishes, demanding both speed and accuracy.</p>
+<p>This level builds on skills like time management and multitasking learned in previous levels, adding the complexity of coordinating pasta cooking times with sauce readiness. Get ready to become a pasta pro!</p>
+
+<h2 id="goal">Level 9 Goals</h2>
+<ul>
+    <li><strong>Cook Pasta Al Dente:</strong> The primary goal is to cook pasta perfectly 'al dente' (firm to the bite). Overcooked or undercooked pasta will displease your Cookingdom customers.</li>
+    <li><strong>Prepare Various Sauces:</strong> You'll learn to prepare different pasta sauces, such as marinara or a simple garlic and oil sauce. Each sauce has its own preparation steps and timing.</li>
+    <li><strong>Combine Pasta and Sauce Correctly:</strong> Customers will order specific pasta and sauce combinations. You need to match the correct sauce with the cooked pasta before serving.</li>
+    <li><strong>Manage Complex Orders:</strong> Expect orders that combine pasta with other items, requiring efficient workflow management to serve everything hot and on time.</li>
+</ul>
+
+<h2 id="steps">Steps to Make Pasta</h2>
+<ol>
+    <li>
+        <h3>Boil Water:</h3>
+        <p>Start by bringing a large pot of salted water to a rolling boil. Use enough water to allow the pasta to move freely, preventing sticking.</p>
+        <p><strong>Tip:</strong> Salting the water seasons the pasta from the inside out. Don't skip this step!</p>
+    </li>
+    <li>
+        <h3>Add Pasta:</h3>
+        <p>Add the pasta to the boiling water. Stir immediately to prevent the pasta strands from sticking together.</p>
+        <p><strong>Tip:</strong> Follow the package directions or in-game timer for the recommended cooking time, but start checking for doneness a minute or two before.</p>
+    </li>
+    <li>
+        <h3>Cook Al Dente:</h3>
+        <p>Cook the pasta until it's al dente – tender but still firm when bitten. This is crucial in Cookingdom for customer satisfaction.</p>
+        <p><strong>Tip:</strong> Fish out a piece of pasta and taste it. It should have a slight resistance in the center.</p>
+    </li>
+    <li>
+        <h3>Prepare Sauce:</h3>
+        <p>While the pasta is cooking, prepare the required sauce. This might involve heating a pre-made sauce or quickly sautéing ingredients like garlic, oil, or tomatoes.</p>
+        <p><strong>Tip:</strong> Time the sauce preparation so it's ready just as the pasta finishes cooking.</p>
+    </li>
+    <li>
+        <h3>Drain Pasta (Reserve Water):</h3>
+        <p>Once al dente, drain the pasta quickly using a colander. Importantly, reserve about a cup of the starchy pasta water.</p>
+        <p><strong>Tip:</strong> The starchy pasta water is liquid gold! It helps to emulsify and thicken the sauce, binding it better to the pasta.</p>
+    </li>
+    <li>
+        <h3>Combine and Serve:</h3>
+        <p>Combine the drained pasta with the prepared sauce in a pan or serving bowl. Add a splash of the reserved pasta water if needed to create a smooth, cohesive sauce that coats the pasta nicely.</p>
+        <p><strong>Tip:</strong> Toss the pasta and sauce together well over low heat for about 30 seconds to meld the flavors. Serve immediately on the correct plate.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips & Tricks</h2>
+<ul>
+    <li>
+        <strong>Don't Rinse Pasta:</strong> Never rinse your pasta after draining (unless making a cold pasta salad). Rinsing removes the starch that helps the sauce cling to the pasta.
+    </li>
+    <li>
+        <strong>Sauce Timing is Key:</strong> Ensure your sauce is ready or very close to ready when the pasta is done cooking. Hot pasta should meet hot sauce.
+    </li>
+    <li>
+        <strong>Use the Right Pot Size:</strong> A large pot gives the pasta room to cook evenly. Crowding the pot can lead to uneven cooking and sticky pasta.
+    </li>
+    <li>
+        <strong>Master Multitasking:</strong> Level 9 often requires preparing sauces, cooking pasta, and handling other order components simultaneously. Prioritize tasks based on cooking times.
+    </li>
+    <li>
+        <strong>Upgrade Equipment:</strong> Investing in better pots or stove burners in Cookingdom can reduce cooking times and increase the number of orders you can handle concurrently.
+    </li>
+    <li>
+        <strong>Pay Attention to Order Details:</strong> Double-check each customer's order for the specific pasta type and sauce requested. Mixing them up will lead to unhappy customers.
+    </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+<p>Level 9 of Cookingdom challenges you to master the art of pasta making. Success hinges on cooking pasta perfectly al dente, preparing delicious sauces efficiently, and combining them correctly according to customer orders. Effective time management and multitasking are essential as order complexity increases.</p>
+<p>By mastering pasta, you'll add a versatile and popular dish to your repertoire, preparing you for even more intricate culinary challenges ahead in Cookingdom. Keep practicing, stay organized, and soon you'll be serving perfect pasta dishes every time!</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-10',
+    title: 'Уровень 10:<br>Суши с лососем',
+    pageTitle: 'Cookingdom Уровень 10 - Руководство по Суши с лососем',
+    pageSubtitle: 'Научитесь готовить идеальные суши с лососем в Cookingdom Уровень 10.',
+    category: '01-10',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-10',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 10: Суши с лососем | Советы и стратегия',
+      description:
+        'Освойте суши с лососем в Cookingdom Уровень 10. Советы по идеальному рису, нарезке лосося, скручиванию суши и подаче.',
+      keywords:
+        'cookingdom, уровень 10, суши с лососем, гайд по суши, рис для суши, нарезка рыбы, скручивание суши, стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fff0f5/ff4081?text=Level+10+Sidebar',
+      levelInfoHtml:
+        '<h3>Суши с лососем</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 4.5 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-7',
+          title: 'Уровень 7<br>Яичница-глазунья',
+          imageUrl: 'https://placehold.co/60x60/fffde7/fbc02d?text=Lvl+7',
+          detailsRoute: '/cookingdom-game-level-7',
+        },
+        {
+          id: 'cookingdom-game-level-8',
+          title: 'Уровень 8<br>Стейк',
+          imageUrl: 'https://placehold.co/60x60/fbe9e7/bf360c?text=Lvl+8',
+          detailsRoute: '/cookingdom-game-level-8',
+        },
+        {
+          id: 'cookingdom-game-level-9',
+          title: 'Уровень 9<br>Паста',
+          imageUrl: 'https://placehold.co/60x60/fff3e0/ff9800?text=Lvl+9',
+          detailsRoute: '/cookingdom-game-level-9',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom достижение 10-го уровня означает, что вы освоили основы и теперь переходите к более сложным блюдам. Уровень 10 представляет собой утонченное испытание с суши с лососем — блюдом, которое сочетает в себе искусство совершенствования риса, нарезки рыбы и сборки всего этого в красивый суши-ролл. В отличие от других уровней, суши с лососем требуют точности как в приготовлении, так и в подаче.</p>
+<p>На этом этапе Cookingdom клиенты будут ожидать быстрой и безупречной доставки своих заказов, и вам нужно будет обращаться с деликатными компонентами суши. Пришло время отточить свои навыки владения ножом и техники приготовления риса!</p>
+
+<h2 id="goal">Цели 10-го уровня</h2>
+<ul>
+    <li><strong>Приготовить рис для суши:</strong> Основа любых отличных суши — идеально приготовленный рис. В Cookingdom вам нужно будет приготовить рис для суши, что включает в себя промывку, варку и заправку уксусом, сахаром и солью.</li>
+    <li><strong>Нарезать свежий лосось:</strong> Лосось — звезда этого блюда, и его свежесть и толщина имеют решающее значение для создания аутентичного вкуса суши. Вам нужно будет аккуратно нарезать лосось до нужной толщины и презентабельного вида.</li>
+    <li><strong>Собрать суши:</strong> Как только ваш рис и лосось будут готовы, пришло время собирать суши. В Cookingdom вам нужно будет свернуть рис и лосось вместе, убедившись, что все идеально выровнено и аккуратно.</li>
+    <li><strong>Подать суши:</strong> Как и с любым блюдом в Cookingdom, время имеет решающее значение. Подавайте суши быстро, чтобы они не потеряли свежесть.</li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению суши с лососем</h2>
+<ol>
+    <li>
+        <h3>Приготовить рис для суши:</h3>
+        <p>Первый шаг в приготовлении суши с лососем — это подготовка риса для суши. Начните с тщательной промывки риса, чтобы удалить излишки крахмала. Это помогает предотвратить чрезмерную клейкость риса.</p>
+        <p><strong>Совет:</strong> Промывайте рис несколько раз, пока вода не станет прозрачной, чтобы получить идеальную текстуру.</p>
+        <p>Сварите рис в рисоварке или кастрюле. Как только рис сварится, переложите его в большую миску и дайте остыть. После того как рис немного остынет, заправьте его смесью рисового уксуса, сахара и соли, чтобы придать ему фирменный вкус.</p>
+        <p><strong>Совет:</strong> Аккуратно перемешайте рис деревянной ложкой, чтобы не раздавить зерна. Дайте ему полностью остыть перед использованием для суши.</p>
+    </li>
+    <li>
+        <h3>Нарезать свежий лосось:</h3>
+        <p>Пока рис остывает, пришло время подготовить лосось. Cookingdom требует, чтобы вы нарезали лосось тонкими, ровными ломтиками. Используйте острый нож для получения чистых, гладких срезов. Каждый ломтик должен быть толщиной около 1/8 дюйма для лучшей текстуры суши.</p>
+        <p><strong>Совет:</strong> Используйте свежий, высококачественный лосось для лучшего вкуса. В Cookingdom вы сможете выбрать самые свежие доступные ингредиенты, поэтому убедитесь, что выбрали кусок лосося высшего качества.</p>
+    </li>
+    <li>
+        <h3>Собрать суши:</h3>
+        <p>Теперь пришло время собирать суши. Выложите небольшое количество риса для суши на бамбуковый коврик или чистую поверхность. Аккуратно распределите рис, образуя тонкий, ровный слой.</p>
+        <p><strong>Совет:</strong> Не прижимайте рис слишком сильно; просто слегка распределите его, чтобы суши оставались легкими и воздушными.</p>
+        <p>Положите ломтик свежего лосося поверх риса, убедившись, что он расположен по центру и равномерно.</p>
+        <p><strong>Совет:</strong> Если Cookingdom предлагает вам выбор гарниров, таких как васаби или маринованный имбирь, не забудьте добавить эти элементы для аутентичного опыта.</p>
+    </li>
+    <li>
+        <h3>Свернуть суши:</h3>
+        <p>Используйте бамбуковый коврик, чтобы плотно свернуть рис и лосось вместе. Убедитесь, что ролл плотный, но не слишком тугой, так как это поможет удержать суши вместе, не раздавив рис.</p>
+        <p><strong>Совет:</strong> Сворачивайте суши медленно и осторожно, чтобы рис и лосось оставались на месте.</p>
+    </li>
+    <li>
+        <h3>Нарезать и подать суши:</h3>
+        <p>Как только ваши суши свернуты, нарежьте их на кусочки размером с укус. В Cookingdom срез должен быть чистым и гладким, без зазубрин. Острый нож необходим для идеальной нарезки суши.</p>
+        <p><strong>Совет:</strong> Для аутентичного вида убедитесь, что каждый кусочек имеет одинаковый размер и форму.</p>
+        <p>Подавайте быстро:</p>
+        <p>Как и со всеми блюдами в Cookingdom, клиенты предпочитают свежие суши. Подавайте суши сразу после нарезки, чтобы они были в лучшем виде.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <strong>Идеальный рис для суши:</strong> Рис для суши — основа отличных суши, поэтому убедитесь, что вы приготовили его правильно. Точно следуйте шагам по промывке, варке и заправке риса. Cookingdom позволяет точно настроить заправку риса, так что экспериментируйте, пока не найдете идеальный баланс уксуса, сахара и соли.
+    </li>
+    <li>
+        <strong>Используйте острый нож для нарезки:</strong> Ключ к чистым, ровным ломтикам лосося — острый нож. Если нож тупой, лосось может раздавиться или порваться вместо чистой нарезки.
+        <p><strong>Совет:</strong> В Cookingdom по мере продвижения вы можете улучшить свой нож, так что подумайте об улучшении инструментов для обеспечения идеальной нарезки суши.</p>
+    </li>
+    <li>
+        <strong>Не переполняйте суши-ролл:</strong> Хотя велик соблазн положить побольше лосося, не переполняйте суши-ролл. Слишком много начинки может затруднить плотное и равномерное сворачивание. Идеальный суши-ролл содержит сбалансированное количество риса и рыбы.
+        <p><strong>Совет:</strong> Держите начинку по центру и будьте осторожны при сворачивании, чтобы сохранить форму суши.</p>
+    </li>
+    <li>
+        <strong>Многозадачность:</strong> По мере поступления новых заказов вас могут попросить приготовить другие блюда вместе с суши. В Cookingdom многозадачность необходима. Пока рис остывает, вы можете начать готовить другие ингредиенты или собирать другие блюда.
+    </li>
+    <li>
+        <strong>Гарниры и подача:</strong> Cookingdom вознаграждает за красивую подачу. Добавьте небольшие гарниры, такие как маринованный имбирь или васаби, чтобы улучшить ваше блюдо. Убедитесь, что суши красиво выложены на тарелке, чтобы повысить удовлетворенность клиентов и получить более высокие оценки.
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 10-м уровне Cookingdom приготовление суши с лососем — это испытание, которое проверяет вашу точность, управление временем и навыки многозадачности. От варки риса до нарезки рыбы и скручивания суши — каждый шаг требует внимания к деталям. Ключ к успеху — свежесть, точность и быстрое обслуживание.</p>
+<p>Освоение суши подготовит вас к успеху на будущих уровнях, поскольку клиенты будут ожидать более сложных и деликатных блюд. С практикой вы сможете создавать идеальные суши-роллы, которые порадуют ваших клиентов и помогут вашему ресторану процветать.</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-11',
+    title: 'Уровень 11:<br>Попкорн',
+    pageTitle: 'Cookingdom Уровень 11 - Руководство по Попкорну',
+    pageSubtitle: 'Научитесь готовить идеальный попкорн в Cookingdom Уровень 11.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png',
+    detailsRoute: '/cookingdom-game-level-11',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 11: Попкорн | Советы и стратегия',
+      description:
+        'Освойте Попкорн в Cookingdom Уровень 11. Советы по идеальному времени приготовления, добавлению вкуса и быстрому обслуживанию.',
+      keywords:
+        'cookingdom, уровень 11, попкорн, гайд, приготовление, приправы, управление временем, стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fffacd/daa520?text=Level+11+Sidebar',
+      levelInfoHtml:
+        '<h3>Попкорн</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-8',
+          title: 'Уровень 8<br>Стейк',
+          imageUrl: 'https://placehold.co/60x60/fbe9e7/bf360c?text=Lvl+8',
+          detailsRoute: '/cookingdom-game-level-8',
+        },
+        {
+          id: 'cookingdom-game-level-9',
+          title: 'Уровень 9<br>Паста',
+          imageUrl: 'https://placehold.co/60x60/fff3e0/ff9800?text=Lvl+9',
+          detailsRoute: '/cookingdom-game-level-9',
+        },
+        {
+          id: 'cookingdom-game-level-10',
+          title: 'Уровень 10<br>Суши с лососем',
+          imageUrl: 'https://placehold.co/60x60/fff0f5/ff4081?text=Lvl+10',
+          detailsRoute: '/cookingdom-game-level-10',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom Уровень 11 представляет собой легкое, но важное испытание: приготовление идеального попкорна. Хотя это блюдо может показаться простым, оно требует точного расчета времени и внимания к деталям, особенно при приготовлении большой порции для нескольких клиентов. Попкорн — любимая закуска, и в Cookingdom он проверит вашу способность управлять нагревом, вкусами и скоростью под давлением.</p>
+<p>По мере продвижения в игре Cookingdom представляет блюда, которые кажутся простыми, но требуют эффективной многозадачности, чтобы справиться с растущими требованиями клиентов. Приготовьтесь идеально взрывать эти зерна!</p>
+
+<h2 id="goal">Цели 11-го уровня</h2>
+<ul>
+    <li><strong>Взорвать кукурузные зерна:</strong> Основная задача на этом уровне — взорвать кукурузные зерна при правильной температуре и времени. Вам нужно будет убедиться, что каждая партия взрывается, не подгорая.</li>
+    <li><strong>Добавить ароматизаторы:</strong> После взрыва зерен вам нужно будет идеально приправить попкорн. Будь то масло, сыр или карамель, ароматизация попкорна улучшит блюдо.</li>
+    <li><strong>Подавать быстро:</strong> Клиенты Cookingdom ожидают быстрого обслуживания. Убедитесь, что вы подаете свежеприготовленный и приправленный попкорн, как только он будет готов, чтобы они остались довольны.</li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению попкорна</h2>
+<ol>
+    <li>
+        <h3>Нагреть аппарат для попкорна:</h3>
+        <p>Начните с нагрева аппарата для попкорна или сковороды. Cookingdom предоставляет вам поппер или плиту для приготовления попкорна. Убедитесь, что аппарат предварительно нагрет, так как это помогает зернам равномерно взрываться и предотвращает подгорание.</p>
+        <p><strong>Совет:</strong> В Cookingdom у вас также может быть возможность улучшить свое оборудование, чтобы сделать процесс приготовления попкорна быстрее и эффективнее. Улучшение вашего аппарата для попкорна сэкономит время и уменьшит количество ошибок.</p>
+    </li>
+    <li>
+        <h3>Добавить кукурузные зерна:</h3>
+        <p>Как только аппарат нагреется, осторожно добавьте кукурузные зерна. Убедитесь, что зерна распределены равномерно, чтобы обеспечить равномерное взрывание. Слишком много зерен сразу может привести к переполнению и неравномерному взрыванию, в то время как слишком мало зерен приведет к потере места и задержке вашего прогресса.</p>
+        <p><strong>Совет:</strong> В Cookingdom вы увидите визуальный индикатор или таймер, показывающий, когда попкорн взрывается. Обращайте внимание на звук и визуальные подсказки, чтобы знать, когда остановить процесс взрывания.</p>
+    </li>
+    <li>
+        <h3>Дождаться процесса взрывания:</h3>
+        <p>Дайте зернам взорваться, внимательно прислушиваясь к замедлению звука взрывов. Это ваш сигнал остановить процесс. Чрезмерное взрывание может сжечь попкорн, в то время как недостаточное взрывание может оставить некоторые зерна невзорвавшимися.</p>
+        <p><strong>Совет:</strong> Не оставляйте аппарат без присмотра! В Cookingdom вам может потребоваться управлять несколькими задачами, поэтому следите за своим попкорном.</p>
+    </li>
+    <li>
+        <h3>Приправить попкорн:</h3>
+        <p>Как только попкорн будет готов, пришло время его приправить. Cookingdom предлагает различные варианты приправ, такие как масло, соль, сыр или карамель. Обязательно выберите правильную приправу для каждого заказа клиента.</p>
+        <p><strong>Совет:</strong> Вы можете добавить несколько слоев приправ, чтобы усилить вкус. Например, начните с масла, затем посыпьте немного соли или сыра для дополнительного вкуса.</p>
+    </li>
+    <li>
+        <h3>Подать попкорн:</h3>
+        <p>Как только попкорн приправлен, пришло время его подавать. Убедитесь, что попкорн все еще горячий и свежий, когда вы передаете его клиенту.</p>
+        <p><strong>Совет:</strong> Чем свежее попкорн, тем выше оценки вы получите. Клиенты Cookingdom очень требовательны к свежести.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <strong>Идеальное время приготовления:</strong> Время — это все, когда дело доходит до приготовления попкорна. Слишком сильный нагрев или слишком долгое ожидание могут сжечь попкорн, в то время как слишком слабый нагрев может оставить зерна невзорвавшимися. Обращайте внимание на звуки взрывов и обязательно остановите процесс, как только взрывы замедлятся.
+    </li>
+    <li>
+        <strong>Настройка вкуса:</strong> В Cookingdom ключ к успеху — удовлетворение предпочтений ваших клиентов. Некоторые клиенты могут захотеть простой попкорн, в то время как другие могут захотеть попкорн с маслом, сыром или карамелью. Обязательно внимательно читайте каждый заказ и применяйте правильную ароматизацию, чтобы ваши клиенты остались довольны.
+    </li>
+    <li>
+        <strong>Улучшайте свое оборудование:</strong> По мере продвижения в Cookingdom рассмотрите возможность улучшения вашего аппарата для попкорна. Более быстрый поппер позволит вам обслуживать нескольких клиентов за меньшее время, повышая вашу эффективность и рейтинги.
+    </li>
+    <li>
+        <strong>Скорость и эффективность:</strong> Cookingdom требует быстрого обслуживания, и Уровень 11 не исключение. Старайтесь подавать попкорн, как только он будет приготовлен и приправлен. Чем быстрее вы подадите, тем выше ваши шансы получить положительную оценку от клиентов.
+    </li>
+    <li>
+        <strong>Обработка нескольких заказов:</strong> По мере прибытия большего количества клиентов вам нужно будет готовить несколько заказов попкорна одновременно. Тщательно управляйте процессом приготовления и старайтесь не оставлять попкорн в аппарате слишком долго. Всегда подавайте самый свежий попкорн, чтобы избежать жалоб.
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 11-м уровне Cookingdom приготовление попкорна кажется простым, но требует внимания к деталям в расчете времени и приправах. Идеально взорванные зерна, правильное количество приправ и быстрое обслуживание гарантируют, что ваши клиенты уйдут довольными. Будь то базовый заказ или запрос на дополнительное масло и сыр, ваша эффективность и навыки многозадачности будут проверены.</p>
+<p>По мере продолжения игры в Cookingdom сложность управления заказами будет возрастать, но освоение попкорна даст вам основу, необходимую для решения более сложных блюд. Следите за улучшениями, управляйте несколькими заказами и сосредоточьтесь на доставке свежего, вкусного попкорна, чтобы ваши клиенты возвращались снова и снова!</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-12',
+    title: 'Уровень 12:<br>Рамэн',
+    pageTitle: 'Cookingdom Уровень 12 - Руководство по Рамэну',
+    pageSubtitle: 'Научитесь готовить сытный и сложный рамэн в Cookingdom Уровень 12.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-12',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 12: Рамэн | Советы и стратегия',
+      description:
+        'Освойте Рамэн в Cookingdom Уровень 12. Советы по идеальному бульону, лапше, топпингам и быстрому обслуживанию.',
+      keywords:
+        'cookingdom, уровень 12, рамэн, гайд, бульон, лапша, топпинги, управление временем, стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/f5f5dc/8b4513?text=Level+12+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Рамэн</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 5 минут</p><p><strong>Награда:</strong> 5 звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-9',
+          title: 'Уровень 9<br>Паста',
+          imageUrl: 'https://placehold.co/60x60/fff3e0/ff9800?text=Lvl+9', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-9',
+        },
+        {
+          id: 'cookingdom-game-level-10',
+          title: 'Уровень 10<br>Суши с лососем',
+          imageUrl: 'https://placehold.co/60x60/fff0f5/ff4081?text=Lvl+10', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-10',
+        },
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Уровень 11<br>Попкорн',
+          imageUrl: 'https://placehold.co/60x60/fffacd/daa520?text=Lvl+11', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-11',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom Уровень 12 представляет сытное и сложное блюдо: Рамэн. Этот японский фаворит требует одновременного приготовления нескольких компонентов: бульона, лапши и топпингов. В Cookingdom ваша цель — создать идеальную миску рамэна, которая заставит ваших клиентов возвращаться снова и снова. Вам нужно будет балансировать время, выполнять несколько задач одновременно и обращать внимание на детали, чтобы каждая миска рамэна была ароматной, теплой и идеально украшенной.</p>
+<p>Рамэн в Cookingdom — это возможность продемонстрировать свои навыки как в приготовлении, так и в подаче, поскольку у клиентов будут особые предпочтения относительно их миски рамэна. Давайте погрузимся в шаги по приготовлению этого сложного блюда!</p>
+
+<h2 id="goal">Цели 12-го уровня</h2>
+<ul>
+    <li><strong>Приготовить бульон для рамэна:</strong> Бульон — основа любого отличного рамэна, и в Cookingdom правильное его приготовление необходимо для удовлетворения клиентов. Вам нужно будет убедиться, что бульон ароматный и хорошо приправлен.</li>
+    <li><strong>Сварить лапшу для рамэна:</strong> Лапша для рамэна готовится быстро, но ее нужно идеально рассчитать по времени. Слишком долго в воде — и она переварится; слишком мало — и она будет слишком жесткой.</li>
+    <li><strong>Добавить топпинги:</strong> Завершающие штрихи рамэна так же важны, как лапша и бульон. Вам нужно будет приготовить топпинги, такие как яйца, овощи и мясо, и аккуратно их расположить для визуально привлекательного блюда.</li>
+    <li><strong>Подавать быстро:</strong> Время — это все в Cookingdom, и рамэн лучше всего подавать свежим и горячим. Чем быстрее вы подадите рамэн, тем счастливее будут ваши клиенты.</li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению рамэна</h2>
+<ol>
+    <li>
+        <h3>Приготовить бульон для рамэна:</h3>
+        <p>Первый шаг в приготовлении рамэна — это подготовка бульона. Cookingdom проведет вас через процесс добавления ингредиентов в кастрюлю для создания идеального бульона. Обычно насыщенный, пикантный бульон готовится из смеси воды, соевого соуса, мисо и/или куриного бульона.</p>
+        <p><strong>Совет:</strong> В Cookingdom вы сможете регулировать вкус, добавляя такие ингредиенты, как чеснок, имбирь или зеленый лук. Убедитесь, что бульон варится достаточно долго, чтобы он стал насыщенным и ароматным.</p>
+        <p><strong>Совет:</strong> Следите за температурой. Если бульон слишком горячий или слишком холодный, он может не иметь нужной консистенции. Периодически помешивайте, чтобы избежать подгорания или чрезмерного выкипания.</p>
+    </li>
+    <li>
+        <h3>Сварить лапшу для рамэна:</h3>
+        <p>Пока бульон варится, начните готовить лапшу для рамэна. В Cookingdom лапша готовится быстро, обычно всего за несколько минут. Добавьте лапшу в кипящую воду и убедитесь, что она не слипается.</p>
+        <p><strong>Совет:</strong> Периодически помешивайте лапшу, чтобы она не слипалась. Вы поймете, что лапша готова, когда она станет нежной, но все еще упругой на укус.</p>
+        <p><strong>Совет:</strong> Время здесь имеет решающее значение! Недоваренная лапша будет слишком жевательной, а переваренная превратится в кашу. Следите за таймером, чтобы убедиться, что лапша приготовлена идеально.</p>
+    </li>
+    <li>
+        <h3>Приготовить топпинги:</h3>
+        <p>Пока бульон варится, а лапша готовится, пришло время подготовить топпинги для вашего рамэна. Cookingdom предлагает различные варианты, такие как вареные яйца, нарезанная свинина, водоросли, кукуруза и овощи.</p>
+        <p><strong>Совет:</strong> Яйца всмятку — популярный топпинг для рамэна. Чтобы приготовить их, варите яйца 6-7 минут для слегка жидкого желтка, а затем аккуратно очистите их.</p>
+        <p><strong>Совет:</strong> Вы также можете добавить овощи, такие как шпинат, бок-чой или грибы. Обжарьте их слегка или подавайте свежими, в зависимости от вашего рецепта в Cookingdom.</p>
+    </li>
+    <li>
+        <h3>Собрать рамэн:</h3>
+        <p>Как только бульон, лапша и топпинги будут готовы, пришло время собрать миску рамэна. Начните с наливания бульона в миску, затем добавьте приготовленную лапшу. Аккуратно разложите топпинги сверху, убедившись, что блюдо выглядит аппетитно и сбалансированно.</p>
+        <p><strong>Совет:</strong> Подача — ключ в Cookingdom. Аккуратно разложите топпинги и учитывайте цвета и текстуры, чтобы рамэн выглядел привлекательно. Хорошо поданное блюдо приведет к более высокой оценке клиента.</p>
+    </li>
+    <li>
+        <h3>Подать рамэн:</h3>
+        <p>Как только ваш рамэн идеально собран, пришло время подавать! Убедитесь, что рамэн горячий, когда вы его подаете, так как клиенты Cookingdom ожидают свежую и дымящуюся еду.</p>
+        <p><strong>Совет:</strong> Не позволяйте рамэну стоять слишком долго. Чем дольше он ждет, тем холоднее становится, а холодный рамэн может разочаровать клиентов.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <strong>Идеальный бульон:</strong> Бульон — душа рамэна, поэтому убедитесь, что приправа подобрана правильно. Экспериментируйте с различными ингредиентами, чтобы настроить вкус по своему усмотрению. В Cookingdom вы можете изменять бульон в соответствии с предпочтениями клиента (например, солонее, острее).
+        <p><strong>Совет:</strong> Добавьте небольшое количество соевого соуса или мисо для более насыщенного вкуса. Также рассмотрите возможность варить бульон дольше, чтобы углубить вкус.</p>
+    </li>
+    <li>
+        <strong>Рассчитать время для лапши:</strong> Cookingdom бросает вам вызов приготовить лапшу для рамэна правильно. Внимательно следите за таймером и помешивайте лапшу, чтобы предотвратить слипание. Если лапша переварится, она потеряет свою текстуру, и ваши клиенты не будут удовлетворены.
+    </li>
+    <li>
+        <strong>Разнообразие топпингов:</strong> Клиенты в Cookingdom могут запрашивать разные топпинги, поэтому будьте готовы настроить их миску рамэна в соответствии с их предпочтениями. Будь то вареное яйцо, нарезанная свинина или свежие овощи, всегда внимательно проверяйте заказ, чтобы избежать ошибок.
+        <p><strong>Совет:</strong> Добавление более ярких ингредиентов может улучшить подачу и вкус рамэна. Зеленый лук, кунжутные семечки или хлопья чили — отличные дополнения.</p>
+    </li>
+    <li>
+        <strong>Улучшайте кухонные инструменты:</strong> По мере продвижения в Cookingdom вы можете разблокировать улучшения для своей кухни. Рассмотрите возможность улучшения кастрюли для более быстрой подготовки бульона или большей плиты для более эффективного приготовления лапши. Это может сэкономить вам время и помочь быстрее удовлетворять запросы клиентов.
+    </li>
+    <li>
+        <strong>Многозадачность:</strong> В Cookingdom вам, вероятно, придется управлять несколькими заказами одновременно. Начните готовить бульон заранее и готовьте лапшу во время подготовки топпингов, чтобы сэкономить время. Управление несколькими элементами одновременно имеет решающее значение для того, чтобы все сделать правильно вовремя.
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 12-м уровне Cookingdom приготовление рамэна включает в себя тщательный баланс между приготовлением бульона, подготовкой лапши и добавлением идеальных топпингов. Это многоэтапное блюдо, требующее расчета времени, точности и скорости. Ключ к успеху — убедиться, что все приготовлено идеально и подано горячим. С практикой вы сможете справиться с этим ароматным блюдом и порадовать своих клиентов правильным сочетанием ингредиентов.</p>
+<p>По мере продолжения игры в Cookingdom задачи будут усложняться, но освоение рамэна поставит вас на путь становления лучшим шеф-поваром в игре. Удовлетворяйте своих клиентов хорошо приправленным бульоном, нежной лапшой и свежими топпингами, и вы продолжите подниматься в рейтингах Cookingdom!</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-13',
+    title: 'Уровень 13:<br>Хот-дог',
+    pageTitle: 'Cookingdom Уровень 13 - Руководство по Хот-догу',
+    pageSubtitle: 'Научитесь готовить идеальный хот-дог в Cookingdom Уровень 13.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-13',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Гайд по Cookingdom Уровень 13: Хот-дог | Советы и стратегия',
+      description:
+        'Освойте Хот-дог в Cookingdom Уровень 13. Советы по приготовлению сосисок, поджариванию булочек, добавлению приправ и быстрому обслуживанию.',
+      keywords:
+        'cookingdom, уровень 13, хот-дог, гайд, сосиска, булочка, приправы, фаст-фуд, стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffebcd/ff4500?text=Level+13+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Хот-дог</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 4 звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-10',
+          title: 'Уровень 10<br>Суши с лососем',
+          imageUrl: 'https://placehold.co/60x60/fff0f5/ff4081?text=Lvl+10', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-10',
+        },
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Уровень 11<br>Попкорн',
+          imageUrl: 'https://placehold.co/60x60/fffacd/daa520?text=Lvl+11', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-11',
+        },
+        {
+          id: 'cookingdom-game-level-12',
+          title: 'Уровень 12<br>Рамэн',
+          imageUrl: 'https://placehold.co/60x60/f5f5dc/8b4513?text=Lvl+12', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-12',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom Уровень 13 знакомит вас с любимой классикой фаст-фуда: хот-догом. Хотя это может показаться простым, приготовление идеального хот-дога требует внимания к деталям, особенно при управлении заказами клиентов и времени. На этом уровне вам нужно будет сосредоточиться на приготовлении идеальной сосиски, поджаривании булочек и добавлении правильных приправ, чтобы удовлетворить желания ваших клиентов.</p>
+<p>Задача в Cookingdom заключается в том, чтобы не отставать от растущего спроса клиентов, обеспечивая при этом быструю и идеальную подачу каждого хот-дога. Готовы ли вы принять этот вкусный вызов? Давайте разберем, как приготовить идеальный хот-дог!</p>
+
+<h2 id="goal">Цели 13-го уровня</h2>
+<ul>
+    <li><strong>Приготовить сосиски:</strong> Сосиска — звезда хот-дога. Вам нужно будет поджарить ее до нужной степени хрусткости, не пережарив.</li>
+    <li><strong>Поджарить булочки:</strong> Булочки должны быть слегка поджарены, чтобы добавить приятный хруст и усилить вкус хот-дога.</li>
+    <li><strong>Добавить приправы и топпинги:</strong> Настройте каждый хот-дог с помощью популярных приправ, таких как кетчуп, горчица, релиш, лук и другие топпинги. Убедитесь, что каждый заказ соответствует предпочтениям клиента.</li>
+    <li><strong>Подавать быстро:</strong> Как и со всеми блюдами в Cookingdom, быстрая подача хот-дога является ключевым моментом. Чем быстрее вы подадите, тем счастливее будут ваши клиенты.</li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению хот-дога</h2>
+<ol>
+    <li>
+        <h3>Приготовить сосиски:</h3>
+        <p>Начните с приготовления сосисок. В Cookingdom вам будет предоставлен гриль или плита, где вы сможете нагреть сосиски. Обязательно внимательно следите за временем приготовления — слишком долго, и они сгорят, слишком коротко, и они будут недоготовлены.</p>
+        <p><strong>Совет:</strong> Ищите визуальные подсказки, такие как подрумянивание или шипение, чтобы определить, когда сосиски готовы. Продолжайте переворачивать их, чтобы обеспечить равномерное приготовление со всех сторон.</p>
+    </li>
+    <li>
+        <h3>Поджарить булочки:</h3>
+        <p>Пока сосиски готовятся, вы можете поджарить булочки. Положите булочки на гриль или сковороду, убедившись, что они слегка подрумянились и стали немного хрустящими. В Cookingdom булочки должны быть мягкими внутри, но иметь легкий хруст снаружи.</p>
+        <p><strong>Совет:</strong> Не переусердствуйте с поджариванием! Вы хотите, чтобы булочки были теплыми и хрустящими, но не сгоревшими. Следите за ними, чтобы они не стали слишком темными.</p>
+    </li>
+    <li>
+        <h3>Приготовить приправы и топпинги:</h3>
+        <p>Cookingdom позволяет добавлять различные приправы к вашему хот-догу. Общие варианты включают:</p>
+        <ul>
+            <li>Кетчуп</li>
+            <li>Горчица</li>
+            <li>Релиш</li>
+            <li>Лук</li>
+            <li>Квашеная капуста</li>
+            <li>Сыр</li>
+            <li>Маринованные огурцы</li>
+            <li>Халапеньо</li>
+        </ul>
+        <p>Убедитесь, что вы внимательно прочитали каждый заказ клиента, чтобы добавить правильные приправы и топпинги. Некоторые клиенты могут предпочесть базовый хот-дог, в то время как другие хотят дополнительные топпинги.</p>
+        <p><strong>Совет:</strong> Вы можете добавить несколько топпингов для более ароматного и сложного хот-дога. Обязательно равномерно распределите их по сосиске для сбалансированного укуса.</p>
+    </li>
+    <li>
+        <h3>Собрать хот-дог:</h3>
+        <p>Как только сосиска идеально приготовлена, а булочки поджарены, пришло время собрать хот-дог. Положите сосиску в булочку и добавьте запрошенные приправы и топпинги. Cookingdom позволяет настраивать каждый заказ, поэтому обращайте внимание на детали!</p>
+        <p><strong>Совет:</strong> Не переполняйте хот-дог. Немного приправ достаточно, а слишком много топпингов могут перебить вкус сосиски.</p>
+    </li>
+    <li>
+        <h3>Подать хот-дог:</h3>
+        <p>После сборки хот-дога пришло время его подавать. Убедитесь, что он все еще теплый и свежий. Клиенты Cookingdom ожидают, что их еда будет горячей и вкусной, поэтому не оставляйте ее слишком долго.</p>
+        <p><strong>Совет:</strong> Чем свежее хот-дог, тем выше будет ваш рейтинг. Подавайте его быстро, чтобы ваши клиенты остались довольны.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <strong>Контролируйте время приготовления:</strong> Время имеет решающее значение при поджаривании сосисок и булочек. Недоготовленные сосиски будут невкусными, а пережаренные — сухими. Внимательно следите за процессом приготовления, чтобы достичь идеального баланса.
+    </li>
+    <li>
+        <strong>Настройка — ключ к успеху:</strong> В Cookingdom клиенты часто имеют особые предпочтения относительно своих хот-догов. Некоторые могут захотеть дополнительную горчицу, в то время как другие предпочитают более простую версию. Всегда внимательно читайте каждый заказ и настраивайте хот-дог в соответствии с запросом.
+    </li>
+    <li>
+        <strong>Используйте острый нож для топпингов:</strong> Если вы добавляете топпинги, такие как лук или маринованные огурцы, убедитесь, что вы нарезали их тонко. В Cookingdom важна аккуратная подача, а хорошо нарезанные топпинги делают хот-дог более привлекательным визуально.
+    </li>
+    <li>
+        <strong>Улучшайте свое оборудование:</strong> По мере продвижения в Cookingdom рассмотрите возможность улучшения вашего гриля или плиты. Более быстрый процесс приготовления поможет вам справляться с несколькими заказами одновременно, повышая вашу эффективность на оживленной кухне.
+        <p><strong>Совет:</strong> Вы также можете улучшить тостер для булочек, чтобы ускорить процесс поджаривания, позволяя вам справляться с возросшим спросом клиентов.</p>
+    </li>
+    <li>
+        <strong>Подавайте быстро:</strong> Cookingdom вознаграждает за быстрое обслуживание. Чем быстрее вы соберете и подадите хот-дог, тем выше будет удовлетворенность клиента. Всегда следите за временем, так как клиенты Cookingdom склонны терять терпение, если их еда не подается быстро.
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 13-м уровне Cookingdom приготовление идеального хот-дога — это вопрос времени и настройки. Приготовление сосисок и булочек до совершенства, добавление правильных приправ и быстрая подача — ключ к успеху. Как и на всех уровнях в Cookingdom, многозадачность необходима. Держите гриль и тостер для булочек работающими в тандеме во время подготовки топпингов, чтобы максимизировать эффективность.</p>
+<p>Освоение этой классики фаст-фуда поможет вам продолжать прогрессировать в Cookingdom. Независимо от того, подаете ли вы простой хот-дог или загруженный топпингами, внимание к деталям и скорость будут иметь решающее значение для получения высоких оценок от ваших клиентов.</p>
+`,
+  },
+  {
+    id: 'cookingdom-game-level-14',
+    title: 'Уровень 14:<br>Лосось с Минестроне',
+    pageTitle: 'Cookingdom Уровень 14 - Руководство по Лососю с Минестроне',
+    pageSubtitle:
+      'Узнайте, как приготовить изысканный лосось с супом минестроне на уровне 14 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-14',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 14 Руководство: Лосось с Минестроне | Советы и Стратегии',
+      description:
+        'Освойте лосося с минестроне на уровне 14 в Cookingdom. Получите советы по приготовлению лосося, супа минестроне и балансировке сложных блюд.',
+      keywords:
+        'Cookingdom, Уровень 14, Лосось, Минестроне, Суп Минестроне, Руководство, Приготовление рыбы, Итальянский суп, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/e6e6fa/ff69b4?text=Level+14+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Лосось с Минестроне</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 минуты</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Уровень 11<br>Попкорн',
+          imageUrl: 'https://placehold.co/60x60/fffacd/daa520?text=Lvl+11', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-11',
+        },
+        {
+          id: 'cookingdom-game-level-12',
+          title: 'Уровень 12<br>Рамен',
+          imageUrl: 'https://placehold.co/60x60/f5f5dc/8b4513?text=Lvl+12', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-12',
+        },
+        {
+          id: 'cookingdom-game-level-13',
+          title: 'Уровень 13<br>Хот-дог',
+          imageUrl: 'https://placehold.co/60x60/ffebcd/ff4500?text=Lvl+13', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-13',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom 14-й уровень представляет немного более изысканное блюдо: лосось с минестроне. Этот уровень сочетает в себе два популярных продукта — здоровое, богатое белком филе лосося и сытную миску овощного итальянского супа. Как и во всех рецептах в Cookingdom, внимание к деталям, тайминг и многозадачность имеют решающее значение для создания идеального блюда для ваших клиентов.</p>
+<p>В отличие от других уровней, которые фокусируются на более простой еде, этот уровень бросает вам вызов, требуя сбалансировать два сложных элемента одновременно: лосося и суп. Давайте разберем, как успешно приготовить лосося с минестроне в Cookingdom.</p>
+
+<h2 id="goal">Цели 14-го уровня</h2>
+<ul>
+    <li><strong>Приготовить лосося:</strong> Лосось должен быть приготовлен идеально — хрустящий снаружи и нежный внутри. Вам нужно будет убедиться, что время выбрано правильно, чтобы не пересушить рыбу.</li>
+    <li><strong>Приготовить минестроне:</strong> Минестроне — это сытный итальянский суп, приготовленный из различных овощей, бобов и макарон. В Cookingdom вам нужно будет тщательно управлять каждым ингредиентом, чтобы суп получился ароматным и хорошо приготовленным.</li>
+    <li><strong>Подавать быстро:</strong> Как всегда в Cookingdom, подача блюд быстро и свежо — ключ к получению хороших отзывов. Лосось должен быть горячим, суп — вкусным, и оба компонента должны быть поданы вместе, пока они еще свежие и аппетитные.</li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению лосося с минестроне</h2>
+<ol>
+    <li>
+        <h3>Приготовление минестроне:</h3>
+        <p>Начните с приготовления минестроне. В Cookingdom вы сначала обжарите базовые ингредиенты, такие как лук, чеснок и морковь, в кастрюле. Как только они станут мягкими, вы добавите бобы, овощи, макароны и бульон.</p>
+        <p><strong>Совет:</strong> Регулярно помешивайте суп, чтобы он не прилипал ко дну кастрюли. Как только все смешается, дайте супу покипеть, чтобы ароматы смешались. Он будет готов, когда овощи станут мягкими, а суп — густым и ароматным.</p>
+        <p><strong>Совет:</strong> Суп имеет визуальный таймер в Cookingdom. Следите за ним, чтобы не переварить. Переваренный суп потеряет свой свежий вкус и текстуру.</p>
+    </li>
+    <li>
+        <h3>Приготовление лосося:</h3>
+        <p>Пока суп кипит, сосредоточьтесь на лососе. Положите филе лосося на разогретый гриль или сковороду. В Cookingdom лосось нужно обжарить с обеих сторон до хрустящей корочки, оставаясь нежным внутри.</p>
+        <p><strong>Совет:</strong> Идеальное время приготовления лосося в Cookingdom имеет решающее значение. Следите за золотисто-коричневой корочкой снаружи и проверяйте готовность внутри. Пересушенный лосось будет сухим, поэтому убедитесь, что он только что приготовлен — слегка розовый цвет внутри — признак идеального лосося.</p>
+        <p><strong>Совет:</strong> Вы можете добавить приправы или немного лимонного сока, чтобы улучшить вкус лосося.</p>
+    </li>
+    <li>
+        <h3>Сборка блюда:</h3>
+        <p>Когда лосось и минестроне будут готовы, пришло время собрать блюдо. Начните с того, что налейте суп в миску, убедившись, что в нем хорошее соотношение овощей, макарон и бульона. Положите приготовленное филе лосося рядом с супом, убедившись, что лосось аккуратно расположен, чтобы дополнить подачу супа.</p>
+        <p><strong>Совет:</strong> Подача важна в Cookingdom! Красиво выложите лосося на тарелку и убедитесь, что в супе достаточно овощей и макарон.</p>
+    </li>
+    <li>
+        <h3>Подача:</h3>
+        <p>Как только лосось с минестроне будет собран, пора его подавать. Убедитесь, что и лосось, и суп горячие. Клиенты Cookingdom ожидают свежих, горячих блюд, и быстрая подача поможет повысить ваши оценки.</p>
+        <p><strong>Совет:</strong> Не ждите слишком долго, чтобы подать блюдо. Чем дольше оно стоит, тем холоднее становится, а холодная еда приводит к недовольным клиентам.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <strong>Идеально приготовленный лосось:</strong> Чтобы избежать пересушивания лосося, используйте визуальный таймер или следите за изменением цвета. Лосось должен иметь красивую золотисто-коричневую корочку снаружи, оставаясь нежным и слегка розовым внутри. Не оставляйте его на гриле слишком долго.
+    </li>
+    <li>
+        <strong>Балансировка минестроне:</strong> Cookingdom требует, чтобы вы сбалансировали различные элементы в минестроне, такие как макароны, овощи и бобы. Убедитесь, что вы добавляете нужное количество каждого ингредиента и не позволяете одному доминировать над другими.
+        <p><strong>Совет:</strong> Если суп кажется слишком густым, добавьте немного дополнительного бульона или воды, чтобы разбавить его перед подачей.</p>
+    </li>
+    <li>
+        <strong>Время — это все:</strong> Управление временем приготовления лосося и супа одновременно может быть сложным. Используйте свои навыки многозадачности, чтобы лосось не переварился, пока суп заканчивает кипеть.
+        <p><strong>Совет:</strong> Вы можете начать с супа, а затем сосредоточиться на лососе. Таким образом, у супа будет достаточно времени, чтобы покипеть, пока вы заканчиваете приготовление рыбы.</p>
+    </li>
+    <li>
+        <strong>Улучшайте свою кухню:</strong> По мере продвижения в Cookingdom рассмотрите возможность улучшения кухонного оборудования. Более быстрое время приготовления (как для лосося, так и для супа) поможет вам обрабатывать больше заказов за меньшее время, повышая эффективность и удовлетворенность клиентов.
+        <p><strong>Совет:</strong> Улучшите свои плиты для более быстрого приготовления и ищите способы ускорить процесс кипения супа.</p>
+    </li>
+    <li>
+        <strong>Подавайте горячим:</strong> Свежесть — ключ к успеху в Cookingdom, поэтому убедитесь, что вы подаете лосося с минестроне сразу же, как только оба компонента будут готовы. Холодная или теплая еда приведет к разочарованию клиентов и снижению оценок.
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>Приготовление лосося с минестроне на 14-м уровне Cookingdom требует точности и многозадачности. Приготовить лосося до идеальной нежности и хрусткости, одновременно доведя суп до вкусного завершения, может быть непросто, но полезно. Управление обоими элементами и подача их горячими и свежими гарантирует, что ваши клиенты уйдут довольными.</p>
+<p>Сосредоточившись на идеальном тайминге, балансировке вкусов супа и обеспечении того, чтобы лосось был приготовлен правильно, вы быстро освоите это блюдо. Продолжайте улучшать свое оборудование и оттачивать свои навыки, чтобы справиться со все более сложными блюдами по мере продвижения в Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 15
+    id: 'cookingdom-game-level-15',
+    title: 'Уровень 15:<br>Жареная Курица',
+    pageTitle: 'Cookingdom Уровень 15 - Руководство по Жареной Курице',
+    pageSubtitle:
+      'Узнайте, как приготовить хрустящую и сочную жареную курицу на уровне 15 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-15',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 15 Руководство: Жареная Курица | Советы и Стратегия',
+      description:
+        'Освойте жареную курицу на уровне 15 в Cookingdom. Получите советы по приготовлению хрустящей курицы, управлению гарнирами (картофельное пюре, салат коулслоу, картофель фри) и быстрой подаче.',
+      keywords:
+        'Cookingdom, Уровень 15, Жареная Курица, Курица Фри, Руководство, Хрустящая Курица, Гарниры, Картофельное Пюре, Салат Коулслоу, Картофель Фри, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffe0b2/fb8c00?text=Level+15+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Жареная Курица</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3.5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-12',
+          title: 'Уровень 12<br>Рамен',
+          imageUrl: 'https://placehold.co/60x60/f5f5dc/8b4513?text=Lvl+12', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-12',
+        },
+        {
+          id: 'cookingdom-game-level-13',
+          title: 'Уровень 13<br>Хот-дог',
+          imageUrl: 'https://placehold.co/60x60/ffebcd/ff4500?text=Lvl+13', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-13',
+        },
+        {
+          id: 'cookingdom-game-level-14',
+          title: 'Уровень 14<br>Лосось с Минестроне',
+          imageUrl: 'https://placehold.co/60x60/e6e6fa/ff69b4?text=Lvl+14', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-14',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom 15-й уровень представляет классическое блюдо комфортной еды: Жареную Курицу. Этот уровень бросает вам вызов, требуя приготовить хрустящую, золотисто-коричневую жареную курицу в сочетании с идеальными гарнирами для создания сытного блюда. Процесс может показаться простым, но игра добавляет свои собственные трудности, чтобы держать вас в напряжении. Время, температура и приправы будут играть решающую роль в приготовлении хрустящей и сочной курицы, при этом удовлетворяя ваших клиентов.</p>
+<p>Приготовление идеальной Жареной Курицы в Cookingdom требует как сосредоточенности, так и скорости. Давайте погрузимся в шаги для успешного приготовления этого сытного блюда!</p>
+
+<h2 id="goal">Цели 15-го уровня</h2>
+<ul>
+    <li>
+        <strong>Приготовить курицу:</strong> Курица должна быть покрыта приправленным кляром и обжарена до золотистого совершенства. Управление температурой масла является ключом к тому, чтобы избежать недожаривания или сгорания курицы.
+    </li>
+    <li>
+        <strong>Приготовить гарниры:</strong> Обычно Жареная Курица подается с гарнирами, такими как картофельное пюре, салат коулслоу или картофель фри. Вам нужно будет сбалансировать приготовление этих гарниров во время жарки курицы.
+    </li>
+    <li>
+        <strong>Подавать быстро:</strong> Как и на всех уровнях в Cookingdom, быстрая подача блюда важна для удовлетворенности клиентов. Свежие и горячие блюда принесут вам лучшие оценки.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Жареной Курицы</h2>
+<ol>
+    <li>
+        <h3>Подготовка курицы:</h3>
+        <p>Начните с приправы кусочков курицы. В Cookingdom вы окунете курицу в приправленный кляр перед тем, как поместить ее на горячую сковороду или во фритюрницу.</p>
+        <p><strong>Совет:</strong> Убедитесь, что кляр равномерно покрывает курицу для получения хрустящей и золотистой корочки. Приправьте кляр, чтобы улучшить вкус, и убедитесь, что температура масла правильная. Если масло слишком горячее, курица снаружи сгорит, а внутри останется сырой.</p>
+        <p><strong>Совет:</strong> Периодически переворачивайте кусочки курицы во время жарки, чтобы они равномерно прожарились и приобрели идеальную хрустящую текстуру.</p>
+    </li>
+    <li>
+        <h3>Приготовление гарниров:</h3>
+        <p>Пока курица жарится, вам нужно приготовить гарниры. Обычные гарниры для Жареной Курицы включают:</p>
+        <ul>
+            <li><strong>Картофельное пюре:</strong> В Cookingdom вам нужно будет отварить и размять картофель, затем добавить масло, молоко и приправы.</li>
+            <li><strong>Салат Коулслоу:</strong> Вы можете быстро приготовить салат коулслоу, нарезав овощи и смешав их со сливочным соусом.</li>
+            <li><strong>Картофель фри:</strong> Если в меню есть картофель фри, убедитесь, что он обжарен до хрустящей и золотисто-коричневой корочки.</li>
+        </ul>
+        <p><strong>Совет:</strong> Вы можете приготовить эти гарниры, пока жарится курица. Если вы выполняете несколько задач одновременно, убедитесь, что ни один из гарниров не пережарен или недожарен.</p>
+    </li>
+    <li>
+        <h3>Сборка блюда:</h3>
+        <p>Как только курица идеально обжарена и гарниры готовы, пришло время выложить блюдо на тарелку. Разложите жареную курицу на тарелке и добавьте гарниры, убедившись, что все хорошо представлено. Вы можете добавить гарниры, такие как петрушка или немного соуса, для дополнительного вкуса.</p>
+        <p><strong>Совет:</strong> Сбалансируйте гарниры с жареной курицей, чтобы блюдо выглядело аппетитно. Красиво оформленная тарелка произведет впечатление на ваших клиентов.</p>
+    </li>
+    <li>
+        <h3>Подача Жареной Курицы:</h3>
+        <p>После оформления подавайте блюдо быстро, пока оно еще горячее. Клиенты Cookingdom ожидают свежеприготовленных блюд, и чем быстрее вы подадите, тем выше будут ваши оценки.</p>
+        <p><strong>Совет:</strong> Не позволяйте курице долго стоять перед подачей. Жареная курица лучше всего наслаждаться сразу после приготовления, так как она может потерять свою хрусткость при остывании.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Идеальная Жареная Курица:</h3>
+        <p>Ключ к идеальной жареной курице — жарка при правильной температуре. Если масло слишком горячее, кляр сгорит до того, как курица полностью приготовится внутри. Если масло слишком холодное, курица впитает слишком много масла и станет жирной.</p>
+        <p><strong>Совет:</strong> Поддерживайте постоянную температуру масла. Вы можете проверить масло, бросив в него небольшой кусочек кляра; он должен сразу зашипеть, не сгорая.</p>
+    </li>
+    <li>
+        <h3>Управление гарнирами:</h3>
+        <p>Cookingdom бросает вам вызов в многозадачности, поэтому управление приготовлением гарниров так же важно, как и жарка курицы. Обязательно следите за таймером, чтобы ничего не пережарилось.</p>
+        <p><strong>Совет:</strong> Начинайте готовить гарниры, как только курица окажется во фритюрнице. Картофельное пюре и картофель фри можно приготовить быстро, а салат коулслоу можно сделать заранее.</p>
+    </li>
+    <li>
+        <h3>Приправы:</h3>
+        <p>Приправы имеют решающее значение в Cookingdom. Кляр для курицы должен содержать нужное количество соли, перца и специй. Не забудьте также приправить гарниры для сбалансированного вкуса.</p>
+        <p><strong>Совет:</strong> Вы можете регулировать приправы в зависимости от предпочтений клиента, например, добавить больше специй в кляр для тех, кто любит поострее.</p>
+    </li>
+    <li>
+        <h3>Улучшайте свое оборудование:</h3>
+        <p>По мере продвижения в Cookingdom рассмотрите возможность улучшения вашей фритюрницы и плиты. Более быстрый процесс приготовления поможет вам справляться с растущим объемом заказов на более поздних уровнях.</p>
+        <p><strong>Совет:</strong> Улучшения кухонного оборудования ускорят процесс жарки и обеспечат быстрое приготовление гарниров.</p>
+    </li>
+    <li>
+        <h3>Не позволяйте маслу остывать:</h3>
+        <p>Cookingdom требует, чтобы масло оставалось достаточно горячим для правильного приготовления курицы. Если масло слишком сильно остынет, курица впитает больше масла и потеряет хрусткость. Следите за температурой и при необходимости регулируйте ее.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 15-м уровне Cookingdom приготовление Жареной Курицы включает в себя обжаривание курицы до хрустящего совершенства и управление гарнирами, такими как картофельное пюре, салат коулслоу или картофель фри. Время и многозадачность имеют важное значение, так как вам нужно одновременно управлять процессом жарки и приготовлением гарниров.</p>
+<p>Идеально приправленная курица, золотистый картофель фри и нежное картофельное пюре заставят ваших клиентов возвращаться снова и снова. Как всегда в Cookingdom, скорость и подача имеют значение, поэтому убедитесь, что все подается свежим и горячим!</p>
+<p>Освоив Жареную Курицу и улучшив свои навыки многозадачности, вы продолжите повышать свой уровень и справляться с еще более сложными блюдами в Cookingdom.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 16
+    id: 'cookingdom-game-level-16',
+    title: 'Уровень 16:<br>Техасское BBQ',
+    pageTitle: 'Cookingdom Уровень 16 - Руководство по Техасскому BBQ',
+    pageSubtitle: 'Освойте дымное и ароматное Техасское BBQ на уровне 16 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-16',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 16 Руководство: Техасское BBQ | Советы и Стратегия',
+      description:
+        'Узнайте, как готовить Техасское BBQ (ребра, грудинка) на уровне 16 в Cookingdom. Получите советы по медленному приготовлению, соусу BBQ, гарнирам (кукурузный хлеб, печеные бобы, коулслоу) и таймингу.',
+      keywords:
+        'Cookingdom, Уровень 16, Техасское BBQ, Руководство BBQ, Ребра, Грудинка, Соус BBQ, Кукурузный хлеб, Печеные бобы, Салат Коулслоу, Медленное приготовление, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/d7ccc8/795548?text=Level+16+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Техасское BBQ</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-13',
+          title: 'Уровень 13<br>Хот-дог',
+          imageUrl: 'https://placehold.co/60x60/ffebcd/ff4500?text=Lvl+13', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-13',
+        },
+        {
+          id: 'cookingdom-game-level-14',
+          title: 'Уровень 14<br>Лосось с Минестроне',
+          imageUrl: 'https://placehold.co/60x60/e6e6fa/ff69b4?text=Lvl+14', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-14',
+        },
+        {
+          id: 'cookingdom-game-level-15',
+          title: 'Уровень 15<br>Жареная Курица',
+          imageUrl: 'https://placehold.co/60x60/ffe0b2/fb8c00?text=Lvl+15', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-15',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom 16-й уровень приносит на кухню смелое и ароматное Техасское BBQ. Этот уровень бросает вам вызов приготовить сытное, дымное BBQ-блюдо с различными видами мяса, соусами и гарнирами. Техасское BBQ — это все о медленно приготовленном мясе с дымными ароматами, и ключ к успеху здесь — правильно подобрать время и приправы для аппетитного блюда.</p>
+<p>На этом уровне вы будете готовить BBQ-мясо, такое как ребра или грудинка, и сочетать его с классическими BBQ-гарнирами, такими как кукурузный хлеб, печеные бобы и салат коулслоу. Задача в Cookingdom — сбалансировать время приготовления мяса и гарниров, обеспечив при этом, чтобы все подавалось горячим и ароматным.</p>
+<p>Давайте погрузимся в детали 16-го уровня и освоим Техасское BBQ!</p>
+
+<h2 id="goal">Цели 16-го уровня</h2>
+<ul>
+    <li>
+        <strong>Приготовить BBQ-мясо (ребра или грудинка):</strong> Вам нужно будет приготовить мясо до совершенства, убедившись, что оно нежное, сочное и полное дымного аромата. Это может занять время, поэтому управление временем приготовления является ключевым.
+    </li>
+    <li>
+        <strong>Приготовить соус BBQ:</strong> Хороший соус BBQ имеет решающее значение для подлинного техасского вкуса. Вам нужно убедиться, что соус хорошо приправлен и идеально сочетается с мясом.
+    </li>
+    <li>
+        <strong>Приготовить гарниры:</strong> Техасское BBQ обычно подается с гарнирами, такими как кукурузный хлеб, печеные бобы и салат коулслоу. Вам нужно будет поддерживать их приготовление, пока вы управляете BBQ-мясом.
+    </li>
+    <li>
+        <strong>Подавать быстро:</strong> Как всегда в Cookingdom, подача ваших BBQ-блюд горячими и свежими важна для получения высоких оценок от клиентов. Чем быстрее вы подаете, тем выше удовлетворенность клиентов.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Техасского BBQ</h2>
+<ol>
+    <li>
+        <h3>Приготовление BBQ-мяса (ребра или грудинка):</h3>
+        <p>Начните с приправы выбранного вами мяса (ребра или грудинка) сухой смесью специй или маринадом. В Cookingdom приправа будет предоставлена вам, так что ваша задача — равномерно нанести ее на мясо.</p>
+        <p>Как только мясо приправлено, поместите его в коптильню или на гриль. Cookingdom использует метод медленного приготовления, поэтому этот процесс может занять время. Контролируйте приготовление, чтобы убедиться, что мясо нежное и идеально приготовлено.</p>
+        <p><strong>Совет:</strong> Регулярно переворачивайте мясо, чтобы оно равномерно прожарилось со всех сторон. Идеальное BBQ-мясо будет хрустящим снаружи, с сочной и нежной внутренней частью.</p>
+        <p><strong>Совет:</strong> Не пережаривайте мясо! В Cookingdom правильное приготовление мяса придаст ему лучшую текстуру и вкус.</p>
+    </li>
+    <li>
+        <h3>Приготовление соуса BBQ:</h3>
+        <p>Пока мясо готовится, сосредоточьтесь на приготовлении соуса BBQ. В Cookingdom соус обычно представляет собой смесь терпких, сладких и дымных ароматов, часто на основе кетчупа или томатного соуса, уксуса и коричневого сахара.</p>
+        <p>Вам нужно будет смешать ингредиенты и варить их до получения густого, ароматного соуса. Как только соус будет готов, вы нанесете его на мясо либо во время приготовления, либо после того, как мясо будет выложено на тарелку.</p>
+        <p><strong>Совет:</strong> Не позволяйте соусу пригореть! Периодически помешивайте его, чтобы он не прилипал ко дну кастрюли. Соус должен быть достаточно густым, чтобы покрывать мясо, но не слишком жидким.</p>
+    </li>
+    <li>
+        <h3>Приготовление гарниров:</h3>
+        <p>Пока вы сосредоточены на BBQ-мясе и соусе, не забывайте о гарнирах! Техасское BBQ обычно подается с:</p>
+        <ul>
+            <li><strong>Кукурузный хлеб:</strong> Слегка сладкий, влажный хлеб, дополняющий пикантные ароматы BBQ.</li>
+            <li><strong>Печеные бобы:</strong> Медленно приготовленные бобы в насыщенном соусе, часто приправленные соусом BBQ или беконом.</li>
+            <li><strong>Салат Коулслоу:</strong> Прохладный, хрустящий гарнир, уравновешивающий насыщенность BBQ.</li>
+        </ul>
+        <p><strong>Совет:</strong> Готовьте гарниры, пока мясо коптится или готовится на гриле. Убедитесь, что кукурузный хлеб золотистый и влажный, печеные бобы нежные, а салат коулслоу хрустящий и свежий.</p>
+    </li>
+    <li>
+        <h3>Сборка блюда:</h3>
+        <p>Как только мясо будет приготовлено до совершенства, а гарниры готовы, пришло время выложить Техасское BBQ на тарелку. Начните с размещения BBQ-мяса на тарелке, затем добавьте щедрые порции кукурузного хлеба, печеных бобов и салата коулслоу.</p>
+        <p><strong>Совет:</strong> Убедитесь, что соус BBQ равномерно нанесен на мясо. Вы можете полить немного дополнительного соуса на гарниры, если хотите, но не переусердствуйте. Сохраняйте презентацию чистой и сбалансированной.</p>
+    </li>
+    <li>
+        <h3>Подача Техасского BBQ:</h3>
+        <p>После сборки блюда подавайте его быстро, пока все еще горячее. Cookingdom вознаграждает скорость, поэтому чем быстрее вы подаете, тем выше будут ваши оценки клиентов.</p>
+        <p><strong>Совет:</strong> Не позволяйте блюду долго стоять перед подачей — BBQ лучше всего наслаждаться свежим и горячим. Убедитесь, что все компоненты хорошо прогреты и готовы к подаче.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Медленное приготовление мяса:</h3>
+        <p>Техасское BBQ требует медленно приготовленного мяса, так что будьте терпеливы! Ключ в том, чтобы не торопить процесс приготовления. Внимательно следите за грилем или коптильней и избегайте слишком сильного нагрева. Медленное, равномерное приготовление — ключ к нежности.</p>
+    </li>
+    <li>
+        <h3>Идеальный соус BBQ:</h3>
+        <p>Соус BBQ — это то, что действительно отличает Техасское BBQ. Убедитесь, что он густой и ароматный, но не слишком сладкий или терпкий. Хорошо сбалансируйте вкусы и часто помешивайте, чтобы избежать пригорания соуса.</p>
+    </li>
+    <li>
+        <h3>Эффективная многозадачность:</h3>
+        <p>Cookingdom требует многозадачности, поэтому, пока готовится BBQ-мясо, следите за гарнирами. Убедитесь, что кукурузный хлеб не подгорел, печеные бобы тушатся до нужной консистенции, а салат коулслоу свежий и хрустящий.</p>
+    </li>
+    <li>
+        <h3>Подавать свежим и горячим:</h3>
+        <p>Свежесть Техасского BBQ имеет решающее значение для удовлетворенности клиентов. Подавайте блюдо, как только все компоненты будут готовы и горячи. Чем дольше блюдо стоит, тем холоднее оно становится и тем менее аппетитным будет.</p>
+    </li>
+    <li>
+        <h3>Улучшайте свою кухню:</h3>
+        <p>По мере продвижения в Cookingdom рассмотрите возможность улучшения вашего гриля и другого кухонного оборудования, чтобы ускорить процесс приготовления. Более быстрый гриль или коптильня помогут вам справляться с растущим числом клиентов и сократить время ожидания.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 16-м уровне Cookingdom приготовление Техасского BBQ включает в себя освоение искусства медленного приготовления мяса, совершенствование соуса BBQ и балансировку гарниров, таких как кукурузный хлеб, печеные бобы и салат коулслоу. Время и многозадачность являются ключом к успеху, так как вам нужно одновременно управлять грилем мяса и приготовлением гарниров.</p>
+<p>Сосредоточившись на совершенствовании BBQ-мяса, создании ароматного соуса и эффективном управлении вашей кухней, вы впечатлите своих клиентов и заработаете высшие оценки. Сочетание нежного BBQ, пикантных гарниров и дымного аромата заставит ваших клиентов возвращаться снова и снова.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 17
+    id: 'cookingdom-game-level-17',
+    title: 'Уровень 17:<br>Кафе Маккиато',
+    pageTitle: 'Cookingdom Уровень 17 - Руководство по Кафе Маккиато',
+    pageSubtitle: 'Узнайте, как приготовить идеальный Кафе Маккиато на уровне 17 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-17',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 17 Руководство: Кафе Маккиато | Советы и Стратегия',
+      description:
+        'Освойте Кафе Маккиато на уровне 17 в Cookingdom. Получите советы по приготовлению эспрессо, идеальному взбиванию молока и достижению правильного баланса для этого классического кофе.',
+      keywords:
+        'Cookingdom, Уровень 17, Кафе Маккиато, Руководство Маккиато, Эспрессо, Молочная пена, Кофе, Приготовление, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/e0e0e0/795548?text=Level+17+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Кафе Маккиато</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-14',
+          title: 'Уровень 14<br>Лосось с Минестроне',
+          imageUrl: 'https://placehold.co/60x60/e6e6fa/ff69b4?text=Lvl+14', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-14',
+        },
+        {
+          id: 'cookingdom-game-level-15',
+          title: 'Уровень 15<br>Жареная Курица',
+          imageUrl: 'https://placehold.co/60x60/ffe0b2/fb8c00?text=Lvl+15', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-15',
+        },
+        {
+          id: 'cookingdom-game-level-16',
+          title: 'Уровень 16<br>Техасское BBQ',
+          imageUrl: 'https://placehold.co/60x60/d7ccc8/795548?text=Lvl+16', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-16',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom 17-й уровень представляет восхитительный и изысканный напиток: Кафе Маккиато. Этот уровень бросает вам вызов приготовить гладкую основу из эспрессо, увенчанную ложкой вспененного молока, при этом соблюдая идеальный тайминг и точность. Это классический фаворит кофеен, который требует внимания к деталям и способности к многозадачности, так как вам нужно будет одновременно довести до совершенства шот эспрессо и молочную пену.</p>
+<p>Поскольку Кафе Маккиато — популярный напиток в кофейнях по всему миру, его правильное приготовление произведет впечатление на ваших клиентов и поможет вам повысить уровень в Cookingdom. Давайте разберем процесс и направим вас к идеальному Кафе Маккиато.</p>
+
+<h2 id="goal">Цели 17-го уровня</h2>
+<ul>
+    <li>
+        <strong>Приготовить эспрессо:</strong> Основой Кафе Маккиато является насыщенный, крепкий шот эспрессо. Вам нужно будет правильно приготовить эспрессо, убедившись, что он крепкий и полон вкуса.
+    </li>
+    <li>
+        <strong>Взбить молоко:</strong> Вам нужно взбить молоко до идеальной текстуры и температуры. Это требует тщательного контроля парогенератора молока, чтобы молоко стало легким, пенистым и сливочным.
+    </li>
+    <li>
+        <strong>Подать напиток:</strong> После приготовления эспрессо и молочной пены, смешайте их в правильных пропорциях и подайте Кафе Маккиато, пока он еще свежий и горячий.
+    </li>
+    <li>
+        <strong>Подавать быстро:</strong> Как всегда в Cookingdom, скорость имеет значение. Чем быстрее вы подадите Кафе Маккиато, тем лучше будет ваша оценка. Свежесть является ключом к тому, чтобы напиток сохранял свой оптимальный вкус и текстуру.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Кафе Маккиато</h2>
+<ol>
+    <li>
+        <h3>Приготовление эспрессо:</h3>
+        <p>Начните с приготовления шота эспрессо. В Cookingdom вам придется использовать эспрессо-машину для извлечения идеального шота кофе. Кофейная гуща должна быть равномерно утрамбована, чтобы эспрессо был приготовлен до совершенства.</p>
+        <p><strong>Совет:</strong> Внимательно следите за эспрессо, чтобы избежать переэкстракции или недоэкстракции шота. Эспрессо должен иметь глубокий, насыщенный вкус со слоем крема (золотистой пенистой верхушки) на поверхности.</p>
+        <p><strong>Совет:</strong> Идеальный шот эспрессо является ключом к вкусу Кафе Маккиато, поэтому убедитесь, что он хорошо приготовлен, прежде чем переходить к молоку.</p>
+    </li>
+    <li>
+        <h3>Взбивание молока:</h3>
+        <p>Далее сосредоточьтесь на молоке. Чтобы приготовить Кафе Маккиато, вам нужно взбить молоко до состояния кремообразного и воздушного, но не слишком густого. Используйте парогенератор молока, чтобы нагреть и взбить молоко до легкой, бархатистой текстуры.</p>
+        <p><strong>Совет:</strong> Будьте осторожны, чтобы не перегреть молоко — оно должно достичь идеальной температуры около 150°F (65°C). Перегрев может привести к привкусу горелого, что повлияет на вкус напитка.</p>
+        <p><strong>Совет:</strong> При взбивании молока вы стремитесь к гладкой, кремообразной текстуре с мелкими пузырьками. Пена должна быть достаточно плотной, чтобы оставаться на поверхности шота эспрессо, не тоня.</p>
+    </li>
+    <li>
+        <h3>Смешивание эспрессо и молока:</h3>
+        <p>Как только эспрессо и молочная пена будут готовы, пришло время их смешать. Для Кафе Маккиато вы нальете шот эспрессо в чашку, а затем добавите сверху небольшую ложку молочной пены.</p>
+        <p><strong>Совет:</strong> Ключ к Кафе Маккиато — это баланс между крепким, насыщенным эспрессо и нежной, сливочной пеной. Не добавляйте слишком много молочной пены — достаточно одной ложки, чтобы увенчать напиток.</p>
+    </li>
+    <li>
+        <h3>Подача Кафе Маккиато:</h3>
+        <p>После приготовления Кафе Маккиато подайте напиток быстро, пока он еще горячий. В Cookingdom вы захотите подать напиток, пока пена еще свежая, а шот эспрессо не остыл.</p>
+        <p><strong>Совет:</strong> Подавайте напиток сразу после сборки, чтобы сохранить текстуру и температуру. Пена должна оставаться легкой и воздушной, а эспрессо — крепким и горячим.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Идеальный шот эспрессо:</h3>
+        <p>Ключ к отличному Кафе Маккиато — это эспрессо. Убедитесь, что кофейная гуща равномерно утрамбована перед приготовлением, и обратите внимание на время, чтобы получить насыщенный, сбалансированный шот эспрессо.</p>
+        <p><strong>Совет:</strong> Если эспрессо на вкус слишком горький, возможно, он переэкстрагирован. Если он слишком слабый, возможно, он недоэкстрагирован. Отрегулируйте размер помола и давление трамбовки, чтобы усовершенствовать шот.</p>
+    </li>
+    <li>
+        <h3>Взбейте молоко до совершенства:</h3>
+        <p>Молочная пена должна быть гладкой, кремообразной и воздушной — не слишком густой или пенистой. Чтобы добиться правильной текстуры, обратите внимание на звук парогенератора. Он должен издавать мягкий шипящий звук, а не громкий треск.</p>
+        <p><strong>Совет:</strong> Не перегревайте молоко, так как оно потеряет свою кремообразную текстуру. Используйте термометр для контроля температуры молока или полагайтесь на визуальные подсказки, чтобы узнать, когда оно будет готово.</p>
+    </li>
+    <li>
+        <h3>Работайте над своим таймингом:</h3>
+        <p>Cookingdom — это все о многозадачности и тайминге. Пока готовится эспрессо, начните взбивать молоко, чтобы сэкономить время. Это позволит вам быстро и эффективно собрать Кафе Маккиато.</p>
+        <p><strong>Совет:</strong> Если вы когда-нибудь не уверены, что будет готово первым — эспрессо или молоко, доверьтесь своей интуиции. Молоко может подождать мгновение, но если эспрессо слишком остынет, у него будет неправильный вкус.</p>
+    </li>
+    <li>
+        <h3>Не переусердствуйте с молочной пеной:</h3>
+        <p>Для Кафе Маккиато требуется лишь небольшое количество пены. Напиток все равно должен иметь смелый, крепкий вкус эспрессо с легким оттенком молока. Слишком много пены перебьет кофе и сделает напиток слишком молочным.</p>
+        <p><strong>Совет:</strong> Добавьте только ложку пены — она должна мягко лежать на поверхности эспрессо, не слишком смешиваясь с ним.</p>
+    </li>
+    <li>
+        <h3>Подавать свежим и горячим:</h3>
+        <p>Кафе Маккиато необходимо подавать сразу после приготовления. Как и для всех напитков в Cookingdom, свежесть важна. Горячие напитки быстро теряют свою привлекательность, поэтому немедленная подача имеет решающее значение для вашего успеха.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 17-м уровне Cookingdom приготовление Кафе Маккиато требует внимания к деталям и идеального тайминга. Приготовление эспрессо до совершенства и взбивание молока до идеальной текстуры являются ключом к созданию этого классического напитка кофеен. При тщательном внимании к процессу приготовления и взбивания вы подадите гладкий, насыщенный Кафе Маккиато, который порадует ваших клиентов.</p>
+<p>Эффективно выполняйте несколько задач одновременно, следите за временем и подавайте напиток горячим и свежим, чтобы максимизировать свои оценки в Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 18
+    id: 'cookingdom-game-level-18',
+    title: 'Уровень 18:<br>Рататуй',
+    pageTitle: 'Cookingdom Уровень 18 - Руководство по Рататую',
+    pageSubtitle: 'Научитесь готовить классический французский Рататуй на уровне 18 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-18',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 18 Руководство: Рататуй | Советы и Стратегия',
+      description:
+        'Освойте Рататуй на уровне 18 в Cookingdom. Получите советы по нарезке овощей (баклажаны, цуккини, перец, помидоры), их идеальному приготовлению и тушению соуса.',
+      keywords:
+        'Cookingdom, Уровень 18, Рататуй, Французская кухня, Овощное рагу, Руководство, Обжаривание, Тушение, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/f0f4c3/827717?text=Level+18+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Рататуй</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-15',
+          title: 'Уровень 15<br>Жареная Курица',
+          imageUrl: 'https://placehold.co/60x60/ffe0b2/fb8c00?text=Lvl+15', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-15',
+        },
+        {
+          id: 'cookingdom-game-level-16',
+          title: 'Уровень 16<br>Техасское BBQ',
+          imageUrl: 'https://placehold.co/60x60/d7ccc8/795548?text=Lvl+16', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-16',
+        },
+        {
+          id: 'cookingdom-game-level-17',
+          title: 'Уровень 17<br>Кафе Маккиато',
+          imageUrl: 'https://placehold.co/60x60/e0e0e0/795548?text=Lvl+17', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-17',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom 18-й уровень приносит на стол здоровое и ароматное блюдо: Рататуй. Это классическое французское овощное рагу состоит из различных овощей, таких как баклажаны, цуккини, перец и помидоры, приготовленных в насыщенном, ароматном соусе. Ключ к этому уровню — убедиться, что овощи идеально нарезаны и приготовлены так, чтобы сохранить их свежесть, при этом сбалансировав приправы для создания идеального Рататуя.</p>
+<p>В Cookingdom 18-й уровень — это все о многозадачности и точности. Вам нужно будет управлять подготовкой и приготовлением нескольких овощей, обеспечивая при этом, чтобы каждый из них был приготовлен в нужное время и при правильной температуре. Давайте погрузимся в шаги по освоению Рататуя и впечатлим ваших клиентов этим вкусным блюдом!</p>
+
+<h2 id="goal">Цели 18-го уровня</h2>
+<ul>
+    <li>
+        <strong>Подготовить овощи:</strong> Основными компонентами Рататуя являются свежие овощи, такие как баклажаны, цуккини, перец и помидоры. Вам нужно будет нарезать их равномерно и точно, чтобы обеспечить равномерное приготовление.
+    </li>
+    <li>
+        <strong>Приготовить овощи:</strong> Овощи нужно будет обжарить в ароматной основе из оливкового масла, чеснока и трав. Важно приготовить овощи как раз так, чтобы они остались нежными, но все еще сохраняли форму.
+    </li>
+    <li>
+        <strong>Тушить соус:</strong> Овощи готовятся с простым томатным соусом, приправленным травами, такими как тимьян, базилик и розмарин. Соус нужно тушить медленно, позволяя ароматам смешаться и усилиться.
+    </li>
+    <li>
+        <strong>Подать Рататуй:</strong> Как только овощи будут приготовлены, а соус готов, соберите блюдо и подайте его быстро. В Cookingdom скорость и подача необходимы для получения высоких оценок клиентов.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Рататуя</h2>
+<ol>
+    <li>
+        <h3>Подготовка овощей:</h3>
+        <p>Начните с равномерной нарезки овощей. В Cookingdom ключ — получить одинаковые ломтики, чтобы обеспечить их равномерное приготовление. Нарежьте баклажаны, цуккини, перец и помидоры тонкими ломтиками.</p>
+        <p><strong>Совет:</strong> Нарежьте овощи как можно тоньше, чтобы обеспечить их равномерное приготовление и впитывание ароматов соуса. Вы можете использовать мандолину или нож для достижения идеальных срезов.</p>
+    </li>
+    <li>
+        <h3>Обжаривание овощей:</h3>
+        <p>В Cookingdom следующий шаг включает обжаривание овощей на сковороде с оливковым маслом и чесноком. Нагрейте масло до горячего состояния, затем добавьте чеснок и обжаривайте несколько секунд, чтобы он отдал аромат.</p>
+        <p>Добавляйте нарезанные овощи один за другим и перемешивайте их, чтобы обеспечить равномерное приготовление. Не пережаривайте овощи; они должны оставаться нежными, но все еще иметь легкую упругость.</p>
+        <p><strong>Совет:</strong> Периодически помешивайте, чтобы предотвратить подгорание, и при необходимости регулируйте нагрев. Если овощи начинают слишком быстро подрумяниваться, слегка уменьшите огонь.</p>
+    </li>
+    <li>
+        <h3>Тушение соуса:</h3>
+        <p>Как только овощи обжарены, пришло время приготовить соус. В Cookingdom вы будете тушить соус на томатной основе с травами, такими как тимьян, розмарин и базилик.</p>
+        <p>Добавьте соус на сковороду с овощами и дайте ему потушиться. Соус начнет густеть и покрывать овощи, усиливая их вкус.</p>
+        <p><strong>Совет:</strong> Дайте соусу медленно тушиться 10-15 минут, позволяя ароматам смешаться. Периодически помешивайте, чтобы соус не прилипал к сковороде.</p>
+    </li>
+    <li>
+        <h3>Сборка блюда:</h3>
+        <p>Как только овощи станут нежными, а соус густым и ароматным, пришло время выложить Рататуй на тарелку. Аккуратно разложите приготовленные овощи в центре тарелки и полейте их небольшим количеством соуса.</p>
+        <p><strong>Совет:</strong> Вы можете украсить Рататуй свежими травами, такими как базилик или петрушка, для яркости цвета и дополнительного вкуса.</p>
+    </li>
+    <li>
+        <h3>Подача Рататуя:</h3>
+        <p>После выкладки подавайте Рататуй быстро, пока он еще горячий. В Cookingdom скорость важна, поэтому не позволяйте блюду слишком долго стоять перед подачей клиентам.</p>
+        <p><strong>Совет:</strong> Подавайте блюдо с небольшим гарниром из хлеба или риса, чтобы завершить трапезу. Это сделает его более сытным и привлекательным для ваших клиентов.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Равномерная нарезка овощей:</h3>
+        <p>Ключ к идеально приготовленному Рататую — равномерно нарезанные овощи. Использование мандолины поможет обеспечить одинаковую толщину ломтиков и их равномерное приготовление.</p>
+        <p><strong>Совет:</strong> Потратьте время на аккуратную нарезку овощей, так как это значительно повлияет на конечную подачу и текстуру.</p>
+    </li>
+    <li>
+        <h3>Не пережаривайте овощи:</h3>
+        <p>В Cookingdom важно обжаривать овощи ровно до тех пор, пока они не станут нежными, но не превратятся в кашу. Пережаренные овощи потеряют свою текстуру и вкус.</p>
+        <p><strong>Совет:</strong> Следите за нагревом и регулярно помешивайте, чтобы предотвратить подгорание. Если овощи кажутся слишком быстро готовящимися, слегка уменьшите огонь.</p>
+    </li>
+    <li>
+        <h3>Совершенствуйте соус:</h3>
+        <p>Соус в Рататуе простой, но ароматный. Убедитесь, что он хорошо приправлен свежими травами, и не забывайте медленно тушить его, чтобы ароматы раскрылись.</p>
+        <p><strong>Совет:</strong> Если соус слишком жидкий, дайте ему покипеть еще несколько минут, пока он не загустеет. Если он слишком густой, добавьте немного воды или овощного бульона, чтобы достичь желаемой консистенции.</p>
+    </li>
+    <li>
+        <h3>Украшайте и подавайте красиво:</h3>
+        <p>Подача важна в Cookingdom. После раскладки овощей украсьте Рататуй свежими травами или посыпьте сыром для дополнительного вкуса и красивого штриха.</p>
+        <p><strong>Совет:</strong> Красивое украшение может улучшить внешний вид блюда и впечатлить ваших клиентов. Несколько свежих листьев базилика или капля оливкового масла могут иметь большое значение.</p>
+    </li>
+    <li>
+        <h3>Улучшайте свою кухню:</h3>
+        <p>По мере продвижения в Cookingdom рассмотрите возможность улучшения вашего кухонного оборудования, такого как плита или сковорода. Более быстрый процесс приготовления позволит вам более эффективно управлять несколькими блюдами.</p>
+        <p><strong>Совет:</strong> Улучшения кухонных инструментов могут помочь ускорить приготовление пищи и гарантировать, что все будет готово вовремя, особенно при работе с несколькими заказами.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На 18-м уровне Cookingdom приготовление Рататуя требует точности в нарезке овощей, их правильного обжаривания и тушения ароматного томатного соуса. Это блюдо сочетает в себе простые ингредиенты и техники для создания вкусной и хорошо сбалансированной еды. При тщательном расчете времени, многозадачности и внимании к деталям вы сможете создать идеальный Рататуй, который порадует ваших клиентов и принесет вам высшие оценки в Cookingdom.</p>
+<p>Освойте искусство подготовки овощей и тушения соуса, и скоро вы будете готовы взяться за еще более сложные блюда, продолжая свое путешествие по Cookingdom.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 19
+    id: 'cookingdom-game-level-19',
+    title: 'Уровень 19:<br>Тыквенный Пирог',
+    pageTitle: 'Cookingdom Уровень 19 - Руководство по Тыквенному Пирогу',
+    pageSubtitle: 'Научитесь печь идеальный Тыквенный Пирог на уровне 19 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-19',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 19 Руководство: Тыквенный Пирог | Советы и Стратегия',
+      description:
+        'Освойте Тыквенный Пирог на уровне 19 в Cookingdom. Получите советы по приготовлению идеальной корочки, гладкой начинки, выпечке и подаче этого классического десерта.',
+      keywords:
+        'Cookingdom, Уровень 19, Тыквенный Пирог, Десерт, Выпечка, Корочка Пирога, Тыквенная Начинка, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffcc80/e65100?text=Level+19+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Тыквенный Пирог</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-16',
+          title: 'Уровень 16<br>Техасское BBQ',
+          imageUrl: 'https://placehold.co/60x60/d7ccc8/795548?text=Lvl+16', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-16',
+        },
+        {
+          id: 'cookingdom-game-level-17',
+          title: 'Уровень 17<br>Кафе Маккиато',
+          imageUrl: 'https://placehold.co/60x60/e0e0e0/795548?text=Lvl+17', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-17',
+        },
+        {
+          id: 'cookingdom-game-level-18',
+          title: 'Уровень 18<br>Рататуй',
+          imageUrl: 'https://placehold.co/60x60/f0f4c3/827717?text=Lvl+18', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-18',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom уровень 19 представляет сладкое и вкусное угощение: Тыквенный Пирог. Этот классический десерт любим во многих культурах, особенно в осенний сезон. Приготовление Тыквенного Пирога в Cookingdom требует создания гладкой тыквенной начинки, подготовки идеальной корочки и выпекания до золотистой корочки. Тайминг, баланс ингредиентов и подача будут ключом к достижению наивысшей удовлетворенности клиентов.</p>
+<p>На уровне 19 вам нужно будет тщательно управлять ингредиентами и этапами приготовления, чтобы убедиться, что и корочка пирога, и начинка получились как надо. Давайте разберем шаги и советы по созданию непревзойденного Тыквенного Пирога!</p>
+
+<h2 id="goal">Цели 19-го уровня</h2>
+<ul>
+    <li>
+        <strong>Приготовить корочку для пирога:</strong> Первый шаг — подготовить маслянистую и слоеную корочку для пирога. Вам нужно будет смешать ингредиенты, чтобы сформировать тесто, раскатать его и выложить в форму для пирога.
+    </li>
+    <li>
+        <strong>Сделать тыквенную начинку:</strong> Начинка для пирога делается из тыквенного пюре, смешанного с яйцами, сахаром и специями, такими как корица, мускатный орех и имбирь. Смесь должна быть гладкой и хорошо приправленной для идеального вкуса.
+    </li>
+    <li>
+        <strong>Собрать и испечь пирог:</strong> После подготовки корочки и начинки вам нужно будет собрать пирог и испечь его до золотисто-коричневого цвета и застывания начинки. Процесс выпечки имеет решающее значение для того, чтобы начинка загустела, не перепекшись.
+    </li>
+    <li>
+        <strong>Подать Тыквенный Пирог:</strong> Как только пирог будет готов, подайте его горячим, свежим и красиво нарезанным для идеального впечатления клиента.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Тыквенного Пирога</h2>
+<ol>
+    <li>
+        <h3>Приготовление корочки для пирога:</h3>
+        <p>Начните с приготовления корочки для пирога. В Cookingdom это включает смешивание муки, масла и небольшого количества воды для формирования теста. Аккуратно замесите его и раскатайте до тонкого и ровного состояния.</p>
+        <p><strong>Совет:</strong> Убедитесь, что тесто не слишком липкое. Если оно слишком сухое, добавьте немного больше воды, но не переусердствуйте. Правильная консистенция сделает корочку слоеной и хрустящей после выпечки.</p>
+        <p>После раскатывания теста переложите его в форму для пирога и обрежьте лишнее тесто по краям. Аккуратно прижмите края, чтобы сформировать красивый бортик.</p>
+        <p><strong>Совет:</strong> Вы можете охладить тесто для корочки в холодильнике в течение 15 минут перед выпечкой, чтобы оно лучше держало форму.</p>
+    </li>
+    <li>
+        <h3>Приготовление тыквенной начинки:</h3>
+        <p>Далее пришло время приготовить тыквенную начинку. В Cookingdom вам нужно будет смешать тыквенное пюре, яйца, сахар и специи, такие как корица, мускатный орех и имбирь. В результате должна получиться гладкая и кремообразная смесь.</p>
+        <p><strong>Совет:</strong> Используйте свежее или консервированное тыквенное пюре для этого шага. Убедитесь, что специи хорошо перемешаны, и отрегулируйте сладость по своему вкусу. Вы хотите, чтобы начинка была насыщенной и ароматной, но не слишком сладкой.</p>
+        <p><strong>Совет:</strong> Тщательно взбейте смесь, чтобы избежать комочков. Начинка должна быть гладкой и хорошо перемешанной перед тем, как выливать ее в корочку пирога.</p>
+    </li>
+    <li>
+        <h3>Сборка пирога:</h3>
+        <p>Как только корочка и начинка будут готовы, вылейте тыквенную смесь в подготовленную корочку. Используйте лопатку, чтобы равномерно разровнять верх начинки.</p>
+        <p><strong>Совет:</strong> Будьте осторожны, чтобы не переполнить пирог. Начинка должна находиться чуть ниже края корочки, чтобы пирог мог немного подняться во время выпечки.</p>
+    </li>
+    <li>
+        <h3>Выпекание Тыквенного Пирога:</h3>
+        <p>Теперь пришло время испечь пирог. Разогрейте духовку до необходимой температуры (обычно около 375°F или 190°C). Выпекайте пирог рекомендуемое количество времени или до тех пор, пока начинка не застынет, а корочка не станет золотисто-коричневой.</p>
+        <p><strong>Совет:</strong> Следите за пирогом во время выпечки. Начинка должна быть твердой и слегка вздутой, но не должна трескаться. Корочка должна быть темно-золотисто-коричневой.</p>
+        <p><strong>Совет:</strong> Если корочка слишком быстро подрумянивается, вы можете накрыть края фольгой, чтобы предотвратить их подгорание, пока начинка продолжает выпекаться.</p>
+    </li>
+    <li>
+        <h3>Охлаждение и подача:</h3>
+        <p>После того как пирог испечется, дайте ему остыть несколько минут перед нарезкой. В Cookingdom пирог нужно подавать теплым, но он не должен быть слишком горячим для рук.</p>
+        <p><strong>Совет:</strong> Вы можете украсить пирог взбитыми сливками или посыпать корицей для дополнительного вкуса и лучшей подачи.</p>
+    </li>
+    <li>
+        <h3>Подача Тыквенного Пирога:</h3>
+        <p>Как только пирог остынет и вы его нарежете, немедленно подавайте Тыквенный Пирог. Обязательно подавайте его с шариком взбитых сливок или ложкой ванильного мороженого, чтобы завершить десерт.</p>
+        <p><strong>Совет:</strong> Подача пирога, пока он еще теплый, является ключом к созданию идеального десертного опыта для ваших клиентов в Cookingdom. Теплый кусочек тыквенного пирога со взбитыми сливками произведет впечатление каждый раз!</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Идеальная корочка пирога:</h3>
+        <p>Ключ к отличному Тыквенному Пирогу — идеально слоеная и маслянистая корочка. Убедитесь, что тесто холодное, когда вы с ним работаете, и не переусердствуйте с замесом, так как это может привести к жесткой корочке.</p>
+        <p><strong>Совет:</strong> Охладите тесто перед раскатыванием, чтобы с ним было легче работать. Также убедитесь, что вы выпекаете корочку до золотисто-коричневого цвета и полной готовности.</p>
+    </li>
+    <li>
+        <h3>Гладкая и кремовая начинка:</h3>
+        <p>Начинка должна быть гладкой и кремовой. Хорошо смешайте тыквенное пюре с яйцами, сахаром и специями, чтобы избежать комочков или неравномерной текстуры.</p>
+        <p><strong>Совет:</strong> Вы можете использовать ручной миксер или блендер, чтобы убедиться, что начинка идеально гладкая.</p>
+    </li>
+    <li>
+        <h3>Выпекать до совершенства:</h3>
+        <p>Выпечка — самый важный шаг в приготовлении Тыквенного Пирога. Убедитесь, что пирог выпекается до тех пор, пока начинка не станет твердой, но не слишком застывшей. Текстура должна быть гладкой и похожей на заварной крем, а не жидкой.</p>
+        <p><strong>Совет:</strong> Если пирог перепечь, начинка может потрескаться и высохнуть. Если он недопечен, начинка будет слишком мягкой. Обязательно проверьте пирог, осторожно встряхнув его — начинка должна лишь слегка двигаться, когда готова.</p>
+    </li>
+    <li>
+        <h3>Украшение и подача:</h3>
+        <p>Хорошо поданный Тыквенный Пирог может действительно произвести впечатление на ваших клиентов в Cookingdom. Украсьте пирог ложкой взбитых сливок, посыпьте корицей или добавьте несколько тыквенных семечек для дополнительного вкуса и визуальной привлекательности.</p>
+        <p><strong>Совет:</strong> Немного креативности в украшении поднимет блюдо и поможет вам заработать высшие оценки.</p>
+    </li>
+    <li>
+        <h3>Подавать свежим и теплым:</h3>
+        <p>Как и со всеми блюдами в Cookingdom, свежесть — это ключ. Подавайте Тыквенный Пирог, пока он еще теплый и свеже нарезанный, чтобы дать вашим клиентам лучший опыт.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 19 Cookingdom приготовление Тыквенного Пирога требует внимания к деталям, от создания идеальной корочки до гладкой, ароматной тыквенной начинки. При тщательном расчете времени и многозадачности вы сможете создать восхитительный пирог, который произведет впечатление на ваших клиентов. Будь то праздник или обычный день, Тыквенный Пирог всегда будет хитом в Cookingdom!</p>
+<p>Совершенствуя свою корочку, начинку и технику выпечки, вы будете готовы взяться за еще более вкусные десерты в будущем. Следите за своим временем и не забывайте украшать пирог, чтобы сделать его еще более неотразимым!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 20
+    id: 'cookingdom-game-level-20',
+    title: 'Уровень 20:<br>Жареная Индейка',
+    pageTitle: 'Cookingdom Уровень 20 - Руководство по Жареной Индейке',
+    pageSubtitle: 'Научитесь готовить идеальную Жареную Индейку на уровне 20 в Cookingdom.',
+    category: '11-20',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-20',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 20 Руководство: Жареная Индейка | Советы и Стратегия',
+      description:
+        'Освойте Жареную Индейку на уровне 20 в Cookingdom. Получите советы по приправе, жарке, поливке и подаче этого праздничного блюда.',
+      keywords:
+        'Cookingdom, Уровень 20, Жареная Индейка, Праздничное блюдо, Жарка, Полив, Руководство по индейке, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/efebe9/a1887f?text=Level+20+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Жареная Индейка</h3><p><strong>Сложность:</strong> Средне-высокая</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-17',
+          title: 'Уровень 17<br>Кафе Маккиато',
+          imageUrl: 'https://placehold.co/60x60/e0e0e0/795548?text=Lvl+17', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-17',
+        },
+        {
+          id: 'cookingdom-game-level-18',
+          title: 'Уровень 18<br>Рататуй',
+          imageUrl: 'https://placehold.co/60x60/f0f4c3/827717?text=Lvl+18', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-18',
+        },
+        {
+          id: 'cookingdom-game-level-19',
+          title: 'Уровень 19<br>Тыквенный Пирог',
+          imageUrl: 'https://placehold.co/60x60/ffcc80/e65100?text=Lvl+19', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-19',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom уровень 20 представляет праздничное и ароматное блюдо: Жареную Индейку. Как одно из самых популярных и традиционных блюд, особенно для праздников и пиров, Жареная Индейка требует тщательного баланса приправ, подготовки и времени. Этот уровень посвящен идеальной жарке индейки, а также обеспечению того, чтобы гарниры и украшения дополняли блюдо.</p>
+<p>В Cookingdom овладение искусством жарки индейки потребует от вас одновременного управления несколькими этапами, такими как маринование, поливка и обеспечение равномерного приготовления мяса. При тщательном внимании вы подадите золотистую, сочную индейку, которая произведет впечатление на ваших клиентов и поможет вам перейти на следующий уровень!</p>
+
+<h2 id="goal">Цели 20-го уровня</h2>
+<ul>
+    <li>
+        <strong>Подготовить индейку:</strong> Начните с подготовки индейки. Вам нужно будет очистить, приправить и начинить птицу ароматными травами и специями для придания вкуса.
+    </li>
+    <li>
+        <strong>Зажарить индейку:</strong> Как только индейка будет приправлена, пришло время ее зажарить. Это требует пристального внимания к температуре и времени, чтобы индейка была прожарена, золотисто-коричневой и сочной.
+    </li>
+    <li>
+        <strong>Поливать индейку:</strong> На протяжении всего процесса жарки вам нужно будет поливать индейку, чтобы она оставалась влажной и ароматной.
+    </li>
+    <li>
+        <strong>Подать Жареную Индейку:</strong> Как только индейка будет идеально зажарена, нарежьте ее на порции и быстро подайте, чтобы она оставалась свежей и сочной для ваших клиентов.
+    </li>
+</ul>
+
+<h2 id="steps\">Шаги по приготовлению Жареной Индейки</h2>
+<ol>
+    <li>
+        <h3>Подготовка индейки:</h3>
+        <p>Начните с подготовки индейки. В Cookingdom этот шаг включает очистку птицы, удаление потрохов и высушивание бумажными полотенцами. Чем суше кожа, тем хрустящей она станет при жарке.</p>
+        <p><strong>Совет:</strong> Для дополнительного вкуса натрите индейку внутри и снаружи смесью оливкового масла, чеснока, соли и перца. Добавьте свежие травы, такие как розмарин, тимьян и шалфей, для ароматического усиления.</p>
+        <p><strong>Совет:</strong> Вы можете начинить индейку различными ингредиентами, такими как лук, чеснок и цитрусовые, например, лимон или апельсин. Они наполнят мясо влагой и ароматом во время жарки.</p>
+    </li>
+    <li>
+        <h3>Приправа индейки:</h3>
+        <p>После подготовки индейки пришло время ее приправить. Щедро натрите индейку снаружи смесью приправ по вашему выбору. Популярные варианты включают смесь трав, таких как розмарин, тимьян и шалфей, а также соль, перец и чеснок.</p>
+        <p><strong>Совет:</strong> Обязательно приправьте и полость индейки. Это гарантирует, что аромат тщательно проникнет в мясо, делая каждый кусочек ароматным.</p>
+        <p><strong>Совет:</strong> Если у вас есть время, дайте индейке замариноваться в течение нескольких часов или на ночь в холодильнике. Это позволит ароматам глубже проникнуть в мясо.</p>
+    </li>
+    <li>
+        <h3>Жарка индейки:</h3>
+        <p>Разогрейте духовку до рекомендуемой температуры (обычно около 350°F или 175°C). Поместите индейку на решетку для жарки или на противень, застеленный фольгой, чтобы собрать капающий жир.</p>
+        <p><strong>Совет:</strong> Чтобы индейка не высохла, неплотно накройте птицу алюминиевой фольгой в начале жарки. Это поможет ей сохранить влагу во время приготовления.</p>
+        <p><strong>Совет:</strong> Жарьте индейку примерно 13-15 минут на фунт веса или до тех пор, пока внутренняя температура не достигнет 165°F (75°C) при проверке кулинарным термометром.</p>
+        <p><strong>Совет:</strong> Если вы заметили, что индейка слишком быстро подрумянивается, немного уменьшите температуру духовки, чтобы мясо готовилось более равномерно.</p>
+    </li>
+    <li>
+        <h3>Поливка индейки:</h3>
+        <p>Каждые 30-45 минут поливайте индейку ее собственным соком или маринадом из растопленного сливочного масла и бульона, чтобы кожа оставалась влажной и ароматной.</p>
+        <p><strong>Совет:</strong> Поливка является ключом к достижению красивой золотисто-коричневой кожи и сохранению сочности мяса. Старайтесь не открывать дверцу духовки слишком часто, так как это может вызвать колебания температуры.</p>
+    </li>
+    <li>
+        <h3>Проверка готовности индейки:</h3>
+        <p>После нескольких часов жарки проверьте внутреннюю температуру индейки. Вставьте кулинарный термометр в самую толстую часть бедра, убедившись, что он не касается кости.</p>
+        <p><strong>Совет:</strong> Как только внутренняя температура индейки достигнет 165°F (75°C), она готова к извлечению из духовки. Если она еще не достигла этой температуры, продолжайте жарить и снова полейте, чтобы обеспечить равномерное приготовление.</p>
+    </li>
+    <li>
+        <h3>Отдых индейки:</h3>
+        <p>Как только индейка будет готова, достаньте ее из духовки и дайте ей отдохнуть около 15-20 минут перед нарезкой. Это поможет сокам перераспределиться по всему мясу, сохраняя его влажным.</p>
+        <p><strong>Совет:</strong> Не нарезайте индейку сразу после извлечения из духовки, так как соки вытекут, делая мясо сухим. Дайте ей отдохнуть, чтобы сохранить влагу.</p>
+    </li>
+    <li>
+        <h3>Нарезка индейки:</h3>
+        <p>После того как индейка отдохнула, нарежьте ее на порции острым ножом. Нарежьте грудку ломтиками и отделите голени и крылья.</p>
+        <p><strong>Совет:</strong> Подавайте индейку аккуратными порциями для привлекательной подачи. Разложите ломтики на блюде и украсьте свежими травами или клюквенным соусом.</p>
+    </li>
+    <li>
+        <h3>Подача Жареной Индейки:</h3>
+        <p>После нарезки быстро подайте Жареную Индейку, чтобы она оставалась свежей и сочной. Подавайте ее с традиционными гарнирами, такими как картофельное пюре, начинка, подливка и клюквенный соус, для полноценного обеда.</p>
+        <p><strong>Совет:</strong> Подача индейки с ее соками или подливкой усилит вкус и сделает блюдо еще более сытным.</p>
+    </li>
+</ol>
+
+<h2 id="tips\">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Идеальная температура жарки:</h3>
+        <p>Ключ к жарке идеальной индейки — контроль температуры. Не жарьте при слишком высокой температуре, иначе вы рискуете пережарить кожу, оставив внутреннюю часть сырой.</p>
+        <p><strong>Совет:</strong> Накройте индейку фольгой в первой части жарки, затем снимите ее в последние 30 минут, чтобы кожа стала хрустящей и золотистой.</p>
+    </li>
+    <li>
+        <h3>Не пережаривайте индейку:</h3>
+        <p>Пережаривание может привести к сухой индейке. Используйте кулинарный термометр, чтобы убедиться, что индейка прожарена, но не передержана. Как только она достигнет 165°F (75°C), пора доставать ее из духовки.</p>
+        <p><strong>Совет:</strong> Если индейка маленькая, она может приготовиться быстрее, чем ожидалось. Следите за временем и не бойтесь корректировать время жарки.</p>
+    </li>
+    <li>
+        <h3>Поливайте для влажности:</h3>
+        <p>Периодическая поливка индейки обеспечивает сочность птицы. Используйте растопленное сливочное масло, куриный бульон или соки индейки для поливки, сохраняя кожу влажной и ароматной.</p>
+        <p><strong>Совет:</strong> Не пропускайте этот шаг! Процесс поливки добавляет вкус и влагу, помогая вам достичь идеально хрустящей кожи и нежного мяса.</p>
+    </li>
+    <li>
+        <h3>Дайте индейке отдохнуть после жарки:</h3>
+        <p>Дать индейке отдохнуть после того, как она вышла из духовки, — один из самых важных шагов для получения сочной птицы. Отдых позволяет сокам перераспределиться по всему мясу, предотвращая сухость.</p>
+        <p><strong>Совет:</strong> Накройте индейку фольгой во время отдыха, чтобы она оставалась теплой.</p>
+    </li>
+    <li>
+        <h3>Нарезайте с точностью:</h3>
+        <p>При нарезке используйте острый нож и будьте точны в своих разрезах. Нарезайте мясо поперек волокон для самых нежных и сочных ломтиков.</p>
+        <p><strong>Совет:</strong> Если вы подаете блюдо большому количеству людей, убедитесь, что нарезали индейку аккуратными порциями, чтобы облегчить и ускорить подачу.</p>
+    </li>
+</ul>
+
+<h2 id="summary\">Резюме</h2>
+<p>На уровне 20 Cookingdom приготовление Жареной Индейки требует внимания к деталям, времени и правильной техники. От приправы птицы до идеальной жарки и поливки — этот уровень является настоящим испытанием ваших кулинарных навыков. При правильном контроле температуры и тщательной поливке вы создадите золотистую, сочную индейку, которая порадует ваших клиентов и поднимет ваш опыт в Cookingdom.</p>
+<p>Овладейте искусством жарки индейки, и вы будете на верном пути к освоению еще более сложных блюд на будущих уровнях!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 21
+    id: 'cookingdom-game-level-21',
+    title: 'Уровень 21:<br>Чай с Молоком и Боба',
+    pageTitle: 'Cookingdom Уровень 21 - Руководство по Чаю с Молоком и Боба',
+    pageSubtitle: 'Научитесь готовить идеальный Чай с Молоком и Боба на уровне 21 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-21',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 21 Руководство: Чай с Молоком и Боба | Советы и Стратегия',
+      description:
+        'Освойте Чай с Молоком и Боба на уровне 21 в Cookingdom. Получите советы по приготовлению шариков боба, завариванию чая, балансировке молока и подаче этого модного напитка.',
+      keywords:
+        'Cookingdom, Уровень 21, Чай с Молоком и Боба, Бабл Ти, Тайваньский напиток, Руководство по чаю, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/d1c4e9/5e35b1?text=Level+21+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Чай с Молоком и Боба</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-18',
+          title: 'Уровень 18<br>Рататуй',
+          imageUrl: 'https://placehold.co/60x60/f0f4c3/827717?text=Lvl+18', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-18',
+        },
+        {
+          id: 'cookingdom-game-level-19',
+          title: 'Уровень 19<br>Тыквенный Пирог',
+          imageUrl: 'https://placehold.co/60x60/ffcc80/e65100?text=Lvl+19', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-19',
+        },
+        {
+          id: 'cookingdom-game-level-20',
+          title: 'Уровень 20<br>Жареная Индейка',
+          imageUrl: 'https://placehold.co/60x60/efebe9/a1887f?text=Lvl+20', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-20',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom уровень 21 представляет модный и освежающий напиток: Чай с Молоком и Боба. Этот популярный тайваньский напиток, также известный как бабл ти, готовится из чая, молока и жевательных шариков тапиоки. Задача на этом уровне — идеально сбалансировать чай, молоко и сахар, при этом убедившись, что шарики боба приготовлены правильно для получения удовлетворительного и ароматного напитка.</p>
+<p>В Cookingdom ключ к успеху на уровне 21 — точность в заваривании чая, приготовлении шариков боба и быстрой сборке напитка. Давайте погрузимся в шаги и советы по созданию идеального Чая с Молоком и Боба и получению высших оценок!</p>
+
+<h2 id="goal">Цели 21-го уровня</h2>
+<ul>
+    <li>
+        <strong>Приготовить шарики боба:</strong> Первый шаг в приготовлении Чая с Молоком и Боба — это варка шариков тапиоки. Эти шарики должны быть приготовлены до совершенства, чтобы достичь правильной текстуры – мягкие и жевательные внутри, с немного твердой оболочкой.
+    </li>
+    <li>
+        <strong>Заварить чай:</strong> Далее заварите крепкую чайную основу. Традиционно используется черный чай, но вы можете выбрать зеленый или улун в зависимости от ваших предпочтений.
+    </li>
+    <li>
+        <strong>Подготовить молоко:</strong> Добавьте молоко или безмолочную альтернативу в чай, чтобы создать кремовую, гладкую текстуру. Правильный баланс молока и чая имеет решающее значение для вкуса напитка.
+    </li>
+    <li>
+        <strong>Собрать и подать:</strong> Смешайте приготовленные шарики боба, заваренный чай и молоко в стакане и подавайте охлажденным со льдом с широкой соломинкой для питья шариков боба.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Чая с Молоком и Боба</h2>
+<ol>
+    <li>
+        <h3>Приготовление шариков боба:</h3>
+        <p>Начните с приготовления шариков тапиоки. В Cookingdom первое, что вам нужно сделать, это довести до кипения большую кастрюлю воды. Как только вода закипит, добавьте шарики тапиоки и осторожно перемешайте, чтобы предотвратить слипание.</p>
+        <p><strong>Совет:</strong> Готовьте шарики согласно инструкции на упаковке (обычно около 20-30 минут). Убедитесь, что шарики полностью приготовлены, но все еще остаются жевательными. Переваривание может сделать их слишком мягкими, а недоваривание — оставить твердыми в центре.</p>
+        <p><strong>Совет:</strong> После приготовления промойте шарики в холодной воде, чтобы остановить процесс варки и предотвратить их слипание.</p>
+    </li>
+    <li>
+        <h3>Заваривание чая:</h3>
+        <p>Пока шарики боба готовятся, заварите чай. В Cookingdom используйте крепкий черный чай (или любой чай по вашему выбору). Настаивайте чай около 3-5 минут, чтобы получить крепкую, ароматную основу.</p>
+        <p><strong>Совет:</strong> Для более насыщенного вкуса вы можете заварить чай немного крепче обычного. Это поможет вкусу чая проявиться после добавления молока и сладости.</p>
+        <p><strong>Совет:</strong> Если вы хотите более уникальный вкус, рассмотрите возможность использования ароматизированных чаев, таких как жасминовый или улун, но черный чай остается самым традиционным выбором.</p>
+    </li>
+    <li>
+        <h3>Подготовка молока:</h3>
+        <p>Как только чай заварен, добавьте молоко по вашему выбору. Вы можете использовать цельное молоко, миндальное молоко или любую другую молочную или безмолочную альтернативу, которую предпочитаете.</p>
+        <p><strong>Совет:</strong> Для получения особо кремовой текстуры используйте цельное молоко или кокосовое молоко. Для более легкого напитка попробуйте обезжиренное молоко или овсяное молоко.</p>
+        <p><strong>Совет:</strong> Добавляйте молоко постепенно и пробуйте, чтобы обеспечить правильный баланс между чаем и молоком. Вы хотите, чтобы напиток был кремовым, но при этом сохранял сильный вкус чая.</p>
+    </li>
+    <li>
+        <h3>Подслащивание чая:</h3>
+        <p>В Cookingdom сладость напитка имеет решающее значение. Добавьте сахар или подсластитель в заваренный чай и хорошо перемешайте до растворения. Количество сахара будет зависеть от ваших личных предпочтений, но оно должно дополнять горечь чая, не перебивая ее.</p>
+        <p><strong>Совет:</strong> Вы также можете использовать мед, сироп или другие подсластители вместо обычного сахара. Отрегулируйте сладость в соответствии с вкусовыми предпочтениями вашего клиента.</p>
+    </li>
+    <li>
+        <h3>Сборка напитка:</h3>
+        <p>Теперь пришло время собрать Чай с Молоком и Боба. В Cookingdom сначала высыпьте приготовленные шарики тапиоки в стакан. Затем добавьте кубики льда, чтобы напиток оставался холодным и освежающим.</p>
+        <p><strong>Совет:</strong> Если напиток подается охлажденным, убедитесь, что используете достаточное количество льда, чтобы чай оставался прохладным и освежающим. Однако избегайте добавления слишком большого количества льда, так как это может разбавить напиток.</p>
+        <p>Вылейте подготовленную смесь чая и молока на шарики и лед.</p>
+        <p><strong>Совет:</strong> Для дополнительной визуальной привлекательности вы можете полить немного сиропа или меда поверх чая перед подачей.</p>
+    </li>
+    <li>
+        <h3>Подача Чая с Молоком и Боба:</h3>
+        <p>Как только Чай с Молоком и Боба будет собран, подавайте его с широкой соломинкой для удобного питья. Обязательно подавайте его холодным и не забудьте перемешать перед употреблением, чтобы смешать молоко, чай и боба.</p>
+        <p><strong>Совет:</strong> Украсьте дополнительными шариками боба или даже фруктами, например, ломтиком лимона или веточкой мяты, для дополнительного вкуса и лучшей подачи.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Идеальные шарики боба:</h3>
+        <p>Ключ к хорошему Чаю с Молоком и Боба — текстура шариков тапиоки. Они должны быть мягкими и жевательными, с нужной степенью упругости снаружи.</p>
+        <p><strong>Совет:</strong> Не переваривайте шарики; они должны иметь легкую жевательную консистенцию. Если шарики пролежат слишком долго после приготовления, они могут стать липкими, поэтому подавайте их свежими.</p>
+    </li>
+    <li>
+        <h3>Баланс молока и чая:</h3>
+        <p>Правильный баланс молока и чая имеет решающее значение в Чае с Молоком и Боба. Слишком много молока перебьет вкус чая, а слишком мало сделает напиток слишком горьким.</p>
+        <p><strong>Совет:</strong> Попробуйте чай после добавления молока и отрегулируйте соотношение в соответствии с вашими предпочтениями. Идеальное соотношение должно быть кремовым, но при этом позволять чаю проявить себя.</p>
+    </li>
+    <li>
+        <h3>Сладость — это ключ:</h3>
+        <p>Сладость Чая с Молоком и Боба важна, но не переусердствуйте. Немного сладости улучшает вкус, не делая напиток чрезмерно сладким.</p>
+        <p><strong>Совет:</strong> Всегда пробуйте чай перед подачей, чтобы убедиться, что сладость в самый раз. Если он слишком сладкий, добавьте больше чая; если недостаточно сладкий, добавьте немного больше сахара.</p>
+    </li>
+    <li>
+        <h3>Охладите чай и боба:</h3>
+        <p>Убедитесь, что и чай, и шарики боба холодные перед подачей. Холодный напиток более освежающий и приятный, особенно в жаркий день.</p>
+        <p><strong>Совет:</strong> Если вы торопитесь, охладите заваренный чай в холодильнике перед подачей и храните приготовленные шарики боба в холодильнике до готовности к использованию.</p>
+    </li>
+    <li>
+        <h3>Креативные вариации:</h3>
+        <p>Вы можете добавить дополнительные начинки, такие как паста из красной фасоли, фрукты или даже пудинг, чтобы сделать ваш Чай с Молоком и Боба более захватывающим и уникальным.</p>
+        <p><strong>Совет:</strong> Экспериментируйте с различными вкусами чая, такими как жасминовый, улун или зеленый чай, чтобы создать фирменный напиток, который будет выделяться.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 21 Cookingdom приготовление идеального Чая с Молоком и Боба требует точности в приготовлении шариков тапиоки, заваривании чая и балансировке молока и сладости. Обратите внимание на текстуру боба и убедитесь, что чай и молоко дополняют друг друга для получения удовлетворительного и вкусного напитка.</p>
+<p>При правильной подготовке, идеальных шариках боба и капельке креативности вы сможете произвести впечатление на своих клиентов и продолжить свое путешествие по Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 22
+    id: 'cookingdom-game-level-22',
+    title: 'Уровень 22:<br>Легкий Смузи',
+    pageTitle: 'Cookingdom Уровень 22 - Руководство по Легкому Смузи',
+    pageSubtitle: 'Научитесь смешивать идеальный Легкий Смузи на уровне 22 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-22',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 22 Руководство: Легкий Смузи | Советы и Стратегия',
+      description:
+        'Освойте Легкий Смузи на уровне 22 в Cookingdom. Получите советы по выбору фруктов, смешиванию, достижению правильной консистенции и подаче.',
+      keywords:
+        'Cookingdom, Уровень 22, Легкий Смузи, Здоровый напиток, Смешивание, Фруктовый смузи, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/c8e6c9/4caf50?text=Level+22+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Легкий Смузи</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-19',
+          title: 'Уровень 19<br>Тыквенный Пирог',
+          imageUrl: 'https://placehold.co/60x60/ffcc80/e65100?text=Lvl+19', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-19',
+        },
+        {
+          id: 'cookingdom-game-level-20',
+          title: 'Уровень 20<br>Жареная Индейка',
+          imageUrl: 'https://placehold.co/60x60/efebe9/a1887f?text=Lvl+20', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-20',
+        },
+        {
+          id: 'cookingdom-game-level-21',
+          title: 'Уровень 21<br>Чай с Молоком и Боба',
+          imageUrl: 'https://placehold.co/60x60/d1c4e9/5e35b1?text=Lvl+21', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-21',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>В Cookingdom уровень 22 представляет вкусное и здоровое угощение: Легкий Смузи. Этот освежающий напиток идеально подходит для быстрого и питательного перекуса, и все дело в балансировке нужного количества фруктов, йогурта и других ингредиентов для создания кремовой, гладкой и ароматной смеси. Цель — быстро приготовить идеальный смузи, чтобы удовлетворить ваших клиентов и перейти на следующий уровень.</p>
+<p>В Cookingdom уровень Легкого Смузи сосредоточен на приготовлении освежающего напитка с точностью. Вам нужно будет выбрать правильные фрукты, идеально их смешать и подать с правильной консистенцией. Будь то тропический смузи с манго или ягодный взрыв, ключ к успеху заключается в получении правильной текстуры и вкуса.</p>
+
+<h2 id="goal">Цели 22-го уровня</h2>
+<ul>
+    <li>
+        <strong>Выбрать фрукты:</strong> Выберите фруктовую основу для вашего смузи. Вы можете использовать комбинацию фруктов, таких как бананы, клубника, черника или манго, чтобы создать вкусный и сбалансированный вкус.
+    </li>
+    <li>
+        <strong>Добавить йогурт или жидкость:</strong> Выберите йогурт или жидкую основу, например, молоко, миндальное молоко или апельсиновый сок, чтобы помочь смешать фрукты до гладкой консистенции.
+    </li>
+    <li>
+        <strong>Смешать до совершенства:</strong> После добавления ингредиентов смешайте их вместе до получения гладкой массы. Будьте осторожны, чтобы не пере- или недосмешать, так как это влияет на текстуру смузи.
+    </li>
+    <li>
+        <strong>Подать смузи:</strong> После смешивания перелейте смузи в стакан и немедленно подавайте. Вы можете добавить гарнир или дополнительные фрукты для декоративного штриха.
+    </li>
+</ul>
+
+<h2 id="steps">Шаги по приготовлению Легкого Смузи</h2>
+<ol>
+    <li>
+        <h3>Выберите ваши фрукты:</h3>
+        <p>Первый шаг в приготовлении отличного Легкого Смузи — выбор фруктов. В Cookingdom у вас есть различные варианты, от тропических фруктов, таких как манго и ананас, до классических вариантов, таких как клубника, черника или бананы.</p>
+        <p><strong>Совет:</strong> Для тропического смузи смешайте манго, ананас и немного кокосового молока для освежающего угощения. Для ягодного смузи смешайте клубнику, чернику и малину для терпкого и сладкого вкуса.</p>
+    </li>
+    <li>
+        <h3>Добавьте йогурт или жидкую основу:</h3>
+        <p>После выбора фруктов вам нужно будет добавить кремовую основу, чтобы помочь смешать ингредиенты. Выберите йогурт для более густого, кремового смузи или выберите молоко, миндальное молоко или апельсиновый сок для более легкой консистенции.</p>
+        <p><strong>Совет:</strong> Если вы хотите вариант без молочных продуктов, миндальное молоко или кокосовое молоко отлично подойдут в качестве жидкой основы. Для более насыщенного смузи выберите полножирный йогурт или даже греческий йогурт для дополнительного белка и кремовости.</p>
+        <p><strong>Совет:</strong> Для дополнительного вкуса и кремовости вы также можете добавить мед, сироп агавы или кленовый сироп для подслащивания смузи.</p>
+    </li>
+    <li>
+        <h3>Смешайте ингредиенты:</h3>
+        <p>После добавления фруктов и жидкой основы пришло время смешивать. В Cookingdom вам нужно будет тщательно смешать ингредиенты до получения гладкой и кремовой текстуры. Обязательно смешивайте ровно столько времени, сколько нужно — чрезмерное смешивание может сделать смузи слишком жидким, а недостаточное — оставить кусочки фруктов.</p>
+        <p><strong>Совет:</strong> Начните смешивать на низкой скорости и постепенно увеличивайте, чтобы все смешалось равномерно. Добавьте немного дополнительной жидкости, если смузи слишком густой или если ваш блендер испытывает трудности.</p>
+    </li>
+    <li>
+        <h3>Проверьте консистенцию:</h3>
+        <p>После смешивания проверьте консистенцию смузи. Он должен быть густым, кремовым и легко питься через соломинку. Если он слишком густой, добавьте немного жидкости, чтобы разбавить его. Если он слишком жидкий, добавьте еще несколько кусочков фруктов или немного больше йогурта и смешайте.</p>
+        <p><strong>Совет:</strong> Если смузи слишком комковатый, смешайте его еще несколько секунд, чтобы достичь желаемой гладкости.</p>
+    </li>
+    <li>
+        <h3>Подайте смузи:</h3>
+        <p>Как только вы будете довольны консистенцией, пришло время подавать смузи. Перелейте смузи в охлажденный стакан и украсьте дополнительными фруктами или посыпьте семенами чиа, льна или гранолой для текстуры.</p>
+        <p><strong>Совет:</strong> Для красивой подачи вы также можете добавить цветную соломинку или несколько листиков мяты в качестве гарнира.</p>
+        <p><strong>Совет:</strong> Подавайте смузи сразу после смешивания для наилучшего вкуса и текстуры.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Советы и хитрости</h2>
+<ul>
+    <li>
+        <h3>Используйте замороженные фрукты для более густого смузи:</h3>
+        <p>Замороженные фрукты — отличное дополнение к смузи, так как они загущают напиток и делают его холодным и освежающим.</p>
+        <p><strong>Совет:</strong> Если вы используете свежие фрукты, рассмотрите возможность их предварительной заморозки, особенно бананов или ягод, чтобы придать вашему смузи идеальную текстуру.</p>
+    </li>
+    <li>
+        <h3>Регулируйте сладость по вкусу:</h3>
+        <p>Попробуйте ваш смузи перед подачей и при необходимости отрегулируйте сладость. Вы можете добавить мед, сироп агавы или немного фруктового сока для подслащивания.</p>
+        <p><strong>Совет:</strong> Если вы предпочитаете смузи без сахара, выберите естественно сладкие фрукты, такие как манго или бананы, и пропустите добавленные подсластители.</p>
+    </li>
+    <li>
+        <h3>Экспериментируйте с добавками:</h3>
+        <p>В Cookingdom вы можете проявить творческий подход к своим смузи, добавляя дополнительные ингредиенты, такие как семена чиа, льна, протеиновый порошок или даже шпинат для дополнительного заряда питательных веществ.</p>
+        <p><strong>Совет:</strong> Добавление горсти шпината не сильно повлияет на вкус, но повысит пользу смузи для здоровья.</p>
+    </li>
+    <li>
+        <h3>Не пересмешивайте:</h3>
+        <p>Будьте осторожны, чтобы не пересмешать ингредиенты. Хотя смешивание необходимо для получения гладкой текстуры, чрезмерное смешивание может привести к тому, что смузи станет слишком водянистым или жидким.</p>
+        <p><strong>Совет:</strong> Смешивайте 30-45 секунд, затем проверьте консистенцию. При необходимости смешайте еще несколько секунд.</p>
+    </li>
+    <li>
+        <h3>Подавайте немедленно:</h3>
+        <p>Смузи лучше всего подавать свежими, поэтому обязательно подавайте ваш смузи сразу после смешивания, чтобы сохранить его текстуру и вкус.</p>
+        <p><strong>Совет:</strong> Если вам нужно сохранить смузи на потом, держите его в герметичном контейнере в холодильнике до 24 часов, но лучше всего наслаждаться им свежим.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 22 Cookingdom приготовление Легкого Смузи — это выбор правильных фруктов, их смешивание с кремовой основой и достижение идеальной консистенции. Поддерживайте гладкую текстуру, регулируйте сладость и подавайте холодным с декоративным штрихом для максимального удовлетворения клиентов.</p>
+<p>Овладение Легким Смузи не только улучшит ваши навыки в Cookingdom, но и подготовит вас к успеху на будущих уровнях, где вы будете создавать еще более сложные блюда и напитки!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 23
+    id: 'cookingdom-game-level-23',
+    title: 'Уровень 23:<br>Рождественское Полено',
+    pageTitle: 'Cookingdom Уровень 23 - Руководство по Рождественскому Полену',
+    pageSubtitle:
+      'Освойте праздничное Рождественское Полено (Bûche de Noël) на уровне 23 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-23',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 23 Руководство: Рождественское Полено | Советы и Стратегия',
+      description:
+        'Освойте Рождественское Полено на уровне 23 в Cookingdom. Получите советы по выпечке бисквита, скручиванию, начинке, глазури и украшению этого классического праздничного десерта.',
+      keywords:
+        'Cookingdom, Уровень 23, Рождественское Полено, Bûche de Noël, Праздничный десерт, Руководство по выпечке, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/bcaaa4/6d4c41?text=Level+23+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Рождественское Полено</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-20',
+          title: 'Уровень 20<br>Жареная Индейка',
+          imageUrl: 'https://placehold.co/60x60/efebe9/a1887f?text=Lvl+20', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-20',
+        },
+        {
+          id: 'cookingdom-game-level-21',
+          title: 'Уровень 21<br>Чай с Молоком и Боба',
+          imageUrl: 'https://placehold.co/60x60/d1c4e9/5e35b1?text=Lvl+21', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-21',
+        },
+        {
+          id: 'cookingdom-game-level-22',
+          title: 'Уровень 22<br>Легкий Смузи',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+22', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-22',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>Добро пожаловать на уровень 23 игры Cookingdom, где ваши навыки выпечки будут проверены классическим праздничным десертом – Рождественским Поленом (также известным как Bûche de Noël). Этот уровень бросает вызов игрокам: нужно аккуратно испечь, свернуть и украсить праздничный бисквитный рулет, наполненный кремом и покрытый насыщенным шоколадом. Точность и время — ключ к завершению этого сложного десерта и восхищению ваших виртуальных клиентов.</p>
+<p>Руководства по прохождению Cookingdom помогут вам пройти каждый шаг этого уровня, чтобы ваше Рождественское Полено было не только вкусным, но и привлекательным внешне.</p>
+
+<h2 id="goal">Цели 23-го уровня</h2>
+<ul>
+    <li>Испечь легкий, эластичный бисквит.</li>
+    <li>Приготовить и распределить сливочную начинку.</li>
+    <li>Свернуть бисквит, не сломав его.</li>
+    <li>Покрыть рулет шоколадной глазурью.</li>
+    <li>Украсить праздничными топпингами.</li>
+    <li>Доставить идеальные торты в установленные сроки.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Рождественского Полена</h2>
+<ol>
+    <li>
+        <h3>Приготовление бисквитного теста</h3>
+        <p>В Cookingdom начните со смешивания яиц, сахара, муки и какао-порошка.</p>
+        <p><strong>Совет:</strong> Взбивайте яйца и сахар до светлой и пышной массы — это придаст вашему бисквиту воздушную текстуру.</p>
+        <p><strong>Игровой совет Cookingdom:</strong> Избегайте чрезмерного замешивания муки, чтобы тесто оставалось мягким.</p>
+    </li>
+    <li>
+        <h3>Выпечка бисквита</h3>
+        <p>Вылейте тесто на противень, застеленный пергаментом.</p>
+        <p>Выпекайте в предварительно разогретой духовке до готовности – около 10 минут игрового времени.</p>
+        <p><strong>Совет:</strong> Бисквит должен оставаться эластичным, чтобы его можно было свернуть, не сломав.</p>
+    </li>
+    <li>
+        <h3>Сворачивание в теплом виде</h3>
+        <p>Сразу после выпечки сверните бисквит (вместе с пергаментной бумагой), пока он еще теплый.</p>
+        <p>Дайте ему остыть в свернутом виде — это «приучит» торт и предотвратит трещины позже.</p>
+        <p><strong>Руководства по прохождению Cookingdom подчеркивают, что пропуск этого шага рискует сломать торт!</strong></p>
+    </li>
+    <li>
+        <h3>Приготовление сливочной начинки</h3>
+        <p>На этом уровне игры Cookingdom взбейте жирные сливки с небольшим количеством ванили и сахара.</p>
+        <p>По желанию: добавьте немного эспрессо или какао для дополнительной глубины вкуса.</p>
+    </li>
+    <li>
+        <h3>Начинка и сворачивание</h3>
+        <p>Аккуратно разверните остывший бисквит, равномерно распределите крем и аккуратно снова сверните его.</p>
+        <p>Действуйте уверенно, чтобы не порвать.</p>
+        <p><strong>Совет:</strong> Сворачивайте рулет плотно для лучшего спирального эффекта при нарезке.</p>
+    </li>
+    <li>
+        <h3>Глазировка рулета</h3>
+        <p>Покройте рулет шоколадным ганашем или масляным кремом.</p>
+        <p>Используйте вилку, чтобы создать текстуру «коры» — ключевая деталь в игре Cookingdom, которая повышает ваш счет.</p>
+        <p><strong>Совет:</strong> Кратковременно охладите торт, чтобы глазурь застыла перед украшением.</p>
+    </li>
+    <li>
+        <h3>Добавление праздничных украшений</h3>
+        <p>Используйте сахарную пудру для эффекта припорошенного снегом.</p>
+        <p>Добавьте остролист, ягоды или съедобные грибы.</p>
+        <p><strong>Руководства по прохождению Cookingdom поощряют творчество — украшение повышает ваш звездный рейтинг!</strong></p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 23</h2>
+<ul>
+    <li>
+        <h3>Время решает все</h3>
+        <p>Не перепекайте бисквит; он должен быть достаточно мягким, чтобы его можно было свернуть.</p>
+    </li>
+    <li>
+        <h3>Украшение имеет значение</h3>
+        <p>Игра Cookingdom награждает игроков, которые уделяют время украшению. Чем праздничнее, тем лучше!</p>
+    </li>
+    <li>
+        <h3>Практика ведет к совершенству</h3>
+        <p>Этот уровень может потребовать нескольких попыток, чтобы освоить сворачивание и начинку.</p>
+    </li>
+    <li>
+        <h3>Комбо-серии</h3>
+        <p>Быстро завершайте несколько тортов, чтобы активировать бонусные комбо для более высоких очков.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 23 Cookingdom освоение Рождественского Полена означает баланс между навыками выпечки, точностью времени и креативностью. От взбивания идеального бисквита до украшения торта в праздничном стиле — этот уровень проверяет все, чему вы научились до сих пор. С помощью руководств по прохождению Cookingdom вы проложите себе путь к победе и подарите своим клиентам праздничное настроение!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 24
+    id: 'cookingdom-game-level-24',
+    title: 'Уровень 24:<br>Фо Бо (Говяжий Фо)',
+    pageTitle: 'Cookingdom Уровень 24 - Руководство по Фо Бо',
+    pageSubtitle:
+      'Овладейте искусством приготовления вкусного вьетнамского супа Фо Бо на уровне 24 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-24',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 24 Руководство: Фо Бо | Советы и Стратегия',
+      description:
+        'Освойте Фо Бо на уровне 24 в Cookingdom. Получите советы по варке бульона, приготовлению лапши, нарезке говядины и сборке этого ароматного вьетнамского супа.',
+      keywords:
+        'Cookingdom, Уровень 24, Фо Бо, Вьетнамский суп, Суп с лапшой, Варка бульона, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/e8f5e9/388e3c?text=Level+24+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Фо Бо</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-21',
+          title: 'Уровень 21<br>Чай с Молоком и Боба',
+          imageUrl: 'https://placehold.co/60x60/d1c4e9/5e35b1?text=Lvl+21', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-21',
+        },
+        {
+          id: 'cookingdom-game-level-22',
+          title: 'Уровень 22<br>Легкий Смузи',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+22', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-22',
+        },
+        {
+          id: 'cookingdom-game-level-23',
+          title: 'Уровень 23<br>Рождественское Полено',
+          imageUrl: 'https://placehold.co/60x60/bcaaa4/6d4c41?text=Lvl+23', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-23',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 24 Cookingdom вы познакомитесь с Фо Бо, вкусным и ароматным вьетнамским супом с лапшой. Сложность здесь заключается в идеальном приготовлении бульона, правильной варке говядины и сборке блюда со всеми необходимыми гарнирами. Сочетание ароматных трав, рисовой лапши и тонко нарезанной говядины делает это блюдо любимым, и в Cookingdom все дело в том, чтобы правильно выполнить каждый шаг, чтобы ваши клиенты остались довольны.</p>
+<p>Этот уровень требует точности и внимания к деталям, так как Фо Бо включает в себя несколько этапов: варка бульона, приготовление лапши и обеспечение правильной степени готовности говядины. Руководства по прохождению игры Cookingdom предоставят вам пошаговые инструкции для успешного прохождения этого уровня.</p>
+
+<h2 id="goal">Цели 24-го уровня</h2>
+<ul>
+    <li>Сварить бульон с правильными специями и ингредиентами.</li>
+    <li>Приготовить рисовую лапшу и сохранить ее нежной.</li>
+    <li>Приготовить ломтики говядины до идеальной степени готовности.</li>
+    <li>Собрать фо со свежими травами, ростками фасоли и лаймом.</li>
+    <li>Подать фо горячим и ароматным.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Фо Бо</h2>
+<ol>
+    <li>
+        <h3>Варка бульона</h3>
+        <p>Начните с приготовления бульона в Cookingdom. Ключ к ароматному бульону для фо — длительная варка. В игре вы добавите говяжьи кости, лук, имбирь и специи, такие как звездчатый анис, гвоздика, корица и кардамон. Варите эти ингредиенты в течение длительного периода (обычно 30-40 минут в игре).</p>
+        <p><strong>Совет:</strong> Снимайте любую пену, которая всплывает на поверхность, чтобы бульон оставался прозрачным и чистым.</p>
+    </li>
+    <li>
+        <h3>Приготовление рисовой лапши</h3>
+        <p>Пока бульон варится, пришло время приготовить рисовую лапшу. В Cookingdom вам нужно будет варить ее до тех пор, пока она не станет нежной, но не разварится.</p>
+        <p><strong>Совет:</strong> Не переваривайте лапшу. Она должна сохранять легкую упругость, так как продолжит размягчаться после подачи с горячим бульоном.</p>
+    </li>
+    <li>
+        <h3>Нарезка говядины</h3>
+        <p>Фо Бо обычно подают с тонко нарезанной сырой говядиной, которая готовится в горячем бульоне. В Cookingdom вас попросят нарезать говядину поперек волокон как можно тоньше.</p>
+        <p><strong>Совет:</strong> Заморозьте говядину на 10-15 минут перед нарезкой, чтобы было легче нарезать ее на тончайшие ломтики.</p>
+    </li>
+    <li>
+        <h3>Сборка Фо</h3>
+        <p>Как только бульон будет готов, а лапша сварена, пришло время собрать фо. Сначала положите лапшу в миску, затем сверху выложите ломтики сырой говядины. Залейте горячим бульоном говядину, позволяя теплу бульона приготовить ломтики говядины.</p>
+        <p><strong>Совет:</strong> Обязательно аккуратно поливайте бульоном говядину, чтобы она готовилась равномерно, но не оставляйте ее слишком долго, иначе говядина переварится.</p>
+    </li>
+    <li>
+        <h3>Добавление свежих трав и гарниров</h3>
+        <p>В Cookingdom финальный штрих имеет решающее значение: добавьте свежие травы, такие как кинза, базилик и зеленый лук, а также выжмите немного лайма и положите сбоку немного ростков фасоли.</p>
+        <p><strong>Совет:</strong> Если вы хотите дополнительный взрыв вкуса, добавьте несколько ломтиков халапеньо или немного соуса хойсин и шрирачи для остроты.</p>
+    </li>
+    <li>
+        <h3>Подача Фо</h3>
+        <p>Подавайте фо горячим, убедившись, что говядина слегка розовая в центре и идеально нежная. Горячий бульон продолжит готовить говядину, пока ваш клиент наслаждается ею.</p>
+        <p><strong>Совет:</strong> Убедитесь, что бульон дымится и ароматен, так как аромат — огромная часть впечатления от фо.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 24</h2>
+<ul>
+    <li>
+        <h3>Правильный бульон</h3>
+        <p>Бульон — сердце любого фо. Варите его столько, сколько позволяет игра, и обязательно идеально сбалансируйте специи.</p>
+        <p><strong>Совет:</strong> Если бульон кажется слишком крепким, вы можете разбавить его небольшим количеством воды; если он слишком слабый, варите его дольше.</p>
+    </li>
+    <li>
+        <h3>Не переварите лапшу</h3>
+        <p>Рисовая лапша готовится очень быстро. Переваривание ее в Cookingdom приведет к кашеобразной текстуре. Следите за таймером и вынимайте ее, как только она станет нежной.</p>
+    </li>
+    <li>
+        <h3>Идеально нарезанная говядина</h3>
+        <p>Ломтики говядины должны быть тонкими, как бумага, чтобы быстро приготовиться в горячем бульоне. Используйте острый нож для лучших результатов. Предварительная заморозка говядины облегчает нарезку тонких ломтиков.</p>
+    </li>
+    <li>
+        <h3>Предпочтения клиентов</h3>
+        <p>Некоторые клиенты могут попросить дополнительные травы или шрирачу, чтобы сделать блюдо острее. Всегда проверяйте их предпочтения и добавляйте дополнительные топпинги по запросу.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 24 Cookingdom приготовление Фо Бо включает в себя идеальный баланс ингредиентов, времени и подачи. От варки ароматного бульона до сборки блюда с правильными гарнирами — этот уровень требует внимания к деталям. Следуя руководствам по прохождению Cookingdom, вы узнаете, как правильно приготовить бульон, идеально сварить ломтики говядины и собрать фо с правильным сочетанием трав и специй.</p>
+<p>С терпением и практикой вы овладеете Фо Бо и продолжите свое путешествие по захватывающему и вкусному миру Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 25
+    id: 'cookingdom-game-level-25',
+    title: 'Уровень 25:<br>Пицца',
+    pageTitle: 'Cookingdom Уровень 25 - Руководство по Пицце',
+    pageSubtitle: 'Научитесь готовить идеальную Пиццу с нуля на уровне 25 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-25',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 25 Руководство: Пицца | Советы и Стратегия',
+      description:
+        'Освойте приготовление Пиццы на уровне 25 в Cookingdom. Получите советы по тесту, соусу, начинкам, выпечке и подаче идеальной пиццы.',
+      keywords:
+        'Cookingdom, Уровень 25, Пицца, Тесто для пиццы, Выпечка, Начинки, Итальянская кухня, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffccbc/ff5722?text=Level+25+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Пицца</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-22',
+          title: 'Уровень 22<br>Легкий Смузи',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+22', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-22',
+        },
+        {
+          id: 'cookingdom-game-level-23',
+          title: 'Уровень 23<br>Рождественское Полено',
+          imageUrl: 'https://placehold.co/60x60/bcaaa4/6d4c41?text=Lvl+23', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-23',
+        },
+        {
+          id: 'cookingdom-game-level-24',
+          title: 'Уровень 24<br>Фо Бо',
+          imageUrl: 'https://placehold.co/60x60/e8f5e9/388e3c?text=Lvl+24', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-24',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 25 Cookingdom вам поручено приготовить одно из самых популярных и универсальных блюд: <a href="/level-1" title="Уровень 1 Пицца">Пиццу</a>. Этот уровень бросает вам вызов: приготовить идеальную пиццу с нуля, создав тесто, подготовив начинки и выпекая ее до золотистой хрустящей корочки. С разнообразием доступных начинок Cookingdom проверяет ваши навыки в балансировке вкусов и текстур для создания непревзойденной пиццы.</p>
+<p>Цель состоит в том, чтобы ваша пицца была идеально приготовлена, с хрустящей корочкой, равномерно распределенными начинками и нужным количеством сыра и соуса. В этом руководстве по прохождению Cookingdom мы разберем каждый шаг, который вам нужно предпринять, чтобы освоить уровень 25 и удовлетворить ваших клиентов.</p>
+
+<h2 id="goal">Цели 25-го уровня</h2>
+<ul>
+    <li>Приготовить тесто для пиццы с нуля.</li>
+    <li>Равномерно распределить соус по тесту.</li>
+    <li>Добавить нужное количество сыра и начинок.</li>
+    <li>Выпечь пиццу до хрустящей идеальности.</li>
+    <li>Подать пиццу горячей и вкусной.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Пиццы</h2>
+<ol>
+    <li>
+        <h3>Приготовление теста для пиццы</h3>
+        <p>В Cookingdom приготовление идеального теста для пиццы имеет решающее значение. Тесто должно быть легким и воздушным, но достаточно плотным, чтобы удерживать начинки.</p>
+        <p>Начните со смешивания муки, дрожжей, воды, оливкового масла и соли, чтобы создать гладкое тесто.</p>
+        <p><strong>Совет:</strong> Замешивайте тесто не менее 5-7 минут, чтобы активировать глютен и обеспечить жевательную, но хрустящую корочку.</p>
+    </li>
+    <li>
+        <h3>Дайте тесту подняться</h3>
+        <p>После замеса дайте тесту отдохнуть около 30 минут, чтобы оно поднялось. Тесто должно увеличиться вдвое. В это время дрожжи работают, создавая пузырьки, которые придают корочке воздушную текстуру.</p>
+        <p><strong>Совет:</strong> В Cookingdom, если вы пропустите этот шаг, ваше тесто не поднимется должным образом, что приведет к плотной и жевательной корочке.</p>
+    </li>
+    <li>
+        <h3>Раскатка теста</h3>
+        <p>Как только тесто поднимется, аккуратно обомните его, чтобы выпустить воздух. Раскатайте тесто на посыпанной мукой поверхности до желаемой толщины.</p>
+        <p><strong>Совет:</strong> Для более тонкой корочки раскатайте тесто тоньше. Для более толстой корочки оставьте его немного толще.</p>
+        <p><strong>Совет:</strong> Если вы стремитесь к хрустящей корочке, убедитесь, что тесто немного тоньше по краям.</p>
+    </li>
+    <li>
+        <h3>Нанесение соуса</h3>
+        <p>В Cookingdom следующий шаг — равномерно распределить томатный или белый соус по тесту.</p>
+        <p>Не переусердствуйте — используйте тонкий слой, чтобы пицца не стала слишком влажной.</p>
+        <p><strong>Совет:</strong> Для дополнительного вкуса вы можете добавить щепотку чесночного порошка, орегано или базилика в соус перед нанесением на тесто.</p>
+    </li>
+    <li>
+        <h3>Добавление сыра и начинок</h3>
+        <p>Как только соус равномерно распределен, пришло время покрыть пиццу сыром. Моцарелла — самый распространенный выбор для пиццы, но вы также можете использовать смесь сыров, таких как чеддер, пармезан или козий сыр, для дополнительного вкуса.</p>
+        <p><strong>Совет:</strong> Добавьте щедрый слой сыра, чтобы обеспечить сырный, тягучий результат.</p>
+        <p>После сыра добавьте начинки по вашему выбору. Вы можете выбрать традиционные пепперони, грибы и зеленый перец или проявить творческий подход с колбасой, луком или даже ананасом.</p>
+        <p><strong>Совет:</strong> Убедитесь, что начинки распределены равномерно для сбалансированного вкуса в каждом кусочке.</p>
+    </li>
+    <li>
+        <h3>Выпечка Пиццы</h3>
+        <p>Cookingdom проведет вас через процесс выпечки пиццы. Убедитесь, что ваша духовка предварительно разогрета примерно до 475°F (245°C). Поместите пиццу на противень или камень для пиццы.</p>
+        <p>Выпекайте пиццу 10-15 минут, в зависимости от предпочитаемой вами корочки и соотношения начинок. Пицца готова, когда корочка станет золотисто-коричневой, а сыр запузырится и слегка подрумянится.</p>
+        <p><strong>Совет:</strong> Следите за пиццей, так как время выпечки может варьироваться в зависимости от толщины теста и начинок.</p>
+    </li>
+    <li>
+        <h3>Нарезка и подача</h3>
+        <p>Как только пицца будет испечена до совершенства, достаньте ее из духовки и дайте ей остыть минуту или две.</p>
+        <p>Используйте нож для пиццы, чтобы нарезать пиццу на идеальные, ровные кусочки.</p>
+        <p><strong>Совет:</strong> Подавайте пиццу немедленно, пока сыр еще тянется, а корочка хрустит.</p>
+        <p>Бонус: Перед подачей посыпьте свежим базиликом или сбрызните оливковым маслом для дополнительного вкуса.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 25</h2>
+<ul>
+    <li>
+        <h3>Не перегружайте пиццу начинками</h3>
+        <p>Хотя заманчиво нагромоздить начинки, Cookingdom награждает сбалансированные пиццы. Перегрузка пиццы может привести к неравномерному приготовлению или размокшей корочке.</p>
+        <p><strong>Совет:</strong> Меньше — значит больше! Придерживайтесь 3-4 начинок, которые хорошо дополняют друг друга.</p>
+    </li>
+    <li>
+        <h3>Идеальная текстура теста</h3>
+        <p>Легкое, воздушное тесто — ключ к отличной пицце. Не торопитесь с процессом приготовления теста; правильное замешивание и подъем дадут вам лучшую корочку.</p>
+        <p><strong>Совет:</strong> Если тесто кажется липким, добавьте немного больше муки, но будьте осторожны, чтобы не сделать его слишком сухим.</p>
+    </li>
+    <li>
+        <h3>Правильная температура выпечки</h3>
+        <p>Cookingdom позволяет выпекать пиццу при высокой температуре, поэтому убедитесь, что духовка полностью разогрета. Более горячая духовка обеспечивает хрустящую, золотистую корочку.</p>
+        <p><strong>Совет:</strong> Если вы используете камень для пиццы, предварительно разогрейте его в духовке для дополнительной хрусткости.</p>
+    </li>
+    <li>
+        <h3>Следите за временем</h3>
+        <p>Время имеет решающее значение в Cookingdom. Не допускайте перепекания пиццы, иначе корочка станет слишком твердой и подгоревшей.</p>
+        <p><strong>Совет:</strong> Проверьте пиццу через 10 минут. Как только сыр начнет пузыриться, а края корочки станут золотистыми, пора ее вынимать.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>Уровень 25 Cookingdom бросает вам вызов: приготовить идеальную Пиццу с нуля, от подготовки теста до добавления идеального количества сыра и начинок. Ключ к успеху — балансировка вкусов и текстур, обеспечение хрустящей корочки и правильного расплавления сыра.</p>
+<p>Следуя руководствам по прохождению Cookingdom, вы сможете освоить каждый шаг, от подготовки теста до финальной выпечки. Как только вы усовершенствуете свои навыки приготовления пиццы, вы будете готовы взяться за еще более сложные блюда на будущих уровнях.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 26
+    id: 'cookingdom-game-level-26',
+    title: 'Уровень 26:<br>Смузи',
+    pageTitle: 'Cookingdom Уровень 26 - Руководство по Смузи',
+    pageSubtitle: 'Научитесь смешивать идеальный Смузи на уровне 26 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-26',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 26 Руководство: Смузи | Советы и Стратегия',
+      description:
+        'Освойте Смузи на уровне 26 в Cookingdom. Получите советы по выбору фруктов, жидкостей, смешиванию до нужной консистенции и украшению.',
+      keywords:
+        'Cookingdom, Уровень 26, Смузи, Здоровый напиток, Смешивание, Фруктовый напиток, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/b3e5fc/01579b?text=Level+26+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Смузи</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-23',
+          title: 'Уровень 23<br>Рождественское Полено',
+          imageUrl: 'https://placehold.co/60x60/bcaaa4/6d4c41?text=Lvl+23', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-23',
+        },
+        {
+          id: 'cookingdom-game-level-24',
+          title: 'Уровень 24<br>Фо Бо',
+          imageUrl: 'https://placehold.co/60x60/e8f5e9/388e3c?text=Lvl+24', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-24',
+        },
+        {
+          id: 'cookingdom-game-level-25',
+          title: 'Уровень 25<br>Пицца',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+25', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-25',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 26 Cookingdom вам поручено приготовить <a href="/level-22" title="Уровень 22 Смузи">Смузи</a>, освежающее и здоровое угощение. Этот уровень фокусируется на смешивании правильных ингредиентов для создания гладкой, кремовой текстуры, которая не слишком густая и не слишком жидкая. Вам нужно будет тщательно выбирать фрукты, жидкости и добавки, чтобы получить идеальный баланс вкусов. Cookingdom бросает вам вызов: точно комбинировать ингредиенты, чтобы удовлетворить вкусовые рецепторы ваших виртуальных клиентов.</p>
+<p>Это руководство проведет вас через этапы приготовления идеального смузи в Cookingdom, гарантируя, что ваше творение будет одновременно вкусным и привлекательным внешне.</p>
+
+<h2 id="goal">Цели 26-го уровня</h2>
+<ul>
+    <li>Выбрать правильные фрукты для основы смузи.</li>
+    <li>Добавить жидкости, такие как молоко, сок или йогурт.</li>
+    <li>Смешать до нужной консистенции.</li>
+    <li>Подать смузи с дополнительными гарнирами.</li>
+    <li>Создавать несколько вариаций, чтобы ваши клиенты были довольны.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Смузи</h2>
+<ol>
+    <li>
+        <h3>Выберите базовые фрукты</h3>
+        <p>В Cookingdom у вас есть несколько вариантов фруктов на выбор, таких как бананы, клубника, черника и манго. Ключ в том, чтобы выбрать хороший баланс фруктов, которые дополняют друг друга.</p>
+        <p><strong>Совет:</strong> Для густого смузи выбирайте бананы или манго. Для более легкой текстуры выбирайте ягоды или ананас.</p>
+    </li>
+    <li>
+        <h3>Добавьте жидкости</h3>
+        <p>Следующий шаг — добавить жидкую основу. Вы можете выбрать из таких вариантов, как молоко, миндальное молоко, апельсиновый сок или йогурт. Жидкость помогает плавно смешать фрукты и определяет конечную консистенцию.</p>
+        <p><strong>Совет:</strong> Если вы хотите более кремовую текстуру, выбирайте йогурт или молоко. Если вы предпочитаете более легкий смузи, лучше всего подойдет сок или вода.</p>
+    </li>
+    <li>
+        <h3>Добавьте необязательные ингредиенты</h3>
+        <p>В Cookingdom вы можете добавлять другие ингредиенты для улучшения вкуса и текстуры вашего смузи, такие как:</p>
+        <ul>
+            <li>Мед или сироп агавы для сладости.</li>
+            <li>Шпинат или кейл для зеленого заряда.</li>
+            <li>Лед, чтобы сделать его очень холодным и густым.</li>
+            <li>Протеиновый порошок или арахисовое масло для смузи, богатого белком.</li>
+        </ul>
+        <p><strong>Совет:</strong> Будьте внимательны к уровню сладости; слишком много меда или сиропа может перебить натуральный вкус фруктов.</p>
+    </li>
+    <li>
+        <h3>Смешайте до совершенства</h3>
+        <p>Как только все ваши ингредиенты окажутся в блендере, пришло время смешивать! Цель — достичь гладкой консистенции без комков. В Cookingdom вам нужно будет внимательно следить за процессом смешивания.</p>
+        <p><strong>Совет:</strong> Начните с короткого цикла смешивания, проверьте текстуру, а затем при необходимости смешайте еще. Если смузи слишком густой, добавьте больше жидкости; если слишком жидкий, добавьте больше фруктов или льда.</p>
+    </li>
+    <li>
+        <h3>Попробуйте и отрегулируйте</h3>
+        <p>После смешивания уделите время, чтобы попробовать смузи в Cookingdom. При необходимости отрегулируйте сладость, кислотность или густоту.</p>
+        <p><strong>Совет:</strong> Если он слишком сладкий, добавьте немного лимонного или лаймового сока для свежести. Если слишком густой, добавьте еще немного жидкости.</p>
+    </li>
+    <li>
+        <h3>Украсьте и подайте</h3>
+        <p>Чтобы придать вашему смузи профессиональный вид, украсьте его топпингами, такими как:</p>
+         <ul>
+            <li>Свежие ломтики фруктов (например, клубника на краю стакана или ломтик банана).</li>
+            <li>Листья мяты для свежего цветового акцента.</li>
+            <li>Посыпка семенами чиа или гранолой для текстуры.</li>
+        </ul>
+        <p><strong>Совет:</strong> Презентация важна в Cookingdom! Чем привлекательнее выглядит ваш смузи, тем выше удовлетворенность клиентов.</p>
+    </li>
+    <li>
+        <h3>Подайте и порадуйте вашего клиента</h3>
+        <p>Как только вы будете удовлетворены вкусом и внешним видом вашего смузи, подавайте его незамедлительно. Конечный продукт должен быть гладким, кремовым и вкусным, с яркими цветами и освежающим ароматом.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 26</h2>
+<ul>
+    <li>
+        <h3>Сбалансируйте ваши фрукты и жидкости</h3>
+        <p>Ключ к идеальному смузи — баланс. Выбирайте фрукты, которые хорошо сочетаются друг с другом, и всегда добавляйте ровно столько жидкости, чтобы помочь процессу смешивания, не делая смузи слишком жидким.</p>
+    </li>
+    <li>
+        <h3>Используйте лед экономно</h3>
+        <p>Хотя лед может помочь загустить смузи, слишком большое его количество разбавит вкус. Добавьте лишь горсть льда для освежающей текстуры.</p>
+    </li>
+    <li>
+        <h3>Настраивайте под предпочтения клиентов</h3>
+        <p>Некоторые клиенты могут предпочитать зеленые смузи или просить конкретные ингредиенты, такие как ягоды или протеиновый порошок. Будьте внимательны к запросам клиентов, чтобы повысить свой рейтинг.</p>
+    </li>
+    <li>
+        <h3>Следите за временем смешивания</h3>
+        <p>Не пересмешивайте! Следите за консистенцией. Чрезмерное смешивание может сделать смузи слишком жидким и водянистым.</p>
+    </li>
+    <li>
+        <h3>Экспериментируйте с суперфудами</h3>
+        <p>Хотите выделиться? Добавляйте в смузи суперфуды, такие как семена чиа, льна или спирулину, для дополнительной пользы для здоровья и преимущества перед конкурентами в Cookingdom.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 26 Cookingdom приготовление идеального Смузи требует правильного баланса фруктов, жидкостей и необязательных ингредиентов, смешанных до совершенства. Независимо от того, создаете ли вы тропический смузи с манго и ананасом или ягодный напиток с клубникой и черникой, этот уровень посвящен точности и креативности.</p>
+<p>Следуя руководствам по прохождению Cookingdom, вы быстро освоите приготовление смузи. Добейтесь нужной консистенции, стильно украсьте свой смузи и подайте вкусное угощение, которое порадует ваших клиентов!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 27
+    id: 'cookingdom-game-level-27',
+    title: 'Уровень 27:<br>Сэндвич',
+    pageTitle: 'Cookingdom Уровень 27 - Руководство по Сэндвичу',
+    pageSubtitle: 'Научитесь собирать идеальный Сэндвич на уровне 27 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-27',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 27 Руководство: Сэндвич | Советы и Стратегия',
+      description:
+        'Освойте Сэндвич на уровне 27 в Cookingdom. Получите советы по выбору хлеба, белка, овощей, соусов, созданию слоев и подаче.',
+      keywords:
+        'Cookingdom, Уровень 27, Сэндвич, Быстрая еда, Слои, Хлеб, Белок, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fff9c4/fbc02d?text=Level+27+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Сэндвич</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 3 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-24',
+          title: 'Уровень 24<br>Фо Бо',
+          imageUrl: 'https://placehold.co/60x60/e8f5e9/388e3c?text=Lvl+24', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-24',
+        },
+        {
+          id: 'cookingdom-game-level-25',
+          title: 'Уровень 25<br>Пицца',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+25', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-25',
+        },
+        {
+          id: 'cookingdom-game-level-26',
+          title: 'Уровень 26<br>Смузи',
+          imageUrl: 'https://placehold.co/60x60/b3e5fc/01579b?text=Lvl+26', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-26',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 27 Cookingdom вам поручено приготовить вкусный Сэндвич, быструю, но сытную еду. Хотя это может показаться простым, приготовление идеального сэндвича в Cookingdom включает выбор правильной комбинации ингредиентов и их сборку таким образом, чтобы порадовать ваших клиентов. Этот уровень бросает вызов вашей креативности, балансу вкусов и способности создавать слои ингредиентов для максимального удовлетворения.</p>
+<p>Ваш сэндвич должен иметь хрустящее, ароматное сочетание хлеба, белка, овощей и соусов. Важно правильно расположить слои, чтобы каждый укус был сбалансированным и вкусным. Это руководство проведет вас через каждый шаг, чтобы вы освоили уровень 27 Cookingdom и доставили идеальный сэндвич.</p>
+
+<h2 id="goal">Цели 27-го уровня</h2>
+<ul>
+    <li>Выбрать хлеб для сэндвича.</li>
+    <li>Выбрать белок (например, курицу, индейку или говядину).</li>
+    <li>Добавить овощи для хруста и вкуса.</li>
+    <li>Полить соусами и добавить дополнительные ингредиенты, такие как сыр.</li>
+    <li>Собрать сэндвич и подать его свежим.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Сэндвича</h2>
+<ol>
+    <li>
+        <h3>Выберите хлеб</h3>
+        <p>Хлеб — основа любого отличного сэндвича. В Cookingdom у вас будет множество вариантов хлеба на выбор, таких как белый хлеб, цельнозерновой, чиабатта или багет. Тип хлеба повлияет на текстуру и общий вкус.</p>
+        <p><strong>Совет:</strong> Для более хрустящего сэндвича выбирайте багет или чиабатту. Для более мягкого сэндвича выбирайте цельнозерновой или белый хлеб.</p>
+        <p><strong>Совет:</strong> В Cookingdom вас также могут попросить поджарить хлеб для дополнительного хруста.</p>
+    </li>
+    <li>
+        <h3>Добавьте белок</h3>
+        <p>Cookingdom позволяет вам выбрать белок для сэндвича, такой как курица-гриль, индейка, ветчина или даже говяжьи котлеты.</p>
+        <p>Добавьте белок на хлеб, убедившись, что он равномерно распределен по ломтику. Белок придает основной вкус и сытность сэндвичу.</p>
+        <p><strong>Совет:</strong> Убедитесь, что белок приготовлен до совершенства и не перебивает другие ингредиенты. Курица-гриль и индейка — популярный выбор для сбалансированного сэндвича.</p>
+    </li>
+    <li>
+        <h3>Разложите овощи слоями</h3>
+        <p>Овощи добавляют сэндвичу хруст и свежесть. Салат, помидоры, лук и соленые огурцы — классический выбор.</p>
+        <p><strong>Совет:</strong> Нарежьте овощи равномерно и разложите их слоями, чтобы в каждом укусе было всего понемногу. Не перегружайте сэндвич слишком большим количеством овощей, иначе его будет трудно есть.</p>
+        <p><strong>Совет:</strong> В Cookingdom всегда используйте свежие овощи для лучшего вкуса и внешнего вида.</p>
+    </li>
+    <li>
+        <h3>Добавьте соусы и сыр</h3>
+        <p>Теперь пришло время добавить немного вкуса! Соусы, такие как майонез, горчица, кетчуп или соус барбекю, могут сделать ваш сэндвич более ароматным.</p>
+        <p><strong>Совет:</strong> Не переусердствуйте с соусами; достаточно лишь для добавления влаги и вкуса. Вы также можете добавить сыр для дополнительного слоя сливочности, например, чеддер, швейцарский или американский сыр.</p>
+        <p><strong>Совет:</strong> Если вы добавляете сыр, убедитесь, что он слегка расплавился для идеальной тягучей текстуры.</p>
+    </li>
+    <li>
+        <h3>Соберите сэндвич</h3>
+        <p>Аккуратно соберите ваш сэндвич, аккуратно укладывая слои. Начните с нижнего ломтика хлеба, добавьте белок, затем овощи и полейте соусами и посыпьте сыром. Наконец, положите верхний ломтик хлеба, чтобы завершить сэндвич.</p>
+        <p><strong>Совет:</strong> Если сэндвич слишком высокий, вы можете слегка прижать его или разрезать пополам для удобства.</p>
+    </li>
+    <li>
+        <h3>Подайте и наслаждайтесь</h3>
+        <p>Как только сэндвич будет полностью собран, пришло время его подавать. Убедитесь, что сэндвич свежий и привлекательный внешне.</p>
+        <p><strong>Совет:</strong> В Cookingdom презентация имеет значение! Разрежьте сэндвич на аккуратные половинки или четвертинки, и если у вас есть время, добавьте гарнир, например, соленый огурец или порцию чипсов.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 27</h2>
+<ul>
+    <li>
+        <h3>Используйте свежие ингредиенты</h3>
+        <p>Свежесть — ключ к приготовлению сэндвича. Всегда выбирайте самые свежие овощи и белок, чтобы обеспечить высокое качество сэндвича.</p>
+    </li>
+    <li>
+        <h3>Сбалансируйте вкусы</h3>
+        <p>Убедитесь, что вкусы хорошо сбалансированы. Если белок насыщенный (например, говядина), используйте более мягкие соусы и овощи. Если белок легкий (например, индейка), вы можете добавить более смелые вкусы, такие как горчица или соус барбекю.</p>
+    </li>
+    <li>
+        <h3>Поджарьте для хруста</h3>
+        <p>Поджаривание хлеба добавляет текстуру сэндвичу. Хрустящий сэндвич может улучшить впечатления, особенно если вы подаете его с теплым расплавленным сыром.</p>
+    </li>
+    <li>
+        <h3>Проверьте предпочтения клиентов</h3>
+        <p>В Cookingdom у некоторых клиентов могут быть особые предпочтения по сэндвичам. Следите за запросами, такими как «дополнительный сыр», «без лука» или «дополнительный майонез». Выполнение этих запросов улучшит ваши клиентские рейтинги.</p>
+    </li>
+    <li>
+        <h3>Не перегружайте сэндвич</h3>
+        <p>Хотя заманчиво добавить как можно больше начинок, слишком большой сэндвич может быть трудным в обращении как в Cookingdom, так и в реальной жизни. Будьте проще и сбалансированнее.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 27 Cookingdom приготовление идеального Сэндвича — это баланс и внимание к деталям. От выбора правильного хлеба до добавления идеального белка, овощей, соусов и сыра — каждый шаг должен быть выполнен тщательно, чтобы создать сытный сэндвич.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете создать вкусный и хорошо собранный сэндвич, который полюбят ваши клиенты. Не забывайте следить за их предпочтениями, поджаривать хлеб для дополнительного хруста и всегда подавать свежим!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 28
+    id: 'cookingdom-game-level-28',
+    title: 'Уровень 28:<br>Круассан',
+    pageTitle: 'Cookingdom Уровень 28 - Руководство по Круассану',
+    pageSubtitle: 'Научитесь готовить идеальный слоеный Круассан на уровне 28 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-28',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 28 Руководство: Круассан | Советы и Стратегия',
+      description:
+        'Освойте Круассан на уровне 28 в Cookingdom. Получите советы по приготовлению теста, ламинированию, формовке, расстойке и выпечке этой классической французской выпечки.',
+      keywords:
+        'Cookingdom, Уровень 28, Круассан, Французская выпечка, Выпечка, Ламинирование, Тесто, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/fff176/fbc02d?text=Level+28+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Круассан</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-25',
+          title: 'Уровень 25<br>Пицца',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+25', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-25',
+        },
+        {
+          id: 'cookingdom-game-level-26',
+          title: 'Уровень 26<br>Смузи',
+          imageUrl: 'https://placehold.co/60x60/b3e5fc/01579b?text=Lvl+26', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-26',
+        },
+        {
+          id: 'cookingdom-game-level-27',
+          title: 'Уровень 27<br>Сэндвич',
+          imageUrl: 'https://placehold.co/60x60/fff9c4/fbc02d?text=Lvl+27', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-27',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 28 Cookingdom вам поручено приготовить Круассан, классическую французскую выпечку, известную своими слоеными, маслянистыми слоями. Этот уровень фокусируется на точности, так как приготовление идеального круассана требует хорошего баланса ингредиентов, тщательной подготовки и внимания ко времени выпечки. Cookingdom бросает вам вызов: усовершенствовать технику создания этой нежной выпечки, гарантируя, что каждый круассан будет золотистым, хрустящим и нежным внутри.</p>
+<p>Это руководство проведет вас через процесс приготовления традиционного круассана, от подготовки теста до его идеальной выпечки.</p>
+
+<h2 id="goal">Цели 28-го уровня</h2>
+<ul>
+    <li>Приготовить тесто для круассана.</li>
+    <li>Сложить и ламинировать тесто для создания слоеных слоев.</li>
+    <li>Сформировать круассан и дать ему подняться.</li>
+    <li>Выпечь круассаны до золотистой идеальности.</li>
+    <li>Подать круассаны свежими и горячими.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Круассана</h2>
+<ol>
+    <li>
+        <h3>Приготовление теста</h3>
+        <p>Первый шаг в приготовлении круассана — подготовка теста. Cookingdom предоставляет вам все необходимые базовые ингредиенты: муку, масло, дрожжи, сахар, молоко и щепотку соли.</p>
+        <p><strong>Совет:</strong> Сначала смешайте сухие ингредиенты — муку, сахар и соль — а затем добавьте влажные ингредиенты — дрожжи и молоко. Замесите тесто до гладкости, затем дайте ему отдохнуть около 30 минут, чтобы оно поднялось.</p>
+        <p><strong>Совет:</strong> Убедитесь, что масло холодное перед добавлением в тесто; это поможет создать слои позже.</p>
+    </li>
+    <li>
+        <h3>Складывание и ламинирование теста</h3>
+        <p>Этот шаг имеет решающее значение для создания слоев в круассане. После того, как тесто отдохнуло, вам нужно будет раскатать его в прямоугольник. Поместите холодный кусок масла в центр теста.</p>
+        <p>Сложите тесто поверх масла, как письмо, затем снова раскатайте его в тонкий прямоугольник. Сложите тесто втрое и дайте ему отдохнуть 20-30 минут.</p>
+        <p><strong>Совет:</strong> Повторите этот процесс 2-3 раза, чтобы создать отчетливые слоеные слои. В Cookingdom каждое складывание и период отдыха важны для текстуры.</p>
+    </li>
+    <li>
+        <h3>Формовка круассана</h3>
+        <p>Как только тесто будет ламинировано, раскатайте его в последний раз в большой прямоугольник. Разрежьте тесто на треугольники — это будут отдельные круассаны.</p>
+        <p><strong>Совет:</strong> Для идеальной формы круассана сверните тесто от основания треугольника к вершине, убедившись, что слои свернуты плотно. Вы также можете слегка изогнуть круассан в форме полумесяца для традиционного вида.</p>
+        <p><strong>Совет:</strong> Убедитесь, что круассаны одинакового размера, чтобы они выпекались равномерно.</p>
+    </li>
+    <li>
+        <h3>Дайте круассанам подняться</h3>
+        <p>После формовки круассанов им нужно подняться. Положите их на противень, оставляя пространство между каждым, и дайте им отдохнуть около 1 часа. За это время они должны увеличиться в объеме.</p>
+        <p><strong>Совет:</strong> Держите тесто в теплом месте без сквозняков, чтобы помочь процессу подъема. В Cookingdom терпение — ключ к достижению идеальной текстуры.</p>
+    </li>
+    <li>
+        <h3>Выпечка круассанов</h3>
+        <p>Разогрейте духовку до 375°F (190°C). Как только круассаны поднимутся, пришло время их выпекать.</p>
+        <p><strong>Совет:</strong> Смажьте верхушки небольшим количеством яичной смеси (смесь взбитого яйца и воды) перед выпечкой. Это придаст вашим круассанам красивый золотисто-коричневый цвет.</p>
+        <p>Выпекайте круассаны около 15-20 минут или до тех пор, пока они не станут золотистыми и пышными.</p>
+        <p><strong>Совет:</strong> Следите за круассанами во время выпечки; перепекание может сделать их сухими и слишком хрустящими, а недопекание оставляет их сырыми.</p>
+    </li>
+    <li>
+        <h3>Подайте и наслаждайтесь</h3>
+        <p>Как только круассаны станут золотисто-коричневыми и пышными, достаньте их из духовки и дайте им остыть минуту перед подачей.</p>
+        <p><strong>Совет:</strong> Круассаны лучше всего подавать свежими и теплыми, со слегка хрустящей корочкой и мягкой, слоеной внутренней частью. Для дополнительного штриха вы можете посыпать немного сахарной пудры или подать с джемом или маслом.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 28</h2>
+<ul>
+    <li>
+        <h3>Используйте холодное масло</h3>
+        <p>Ключ к слоеному круассану — холодное масло. Cookingdom вознаграждает вас за то, что вы следите за тем, чтобы масло оставалось холодным на протяжении всего процесса складывания. Это создает пар во время выпечки, что помогает сформировать слои.</p>
+    </li>
+    <li>
+        <h3>Терпение во время периодов отдыха</h3>
+        <p>Не торопитесь с периодами отдыха. Позвольте тесту правильно подняться между складыванием и формовкой. В Cookingdom этот шаг нельзя пропустить.</p>
+    </li>
+    <li>
+        <h3>Яичная смесь для золотистой корочки</h3>
+        <p>Нанесение яичной смеси перед выпечкой придает круассанам золотистый, глянцевый вид. Это также важно для достижения идеальной текстуры.</p>
+    </li>
+    <li>
+        <h3>Не переполняйте противень</h3>
+        <p>Убедитесь, что между каждым круассаном на противне достаточно места. Скученность круассанов может привести к их неравномерному выпеканию и помешать им правильно подняться.</p>
+    </li>
+    <li>
+        <h3>Следите за временем выпечки</h3>
+        <p>Следите за круассанами во время выпечки. Вы не хотите, чтобы они перепеклись и стали слишком твердыми. Они должны быть золотистыми снаружи и мягкими, воздушными внутри.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 28 Cookingdom приготовление идеального Круассана включает в себя баланс техники и времени. От создания теста до его складывания и ламинирования для формирования слоев — каждый шаг важен для достижения классической слоеной текстуры. Не забудьте финальный штрих: выпечка круассанов до золотисто-коричневого цвета и подача их свежими и теплыми.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете овладеть искусством приготовления круассанов и произвести впечатление на своих клиентов этой вкусной, маслянистой выпечкой. Как только вы усовершенствуете этот навык, вы будете готовы взяться за еще более сложные уровни в Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 29
+    id: 'cookingdom-game-level-29',
+    title: 'Уровень 29:<br>Матча Боба Чай',
+    pageTitle: 'Cookingdom Уровень 29 - Руководство по Матча Боба Чаю',
+    pageSubtitle: 'Научитесь готовить модный Матча Боба Чай на уровне 29 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-29',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 29 Руководство: Матча Боба Чай | Советы и Стратегия',
+      description:
+        'Освойте Матча Боба Чай на уровне 29 в Cookingdom. Получите советы по приготовлению шариков боба, смешиванию матча, добавлению молока и сборке этого популярного напитка.',
+      keywords:
+        'Cookingdom, Уровень 29, Матча Боба Чай, Боба, Матча, Бабл Чай, Напиток, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/c8e6c9/4caf50?text=Level+29+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Матча Боба Чай</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-26',
+          title: 'Уровень 26<br>Смузи',
+          imageUrl: 'https://placehold.co/60x60/b3e5fc/01579b?text=Lvl+26', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-26',
+        },
+        {
+          id: 'cookingdom-game-level-27',
+          title: 'Уровень 27<br>Сэндвич',
+          imageUrl: 'https://placehold.co/60x60/fff9c4/fbc02d?text=Lvl+27', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-27',
+        },
+        {
+          id: 'cookingdom-game-level-28',
+          title: 'Уровень 28<br>Круассан',
+          imageUrl: 'https://placehold.co/60x60/fff176/fbc02d?text=Lvl+28', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-28',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 29 Cookingdom вы будете готовить модный и вкусный Матча Боба Чай! Этот популярный напиток сочетает в себе землистый, насыщенный вкус матча с жевательными шариками боба, создавая сладкий и сытный напиток. Задача на этом уровне - сбалансировать отчетливый вкус матча с гладкостью молока и жевательной текстурой боба. Ваша цель - приготовить идеальную чашку Матча Боба Чая, которая понравится вашим клиентам.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления идеального Матча Боба Чая, от варки шариков боба до смешивания матча и молока и подачи его в стильном виде.</p>
+
+<h2 id="goal">Цели 29-го уровня</h2>
+<ul>
+    <li>Приготовить шарики боба.</li>
+    <li>Смешать матча с соответствующими ингредиентами.</li>
+    <li>Добавить молоко для создания кремового напитка.</li>
+    <li>Собрать Матча Боба Чай.</li>
+    <li>Подать напиток с правильным украшением.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Матча Боба Чая</h2>
+<ol>
+    <li>
+        <h3>Приготовление шариков боба</h3>
+        <p>Сначала начните с варки шариков боба. В Cookingdom вы найдете шарики боба, которые нужно варить в воде около 10-15 минут.</p>
+        <p><strong>Совет:</strong> Периодически помешивайте шарики боба во время варки, чтобы они не слипались. Как только они сварятся и станут нежными, промойте их под холодной водой, чтобы остановить процесс варки.</p>
+        <p><strong>Совет:</strong> Дайте шарикам постоять в сахарном сиропе или меде, чтобы добавить сладости и усилить вкус. Это придает боба приятный сладкий финиш.</p>
+    </li>
+    <li>
+        <h3>Смешивание матча</h3>
+        <p>Далее, пришло время приготовить матча. В Cookingdom вам дадут порошок матча, который нужно будет взбить с небольшим количеством горячей воды до получения гладкой и пенистой массы.</p>
+        <p><strong>Совет:</strong> Используйте небольшой венчик или вспениватель, чтобы порошок матча полностью растворился. Если он будет слишком комковатым, вкус плохо смешается с другими ингредиентами.</p>
+        <p>Добавьте подсластитель в вашу смесь матча, например, сахар или мед, в зависимости от предпочтений клиента.</p>
+    </li>
+    <li>
+        <h3>Добавление молока</h3>
+        <p>Теперь пришло время добавить молоко к матча. В Cookingdom вы можете выбрать между обычным цельным молоком, миндальным молоком или овсяным молоком. Выбор молока повлияет на кремовость напитка.</p>
+        <p>Налейте молоко в смесь матча и размешайте до однородности.</p>
+        <p><strong>Совет:</strong> Если вы хотите сделать напиток еще более насыщенным, вы можете использовать сгущенное молоко для дополнительной кремовости и сладости.</p>
+    </li>
+    <li>
+        <h3>Сборка Матча Боба Чая</h3>
+        <p>В Cookingdom вам нужно будет выложить шарики боба на дно стакана или чашки.</p>
+        <p>Как только боба будет на месте, налейте смесь матча с молоком поверх шариков боба.</p>
+        <p><strong>Совет:</strong> Убедитесь, что матча и молоко хорошо перемешаны перед наливанием, чтобы избежать оседания комков порошка матча на дне.</p>
+    </li>
+    <li>
+        <h3>Украшение и подача</h3>
+        <p>Чтобы завершить Матча Боба Чай, вы можете добавить кубики льда, чтобы он был освежающим и прохладным.</p>
+        <p>Вы также можете украсить сверху небольшим количеством порошка матча или декоративной соломинкой, чтобы улучшить визуальную привлекательность напитка.</p>
+        <p><strong>Совет:</strong> Если вы хотите подать чай традиционным способом, используйте широкую соломинку, чтобы шарики боба легко проходили через нее.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 29</h2>
+<ul>
+    <li>
+        <h3>Правильно приготовьте шарики боба</h3>
+        <p>Текстура шариков боба - ключ к приготовлению хорошего Матча Боба Чая. Они должны быть жевательными, не слишком мягкими и уж точно не слишком твердыми. Убедитесь, что они полностью сварены и хорошо подслащены.</p>
+    </li>
+    <li>
+        <h3>Просейте порошок матча</h3>
+        <p>Если ваш порошок матча плохо просеивается или образует комки, используйте мелкое сито для обеспечения гладкости. Cookingdom вознаграждает вас за внимание к деталям в процессе смешивания.</p>
+    </li>
+    <li>
+        <h3>Используйте правильное молоко</h3>
+        <p>Выберите правильное молоко для вашего Матча Боба Чая. Для более насыщенной, кремовой текстуры выбирайте цельное молоко. Для более легкой версии без молочных продуктов выбирайте миндальное или овсяное молоко.</p>
+    </li>
+    <li>
+        <h3>Идеально перемешайте</h3>
+        <p>Хорошо перемешайте смесь матча и молока. Если не перемешать тщательно, вы получите неравномерный вкус и комки порошка матча в вашем напитке.</p>
+    </li>
+    <li>
+        <h3>Следите за уровнем сладости</h3>
+        <p>Тщательно подслащивайте основу матча. Вы хотите, чтобы вкус дополнял кремовое молоко и жевательные боба. Слишком много сахара может сделать напиток чрезмерно сладким, а слишком мало - слишком горьким.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 29 Cookingdom приготовление идеального Матча Боба Чая заключается в балансировании вкуса матча с текстурой жевательных шариков боба и кремовостью молока. Следуйте шагам, чтобы убедиться, что боба приготовлены правильно, матча хорошо перемешан, а напиток идеально подслащен. Обращайте внимание на мелкие детали, такие как использование правильного молока и подсластителя, чтобы сделать ваш Матча Боба Чай действительно исключительным.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете приготовить идеальный Матча Боба Чай, который понравится вашим клиентам, приближая вас на один шаг к овладению искусством приготовления напитков в Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 30
+    id: 'cookingdom-game-level-30',
+    title: 'Уровень 30:<br>Донер Кебаб',
+    pageTitle: 'Cookingdom Уровень 30 - Руководство по Донер Кебабу',
+    pageSubtitle: 'Научитесь готовить классический Донер Кебаб на уровне 30 в Cookingdom.',
+    category: '21-30',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-30',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 30 Руководство: Донер Кебаб | Советы и Стратегия',
+      description:
+        'Освойте Донер Кебаб на уровне 30 в Cookingdom. Получите советы по обжарке мяса, приготовлению начинки, сборке и подаче этого популярного турецкого уличного блюда.',
+      keywords:
+        'Cookingdom, Уровень 30, Донер Кебаб, Кебаб, Турецкая еда, Уличная еда, Гриль, Пита, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffccbc/ff5722?text=Level+30+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Донер Кебаб</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-27',
+          title: 'Уровень 27<br>Сэндвич',
+          imageUrl: 'https://placehold.co/60x60/fff9c4/fbc02d?text=Lvl+27', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-27',
+        },
+        {
+          id: 'cookingdom-game-level-28',
+          title: 'Уровень 28<br>Круассан',
+          imageUrl: 'https://placehold.co/60x60/fff176/fbc02d?text=Lvl+28', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-28',
+        },
+        {
+          id: 'cookingdom-game-level-29',
+          title: 'Уровень 29<br>Матча Боба Чай',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+29', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-29',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 30 Cookingdom вам поручено приготовить классическое и любимое блюдо: Донер Кебаб! Это популярное турецкое уличное блюдо состоит из ароматного мяса (обычно баранины, курицы или говядины), свежих овощей и вкусных соусов, завернутых в теплую питу или лепешку. Задача на этом уровне - идеально обжарить мясо, собрать начинку и убедиться, что кебаб ароматный и хорошо сбалансированный.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления Донер Кебаба, гарантируя, что вы выполните все цели и подадите вкусное и сытное блюдо своим клиентам.</p>
+
+<h2 id="goal">Цели 30-го уровня</h2>
+<ul>
+    <li>Приготовить мясо (баранина, курица или говядина).</li>
+    <li>Приготовить начинку (овощи, соусы).</li>
+    <li>Собрать Донер Кебаб в пите или лепешке.</li>
+    <li>Подать кебаб клиентам.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Донер Кебаба</h2>
+<ol>
+    <li>
+        <h3>Приготовление мяса</h3>
+        <p>Первый шаг в приготовлении Донер Кебаба - приготовление мяса. В Cookingdom у вас будет возможность выбрать из разных видов мяса: курица, говядина или баранина.</p>
+        <p><strong>Совет:</strong> Убедитесь, что мясо хорошо замариновано со специями и травами, чтобы обеспечить насыщенный, ароматный вкус. Мясо следует обжаривать или готовить до хрустящей корочки снаружи и нежности внутри.</p>
+        <p><strong>Совет:</strong> В Cookingdom вам может потребоваться следить за процессом обжарки, чтобы избежать пережаривания или недожаривания мяса. Идеальное мясо для донера - золотисто-коричневое и хрустящее по краям, но сочное внутри.</p>
+    </li>
+    <li>
+        <h3>Приготовление овощей</h3>
+        <p>Пока мясо готовится, вам нужно будет подготовить овощи. Обычно в традиционном Донер Кебабе используются помидоры, лук и салат. Вы также можете добавить соленые огурцы или свежие огурцы для дополнительного хруста и вкуса.</p>
+        <p><strong>Совет:</strong> Нарежьте овощи равномерно и тонко, чтобы их можно было аккуратно добавить в кебаб. Свежие, хрустящие овощи - ключ к дополнению насыщенного, пикантного мяса.</p>
+    </li>
+    <li>
+        <h3>Приготовление соусов</h3>
+        <p>Отличный Донер Кебаб не будет полным без правильных соусов. В Cookingdom вам будут предложены варианты соусов, такие как йогуртовый соус, чесночный соус и острый чили соус.</p>
+        <p><strong>Совет:</strong> Равномерно полейте соусами мясо и овощи, чтобы улучшить общий вкус кебаба. Будьте осторожны, чтобы не переборщить с соусами — достаточно, чтобы добавить кремовости и остроты, не заглушая другие вкусы.</p>
+    </li>
+    <li>
+        <h3>Сборка Донер Кебаба</h3>
+        <p>Как только все ингредиенты будут готовы, пришло время собрать Донер Кебаб. Начните с размещения обжаренного мяса в центре теплой питы или лепешки.</p>
+        <p><strong>Совет:</strong> Обязательно расположите мясо равномерно, чтобы в каждом укусе было сбалансированное количество начинки.</p>
+        <p>Добавьте нарезанные овощи, уложив их поверх мяса.</p>
+        <p><strong>Совет:</strong> Убедитесь, что овощи распределены равномерно, чтобы обеспечить сбалансированную текстуру и вкус в каждом укусе.</p>
+        <p>Наконец, полейте сверху выбранными соусами, стараясь не переполнить кебаб, что может сделать его неудобным для еды.</p>
+    </li>
+    <li>
+        <h3>Заверните и подайте</h3>
+        <p>Чтобы завершить Донер Кебаб, плотно заверните питу или лепешку вокруг начинки, убедившись, что все остается на месте.</p>
+        <p><strong>Совет:</strong> Если пита или лепешка слишком велика, вы можете сложить края, чтобы закрепить начинку. Убедитесь, что она завернута надежно, чтобы кебаб не развалился при подаче.</p>
+        <p><strong>Совет:</strong> В Cookingdom вы можете по желанию разрезать кебаб пополам для удобства обращения, в зависимости от предпочтений клиента.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 30</h2>
+<ul>
+    <li>
+        <h3>Идеально обжарьте мясо</h3>
+        <p>Мясо - звезда Донер Кебаба, поэтому его идеальная обжарка крайне важна. Следите за временем приготовления и убедитесь, что оно хрустящее снаружи, но все еще сочное внутри. Cookingdom вознаграждает вас за правильный баланс.</p>
+    </li>
+    <li>
+        <h3>Используйте свежие, хрустящие овощи</h3>
+        <p>Овощи должны добавлять хруст и свежесть кебабу, поэтому нарежьте их тонко и используйте только самые свежие ингредиенты. Свежий салат, лук и помидоры обеспечат лучшую текстуру и вкус.</p>
+    </li>
+    <li>
+        <h3>Сбалансируйте соусы</h3>
+        <p>Будьте осторожны, чтобы не использовать слишком много соуса, так как он может перебить другие вкусы. Легкая струйка чесночного соуса и нотка острого чили соуса придадут вашему Донер Кебабу идеальный баланс кремовости и остроты.</p>
+    </li>
+    <li>
+        <h3>Хорошо заверните</h3>
+        <p>То, как вы заворачиваете Донер Кебаб, имеет значение! Убедитесь, что пита или лепешка надежно обернута вокруг начинки, чтобы все оставалось на месте. Если обертка недостаточно плотная, начинка может вывалиться, когда ваш клиент попытается ее съесть.</p>
+    </li>
+    <li>
+        <h3>Следите за временем приготовления</h3>
+        <p>В Cookingdom следует внимательно следить за временем приготовления мяса и обжарки. Пережаривание мяса может сделать его сухим, а недожаривание может привести к жесткой, неаппетитной текстуре.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 30 Cookingdom приготовление идеального Донер Кебаба включает обжарку мяса до хрустящей золотистой корочки, подготовку свежих овощей и балансировку правильных соусов для создания пикантного и сытного блюда. Следуя этому руководству и обращая внимание на детали, вы сможете собрать вкусный и хорошо сбалансированный кебаб, который понравится вашим клиентам.</p>
+<p>Помните, Cookingdom - это все о балансе между текстурой, вкусом и подачей. Совершенствуйте свою технику обжарки, нанесения соуса и заворачивания, и вы будете подавать лучшие Донер Кебабы в городе!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 31
+    id: 'cookingdom-game-level-31',
+    title: 'Уровень 31:<br>Кафе Мокка',
+    pageTitle: 'Cookingdom Уровень 31 - Руководство по Кафе Мокка',
+    pageSubtitle: 'Научитесь готовить идеальный Кафе Мокка на уровне 31 в Cookingdom.',
+    category: '31-40', // Начало новой категории
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-31',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 31 Руководство: Кафе Мокка | Советы и Стратегия',
+      description:
+        'Освойте Кафе Мокка на уровне 31 в Cookingdom. Получите советы по приготовлению эспрессо, подготовке шоколада, взбиванию молока и сборке этого классического кофейного напитка.',
+      keywords:
+        'Cookingdom, Уровень 31, Кафе Мокка, Мокка, Кофе, Эспрессо, Шоколад, Напиток, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/bcaaa4/795548?text=Level+31+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Кафе Мокка</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-28',
+          title: 'Уровень 28<br>Круассан',
+          imageUrl: 'https://placehold.co/60x60/fff176/fbc02d?text=Lvl+28', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-28',
+        },
+        {
+          id: 'cookingdom-game-level-29',
+          title: 'Уровень 29<br>Матча Боба Чай',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+29', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-29',
+        },
+        {
+          id: 'cookingdom-game-level-30',
+          title: 'Уровень 30<br>Донер Кебаб',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+30', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-30',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 31 Cookingdom вы будете готовить восхитительный и уютный Кафе Мокка, любимый напиток кофеен, сочетающий насыщенный вкус эспрессо, гладкость вспененного молока и роскошь шоколада. Задача на этом уровне - достичь идеального баланса между горечью эспрессо и сладостью шоколада, обеспечивая вашим клиентам кремовый и ароматный опыт.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления идеального Кафе Мокка, от варки эспрессо до взбивания молока и сборки напитка с декадентским слоем шоколада.</p>
+
+<h2 id="goal">Цели 31-го уровня</h2>
+<ul>
+    <li>Сварить эспрессо до совершенства.</li>
+    <li>Приготовить шоколадный сироп или порошок.</li>
+    <li>Взбить молоко для получения кремовой текстуры.</li>
+    <li>Соединить ингредиенты в идеальный Кафе Мокка.</li>
+    <li>Подать Кафе Мокка клиентам.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Кафе Мокка</h2>
+<ol>
+    <li>
+        <h3>Сварите эспрессо</h3>
+        <p>Первый шаг в создании Кафе Мокка - приготовление идеального эспрессо. В Cookingdom вам нужно будет использовать кофемашину или эспрессо-машину, чтобы сварить крепкий шот эспрессо.</p>
+        <p><strong>Совет:</strong> Убедитесь, что эспрессо сварен до глубокой, насыщенной консистенции. Шот эспрессо должен быть смелым, а не слишком водянистым. В Cookingdom важно внимательно следить за процессом варки, чтобы избежать переэкстракции или недоэкстракции.</p>
+        <p><strong>Совет:</strong> Если вы хотите более сильный вкус, вы можете добавить второй шот эспрессо, но убедитесь, что эспрессо не перебивает шоколад.</p>
+    </li>
+    <li>
+        <h3>Приготовьте шоколадный сироп</h3>
+        <p>Пока варится эспрессо, пришло время приготовить шоколадный сироп или шоколадный порошок для основы мокка.</p>
+        <p><strong>Совет:</strong> В Cookingdom вам будут предложены варианты шоколадного сиропа, порошка или даже какао. Размешайте сироп или порошок в горячем эспрессо, чтобы он полностью растворился и стал гладким.</p>
+        <p><strong>Совет:</strong> Отрегулируйте количество шоколада в зависимости от предпочтений клиента. Слишком мало шоколада приведет к пресному мокка, в то время как слишком много может перебить другие вкусы.</p>
+    </li>
+    <li>
+        <h3>Взбейте молоко</h3>
+        <p>Теперь приготовьте вспененное молоко. В Cookingdom вы будете использовать парогенератор для молока или вспениватель, чтобы нагреть молоко до кремообразного и гладкого состояния.</p>
+        <p><strong>Совет:</strong> Убедитесь, что молоко нагрето до нужной температуры — около 150°F (65°C). Молоко должно быть горячим, но не перегретым. Для Кафе Мокка вспененное молоко должно быть кремовым, а не пенистым.</p>
+        <p><strong>Совет:</strong> Вы можете выбрать между цельным молоком или немолочным молоком, таким как миндальное или овсяное, в зависимости от предпочтений клиента.</p>
+    </li>
+    <li>
+        <h3>Соедините ингредиенты</h3>
+        <p>Как только все ваши ингредиенты будут готовы, пришло время собрать Кафе Мокка.</p>
+        <p>Налейте эспрессо в чашку, затем добавьте подготовленный шоколадный сироп или порошок. Хорошо перемешайте, пока шоколад полностью не смешается с эспрессо.</p>
+        <p><strong>Совет:</strong> Тщательно перемешайте эспрессо и шоколад, чтобы вкус был равномерным.</p>
+        <p>Затем налейте вспененное молоко поверх шоколадно-эспрессо смеси. Наливайте осторожно, чтобы создать гладкое сочетание кофе и шоколада.</p>
+        <p><strong>Совет:</strong> Оставьте немного места в верхней части чашки, чтобы при необходимости можно было добавить завиток сливок или украшение.</p>
+    </li>
+    <li>
+        <h3>Украсьте и подайте</h3>
+        <p>Чтобы завершить Кафе Мокка, вы можете добавить сверху щедрый завиток взбитых сливок. В Cookingdom у вас также может быть возможность посыпать сверху какао-порошком или шоколадной стружкой для дополнительного вкуса и украшения.</p>
+        <p><strong>Совет:</strong> Несколько шоколадных стружек или щепотка какао-порошка могут добавить приятный штрих к напитку, придавая ему дополнительный взрыв вкуса и визуальную привлекательность.</p>
+        <p><strong>Совет:</strong> Подавайте напиток с шоколадной глазурью сверху или по краю для красивой презентации.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 31</h2>
+<ul>
+    <li>
+        <h3>Варите крепкий и свежий эспрессо</h3>
+        <p>Эспрессо - сердце Кафе Мокка, поэтому убедитесь, что он сварен правильно. Эспрессо должен быть насыщенным и смелым, но не слишком горьким. В Cookingdom переваривание может привести к резкому вкусу, поэтому будьте осторожны со временем варки.</p>
+    </li>
+    <li>
+        <h3>Правильно взбейте молоко</h3>
+        <p>Молоко должно быть гладким и кремовым, но не слишком пенистым. В Cookingdom обратите внимание на процесс взбивания молока, чтобы достичь идеальной текстуры. Вспененное молоко добавляет общей насыщенности напитку.</p>
+    </li>
+    <li>
+        <h3>Сбалансируйте шоколад и кофе</h3>
+        <p>Ключ к отличному Кафе Мокка - найти правильный баланс между горечью эспрессо и сладостью шоколада. Отрегулируйте количество шоколада по своему усмотрению, но не позволяйте ему перебивать эспрессо.</p>
+    </li>
+    <li>
+        <h3>Украшайте творчески</h3>
+        <p>Хорошо украшенный Кафе Мокка не только отлично выглядит, но и имеет прекрасный вкус. Добавьте завиток взбитых сливок, щепотку какао-порошка или немного шоколадной стружки для роскошного завершения.</p>
+    </li>
+    <li>
+        <h3>Подавайте немедленно</h3>
+        <p>Кафе Мокка лучше всего подавать горячим и свежим. После сборки немедленно подавайте его своим клиентам, пока он еще теплый и кремовый.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 31 Cookingdom приготовление идеального Кафе Мокка требует пристального внимания к каждому шагу — от варки насыщенного эспрессо до идеального взбивания молока и балансировки шоколадных вкусов. Ключ к успеху - убедиться, что эспрессо смелый, молоко гладкое, а шоколад добавляет ровно столько сладости, сколько нужно. Хорошо украшенный напиток оставит ваших клиентов счастливыми и заставит их возвращаться снова и снова.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете создать восхитительный и роскошный Кафе Мокка, который произведет впечатление на всех и приблизит вас к овладению искусством приготовления напитков на основе кофе в Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 32
+    id: 'cookingdom-game-level-32',
+    title: 'Уровень 32:<br>Гамбургер',
+    pageTitle: 'Cookingdom Уровень 32 - Руководство по Гамбургеру',
+    pageSubtitle: 'Научитесь собирать классический Гамбургер на уровне 32 в Cookingdom.',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-32',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 32 Руководство: Гамбургер | Советы и Стратегия',
+      description:
+        'Освойте Гамбургер на уровне 32 в Cookingdom. Получите советы по приготовлению котлет, подготовке начинки, поджариванию булочек и сборке этого культового блюда.',
+      keywords:
+        'Cookingdom, Уровень 32, Гамбургер, Бургер, Говяжья котлета, Гриль, Начинка, Булочки, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffccbc/ff5722?text=Level+32+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Гамбургер</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-29',
+          title: 'Уровень 29<br>Матча Боба Чай',
+          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+29', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-29',
+        },
+        {
+          id: 'cookingdom-game-level-30',
+          title: 'Уровень 30<br>Донер Кебаб',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+30', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-30',
+        },
+        {
+          id: 'cookingdom-game-level-31',
+          title: 'Уровень 31<br>Кафе Мокка',
+          imageUrl: 'https://placehold.co/60x60/bcaaa4/795548?text=Lvl+31', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-31',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 32 Cookingdom вам поручено приготовить классический и вкусный Гамбургер! Это культовое блюдо состоит из сочной говяжьей котлеты, свежих овощей и ароматных приправ, зажатых между двумя мягкими булочками. Задача на этом уровне - идеально приготовить котлету, собрать бургер с правильными ингредиентами и убедиться, что он одновременно аппетитный и вкусный.</p>
+<p>Это руководство проведет вас через шаги по созданию идеального Гамбургера, от приготовления котлеты до сборки и подачи.</p>
+
+<h2 id="goal">Цели 32-го уровня</h2>
+<ul>
+    <li>Приготовить говяжью котлету до совершенства.</li>
+    <li>Подготовить начинку (салат, помидор, лук, сыр и т. д.).</li>
+    <li>Поджарить булочки для дополнительного вкуса и текстуры.</li>
+    <li>Собрать Гамбургер с правильным балансом ингредиентов.</li>
+    <li>Подать Гамбургер вашим клиентам.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Гамбургера</h2>
+<ol>
+    <li>
+        <h3>Приготовление говяжьей котлеты</h3>
+        <p>Первый шаг в приготовлении отличного Гамбургера - приготовление говяжьей котлеты. В Cookingdom вам нужно будет следить за котлетой во время приготовления, чтобы убедиться, что она идеально готова.</p>
+        <p><strong>Совет:</strong> Готовьте котлету на среднем огне, переворачивая ее в нужное время, чтобы она стала золотисто-коричневой и равномерно прожарилась. Хорошо приготовленная котлета должна иметь хрустящую внешнюю корочку и оставаться сочной внутри.</p>
+        <p><strong>Совет:</strong> Для бургера средней прожарки готовьте котлету около 4-5 минут с каждой стороны, но это может варьироваться в зависимости от толщины котлеты и желаемой степени прожарки.</p>
+    </li>
+    <li>
+        <h3>Подготовка начинки</h3>
+        <p>Пока готовится говяжья котлета, вы можете подготовить начинку для бургера.</p>
+        <ul>
+            <li><strong>Салат:</strong> Используйте свежие, хрустящие листья салата. Салат Ромен или Айсберг лучше всего подходят для приятного хруста.</li>
+            <li><strong>Помидор:</strong> Нарежьте помидор толстыми кружочками.</li>
+            <li><strong>Лук:</strong> Нарежьте лук тонкими кольцами. Вы можете выбрать красный лук для легкой сладости или желтый лук для более пикантного вкуса.</li>
+            <li><strong>Сыр:</strong> В Cookingdom у вас будет возможность выбрать из различных видов сыра, таких как чеддер, американский или швейцарский. Выберите сыр, который хорошо расплавится на котлете.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Поджаривание булочек</h3>
+        <p>Чтобы улучшить вкус и текстуру, поджарьте булочки для бургера. В Cookingdom вам будет предоставлена возможность слегка поджарить верхнюю и нижнюю булочки.</p>
+        <p><strong>Совет:</strong> Поджаривание булочек добавляет хрустящую текстуру и предотвращает их размокание после добавления начинки. Легкое смазывание булочек маслом перед поджариванием добавит дополнительный вкус.</p>
+    </li>
+    <li>
+        <h3>Сборка Гамбургера</h3>
+        <p>Как только котлета приготовлена, булочки поджарены, а начинка готова, пришло время собрать ваш Гамбургер.</p>
+        <p>Начните с нижней булочки и поместите приготовленную говяжью котлету в центр.</p>
+        <p>Добавьте ломтик сыра поверх котлеты, пока она еще горячая, чтобы он идеально расплавился.</p>
+        <p>Уложите салат, помидор и лук поверх котлеты.</p>
+        <p><strong>Совет:</strong> Убедитесь, что ингредиенты распределены равномерно, чтобы каждый укус имел сбалансированное сочетание вкусов и текстур.</p>
+        <p>Положите верхнюю булочку на собранные ингредиенты.</p>
+    </li>
+    <li>
+        <h3>Подача Гамбургера</h3>
+        <p>Последний шаг - подача Гамбургера вашим клиентам. Убедитесь, что Гамбургер аккуратно завернут или подан на тарелке с гарниром (например, картофелем фри или салатом) для полноценного блюда.</p>
+        <p><strong>Совет:</strong> В Cookingdom у вас может быть возможность украсить бургер небольшим маринованным огурчиком или порцией хрустящего картофеля фри для дополнительной презентации.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 32</h2>
+<ul>
+    <li>
+        <h3>Идеально приготовьте говяжью котлету</h3>
+        <p>Говяжья котлета - сердце Гамбургера, поэтому очень важно приготовить ее правильно. Тщательно следите за процессом приготовления, чтобы избежать недожаривания или пережаривания котлеты. Хорошо приготовленная котлета должна быть сочной и ароматной, а не сухой.</p>
+    </li>
+    <li>
+        <h3>Выберите правильный сыр</h3>
+        <p>Сыр - важнейший компонент Гамбургера. Чеддер - классический выбор, но не стесняйтесь экспериментировать с другими сортами, такими как швейцарский или американский. Сыр должен хорошо плавиться на горячей котлете для лучшей текстуры.</p>
+    </li>
+    <li>
+        <h3>Используйте свежие и хрустящие начинки</h3>
+        <p>Свежий салат и спелые помидоры сделают ваш Гамбургер выдающимся. Используйте как можно более свежие ингредиенты, чтобы бургер был одновременно визуально привлекательным и вкусным.</p>
+    </li>
+    <li>
+        <h3>Слегка поджарьте булочки</h3>
+        <p>Легкое поджаривание булочек добавляет хрустящую, золотистую текстуру и предотвращает их размокание от соков бургера. Будьте осторожны, чтобы не пережарить их, так как они могут стать слишком хрустящими.</p>
+    </li>
+    <li>
+        <h3>Аккуратно соберите бургер</h3>
+        <p>Убедитесь, что начинка аккуратно уложена, чтобы избежать беспорядочного бургера. Хорошо собранный Гамбургер будет удобнее для ваших клиентов и будет выглядеть более аппетитно.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 32 Cookingdom создание идеального Гамбургера включает в себя баланс вкусов и текстур — от приготовления говяжьей котлеты до поджаривания булочек и укладки начинки. Ключ кроется в деталях: приготовьте котлету правильно, выберите свежие и хрустящие начинки и поджарьте булочки до совершенства.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете подавать вкусные, хорошо сбалансированные Гамбургеры, которые понравятся вашим клиентам, помогая вам приблизиться к овладению искусством приготовления бургеров в Cookingdom!</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 33
+    id: 'cookingdom-game-level-33',
+    title: 'Уровень 33:<br>Аляскинский Лобстер на Пару',
+    pageTitle: 'Cookingdom Уровень 33 - Руководство по Аляскинскому Лобстеру на Пару',
+    pageSubtitle:
+      'Научитесь готовить роскошного Аляскинского Лобстера на Пару на уровне 33 в Cookingdom.',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-33',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 33 Руководство: Аляскинский Лобстер на Пару | Советы и Стратегия',
+      description:
+        'Освойте Аляскинского Лобстера на Пару на уровне 33 в Cookingdom. Получите советы по подготовке, приготовлению на пару, созданию масляного соуса и подаче этого морского деликатеса.',
+      keywords:
+        'Cookingdom, Уровень 33, Аляскинский Лобстер на Пару, Лобстер, Морепродукты, Пар, Масляный соус, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/f8bbd0/e91e63?text=Level+33+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Аляскинский Лобстер на Пару</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-30',
+          title: 'Уровень 30<br>Донер Кебаб',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+30', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-30',
+        },
+        {
+          id: 'cookingdom-game-level-31',
+          title: 'Уровень 31<br>Кафе Мокка',
+          imageUrl: 'https://placehold.co/60x60/bcaaa4/795548?text=Lvl+31', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-31',
+        },
+        {
+          id: 'cookingdom-game-level-32',
+          title: 'Уровень 32<br>Гамбургер',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+32', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-32',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 33 Cookingdom вы будете готовить роскошное и аппетитное блюдо: Аляскинский Лобстер на Пару. Этот деликатес известен своим богатым вкусом и нежным мясом, что делает его популярным выбором для любителей морепродуктов. Задача на этом уровне заключается в том, чтобы идеально приготовить лобстера на пару, сохранив его сочность, добавив правильные приправы и подав его с восхитительным масляным соусом, чтобы подчеркнуть естественную сладость мяса лобстера.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления Аляскинского Лобстера на Пару, от подготовки лобстера до его приготовления на пару и подачи с идеальными дополнениями.</p>
+
+<h2 id="goal">Цели 33-го уровня</h2>
+<ul>
+    <li>Подготовить лобстера к приготовлению на пару.</li>
+    <li>Приготовить лобстера на пару до совершенства.</li>
+    <li>Приготовить масляный соус для дополнения лобстера.</li>
+    <li>Подать Аляскинского Лобстера на Пару с масляным соусом.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Аляскинского Лобстера на Пару</h2>
+<ol>
+    <li>
+        <h3>Подготовка лобстера</h3>
+        <p>Первый шаг в создании Аляскинского Лобстера на Пару - правильная подготовка лобстера к приготовлению на пару.</p>
+        <p>В Cookingdom вам нужно будет очистить лобстера и удалить все части, которые необходимо выбросить.</p>
+        <p><strong>Совет:</strong> Промойте лобстера под холодной водой, чтобы удалить грязь или мусор, особенно с клешней и хвоста.</p>
+        <p><strong>Совет:</strong> Если вы работаете с живыми лобстерами, важно обращаться с ними осторожно. В Cookingdom вы обычно помещаете лобстера в большую пароварку или корзину.</p>
+    </li>
+    <li>
+        <h3>Приготовление лобстера на пару</h3>
+        <p>Теперь, когда ваш лобстер чист и готов, пришло время приготовить его на пару. В Cookingdom вам нужно будет поместить лобстера в большую пароварку с водой и довести до кипения.</p>
+        <p><strong>Совет:</strong> Убедитесь, что в кастрюле достаточно воды для образования пара, но не так много, чтобы лобстер был погружен в воду.</p>
+        <p><strong>Совет:</strong> Готовьте лобстера на пару около 8-10 минут на фунт веса. Вы узнаете, что лобстер готов, когда его панцирь станет ярко-красным, а мясо - нежным и непрозрачным.</p>
+        <p><strong>Совет:</strong> Будьте осторожны, чтобы не переварить лобстера на пару, так как это может привести к жесткому и резиновому мясу. Внимательно следите за таймером.</p>
+    </li>
+    <li>
+        <h3>Приготовление масляного соуса</h3>
+        <p>Пока лобстер готовится на пару, пришло время приготовить масляный соус для подачи вместе с лобстером.</p>
+        <p>В Cookingdom вы можете приготовить простой чесночно-масляный соус, растопив сливочное масло на сковороде и добавив измельченный чеснок, лимонный сок и травы (например, петрушку или тимьян).</p>
+        <p><strong>Совет:</strong> Отрегулируйте приправы по вкусу. Если вы хотите более острого вкуса, вы можете добавить в масляный соус хлопья чили или паприку.</p>
+        <p><strong>Совет:</strong> Держите масляный соус теплым, пока готовится лобстер, чтобы вы могли подать его сразу же, как только лобстер будет готов.</p>
+    </li>
+    <li>
+        <h3>Подача лобстера</h3>
+        <p>Как только лобстер будет приготовлен на пару и масляный соус будет готов, пришло время подавать.</p>
+        <p>Осторожно извлеките лобстера из пароварки и положите его на сервировочную тарелку.</p>
+        <p><strong>Совет:</strong> В Cookingdom вы можете разломить панцирь лобстера, чтобы клиенту было легче наслаждаться мясом. Вы также можете использовать щипцы для лобстера или маленькую вилку для этого.</p>
+        <p>Полейте лобстера масляным соусом или подайте его отдельно для макания.</p>
+        <p><strong>Совет:</strong> Украсьте блюдо свежими травами, такими как петрушка, или долькой лимона для дополнительной визуальной привлекательности.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 33</h2>
+<ul>
+    <li>
+        <h3>Не переваривайте лобстера на пару</h3>
+        <p>Переваривание на пару может сделать мясо лобстера жестким и сухим. Обязательно внимательно следите за процессом приготовления на пару. Время приготовления зависит от размера лобстера, поэтому проверяйте цвет панциря и текстуру мяса, чтобы узнать, когда он готов.</p>
+    </li>
+    <li>
+        <h3>Приготовьте ароматный масляный соус</h3>
+        <p>Хорошо приправленный масляный соус может усилить вкус Аляскинского Лобстера на Пару. Чеснок, лимонный сок и свежие травы придадут соусу свежий и ароматный оттенок. Обязательно растапливайте масло на слабом огне, чтобы не сжечь чеснок.</p>
+    </li>
+    <li>
+        <h3>Подавайте немедленно для лучшего вкуса</h3>
+        <p>Аляскинский Лобстер на Пару лучше всего подавать свежим и горячим. Как только лобстер будет приготовлен на пару и масляный соус будет готов, подавайте его немедленно для лучшего вкуса и впечатления.</p>
+    </li>
+    <li>
+        <h3>Украшайте творчески</h3>
+        <p>Украшение свежими травами, такими как петрушка, или долькой лимона может добавить нотку элегантности к презентации и повысить общую привлекательность блюда.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 33 Cookingdom приготовление Аляскинского Лобстера на Пару заключается в балансировании процесса приготовления на пару, создании ароматного масляного соуса и красивой подаче. Идеальное приготовление лобстера на пару и приготовление правильного масляного соуса приведут к вкусному, нежному и ароматному блюду, которое понравится вашим клиентам.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете каждый раз создавать идеального Аляскинского Лобстера на Пару. Следите за временем приготовления на пару, готовьте насыщенный масляный соус и подавайте его свежим для непревзойденного гастрономического опыта.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 34
+    id: 'cookingdom-game-level-34',
+    title: 'Уровень 34:<br>Королевский Краб',
+    pageTitle: 'Cookingdom Уровень 34 - Руководство по Королевскому Крабу',
+    pageSubtitle: 'Научитесь готовить изысканного Королевского Краба на уровне 34 в Cookingdom.',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-34',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 34 Руководство: Королевский Краб | Советы и Стратегия',
+      description:
+        'Освойте Королевского Краба на уровне 34 в Cookingdom. Получите советы по разделке, приготовлению, созданию соуса и подаче этого роскошного морского блюда.',
+      keywords:
+        'Cookingdom, Уровень 34, Королевский Краб, Краб, Морепродукты, Пар, Варка, Масляный соус, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffcdd2/f44336?text=Level+34+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Королевский Краб</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-31',
+          title: 'Уровень 31<br>Кафе Мокка',
+          imageUrl: 'https://placehold.co/60x60/bcaaa4/795548?text=Lvl+31', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-31',
+        },
+        {
+          id: 'cookingdom-game-level-32',
+          title: 'Уровень 32<br>Гамбургер',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+32', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-32',
+        },
+        {
+          id: 'cookingdom-game-level-33',
+          title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
+          imageUrl: 'https://placehold.co/60x60/f8bbd0/e91e63?text=Lvl+33', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-33',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 34 Cookingdom вам поручено приготовить изысканное и королевское блюдо: Королевского Краба. Известный своим нежным и сладким мясом, Королевский Краб - это роскошный выбор морепродуктов, который требует точного обращения и приготовления для достижения идеального баланса текстуры и вкуса. Задача на этом уровне включает не только приготовление краба, но и подготовку идеального соуса, дополняющего богатый, нежный вкус мяса.</p>
+<p>Это руководство проведет вас шаг за шагом через приготовление Королевского Краба, от вскрытия панциря до подачи с идеальным соусом.</p>
+
+<h2 id="goal">Цели 34-го уровня</h2>
+<ul>
+    <li>Вскрыть панцирь Королевского Краба, чтобы добраться до мяса.</li>
+    <li>Приготовить мясо Королевского Краба до совершенства.</li>
+    <li>Приготовить дополнительный соус для краба.</li>
+    <li>Подать Королевского Краба с соусом и гарниром.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Королевского Краба</h2>
+<ol>
+    <li>
+        <h3>Вскройте панцирь Королевского Краба</h3>
+        <p>Первый шаг в приготовлении Королевского Краба - вскрытие панциря. В Cookingdom вам понадобятся щипцы для краба или другие инструменты, чтобы вскрыть твердый панцирь и извлечь сладкое, нежное мясо.</p>
+        <p><strong>Совет:</strong> Будьте осторожны, чтобы не повредить нежное мясо краба внутри. Вскрывайте панцирь в стратегических местах, чтобы избежать раздавливания мяса.</p>
+        <p><strong>Совет:</strong> Вам нужно будет удалить все несъедобные части краба, такие как жабры и ноги, прежде чем приступить к приготовлению.</p>
+    </li>
+    <li>
+        <h3>Приготовьте мясо Королевского Краба</h3>
+        <p>Как только мясо извлечено, пришло время его приготовить. В Cookingdom вы обычно будете готовить Королевского Краба на пару или варить, чтобы выявить его естественный вкус.</p>
+        <p><strong>Совет:</strong> В Cookingdom вам нужно будет готовить краба на пару около 8-10 минут, пока мясо полностью не прогреется. Будьте осторожны, чтобы не переварить его, так как это может привести к тому, что мясо станет жестким и сухим.</p>
+        <p><strong>Совет:</strong> Если вы варите краба, убедитесь, что вода хорошо подсолена для оптимального вкуса. Вы также можете добавить травы или лимон в воду для дополнительного аромата.</p>
+    </li>
+    <li>
+        <h3>Приготовьте дополнительный соус</h3>
+        <p>Пока краб готовится, вам нужно будет приготовить насыщенный масляный соус для дополнения Королевского Краба. Простой чесночно-масляный соус прекрасно сочетается с крабом, добавляя блюду глубину и насыщенность.</p>
+        <p>В Cookingdom растопите сливочное масло на сковороде, затем добавьте измельченный чеснок, лимонный сок и нарезанную петрушку для свежести.</p>
+        <p><strong>Совет:</strong> Вы также можете добавить немного белого вина или хлопьев чили в соус для небольшой дополнительной остроты.</p>
+        <p><strong>Совет:</strong> Попробуйте соус и при необходимости скорректируйте приправы, чтобы обеспечить правильный баланс вкусов. Масляный соус должен усиливать сладость крабового мяса, не перебивая его.</p>
+    </li>
+    <li>
+        <h3>Подайте Королевского Краба</h3>
+        <p>После приготовления краба и подготовки соуса пришло время подавать Королевского Краба.</p>
+        <p>Положите краба на сервировочную тарелку и щедро полейте приготовленным масляным соусом.</p>
+        <p><strong>Совет:</strong> В Cookingdom вы также можете украсить блюдо свежими травами (например, петрушкой или тимьяном) и дольками лимона, чтобы добавить яркости и свежести.</p>
+        <p><strong>Совет:</strong> Подавайте краба с гарниром из хрустящего хлеба или овощей на пару, чтобы завершить блюдо.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 34</h2>
+<ul>
+    <li>
+        <h3>Не переваривайте краба</h3>
+        <p>Переваривание Королевского Краба может привести к сухому и жесткому мясу. Обязательно готовьте краба на пару или варите правильное количество времени (около 8-10 минут), чтобы сохранить его нежность.</p>
+    </li>
+    <li>
+        <h3>Усовершенствуйте масляный соус</h3>
+        <p>Ключ к великолепному блюду из Королевского Краба - масляный соус. Убедитесь, что он насыщенный, но не подавляющий. Свежие ингредиенты, такие как чеснок, лимон и травы, поднимут блюдо на новый уровень и подчеркнут естественную сладость краба.</p>
+    </li>
+    <li>
+        <h3>Используйте правильные инструменты для вскрытия краба</h3>
+        <p>Чтобы добраться до сладкого крабового мяса, обязательно используйте щипцы для краба или специальные инструменты, чтобы аккуратно вскрыть панцирь. Не торопитесь с этим процессом, так как сохранение мяса в целости сделает блюдо более профессиональным.</p>
+    </li>
+    <li>
+        <h3>Подавайте немедленно</h3>
+        <p>Подавайте Королевского Краба сразу же после приготовления, чтобы он оставался горячим и свежим. Масляный соус должен быть теплым, а краба следует подавать прямо из пароварки или кастрюли для лучшего вкуса.</p>
+    </li>
+    <li>
+        <h3>Украшайте для визуальной привлекательности</h3>
+        <p>Хорошо украшенное блюдо не только выглядит аппетитнее, но и добавляет дополнительные слои вкуса. Свежие травы, дольки лимона и даже щепотка паприки могут сделать презентацию ярче.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 34 Cookingdom приготовление Королевского Краба - это все о тонкости и точности. От вскрытия твердого панциря до обеспечения идеального приготовления мяса - каждый шаг имеет решающее значение для создания вкусного и запоминающегося блюда. Сочетайте краба с ароматным масляным соусом и подавайте его свежим с красивым гарниром для идеального завершения.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете овладеть искусством приготовления Королевского Краба и произвести впечатление на своих клиентов этим роскошным морским блюдом. Следите за временем приготовления, готовьте насыщенный соус и украшайте с осторожностью, чтобы создать блюдо, которое будет таким же красивым, как и вкусным.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 35
+    id: 'cookingdom-game-level-35',
+    title: 'Уровень 35:<br>Шоколад',
+    pageTitle: 'Cookingdom Уровень 35 - Руководство по Шоколаду',
+    pageSubtitle: 'Научитесь создавать роскошные Шоколадные лакомства на уровне 35 в Cookingdom.',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-35',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 35 Руководство: Шоколад | Советы и Стратегия',
+      description:
+        'Освойте Шоколадные десерты на уровне 35 в Cookingdom. Получите советы по растапливанию шоколада, приготовлению десертов, таких как мусс или фондю, и украшению.',
+      keywords:
+        'Cookingdom, Уровень 35, Шоколад, Десерт, Растапливание шоколада, Фондю, Мусс, Торт, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/8d6e63/5d4037?text=Level+35+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Шоколад</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-32',
+          title: 'Уровень 32<br>Гамбургер',
+          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+32', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-32',
+        },
+        {
+          id: 'cookingdom-game-level-33',
+          title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
+          imageUrl: 'https://placehold.co/60x60/f8bbd0/e91e63?text=Lvl+33', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-33',
+        },
+        {
+          id: 'cookingdom-game-level-34',
+          title: 'Уровень 34<br>Королевский Краб',
+          imageUrl: 'https://placehold.co/60x60/ffcdd2/f44336?text=Lvl+34', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-34',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 35 Cookingdom вы будете готовить восхитительное и роскошное лакомство: Шоколад! Шоколад - любимый десертный ингредиент, и на этом уровне вам нужно будет создать декадентское блюдо, демонстрирующее его богатые, кремовые и сладкие качества. Независимо от того, растапливаете ли вы шоколад для гладкого фондю или создаете красивый шоколадный десерт, этот уровень посвящен точности и идеальному балансу вкусов.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления идеального Шоколадного блюда, от растапливания шоколада до сборки финального десерта.</p>
+
+<h2 id="goal">Цели 35-го уровня</h2>
+<ul>
+    <li>Правильно растопить шоколад для получения гладкой текстуры.</li>
+    <li>Приготовить десерт, добавив растопленный шоколад.</li>
+    <li>Украсить и подать шоколадное блюдо.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Шоколада</h2>
+<ol>
+    <li>
+        <h3>Растопите шоколад</h3>
+        <p>Первый шаг в приготовлении любого шоколадного десерта - растопить шоколад. В Cookingdom вам будет поручено аккуратно растопить шоколад, чтобы он стал гладким и шелковистым, не пригорев.</p>
+        <p><strong>Совет:</strong> Вы можете растопить шоколад на водяной бане или в микроволновой печи. Если используете микроволновую печь, растапливайте шоколад короткими импульсами (по 20-30 секунд) и перемешивайте между ними, чтобы предотвратить пригорание.</p>
+        <p><strong>Совет:</strong> Аккуратно перемешайте растопленный шоколад, чтобы он был идеально гладким и глянцевым. Если он слишком густой, вы можете добавить немного сливок или масла для достижения желаемой консистенции.</p>
+    </li>
+    <li>
+        <h3>Приготовьте десерт</h3>
+        <p>Теперь, когда шоколад растоплен, пришло время добавить его в ваш десерт. В Cookingdom вы можете создавать различные десерты на основе шоколада, такие как шоколадный торт, шоколадный мусс или шоколадное фондю.</p>
+        <p><strong>Совет:</strong> Если вы готовите шоколадный мусс, аккуратно вмешайте растопленный шоколад во взбитые сливки, чтобы создать легкую и воздушную текстуру.</p>
+        <p><strong>Совет:</strong> Если готовите шоколадное фондю, вылейте растопленный шоколад в горшочек для фондю и поддерживайте его теплым. Вы можете макать фрукты, такие как клубника, бананы и зефир, в шоколад для веселого и вкусного угощения.</p>
+    </li>
+    <li>
+        <h3>Добавьте ароматизаторы и топпинги</h3>
+        <p>Чтобы усилить вкус вашего шоколадного блюда, вы можете добавить ароматизаторы или топпинги.</p>
+        <p>Для более насыщенного вкуса добавьте немного ванильного экстракта или щепотку соли, чтобы сбалансировать сладость.</p>
+        <p>Топпинги, такие как измельченные орехи, взбитые сливки или шоколадная стружка, придадут десерту дополнительный слой текстуры и визуальной привлекательности.</p>
+        <p><strong>Совет:</strong> Если вы готовите шоколадный торт, обязательно покройте его шоколадным ганашем или кремовой шоколадной глазурью для дополнительной роскоши.</p>
+    </li>
+    <li>
+        <h3>Соберите и подайте шоколадное блюдо</h3>
+        <p>Как только шоколад будет приготовлен и ароматизирован, пришло время собрать ваш десерт.</p>
+        <p>Если вы создаете шоколадный торт, прослоите торт глазурью и полейте сверху растопленным шоколадом.</p>
+        <p>Для шоколадного фондю подавайте растопленный шоколад в горшочке для фондю с ассортиментом лакомств для макания, таких как фрукты, печенье или зефир.</p>
+        <p><strong>Совет:</strong> В Cookingdom презентация имеет значение! Аккуратно разложите десерт на тарелке и украсьте шоколадной стружкой, свежими ягодами или струйкой карамельного соуса для элегантного штриха.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 35</h2>
+<ul>
+    <li>
+        <h3>Растапливайте шоколад медленно</h3>
+        <p>При растапливании шоколада избегайте спешки. Используйте слабый огонь и постоянно помешивайте, чтобы добиться гладкой консистенции без комков. Перегрев шоколада может привести к его схватыванию или пригоранию, что испортит блюдо.</p>
+    </li>
+    <li>
+        <h3>Используйте правильный шоколад</h3>
+        <p>Используйте высококачественный шоколад для лучшего вкуса и текстуры. Для выпечки идеально подходит темный шоколад, но для более кремового вкуса можно использовать молочный или даже белый шоколад. Подбирайте шоколад к типу десерта, который вы готовите.</p>
+    </li>
+    <li>
+        <h3>Сбалансируйте сладость солью</h3>
+        <p>Щепотка соли может сбалансировать сладость шоколада и усилить его естественный вкус. Если вы готовите шоколадный десерт, такой как мусс или торт, добавление соли может улучшить вкус.</p>
+    </li>
+    <li>
+        <h3>Подавайте с комплементарными вкусами</h3>
+        <p>Шоколад хорошо сочетается с фруктами, такими как ягоды (клубника, малина и т. д.), орехами и даже специями, такими как корица или кофе. Экспериментируйте с различными сочетаниями вкусов, чтобы сделать ваш десерт уникальным.</p>
+    </li>
+    <li>
+        <h3>Сохраняйте свежесть</h3>
+        <p>Шоколадные десерты лучше всего подавать свежими, особенно если вы используете взбитые сливки или другие скоропортящиеся ингредиенты. Подготовьте все заранее, но соберите финальный десерт непосредственно перед подачей для лучшего вкуса.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 35 Cookingdom создание идеального Шоколадного блюда требует пристального внимания к деталям. Независимо от того, растапливаете ли вы шоколад для фондю или используете его для создания декадентского десерта, каждый шаг имеет значение. Обязательно медленно растапливайте шоколад, усиливайте вкус ванилью или солью и красиво подавайте блюдо.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете овладеть искусством приготовления роскошных шоколадных десертов, производя впечатление на своих клиентов каждым сладким творением. Независимо от того, готовите ли вы торт, мусс или фондю, шоколад всегда является выигрышным выбором для любого любителя десертов.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 36
+    id: 'cookingdom-game-level-36',
+    title: 'Уровень 36:<br>Индийское Карри',
+    pageTitle: 'Cookingdom Уровень 36 - Руководство по Индийскому Карри',
+    pageSubtitle: 'Научитесь готовить ароматное Индийское Карри на уровне 36 в Cookingdom.',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-36',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 36 Руководство: Индийское Карри | Советы и Стратегия',
+      description:
+        'Освойте Индийское Карри на уровне 36 в Cookingdom. Получите советы по подготовке ингредиентов, смешиванию специй, тушению и подаче этого ароматного блюда.',
+      keywords:
+        'Cookingdom, Уровень 36, Индийское Карри, Карри, Индийская еда, Специи, Тушение, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ffe0b2/ff9800?text=Level+36+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Индийское Карри</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-33',
+          title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
+          imageUrl: 'https://placehold.co/60x60/f8bbd0/e91e63?text=Lvl+33', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-33',
+        },
+        {
+          id: 'cookingdom-game-level-34',
+          title: 'Уровень 34<br>Королевский Краб',
+          imageUrl: 'https://placehold.co/60x60/ffcdd2/f44336?text=Lvl+34', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-34',
+        },
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Уровень 35<br>Шоколад',
+          imageUrl: 'https://placehold.co/60x60/8d6e63/5d4037?text=Lvl+35', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-35',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 36 Cookingdom вы будете готовить ароматное и насыщенное вкусом блюдо: Индийское Карри. Известное своими богатыми, пряными и сложными вкусами, Индийское Карри является любимым блюдом во многих культурах по всему миру. Ключевая задача на этом уровне - создать идеальный баланс специй и ингредиентов, чтобы карри было одновременно ароматным и вкусным. Приготовление включает тушение овощей и мяса в сочетании специй, трав и сливок или кокосового молока, что делает его сытным и ароматным блюдом.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления вкусного и ароматного Индийского Карри, от подготовки специй до подачи с идеальными дополнениями.</p>
+
+<h2 id="goal">Цели 36-го уровня</h2>
+<ul>
+    <li>Подготовить ингредиенты для карри.</li>
+    <li>Приготовить карри с идеальной смесью специй.</li>
+    <li>Тушить карри, чтобы вкусы смешались.</li>
+    <li>Подать Индийское Карри с рисом или хлебом.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Индийского Карри</h2>
+<ol>
+    <li>
+        <h3>Подготовка ингредиентов</h3>
+        <p>Первый шаг к созданию отличного Индийского Карри - сбор и подготовка ингредиентов. Общие ингредиенты для индийского карри включают:</p>
+        <ul>
+            <li>Курицу, баранину или овощи (в зависимости от типа карри, который вы готовите).</li>
+            <li>Лук, чеснок и имбирь для основы.</li>
+            <li>Разнообразные специи, такие как кумин, куркума, кориандр, гарам масала и порошок чили.</li>
+            <li>Кокосовое молоко, помидоры или сливки для основы соуса.</li>
+        </ul>
+        <p><strong>Совет:</strong> В Cookingdom вам нужно будет заранее нарезать и подготовить овощи, мясо и специи для гладкого и эффективного приготовления.</p>
+    </li>
+    <li>
+        <h3>Обжаривание ароматических ингредиентов</h3>
+        <p>Начните с нагревания масла в большой сковороде или кастрюле. Добавьте нарезанный лук, чеснок и имбирь, чтобы создать ароматическую основу карри.</p>
+        <p><strong>Совет:</strong> Обжаривайте ароматические ингредиенты до золотистого цвета и появления аромата. Этот шаг создаст богатую вкусовую основу для карри.</p>
+        <p><strong>Совет:</strong> Постоянно помешивайте, чтобы ингредиенты не пригорели.</p>
+    </li>
+    <li>
+        <h3>Добавление специй</h3>
+        <p>Как только лук, чеснок и имбирь будут обжарены до совершенства, пришло время добавить специи.</p>
+        <p>Добавьте в сковороду кумин, куркуму, кориандр, гарам масалу и порошок чили. Дайте специям прогреться минуту или две, чтобы высвободить их натуральные масла и углубить вкус.</p>
+        <p><strong>Совет:</strong> Будьте осторожны с порошком чили, если предпочитаете более мягкое карри. Вы можете отрегулировать количество в зависимости от того, насколько острым вы хотите сделать карри.</p>
+    </li>
+    <li>
+        <h3>Добавление мяса или овощей</h3>
+        <p>После того, как специи будут обжарены, добавьте в сковороду выбранное вами мясо (например, курицу или баранину) или овощи. Перемешайте все вместе, чтобы покрыть ингредиенты специями.</p>
+        <p><strong>Совет:</strong> Готовьте мясо до золотисто-коричневого цвета со всех сторон. Если вы используете овощи, убедитесь, что они стали нежными и слегка приготовились перед добавлением жидкости.</p>
+    </li>
+    <li>
+        <h3>Добавление основы соуса</h3>
+        <p>Далее пришло время создать соус карри. Добавьте в сковороду помидоры или кокосовое молоко, в зависимости от типа карри, который вы готовите.</p>
+        <p><strong>Совет:</strong> Если вы готовите сливочное карри, кокосовое молоко или жирные сливки придадут соусу гладкую и бархатистую текстуру.</p>
+        <p>Вмешайте соус в смесь мяса и специй, убедившись, что все ингредиенты хорошо перемешаны.</p>
+        <p><strong>Совет:</strong> Вы можете добавить немного воды или бульона, если соус карри слишком густой.</p>
+    </li>
+    <li>
+        <h3>Тушение карри</h3>
+        <p>Доведите карри до кипения и дайте ему покипеть около 15-20 минут. Это позволит вкусам смешаться, а мясу или овощам стать нежными.</p>
+        <p><strong>Совет:</strong> В Cookingdom обязательно попробуйте карри в середине приготовления и при необходимости скорректируйте приправы. Вы можете добавить соль, перец или больше специй в зависимости от ваших вкусовых предпочтений.</p>
+        <p><strong>Совет:</strong> Если вы предпочитаете более густое карри, дайте ему покипеть дольше или уменьшите количество жидкости, слегка увеличив огонь.</p>
+    </li>
+    <li>
+        <h3>Подача Индийского Карри</h3>
+        <p>Как только ваше Индийское Карри будет готово и вкусы прекрасно смешаются, пришло время подавать!</p>
+        <p>В Cookingdom подавайте карри с рисом на пару, нааном или роти для полноценного блюда.</p>
+        <p><strong>Совет:</strong> Украсьте карри свежей кинзой или выжмите немного лимонного сока, чтобы усилить вкус и свежесть блюда.</p>
+        <p><strong>Совет:</strong> Подавайте с гарниром из йогурта или райты (гарнир на основе йогурта), чтобы смягчить остроту.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 36</h2>
+<ul>
+    <li>
+        <h3>Усовершенствуйте свою смесь специй</h3>
+        <p>Правильный баланс специй необходим в Индийском Карри. Если вы новичок в использовании специй, всегда хорошо начать с готовой смеси гарам масала, а затем скорректировать ее отдельными специями, такими как кумин и куркума.</p>
+    </li>
+    <li>
+        <h3>Тушите для создания вкуса</h3>
+        <p>Тушение карри в течение более длительного периода дает вкусам время смешаться. Не торопитесь с этим процессом — терпение является ключом к достижению глубокого, насыщенного вкуса.</p>
+    </li>
+    <li>
+        <h3>Регулируйте остроту</h3>
+        <p>Будьте внимательны к уровню остроты при добавлении порошка чили. Если вы предпочитаете мягкое карри, используйте меньше или даже полностью исключите его. Для большей остроты увеличьте количество порошка чили или добавьте в смесь свежий чили.</p>
+    </li>
+    <li>
+        <h3>Используйте свежие ингредиенты</h3>
+        <p>Свежий имбирь и чеснок придадут вашему карри дополнительный взрыв вкуса. Свеженарезанные овощи и мясо также будут способствовать текстуре и общему вкусу блюда.</p>
+    </li>
+    <li>
+        <h3>Украшайте для визуальной привлекательности</h3>
+        <p>Свежая кинза, щепотка гарам масалы и выжатый лимонный сок могут улучшить внешний вид вашего Индийского Карри и сделать блюдо более аппетитным.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 36 Cookingdom приготовление Индийского Карри заключается в балансировании специй, создании ароматного соуса и тушении всего до тех пор, пока ингредиенты не станут нежными и не пропитаются богатыми вкусами. Независимо от того, используете ли вы курицу, баранину или овощи, ключ к отличному карри заключается в тщательном сочетании специй, правильном времени приготовления и подходящем сопровождении риса или хлеба.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы сможете создать ароматное и насыщенное вкусом Индийское Карри, которое произведет впечатление на ваших клиентов и удовлетворит их вкусовые рецепторы.</p>
+`,
+  },
+  {
+    // Добавляем запись для Уровня 37
+    id: 'cookingdom-game-level-37',
+    title: 'Уровень 37:<br>Рис с Кимчи',
+    pageTitle: 'Cookingdom Уровень 37 - Руководство по Рису с Кимчи',
+    pageSubtitle: 'Научитесь готовить ароматный Рис с Кимчи на уровне 37 в Cookingdom.',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/placeholder-guide.png', // Заполнитель
+    detailsRoute: '/cookingdom-game-level-37',
+    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
+    seo: {
+      title: 'Cookingdom Уровень 37 Руководство: Рис с Кимчи | Советы и Стратегия',
+      description:
+        'Освойте Рис с Кимчи на уровне 37 в Cookingdom. Получите советы по подготовке риса, обжарке кимчи, добавлению начинки, такой как жареное яйцо, и подаче этого корейского блюда.',
+      keywords:
+        'Cookingdom, Уровень 37, Рис с Кимчи, Кимчи, Корейская еда, Жареный рис, Жареное яйцо, Кочуджан, Руководство, Стратегия',
+    },
+    sidebarData: {
+      sidebarImageUrl: 'https://placehold.co/300x200/ff8a80/f44336?text=Level+37+Sidebar', // Заполнитель
+      levelInfoHtml:
+        '<h3>Рис с Кимчи</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-34',
+          title: 'Уровень 34<br>Королевский Краб',
+          imageUrl: 'https://placehold.co/60x60/ffcdd2/f44336?text=Lvl+34', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-34',
+        },
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Уровень 35<br>Шоколад',
+          imageUrl: 'https://placehold.co/60x60/8d6e63/5d4037?text=Lvl+35', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-35',
+        },
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Уровень 36<br>Индийское Карри',
+          imageUrl: 'https://placehold.co/60x60/ffe0b2/ff9800?text=Lvl+36', // Заполнитель
+          detailsRoute: '/cookingdom-game-level-36',
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Обзор игры</h2>
+<p>На уровне 37 Cookingdom вы будете готовить ароматное и пикантное блюдо: Рис с Кимчи. Это культовое корейское блюдо готовится из кимчи, традиционного ферментированного овощного блюда, смешанного с рисом, и часто сопровождается овощами и жареным яйцом сверху. Это простая, но ароматная еда, которая предлагает приятный баланс острого, кислого и пикантного вкусов. Ключевая задача на этом уровне - правильно смешать кимчи с рисом и другими ингредиентами, чтобы создать блюдо с идеальной приправой и хорошо приготовленное.</p>
+<p>Это руководство проведет вас через каждый шаг приготовления вкусного Риса с Кимчи, гарантируя, что вы создадите блюдо, полное вкуса и текстуры.</p>
+
+<h2 id="goal">Цели 37-го уровня</h2>
+<ul>
+    <li>Приготовить рис в качестве основы.</li>
+    <li>Обжарить кимчи и другие ингредиенты, чтобы создать идеальный баланс вкусов.</li>
+    <li>Подать Рис с Кимчи с жареным яйцом и гарниром.</li>
+</ul>
+
+<h2 id="steps">Пошаговое руководство по освоению Риса с Кимчи</h2>
+<ol>
+    <li>
+        <h3>Приготовление риса</h3>
+        <p>Основа Риса с Кимчи - это, конечно же, рис. Начните с приготовления риса на пару (лучше всего подходит белый рис или короткозерный рис), если у вас еще нет остатков риса.</p>
+        <p><strong>Совет:</strong> Для достижения наилучших результатов используйте вчерашний рис, так как он более сухой и менее липкий, что облегчает обжарку и впитывание вкусов.</p>
+    </li>
+    <li>
+        <h3>Обжаривание кимчи</h3>
+        <p>В Cookingdom вам нужно будет обжарить кимчи (ферментированную капусту) на сковороде, чтобы раскрыть ее богатый и пикантный вкус.</p>
+        <p><strong>Совет:</strong> Нарежьте кимчи на мелкие кусочки перед добавлением на сковороду для равномерного приготовления.</p>
+        <p>Добавьте небольшое количество масла на сковороду и обжаривайте кимчи около 2-3 минут. Это смягчит кимчи и усилит ее естественный вкус.</p>
+        <p><strong>Совет:</strong> Если вы любите поострее, на этом этапе вы также можете добавить немного кочуджана (корейской пасты чили) или кочугару (корейских хлопьев чили), чтобы сделать блюдо более острым.</p>
+    </li>
+    <li>
+        <h3>Обжаривание риса</h3>
+        <p>Как только кимчи будет обжарено, добавьте приготовленный рис на сковороду и хорошо перемешайте. Смешайте кимчи и рис вместе, пока рис равномерно не покроется соком кимчи.</p>
+        <p><strong>Совет:</strong> Обжаривайте рис около 5 минут на среднем огне, чтобы рис впитал вкус кимчи и приправ.</p>
+        <p><strong>Совет:</strong> Вы можете добавить немного соевого соуса или кунжутного масла для дополнительного слоя вкуса.</p>
+    </li>
+    <li>
+        <h3>Добавление овощей (по желанию)</h3>
+        <p>При желании вы можете добавить овощи в свой Рис с Кимчи, такие как морковь, зеленый лук или горошек, чтобы добавить больше текстуры и вкуса.</p>
+        <p><strong>Совет:</strong> Если добавляете овощи, убедитесь, что вы кратко обжарили их с кимчи, прежде чем смешивать с рисом.</p>
+    </li>
+    <li>
+        <h3>Жарка яйца</h3>
+        <p>Рис с Кимчи часто подают с жареным яйцом сверху, что добавляет блюду насыщенности и кремовости.</p>
+        <p>В Cookingdom пожарьте яйцо по своему вкусу. Жидкий желток можно вмешать в рис, придав ему кремовую текстуру.</p>
+        <p><strong>Совет:</strong> Чтобы сделать блюдо еще более декадентским, вы можете добавить немного кунжутного масла или соевого соуса поверх жареного яйца.</p>
+    </li>
+    <li>
+        <h3>Подача Риса с Кимчи</h3>
+        <p>Как только Рис с Кимчи будет приготовлен и хорошо приправлен, пришло время подавать.</p>
+        <p>В Cookingdom подавайте рис в миске или на тарелке и положите сверху жареное яйцо.</p>
+        <p><strong>Совет:</strong> Украсьте нарезанным зеленым луком или семенами кунжута для дополнительного вкуса и яркого цвета.</p>
+        <p><strong>Совет:</strong> Вы также можете добавить небольшую порцию кимчи для дополнительной остроты вкуса.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Профессиональные советы для успеха на уровне 37</h2>
+<ul>
+    <li>
+        <h3>Используйте вчерашний рис</h3>
+        <p>Вчерашний рис лучше всего подходит для Риса с Кимчи, так как он менее липкий и лучше обжаривается. Если вы используете свежий рис, убедитесь, что он немного остыл перед использованием, чтобы предотвратить образование комков.</p>
+    </li>
+    <li>
+        <h3>Усовершенствуйте вкус кимчи</h3>
+        <p>Обжаривание кимчи необходимо для раскрытия ее пикантных, богатых умами вкусов. Если вы любите более острый Рис с Кимчи, не стесняйтесь добавлять больше кочуджана или кочугару в смесь.</p>
+    </li>
+    <li>
+        <h3>Регулируйте уровень остроты</h3>
+        <p>В зависимости от того, насколько острым вы хотите сделать блюдо, вы можете отрегулировать количество кочуджана (корейской пасты чили) и кочугару (корейских хлопьев чили), используемых в рецепте. Для более мягкой версии используйте меньше или полностью исключите.</p>
+    </li>
+    <li>
+        <h3>Жареное яйцо - ключ</h3>
+        <p>Жареное яйцо поверх Риса с Кимчи добавляет блюду насыщенности и глубины. Убедитесь, что яичный желток слегка жидкий для лучшей текстуры, так как он прекрасно смешивается с рисом.</p>
+    </li>
+    <li>
+        <h3>Украшайте для визуальной привлекательности</h3>
+        <p>Украшение зеленым луком и семенами кунжута добавляет как текстуру, так и цвет, делая ваш Рис с Кимчи таким же красивым на вид, как и на вкус.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Резюме</h2>
+<p>На уровне 37 Cookingdom приготовление Риса с Кимчи заключается в балансировании богатых, острых и пикантных вкусов кимчи с нейтральным рисом. Обжарьте кимчи с рисом, добавьте немного соевого соуса или кунжутного масла и увенчайте блюдо жареным яйцом, чтобы завершить трапезу. Независимо от того, используете ли вы овощи или просто сосредотачиваетесь на кимчи, это блюдо обязательно удовлетворит ваших клиентов своими смелыми и утешительными вкусами.</p>
+<p>Следуя этому руководству по прохождению Cookingdom, вы овладеете искусством приготовления Риса с Кимчи, вкусного и сытного блюда, которое сочетает в себе традиционные корейские вкусы с простыми ингредиентами.</p>
+`,
+  },
+] // Конец массива guidesRu

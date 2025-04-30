@@ -14,13 +14,14 @@ const loadBlogPosts = async (lang) => {
   try {
     let dataModule
     if (lang === 'zh') {
-      dataModule = await import('@/datas/blog-posts-zh.json')
+      dataModule = await import('@/datas/blog-posts-zh.js')
     } else if (lang === 'ru') {
-      dataModule = await import('@/datas/blog-posts-ru.json')
+      dataModule = await import('@/datas/blog-posts-ru.js')
     } else {
-      dataModule = await import('@/datas/blog-posts.json') // 默认 en
+      dataModule = await import('@/datas/blog-posts.js') // 默认 en
     }
-    blogPosts.value = dataModule.default || dataModule
+    // 从 JS 模块的具名导出 blogPosts 获取数据
+    blogPosts.value = dataModule.blogPosts
   } catch (error) {
     console.error(`Failed to load blog posts for locale ${lang}:`, error)
     blogPosts.value = []

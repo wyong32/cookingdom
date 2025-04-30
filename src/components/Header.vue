@@ -1,15 +1,36 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-import { useRouter, useRoute } from 'vue-router'
+import { useRouter, useRoute, RouterLink } from 'vue-router'
+import { computed } from 'vue'
 // 导入 i18n 配置中导出的变量
 import { supportedLangs, defaultLang } from '@/i18n'
 
-const { locale } = useI18n() // 获取当前的 locale ref
+const { locale, t } = useI18n() // 获取当前的 locale ref and t function
 const router = useRouter()
 const route = useRoute()
 
 // 当前选择的语言，用于 v-model 绑定到 select
 const currentLocale = locale // 直接使用 i18n 的 locale ref
+
+// 计算属性，用于动态生成带语言参数的路由对象
+const localizedRoute = (name) => {
+  return computed(() => {
+    const currentLang = locale.value
+    if (currentLang === defaultLang) {
+      // 默认语言，使用不带后缀的路由名
+      return { name: name }
+    } else {
+      // 非默认语言，使用带 -lang 后缀的路由名，并传递 lang 参数
+      return { name: `${name}-lang`, params: { lang: currentLang } }
+    }
+  })
+}
+
+// 为每个导航链接创建计算属性
+const homeRoute = localizedRoute('home')
+const guidesRoute = localizedRoute('guides')
+const blogRoute = localizedRoute('blog')
+const downloadRoute = localizedRoute('download')
 
 function changeLocale(event) {
   console.log('--- changeLocale function entered ---')
@@ -75,20 +96,20 @@ function changeLocale(event) {
 <template>
   <header class="header">
     <div class="container">
-      <div class="logo">{{ $t('header.logo') }}</div>
+      <div class="logo">{{ t('header.logo') }}</div>
       <nav>
         <ul>
           <li>
-            <RouterLink :to="{ name: 'home' }">{{ $t('nav.home') }}</RouterLink>
+            <RouterLink :to="homeRoute">{{ t('nav.home') }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="{ name: 'guides' }">{{ $t('nav.guides') }}</RouterLink>
+            <RouterLink :to="guidesRoute">{{ t('nav.guides') }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="{ name: 'blog' }">{{ $t('nav.blog') }}</RouterLink>
+            <RouterLink :to="blogRoute">{{ t('nav.blog') }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="{ name: 'download' }">{{ $t('nav.download') }}</RouterLink>
+            <RouterLink :to="downloadRoute">{{ t('nav.download') }}</RouterLink>
           </li>
         </ul>
       </nav>
