@@ -45,7 +45,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
     ViteSitemapPlugin({
-      hostname: 'https://www.yourdomain.com',
+      hostname: 'https://www.cookingdom.co/',
       exclude: ['/:id', '/:lang/:id'],
       dynamicRoutes: loadGuideIds().flatMap(id => [
         `/${id}`,

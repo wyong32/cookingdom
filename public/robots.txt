@@ -3,4 +3,4 @@ User-agent: *
 Disallow:
 
 # Sitemap location (update with your actual domain)
-Sitemap: https://www.yourdomain.com/sitemap.xml 
+Sitemap: https://www.cookingdom.co/sitemap.xml 
