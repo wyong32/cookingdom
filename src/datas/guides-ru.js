@@ -4,7 +4,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 1 - Руководство по первой пицце',
   pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
   category: '01-10',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_01.webp",
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
   iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
@@ -579,7 +579,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 8 - Руководство по Стейку',
   pageSubtitle: 'Научитесь готовить идеальный стейк по заказу в Cookingdom Уровень 8.',
   category: '01-10',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_08.webp",
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
   iframeUrl: "https://www.youtube.com/embed/vrGNwEY_6hE",
@@ -1008,7 +1008,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 12 - Руководство по Рамэну',
   pageSubtitle: 'Научитесь готовить сытный и сложный рамэн в Cookingdom Уровень 12.',
   category: '11-20',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_12.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
@@ -1470,7 +1470,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 16 - Руководство по Техасскому BBQ',
   pageSubtitle: 'Освойте дымное и ароматное Техасское BBQ на уровне 16 в Cookingdom.',
   category: '11-20',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_16.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
@@ -1722,7 +1722,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 18 - Руководство по Рататую',
   pageSubtitle: 'Научитесь готовить классический французский Рататуй на уровне 18 в Cookingdom.',
   category: '11-20',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_18.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
@@ -2129,7 +2129,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 21 - Руководство по Чаю с Молоком и Боба',
   pageSubtitle: 'Научитесь готовить идеальный Чай с Молоком и Боба на уровне 21 в Cookingdom.',
   category: '21-30',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_21.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
@@ -2901,7 +2901,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 27 - Руководство по Сэндвичу',
   pageSubtitle: 'Научитесь собирать идеальный Сэндвич на уровне 27 в Cookingdom.',
   category: '21-30',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_27.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
@@ -3148,7 +3148,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 29 - Руководство по Матча Боба Чаю',
   pageSubtitle: 'Научитесь готовить модный Матча Боба Чай на уровне 29 в Cookingdom.',
   category: '21-30',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_29.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
@@ -3507,7 +3507,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 32 - Руководство по Гамбургеру',
   pageSubtitle: 'Научитесь собирать классический Гамбургер на уровне 32 в Cookingdom.',
   category: '31-40',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_32.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
@@ -3631,7 +3631,7 @@ export const guidesRu = [{
   pageTitle: 'Cookingdom Уровень 33 - Руководство по Аляскинскому Лобстеру на Пару',
   pageSubtitle: 'Научитесь готовить роскошного Аляскинского Лобстера на Пару на уровне 33 в Cookingdom.',
   category: '31-40',
-  isSpecial: false,
+  isSpecial: true,
   imageUrl: "/images/guides_33.webp",
   // Заполнитель
   detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
