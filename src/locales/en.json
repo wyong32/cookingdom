@@ -301,5 +301,49 @@
         "email": "Email: maieldilmie223321@gmail.com"
       }
     }
+  },
+  "meta": {
+    "defaultDescription": "Your default description for Cookingdom site.",
+    "defaultKeywords": "cookingdom, game, guide, cooking, simulation, fun",
+    "notFoundTitle": "Page Not Found | Cookingdom",
+    "errorTitle": "Error | Cookingdom",
+    "home": {
+      "title": "Cookingdom Game Strategy Guide – Master Every Level",
+      "description": "Discover expert strategies for Cookingdom! . find all the essential tactics through every challenge and unlock new levels in this fun cooking adventure game.",
+      "keywords": "Cookingdom,Cookingdom tips,cooking adventure,Cookingdom gameplay,Cookingdom cheats"
+    },
+    "guides": {
+      "title": "Cookingdom Guides List – All Strategies and Tips",
+      "description": "Explore our comprehensive list of Cookingdom guides. From beginner tips to advanced strategies, find all the game guides you need to dominate every level.",
+      "keywords": "Cookingdom,Cookingdom tips,cooking adventure,Cookingdom gameplay,Cookingdom cheats"
+    },
+    "blog": {
+      "title": "Cookingdom Blog – Latest Tips, News, and Updates",
+      "description": "Stay updated with the latest news, tips, and strategies for Cookingdom. Our blog covers everything from new features to expert advice.",
+      "keywords": "Cookingdom, Cookingdom blog, Cookingdom tips, game updates, Cookingdom news, Cookingdom strategies, cooking adventure"
+    },
+    "blogDetail": {
+      "title": "Cookingdom Blog Post",
+      "description": "Read this post from the Cookingdom blog."
+    },
+    "download": {
+      "title": "Download Cookingdom – Start Your Cooking Adventure",
+      "description": "Download Cookingdom now and begin your cooking adventure! Enjoy fun challenges, strategy, and gameplay.",
+      "keywords": "Cookingdom download, Cookingdom app, cooking game, download Cookingdom, cooking adventure"
+    },
+    "privacy": {
+      "title": "Privacy Policy - Cookingdom Fansite",
+      "description": "Read the privacy policy for our Cookingdom fansite.",
+      "keywords": "cookingdom, privacy policy, data, user rights, legal"
+    },
+    "terms": {
+      "title": "Terms of Service - Cookingdom Fansite",
+      "description": "Review the terms of service for our Cookingdom fansite.",
+      "keywords": "cookingdom, terms of service, usage rules, legal"
+    },
+    "guideDetail": {
+       "title": "Cookingdom Guide",
+       "description": "Detailed guide for a Cookingdom level."
+    }
   }
 }

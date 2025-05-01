@@ -84,8 +84,8 @@ const filteredGuides = computed(() => {
     return allGuides.value.filter((guide) => guide.isSpecial === true)
   } else {
     // Otherwise, filter by the category matching the active tab
-    // Also ensure we don't accidentally show special guides in regular tabs
-    return allGuides.value.filter((guide) => guide.category === activeTab.value && !guide.isSpecial)
+    // Special items will now be included if their category matches the active tab
+    return allGuides.value.filter((guide) => guide.category === activeTab.value)
   }
 })
 </script>

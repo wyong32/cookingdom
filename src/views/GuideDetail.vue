@@ -51,7 +51,10 @@
           <h4>{{ $t('guideDetail.featuredLevelsTitle') }}</h4>
           <ul>
             <li v-for="featured in guide.sidebarData.featuredGuides" :key="featured.id">
-              <router-link :to="featured.detailsRoute" class="featured-guide-link">
+              <router-link 
+                :to="getFeaturedGuideLinkProps(featured)"
+                class="featured-guide-link"
+              >
                 <img :src="featured.imageUrl" alt="" class="featured-guide-img" />
                 <span v-html="featured.title"></span>
               </router-link>
@@ -76,70 +79,147 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { useGuides } from '@/composables/useGuides'
+import { defaultLang } from '@/i18n'
+import { updateMetaTag } from '@/utils/head'
 
 const route = useRoute()
 const guideId = computed(() => route.params.id)
-const guide = ref(null)
 const { t, locale } = useI18n()
 
-const { guides: allGuides, isLoading, error: loadingError } = useGuides()
+const guide = ref(null)
+const isLoading = ref(true)
+const error = ref(null)
 
-const findCurrentGuide = () => {
-  if (!isLoading.value && allGuides.value && allGuides.value.length > 0 && guideId.value) {
-    console.log(`Finding guide with ID: ${guideId.value} for locale: ${locale.value}`)
-    const foundGuide = allGuides.value.find((g) => g.id === guideId.value)
-    guide.value = foundGuide || null
-    console.log('Found guide object:', guide.value)
+const loadGuide = async (id, lang) => {
+  isLoading.value = true;
+  error.value = null;
+  guide.value = null;
 
-    if (guide.value) {
-      document.title = guide.value.seo?.title || t('seo.defaultTitle')
-      updateMetaTag('description', guide.value.seo?.description || '')
-      updateMetaTag('keywords', guide.value.seo?.keywords || '')
+  if (!id) {
+      error.value = "Guide ID is missing.";
+      isLoading.value = false;
+      return;
+  }
+
+  try {
+    let dataModule;
+    let allGuides = [];
+    if (lang === 'zh') {
+      dataModule = await import('@/datas/guides-zh.js');
+      allGuides = dataModule.guidesZh || [];
+    } else if (lang === 'ru') {
+      dataModule = await import('@/datas/guides-ru.js');
+      allGuides = dataModule.guidesRu || [];
     } else {
-      console.error('Guide not found for id:', guideId.value)
-      document.title = t('seo.notFoundTitle')
-      updateMetaTag('description', '')
-      updateMetaTag('keywords', '')
+      dataModule = await import('@/datas/guides.js');
+      allGuides = dataModule.guides || [];
     }
-  } else {
-    console.log('Conditions not met for finding guide:', {
-      isLoading: isLoading.value,
-      hasData: !!allGuides.value,
-      id: guideId.value,
-    })
-    guide.value = null
+
+    const foundGuide = allGuides.find((g) => g.id === id);
+
+    if (foundGuide) {
+      guide.value = foundGuide;
+
+      const seoTitle = foundGuide.seo?.title || t('meta.guideDetail.title');
+      const seoDescription = foundGuide.seo?.description || t('meta.guideDetail.description');
+      const seoKeywords = foundGuide.seo?.keywords || t('meta.defaultKeywords');
+
+      document.title = seoTitle;
+      updateMetaTag('description', seoDescription);
+      updateMetaTag('keywords', seoKeywords);
+
+      updateMetaTag('og:title', seoTitle);
+      updateMetaTag('og:description', seoDescription);
+      updateMetaTag('twitter:title', seoTitle);
+      updateMetaTag('twitter:description', seoDescription);
+
+      let specificImageUrl = foundGuide.imageUrl || foundGuide.sidebarData?.sidebarImageUrl;
+      if (specificImageUrl) {
+          if (specificImageUrl.startsWith('/')) {
+              specificImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${specificImageUrl.substring(1)}`;
+          }
+          updateMetaTag('og:image', specificImageUrl);
+          updateMetaTag('twitter:image', specificImageUrl);
+      } else {
+         // Optional: Fallback to default if no specific image found?
+         // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
+         // updateMetaTag('og:image', defaultSocialImageUrl);
+         // updateMetaTag('twitter:image', defaultSocialImageUrl);
+      }
+
+    } else {
+      error.value = t('guideDetail.loadingOrNotFound');
+      document.title = t('meta.notFoundTitle', 'Guide Not Found');
+      updateMetaTag('description', '');
+      updateMetaTag('keywords', '');
+      updateMetaTag('og:title', document.title);
+      updateMetaTag('og:description', '');
+      // Maybe reset image to default?
+      // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
+      // updateMetaTag('og:image', defaultSocialImageUrl);
+      // updateMetaTag('twitter:image', defaultSocialImageUrl);
+    }
+  } catch (err) {
+    error.value = 'Failed to load guide data.';
+    document.title = t('meta.errorTitle', 'Error Loading Guide');
+    updateMetaTag('description', '');
+    updateMetaTag('keywords', '');
+    updateMetaTag('og:title', document.title);
+    updateMetaTag('og:description', '');
+    // Maybe reset image to default?
+    // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
+    // updateMetaTag('og:image', defaultSocialImageUrl);
+    // updateMetaTag('twitter:image', defaultSocialImageUrl);
+  } finally {
+    isLoading.value = false;
   }
 }
-
-const updateMetaTag = (name, content) => {
-  let metaTag = document.querySelector(`meta[name="${name}"]`)
-  if (!metaTag) {
-    metaTag = document.createElement('meta')
-    metaTag.setAttribute('name', name)
-    document.head.appendChild(metaTag)
-  }
-  metaTag.setAttribute('content', content)
-}
-
-watch(isLoading, (newIsLoading, oldIsLoading) => {
-  if (!newIsLoading && oldIsLoading) {
-    console.log('Loading finished. Attempting to find guide.')
-    findCurrentGuide()
-  }
-})
 
 watch(guideId, (newId, oldId) => {
-  if (newId && newId !== oldId) {
-    console.log(`Guide ID changed to ${newId}. Attempting to find guide.`)
-    findCurrentGuide()
-  }
-})
+    const currentLocale = locale.value;
+    if (newId && newId !== oldId) {
+        loadGuide(newId, currentLocale);
+    } else if (newId && !oldId) {
+         loadGuide(newId, currentLocale);
+    }
+}, { immediate: true });
 
-onMounted(() => {
-  console.log('GuideDetail mounted. Initial attempt to find guide.')
-  findCurrentGuide()
-})
+watch(locale, (newLocale) => {
+  const currentGuideId = guideId.value;
+  if (currentGuideId) {
+     loadGuide(currentGuideId, newLocale);
+  }
+});
+
+const getFeaturedGuideLinkProps = (featured) => {
+  const currentLocale = locale.value;
+  const isDefaultLang = currentLocale === defaultLang;
+  let routeName = isDefaultLang ? 'guide-detail' : 'guide-detail-lang';
+  let routeParams;
+
+  if (isDefaultLang) {
+    routeParams = { id: featured.id };
+  } else {
+    if (currentLocale && typeof currentLocale === 'string') {
+      routeParams = { id: featured.id, lang: currentLocale };
+    } else {
+      routeName = 'guide-detail';
+      routeParams = { id: featured.id };
+    }
+  }
+
+  const linkProps = {
+    name: routeName,
+    params: routeParams
+  };
+
+  return linkProps;
+};
+
+// onMounted(() => {
+//   console.log('GuideDetail mounted. Initial attempt to load guide.')
+//   loadGuide(guideId.value, locale.value)
+// })
 </script>
 
 <style scoped>

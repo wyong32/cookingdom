@@ -2,6 +2,7 @@
 import { ref, computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
+import { defaultLang } from '@/i18n'
 
 const { t, locale } = useI18n()
 
@@ -71,7 +72,7 @@ const filteredLevels = computed(() => {
         levels21_30: '21-30',
         levels31_40: '31-40',
       }
-      return level.category === categoryMap[tabKey] && !level.isSpecial
+      return level.category === categoryMap[tabKey]
     }
   })
 })
@@ -89,6 +90,33 @@ watch(locale, (newLocale) => {
 const changeTab = (tabKey) => {
   activeTab.value = tabKey
 }
+
+const getGuideLinkProps = (level) => {
+  const currentLocale = locale.value;
+  const isDefaultLang = currentLocale === defaultLang;
+  let routeName = isDefaultLang ? 'guide-detail' : 'guide-detail-lang';
+  let routeParams;
+
+  if (isDefaultLang) {
+    routeParams = { id: level.id };
+  } else {
+    // Critical check: Ensure currentLocale is valid before using it as 'lang' param
+    if (currentLocale && typeof currentLocale === 'string') {
+       routeParams = { id: level.id, lang: currentLocale };
+    } else {
+       // Fallback to default route to potentially avoid crash, although navigation might be wrong
+       routeName = 'guide-detail'; // Revert to default route name
+       routeParams = { id: level.id };
+    }
+  }
+
+  const linkProps = {
+    name: routeName,
+    params: routeParams
+  };
+
+  return linkProps;
+};
 </script>
 
 <template>
@@ -110,7 +138,7 @@ const changeTab = (tabKey) => {
       <ul v-if="filteredLevels.length">
         <li v-for="level in filteredLevels" :key="level.id">
           <RouterLink
-            :to="{ name: 'guide-detail', params: { id: level.id } }"
+            :to="getGuideLinkProps(level)"
             class="guide-item-link"
           >
             <div class="guide-image-placeholder">

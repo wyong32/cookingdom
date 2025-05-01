@@ -175,6 +175,50 @@
     "featuredLevelsTitle": "Рекомендуемые уровни",
     "loadingOrNotFound": "Загрузка деталей гайда или гайд не найден..."
   },
+  "meta": {
+    "defaultDescription": "Your default description for Cookingdom site (RU).",
+    "defaultKeywords": "cookingdom, игра, гайд, кулинария, симулятор, весело",
+    "notFoundTitle": "Страница не найдена | Cookingdom",
+    "errorTitle": "Ошибка | Cookingdom",
+    "home": {
+      "title": "Cookingdom Фан-сайт - Главная",
+      "description": "Добро пожаловать на лучший фан-сайт Cookingdom! Гайды, советы и веселье.",
+      "keywords": "cookingdom, фан-сайт, главная, гайды, блог, скачать"
+    },
+    "guides": {
+      "title": "Все гайды и прохождения Cookingdom",
+      "description": "Найдите гайды для каждого уровня игры Cookingdom.",
+      "keywords": "cookingdom, гайды, прохождение, уровни, советы, стратегия"
+    },
+    "blog": {
+      "title": "Блог Cookingdom - Новости и обновления",
+      "description": "Читайте последние новости и статьи об игре Cookingdom.",
+      "keywords": "cookingdom, блог, новости, обновления, статьи, сообщество"
+    },
+    "blogDetail": {
+      "title": "Статья блога Cookingdom",
+      "description": "Прочтите эту статью из блога Cookingdom."
+    },
+    "download": {
+      "title": "Скачать игру Cookingdom",
+      "description": "Получите игру Cookingdom для iOS и Android.",
+      "keywords": "cookingdom, скачать, игра, ios, android, бесплатно"
+    },
+    "privacy": {
+      "title": "Политика конфиденциальности - Фан-сайт Cookingdom",
+      "description": "Прочтите политику конфиденциальности нашего фан-сайта Cookingdom.",
+      "keywords": "cookingdom, политика конфиденциальности, данные, права пользователя, юридический"
+    },
+    "terms": {
+      "title": "Условия обслуживания - Фан-сайт Cookingdom",
+      "description": "Ознакомьтесь с условиями обслуживания нашего фан-сайта Cookingdom.",
+      "keywords": "cookingdom, условия обслуживания, правила использования, юридический"
+    },
+    "guideDetail": {
+      "title": "Гайд по Cookingdom",
+      "description": "Подробный гайд для уровня Cookingdom."
+    }
+  },
   "seo": {
     "defaultTitle": "Cookingdom Гайд",
     "notFoundTitle": "Гайд не найден | Cookingdom"

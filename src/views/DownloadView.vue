@@ -9,9 +9,9 @@
       <div class="container">
         <div class="section-header">
           <!-- Using nav.download key for the main title of this page -->
-          <h2><span class="icon">⬇️</span> {{ $t('nav.download') }}</h2>
+          <h1>{{ $t('nav.download') }}</h1>
         </div>
-        <p>{{ $t('home.downloads.description') }}</p>
+        <h2>{{ $t('home.downloads.description') }}</h2>
         <div class="downloads-grid">
           <div class="download-card">
             <div class="download-icon">📱</div>
@@ -22,7 +22,7 @@
               <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
             </div>
             <!-- Assuming the button should navigate to an external site -->
-            <a href="#" class="btn btn-download" target="_blank" rel="noopener noreferrer">
+            <a href="https://apps.apple.com/us/app/cookingdom/id6742222069" class="btn btn-download" rel="noopener noreferrer">
               {{ $t('home.downloads.ios.button') }}
             </a>
           </div>
@@ -35,7 +35,7 @@
               <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
             </div>
             <!-- Assuming the button should navigate to an external site -->
-            <a href="#" class="btn btn-download" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.abi.cook.chill" class="btn btn-download" rel="noopener noreferrer">
               {{ $t('home.downloads.android.button') }}
             </a>
           </div>
@@ -69,18 +69,17 @@
   margin-bottom: 1rem;
 }
 
-.section-header h2 {
+.section-header h1 {
   font-size: 2.2rem;
   color: #5b4b8a; /* Darker purple */
   margin: 0;
 }
 
-.section-header h2 .icon {
+.section-header h1 .icon {
   margin-right: 0.5rem;
-  vertical-align: middle;
 }
 
-.downloads-section > .container > p {
+.downloads-section > .container > h2 {
   font-size: 1.1rem;
   color: #666;
   margin-bottom: 2.5rem;

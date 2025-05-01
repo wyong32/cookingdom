@@ -5,9 +5,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 1 - First Pizza Guide',
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_01.webp',
-    detailsRoute: '/cookingdom-game-level-1',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
     seo: {
       title: 'Cookingdom Level 1 Guide - First Pizza',
@@ -24,13 +24,13 @@ export const guides = [
           id: 'cookingdom-game-level-2',
           title: 'Level 2<br/>Simple Salad',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: '/cookingdom-game-level-2',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: 'Level 11<br/>Popcorn',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: '/cookingdom-game-level-11',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
       ],
     },
@@ -81,7 +81,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_02.webp',
-    detailsRoute: '/cookingdom-game-level-2',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
     iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
     seo: {
       title: 'Cookingdom Level 2 Guide - Simple Salad',
@@ -98,13 +98,13 @@ export const guides = [
           id: 'cookingdom-game-level-1',
           title: 'Level 1<br/>First Pizza',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: '/cookingdom-game-level-1',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: 'Level 11<br/>Popcorn',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: '/cookingdom-game-level-11',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
       ],
     },
@@ -154,7 +154,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_03.webp',
-    detailsRoute: '/cookingdom-game-level-3',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
     iframeUrl: 'https://www.youtube.com/embed/oWpl7YwOYbw',
     seo: {
       title: 'Cookingdom Level 3 Guide - Fried Potatoes',
@@ -172,13 +172,13 @@ export const guides = [
           id: 'cookingdom-game-level-1',
           title: 'Level 1<br/>First Pizza',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: '/cookingdom-game-level-1',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
         },
         {
           id: 'cookingdom-game-level-2',
           title: 'Level 2<br/>Simple Salad',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: '/cookingdom-game-level-2',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
       ],
     },
@@ -226,7 +226,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_04.webp',
-    detailsRoute: '/cookingdom-game-level-4',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
     iframeUrl: 'https://www.youtube.com/embed/ndEW4RcERyI',
     seo: {
       title: 'Cookingdom Level 4 Guide: Rolled Ice-cream | Tips & Strategy',
@@ -243,19 +243,19 @@ export const guides = [
           id: 'cookingdom-game-level-1',
           title: 'Level 1<br/>First Pizza',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: '/cookingdom-game-level-1',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
         },
         {
           id: 'cookingdom-game-level-2',
           title: 'Level 2<br/>Simple Salad',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: '/cookingdom-game-level-2',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
         {
           id: 'cookingdom-game-level-3',
           title: 'Level 3<br/>Fried Potatoes',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: '/cookingdom-game-level-3',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
         },
       ],
     },
@@ -326,7 +326,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_05.webp',
-    detailsRoute: '/cookingdom-game-level-5',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
     iframeUrl: 'https://www.youtube.com/embed/8CdDamlaEHA',
     seo: {
       title: 'Cookingdom Level 5 Guide: Grilled Fish | Tips & Strategy',
@@ -343,19 +343,19 @@ export const guides = [
           id: 'cookingdom-game-level-2',
           title: 'Level 2<br/>Simple Salad',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: '/cookingdom-game-level-2',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
         {
           id: 'cookingdom-game-level-3',
           title: 'Level 3<br/>Fried Potatoes',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: '/cookingdom-game-level-3',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
         },
         {
           id: 'cookingdom-game-level-4',
           title: 'Level 4<br/>Rolled Ice-cream',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: '/cookingdom-game-level-4',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
         },
       ],
     },
@@ -427,7 +427,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_06.webp',
-    detailsRoute: '/cookingdom-game-level-6',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
     iframeUrl: 'https://www.youtube.com/embed/OTKpJ9M7to',
     seo: {
       title: 'Cookingdom Level 6 Guide: Café Espresso | Tips & Strategy',
@@ -445,19 +445,19 @@ export const guides = [
           id: 'cookingdom-game-level-3',
           title: 'Level 3<br/>Fried Potatoes',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: '/cookingdom-game-level-3',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
         },
         {
           id: 'cookingdom-game-level-4',
           title: 'Level 4<br/>Rolled Ice-cream',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: '/cookingdom-game-level-4',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
         },
         {
           id: 'cookingdom-game-level-5',
           title: 'Level 5<br/>Grilled Fish',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: '/cookingdom-game-level-5',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
         },
       ],
     },
@@ -529,7 +529,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_07.webp',
-    detailsRoute: '/cookingdom-game-level-7',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
     iframeUrl: 'https://www.youtube.com/embed/IiwEmCzNwYM',
     seo: {
       title: 'Cookingdom Level 7 Guide: Sunny Eggs | Tips & Strategy',
@@ -547,19 +547,19 @@ export const guides = [
           id: 'cookingdom-game-level-4',
           title: 'Level 4<br/>Rolled Ice-cream',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: '/cookingdom-game-level-4',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
         },
         {
           id: 'cookingdom-game-level-5',
           title: 'Level 5<br/>Grilled Fish',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: '/cookingdom-game-level-5',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
         },
         {
           id: 'cookingdom-game-level-6',
           title: 'Level 6<br/>Café Espresso',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: '/cookingdom-game-level-6',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
         },
       ],
     },
@@ -629,9 +629,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 8 - Steak Guide',
     pageSubtitle: 'Learn to cook the perfect steak to order in Cookingdom Level 8.',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_08.webp',
-    detailsRoute: '/cookingdom-game-level-8',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
     iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
     seo: {
       title: 'Cookingdom Level 8 Guide: Steak | Tips & Strategy',
@@ -649,19 +649,19 @@ export const guides = [
           id: 'cookingdom-game-level-5',
           title: 'Level 5<br/>Grilled Fish',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: '/cookingdom-game-level-5',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
         },
         {
           id: 'cookingdom-game-level-6',
           title: 'Level 6<br/>Café Espresso',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: '/cookingdom-game-level-6',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
         },
         {
           id: 'cookingdom-game-level-7',
           title: 'Level 7<br/>Sunny Eggs',
           imageUrl: '/images/guides_07.webp',
-          detailsRoute: '/cookingdom-game-level-7',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
       ],
     },
@@ -753,7 +753,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_09.webp',
-    detailsRoute: '/cookingdom-game-level-9',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
     iframeUrl: 'https://www.youtube.com/embed/SOGzuHCsQkQ',
     seo: {
       title: 'Cookingdom Level 9 Guide: Spaghetti | Tips & Strategy',
@@ -771,19 +771,19 @@ export const guides = [
           id: 'cookingdom-game-level-6',
           title: 'Level 6<br/>Café Espresso',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: '/cookingdom-game-level-6',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
         },
         {
           id: 'cookingdom-game-level-7',
           title: 'Level 7<br/>Sunny Eggs',
           imageUrl: '/images/guides_07.webp',
-          detailsRoute: '/cookingdom-game-level-7',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: 'Level 8<br/>Steak',
           imageUrl: '/images/guides_08.webp',
-          detailsRoute: '/cookingdom-game-level-8',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
       ],
     },
@@ -860,7 +860,7 @@ export const guides = [
     category: '01-10',
     isSpecial: false,
     imageUrl: '/images/guides_10.webp',
-    detailsRoute: '/cookingdom-game-level-10',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
     iframeUrl: 'https://www.youtube.com/embed/sR03duivZNM',
     seo: {
       title: 'Cookingdom Level 10 Guide: Salmon Sushi | Tips & Strategy',
@@ -878,19 +878,19 @@ export const guides = [
           id: 'cookingdom-game-level-7',
           title: 'Level 7<br>Sunny Eggs',
           imageUrl: '/images/guides_7.webp',
-          detailsRoute: '/cookingdom-game-level-7',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: 'Level 8<br>Steak',
           imageUrl: '/images/guides_8.webp',
-          detailsRoute: '/cookingdom-game-level-8',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: 'Level 9<br>Pasta',
           imageUrl: '/images/guides_9.webp',
-          detailsRoute: '/cookingdom-game-level-9',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
       ],
     },
@@ -975,7 +975,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_11.webp',
-    detailsRoute: '/cookingdom-game-level-11',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/5mFzPngHJF8',
     seo: {
       title: 'Cookingdom Level 11 Guide: Popcorn | Tips & Strategy',
@@ -993,19 +993,19 @@ export const guides = [
           id: 'cookingdom-game-level-8',
           title: 'Level 8<br>Steak',
           imageUrl: '/images/guides_8.webp',
-          detailsRoute: '/cookingdom-game-level-8',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: 'Level 9<br>Pasta',
           imageUrl: '/images/guides_9.webp',
-          detailsRoute: '/cookingdom-game-level-9',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
           id: 'cookingdom-game-level-10',
           title: 'Level 10<br>Salmon Sushi',
           imageUrl: '/images/guides_10.webp',
-          detailsRoute: '/cookingdom-game-level-10',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
         },
       ],
     },
@@ -1080,9 +1080,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 12 - Ramen Guide',
     pageSubtitle: 'Learn to make hearty and complex Ramen in Cookingdom Level 12.',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_12.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-12',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
     iframeUrl: 'https://www.youtube.com/embed/OhB019qY8Fc', // Placeholder
     seo: {
       title: 'Cookingdom Level 12 Guide: Ramen | Tips & Strategy',
@@ -1100,19 +1100,19 @@ export const guides = [
           id: 'cookingdom-game-level-9',
           title: 'Level 9<br>Pasta',
           imageUrl: '/images/guides_9.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-9',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
           id: 'cookingdom-game-level-10',
           title: 'Level 10<br>Salmon Sushi',
           imageUrl: '/images/guides_10.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-10',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: 'Level 11<br>Popcorn',
           imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-11',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
       ],
     },
@@ -1195,7 +1195,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_13.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-13',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
     iframeUrl: 'https://www.youtube.com/embed/-at0GKqanSg', // Placeholder
     seo: {
       title: 'Cookingdom Level 13 Guide: Hotdog | Tips & Strategy',
@@ -1213,19 +1213,19 @@ export const guides = [
           id: 'cookingdom-game-level-10',
           title: 'Level 10<br>Salmon Sushi',
           imageUrl: '/images/guides_10.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-10',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: 'Level 11<br>Popcorn',
           imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-11',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
         {
           id: 'cookingdom-game-level-12',
           title: 'Level 12<br>Ramen',
           imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-12',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
         },
       ],
     },
@@ -1315,7 +1315,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_14.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-14',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
     iframeUrl: 'https://www.youtube.com/embed/osxEv217AuU', // Placeholder
     seo: {
       title: 'Cookingdom Level 14 Guide: Salmon with Minestrone | Tips & Strategy',
@@ -1333,19 +1333,19 @@ export const guides = [
           id: 'cookingdom-game-level-11',
           title: 'Level 11<br>Popcorn',
           imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-11',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
         {
           id: 'cookingdom-game-level-12',
           title: 'Level 12<br>Ramen',
           imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-12',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
         },
         {
           id: 'cookingdom-game-level-13',
           title: 'Level 13<br>Hotdog',
           imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-13',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
         },
       ],
     },
@@ -1423,7 +1423,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_15.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-15',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
     iframeUrl: 'https://www.youtube.com/embed/clZlGkI5iOI', // Placeholder
     seo: {
       title: 'Cookingdom Level 15 Guide: Chicken Fried | Tips & Strategy',
@@ -1441,19 +1441,19 @@ export const guides = [
           id: 'cookingdom-game-level-12',
           title: 'Level 12<br>Ramen',
           imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-12',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
         },
         {
           id: 'cookingdom-game-level-13',
           title: 'Level 13<br>Hot Dog',
           imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-13',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
         },
         {
           id: 'cookingdom-game-level-14',
           title: 'Level 14<br>Salmon with Minestrone',
           imageUrl: '/images/guides_14.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-14',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
         },
       ],
     },
@@ -1546,9 +1546,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 16 - Texas BBQ Guide',
     pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 16 of Cookingdom.',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_16.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-16',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
     iframeUrl: 'https://www.youtube.com/embed/KyijXpwgOn8', // Placeholder
     seo: {
       title: 'Cookingdom Level 16 Guide: Texas BBQ | Tips & Strategy',
@@ -1566,19 +1566,19 @@ export const guides = [
           id: 'cookingdom-game-level-13',
           title: 'Level 13<br>Hot Dog',
           imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-13',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
         },
         {
           id: 'cookingdom-game-level-14',
           title: 'Level 14<br>Salmon with Minestrone',
           imageUrl: '/images/guides_14.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-14',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
         },
         {
           id: 'cookingdom-game-level-15',
           title: 'Level 15<br>Chicken Fried',
           imageUrl: '/images/guides_15.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-15',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
       ],
     },
@@ -1679,7 +1679,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_17.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-17',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/9vMHRRYFPMg', // Placeholder
     seo: {
       title: 'Cookingdom Level 17 Guide: Café Macchiato | Tips & Strategy',
@@ -1697,19 +1697,19 @@ export const guides = [
           id: 'cookingdom-game-level-14',
           title: 'Level 14<br>Salmon with Minestrone',
           imageUrl: '/images/guides_14.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-14',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
         },
         {
           id: 'cookingdom-game-level-15',
           title: 'Level 15<br>Chicken Fried',
           imageUrl: '/images/guides_15.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-15',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
         {
           id: 'cookingdom-game-level-16',
           title: 'Level 16<br>Texas BBQ',
           imageUrl: '/images/guides_16.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-16',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
         },
       ],
     },
@@ -1800,9 +1800,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 18 - Ratatouille Guide',
     pageSubtitle: 'Learn to make the classic French Ratatouille in Level 18 of Cookingdom.',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_18.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-18',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
     iframeUrl: 'https://www.youtube.com/embed/YADKwUHp4XY', // Placeholder
     seo: {
       title: 'Cookingdom Level 18 Guide: Ratatouille | Tips & Strategy',
@@ -1820,19 +1820,19 @@ export const guides = [
           id: 'cookingdom-game-level-15',
           title: 'Level 15<br>Chicken Fried',
           imageUrl: '/images/guides_15.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-15',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
         {
           id: 'cookingdom-game-level-16',
           title: 'Level 16<br>Texas BBQ',
           imageUrl: '/images/guides_16.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-16',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
         },
         {
           id: 'cookingdom-game-level-17',
           title: 'Level 17<br>Café Macchiato',
           imageUrl: '/images/guides_17.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-17',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
       ],
     },
@@ -1931,7 +1931,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_19.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-19',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
     iframeUrl: 'https://www.youtube.com/embed/CoSI8csqCbc', // Placeholder
     seo: {
       title: 'Cookingdom Level 19 Guide: Pumpkin Pie | Tips & Strategy',
@@ -1949,19 +1949,19 @@ export const guides = [
           id: 'cookingdom-game-level-16',
           title: 'Level 16<br>Texas BBQ',
           imageUrl: '/images/guides_16.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-16',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
         },
         {
           id: 'cookingdom-game-level-17',
           title: 'Level 17<br>Caffè Macchiato',
           imageUrl: '/images/guides_17.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-17',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
         {
           id: 'cookingdom-game-level-18',
           title: 'Level 18<br>Ratatouille',
           imageUrl: '/images/guides_18.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-18',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
       ],
     },
@@ -2066,7 +2066,7 @@ export const guides = [
     category: '11-20',
     isSpecial: false,
     imageUrl: '/images/guides_20.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-20',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
     iframeUrl: 'https://www.youtube.com/embed/Rp9i4GwAC6E', // Placeholder
     seo: {
       title: 'Cookingdom Level 20 Guide: Roast Turkey | Tips & Strategy',
@@ -2084,19 +2084,19 @@ export const guides = [
           id: 'cookingdom-game-level-17',
           title: 'Level 17<br>Caffè Macchiato',
           imageUrl: '/images/guides_17.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-17',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
         {
           id: 'cookingdom-game-level-18',
           title: 'Level 18<br>Ratatouille',
           imageUrl: '/images/guides_18.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-18',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
         {
           id: 'cookingdom-game-level-19',
           title: 'Level 19<br>Pumpkin Pie',
           imageUrl: '/images/guides_19.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-19',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
       ],
     },
@@ -2210,9 +2210,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 21 - Boba Milk Tea Guide',
     pageSubtitle: 'Learn how to make the perfect Boba Milk Tea in Level 21 of Cookingdom.',
     category: '21-30', // Updated category
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_21.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-21',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
     iframeUrl: 'https://www.youtube.com/embed/sT6G1wBptko', // Placeholder
     seo: {
       title: 'Cookingdom Level 21 Guide: Boba Milk Tea | Tips & Strategy',
@@ -2230,19 +2230,19 @@ export const guides = [
           id: 'cookingdom-game-level-18',
           title: 'Level 18<br>Ratatouille',
           imageUrl: '/images/guides_18.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-18',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
         {
           id: 'cookingdom-game-level-19',
           title: 'Level 19<br>Pumpkin Pie',
           imageUrl: '/images/guides_19.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-19',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
         {
           id: 'cookingdom-game-level-20',
           title: 'Level 20<br>Roast Turkey',
           imageUrl: '/images/guides_20.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-20',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
       ],
     },
@@ -2349,7 +2349,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_22.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-22',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
     iframeUrl: 'https://www.youtube.com/embed/_h0bTaAM-0o', // Placeholder
     seo: {
       title: 'Cookingdom Level 22 Guide: Easy Smoothie | Tips & Strategy',
@@ -2367,19 +2367,19 @@ export const guides = [
           id: 'cookingdom-game-level-19',
           title: 'Level 19<br>Pumpkin Pie',
           imageUrl: '/images/guides_19.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-19',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
         {
           id: 'cookingdom-game-level-20',
           title: 'Level 20<br>Roast Turkey',
           imageUrl: '/images/guides_20.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-20',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
         {
           id: 'cookingdom-game-level-21',
           title: 'Level 21<br>Boba Milk Tea',
           imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-21',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
       ],
     },
@@ -2478,7 +2478,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_23.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-23',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
     iframeUrl: 'https://www.youtube.com/embed/FCFq9xRRobo', // Placeholder
     seo: {
       title: 'Cookingdom Level 23 Guide: Yule Log Cake | Tips & Strategy',
@@ -2496,19 +2496,19 @@ export const guides = [
           id: 'cookingdom-game-level-20',
           title: 'Level 20<br>Roast Turkey',
           imageUrl: '/images/guides_20.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-20',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
         {
           id: 'cookingdom-game-level-21',
           title: 'Level 21<br>Boba Milk Tea',
           imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-21',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
         {
           id: 'cookingdom-game-level-22',
           title: 'Level 22<br>Easy Smoothie',
           imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-22',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
       ],
     },
@@ -2606,7 +2606,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_24.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-24',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
     iframeUrl: 'https://www.youtube.com/embed/iKRnARMMl_0', // Placeholder
     seo: {
       title: 'Cookingdom Level 24 Guide: Beef Pho | Tips & Strategy',
@@ -2624,19 +2624,19 @@ export const guides = [
           id: 'cookingdom-game-level-21',
           title: 'Level 21<br>Boba Milk Tea',
           imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-21',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
         {
           id: 'cookingdom-game-level-22',
           title: 'Level 22<br>Easy Smoothie',
           imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-22',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
         {
           id: 'cookingdom-game-level-23',
           title: 'Level 23<br>Yule Log Cake',
           imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-23',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
         },
       ],
     },
@@ -2723,7 +2723,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_25.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-25',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
     iframeUrl: 'https://www.youtube.com/embed/BJJ9KEWeJBc', // Placeholder
     seo: {
       title: 'Cookingdom Level 25 Guide: Pizza | Tips & Strategy',
@@ -2741,19 +2741,19 @@ export const guides = [
           id: 'cookingdom-game-level-22',
           title: 'Level 22<br>Easy Smoothie',
           imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-22',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
         {
           id: 'cookingdom-game-level-23',
           title: 'Level 23<br>Yule Log Cake',
           imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-23',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
         },
         {
           id: 'cookingdom-game-level-24',
           title: 'Level 24<br>Beef Pho',
           imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-24',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
         },
       ],
     },
@@ -2856,7 +2856,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_26.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-26',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
     iframeUrl: 'https://www.youtube.com/embed/BK2eYJhoKl8', // Placeholder
     seo: {
       title: 'Cookingdom Level 26 Guide: Smoothie | Tips & Strategy',
@@ -2874,19 +2874,19 @@ export const guides = [
           id: 'cookingdom-game-level-23',
           title: 'Level 23<br>Yule Log Cake',
           imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-23',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
         },
         {
           id: 'cookingdom-game-level-24',
           title: 'Level 24<br>Beef Pho',
           imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-24',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
         },
         {
           id: 'cookingdom-game-level-25',
           title: 'Level 25<br>Pizza',
           imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-25',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
       ],
     },
@@ -2989,9 +2989,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 27 - Sandwich Guide',
     pageSubtitle: 'Learn to assemble the perfect Sandwich in Level 27 of Cookingdom.',
     category: '21-30',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_27.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-27',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/vWz6SmiMBk0', // Placeholder
     seo: {
       title: 'Cookingdom Level 27 Guide: Sandwich | Tips & Strategy',
@@ -3009,19 +3009,19 @@ export const guides = [
           id: 'cookingdom-game-level-24',
           title: 'Level 24<br>Beef Pho',
           imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-24',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
         },
         {
           id: 'cookingdom-game-level-25',
           title: 'Level 25<br>Pizza',
           imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-25',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
         {
           id: 'cookingdom-game-level-26',
           title: 'Level 26<br>Smoothie',
           imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-26',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
       ],
     },
@@ -3115,7 +3115,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_28.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-28',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/c0TZorOkxWU', // Placeholder
     seo: {
       title: 'Cookingdom Level 28 Guide: Croissant | Tips & Strategy',
@@ -3133,19 +3133,19 @@ export const guides = [
           id: 'cookingdom-game-level-25',
           title: 'Level 25<br>Pizza',
           imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-25',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
         {
           id: 'cookingdom-game-level-26',
           title: 'Level 26<br>Smoothie',
           imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-26',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
         {
           id: 'cookingdom-game-level-27',
           title: 'Level 27<br>Sandwich',
           imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-27',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
       ],
     },
@@ -3238,9 +3238,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 29 - Matcha Boba Tea Guide',
     pageSubtitle: 'Learn to make the trendy Matcha Boba Tea in Level 29 of Cookingdom.',
     category: '21-30',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_29.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-29',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
     iframeUrl: 'https://www.youtube.com/embed/BI4QGcm-kDM', // Placeholder
     seo: {
       title: 'Cookingdom Level 29 Guide: Matcha Boba Tea | Tips & Strategy',
@@ -3258,19 +3258,19 @@ export const guides = [
           id: 'cookingdom-game-level-26',
           title: 'Level 26<br>Smoothie',
           imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-26',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
         {
           id: 'cookingdom-game-level-27',
           title: 'Level 27<br>Sandwich',
           imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-27',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
         {
           id: 'cookingdom-game-level-28',
           title: 'Level 28<br>Croissant',
           imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-28',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
       ],
     },
@@ -3360,7 +3360,7 @@ export const guides = [
     category: '21-30',
     isSpecial: false,
     imageUrl: '/images/guides_30.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-30',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
     iframeUrl: 'https://www.youtube.com/embed/6l1-yu8zZKs', // Placeholder
     seo: {
       title: 'Cookingdom Level 30 Guide: Doner Kebab | Tips & Strategy',
@@ -3378,19 +3378,19 @@ export const guides = [
           id: 'cookingdom-game-level-27',
           title: 'Level 27<br>Sandwich',
           imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-27',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
         {
           id: 'cookingdom-game-level-28',
           title: 'Level 28<br>Croissant',
           imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-28',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
         {
           id: 'cookingdom-game-level-29',
           title: 'Level 29<br>Matcha Boba Tea',
           imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-29',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
       ],
     },
@@ -3479,7 +3479,7 @@ export const guides = [
     category: '31-40', // Start of new category
     isSpecial: false,
     imageUrl: '/images/guides_31.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-31',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
     iframeUrl: 'https://www.youtube.com/embed/iq0t6XrkgF0', // Placeholder
     seo: {
       title: 'Cookingdom Level 31 Guide: Café Mocha | Tips & Strategy',
@@ -3497,19 +3497,19 @@ export const guides = [
           id: 'cookingdom-game-level-28',
           title: 'Level 28<br>Croissant',
           imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-28',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
         {
           id: 'cookingdom-game-level-29',
           title: 'Level 29<br>Matcha Boba Tea',
           imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-29',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
         {
           id: 'cookingdom-game-level-30',
           title: 'Level 30<br>Doner Kebab',
           imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-30',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
       ],
     },
@@ -3599,9 +3599,9 @@ export const guides = [
     pageTitle: 'Cookingdom Level 32 - Hamburger Guide',
     pageSubtitle: 'Learn to assemble the classic Hamburger in Level 32 of Cookingdom.',
     category: '31-40',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_32.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-32',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/VViL7ptIJUA', // Placeholder
     seo: {
       title: 'Cookingdom Level 32 Guide: Hamburger | Tips & Strategy',
@@ -3619,19 +3619,19 @@ export const guides = [
           id: 'cookingdom-game-level-29',
           title: 'Level 29<br>Matcha Boba Tea',
           imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-29',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
         {
           id: 'cookingdom-game-level-30',
           title: 'Level 30<br>Doner Kebab',
           imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-30',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
         {
           id: 'cookingdom-game-level-31',
           title: 'Level 31<br>Café Mocha',
           imageUrl: '/images/guides_31.webp3', // Placeholder
-          detailsRoute: '/cookingdom-game-level-31',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
       ],
     },
@@ -3725,9 +3725,9 @@ export const guides = [
     pageSubtitle:
       'Learn to prepare the luxurious Alaskan Steamed Lobster in Level 33 of Cookingdom.',
     category: '31-40',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_33.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-33',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
     iframeUrl: 'https://www.youtube.com/embed/2wdfF1Rzb0M', // Placeholder
     seo: {
       title: 'Cookingdom Level 33 Guide: Alaskan Steamed Lobster | Tips & Strategy',
@@ -3745,19 +3745,19 @@ export const guides = [
           id: 'cookingdom-game-level-30',
           title: 'Level 30<br>Doner Kebab',
           imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-30',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
         {
           id: 'cookingdom-game-level-31',
           title: 'Level 31<br>Café Mocha',
           imageUrl: '/images/guides_31.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-31',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
         {
           id: 'cookingdom-game-level-32',
           title: 'Level 32<br>Hamburger',
           imageUrl: '/images/guides_32.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-32',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
       ],
     },
@@ -3841,7 +3841,7 @@ export const guides = [
     category: '31-40',
     isSpecial: false,
     imageUrl: '/images/guides_34.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-34',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
     iframeUrl: 'https://www.youtube.com/embed/1dlwivzYyZg', // Placeholder
     seo: {
       title: 'Cookingdom Level 34 Guide: King Crab | Tips & Strategy',
@@ -3859,19 +3859,19 @@ export const guides = [
           id: 'cookingdom-game-level-31',
           title: 'Level 31<br>Café Mocha',
           imageUrl: '/images/guides_31.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-31',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
         {
           id: 'cookingdom-game-level-32',
           title: 'Level 32<br>Hamburger',
           imageUrl: '/images/guides_32.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-32',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
         {
           id: 'cookingdom-game-level-33',
           title: 'Level 33<br>Alaskan Steamed Lobster',
           imageUrl: '/images/guides_33.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-33',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
         },
       ],
     },
@@ -3956,7 +3956,7 @@ export const guides = [
     category: '31-40',
     isSpecial: false,
     imageUrl: '/images/guides_35.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-35',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
     iframeUrl: 'https://www.youtube.com/embed/3-Cfdyxut48', // Placeholder
     seo: {
       title: 'Cookingdom Level 35 Guide: Chocolate | Tips & Strategy',
@@ -3974,19 +3974,19 @@ export const guides = [
           id: 'cookingdom-game-level-32',
           title: 'Level 32<br>Hamburger',
           imageUrl: '/images/guides_32.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-32',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
         {
           id: 'cookingdom-game-level-33',
           title: 'Level 33<br>Alaskan Steamed Lobster',
           imageUrl: '/images/guides_33.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-33',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
         },
         {
           id: 'cookingdom-game-level-34',
           title: 'Level 34<br>King Crab',
           imageUrl: '/images/guides_34.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-34',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
         },
       ],
     },
@@ -4070,7 +4070,7 @@ export const guides = [
     category: '31-40',
     isSpecial: false,
     imageUrl: '/images/guides_36.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-36',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
     iframeUrl: 'https://www.youtube.com/embed/ME58Cd2FYJ4', // Placeholder
     seo: {
       title: 'Cookingdom Level 36 Guide: Indian Curry | Tips & Strategy',
@@ -4088,19 +4088,19 @@ export const guides = [
           id: 'cookingdom-game-level-33',
           title: 'Level 33<br>Alaskan Steamed Lobster',
           imageUrl: '/images/guides_33.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-33',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
         },
         {
           id: 'cookingdom-game-level-34',
           title: 'Level 34<br>King Crab',
           imageUrl: '/images/guides_34.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-34',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
         },
         {
           id: 'cookingdom-game-level-35',
           title: 'Level 35<br>Chocolate',
           imageUrl: '/images/guides_35.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-35',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
         },
       ],
     },
@@ -4207,7 +4207,7 @@ export const guides = [
     category: '31-40',
     isSpecial: false,
     imageUrl: '/images/guides_37.webp', // Placeholder
-    detailsRoute: '/cookingdom-game-level-37',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
     iframeUrl: 'https://www.youtube.com/embed/tFEyZT_-jTM', // Placeholder
     seo: {
       title: 'Cookingdom Level 37 Guide: Kimchi Rice | Tips & Strategy',
@@ -4225,19 +4225,19 @@ export const guides = [
           id: 'cookingdom-game-level-34',
           title: 'Level 34<br>King Crab',
           imageUrl: '/images/guides_34.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-34',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
         },
         {
           id: 'cookingdom-game-level-35',
           title: 'Level 35<br>Chocolate',
           imageUrl: '/images/guides_35.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-35',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
         },
         {
           id: 'cookingdom-game-level-36',
           title: 'Level 36<br>Indian Curry',
           imageUrl: '/images/guides_36.webp', // Placeholder
-          detailsRoute: '/cookingdom-game-level-36',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
         },
       ],
     },

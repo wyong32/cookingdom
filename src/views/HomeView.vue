@@ -171,7 +171,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
                 <span class="file-type">{{ $t('home.downloads.ios.meta.type') }}</span>
                 <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
               </div>
-              <button class="btn btn-download">{{ $t('home.downloads.ios.button') }}</button>
+              <a class="btn btn-download" href="https://apps.apple.com/us/app/cookingdom/id6742222069">{{ $t('home.downloads.ios.button') }}</a>
             </div>
             <div class="download-card">
               <div class="download-icon">🤖</div>
@@ -181,7 +181,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
                 <span class="file-type">{{ $t('home.downloads.android.meta.type') }}</span>
                 <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
               </div>
-              <button class="btn btn-download">{{ $t('home.downloads.android.button') }}</button>
+              <a class="btn btn-download" href="https://play.google.com/store/apps/details?id=com.abi.cook.chill">{{ $t('home.downloads.android.button') }}</a>
             </div>
           </div>
         </div>
@@ -722,6 +722,7 @@ main {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
   width: 80%; /* Make button wider */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

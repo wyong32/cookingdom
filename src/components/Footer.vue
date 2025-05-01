@@ -57,22 +57,22 @@ function getLocalizedRoute(name, params = {}) {
             <h4>{{ t('footer.links.popularLevels.title') }}</h4>
             <ul>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-5' })">{{
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-5' })">{{
                   t('footer.links.popularLevels.level5')
                 }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-7' })">{{
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-7' })">{{
                   t('footer.links.popularLevels.level7')
                 }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-19' })">{{
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-19' })">{{
                   t('footer.links.popularLevels.level19')
                 }}</RouterLink>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'level-26' })">{{
+                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-26' })">{{
                   t('footer.links.popularLevels.level26')
                 }}</RouterLink>
               </li>

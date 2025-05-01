@@ -301,5 +301,49 @@
         "email": "电子邮件：maieldilmie223321@gmail.com"
       }
     }
+  },
+  "meta": {
+    "defaultDescription": "这是Cookingdom站点的默认描述。",
+    "defaultKeywords": "料理王国, 游戏, 指南, 烹饪, 模拟, 有趣",
+    "notFoundTitle": "页面未找到 | 料理王国",
+    "errorTitle": "错误 | 料理王国",
+    "home": {
+      "title": "《烹饪大师》游戏策略指南——精通每一关",
+      "description": "欢迎来到最好的料理王国粉丝站！指南、技巧和乐趣。",
+      "keywords": "料理王国, 粉丝站, 首页, 指南, 博客, 下载"
+    },
+    "guides": {
+      "title": "所有料理王国指南和攻略",
+      "description": "查找料理王国游戏每个关卡的指南。",
+      "keywords": "料理王国, 指南, 攻略, 关卡, 技巧, 策略"
+    },
+    "blog": {
+      "title": "料理王国博客 - 新闻和更新",
+      "description": "阅读关于料理王国游戏的最新新闻和文章。",
+      "keywords": "料理王国, 博客, 新闻, 更新, 文章, 社区"
+    },
+    "blogDetail": {
+      "title": "料理王国博客文章",
+      "description": "阅读这篇来自料理王国博客的文章。"
+    },
+    "download": {
+      "title": "下载料理王国游戏",
+      "description": "获取适用于iOS和Android的料理王国游戏。",
+      "keywords": "料理王国, 下载, 游戏, ios, 安卓, 免费"
+    },
+    "privacy": {
+      "title": "隐私政策 - 料理王国粉丝站",
+      "description": "阅读我们料理王国粉丝站的隐私政策。",
+      "keywords": "料理王国, 隐私政策, 数据, 用户权利, 法律"
+    },
+    "terms": {
+      "title": "服务条款 - 料理王国粉丝站",
+      "description": "查看我们料理王国粉丝站的服务条款。",
+      "keywords": "料理王国, 服务条款, 使用规则, 法律"
+    },
+    "guideDetail": {
+      "title": "料理王国指南",
+      "description": "料理王国关卡的详细指南。"
+    }
   }
 }

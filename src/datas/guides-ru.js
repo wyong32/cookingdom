@@ -1,40 +1,34 @@
-export const guidesRu = [
-  {
-    id: 'cookingdom-game-level-1',
-    title: 'Cookingdom Уровень 1<br />Первая пицца',
-    pageTitle: 'Cookingdom Уровень 1 - Руководство по первой пицце',
-    pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: 'https://placehold.co/200x150/e8f4f8/7aa0c7?text=Lvl+1',
-    detailsRoute: '/cookingdom-game-level-1',
-    iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
-    seo: {
-      title: 'Cookingdom Уровень 1 Руководство - Первая пицца',
-      description:
-        'Узнайте, как приготовить, испечь и подать свою первую пиццу в Cookingdom Уровень 1. Поймите основы кулинарии и обслуживания клиентов.',
-      keywords: 'cookingdom, уровень 1, первая пицца, руководство, основы, обучение',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/e8f4f8/7aa0c7?text=Level+1+Sidebar',
-      levelInfoHtml:
-        '<h3>Первая пицца</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1 минута</p><p><strong>Награда:</strong> 3 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Уровень 2<br/>Простой салат',
-          imageUrl: 'https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+2',
-          detailsRoute: '/cookingdom-game-level-2',
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Уровень 11<br/>Попкорн',
-          imageUrl: 'https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+11',
-          detailsRoute: '/cookingdom-game-level-11',
-        },
-      ],
-    },
-    detailsHtml: `<h2>Введение в игру</h2>
+export const guidesRu = [{
+  id: 'cookingdom-game-level-1',
+  title: 'Cookingdom Уровень 1<br />Первая пицца',
+  pageTitle: 'Cookingdom Уровень 1 - Руководство по первой пицце',
+  pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_01.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
+  iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
+  seo: {
+    title: 'Cookingdom Уровень 1 Руководство - Первая пицца',
+    description: 'Узнайте, как приготовить, испечь и подать свою первую пиццу в Cookingdom Уровень 1. Поймите основы кулинарии и обслуживания клиентов.',
+    keywords: 'cookingdom, уровень 1, первая пицца, руководство, основы, обучение'
+  },
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_01.webp",
+    levelInfoHtml: '<h3>Первая пицца</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1 минута</p><p><strong>Награда:</strong> 3 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-2',
+      title: 'Уровень 2<br/>Простой салат',
+      imageUrl: "/images/guides_02.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+    }, {
+      id: 'cookingdom-game-level-11',
+      title: 'Уровень 11<br/>Попкорн',
+      imageUrl: "/images/guides_11.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+    }]
+  },
+  detailsHtml: `<h2>Введение в игру</h2>
 <p>На первом уровне Cookingdom игроки учатся готовить и подавать пиццу, одно из самых простых блюд в игре. Этот уровень сосредоточен на ознакомлении игроков с процессом приготовления, подготовкой ингредиентов и основным ритмом работы ресторана.</p>
 <h2>Цель Уровня 1</h2>
 <p>Вам нужно будет приготовить и подать первую пиццу клиенту. Приготовление пиццы включает несколько этапов: подготовка ингредиентов, выпечка и подача. Цель — быстро и точно удовлетворить потребности клиента для завершения задания.</p>
@@ -71,45 +65,38 @@ export const guidesRu = [
 </ul>
 <h2>Резюме</h2>
 <p>Приготовление первой пиццы — это вводное задание в Cookingdom. Оно знакомит вас с основами готовки и подачи, управлением ингредиентами, контролем времени приготовления и потребностями клиентов. Цель — понять основы управления временем и навыков подготовки для более сложных уровней впереди.</p>
-<p>Завершение Уровня 1 дает монеты и награды, открывая больше кухонного оборудования и рецептов для более богатого игрового опыта.</p>`,
+<p>Завершение Уровня 1 дает монеты и награды, открывая больше кухонного оборудования и рецептов для более богатого игрового опыта.</p>`
+}, {
+  id: 'cookingdom-game-level-2',
+  title: 'Cookingdom Уровень 2<br />Простой салат',
+  pageTitle: 'Cookingdom Уровень 2 - Руководство по простому салату',
+  pageSubtitle: 'Научитесь готовить быстрые и легкие салаты в Cookingdom Уровень 2.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_02.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
+  iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
+  seo: {
+    title: 'Cookingdom Уровень 2 Руководство - Простой салат',
+    description: 'Освойте рецепт простого салата в Cookingdom Уровень 2. Узнайте об ингредиентах, заправке и быстром обслуживании клиентов.',
+    keywords: 'cookingdom, уровень 2, простой салат, руководство, рецепт салата, управление временем'
   },
-  {
-    id: 'cookingdom-game-level-2',
-    title: 'Cookingdom Уровень 2<br />Простой салат',
-    pageTitle: 'Cookingdom Уровень 2 - Руководство по простому салату',
-    pageSubtitle: 'Научитесь готовить быстрые и легкие салаты в Cookingdom Уровень 2.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: 'https://placehold.co/200x150/f0fff0/8ea0a0?text=Lvl+2',
-    detailsRoute: '/cookingdom-game-level-2',
-    iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
-    seo: {
-      title: 'Cookingdom Уровень 2 Руководство - Простой салат',
-      description:
-        'Освойте рецепт простого салата в Cookingdom Уровень 2. Узнайте об ингредиентах, заправке и быстром обслуживании клиентов.',
-      keywords:
-        'cookingdom, уровень 2, простой салат, руководство, рецепт салата, управление временем',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/f0fff0/8ea0a0?text=Level+2+Sidebar',
-      levelInfoHtml:
-        '<h3>Простой салат</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-1',
-          title: 'Уровень 1<br/>Первая пицца',
-          imageUrl: 'https://placehold.co/60x60/e8f4f8/7aa0c7?text=Lvl+1',
-          detailsRoute: '/cookingdom-game-level-1',
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Уровень 11<br/>Попкорн',
-          imageUrl: 'https://placehold.co/60x60/fff0f5/a08ee6?text=Lvl+11',
-          detailsRoute: '/cookingdom-game-level-11',
-        },
-      ],
-    },
-    detailsHtml: `<h2>Введение в игру</h2>
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_02.webp",
+    levelInfoHtml: '<h3>Простой салат</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-1',
+      title: 'Уровень 1<br/>Первая пицца',
+      imageUrl: "/images/guides_01.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+    }, {
+      id: 'cookingdom-game-level-11',
+      title: 'Уровень 11<br/>Попкорн',
+      imageUrl: "/images/guides_11.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+    }]
+  },
+  detailsHtml: `<h2>Введение в игру</h2>
 <p>На втором уровне Cookingdom игроки учатся готовить более простое блюдо – салат. По сравнению с пиццей, приготовление салата проще, но это требует от игроков более эффективного управления кухней и запросами клиентов, особенно по мере увеличения числа клиентов, что делает управление временем критически важным.</p>
 <h2>Цель Уровня 2</h2>
 <ul>
@@ -145,45 +132,38 @@ export const guidesRu = [
 </ul>
 <h2>Резюме</h2>
 <p>Уровень 2 сосредоточен на освоении процесса приготовления простого салата. Хотя это проще, чем пицца, он требует эффективного управления временем и подготовки ингредиентов. Этот уровень помогает вам адаптироваться к высокоэффективным кухонным операциям, обслуживая нескольких клиентов и их разнообразные потребности.</p>
-<p>Завершение Уровня 2 открывает больше рецептов и оборудования, подготавливая вас к более сложным уровням.</p>`,
+<p>Завершение Уровня 2 открывает больше рецептов и оборудования, подготавливая вас к более сложным уровням.</p>`
+}, {
+  id: 'cookingdom-game-level-3',
+  title: 'Cookingdom Уровень 3<br />Жареный картофель',
+  pageTitle: 'Cookingdom Уровень 3 - Руководство по жареному картофелю',
+  pageSubtitle: 'Научитесь готовить хрустящий жареный картофель в Cookingdom Уровень 3.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_03.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
+  iframeUrl: 'https://www.youtube.com/embed/oWpl7YwOYbw',
+  seo: {
+    title: 'Cookingdom Уровень 3 Руководство - Жареный картофель',
+    description: 'Освойте жареный картофель в Cookingdom Уровень 3. Узнайте о техниках жарки, управлении несколькими клиентами и эффективности кухни.',
+    keywords: 'cookingdom, уровень 3, жареный картофель, руководство, жарка, управление временем, эффективность кухни'
   },
-  {
-    id: 'cookingdom-game-level-3',
-    title: 'Cookingdom Уровень 3<br />Жареный картофель',
-    pageTitle: 'Cookingdom Уровень 3 - Руководство по жареному картофелю',
-    pageSubtitle: 'Научитесь готовить хрустящий жареный картофель в Cookingdom Уровень 3.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: 'https://placehold.co/200x150/fff8dc/cd853f?text=Lvl+3',
-    detailsRoute: '/cookingdom-game-level-3',
-    iframeUrl: 'https://www.youtube.com/embed/oWpl7YwOYbw',
-    seo: {
-      title: 'Cookingdom Уровень 3 Руководство - Жареный картофель',
-      description:
-        'Освойте жареный картофель в Cookingdom Уровень 3. Узнайте о техниках жарки, управлении несколькими клиентами и эффективности кухни.',
-      keywords:
-        'cookingdom, уровень 3, жареный картофель, руководство, жарка, управление временем, эффективность кухни',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fff8dc/cd853f?text=Level+3+Sidebar',
-      levelInfoHtml:
-        '<h3>Жареный картофель</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-1',
-          title: 'Уровень 1<br/>Первая пицца',
-          imageUrl: 'https://placehold.co/60x60/e8f4f8/7aa0c7?text=Lvl+1',
-          detailsRoute: '/cookingdom-game-level-1',
-        },
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Уровень 2<br/>Простой салат',
-          imageUrl: 'https://placehold.co/60x60/f0fff0/8ea0a0?text=Lvl+2',
-          detailsRoute: '/cookingdom-game-level-2',
-        },
-      ],
-    },
-    detailsHtml: `<h2>Введение в игру</h2>
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_03.webp",
+    levelInfoHtml: '<h3>Жареный картофель</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-1',
+      title: 'Уровень 1<br/>Первая пицца',
+      imageUrl: "/images/guides_01.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+    }, {
+      id: 'cookingdom-game-level-2',
+      title: 'Уровень 2<br/>Простой салат',
+      imageUrl: "/images/guides_02.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+    }]
+  },
+  detailsHtml: `<h2>Введение в игру</h2>
 <p>На Уровне 3 игроки учатся готовить жареный картофель. Хотя это относительно просто, требуется большее управление временем и детальная работа, особенно при сложных запросах клиентов. Этот уровень вводит процесс жарки, обучая игроков использовать кухонное оборудование для ускорения приготовления и подачи вкусной картошки фри.</p>
 <h2>Цель Уровня 3</h2>
 <ul>
@@ -217,51 +197,43 @@ export const guidesRu = [
 </ul>
 <h2>Резюме</h2>
 <p>Приготовление жареного картофеля на Уровне 3 простое, но требует эффективного управления кухней и контроля времени. Вы научитесь работать с оборудованием для жарки и удовлетворять потребности нескольких клиентов. По мере продвижения в игре, сталкиваясь с более разнообразными блюдами и сложными задачами, повышение эффективности кухни имеет решающее значение для успеха.</p>
-<p>Завершение Уровня 3 открывает больше рецептов и оборудования, подготавливая вас к уровням повышенной сложности.</p>`,
+<p>Завершение Уровня 3 открывает больше рецептов и оборудования, подготавливая вас к уровням повышенной сложности.</p>`
+}, {
+  id: 'cookingdom-game-level-4',
+  title: 'Уровень 4:<br>Ролл-мороженое',
+  pageTitle: 'Cookingdom Уровень 4 - Руководство по ролл-мороженому',
+  pageSubtitle: 'Изучите искусство приготовления идеального ролл-мороженого в Cookingdom Уровень 4.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_04.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
+  iframeUrl: "https://www.youtube.com/embed/ndEW4RcERyI",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 4: Ролл-мороженое | Советы и стратегия',
+    description: 'Освойте Уровень 4 в Cookingdom! Узнайте, как приготовить вкусное ролл-мороженое с нашим пошаговым руководством, советами по заморозке и комбинациями ингредиентов.',
+    keywords: 'cookingdom, уровень 4, ролл-мороженое, гайд, заморозка, начинки, стратегия'
   },
-  {
-    id: 'cookingdom-game-level-4',
-    title: 'Уровень 4:<br>Ролл-мороженое',
-    pageTitle: 'Cookingdom Уровень 4 - Руководство по ролл-мороженому',
-    pageSubtitle:
-      'Изучите искусство приготовления идеального ролл-мороженого в Cookingdom Уровень 4.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-4',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 4: Ролл-мороженое | Советы и стратегия',
-      description:
-        'Освойте Уровень 4 в Cookingdom! Узнайте, как приготовить вкусное ролл-мороженое с нашим пошаговым руководством, советами по заморозке и комбинациями ингредиентов.',
-      keywords: 'cookingdom, уровень 4, ролл-мороженое, гайд, заморозка, начинки, стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/e0f7fa/00796b?text=Level+4+Sidebar',
-      levelInfoHtml:
-        '<h3>Ролл-мороженое</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 2.5 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-1',
-          title: 'Уровень 1<br/>Первая пицца',
-          imageUrl: 'https://placehold.co/60x60/e8f4f8/7aa0c7?text=Lvl+1',
-          detailsRoute: '/cookingdom-game-level-1',
-        },
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Уровень 2<br/>Простой салат',
-          imageUrl: 'https://placehold.co/60x60/f0fff0/8ea0a0?text=Lvl+2',
-          detailsRoute: '/cookingdom-game-level-2',
-        },
-        {
-          id: 'cookingdom-game-level-3',
-          title: 'Уровень 3<br/>Жареный картофель',
-          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
-          detailsRoute: '/cookingdom-game-level-3',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_04.webp",
+    levelInfoHtml: '<h3>Ролл-мороженое</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 2.5 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-1',
+      title: 'Уровень 1<br/>Первая пицца',
+      imageUrl: "/images/guides_01.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+    }, {
+      id: 'cookingdom-game-level-2',
+      title: 'Уровень 2<br/>Простой салат',
+      imageUrl: "/images/guides_02.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+    }, {
+      id: 'cookingdom-game-level-3',
+      title: 'Уровень 3<br/>Жареный картофель',
+      imageUrl: "/images/guides_03.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Game Introduction</h2>
 <p>In Level 4 of Cookingdom, players will learn how to make Rolled Ice-cream. Compared to previous dishes, the process for rolled ice-cream is more detailed, involving freezing operations and clever ingredient combinations. The goal of this level is to master the ice-cream freezing technique and quickly prepare and serve rolled ice-cream upon customer orders.</p>
 
@@ -318,51 +290,43 @@ export const guidesRu = [
 <h2 id="summary">Summary</h2>
 <p>Level 4 of Cookingdom introduces more operational skills for rolled ice-cream making, especially regarding the freezing process and topping combinations. Mastering freezing time, spatula techniques, and diverse topping combinations are key to success. As the game progresses, you'll face more varied dishes and customer demands, so improving kitchen efficiency and mastering multitasking will be essential skills for passing the level.</p>
 <p>After completing Level 4, you will unlock more recipes and kitchen equipment, allowing you to tackle more challenging tasks.</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-5',
+  title: 'Уровень 5:<br>Рыба на гриле',
+  pageTitle: 'Cookingdom Уровень 5 - Руководство по рыбе на гриле',
+  pageSubtitle: 'Освойте искусство жарки рыбы на гриле в Cookingdom Уровень 5.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_05.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
+  iframeUrl: "https://www.youtube.com/embed/8CdDamlaEHA",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 5: Рыба на гриле | Советы и стратегия',
+    description: 'Узнайте, как идеально приготовить рыбу на гриле в Cookingdom Уровень 5. Получите советы по контролю температуры, времени и управлению заказами клиентов.',
+    keywords: 'cookingdom, уровень 5, рыба на гриле, гайд, гриль, контроль температуры, управление временем'
   },
-  {
-    id: 'cookingdom-game-level-5',
-    title: 'Уровень 5:<br>Рыба на гриле',
-    pageTitle: 'Cookingdom Уровень 5 - Руководство по рыбе на гриле',
-    pageSubtitle: 'Освойте искусство жарки рыбы на гриле в Cookingdom Уровень 5.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-5',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 5: Рыба на гриле | Советы и стратегия',
-      description:
-        'Узнайте, как идеально приготовить рыбу на гриле в Cookingdom Уровень 5. Получите советы по контролю температуры, времени и управлению заказами клиентов.',
-      keywords:
-        'cookingdom, уровень 5, рыба на гриле, гайд, гриль, контроль температуры, управление временем',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/c8e6c9/2e7d32?text=Level+5+Sidebar',
-      levelInfoHtml:
-        '<h3>Рыба на гриле</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Уровень 2<br/>Простой салат',
-          imageUrl: 'https://placehold.co/60x60/f0fff0/8ea0a0?text=Lvl+2',
-          detailsRoute: '/cookingdom-game-level-2',
-        },
-        {
-          id: 'cookingdom-game-level-3',
-          title: 'Уровень 3<br/>Жареный картофель',
-          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
-          detailsRoute: '/cookingdom-game-level-3',
-        },
-        {
-          id: 'cookingdom-game-level-4',
-          title: 'Уровень 4<br/>Ролл-мороженое',
-          imageUrl: 'https://placehold.co/60x60/e0f7fa/00796b?text=Lvl+4',
-          detailsRoute: '/cookingdom-game-level-4',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_05.webp",
+    levelInfoHtml: '<h3>Рыба на гриле</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-2',
+      title: 'Уровень 2<br/>Простой салат',
+      imageUrl: "/images/guides_02.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+    }, {
+      id: 'cookingdom-game-level-3',
+      title: 'Уровень 3<br/>Жареный картофель',
+      imageUrl: "/images/guides_03.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
+    }, {
+      id: 'cookingdom-game-level-4',
+      title: 'Уровень 4<br/>Ролл-мороженое',
+      imageUrl: "/images/guides_04.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Game Overview</h2>
 <p>In Cookingdom, each level introduces a new cooking challenge, and in Level 5, players are tasked with preparing Grilled Fish. Compared to the previous levels, grilling fish requires careful attention to timing and heat control. You will need to master grilling techniques, ensure the fish is cooked just right, and serve your customers promptly to keep them happy.</p>
 <p>As you progress in Cookingdom, new skills are unlocked, and with each new level, you'll encounter more complex recipes and customer demands. This level introduces grilling as a key technique and will test your ability to manage time efficiently in the kitchen.</p>
@@ -420,51 +384,43 @@ export const guidesRu = [
 <h2 id="summary">Summary</h2>
 <p>Level 5 in Cookingdom introduces the challenge of grilling fish. The key to success is controlling the grill's temperature and timing to ensure the fish is perfectly cooked. Managing multiple orders, upgrading kitchen equipment, and using boosters will help you complete the level successfully.</p>
 <p>Once you finish this level, you'll unlock more kitchen upgrades and new recipes that will take your culinary skills to the next level. Keep refining your cooking and time-management skills to stay ahead of the game!</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-6',
+  title: 'Уровень 6:<br>Кофе Эспрессо',
+  pageTitle: 'Cookingdom Уровень 6 - Руководство по Кофе Эспрессо',
+  pageSubtitle: 'Научитесь варить идеальный эспрессо в Cookingdom Уровень 6.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_06.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
+  iframeUrl: "https://www.youtube.com/embed/OTKpJ9M7to",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 6: Кофе Эспрессо | Советы и стратегия',
+    description: 'Освойте искусство варки Кофе Эспрессо в Cookingdom Уровень 6. Советы по помолу, времени варки и управлению заказами.',
+    keywords: 'cookingdom, уровень 6, кофе эспрессо, эспрессо, гайд, кофе, варка, управление временем'
   },
-  {
-    id: 'cookingdom-game-level-6',
-    title: 'Уровень 6:<br>Кофе Эспрессо',
-    pageTitle: 'Cookingdom Уровень 6 - Руководство по Кофе Эспрессо',
-    pageSubtitle: 'Научитесь варить идеальный эспрессо в Cookingdom Уровень 6.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-6',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 6: Кофе Эспрессо | Советы и стратегия',
-      description:
-        'Освойте искусство варки Кофе Эспрессо в Cookingdom Уровень 6. Советы по помолу, времени варки и управлению заказами.',
-      keywords:
-        'cookingdom, уровень 6, кофе эспрессо, эспрессо, гайд, кофе, варка, управление временем',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/efebe9/6d4c41?text=Level+6+Sidebar',
-      levelInfoHtml:
-        '<h3>Кофе Эспрессо</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-3',
-          title: 'Уровень 3<br/>Жареный картофель',
-          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
-          detailsRoute: '/cookingdom-game-level-3',
-        },
-        {
-          id: 'cookingdom-game-level-4',
-          title: 'Уровень 4<br/>Ролл-мороженое',
-          imageUrl: 'https://placehold.co/60x60/e0f7fa/00796b?text=Lvl+4',
-          detailsRoute: '/cookingdom-game-level-4',
-        },
-        {
-          id: 'cookingdom-game-level-5',
-          title: 'Уровень 5<br/>Рыба на гриле',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/2e7d32?text=Lvl+5',
-          detailsRoute: '/cookingdom-game-level-5',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_06.webp",
+    levelInfoHtml: '<h3>Кофе Эспрессо</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-3',
+      title: 'Уровень 3<br/>Жареный картофель',
+      imageUrl: "/images/guides_03.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
+    }, {
+      id: 'cookingdom-game-level-4',
+      title: 'Уровень 4<br/>Ролл-мороженое',
+      imageUrl: "/images/guides_04.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } }
+    }, {
+      id: 'cookingdom-game-level-5',
+      title: 'Уровень 5<br/>Рыба на гриле',
+      imageUrl: "/images/guides_05.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Game Overview</h2>
 <p>In Cookingdom, each level introduces new challenges and recipes to master. In Level 6, you'll face the task of preparing a Café Espresso, a crucial skill for expanding your café offerings and increasing customer satisfaction. This level is focused on learning how to brew the perfect espresso shot, a key element of coffee-based beverages that will appear more frequently as you progress through the game.</p>
 <p>As you move through this level, you'll also begin to deal with more complex customer orders and need to handle multiple drinks simultaneously. It's time to sharpen your time management skills and improve your efficiency in the kitchen!</p>
@@ -522,51 +478,43 @@ export const guidesRu = [
 <h2 id="summary">Summary</h2>
 <p>In Level 6 of Cookingdom, making the perfect Café Espresso is all about controlling the coffee grind, brewing time, and serving quickly. With more customers ordering drinks, you'll need to efficiently manage your time, multitask, and prioritize orders to ensure a smooth operation. Mastering espresso will unlock a variety of coffee drinks and challenges that will appear in future levels.</p>
 <p>This level serves as a great introduction to more advanced coffee-based recipes, preparing you for the increasingly complex orders that await in later stages of the game. By the end of this level, you'll have a solid understanding of coffee preparation and be ready to handle more advanced cooking and drink-making techniques.</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-7',
+  title: 'Уровень 7:<br>Яичница-глазунья',
+  pageTitle: 'Cookingdom Уровень 7 - Руководство по Яичнице-глазунье',
+  pageSubtitle: 'Научитесь готовить идеальную яичницу-глазунью в Cookingdom Уровень 7.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_07.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
+  iframeUrl: "https://www.youtube.com/embed/IiwEmCzNwYM",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 7: Яичница-глазунья | Советы и стратегия',
+    description: 'Освойте яичницу-глазунью в Cookingdom Уровень 7. Советы по контролю температуры, избеганию разбитых желтков и быстрому обслуживанию.',
+    keywords: 'cookingdom, уровень 7, яичница-глазунья, гайд, яйца, контроль температуры, управление временем'
   },
-  {
-    id: 'cookingdom-game-level-7',
-    title: 'Уровень 7:<br>Яичница-глазунья',
-    pageTitle: 'Cookingdom Уровень 7 - Руководство по Яичнице-глазунье',
-    pageSubtitle: 'Научитесь готовить идеальную яичницу-глазунью в Cookingdom Уровень 7.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-7',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 7: Яичница-глазунья | Советы и стратегия',
-      description:
-        'Освойте яичницу-глазунью в Cookingdom Уровень 7. Советы по контролю температуры, избеганию разбитых желтков и быстрому обслуживанию.',
-      keywords:
-        'cookingdom, уровень 7, яичница-глазунья, гайд, яйца, контроль температуры, управление временем',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fffde7/fbc02d?text=Level+7+Sidebar',
-      levelInfoHtml:
-        '<h3>Яичница-глазунья</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1 минута</p><p><strong>Награда:</strong> 3 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-4',
-          title: 'Уровень 4<br/>Ролл-мороженое',
-          imageUrl: 'https://placehold.co/60x60/e0f7fa/00796b?text=Lvl+4',
-          detailsRoute: '/cookingdom-game-level-4',
-        },
-        {
-          id: 'cookingdom-game-level-5',
-          title: 'Уровень 5<br/>Рыба на гриле',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/2e7d32?text=Lvl+5',
-          detailsRoute: '/cookingdom-game-level-5',
-        },
-        {
-          id: 'cookingdom-game-level-6',
-          title: 'Уровень 6<br/>Кофе Эспрессо',
-          imageUrl: 'https://placehold.co/60x60/efebe9/6d4c41?text=Lvl+6',
-          detailsRoute: '/cookingdom-game-level-6',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_07.webp",
+    levelInfoHtml: '<h3>Яичница-глазунья</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1 минута</p><p><strong>Награда:</strong> 3 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-4',
+      title: 'Уровень 4<br/>Ролл-мороженое',
+      imageUrl: "/images/guides_04.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } }
+    }, {
+      id: 'cookingdom-game-level-5',
+      title: 'Уровень 5<br/>Рыба на гриле',
+      imageUrl: "/images/guides_05.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } }
+    }, {
+      id: 'cookingdom-game-level-6',
+      title: 'Уровень 6<br/>Кофе Эспрессо',
+      imageUrl: "/images/guides_06.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Game Overview</h2>
 <p>In Cookingdom, each level introduces new cooking challenges and recipes that test your culinary skills and time management. Level 7 focuses on preparing Sunny Eggs, a simple yet delicate dish that requires precision to ensure the egg yolk remains intact while cooking. As you advance through Cookingdom, you'll need to master this dish to meet the growing demands of your customers, who will expect perfect sunny-side-up eggs.</p>
 <p>This level introduces more complex multitasking as you juggle multiple orders, but don't worry — with the right approach, you can handle it. Let's dive into the steps to make the perfect sunny eggs!</p>
@@ -624,51 +572,43 @@ export const guidesRu = [
 <h2 id="summary">Summary</h2>
 <p>Level 7 in Cookingdom is all about perfecting the art of cooking sunny eggs. The key to success is controlling the heat, cooking the eggs just right without overcooking them, and serving them as soon as they're ready. Time management and multitasking are crucial as you prepare sunny eggs along with other dishes.</p>
 <p>With the right technique and quick service, you'll easily complete this level and keep your customers happy. As you advance through Cookingdom, you'll encounter more complex recipes and customer orders, so mastering the basics of sunny eggs will set you up for future success.</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-8',
+  title: 'Уровень 8:<br>Стейк',
+  pageTitle: 'Cookingdom Уровень 8 - Руководство по Стейку',
+  pageSubtitle: 'Научитесь готовить идеальный стейк по заказу в Cookingdom Уровень 8.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_08.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
+  iframeUrl: "https://www.youtube.com/embed/vrGNwEY_6hE",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 8: Стейк | Советы и стратегия',
+    description: 'Освойте приготовление стейка (rare, medium, well-done) в Cookingdom Уровень 8. Советы по времени, температуре и управлению заказами.',
+    keywords: 'cookingdom, уровень 8, стейк, гайд, гриль, жарка, прожарка, rare, medium, well-done, управление временем'
   },
-  {
-    id: 'cookingdom-game-level-8',
-    title: 'Уровень 8:<br>Стейк',
-    pageTitle: 'Cookingdom Уровень 8 - Руководство по Стейку',
-    pageSubtitle: 'Научитесь готовить идеальный стейк по заказу в Cookingdom Уровень 8.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-8',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 8: Стейк | Советы и стратегия',
-      description:
-        'Освойте приготовление стейка (rare, medium, well-done) в Cookingdom Уровень 8. Советы по времени, температуре и управлению заказами.',
-      keywords:
-        'cookingdom, уровень 8, стейк, гайд, гриль, жарка, прожарка, rare, medium, well-done, управление временем',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fbe9e7/bf360c?text=Level+8+Sidebar',
-      levelInfoHtml:
-        '<h3>Стейк</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3.5 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-5',
-          title: 'Уровень 5<br/>Рыба на гриле',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/2e7d32?text=Lvl+5',
-          detailsRoute: '/cookingdom-game-level-5',
-        },
-        {
-          id: 'cookingdom-game-level-6',
-          title: 'Уровень 6<br/>Кофе Эспрессо',
-          imageUrl: 'https://placehold.co/60x60/efebe9/6d4c41?text=Lvl+6',
-          detailsRoute: '/cookingdom-game-level-6',
-        },
-        {
-          id: 'cookingdom-game-level-7',
-          title: 'Уровень 7<br/>Яичница-глазунья',
-          imageUrl: 'https://placehold.co/60x60/fffde7/fbc02d?text=Lvl+7',
-          detailsRoute: '/cookingdom-game-level-7',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_08.webp",
+    levelInfoHtml: '<h3>Стейк</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3.5 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-5',
+      title: 'Уровень 5<br/>Рыба на гриле',
+      imageUrl: "/images/guides_05.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } }
+    }, {
+      id: 'cookingdom-game-level-6',
+      title: 'Уровень 6<br/>Кофе Эспрессо',
+      imageUrl: "/images/guides_06.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } }
+    }, {
+      id: 'cookingdom-game-level-7',
+      title: 'Уровень 7<br/>Яичница-глазунья',
+      imageUrl: "/images/guides_07.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Game Overview</h2>
 <p>In Cookingdom, each new level challenges you with a more complex dish. Level 8 is no exception, as you're tasked with preparing a perfectly cooked Steak. This dish requires precise timing, heat control, and careful attention to customer orders. As you move forward in Cookingdom, cooking steak will become a cornerstone of your menu, and handling the complexity of different steak doneness levels will be crucial to keep your customers happy.</p>
 <p>In this level, you'll need to manage your kitchen efficiently while ensuring every steak is cooked to the right level, whether it's rare, medium, or well-done. Let's dive into the details of making the perfect steak!</p>
@@ -746,51 +686,43 @@ export const guidesRu = [
 <h2 id="summary">Summary</h2>
 <p>In Level 8 of Cookingdom, preparing the perfect Steak is all about controlling the cooking times and ensuring that each customer's steak is cooked to their preferred level of doneness. You'll need to master grilling and pan-searing techniques, manage multiple orders simultaneously, and serve the steak while it's still fresh and juicy.</p>
 <p>By the end of this level, you'll have gained valuable skills in steak preparation that will help you tackle even more complex dishes in future levels. With careful attention to detail and quick service, you'll be able to handle the steak orders like a pro and keep your customers coming back for more!</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-9',
+  title: 'Уровень 9:<br>Паста',
+  pageTitle: 'Cookingdom Уровень 9 - Руководство по Пасте',
+  pageSubtitle: 'Научитесь готовить идеальную пасту с соусом в Cookingdom Уровень 9.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_09.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
+  iframeUrl: "https://www.youtube.com/embed/SOGzuHCsQkQ",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 9: Паста | Советы и стратегия',
+    description: 'Освойте приготовление пасты в Cookingdom Уровень 9. Советы по варке пасты, приготовлению соусов и комбинированию заказов.',
+    keywords: 'cookingdom, уровень 9, паста, спагетти, макароны, соус, гайд, стратегия, управление временем'
   },
-  {
-    id: 'cookingdom-game-level-9',
-    title: 'Уровень 9:<br>Паста',
-    pageTitle: 'Cookingdom Уровень 9 - Руководство по Пасте',
-    pageSubtitle: 'Научитесь готовить идеальную пасту с соусом в Cookingdom Уровень 9.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-9',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 9: Паста | Советы и стратегия',
-      description:
-        'Освойте приготовление пасты в Cookingdom Уровень 9. Советы по варке пасты, приготовлению соусов и комбинированию заказов.',
-      keywords:
-        'cookingdom, уровень 9, паста, спагетти, макароны, соус, гайд, стратегия, управление временем',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fff3e0/ff9800?text=Level+9+Sidebar',
-      levelInfoHtml:
-        '<h3>Паста</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-1',
-          title: 'Уровень 1:<br>Пицца',
-          imageUrl: 'https://placehold.co/60x60/ffebee/c62828?text=Lvl+1',
-          detailsRoute: '/cookingdom-game-level-1',
-        },
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Уровень 2:<br>Салат',
-          imageUrl: 'https://placehold.co/60x60/e8f5e9/2e7d32?text=Lvl+2',
-          detailsRoute: '/cookingdom-game-level-2',
-        },
-        {
-          id: 'cookingdom-game-level-3',
-          title: 'Уровень 3:<br>Картофель фри',
-          imageUrl: 'https://placehold.co/60x60/fff8dc/cd853f?text=Lvl+3',
-          detailsRoute: '/cookingdom-game-level-3',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_09.webp",
+    levelInfoHtml: '<h3>Паста</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-1',
+      title: 'Уровень 1:<br>Пицца',
+      imageUrl: "/images/guides_01.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+    }, {
+      id: 'cookingdom-game-level-2',
+      title: 'Уровень 2:<br>Салат',
+      imageUrl: "/images/guides_02.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+    }, {
+      id: 'cookingdom-game-level-3',
+      title: 'Уровень 3:<br>Картофель фри',
+      imageUrl: "/images/guides_03.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Game Overview</h2>
 <p>Welcome to Level 9 of Cookingdom! In this level, you'll be mastering the art of making Pasta, a staple dish in many cuisines. Cooking pasta requires attention to timing and sauce preparation. As you progress, customers will start ordering different types of pasta dishes, demanding both speed and accuracy.</p>
 <p>This level builds on skills like time management and multitasking learned in previous levels, adding the complexity of coordinating pasta cooking times with sauce readiness. Get ready to become a pasta pro!</p>
@@ -862,51 +794,43 @@ export const guidesRu = [
 <h2 id="summary">Summary</h2>
 <p>Level 9 of Cookingdom challenges you to master the art of pasta making. Success hinges on cooking pasta perfectly al dente, preparing delicious sauces efficiently, and combining them correctly according to customer orders. Effective time management and multitasking are essential as order complexity increases.</p>
 <p>By mastering pasta, you'll add a versatile and popular dish to your repertoire, preparing you for even more intricate culinary challenges ahead in Cookingdom. Keep practicing, stay organized, and soon you'll be serving perfect pasta dishes every time!</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-10',
+  title: 'Уровень 10:<br>Суши с лососем',
+  pageTitle: 'Cookingdom Уровень 10 - Руководство по Суши с лососем',
+  pageSubtitle: 'Научитесь готовить идеальные суши с лососем в Cookingdom Уровень 10.',
+  category: '01-10',
+  isSpecial: false,
+  imageUrl: "/images/guides_10.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
+  iframeUrl: "https://www.youtube.com/embed/sR03duivZNM",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 10: Суши с лососем | Советы и стратегия',
+    description: 'Освойте суши с лососем в Cookingdom Уровень 10. Советы по идеальному рису, нарезке лосося, скручиванию суши и подаче.',
+    keywords: 'cookingdom, уровень 10, суши с лососем, гайд по суши, рис для суши, нарезка рыбы, скручивание суши, стратегия'
   },
-  {
-    id: 'cookingdom-game-level-10',
-    title: 'Уровень 10:<br>Суши с лососем',
-    pageTitle: 'Cookingdom Уровень 10 - Руководство по Суши с лососем',
-    pageSubtitle: 'Научитесь готовить идеальные суши с лососем в Cookingdom Уровень 10.',
-    category: '01-10',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-10',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 10: Суши с лососем | Советы и стратегия',
-      description:
-        'Освойте суши с лососем в Cookingdom Уровень 10. Советы по идеальному рису, нарезке лосося, скручиванию суши и подаче.',
-      keywords:
-        'cookingdom, уровень 10, суши с лососем, гайд по суши, рис для суши, нарезка рыбы, скручивание суши, стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fff0f5/ff4081?text=Level+10+Sidebar',
-      levelInfoHtml:
-        '<h3>Суши с лососем</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 4.5 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-7',
-          title: 'Уровень 7<br>Яичница-глазунья',
-          imageUrl: 'https://placehold.co/60x60/fffde7/fbc02d?text=Lvl+7',
-          detailsRoute: '/cookingdom-game-level-7',
-        },
-        {
-          id: 'cookingdom-game-level-8',
-          title: 'Уровень 8<br>Стейк',
-          imageUrl: 'https://placehold.co/60x60/fbe9e7/bf360c?text=Lvl+8',
-          detailsRoute: '/cookingdom-game-level-8',
-        },
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Уровень 9<br>Паста',
-          imageUrl: 'https://placehold.co/60x60/fff3e0/ff9800?text=Lvl+9',
-          detailsRoute: '/cookingdom-game-level-9',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_10.webp",
+    levelInfoHtml: '<h3>Суши с лососем</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 4.5 минуты</p><p><strong>Награда:</strong> 5 звезд</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-7',
+      title: 'Уровень 7<br>Яичница-глазунья',
+      imageUrl: "/images/guides_07.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } }
+    }, {
+      id: 'cookingdom-game-level-8',
+      title: 'Уровень 8<br>Стейк',
+      imageUrl: "/images/guides_08.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } }
+    }, {
+      id: 'cookingdom-game-level-9',
+      title: 'Уровень 9<br>Паста',
+      imageUrl: "/images/guides_09.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom достижение 10-го уровня означает, что вы освоили основы и теперь переходите к более сложным блюдам. Уровень 10 представляет собой утонченное испытание с суши с лососем — блюдом, которое сочетает в себе искусство совершенствования риса, нарезки рыбы и сборки всего этого в красивый суши-ролл. В отличие от других уровней, суши с лососем требуют точности как в приготовлении, так и в подаче.</p>
 <p>На этом этапе Cookingdom клиенты будут ожидать быстрой и безупречной доставки своих заказов, и вам нужно будет обращаться с деликатными компонентами суши. Пришло время отточить свои навыки владения ножом и техники приготовления риса!</p>
@@ -978,51 +902,43 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 10-м уровне Cookingdom приготовление суши с лососем — это испытание, которое проверяет вашу точность, управление временем и навыки многозадачности. От варки риса до нарезки рыбы и скручивания суши — каждый шаг требует внимания к деталям. Ключ к успеху — свежесть, точность и быстрое обслуживание.</p>
 <p>Освоение суши подготовит вас к успеху на будущих уровнях, поскольку клиенты будут ожидать более сложных и деликатных блюд. С практикой вы сможете создавать идеальные суши-роллы, которые порадуют ваших клиентов и помогут вашему ресторану процветать.</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-11',
+  title: 'Уровень 11:<br>Попкорн',
+  pageTitle: 'Cookingdom Уровень 11 - Руководство по Попкорну',
+  pageSubtitle: 'Научитесь готовить идеальный попкорн в Cookingdom Уровень 11.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_11.webp",
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+  iframeUrl: "https://www.youtube.com/embed/5mFzPngHJF8",
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 11: Попкорн | Советы и стратегия',
+    description: 'Освойте Попкорн в Cookingdom Уровень 11. Советы по идеальному времени приготовления, добавлению вкуса и быстрому обслуживанию.',
+    keywords: 'cookingdom, уровень 11, попкорн, гайд, приготовление, приправы, управление временем, стратегия'
   },
-  {
-    id: 'cookingdom-game-level-11',
-    title: 'Уровень 11:<br>Попкорн',
-    pageTitle: 'Cookingdom Уровень 11 - Руководство по Попкорну',
-    pageSubtitle: 'Научитесь готовить идеальный попкорн в Cookingdom Уровень 11.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png',
-    detailsRoute: '/cookingdom-game-level-11',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id',
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 11: Попкорн | Советы и стратегия',
-      description:
-        'Освойте Попкорн в Cookingdom Уровень 11. Советы по идеальному времени приготовления, добавлению вкуса и быстрому обслуживанию.',
-      keywords:
-        'cookingdom, уровень 11, попкорн, гайд, приготовление, приправы, управление временем, стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fffacd/daa520?text=Level+11+Sidebar',
-      levelInfoHtml:
-        '<h3>Попкорн</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-8',
-          title: 'Уровень 8<br>Стейк',
-          imageUrl: 'https://placehold.co/60x60/fbe9e7/bf360c?text=Lvl+8',
-          detailsRoute: '/cookingdom-game-level-8',
-        },
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Уровень 9<br>Паста',
-          imageUrl: 'https://placehold.co/60x60/fff3e0/ff9800?text=Lvl+9',
-          detailsRoute: '/cookingdom-game-level-9',
-        },
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Уровень 10<br>Суши с лососем',
-          imageUrl: 'https://placehold.co/60x60/fff0f5/ff4081?text=Lvl+10',
-          detailsRoute: '/cookingdom-game-level-10',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_11.webp",
+    levelInfoHtml: '<h3>Попкорн</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 1.5 минуты</p><p><strong>Награда:</strong> 3 звезды</p>',
+    featuredGuides: [{
+      id: 'cookingdom-game-level-8',
+      title: 'Уровень 8<br>Стейк',
+      imageUrl: "/images/guides_08.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } }
+    }, {
+      id: 'cookingdom-game-level-9',
+      title: 'Уровень 9<br>Паста',
+      imageUrl: "/images/guides_09.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } }
+    }, {
+      id: 'cookingdom-game-level-10',
+      title: 'Уровень 10<br>Суши с лососем',
+      imageUrl: "/images/guides_10.webp",
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom Уровень 11 представляет собой легкое, но важное испытание: приготовление идеального попкорна. Хотя это блюдо может показаться простым, оно требует точного расчета времени и внимания к деталям, особенно при приготовлении большой порции для нескольких клиентов. Попкорн — любимая закуска, и в Cookingdom он проверит вашу способность управлять нагревом, вкусами и скоростью под давлением.</p>
 <p>По мере продвижения в игре Cookingdom представляет блюда, которые кажутся простыми, но требуют эффективной многозадачности, чтобы справиться с растущими требованиями клиентов. Приготовьтесь идеально взрывать эти зерна!</p>
@@ -1085,51 +1001,50 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 11-м уровне Cookingdom приготовление попкорна кажется простым, но требует внимания к деталям в расчете времени и приправах. Идеально взорванные зерна, правильное количество приправ и быстрое обслуживание гарантируют, что ваши клиенты уйдут довольными. Будь то базовый заказ или запрос на дополнительное масло и сыр, ваша эффективность и навыки многозадачности будут проверены.</p>
 <p>По мере продолжения игры в Cookingdom сложность управления заказами будет возрастать, но освоение попкорна даст вам основу, необходимую для решения более сложных блюд. Следите за улучшениями, управляйте несколькими заказами и сосредоточьтесь на доставке свежего, вкусного попкорна, чтобы ваши клиенты возвращались снова и снова!</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-12',
+  title: 'Уровень 12:<br>Рамэн',
+  pageTitle: 'Cookingdom Уровень 12 - Руководство по Рамэну',
+  pageSubtitle: 'Научитесь готовить сытный и сложный рамэн в Cookingdom Уровень 12.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_12.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
+  iframeUrl: "https://www.youtube.com/embed/OhB019qY8Fc",
+  // Заполнитель
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 12: Рамэн | Советы и стратегия',
+    description: 'Освойте Рамэн в Cookingdom Уровень 12. Советы по идеальному бульону, лапше, топпингам и быстрому обслуживанию.',
+    keywords: 'cookingdom, уровень 12, рамэн, гайд, бульон, лапша, топпинги, управление временем, стратегия'
   },
-  {
-    id: 'cookingdom-game-level-12',
-    title: 'Уровень 12:<br>Рамэн',
-    pageTitle: 'Cookingdom Уровень 12 - Руководство по Рамэну',
-    pageSubtitle: 'Научитесь готовить сытный и сложный рамэн в Cookingdom Уровень 12.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-12',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 12: Рамэн | Советы и стратегия',
-      description:
-        'Освойте Рамэн в Cookingdom Уровень 12. Советы по идеальному бульону, лапше, топпингам и быстрому обслуживанию.',
-      keywords:
-        'cookingdom, уровень 12, рамэн, гайд, бульон, лапша, топпинги, управление временем, стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/f5f5dc/8b4513?text=Level+12+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Рамэн</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 5 минут</p><p><strong>Награда:</strong> 5 звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Уровень 9<br>Паста',
-          imageUrl: 'https://placehold.co/60x60/fff3e0/ff9800?text=Lvl+9', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-9',
-        },
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Уровень 10<br>Суши с лососем',
-          imageUrl: 'https://placehold.co/60x60/fff0f5/ff4081?text=Lvl+10', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-10',
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Уровень 11<br>Попкорн',
-          imageUrl: 'https://placehold.co/60x60/fffacd/daa520?text=Lvl+11', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-11',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_12.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Рамэн</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 5 минут</p><p><strong>Награда:</strong> 5 звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-9',
+      title: 'Уровень 9<br>Паста',
+      imageUrl: "/images/guides_09.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } }
+    }, {
+      id: 'cookingdom-game-level-10',
+      title: 'Уровень 10<br>Суши с лососем',
+      imageUrl: "/images/guides_10.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } }
+    }, {
+      id: 'cookingdom-game-level-11',
+      title: 'Уровень 11<br>Попкорн',
+      imageUrl: "/images/guides_11.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom Уровень 12 представляет сытное и сложное блюдо: Рамэн. Этот японский фаворит требует одновременного приготовления нескольких компонентов: бульона, лапши и топпингов. В Cookingdom ваша цель — создать идеальную миску рамэна, которая заставит ваших клиентов возвращаться снова и снова. Вам нужно будет балансировать время, выполнять несколько задач одновременно и обращать внимание на детали, чтобы каждая миска рамэна была ароматной, теплой и идеально украшенной.</p>
 <p>Рамэн в Cookingdom — это возможность продемонстрировать свои навыки как в приготовлении, так и в подаче, поскольку у клиентов будут особые предпочтения относительно их миски рамэна. Давайте погрузимся в шаги по приготовлению этого сложного блюда!</p>
@@ -1198,51 +1113,50 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 12-м уровне Cookingdom приготовление рамэна включает в себя тщательный баланс между приготовлением бульона, подготовкой лапши и добавлением идеальных топпингов. Это многоэтапное блюдо, требующее расчета времени, точности и скорости. Ключ к успеху — убедиться, что все приготовлено идеально и подано горячим. С практикой вы сможете справиться с этим ароматным блюдом и порадовать своих клиентов правильным сочетанием ингредиентов.</p>
 <p>По мере продолжения игры в Cookingdom задачи будут усложняться, но освоение рамэна поставит вас на путь становления лучшим шеф-поваром в игре. Удовлетворяйте своих клиентов хорошо приправленным бульоном, нежной лапшой и свежими топпингами, и вы продолжите подниматься в рейтингах Cookingdom!</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-13',
+  title: 'Уровень 13:<br>Хот-дог',
+  pageTitle: 'Cookingdom Уровень 13 - Руководство по Хот-догу',
+  pageSubtitle: 'Научитесь готовить идеальный хот-дог в Cookingdom Уровень 13.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_13.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
+  iframeUrl: "https://www.youtube.com/embed/-at0GKqanSg",
+  // Заполнитель
+  seo: {
+    title: 'Гайд по Cookingdom Уровень 13: Хот-дог | Советы и стратегия',
+    description: 'Освойте Хот-дог в Cookingdom Уровень 13. Советы по приготовлению сосисок, поджариванию булочек, добавлению приправ и быстрому обслуживанию.',
+    keywords: 'cookingdom, уровень 13, хот-дог, гайд, сосиска, булочка, приправы, фаст-фуд, стратегия'
   },
-  {
-    id: 'cookingdom-game-level-13',
-    title: 'Уровень 13:<br>Хот-дог',
-    pageTitle: 'Cookingdom Уровень 13 - Руководство по Хот-догу',
-    pageSubtitle: 'Научитесь готовить идеальный хот-дог в Cookingdom Уровень 13.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-13',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Гайд по Cookingdom Уровень 13: Хот-дог | Советы и стратегия',
-      description:
-        'Освойте Хот-дог в Cookingdom Уровень 13. Советы по приготовлению сосисок, поджариванию булочек, добавлению приправ и быстрому обслуживанию.',
-      keywords:
-        'cookingdom, уровень 13, хот-дог, гайд, сосиска, булочка, приправы, фаст-фуд, стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffebcd/ff4500?text=Level+13+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Хот-дог</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 4 звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Уровень 10<br>Суши с лососем',
-          imageUrl: 'https://placehold.co/60x60/fff0f5/ff4081?text=Lvl+10', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-10',
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Уровень 11<br>Попкорн',
-          imageUrl: 'https://placehold.co/60x60/fffacd/daa520?text=Lvl+11', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-11',
-        },
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Уровень 12<br>Рамэн',
-          imageUrl: 'https://placehold.co/60x60/f5f5dc/8b4513?text=Lvl+12', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-12',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_13.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Хот-дог</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 минуты</p><p><strong>Награда:</strong> 4 звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-10',
+      title: 'Уровень 10<br>Суши с лососем',
+      imageUrl: "/images/guides_10.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } }
+    }, {
+      id: 'cookingdom-game-level-11',
+      title: 'Уровень 11<br>Попкорн',
+      imageUrl: "/images/guides_11.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+    }, {
+      id: 'cookingdom-game-level-12',
+      title: 'Уровень 12<br>Рамэн',
+      imageUrl: "/images/guides_12.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom Уровень 13 знакомит вас с любимой классикой фаст-фуда: хот-догом. Хотя это может показаться простым, приготовление идеального хот-дога требует внимания к деталям, особенно при управлении заказами клиентов и времени. На этом уровне вам нужно будет сосредоточиться на приготовлении идеальной сосиски, поджаривании булочек и добавлении правильных приправ, чтобы удовлетворить желания ваших клиентов.</p>
 <p>Задача в Cookingdom заключается в том, чтобы не отставать от растущего спроса клиентов, обеспечивая при этом быструю и идеальную подачу каждого хот-дога. Готовы ли вы принять этот вкусный вызов? Давайте разберем, как приготовить идеальный хот-дог!</p>
@@ -1318,52 +1232,50 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 13-м уровне Cookingdom приготовление идеального хот-дога — это вопрос времени и настройки. Приготовление сосисок и булочек до совершенства, добавление правильных приправ и быстрая подача — ключ к успеху. Как и на всех уровнях в Cookingdom, многозадачность необходима. Держите гриль и тостер для булочек работающими в тандеме во время подготовки топпингов, чтобы максимизировать эффективность.</p>
 <p>Освоение этой классики фаст-фуда поможет вам продолжать прогрессировать в Cookingdom. Независимо от того, подаете ли вы простой хот-дог или загруженный топпингами, внимание к деталям и скорость будут иметь решающее значение для получения высоких оценок от ваших клиентов.</p>
-`,
+`
+}, {
+  id: 'cookingdom-game-level-14',
+  title: 'Уровень 14:<br>Лосось с Минестроне',
+  pageTitle: 'Cookingdom Уровень 14 - Руководство по Лососю с Минестроне',
+  pageSubtitle: 'Узнайте, как приготовить изысканный лосось с супом минестроне на уровне 14 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_14.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
+  iframeUrl: "https://www.youtube.com/embed/osxEv217AuU",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 14 Руководство: Лосось с Минестроне | Советы и Стратегии',
+    description: 'Освойте лосося с минестроне на уровне 14 в Cookingdom. Получите советы по приготовлению лосося, супа минестроне и балансировке сложных блюд.',
+    keywords: 'Cookingdom, Уровень 14, Лосось, Минестроне, Суп Минестроне, Руководство, Приготовление рыбы, Итальянский суп, Стратегия'
   },
-  {
-    id: 'cookingdom-game-level-14',
-    title: 'Уровень 14:<br>Лосось с Минестроне',
-    pageTitle: 'Cookingdom Уровень 14 - Руководство по Лососю с Минестроне',
-    pageSubtitle:
-      'Узнайте, как приготовить изысканный лосось с супом минестроне на уровне 14 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-14',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 14 Руководство: Лосось с Минестроне | Советы и Стратегии',
-      description:
-        'Освойте лосося с минестроне на уровне 14 в Cookingdom. Получите советы по приготовлению лосося, супа минестроне и балансировке сложных блюд.',
-      keywords:
-        'Cookingdom, Уровень 14, Лосось, Минестроне, Суп Минестроне, Руководство, Приготовление рыбы, Итальянский суп, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/e6e6fa/ff69b4?text=Level+14+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Лосось с Минестроне</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 минуты</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Уровень 11<br>Попкорн',
-          imageUrl: 'https://placehold.co/60x60/fffacd/daa520?text=Lvl+11', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-11',
-        },
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Уровень 12<br>Рамен',
-          imageUrl: 'https://placehold.co/60x60/f5f5dc/8b4513?text=Lvl+12', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-12',
-        },
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Уровень 13<br>Хот-дог',
-          imageUrl: 'https://placehold.co/60x60/ffebcd/ff4500?text=Lvl+13', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-13',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_14.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Лосось с Минестроне</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 минуты</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-11',
+      title: 'Уровень 11<br>Попкорн',
+      imageUrl: "/images/guides_11.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+    }, {
+      id: 'cookingdom-game-level-12',
+      title: 'Уровень 12<br>Рамен',
+      imageUrl: "/images/guides_12.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } }
+    }, {
+      id: 'cookingdom-game-level-13',
+      title: 'Уровень 13<br>Хот-дог',
+      imageUrl: "/images/guides_13.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom 14-й уровень представляет немного более изысканное блюдо: лосось с минестроне. Этот уровень сочетает в себе два популярных продукта — здоровое, богатое белком филе лосося и сытную миску овощного итальянского супа. Как и во всех рецептах в Cookingdom, внимание к деталям, тайминг и многозадачность имеют решающее значение для создания идеального блюда для ваших клиентов.</p>
 <p>В отличие от других уровней, которые фокусируются на более простой еде, этот уровень бросает вам вызов, требуя сбалансировать два сложных элемента одновременно: лосося и суп. Давайте разберем, как успешно приготовить лосося с минестроне в Cookingdom.</p>
@@ -1426,53 +1338,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>Приготовление лосося с минестроне на 14-м уровне Cookingdom требует точности и многозадачности. Приготовить лосося до идеальной нежности и хрусткости, одновременно доведя суп до вкусного завершения, может быть непросто, но полезно. Управление обоими элементами и подача их горячими и свежими гарантирует, что ваши клиенты уйдут довольными.</p>
 <p>Сосредоточившись на идеальном тайминге, балансировке вкусов супа и обеспечении того, чтобы лосось был приготовлен правильно, вы быстро освоите это блюдо. Продолжайте улучшать свое оборудование и оттачивать свои навыки, чтобы справиться со все более сложными блюдами по мере продвижения в Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 15
+  id: 'cookingdom-game-level-15',
+  title: 'Уровень 15:<br>Жареная Курица',
+  pageTitle: 'Cookingdom Уровень 15 - Руководство по Жареной Курице',
+  pageSubtitle: 'Узнайте, как приготовить хрустящую и сочную жареную курицу на уровне 15 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_15.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+  iframeUrl: "https://www.youtube.com/embed/clZlGkI5iOI",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 15 Руководство: Жареная Курица | Советы и Стратегия',
+    description: 'Освойте жареную курицу на уровне 15 в Cookingdom. Получите советы по приготовлению хрустящей курицы, управлению гарнирами (картофельное пюре, салат коулслоу, картофель фри) и быстрой подаче.',
+    keywords: 'Cookingdom, Уровень 15, Жареная Курица, Курица Фри, Руководство, Хрустящая Курица, Гарниры, Картофельное Пюре, Салат Коулслоу, Картофель Фри, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 15
-    id: 'cookingdom-game-level-15',
-    title: 'Уровень 15:<br>Жареная Курица',
-    pageTitle: 'Cookingdom Уровень 15 - Руководство по Жареной Курице',
-    pageSubtitle:
-      'Узнайте, как приготовить хрустящую и сочную жареную курицу на уровне 15 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-15',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 15 Руководство: Жареная Курица | Советы и Стратегия',
-      description:
-        'Освойте жареную курицу на уровне 15 в Cookingdom. Получите советы по приготовлению хрустящей курицы, управлению гарнирами (картофельное пюре, салат коулслоу, картофель фри) и быстрой подаче.',
-      keywords:
-        'Cookingdom, Уровень 15, Жареная Курица, Курица Фри, Руководство, Хрустящая Курица, Гарниры, Картофельное Пюре, Салат Коулслоу, Картофель Фри, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffe0b2/fb8c00?text=Level+15+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Жареная Курица</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3.5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Уровень 12<br>Рамен',
-          imageUrl: 'https://placehold.co/60x60/f5f5dc/8b4513?text=Lvl+12', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-12',
-        },
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Уровень 13<br>Хот-дог',
-          imageUrl: 'https://placehold.co/60x60/ffebcd/ff4500?text=Lvl+13', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-13',
-        },
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Уровень 14<br>Лосось с Минестроне',
-          imageUrl: 'https://placehold.co/60x60/e6e6fa/ff69b4?text=Lvl+14', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-14',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_15.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Жареная Курица</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3.5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-12',
+      title: 'Уровень 12<br>Рамен',
+      imageUrl: "/images/guides_12.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } }
+    }, {
+      id: 'cookingdom-game-level-13',
+      title: 'Уровень 13<br>Хот-дог',
+      imageUrl: "/images/guides_13.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } }
+    }, {
+      id: 'cookingdom-game-level-14',
+      title: 'Уровень 14<br>Лосось с Минестроне',
+      imageUrl: "/images/guides_14.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom 15-й уровень представляет классическое блюдо комфортной еды: Жареную Курицу. Этот уровень бросает вам вызов, требуя приготовить хрустящую, золотисто-коричневую жареную курицу в сочетании с идеальными гарнирами для создания сытного блюда. Процесс может показаться простым, но игра добавляет свои собственные трудности, чтобы держать вас в напряжении. Время, температура и приправы будут играть решающую роль в приготовлении хрустящей и сочной курицы, при этом удовлетворяя ваших клиентов.</p>
 <p>Приготовление идеальной Жареной Курицы в Cookingdom требует как сосредоточенности, так и скорости. Давайте погрузимся в шаги для успешного приготовления этого сытного блюда!</p>
@@ -1552,52 +1462,51 @@ export const guidesRu = [
 <p>На 15-м уровне Cookingdom приготовление Жареной Курицы включает в себя обжаривание курицы до хрустящего совершенства и управление гарнирами, такими как картофельное пюре, салат коулслоу или картофель фри. Время и многозадачность имеют важное значение, так как вам нужно одновременно управлять процессом жарки и приготовлением гарниров.</p>
 <p>Идеально приправленная курица, золотистый картофель фри и нежное картофельное пюре заставят ваших клиентов возвращаться снова и снова. Как всегда в Cookingdom, скорость и подача имеют значение, поэтому убедитесь, что все подается свежим и горячим!</p>
 <p>Освоив Жареную Курицу и улучшив свои навыки многозадачности, вы продолжите повышать свой уровень и справляться с еще более сложными блюдами в Cookingdom.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 16
+  id: 'cookingdom-game-level-16',
+  title: 'Уровень 16:<br>Техасское BBQ',
+  pageTitle: 'Cookingdom Уровень 16 - Руководство по Техасскому BBQ',
+  pageSubtitle: 'Освойте дымное и ароматное Техасское BBQ на уровне 16 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_16.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
+  iframeUrl: "https://www.youtube.com/embed/KyijXpwgOn8",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 16 Руководство: Техасское BBQ | Советы и Стратегия',
+    description: 'Узнайте, как готовить Техасское BBQ (ребра, грудинка) на уровне 16 в Cookingdom. Получите советы по медленному приготовлению, соусу BBQ, гарнирам (кукурузный хлеб, печеные бобы, коулслоу) и таймингу.',
+    keywords: 'Cookingdom, Уровень 16, Техасское BBQ, Руководство BBQ, Ребра, Грудинка, Соус BBQ, Кукурузный хлеб, Печеные бобы, Салат Коулслоу, Медленное приготовление, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 16
-    id: 'cookingdom-game-level-16',
-    title: 'Уровень 16:<br>Техасское BBQ',
-    pageTitle: 'Cookingdom Уровень 16 - Руководство по Техасскому BBQ',
-    pageSubtitle: 'Освойте дымное и ароматное Техасское BBQ на уровне 16 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-16',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 16 Руководство: Техасское BBQ | Советы и Стратегия',
-      description:
-        'Узнайте, как готовить Техасское BBQ (ребра, грудинка) на уровне 16 в Cookingdom. Получите советы по медленному приготовлению, соусу BBQ, гарнирам (кукурузный хлеб, печеные бобы, коулслоу) и таймингу.',
-      keywords:
-        'Cookingdom, Уровень 16, Техасское BBQ, Руководство BBQ, Ребра, Грудинка, Соус BBQ, Кукурузный хлеб, Печеные бобы, Салат Коулслоу, Медленное приготовление, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/d7ccc8/795548?text=Level+16+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Техасское BBQ</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Уровень 13<br>Хот-дог',
-          imageUrl: 'https://placehold.co/60x60/ffebcd/ff4500?text=Lvl+13', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-13',
-        },
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Уровень 14<br>Лосось с Минестроне',
-          imageUrl: 'https://placehold.co/60x60/e6e6fa/ff69b4?text=Lvl+14', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-14',
-        },
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Уровень 15<br>Жареная Курица',
-          imageUrl: 'https://placehold.co/60x60/ffe0b2/fb8c00?text=Lvl+15', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-15',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_16.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Техасское BBQ</h3><p><strong>Сложность:</strong> Сложно</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-13',
+      title: 'Уровень 13<br>Хот-дог',
+      imageUrl: "/images/guides_13.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } }
+    }, {
+      id: 'cookingdom-game-level-14',
+      title: 'Уровень 14<br>Лосось с Минестроне',
+      imageUrl: "/images/guides_14.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } }
+    }, {
+      id: 'cookingdom-game-level-15',
+      title: 'Уровень 15<br>Жареная Курица',
+      imageUrl: "/images/guides_15.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom 16-й уровень приносит на кухню смелое и ароматное Техасское BBQ. Этот уровень бросает вам вызов приготовить сытное, дымное BBQ-блюдо с различными видами мяса, соусами и гарнирами. Техасское BBQ — это все о медленно приготовленном мясе с дымными ароматами, и ключ к успеху здесь — правильно подобрать время и приправы для аппетитного блюда.</p>
 <p>На этом уровне вы будете готовить BBQ-мясо, такое как ребра или грудинка, и сочетать его с классическими BBQ-гарнирами, такими как кукурузный хлеб, печеные бобы и салат коулслоу. Задача в Cookingdom — сбалансировать время приготовления мяса и гарниров, обеспечив при этом, чтобы все подавалось горячим и ароматным.</p>
@@ -1683,52 +1592,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 16-м уровне Cookingdom приготовление Техасского BBQ включает в себя освоение искусства медленного приготовления мяса, совершенствование соуса BBQ и балансировку гарниров, таких как кукурузный хлеб, печеные бобы и салат коулслоу. Время и многозадачность являются ключом к успеху, так как вам нужно одновременно управлять грилем мяса и приготовлением гарниров.</p>
 <p>Сосредоточившись на совершенствовании BBQ-мяса, создании ароматного соуса и эффективном управлении вашей кухней, вы впечатлите своих клиентов и заработаете высшие оценки. Сочетание нежного BBQ, пикантных гарниров и дымного аромата заставит ваших клиентов возвращаться снова и снова.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 17
+  id: 'cookingdom-game-level-17',
+  title: 'Уровень 17:<br>Кафе Маккиато',
+  pageTitle: 'Cookingdom Уровень 17 - Руководство по Кафе Маккиато',
+  pageSubtitle: 'Узнайте, как приготовить идеальный Кафе Маккиато на уровне 17 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_17.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
+  iframeUrl: "https://www.youtube.com/embed/9vMHRRYFPMg",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 17 Руководство: Кафе Маккиато | Советы и Стратегия',
+    description: 'Освойте Кафе Маккиато на уровне 17 в Cookingdom. Получите советы по приготовлению эспрессо, идеальному взбиванию молока и достижению правильного баланса для этого классического кофе.',
+    keywords: 'Cookingdom, Уровень 17, Кафе Маккиато, Руководство Маккиато, Эспрессо, Молочная пена, Кофе, Приготовление, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 17
-    id: 'cookingdom-game-level-17',
-    title: 'Уровень 17:<br>Кафе Маккиато',
-    pageTitle: 'Cookingdom Уровень 17 - Руководство по Кафе Маккиато',
-    pageSubtitle: 'Узнайте, как приготовить идеальный Кафе Маккиато на уровне 17 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-17',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 17 Руководство: Кафе Маккиато | Советы и Стратегия',
-      description:
-        'Освойте Кафе Маккиато на уровне 17 в Cookingdom. Получите советы по приготовлению эспрессо, идеальному взбиванию молока и достижению правильного баланса для этого классического кофе.',
-      keywords:
-        'Cookingdom, Уровень 17, Кафе Маккиато, Руководство Маккиато, Эспрессо, Молочная пена, Кофе, Приготовление, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/e0e0e0/795548?text=Level+17+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Кафе Маккиато</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Уровень 14<br>Лосось с Минестроне',
-          imageUrl: 'https://placehold.co/60x60/e6e6fa/ff69b4?text=Lvl+14', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-14',
-        },
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Уровень 15<br>Жареная Курица',
-          imageUrl: 'https://placehold.co/60x60/ffe0b2/fb8c00?text=Lvl+15', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-15',
-        },
-        {
-          id: 'cookingdom-game-level-16',
-          title: 'Уровень 16<br>Техасское BBQ',
-          imageUrl: 'https://placehold.co/60x60/d7ccc8/795548?text=Lvl+16', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-16',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_17.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Кафе Маккиато</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-14',
+      title: 'Уровень 14<br>Лосось с Минестроне',
+      imageUrl: "/images/guides_14.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } }
+    }, {
+      id: 'cookingdom-game-level-15',
+      title: 'Уровень 15<br>Жареная Курица',
+      imageUrl: "/images/guides_15.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } }
+    }, {
+      id: 'cookingdom-game-level-16',
+      title: 'Уровень 16<br>Техасское BBQ',
+      imageUrl: "/images/guides_16.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom 17-й уровень представляет восхитительный и изысканный напиток: Кафе Маккиато. Этот уровень бросает вам вызов приготовить гладкую основу из эспрессо, увенчанную ложкой вспененного молока, при этом соблюдая идеальный тайминг и точность. Это классический фаворит кофеен, который требует внимания к деталям и способности к многозадачности, так как вам нужно будет одновременно довести до совершенства шот эспрессо и молочную пену.</p>
 <p>Поскольку Кафе Маккиато — популярный напиток в кофейнях по всему миру, его правильное приготовление произведет впечатление на ваших клиентов и поможет вам повысить уровень в Cookingdom. Давайте разберем процесс и направим вас к идеальному Кафе Маккиато.</p>
@@ -1806,52 +1714,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 17-м уровне Cookingdom приготовление Кафе Маккиато требует внимания к деталям и идеального тайминга. Приготовление эспрессо до совершенства и взбивание молока до идеальной текстуры являются ключом к созданию этого классического напитка кофеен. При тщательном внимании к процессу приготовления и взбивания вы подадите гладкий, насыщенный Кафе Маккиато, который порадует ваших клиентов.</p>
 <p>Эффективно выполняйте несколько задач одновременно, следите за временем и подавайте напиток горячим и свежим, чтобы максимизировать свои оценки в Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 18
+  id: 'cookingdom-game-level-18',
+  title: 'Уровень 18:<br>Рататуй',
+  pageTitle: 'Cookingdom Уровень 18 - Руководство по Рататую',
+  pageSubtitle: 'Научитесь готовить классический французский Рататуй на уровне 18 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_18.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
+  iframeUrl: "https://www.youtube.com/embed/YADKwUHp4XY",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 18 Руководство: Рататуй | Советы и Стратегия',
+    description: 'Освойте Рататуй на уровне 18 в Cookingdom. Получите советы по нарезке овощей (баклажаны, цуккини, перец, помидоры), их идеальному приготовлению и тушению соуса.',
+    keywords: 'Cookingdom, Уровень 18, Рататуй, Французская кухня, Овощное рагу, Руководство, Обжаривание, Тушение, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 18
-    id: 'cookingdom-game-level-18',
-    title: 'Уровень 18:<br>Рататуй',
-    pageTitle: 'Cookingdom Уровень 18 - Руководство по Рататую',
-    pageSubtitle: 'Научитесь готовить классический французский Рататуй на уровне 18 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-18',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 18 Руководство: Рататуй | Советы и Стратегия',
-      description:
-        'Освойте Рататуй на уровне 18 в Cookingdom. Получите советы по нарезке овощей (баклажаны, цуккини, перец, помидоры), их идеальному приготовлению и тушению соуса.',
-      keywords:
-        'Cookingdom, Уровень 18, Рататуй, Французская кухня, Овощное рагу, Руководство, Обжаривание, Тушение, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/f0f4c3/827717?text=Level+18+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Рататуй</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Уровень 15<br>Жареная Курица',
-          imageUrl: 'https://placehold.co/60x60/ffe0b2/fb8c00?text=Lvl+15', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-15',
-        },
-        {
-          id: 'cookingdom-game-level-16',
-          title: 'Уровень 16<br>Техасское BBQ',
-          imageUrl: 'https://placehold.co/60x60/d7ccc8/795548?text=Lvl+16', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-16',
-        },
-        {
-          id: 'cookingdom-game-level-17',
-          title: 'Уровень 17<br>Кафе Маккиато',
-          imageUrl: 'https://placehold.co/60x60/e0e0e0/795548?text=Lvl+17', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-17',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_18.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Рататуй</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-15',
+      title: 'Уровень 15<br>Жареная Курица',
+      imageUrl: "/images/guides_15.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } }
+    }, {
+      id: 'cookingdom-game-level-16',
+      title: 'Уровень 16<br>Техасское BBQ',
+      imageUrl: "/images/guides_16.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } }
+    }, {
+      id: 'cookingdom-game-level-17',
+      title: 'Уровень 17<br>Кафе Маккиато',
+      imageUrl: "/images/guides_17.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom 18-й уровень приносит на стол здоровое и ароматное блюдо: Рататуй. Это классическое французское овощное рагу состоит из различных овощей, таких как баклажаны, цуккини, перец и помидоры, приготовленных в насыщенном, ароматном соусе. Ключ к этому уровню — убедиться, что овощи идеально нарезаны и приготовлены так, чтобы сохранить их свежесть, при этом сбалансировав приправы для создания идеального Рататуя.</p>
 <p>В Cookingdom 18-й уровень — это все о многозадачности и точности. Вам нужно будет управлять подготовкой и приготовлением нескольких овощей, обеспечивая при этом, чтобы каждый из них был приготовлен в нужное время и при правильной температуре. Давайте погрузимся в шаги по освоению Рататуя и впечатлим ваших клиентов этим вкусным блюдом!</p>
@@ -1935,52 +1842,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На 18-м уровне Cookingdom приготовление Рататуя требует точности в нарезке овощей, их правильного обжаривания и тушения ароматного томатного соуса. Это блюдо сочетает в себе простые ингредиенты и техники для создания вкусной и хорошо сбалансированной еды. При тщательном расчете времени, многозадачности и внимании к деталям вы сможете создать идеальный Рататуй, который порадует ваших клиентов и принесет вам высшие оценки в Cookingdom.</p>
 <p>Освойте искусство подготовки овощей и тушения соуса, и скоро вы будете готовы взяться за еще более сложные блюда, продолжая свое путешествие по Cookingdom.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 19
+  id: 'cookingdom-game-level-19',
+  title: 'Уровень 19:<br>Тыквенный Пирог',
+  pageTitle: 'Cookingdom Уровень 19 - Руководство по Тыквенному Пирогу',
+  pageSubtitle: 'Научитесь печь идеальный Тыквенный Пирог на уровне 19 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_19.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
+  iframeUrl: "https://www.youtube.com/embed/CoSI8csqCbc",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 19 Руководство: Тыквенный Пирог | Советы и Стратегия',
+    description: 'Освойте Тыквенный Пирог на уровне 19 в Cookingdom. Получите советы по приготовлению идеальной корочки, гладкой начинки, выпечке и подаче этого классического десерта.',
+    keywords: 'Cookingdom, Уровень 19, Тыквенный Пирог, Десерт, Выпечка, Корочка Пирога, Тыквенная Начинка, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 19
-    id: 'cookingdom-game-level-19',
-    title: 'Уровень 19:<br>Тыквенный Пирог',
-    pageTitle: 'Cookingdom Уровень 19 - Руководство по Тыквенному Пирогу',
-    pageSubtitle: 'Научитесь печь идеальный Тыквенный Пирог на уровне 19 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-19',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 19 Руководство: Тыквенный Пирог | Советы и Стратегия',
-      description:
-        'Освойте Тыквенный Пирог на уровне 19 в Cookingdom. Получите советы по приготовлению идеальной корочки, гладкой начинки, выпечке и подаче этого классического десерта.',
-      keywords:
-        'Cookingdom, Уровень 19, Тыквенный Пирог, Десерт, Выпечка, Корочка Пирога, Тыквенная Начинка, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffcc80/e65100?text=Level+19+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Тыквенный Пирог</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-16',
-          title: 'Уровень 16<br>Техасское BBQ',
-          imageUrl: 'https://placehold.co/60x60/d7ccc8/795548?text=Lvl+16', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-16',
-        },
-        {
-          id: 'cookingdom-game-level-17',
-          title: 'Уровень 17<br>Кафе Маккиато',
-          imageUrl: 'https://placehold.co/60x60/e0e0e0/795548?text=Lvl+17', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-17',
-        },
-        {
-          id: 'cookingdom-game-level-18',
-          title: 'Уровень 18<br>Рататуй',
-          imageUrl: 'https://placehold.co/60x60/f0f4c3/827717?text=Lvl+18', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-18',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_19.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Тыквенный Пирог</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-16',
+      title: 'Уровень 16<br>Техасское BBQ',
+      imageUrl: "/images/guides_16.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } }
+    }, {
+      id: 'cookingdom-game-level-17',
+      title: 'Уровень 17<br>Кафе Маккиато',
+      imageUrl: "/images/guides_17.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } }
+    }, {
+      id: 'cookingdom-game-level-18',
+      title: 'Уровень 18<br>Рататуй',
+      imageUrl: "/images/guides_18.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom уровень 19 представляет сладкое и вкусное угощение: Тыквенный Пирог. Этот классический десерт любим во многих культурах, особенно в осенний сезон. Приготовление Тыквенного Пирога в Cookingdom требует создания гладкой тыквенной начинки, подготовки идеальной корочки и выпекания до золотистой корочки. Тайминг, баланс ингредиентов и подача будут ключом к достижению наивысшей удовлетворенности клиентов.</p>
 <p>На уровне 19 вам нужно будет тщательно управлять ингредиентами и этапами приготовления, чтобы убедиться, что и корочка пирога, и начинка получились как надо. Давайте разберем шаги и советы по созданию непревзойденного Тыквенного Пирога!</p>
@@ -2070,52 +1976,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 19 Cookingdom приготовление Тыквенного Пирога требует внимания к деталям, от создания идеальной корочки до гладкой, ароматной тыквенной начинки. При тщательном расчете времени и многозадачности вы сможете создать восхитительный пирог, который произведет впечатление на ваших клиентов. Будь то праздник или обычный день, Тыквенный Пирог всегда будет хитом в Cookingdom!</p>
 <p>Совершенствуя свою корочку, начинку и технику выпечки, вы будете готовы взяться за еще более вкусные десерты в будущем. Следите за своим временем и не забывайте украшать пирог, чтобы сделать его еще более неотразимым!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 20
+  id: 'cookingdom-game-level-20',
+  title: 'Уровень 20:<br>Жареная Индейка',
+  pageTitle: 'Cookingdom Уровень 20 - Руководство по Жареной Индейке',
+  pageSubtitle: 'Научитесь готовить идеальную Жареную Индейку на уровне 20 в Cookingdom.',
+  category: '11-20',
+  isSpecial: false,
+  imageUrl: "/images/guides_20.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
+  iframeUrl: "https://www.youtube.com/embed/Rp9i4GwAC6E",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 20 Руководство: Жареная Индейка | Советы и Стратегия',
+    description: 'Освойте Жареную Индейку на уровне 20 в Cookingdom. Получите советы по приправе, жарке, поливке и подаче этого праздничного блюда.',
+    keywords: 'Cookingdom, Уровень 20, Жареная Индейка, Праздничное блюдо, Жарка, Полив, Руководство по индейке, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 20
-    id: 'cookingdom-game-level-20',
-    title: 'Уровень 20:<br>Жареная Индейка',
-    pageTitle: 'Cookingdom Уровень 20 - Руководство по Жареной Индейке',
-    pageSubtitle: 'Научитесь готовить идеальную Жареную Индейку на уровне 20 в Cookingdom.',
-    category: '11-20',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-20',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 20 Руководство: Жареная Индейка | Советы и Стратегия',
-      description:
-        'Освойте Жареную Индейку на уровне 20 в Cookingdom. Получите советы по приправе, жарке, поливке и подаче этого праздничного блюда.',
-      keywords:
-        'Cookingdom, Уровень 20, Жареная Индейка, Праздничное блюдо, Жарка, Полив, Руководство по индейке, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/efebe9/a1887f?text=Level+20+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Жареная Индейка</h3><p><strong>Сложность:</strong> Средне-высокая</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-17',
-          title: 'Уровень 17<br>Кафе Маккиато',
-          imageUrl: 'https://placehold.co/60x60/e0e0e0/795548?text=Lvl+17', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-17',
-        },
-        {
-          id: 'cookingdom-game-level-18',
-          title: 'Уровень 18<br>Рататуй',
-          imageUrl: 'https://placehold.co/60x60/f0f4c3/827717?text=Lvl+18', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-18',
-        },
-        {
-          id: 'cookingdom-game-level-19',
-          title: 'Уровень 19<br>Тыквенный Пирог',
-          imageUrl: 'https://placehold.co/60x60/ffcc80/e65100?text=Lvl+19', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-19',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_20.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Жареная Индейка</h3><p><strong>Сложность:</strong> Средне-высокая</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-17',
+      title: 'Уровень 17<br>Кафе Маккиато',
+      imageUrl: "/images/guides_17.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } }
+    }, {
+      id: 'cookingdom-game-level-18',
+      title: 'Уровень 18<br>Рататуй',
+      imageUrl: "/images/guides_18.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } }
+    }, {
+      id: 'cookingdom-game-level-19',
+      title: 'Уровень 19<br>Тыквенный Пирог',
+      imageUrl: "/images/guides_19.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom уровень 20 представляет праздничное и ароматное блюдо: Жареную Индейку. Как одно из самых популярных и традиционных блюд, особенно для праздников и пиров, Жареная Индейка требует тщательного баланса приправ, подготовки и времени. Этот уровень посвящен идеальной жарке индейки, а также обеспечению того, чтобы гарниры и украшения дополняли блюдо.</p>
 <p>В Cookingdom овладение искусством жарки индейки потребует от вас одновременного управления несколькими этапами, такими как маринование, поливка и обеспечение равномерного приготовления мяса. При тщательном внимании вы подадите золотистую, сочную индейку, которая произведет впечатление на ваших клиентов и поможет вам перейти на следующий уровень!</p>
@@ -2216,52 +2121,51 @@ export const guidesRu = [
 <h2 id="summary\">Резюме</h2>
 <p>На уровне 20 Cookingdom приготовление Жареной Индейки требует внимания к деталям, времени и правильной техники. От приправы птицы до идеальной жарки и поливки — этот уровень является настоящим испытанием ваших кулинарных навыков. При правильном контроле температуры и тщательной поливке вы создадите золотистую, сочную индейку, которая порадует ваших клиентов и поднимет ваш опыт в Cookingdom.</p>
 <p>Овладейте искусством жарки индейки, и вы будете на верном пути к освоению еще более сложных блюд на будущих уровнях!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 21
+  id: 'cookingdom-game-level-21',
+  title: 'Уровень 21:<br>Чай с Молоком и Боба',
+  pageTitle: 'Cookingdom Уровень 21 - Руководство по Чаю с Молоком и Боба',
+  pageSubtitle: 'Научитесь готовить идеальный Чай с Молоком и Боба на уровне 21 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_21.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
+  iframeUrl: "https://www.youtube.com/embed/sT6G1wBptko",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 21 Руководство: Чай с Молоком и Боба | Советы и Стратегия',
+    description: 'Освойте Чай с Молоком и Боба на уровне 21 в Cookingdom. Получите советы по приготовлению шариков боба, завариванию чая, балансировке молока и подаче этого модного напитка.',
+    keywords: 'Cookingdom, Уровень 21, Чай с Молоком и Боба, Бабл Ти, Тайваньский напиток, Руководство по чаю, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 21
-    id: 'cookingdom-game-level-21',
-    title: 'Уровень 21:<br>Чай с Молоком и Боба',
-    pageTitle: 'Cookingdom Уровень 21 - Руководство по Чаю с Молоком и Боба',
-    pageSubtitle: 'Научитесь готовить идеальный Чай с Молоком и Боба на уровне 21 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-21',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 21 Руководство: Чай с Молоком и Боба | Советы и Стратегия',
-      description:
-        'Освойте Чай с Молоком и Боба на уровне 21 в Cookingdom. Получите советы по приготовлению шариков боба, завариванию чая, балансировке молока и подаче этого модного напитка.',
-      keywords:
-        'Cookingdom, Уровень 21, Чай с Молоком и Боба, Бабл Ти, Тайваньский напиток, Руководство по чаю, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/d1c4e9/5e35b1?text=Level+21+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Чай с Молоком и Боба</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-18',
-          title: 'Уровень 18<br>Рататуй',
-          imageUrl: 'https://placehold.co/60x60/f0f4c3/827717?text=Lvl+18', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-18',
-        },
-        {
-          id: 'cookingdom-game-level-19',
-          title: 'Уровень 19<br>Тыквенный Пирог',
-          imageUrl: 'https://placehold.co/60x60/ffcc80/e65100?text=Lvl+19', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-19',
-        },
-        {
-          id: 'cookingdom-game-level-20',
-          title: 'Уровень 20<br>Жареная Индейка',
-          imageUrl: 'https://placehold.co/60x60/efebe9/a1887f?text=Lvl+20', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-20',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_21.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Чай с Молоком и Боба</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 3 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-18',
+      title: 'Уровень 18<br>Рататуй',
+      imageUrl: "/images/guides_18.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } }
+    }, {
+      id: 'cookingdom-game-level-19',
+      title: 'Уровень 19<br>Тыквенный Пирог',
+      imageUrl: "/images/guides_19.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } }
+    }, {
+      id: 'cookingdom-game-level-20',
+      title: 'Уровень 20<br>Жареная Индейка',
+      imageUrl: "/images/guides_20.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom уровень 21 представляет модный и освежающий напиток: Чай с Молоком и Боба. Этот популярный тайваньский напиток, также известный как бабл ти, готовится из чая, молока и жевательных шариков тапиоки. Задача на этом уровне — идеально сбалансировать чай, молоко и сахар, при этом убедившись, что шарики боба приготовлены правильно для получения удовлетворительного и ароматного напитка.</p>
 <p>В Cookingdom ключ к успеху на уровне 21 — точность в заваривании чая, приготовлении шариков боба и быстрой сборке напитка. Давайте погрузимся в шаги и советы по созданию идеального Чая с Молоком и Боба и получению высших оценок!</p>
@@ -2353,52 +2257,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 21 Cookingdom приготовление идеального Чая с Молоком и Боба требует точности в приготовлении шариков тапиоки, заваривании чая и балансировке молока и сладости. Обратите внимание на текстуру боба и убедитесь, что чай и молоко дополняют друг друга для получения удовлетворительного и вкусного напитка.</p>
 <p>При правильной подготовке, идеальных шариках боба и капельке креативности вы сможете произвести впечатление на своих клиентов и продолжить свое путешествие по Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 22
+  id: 'cookingdom-game-level-22',
+  title: 'Уровень 22:<br>Легкий Смузи',
+  pageTitle: 'Cookingdom Уровень 22 - Руководство по Легкому Смузи',
+  pageSubtitle: 'Научитесь смешивать идеальный Легкий Смузи на уровне 22 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_22.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
+  iframeUrl: "https://www.youtube.com/embed/_h0bTaAM-0o",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 22 Руководство: Легкий Смузи | Советы и Стратегия',
+    description: 'Освойте Легкий Смузи на уровне 22 в Cookingdom. Получите советы по выбору фруктов, смешиванию, достижению правильной консистенции и подаче.',
+    keywords: 'Cookingdom, Уровень 22, Легкий Смузи, Здоровый напиток, Смешивание, Фруктовый смузи, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 22
-    id: 'cookingdom-game-level-22',
-    title: 'Уровень 22:<br>Легкий Смузи',
-    pageTitle: 'Cookingdom Уровень 22 - Руководство по Легкому Смузи',
-    pageSubtitle: 'Научитесь смешивать идеальный Легкий Смузи на уровне 22 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-22',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 22 Руководство: Легкий Смузи | Советы и Стратегия',
-      description:
-        'Освойте Легкий Смузи на уровне 22 в Cookingdom. Получите советы по выбору фруктов, смешиванию, достижению правильной консистенции и подаче.',
-      keywords:
-        'Cookingdom, Уровень 22, Легкий Смузи, Здоровый напиток, Смешивание, Фруктовый смузи, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/c8e6c9/4caf50?text=Level+22+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Легкий Смузи</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-19',
-          title: 'Уровень 19<br>Тыквенный Пирог',
-          imageUrl: 'https://placehold.co/60x60/ffcc80/e65100?text=Lvl+19', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-19',
-        },
-        {
-          id: 'cookingdom-game-level-20',
-          title: 'Уровень 20<br>Жареная Индейка',
-          imageUrl: 'https://placehold.co/60x60/efebe9/a1887f?text=Lvl+20', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-20',
-        },
-        {
-          id: 'cookingdom-game-level-21',
-          title: 'Уровень 21<br>Чай с Молоком и Боба',
-          imageUrl: 'https://placehold.co/60x60/d1c4e9/5e35b1?text=Lvl+21', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-21',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_22.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Легкий Смузи</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-19',
+      title: 'Уровень 19<br>Тыквенный Пирог',
+      imageUrl: "/images/guides_19.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } }
+    }, {
+      id: 'cookingdom-game-level-20',
+      title: 'Уровень 20<br>Жареная Индейка',
+      imageUrl: "/images/guides_20.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } }
+    }, {
+      id: 'cookingdom-game-level-21',
+      title: 'Уровень 21<br>Чай с Молоком и Боба',
+      imageUrl: "/images/guides_21.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>В Cookingdom уровень 22 представляет вкусное и здоровое угощение: Легкий Смузи. Этот освежающий напиток идеально подходит для быстрого и питательного перекуса, и все дело в балансировке нужного количества фруктов, йогурта и других ингредиентов для создания кремовой, гладкой и ароматной смеси. Цель — быстро приготовить идеальный смузи, чтобы удовлетворить ваших клиентов и перейти на следующий уровень.</p>
 <p>В Cookingdom уровень Легкого Смузи сосредоточен на приготовлении освежающего напитка с точностью. Вам нужно будет выбрать правильные фрукты, идеально их смешать и подать с правильной консистенцией. Будь то тропический смузи с манго или ягодный взрыв, ключ к успеху заключается в получении правильной текстуры и вкуса.</p>
@@ -2482,53 +2385,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 22 Cookingdom приготовление Легкого Смузи — это выбор правильных фруктов, их смешивание с кремовой основой и достижение идеальной консистенции. Поддерживайте гладкую текстуру, регулируйте сладость и подавайте холодным с декоративным штрихом для максимального удовлетворения клиентов.</p>
 <p>Овладение Легким Смузи не только улучшит ваши навыки в Cookingdom, но и подготовит вас к успеху на будущих уровнях, где вы будете создавать еще более сложные блюда и напитки!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 23
+  id: 'cookingdom-game-level-23',
+  title: 'Уровень 23:<br>Рождественское Полено',
+  pageTitle: 'Cookingdom Уровень 23 - Руководство по Рождественскому Полену',
+  pageSubtitle: 'Освойте праздничное Рождественское Полено (Bûche de Noël) на уровне 23 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_23.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
+  iframeUrl: "https://www.youtube.com/embed/FCFq9xRRobo",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 23 Руководство: Рождественское Полено | Советы и Стратегия',
+    description: 'Освойте Рождественское Полено на уровне 23 в Cookingdom. Получите советы по выпечке бисквита, скручиванию, начинке, глазури и украшению этого классического праздничного десерта.',
+    keywords: 'Cookingdom, Уровень 23, Рождественское Полено, Bûche de Noël, Праздничный десерт, Руководство по выпечке, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 23
-    id: 'cookingdom-game-level-23',
-    title: 'Уровень 23:<br>Рождественское Полено',
-    pageTitle: 'Cookingdom Уровень 23 - Руководство по Рождественскому Полену',
-    pageSubtitle:
-      'Освойте праздничное Рождественское Полено (Bûche de Noël) на уровне 23 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-23',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 23 Руководство: Рождественское Полено | Советы и Стратегия',
-      description:
-        'Освойте Рождественское Полено на уровне 23 в Cookingdom. Получите советы по выпечке бисквита, скручиванию, начинке, глазури и украшению этого классического праздничного десерта.',
-      keywords:
-        'Cookingdom, Уровень 23, Рождественское Полено, Bûche de Noël, Праздничный десерт, Руководство по выпечке, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/bcaaa4/6d4c41?text=Level+23+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Рождественское Полено</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-20',
-          title: 'Уровень 20<br>Жареная Индейка',
-          imageUrl: 'https://placehold.co/60x60/efebe9/a1887f?text=Lvl+20', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-20',
-        },
-        {
-          id: 'cookingdom-game-level-21',
-          title: 'Уровень 21<br>Чай с Молоком и Боба',
-          imageUrl: 'https://placehold.co/60x60/d1c4e9/5e35b1?text=Lvl+21', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-21',
-        },
-        {
-          id: 'cookingdom-game-level-22',
-          title: 'Уровень 22<br>Легкий Смузи',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+22', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-22',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_23.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Рождественское Полено</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-20',
+      title: 'Уровень 20<br>Жареная Индейка',
+      imageUrl: "/images/guides_20.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } }
+    }, {
+      id: 'cookingdom-game-level-21',
+      title: 'Уровень 21<br>Чай с Молоком и Боба',
+      imageUrl: "/images/guides_21.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } }
+    }, {
+      id: 'cookingdom-game-level-22',
+      title: 'Уровень 22<br>Легкий Смузи',
+      imageUrl: "/images/guides_22.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>Добро пожаловать на уровень 23 игры Cookingdom, где ваши навыки выпечки будут проверены классическим праздничным десертом – Рождественским Поленом (также известным как Bûche de Noël). Этот уровень бросает вызов игрокам: нужно аккуратно испечь, свернуть и украсить праздничный бисквитный рулет, наполненный кремом и покрытый насыщенным шоколадом. Точность и время — ключ к завершению этого сложного десерта и восхищению ваших виртуальных клиентов.</p>
 <p>Руководства по прохождению Cookingdom помогут вам пройти каждый шаг этого уровня, чтобы ваше Рождественское Полено было не только вкусным, но и привлекательным внешне.</p>
@@ -2610,53 +2511,51 @@ export const guidesRu = [
 
 <h2 id="summary">Резюме</h2>
 <p>На уровне 23 Cookingdom освоение Рождественского Полена означает баланс между навыками выпечки, точностью времени и креативностью. От взбивания идеального бисквита до украшения торта в праздничном стиле — этот уровень проверяет все, чему вы научились до сих пор. С помощью руководств по прохождению Cookingdom вы проложите себе путь к победе и подарите своим клиентам праздничное настроение!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 24
+  id: 'cookingdom-game-level-24',
+  title: 'Уровень 24:<br>Фо Бо (Говяжий Фо)',
+  pageTitle: 'Cookingdom Уровень 24 - Руководство по Фо Бо',
+  pageSubtitle: 'Овладейте искусством приготовления вкусного вьетнамского супа Фо Бо на уровне 24 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_24.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
+  iframeUrl: "https://www.youtube.com/embed/iKRnARMMl_0",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 24 Руководство: Фо Бо | Советы и Стратегия',
+    description: 'Освойте Фо Бо на уровне 24 в Cookingdom. Получите советы по варке бульона, приготовлению лапши, нарезке говядины и сборке этого ароматного вьетнамского супа.',
+    keywords: 'Cookingdom, Уровень 24, Фо Бо, Вьетнамский суп, Суп с лапшой, Варка бульона, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 24
-    id: 'cookingdom-game-level-24',
-    title: 'Уровень 24:<br>Фо Бо (Говяжий Фо)',
-    pageTitle: 'Cookingdom Уровень 24 - Руководство по Фо Бо',
-    pageSubtitle:
-      'Овладейте искусством приготовления вкусного вьетнамского супа Фо Бо на уровне 24 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-24',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 24 Руководство: Фо Бо | Советы и Стратегия',
-      description:
-        'Освойте Фо Бо на уровне 24 в Cookingdom. Получите советы по варке бульона, приготовлению лапши, нарезке говядины и сборке этого ароматного вьетнамского супа.',
-      keywords:
-        'Cookingdom, Уровень 24, Фо Бо, Вьетнамский суп, Суп с лапшой, Варка бульона, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/e8f5e9/388e3c?text=Level+24+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Фо Бо</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-21',
-          title: 'Уровень 21<br>Чай с Молоком и Боба',
-          imageUrl: 'https://placehold.co/60x60/d1c4e9/5e35b1?text=Lvl+21', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-21',
-        },
-        {
-          id: 'cookingdom-game-level-22',
-          title: 'Уровень 22<br>Легкий Смузи',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+22', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-22',
-        },
-        {
-          id: 'cookingdom-game-level-23',
-          title: 'Уровень 23<br>Рождественское Полено',
-          imageUrl: 'https://placehold.co/60x60/bcaaa4/6d4c41?text=Lvl+23', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-23',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_24.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Фо Бо</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-21',
+      title: 'Уровень 21<br>Чай с Молоком и Боба',
+      imageUrl: "/images/guides_21.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } }
+    }, {
+      id: 'cookingdom-game-level-22',
+      title: 'Уровень 22<br>Легкий Смузи',
+      imageUrl: "/images/guides_22.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } }
+    }, {
+      id: 'cookingdom-game-level-23',
+      title: 'Уровень 23<br>Рождественское Полено',
+      imageUrl: "/images/guides_23.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 24 Cookingdom вы познакомитесь с Фо Бо, вкусным и ароматным вьетнамским супом с лапшой. Сложность здесь заключается в идеальном приготовлении бульона, правильной варке говядины и сборке блюда со всеми необходимыми гарнирами. Сочетание ароматных трав, рисовой лапши и тонко нарезанной говядины делает это блюдо любимым, и в Cookingdom все дело в том, чтобы правильно выполнить каждый шаг, чтобы ваши клиенты остались довольны.</p>
 <p>Этот уровень требует точности и внимания к деталям, так как Фо Бо включает в себя несколько этапов: варка бульона, приготовление лапши и обеспечение правильной степени готовности говядины. Руководства по прохождению игры Cookingdom предоставят вам пошаговые инструкции для успешного прохождения этого уровня.</p>
@@ -2728,52 +2627,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 24 Cookingdom приготовление Фо Бо включает в себя идеальный баланс ингредиентов, времени и подачи. От варки ароматного бульона до сборки блюда с правильными гарнирами — этот уровень требует внимания к деталям. Следуя руководствам по прохождению Cookingdom, вы узнаете, как правильно приготовить бульон, идеально сварить ломтики говядины и собрать фо с правильным сочетанием трав и специй.</p>
 <p>С терпением и практикой вы овладеете Фо Бо и продолжите свое путешествие по захватывающему и вкусному миру Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 25
+  id: 'cookingdom-game-level-25',
+  title: 'Уровень 25:<br>Пицца',
+  pageTitle: 'Cookingdom Уровень 25 - Руководство по Пицце',
+  pageSubtitle: 'Научитесь готовить идеальную Пиццу с нуля на уровне 25 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_25.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
+  iframeUrl: "https://www.youtube.com/embed/BJJ9KEWeJBc",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 25 Руководство: Пицца | Советы и Стратегия',
+    description: 'Освойте приготовление Пиццы на уровне 25 в Cookingdom. Получите советы по тесту, соусу, начинкам, выпечке и подаче идеальной пиццы.',
+    keywords: 'Cookingdom, Уровень 25, Пицца, Тесто для пиццы, Выпечка, Начинки, Итальянская кухня, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 25
-    id: 'cookingdom-game-level-25',
-    title: 'Уровень 25:<br>Пицца',
-    pageTitle: 'Cookingdom Уровень 25 - Руководство по Пицце',
-    pageSubtitle: 'Научитесь готовить идеальную Пиццу с нуля на уровне 25 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-25',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 25 Руководство: Пицца | Советы и Стратегия',
-      description:
-        'Освойте приготовление Пиццы на уровне 25 в Cookingdom. Получите советы по тесту, соусу, начинкам, выпечке и подаче идеальной пиццы.',
-      keywords:
-        'Cookingdom, Уровень 25, Пицца, Тесто для пиццы, Выпечка, Начинки, Итальянская кухня, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffccbc/ff5722?text=Level+25+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Пицца</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-22',
-          title: 'Уровень 22<br>Легкий Смузи',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+22', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-22',
-        },
-        {
-          id: 'cookingdom-game-level-23',
-          title: 'Уровень 23<br>Рождественское Полено',
-          imageUrl: 'https://placehold.co/60x60/bcaaa4/6d4c41?text=Lvl+23', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-23',
-        },
-        {
-          id: 'cookingdom-game-level-24',
-          title: 'Уровень 24<br>Фо Бо',
-          imageUrl: 'https://placehold.co/60x60/e8f5e9/388e3c?text=Lvl+24', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-24',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_25.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Пицца</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-22',
+      title: 'Уровень 22<br>Легкий Смузи',
+      imageUrl: "/images/guides_22.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } }
+    }, {
+      id: 'cookingdom-game-level-23',
+      title: 'Уровень 23<br>Рождественское Полено',
+      imageUrl: "/images/guides_23.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } }
+    }, {
+      id: 'cookingdom-game-level-24',
+      title: 'Уровень 24<br>Фо Бо',
+      imageUrl: "/images/guides_24.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 25 Cookingdom вам поручено приготовить одно из самых популярных и универсальных блюд: <a href="/level-1" title="Уровень 1 Пицца">Пиццу</a>. Этот уровень бросает вам вызов: приготовить идеальную пиццу с нуля, создав тесто, подготовив начинки и выпекая ее до золотистой хрустящей корочки. С разнообразием доступных начинок Cookingdom проверяет ваши навыки в балансировке вкусов и текстур для создания непревзойденной пиццы.</p>
 <p>Цель состоит в том, чтобы ваша пицца была идеально приготовлена, с хрустящей корочкой, равномерно распределенными начинками и нужным количеством сыра и соуса. В этом руководстве по прохождению Cookingdom мы разберем каждый шаг, который вам нужно предпринять, чтобы освоить уровень 25 и удовлетворить ваших клиентов.</p>
@@ -2861,52 +2759,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>Уровень 25 Cookingdom бросает вам вызов: приготовить идеальную Пиццу с нуля, от подготовки теста до добавления идеального количества сыра и начинок. Ключ к успеху — балансировка вкусов и текстур, обеспечение хрустящей корочки и правильного расплавления сыра.</p>
 <p>Следуя руководствам по прохождению Cookingdom, вы сможете освоить каждый шаг, от подготовки теста до финальной выпечки. Как только вы усовершенствуете свои навыки приготовления пиццы, вы будете готовы взяться за еще более сложные блюда на будущих уровнях.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 26
+  id: 'cookingdom-game-level-26',
+  title: 'Уровень 26:<br>Смузи',
+  pageTitle: 'Cookingdom Уровень 26 - Руководство по Смузи',
+  pageSubtitle: 'Научитесь смешивать идеальный Смузи на уровне 26 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_26.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
+  iframeUrl: "https://www.youtube.com/embed/BK2eYJhoKl8",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 26 Руководство: Смузи | Советы и Стратегия',
+    description: 'Освойте Смузи на уровне 26 в Cookingdom. Получите советы по выбору фруктов, жидкостей, смешиванию до нужной консистенции и украшению.',
+    keywords: 'Cookingdom, Уровень 26, Смузи, Здоровый напиток, Смешивание, Фруктовый напиток, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 26
-    id: 'cookingdom-game-level-26',
-    title: 'Уровень 26:<br>Смузи',
-    pageTitle: 'Cookingdom Уровень 26 - Руководство по Смузи',
-    pageSubtitle: 'Научитесь смешивать идеальный Смузи на уровне 26 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-26',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 26 Руководство: Смузи | Советы и Стратегия',
-      description:
-        'Освойте Смузи на уровне 26 в Cookingdom. Получите советы по выбору фруктов, жидкостей, смешиванию до нужной консистенции и украшению.',
-      keywords:
-        'Cookingdom, Уровень 26, Смузи, Здоровый напиток, Смешивание, Фруктовый напиток, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/b3e5fc/01579b?text=Level+26+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Смузи</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-23',
-          title: 'Уровень 23<br>Рождественское Полено',
-          imageUrl: 'https://placehold.co/60x60/bcaaa4/6d4c41?text=Lvl+23', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-23',
-        },
-        {
-          id: 'cookingdom-game-level-24',
-          title: 'Уровень 24<br>Фо Бо',
-          imageUrl: 'https://placehold.co/60x60/e8f5e9/388e3c?text=Lvl+24', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-24',
-        },
-        {
-          id: 'cookingdom-game-level-25',
-          title: 'Уровень 25<br>Пицца',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+25', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-25',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_26.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Смузи</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 2 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-23',
+      title: 'Уровень 23<br>Рождественское Полено',
+      imageUrl: "/images/guides_23.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } }
+    }, {
+      id: 'cookingdom-game-level-24',
+      title: 'Уровень 24<br>Фо Бо',
+      imageUrl: "/images/guides_24.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } }
+    }, {
+      id: 'cookingdom-game-level-25',
+      title: 'Уровень 25<br>Пицца',
+      imageUrl: "/images/guides_25.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 26 Cookingdom вам поручено приготовить <a href="/level-22" title="Уровень 22 Смузи">Смузи</a>, освежающее и здоровое угощение. Этот уровень фокусируется на смешивании правильных ингредиентов для создания гладкой, кремовой текстуры, которая не слишком густая и не слишком жидкая. Вам нужно будет тщательно выбирать фрукты, жидкости и добавки, чтобы получить идеальный баланс вкусов. Cookingdom бросает вам вызов: точно комбинировать ингредиенты, чтобы удовлетворить вкусовые рецепторы ваших виртуальных клиентов.</p>
 <p>Это руководство проведет вас через этапы приготовления идеального смузи в Cookingdom, гарантируя, что ваше творение будет одновременно вкусным и привлекательным внешне.</p>
@@ -2996,52 +2893,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 26 Cookingdom приготовление идеального Смузи требует правильного баланса фруктов, жидкостей и необязательных ингредиентов, смешанных до совершенства. Независимо от того, создаете ли вы тропический смузи с манго и ананасом или ягодный напиток с клубникой и черникой, этот уровень посвящен точности и креативности.</p>
 <p>Следуя руководствам по прохождению Cookingdom, вы быстро освоите приготовление смузи. Добейтесь нужной консистенции, стильно украсьте свой смузи и подайте вкусное угощение, которое порадует ваших клиентов!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 27
+  id: 'cookingdom-game-level-27',
+  title: 'Уровень 27:<br>Сэндвич',
+  pageTitle: 'Cookingdom Уровень 27 - Руководство по Сэндвичу',
+  pageSubtitle: 'Научитесь собирать идеальный Сэндвич на уровне 27 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_27.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
+  iframeUrl: "https://www.youtube.com/embed/vWz6SmiMBk0",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 27 Руководство: Сэндвич | Советы и Стратегия',
+    description: 'Освойте Сэндвич на уровне 27 в Cookingdom. Получите советы по выбору хлеба, белка, овощей, соусов, созданию слоев и подаче.',
+    keywords: 'Cookingdom, Уровень 27, Сэндвич, Быстрая еда, Слои, Хлеб, Белок, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 27
-    id: 'cookingdom-game-level-27',
-    title: 'Уровень 27:<br>Сэндвич',
-    pageTitle: 'Cookingdom Уровень 27 - Руководство по Сэндвичу',
-    pageSubtitle: 'Научитесь собирать идеальный Сэндвич на уровне 27 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-27',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 27 Руководство: Сэндвич | Советы и Стратегия',
-      description:
-        'Освойте Сэндвич на уровне 27 в Cookingdom. Получите советы по выбору хлеба, белка, овощей, соусов, созданию слоев и подаче.',
-      keywords:
-        'Cookingdom, Уровень 27, Сэндвич, Быстрая еда, Слои, Хлеб, Белок, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fff9c4/fbc02d?text=Level+27+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Сэндвич</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 3 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-24',
-          title: 'Уровень 24<br>Фо Бо',
-          imageUrl: 'https://placehold.co/60x60/e8f5e9/388e3c?text=Lvl+24', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-24',
-        },
-        {
-          id: 'cookingdom-game-level-25',
-          title: 'Уровень 25<br>Пицца',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+25', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-25',
-        },
-        {
-          id: 'cookingdom-game-level-26',
-          title: 'Уровень 26<br>Смузи',
-          imageUrl: 'https://placehold.co/60x60/b3e5fc/01579b?text=Lvl+26', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-26',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_27.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Сэндвич</h3><p><strong>Сложность:</strong> Легко</p><p><strong>Примерное время:</strong> 3 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-24',
+      title: 'Уровень 24<br>Фо Бо',
+      imageUrl: "/images/guides_24.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } }
+    }, {
+      id: 'cookingdom-game-level-25',
+      title: 'Уровень 25<br>Пицца',
+      imageUrl: "/images/guides_25.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } }
+    }, {
+      id: 'cookingdom-game-level-26',
+      title: 'Уровень 26<br>Смузи',
+      imageUrl: "/images/guides_26.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 27 Cookingdom вам поручено приготовить вкусный Сэндвич, быструю, но сытную еду. Хотя это может показаться простым, приготовление идеального сэндвича в Cookingdom включает выбор правильной комбинации ингредиентов и их сборку таким образом, чтобы порадовать ваших клиентов. Этот уровень бросает вызов вашей креативности, балансу вкусов и способности создавать слои ингредиентов для максимального удовлетворения.</p>
 <p>Ваш сэндвич должен иметь хрустящее, ароматное сочетание хлеба, белка, овощей и соусов. Важно правильно расположить слои, чтобы каждый укус был сбалансированным и вкусным. Это руководство проведет вас через каждый шаг, чтобы вы освоили уровень 27 Cookingdom и доставили идеальный сэндвич.</p>
@@ -3120,52 +3016,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 27 Cookingdom приготовление идеального Сэндвича — это баланс и внимание к деталям. От выбора правильного хлеба до добавления идеального белка, овощей, соусов и сыра — каждый шаг должен быть выполнен тщательно, чтобы создать сытный сэндвич.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете создать вкусный и хорошо собранный сэндвич, который полюбят ваши клиенты. Не забывайте следить за их предпочтениями, поджаривать хлеб для дополнительного хруста и всегда подавать свежим!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 28
+  id: 'cookingdom-game-level-28',
+  title: 'Уровень 28:<br>Круассан',
+  pageTitle: 'Cookingdom Уровень 28 - Руководство по Круассану',
+  pageSubtitle: 'Научитесь готовить идеальный слоеный Круассан на уровне 28 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_28.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
+  iframeUrl: "https://www.youtube.com/embed/c0TZorOkxWU",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 28 Руководство: Круассан | Советы и Стратегия',
+    description: 'Освойте Круассан на уровне 28 в Cookingdom. Получите советы по приготовлению теста, ламинированию, формовке, расстойке и выпечке этой классической французской выпечки.',
+    keywords: 'Cookingdom, Уровень 28, Круассан, Французская выпечка, Выпечка, Ламинирование, Тесто, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 28
-    id: 'cookingdom-game-level-28',
-    title: 'Уровень 28:<br>Круассан',
-    pageTitle: 'Cookingdom Уровень 28 - Руководство по Круассану',
-    pageSubtitle: 'Научитесь готовить идеальный слоеный Круассан на уровне 28 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-28',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 28 Руководство: Круассан | Советы и Стратегия',
-      description:
-        'Освойте Круассан на уровне 28 в Cookingdom. Получите советы по приготовлению теста, ламинированию, формовке, расстойке и выпечке этой классической французской выпечки.',
-      keywords:
-        'Cookingdom, Уровень 28, Круассан, Французская выпечка, Выпечка, Ламинирование, Тесто, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/fff176/fbc02d?text=Level+28+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Круассан</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-25',
-          title: 'Уровень 25<br>Пицца',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+25', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-25',
-        },
-        {
-          id: 'cookingdom-game-level-26',
-          title: 'Уровень 26<br>Смузи',
-          imageUrl: 'https://placehold.co/60x60/b3e5fc/01579b?text=Lvl+26', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-26',
-        },
-        {
-          id: 'cookingdom-game-level-27',
-          title: 'Уровень 27<br>Сэндвич',
-          imageUrl: 'https://placehold.co/60x60/fff9c4/fbc02d?text=Lvl+27', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-27',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_28.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Круассан</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-25',
+      title: 'Уровень 25<br>Пицца',
+      imageUrl: "/images/guides_25.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } }
+    }, {
+      id: 'cookingdom-game-level-26',
+      title: 'Уровень 26<br>Смузи',
+      imageUrl: "/images/guides_26.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } }
+    }, {
+      id: 'cookingdom-game-level-27',
+      title: 'Уровень 27<br>Сэндвич',
+      imageUrl: "/images/guides_27.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 28 Cookingdom вам поручено приготовить Круассан, классическую французскую выпечку, известную своими слоеными, маслянистыми слоями. Этот уровень фокусируется на точности, так как приготовление идеального круассана требует хорошего баланса ингредиентов, тщательной подготовки и внимания ко времени выпечки. Cookingdom бросает вам вызов: усовершенствовать технику создания этой нежной выпечки, гарантируя, что каждый круассан будет золотистым, хрустящим и нежным внутри.</p>
 <p>Это руководство проведет вас через процесс приготовления традиционного круассана, от подготовки теста до его идеальной выпечки.</p>
@@ -3245,52 +3140,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 28 Cookingdom приготовление идеального Круассана включает в себя баланс техники и времени. От создания теста до его складывания и ламинирования для формирования слоев — каждый шаг важен для достижения классической слоеной текстуры. Не забудьте финальный штрих: выпечка круассанов до золотисто-коричневого цвета и подача их свежими и теплыми.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете овладеть искусством приготовления круассанов и произвести впечатление на своих клиентов этой вкусной, маслянистой выпечкой. Как только вы усовершенствуете этот навык, вы будете готовы взяться за еще более сложные уровни в Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 29
+  id: 'cookingdom-game-level-29',
+  title: 'Уровень 29:<br>Матча Боба Чай',
+  pageTitle: 'Cookingdom Уровень 29 - Руководство по Матча Боба Чаю',
+  pageSubtitle: 'Научитесь готовить модный Матча Боба Чай на уровне 29 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_29.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
+  iframeUrl: "https://www.youtube.com/embed/BI4QGcm-kDM",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 29 Руководство: Матча Боба Чай | Советы и Стратегия',
+    description: 'Освойте Матча Боба Чай на уровне 29 в Cookingdom. Получите советы по приготовлению шариков боба, смешиванию матча, добавлению молока и сборке этого популярного напитка.',
+    keywords: 'Cookingdom, Уровень 29, Матча Боба Чай, Боба, Матча, Бабл Чай, Напиток, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 29
-    id: 'cookingdom-game-level-29',
-    title: 'Уровень 29:<br>Матча Боба Чай',
-    pageTitle: 'Cookingdom Уровень 29 - Руководство по Матча Боба Чаю',
-    pageSubtitle: 'Научитесь готовить модный Матча Боба Чай на уровне 29 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-29',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 29 Руководство: Матча Боба Чай | Советы и Стратегия',
-      description:
-        'Освойте Матча Боба Чай на уровне 29 в Cookingdom. Получите советы по приготовлению шариков боба, смешиванию матча, добавлению молока и сборке этого популярного напитка.',
-      keywords:
-        'Cookingdom, Уровень 29, Матча Боба Чай, Боба, Матча, Бабл Чай, Напиток, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/c8e6c9/4caf50?text=Level+29+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Матча Боба Чай</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-26',
-          title: 'Уровень 26<br>Смузи',
-          imageUrl: 'https://placehold.co/60x60/b3e5fc/01579b?text=Lvl+26', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-26',
-        },
-        {
-          id: 'cookingdom-game-level-27',
-          title: 'Уровень 27<br>Сэндвич',
-          imageUrl: 'https://placehold.co/60x60/fff9c4/fbc02d?text=Lvl+27', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-27',
-        },
-        {
-          id: 'cookingdom-game-level-28',
-          title: 'Уровень 28<br>Круассан',
-          imageUrl: 'https://placehold.co/60x60/fff176/fbc02d?text=Lvl+28', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-28',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_29.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Матча Боба Чай</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-26',
+      title: 'Уровень 26<br>Смузи',
+      imageUrl: "/images/guides_26.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } }
+    }, {
+      id: 'cookingdom-game-level-27',
+      title: 'Уровень 27<br>Сэндвич',
+      imageUrl: "/images/guides_27.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } }
+    }, {
+      id: 'cookingdom-game-level-28',
+      title: 'Уровень 28<br>Круассан',
+      imageUrl: "/images/guides_28.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 29 Cookingdom вы будете готовить модный и вкусный Матча Боба Чай! Этот популярный напиток сочетает в себе землистый, насыщенный вкус матча с жевательными шариками боба, создавая сладкий и сытный напиток. Задача на этом уровне - сбалансировать отчетливый вкус матча с гладкостью молока и жевательной текстурой боба. Ваша цель - приготовить идеальную чашку Матча Боба Чая, которая понравится вашим клиентам.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления идеального Матча Боба Чая, от варки шариков боба до смешивания матча и молока и подачи его в стильном виде.</p>
@@ -3365,52 +3259,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 29 Cookingdom приготовление идеального Матча Боба Чая заключается в балансировании вкуса матча с текстурой жевательных шариков боба и кремовостью молока. Следуйте шагам, чтобы убедиться, что боба приготовлены правильно, матча хорошо перемешан, а напиток идеально подслащен. Обращайте внимание на мелкие детали, такие как использование правильного молока и подсластителя, чтобы сделать ваш Матча Боба Чай действительно исключительным.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете приготовить идеальный Матча Боба Чай, который понравится вашим клиентам, приближая вас на один шаг к овладению искусством приготовления напитков в Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 30
+  id: 'cookingdom-game-level-30',
+  title: 'Уровень 30:<br>Донер Кебаб',
+  pageTitle: 'Cookingdom Уровень 30 - Руководство по Донер Кебабу',
+  pageSubtitle: 'Научитесь готовить классический Донер Кебаб на уровне 30 в Cookingdom.',
+  category: '21-30',
+  isSpecial: false,
+  imageUrl: "/images/guides_30.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
+  iframeUrl: "https://www.youtube.com/embed/6l1-yu8zZKs",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 30 Руководство: Донер Кебаб | Советы и Стратегия',
+    description: 'Освойте Донер Кебаб на уровне 30 в Cookingdom. Получите советы по обжарке мяса, приготовлению начинки, сборке и подаче этого популярного турецкого уличного блюда.',
+    keywords: 'Cookingdom, Уровень 30, Донер Кебаб, Кебаб, Турецкая еда, Уличная еда, Гриль, Пита, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 30
-    id: 'cookingdom-game-level-30',
-    title: 'Уровень 30:<br>Донер Кебаб',
-    pageTitle: 'Cookingdom Уровень 30 - Руководство по Донер Кебабу',
-    pageSubtitle: 'Научитесь готовить классический Донер Кебаб на уровне 30 в Cookingdom.',
-    category: '21-30',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-30',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 30 Руководство: Донер Кебаб | Советы и Стратегия',
-      description:
-        'Освойте Донер Кебаб на уровне 30 в Cookingdom. Получите советы по обжарке мяса, приготовлению начинки, сборке и подаче этого популярного турецкого уличного блюда.',
-      keywords:
-        'Cookingdom, Уровень 30, Донер Кебаб, Кебаб, Турецкая еда, Уличная еда, Гриль, Пита, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffccbc/ff5722?text=Level+30+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Донер Кебаб</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-27',
-          title: 'Уровень 27<br>Сэндвич',
-          imageUrl: 'https://placehold.co/60x60/fff9c4/fbc02d?text=Lvl+27', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-27',
-        },
-        {
-          id: 'cookingdom-game-level-28',
-          title: 'Уровень 28<br>Круассан',
-          imageUrl: 'https://placehold.co/60x60/fff176/fbc02d?text=Lvl+28', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-28',
-        },
-        {
-          id: 'cookingdom-game-level-29',
-          title: 'Уровень 29<br>Матча Боба Чай',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+29', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-29',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_30.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Донер Кебаб</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-27',
+      title: 'Уровень 27<br>Сэндвич',
+      imageUrl: "/images/guides_27.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } }
+    }, {
+      id: 'cookingdom-game-level-28',
+      title: 'Уровень 28<br>Круассан',
+      imageUrl: "/images/guides_28.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } }
+    }, {
+      id: 'cookingdom-game-level-29',
+      title: 'Уровень 29<br>Матча Боба Чай',
+      imageUrl: "/images/guides_29.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 30 Cookingdom вам поручено приготовить классическое и любимое блюдо: Донер Кебаб! Это популярное турецкое уличное блюдо состоит из ароматного мяса (обычно баранины, курицы или говядины), свежих овощей и вкусных соусов, завернутых в теплую питу или лепешку. Задача на этом уровне - идеально обжарить мясо, собрать начинку и убедиться, что кебаб ароматный и хорошо сбалансированный.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления Донер Кебаба, гарантируя, что вы выполните все цели и подадите вкусное и сытное блюдо своим клиентам.</p>
@@ -3484,52 +3377,52 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 30 Cookingdom приготовление идеального Донер Кебаба включает обжарку мяса до хрустящей золотистой корочки, подготовку свежих овощей и балансировку правильных соусов для создания пикантного и сытного блюда. Следуя этому руководству и обращая внимание на детали, вы сможете собрать вкусный и хорошо сбалансированный кебаб, который понравится вашим клиентам.</p>
 <p>Помните, Cookingdom - это все о балансе между текстурой, вкусом и подачей. Совершенствуйте свою технику обжарки, нанесения соуса и заворачивания, и вы будете подавать лучшие Донер Кебабы в городе!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 31
+  id: 'cookingdom-game-level-31',
+  title: 'Уровень 31:<br>Кафе Мокка',
+  pageTitle: 'Cookingdom Уровень 31 - Руководство по Кафе Мокка',
+  pageSubtitle: 'Научитесь готовить идеальный Кафе Мокка на уровне 31 в Cookingdom.',
+  category: '31-40',
+  // Начало новой категории
+  isSpecial: false,
+  imageUrl: "/images/guides_31.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
+  iframeUrl: "https://www.youtube.com/embed/iq0t6XrkgF0",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 31 Руководство: Кафе Мокка | Советы и Стратегия',
+    description: 'Освойте Кафе Мокка на уровне 31 в Cookingdom. Получите советы по приготовлению эспрессо, подготовке шоколада, взбиванию молока и сборке этого классического кофейного напитка.',
+    keywords: 'Cookingdom, Уровень 31, Кафе Мокка, Мокка, Кофе, Эспрессо, Шоколад, Напиток, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 31
-    id: 'cookingdom-game-level-31',
-    title: 'Уровень 31:<br>Кафе Мокка',
-    pageTitle: 'Cookingdom Уровень 31 - Руководство по Кафе Мокка',
-    pageSubtitle: 'Научитесь готовить идеальный Кафе Мокка на уровне 31 в Cookingdom.',
-    category: '31-40', // Начало новой категории
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-31',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 31 Руководство: Кафе Мокка | Советы и Стратегия',
-      description:
-        'Освойте Кафе Мокка на уровне 31 в Cookingdom. Получите советы по приготовлению эспрессо, подготовке шоколада, взбиванию молока и сборке этого классического кофейного напитка.',
-      keywords:
-        'Cookingdom, Уровень 31, Кафе Мокка, Мокка, Кофе, Эспрессо, Шоколад, Напиток, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/bcaaa4/795548?text=Level+31+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Кафе Мокка</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-28',
-          title: 'Уровень 28<br>Круассан',
-          imageUrl: 'https://placehold.co/60x60/fff176/fbc02d?text=Lvl+28', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-28',
-        },
-        {
-          id: 'cookingdom-game-level-29',
-          title: 'Уровень 29<br>Матча Боба Чай',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+29', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-29',
-        },
-        {
-          id: 'cookingdom-game-level-30',
-          title: 'Уровень 30<br>Донер Кебаб',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+30', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-30',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_31.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Кафе Мокка</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-28',
+      title: 'Уровень 28<br>Круассан',
+      imageUrl: "/images/guides_28.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } }
+    }, {
+      id: 'cookingdom-game-level-29',
+      title: 'Уровень 29<br>Матча Боба Чай',
+      imageUrl: "/images/guides_29.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } }
+    }, {
+      id: 'cookingdom-game-level-30',
+      title: 'Уровень 30<br>Донер Кебаб',
+      imageUrl: "/images/guides_30.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 31 Cookingdom вы будете готовить восхитительный и уютный Кафе Мокка, любимый напиток кофеен, сочетающий насыщенный вкус эспрессо, гладкость вспененного молока и роскошь шоколада. Задача на этом уровне - достичь идеального баланса между горечью эспрессо и сладостью шоколада, обеспечивая вашим клиентам кремовый и ароматный опыт.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления идеального Кафе Мокка, от варки эспрессо до взбивания молока и сборки напитка с декадентским слоем шоколада.</p>
@@ -3606,52 +3499,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 31 Cookingdom приготовление идеального Кафе Мокка требует пристального внимания к каждому шагу — от варки насыщенного эспрессо до идеального взбивания молока и балансировки шоколадных вкусов. Ключ к успеху - убедиться, что эспрессо смелый, молоко гладкое, а шоколад добавляет ровно столько сладости, сколько нужно. Хорошо украшенный напиток оставит ваших клиентов счастливыми и заставит их возвращаться снова и снова.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете создать восхитительный и роскошный Кафе Мокка, который произведет впечатление на всех и приблизит вас к овладению искусством приготовления напитков на основе кофе в Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 32
+  id: 'cookingdom-game-level-32',
+  title: 'Уровень 32:<br>Гамбургер',
+  pageTitle: 'Cookingdom Уровень 32 - Руководство по Гамбургеру',
+  pageSubtitle: 'Научитесь собирать классический Гамбургер на уровне 32 в Cookingdom.',
+  category: '31-40',
+  isSpecial: false,
+  imageUrl: "/images/guides_32.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
+  iframeUrl: "https://www.youtube.com/embed/VViL7ptIJUA",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 32 Руководство: Гамбургер | Советы и Стратегия',
+    description: 'Освойте Гамбургер на уровне 32 в Cookingdom. Получите советы по приготовлению котлет, подготовке начинки, поджариванию булочек и сборке этого культового блюда.',
+    keywords: 'Cookingdom, Уровень 32, Гамбургер, Бургер, Говяжья котлета, Гриль, Начинка, Булочки, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 32
-    id: 'cookingdom-game-level-32',
-    title: 'Уровень 32:<br>Гамбургер',
-    pageTitle: 'Cookingdom Уровень 32 - Руководство по Гамбургеру',
-    pageSubtitle: 'Научитесь собирать классический Гамбургер на уровне 32 в Cookingdom.',
-    category: '31-40',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-32',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 32 Руководство: Гамбургер | Советы и Стратегия',
-      description:
-        'Освойте Гамбургер на уровне 32 в Cookingdom. Получите советы по приготовлению котлет, подготовке начинки, поджариванию булочек и сборке этого культового блюда.',
-      keywords:
-        'Cookingdom, Уровень 32, Гамбургер, Бургер, Говяжья котлета, Гриль, Начинка, Булочки, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffccbc/ff5722?text=Level+32+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Гамбургер</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-29',
-          title: 'Уровень 29<br>Матча Боба Чай',
-          imageUrl: 'https://placehold.co/60x60/c8e6c9/4caf50?text=Lvl+29', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-29',
-        },
-        {
-          id: 'cookingdom-game-level-30',
-          title: 'Уровень 30<br>Донер Кебаб',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+30', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-30',
-        },
-        {
-          id: 'cookingdom-game-level-31',
-          title: 'Уровень 31<br>Кафе Мокка',
-          imageUrl: 'https://placehold.co/60x60/bcaaa4/795548?text=Lvl+31', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-31',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_32.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Гамбургер</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-29',
+      title: 'Уровень 29<br>Матча Боба Чай',
+      imageUrl: "/images/guides_29.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } }
+    }, {
+      id: 'cookingdom-game-level-30',
+      title: 'Уровень 30<br>Донер Кебаб',
+      imageUrl: "/images/guides_30.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } }
+    }, {
+      id: 'cookingdom-game-level-31',
+      title: 'Уровень 31<br>Кафе Мокка',
+      imageUrl: "/images/guides_31.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 32 Cookingdom вам поручено приготовить классический и вкусный Гамбургер! Это культовое блюдо состоит из сочной говяжьей котлеты, свежих овощей и ароматных приправ, зажатых между двумя мягкими булочками. Задача на этом уровне - идеально приготовить котлету, собрать бургер с правильными ингредиентами и убедиться, что он одновременно аппетитный и вкусный.</p>
 <p>Это руководство проведет вас через шаги по созданию идеального Гамбургера, от приготовления котлеты до сборки и подачи.</p>
@@ -3731,53 +3623,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 32 Cookingdom создание идеального Гамбургера включает в себя баланс вкусов и текстур — от приготовления говяжьей котлеты до поджаривания булочек и укладки начинки. Ключ кроется в деталях: приготовьте котлету правильно, выберите свежие и хрустящие начинки и поджарьте булочки до совершенства.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете подавать вкусные, хорошо сбалансированные Гамбургеры, которые понравятся вашим клиентам, помогая вам приблизиться к овладению искусством приготовления бургеров в Cookingdom!</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 33
+  id: 'cookingdom-game-level-33',
+  title: 'Уровень 33:<br>Аляскинский Лобстер на Пару',
+  pageTitle: 'Cookingdom Уровень 33 - Руководство по Аляскинскому Лобстеру на Пару',
+  pageSubtitle: 'Научитесь готовить роскошного Аляскинского Лобстера на Пару на уровне 33 в Cookingdom.',
+  category: '31-40',
+  isSpecial: false,
+  imageUrl: "/images/guides_33.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
+  iframeUrl: "https://www.youtube.com/embed/2wdfF1Rzb0M",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 33 Руководство: Аляскинский Лобстер на Пару | Советы и Стратегия',
+    description: 'Освойте Аляскинского Лобстера на Пару на уровне 33 в Cookingdom. Получите советы по подготовке, приготовлению на пару, созданию масляного соуса и подаче этого морского деликатеса.',
+    keywords: 'Cookingdom, Уровень 33, Аляскинский Лобстер на Пару, Лобстер, Морепродукты, Пар, Масляный соус, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 33
-    id: 'cookingdom-game-level-33',
-    title: 'Уровень 33:<br>Аляскинский Лобстер на Пару',
-    pageTitle: 'Cookingdom Уровень 33 - Руководство по Аляскинскому Лобстеру на Пару',
-    pageSubtitle:
-      'Научитесь готовить роскошного Аляскинского Лобстера на Пару на уровне 33 в Cookingdom.',
-    category: '31-40',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-33',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 33 Руководство: Аляскинский Лобстер на Пару | Советы и Стратегия',
-      description:
-        'Освойте Аляскинского Лобстера на Пару на уровне 33 в Cookingdom. Получите советы по подготовке, приготовлению на пару, созданию масляного соуса и подаче этого морского деликатеса.',
-      keywords:
-        'Cookingdom, Уровень 33, Аляскинский Лобстер на Пару, Лобстер, Морепродукты, Пар, Масляный соус, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/f8bbd0/e91e63?text=Level+33+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Аляскинский Лобстер на Пару</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-30',
-          title: 'Уровень 30<br>Донер Кебаб',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+30', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-30',
-        },
-        {
-          id: 'cookingdom-game-level-31',
-          title: 'Уровень 31<br>Кафе Мокка',
-          imageUrl: 'https://placehold.co/60x60/bcaaa4/795548?text=Lvl+31', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-31',
-        },
-        {
-          id: 'cookingdom-game-level-32',
-          title: 'Уровень 32<br>Гамбургер',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+32', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-32',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_33.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Аляскинский Лобстер на Пару</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-30',
+      title: 'Уровень 30<br>Донер Кебаб',
+      imageUrl: "/images/guides_30.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } }
+    }, {
+      id: 'cookingdom-game-level-31',
+      title: 'Уровень 31<br>Кафе Мокка',
+      imageUrl: "/images/guides_31.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } }
+    }, {
+      id: 'cookingdom-game-level-32',
+      title: 'Уровень 32<br>Гамбургер',
+      imageUrl: "/images/guides_32.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 33 Cookingdom вы будете готовить роскошное и аппетитное блюдо: Аляскинский Лобстер на Пару. Этот деликатес известен своим богатым вкусом и нежным мясом, что делает его популярным выбором для любителей морепродуктов. Задача на этом уровне заключается в том, чтобы идеально приготовить лобстера на пару, сохранив его сочность, добавив правильные приправы и подав его с восхитительным масляным соусом, чтобы подчеркнуть естественную сладость мяса лобстера.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления Аляскинского Лобстера на Пару, от подготовки лобстера до его приготовления на пару и подачи с идеальными дополнениями.</p>
@@ -3846,52 +3736,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 33 Cookingdom приготовление Аляскинского Лобстера на Пару заключается в балансировании процесса приготовления на пару, создании ароматного масляного соуса и красивой подаче. Идеальное приготовление лобстера на пару и приготовление правильного масляного соуса приведут к вкусному, нежному и ароматному блюду, которое понравится вашим клиентам.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете каждый раз создавать идеального Аляскинского Лобстера на Пару. Следите за временем приготовления на пару, готовьте насыщенный масляный соус и подавайте его свежим для непревзойденного гастрономического опыта.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 34
+  id: 'cookingdom-game-level-34',
+  title: 'Уровень 34:<br>Королевский Краб',
+  pageTitle: 'Cookingdom Уровень 34 - Руководство по Королевскому Крабу',
+  pageSubtitle: 'Научитесь готовить изысканного Королевского Краба на уровне 34 в Cookingdom.',
+  category: '31-40',
+  isSpecial: false,
+  imageUrl: "/images/guides_34.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
+  iframeUrl: "https://www.youtube.com/embed/1dlwivzYyZg",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 34 Руководство: Королевский Краб | Советы и Стратегия',
+    description: 'Освойте Королевского Краба на уровне 34 в Cookingdom. Получите советы по разделке, приготовлению, созданию соуса и подаче этого роскошного морского блюда.',
+    keywords: 'Cookingdom, Уровень 34, Королевский Краб, Краб, Морепродукты, Пар, Варка, Масляный соус, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 34
-    id: 'cookingdom-game-level-34',
-    title: 'Уровень 34:<br>Королевский Краб',
-    pageTitle: 'Cookingdom Уровень 34 - Руководство по Королевскому Крабу',
-    pageSubtitle: 'Научитесь готовить изысканного Королевского Краба на уровне 34 в Cookingdom.',
-    category: '31-40',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-34',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 34 Руководство: Королевский Краб | Советы и Стратегия',
-      description:
-        'Освойте Королевского Краба на уровне 34 в Cookingdom. Получите советы по разделке, приготовлению, созданию соуса и подаче этого роскошного морского блюда.',
-      keywords:
-        'Cookingdom, Уровень 34, Королевский Краб, Краб, Морепродукты, Пар, Варка, Масляный соус, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffcdd2/f44336?text=Level+34+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Королевский Краб</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-31',
-          title: 'Уровень 31<br>Кафе Мокка',
-          imageUrl: 'https://placehold.co/60x60/bcaaa4/795548?text=Lvl+31', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-31',
-        },
-        {
-          id: 'cookingdom-game-level-32',
-          title: 'Уровень 32<br>Гамбургер',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+32', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-32',
-        },
-        {
-          id: 'cookingdom-game-level-33',
-          title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
-          imageUrl: 'https://placehold.co/60x60/f8bbd0/e91e63?text=Lvl+33', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-33',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_34.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Королевский Краб</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Примерное время:</strong> 6 мин</p><p><strong>Награды:</strong> 5 Звезд</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-31',
+      title: 'Уровень 31<br>Кафе Мокка',
+      imageUrl: "/images/guides_31.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } }
+    }, {
+      id: 'cookingdom-game-level-32',
+      title: 'Уровень 32<br>Гамбургер',
+      imageUrl: "/images/guides_32.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } }
+    }, {
+      id: 'cookingdom-game-level-33',
+      title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
+      imageUrl: "/images/guides_33.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 34 Cookingdom вам поручено приготовить изысканное и королевское блюдо: Королевского Краба. Известный своим нежным и сладким мясом, Королевский Краб - это роскошный выбор морепродуктов, который требует точного обращения и приготовления для достижения идеального баланса текстуры и вкуса. Задача на этом уровне включает не только приготовление краба, но и подготовку идеального соуса, дополняющего богатый, нежный вкус мяса.</p>
 <p>Это руководство проведет вас шаг за шагом через приготовление Королевского Краба, от вскрытия панциря до подачи с идеальным соусом.</p>
@@ -3961,52 +3850,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 34 Cookingdom приготовление Королевского Краба - это все о тонкости и точности. От вскрытия твердого панциря до обеспечения идеального приготовления мяса - каждый шаг имеет решающее значение для создания вкусного и запоминающегося блюда. Сочетайте краба с ароматным масляным соусом и подавайте его свежим с красивым гарниром для идеального завершения.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете овладеть искусством приготовления Королевского Краба и произвести впечатление на своих клиентов этим роскошным морским блюдом. Следите за временем приготовления, готовьте насыщенный соус и украшайте с осторожностью, чтобы создать блюдо, которое будет таким же красивым, как и вкусным.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 35
+  id: 'cookingdom-game-level-35',
+  title: 'Уровень 35:<br>Шоколад',
+  pageTitle: 'Cookingdom Уровень 35 - Руководство по Шоколаду',
+  pageSubtitle: 'Научитесь создавать роскошные Шоколадные лакомства на уровне 35 в Cookingdom.',
+  category: '31-40',
+  isSpecial: false,
+  imageUrl: "/images/guides_35.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
+  iframeUrl: "https://www.youtube.com/embed/3-Cfdyxut48",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 35 Руководство: Шоколад | Советы и Стратегия',
+    description: 'Освойте Шоколадные десерты на уровне 35 в Cookingdom. Получите советы по растапливанию шоколада, приготовлению десертов, таких как мусс или фондю, и украшению.',
+    keywords: 'Cookingdom, Уровень 35, Шоколад, Десерт, Растапливание шоколада, Фондю, Мусс, Торт, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 35
-    id: 'cookingdom-game-level-35',
-    title: 'Уровень 35:<br>Шоколад',
-    pageTitle: 'Cookingdom Уровень 35 - Руководство по Шоколаду',
-    pageSubtitle: 'Научитесь создавать роскошные Шоколадные лакомства на уровне 35 в Cookingdom.',
-    category: '31-40',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-35',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 35 Руководство: Шоколад | Советы и Стратегия',
-      description:
-        'Освойте Шоколадные десерты на уровне 35 в Cookingdom. Получите советы по растапливанию шоколада, приготовлению десертов, таких как мусс или фондю, и украшению.',
-      keywords:
-        'Cookingdom, Уровень 35, Шоколад, Десерт, Растапливание шоколада, Фондю, Мусс, Торт, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/8d6e63/5d4037?text=Level+35+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Шоколад</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-32',
-          title: 'Уровень 32<br>Гамбургер',
-          imageUrl: 'https://placehold.co/60x60/ffccbc/ff5722?text=Lvl+32', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-32',
-        },
-        {
-          id: 'cookingdom-game-level-33',
-          title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
-          imageUrl: 'https://placehold.co/60x60/f8bbd0/e91e63?text=Lvl+33', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-33',
-        },
-        {
-          id: 'cookingdom-game-level-34',
-          title: 'Уровень 34<br>Королевский Краб',
-          imageUrl: 'https://placehold.co/60x60/ffcdd2/f44336?text=Lvl+34', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-34',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_35.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Шоколад</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-32',
+      title: 'Уровень 32<br>Гамбургер',
+      imageUrl: "/images/guides_32.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } }
+    }, {
+      id: 'cookingdom-game-level-33',
+      title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
+      imageUrl: "/images/guides_33.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } }
+    }, {
+      id: 'cookingdom-game-level-34',
+      title: 'Уровень 34<br>Королевский Краб',
+      imageUrl: "/images/guides_34.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 35 Cookingdom вы будете готовить восхитительное и роскошное лакомство: Шоколад! Шоколад - любимый десертный ингредиент, и на этом уровне вам нужно будет создать декадентское блюдо, демонстрирующее его богатые, кремовые и сладкие качества. Независимо от того, растапливаете ли вы шоколад для гладкого фондю или создаете красивый шоколадный десерт, этот уровень посвящен точности и идеальному балансу вкусов.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления идеального Шоколадного блюда, от растапливания шоколада до сборки финального десерта.</p>
@@ -4075,52 +3963,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 35 Cookingdom создание идеального Шоколадного блюда требует пристального внимания к деталям. Независимо от того, растапливаете ли вы шоколад для фондю или используете его для создания декадентского десерта, каждый шаг имеет значение. Обязательно медленно растапливайте шоколад, усиливайте вкус ванилью или солью и красиво подавайте блюдо.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете овладеть искусством приготовления роскошных шоколадных десертов, производя впечатление на своих клиентов каждым сладким творением. Независимо от того, готовите ли вы торт, мусс или фондю, шоколад всегда является выигрышным выбором для любого любителя десертов.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 36
+  id: 'cookingdom-game-level-36',
+  title: 'Уровень 36:<br>Индийское Карри',
+  pageTitle: 'Cookingdom Уровень 36 - Руководство по Индийскому Карри',
+  pageSubtitle: 'Научитесь готовить ароматное Индийское Карри на уровне 36 в Cookingdom.',
+  category: '31-40',
+  isSpecial: false,
+  imageUrl: "/images/guides_36.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+  iframeUrl: "https://www.youtube.com/embed/ME58Cd2FYJ4",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 36 Руководство: Индийское Карри | Советы и Стратегия',
+    description: 'Освойте Индийское Карри на уровне 36 в Cookingdom. Получите советы по подготовке ингредиентов, смешиванию специй, тушению и подаче этого ароматного блюда.',
+    keywords: 'Cookingdom, Уровень 36, Индийское Карри, Карри, Индийская еда, Специи, Тушение, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 36
-    id: 'cookingdom-game-level-36',
-    title: 'Уровень 36:<br>Индийское Карри',
-    pageTitle: 'Cookingdom Уровень 36 - Руководство по Индийскому Карри',
-    pageSubtitle: 'Научитесь готовить ароматное Индийское Карри на уровне 36 в Cookingdom.',
-    category: '31-40',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-36',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 36 Руководство: Индийское Карри | Советы и Стратегия',
-      description:
-        'Освойте Индийское Карри на уровне 36 в Cookingdom. Получите советы по подготовке ингредиентов, смешиванию специй, тушению и подаче этого ароматного блюда.',
-      keywords:
-        'Cookingdom, Уровень 36, Индийское Карри, Карри, Индийская еда, Специи, Тушение, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ffe0b2/ff9800?text=Level+36+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Индийское Карри</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-33',
-          title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
-          imageUrl: 'https://placehold.co/60x60/f8bbd0/e91e63?text=Lvl+33', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-33',
-        },
-        {
-          id: 'cookingdom-game-level-34',
-          title: 'Уровень 34<br>Королевский Краб',
-          imageUrl: 'https://placehold.co/60x60/ffcdd2/f44336?text=Lvl+34', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-34',
-        },
-        {
-          id: 'cookingdom-game-level-35',
-          title: 'Уровень 35<br>Шоколад',
-          imageUrl: 'https://placehold.co/60x60/8d6e63/5d4037?text=Lvl+35', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-35',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_36.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Индийское Карри</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 5 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-33',
+      title: 'Уровень 33<br>Аляскинский Лобстер на Пару',
+      imageUrl: "/images/guides_33.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } }
+    }, {
+      id: 'cookingdom-game-level-34',
+      title: 'Уровень 34<br>Королевский Краб',
+      imageUrl: "/images/guides_34.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } }
+    }, {
+      id: 'cookingdom-game-level-35',
+      title: 'Уровень 35<br>Шоколад',
+      imageUrl: "/images/guides_35.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 36 Cookingdom вы будете готовить ароматное и насыщенное вкусом блюдо: Индийское Карри. Известное своими богатыми, пряными и сложными вкусами, Индийское Карри является любимым блюдом во многих культурах по всему миру. Ключевая задача на этом уровне - создать идеальный баланс специй и ингредиентов, чтобы карри было одновременно ароматным и вкусным. Приготовление включает тушение овощей и мяса в сочетании специй, трав и сливок или кокосового молока, что делает его сытным и ароматным блюдом.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления вкусного и ароматного Индийского Карри, от подготовки специй до подачи с идеальными дополнениями.</p>
@@ -4212,52 +4099,51 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 36 Cookingdom приготовление Индийского Карри заключается в балансировании специй, создании ароматного соуса и тушении всего до тех пор, пока ингредиенты не станут нежными и не пропитаются богатыми вкусами. Независимо от того, используете ли вы курицу, баранину или овощи, ключ к отличному карри заключается в тщательном сочетании специй, правильном времени приготовления и подходящем сопровождении риса или хлеба.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы сможете создать ароматное и насыщенное вкусом Индийское Карри, которое произведет впечатление на ваших клиентов и удовлетворит их вкусовые рецепторы.</p>
-`,
+`
+}, {
+  // Добавляем запись для Уровня 37
+  id: 'cookingdom-game-level-37',
+  title: 'Уровень 37:<br>Рис с Кимчи',
+  pageTitle: 'Cookingdom Уровень 37 - Руководство по Рису с Кимчи',
+  pageSubtitle: 'Научитесь готовить ароматный Рис с Кимчи на уровне 37 в Cookingdom.',
+  category: '31-40',
+  isSpecial: false,
+  imageUrl: "/images/guides_37.webp",
+  // Заполнитель
+  detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+  iframeUrl: "https://www.youtube.com/embed/tFEyZT_-jTM",
+  // Заполнитель
+  seo: {
+    title: 'Cookingdom Уровень 37 Руководство: Рис с Кимчи | Советы и Стратегия',
+    description: 'Освойте Рис с Кимчи на уровне 37 в Cookingdom. Получите советы по подготовке риса, обжарке кимчи, добавлению начинки, такой как жареное яйцо, и подаче этого корейского блюда.',
+    keywords: 'Cookingdom, Уровень 37, Рис с Кимчи, Кимчи, Корейская еда, Жареный рис, Жареное яйцо, Кочуджан, Руководство, Стратегия'
   },
-  {
-    // Добавляем запись для Уровня 37
-    id: 'cookingdom-game-level-37',
-    title: 'Уровень 37:<br>Рис с Кимчи',
-    pageTitle: 'Cookingdom Уровень 37 - Руководство по Рису с Кимчи',
-    pageSubtitle: 'Научитесь готовить ароматный Рис с Кимчи на уровне 37 в Cookingdom.',
-    category: '31-40',
-    isSpecial: false,
-    imageUrl: '/images/placeholder-guide.png', // Заполнитель
-    detailsRoute: '/cookingdom-game-level-37',
-    iframeUrl: 'https://www.youtube.com/embed/placeholder_video_id', // Заполнитель
-    seo: {
-      title: 'Cookingdom Уровень 37 Руководство: Рис с Кимчи | Советы и Стратегия',
-      description:
-        'Освойте Рис с Кимчи на уровне 37 в Cookingdom. Получите советы по подготовке риса, обжарке кимчи, добавлению начинки, такой как жареное яйцо, и подаче этого корейского блюда.',
-      keywords:
-        'Cookingdom, Уровень 37, Рис с Кимчи, Кимчи, Корейская еда, Жареный рис, Жареное яйцо, Кочуджан, Руководство, Стратегия',
-    },
-    sidebarData: {
-      sidebarImageUrl: 'https://placehold.co/300x200/ff8a80/f44336?text=Level+37+Sidebar', // Заполнитель
-      levelInfoHtml:
-        '<h3>Рис с Кимчи</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>', // Оценка
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-34',
-          title: 'Уровень 34<br>Королевский Краб',
-          imageUrl: 'https://placehold.co/60x60/ffcdd2/f44336?text=Lvl+34', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-34',
-        },
-        {
-          id: 'cookingdom-game-level-35',
-          title: 'Уровень 35<br>Шоколад',
-          imageUrl: 'https://placehold.co/60x60/8d6e63/5d4037?text=Lvl+35', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-35',
-        },
-        {
-          id: 'cookingdom-game-level-36',
-          title: 'Уровень 36<br>Индийское Карри',
-          imageUrl: 'https://placehold.co/60x60/ffe0b2/ff9800?text=Lvl+36', // Заполнитель
-          detailsRoute: '/cookingdom-game-level-36',
-        },
-      ],
-    },
-    detailsHtml: `
+  sidebarData: {
+    sidebarImageUrl: "/images/guides_37.webp",
+    // Заполнитель
+    levelInfoHtml: '<h3>Рис с Кимчи</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 4 мин</p><p><strong>Награды:</strong> 4 Звезды</p>',
+    // Оценка
+    featuredGuides: [{
+      id: 'cookingdom-game-level-34',
+      title: 'Уровень 34<br>Королевский Краб',
+      imageUrl: "/images/guides_34.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } }
+    }, {
+      id: 'cookingdom-game-level-35',
+      title: 'Уровень 35<br>Шоколад',
+      imageUrl: "/images/guides_35.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } }
+    }, {
+      id: 'cookingdom-game-level-36',
+      title: 'Уровень 36<br>Индийское Карри',
+      imageUrl: "/images/guides_36.webp",
+      // Заполнитель
+      detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } }
+    }]
+  },
+  detailsHtml: `
 <h2 id="overview">Обзор игры</h2>
 <p>На уровне 37 Cookingdom вы будете готовить ароматное и пикантное блюдо: Рис с Кимчи. Это культовое корейское блюдо готовится из кимчи, традиционного ферментированного овощного блюда, смешанного с рисом, и часто сопровождается овощами и жареным яйцом сверху. Это простая, но ароматная еда, которая предлагает приятный баланс острого, кислого и пикантного вкусов. Ключевая задача на этом уровне - правильно смешать кимчи с рисом и другими ингредиентами, чтобы создать блюдо с идеальной приправой и хорошо приготовленное.</p>
 <p>Это руководство проведет вас через каждый шаг приготовления вкусного Риса с Кимчи, гарантируя, что вы создадите блюдо, полное вкуса и текстуры.</p>
@@ -4336,6 +4222,5 @@ export const guidesRu = [
 <h2 id="summary">Резюме</h2>
 <p>На уровне 37 Cookingdom приготовление Риса с Кимчи заключается в балансировании богатых, острых и пикантных вкусов кимчи с нейтральным рисом. Обжарьте кимчи с рисом, добавьте немного соевого соуса или кунжутного масла и увенчайте блюдо жареным яйцом, чтобы завершить трапезу. Независимо от того, используете ли вы овощи или просто сосредотачиваетесь на кимчи, это блюдо обязательно удовлетворит ваших клиентов своими смелыми и утешительными вкусами.</p>
 <p>Следуя этому руководству по прохождению Cookingdom, вы овладеете искусством приготовления Риса с Кимчи, вкусного и сытного блюда, которое сочетает в себе традиционные корейские вкусы с простыми ингредиентами.</p>
-`,
-  },
-] // Конец массива guidesRu
+`
+}]; // Конец массива guidesRu

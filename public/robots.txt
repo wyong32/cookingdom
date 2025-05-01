@@ -1,0 +1,6 @@
+# Allow all ethical crawlers access to the entire site
+User-agent: *
+Disallow:
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://www.yourdomain.com/sitemap.xml 

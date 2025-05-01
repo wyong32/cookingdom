@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const route = useRoute()
@@ -13,6 +13,17 @@ const error = ref(null)
 
 const postId = computed(() => route.params.id)
 
+// Helper function to update meta tags (similar to GuideDetail)
+const updateMetaTag = (name, content) => {
+  let metaTag = document.querySelector(`meta[name="${name}"]`)
+  if (!metaTag) {
+    metaTag = document.createElement('meta')
+    metaTag.setAttribute('name', name)
+    document.head.appendChild(metaTag)
+  }
+  metaTag.setAttribute('content', content)
+}
+
 // 函数：加载并查找特定博客文章
 const loadPost = async (id, lang) => {
   isLoading.value = true
@@ -20,30 +31,41 @@ const loadPost = async (id, lang) => {
   post.value = null
   try {
     let dataModule
+    let allPosts = []
     if (lang === 'zh') {
       dataModule = await import('@/datas/blog-posts-zh.js')
+      allPosts = dataModule.blogPostsZh || []
     } else if (lang === 'ru') {
       dataModule = await import('@/datas/blog-posts-ru.js')
+      allPosts = dataModule.blogPostsRu || []
     } else {
-      dataModule = await import('@/datas/blog-posts.js') // 默认 en
+      dataModule = await import('@/datas/blog-posts.js')
+      allPosts = dataModule.blogPosts || []
     }
-    // 从 JS 模块的具名导出 blogPosts 获取数据
-    const allPosts = dataModule.blogPosts
+
     const foundPost = allPosts.find((p) => p.id === id)
     if (foundPost) {
       post.value = foundPost
-      // Optional: Update document title for SEO
-      if (foundPost.seo?.title) {
-        document.title = foundPost.seo.title
-      }
+      // Update TDK based on post data
+      document.title = foundPost.seo?.title || t('meta.blogDetail.title') // Use placeholder from meta if specific not found
+      updateMetaTag('description', foundPost.seo?.description || t('meta.blogDetail.description'))
+      updateMetaTag('keywords', foundPost.seo?.keywords || t('meta.defaultKeywords')) // Use general default keywords
     } else {
       error.value = 'Post not found.'
-      // 可选：找不到帖子时重定向到博客列表或404页面
+      // Set Not Found TDK
+      document.title = t('meta.notFoundTitle', 'Post Not Found') // Add a specific not found title key if desired
+      updateMetaTag('description', '')
+      updateMetaTag('keywords', '')
+      // Optional: Redirect
       // router.push({ name: 'blog' })
     }
   } catch (err) {
     console.error(`Failed to load post ${id} for locale ${lang}:`, err)
     error.value = 'Failed to load post data.'
+    // Set Error TDK (could be same as Not Found or specific)
+    document.title = t('meta.errorTitle', 'Error Loading Post') // Add error title key
+    updateMetaTag('description', '')
+    updateMetaTag('keywords', '')
   } finally {
     isLoading.value = false
   }

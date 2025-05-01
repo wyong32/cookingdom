@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { nextTick } from 'vue'
 import HomeView from '../views/HomeView.vue'
 import GuideDetail from '../views/GuideDetail.vue'
 import GuideView from '../views/GuideView.vue'
@@ -8,6 +9,18 @@ import DownloadView from '../views/DownloadView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import { i18n, supportedLangs, defaultLang } from '@/i18n'
+import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
+
+// Helper function to get translated meta tags
+// Note: This is a simple example. You might need a more robust solution
+// if i18n instance is not ready or if translations are complex.
+const getMeta = (titleKey, descriptionKey, keywordsKey = 'meta.defaultKeywords') => {
+  return {
+    title: () => i18n.global.t(titleKey),
+    description: () => i18n.global.t(descriptionKey),
+    keywords: () => i18n.global.t(keywordsKey),
+  }
+}
 
 const nonDefaultLangs = supportedLangs.filter((lang) => lang !== defaultLang)
 const langParamRegex = nonDefaultLangs.join('|')
@@ -19,129 +32,293 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      // TDK for Home page. Keys defined in i18n files:
+      // Title: meta.home.title
+      // Description: meta.home.description
+      // Keywords: meta.home.keywords
+      meta: getMeta('meta.home.title', 'meta.home.description', 'meta.home.keywords'),
     },
     {
       path: '/guides',
       name: 'guides',
       component: GuideView,
+      // TDK for Guides list page. Keys defined in i18n files:
+      // Title: meta.guides.title
+      // Description: meta.guides.description
+      // Keywords: meta.guides.keywords
+      meta: getMeta('meta.guides.title', 'meta.guides.description', 'meta.guides.keywords'),
     },
     {
       path: '/blog',
       name: 'blog',
       component: BlogView,
+      // TDK for Blog list page. Keys defined in i18n files:
+      // Title: meta.blog.title
+      // Description: meta.blog.description
+      // Keywords: meta.blog.keywords
+      meta: getMeta('meta.blog.title', 'meta.blog.description', 'meta.blog.keywords'),
     },
     {
       path: '/blog/:id',
       name: 'blog-detail',
       component: BlogDetailView,
       props: true,
+      // TDK for Blog Detail pages.
+      // Uses placeholder keys from i18n (meta.blogDetail.title, meta.blogDetail.description).
+      // IMPORTANT: These are dynamically overridden by the component using data from blog-posts-xx.js -> seo object.
+      // Keywords fallback to meta.defaultKeywords if not specified in data.
+      meta: getMeta('meta.blogDetail.title', 'meta.blogDetail.description'),
     },
     {
       path: '/download',
       name: 'download',
       component: DownloadView,
+      // TDK for Download page. Keys defined in i18n files:
+      // Title: meta.download.title
+      // Description: meta.download.description
+      // Keywords: meta.download.keywords
+      meta: getMeta('meta.download.title', 'meta.download.description', 'meta.download.keywords'),
     },
     {
       path: '/privacy-policy',
       name: 'privacy-policy',
       component: PrivacyPolicyView,
+      // TDK for Privacy Policy page. Keys defined in i18n files:
+      // Title: meta.privacy.title
+      // Description: meta.privacy.description
+      // Keywords: meta.privacy.keywords
+      meta: getMeta('meta.privacy.title', 'meta.privacy.description', 'meta.privacy.keywords'),
     },
     {
       path: '/terms-of-service',
       name: 'terms-of-service',
       component: TermsOfServiceView,
+      // TDK for Terms of Service page. Keys defined in i18n files:
+      // Title: meta.terms.title
+      // Description: meta.terms.description
+      // Keywords: meta.terms.keywords
+      meta: getMeta('meta.terms.title', 'meta.terms.description', 'meta.terms.keywords'),
     },
     {
-      path: '/:id(Cookingdom-game-level-\\d+)',
+      path: '/:id',
+      beforeEnter: (to, from, next) => {
+        if (/^cookingdom-game-level-\d+$/.test(to.params.id)) {
+          next();
+        } else {
+          next({ name: 'home' });
+        }
+      },
       name: 'guide-detail',
       component: GuideDetail,
       props: true,
+      // TDK for Guide Detail pages.
+      // Uses placeholder keys from i18n (meta.guideDetail.title, meta.guideDetail.description).
+      // IMPORTANT: These are dynamically overridden by the component using data from guides-xx.js -> seo object.
+      // Keywords fallback to meta.defaultKeywords if not specified in data.
+      meta: getMeta('meta.guideDetail.title', 'meta.guideDetail.description'),
     },
     {
       path: `/:lang(${langParamRegex})/`,
       name: 'home-lang',
       component: HomeView,
       props: true,
+      // TDK Keys: meta.home.title, meta.home.description, meta.home.keywords
+      meta: getMeta('meta.home.title', 'meta.home.description', 'meta.home.keywords'),
     },
     {
       path: `/:lang(${langParamRegex})/guides`,
       name: 'guides-lang',
       component: GuideView,
       props: true,
+      // TDK Keys: meta.guides.title, meta.guides.description, meta.guides.keywords
+      meta: getMeta('meta.guides.title', 'meta.guides.description', 'meta.guides.keywords'),
     },
     {
       path: `/:lang(${langParamRegex})/blog`,
       name: 'blog-lang',
       component: BlogView,
       props: true,
+      // TDK Keys: meta.blog.title, meta.blog.description, meta.blog.keywords
+      meta: getMeta('meta.blog.title', 'meta.blog.description', 'meta.blog.keywords'),
     },
     {
       path: `/:lang(${langParamRegex})/blog/:id`,
       name: 'blog-detail-lang',
       component: BlogDetailView,
       props: true,
+      // TDK Keys: meta.blogDetail.title, meta.blogDetail.description (Placeholder, overridden by component)
+      // Keywords fallback to meta.defaultKeywords if not specified in data.
+      meta: getMeta('meta.blogDetail.title', 'meta.blogDetail.description'),
     },
     {
       path: `/:lang(${langParamRegex})/download`,
       name: 'download-lang',
       component: DownloadView,
       props: true,
+      // TDK Keys: meta.download.title, meta.download.description, meta.download.keywords
+      meta: getMeta('meta.download.title', 'meta.download.description', 'meta.download.keywords'),
     },
     {
       path: `/:lang(${langParamRegex})/privacy-policy`,
       name: 'privacy-policy-lang',
       component: PrivacyPolicyView,
       props: true,
+      // TDK Keys: meta.privacy.title, meta.privacy.description, meta.privacy.keywords
+      meta: getMeta('meta.privacy.title', 'meta.privacy.description', 'meta.privacy.keywords'),
     },
     {
       path: `/:lang(${langParamRegex})/terms-of-service`,
       name: 'terms-of-service-lang',
       component: TermsOfServiceView,
       props: true,
+      // TDK Keys: meta.terms.title, meta.terms.description, meta.terms.keywords
+      meta: getMeta('meta.terms.title', 'meta.terms.description', 'meta.terms.keywords'),
     },
     {
-      path: `/:lang(${langParamRegex})/:id(Cookingdom-game-level-\\d+)`,
+      path: '/:lang/:id',
+      beforeEnter: (to, from, next) => {
+        const langIsValid = nonDefaultLangs.includes(to.params.lang);
+        const idIsValid = /^cookingdom-game-level-\d+$/.test(to.params.id);
+    
+        if (langIsValid && idIsValid) {
+          next();
+        } else {
+          next({ name: langIsValid ? 'home-lang' : 'home', params: langIsValid ? { lang: to.params.lang } : {} });
+        }
+      },
       name: 'guide-detail-lang',
       component: GuideDetail,
       props: true,
+      meta: getMeta('meta.guideDetail.title', 'meta.guideDetail.description'),
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  },
 })
 
 router.beforeEach((to, from, next) => {
-  const paramsLang = to.params.lang
-  const pathFirstPart = to.path.split('/')[1]
+  const paramsLang = to.params.lang;
+  const pathFirstPart = to.path.split('/')[1];
+  const storedLang = localStorage.getItem('userLanguage');
+  let targetLang = defaultLang;
 
-  let targetLang = defaultLang
-
+  // 1. Check URL parameter
   if (paramsLang && supportedLangs.includes(paramsLang)) {
-    targetLang = paramsLang
-  } else if (supportedLangs.includes(pathFirstPart) && pathFirstPart !== defaultLang) {
-    targetLang = pathFirstPart
-  } else {
-    targetLang = defaultLang
+    targetLang = paramsLang;
   }
+  // 2. Check first path segment
+  else if (supportedLangs.includes(pathFirstPart) && pathFirstPart !== defaultLang) {
+    targetLang = pathFirstPart;
+  }
+  // 3. Check localStorage
+  else if (storedLang && supportedLangs.includes(storedLang)) {
+    targetLang = storedLang;
+  }
+  // 4. Fallback
+  // targetLang remains defaultLang
 
+  // Update i18n locale if needed
   if (i18n.global.locale.value !== targetLang) {
-    console.log(`Setting i18n locale to: ${targetLang}`)
-    i18n.global.locale.value = targetLang
-    localStorage.setItem('userLanguage', targetLang)
+    i18n.global.locale.value = targetLang;
+    localStorage.setItem('userLanguage', targetLang);
   }
 
-  const requiresPrefix = targetLang !== defaultLang
-  const pathStartsWithLang = pathFirstPart === targetLang
+  // --- URL Prefix Handling ---
+  const requiresPrefix = targetLang !== defaultLang;
+  const pathStartsWithCorrectLang = pathFirstPart === targetLang;
+  const pathHasAnyLangPrefix = supportedLangs.includes(pathFirstPart);
 
-  if (targetLang === defaultLang && pathFirstPart === defaultLang) {
-    const toPathWithoutLang = to.path.substring(('/' + defaultLang).length) || '/'
-    if (to.fullPath !== toPathWithoutLang) {
-      console.log(
-        `Redirecting (remove default lang prefix) from ${to.fullPath} to ${toPathWithoutLang}`,
-      )
-      return next(toPathWithoutLang)
+  // Scenario 1: Add prefix redirect
+  if (requiresPrefix && !pathStartsWithCorrectLang) {
+    let newPath = ''
+    if (pathHasAnyLangPrefix) {
+      newPath = to.path.substring(('/' + pathFirstPart).length) || '/'
+    } else {
+      newPath = to.path
+    }
+    newPath = '/' + targetLang + newPath
+    const query = to.query ? '?' + new URLSearchParams(to.query).toString() : ''
+    const hash = to.hash || ''
+    const fullRedirectPath = newPath + query + hash
+    return next(fullRedirectPath); // RETURN here prevents further execution
+  }
+
+  // Scenario 2: Remove prefix redirect
+  if (!requiresPrefix && pathHasAnyLangPrefix) {
+    const toPathWithoutLang = to.path.substring(('/' + pathFirstPart).length) || '/'
+    const query = to.query ? '?' + new URLSearchParams(to.query).toString() : ''
+    const hash = to.hash || ''
+    const fullRedirectPath = toPathWithoutLang + query + hash
+    if (to.fullPath !== fullRedirectPath) {
+      return next(fullRedirectPath); // RETURN here prevents further execution
     }
   }
 
-  next()
+  // --- Calculate Canonical URL ---
+  const calculateCanonicalUrl = () => {
+    const currentLang = i18n.global.locale.value;
+    const siteBase = (window.location.origin + (import.meta.env.BASE_URL || '/')).replace(/\/$/, '');
+    let canonicalPath = to.path;
+    if (currentLang !== defaultLang && canonicalPath.startsWith('/' + currentLang + '/')) {
+      canonicalPath = canonicalPath.substring(('/' + currentLang).length);
+    }
+     if (canonicalPath === '') {
+       canonicalPath = '/';
+     }
+    return siteBase + canonicalPath;
+  };
+
+  // --- Update Meta Tags, Canonical URL, and Default Social Tags ---
+  const routeWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+
+  nextTick(() => {
+    // --- 1. Calculate core Meta content ---
+    const meta = routeWithMeta ? routeWithMeta.meta : {};
+    const pageTitle = meta.title ? meta.title() : 'Cookingdom';
+    const pageDescription = meta.description ? meta.description() : i18n.global.t('meta.defaultDescription');
+    const pageKeywords = meta.keywords ? meta.keywords() : i18n.global.t('meta.defaultKeywords');
+
+    // --- 2. Calculate Canonical URL ---
+    const finalCanonicalUrl = calculateCanonicalUrl();
+
+    // --- 3. Determine social tag type and default image ---
+    const isDetailPage = to.name?.includes('detail');
+    const ogType = isDetailPage ? 'article' : 'website';
+    const twitterCard = isDetailPage ? 'summary_large_image' : 'summary';
+    // Use the specified default image, converting to absolute URL
+    const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
+
+    // --- 4. Update all Head tags using imported helpers ---
+    document.title = pageTitle;
+    updateCanonicalTag(finalCanonicalUrl); // Use imported helper
+    updateMetaTag('description', pageDescription); // Use imported helper
+    updateMetaTag('keywords', pageKeywords);
+
+    // Update Open Graph (OG) tags
+    updateMetaTag('og:title', pageTitle);
+    updateMetaTag('og:description', pageDescription);
+    updateMetaTag('og:url', finalCanonicalUrl);
+    updateMetaTag('og:type', ogType);
+    updateMetaTag('og:image', defaultSocialImageUrl); // Default image
+    updateMetaTag('og:site_name', 'Cookingdom');
+
+    // Update Twitter Card tags
+    updateMetaTag('twitter:card', twitterCard);
+    updateMetaTag('twitter:title', pageTitle);
+    updateMetaTag('twitter:description', pageDescription);
+    updateMetaTag('twitter:image', defaultSocialImageUrl); // Default image
+
+  });
+
+  // Proceed with navigation if no redirect occurred
+  next();
 })
 
 export default router
+
+
