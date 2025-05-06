@@ -1,10 +1,37 @@
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { defaultLang } from '@/i18n'
 
 // 创建一个 ref 来存储当前加载的指南数据
 const guides = ref([])
 const isLoading = ref(false)
 const error = ref(null)
+
+// Store loaded data before adding routeObject
+const rawGuides = ref([])
+
+// Define getGuideLinkProps logic inside the composable
+function getGuideLinkProps(level, currentLocale) {
+  const isDefaultLang = currentLocale === defaultLang
+  let routeName = isDefaultLang ? 'guide-detail' : 'guide-detail-lang'
+  let routeParams
+
+  if (isDefaultLang) {
+    routeParams = { id: level.id }
+  } else {
+    if (currentLocale && typeof currentLocale === 'string') {
+      routeParams = { id: level.id, lang: currentLocale }
+    } else {
+      // Fallback or error handling if locale is invalid
+      console.warn(
+        `Invalid locale detected: ${currentLocale}. Falling back to default route for guide ${level.id}`,
+      )
+      routeName = 'guide-detail'
+      routeParams = { id: level.id }
+    }
+  }
+  return { name: routeName, params: routeParams }
+}
 
 export function useGuides() {
   const { locale } = useI18n()
@@ -19,35 +46,43 @@ export function useGuides() {
         // 动态导入中文指南数据
         dataModule = await import('@/datas/guides-zh.js')
         // 使用正确的导出名称 guidesZh
-        guides.value = dataModule.guidesZh
+        rawGuides.value = dataModule.guidesZh
       } else if (lang === 'ru') {
         dataModule = await import('@/datas/guides-ru.js')
         // 假设俄语文件导出 guidesRu (如果不是，需要相应修改)
         // **需要确认 guides-ru.js 的导出名**
         // 暂时假设是 guidesRu
-        guides.value = dataModule.guidesRu
+        rawGuides.value = dataModule.guidesRu
       } else {
         // 默认动态导入英文指南数据
         dataModule = await import('@/datas/guides.js')
         // 英文文件导出 guides
-        guides.value = dataModule.guides
+        rawGuides.value = dataModule.guides
       }
-      // JS 模块导出了名为 guides 的常量  <-- 这行注释现在不完全准确了，但可以保留或删除
-      // guides.value = dataModule.guides <-- 删除这行旧代码
-      // console.log(`Successfully loaded ${guides.value.length} guides for locale: ${lang}`) <-- 这行日志在 guides.value 为 undefined 时会报错，移到后面
-      if (guides.value) {
-        console.log(`Successfully loaded ${guides.value.length} guides for locale: ${lang}`)
+
+      if (rawGuides.value) {
+        console.log(`Successfully loaded ${rawGuides.value.length} raw guides for locale: ${lang}`)
+        // Now process the raw data to add routeObject
+        guides.value = rawGuides.value.map((guide) => ({
+          ...guide,
+          routeObject: getGuideLinkProps(guide, lang),
+        }))
+        console.log(
+          `Processed ${guides.value.length} guides with route objects for locale: ${lang}`,
+        )
       } else {
         console.error(
           `Failed to access the correct export from data module for locale ${lang}. Expected 'guides', 'guidesZh', or 'guidesRu'.`,
         )
         error.value = new Error(`Could not find expected export in data file for locale ${lang}`)
-        guides.value = [] // 确保出错时清空
+        guides.value = [] // 确保 guides is empty on error
+        rawGuides.value = []
       }
     } catch (err) {
-      console.error(`Failed to load guides for locale ${lang}:`, err)
+      console.error(`Failed to load or process guides for locale ${lang}:`, err)
       error.value = err
-      guides.value = [] // 出错时清空数据
+      guides.value = [] // Ensure guides is empty on error
+      rawGuides.value = []
     } finally {
       isLoading.value = false
     }

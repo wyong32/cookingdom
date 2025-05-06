@@ -13,6 +13,16 @@ import 'swiper/css/effect-coverflow' // Import coverflow effect styles
 // import required modules
 import { Autoplay, EffectCoverflow } from 'swiper/modules'
 
+// Import useGuides to fetch guide data
+import { useGuides } from '@/composables/useGuides'
+import { useI18n } from 'vue-i18n'
+
+// Use i18n locale for useGuides
+const { locale } = useI18n()
+
+// Fetch guides data using the composable
+const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(locale)
+
 // Ref to track the active tab
 const activeTab = ref('1-10') // Default to '1-10'
 
@@ -150,9 +160,9 @@ const swiperModules = [Autoplay, EffectCoverflow]
         </div>
       </section>
 
-      <!-- Guides Section (Use the new component) -->
+      <!-- Guides Section (Use the new component and pass props) -->
       <div id="guides-section">
-        <GuidesSection />
+        <GuidesSection :guides="guides" :is-loading="guidesLoading" :error="guidesError" />
       </div>
 
       <!-- Downloads Section -->
@@ -1168,13 +1178,14 @@ main {
   .how-to-play-section .container,
   .tips-tricks-section .container,
   .faq-section > .container {
-    max-width: 90%; /* Use percentage for better flexibility */
+    max-width: 100%; /* Use percentage for better flexibility */
     padding: 0 1rem; /* Adjust padding */
   }
 
   h1,
   .hero-content h1 {
     font-size: 2.5rem;
+    margin-bottom: 0.5rem;
   }
   h2,
   .hero-content h2 {
@@ -1234,7 +1245,7 @@ main {
 @media (max-width: 767px) {
   h1,
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   h2,
   .hero-content h2 {
@@ -1254,14 +1265,22 @@ main {
   #features-section,
   #guides-section,
   #downloads-section {
-    scroll-margin-top: 110px; /* Also adjust scroll margin */
+    scroll-margin-top: 0px; /* Also adjust scroll margin */
+  }
+  .features-section {
+    padding: 2em 0;
+  }
+  .features-section > .container > p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
   }
 
   /* Hero Section Mobile */
   .hero-section .container {
     flex-direction: column; /* Stack content and swiper */
     text-align: center;
-    gap: 2rem;
+    max-width: 100%;
+    gap: 0rem;
   }
   .hero-content {
     text-align: center;
@@ -1269,12 +1288,26 @@ main {
     max-width: 100%;
   }
   .hero-content p {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
   .hero-buttons {
     justify-content: center;
+    gap: 0.5rem;
+  }
+  .btn {
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+  }
+  .hero-section {
+    padding: 0 0 2rem;
+  }
+  .features-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
   }
   .hero-swiper-container.card-slider {
     width: 90%; /* Use percentage */
@@ -1300,17 +1333,50 @@ main {
     grid-template-columns: 1fr; /* Single column */
   }
 
+  .feature-card {
+    padding: 1rem;
+  }
+  .feature-card h3 {
+    font-size: 1.2rem;
+  }
+  .feature-card p {
+    font-size: 0.8rem;
+  }
+
+  .guides-section {
+    padding: 2em 0;
+  }
+
   /* Downloads Section Mobile */
   .downloads-grid {
     grid-template-columns: 1fr; /* Single column */
   }
-
+  .about-section {
+    margin-top: 0;
+    padding: 2em 0;
+  }
+  .about-content {
+    gap: 0rem;
+  }
   /* About Section Mobile */
   .about-section > .container {
-    padding: 2rem 1.5rem;
+    padding: 0 1rem;
   }
+  .about-content h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .about-content p {
+    font-size: 0.8rem;
+  }
+
   .stats-grid {
     grid-template-columns: repeat(2, 1fr); /* Can keep 2 cols */
+  }
+
+  .stat-card strong {
+    font-size: 1.5rem;
   }
 
   /* How to Play Mobile */
@@ -1340,15 +1406,58 @@ main {
   }
 
   /* FAQ Mobile */
+
+  .how-to-play-section {
+    padding: 2em 0;
+  }
+  .play-step {
+    gap: 0.5rem;
+  }
+  .how-to-play-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .play-step h3 {
+    font-size: 1.2rem;
+  }
+  .play-step p {
+    font-size: 0.8rem;
+  }
+  .tips-tricks-section {
+    padding: 2em 0;
+  }
+  .tips-tricks-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  .tips-tricks-section > .container > p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .tips-list li {
+    font-size: 0.8rem;
+  }
+
+  .faq-section {
+    padding: 1.5em 0;
+  }
+  .faq-section h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
   .faq-section > .container {
-    padding: 1.5rem 1rem;
+    padding: 0 1rem;
   }
   .faq-item summary {
     padding: 0.8rem 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
   }
   .faq-item p {
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem;
     font-size: 0.9rem;
   }
 }

@@ -195,6 +195,30 @@ function changeLocale(event) {
   opacity: 0.7;
   animation: bounce-small 2s infinite ease-in-out;
 }
+.language-switcher {
+  margin-left: 1rem; /* 在导航和 mascot 之间添加一些间距 */
+}
+
+.language-switcher select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #fce4ec;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #7c6f9f;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.language-switcher select:hover {
+  border-color: #ff85a2;
+}
+
+/* Add active link styling if needed */
+.header nav a.router-link-active {
+  color: #ff85a2; /* Example active color */
+  font-weight: bold;
+}
 
 /* --- Media Queries --- */
 
@@ -225,13 +249,14 @@ function changeLocale(event) {
     padding: 0 1rem;
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center items horizontally */
-    row-gap: 0.5rem; /* Add gap between logo row and nav row */
+    row-gap: 0rem; /* Add gap between logo row and nav row */
   }
   .logo {
     font-size: 1.2rem;
     width: 100%; /* Allow logo to take full width initially */
+    order: 1;
     text-align: center; /* Center logo text */
-    margin-bottom: 0.25rem; /* Add space below logo */
+    margin-bottom: 0; /* Add space below logo */
   }
   .header nav {
     display: block; /* Ensure nav is displayed */
@@ -253,16 +278,12 @@ function changeLocale(event) {
   .language-switcher {
     order: 2; /* 在移动视图中，让它排在 logo 下方，导航之前 */
     margin-left: 0;
-    margin-bottom: 0.5rem; /* 添加一些底部间距 */
+    margin-bottom: 0; /* 添加一些底部间距 */
     width: auto; /* 不要占满整行 */
     display: inline-block; /* 允许居中 */
   }
   .header nav {
     order: 3; /* 导航在切换器之后 */
-  }
-  .logo {
-    order: 1; /* Logo 最先 */
-    margin-bottom: 0.5rem; /* 为切换器留出空间 */
   }
 }
 
@@ -280,30 +301,5 @@ function changeLocale(event) {
   60% {
     transform: translateY(-3px);
   }
-}
-
-.language-switcher {
-  margin-left: 1rem; /* 在导航和 mascot 之间添加一些间距 */
-}
-
-.language-switcher select {
-  padding: 0.3rem 0.5rem;
-  border: 1px solid #fce4ec;
-  border-radius: 4px;
-  background-color: #fff;
-  color: #7c6f9f;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: border-color 0.3s ease;
-}
-
-.language-switcher select:hover {
-  border-color: #ff85a2;
-}
-
-/* Add active link styling if needed */
-.header nav a.router-link-active {
-  color: #ff85a2; /* Example active color */
-  font-weight: bold;
 }
 </style> 

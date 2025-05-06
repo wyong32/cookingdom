@@ -5,32 +5,34 @@ export const guidesZh = [
     pageTitle: '料理王国 第1关 - 第一块披萨攻略',
     pageSubtitle: '在料理王国第一关，通过制作你的第一块披萨来掌握基础知识。',
     category: '01-10',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
     seo: {
       title: '料理王国 第1关 攻略 - 第一块披萨',
-      description: '学习如何在料理王国第1关准备、烘烤和上菜你的第一块披萨。理解烹饪和顾客服务的基础知识。',
-      keywords: '料理王国, 第1关, 第一块披萨, 攻略, 基础, 教程'
+      description:
+        '学习如何在料理王国第1关准备、烘烤和上菜你的第一块披萨。理解烹饪和顾客服务的基础知识。',
+      keywords: '料理王国, 第1关, 第一块披萨, 攻略, 基础, 教程',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_01.webp',
-      levelInfoHtml: '<h3>第一块披萨</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>1分钟</p><p><strong>奖励：</strong>3星</p>',
+      levelInfoHtml:
+        '<h3>第一块披萨</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>1分钟</p><p><strong>奖励：</strong>3星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-2',
           title: '2级<br/>简易沙拉',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: '11级<br/>爆米花',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+        },
+      ],
     },
     detailsHtml: `
       <h2>游戏介绍</h2>
@@ -68,7 +70,7 @@ export const guidesZh = [
   <li><strong>顾客耐心：</strong> 顾客等待时间过长会降低耐心和评分，提升服务速度。</li>
   <li><strong>练习多任务处理：</strong> 在烤制披萨时
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-2',
@@ -76,32 +78,33 @@ export const guidesZh = [
     pageTitle: '料理王国 第2关 - 简单沙拉攻略',
     pageSubtitle: '在料理王国第2关学习制作快速简单的沙拉。',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
     iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
     seo: {
       title: '料理王国 第2关 攻略 - 简单沙拉',
       description: '掌握料理王国第2关的简单沙拉食谱。了解食材、酱料和快速的顾客服务。',
-      keywords: '料理王国, 第2关, 简单沙拉, 攻略, 沙拉食谱, 时间管理'
+      keywords: '料理王国, 第2关, 简单沙拉, 攻略, 沙拉食谱, 时间管理',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_02.webp',
-      levelInfoHtml: '<h3>简单沙拉</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>1.5分钟</p><p><strong>奖励：</strong>3星</p>',
+      levelInfoHtml:
+        '<h3>简单沙拉</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>1.5分钟</p><p><strong>奖励：</strong>3星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-1',
           title: '1级<br/>第一块披萨',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: '11级<br/>爆米花',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2>游戏介绍</h2>
@@ -142,7 +145,7 @@ export const guidesZh = [
 <p>第2关的重点是掌握简单的沙拉制作过程。虽然比披萨容易，但它需要高效的时间管理和食材准备。这个关卡帮助你适应高效的厨房运作，处理多个顾客及其不同需求。</p>
 <p>完成第2关后将解锁更多的食谱和设备，为迎接更具挑战性的关卡做好准备。</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-3',
@@ -157,25 +160,26 @@ export const guidesZh = [
     seo: {
       title: '料理王国 第3关 攻略 - 炸土豆',
       description: '掌握料理王国第3关的炸土豆。学习油炸技巧、管理多个顾客和提高厨房效率。',
-      keywords: '料理王国, 第3关, 炸土豆, 攻略, 油炸, 时间管理, 厨房效率'
+      keywords: '料理王国, 第3关, 炸土豆, 攻略, 油炸, 时间管理, 厨房效率',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_03.webp',
-      levelInfoHtml: '<h3>炸土豆</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>2分钟</p><p><strong>奖励：</strong>3星</p>',
+      levelInfoHtml:
+        '<h3>炸土豆</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>2分钟</p><p><strong>奖励：</strong>3星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-1',
           title: '1级<br/>第一块披萨',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
         },
         {
           id: 'cookingdom-game-level-2',
           title: '2级<br/>简易沙拉',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2>游戏介绍</h2>
@@ -214,7 +218,7 @@ export const guidesZh = [
 <p>第3关的炸薯条制作过程简单，但要求高效的厨房管理和时间控制。你将学会如何操作炸锅设备，并处理多个顾客需求。随着游戏的推进，面对更复杂的菜肴和任务，提升厨房效率对成功至关重要。</p>
 <p>完成第3关后将解锁更多食谱和设备，为迎接更高难度的关卡做好准备。</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-4',
@@ -228,32 +232,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/ndEW4RcERyI',
     seo: {
       title: 'Cookingdom 第 4 关攻略：卷冰淇淋 | 技巧与策略',
-      description: '掌握 Cookingdom 第 4 关！通过我们的分步指南、冷冻技巧和配料组合，学习如何制作美味的卷冰淇淋。',
-      keywords: '料理王国, 第4关, 卷冰淇淋, 攻略, 冷冻, 配料, 策略'
+      description:
+        '掌握 Cookingdom 第 4 关！通过我们的分步指南、冷冻技巧和配料组合，学习如何制作美味的卷冰淇淋。',
+      keywords: '料理王国, 第4关, 卷冰淇淋, 攻略, 冷冻, 配料, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_04.webp',
-      levelInfoHtml: '<h3>卷冰淇淋</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2.5分钟</p><p><strong>奖励：</strong>4星</p>',
+      levelInfoHtml:
+        '<h3>卷冰淇淋</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2.5分钟</p><p><strong>奖励：</strong>4星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-1',
           title: '1级<br/>第一块披萨',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
         },
         {
           id: 'cookingdom-game-level-2',
           title: '2级<br/>简单沙拉',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
         {
           id: 'cookingdom-game-level-3',
           title: '3级<br/>炸土豆',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏介绍</h2>
@@ -297,7 +303,7 @@ export const guidesZh = [
     <li>
         <strong>配料组合：</strong> 在第4关，顾客可能会要求不同的配料。记得根据他们的需求加入适当的水果、坚果或糖果。配料太多或太少都会影响冰淇淋的外观和口感。尝试使用多样化的
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-5',
@@ -305,38 +311,40 @@ export const guidesZh = [
     pageTitle: '料理王国 第5关 - 烤鱼攻略',
     pageSubtitle: '在料理王国第5关掌握烤鱼的艺术。',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
     iframeUrl: 'https://www.youtube.com/embed/8CdDamlaEHA',
     seo: {
       title: 'Cookingdom 第 5 关攻略：烤鱼 | 技巧与策略',
-      description: '学习如何在料理王国第5关完美地烤鱼。获取关于热量控制、时间和管理顾客订单的技巧。',
-      keywords: '料理王国, 第5关, 烤鱼, 攻略, 烧烤, 热量控制, 时间管理'
+      description:
+        '学习如何在料理王国第5关完美地烤鱼。获取关于热量控制、时间和管理顾客订单的技巧。',
+      keywords: '料理王国, 第5关, 烤鱼, 攻略, 烧烤, 热量控制, 时间管理',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_05.webp',
-      levelInfoHtml: '<h3>烤鱼</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>3分钟</p><p><strong>奖励：</strong>4星</p>',
+      levelInfoHtml:
+        '<h3>烤鱼</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>3分钟</p><p><strong>奖励：</strong>4星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-2',
           title: '2级<br/>简单沙拉',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
         },
         {
           id: 'cookingdom-game-level-3',
           title: '3级<br/>炸土豆',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
         },
         {
           id: 'cookingdom-game-level-4',
           title: '4级<br/>卷冰淇淋',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -379,7 +387,7 @@ export const guidesZh = [
     <li>
         <strong>掌握烤制时间：</strong> 在《Cookingdom》中，烤制鱼的关键是完美的时间控制。如果将鱼烤得太久，它会变得干
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-6',
@@ -393,32 +401,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/OTKpJ9M7to',
     seo: {
       title: 'Cookingdom 第 6 关攻略：意式浓缩咖啡 | 技巧与策略',
-      description: '掌握在料理王国第6关冲泡意式浓缩咖啡的艺术。关于研磨、冲泡时间和管理订单的技巧。',
-      keywords: '料理王国, 第6关, 意式浓缩咖啡, 浓缩咖啡, 攻略, 咖啡, 冲泡, 时间管理'
+      description:
+        '掌握在料理王国第6关冲泡意式浓缩咖啡的艺术。关于研磨、冲泡时间和管理订单的技巧。',
+      keywords: '料理王国, 第6关, 意式浓缩咖啡, 浓缩咖啡, 攻略, 咖啡, 冲泡, 时间管理',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_06.webp',
-      levelInfoHtml: '<h3>意式浓缩咖啡</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>1.5分钟</p><p><strong>奖励：</strong>4星</p>',
+      levelInfoHtml:
+        '<h3>意式浓缩咖啡</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>1.5分钟</p><p><strong>奖励：</strong>4星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-3',
           title: '3级<br/>炸土豆',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
         },
         {
           id: 'cookingdom-game-level-4',
           title: '4级<br/>卷冰淇淋',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
         },
         {
           id: 'cookingdom-game-level-5',
           title: '5级<br/>烤鱼',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -474,7 +484,7 @@ export const guidesZh = [
 <p>《Cookingdom》第6关的挑战在于制作完美的浓缩咖啡，关键是控制研磨度、萃取时间，并迅速上菜。随着更多顾客点购饮品，你将需要高效管理时间、同时处理多个任务，并优先处理订单，以确保顺利运营。掌握浓缩咖啡的制作将解锁更多咖啡饮品，并带来更多挑战。</p>
 <p>这一关为你进入更高级的咖啡饮品制作打下了基础，为应对未来关卡中的复杂订单做好准备。通过这一关的学习，你将能够熟练掌握咖啡饮品的制作技巧，准备迎接更多高级烹饪和饮品制作的挑战。</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-7',
@@ -482,38 +492,39 @@ export const guidesZh = [
     pageTitle: '料理王国 第7关 - 太阳蛋攻略',
     pageSubtitle: '在料理王国第7关学习制作完美的单面煎太阳蛋。',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
     iframeUrl: 'https://www.youtube.com/embed/IiwEmCzNwYM',
     seo: {
       title: 'Cookingdom 第 7 关攻略：太阳蛋 | 技巧与策略',
       description: '掌握料理王国第7关的单面煎太阳蛋。关于热量控制、避免蛋黄破裂和快速服务的技巧。',
-      keywords: '料理王国, 第7关, 太阳蛋, 攻略, 单面煎, 鸡蛋, 热量控制, 时间管理'
+      keywords: '料理王国, 第7关, 太阳蛋, 攻略, 单面煎, 鸡蛋, 热量控制, 时间管理',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_07.webp',
-      levelInfoHtml: '<h3>太阳蛋</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>1分钟</p><p><strong>奖励：</strong>3星</p>',
+      levelInfoHtml:
+        '<h3>太阳蛋</h3><p><strong>难度：</strong>简单</p><p><strong>预计时间：</strong>1分钟</p><p><strong>奖励：</strong>3星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-4',
           title: '4级<br/>卷冰淇淋',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
         },
         {
           id: 'cookingdom-game-level-5',
           title: '5级<br/>烤鱼',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
         },
         {
           id: 'cookingdom-game-level-6',
           title: '6级<br/>意式浓缩咖啡',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -563,7 +574,7 @@ export const guidesZh = [
         <strong>使用加速工具提升效率：</strong> 随着《Cookingdom》进程的推进，你将解锁加速器和加速物品，帮助你更快地烹饪或提高效率。在多个顾客同时点阳光蛋时，合理使用这些工具能帮助你按时完成订单。</li>
     <li
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-8',
@@ -577,32 +588,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
     seo: {
       title: 'Cookingdom 第 8 关攻略：牛排 | 技巧与策略',
-      description: '掌握在料理王国第8关烹饪牛排（三分熟、五分熟、全熟）的技巧。关于时间、火候和订单管理的提示。',
-      keywords: '料理王国, 第8关, 牛排, 攻略, 烧烤, 煎, 熟度, 三分熟, 五分熟, 全熟, 时间管理'
+      description:
+        '掌握在料理王国第8关烹饪牛排（三分熟、五分熟、全熟）的技巧。关于时间、火候和订单管理的提示。',
+      keywords: '料理王国, 第8关, 牛排, 攻略, 烧烤, 煎, 熟度, 三分熟, 五分熟, 全熟, 时间管理',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_08.webp',
-      levelInfoHtml: '<h3>牛排</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>3.5分钟</p><p><strong>奖励：</strong>5星</p>',
+      levelInfoHtml:
+        '<h3>牛排</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>3.5分钟</p><p><strong>奖励：</strong>5星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-5',
           title: '5级<br/>烤鱼',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
         },
         {
           id: 'cookingdom-game-level-6',
           title: '6级<br/>意式浓缩咖啡',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
         },
         {
           id: 'cookingdom-game-level-7',
           title: '7级<br/>太阳蛋',
           imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -657,7 +670,7 @@ export const guidesZh = [
         <h3>上菜：</h3>
         <p>牛排静置后，将其放到盘子上并送到顾客面前。你可以根据顾客的订单为牛排加一些配菜，比如土豆泥、蔬菜或酱料。</
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-9',
@@ -665,38 +678,40 @@ export const guidesZh = [
     pageTitle: '料理王国 第9关 - 意大利面攻略',
     pageSubtitle: '在料理王国第9关掌握烹饪完美意大利面的艺术。',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
     iframeUrl: 'https://www.youtube.com/embed/SOGzuHCsQkQ',
     seo: {
       title: 'Cookingdom 第 9 关攻略：意大利面 | 技巧与策略',
-      description: '学习在料理王国第9关用正确的酱料烹饪完美的意大利面（弹牙！）。关于时间、酱料准备和多任务处理的技巧。',
-      keywords: '料理王国, 第9关, 意大利面, 攻略, 意面, 酱料, 弹牙, 时间管理, 多任务处理'
+      description:
+        '学习在料理王国第9关用正确的酱料烹饪完美的意大利面（弹牙！）。关于时间、酱料准备和多任务处理的技巧。',
+      keywords: '料理王国, 第9关, 意大利面, 攻略, 意面, 酱料, 弹牙, 时间管理, 多任务处理',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_09.webp',
-      levelInfoHtml: '<h3>意大利面</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2.5分钟</p><p><strong>奖励：</strong>5星</p>',
+      levelInfoHtml:
+        '<h3>意大利面</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2.5分钟</p><p><strong>奖励：</strong>5星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-6',
           title: '6级<br/>意式浓缩咖啡',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
         },
         {
           id: 'cookingdom-game-level-7',
           title: '7级<br/>太阳蛋',
           imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: '8级<br/>牛排',
           imageUrl: '/images/guides_08.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -750,7 +765,7 @@ export const guidesZh = [
     <li>
         <strong>处理多个订单：</strong> 在《Cookingdom》中，你常常需要同时
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-10',
@@ -764,32 +779,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/sR03duivZNM',
     seo: {
       title: '烹饪王国第 10 级指南：三文鱼寿司 | 技巧与策略',
-      description: '在烹饪王国第 10 级掌握三文鱼寿司。获取完美寿司米饭、切三文鱼片、卷寿司和摆盘的技巧。',
-      keywords: '烹饪王国, 第 10 级, 三文鱼寿司, 寿司指南, 寿司米饭, 切鱼片, 卷寿司, 策略'
+      description:
+        '在烹饪王国第 10 级掌握三文鱼寿司。获取完美寿司米饭、切三文鱼片、卷寿司和摆盘的技巧。',
+      keywords: '烹饪王国, 第 10 级, 三文鱼寿司, 寿司指南, 寿司米饭, 切鱼片, 卷寿司, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_10.webp',
-      levelInfoHtml: '<h3>三文鱼寿司</h3><p><strong>难度：</strong> 困难</p><p><strong>大约时间：</strong> 4.5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>三文鱼寿司</h3><p><strong>难度：</strong> 困难</p><p><strong>大约时间：</strong> 4.5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-7',
           title: '第 7 级<br>太阳蛋',
           imageUrl: '/images/guides_7.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: '第 8 级<br>牛排',
           imageUrl: '/images/guides_8.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: '第 9 级<br>意面',
           imageUrl: '/images/guides_9.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -844,7 +861,7 @@ export const guidesZh = [
     <li>
         <strong>完美寿司米饭：</strong> 寿司米饭是优秀寿司的基础，所以一定要确保米饭做得恰到好处。遵循步骤，冲洗、煮制并调味米饭。《Cookingdom》允许你调
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-11',
@@ -852,38 +869,39 @@ export const guidesZh = [
     pageTitle: '烹饪王国第 11 级 - 爆米花指南',
     pageSubtitle: '在烹饪王国第 11 级学习制作完美的爆米花。',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/5mFzPngHJF8',
     seo: {
       title: '烹饪王国第 11 级指南：爆米花 | 技巧与策略',
       description: '在烹饪王国第 11 级掌握爆米花。获取完美爆裂时间、调味和快速服务的技巧。',
-      keywords: '烹饪王国, 第 11 级, 爆米花, 攻略, 爆裂, 调味, 时间管理, 策略'
+      keywords: '烹饪王国, 第 11 级, 爆米花, 攻略, 爆裂, 调味, 时间管理, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_11.webp',
-      levelInfoHtml: '<h3>爆米花</h3><p><strong>难度：</strong> 简单</p><p><strong>大约时间：</strong> 1.5 分钟</p><p><strong>奖励：</strong> 3 星</p>',
+      levelInfoHtml:
+        '<h3>爆米花</h3><p><strong>难度：</strong> 简单</p><p><strong>大约时间：</strong> 1.5 分钟</p><p><strong>奖励：</strong> 3 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-8',
           title: '第 8 级<br>牛排',
           imageUrl: '/images/guides_8.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: '第 9 级<br>意面',
           imageUrl: '/images/guides_9.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
           id: 'cookingdom-game-level-10',
           title: '第 10 级<br>三文鱼寿司',
           imageUrl: '/images/guides_10.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -944,7 +962,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第11关，制作爆米花看似简单，但需要在时机和调味上的细致关注。完美爆开的玉米粒、适量的调味料和快速的服务将确保顾客的满意。无论是基本订单还是额外的黄油奶酪要求，你的效率和多任务处理能力都将受到考验。</p>
 <p>随着你在《Cookingdom》中继续前进，订单管理的复杂性将逐渐增加，但掌握了爆米花制作技巧后，你将打下坚实的基础，迎接更复杂的菜肴挑战。保持升级设备，处理多个订单，专注于为顾客提供新鲜美味的爆米花，让他们持续光顾！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-12',
@@ -959,31 +977,32 @@ export const guidesZh = [
     seo: {
       title: '烹饪王国第 12 级指南：拉面 | 技巧与策略',
       description: '在烹饪王国第 12 级掌握拉面。获取完美汤底、面条、配料和快速服务的技巧。',
-      keywords: '烹饪王国, 第 12 级, 拉面, 攻略, 汤底, 面条, 配料, 时间管理, 策略'
+      keywords: '烹饪王国, 第 12 级, 拉面, 攻略, 汤底, 面条, 配料, 时间管理, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_12.webp',
-      levelInfoHtml: '<h3>拉面</h3><p><strong>难度：</strong> 困难</p><p><strong>大约时间：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>拉面</h3><p><strong>难度：</strong> 困难</p><p><strong>大约时间：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-9',
           title: '第 9 级<br>意面',
           imageUrl: '/images/guides_9.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
           id: 'cookingdom-game-level-10',
           title: '第 10 级<br>三文鱼寿司',
           imageUrl: '/images/guides_10.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: '第 11 级<br>爆米花',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1052,7 +1071,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第12关，制作拉面需要精确掌握高汤的调制、面条的煮制以及配料的添加。这是一道多步骤的菜肴，需要时机、精度和速度的平衡。成功的关键是确保每一部分都做到完美，并在热腾腾的时候上菜。通过不断练习，你将能够轻松应对这道风味十足的菜肴，让顾客满意。</p>
 <p>随着你在《Cookingdom》中的不断进步，挑战将会越来越艰巨，但掌握拉面制作技巧将为你成为游戏中的顶级大厨奠定基础。保持高汤调味完美、面条口感鲜嫩、配料新鲜，你将继续在《Cookingdom》的餐厅排名中高居不下！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-13',
@@ -1060,38 +1079,39 @@ export const guidesZh = [
     pageTitle: '烹饪王国第 13 级 - 热狗指南',
     pageSubtitle: '在烹饪王国第 13 级学习制作完美的热狗。',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_13.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
     iframeUrl: 'https://www.youtube.com/embed/-at0GKqanSg',
     seo: {
       title: '烹饪王国第 13 级指南：热狗 | 技巧与策略',
       description: '在烹饪王国第 13 级掌握热狗。获取烹饪香肠、烤面包、添加调味品和快速服务的技巧。',
-      keywords: '烹饪王国, 第 13 级, 热狗, 攻略, 香肠, 面包, 调味品, 快餐, 策略'
+      keywords: '烹饪王国, 第 13 级, 热狗, 攻略, 香肠, 面包, 调味品, 快餐, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_13.webp',
-      levelInfoHtml: '<h3>热狗</h3><p><strong>难度：</strong> 简单</p><p><strong>大约时间：</strong> 2 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>热狗</h3><p><strong>难度：</strong> 简单</p><p><strong>大约时间：</strong> 2 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-10',
           title: '第 10 级<br>三文鱼寿司',
           imageUrl: '/images/guides_10.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
         },
         {
           id: 'cookingdom-game-level-11',
           title: '第 11 级<br>爆米花',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
         {
           id: 'cookingdom-game-level-12',
           title: '第 12 级<br>拉面',
           imageUrl: '/images/guides_12.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1166,7 +1186,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第13关，制作完美的热狗关键在于时机和定制化。精确烤制香肠和面包，添加合适的调料，并且迅速上菜，是成功的关键。和游戏中的其他关卡一样，多任务处理至关重要。保持烤架和面包烤炉的同时工作，并同时准备配料，这样你能最大化提高效率。</p>
 <p>掌握这款经典快餐美食将帮助你在《Cookingdom》中不断进步。无论是简单的热狗还是满载配料的热狗，关注细节和速度都会在获得高评分方面起到决定性作用。</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-14',
@@ -1180,32 +1200,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/osxEv217AuU',
     seo: {
       title: '烹饪王国第 14 级指南：三文鱼配蔬菜通心粉汤 | 技巧与策略',
-      description: '在烹饪王国第 14 级掌握三文鱼配蔬菜通心粉汤。获取烹饪三文鱼、准备蔬菜通心粉汤和平衡复杂菜肴的技巧。',
-      keywords: '烹饪王国, 第 14 级, 三文鱼, 蔬菜通心粉汤, 意式蔬菜汤, 攻略, 烹鱼, 意大利汤, 策略'
+      description:
+        '在烹饪王国第 14 级掌握三文鱼配蔬菜通心粉汤。获取烹饪三文鱼、准备蔬菜通心粉汤和平衡复杂菜肴的技巧。',
+      keywords: '烹饪王国, 第 14 级, 三文鱼, 蔬菜通心粉汤, 意式蔬菜汤, 攻略, 烹鱼, 意大利汤, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_14.webp',
-      levelInfoHtml: '<h3>三文鱼配蔬菜通心粉汤</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>三文鱼配蔬菜通心粉汤</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-11',
           title: '第 11 级<br>爆米花',
           imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
         },
         {
           id: 'cookingdom-game-level-12',
           title: '第 12 级<br>拉面',
           imageUrl: '/images/guides_12.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
         },
         {
           id: 'cookingdom-game-level-13',
           title: '第 13 级<br>热狗',
           imageUrl: '/images/guides_13.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1269,7 +1291,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第14关，制作三文鱼配意式蔬菜汤需要精准的操作和多任务处理能力。将三文鱼烹饪到完美的嫩滑与脆皮，慢炖汤至美味浓郁，虽然具有挑战性，但也是十分值得的。能同时管理好这两种食材，并将它们热乎上菜，将确保顾客的满意。</p>
 <p>通过精准掌控时间、平衡汤的味道，以及确保三文鱼的完美烹饪，你将能轻松掌握这道菜。不断升级设备，精炼你的技能，帮助你应对《Cookingdom》中越来越复杂的菜肴挑战！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-15',
@@ -1283,32 +1305,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/clZlGkI5iOI',
     seo: {
       title: '烹饪王国第 15 级指南：炸鸡 | 技巧与策略',
-      description: '在烹饪王国第 15 级掌握炸鸡。获取制作酥脆炸鸡、管理配菜（土豆泥、凉拌卷心菜、薯条）和快速上菜的技巧。',
-      keywords: '烹饪王国, 第 15 级, 炸鸡, 指南, 酥脆炸鸡, 配菜, 土豆泥, 凉拌卷心菜, 薯条, 策略'
+      description:
+        '在烹饪王国第 15 级掌握炸鸡。获取制作酥脆炸鸡、管理配菜（土豆泥、凉拌卷心菜、薯条）和快速上菜的技巧。',
+      keywords: '烹饪王国, 第 15 级, 炸鸡, 指南, 酥脆炸鸡, 配菜, 土豆泥, 凉拌卷心菜, 薯条, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_15.webp',
-      levelInfoHtml: '<h3>炸鸡</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 3.5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>炸鸡</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 3.5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-12',
           title: '第 12 级<br>拉面',
           imageUrl: '/images/guides_12.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
         },
         {
           id: 'cookingdom-game-level-13',
           title: '第 13 级<br>热狗',
           imageUrl: '/images/guides_13.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
         },
         {
           id: 'cookingdom-game-level-14',
           title: '第 14 级<br>三文鱼配蔬菜通心粉汤',
           imageUrl: '/images/guides_14.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1391,7 +1415,7 @@ export const guidesZh = [
 <p>完美调味的炸鸡、金黄的薯条和滑嫩的土豆泥将让顾客对你的菜肴赞不绝口。像往常一样，在《Cookingdom》中，速度和摆盘同样重要，确保所有食物都是新鲜热乎的！</p>
 <p>通过掌握炸鸡制作技巧并提升多任务处理能力，你将不断升级，挑战更复杂的菜肴！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-16',
@@ -1399,38 +1423,41 @@ export const guidesZh = [
     pageTitle: '烹饪王国第 16 级 - 德州烧烤指南',
     pageSubtitle: '在烹饪王国第 16 级掌握烟熏风味的德州烧烤。',
     category: '11-20',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_16.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
     iframeUrl: 'https://www.youtube.com/embed/KyijXpwgOn8',
     seo: {
       title: '烹饪王国第 16 级指南：德州烧烤 | 技巧与策略',
-      description: '在烹饪王国第 16 级学习烹饪德州烧烤（肋排、牛腩）。获取慢烤、烧烤酱、配菜（玉米面包、烤豆、凉拌卷心菜）和时间的技巧。',
-      keywords: '烹饪王国, 第 16 级, 德州烧烤, 烧烤指南, 肋排, 牛腩, 烧烤酱, 玉米面包, 烤豆, 凉拌卷心菜, 慢烤, 策略'
+      description:
+        '在烹饪王国第 16 级学习烹饪德州烧烤（肋排、牛腩）。获取慢烤、烧烤酱、配菜（玉米面包、烤豆、凉拌卷心菜）和时间的技巧。',
+      keywords:
+        '烹饪王国, 第 16 级, 德州烧烤, 烧烤指南, 肋排, 牛腩, 烧烤酱, 玉米面包, 烤豆, 凉拌卷心菜, 慢烤, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_16.webp',
-      levelInfoHtml: '<h3>德州烧烤</h3><p><strong>难度：</strong> 困难</p><p><strong>大约时间：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>德州烧烤</h3><p><strong>难度：</strong> 困难</p><p><strong>大约时间：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-13',
           title: '第 13 级<br>热狗',
           imageUrl: '/images/guides_13.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
         },
         {
           id: 'cookingdom-game-level-14',
           title: '第 14 级<br>三文鱼配蔬菜通心粉汤',
           imageUrl: '/images/guides_14.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
         },
         {
           id: 'cookingdom-game-level-15',
           title: '第 15 级<br>炸鸡',
           imageUrl: '/images/guides_15.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1518,7 +1545,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第16关，制作德州烧烤涉及掌握慢烹肉类、完美制作烧烤酱和搭配玉米面包、烤豆和凉拌卷
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-17',
@@ -1526,38 +1553,40 @@ export const guidesZh = [
     pageTitle: '烹饪王国第 17 级 - 玛奇朵咖啡指南',
     pageSubtitle: '在烹饪王国第 17 级学习制作完美的玛奇朵咖啡。',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_17.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/9vMHRRYFPMg',
     seo: {
       title: '烹饪王国第 17 级指南：玛奇朵咖啡 | 技巧与策略',
-      description: '在烹饪王国第 17 级掌握玛奇朵咖啡。获取冲泡意式浓缩咖啡、打发完美奶泡以及为这款经典咖啡达到恰当平衡的技巧。',
-      keywords: '烹饪王国, 第 17 级, 玛奇朵咖啡, 玛奇朵指南, 意式浓缩咖啡, 奶泡, 咖啡, 冲泡, 策略'
+      description:
+        '在烹饪王国第 17 级掌握玛奇朵咖啡。获取冲泡意式浓缩咖啡、打发完美奶泡以及为这款经典咖啡达到恰当平衡的技巧。',
+      keywords: '烹饪王国, 第 17 级, 玛奇朵咖啡, 玛奇朵指南, 意式浓缩咖啡, 奶泡, 咖啡, 冲泡, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_17.webp',
-      levelInfoHtml: '<h3>玛奇朵咖啡</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 2 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>玛奇朵咖啡</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 2 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-14',
           title: '第 14 级<br>三文鱼配蔬菜通心粉汤',
           imageUrl: '/images/guides_14.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
         },
         {
           id: 'cookingdom-game-level-15',
           title: '第 15 级<br>炸鸡',
           imageUrl: '/images/guides_15.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
         {
           id: 'cookingdom-game-level-16',
           title: '第 16 级<br>德州烧烤',
           imageUrl: '/images/guides_16.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1638,7 +1667,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第17关，制作咖啡马奇亚托需要精细的时间掌控和精准的操作。浓缩咖啡的完美萃取与牛奶泡沫的理想质感是制作这款经典咖啡饮品的关键。通过仔细关注每个细节，你将为顾客奉上一杯顺滑、浓郁的咖啡马奇亚托，带来极致的味觉享受。</p>
 <p>高效多任务处理、把握时间，及时上菜，能让你在《Cookingdom》中获得最高的评分
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-18',
@@ -1646,38 +1675,41 @@ export const guidesZh = [
     pageTitle: '烹饪王国第 18 级 - 法式炖菜指南',
     pageSubtitle: '在烹饪王国第 18 级学习制作经典的法式炖菜。',
     category: '11-20',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_18.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
     iframeUrl: 'https://www.youtube.com/embed/YADKwUHp4XY',
     seo: {
       title: '烹饪王国第 18 级指南：法式炖菜 | 技巧与策略',
-      description: '在烹饪王国第 18 级掌握法式炖菜。获取切蔬菜（茄子、西葫芦、辣椒、番茄）、完美烹饪和慢炖酱汁的技巧。',
-      keywords: '烹饪王国, 第 18 级, 法式炖菜, Ratatouille, 法国菜, 蔬菜杂烩, 指南, 煸炒, 慢炖, 策略'
+      description:
+        '在烹饪王国第 18 级掌握法式炖菜。获取切蔬菜（茄子、西葫芦、辣椒、番茄）、完美烹饪和慢炖酱汁的技巧。',
+      keywords:
+        '烹饪王国, 第 18 级, 法式炖菜, Ratatouille, 法国菜, 蔬菜杂烩, 指南, 煸炒, 慢炖, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_18.webp',
-      levelInfoHtml: '<h3>法式炖菜</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>法式炖菜</h3><p><strong>难度：</strong> 中等</p><p><strong>大约时间：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-15',
           title: '第 15 级<br>炸鸡',
           imageUrl: '/images/guides_15.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
         {
           id: 'cookingdom-game-level-16',
           title: '第 16 级<br>德州烧烤',
           imageUrl: '/images/guides_16.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
         },
         {
           id: 'cookingdom-game-level-17',
           title: '第 17 级<br>玛奇朵咖啡',
           imageUrl: '/images/guides_17.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1763,7 +1795,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第18关，制作普罗旺斯炖菜需要精确切割蔬菜、适当翻炒、慢炖浓郁的番茄酱。这道菜结合
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-19',
@@ -1777,32 +1809,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/CoSI8csqCbc',
     seo: {
       title: 'Cookingdom 第 19 关攻略：南瓜派 | 技巧与策略',
-      description: '掌握 Cookingdom 第 19 关的南瓜派制作。获取制作完美派皮、顺滑馅料、烘焙和上菜这款经典甜点的技巧。',
-      keywords: 'Cookingdom, 第 19 关, 南瓜派, 甜点, 烘焙, 派皮, 南瓜馅, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 19 关的南瓜派制作。获取制作完美派皮、顺滑馅料、烘焙和上菜这款经典甜点的技巧。',
+      keywords: 'Cookingdom, 第 19 关, 南瓜派, 甜点, 烘焙, 派皮, 南瓜馅, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_19.webp',
-      levelInfoHtml: '<h3>南瓜派</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>南瓜派</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-16',
           title: '第 16 关<br>德州烧烤',
           imageUrl: '/images/guides_16.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
         },
         {
           id: 'cookingdom-game-level-17',
           title: '第 17 关<br>玛奇朵咖啡',
           imageUrl: '/images/guides_17.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
         {
           id: 'cookingdom-game-level-18',
           title: '第 18 关<br>法式炖菜',
           imageUrl: '/images/guides_18.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -1893,7 +1927,7 @@ export const guidesZh = [
 
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》的第19关，制作南瓜派需要注重细节，从做出完美的派皮到制作顺滑、美味的南瓜馅。通过合理</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-20',
@@ -1907,32 +1941,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/Rp9i4GwAC6E',
     seo: {
       title: 'Cookingdom 第 20 关攻略：烤火鸡 | 技巧与策略',
-      description: '掌握 Cookingdom 第 20 关的烤火鸡。获取调味、烘烤、涂油和上菜这道节日菜肴的技巧。',
-      keywords: 'Cookingdom, 第 20 关, 烤火鸡, 节日菜肴, 烘烤, 涂油, 火鸡攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 20 关的烤火鸡。获取调味、烘烤、涂油和上菜这道节日菜肴的技巧。',
+      keywords: 'Cookingdom, 第 20 关, 烤火鸡, 节日菜肴, 烘烤, 涂油, 火鸡攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_20.webp',
-      levelInfoHtml: '<h3>烤火鸡</h3><p><strong>难度：</strong> 中高</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>烤火鸡</h3><p><strong>难度：</strong> 中高</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-17',
           title: '第 17 关<br>玛奇朵咖啡',
           imageUrl: '/images/guides_17.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
         {
           id: 'cookingdom-game-level-18',
           title: '第 18 关<br>法式炖菜',
           imageUrl: '/images/guides_18.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
         {
           id: 'cookingdom-game-level-19',
           title: '第 19 关<br>南瓜派',
           imageUrl: '/images/guides_19.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2035,7 +2071,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》的第20关中，准备烤火鸡需要细致的操作、精确的时间掌控以及正确的技巧。从调味到完美烤制，再到定期刷汁，所有步骤都需要你细心操作。这一关真正考验你的烹饪技巧。通过精确的温控和细致的刷汁，你将能制作出金黄多汁的火鸡，令顾客满意并提升你的《Cookingdom》体验。</p>
 <p>掌握烤火鸡的艺术后，你将能轻松应对未来更复杂的菜肴！</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-21',
@@ -2043,38 +2079,40 @@ export const guidesZh = [
     pageTitle: 'Cookingdom 第 21 关 - 珍珠奶茶攻略',
     pageSubtitle: '学习如何在 Cookingdom 第 21 关制作完美的珍珠奶茶。',
     category: '21-30',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_21.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
     iframeUrl: 'https://www.youtube.com/embed/sT6G1wBptko',
     seo: {
       title: 'Cookingdom 第 21 关攻略：珍珠奶茶 | 技巧与策略',
-      description: '掌握 Cookingdom 第 21 关的珍珠奶茶制作。获取煮珍珠、泡茶、平衡牛奶和上菜这款潮流饮品的技巧。',
-      keywords: 'Cookingdom, 第 21 关, 珍珠奶茶, 泡沫红茶, 台湾饮品, 奶茶攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 21 关的珍珠奶茶制作。获取煮珍珠、泡茶、平衡牛奶和上菜这款潮流饮品的技巧。',
+      keywords: 'Cookingdom, 第 21 关, 珍珠奶茶, 泡沫红茶, 台湾饮品, 奶茶攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_21.webp',
-      levelInfoHtml: '<h3>珍珠奶茶</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 3 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>珍珠奶茶</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 3 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-18',
           title: '第 18 关<br>法式炖菜',
           imageUrl: '/images/guides_18.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
         {
           id: 'cookingdom-game-level-19',
           title: '第 19 关<br>南瓜派',
           imageUrl: '/images/guides_19.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
         {
           id: 'cookingdom-game-level-20',
           title: '第 20 关<br>烤火鸡',
           imageUrl: '/images/guides_20.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2169,7 +2207,7 @@ export const guidesZh = [
 <p>在《Cookingdom》的21级中，制作完美的珍珠奶茶需要精确控制煮珍珠、泡茶和调配牛奶与糖分的比例。注意珍珠的口感，确保茶与牛奶的搭配协调，为顾客呈现一款既美味又满足的饮品。</p>
 <p>通过精心的准备、完美的珍珠和一些创意，你将能成功打动顾客，并继续你在《Cookingdom》的冒险之旅！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-22',
@@ -2183,32 +2221,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/_h0bTaAM-0o',
     seo: {
       title: 'Cookingdom 第 22 关攻略：简易思慕雪 | 技巧与策略',
-      description: '掌握 Cookingdom 第 22 关的简易思慕雪制作。获取选择水果、搅拌、达到合适稠度和上菜的技巧。',
-      keywords: 'Cookingdom, 第 22 关, 简易思慕雪, 健康饮品, 搅拌, 水果思慕雪, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 22 关的简易思慕雪制作。获取选择水果、搅拌、达到合适稠度和上菜的技巧。',
+      keywords: 'Cookingdom, 第 22 关, 简易思慕雪, 健康饮品, 搅拌, 水果思慕雪, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_22.webp',
-      levelInfoHtml: '<h3>简易思慕雪</h3><p><strong>难度：</strong> 简单</p><p><strong>大约用时：</strong> 2 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>简易思慕雪</h3><p><strong>难度：</strong> 简单</p><p><strong>大约用时：</strong> 2 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-19',
           title: '第 19 关<br>南瓜派',
           imageUrl: '/images/guides_19.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
         {
           id: 'cookingdom-game-level-20',
           title: '第 20 关<br>烤火鸡',
           imageUrl: '/images/guides_20.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
         {
           id: 'cookingdom-game-level-21',
           title: '第 21 关<br>珍珠奶茶',
           imageUrl: '/images/guides_21.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2294,7 +2334,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》的22级中，制作简易奶昔的关键是选择合适的水果、搭配奶油状的基底，并获得完美的质地。保持顺滑的口感、调整甜度，并加上装饰性的小点缀，为顾客带来最佳体验。</p>
 <p>掌握简易奶昔的制作技巧不仅能够提升你的《Cookingdom》技能，还能为你未来挑战更复杂的菜肴和饮品做好准备！</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-23',
@@ -2308,32 +2348,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/FCFq9xRRobo',
     seo: {
       title: 'Cookingdom 第 23 关攻略：圣诞树根蛋糕 | 技巧与策略',
-      description: '掌握 Cookingdom 第 23 关的圣诞树根蛋糕制作。获取烘烤海绵蛋糕、卷起、填充、糖霜和装饰这款经典节庆甜点的技巧。',
-      keywords: 'Cookingdom, 第 23 关, 圣诞树根蛋糕, Bûche de Noël, 节日甜点, 烘焙攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 23 关的圣诞树根蛋糕制作。获取烘烤海绵蛋糕、卷起、填充、糖霜和装饰这款经典节庆甜点的技巧。',
+      keywords: 'Cookingdom, 第 23 关, 圣诞树根蛋糕, Bûche de Noël, 节日甜点, 烘焙攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_23.webp',
-      levelInfoHtml: '<h3>圣诞树根蛋糕</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>圣诞树根蛋糕</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-20',
           title: '第 20 关<br>烤火鸡',
           imageUrl: '/images/guides_20.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
         {
           id: 'cookingdom-game-level-21',
           title: '第 21 关<br>珍珠奶茶',
           imageUrl: '/images/guides_21.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
         {
           id: 'cookingdom-game-level-22',
           title: '第 22 关<br>简易思慕雪',
           imageUrl: '/images/guides_22.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2418,7 +2460,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》的第23关中，掌握圣诞树木蛋糕意味着平衡烘焙技巧、精准时机和创意。从打发完美的海绵蛋糕到用节日装饰装点蛋糕，这一关测试了你迄今为止所学到的所有技能。在《Cookingdom》攻略的帮助下，你将顺利完成挑战，并让顾客充满节日的喜悦！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-24',
@@ -2426,38 +2468,40 @@ export const guidesZh = [
     pageTitle: 'Cookingdom 第 24 关 - 牛肉越南粉攻略',
     pageSubtitle: '在 Cookingdom 第 24 关掌握制作美味越南牛肉粉的艺术。',
     category: '21-30',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_24.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
     iframeUrl: 'https://www.youtube.com/embed/iKRnARMMl_0',
     seo: {
       title: 'Cookingdom 第 24 关攻略：牛肉越南粉 | 技巧与策略',
-      description: '掌握 Cookingdom 第 24 关的牛肉越南粉制作。获取熬制汤头、煮米粉、切牛肉和组装这道香气四溢的越南汤粉的技巧。',
-      keywords: 'Cookingdom, 第 24 关, 牛肉越南粉, 越南汤粉, 粉, 汤头熬制, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 24 关的牛肉越南粉制作。获取熬制汤头、煮米粉、切牛肉和组装这道香气四溢的越南汤粉的技巧。',
+      keywords: 'Cookingdom, 第 24 关, 牛肉越南粉, 越南汤粉, 粉, 汤头熬制, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_24.webp',
-      levelInfoHtml: '<h3>牛肉越南粉</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>牛肉越南粉</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-21',
           title: '第 21 关<br>珍珠奶茶',
           imageUrl: '/images/guides_21.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
         {
           id: 'cookingdom-game-level-22',
           title: '第 22 关<br>简易思慕雪',
           imageUrl: '/images/guides_22.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
         {
           id: 'cookingdom-game-level-23',
           title: '第 23 关<br>圣诞树根蛋糕',
           imageUrl: '/images/guides_23.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2532,7 +2576,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第24关，制作牛肉 pho 涉及精准的配料搭配、时机控制和精美的呈现。从炖制美味的汤底到用适当的香草和调味料精心搭配，每一步都需要细心处理。通过遵循《Cookingdom》的攻略，你将掌握如何调制完美的汤底，煮熟牛肉片，并用香草和香料将 pho 组合得完美无缺。</p>
 <p>通过耐心和练习，你将掌握牛肉 pho，并继续在《Cookingdom》这片美味的世界中前行！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-25',
@@ -2546,32 +2590,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/BJJ9KEWeJBc',
     seo: {
       title: 'Cookingdom 第 25 关攻略：披萨 | 技巧与策略',
-      description: '掌握 Cookingdom 第 25 关的披萨制作。获取制作面团、酱料、配料、烘烤和上菜完美披萨的技巧。',
-      keywords: 'Cookingdom, 第 25 关, 披萨, 披萨面团, 烘烤, 配料, 意大利美食, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 25 关的披萨制作。获取制作面团、酱料、配料、烘烤和上菜完美披萨的技巧。',
+      keywords: 'Cookingdom, 第 25 关, 披萨, 披萨面团, 烘烤, 配料, 意大利美食, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_25.webp',
-      levelInfoHtml: '<h3>披萨</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>披萨</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-22',
           title: '第 22 关<br>简易思慕雪',
           imageUrl: '/images/guides_22.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
         {
           id: 'cookingdom-game-level-23',
           title: '第 23 关<br>圣诞树根蛋糕',
           imageUrl: '/images/guides_23.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
         },
         {
           id: 'cookingdom-game-level-24',
           title: '第 24 关<br>牛肉越南粉',
           imageUrl: '/images/guides_24.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2623,7 +2669,7 @@ export const guidesZh = [
         <h3>烘烤披萨</h3>
         <p>《Cookingdom》将引导你进行烘烤。确保烤箱预热至475°F（245°C）。将披萨放在烤盘或披萨石上。</p>
         <p>根据你喜欢的外壳和配料比例，烤10-15分钟。披萨烤好时，外壳应呈金黄色，奶酪应冒泡并略微变色。</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-26',
@@ -2637,32 +2683,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/BK2eYJhoKl8',
     seo: {
       title: 'Cookingdom 第 26 关攻略：思慕雪 | 技巧与策略',
-      description: '掌握 Cookingdom 第 26 关的思慕雪制作。获取选择水果、液体、搅拌至合适稠度以及装饰的技巧。',
-      keywords: 'Cookingdom, 第 26 关, 思慕雪, 健康饮品, 搅拌, 水果饮品, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 26 关的思慕雪制作。获取选择水果、液体、搅拌至合适稠度以及装饰的技巧。',
+      keywords: 'Cookingdom, 第 26 关, 思慕雪, 健康饮品, 搅拌, 水果饮品, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_26.webp',
-      levelInfoHtml: '<h3>思慕雪</h3><p><strong>难度：</strong> 简单</p><p><strong>大约用时：</strong> 2 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>思慕雪</h3><p><strong>难度：</strong> 简单</p><p><strong>大约用时：</strong> 2 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-23',
           title: '第 23 关<br>圣诞树根蛋糕',
           imageUrl: '/images/guides_23.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
         },
         {
           id: 'cookingdom-game-level-24',
           title: '第 24 关<br>牛肉越南粉',
           imageUrl: '/images/guides_24.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
         },
         {
           id: 'cookingdom-game-level-25',
           title: '第 25 关<br>披萨',
           imageUrl: '/images/guides_25.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2754,7 +2802,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第26关，制作完美的冰沙需要正确的水果、液体和可选配料，所有配料搅拌至完美。无论你是制作一款热带冰沙，使用芒果和菠萝，还是用草莓和蓝莓调配出一款浆果风味的饮品，这一关都要求你精准把握。</p>
 <p>通过遵循《Cookingdom》攻略，你将能够迅速掌握冰沙制作技巧。调整好浓稠度，用心装饰冰沙，并为顾客提供美味的冰沙，确保顾客满意度满分！</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-27',
@@ -2762,38 +2810,40 @@ export const guidesZh = [
     pageTitle: 'Cookingdom 第 27 关 - 三明治攻略',
     pageSubtitle: '在 Cookingdom 第 27 关学习组装完美的三明治。',
     category: '21-30',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_27.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/vWz6SmiMBk0',
     seo: {
       title: 'Cookingdom 第 27 关攻略：三明治 | 技巧与策略',
-      description: '掌握 Cookingdom 第 27 关的三明治制作。获取选择面包、蛋白质、蔬菜、调味酱、分层和上菜的技巧。',
-      keywords: 'Cookingdom, 第 27 关, 三明治, 快餐, 分层, 面包, 蛋白质, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 27 关的三明治制作。获取选择面包、蛋白质、蔬菜、调味酱、分层和上菜的技巧。',
+      keywords: 'Cookingdom, 第 27 关, 三明治, 快餐, 分层, 面包, 蛋白质, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_27.webp',
-      levelInfoHtml: '<h3>三明治</h3><p><strong>难度：</strong> 简单</p><p><strong>大约用时：</strong> 3 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>三明治</h3><p><strong>难度：</strong> 简单</p><p><strong>大约用时：</strong> 3 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-24',
           title: '第 24 关<br>牛肉越南粉',
           imageUrl: '/images/guides_24.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
         },
         {
           id: 'cookingdom-game-level-25',
           title: '第 25 关<br>披萨',
           imageUrl: '/images/guides_25.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
         {
           id: 'cookingdom-game-level-26',
           title: '第 26 关<br>思慕雪',
           imageUrl: '/images/guides_26.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2874,7 +2924,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第27关，制作完美的三明治讲究的是平衡和细节。从选择合适的面包，到加入完美的蛋白质、蔬菜、调味品和奶酪，每一步都需要仔细执行，才能做出令人满意的三明治。</p>
 <p>通过遵循本《Cookingdom》攻略，你将能够制作出美味且结构良好的三明治，顾客一定会喜爱。记得关注顾客的偏好，将面包烤至酥脆，始终保持新鲜的食材！</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-28',
@@ -2888,32 +2938,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/c0TZorOkxWU',
     seo: {
       title: 'Cookingdom 第 28 关攻略：可颂 | 技巧与策略',
-      description: '掌握 Cookingdom 第 28 关的可颂制作。获取准备面团、开酥、塑形、发酵和烘烤这款经典法式糕点的技巧。',
-      keywords: 'Cookingdom, 第 28 关, 可颂, 牛角包, 法式糕点, 烘焙, 开酥, 面团, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 28 关的可颂制作。获取准备面团、开酥、塑形、发酵和烘烤这款经典法式糕点的技巧。',
+      keywords: 'Cookingdom, 第 28 关, 可颂, 牛角包, 法式糕点, 烘焙, 开酥, 面团, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_28.webp',
-      levelInfoHtml: '<h3>可颂</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 6 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>可颂</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 6 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-25',
           title: '第 25 关<br>披萨',
           imageUrl: '/images/guides_25.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
         {
           id: 'cookingdom-game-level-26',
           title: '第 26 关<br>思慕雪',
           imageUrl: '/images/guides_26.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
         {
           id: 'cookingdom-game-level-27',
           title: '第 27 关<br>三明治',
           imageUrl: '/images/guides_27.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -2995,7 +3047,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第28关，制作完美的可颂涉及技巧与时间的平衡。从制作面团到折叠、层叠，再到最后的烘焙，每一个环节都至关重要，才能完成经典的酥皮质感。别忘了最后的点睛之笔：将可颂烘焙至金黄，并趁热上桌。</p>
 <p>通过遵循本《Cookingdom》攻略，你将掌握制作可颂的艺术，凭借这些美味的黄油点心，定能令顾客惊艳不已。掌握了这一技巧后，你将准备好迎接《Cookingdom》中更具挑战性的关卡！</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-29',
@@ -3003,38 +3055,40 @@ export const guidesZh = [
     pageTitle: 'Cookingdom 第 29 关 - 抹茶波霸奶茶攻略',
     pageSubtitle: '在 Cookingdom 第 29 关学习制作时髦的抹茶波霸奶茶。',
     category: '21-30',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_29.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
     iframeUrl: 'https://www.youtube.com/embed/BI4QGcm-kDM',
     seo: {
       title: 'Cookingdom 第 29 关攻略：抹茶波霸奶茶 | 技巧与策略',
-      description: '掌握 Cookingdom 第 29 关的抹茶波霸奶茶制作。获取烹煮波霸珍珠、混合抹茶、加入牛奶和组装这款流行饮品的技巧。',
-      keywords: 'Cookingdom, 第 29 关, 抹茶波霸奶茶, 波霸, 珍珠奶茶, 抹茶, 饮品, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 29 关的抹茶波霸奶茶制作。获取烹煮波霸珍珠、混合抹茶、加入牛奶和组装这款流行饮品的技巧。',
+      keywords: 'Cookingdom, 第 29 关, 抹茶波霸奶茶, 波霸, 珍珠奶茶, 抹茶, 饮品, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_29.webp',
-      levelInfoHtml: '<h3>抹茶波霸奶茶</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>抹茶波霸奶茶</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-26',
           title: '第 26 关<br>思慕雪',
           imageUrl: '/images/guides_26.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
         {
           id: 'cookingdom-game-level-27',
           title: '第 27 关<br>三明治',
           imageUrl: '/images/guides_27.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
         {
           id: 'cookingdom-game-level-28',
           title: '第 28 关<br>可颂',
           imageUrl: '/images/guides_28.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3111,7 +3165,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第29关，制作完美的抹茶波霸奶茶的关键是平衡抹茶的风味、波霸珍珠的口感和牛奶的奶香。按照步骤确保波霸珍珠煮制完美，抹茶搅拌均匀，饮品甜度适中。关注细节，选择合适的牛奶和甜味剂，使你的抹茶波霸奶茶更加出色。</p>
 <p>通过遵循本《Cookingdom》攻略，你将能够制作出完美的抹茶波霸奶茶，让顾客爱上这款饮品，并帮助你更进一步掌握《Cookingdom》中的饮品制作艺术！</p>
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-30',
@@ -3125,32 +3179,35 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/6l1-yu8zZKs',
     seo: {
       title: 'Cookingdom 第 30 关攻略：土耳其烤肉卷 | 技巧与策略',
-      description: '掌握 Cookingdom 第 30 关的土耳其烤肉卷制作。获取烤肉、准备配料、组装和供应这款土耳其街头美食的技巧。',
-      keywords: 'Cookingdom, 第 30 关, 土耳其烤肉卷, Doner Kebab, Kebab, 土耳其美食, 街头小吃, 烧烤, 皮塔饼, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 30 关的土耳其烤肉卷制作。获取烤肉、准备配料、组装和供应这款土耳其街头美食的技巧。',
+      keywords:
+        'Cookingdom, 第 30 关, 土耳其烤肉卷, Doner Kebab, Kebab, 土耳其美食, 街头小吃, 烧烤, 皮塔饼, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_30.webp',
-      levelInfoHtml: '<h3>土耳其烤肉卷</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>土耳其烤肉卷</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-27',
           title: '第 27 关<br>三明治',
           imageUrl: '/images/guides_27.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
         {
           id: 'cookingdom-game-level-28',
           title: '第 28 关<br>可颂',
           imageUrl: '/images/guides_28.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
         {
           id: 'cookingdom-game-level-29',
           title: '第 29 关<br>抹茶波霸奶茶',
           imageUrl: '/images/guides_29.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3227,7 +3284,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第30关，制作完美的烤肉夹饼涉及到烤制肉类至金黄色的酥脆外皮，准备新鲜蔬菜，以及合理搭配酱料，创造出美味且令人满足的餐点。通过遵循本指南并关注细节，你将能够组装出一份风味平衡的美味烤肉夹饼，赢得顾客的青睐。</p>
 <p>记住，《Cookingdom》强调的是口感、风味与呈现之间的平衡。完善你的烤制技巧、酱料搭配和包裹技巧，你将成为城中最受欢迎的烤肉夹饼大师！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-31',
@@ -3241,32 +3298,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/iq0t6XrkgF0',
     seo: {
       title: 'Cookingdom 第 31 关攻略：咖啡摩卡 | 技巧与策略',
-      description: '掌握 Cookingdom 第 31 关的咖啡摩卡制作。获取萃取意式浓缩咖啡、准备巧克力、打发牛奶和组装这款经典咖啡饮品的技巧。',
-      keywords: 'Cookingdom, 第 31 关, 咖啡摩卡, 摩卡, 咖啡, 意式浓缩, 巧克力, 饮品, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 31 关的咖啡摩卡制作。获取萃取意式浓缩咖啡、准备巧克力、打发牛奶和组装这款经典咖啡饮品的技巧。',
+      keywords: 'Cookingdom, 第 31 关, 咖啡摩卡, 摩卡, 咖啡, 意式浓缩, 巧克力, 饮品, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_31.webp',
-      levelInfoHtml: '<h3>咖啡摩卡</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>咖啡摩卡</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-28',
           title: '第 28 关<br>可颂',
           imageUrl: '/images/guides_28.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
         {
           id: 'cookingdom-game-level-29',
           title: '第 29 关<br>抹茶波霸奶茶',
           imageUrl: '/images/guides_29.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
         {
           id: 'cookingdom-game-level-30',
           title: '第 30 关<br>土耳其烤肉卷',
           imageUrl: '/images/guides_30.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3346,7 +3405,7 @@ export const guidesZh = [
 <p>在《Cookingdom》第31关，制作完美的咖啡摩卡需要对每一个步骤保持高度关注——从萃取浓郁的浓缩咖啡到完美蒸奶，再到平衡巧克力的甜度与咖啡的苦味。成功的关键是确保浓缩咖啡浓烈、奶泡顺滑，巧克力添加合适的甜味。一杯精美装饰的咖啡摩卡将会让顾客满意，并让他们不断光临。</p>
 <p>通过遵循本指南，你将能够制作出一杯令人愉悦且奢华的咖啡摩卡，赢得顾客的喜爱，也将帮助你在《Cookingdom》中逐步掌握咖啡类饮品的制作艺术！</p>
 
-    `
+    `,
   },
   {
     id: 'cookingdom-game-level-32',
@@ -3354,38 +3413,40 @@ export const guidesZh = [
     pageTitle: 'Cookingdom 第 32 关 - 汉堡包攻略',
     pageSubtitle: '在 Cookingdom 第 32 关学习组装经典的汉堡包。',
     category: '31-40',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_32.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/VViL7ptIJUA',
     seo: {
       title: 'Cookingdom 第 32 关攻略：汉堡包 | 技巧与策略',
-      description: '掌握 Cookingdom 第 32 关的汉堡包制作。获取烹饪肉饼、准备配料、烘烤面包和组装这款标志性菜肴的技巧。',
-      keywords: 'Cookingdom, 第 32 关, 汉堡包, 汉堡, 牛肉饼, 烧烤, 配料, 面包, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 32 关的汉堡包制作。获取烹饪肉饼、准备配料、烘烤面包和组装这款标志性菜肴的技巧。',
+      keywords: 'Cookingdom, 第 32 关, 汉堡包, 汉堡, 牛肉饼, 烧烤, 配料, 面包, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_32.webp',
-      levelInfoHtml: '<h3>汉堡包</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>汉堡包</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-29',
           title: '第 29 关<br>抹茶波霸奶茶',
           imageUrl: '/images/guides_29.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
         {
           id: 'cookingdom-game-level-30',
           title: '第 30 关<br>土耳其烤肉卷',
           imageUrl: '/images/guides_30.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
         {
           id: 'cookingdom-game-level-31',
           title: '第 31 关<br>咖啡摩卡',
           imageUrl: '/images/guides_31.webp3',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3467,7 +3528,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第32关，制作完美汉堡需要掌握味道和口感的平衡——从烹饪牛肉饼到烤制汉堡包，再到层叠配料。关键在于细节：确保牛肉饼恰到好处，选择新鲜且脆嫩的配料，并将汉堡包烤制至完美。</p>
 <p>通过本指南，你将能够制作出美味且口感平衡的汉堡，让顾客们为之倾倒，帮助你逐步掌握《Cookingdom》中的汉堡制作艺术！</p>
-`
+`,
   },
   {
     id: 'cookingdom-game-level-33',
@@ -3475,38 +3536,40 @@ export const guidesZh = [
     pageTitle: 'Cookingdom 第 33 关 - 阿拉斯加蒸龙虾攻略',
     pageSubtitle: '在 Cookingdom 第 33 关学习准备奢华的阿拉斯加蒸龙虾。',
     category: '31-40',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_33.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
     iframeUrl: 'https://www.youtube.com/embed/2wdfF1Rzb0M',
     seo: {
       title: 'Cookingdom 第 33 关攻略：阿拉斯加蒸龙虾 | 技巧与策略',
-      description: '掌握 Cookingdom 第 33 关的阿拉斯加蒸龙虾制作。获取准备、清蒸、制作黄油酱汁和供应这款海鲜佳肴的技巧。',
-      keywords: 'Cookingdom, 第 33 关, 阿拉斯加蒸龙虾, 龙虾, 海鲜, 清蒸, 黄油酱, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 33 关的阿拉斯加蒸龙虾制作。获取准备、清蒸、制作黄油酱汁和供应这款海鲜佳肴的技巧。',
+      keywords: 'Cookingdom, 第 33 关, 阿拉斯加蒸龙虾, 龙虾, 海鲜, 清蒸, 黄油酱, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_33.webp',
-      levelInfoHtml: '<h3>阿拉斯加蒸龙虾</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 6 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>阿拉斯加蒸龙虾</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 6 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-30',
           title: '第 30 关<br>土耳其烤肉卷',
           imageUrl: '/images/guides_30.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
         {
           id: 'cookingdom-game-level-31',
           title: '第 31 关<br>咖啡摩卡',
           imageUrl: '/images/guides_31.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
         {
           id: 'cookingdom-game-level-32',
           title: '第 32 关<br>汉堡包',
           imageUrl: '/images/guides_32.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3577,7 +3640,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第33关，制作阿拉斯加蒸龙虾的关键在于掌握蒸制的时间，调配出美味的黄油酱，并精美地上桌。完美蒸制的龙虾和调味得当的黄油酱会带来一道美味、嫩滑且充满风味的菜肴，顾客必定会爱不释口。</p>
 <p>通过本指南，你将能够每次都制作出完美的阿拉斯加蒸龙虾。注意蒸制时间，调配丰富的黄油酱，趁热上桌，确保顾客拥有最佳的用餐体验。</p>
-`
+`,
   },
   {
     id: 'cookingdom-game-level-34',
@@ -3591,32 +3654,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/1dlwivzYyZg',
     seo: {
       title: 'Cookingdom 第 34 关攻略：帝王蟹 | 技巧与策略',
-      description: '掌握 Cookingdom 第 34 关的帝王蟹制作。获取敲壳、烹饪、制作酱汁和供应这款奢华海鲜菜肴的技巧。',
-      keywords: 'Cookingdom, 第 34 关, 帝王蟹, 螃蟹, 海鲜, 清蒸, 水煮, 黄油酱, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 34 关的帝王蟹制作。获取敲壳、烹饪、制作酱汁和供应这款奢华海鲜菜肴的技巧。',
+      keywords: 'Cookingdom, 第 34 关, 帝王蟹, 螃蟹, 海鲜, 清蒸, 水煮, 黄油酱, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_34.webp',
-      levelInfoHtml: '<h3>帝王蟹</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 6 分钟</p><p><strong>奖励：</strong> 5 星</p>',
+      levelInfoHtml:
+        '<h3>帝王蟹</h3><p><strong>难度：</strong> 高</p><p><strong>大约用时：</strong> 6 分钟</p><p><strong>奖励：</strong> 5 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-31',
           title: '第 31 关<br>咖啡摩卡',
           imageUrl: '/images/guides_31.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
         {
           id: 'cookingdom-game-level-32',
           title: '第 32 关<br>汉堡包',
           imageUrl: '/images/guides_32.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
         {
           id: 'cookingdom-game-level-33',
           title: '第 33 关<br>阿拉斯加蒸龙虾',
           imageUrl: '/images/guides_33.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3688,7 +3753,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第34关，制作帝王蟹的关键在于精细和精准。从打开坚硬的蟹壳到确保蟹肉完美烹制，每一步都至关重要。将帝王蟹与美味的黄油酱搭配，并且用精美的装饰为菜肴加分，便能为顾客呈现一份完美的豪华海鲜大餐。</p>
 <p>通过本指南，你将掌握制作帝王蟹的技巧，并用这道奢华的海鲜菜肴给顾客留下深刻印象。控制烹饪时间，调制浓郁的酱料，并用心装饰，让这道菜既美观又美味
-`
+`,
   },
   {
     id: 'cookingdom-game-level-35',
@@ -3702,32 +3767,35 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/3-Cfdyxut48',
     seo: {
       title: 'Cookingdom 第 35 关攻略：巧克力 | 技巧与策略',
-      description: '掌握 Cookingdom 第 35 关的巧克力甜点制作。获取融化巧克力、准备慕斯或火锅等甜点以及装饰的技巧。',
-      keywords: 'Cookingdom, 第 35 关, 巧克力, 甜点, 融化巧克力, 巧克力火锅, 慕斯, 蛋糕, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 35 关的巧克力甜点制作。获取融化巧克力、准备慕斯或火锅等甜点以及装饰的技巧。',
+      keywords:
+        'Cookingdom, 第 35 关, 巧克力, 甜点, 融化巧克力, 巧克力火锅, 慕斯, 蛋糕, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_35.webp',
-      levelInfoHtml: '<h3>巧克力</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>巧克力</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-32',
           title: '第 32 关<br>汉堡包',
           imageUrl: '/images/guides_32.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
         {
           id: 'cookingdom-game-level-33',
           title: '第 33 关<br>阿拉斯加蒸龙虾',
           imageUrl: '/images/guides_33.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
         },
         {
           id: 'cookingdom-game-level-34',
           title: '第 34 关<br>帝王蟹',
           imageUrl: '/images/guides_34.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3798,7 +3866,7 @@ export const guidesZh = [
 <h2 id="summary">总结</h2>
 <p>在《Cookingdom》第35关，制作完美的巧克力甜点需要细心的操作。无论你是在制作巧克力火锅，还是制作奢华的巧克力甜点，每一步都至关重要。确保巧克力缓慢熔化，添加香草或盐来提升风味，并精心装饰甜点。</p>
 <p>通过本指南，你将能够掌握制作奢华巧克力甜点的艺术，让每一位顾客都为你的甜品赞叹不已。无论你是做蛋糕、慕斯还是火锅，巧克力总是任何甜品爱好者的绝佳选择。</p>
-`
+`,
   },
   {
     id: 'cookingdom-game-level-36',
@@ -3812,32 +3880,34 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/ME58Cd2FYJ4',
     seo: {
       title: 'Cookingdom 第 36 关攻略：印度咖喱 | 技巧与策略',
-      description: '掌握 Cookingdom 第 36 关的印度咖喱制作。获取准备食材、混合香料、炖煮和供应这款芳香菜肴的技巧。',
-      keywords: 'Cookingdom, 第 36 关, 印度咖喱, 咖喱, 印度菜, 香料, 炖煮, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 36 关的印度咖喱制作。获取准备食材、混合香料、炖煮和供应这款芳香菜肴的技巧。',
+      keywords: 'Cookingdom, 第 36 关, 印度咖喱, 咖喱, 印度菜, 香料, 炖煮, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_36.webp',
-      levelInfoHtml: '<h3>印度咖喱</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>印度咖喱</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 5 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-33',
           title: '第 33 关<br>阿拉斯加蒸龙虾',
           imageUrl: '/images/guides_33.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
         },
         {
           id: 'cookingdom-game-level-34',
           title: '第 34 关<br>帝王蟹',
           imageUrl: '/images/guides_34.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
         },
         {
           id: 'cookingdom-game-level-35',
           title: '第 35 关<br>巧克力',
           imageUrl: '/images/guides_35.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
+        },
+      ],
     },
     detailsHtml: `
     <h2 id="overview">游戏概述</h2>
@@ -3917,7 +3987,7 @@ export const guidesZh = [
     <li>
         <h3>调整辣味</h3>
         <p>在加入辣椒粉时，注意调节热度。如果你偏好温和口味的咖喱，可以减少辣椒粉的量，甚至完全省略。想要更辛辣
-`
+`,
   },
   {
     id: 'cookingdom-game-level-37',
@@ -3931,125 +4001,632 @@ export const guidesZh = [
     iframeUrl: 'https://www.youtube.com/embed/tFEyZT_-jTM',
     seo: {
       title: 'Cookingdom 第 37 关攻略：韩式泡菜炒饭 | 技巧与策略',
-      description: '掌握 Cookingdom 第 37 关的韩式泡菜炒饭制作。获取准备米饭、翻炒泡菜、添加煎蛋等配料以及供应这款韩式菜肴的技巧。',
-      keywords: 'Cookingdom, 第 37 关, 韩式泡菜炒饭, 泡菜饭, Kimchi, 韩式料理, 炒饭, 煎蛋, 韩式辣酱, 攻略, 策略'
+      description:
+        '掌握 Cookingdom 第 37 关的韩式泡菜炒饭制作。获取准备米饭、翻炒泡菜、添加煎蛋等配料以及供应这款韩式菜肴的技巧。',
+      keywords:
+        'Cookingdom, 第 37 关, 韩式泡菜炒饭, 泡菜饭, Kimchi, 韩式料理, 炒饭, 煎蛋, 韩式辣酱, 攻略, 策略',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_37.webp',
-      levelInfoHtml: '<h3>韩式泡菜炒饭</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
+      levelInfoHtml:
+        '<h3>韩式泡菜炒饭</h3><p><strong>难度：</strong> 中等</p><p><strong>大约用时：</strong> 4 分钟</p><p><strong>奖励：</strong> 4 星</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-34',
           title: '第 34 关<br>帝王蟹',
           imageUrl: '/images/guides_34.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
         },
         {
           id: 'cookingdom-game-level-35',
           title: '第 35 关<br>巧克力',
           imageUrl: '/images/guides_35.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } }
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
         },
         {
           id: 'cookingdom-game-level-36',
           title: '第 36 关<br>印度咖喱',
           imageUrl: '/images/guides_36.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } }
-        }
-      ]
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+      ],
     },
     detailsHtml: `
-    <h2 id="overview">游戏概述</h2>
-<p>在《Cookingdom》第36关，你将制作一道富有风味和香气的美食：印度咖喱。印度咖喱以其丰富、辛辣和复杂的口味而著称，是世界各地许多文化中备受喜爱的菜肴。本关的挑战在于创造出完美的香料和食材平衡，使咖喱既芬芳又美味。制作过程中，你需要将蔬菜和肉类与各种香料、香草以及奶油或椰奶一起慢炖，打造出一款浓郁美味的菜肴。</p>
-<p>本指南将逐步带你了解如何制作一款美味且香气扑鼻的印度咖喱，从准备香料到搭配完美的配菜一起上桌。</p>
+    <h2 id="overview">游戏概览</h2>
+<p>在《Cookingdom》第37关中，你将制作一道风味独特、口感酸辣的美食：泡菜炒饭。这道标志性的韩国料理由泡菜（一种传统的发酵蔬菜）与米饭炒制而成，常搭配各类蔬菜并加上一颗煎蛋。虽然制作简单，但它能提供辣、酸、咸三种风味的完美平衡。本关的关键挑战在于如何将泡菜与米饭及其他食材充分融合，使整道菜味道均衡、口感适中。</p>
+<p>本攻略将引导你逐步完成这道美味泡菜炒饭的制作，帮助你做出色香味俱佳的佳肴。</p>
 
-<h2 id="goal">第36关目标</h2>
+<h2 id="goal">第37关目标</h2>
 <ul>
-    <li>准备咖喱的食材。</li>
-    <li>用完美的香料配比烹饪咖喱。</li>
-    <li>慢炖咖喱，让味道相融合。</li>
-    <li>将印度咖喱与米饭或面包一同上桌。</li>
+    <li>准备米饭作为基础。</li>
+    <li>翻炒泡菜及其他配料，达到风味平衡。</li>
+    <li>配上煎蛋和装饰品一起上菜。</li>
 </ul>
 
-<h2 id="steps">制作印度咖喱的逐步指南</h2>
+<h2 id="steps">泡菜炒饭详细制作指南</h2>
 <ol>
     <li>
-        <h3>准备食材</h3>
-        <p>制作美味印度咖喱的第一步是收集和准备食材。常见的印度咖喱食材包括：</p>
-        <ul>
-            <li>鸡肉、羊肉或蔬菜（根据你要制作的咖喱类型而定）。</li>
-            <li>洋葱、大蒜和生姜作为底料。</li>
-            <li>多种香料，如孜然、姜黄、香菜粉、印度咖喱粉和辣椒粉。</li>
-            <li>椰奶、番茄或奶油作为咖喱的酱汁基底。</li>
-        </ul>
-        <p><strong>提示：</strong>在《Cookingdom》中，你需要提前切好蔬菜、肉类和香料，以确保烹饪过程顺畅高效。</p>
+        <h3>准备米饭</h3>
+        <p>泡菜炒饭的基础当然是米饭。如果你没有剩饭，就先煮好一锅米饭（白米或短粒米最佳）。</p>
+        <p><strong>提示：</strong> 最好使用前一天的剩饭，因为较干、不粘，适合翻炒并能更好地吸收调味。</p>
     </li>
     <li>
-        <h3>翻炒香料基底</h3>
-        <p>先在大锅或锅中加热油，加入切好的洋葱、大蒜和生姜，炒制出咖喱的香气底料。</p>
-        <p><strong>提示：</strong>炒制这些香料时，直到它们变成金黄色且香气四溢。这一步将为咖喱奠定浓郁的风味基础。</p>
-        <p><strong>提示：</strong>翻炒时要不停搅拌，以防止食材烧焦。</p>
+        <h3>翻炒泡菜</h3>
+        <p>在《Cookingdom》中，你需要将泡菜（发酵白菜）放入锅中翻炒，释放其浓郁酸香的风味。</p>
+        <p><strong>提示：</strong> 在炒之前先将泡菜切成小块，这样能让它更均匀受热。</p>
+        <p>在锅中加入少量油，中火翻炒泡菜约2–3分钟，使其变软并提升风味。</p>
+        <p><strong>提示：</strong> 如果你喜欢更辣的口感，可以在此阶段加入少量韩式辣椒酱（gochujang）或韩式辣椒粉（gochugaru）。</p>
     </li>
     <li>
-        <h3>加入香料</h3>
-        <p>当洋葱、大蒜和生姜炒至完美时，就可以加入香料了。</p>
-        <p>将孜然、姜黄、香菜粉、印度咖喱粉和辣椒粉加入锅中，炒制一到两分钟，让香料释放出天然的油脂，深化风味。</p>
-        <p><strong>提示：</strong>如果你偏好口味较温和的咖喱，使用辣椒粉时要小心。可以根据个人口味调整辣椒粉的量。</p>
+        <h3>炒饭</h3>
+        <p>泡菜炒软后，将米饭加入锅中，充分搅拌。确保米饭均匀裹上泡菜的汤汁。</p>
+        <p><strong>提示：</strong> 中火翻炒约5分钟，让米饭充分吸收泡菜与调味料的风味。</p>
+        <p><strong>提示：</strong> 可加入少量酱油或香油，增加香气与层次。</p>
     </li>
     <li>
-        <h3>加入肉类或蔬菜</h3>
-        <p>香料炒制完毕后，加入你选择的肉类（如鸡肉或羊肉）或蔬菜，翻炒均匀，让食材充分吸收香料。</p>
-        <p><strong>提示：</strong>将肉类煮至两面金黄。如果是蔬菜，确保它们稍微炒熟再加入液体。</p>
+        <h3>加入蔬菜（可选）</h3>
+        <p>如有需要，可加入胡萝卜、青葱或豌豆等蔬菜，增添口感与风味。</p>
+        <p><strong>提示：</strong> 加入蔬菜时，可在炒泡菜时一并炒熟再混入米饭中。</p>
     </li>
     <li>
-        <h3>加入酱汁基底</h3>
-        <p>接下来是制作咖喱酱汁。根据你制作的咖喱类型，加入番茄或椰奶。</p>
-        <p><strong>提示：</strong>如果你喜欢奶油口感的咖喱，椰奶或重奶油将为酱汁增添丝滑细腻的质地。</p>
-        <p>将酱汁与肉类和香料混合均匀，确保所有食材充分融合。</p>
-        <p><strong>提示：</strong>如果咖喱酱汁太浓稠，可以加入少许水或高汤来调整。</p>
+        <h3>煎蛋</h3>
+        <p>泡菜炒饭通常会搭配一颗煎蛋，增加浓郁与滑润的口感。</p>
+        <p>在《Cookingdom》中，根据喜好煎一个蛋。半熟蛋黄拌入炒饭时口感更佳。</p>
+        <p><strong>提示：</strong> 煎好后可在蛋上淋些香油或酱油，增加风味层次。</p>
     </li>
     <li>
-        <h3>慢炖咖喱</h3>
-        <p>将咖喱煮至微开锅，并让其慢炖15至20分钟。这段时间将有助于味道的融合，肉类或蔬菜变得更加柔嫩。</p>
-        <p><strong>提示：</strong>在《Cookingdom》中，确保在炖煮过程中品尝咖喱，并根据需要调整调味。可以加入盐、胡椒或更多香料，以符合个人口味。</p>
-        <p><strong>提示：</strong>如果你喜欢浓稠的咖喱，可以让其慢炖更久，或稍微提高火力来减少液体。</p>
-    </li>
-    <li>
-        <h3>上桌印度咖喱</h3>
-        <p>当印度咖喱煮好，味道融合完美后，就可以开始上桌了！</p>
-        <p>在《Cookingdom》中，将咖喱与蒸米饭、印度饼（naan）或烙饼（roti）搭配，享用这道完整的美味。</p>
-        <p><strong>提示：</strong>用新鲜的香菜或挤些柠檬汁来装饰咖喱，提升风味和新鲜感。</p>
-        <p><strong>提示：</strong>可以搭配一旁的酸奶或印度黄瓜酸奶酱（raita）来缓解咖喱的辛辣感。</p>
+        <h3>上菜</h3>
+        <p>当泡菜炒饭完成并调味到位后，就可以开始摆盘上菜啦。</p>
+        <p>在《Cookingdom》中，可将炒饭装入碗中或盘中，再将煎蛋置于其上。</p>
+        <p><strong>提示：</strong> 撒上切碎的青葱或芝麻，提升风味并增添色彩。</p>
+        <p><strong>提示：</strong> 搭配一小份泡菜作为配菜，更加开胃。</p>
     </li>
 </ol>
 
-<h2 id="tips">第36关成功的专业技巧</h2>
+<h2 id="tips">第37关通关小贴士</h2>
 <ul>
     <li>
-        <h3>完美的香料配比</h3>
-        <p>印度咖喱的关键在于香料的平衡。如果你是香料新手，可以先尝试使用现成的印度咖喱粉，并根据需要加入孜然或姜黄等单独香料进行调整。</p>
+        <h3>使用隔夜饭</h3>
+        <p>隔夜饭较干爽、不易结块，更适合做炒饭。若使用现煮米饭，需先放凉再用，避免黏成团。</p>
     </li>
     <li>
-        <h3>慢炖以增味</h3>
-        <p>让咖喱慢炖一段时间能让香料和食材的味道完美融合。不要急于完成这一步，耐心等待，才能获得深厚丰富的风味。</p>
+        <h3>炒出泡菜香</h3>
+        <p>泡菜一定要炒香，才能释放酸辣与鲜美。如果你喜欢更重口味，可加入更多韩式辣酱或辣椒粉。</p>
     </li>
     <li>
-        <h3>调整辣味</h3>
-        <p>在加入辣椒粉时，注意调节热度。如果你偏好温和口味的咖喱，可以减少辣椒粉的量，甚至完全省略。想要更辛辣的口感时，可以增加辣椒粉或加入新鲜辣椒。</p>
+        <h3>调整辣度</h3>
+        <p>根据个人口味，可增减韩式辣椒酱（gochujang）或辣椒粉（gochugaru）的用量。想吃清淡的可以少放或不放。</p>
     </li>
     <li>
-        <h3>使用新鲜食材</h3>
-        <p>新鲜的生姜和大蒜会为咖喱增添额外的风味。新鲜切好的蔬菜和肉类也会对咖喱的口感和整体味道有所贡献。</p>
+        <h3>煎蛋是关键</h3>
+        <p>一颗煎蛋能让泡菜炒饭更丰富。半熟蛋黄与饭拌在一起时，口感特别滑顺。</p>
     </li>
     <li>
         <h3>装饰提升视觉效果</h3>
-        <p>新鲜香菜、撒上一点咖喱粉、以及挤些柠檬汁，可以提升印度咖喱的视觉效果，让菜肴看起来更加诱人。</p>
+        <p>撒上青葱末与芝麻，不仅增加口感，也让炒饭色彩更诱人。</p>
     </li>
 </ul>
 
 <h2 id="summary">总结</h2>
-<p>在《Cookingdom》第36关，制作印度咖喱的关键在于平衡香料、制作美味酱汁，并让所有食材慢炖至柔嫩，风味相互融合。无论是使用鸡肉、羊肉还是蔬菜，制作一款美味的咖喱的关键是香料的巧妙组合、合适的炖煮时间，以及与米饭或面包的完美搭配。</p>
-<p>通过本指南，你将能够制作出一款风味浓郁、香气扑鼻的印度咖喱，令你的顾客惊艳不已，满足他们的味蕾。</p>
-`
-  }
-];
+<p>在《Cookingdom》第37关中，泡菜炒饭的精髓在于将泡菜的浓郁酸辣与米饭的柔和中和在一起。将泡菜与米饭翻炒，加些酱油或香油提味，再搭配煎蛋，便是一道色香味俱全的料理。无论是否加入蔬菜，只要把握泡菜的风味，这道料理都能征服顾客的味蕾。</p>
+<p>按照本篇《Cookingdom》通关攻略的步骤，你将掌握泡菜炒饭的制作技巧，做出一份既传统又令人满足的韩式美食。</p>
+`,
+  },
+  {
+    // 添加第38关条目
+    id: 'cookingdom-game-level-38',
+    title: 'Cookingdom 第38关：<br>辣炒年糕冲刺',
+    pageTitle: 'Cookingdom 第38关 - 辣炒年糕冲刺攻略',
+    pageSubtitle: '在 Cookingdom 第38关中掌握辣炒年糕的快节奏烹饪技巧。',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/guides_38.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+    iframeUrl: 'https://www.youtube.com/embed/EzXju3Q8Zsc',
+    seo: {
+      title: 'Cookingdom 第38关攻略：辣炒年糕冲刺 | 技巧与策略',
+      description:
+        '掌握 Cookingdom 第38关的辣炒年糕冲刺，获取关于年糕烹饪、酱料管理、加蛋技巧与高分策略的实用建议。',
+      keywords: 'Cookingdom, 第38关, 辣炒年糕, 韩国街头美食, 年糕, 韩式辣酱, 攻略, 策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_38.webp',
+      levelInfoHtml:
+        '<h3>辣炒年糕冲刺</h3><p><strong>难度：</strong> 中上</p><p><strong>预计时间：</strong> 3分钟</p><p><strong>奖励：</strong> 预计4星</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Cookingdom 第35关<br>巧克力',
+          imageUrl: '/images/guides_35.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
+        },
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Cookingdom 第36关<br>印度咖喱',
+          imageUrl: '/images/guides_36.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom 第37关<br>泡菜炒饭',
+          imageUrl: '/images/guides_37.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+      ],
+    },
+    detailsHtml: `
+  <h2 id="overview">游戏概览</h2>
+  <p>第38关将带来火辣挑战——<strong>辣炒年糕</strong>，这是韩国著名的街头美食之一。本关节奏极快，对操作速度、准确度和时间管理要求较高。</p>
+  
+  <h2 id="goal">🎯 目标</h2>
+  <ul>
+    <li>完成至少30份辣炒年糕</li>
+    <li>保持顾客满意度在85%以上</li>
+    <li>3分钟内完成所有任务</li>
+  </ul>
+  
+  <h2 id="ingredients">🌶️ 食材</h2>
+  <ul>
+    <li>年糕（tteok）</li>
+    <li>韩式辣酱（gochujang）</li>
+    <li>水煮蛋（可选加分项）</li>
+    <li>青葱或芝麻（装饰用）</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 步骤策略</h2>
+  <ol>
+    <li>一开始就同时在两个锅中煮年糕。</li>
+    <li>在年糕煮的同时准备韩式辣酱。</li>
+    <li>将酱料加入锅中，倒入年糕翻炒至稍微收汁。</li>
+    <li>根据顾客需求加蛋并装饰后上菜。</li>
+    <li>边上菜边准备下一批，确保不中断。</li>
+  </ol>
+  
+  <h2 id="tips">🔥 通关技巧</h2>
+  <ul>
+    <li><strong>批量制作：</strong> 每次做多份，节省时间。</li>
+    <li><strong>加蛋有加分：</strong> 如果顾客等待时间充足，请务必加蛋。</li>
+    <li><strong>注意锅中年糕：</strong> 年糕煮太久会浪费掉，需密切关注。</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 常见错误</h2>
+  <ul>
+    <li>酱料无人看管时间过长导致糊锅。</li>
+    <li>前期没准备好，空闲时间影响连击。</li>
+    <li>忘记加蛋或装饰，导致失去额外得分。</li>
+  </ul>
+  `,
+  },
+
+  {
+    // 添加第 39 关的条目
+    id: 'cookingdom-game-level-39',
+    title: 'Cookingdom 第 39 关：<br>奶油蘑菇意大利面',
+    pageTitle: 'Cookingdom 第 39 关 - 奶油蘑菇意大利面攻略',
+    pageSubtitle: '掌握奶油蘑菇意大利面这道西式奶香美食，在第 39 关中精准把控烹饪节奏。',
+    category: '31-40',
+    isSpecial: false,
+    imageUrl: '/images/guides_39.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+    iframeUrl: 'https://www.youtube.com/embed/VfAxaHCxBOA',
+    seo: {
+      title: 'Cookingdom 第 39 关攻略：奶油蘑菇意大利面 | 技巧与策略',
+      description:
+        '掌握 Cookingdom 第 39 关中的奶油蘑菇意大利面。获取煮面、炒蘑菇、加热奶油酱与装盘技巧，助你轻松通关。',
+      keywords: 'Cookingdom, 第 39 关, 意大利面, 奶油蘑菇酱, 西餐, 奶油酱, 攻略, 策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_39.webp',
+      levelInfoHtml:
+        '<h3>奶油蘑菇意大利面</h3><p><strong>难度：</strong> 中等</p><p><strong>预计时间：</strong> 3 分 30 秒</p><p><strong>奖励：</strong> 估计 4 星</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Cookingdom 第 36 关<br>印度咖喱',
+          imageUrl: '/images/guides_36.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom 第 37 关<br>泡菜炒饭',
+          imageUrl: '/images/guides_37.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom 第 38 关<br>辣炒年糕风暴',
+          imageUrl: '/images/guides_38.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+      ],
+    },
+    detailsHtml: `
+  <h2 id="overview">游戏概览</h2>
+  <p><strong>第 39 关</strong>登场的是<strong>奶油蘑菇意大利面</strong>，一道香浓西式料理，需要精准掌控煮面和炒蘑菇的时间。精确是拿到 3 星的关键。</p>
+  
+  <h2 id="goal">🎯 目标</h2>
+  <ul>
+    <li>至少完成 20 份完整料理</li>
+    <li>顾客满意度保持在 90% 或以上</li>
+    <li>在 3 分 30 秒内完成关卡</li>
+  </ul>
+  
+  <h2 id="ingredients">🍝 食材</h2>
+  <ul>
+    <li>意大利面（煮熟）</li>
+    <li>蘑菇（切片并炒制）</li>
+    <li>奶油酱（另行加热）</li>
+    <li>欧芹或奶酪用于装饰</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 步骤攻略</h2>
+  <ol>
+    <li>一开始立即在两个锅中煮意大利面。</li>
+    <li>同时使用平底锅炒蘑菇。</li>
+    <li>小锅中加热奶油酱 — 注意不要煮沸。</li>
+    <li>在上菜前将面条、蘑菇和酱料混合。</li>
+    <li>撒上欧芹或奶酪装饰完成料理。</li>
+  </ol>
+  
+  <h2 id="tips">🔥 高手提示</h2>
+  <ul>
+    <li><strong>错开煮面时间：</strong> 两锅稍微错开时间，保持供餐节奏。</li>
+    <li><strong>提前切好蘑菇：</strong> 可节省高峰时段宝贵时间。</li>
+    <li><strong>使用自动上菜：</strong> 忙不过来时避免中断连击。</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 常见错误</h2>
+  <ul>
+    <li>意大利面煮太久会变质并浪费时间。</li>
+    <li>组合前忘记加热酱料会降低评分。</li>
+    <li>省略装饰会失去关键加分项。</li>
+  </ul>
+  `,
+  },
+
+  {
+    // 添加Level 40的条目
+    id: 'cookingdom-game-level-40',
+    title: 'Cookingdom Level 40:<br>威灵顿牛排',
+    pageTitle: 'Cookingdom Level 40 - 威灵顿牛排指南',
+    pageSubtitle: '掌握Cookingdom第40关的复杂优雅威灵顿牛排。',
+    category: '31-40',
+    isSpecial: false, // 标记为特殊关卡，因为它复杂且描述详细
+    imageUrl: '/images/guides_40.webp', // 占位符
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+    iframeUrl: 'https://www.youtube.com/embed/DGrXE28wjnU', // 占位符 - 替换为实际视频ID
+    seo: {
+      title: 'Cookingdom Level 40 Guide: 威灵顿牛排 | 提示与策略',
+      description:
+        '掌握Cookingdom第40关的威灵顿牛排。获取有关煎牛肉、准备蘑菇杜塞尔、包裹酥皮、烘焙和呈现这一复杂菜肴的提示。',
+      keywords: 'Cookingdom, Level 40, 威灵顿牛排, 牛里脊, 酥皮, 蘑菇杜塞尔, 烘焙, 指南, 策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_40.webp', // 占位符
+      levelInfoHtml:
+        '<h3>威灵顿牛排</h3><p><strong>难度:</strong> 高</p><p><strong>预计时间:</strong> 4分钟</p><p><strong>奖励:</strong> 5星（估计）</p>', // 根据描述和目标估计
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom Level 37<br>泡菜炒饭',
+          imageUrl: '/images/guides_37.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom Level 38<br>炒年糕冲刺',
+          imageUrl: '/images/guides_38.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39<br>蘑菇奶油意大利面',
+          imageUrl: '/images/guides_39.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+      ],
+    },
+    detailsHtml: `
+  <h2 id="overview">游戏概览</h2>
+  <p><strong>第40关</strong>呈现了复杂优雅的菜肴——<strong>威灵顿牛排</strong>。精准的时间把控、充分的准备工作和烤箱使用至关重要。这是目前为止最具挑战性的关卡之一——但一旦掌握，奖励也十分丰厚。</p>
+  
+  <h2 id="goal">🎯 目标</h2>
+  <ul>
+    <li>至少提供18份威灵顿牛排</li>
+    <li>保持85%以上的顾客满意度</li>
+    <li>在4分钟内完成</li>
+  </ul>
+  
+  <h2 id="ingredients">🥩 材料</h2>
+  <ul>
+    <li>牛里脊</li>
+    <li>蘑菇杜塞尔</li>
+    <li>酥皮</li>
+    <li>蛋液（用于涂抹）</li>
+    <li>肉汁（可选奖励）</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 步骤策略</h2>
+  <ol>
+    <li>开始时先在锅中煎牛里脊。</li>
+    <li>牛肉煎的同时，准备蘑菇杜塞尔。</li>
+    <li>将煎好的牛肉和蘑菇杜塞尔包裹在酥皮中，并刷上蛋液。</li>
+    <li>放入烤箱烘焙——使用两个烤箱槽来最大化产量。</li>
+    <li>顾客允许额外时间时，提供肉汁作为奖励。</li>
+  </ol>
+  
+  <h2 id="tips">🔥 专业技巧</h2>
+  <ul>
+    <li><strong>保持烤箱忙碌：</strong>不要让烤箱槽空闲——总是排队下一个威灵顿牛排。</li>
+    <li><strong>提前准备蘑菇杜塞尔：</strong>在高峰期时准备好蘑菇填料，可以节省时间。</li>
+    <li><strong>升级烤箱：</strong>更快的烘焙速度对于避免顾客等待非常重要。</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 常见错误</h2>
+  <ul>
+    <li>忘记刷蛋液——会导致评分降低。</li>
+    <li>牛肉煎过头——煎得太久会导致肉质过老。</li>
+    <li>在等待烤箱时空闲——要提前计划并进行多任务处理。</li>
+  </ul>
+  `,
+  },
+
+  {
+    // 添加Level 41的记录
+    id: 'cookingdom-game-level-41',
+    title: 'Cookingdom Level 41:<br>甜甜圈',
+    pageTitle: 'Cookingdom Level 41 - 甜甜圈指南',
+    pageSubtitle: '在Cookingdom的第41关，掌握快速制作甜甜圈的挑战，体验制作甜点的乐趣。',
+    category: '41-50', // 新类别的开始
+    isSpecial: false, // 假设它不是特殊的，除非有特别说明
+    imageUrl: '/images/guides_41.webp', // 占位符
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+    iframeUrl: 'https://www.youtube.com/embed/gws5p5MT2Bc', // 占位符 - 替换为实际视频ID
+    seo: {
+      title: 'Cookingdom Level 41 Guide: 甜甜圈 | 提示与策略',
+      description:
+        '在Cookingdom第41关掌握甜甜圈的制作。获取关于油炸、上釉、添加配料和快速上菜的技巧。',
+      keywords: 'Cookingdom, Level 41, 甜甜圈, 油炸, 釉, 配料, 甜点, 指南, 策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_41.webp', // 占位符
+      levelInfoHtml:
+        '<h3>甜甜圈</h3><p><strong>难度：</strong>中等</p><p><strong>大约时间：</strong>3分钟</p><p><strong>奖励：</strong>4星（估计）</p>', // 基于目标的估计
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom Level 38<br>辣炒年糕冲刺',
+          imageUrl: '/images/guides_38.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39<br>蘑菇奶油酱意大利面',
+          imageUrl: '/images/guides_39.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40<br>威灵顿牛排',
+          imageUrl: '/images/guides_40.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+      ],
+    },
+    detailsHtml: `
+  <h2 id="overview">游戏概述</h2>
+  <p><strong>Level 41</strong>带来了快速而甜美的挑战 —— <strong>甜甜圈</strong>。随着油炸、上釉和配料的变化，你需要保持高度的专注和快速的反应，才能满足顾客的需求。</p>
+  
+  <h2 id="goal">🎯 目标</h2>
+  <ul>
+    <li>至少提供28个甜甜圈</li>
+    <li>保持90%或更高的顾客满意度</li>
+    <li>在3分钟内完成</li>
+  </ul>
+  
+  <h2 id="ingredients">🍩 材料</h2>
+  <ul>
+    <li>甜甜圈面团（原味）</li>
+    <li>油炸油</li>
+    <li>巧克力釉 / 糖釉</li>
+    <li>配料（糖珠、坚果）</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 步骤策略</h2>
+  <ol>
+    <li>一次将多个面团放入油炸锅中。</li>
+    <li>仔细监控油炸时间 — 在甜甜圈炸过头前及时取出。</li>
+    <li>根据要求浸入巧克力釉或糖釉。</li>
+    <li>添加正确的配料并立即上菜。</li>
+    <li>在上菜的同时排队下一批甜甜圈。</li>
+  </ol>
+  
+  <h2 id="tips">🔥 专业技巧</h2>
+  <ul>
+    <li><strong>批量油炸：</strong>始终保持油炸锅满的状态，以节省时间。</li>
+    <li><strong>了解顾客习惯：</strong>某些顾客总是要求相同的配料组合，记住它们。</li>
+    <li><strong>升级油炸锅：</strong>加快烹饪速度，减少烧焦的风险。</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 常见错误</h2>
+  <ul>
+    <li>油炸过头的甜甜圈 — 时间控制非常关键。</li>
+    <li>错误的釉料或配料 — 注意顾客的订单要求。</li>
+    <li>油炸锅闲置时间 — 会导致连击断裂，低评分。</li>
+  </ul>
+  `,
+  },
+
+  {
+    // 添加Level 42条目
+    id: 'cookingdom-game-level-42',
+    title: 'Cookingdom Level 42:<br>麻辣豆腐',
+    pageTitle: 'Cookingdom Level 42 - 麻辣豆腐指南',
+    pageSubtitle:
+      '掌握在Cookingdom第42关中制作辛辣的经典中式菜肴麻辣豆腐，重点是锅炒技巧和辣味管理。',
+    category: '41-50', // 新类别开始
+    isSpecial: false, // 假设除非特别指定，否则不是特殊关卡
+    imageUrl: '/images/guides_42.webp', // 占位图
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
+    iframeUrl: 'https://www.youtube.com/embed/bMS0DIO6nmo', // 占位符 - 用实际的视频ID替换
+    seo: {
+      title: 'Cookingdom Level 42指南: 麻辣豆腐 | 提示与策略',
+      description:
+        '在Cookingdom第42关中掌握麻辣豆腐。获取有关锅炒技巧、辣味管理、豆腐处理和快速上菜的建议。',
+      keywords: 'Cookingdom, Level 42, 麻辣豆腐, 中式料理, 四川菜, 豆腐, 豆瓣酱, 锅, 指南, 策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_42.webp', // 占位图
+      levelInfoHtml:
+        '<h3>麻辣豆腐</h3><p><strong>难度：</strong>中高</p><p><strong>预计时间：</strong>3分30秒</p><p><strong>奖励：</strong>4星（估算）</p>', // 基于目标的估算
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39<br>蘑菇奶油意大利面',
+          imageUrl: '/images/guides_39.webp', // 占位图
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40<br>比夫威灵顿',
+          imageUrl: '/images/guides_40.webp', // 占位图
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+        {
+          id: 'cookingdom-game-level-41',
+          title: 'Cookingdom Level 41<br>甜甜圈',
+          imageUrl: '/images/guides_41.webp', // 占位图
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+        },
+      ],
+    },
+    detailsHtml: `
+  <h2 id="overview">游戏概述</h2>
+  <p><strong>Level 42</strong>呈现了大胆辛辣的中式菜肴<strong>麻辣豆腐</strong>。此关卡引入了锅炒技巧和辣味管理。效率和食材处理顺序是成功的关键。</p>
+  
+  <h2 id="goal">🎯 目标</h2>
+  <ul>
+    <li>至少提供26份麻辣豆腐</li>
+    <li>保持85%或更高的客户满意度</li>
+    <li>在3分30秒内完成</li>
+  </ul>
+  
+  <h2 id="ingredients">🌶️ 配料</h2>
+  <ul>
+    <li>嫩豆腐块</li>
+    <li>猪肉末或植物性肉类</li>
+    <li>豆瓣酱</li>
+    <li>大蒜、葱</li>
+    <li>可选：四川花椒油（增加风味）</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 步骤策略</h2>
+  <ol>
+    <li>在锅中加热油，先炒猪肉末。</li>
+    <li>加入大蒜和豆瓣酱，快速翻炒以避免烧焦。</li>
+    <li>轻轻加入豆腐，慢炖至酱汁变稠。</li>
+    <li>撒上葱花，并可根据需要加上花椒油，然后上菜。</li>
+    <li>始终在烹饪当前一批的同时准备下一批。</li>
+  </ol>
+  
+  <h2 id="tips">🔥 专业技巧</h2>
+  <ul>
+    <li><strong>不要过度翻炒豆腐：</strong>豆腐很容易碎，影响菜肴质量。</li>
+    <li><strong>批量烹饪：</strong>如果订单相似，一次炒2-3份。</li>
+    <li><strong>升级锅具：</strong>更快的锅具能显著缩短准备时间。</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 常见错误</h2>
+  <ul>
+    <li>忘记加入大蒜或豆瓣酱 — 影响菜肴的味道评分。</li>
+    <li>过度搅拌豆腐 — 破坏豆腐的质感，降低评分。</li>
+    <li>在高峰时段一次只烹饪一份 — 导致时间浪费。</li>
+  </ul>
+  `,
+  },
+  {
+    // 添加第43关的记录
+    id: 'cookingdom-game-level-43',
+    title: 'Cookingdom Level 43:<br>月饼',
+    pageTitle: 'Cookingdom Level 43 - 月饼指南',
+    pageSubtitle: '掌握精致且富有节日气氛的月饼，挑战精准选择馅料与烘焙时间，完成第43关。',
+    category: '41-50',
+    isSpecial: false, // 如果是节日或特殊关卡，可以设置为 true
+    imageUrl: '/images/guides_43.webp', // 占位符
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
+    iframeUrl: 'https://www.youtube.com/embed/RetlPFno314', // 占位符 - 请替换为实际视频ID
+    seo: {
+      title: 'Cookingdom Level 43 Guide: 月饼 | 提示与策略',
+      description:
+        '在Cookingdom的第43关掌握月饼烘焙技巧。获得关于选择馅料、模具、精确烘焙和制作传统甜点的技巧。',
+      keywords: 'Cookingdom, Level 43, 月饼, 中国甜点, 节日食物, 烘焙, 馅料, 模具, 指南, 策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_43.webp', // 占位符
+      levelInfoHtml:
+        '<h3>月饼</h3><p><strong>难度：</strong>中高</p><p><strong>预计时间：</strong>3分钟</p><p><strong>奖励：</strong>4星（估计）</p>', // 基于目标的估算
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40<br>威灵顿牛排',
+          imageUrl: '/images/guides_40.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+        {
+          id: 'cookingdom-game-level-41',
+          title: 'Cookingdom Level 41<br>甜甜圈',
+          imageUrl: '/images/guides_41.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+        },
+        {
+          id: 'cookingdom-game-level-42',
+          title: 'Cookingdom Level 42<br>麻辣豆腐',
+          imageUrl: '/images/guides_42.webp', // 占位符
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
+        },
+      ],
+    },
+    detailsHtml: `
+  <h2 id="overview">游戏概述</h2>
+  <p><strong>第43关</strong>以精致且富有节日气氛的<strong>月饼</strong>为主题。这个关卡测试你在选择馅料和控制烘焙时间上的精准度。平衡速度和准确度是保持客户满意度并获得3颗星的关键。</p>
+  
+  <h2 id="goal">🎯 目标</h2>
+  <ul>
+    <li>至少制作24个月饼并送出</li>
+    <li>保持客户满意度在90%或更高</li>
+    <li>在3分钟内完成</li>
+  </ul>
+  
+  <h2 id="ingredients">🥮 材料</h2>
+  <ul>
+    <li>月饼面团（预混合）</li>
+    <li>馅料：红豆、莲蓉、咸蛋黄</li>
+    <li>月饼模具（顶部有印花图案）</li>
+    <li>烤箱</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 步骤策略</h2>
+  <ol>
+    <li>根据顾客订单选择正确的馅料。</li>
+    <li>将馅料包入面团并放入月饼模具中。</li>
+    <li>按压印花图案，并放入烤箱中烘烤。</li>
+    <li>仔细监控烘焙时间——如果烘焙不足或过度，会失去积分。</li>
+    <li>烘焙完成后立即送出。等待时同时准备下一批。</li>
+  </ol>
+  
+  <h2 id="tips">🔥 专业提示</h2>
+  <ul>
+    <li><strong>预选模具：</strong>在订单到达前设置好正确的模具，以节省时间。</li>
+    <li><strong>使用两个烤箱槽：</strong>始终保持烤箱运转，避免空闲时间。</li>
+    <li><strong>升级烤箱速度：</strong>更快的烘烤可以帮助在忙碌时保持连击。</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 常见错误</h2>
+  <ul>
+    <li>使用错误的馅料——包裹前仔细检查顾客的订单图标。</li>
+    <li>烤焦月饼——烘烤时要时刻注意烤箱。</li>
+    <li>面团在未烘烤时闲置——浪费准备时间并打断连击。</li>
+  </ul>
+  `,
+  },
+]

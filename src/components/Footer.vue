@@ -259,6 +259,9 @@ function getLocalizedRoute(name, params = {}) {
   .footer-content {
     gap: 1.5rem;
   }
+  .footer-about {
+    flex: 1 1 20px;
+  }
   .footer-about h3 {
     font-size: 1.3rem;
   }

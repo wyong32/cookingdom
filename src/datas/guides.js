@@ -5,7 +5,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 1 - First Pizza Guide',
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
@@ -79,7 +79,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 2 - Simple Salad Guide',
     pageSubtitle: 'Learn to make quick and easy salads in Cookingdom Level 2.',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
     iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
@@ -324,7 +324,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 5 - Grilled Fish Guide',
     pageSubtitle: 'Master the art of grilling fish in Cookingdom Level 5.',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
     iframeUrl: 'https://www.youtube.com/embed/8CdDamlaEHA',
@@ -527,7 +527,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 7 - Sunny Eggs Guide',
     pageSubtitle: 'Learn to cook perfect sunny-side-up eggs in Cookingdom Level 7.',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
     iframeUrl: 'https://www.youtube.com/embed/IiwEmCzNwYM',
@@ -751,7 +751,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 9 - Spaghetti Guide',
     pageSubtitle: 'Master the art of cooking perfect spaghetti in Cookingdom Level 9.',
     category: '01-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
     iframeUrl: 'https://www.youtube.com/embed/SOGzuHCsQkQ',
@@ -973,7 +973,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 11 - Popcorn Guide',
     pageSubtitle: 'Learn to make perfect popcorn in Cookingdom Level 11.',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/5mFzPngHJF8',
@@ -1193,7 +1193,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 13 - Hotdog Guide',
     pageSubtitle: 'Learn to make the perfect Hotdog in Cookingdom Level 13.',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_13.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
     iframeUrl: 'https://www.youtube.com/embed/-at0GKqanSg', // Placeholder
@@ -1546,7 +1546,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 16 - Texas BBQ Guide',
     pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 16 of Cookingdom.',
     category: '11-20',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_16.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
     iframeUrl: 'https://www.youtube.com/embed/KyijXpwgOn8', // Placeholder
@@ -1677,7 +1677,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 17 - Café Macchiato Guide',
     pageSubtitle: 'Learn to make the perfect Café Macchiato in Level 17 of Cookingdom.',
     category: '11-20',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_17.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/9vMHRRYFPMg', // Placeholder
@@ -1800,7 +1800,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 18 - Ratatouille Guide',
     pageSubtitle: 'Learn to make the classic French Ratatouille in Level 18 of Cookingdom.',
     category: '11-20',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_18.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
     iframeUrl: 'https://www.youtube.com/embed/YADKwUHp4XY', // Placeholder
@@ -2210,7 +2210,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 21 - Boba Milk Tea Guide',
     pageSubtitle: 'Learn how to make the perfect Boba Milk Tea in Level 21 of Cookingdom.',
     category: '21-30', // Updated category
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_21.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
     iframeUrl: 'https://www.youtube.com/embed/sT6G1wBptko', // Placeholder
@@ -2604,7 +2604,7 @@ export const guides = [
     pageSubtitle:
       'Master the art of making delicious Vietnamese Beef Pho in Level 24 of Cookingdom.',
     category: '21-30',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_24.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
     iframeUrl: 'https://www.youtube.com/embed/iKRnARMMl_0', // Placeholder
@@ -2989,7 +2989,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 27 - Sandwich Guide',
     pageSubtitle: 'Learn to assemble the perfect Sandwich in Level 27 of Cookingdom.',
     category: '21-30',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_27.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/vWz6SmiMBk0', // Placeholder
@@ -3238,7 +3238,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 29 - Matcha Boba Tea Guide',
     pageSubtitle: 'Learn to make the trendy Matcha Boba Tea in Level 29 of Cookingdom.',
     category: '21-30',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_29.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
     iframeUrl: 'https://www.youtube.com/embed/BI4QGcm-kDM', // Placeholder
@@ -3599,7 +3599,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 32 - Hamburger Guide',
     pageSubtitle: 'Learn to assemble the classic Hamburger in Level 32 of Cookingdom.',
     category: '31-40',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_32.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/VViL7ptIJUA', // Placeholder
@@ -3725,7 +3725,7 @@ export const guides = [
     pageSubtitle:
       'Learn to prepare the luxurious Alaskan Steamed Lobster in Level 33 of Cookingdom.',
     category: '31-40',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_33.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
     iframeUrl: 'https://www.youtube.com/embed/2wdfF1Rzb0M', // Placeholder
@@ -4320,6 +4320,533 @@ export const guides = [
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 37, preparing Kimchi Rice is all about balancing the rich, spicy, and tangy flavors of kimchi with the neutral rice. Stir-fry the kimchi with the rice, add a bit of soy sauce or sesame oil, and top the dish with a fried egg to complete the meal. Whether you’re using vegetables or just focusing on the kimchi, this dish is sure to satisfy your customers with its bold and comforting flavors.</p>
 <p>By following this Cookingdom walkthrough guide, you’ll master the art of making Kimchi Rice, a delicious and satisfying dish that combines traditional Korean flavors with simple ingredients.</p>
+`,
+  },
+  {
+    // Add entry for Level 38
+    id: 'cookingdom-game-level-38',
+    title: 'Cookingdom Level 38:<br>Tteokbokki Rush',
+    pageTitle: 'Cookingdom Level 38 - Tteokbokki Rush Guide',
+    pageSubtitle: 'Master the spicy Tteokbokki in the fast-paced Level 38 of Cookingdom.',
+    category: '31-40',
+    isSpecial: false, // Assuming it's not special unless specified
+    imageUrl: '/images/guides_38.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+    iframeUrl: 'https://www.youtube.com/embed/EzXju3Q8Zsc', // Placeholder - Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 38 Guide: Tteokbokki Rush | Tips & Strategy',
+      description:
+        'Master Tteokbokki Rush in Level 38 of Cookingdom. Get tips on cooking rice cakes, managing sauce, adding eggs, and achieving high scores.',
+      keywords:
+        'Cookingdom, Level 38, Tteokbokki, Korean Street Food, Rice Cakes, Gochujang, Guide, Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_38.webp', // Placeholder
+      levelInfoHtml:
+        '<h3>Tteokbokki Rush</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+      featuredGuides: [
+        // Placeholder - Adjust as needed
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Cookingdom Level 35<br>Chocolate',
+          imageUrl: '/images/guides_35.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
+        },
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Cookingdom Level 36<br>Indian Curry',
+          imageUrl: '/images/guides_36.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom Level 37<br>Kimchi Rice',
+          imageUrl: '/images/guides_37.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p>Level 38 brings the heat with <strong>Tteokbokki</strong>, a spicy Korean street food favorite. Speed, accuracy, and time management are critical in this fast-paced level.</p>
+
+<h2 id="goal">🎯 Goal</h2>
+<ul>
+  <li>Serve at least 30 Tteokbokki dishes</li>
+  <li>Keep satisfaction above 85%</li>
+  <li>Finish within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🌶️ Ingredients</h2>
+<ul>
+  <li>Rice cakes (tteok)</li>
+  <li>Gochujang sauce</li>
+  <li>Boiled eggs (optional bonus)</li>
+  <li>Green onion or sesame seeds (garnish)</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<ol>
+  <li>Start by boiling rice cakes in both pots.</li>
+  <li>Prepare gochujang sauce while the rice cakes cook.</li>
+  <li>Add sauce to pan, stir in rice cakes, and cook until slightly thick.</li>
+  <li>Top with egg and garnish before serving.</li>
+  <li>Queue next batch while serving current one to avoid downtime.</li>
+</ol>
+
+<h2 id="tips">🔥 Pro Tips</h2>
+<ul>
+  <li><strong>Batch Cooking:</strong> Cook multiple servings at once to save time.</li>
+  <li><strong>Egg = Bonus:</strong> Always add if the customer has time.</li>
+  <li><strong>Keep an Eye on Pots:</strong> Overcooked rice cakes get wasted.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes</h2>
+<ul>
+  <li>Letting sauce burn by leaving it unattended too long.</li>
+  <li>Not prepping ahead — idle time kills combos.</li>
+  <li>Forgetting eggs/garnish — you’ll lose bonus points.</li>
+</ul>
+`,
+  },
+  {
+    // Add entry for Level 39
+    id: 'cookingdom-game-level-39',
+    title: 'Cookingdom Level 39:<br>Spaghetti with Mushroom Cream Sauce',
+    pageTitle: 'Cookingdom Level 39 - Spaghetti with Mushroom Cream Sauce Guide',
+    pageSubtitle:
+      'Master Spaghetti with Mushroom Cream Sauce, a creamy Western dish demanding perfect timing in Level 39.',
+    category: '31-40',
+    isSpecial: false, // Assuming it's not special unless specified
+    imageUrl: '/images/guides_39.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+    iframeUrl: 'https://www.youtube.com/embed/VfAxaHCxBOA', // Placeholder - Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 39 Guide: Spaghetti with Mushroom Cream Sauce | Tips & Strategy',
+      description:
+        'Master Spaghetti with Mushroom Cream Sauce in Level 39 of Cookingdom. Get tips on cooking pasta, sautéing mushrooms, preparing cream sauce, and serving this creamy dish.',
+      keywords:
+        'Cookingdom, Level 39, Spaghetti, Mushroom Cream Sauce, Pasta, Cream Sauce, Italian Food, Guide, Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_39.webp', // Placeholder
+      levelInfoHtml:
+        '<h3>Spaghetti w/ Mushroom Cream Sauce</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3 mins 30 secs</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+      featuredGuides: [
+        // Placeholder - Adjust as needed
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Cookingdom Level 36<br>Indian Curry',
+          imageUrl: '/images/guides_36.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom Level 37<br>Kimchi Rice',
+          imageUrl: '/images/guides_37.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
+          imageUrl: '/images/guides_38.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p><strong>Level 39</strong> introduces <strong>Spaghetti with Mushroom Cream Sauce</strong>, a creamy Western dish that demands perfect timing between boiling pasta and sautéing mushrooms. Precision is the key to 3 stars here.</p>
+
+<h2 id="goal">🎯 Goal</h2>
+<ul>
+  <li>Serve at least 20 full dishes</li>
+  <li>Keep customer satisfaction at 90% or higher</li>
+  <li>Finish within 3 minutes 30 seconds</li>
+</ul>
+
+<h2 id="ingredients">🍝 Ingredients</h2>
+<ul>
+  <li>Spaghetti noodles (boiled)</li>
+  <li>Mushrooms (sliced and sautéed)</li>
+  <li>Cream sauce (prepared separately)</li>
+  <li>Parsley or cheese for garnish</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<ol>
+  <li>Begin by boiling spaghetti in both pots immediately.</li>
+  <li>Sauté mushrooms in a separate pan while pasta cooks.</li>
+  <li>Heat cream sauce in a small pan — do not let it boil.</li>
+  <li>Combine pasta, mushrooms, and cream sauce just before serving.</li>
+  <li>Garnish with parsley or cheese to finish each dish.</li>
+</ol>
+
+<h2 id="tips">🔥 Pro Tips</h2>
+<ul>
+  <li><strong>Stagger Your Boiling:</strong> Start one pot slightly later to keep a steady flow of pasta.</li>
+  <li><strong>Pre-Slice Mushrooms:</strong> Saves time in the middle of a rush.</li>
+  <li><strong>Use Auto-Serve:</strong> When overwhelmed, this keeps combos alive.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes</h2>
+<ul>
+  <li>Letting pasta overcook — it ruins the dish and wastes time.</li>
+  <li>Forgetting to warm sauce before combining — lowers dish rating.</li>
+  <li>Skipping garnish — costs you valuable bonus points.</li>
+</ul>
+`,
+  },
+  {
+    // Add entry for Level 40
+    id: 'cookingdom-game-level-40',
+    title: 'Cookingdom Level 40:<br>Beef Wellington',
+    pageTitle: 'Cookingdom Level 40 - Beef Wellington Guide',
+    pageSubtitle: 'Master the elegant and complex Beef Wellington in Level 40 of Cookingdom.',
+    category: '31-40',
+    isSpecial: false, // Marked as special due to complexity and description
+    imageUrl: '/images/guides_40.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+    iframeUrl: 'https://www.youtube.com/embed/DGrXE28wjnU', // Placeholder - Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 40 Guide: Beef Wellington | Tips & Strategy',
+      description:
+        'Master Beef Wellington in Level 40 of Cookingdom. Get tips on searing beef, preparing duxelles, wrapping pastry, baking, and serving this complex dish.',
+      keywords:
+        'Cookingdom, Level 40, Beef Wellington, Beef Tenderloin, Puff Pastry, Mushroom Duxelles, Baking, Guide, Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_40.webp', // Placeholder
+      levelInfoHtml:
+        '<h3>Beef Wellington</h3><p><strong>Difficulty:</strong> High</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 5 Stars (Estimate)</p>', // Estimate based on description/goals
+      featuredGuides: [
+        // Placeholder - Adjust as needed
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom Level 37<br>Kimchi Rice',
+          imageUrl: '/images/guides_37.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
+          imageUrl: '/images/guides_38.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
+          imageUrl: '/images/guides_39.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p><strong>Level 40</strong> presents the elegant and complex dish <strong>Beef Wellington</strong>. Timing, prep work, and oven usage are critical. It’s one of the most challenging levels so far — but rewarding when mastered.</p>
+
+<h2 id="goal">🎯 Goal</h2>
+<ul>
+  <li>Serve at least 18 Beef Wellington dishes</li>
+  <li>Maintain 85%+ customer satisfaction</li>
+  <li>Finish within 4 minutes</li>
+</ul>
+
+<h2 id="ingredients">🥩 Ingredients</h2>
+<ul>
+  <li>Beef tenderloin</li>
+  <li>Mushroom duxelles</li>
+  <li>Puff pastry</li>
+  <li>Egg wash (for glazing)</li>
+  <li>Gravy (optional bonus)</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<ol>
+  <li>Start by searing the beef tenderloin in a pan.</li>
+  <li>Prepare mushroom duxelles while beef is searing.</li>
+  <li>Wrap beef and duxelles in puff pastry and brush with egg wash.</li>
+  <li>Bake in the oven — use both oven slots to maximize output.</li>
+  <li>Serve with gravy when customer allows bonus time.</li>
+</ol>
+
+<h2 id="tips">🔥 Pro Tips</h2>
+<ul>
+  <li><strong>Keep Ovens Busy:</strong> Don’t leave oven slots idle — always queue the next Wellington.</li>
+  <li><strong>Pre-prep Duxelles:</strong> Have mushroom filling ready to save time during peak orders.</li>
+  <li><strong>Upgrade Oven:</strong> Faster baking is crucial to avoid long waits.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes</h2>
+<ul>
+  <li>Forgetting egg wash — leads to lower ratings.</li>
+  <li>Overcooked beef — if you leave it on the pan too long.</li>
+  <li>Idle time while waiting for oven — plan ahead and multitask.</li>
+</ul>
+`,
+  },
+  {
+    // Add entry for Level 41
+    id: 'cookingdom-game-level-41',
+    title: 'Cookingdom Level 41:<br>Donut',
+    pageTitle: 'Cookingdom Level 41 - Donut Guide',
+    pageSubtitle:
+      'Master the sweet and fast-paced challenge of making Donuts in Level 41 of Cookingdom.',
+    category: '41-50', // Start of new category
+    isSpecial: false, // Assuming it's not special unless specified
+    imageUrl: '/images/guides_41.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+    iframeUrl: 'https://www.youtube.com/embed/gws5p5MT2Bc', // Placeholder - Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 41 Guide: Donut | Tips & Strategy',
+      description:
+        'Master Donuts in Level 41 of Cookingdom. Get tips on deep frying, glazing, adding toppings, and serving these sweet treats quickly.',
+      keywords: 'Cookingdom, Level 41, Donut, Frying, Glaze, Toppings, Dessert, Guide, Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_41.webp', // Placeholder
+      levelInfoHtml:
+        '<h3>Donut</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+      featuredGuides: [
+        // Placeholder - Adjust as needed
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
+          imageUrl: '/images/guides_38.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
+          imageUrl: '/images/guides_39.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40<br>Beef Wellington',
+          imageUrl: '/images/guides_40.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p><strong>Level 41</strong> brings the sweet and fast-paced challenge of making <strong>Donuts</strong>. With deep frying, glazing, and topping variations, you’ll need sharp focus and quick hands to keep up with customer demand.</p>
+
+<h2 id="goal">🎯 Goal</h2>
+<ul>
+  <li>Serve at least 28 donuts</li>
+  <li>Maintain 90% or higher satisfaction</li>
+  <li>Finish within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🍩 Ingredients</h2>
+<ul>
+  <li>Donut dough (plain)</li>
+  <li>Frying oil</li>
+  <li>Chocolate glaze / sugar glaze</li>
+  <li>Toppings (sprinkles, nuts)</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<ol>
+  <li>Drop multiple dough pieces into the fryer at once.</li>
+  <li>Monitor fry timer carefully — remove before overcooking.</li>
+  <li>Dip into requested glaze (chocolate or sugar).</li>
+  <li>Add correct topping and serve immediately.</li>
+  <li>Queue next batch of donuts while serving current ones.</li>
+</ol>
+
+<h2 id="tips">🔥 Pro Tips</h2>
+<ul>
+  <li><strong>Batch Fry:</strong> Always keep the fryer full to save time.</li>
+  <li><strong>Know the Patterns:</strong> Certain customers always request the same combo — memorize them.</li>
+  <li><strong>Upgrade Fryer:</strong> Speeds up cooking and reduces burn risk.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes</h2>
+<ul>
+  <li>Over-frying donuts — timing is everything in this level.</li>
+  <li>Wrong glaze or topping — pay close attention to orders.</li>
+  <li>Fryer downtime — leads to combo break and low star ratings.</li>
+</ul>
+`,
+  },
+  {
+    // Add entry for Level 42
+    id: 'cookingdom-game-level-42',
+    title: 'Cookingdom Level 42:<br>Mapo Tofu',
+    pageTitle: 'Cookingdom Level 42 - Mapo Tofu Guide',
+    pageSubtitle:
+      'Master the bold and spicy Chinese dish Mapo Tofu, focusing on wok skills and spice management in Level 42.',
+    category: '41-50',
+    isSpecial: false, // Assuming it's not special unless specified
+    imageUrl: '/images/guides_42.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
+    iframeUrl: 'https://www.youtube.com/embed/bMS0DIO6nmo', // Placeholder - Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 42 Guide: Mapo Tofu | Tips & Strategy',
+      description:
+        'Master Mapo Tofu in Level 42 of Cookingdom. Get tips on wok cooking, spice management, handling tofu, and serving this classic Chinese dish.',
+      keywords:
+        'Cookingdom, Level 42, Mapo Tofu, Chinese Food, Sichuan Cuisine, Tofu, Doubanjiang, Wok, Guide, Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_42.webp', // Placeholder
+      levelInfoHtml:
+        '<h3>Mapo Tofu</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins 30 secs</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+      featuredGuides: [
+        // Placeholder - Adjust as needed
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
+          imageUrl: '/images/guides_39.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40<br>Beef Wellington',
+          imageUrl: '/images/guides_40.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+        {
+          id: 'cookingdom-game-level-41',
+          title: 'Cookingdom Level 41<br>Donut',
+          imageUrl: '/images/guides_41.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p><strong>Level 42</strong> features the bold and spicy Chinese dish <strong>Mapo Tofu</strong>. This level introduces wok-based cooking and spice management. Efficiency and attention to ingredient order are key to success.</p>
+
+<h2 id="goal">🎯 Goal</h2>
+<ul>
+  <li>Serve at least 26 Mapo Tofu dishes</li>
+  <li>Maintain 85% or higher customer satisfaction</li>
+  <li>Finish within 3 minutes 30 seconds</li>
+</ul>
+
+<h2 id="ingredients">🌶️ Ingredients</h2>
+<ul>
+  <li>Soft tofu cubes</li>
+  <li>Ground pork or plant-based meat</li>
+  <li>Chili bean paste (doubanjiang)</li>
+  <li>Garlic, green onion</li>
+  <li>Optional: Sichuan pepper oil for extra flavor</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<ol>
+  <li>Heat oil in the wok and start with the ground pork.</li>
+  <li>Add garlic and chili paste, stir quickly to avoid burning.</li>
+  <li>Gently fold in tofu and simmer until sauce thickens.</li>
+  <li>Top with green onion and optionally pepper oil, then serve.</li>
+  <li>Always prep next batch while one is cooking to stay ahead.</li>
+</ol>
+
+<h2 id="tips">🔥 Pro Tips</h2>
+<ul>
+  <li><strong>Don't Over-Stir Tofu:</strong> It breaks easily and ruins dish quality.</li>
+  <li><strong>Batch Cooking:</strong> Cook 2-3 portions at once if orders are similar.</li>
+  <li><strong>Upgrade Wok:</strong> A faster wok shortens prep time dramatically.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes</h2>
+<ul>
+  <li>Forgetting garlic or chili paste — reduces dish flavor rating.</li>
+  <li>Breaking tofu by over-stirring — ruins texture and lowers stars.</li>
+  <li>Wasting time by cooking one portion at a time during a rush.</li>
+</ul>
+`,
+  },
+  {
+    // Add entry for Level 43
+    id: 'cookingdom-game-level-43',
+    title: 'Cookingdom Level 43:<br>Moon Cake',
+    pageTitle: 'Cookingdom Level 43 - Moon Cake Guide',
+    pageSubtitle:
+      'Master the delicate and festive Moon Cake, testing precision with fillings and baking in Level 43.',
+    category: '41-50',
+    isSpecial: false, // Can be set to true if considered a special/festive level
+    imageUrl: '/images/guides_43.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
+    iframeUrl: 'https://www.youtube.com/embed/RetlPFno314', // Placeholder - Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 43 Guide: Moon Cake | Tips & Strategy',
+      description:
+        'Master Moon Cake baking in Level 43 of Cookingdom. Get tips on selecting fillings, molding, baking accurately, and serving this traditional dessert.',
+      keywords:
+        'Cookingdom, Level 43, Moon Cake, Chinese Dessert, Festive Food, Baking, Filling, Mold, Guide, Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_43.webp', // Placeholder
+      levelInfoHtml:
+        '<h3>Moon Cake</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+      featuredGuides: [
+        // Placeholder - Adjust as needed
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40<br>Beef Wellington',
+          imageUrl: '/images/guides_40.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+        {
+          id: 'cookingdom-game-level-41',
+          title: 'Cookingdom Level 41<br>Donut',
+          imageUrl: '/images/guides_41.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+        },
+        {
+          id: 'cookingdom-game-level-42',
+          title: 'Cookingdom Level 42<br>Mapo Tofu',
+          imageUrl: '/images/guides_42.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Game Overview</h2>
+<p><strong>Level 43</strong> celebrates tradition with the delicate and festive <strong>Moon Cake</strong>. This level tests your precision with filling types and baking times. Balance speed and accuracy to keep customers happy and earn 3 stars.</p>
+
+<h2 id="goal">🎯 Goal</h2>
+<ul>
+  <li>Serve at least 24 moon cakes</li>
+  <li>Keep satisfaction at 90% or higher</li>
+  <li>Complete within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🥮 Ingredients</h2>
+<ul>
+  <li>Moon cake dough (pre-mixed)</li>
+  <li>Fillings: red bean, lotus seed, salted egg yolk</li>
+  <li>Moon cake mold (stamps pattern on top)</li>
+  <li>Oven for baking</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<ol>
+  <li>Select the correct filling based on customer order.</li>
+  <li>Wrap the filling in dough and place into the moon cake mold.</li>
+  <li>Stamp the pattern and place into the oven.</li>
+  <li>Monitor baking time carefully — underbaked or overbaked cakes lose points.</li>
+  <li>Serve immediately once baked. Queue the next batch while waiting.</li>
+</ol>
+
+<h2 id="tips">🔥 Pro Tips</h2>
+<ul>
+  <li><strong>Pre-select molds:</strong> Set the correct mold before orders arrive to save seconds.</li>
+  <li><strong>Use both oven slots:</strong> Always keep the oven busy to avoid downtime.</li>
+  <li><strong>Upgrade oven speed:</strong> Faster baking helps maintain combos during rushes.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes</h2>
+<ul>
+  <li>Wrong filling — double-check the customer order icon before wrapping.</li>
+  <li>Burning the moon cake — stay near the oven during baking.</li>
+  <li>Idle dough waiting unbaked — causes wasted prep time and breaks combo chains.</li>
+</ul>
 `,
   },
 ] // End guides array

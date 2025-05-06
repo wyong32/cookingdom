@@ -21,33 +21,35 @@
         <button :class="{ active: activeTab === '31-40' }" @click="setActiveTab('31-40')">
           {{ $t('guides.tabs.levels31_40') }}
         </button>
+        <button :class="{ active: activeTab === '41-50' }" @click="setActiveTab('41-50')">
+          {{ $t('guides.tabs.levels41_50') }}
+        </button>
         <!-- Add more tabs if needed -->
       </div>
 
       <!-- Guides Grid -->
-      <!-- 添加加载和错误状态 -->
-      <div v-if="isLoading" class="loading-message">Loading guides...</div>
-      <div v-else-if="error" class="error-message">
-        Failed to load guides. Please try again later.
+      <!-- 添加加载和错误状态, 使用 props -->
+      <div v-if="props.isLoading" class="loading-message">Loading guides...</div>
+      <div v-else-if="props.error" class="error-message">
+        {{ $t('guides.loadingError', { error: props.error }) }}
       </div>
       <div v-else-if="filteredGuides.length > 0" class="guides-grid image-grid">
         <router-link
           v-for="guide in filteredGuides"
           :key="guide.id"
-          :to="guide.detailsRoute"
+          :to="guide.routeObject"
           class="guide-card image-card"
         >
           <div class="guide-image-placeholder">
-            <img :src="guide.imageUrl" :alt="guide.title.replace('<br />', ' ')" />
+            <img :src="guide.imageUrl" :alt="guide.title?.replace(brRegex, ' ') || 'Guide image'" />
           </div>
           <div class="guide-content">
-            <!-- Use v-html to correctly render the <br /> tag -->
             <h4 v-html="guide.title"></h4>
           </div>
         </router-link>
       </div>
       <!-- 显示无结果消息 (现在在 v-else-if 外部) -->
-      <p v-else-if="!isLoading && filteredGuides.length === 0">
+      <p v-else-if="!props.isLoading && filteredGuides.length === 0">
         {{ $t('guides.noGuidesAvailable') }}
       </p>
     </div>
@@ -56,15 +58,35 @@
 
 <script setup>
 // Import ref and computed from Vue, and RouterLink from vue-router
-import { ref, computed } from 'vue'
+// Import ref, computed, and defineProps from Vue
+import { ref, computed, defineProps } from 'vue'
 import { RouterLink } from 'vue-router'
 // 移除静态导入
 // import allGuidesData from '@/datas/guides.json'
-// 导入 useGuides composable
-import { useGuides } from '@/composables/useGuides'
+// 移除 useGuides composable 导入
+// import { useGuides } from '@/composables/useGuides'
 
-// 调用 useGuides 获取数据和状态
-const { guides: allGuides, isLoading, error } = useGuides()
+// 定义 props
+const props = defineProps({
+  guides: {
+    type: Array,
+    required: true,
+    default: () => [], // Provide a default empty array
+  },
+  isLoading: {
+    type: Boolean,
+    required: true,
+    default: false,
+  },
+  error: {
+    // Can be Error object, string, or null/undefined
+    required: false,
+    default: null,
+  },
+})
+
+// 不再需要调用 useGuides
+// const { guides: allGuides, isLoading, error } = useGuides()
 
 // Ref to track the active tab - default to 'special' now
 const activeTab = ref('special')
@@ -74,18 +96,29 @@ const setActiveTab = (tab) => {
   activeTab.value = tab
 }
 
-// Computed property to filter guides based on the active tab
+// Define the regex for removing <br> tags
+const brRegex = /<br\s*\/?\s*>/gi
+
+// Computed property to filter guides based on the *props*
 const filteredGuides = computed(() => {
-  // 确保 allGuides 不是 null 或 undefined
-  if (!allGuides.value) return []
+  // Use props.guides instead of allGuides.value
+  if (!props.guides) return []
 
   if (activeTab.value === 'special') {
     // If 'special' tab is active, filter guides where isSpecial is true
-    return allGuides.value.filter((guide) => guide.isSpecial === true)
+    return props.guides.filter((guide) => guide.isSpecial === true)
   } else {
     // Otherwise, filter by the category matching the active tab
-    // Special items will now be included if their category matches the active tab
-    return allGuides.value.filter((guide) => guide.category === activeTab.value)
+    // Adjust mapping based on actual data structure if needed
+    const categoryMap = {
+      '01-10': '01-10',
+      '11-20': '11-20',
+      '21-30': '21-30',
+      '31-40': '31-40',
+      '41-50': '41-50',
+    }
+    const targetCategory = categoryMap[activeTab.value] || activeTab.value
+    return props.guides.filter((guide) => guide.category === targetCategory)
   }
 })
 </script>
@@ -223,7 +256,7 @@ const filteredGuides = computed(() => {
 /* Mobile Styles (<= 767px) */
 @media (max-width: 767px) {
   .guides-section h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
   .tabs-nav {
@@ -265,10 +298,10 @@ const filteredGuides = computed(() => {
 .error-message {
   text-align: center;
   padding: 2rem;
-  font-style: italic;
-  color: #666;
+  font-size: 1.1rem;
+  color: #555;
 }
 .error-message {
-  color: red;
+  color: #dc3545; /* Bootstrap danger color */
 }
 </style> 

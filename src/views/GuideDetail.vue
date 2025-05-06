@@ -454,4 +454,31 @@ watch(guide, (newVal) => {
     width: 100%; /* Sidebar takes full width */
   }
 }
+
+@media (max-width: 767px) {
+  .guide-detail-page {
+    padding: 0;
+    margin: 0;
+  }
+  .guide-layout {
+    padding: 0;
+    margin: 0;
+  }
+  .main-content {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  .sidebar {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .page-main-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
 </style> 

@@ -22,7 +22,11 @@
               <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
             </div>
             <!-- Assuming the button should navigate to an external site -->
-            <a href="https://apps.apple.com/us/app/cookingdom/id6742222069" class="btn btn-download" rel="noopener noreferrer">
+            <a
+              href="https://apps.apple.com/us/app/cookingdom/id6742222069"
+              class="btn btn-download"
+              rel="noopener noreferrer"
+            >
               {{ $t('home.downloads.ios.button') }}
             </a>
           </div>
@@ -35,7 +39,11 @@
               <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
             </div>
             <!-- Assuming the button should navigate to an external site -->
-            <a href="https://play.google.com/store/apps/details?id=com.abi.cook.chill" class="btn btn-download" rel="noopener noreferrer">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+              class="btn btn-download"
+              rel="noopener noreferrer"
+            >
               {{ $t('home.downloads.android.button') }}
             </a>
           </div>
@@ -168,6 +176,20 @@
   .section-header h2 {
     font-size: 1.8rem;
   }
+  .download-page-view {
+    padding: 0;
+    margin: 0;
+  }
+
+  .downloads-section {
+    padding: 0;
+    margin: 0;
+  }
+  .section-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
   .downloads-section > .container > p {
     font-size: 1rem;
     margin-bottom: 2rem;

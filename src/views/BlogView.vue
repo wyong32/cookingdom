@@ -158,6 +158,14 @@ h1 {
 
 /* Responsive adjustments */
 @media (max-width: 767px) {
+  .blog-view {
+    padding: 0 1rem;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
   .blog-post-list {
     grid-template-columns: 1fr; /* Stack on mobile */
     gap: 20px;

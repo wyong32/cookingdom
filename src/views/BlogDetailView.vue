@@ -216,8 +216,12 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .blog-detail-view {
+    padding: 1rem;
+    margin: 0;
+  }
   .blog-post-content h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .subtitle {
     font-size: 1.1rem;

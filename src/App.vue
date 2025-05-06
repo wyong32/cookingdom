@@ -28,5 +28,11 @@ import AppFooter from '@/components/Footer.vue' // Assuming Footer.vue is the co
   padding-top: 60px; /* Example: Adjust based on your header's height */
 }
 
+@media (max-width: 767px) {
+  .main-content-area {
+    padding-top: 20px; /* Example: Adjust based on your header's height */
+  }
+}
+
 /* Add other global styles if necessary */
 </style>
