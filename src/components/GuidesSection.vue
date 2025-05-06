@@ -282,6 +282,12 @@ const filteredGuides = computed(() => {
     font-size: 0.8rem;
     line-height: 1.3;
   }
+  .guides-section {
+    padding: 0;
+  }
+  .guide-view {
+    padding: 0;
+  }
 }
 
 /* Optional: Add smaller screen breakpoint if needed */
