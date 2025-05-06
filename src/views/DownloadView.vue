@@ -185,15 +185,36 @@
     margin-bottom: 1rem;
   }
 
-  .downloads-section > .container > p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
+  .downloads-grid {
+    grid-template-columns: repeat(2, 1fr); /* Ensure 2 columns on mobile */
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .downloads-section > .container > h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
   }
   .download-card {
     padding: 1.5rem;
   }
   .download-card h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  .download-card p {
+    font-size: 0.95rem;
+  }
+  /* Added styles based on HomeView mobile */
+  .download-icon {
+    font-size: 2.5rem; /* Slightly smaller icon */
+    margin-bottom: 0.8rem;
+  }
+  .download-meta {
+    font-size: 0.8rem; /* Smaller meta text */
+    margin-bottom: 1rem; /* Reduced bottom margin */
+  }
+  .btn-download {
+    padding: 0.4rem 1rem; /* Smaller padding */
+    font-size: 0.8rem; /* Smaller font size */
   }
 }
 </style> 

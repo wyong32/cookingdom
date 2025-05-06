@@ -1330,7 +1330,7 @@ main {
 
   /* Features Section Mobile */
   .features-grid {
-    grid-template-columns: 1fr; /* Single column */
+    grid-template-columns: repeat(2, 1fr); /* Three columns */
   }
 
   .feature-card {
@@ -1349,8 +1349,27 @@ main {
 
   /* Downloads Section Mobile */
   .downloads-grid {
-    grid-template-columns: 1fr; /* Single column */
+    grid-template-columns: repeat(2, 1fr); /* Single column */
+    gap: 0.5rem;
   }
+  .download-icon {
+    line-height: 1.2;
+  }
+
+  .download-card {
+    padding: 1rem;
+  }
+  .download-card h3 {
+    font-size: 1rem;
+  }
+  .download-card p {
+    font-size: 0.8rem;
+  }
+
+  .download-meta span {
+    font-size: 0.8rem;
+  }
+
   .about-section {
     margin-top: 0;
     padding: 2em 0;

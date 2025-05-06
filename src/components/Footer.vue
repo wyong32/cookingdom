@@ -53,7 +53,7 @@ function getLocalizedRoute(name, params = {}) {
               </li>
             </ul>
           </div>
-          <div class="link-column">
+          <div class="link-column" id="popular-levels-column">
             <h4>{{ t('footer.links.popularLevels.title') }}</h4>
             <ul>
               <li>
@@ -305,12 +305,23 @@ function getLocalizedRoute(name, params = {}) {
     margin-top: 0.5rem;
   }
   .footer-links {
-    flex-direction: column; /* Stack link columns */
-    align-items: center; /* Center link columns */
-    gap: 1.5rem;
+    /* Change from flex column to grid */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; /* Adjust gap for grid */
+    width: 100%; /* Take full width */
+    justify-items: start; /* Align items in columns to the start */
+    flex: 1 1 100%;
+    /* Remove flex properties if they conflict */
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+  /* Hide the popular levels column */
+  #popular-levels-column {
+    display: none;
   }
   .link-column {
-    text-align: center;
+    text-align: left; /* Align text to the left within columns */
     min-width: unset;
   }
   .link-column h4 {

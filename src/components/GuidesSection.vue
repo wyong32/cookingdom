@@ -285,9 +285,6 @@ const filteredGuides = computed(() => {
   .guides-section {
     padding: 0;
   }
-  .guide-view {
-    padding: 0;
-  }
 }
 
 /* Optional: Add smaller screen breakpoint if needed */
