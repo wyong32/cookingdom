@@ -37,7 +37,7 @@
     "bottom": {
       "copyright": "© {year} Cookingdom. All rights reserved.",
       "credits": "Made with ♡ by Fans | Cookingdom game copyright belongs to its developers.",
-      "disclaimer": "Disclaimer: This website (CookingdomFans.com - example) is an unofficial fansite created by enthusiasts and is not affiliated with the official Cookingdom game or its publishers. For informational and entertainment purposes only."
+      "disclaimer": "Disclaimer: This website (www.cookingdom.co) is an unofficial fansite created by enthusiasts and is not affiliated with the official Cookingdom game or its publishers. For informational and entertainment purposes only."
     },
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
@@ -90,7 +90,7 @@
       },
       "android": {
         "title": "Android Version",
-        "description": "Cookingdom app for Android devices",
+        "description": "cookingdom mod apk",
         "meta": {
           "type": "Google Play",
           "size": "Free"
@@ -180,7 +180,7 @@
     "notFoundTitle": "Guide Not Found | Cookingdom"
   },
   "guides": {
-    "title": "📖 Cookingdom Walkthrough Guides",
+    "title": "📖 cookingdom all Level Walkthrough Guides",
     "tabs": {
       "special": "Special Levels",
       "levels1_10": "Levels 1-10",
@@ -342,8 +342,8 @@
       "keywords": "cookingdom, terms of service, usage rules, legal"
     },
     "guideDetail": {
-       "title": "Cookingdom Guide",
-       "description": "Detailed guide for a Cookingdom level."
+      "title": "Cookingdom Guide",
+      "description": "Detailed guide for a Cookingdom level."
     }
   }
 }

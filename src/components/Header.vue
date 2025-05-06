@@ -219,6 +219,7 @@ function changeLocale(event) {
 @media (max-width: 767px) {
   .header {
     padding: 0.8rem 0; /* Increase padding slightly for two lines */
+    position: static;
   }
   .header > .container {
     padding: 0 1rem;

@@ -30,9 +30,9 @@ function getLocalizedRoute(name, params = {}) {
           <h3>{{ t('footer.about.title') }}</h3>
           <p>{{ t('footer.about.description') }}</p>
           <div class="social-icons">
-            <a href="#" aria-label="Discord">💬</a>
-            <a href="#" aria-label="Reddit">👽</a>
-            <!-- <a href="#" aria-label="Twitter">🐦</a> -->
+            <a href="#" target="_blank" rel="noopener" aria-label="Twitter/X">🐦</a>
+            <a href="#" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
+            <a href="#" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
           </div>
         </div>
         <div class="footer-links">
@@ -57,24 +57,28 @@ function getLocalizedRoute(name, params = {}) {
             <h4>{{ t('footer.links.popularLevels.title') }}</h4>
             <ul>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-5' })">{{
-                  t('footer.links.popularLevels.level5')
-                }}</RouterLink>
+                <RouterLink
+                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-5' })"
+                  >{{ t('footer.links.popularLevels.level5') }}</RouterLink
+                >
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-7' })">{{
-                  t('footer.links.popularLevels.level7')
-                }}</RouterLink>
+                <RouterLink
+                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-7' })"
+                  >{{ t('footer.links.popularLevels.level7') }}</RouterLink
+                >
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-19' })">{{
-                  t('footer.links.popularLevels.level19')
-                }}</RouterLink>
+                <RouterLink
+                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-19' })"
+                  >{{ t('footer.links.popularLevels.level19') }}</RouterLink
+                >
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-26' })">{{
-                  t('footer.links.popularLevels.level26')
-                }}</RouterLink>
+                <RouterLink
+                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-26' })"
+                  >{{ t('footer.links.popularLevels.level26') }}</RouterLink
+                >
               </li>
             </ul>
           </div>

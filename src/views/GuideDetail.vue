@@ -51,10 +51,7 @@
           <h4>{{ $t('guideDetail.featuredLevelsTitle') }}</h4>
           <ul>
             <li v-for="featured in guide.sidebarData.featuredGuides" :key="featured.id">
-              <router-link 
-                :to="getFeaturedGuideLinkProps(featured)"
-                class="featured-guide-link"
-              >
+              <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
                 <img :src="featured.imageUrl" alt="" class="featured-guide-img" />
                 <span v-html="featured.title"></span>
               </router-link>
@@ -91,135 +88,169 @@ const isLoading = ref(true)
 const error = ref(null)
 
 const loadGuide = async (id, lang) => {
-  isLoading.value = true;
-  error.value = null;
-  guide.value = null;
+  isLoading.value = true
+  error.value = null
+  guide.value = null
 
   if (!id) {
-      error.value = "Guide ID is missing.";
-      isLoading.value = false;
-      return;
+    error.value = 'Guide ID is missing.'
+    isLoading.value = false
+    return
   }
 
   try {
-    let dataModule;
-    let allGuides = [];
+    let dataModule
+    let allGuides = []
     if (lang === 'zh') {
-      dataModule = await import('@/datas/guides-zh.js');
-      allGuides = dataModule.guidesZh || [];
+      dataModule = await import('@/datas/guides-zh.js')
+      allGuides = dataModule.guidesZh || []
     } else if (lang === 'ru') {
-      dataModule = await import('@/datas/guides-ru.js');
-      allGuides = dataModule.guidesRu || [];
+      dataModule = await import('@/datas/guides-ru.js')
+      allGuides = dataModule.guidesRu || []
     } else {
-      dataModule = await import('@/datas/guides.js');
-      allGuides = dataModule.guides || [];
+      dataModule = await import('@/datas/guides.js')
+      allGuides = dataModule.guides || []
     }
 
-    const foundGuide = allGuides.find((g) => g.id === id);
+    const foundGuide = allGuides.find((g) => g.id === id)
 
     if (foundGuide) {
-      guide.value = foundGuide;
+      guide.value = foundGuide
 
-      const seoTitle = foundGuide.seo?.title || t('meta.guideDetail.title');
-      const seoDescription = foundGuide.seo?.description || t('meta.guideDetail.description');
-      const seoKeywords = foundGuide.seo?.keywords || t('meta.defaultKeywords');
+      const seoTitle = foundGuide.seo?.title || t('meta.guideDetail.title')
+      const seoDescription = foundGuide.seo?.description || t('meta.guideDetail.description')
+      const seoKeywords = foundGuide.seo?.keywords || t('meta.defaultKeywords')
 
-      document.title = seoTitle;
-      updateMetaTag('description', seoDescription);
-      updateMetaTag('keywords', seoKeywords);
+      document.title = seoTitle
+      updateMetaTag('description', seoDescription)
+      updateMetaTag('keywords', seoKeywords)
 
-      updateMetaTag('og:title', seoTitle);
-      updateMetaTag('og:description', seoDescription);
-      updateMetaTag('twitter:title', seoTitle);
-      updateMetaTag('twitter:description', seoDescription);
+      updateMetaTag('og:title', seoTitle)
+      updateMetaTag('og:description', seoDescription)
+      updateMetaTag('twitter:title', seoTitle)
+      updateMetaTag('twitter:description', seoDescription)
 
-      let specificImageUrl = foundGuide.imageUrl || foundGuide.sidebarData?.sidebarImageUrl;
+      let specificImageUrl = foundGuide.imageUrl || foundGuide.sidebarData?.sidebarImageUrl
       if (specificImageUrl) {
-          if (specificImageUrl.startsWith('/')) {
-              specificImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${specificImageUrl.substring(1)}`;
-          }
-          updateMetaTag('og:image', specificImageUrl);
-          updateMetaTag('twitter:image', specificImageUrl);
+        if (specificImageUrl.startsWith('/')) {
+          specificImageUrl = `${window.location.origin}${
+            import.meta.env.BASE_URL || '/'
+          }${specificImageUrl.substring(1)}`
+        }
+        updateMetaTag('og:image', specificImageUrl)
+        updateMetaTag('twitter:image', specificImageUrl)
       } else {
-         // Optional: Fallback to default if no specific image found?
-         // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
-         // updateMetaTag('og:image', defaultSocialImageUrl);
-         // updateMetaTag('twitter:image', defaultSocialImageUrl);
+        // Optional: Fallback to default if no specific image found?
+        // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
+        // updateMetaTag('og:image', defaultSocialImageUrl);
+        // updateMetaTag('twitter:image', defaultSocialImageUrl);
       }
-
     } else {
-      error.value = t('guideDetail.loadingOrNotFound');
-      document.title = t('meta.notFoundTitle', 'Guide Not Found');
-      updateMetaTag('description', '');
-      updateMetaTag('keywords', '');
-      updateMetaTag('og:title', document.title);
-      updateMetaTag('og:description', '');
+      error.value = t('guideDetail.loadingOrNotFound')
+      document.title = t('meta.notFoundTitle', 'Guide Not Found')
+      updateMetaTag('description', '')
+      updateMetaTag('keywords', '')
+      updateMetaTag('og:title', document.title)
+      updateMetaTag('og:description', '')
       // Maybe reset image to default?
       // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
       // updateMetaTag('og:image', defaultSocialImageUrl);
       // updateMetaTag('twitter:image', defaultSocialImageUrl);
     }
   } catch (err) {
-    error.value = 'Failed to load guide data.';
-    document.title = t('meta.errorTitle', 'Error Loading Guide');
-    updateMetaTag('description', '');
-    updateMetaTag('keywords', '');
-    updateMetaTag('og:title', document.title);
-    updateMetaTag('og:description', '');
+    error.value = 'Failed to load guide data.'
+    document.title = t('meta.errorTitle', 'Error Loading Guide')
+    updateMetaTag('description', '')
+    updateMetaTag('keywords', '')
+    updateMetaTag('og:title', document.title)
+    updateMetaTag('og:description', '')
     // Maybe reset image to default?
     // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
     // updateMetaTag('og:image', defaultSocialImageUrl);
     // updateMetaTag('twitter:image', defaultSocialImageUrl);
   } finally {
-    isLoading.value = false;
+    isLoading.value = false
   }
 }
 
-watch(guideId, (newId, oldId) => {
-    const currentLocale = locale.value;
+watch(
+  guideId,
+  (newId, oldId) => {
+    const currentLocale = locale.value
     if (newId && newId !== oldId) {
-        loadGuide(newId, currentLocale);
+      loadGuide(newId, currentLocale)
     } else if (newId && !oldId) {
-         loadGuide(newId, currentLocale);
+      loadGuide(newId, currentLocale)
     }
-}, { immediate: true });
+  },
+  { immediate: true }
+)
 
 watch(locale, (newLocale) => {
-  const currentGuideId = guideId.value;
+  const currentGuideId = guideId.value
   if (currentGuideId) {
-     loadGuide(currentGuideId, newLocale);
+    loadGuide(currentGuideId, newLocale)
   }
-});
+})
 
 const getFeaturedGuideLinkProps = (featured) => {
-  const currentLocale = locale.value;
-  const isDefaultLang = currentLocale === defaultLang;
-  let routeName = isDefaultLang ? 'guide-detail' : 'guide-detail-lang';
-  let routeParams;
+  const currentLocale = locale.value
+  const isDefaultLang = currentLocale === defaultLang
+  let routeName = isDefaultLang ? 'guide-detail' : 'guide-detail-lang'
+  let routeParams
 
   if (isDefaultLang) {
-    routeParams = { id: featured.id };
+    routeParams = { id: featured.id }
   } else {
     if (currentLocale && typeof currentLocale === 'string') {
-      routeParams = { id: featured.id, lang: currentLocale };
+      routeParams = { id: featured.id, lang: currentLocale }
     } else {
-      routeName = 'guide-detail';
-      routeParams = { id: featured.id };
+      routeName = 'guide-detail'
+      routeParams = { id: featured.id }
     }
   }
 
   const linkProps = {
     name: routeName,
-    params: routeParams
-  };
+    params: routeParams,
+  }
 
-  return linkProps;
-};
+  return linkProps
+}
 
-// onMounted(() => {
-//   console.log('GuideDetail mounted. Initial attempt to load guide.')
-//   loadGuide(guideId.value, locale.value)
-// })
+// 动态插入 VideoObject 结构化数据，提升 Google 视频索引能力
+const addVideoSchema = (guideObj) => {
+  // 只在有 iframeUrl 时插入
+  if (!guideObj || !guideObj.iframeUrl) return
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: guideObj.pageTitle,
+    description: guideObj.pageSubtitle || guideObj.pageTitle,
+    thumbnailUrl:
+      guideObj.sidebarData?.sidebarImageUrl ||
+      guideObj.imageUrl ||
+      'https://example.com/default-thumbnail.jpg',
+    uploadDate: '2024-06-01T08:00:00+08:00', // 可根据实际情况调整
+    embedUrl: guideObj.iframeUrl,
+  }
+  // 移除旧的
+  const old = document.getElementById('video-schema')
+  if (old) old.remove()
+  // 插入新的
+  const script = document.createElement('script')
+  script.type = 'application/ld+json'
+  script.id = 'video-schema'
+  script.text = JSON.stringify(schema)
+  document.head.appendChild(script)
+}
+
+onMounted(() => {
+  addVideoSchema(guide.value)
+})
+watch(guide, (newVal) => {
+  addVideoSchema(newVal)
+})
 </script>
 
 <style scoped>
