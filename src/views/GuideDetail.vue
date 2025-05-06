@@ -222,16 +222,20 @@ const getFeaturedGuideLinkProps = (featured) => {
 const addVideoSchema = (guideObj) => {
   // 只在有 iframeUrl 时插入
   if (!guideObj || !guideObj.iframeUrl) return
+  // 处理缩略图为绝对路径
+  let thumb = guideObj.sidebarData?.sidebarImageUrl || guideObj.imageUrl
+  if (thumb && thumb.startsWith('/')) {
+    thumb = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumb.substring(1)}`
+  }
+  if (!thumb) {
+    thumb = 'https://www.cookingdom.co/images/banner1.webp' // 请替换为你自己的默认图片
+  }
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
-    name: guideObj.pageTitle,
-    description: guideObj.pageSubtitle || guideObj.pageTitle,
-    thumbnailUrl:
-      guideObj.sidebarData?.sidebarImageUrl ||
-      guideObj.imageUrl ||
-      'https://example.com/default-thumbnail.jpg',
-    uploadDate: '2024-06-01T08:00:00+08:00', // 可根据实际情况调整
+    name: guideObj.seo?.title || guideObj.pageTitle,
+    description: guideObj.seo?.description || guideObj.pageSubtitle || guideObj.pageTitle,
+    thumbnailUrl: thumb,
     embedUrl: guideObj.iframeUrl,
   }
   // 移除旧的
