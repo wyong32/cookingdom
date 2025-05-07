@@ -10,7 +10,8 @@
     "home": "🏠 Home",
     "guides": "📖 Guides",
     "blog": "✍️ Blog",
-    "download": "⬇️ Download"
+    "download": "⬇️ Download",
+    "language": "Language"
   },
   "footer": {
     "about": {
@@ -40,7 +41,8 @@
       "disclaimer": "Disclaimer: This website (www.cookingdom.co) is an unofficial fansite created by enthusiasts and is not affiliated with the official Cookingdom game or its publishers. For informational and entertainment purposes only."
     },
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "defaultKeywords": "cooking game, simulation, mobile game, strategy, fun, recipes, kitchen"
   },
   "home": {
     "hero": {
@@ -96,6 +98,11 @@
           "size": "Free"
         },
         "button": "Go to Google Play"
+      },
+      "modCard": {
+        "title": "Looking for Mods?",
+        "description": "Access special modded versions of Cookingdom with unique features and enhancements.",
+        "button": "Go to Mod Downloads"
       }
     },
     "about": {
@@ -303,6 +310,88 @@
       }
     }
   },
+  "modDownload": {
+    "pageHeadline": "Cookingdom Mod APK",
+    "pageTitle": "Cookingdom Mod APK Download",
+    "pageIntro": "Download Cookingdom Mod APK. Enjoy enhanced features for an improved gaming experience.",
+    "mainMod": {
+      "title": "Cookingdom Mod APK 1.0.32",
+      "description": "Latest modded version of Cookingdom Mod APK for Android, offering special features.",
+      "meta": {
+        "type": "Mod APK",
+        "size": "389.21 MB"
+      },
+      "button": "Download Cookingdom Mod APK",
+      "downloadLink": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/download.html"
+    },
+    "modInfo": {
+      "title": "Cookingdom Mod APK Features:",
+      "features": ["Reward without ads", "No Ads", "Mod Menu"]
+    },
+    "happymodReference": {
+      "text": "Source:",
+      "linkText": "HappyMod",
+      "linkUrl": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/"
+    },
+    "apkDetails": {
+      "title": "Cookingdom Mod APK Details",
+      "version": "App Version",
+      "versionValue": "1.0.32",
+      "lastUpdated": "Last Updated",
+      "lastUpdatedValue": "Apr 22, 2025",
+      "size": "APK Size",
+      "sizeValue": "389.21 MB",
+      "price": "Price",
+      "priceValue": "Free",
+      "category": "Category",
+      "categoryValue": "Simulation",
+      "contentRating": "Content Rating",
+      "contentRatingValue": "5.0/5 (507 votes)",
+      "supportAndroid": "Supported Android",
+      "supportAndroidValue": "Android",
+      "appPackage": "App Package",
+      "appPackageValue": "com.abi.cook.chill",
+      "rootRequired": "ROOT",
+      "rootRequiredValue": "Not required",
+      "inAppPurchases": "Offers In-App Purchase",
+      "inAppPurchasesValue": "Yes (Original App)"
+    },
+    "otherLinks": {
+      "title": "Other Download Options",
+      "originalApk": {
+        "text": "iOS Version",
+        "link": "https://apps.apple.com/us/app/cookingdom/id6742222069"
+      },
+      "googlePlay": {
+        "text": "Android Version",
+        "link": "https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+      }
+    },
+    "allVersions": {
+      "title": "Previous Mod Versions",
+      "versions": [
+        {
+          "name": "Cookingdom Mod APK 1.0.31",
+          "size": "385.14 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-v1-0-31-mod-down.html"
+        },
+        {
+          "name": "Cookingdom Mod APK 1.0.29",
+          "size": "431.29 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/nap.mod.cookingdom-1-0-29-down.html"
+        },
+        {
+          "name": "Cookingdom Mod APK 0.24",
+          "size": "369.63 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-mod-apk-0-24-down.html"
+        }
+      ]
+    },
+    "developerDescription": {
+      "title": "About Cookingdom Mod APK (from Developer)",
+      "text": "Welcome to Cookingdom Mod APK, an ultimate chill & cozy game that makes cooking as relaxing as a satisfying Sunday morning. This is all about slowing down, having fun, and creating delicious dishes step by step. You'll go from chopping potatoes to plating masterpieces, all while soaking in those soothing chill vibes."
+    }
+  },
   "meta": {
     "defaultDescription": "Your default description for Cookingdom site.",
     "defaultKeywords": "cookingdom, game, guide, cooking, simulation, fun",
@@ -345,6 +434,11 @@
     "guideDetail": {
       "title": "Cookingdom Guide",
       "description": "Detailed guide for a Cookingdom level."
+    },
+    "modDownload": {
+      "title": "Download Cookingdom Modded Versions - Unlock Everything",
+      "description": "Get the latest modded APK and IPA for Cookingdom. Enjoy unlimited resources, all levels unlocked, and an ad-free gaming experience.",
+      "keywords": "cookingdom mod, cookingdom apk mod, cookingdom ipa mod, cracked game, unlimited resources, ad-free"
     }
   }
 }

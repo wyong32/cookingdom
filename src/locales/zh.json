@@ -8,9 +8,10 @@
   },
   "nav": {
     "home": "🏠 首页",
-    "guides": "📖 关卡攻略",
+    "guides": "📖 指南",
     "blog": "✍️ 博客",
-    "download": "⬇️ 下载"
+    "download": "⬇️ 下载",
+    "language": "语言"
   },
   "footer": {
     "about": {
@@ -96,6 +97,11 @@
           "size": "免费"
         },
         "button": "前往 Google Play"
+      },
+      "modCard": {
+        "title": "寻找Mod版？",
+        "description": "获取《Cookingdom》的特别改装版本，体验独特功能和增强内容。",
+        "button": "前往Mod版下载"
       }
     },
     "about": {
@@ -303,6 +309,83 @@
       }
     }
   },
+  "modDownload": {
+    "pageHeadline": "Cookingdom Mod APK",
+    "pageTitle": "Cookingdom Mod APK 下载",
+    "pageIntro": "下载 Cookingdom Mod APK 特别改装版 APK。享受增强功能，获得更佳游戏体验。",
+    "mainMod": {
+      "title": "Cookingdom Mod APK 1.0.32",
+      "description": "最新版 Cookingdom Mod APK安卓改装版，提供特别功能。",
+      "meta": {
+        "type": "Mod APK",
+        "size": "389.21 MB"
+      },
+      "button": "下载 Cookingdom Mod APK",
+      "downloadLink": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/download.html"
+    },
+    "modInfo": {
+      "title": "Cookingdom Mod APK 特性：",
+      "features": ["奖励免广告", "无广告", "Mod 菜单"]
+    },
+    "apkDetails": {
+      "title": "APK 详细信息",
+      "version": "应用版本",
+      "versionValue": "1.0.32",
+      "lastUpdated": "最后更新",
+      "lastUpdatedValue": "2025年4月22日",
+      "size": "APK 大小",
+      "sizeValue": "389.21 MB",
+      "price": "价格",
+      "priceValue": "免费",
+      "category": "类别",
+      "categoryValue": "模拟",
+      "contentRating": "内容评级",
+      "contentRatingValue": "5.0/5 (507 票)",
+      "supportAndroid": "支持安卓版本",
+      "supportAndroidValue": "安卓",
+      "appPackage": "应用包名",
+      "appPackageValue": "com.abi.cook.chill",
+      "rootRequired": "需要ROOT",
+      "rootRequiredValue": "不需要",
+      "inAppPurchases": "提供应用内购买",
+      "inAppPurchasesValue": "是 (原版应用)"
+    },
+    "otherLinks": {
+      "title": "其他下载选项",
+      "originalApk": {
+        "text": "iOS 版本",
+        "link": "https://apps.apple.com/us/app/cookingdom/id6742222069"
+      },
+      "googlePlay": {
+        "text": "Android 版本",
+        "link": "https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+      }
+    },
+    "allVersions": {
+      "title": "历史Cookingdom Mod APK版本",
+      "versions": [
+        {
+          "name": "Cookingdom Mod APK v1.0.31",
+          "size": "385.14 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-v1-0-31-mod-down.html"
+        },
+        {
+          "name": "Cookingdom Mod APK v1.0.29",
+          "size": "431.29 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/nap.mod.cookingdom-1-0-29-down.html"
+        },
+        {
+          "name": "Cookingdom Mod APK v0.24",
+          "size": "369.63 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-mod-apk-0-24-down.html"
+        }
+      ]
+    },
+    "developerDescription": {
+      "title": "关于 Cookingdom Mod APK",
+      "text": "欢迎来到 Cookingdom Mod APK，这是一款极致放松和舒适的游戏，让烹饪像周日早晨一样轻松。一切都关乎放慢节奏，享受乐趣，一步步创造美味佳肴。您将从切土豆到装盘杰作，全程沉浸在舒缓的氛围中。"
+    }
+  },
   "meta": {
     "defaultDescription": "这是Cookingdom站点的默认描述。",
     "defaultKeywords": "料理王国, 游戏, 指南, 烹饪, 模拟, 有趣",
@@ -345,6 +428,11 @@
     "guideDetail": {
       "title": "料理王国指南",
       "description": "料理王国关卡的详细指南。"
+    },
+    "modDownload": {
+      "title": "下载 Cookingdom Mod版 - 解锁全部内容",
+      "description": "获取最新的 Cookingdom Mod APK 和 IPA。享受无限资源、所有关卡解锁和无广告游戏体验。",
+      "keywords": "cookingdom mod, cookingdom apk mod, cookingdom ipa mod, 破解版游戏, 无限资源, 免广告"
     }
   }
 }

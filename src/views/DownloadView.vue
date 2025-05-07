@@ -1,5 +1,6 @@
 <script setup>
 // No script logic needed for now, just displaying static content
+import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not already
 </script>
 
 <template>
@@ -21,7 +22,6 @@
               <span class="file-type">{{ $t('home.downloads.ios.meta.type') }}</span>
               <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
             </div>
-            <!-- Assuming the button should navigate to an external site -->
             <a
               href="https://apps.apple.com/us/app/cookingdom/id6742222069"
               class="btn btn-download"
@@ -38,7 +38,6 @@
               <span class="file-type">{{ $t('home.downloads.android.meta.type') }}</span>
               <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
             </div>
-            <!-- Assuming the button should navigate to an external site -->
             <a
               href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
               class="btn btn-download"
@@ -46,6 +45,20 @@
             >
               {{ $t('home.downloads.android.button') }}
             </a>
+          </div>
+          <!-- New Card for Mod Download Page -->
+          <div class="download-card mod-access-card">
+            <div class="download-icon">✨</div>
+            <!-- Using the sparkle icon -->
+            <h3>{{ $t('home.downloads.modCard.title') }}</h3>
+            <p>{{ $t('home.downloads.modCard.description') }}</p>
+            <!-- Meta can be omitted or be very generic if desired -->
+            <!-- <div class="download-meta">
+              <span class="file-type">{{ $t('downloadView.modCard.meta.type') }}</span>
+            </div> -->
+            <RouterLink :to="{ name: 'mod-download' }" class="btn btn-download btn-secondary-style">
+              {{ $t('home.downloads.modCard.button') }}
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -95,7 +108,8 @@
 
 .downloads-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive columns */
+  /* Ensure it can accommodate 3 items gracefully on wider screens */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 }
 
@@ -106,6 +120,9 @@
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex; /* Added for better internal alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Push button to bottom */
 }
 
 .download-card:hover {
@@ -129,6 +146,7 @@
   color: #666;
   line-height: 1.6;
   margin-bottom: 1.5rem;
+  flex-grow: 1; /* Allow description to take available space */
 }
 
 .download-meta {
@@ -139,21 +157,19 @@
 
 .download-meta .file-type {
   margin-right: 1rem;
-  /* Example: Add background/badge style */
-  /* background-color: #eee; padding: 2px 6px; border-radius: 4px; */
 }
 
-/* General Button Styles (assuming similar to home page) */
 .btn {
   display: inline-block;
-  padding: 0.8rem 1.8rem;
+  padding: 0.8rem 0;
   border: none;
   border-radius: 25px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  text-decoration: none; /* For <a> tags used as buttons */
+  text-decoration: none;
+  margin-top: auto; /* Ensure button aligns to bottom if card heights vary */
 }
 
 .btn-download {
@@ -164,6 +180,14 @@
 .btn-download:hover {
   background-color: #8a75c4; /* Darker purple */
   transform: translateY(-2px);
+}
+
+/* Optional: A slightly different style for the Mod access card button if desired */
+.btn-secondary-style {
+  background-color: #ff85a2; /* Kawaii pink or another color */
+}
+.btn-secondary-style:hover {
+  background-color: #f76d91; /* Darker pink */
 }
 
 /* Responsive */
@@ -186,8 +210,11 @@
   }
 
   .downloads-grid {
-    grid-template-columns: repeat(2, 1fr); /* Ensure 2 columns on mobile */
-    gap: 1rem; /* Adjust gap for smaller screens */
+    /* For mobile, if DownloadView has 3 cards, auto-fit might make it 1 column */
+    /* If 2 columns are still desired for 3 items, you might need to adjust minmax or use repeat(2,1fr) */
+    /* Keeping auto-fit for now, it will likely go single column with 3 items */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
   }
 
   .downloads-section > .container > h2 {
@@ -202,6 +229,7 @@
   }
   .download-card p {
     font-size: 0.95rem;
+    margin-bottom: 1rem; /* Adjust for mobile */
   }
   /* Added styles based on HomeView mobile */
   .download-icon {
@@ -212,9 +240,9 @@
     font-size: 0.8rem; /* Smaller meta text */
     margin-bottom: 1rem; /* Reduced bottom margin */
   }
-  .btn-download {
-    padding: 0.4rem 1rem; /* Smaller padding */
-    font-size: 0.8rem; /* Smaller font size */
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
   }
 }
 </style> 

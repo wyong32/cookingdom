@@ -8,6 +8,7 @@ import BlogDetailView from '../views/BlogDetailView.vue'
 import DownloadView from '../views/DownloadView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
+import ModDownloadView from '../views/ModDownloadView.vue'
 import { i18n, supportedLangs, defaultLang } from '@/i18n'
 import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
 
@@ -100,12 +101,26 @@ const router = createRouter({
       meta: getMeta('meta.terms.title', 'meta.terms.description', 'meta.terms.keywords'),
     },
     {
+      path: '/mod-download',
+      name: 'mod-download',
+      component: ModDownloadView,
+      // TDK for Mod Download page. Keys to be defined in i18n files:
+      // Title: meta.modDownload.title
+      // Description: meta.modDownload.description
+      // Keywords: meta.modDownload.keywords
+      meta: getMeta(
+        'meta.modDownload.title',
+        'meta.modDownload.description',
+        'meta.modDownload.keywords',
+      ),
+    },
+    {
       path: '/:id',
       beforeEnter: (to, from, next) => {
         if (/^cookingdom-game-level-\d+$/.test(to.params.id)) {
-          next();
+          next()
         } else {
-          next({ name: 'home' });
+          next({ name: 'home' })
         }
       },
       name: 'guide-detail',
@@ -175,15 +190,30 @@ const router = createRouter({
       meta: getMeta('meta.terms.title', 'meta.terms.description', 'meta.terms.keywords'),
     },
     {
+      path: `/:lang(${langParamRegex})/mod-download`,
+      name: 'mod-download-lang',
+      component: ModDownloadView,
+      props: true,
+      // TDK Keys: meta.modDownload.title, meta.modDownload.description, meta.modDownload.keywords
+      meta: getMeta(
+        'meta.modDownload.title',
+        'meta.modDownload.description',
+        'meta.modDownload.keywords',
+      ),
+    },
+    {
       path: '/:lang/:id',
       beforeEnter: (to, from, next) => {
-        const langIsValid = nonDefaultLangs.includes(to.params.lang);
-        const idIsValid = /^cookingdom-game-level-\d+$/.test(to.params.id);
-    
+        const langIsValid = nonDefaultLangs.includes(to.params.lang)
+        const idIsValid = /^cookingdom-game-level-\d+$/.test(to.params.id)
+
         if (langIsValid && idIsValid) {
-          next();
+          next()
         } else {
-          next({ name: langIsValid ? 'home-lang' : 'home', params: langIsValid ? { lang: to.params.lang } : {} });
+          next({
+            name: langIsValid ? 'home-lang' : 'home',
+            params: langIsValid ? { lang: to.params.lang } : {},
+          })
         }
       },
       name: 'guide-detail-lang',
@@ -202,36 +232,36 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  const paramsLang = to.params.lang;
-  const pathFirstPart = to.path.split('/')[1];
-  const storedLang = localStorage.getItem('userLanguage');
-  let targetLang = defaultLang;
+  const paramsLang = to.params.lang
+  const pathFirstPart = to.path.split('/')[1]
+  const storedLang = localStorage.getItem('userLanguage')
+  let targetLang = defaultLang
 
   // 1. Check URL parameter
   if (paramsLang && supportedLangs.includes(paramsLang)) {
-    targetLang = paramsLang;
+    targetLang = paramsLang
   }
   // 2. Check first path segment
   else if (supportedLangs.includes(pathFirstPart) && pathFirstPart !== defaultLang) {
-    targetLang = pathFirstPart;
+    targetLang = pathFirstPart
   }
   // 3. Check localStorage
   else if (storedLang && supportedLangs.includes(storedLang)) {
-    targetLang = storedLang;
+    targetLang = storedLang
   }
   // 4. Fallback
   // targetLang remains defaultLang
 
   // Update i18n locale if needed
   if (i18n.global.locale.value !== targetLang) {
-    i18n.global.locale.value = targetLang;
-    localStorage.setItem('userLanguage', targetLang);
+    i18n.global.locale.value = targetLang
+    localStorage.setItem('userLanguage', targetLang)
   }
 
   // --- URL Prefix Handling ---
-  const requiresPrefix = targetLang !== defaultLang;
-  const pathStartsWithCorrectLang = pathFirstPart === targetLang;
-  const pathHasAnyLangPrefix = supportedLangs.includes(pathFirstPart);
+  const requiresPrefix = targetLang !== defaultLang
+  const pathStartsWithCorrectLang = pathFirstPart === targetLang
+  const pathHasAnyLangPrefix = supportedLangs.includes(pathFirstPart)
 
   // Scenario 1: Add prefix redirect
   if (requiresPrefix && !pathStartsWithCorrectLang) {
@@ -245,7 +275,7 @@ router.beforeEach((to, from, next) => {
     const query = to.query ? '?' + new URLSearchParams(to.query).toString() : ''
     const hash = to.hash || ''
     const fullRedirectPath = newPath + query + hash
-    return next(fullRedirectPath); // RETURN here prevents further execution
+    return next(fullRedirectPath) // RETURN here prevents further execution
   }
 
   // Scenario 2: Remove prefix redirect
@@ -255,70 +285,72 @@ router.beforeEach((to, from, next) => {
     const hash = to.hash || ''
     const fullRedirectPath = toPathWithoutLang + query + hash
     if (to.fullPath !== fullRedirectPath) {
-      return next(fullRedirectPath); // RETURN here prevents further execution
+      return next(fullRedirectPath) // RETURN here prevents further execution
     }
   }
 
   // --- Calculate Canonical URL ---
   const calculateCanonicalUrl = () => {
-    const currentLang = i18n.global.locale.value;
-    const siteBase = (window.location.origin + (import.meta.env.BASE_URL || '/')).replace(/\/$/, '');
-    let canonicalPath = to.path;
+    const currentLang = i18n.global.locale.value
+    const siteBase = (window.location.origin + (import.meta.env.BASE_URL || '/')).replace(/\/$/, '')
+    let canonicalPath = to.path
     if (currentLang !== defaultLang && canonicalPath.startsWith('/' + currentLang + '/')) {
-      canonicalPath = canonicalPath.substring(('/' + currentLang).length);
+      canonicalPath = canonicalPath.substring(('/' + currentLang).length)
     }
-     if (canonicalPath === '') {
-       canonicalPath = '/';
-     }
-    return siteBase + canonicalPath;
-  };
+    if (canonicalPath === '') {
+      canonicalPath = '/'
+    }
+    return siteBase + canonicalPath
+  }
 
   // --- Update Meta Tags, Canonical URL, and Default Social Tags ---
-  const routeWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+  const routeWithMeta = to.matched
+    .slice()
+    .reverse()
+    .find((r) => r.meta && r.meta.title)
 
   nextTick(() => {
     // --- 1. Calculate core Meta content ---
-    const meta = routeWithMeta ? routeWithMeta.meta : {};
-    const pageTitle = meta.title ? meta.title() : 'Cookingdom';
-    const pageDescription = meta.description ? meta.description() : i18n.global.t('meta.defaultDescription');
-    const pageKeywords = meta.keywords ? meta.keywords() : i18n.global.t('meta.defaultKeywords');
+    const meta = routeWithMeta ? routeWithMeta.meta : {}
+    const pageTitle = meta.title ? meta.title() : 'Cookingdom'
+    const pageDescription = meta.description
+      ? meta.description()
+      : i18n.global.t('meta.defaultDescription')
+    const pageKeywords = meta.keywords ? meta.keywords() : i18n.global.t('meta.defaultKeywords')
 
     // --- 2. Calculate Canonical URL ---
-    const finalCanonicalUrl = calculateCanonicalUrl();
+    const finalCanonicalUrl = calculateCanonicalUrl()
 
     // --- 3. Determine social tag type and default image ---
-    const isDetailPage = to.name?.includes('detail');
-    const ogType = isDetailPage ? 'article' : 'website';
-    const twitterCard = isDetailPage ? 'summary_large_image' : 'summary';
+    const isDetailPage = to.name?.includes('detail')
+    const ogType = isDetailPage ? 'article' : 'website'
+    const twitterCard = isDetailPage ? 'summary_large_image' : 'summary'
     // Use the specified default image, converting to absolute URL
-    const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
+    const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`
 
     // --- 4. Update all Head tags using imported helpers ---
-    document.title = pageTitle;
-    updateCanonicalTag(finalCanonicalUrl); // Use imported helper
-    updateMetaTag('description', pageDescription); // Use imported helper
-    updateMetaTag('keywords', pageKeywords);
+    document.title = pageTitle
+    updateCanonicalTag(finalCanonicalUrl) // Use imported helper
+    updateMetaTag('description', pageDescription) // Use imported helper
+    updateMetaTag('keywords', pageKeywords)
 
     // Update Open Graph (OG) tags
-    updateMetaTag('og:title', pageTitle);
-    updateMetaTag('og:description', pageDescription);
-    updateMetaTag('og:url', finalCanonicalUrl);
-    updateMetaTag('og:type', ogType);
-    updateMetaTag('og:image', defaultSocialImageUrl); // Default image
-    updateMetaTag('og:site_name', 'Cookingdom');
+    updateMetaTag('og:title', pageTitle)
+    updateMetaTag('og:description', pageDescription)
+    updateMetaTag('og:url', finalCanonicalUrl)
+    updateMetaTag('og:type', ogType)
+    updateMetaTag('og:image', defaultSocialImageUrl) // Default image
+    updateMetaTag('og:site_name', 'Cookingdom')
 
     // Update Twitter Card tags
-    updateMetaTag('twitter:card', twitterCard);
-    updateMetaTag('twitter:title', pageTitle);
-    updateMetaTag('twitter:description', pageDescription);
-    updateMetaTag('twitter:image', defaultSocialImageUrl); // Default image
-
-  });
+    updateMetaTag('twitter:card', twitterCard)
+    updateMetaTag('twitter:title', pageTitle)
+    updateMetaTag('twitter:description', pageDescription)
+    updateMetaTag('twitter:image', defaultSocialImageUrl) // Default image
+  })
 
   // Proceed with navigation if no redirect occurred
-  next();
+  next()
 })
 
 export default router
-
-
