@@ -1,47 +1,13 @@
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
+import { useBlogPosts } from '@/composables/useBlogPosts'
 
 const { t, locale } = useI18n()
 
-const blogPosts = ref([])
-const isLoading = ref(true)
-
-// 动态加载博客文章数据的函数
-const loadBlogPosts = async (lang) => {
-  isLoading.value = true
-  try {
-    let dataModule
-    let loadedPosts = [] // Temporary variable to hold loaded posts
-    if (lang === 'zh') {
-      dataModule = await import('@/datas/blog-posts-zh.js')
-      loadedPosts = dataModule.blogPostsZh || [] // Access blogPostsZh
-    } else if (lang === 'ru') {
-      dataModule = await import('@/datas/blog-posts-ru.js')
-      // Assuming Russian file follows the same pattern - adjust if needed
-      loadedPosts = dataModule.blogPostsRu || [] // Access blogPostsRu
-    } else {
-      dataModule = await import('@/datas/blog-posts.js') // 默认 en
-      loadedPosts = dataModule.blogPosts || [] // Access blogPosts
-    }
-    // Assign the correctly loaded posts
-    blogPosts.value = loadedPosts
-  } catch (error) {
-    console.error(`Failed to load blog posts for locale ${lang}:`, error)
-    blogPosts.value = []
-  } finally {
-    isLoading.value = false
-  }
-}
-
-// 初始化加载
-loadBlogPosts(locale.value)
-
-// 监听语言变化，重新加载数据
-watch(locale, (newLocale) => {
-  loadBlogPosts(newLocale)
-})
+// Use the composable to get blog posts and loading state
+const { blogPosts, isLoading, error } = useBlogPosts()
 
 // 格式化日期函数 (可选)
 const formatDate = (dateString) => {

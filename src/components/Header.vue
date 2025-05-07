@@ -32,6 +32,15 @@ const guidesRoute = localizedRoute('guides')
 const blogRoute = localizedRoute('blog')
 const downloadRoute = localizedRoute('download')
 
+// 定义语言选项，包括显示名称
+const languageOptions = [
+  { code: 'en', name: 'English' },
+  { code: 'zh', name: '中文' },
+  { code: 'ru', name: 'Русский' },
+  { code: 'fil', name: 'Filipino' },
+  { code: 'ms', name: 'Bahasa Melayu' },
+]
+
 function changeLocale(event) {
   console.log('--- changeLocale function entered ---')
 
@@ -125,9 +134,9 @@ function changeLocale(event) {
         <!-- 语言切换下拉框 -->
         <div class="language-switcher">
           <select v-model="currentLocale" @change="changeLocale">
-            <option value="en">English</option>
-            <option value="zh">中文</option>
-            <option value="ru">Русский</option>
+            <option v-for="lang in languageOptions" :key="lang.code" :value="lang.code">
+              {{ lang.name }}
+            </option>
           </select>
         </div>
       </div>

@@ -1,0 +1,444 @@
+{
+  "message": {
+    "hello": "Kamusta Mundo"
+  },
+  "example": "Ito ay isang halimbawa ng teksto.",
+  "header": {
+    "logo": "Cookingdom"
+  },
+  "nav": {
+    "home": "🏠 Home",
+    "guides": "📖 Mga Gabay",
+    "blog": "✍️ Blog",
+    "download": "⬇️ I-download",
+    "language": "Wika"
+  },
+  "footer": {
+    "about": {
+      "title": "Fansite ng Cookingdom",
+      "description": "Ang pinakacute na fansite para sa gabay sa larong Cookingdom, nagbabahagi ng tips at kasiyahan."
+    },
+    "links": {
+      "quickNav": {
+        "title": "Mabilis na Pag-navigate"
+      },
+      "popularLevels": {
+        "title": "Mga Sikat na Antas",
+        "level5": "Antas 5 Bistek",
+        "level7": "Antas 7 Inihaw",
+        "level19": "Antas 19 Burger",
+        "level26": "Antas 26 Alimango"
+      },
+      "help": {
+        "title": "Tulong at Impormasyon",
+        "privacy": "Patakaran sa Privacy",
+        "terms": "Mga Tuntunin ng Serbisyo"
+      }
+    },
+    "bottom": {
+      "copyright": "© {year} Cookingdom. Lahat ng karapatan ay nakalaan.",
+      "credits": "Ginawa nang may ♡ ng mga Tagahanga | Ang copyright ng larong Cookingdom ay pagmamay-ari ng mga developer nito.",
+      "disclaimer": "Paunawa: Ang website na ito (www.cookingdom.co) ay isang di-opisyal na fansite na ginawa ng mga tagahanga at hindi konektado sa opisyal na larong Cookingdom o sa mga publisher nito. Para sa layuning impormasyon at libangan lamang."
+    },
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "defaultKeywords": "larong pagluluto, simulation, mobile game, strategy, kasiyahan, mga recipe, kusina"
+  },
+  "home": {
+    "hero": {
+      "title": "Cookingdom Game: Kumpletong Mga Gabay sa Paglalaro",
+      "description": "Ang iyong mahalagang kasama sa pag-master ng larong Cookingdom ✨ I-access ang aming detalyadong Cookingdom All Level Walkthrough Guides, simpleng cheats, at mga walkthrough video.",
+      "button": {
+        "viewGuides": "Tingnan ang Mga Gabay sa Paglalaro ng Cookingdom",
+        "gameFeatures": "Tuklasin ang Mga Tampok ng Laro",
+        "downloadGame": "I-download ang Laro"
+      }
+    },
+    "features": {
+      "title": "Mga Tampok ng Laro sa Cookingdom",
+      "description": "Tuklasin ang mga kaaya-ayang tampok na nagpapasaya sa Cookingdom bilang isang nakakarelaks na cooking simulation game",
+      "card1": {
+        "title": "Nakakarelaks na Cooking Sim",
+        "description": "Tamuhin ang kasiyahan sa pagluluto nang walang time limit o pressure sa larong Cookingdom."
+      },
+      "card2": {
+        "title": "Masayang Mini-Games",
+        "description": "Gawin ang mga hakbang sa pagluluto gaya ng paghiwa at paghalo sa pamamagitan ng step-by-step mini-games sa loob ng larong Cookingdom."
+      },
+      "card3": {
+        "title": "Pagpapasadya ng Kusina",
+        "description": "Ayusin at i-upgrade ang sarili mong espasyo sa kusina habang umuusad ka sa laro."
+      },
+      "card4": {
+        "title": "Nakakarelaks at Kaibigang Atmospera",
+        "description": "Ang cute na visuals at nakakaaliw na musika ay lumikha ng maginhawang karanasan sa paglalaro."
+      },
+      "card5": {
+        "title": "Cross-Platform na Laro",
+        "description": "Libre itong i-download sa iOS at Android – laruin ang Cookingdom kahit saan."
+      }
+    },
+    "downloads": {
+      "title": "I-download ang Cookingdom Game",
+      "description": "I-download ang Cookingdom nang libre para sa iyong iOS o Android device!",
+      "ios": {
+        "title": "Bersyon para sa iOS",
+        "description": "Cookingdom app para sa iPhone at iPad",
+        "meta": {
+          "type": "App Store",
+          "size": "Libre"
+        },
+        "button": "Pumunta sa App Store"
+      },
+      "android": {
+        "title": "Bersyon para sa Android",
+        "description": "cookingdom mod apk",
+        "meta": {
+          "type": "Google Play",
+          "size": "Libre"
+        },
+        "button": "Pumunta sa Google Play"
+      },
+      "modCard": {
+        "title": "Naghahanap ng Mods?",
+        "description": "I-access ang mga espesyal na modded na bersyon ng Cookingdom na may kakaibang tampok at mga pagpapahusay.",
+        "button": "Pumunta sa Mod Downloads"
+      }
+    },
+    "about": {
+      "title": "⭐ Tungkol sa Cookingdom Game",
+      "description1": "Ang Cookingdom ay isang masaya at nakakarelaks na casual cooking simulation na nagbibigay ng kasiyahan sa pagluluto sa isang stress-free na kapaligiran. Mayroon itong simpleng controls at dumaraming hamon habang umaangat ka sa mga antas—angkop para sa lahat ng edad.",
+      "description2": "Ang pangunahing gameplay ng Cookingdom ay tungkol sa pagbuo ng isang buong recipe — mula paghahanda hanggang pagluluto at plating — gamit ang interactive mini-games. Mula sa paghiwa, paghahalo, pag-kontrol ng apoy, at pagdekorasyon, bawat hakbang ay madaling matutunan at puno ng kasiyahan.",
+      "description3": "Habang umaangat ka sa mga antas, ma-unlock mo ang bagong recipes, kagamitan, at dekorasyon. Maaari mong i-customize ang iyong kusina ayon sa gusto mo. Walang mahigpit na time limit, kaya pwedeng namnamin ang bawat hakbang sa pagluluto nang ayon sa sariling bilis."
+    },
+    "stats": {
+      "title": "Cookingdom Game Stats",
+      "downloads": "Mga Download",
+      "countries": "Mga Bansa",
+      "recipes": "Natanging Mga Recipe",
+      "rating": "Rating ng User"
+    },
+    "howToPlay": {
+      "title": "Paano Laruin ang Cookingdom Game",
+      "step1": {
+        "title": "Ano ang Cookingdom Game?",
+        "description": "Ang Cookingdom ay isang nakakarelaks na cooking simulator na magdadala sa’yo sa isang di malilimutang culinary adventure. Sundan ang mga tips para mabilis na maging eksperto at maipakita ang iyong virtual cooking skills. Tandaan: ang layunin ng Cookingdom ay tamasahin ang proseso!"
+      },
+      "step2": {
+        "title": "Pag-aaral ng Mga Pangunahing Hakbang",
+        "description": "Sa unang paglalaro, ipapakita ng Cookingdom ang mga madaling sundang tutorial kung paano gawin ang bawat hakbang. Sundin ito upang makasanayan ang controls at mechanics ng laro."
+      },
+      "step3": {
+        "title": "Pagkumpleto ng Mga Antas",
+        "description": "Bawat antas ay may tiyak na pagkain na kailangang lutuin. Sundin ang instructions, tapusin ang bawat mini-game tulad ng paghiwa, paghahalo, at pagluluto upang makuha ang mataas na score."
+      },
+      "step4": {
+        "title": "Paggamit ng Cookingdom Walkthrough Guides",
+        "description": "Kung nahihirapan ka o gusto mo ng mas mahusay na performance, gamitin ang aming Cookingdom Walkthrough Guides! May mga hakbang-hakbang na instructions, tips sa mahihirap na mini-games, at mga video guide.",
+        "prompt": "Tingnan ang aming kumpletong Cookingdom Walkthrough Guides para sa detalyadong tulong!"
+      },
+      "step5": {
+        "title": "Makilahok sa Komunidad",
+        "description": "Sumali sa online na komunidad ng Cookingdom! Ibahagi ang disenyo ng kusina, humingi ng tulong, at makipagdiskusyon sa kapwa manlalaro. Sundan ang mga link sa footer para sumali."
+      }
+    },
+    "faq": {
+      "title": "🤔 Mga Madalas Itanong tungkol sa Cookingdom Game",
+      "q1": {
+        "question": "Libre ba ang Cookingdom Game?",
+        "answer": "Oo, libre itong i-download at laruin sa iOS at Android. May mga optional na in-app purchases para sa mga cosmetics o boosters, pero ang pangunahing laro ay maaaring laruin nang walang gastos."
+      },
+      "q2": {
+        "question": "Opisyal ba ang mga gabay sa site na ito?",
+        "answer": "Hindi. Ito ay isang hindi opisyal na fansite na ginawa ng mga tagahanga para sa Cookingdom game. Batay ito sa karanasan at impormasyon mula sa komunidad. Para sa opisyal na impormasyon, tumungo sa opisyal na resources ng laro."
+      },
+      "q3": {
+        "question": "Gaano kadalas ina-update ang mga gabay?",
+        "answer": "Inaa-update namin ang mga gabay tuwing may malalaking pagbabago sa laro o bagong mga antas. Bilang isang fan project, nakadepende ito sa oras ng mga volunteers at ambag mula sa komunidad. Bisitahin kami lagi!"
+      },
+      "q4": {
+        "question": "Pwede ba akong mag-ambag sa mga gabay?",
+        "answer": "Oo! Tinatanggap namin ang mga kontribusyon mula sa komunidad. Kung may tips, corrections, o walkthrough videos ka, makipag-ugnayan sa amin sa contact page o sa aming social media (Discord/Reddit sa footer). Bibigyan ka namin ng credit!"
+      }
+    },
+    "tips": {
+      "title": "💡 Mga Tips at Tricks para sa Cookingdom Game",
+      "description": "Masterin ang mga tips na ito para gawing mas episyente ang iyong kusina at makakuha ng three-star ratings! Para sa mga mas detalyadong strategy, tingnan ang aming walkthrough guides.",
+      "tip1_title": "I-upgrade ang Mga Kagamitang Pangkusina:",
+      "tip1_text": "Mas mabilis na stove at mas malalaking kaldero ang nakakatipid sa oras sa pagluluto.",
+      "tip2_title": "Maghanda Nang Maaga:",
+      "tip2_text": "Habang hinihintay ang isang putahe, maaari mong ihanda na ang susunod na sangkap.",
+      "tip3_title": "Tumutok sa Kaligayahan ng Customer:",
+      "tip3_text": "Mas mabilis at tumpak na serbisyo = mas maraming tips at positibong review.",
+      "tip4_title": "Planuhin ang Layout ng Kusina:",
+      "tip4_text": "Ilagay ang madalas gamitin na gamit sa madaling maabot na lugar para sa episyenteng daloy ng trabaho.",
+      "tip5_title": "Sumali sa Mga Espesyal na Events:",
+      "tip5_text": "Ang mga events ay kadalasang nagbibigay ng magagandang reward para sa mabilis na pag-level up."
+    }
+  },
+  "guideDetail": {
+    "backLink": "← Bumalik sa Mga Gabay",
+    "iframeTitle": "Nilalaman na Ibinahagi",
+    "featuredLevelsTitle": "Mga Tampok na Antas",
+    "loadingOrNotFound": "Nagloload ng mga detalye ng gabay o gabay hindi nahanap..."
+  },
+  "seo": {
+    "defaultTitle": "Gabay ng Cookingdom",
+    "notFoundTitle": "Gabay Hindi Nahanap | Cookingdom"
+  },
+  "guides": {
+    "title": "📖 Lahat ng Gabay sa Level ng Cookingdom",
+    "tabs": {
+      "special": "Espesyal na Antas",
+      "levels1_10": "Mga Antas 1-10",
+      "levels11_20": "Mga Antas 11-20",
+      "levels21_30": "Mga Antas 21-30",
+      "levels31_40": "Mga Antas 31-40",
+      "levels41_50": "Mga Antas 41-50"
+    },
+    "noGuidesAvailable": "Walang gabay na available para sa kategoryang ito."
+  },
+  "page": {
+    "privacy": {
+      "title": "Patakaran sa Privacy ng Cookingdom Guide Fansite",
+      "contentPlaceholder": "",
+      "lastUpdated": "Huling Nai-update: Abril 30, 2025",
+      "intro": "Salamat sa pagbisita sa Cookingdom Guide Fansite (dito tinutukoy bilang \"ang Site\"). Pinahahalagahan namin ang inyong privacy at nakatuon kami sa proteksyon ng inyong personal na impormasyon. Mangyaring basahin nang mabuti ang patakarang ito upang maunawaan kung paano namin kinokolekta, ginagamit, ini-imbak, at pinoprotektahan ang inyong personal na data.",
+      "section1": {
+        "title": "1. Personal na Impormasyon na Kinokolekta Namin",
+        "p1": "Kapag binisita mo ang Site, maaaring mangolekta kami ng mga sumusunod na uri ng personal na impormasyon: Awtomatikong nakolektang teknikal na impormasyon: Katulad ng iyong IP address, uri ng browser, uri ng device, bersyon ng operating system, oras ng pag-access, atbp. Kinokolekta ang impormasyong ito nang awtomatiko gamit ang Cookies at mga katulad na teknolohiya upang mapabuti ang aming serbisyo at karanasan ng gumagamit.",
+        "p2": "Impormasyon na kusang ibinibigay ng mga gumagamit: Kapag nagrehistro ka ng account, nag-subscribe sa mga newsletter, lumahok sa mga talakayan, o nagbigay ng feedback sa Site, maaaring mangolekta kami ng impormasyon tulad ng iyong email address, username, nilalaman ng mensahe, atbp."
+      },
+      "section2": {
+        "title": "2. Paggamit ng Impormasyon",
+        "intro": "Ang impormasyong kinokolekta namin ay pangunahing ginagamit para sa mga sumusunod na layunin:",
+        "b1": "Pagbibigay ng mga serbisyo at suporta: Upang magbigay sa iyo ng mga gabay sa laro, mga update sa balita, teknikal na suporta, at iba pang mga serbisyo batay sa iyong mga kahilingan.",
+        "b2": "Pag-personalize ng karanasan: Upang magbigay ng mga pasadyang nilalaman at rekomendasyon batay sa iyong mga interes at kagustuhan.",
+        "b3": "Pagpapabuti ng functionality ng website: Upang suriin ang pag-uugali ng gumagamit, mapabuti ang disenyo ng website at mga tampok, at mapahusay ang karanasan ng gumagamit.",
+        "b4": "Marketing at komunikasyon: Upang magpadala sa iyo ng mga update na may kaugnayan sa laro, mga alok, promosyon, at iba pang impormasyon sa pamamagitan ng email o iba pang mga channel (kung papayag kang matanggap ito)."
+      },
+      "section3": {
+        "title": "3. Paano Namin Pinoprotektahan ang Iyong Impormasyon",
+        "p1": "Nagpapatupad kami ng mga angkop na teknikal at administratibong hakbang upang protektahan ang iyong personal na impormasyon mula sa hindi awtorisadong pag-access, pagbubunyag, o pagbabago. Kasama sa mga hakbang na ito ang pag-encrypt ng data, kontrol sa pag-access, at regular na mga pagsusuri ng seguridad."
+      },
+      "section4": {
+        "title": "4. Pagbabahagi ng Impormasyon",
+        "intro": "Hindi namin ibinibenta o inuupahan ang iyong personal na impormasyon sa mga ikatlong partido. Ibinabahagi lamang namin ang iyong impormasyon sa mga sumusunod na pagkakataon:",
+        "b1": "Mga Tagapagbigay ng Serbisyo: Maaaring ibahagi namin ang iyong impormasyon sa mga ikatlong partido na nagbibigay ng teknikal na suporta, hosting ng website, at iba pang mga serbisyo. Ang mga tagapagbigay ng serbisyong ito ay limitado sa pagbibigay ng mga serbisyo para sa amin at kinakailangan nilang sumunod sa mga obligasyon ng pagiging kompidensyal.",
+        "b2": "Mga Legal na Pangangailangan: Maaaring ibunyag namin ang iyong impormasyon kung kinakailangan ng batas o legal na proseso."
+      },
+      "section5": {
+        "title": "5. Paggamit ng Cookies",
+        "p1": "Gumagamit kami ng Cookies at mga katulad na teknolohiya upang mangolekta at mag-imbak ng iyong mga kagustuhan, gawi sa pag-browse, at iba pang impormasyon. Maaaring i-disable ang Cookies sa pamamagitan ng iyong mga setting ng browser, ngunit mangyaring tandaan na maaaring makaapekto ito sa iyong kakayahang gamitin ang ilang tampok ng Site."
+      },
+      "section6": {
+        "title": "6. Mga Link ng Ikatlong Partido",
+        "p1": "Ang Site ay maaaring naglalaman ng mga link sa ibang mga website. Wala kaming kontrol sa mga kasanayan sa privacy ng mga third-party na website na ito. Inirerekomenda naming basahin mo ang kanilang mga patakaran sa privacy kapag bumisita sa ibang mga site."
+      },
+      "section7": {
+        "title": "7. Privacy ng mga Bata",
+        "p1": "Ang aming mga serbisyo ay hindi nakatuon sa mga bata na wala pang 13 taong gulang. Kung matutuklasan namin na hindi sinasadyang nakolekta namin ang personal na impormasyon mula sa isang bata na wala pang 13, agad naming gagawin ang mga hakbang upang tanggalin ang kaugnay na impormasyon."
+      },
+      "section8": {
+        "title": "8. Iyong mga Karapatan",
+        "p1": "Ayon sa mga kaugnay na batas at regulasyon, mayroon kang karapatan na humiling ng access sa, itama, o tanggalin ang personal na impormasyong kinolekta namin tungkol sa iyo. Kung mayroon kang mga katanungan o kahilingan tungkol sa pagproseso ng iyong personal na impormasyon, mangyaring makipag-ugnayan sa amin gamit ang impormasyon sa pakikipag-ugnayan sa ibaba."
+      },
+      "section9": {
+        "title": "9. Makipag-ugnayan sa Amin",
+        "p1": "Kung mayroon kang anumang mga katanungan tungkol sa Patakaran sa Privacy na ito o kailangan ng karagdagang impormasyon, mangyaring makipag-ugnayan sa amin sa sumusunod na paraan:",
+        "email": "Email: maieldilmie223321@gmail.com"
+      }
+    },
+    "terms": {
+      "title": "Mga Tuntunin ng Serbisyo ng Cookingdom Guide Fansite",
+      "contentPlaceholder": "",
+      "lastUpdated": "Huling Nai-update: Abril 30, 2025",
+      "intro": "Maligayang pagdating sa Cookingdom Guide Fansite (dito tinutukoy bilang \"ang Site\"). Bago mag-access o gumamit ng mga serbisyo na ibinibigay ng Site, mangyaring basahin nang mabuti ang mga sumusunod na tuntunin ng serbisyo. Ang pag-access o paggamit ng Site ay nangangahulugang pagsang-ayon mong sumunod sa mga tuntuning ito. Kung hindi ka sumasang-ayon sa mga tuntuning ito, mangyaring huwag gamitin ang Site.",
+      "section1": {
+        "title": "1. Nilalaman ng Serbisyo",
+        "p1": "Ang Site ay nagbibigay ng mga gabay, tip, impormasyon ng update, talakayan ng komunidad, mga review ng gumagamit, at kaugnay na nilalaman para sa laro ng \"Cookingdom\". Nakatuon kami sa pagbibigay sa mga manlalaro ng mga de-kalidad na mapagkukunan ng laro at suporta upang matulungan silang mapabuti ang kanilang karanasan sa paglalaro."
+      },
+      "section2": {
+        "title": "2. Account ng Gumagamit",
+        "p1": "Upang ganap na magamit ang ilang tampok ng Site, maaaring kailanganin mong lumikha ng account. Kapag nagrehistro ka, sumasang-ayon kang magbigay ng tumpak at kumpletong personal na impormasyon at i-update ang impormasyong ito agad upang mapanatili ang pagiging tumpak nito. Responsable ka sa seguridad ng iyong account at password at sumasang-ayon kang hindi ibahagi ang iyong impormasyon sa account sa anumang ikatlong partido."
+      },
+      "section3": {
+        "title": "3. Pag-uugali ng Gumagamit",
+        "intro": "Kapag ginagamit ang Site, sumasang-ayon kang:",
+        "b1": "Huwag mag-post ng nilalaman na lumalabag sa mga batas, regulasyon, o hindi etikal (kabilang ngunit hindi limitado sa malware, mga advertisement, spam, mensahe ng pananakot, nilalamang lumalabag sa copyright o privacy rights ng iba).",
+        "b2": "Igalang ang mga karapatan ng ibang mga gumagamit at hindi istorbohin ang normal na operasyon ng Site.",
+        "b3": "Huwag kumuha ng nilalaman, data, o mga sistema ng Site sa pamamagitan ng anumang ilegal na pamamaraan.",
+        "p1": "Kung nilabag mo ang mga patakarang ito ng pag-uugali, may karapatan ang Site na suspendihin o wakasan ang iyong account at magsagawa ng kinakailangang aksyon na legal."
+      },
+      "section4": {
+        "title": "4. Paggamit ng Nilalaman",
+        "p1": "Ang lahat ng nilalamang ibinibigay sa Site (kabilang ang teksto, mga imahe, mga video, mga audio, atbp.) ay pag-aari ng Site o mga licensor nito at protektado ng batas ng copyright. Nang walang pahintulot mula sa Site, hindi mo maaaring kopyahin, ipamahagi, baguhin, ipakita, o ibenta ang nilalaman ng Site sa anumang anyo.",
+        "p2": "Maaaring ma-access at gamitin ng mga gumagamit ang nilalaman ng Site para sa mga layuning hindi pang-komersyal alinsunod sa mga Tuntunin ng Serbisyo na ito, ngunit ang anumang komersyal na paggamit ng nilalaman ay nangangailangan ng paunang pahintulot mula sa Site."
+      },
+      "section5": {
+        "title": "5. Intellectual Property",
+        "p1": "Ang lahat ng mga logo, mga trademark, mga marka ng serbisyo, atbp., na may kaugnayan sa Site ay ari-arian ng intelektwal ng Site o mga licensor nito. Nang walang pahintulot mula sa Site, hindi mo maaaring gamitin o kopyahin ang intelektwal na ari-arian na ito sa anumang anyo."
+      },
+      "section6": {
+        "title": "6. Pagkaantala at Pagwawakas ng Serbisyo",
+        "p1": "Maaaring pansamantalang maantala ang serbisyo ng Site para sa pagpapanatili, mga update, o iba pang mga dahilan. Gagawin namin ang makatarungang pagsusumikap upang abisuhan ang mga gumagamit nang maaga ngunit hindi kami mananagot para sa anumang mga kahihinatnan na dulot ng pagkaantala ng serbisyo. May karapatan ang Site na baguhin, suspendihin, o wakasan ang bahagi o lahat ng mga serbisyo nito anumang oras nang walang paunang abiso."
+      },
+      "section7": {
+        "title": "7. Mga Website ng Ikatlong Partido",
+        "p1": "Ang Site ay maaaring naglalaman ng mga link sa iba pang mga website na pinamamahalaan ng mga ikatlong partido. Wala kaming kontrol sa nilalaman o mga patakaran sa privacy ng mga website na ito at samakatuwid ay hindi kami mananagot para sa kanilang nilalaman at mga kasanayan sa privacy. Inirerekomenda naming basahin mong mabuti ang kanilang mga tuntunin ng serbisyo at mga patakaran sa privacy kapag bumisita ka sa mga site."
+      },
+      "section8": {
+        "title": "8. Pagwawaksi",
+        "p1": "Ginagawa ng Site ang pinakamahusay na pagsusumikap upang matiyak ang kawastuhan at pagiging kumpleto ng ibinibigay na nilalaman ngunit hindi nagbibigay ng anumang tahasan o ipinagpapalagay na mga garantiya hinggil sa kawastuhan, pagiging maaasahan, o pagiging kumpleto ng anumang nilalaman. Hindi kami mananagot para sa anumang direktang o hindi direktang pagkawala na dulot ng paggamit ng nilalaman ng Site."
+      },
+      "section9": {
+        "title": "9. Data ng Gumagamit at Privacy",
+        "p1": "Ang koleksyon, paggamit, at proteksyon ng iyong personal na data ay nakasaad sa aming Patakaran sa Privacy. Mangyaring basahin nang mabuti ang aming Patakaran sa Privacy at sumang-ayon sa mga tuntunin nito bago gamitin ang mga serbisyo ng Site."
+      },
+      "section10": {
+        "title": "10. Batas na Namamahala at Resolusyon ng Alitan",
+        "p1": "Ang mga Tuntunin ng Serbisyo ay pinamamahalaan ng mga batas ng People's Republic of China. Ang anumang mga alitan na nagmumula sa o may kaugnayan sa mga tuntuning ito ay dapat isumite sa hukuman na may hurisdiksyon sa lokasyon ng Site para sa pagdinig."
+      },
+      "section11": {
+        "title": "11. Pagbabago ng Mga Tuntunin",
+        "p1": "May karapatan ang Site na baguhin o i-update ang mga Tuntunin ng Serbisyo anumang oras. Ang mga nabagong tuntunin ay magiging epektibo sa sandaling mailathala. Ang iyong patuloy na paggamit ng mga serbisyo ng Site ay nangangahulugang pagtanggap mo sa mga binagong tuntunin. Inirerekomenda naming suriin mong regular ang pahinang ito upang manatiling updated sa pinakabagong mga tuntunin ng serbisyo."
+      },
+      "section12": {
+        "title": "12. Makipag-ugnayan sa Amin",
+        "p1": "Kung mayroon kang anumang mga katanungan tungkol sa mga Tuntunin ng Serbisyo na ito o kailangan ng karagdagang impormasyon, mangyaring makipag-ugnayan sa amin sa sumusunod na paraan:",
+        "email": "Email: maieldilmie223321@gmail.com"
+      }
+    }
+  },
+  "modDownload": {
+    "pageHeadline": "Cookingdom Mod APK",
+    "pageTitle": "I-download ang Cookingdom Mod APK",
+    "pageIntro": "I-download ang Cookingdom Mod APK. Mag-enjoy ng mga pinahusay na tampok para sa mas magandang karanasan sa paglalaro.",
+    "mainMod": {
+      "title": "Cookingdom Mod APK 1.0.32",
+      "description": "Pinakabagong modded na bersyon ng Cookingdom Mod APK para sa Android, nag-aalok ng mga espesyal na tampok.",
+      "meta": {
+        "type": "Mod APK",
+        "size": "389.21 MB"
+      },
+      "button": "I-download ang Cookingdom Mod APK",
+      "downloadLink": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/download.html"
+    },
+    "modInfo": {
+      "title": "Mga Tampok ng Cookingdom Mod APK:",
+      "features": ["Mga gantimpala nang walang ads", "Walang Ads", "Mod Menu"]
+    },
+    "happymodReference": {
+      "text": "Pinagmulan:",
+      "linkText": "HappyMod",
+      "linkUrl": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/"
+    },
+    "apkDetails": {
+      "title": "Detalye ng Cookingdom Mod APK",
+      "version": "Bersyon ng App",
+      "versionValue": "1.0.32",
+      "lastUpdated": "Huling Na-update",
+      "lastUpdatedValue": "Abr 22, 2025",
+      "size": "Laki ng APK",
+      "sizeValue": "389.21 MB",
+      "price": "Presyo",
+      "priceValue": "Libre",
+      "category": "Kategorya",
+      "categoryValue": "Simulasyon",
+      "contentRating": "Rating ng Nilalaman",
+      "contentRatingValue": "5.0/5 (507 boto)",
+      "supportAndroid": "Sinusuportahang Android",
+      "supportAndroidValue": "Android",
+      "appPackage": "Package ng App",
+      "appPackageValue": "com.abi.cook.chill",
+      "rootRequired": "ROOT",
+      "rootRequiredValue": "Hindi kinakailangan",
+      "inAppPurchases": "Nag-aalok ng Pagbili sa App",
+      "inAppPurchasesValue": "Oo (Orihinal na App)"
+    },
+    "otherLinks": {
+      "title": "Iba pang Opsyon ng Pag-download",
+      "originalApk": {
+        "text": "Bersyon ng iOS",
+        "link": "https://apps.apple.com/us/app/cookingdom/id6742222069"
+      },
+      "googlePlay": {
+        "text": "Bersyon ng Android",
+        "link": "https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+      }
+    },
+    "allVersions": {
+      "title": "Mga Nakaraang Bersyon ng Mod",
+      "versions": [
+        {
+          "name": "Cookingdom Mod APK 1.0.31",
+          "size": "385.14 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-v1-0-31-mod-down.html"
+        },
+        {
+          "name": "Cookingdom Mod APK 1.0.29",
+          "size": "431.29 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/nap.mod.cookingdom-1-0-29-down.html"
+        },
+        {
+          "name": "Cookingdom Mod APK 0.24",
+          "size": "369.63 MB",
+          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-mod-apk-0-24-down.html"
+        }
+      ]
+    },
+    "developerDescription": {
+      "title": "Tungkol sa Cookingdom Mod APK (mula sa Developer)",
+      "text": "Maligayang pagdating sa Cookingdom Mod APK, isang ultimate chill at cozy na laro na ginagawang kasing-relax ng isang satisfying Sunday morning ang pagluluto. Ang lahat ng ito ay tungkol sa pagpapabagal, kasiyahan, at paggawa ng masasarap na mga putahe hakbang-hakbang. Magsisimula ka mula sa pag-chop ng patatas hanggang sa pagtatanghal ng mga masterpiece, habang sumasabay sa mga nakakarelaks na vibes."
+    }
+  },
+  "meta": {
+    "defaultDescription": "Ang iyong default na paglalarawan para sa Cookingdom site.",
+    "defaultKeywords": "cookingdom, laro, gabay, pagluluto, simulasyon, kasiyahan",
+    "notFoundTitle": "Pahina Hindi Natagpuan | Cookingdom",
+    "errorTitle": "Error | Cookingdom",
+    "home": {
+      "title": "Cookingdom Game Strategy Guide – Masterin ang Bawat Antas",
+      "description": "Tuklasin ang mga ekspertong estratehiya para sa Cookingdom! Alamin ang lahat ng mga mahahalagang taktika sa bawat hamon at buksan ang mga bagong antas sa masayang laro ng pagluluto na ito.",
+      "keywords": "Cookingdom, Cookingdom tips, pagluluto adventure, Cookingdom gameplay, Cookingdom cheats"
+    },
+    "guides": {
+      "title": "Cookingdom Guides List – Lahat ng Estratehiya at Mga Tip",
+      "description": "Siyasatin ang aming komprehensibong listahan ng mga gabay ng Cookingdom. Mula sa mga tip para sa mga baguhan hanggang sa mga advanced na estratehiya, hanapin ang lahat ng gabay na kailangan mo upang mangibabaw sa bawat antas.",
+      "keywords": "Cookingdom, Cookingdom tips, pagluluto adventure, Cookingdom gameplay, Cookingdom cheats"
+    },
+    "blog": {
+      "title": "Cookingdom Blog – Pinakabagong Mga Tip, Balita, at Mga Update",
+      "description": "Manatiling updated sa pinakabagong balita, mga tip, at estratehiya para sa Cookingdom. Saklaw ng aming blog ang lahat mula sa mga bagong tampok hanggang sa mga ekspertong payo.",
+      "keywords": "Cookingdom, Cookingdom blog, Cookingdom tips, game updates, Cookingdom news, Cookingdom strategies, pagluluto adventure"
+    },
+    "blogDetail": {
+      "title": "Cookingdom Blog Post",
+      "description": "Basahin ang post na ito mula sa blog ng Cookingdom."
+    },
+    "download": {
+      "title": "I-download ang Cookingdom – Simulan ang Iyong Paglalakbay sa Pagluluto",
+      "description": "I-download ang Cookingdom ngayon at simulan ang iyong paglalakbay sa pagluluto! Tangkilikin ang mga masayang hamon, estratehiya, at gameplay.",
+      "keywords": "Cookingdom download, Cookingdom app, cooking game, download Cookingdom, pagluluto adventure"
+    },
+    "privacy": {
+      "title": "Privacy Policy - Cookingdom Fansite",
+      "description": "Basahin ang privacy policy para sa aming Cookingdom fansite.",
+      "keywords": "cookingdom, privacy policy, data, user rights, legal"
+    },
+    "terms": {
+      "title": "Terms of Service - Cookingdom Fansite",
+      "description": "Suriin ang mga terms of service para sa aming Cookingdom fansite.",
+      "keywords": "cookingdom, terms of service, usage rules, legal"
+    },
+    "guideDetail": {
+      "title": "Cookingdom Guide",
+      "description": "Detalyadong gabay para sa isang antas ng Cookingdom."
+    },
+    "modDownload": {
+      "title": "I-download ang Cookingdom Modded Versions - I-unlock ang Lahat",
+      "description": "Kunin ang pinakabagong modded APK at IPA para sa Cookingdom. Tangkilikin ang walang limitasyong mga resources, lahat ng mga antas ay naka-unlock, at isang ad-free na karanasan sa laro.",
+      "keywords": "cookingdom mod, cookingdom apk mod, cookingdom ipa mod, cracked game, unlimited resources, ad-free"
+    }
+  }
+}

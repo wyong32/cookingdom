@@ -1,19 +1,30 @@
 <script setup>
-import { ref, computed, watch, onMounted } from 'vue'
+import { computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import { useBlogPosts } from '@/composables/useBlogPosts'
 
 const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
 
-const post = ref(null)
-const isLoading = ref(true)
-const error = ref(null)
+const { blogPosts, isLoading: isLoadingList, error: listError } = useBlogPosts()
 
 const postId = computed(() => route.params.id)
 
-// Helper function to update meta tags (similar to GuideDetail)
+const currentPost = computed(() => {
+  if (
+    !postId.value ||
+    isLoadingList.value ||
+    listError.value ||
+    !blogPosts.value ||
+    blogPosts.value.length === 0
+  ) {
+    return null
+  }
+  return blogPosts.value.find((p) => p.id === postId.value)
+})
+
 const updateMetaTag = (name, content) => {
   let metaTag = document.querySelector(`meta[name="${name}"]`)
   if (!metaTag) {
@@ -21,100 +32,77 @@ const updateMetaTag = (name, content) => {
     metaTag.setAttribute('name', name)
     document.head.appendChild(metaTag)
   }
-  metaTag.setAttribute('content', content)
+  metaTag.setAttribute('content', content || '')
 }
 
-// 函数：加载并查找特定博客文章
-const loadPost = async (id, lang) => {
-  isLoading.value = true
-  error.value = null
-  post.value = null
-  try {
-    let dataModule
-    let allPosts = []
-    if (lang === 'zh') {
-      dataModule = await import('@/datas/blog-posts-zh.js')
-      allPosts = dataModule.blogPostsZh || []
-    } else if (lang === 'ru') {
-      dataModule = await import('@/datas/blog-posts-ru.js')
-      allPosts = dataModule.blogPostsRu || []
-    } else {
-      dataModule = await import('@/datas/blog-posts.js')
-      allPosts = dataModule.blogPosts || []
-    }
+watch(
+  currentPost,
+  (newPost, oldPost) => {
+    if (isLoadingList.value) return
 
-    const foundPost = allPosts.find((p) => p.id === id)
-    if (foundPost) {
-      post.value = foundPost
-      // Update TDK based on post data
-      document.title = foundPost.seo?.title || t('meta.blogDetail.title') // Use placeholder from meta if specific not found
-      updateMetaTag('description', foundPost.seo?.description || t('meta.blogDetail.description'))
-      updateMetaTag('keywords', foundPost.seo?.keywords || t('meta.defaultKeywords')) // Use general default keywords
-    } else {
-      error.value = 'Post not found.'
-      // Set Not Found TDK
-      document.title = t('meta.notFoundTitle', 'Post Not Found') // Add a specific not found title key if desired
-      updateMetaTag('description', '')
+    if (newPost) {
+      document.title = newPost.seo?.title || t('meta.blogDetail.title', 'Blog Post')
+      updateMetaTag('description', newPost.seo?.description)
+      updateMetaTag('keywords', newPost.seo?.keywords)
+    } else if (!isLoadingList.value && postId.value && !listError.value) {
+      document.title = t('meta.notFoundTitle', 'Post Not Found')
+      updateMetaTag(
+        'description',
+        t('meta.notFoundDescription', 'The blog post you are looking for could not be found.')
+      )
       updateMetaTag('keywords', '')
-      // Optional: Redirect
-      // router.push({ name: 'blog' })
     }
-  } catch (err) {
-    console.error(`Failed to load post ${id} for locale ${lang}:`, err)
-    error.value = 'Failed to load post data.'
-    // Set Error TDK (could be same as Not Found or specific)
-    document.title = t('meta.errorTitle', 'Error Loading Post') // Add error title key
-    updateMetaTag('description', '')
+  },
+  { immediate: true, deep: true }
+)
+
+watch(listError, (newError) => {
+  if (newError) {
+    document.title = t('meta.errorTitle', 'Error Loading Post')
+    updateMetaTag('description', 'There was an error loading the blog content.')
     updateMetaTag('keywords', '')
-  } finally {
-    isLoading.value = false
-  }
-}
-
-// 监听路由参数变化 (如果用户在详情页之间导航)
-watch(postId, (newId) => {
-  if (newId) {
-    loadPost(newId, locale.value)
-  }
-})
-
-// 监听语言变化
-watch(locale, (newLocale) => {
-  if (postId.value) {
-    loadPost(postId.value, newLocale)
-  }
-})
-
-// 组件挂载时加载数据
-onMounted(() => {
-  if (postId.value) {
-    loadPost(postId.value, locale.value)
   }
 })
 </script>
 
 <template>
   <div class="blog-detail-view">
-    <div v-if="isLoading" class="loading-message">
+    <div v-if="isLoadingList && !currentPost" class="loading-message">
       <p>Loading post...</p>
     </div>
 
-    <div v-else-if="error" class="error-message">
-      <p>{{ error }} <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink></p>
+    <div v-else-if="listError" class="error-message">
+      <p>
+        {{ listError.message || 'Error loading blog posts.' }}
+        <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
+      </p>
     </div>
 
-    <article v-else-if="post" class="blog-post-content">
-      <h1>{{ post.detailTitle }}</h1>
-      <p class="subtitle">{{ post.detailSubtitle }}</p>
+    <div v-else-if="!isLoadingList && !currentPost && postId" class="error-message">
+      <p>
+        {{ t('blog.postNotFound', 'Post not found.') }}
+        <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
+      </p>
+    </div>
+
+    <article v-else-if="currentPost" class="blog-post-content">
+      <h1>{{ currentPost.detailTitle }}</h1>
+      <p class="subtitle">{{ currentPost.detailSubtitle }}</p>
       <hr />
-      <!-- Render HTML content safely -->
-      <div v-html="post.detailContentHtml" class="post-body"></div>
+      <div v-html="currentPost.detailContentHtml" class="post-body"></div>
       <div class="back-link-container">
-        <RouterLink :to="{ name: 'blog' }" class="back-link"
-          >← {{ t('guideDetail.backLink', 'Back to Blog') }}</RouterLink
-        >
+        <RouterLink :to="{ name: 'blog' }" class="back-link">
+          ← {{ t('guideDetail.backLink', 'Back to Blog') }}
+        </RouterLink>
       </div>
     </article>
+
+    <div v-else-if="!postId" class="error-message">
+      <p>
+        {{ t('blog.invalidPostId', 'No post ID specified.') }}
+        <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
+      </p>
+    </div>
   </div>
 </template>
 

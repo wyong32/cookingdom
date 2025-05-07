@@ -2,8 +2,10 @@ import { createI18n } from 'vue-i18n'
 import en from './locales/en.json'
 import zh from './locales/zh.json'
 import ru from './locales/ru.json'
+import fil from './locales/fil.json'
+import ms from './locales/ms.json'
 
-const supportedLangs = ['en', 'zh', 'ru']
+const supportedLangs = ['en', 'zh', 'ru', 'fil', 'ms']
 const defaultLang = 'en'
 
 const storedLang = localStorage.getItem('userLanguage')
@@ -23,7 +25,7 @@ export const i18n = createI18n({
   legacy: false,
   locale: initialLang,
   fallbackLocale: defaultLang,
-  messages: { en, zh, ru },
+  messages: { en, zh, ru, fil, ms },
   // 如果需要在模板之外的地方访问 $t (比如 JS 文件)，可以启用 globalInjection
   // globalInjection: true,
 })

@@ -42,27 +42,29 @@ export function useGuides() {
     console.log(`Attempting to load guides for locale: ${lang}`)
     try {
       let dataModule
+      let guidesDataToSet // Temporary variable to hold the data from module
+
       if (lang === 'zh') {
-        // 动态导入中文指南数据
         dataModule = await import('@/datas/guides-zh.js')
-        // 使用正确的导出名称 guidesZh
-        rawGuides.value = dataModule.guidesZh
+        guidesDataToSet = dataModule.guidesZh
       } else if (lang === 'ru') {
         dataModule = await import('@/datas/guides-ru.js')
-        // 假设俄语文件导出 guidesRu (如果不是，需要相应修改)
-        // **需要确认 guides-ru.js 的导出名**
-        // 暂时假设是 guidesRu
-        rawGuides.value = dataModule.guidesRu
+        guidesDataToSet = dataModule.guidesRu
+      } else if (lang === 'fil') {
+        dataModule = await import('@/datas/guides-fil.js')
+        guidesDataToSet = dataModule.guides
+      } else if (lang === 'ms') {
+        dataModule = await import('@/datas/guides-ms.js')
+        guidesDataToSet = dataModule.guides
       } else {
-        // 默认动态导入英文指南数据
+        // Default to English
         dataModule = await import('@/datas/guides.js')
-        // 英文文件导出 guides
-        rawGuides.value = dataModule.guides
+        guidesDataToSet = dataModule.guides
       }
 
-      if (rawGuides.value) {
+      if (guidesDataToSet) {
+        rawGuides.value = guidesDataToSet
         console.log(`Successfully loaded ${rawGuides.value.length} raw guides for locale: ${lang}`)
-        // Now process the raw data to add routeObject
         guides.value = rawGuides.value.map((guide) => ({
           ...guide,
           routeObject: getGuideLinkProps(guide, lang),
@@ -72,10 +74,11 @@ export function useGuides() {
         )
       } else {
         console.error(
-          `Failed to access the correct export from data module for locale ${lang}. Expected 'guides', 'guidesZh', or 'guidesRu'.`,
+          `Failed to access the correct export from data module for locale ${lang}. Module content:`,
+          dataModule,
         )
         error.value = new Error(`Could not find expected export in data file for locale ${lang}`)
-        guides.value = [] // 确保 guides is empty on error
+        guides.value = []
         rawGuides.value = []
       }
     } catch (err) {

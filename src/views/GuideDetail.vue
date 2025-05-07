@@ -1,21 +1,25 @@
 <template>
   <div class="guide-detail-page">
     <!-- Optional: Breadcrumbs can go here -->
-    <div v-if="guide" class="guide-layout">
+    <div v-if="currentGuide" class="guide-layout">
       <!-- Main Content Area (Left) -->
       <main class="main-content">
         <!-- Back link -->
-        <router-link to="/" class="back-link">{{ $t('guideDetail.backLink') }}</router-link>
+        <router-link :to="{ name: 'guides' }" class="back-link">{{
+          $t('guideDetail.backLink')
+        }}</router-link>
 
         <!-- New H1 using pageTitle -->
-        <h1 class="page-main-title">{{ guide.pageTitle }}</h1>
+        <h1 class="page-main-title">{{ currentGuide.pageTitle }}</h1>
         <!-- New Subtitle -->
-        <p class="page-subtitle" v-if="guide.pageSubtitle">{{ guide.pageSubtitle }}</p>
+        <p class="page-subtitle" v-if="currentGuide.pageSubtitle">
+          {{ currentGuide.pageSubtitle }}
+        </p>
 
         <!-- Display iframe if iframeUrl exists -->
-        <div v-if="guide.iframeUrl" class="iframe-container">
+        <div v-if="currentGuide.iframeUrl" class="iframe-container">
           <iframe
-            :src="guide.iframeUrl"
+            :src="currentGuide.iframeUrl"
             frameborder="0"
             allowfullscreen
             :title="$t('guideDetail.iframeTitle')"
@@ -24,7 +28,7 @@
         </div>
 
         <!-- Render HTML content using v-html (Now last) -->
-        <div v-html="guide.detailsHtml" class="guide-html-content"></div>
+        <div v-html="currentGuide.detailsHtml" class="guide-html-content"></div>
 
         <!-- You could add more sections here, e.g., comments -->
       </main>
@@ -32,25 +36,28 @@
       <!-- Sidebar Area (Right) -->
       <aside class="sidebar">
         <!-- Sidebar Image -->
-        <div class="sidebar-image-container" v-if="guide.sidebarData?.sidebarImageUrl">
-          <img :src="guide.sidebarData.sidebarImageUrl" alt="Level Thumbnail" />
+        <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
+          <img :src="currentGuide.sidebarData.sidebarImageUrl" alt="Level Thumbnail" />
         </div>
 
         <!-- Level Info Box -->
         <div
           class="level-info-box"
-          v-if="guide.sidebarData?.levelInfoHtml"
-          v-html="guide.sidebarData.levelInfoHtml"
+          v-if="currentGuide.sidebarData?.levelInfoHtml"
+          v-html="currentGuide.sidebarData.levelInfoHtml"
         ></div>
 
         <!-- Featured Guides Section -->
         <div
           class="featured-guides"
-          v-if="guide.sidebarData?.featuredGuides && guide.sidebarData.featuredGuides.length > 0"
+          v-if="
+            currentGuide.sidebarData?.featuredGuides &&
+            currentGuide.sidebarData.featuredGuides.length > 0
+          "
         >
           <h4>{{ $t('guideDetail.featuredLevelsTitle') }}</h4>
           <ul>
-            <li v-for="featured in guide.sidebarData.featuredGuides" :key="featured.id">
+            <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
               <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
                 <img :src="featured.imageUrl" alt="" class="featured-guide-img" />
                 <span v-html="featured.title"></span>
@@ -62,75 +69,83 @@
     </div>
 
     <!-- Loading / Not Found State -->
-    <div v-else-if="isLoading" class="loading-or-not-found">
+    <div v-else-if="isLoadingList && !currentGuide" class="loading-or-not-found">
       <p>Loading guide details...</p>
     </div>
-    <div v-else class="loading-or-not-found">
+    <div v-else-if="listError" class="loading-or-not-found">
+      <p>{{ listError.message || 'Error loading guides.' }}</p>
+      <router-link :to="{ name: 'guides' }" class="back-link">{{
+        $t('guideDetail.backLink')
+      }}</router-link>
+    </div>
+    <div v-else-if="!isLoadingList && !currentGuide && guideId" class="loading-or-not-found">
       <p>{{ $t('guideDetail.loadingOrNotFound') }}</p>
-      <router-link to="/" class="back-link">{{ $t('guideDetail.backLink') }}</router-link>
+      <router-link :to="{ name: 'guides' }" class="back-link">{{
+        $t('guideDetail.backLink')
+      }}</router-link>
+    </div>
+    <div v-else-if="!guideId" class="loading-or-not-found">
+      <p>
+        {{ t('guide.invalidGuideId', 'No guide ID specified.') }}
+        <RouterLink :to="{ name: 'guides' }">Back to Guides</RouterLink>
+      </p>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import { computed, watch, onMounted } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import { useGuides } from '@/composables/useGuides'
 import { defaultLang } from '@/i18n'
 import { updateMetaTag } from '@/utils/head'
 
 const route = useRoute()
-const guideId = computed(() => route.params.id)
 const { t, locale } = useI18n()
 
-const guide = ref(null)
-const isLoading = ref(true)
-const error = ref(null)
+// Use the composable for guides list, loading state, and error state
+const { guides, isLoading: isLoadingList, error: listError } = useGuides()
 
-const loadGuide = async (id, lang) => {
-  isLoading.value = true
-  error.value = null
-  guide.value = null
+const guideId = computed(() => route.params.id)
 
-  if (!id) {
-    error.value = 'Guide ID is missing.'
-    isLoading.value = false
-    return
+// Computed property to find the current guide from the loaded list
+const currentGuide = computed(() => {
+  if (
+    !guideId.value ||
+    isLoadingList.value ||
+    listError.value ||
+    !guides.value ||
+    guides.value.length === 0
+  ) {
+    return null
   }
+  return guides.value.find((g) => g.id === guideId.value)
+})
 
-  try {
-    let dataModule
-    let allGuides = []
-    if (lang === 'zh') {
-      dataModule = await import('@/datas/guides-zh.js')
-      allGuides = dataModule.guidesZh || []
-    } else if (lang === 'ru') {
-      dataModule = await import('@/datas/guides-ru.js')
-      allGuides = dataModule.guidesRu || []
-    } else {
-      dataModule = await import('@/datas/guides.js')
-      allGuides = dataModule.guides || []
-    }
+// Watch for changes in currentGuide to update TDK or handle not found
+watch(
+  currentGuide,
+  (newGuide, oldGuide) => {
+    if (isLoadingList.value) return // Don't do anything if the list is still loading
 
-    const foundGuide = allGuides.find((g) => g.id === id)
-
-    if (foundGuide) {
-      guide.value = foundGuide
-
-      const seoTitle = foundGuide.seo?.title || t('meta.guideDetail.title')
-      const seoDescription = foundGuide.seo?.description || t('meta.guideDetail.description')
-      const seoKeywords = foundGuide.seo?.keywords || t('meta.defaultKeywords')
+    if (newGuide) {
+      const seoTitle = newGuide.seo?.title || t('meta.guideDetail.title', 'Guide Detail')
+      const seoDescription =
+        newGuide.seo?.description ||
+        t('meta.guideDetail.description', 'Detailed guide information.')
+      const seoKeywords =
+        newGuide.seo?.keywords || t('meta.defaultKeywords', 'guide, tutorial, walkthrough')
 
       document.title = seoTitle
       updateMetaTag('description', seoDescription)
       updateMetaTag('keywords', seoKeywords)
-
       updateMetaTag('og:title', seoTitle)
       updateMetaTag('og:description', seoDescription)
       updateMetaTag('twitter:title', seoTitle)
       updateMetaTag('twitter:description', seoDescription)
 
-      let specificImageUrl = foundGuide.imageUrl || foundGuide.sidebarData?.sidebarImageUrl
+      let specificImageUrl = newGuide.imageUrl || newGuide.sidebarData?.sidebarImageUrl
       if (specificImageUrl) {
         if (specificImageUrl.startsWith('/')) {
           specificImageUrl = `${window.location.origin}${
@@ -140,95 +155,66 @@ const loadGuide = async (id, lang) => {
         updateMetaTag('og:image', specificImageUrl)
         updateMetaTag('twitter:image', specificImageUrl)
       } else {
-        // Optional: Fallback to default if no specific image found?
-        // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
-        // updateMetaTag('og:image', defaultSocialImageUrl);
-        // updateMetaTag('twitter:image', defaultSocialImageUrl);
+        // Optional: Fallback image logic could go here
       }
-    } else {
-      error.value = t('guideDetail.loadingOrNotFound')
+    } else if (!isLoadingList.value && guideId.value && !listError.value) {
+      // Guide not found after list has loaded and no error in loading list
       document.title = t('meta.notFoundTitle', 'Guide Not Found')
-      updateMetaTag('description', '')
+      updateMetaTag(
+        'description',
+        t('meta.notFoundDescription', 'The guide you are looking for could not be found.')
+      )
       updateMetaTag('keywords', '')
       updateMetaTag('og:title', document.title)
       updateMetaTag('og:description', '')
-      // Maybe reset image to default?
-      // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
-      // updateMetaTag('og:image', defaultSocialImageUrl);
-      // updateMetaTag('twitter:image', defaultSocialImageUrl);
     }
-  } catch (err) {
-    error.value = 'Failed to load guide data.'
+  },
+  { immediate: true, deep: true }
+)
+
+// Watch for listError from the composable to set error TDK
+watch(listError, (newError) => {
+  if (newError) {
     document.title = t('meta.errorTitle', 'Error Loading Guide')
-    updateMetaTag('description', '')
+    updateMetaTag('description', 'There was an error loading the guide content.')
     updateMetaTag('keywords', '')
     updateMetaTag('og:title', document.title)
     updateMetaTag('og:description', '')
-    // Maybe reset image to default?
-    // const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`;
-    // updateMetaTag('og:image', defaultSocialImageUrl);
-    // updateMetaTag('twitter:image', defaultSocialImageUrl);
-  } finally {
-    isLoading.value = false
-  }
-}
-
-watch(
-  guideId,
-  (newId, oldId) => {
-    const currentLocale = locale.value
-    if (newId && newId !== oldId) {
-      loadGuide(newId, currentLocale)
-    } else if (newId && !oldId) {
-      loadGuide(newId, currentLocale)
-    }
-  },
-  { immediate: true }
-)
-
-watch(locale, (newLocale) => {
-  const currentGuideId = guideId.value
-  if (currentGuideId) {
-    loadGuide(currentGuideId, newLocale)
   }
 })
 
+// The local loadGuide function is removed.
+// Watches for guideId and locale are implicitly handled by currentGuide reacting to guides (from composable)
+// and guideId.
+
+// onMounted is no longer strictly needed for an initial loadGuide call,
+// as the composable handles initial loading and currentGuide will react.
+
 const getFeaturedGuideLinkProps = (featured) => {
-  const currentLocale = locale.value
-  const isDefaultLang = currentLocale === defaultLang
-  let routeName = isDefaultLang ? 'guide-detail' : 'guide-detail-lang'
-  let routeParams
-
-  if (isDefaultLang) {
-    routeParams = { id: featured.id }
-  } else {
-    if (currentLocale && typeof currentLocale === 'string') {
-      routeParams = { id: featured.id, lang: currentLocale }
-    } else {
-      routeName = 'guide-detail'
-      routeParams = { id: featured.id }
-    }
+  // This function might need adjustment if featured.id is not sufficient
+  // or if the routeObject is already prepared in useGuides.js for featured guides.
+  // For now, assuming it generates links similarly to how it was done before.
+  const currentLocaleValue = locale.value
+  const isDefault = currentLocaleValue === defaultLang
+  let routeName = isDefault ? 'guide-detail' : 'guide-detail-lang'
+  let routeParams = { id: featured.id }
+  if (!isDefault) {
+    routeParams.lang = currentLocaleValue
   }
-
-  const linkProps = {
-    name: routeName,
-    params: routeParams,
-  }
-
-  return linkProps
+  // If featured guides in the data already have a pre-calculated routeObject from useGuides,
+  // you could potentially use that directly: return featured.routeObject
+  return { name: routeName, params: routeParams }
 }
 
 // 动态插入 VideoObject 结构化数据，提升 Google 视频索引能力
 const addVideoSchema = (guideObj) => {
-  // 只在有 iframeUrl 时插入
   if (!guideObj || !guideObj.iframeUrl) return
-  // 处理缩略图为绝对路径
   let thumb = guideObj.sidebarData?.sidebarImageUrl || guideObj.imageUrl
   if (thumb && thumb.startsWith('/')) {
     thumb = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumb.substring(1)}`
   }
   if (!thumb) {
-    thumb = 'https://www.cookingdom.co/images/banner1.webp' // 请替换为你自己的默认图片
+    thumb = 'https://www.cookingdom.co/images/banner1.webp'
   }
   const schema = {
     '@context': 'https://schema.org',
@@ -238,10 +224,12 @@ const addVideoSchema = (guideObj) => {
     thumbnailUrl: thumb,
     embedUrl: guideObj.iframeUrl,
   }
-  // 移除旧的
+  if (guideObj.publishDate) {
+    schema.uploadDate = guideObj.publishDate // Assuming publishDate is in ISO 8601 format (YYYY-MM-DD)
+  }
+
   const old = document.getElementById('video-schema')
   if (old) old.remove()
-  // 插入新的
   const script = document.createElement('script')
   script.type = 'application/ld+json'
   script.id = 'video-schema'
@@ -250,9 +238,9 @@ const addVideoSchema = (guideObj) => {
 }
 
 onMounted(() => {
-  addVideoSchema(guide.value)
+  addVideoSchema(currentGuide.value)
 })
-watch(guide, (newVal) => {
+watch(currentGuide, (newVal) => {
   addVideoSchema(newVal)
 })
 </script>

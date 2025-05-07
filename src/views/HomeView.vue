@@ -169,7 +169,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
       <section class="downloads-section" id="downloads-section">
         <div class="container">
           <div class="section-header">
-            <h2><span class="icon">⬇️</span> {{ $t('home.downloads.title') }}</h2>
+            <h2>{{ $t('home.downloads.title') }}</h2>
           </div>
           <p>{{ $t('home.downloads.description') }}</p>
           <div class="downloads-grid">
@@ -184,6 +184,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
               <a
                 class="btn btn-download"
                 href="https://apps.apple.com/us/app/cookingdom/id6742222069"
+                target="_blank"
                 >{{ $t('home.downloads.ios.button') }}</a
               >
             </div>
@@ -198,6 +199,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
               <a
                 class="btn btn-download"
                 href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+                target="_blank"
                 >{{ $t('home.downloads.android.button') }}</a
               >
             </div>
@@ -244,7 +246,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
       <!-- How to Play Section (NEW) -->
       <section class="how-to-play-section">
         <div class="container">
-          <h2><span class="icon">🎮</span> {{ $t('home.howToPlay.title') }}</h2>
+          <h2>{{ $t('home.howToPlay.title') }}</h2>
           <div class="play-steps-list">
             <div class="play-step">
               <div class="step-number">1</div>

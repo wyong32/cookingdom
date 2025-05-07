@@ -5,6 +5,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 1 - First Pizza Guide',
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
@@ -79,6 +80,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 2 - Simple Salad Guide',
     pageSubtitle: 'Learn to make quick and easy salads in Cookingdom Level 2.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
@@ -152,6 +154,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 3 - Fried Potatoes Guide',
     pageSubtitle: 'Learn to make crispy fried potatoes in Cookingdom Level 3.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
@@ -224,6 +227,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 4 - Rolled Ice-cream Guide',
     pageSubtitle: 'Learn the art of making perfect rolled ice-cream in Cookingdom Level 4.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
@@ -324,6 +328,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 5 - Grilled Fish Guide',
     pageSubtitle: 'Master the art of grilling fish in Cookingdom Level 5.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
@@ -425,6 +430,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 6 - Café Espresso Guide',
     pageSubtitle: 'Learn to brew the perfect espresso in Cookingdom Level 6.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
@@ -527,6 +533,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 7 - Sunny Eggs Guide',
     pageSubtitle: 'Learn to cook perfect sunny-side-up eggs in Cookingdom Level 7.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
@@ -629,6 +636,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 8 - Steak Guide',
     pageSubtitle: 'Learn to cook the perfect steak to order in Cookingdom Level 8.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
@@ -751,6 +759,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 9 - Spaghetti Guide',
     pageSubtitle: 'Master the art of cooking perfect spaghetti in Cookingdom Level 9.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
@@ -858,6 +867,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 10 - Salmon Sushi Guide',
     pageSubtitle: 'Learn to make perfect Salmon Sushi in Cookingdom Level 10.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
@@ -973,6 +983,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 11 - Popcorn Guide',
     pageSubtitle: 'Learn to make perfect popcorn in Cookingdom Level 11.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
@@ -1080,6 +1091,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 12 - Ramen Guide',
     pageSubtitle: 'Learn to make hearty and complex Ramen in Cookingdom Level 12.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_12.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
@@ -1193,6 +1205,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 13 - Hotdog Guide',
     pageSubtitle: 'Learn to make the perfect Hotdog in Cookingdom Level 13.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_13.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
@@ -1313,6 +1326,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 14 - Salmon with Minestrone Guide',
     pageSubtitle: 'Learn to make sophisticated Salmon with Minestrone in Cookingdom Level 14.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_14.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
@@ -1421,6 +1435,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 15 - Chicken Fried Guide',
     pageSubtitle: 'Learn to make crispy and juicy Chicken Fried in Level 15 of Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_15.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
@@ -1546,6 +1561,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 16 - Texas BBQ Guide',
     pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 16 of Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_16.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
@@ -1677,6 +1693,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 17 - Café Macchiato Guide',
     pageSubtitle: 'Learn to make the perfect Café Macchiato in Level 17 of Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_17.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
@@ -1800,6 +1817,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 18 - Ratatouille Guide',
     pageSubtitle: 'Learn to make the classic French Ratatouille in Level 18 of Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_18.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
@@ -1929,6 +1947,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 19 - Pumpkin Pie Guide',
     pageSubtitle: 'Learn how to bake the perfect Pumpkin Pie in Level 19 of Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_19.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
@@ -2064,6 +2083,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 20 - Roast Turkey Guide',
     pageSubtitle: 'Learn how to prepare the perfect Roast Turkey in Level 20 of Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_20.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
@@ -2209,7 +2229,8 @@ export const guides = [
     title: 'Cookingdom Level 21:<br>Boba Milk Tea',
     pageTitle: 'Cookingdom Level 21 - Boba Milk Tea Guide',
     pageSubtitle: 'Learn how to make the perfect Boba Milk Tea in Level 21 of Cookingdom.',
-    category: '21-30', // Updated category
+    category: '21-30',
+    publishDate: '2025-05-05', // Updated category
     isSpecial: false,
     imageUrl: '/images/guides_21.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
@@ -2347,6 +2368,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 22 - Easy Smoothie Guide',
     pageSubtitle: 'Learn how to blend the perfect Easy Smoothie in Level 22 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_22.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
@@ -2476,6 +2498,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 23 - Yule Log Cake Guide',
     pageSubtitle: 'Master the festive Yule Log Cake (Bûche de Noël) in Level 23 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_23.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
@@ -2604,6 +2627,7 @@ export const guides = [
     pageSubtitle:
       'Master the art of making delicious Vietnamese Beef Pho in Level 24 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: true,
     imageUrl: '/images/guides_24.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
@@ -2721,6 +2745,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 25 - Pizza Guide',
     pageSubtitle: 'Learn how to make the perfect Pizza from scratch in Level 25 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_25.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
@@ -2854,6 +2879,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 26 - Smoothie Guide',
     pageSubtitle: 'Learn to blend the perfect Smoothie in Level 26 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_26.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
@@ -2989,6 +3015,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 27 - Sandwich Guide',
     pageSubtitle: 'Learn to assemble the perfect Sandwich in Level 27 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_27.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
@@ -3113,6 +3140,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 28 - Croissant Guide',
     pageSubtitle: 'Learn to make the perfect flaky Croissant in Level 28 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_28.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
@@ -3238,6 +3266,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 29 - Matcha Boba Tea Guide',
     pageSubtitle: 'Learn to make the trendy Matcha Boba Tea in Level 29 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_29.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
@@ -3358,6 +3387,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 30 - Doner Kebab Guide',
     pageSubtitle: 'Learn to make the classic Doner Kebab in Level 30 of Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_30.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
@@ -3476,7 +3506,8 @@ export const guides = [
     title: 'Cookingdom Level 31:<br>Café Mocha',
     pageTitle: 'Cookingdom Level 31 - Café Mocha Guide',
     pageSubtitle: 'Learn to craft the perfect Café Mocha in Level 31 of Cookingdom.',
-    category: '31-40', // Start of new category
+    category: '31-40',
+    publishDate: '2025-05-06', // Start of new category
     isSpecial: false,
     imageUrl: '/images/guides_31.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
@@ -3599,6 +3630,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 32 - Hamburger Guide',
     pageSubtitle: 'Learn to assemble the classic Hamburger in Level 32 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_32.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
@@ -3725,6 +3757,7 @@ export const guides = [
     pageSubtitle:
       'Learn to prepare the luxurious Alaskan Steamed Lobster in Level 33 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_33.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
@@ -3839,6 +3872,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 34 - King Crab Guide',
     pageSubtitle: 'Learn to prepare the exquisite King Crab in Level 34 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_34.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
@@ -3954,6 +3988,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 35 - Chocolate Guide',
     pageSubtitle: 'Learn to create decadent Chocolate treats in Level 35 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_35.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
@@ -4068,6 +4103,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 36 - Indian Curry Guide',
     pageSubtitle: 'Learn to cook flavorful Indian Curry in Level 36 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_36.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
@@ -4205,6 +4241,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 37 - Kimchi Rice Guide',
     pageSubtitle: 'Learn to make flavorful Kimchi Rice in Level 37 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_37.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
@@ -4329,6 +4366,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 38 - Tteokbokki Rush Guide',
     pageSubtitle: 'Master the spicy Tteokbokki in the fast-paced Level 38 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_38.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
@@ -4417,6 +4455,7 @@ export const guides = [
     pageSubtitle:
       'Master Spaghetti with Mushroom Cream Sauce, a creamy Western dish demanding perfect timing in Level 39.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_39.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
@@ -4504,6 +4543,7 @@ export const guides = [
     pageTitle: 'Cookingdom Level 40 - Beef Wellington Guide',
     pageSubtitle: 'Master the elegant and complex Beef Wellington in Level 40 of Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false, // Marked as special due to complexity and description
     imageUrl: '/images/guides_40.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
@@ -4592,7 +4632,8 @@ export const guides = [
     pageTitle: 'Cookingdom Level 41 - Donut Guide',
     pageSubtitle:
       'Master the sweet and fast-paced challenge of making Donuts in Level 41 of Cookingdom.',
-    category: '41-50', // Start of new category
+    category: '41-50',
+    publishDate: '2025-05-07', // Start of new category
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_41.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
@@ -4680,6 +4721,7 @@ export const guides = [
     pageSubtitle:
       'Master the bold and spicy Chinese dish Mapo Tofu, focusing on wok skills and spice management in Level 42.',
     category: '41-50',
+    publishDate: '2025-05-07',
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_42.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
@@ -4769,6 +4811,7 @@ export const guides = [
     pageSubtitle:
       'Master the delicate and festive Moon Cake, testing precision with fillings and baking in Level 43.',
     category: '41-50',
+    publishDate: '2025-05-07',
     isSpecial: false, // Can be set to true if considered a special/festive level
     imageUrl: '/images/guides_43.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },

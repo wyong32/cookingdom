@@ -5,6 +5,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 1 - Руководство по первой пицце',
     pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
@@ -79,6 +80,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 2 - Руководство по простому салату',
     pageSubtitle: 'Научитесь готовить быстрые и легкие салаты в Cookingdom Уровень 2.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
@@ -153,6 +155,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 3 - Руководство по жареному картофелю',
     pageSubtitle: 'Научитесь готовить хрустящий жареный картофель в Cookingdom Уровень 3.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
@@ -226,6 +229,7 @@ export const guidesRu = [
     pageSubtitle:
       'Изучите искусство приготовления идеального ролл-мороженого в Cookingdom Уровень 4.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
@@ -317,6 +321,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 5 - Руководство по рыбе на гриле',
     pageSubtitle: 'Освойте искусство жарки рыбы на гриле в Cookingdom Уровень 5.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
@@ -410,6 +415,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 6 - Руководство по Кофе Эспрессо',
     pageSubtitle: 'Научитесь варить идеальный эспрессо в Cookingdom Уровень 6.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
@@ -503,6 +509,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 7 - Руководство по Яичнице-глазунье',
     pageSubtitle: 'Научитесь готовить идеальную яичницу-глазунью в Cookingdom Уровень 7.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
@@ -606,6 +613,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 8 - Руководство по Стейку',
     pageSubtitle: 'Научитесь готовить идеальный стейк по заказу в Cookingdom Уровень 8.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
@@ -719,6 +727,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 9 - Руководство по Пасте',
     pageSubtitle: 'Научитесь готовить идеальную пасту с соусом в Cookingdom Уровень 9.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
@@ -836,6 +845,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 10 - Руководство по Суши с лососем',
     pageSubtitle: 'Научитесь готовить идеальные суши с лососем в Cookingdom Уровень 10.',
     category: '01-10',
+    publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
@@ -952,6 +962,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 11 - Руководство по Попкорну',
     pageSubtitle: 'Научитесь готовить идеальный попкорн в Cookingdom Уровень 11.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
@@ -1059,6 +1070,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 12 - Руководство по Рамэну',
     pageSubtitle: 'Научитесь готовить сытный и сложный рамэн в Cookingdom Уровень 12.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_12.webp',
     // Заполнитель
@@ -1179,6 +1191,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 13 - Руководство по Хот-догу',
     pageSubtitle: 'Научитесь готовить идеальный хот-дог в Cookingdom Уровень 13.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_13.webp',
     // Заполнитель
@@ -1307,6 +1320,7 @@ export const guidesRu = [
     pageSubtitle:
       'Узнайте, как приготовить изысканный лосось с супом минестроне на уровне 14 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_14.webp',
     // Заполнитель
@@ -1423,6 +1437,7 @@ export const guidesRu = [
     pageSubtitle:
       'Узнайте, как приготовить хрустящую и сочную жареную курицу на уровне 15 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_15.webp',
     // Заполнитель
@@ -1555,6 +1570,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 16 - Руководство по Техасскому BBQ',
     pageSubtitle: 'Освойте дымное и ароматное Техасское BBQ на уровне 16 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_16.webp',
     // Заполнитель
@@ -1693,6 +1709,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 17 - Руководство по Кафе Маккиато',
     pageSubtitle: 'Узнайте, как приготовить идеальный Кафе Маккиато на уровне 17 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_17.webp',
     // Заполнитель
@@ -1823,6 +1840,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 18 - Руководство по Рататую',
     pageSubtitle: 'Научитесь готовить классический французский Рататуй на уровне 18 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_18.webp',
     // Заполнитель
@@ -1959,6 +1977,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 19 - Руководство по Тыквенному Пирогу',
     pageSubtitle: 'Научитесь печь идеальный Тыквенный Пирог на уровне 19 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_19.webp',
     // Заполнитель
@@ -2101,6 +2120,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 20 - Руководство по Жареной Индейке',
     pageSubtitle: 'Научитесь готовить идеальную Жареную Индейку на уровне 20 в Cookingdom.',
     category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_20.webp',
     // Заполнитель
@@ -2254,6 +2274,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 21 - Руководство по Чаю с Молоком и Боба',
     pageSubtitle: 'Научитесь готовить идеальный Чай с Молоком и Боба на уровне 21 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_21.webp',
     // Заполнитель
@@ -2398,6 +2419,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 22 - Руководство по Легкому Смузи',
     pageSubtitle: 'Научитесь смешивать идеальный Легкий Смузи на уровне 22 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_22.webp',
     // Заполнитель
@@ -2535,6 +2557,7 @@ export const guidesRu = [
     pageSubtitle:
       'Освойте праздничное Рождественское Полено (Bûche de Noël) на уровне 23 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_23.webp',
     // Заполнитель
@@ -2670,6 +2693,7 @@ export const guidesRu = [
     pageSubtitle:
       'Овладейте искусством приготовления вкусного вьетнамского супа Фо Бо на уровне 24 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: true,
     imageUrl: '/images/guides_24.webp',
     // Заполнитель
@@ -2794,6 +2818,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 25 - Руководство по Пицце',
     pageSubtitle: 'Научитесь готовить идеальную Пиццу с нуля на уровне 25 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_25.webp',
     // Заполнитель
@@ -2934,6 +2959,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 26 - Руководство по Смузи',
     pageSubtitle: 'Научитесь смешивать идеальный Смузи на уровне 26 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_26.webp',
     // Заполнитель
@@ -3076,6 +3102,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 27 - Руководство по Сэндвичу',
     pageSubtitle: 'Научитесь собирать идеальный Сэндвич на уровне 27 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_27.webp',
     // Заполнитель
@@ -3207,6 +3234,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 28 - Руководство по Круассану',
     pageSubtitle: 'Научитесь готовить идеальный слоеный Круассан на уровне 28 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_28.webp',
     // Заполнитель
@@ -3339,6 +3367,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 29 - Руководство по Матча Боба Чаю',
     pageSubtitle: 'Научитесь готовить модный Матча Боба Чай на уровне 29 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_29.webp',
     // Заполнитель
@@ -3466,6 +3495,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 30 - Руководство по Донер Кебабу',
     pageSubtitle: 'Научитесь готовить классический Донер Кебаб на уровне 30 в Cookingdom.',
     category: '21-30',
+    publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_30.webp',
     // Заполнитель
@@ -3592,6 +3622,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 31 - Руководство по Кафе Мокка',
     pageSubtitle: 'Научитесь готовить идеальный Кафе Мокка на уровне 31 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     // Начало новой категории
     isSpecial: false,
     imageUrl: '/images/guides_31.webp',
@@ -3722,6 +3753,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 32 - Руководство по Гамбургеру',
     pageSubtitle: 'Научитесь собирать классический Гамбургер на уровне 32 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_32.webp',
     // Заполнитель
@@ -3855,6 +3887,7 @@ export const guidesRu = [
     pageSubtitle:
       'Научитесь готовить роскошного Аляскинского Лобстера на Пару на уровне 33 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_33.webp',
     // Заполнитель
@@ -3976,6 +4009,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 34 - Руководство по Королевскому Крабу',
     pageSubtitle: 'Научитесь готовить изысканного Королевского Краба на уровне 34 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_34.webp',
     // Заполнитель
@@ -4098,6 +4132,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 35 - Руководство по Шоколаду',
     pageSubtitle: 'Научитесь создавать роскошные Шоколадные лакомства на уровне 35 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_35.webp',
     // Заполнитель
@@ -4219,6 +4254,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 36 - Руководство по Индийскому Карри',
     pageSubtitle: 'Научитесь готовить ароматное Индийское Карри на уровне 36 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_36.webp',
     // Заполнитель
@@ -4363,6 +4399,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 37 - Руководство по Рису с Кимчи',
     pageSubtitle: 'Научитесь готовить ароматный Рис с Кимчи на уровне 37 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_37.webp',
     // Заполнитель
@@ -4494,6 +4531,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 37 - Руководство по Кимчи Рису',
     pageSubtitle: 'Научитесь готовить вкусный Кимчи Рис на Уровне 37 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_37.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
@@ -4619,6 +4657,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 38 - Руководство по приготовлению ттокпокки',
     pageSubtitle: 'Освойте острое ттокпокки в динамичном 38 уровне игры Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_38.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
@@ -4707,6 +4746,7 @@ export const guidesRu = [
     pageSubtitle:
       'Освойте спагетти с грибным сливочным соусом — насыщенное западное блюдо, где важна идеальная синхронизация.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_39.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
@@ -4794,6 +4834,7 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Level 40 - Руководство по Биф Веллингтону',
     pageSubtitle: 'Освойте элегантное и сложное блюдо — Биф Веллингтон на уровне 40 в Cookingdom.',
     category: '31-40',
+    publishDate: '2025-05-06',
     isSpecial: false, // Помечено как специальное из-за сложности и описания
     imageUrl: '/images/guides_40.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
@@ -4882,7 +4923,8 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Уровень 41 - Руководство по пончику',
     pageSubtitle:
       'Освойте сладкий и быстрый процесс приготовления пончиков на Уровне 41 в Cookingdom.',
-    category: '41-50', // Начало новой категории
+    category: '41-50',
+    publishDate: '2025-05-07', // Начало новой категории
     isSpecial: false, // Предполагается, что это не специальный уровень, если не указано другое
     imageUrl: '/images/guides_41.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
@@ -4970,7 +5012,8 @@ export const guidesRu = [
     pageTitle: 'Cookingdom Level 42 - Руководство по Мапо Тофу',
     pageSubtitle:
       'Освойте острое и пряное китайское блюдо Мапо Тофу, с акцентом на навыки жарки в воке и управление специями на уровне 42.',
-    category: '41-50', // Начало новой категории
+    category: '41-50',
+    publishDate: '2025-05-07', // Начало новой категории
     isSpecial: false, // Предположим, что не специальное, если не указано иначе
     imageUrl: '/images/guides_42.webp', // Заполнитель
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
@@ -5059,6 +5102,7 @@ export const guidesRu = [
     pageSubtitle:
       'Освойте изысканный и праздничный лунный пирог, проверяя точность в выборе начинки и времени выпечки на Уровне 43.',
     category: '41-50',
+    publishDate: '2025-05-07',
     isSpecial: false, // Может быть установлено как true, если это особый/праздничный уровень
     imageUrl: '/images/guides_43.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },

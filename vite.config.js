@@ -13,7 +13,7 @@ import { robots } from 'vite-plugin-robots'
 const loadGuideIds = () => {
   const ids = new Set()
   const dataDir = fileURLToPath(new URL('./src/datas', import.meta.url))
-  const filesToLoad = ['guides.js', 'guides-zh.js', 'guides-ru.js']
+  const filesToLoad = ['guides.js', 'guides-zh.js', 'guides-ru.js', 'guides-fil.js', 'guides-ms.js']
 
   filesToLoad.forEach((file) => {
     const filePath = path.join(dataDir, file)
@@ -48,7 +48,13 @@ export default defineConfig({
     ViteSitemapPlugin({
       hostname: 'https://www.cookingdom.co/',
       exclude: ['/:id', '/:lang/:id'],
-      dynamicRoutes: loadGuideIds().flatMap((id) => [`/${id}`, `/zh/${id}`, `/ru/${id}`]),
+      dynamicRoutes: loadGuideIds().flatMap((id) => [
+        `/${id}`,
+        `/zh/${id}`,
+        `/ru/${id}`,
+        `/fil/${id}`,
+        `/ms/${id}`,
+      ]),
     }),
     robots({
       content: `# robots.txt for Cookingdom Site
