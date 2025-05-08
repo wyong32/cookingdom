@@ -225,7 +225,8 @@ const addVideoSchema = (guideObj) => {
     embedUrl: guideObj.iframeUrl,
   }
   if (guideObj.publishDate) {
-    schema.uploadDate = guideObj.publishDate // Assuming publishDate is in ISO 8601 format (YYYY-MM-DD)
+    // Assuming publishDate is YYYY-MM-DD, append time and UTC timezone indicator
+    schema.uploadDate = `${guideObj.publishDate}T00:00:00Z`
   }
 
   const old = document.getElementById('video-schema')

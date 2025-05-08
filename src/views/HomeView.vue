@@ -60,7 +60,7 @@ const sliderImages = ref([
   '/images/banner6.webp',
   '/images/banner7.webp',
   '/images/banner8.webp',
-  '/images/banner9.png',
+  '/images/banner9.webp',
   '/images/banner10.webp',
 ])
 
