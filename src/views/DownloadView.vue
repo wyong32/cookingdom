@@ -61,6 +61,12 @@ import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not 
             </RouterLink>
           </div>
         </div>
+        <div class="disclaimer-section">
+          <p>
+            <strong>{{ $t('home.downloads.disclaimerTitle') }}</strong>
+            {{ $t('home.downloads.disclaimerBody') }}
+          </p>
+        </div>
       </div>
     </section>
   </div>
@@ -244,5 +250,21 @@ import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not 
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
   }
+}
+
+.disclaimer-section {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: left;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #a08ee6; /* Using a theme color for the border */
+}
+
+.disclaimer-section p strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #5b4b8a; /* Darker purple for the title */
 }
 </style> 

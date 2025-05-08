@@ -103,7 +103,9 @@
         "title": "Naghahanap ng Mods?",
         "description": "I-access ang mga espesyal na modded na bersyon ng Cookingdom na may kakaibang tampok at mga pagpapahusay.",
         "button": "Pumunta sa Mod Downloads"
-      }
+      },
+      "disclaimerTitle": "Paunawa",
+      "disclaimerBody": "Ang lahat ng mga link sa pag-download na ibinigay sa site na ito ay kinuha mula sa internet at para lamang sa layunin ng pag-aaral at pananaliksik. Ang site na ito ay hindi responsable sa legalidad, kaligtasan, o kabuuan ng anumang nilalaman na na-download, at hindi rin nito inaako ang anumang panganib o pananagutang legal na maaaring idulot ng paggamit ng mga link na ito. Pinapayuhan ang mga gumagamit na gamitin ang kanilang sariling pagpapasya bago mag-download at gumamit ng anumang nilalaman."
     },
     "about": {
       "title": "⭐ Tungkol sa Cookingdom Game",
@@ -390,7 +392,9 @@
     "developerDescription": {
       "title": "Tungkol sa Cookingdom Mod APK (mula sa Developer)",
       "text": "Maligayang pagdating sa Cookingdom Mod APK, isang ultimate chill at cozy na laro na ginagawang kasing-relax ng isang satisfying Sunday morning ang pagluluto. Ang lahat ng ito ay tungkol sa pagpapabagal, kasiyahan, at paggawa ng masasarap na mga putahe hakbang-hakbang. Magsisimula ka mula sa pag-chop ng patatas hanggang sa pagtatanghal ng mga masterpiece, habang sumasabay sa mga nakakarelaks na vibes."
-    }
+    },
+    "disclaimerTitle": "Paunawa",
+    "disclaimerBody": "Ang lahat ng mga link sa pag-download na ibinigay sa site na ito ay kinuha mula sa internet at para lamang sa layunin ng pag-aaral at pananaliksik. Ang site na ito ay hindi responsable sa legalidad, kaligtasan, o kabuuan ng anumang nilalaman na na-download, at hindi rin nito inaako ang anumang panganib o pananagutang legal na maaaring idulot ng paggamit ng mga link na ito. Pinapayuhan ang mga gumagamit na gamitin ang kanilang sariling pagpapasya bago mag-download at gumamit ng anumang nilalaman."
   },
   "meta": {
     "defaultDescription": "Ang iyong default na paglalarawan para sa Cookingdom site.",

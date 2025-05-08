@@ -102,7 +102,9 @@
         "title": "寻找Mod版？",
         "description": "获取《Cookingdom》的特别改装版本，体验独特功能和增强内容。",
         "button": "前往Mod版下载"
-      }
+      },
+      "disclaimerTitle": "免责声明",
+      "disclaimerBody": "本站提供的所有下载链接均收集自互联网，仅供学习和研究使用。本站不对任何下载内容的合法性、安全性及完整性负责，亦不承担任何因使用这些下载链接而可能产生的风险或法律责任。请用户在下载和使用前自行判断。"
     },
     "about": {
       "title": "⭐ 关于料理王国游戏 (Cookingdom Game)",
@@ -384,7 +386,9 @@
     "developerDescription": {
       "title": "关于 Cookingdom Mod APK",
       "text": "欢迎来到 Cookingdom Mod APK，这是一款极致放松和舒适的游戏，让烹饪像周日早晨一样轻松。一切都关乎放慢节奏，享受乐趣，一步步创造美味佳肴。您将从切土豆到装盘杰作，全程沉浸在舒缓的氛围中。"
-    }
+    },
+    "disclaimerTitle": "免责声明",
+    "disclaimerBody": "本站提供的所有下载链接均收集自互联网，仅供学习和研究使用。本站不对任何下载内容的合法性、安全性及完整性负责，亦不承担任何因使用这些下载链接而可能产生的风险或法律责任。请用户在下载和使用前自行判断。"
   },
   "meta": {
     "defaultDescription": "这是Cookingdom站点的默认描述。",

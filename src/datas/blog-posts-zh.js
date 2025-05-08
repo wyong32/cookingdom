@@ -26,43 +26,42 @@ export const blogPostsZh = [
   {
     // NOTE: Added English version for now. Needs translation.
     id: 'cookingdom-game-review',
-    listTitle: 'Cookingdom Game Review: Build Your Restaurant Empire', // Needs translation
+    listTitle: 'Cookingdom 游戏评测：打造你的餐厅帝国', // 已翻译
     publishDate: '2024-07-31',
     imageUrl: '/images/blog_02.webp',
-    detailTitle: 'Cookingdom Game Review: Build Your Restaurant Empire', // Needs translation
-    detailSubtitle:
-      'An exciting and engaging restaurant simulation game combining cooking, management, and social interaction.', // Needs translation
+    detailTitle: 'Cookingdom 游戏评测：打造你的餐厅帝国', // 已翻译
+    detailSubtitle: '一款令人兴奋且富有趣味的餐厅模拟游戏，融合了烹饪、经营与社交互动。', // 已翻译
     seo: {
-      title: 'Cookingdom Game Review | Fansite Blog', // Needs translation
-      description: 'Read our review of the popular Cookingdom restaurant simulation game.', // Needs translation
-      keywords: 'cookingdom, blog, review, game, simulation, management, cooking, 游戏, 评测, 模拟, 经营, 烹饪', // Added some Chinese keywords
+      title: 'Cookingdom 游戏评测 | 粉丝博客', // 已翻译
+      description: '阅读我们对热门餐厅模拟游戏 Cookingdom 的评测。', // 已翻译
+      keywords: 'cookingdom, 博客, 评测, 游戏, 模拟, 经营, 烹饪, 游戏, 评测, 模拟, 经营, 烹饪', // 已翻译（保留中文关键词）
     },
-    detailContentHtml: `<h2>What is Cookingdom?</h2>
-<p>Cookingdom is an innovative simulation game where players take on the role of a chef and restaurant owner. Your mission is to run your own restaurant, cook a variety of delicious dishes, and expand your business by attracting more customers. The game's appeal lies not only in the cooking experience but also in the restaurant management and strategic decision-making that are required to succeed.</p>
-<h2>Core Gameplay: Cooking and Management Combined</h2>
-<p>In Cookingdom, players will not only cook but also manage various aspects of their restaurant. The game revolves around the following core gameplay elements:</p>
+    detailContentHtml: `<h2>什么是 Cookingdom？</h2>
+<p>Cookingdom 是一款创新的模拟游戏，玩家将在其中扮演厨师兼餐厅老板的角色。你的任务是经营自己的餐厅，烹饪各种美味佳肴，并通过吸引更多顾客来扩展业务。游戏的魅力不仅在于烹饪体验，还在于成功所需的餐厅管理和战略决策。</p>
+<h2>核心玩法：烹饪与经营的完美结合</h2>
+<p>在 Cookingdom 中，玩家不仅要烹饪，还要管理餐厅的各个方面。游戏围绕以下核心玩法展开：</p>
 <ol>
-  <li><strong>Cooking Challenges</strong><br>Players will face a series of cooking tasks, each with its own recipe and preparation process. You need to cook dishes quickly while maintaining their quality. As you progress, more complex recipes will unlock, and you will have to master them to meet customer demands.</li>
-  <li><strong>Restaurant Management</strong><br>As a restaurant owner, you are responsible for managing the restaurant's facilities, staff, and service flow. Upgrading kitchen equipment, decorating the restaurant, and improving staff efficiency are key to boosting your restaurant's income. Restaurant success depends not only on the food but also on how well you manage your resources.</li>
-  <li><strong>Peak Time Challenges</strong><br>In Cookingdom, players will experience busy periods where customers flood into the restaurant. You'll need to serve them quickly and effectively, which requires strong time management skills and the ability to stay calm under pressure.</li>
-  <li><strong>Social Interaction</strong><br>Cookingdom offers a rich social system, where you can cooperate with friends to run your restaurant or compete against players worldwide in rankings. The game also features regular events and competitions, offering players opportunities to earn rewards and stay engaged.</li>
+  <li><strong>烹饪挑战</strong><br>玩家将面对一系列的烹饪任务，每个任务都有其特定的食谱和准备过程。你需要快速烹饪同时保持菜品的质量。随着游戏进展，会解锁更复杂的食谱，玩家必须掌握它们以满足顾客需求。</li>
+  <li><strong>餐厅经营</strong><br>作为餐厅老板，你需要管理餐厅的设施、员工和服务流程。升级厨房设备、装饰餐厅和提升员工效率是提高收入的关键。餐厅的成功不仅取决于食物质量，还在于你如何高效地管理资源。</li>
+  <li><strong>高峰时段挑战</strong><br>在 Cookingdom 中，玩家将经历顾客蜂拥而至的繁忙时段。你需要快速有效地为他们服务，这要求你具备良好的时间管理能力和在压力下保持冷静的能力。</li>
+  <li><strong>社交互动</strong><br>Cookingdom 提供了丰富的社交系统，你可以与朋友合作经营餐厅，或在全球排行榜中与其他玩家竞争。游戏还定期举办活动和比赛，为玩家提供赢取奖励并保持活跃的机会。</li>
 </ol>
-<h2>Key Features of Cookingdom</h2>
+<h2>Cookingdom 的主要特色</h2>
 <ol>
-  <li><strong>Stunning Graphics</strong><br>The game features a vibrant cartoon-style aesthetic, with detailed restaurant interiors, beautifully presented dishes, and lively animations for customers. Every little detail adds to the immersive experience, allowing players to fully enjoy the cooking and management process.</li>
-  <li><strong>Diverse Recipe System</strong><br>Cookingdom offers a variety of recipes, including Chinese, Western, and dessert dishes. Each recipe has its own unique preparation process, and players will need to master these recipes to keep up with customer orders. Unlocking new recipes as you progress keeps the gameplay fresh and exciting.</li>
-  <li><strong>Customizable Restaurant Design</strong><br>Players have the ability to decorate and personalize their restaurant, from furniture to wallpaper. Customizing your restaurant to match your style not only adds a personal touch but also attracts more customers, enhancing the overall gameplay experience.</li>
-  <li><strong>Strategic Restaurant Efficiency</strong><br>As the game progresses, the challenges become more complex. The game provides various strategic options, such as upgrading kitchen equipment, recruiting staff, and setting up efficient service processes. Every decision can affect your restaurant's performance, making strategy a crucial aspect of the game.</li>
+  <li><strong>精美的画面</strong><br>游戏采用生动的卡通风格美术，餐厅内部细致、菜品精致，顾客的动画也十分生动。每一个细节都增强了沉浸感，让玩家尽情享受烹饪与经营的过程。</li>
+  <li><strong>丰富的食谱系统</strong><br>Cookingdom 提供多种食谱，包括中餐、西餐和甜点。每种食谱都有独特的制作过程，玩家需要掌握这些技能以应对不断增长的订单量。随着游戏推进解锁新食谱，使玩法保持新鲜感与挑战性。</li>
+  <li><strong>可自定义的餐厅设计</strong><br>玩家可以自由装饰和个性化餐厅，从家具到墙纸均可定制。打造符合个人风格的餐厅不仅提升视觉体验，还能吸引更多顾客，提升整体游戏乐趣。</li>
+  <li><strong>策略性经营效率</strong><br>随着游戏难度提升，挑战也愈加复杂。游戏提供多种策略选项，如升级厨房设备、招聘员工、设定高效的服务流程等。每一个决策都会影响餐厅的经营表现，使策略成为游戏中不可忽视的一环。</li>
 </ol>
-<h2>Why Is Cookingdom So Popular?</h2>
+<h2>Cookingdom 为何如此受欢迎？</h2>
 <ol>
-  <li><strong>Rich Content and Replayability</strong><br>Cookingdom blends cooking and management in a way that provides endless content. As you progress, new recipes, restaurant upgrades, and challenges will keep the game exciting and ensure its replayability. No two sessions are the same, which keeps players coming back for more.</li>
-  <li><strong>Appeals to All Types of Players</strong><br>Whether you're a casual gamer who enjoys relaxing gameplay or someone who enjoys a challenge, Cookingdom offers something for everyone. The game is easy to pick up but offers enough depth to keep you engaged as you strive to improve your restaurant's efficiency.</li>
-  <li><strong>Social Features Add More Fun</strong><br>With features like friend collaborations and global rankings, Cookingdom enhances its social aspect, allowing players to connect with others. Regular events and competitions also provide players with the opportunity to win rewards and stay competitive.</li>
+  <li><strong>丰富内容与高度可重玩性</strong><br>Cookingdom 将烹饪与经营巧妙融合，内容丰富。随着进度推进，新食谱、餐厅升级与各种挑战将持续带来新鲜感，保证了游戏的重玩价值。每次游戏体验都不尽相同，让玩家欲罢不能。</li>
+  <li><strong>适合各种类型玩家</strong><br>无论是喜欢轻松游戏的休闲玩家，还是追求挑战的玩家，Cookingdom 都能满足需求。游戏上手容易，但深度十足，能让你持续投入，不断提升餐厅的效率。</li>
+  <li><strong>社交功能增添乐趣</strong><br>通过好友协作、全球排行榜等功能，Cookingdom 强化了社交体验。定期举办的活动和竞赛也为玩家提供了赢得奖励、保持竞争力的机会。</li>
 </ol>
-<h2>How to Download Cookingdom?</h2>
-<p>Cookingdom is available for download on App Store and Google Play. Players can choose the version suitable for their device and dive right into the exciting world of restaurant management.</p>
-<h2>Final Thoughts</h2>
-<p>Cookingdom is an incredibly fun and challenging restaurant simulation game that offers a perfect blend of cooking and management gameplay. Whether you're perfecting your culinary skills, designing your dream restaurant, or managing staff and resources, the game provides a deep and rewarding experience. If you love cooking and management games, Cookingdom is definitely a game worth trying.</p>`,
+<h2>如何下载 Cookingdom？</h2>
+<p>Cookingdom 可在 App Store 和 Google Play 下载。玩家可根据设备选择相应版本，立刻踏入精彩的餐厅经营世界。</p>
+<h2>总结</h2>
+<p>Cookingdom 是一款非常有趣且充满挑战的餐厅模拟游戏，完美结合了烹饪与经营玩法。无论是磨练你的厨艺、设计理想餐厅，还是管理员工与资源，游戏都能带来深度且令人满足的体验。如果你喜欢烹饪与经营类游戏，Cookingdom 绝对值得一试。</p>`,
   },
 ]

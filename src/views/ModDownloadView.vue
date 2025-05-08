@@ -129,6 +129,12 @@
           <h2>{{ $t('modDownload.developerDescription.title') }}</h2>
           <p>{{ $t('modDownload.developerDescription.text') }}</p>
         </div>
+        <div class="disclaimer-section">
+          <p>
+            <strong>{{ $t('modDownload.disclaimerTitle') }}</strong>
+            {{ $t('modDownload.disclaimerBody') }}
+          </p>
+        </div>
       </div>
     </section>
   </div>
@@ -440,5 +446,22 @@
   .other-links-grid {
     grid-template-columns: 1fr; /* Stack buttons on mobile */
   }
+}
+
+.disclaimer-section {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: left;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #ff85a2; /* Using a theme accent color for the border */
+  border-radius: 4px;
+}
+
+.disclaimer-section p strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #5b4b8a; /* Darker purple for the title, consistent with other headers */
 }
 </style> 
