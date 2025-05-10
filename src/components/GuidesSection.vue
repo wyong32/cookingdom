@@ -2,7 +2,7 @@
   <section class="guides-section">
     <div class="container">
       <!-- Add Title -->
-      <h2>{{ $t('guides.title') }}</h2>
+      <!-- <h2>{{ $t('guides.title') }}</h2> -->
 
       <!-- Tabs Navigation -->
       <div class="tabs-nav">
@@ -44,7 +44,7 @@
             <img :src="guide.imageUrl" :alt="guide.title?.replace(brRegex, ' ') || 'Guide image'" />
           </div>
           <div class="guide-content">
-            <h4 v-html="guide.title"></h4>
+            <h3 v-html="guide.title"></h3>
           </div>
         </router-link>
       </div>
@@ -209,7 +209,7 @@ const filteredGuides = computed(() => {
   padding: 1rem;
 }
 
-.guide-content h4 {
+.guide-content h3 {
   margin: 0; /* Remove default margin */
   font-size: 1rem; /* Slightly smaller font */
   color: #5b4b8a; /* Darker purple */
@@ -248,7 +248,7 @@ const filteredGuides = computed(() => {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
   }
-  .guide-content h4 {
+  .guide-content h3 {
     font-size: 0.9rem;
   }
 }
@@ -278,7 +278,7 @@ const filteredGuides = computed(() => {
   .guide-content {
     padding: 0.6rem;
   }
-  .guide-content h4 {
+  .guide-content h3 {
     font-size: 0.8rem;
     line-height: 1.3;
   }

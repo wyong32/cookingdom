@@ -19,6 +19,8 @@ const { guides, isLoading, error } = useGuides(locale)
 <template>
   <div class="guide-view">
     <!-- Added fallback text -->
+    <h1>{{ $t('guides.title') }}</h1>
+    <h2>{{ $t('guides.title1') }}</h2>
 
     <!-- Use the GuidesSection component, passing the reactive data as props -->
     <!-- Note: prop names are kebab-case in template -->
@@ -40,7 +42,17 @@ h1 {
   color: #5b4b8a;
   font-size: 2.2rem;
 }
-.guide-view {
-  padding: 0;
+
+/* Added style for h2 in guide-view */
+.guide-view h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff85a2; /* Pink color, consistent with HomeView */
+  margin-bottom: 1.5rem;
+}
+.guide-view h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #5b4b8a;
 }
 </style> 

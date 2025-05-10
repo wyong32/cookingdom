@@ -162,6 +162,7 @@ const swiperModules = [Autoplay, EffectCoverflow]
 
       <!-- Guides Section (Use the new component and pass props) -->
       <div id="guides-section">
+        <h2>{{ $t('guides.title') }}</h2>
         <GuidesSection :guides="guides" :is-loading="guidesLoading" :error="guidesError" />
       </div>
 
@@ -542,16 +543,18 @@ main {
 
 /* Guides Section */
 .guides-section {
-  padding: 4rem 0;
-  background-color: #ffffff;
+  padding: 2rem 0;
 }
 
 /* Style for the new h2 title */
-.guides-section h2 {
+#guides-section {
+  padding: 2rem 0 0 0;
+}
+
+#guides-section h2 {
   text-align: center;
   font-size: 2rem;
   color: #ff85a2; /* Pink color like other titles */
-  margin-bottom: 1.5rem; /* Space below title */
 }
 
 /* Tabs Navigation Styles */
