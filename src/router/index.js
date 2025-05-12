@@ -291,15 +291,20 @@ router.beforeEach((to, from, next) => {
 
   // --- Calculate Canonical URL ---
   const calculateCanonicalUrl = () => {
-    const currentLang = i18n.global.locale.value
-    const siteBase = (window.location.origin + (import.meta.env.BASE_URL || '/')).replace(/\/$/, '')
+    const siteBase = (window.location.origin + (import.meta.env.BASE_URL || '/')).replace(/\/$/, '') // Retain siteBase
     let canonicalPath = to.path
-    if (currentLang !== defaultLang && canonicalPath.startsWith('/' + currentLang + '/')) {
-      canonicalPath = canonicalPath.substring(('/' + currentLang).length)
-    }
-    if (canonicalPath === '') {
+
+    // Ensure the path is not null or undefined and handle empty string case
+    if (canonicalPath === null || typeof canonicalPath === 'undefined' || canonicalPath === '') {
       canonicalPath = '/'
     }
+    // Ensure the path starts with a single slash
+    else if (canonicalPath.startsWith('//')) {
+      canonicalPath = canonicalPath.substring(1) // Remove one leading slash if two are present
+    } else if (!canonicalPath.startsWith('/')) {
+      canonicalPath = '/' + canonicalPath // Add leading slash if missing
+    }
+
     return siteBase + canonicalPath
   }
 
