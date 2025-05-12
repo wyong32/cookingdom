@@ -801,19 +801,19 @@ export const guidesZh = [
         {
           id: 'cookingdom-game-level-7',
           title: '第 7 级<br>太阳蛋',
-          imageUrl: '/images/guides_7.webp',
+          imageUrl: '/images/guides_07.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: '第 8 级<br>牛排',
-          imageUrl: '/images/guides_8.webp',
+          imageUrl: '/images/guides_08.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: '第 9 级<br>意面',
-          imageUrl: '/images/guides_9.webp',
+          imageUrl: '/images/guides_09.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
       ],
@@ -897,13 +897,13 @@ export const guidesZh = [
         {
           id: 'cookingdom-game-level-8',
           title: '第 8 级<br>牛排',
-          imageUrl: '/images/guides_8.webp',
+          imageUrl: '/images/guides_08.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: '第 9 级<br>意面',
-          imageUrl: '/images/guides_9.webp',
+          imageUrl: '/images/guides_09.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
@@ -999,7 +999,7 @@ export const guidesZh = [
         {
           id: 'cookingdom-game-level-9',
           title: '第 9 级<br>意面',
-          imageUrl: '/images/guides_9.webp',
+          imageUrl: '/images/guides_09.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {

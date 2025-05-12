@@ -849,19 +849,19 @@ export const guides = [
         {
           id: 'cookingdom-game-level-7',
           title: 'Cookingdom Level 7<br>Sunny Eggs',
-          imageUrl: '/images/guides_7.webp',
+          imageUrl: '/images/guides_07.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_8.webp',
+          imageUrl: '/images/guides_08.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_9.webp',
+          imageUrl: '/images/guides_09.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
       ],
@@ -967,13 +967,13 @@ Salmon Sushi ay isang hamon na sumusubok sa iyong pagiging tumpak, pamamahala ng
         {
           id: 'cookingdom-game-level-8',
           title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_8.webp',
+          imageUrl: '/images/guides_08.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_9.webp',
+          imageUrl: '/images/guides_09.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
@@ -1071,7 +1071,7 @@ Salmon Sushi ay isang hamon na sumusubok sa iyong pagiging tumpak, pamamahala ng
         {
           id: 'cookingdom-game-level-9',
           title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_9.webp', // Placeholder
+          imageUrl: '/images/guides_09.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {

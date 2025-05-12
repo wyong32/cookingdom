@@ -4,7 +4,7 @@
   },
   "example": "This is an example text.",
   "header": {
-    "logo": "Cookingdom"
+    "logo": "Cookingdom Level Walkthrough"
   },
   "nav": {
     "home": "🏠 Home",
@@ -15,7 +15,7 @@
   },
   "footer": {
     "about": {
-      "title": "Cookingdom Fansite",
+      "title": "Cookingdom Level Walkthrough",
       "description": "The cutest Cookingdom game guide fansite, sharing tips and fun."
     },
     "links": {
@@ -24,10 +24,10 @@
       },
       "popularLevels": {
         "title": "Popular Levels",
-        "level5": "Level 5 Steak",
-        "level7": "Level 7 BBQ",
-        "level19": "Level 19 Burger",
-        "level26": "Level 26 King Crab"
+        "level5": "Cookingdom Level 5 Steak",
+        "level7": "Cookingdom Level 7 BBQ",
+        "level19": "Cookingdom Level 19 Burger",
+        "level26": "Cookingdom Level 26 King Crab"
       },
       "help": {
         "title": "Help & Info",
@@ -47,7 +47,7 @@
   "home": {
     "hero": {
       "title": "Cookingdom Game: Complete Walkthrough Guides",
-      "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom all Level Walkthrough Guides, simple cheats, and video walkthroughs.",
+      "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom Level Walkthrough Guides, simple cheats, and video walkthroughs.",
       "button": {
         "viewGuides": "View Cookingdom Walkthrough Guides",
         "gameFeatures": "Explore Game Features",
@@ -136,7 +136,7 @@
       },
       "step4": {
         "title": "Using Cookingdom Walkthrough Guides",
-        "description": "If you get stuck on a certain level or just want to optimize your cooking in the Cookingdom game, make use of the Cookingdom Walkthrough Guides provided on this site! We offer step-by-step instructions, tips for tricky mini-games, and video examples to help you master every recipe and achieve top scores with our Cookingdom all Level Walkthrough Guides.",
+        "description": "If you get stuck on a certain level or just want to optimize your cooking in the Cookingdom game, make use of the Cookingdom Walkthrough Guides provided on this site! We offer step-by-step instructions, tips for tricky mini-games, and video examples to help you master every recipe and achieve top scores with our Cookingdom Level Walkthrough Guides.",
         "prompt": "Check our comprehensive Cookingdom Walkthrough Guides for detailed help!"
       },
       "step5": {
@@ -189,7 +189,7 @@
     "notFoundTitle": "Guide Not Found | Cookingdom"
   },
   "guides": {
-    "title": "📖 cookingdom all Level Walkthrough Guides",
+    "title": "📖 cookingdom Level Walkthrough Guides",
     "title1": "Step-by-Step Strategies to Master Every Cooking Challenge!",
     "tabs": {
       "special": "Special Levels",
@@ -403,9 +403,9 @@
     "notFoundTitle": "Page Not Found | Cookingdom",
     "errorTitle": "Error | Cookingdom",
     "home": {
-      "title": "Cookingdom Game Strategy Guide – Master Every Level",
-      "description": "Discover expert strategies for Cookingdom! . find all the essential tactics through every challenge and unlock new levels in this fun cooking adventure game.",
-      "keywords": "Cookingdom,Cookingdom tips,cooking adventure,Cookingdom gameplay,Cookingdom cheats"
+      "title": "Cookingdom Level Walkthrough – Cookingdom.co",
+      "description": "Cookingdom Level Walkthrough! find all the essential tactics through every challenge and unlock new levels in this fun cooking adventure game.",
+      "keywords": "Cookingdom Game,Cookingdom tips, cooking adventure, Cookingdom Level Walkthrough, Cookingdom Guides"
     },
     "guides": {
       "title": "Cookingdom Guides List – All Strategies and Tips",
@@ -441,9 +441,9 @@
       "description": "Detailed guide for a Cookingdom level."
     },
     "modDownload": {
-      "title": "Download Cookingdom Modded Versions - Unlock Everything",
-      "description": "Get the latest modded APK and IPA for Cookingdom. Enjoy unlimited resources, all levels unlocked, and an ad-free gaming experience.",
-      "keywords": "cookingdom mod, cookingdom apk mod, cookingdom ipa mod, cracked game, unlimited resources, ad-free"
+      "title": "Download Cookingdom Mod APK Versions - Unlock Everything",
+      "description": "Get the latest Cookingdom Mod APK and IPA . Enjoy unlimited resources, all levels unlocked, and an ad-free gaming experience.",
+      "keywords": "APK Mod Cookingdom, mod apk cookingdom, mod ipa cookingdom, permainan retak, sumber tanpa had"
     }
   }
 }

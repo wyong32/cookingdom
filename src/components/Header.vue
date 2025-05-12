@@ -105,7 +105,7 @@ function changeLocale(event) {
 <template>
   <header class="header">
     <div class="container">
-      <div class="logo">{{ t('header.logo') }}</div>
+      <div class="logo"><img src="/logo.webp" alt="" />{{ t('header.logo') }}</div>
       <nav>
         <ul>
           <li>
@@ -171,6 +171,13 @@ function changeLocale(event) {
   font-size: 1.4rem; /* Slightly smaller logo */
   font-weight: bold;
   color: #ff85a2;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
 }
 
 .header nav ul {
