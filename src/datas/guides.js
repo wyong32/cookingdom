@@ -2,7 +2,7 @@ export const guides = [
   {
     id: 'cookingdom-game-level-1',
     title: 'Cookingdom Level 1<br />First Pizza',
-    pageTitle: 'Cookingdom Level 1 - First Pizza Guide',
+    pageTitle: 'Cookingdom Level 1 -First Pizza Guide',
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
@@ -11,10 +11,10 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
     seo: {
-      title: 'Cookingdom Level 1 Guide - First Pizza',
+      title: 'Cookingdom Level 1 Guide - First Pizza-cookingdom.co',
       description:
         'Learn how to prepare, bake, and serve your first pizza in Cookingdom Level 1. Understand the basics of cooking and customer service.',
-      keywords: 'cookingdom, level 1, first pizza, guide, basics, tutorial',
+      keywords: 'cookingdom level 1 , first pizza, Cookingdom Level guide, basics, tutorial',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_01.webp',
@@ -873,43 +873,43 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
     iframeUrl: 'https://www.youtube.com/embed/sR03duivZNM',
     seo: {
-      title: 'Cookingdom Level 10 Guide: Salmon Sushi | Tips & Strategy',
+      title: 'Cookingdom Level 10 Guide: Salmon Sushi | cookingdom.co',
       description:
         'Master Salmon Sushi in Cookingdom Level 10. Tips for perfect rice, slicing salmon, rolling sushi, and presentation.',
       keywords:
-        'cookingdom, level 10, salmon sushi, sushi guide, sushi rice, slicing fish, rolling sushi, strategy',
+        'cookingdom level 10, cookingdom salmon sushi, sushi guide, sushi rice, slicing fish, strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_10.webp',
       levelInfoHtml:
-        '<h3>Salmon Sushi</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx. Time:</strong> 4.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>',
+        '<h3>Cookingdom Level 10 Salmon Sushi</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx. Time:</strong> 4.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-7',
           title: 'Cookingdom Level 7<br>Sunny Eggs',
-          imageUrl: '/images/guides_07.webp',
+          imageUrl: '/images/guides_7.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
         },
         {
           id: 'cookingdom-game-level-8',
           title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_08.webp',
+          imageUrl: '/images/guides_8.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_09.webp',
+          imageUrl: '/images/guides_9.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, reaching Level 10 means you've mastered the basics and are now entering more advanced dishes. Level 10 brings a refined challenge with Salmon Sushi — a dish that combines the art of perfecting rice, slicing fish, and assembling it into a beautiful sushi roll. Unlike other levels, Salmon Sushi requires precision in both preparation and presentation.</p>
-<p>At this stage of Cookingdom, customers will expect a quick and flawless delivery of their orders, and you'll need to handle the delicate components of sushi. It's time to sharpen your knife skills and rice cooking techniques!</p>
+<h2 id="overview">Cookingdom Level 10 Game Overview</h2>
+<p>In Cookingdom Level 10 means you've mastered the basics and are now entering more advanced dishes. Cookingdom Level 10 brings a refined challenge with Salmon Sushi — a dish that combines the art of perfecting rice, slicing fish, and assembling it into a beautiful sushi roll. Unlike other levels, Salmon Sushi requires precision in both preparation and presentation.</p>
+<p>At this stage of Cookingdom, customers will expect a quick and flawless delivery of their orders, and you'll need to handle the delicate components of Cookingdom Salmon sushi. It's time to sharpen your knife skills and rice cooking techniques!</p>
 
-<h2 id="goal">Level 10 Goals</h2>
+<h2 id="goal">Cookingdom Level 10 Goals</h2>
 <ul>
     <li><strong>Cook Sushi Rice:</strong> The foundation of any great sushi is perfectly cooked rice. In Cookingdom, you'll need to prepare sushi rice, which involves washing, cooking, and seasoning it with vinegar, sugar, and salt.</li>
     <li><strong>Slice Fresh Salmon:</strong> Salmon is the star of this dish, and its freshness and thickness are crucial to creating an authentic sushi experience. You'll need to carefully slice the salmon to the right thickness and presentation.</li>
@@ -917,34 +917,34 @@ export const guides = [
     <li><strong>Serve the Sushi:</strong> As with any dish in Cookingdom, timing is crucial. Serve the sushi promptly to avoid letting it lose its freshness.</li>
 </ul>
 
-<h2 id="steps">Steps to Make Salmon Sushi</h2>
+<h2 id="steps">Cookingdom Level 10 Steps to Make Salmon Sushi</h2>
 <ol>
     <li>
-        <h3>Prepare the Sushi Rice:</h3>
+        <h3>Cookingdom Level 10 Prepare the Sushi Rice:</h3>
         <p>The first step in making Salmon Sushi is preparing the sushi rice. Start by rinsing the rice thoroughly to remove excess starch. This helps prevent the rice from becoming too sticky.</p>
         <p><strong>Tip:</strong> Rinse the rice multiple times until the water runs clear to get the perfect texture.</p>
         <p>Cook the rice in a rice cooker or pot. Once the rice is cooked, transfer it to a large bowl and allow it to cool. After the rice cools slightly, season it with a mixture of rice vinegar, sugar, and salt to give it the signature flavor.</p>
         <p><strong>Tip:</strong> Stir the rice gently with a wooden spoon to avoid crushing the grains. Let it cool completely before using it for the sushi.</p>
     </li>
     <li>
-        <h3>Slice the Fresh Salmon:</h3>
+        <h3>Cookingdom Level 10 Slice the Fresh Salmon:</h3>
         <p>While the rice cools, it's time to prepare the salmon. Cookingdom requires you to slice the salmon into thin, even slices. Use a sharp knife to achieve clean, smooth cuts. Each slice should be about 1/8-inch thick for the best sushi texture.</p>
         <p><strong>Tip:</strong> Use fresh, high-quality salmon for the best taste. In Cookingdom, you'll be able to select the freshest ingredients available, so make sure to pick a top-quality piece of salmon.</p>
     </li>
     <li>
-        <h3>Assemble the Sushi:</h3>
+        <h3>Cookingdom Level 10 Assemble the Sushi:</h3>
         <p>Now, it's time to assemble the sushi. Lay a small amount of sushi rice on a bamboo mat or clean surface. Gently spread the rice to form a thin, even layer.</p>
         <p><strong>Tip:</strong> Don't press the rice too hard; just lightly spread it to ensure the sushi remains light and fluffy.</p>
         <p>Place a slice of fresh salmon on top of the rice, making sure it's centered and evenly spaced.</p>
         <p><strong>Tip:</strong> If Cookingdom offers you a choice of garnishes, such as wasabi or pickled ginger, don't forget to add these elements for an authentic experience.</p>
     </li>
     <li>
-        <h3>Roll the Sushi:</h3>
+        <h3>Cookingdom Level 10 Roll the Sushi:</h3>
         <p>Use the bamboo mat to roll the rice and salmon together tightly. Make sure the roll is firm but not too tight, as this will help hold the sushi together without squashing the rice.</p>
         <p><strong>Tip:</strong> Roll the sushi slowly and carefully to ensure the rice and salmon stay in place.</p>
     </li>
     <li>
-        <h3>Slice and Serve the Sushi:</h3>
+        <h3>Cookingdom Level 10 Slice and Serve the Sushi:</h3>
         <p>Once your sushi is rolled, slice it into bite-sized pieces. In Cookingdom, the cut should be clean and smooth, not jagged. A sharp knife is essential for making perfect sushi slices.</p>
         <p><strong>Tip:</strong> For an authentic look, ensure each slice is uniform in size and shape.</p>
         <p>Serve Promptly:</p>
@@ -952,7 +952,7 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 10 Tips & Tricks</h2>
 <ul>
     <li>
         <strong>Perfect Sushi Rice:</strong> Sushi rice is the foundation of great sushi, so make sure you get it just right. Follow the exact steps to rinse, cook, and season the rice. Cookingdom allows you to fine-tune your rice seasoning, so experiment until you get the perfect balance of vinegar, sugar, and salt.
@@ -974,7 +974,7 @@ export const guides = [
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 10 of Cookingdom, preparing Salmon Sushi is a challenge that tests your precision, time management, and multitasking skills. From cooking the rice to slicing the fish and rolling the sushi, every step requires attention to detail. The key to success is freshness, accuracy, and quick service.</p>
+<p>In Cookingdom Level 10 , preparing Salmon Sushi is a challenge that tests your precision, time management, and multitasking skills. From cooking the rice to slicing the fish and rolling the sushi, every step requires attention to detail. The key to success is freshness, accuracy, and quick service.</p>
 <p>Mastering sushi will set you up for success in future levels, as customers will expect more complex and delicate dishes. With practice, you'll be able to create perfect sushi rolls that keep your customers happy and your restaurant thriving.</p>`,
   },
   {
@@ -989,27 +989,27 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/5mFzPngHJF8',
     seo: {
-      title: 'Cookingdom Level 11 Guide: Popcorn | Tips & Strategy',
+      title: 'Cookingdom Level 11 Guide: Popcorn | cookingdom.co',
       description:
         'Master Popcorn in Cookingdom Level 11. Tips for perfect popping time, flavoring, and fast service.',
       keywords:
-        'cookingdom, level 11, popcorn, guide, popping, seasoning, time management, strategy',
+        'cookingdom level 11, Cookingdom popcorn, guide, popping, seasoning, time management, strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_11.webp',
       levelInfoHtml:
-        '<h3>Popcorn</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 1.5 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
+        '<h3>Cookingdom Level 11 Popcorn</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 1.5 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-8',
           title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_08.webp',
+          imageUrl: '/images/guides_8.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
         },
         {
           id: 'cookingdom-game-level-9',
           title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_09.webp',
+          imageUrl: '/images/guides_9.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
@@ -1021,68 +1021,68 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 11 brings a light yet important challenge: making the perfect Popcorn. While this dish may seem simple, it requires precise timing and attention to detail, especially when preparing a large batch for multiple customers. Popcorn is a beloved snack, and in Cookingdom, it will test your ability to manage heat, flavors, and speed under pressure.</p>
+<h2 id="overview">Cookingdom Level 11 Game Overview</h2>
+<p>In Cookingdom Level 11 brings a light yet important challenge: making the perfect Popcorn. While this dish may seem simple, it requires precise timing and attention to detail, especially when preparing a large batch for multiple customers. Popcorn is a beloved snack, and in Cookingdom, it will test your ability to manage heat, flavors, and speed under pressure.</p>
 <p>As you move forward in the game, Cookingdom introduces dishes that seem straightforward but require efficient multitasking to keep up with growing customer demands. Get ready to pop those kernels to perfection!</p>
 
-<h2 id="goal">Level 11 Goals</h2>
+<h2 id="goal">Cookingdom Level 11 Goals</h2>
 <ul>
     <li><strong>Pop the Corn Kernels:</strong> The primary task in this level is to pop the corn kernels at the right temperature and timing. You'll need to ensure that each batch pops without burning.</li>
     <li><strong>Add Flavorings:</strong> After popping the kernels, you'll need to season the popcorn to perfection. Whether it's butter, cheese, or caramel, flavoring the popcorn will elevate the dish.</li>
-    <li><strong>Serve Quickly:</strong> Cookingdom customers expect quick service. Make sure to serve the freshly popped and seasoned popcorn as soon as it's ready to keep them happy.</li>
+    <li><strong>Serve Quickly:</strong> Cookingdom Level 11 customers expect quick service. Make sure to serve the freshly popped and seasoned popcorn as soon as it's ready to keep them happy.</li>
 </ul>
 
-<h2 id="steps">Steps to Make Popcorn</h2>
+<h2 id="steps">Cookingdom Level 11 Steps to Make Popcorn</h2>
 <ol>
     <li>
         <h3>Heat the Popcorn Machine:</h3>
-        <p>Start by heating the popcorn machine or pan. Cookingdom provides you with a popper or stove to cook the popcorn. Make sure the machine is preheated, as this helps the kernels pop evenly and avoids burning.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you may also have the option to upgrade your equipment to make the popping process faster and more efficient. Upgrading your popcorn machine will save time and reduce mistakes.</p>
+        <p>Start by heating the popcorn machine or pan. Cookingdom Level 11 provides you with a popper or stove to cook the popcorn. Make sure the machine is preheated, as this helps the kernels pop evenly and avoids burning.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 11, you may also have the option to upgrade your equipment to make the popping process faster and more efficient. Upgrading your popcorn machine will save time and reduce mistakes.</p>
     </li>
     <li>
         <h3>Add the Corn Kernels:</h3>
         <p>Once the machine is hot, carefully add the popcorn kernels. Ensure that the kernels are spread evenly to ensure uniform popping. Too many kernels at once may cause overcrowding and uneven popping, while too few will waste space and delay your progress.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you'll see a visual indicator or timer showing when the popcorn is popping. Pay attention to the sound and the visual cues to know when to stop the popping process.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 11, you'll see a visual indicator or timer showing when the popcorn is popping. Pay attention to the sound and the visual cues to know when to stop the popping process.</p>
     </li>
     <li>
         <h3>Wait for the Popping Process:</h3>
         <p>Allow the kernels to pop, listening carefully for the sound of popping to slow down. This is your signal to stop the process. Over-popping can burn the popcorn, while under-popping can leave some kernels unpopped.</p>
-        <p><strong>Tip:</strong> Don\'t leave the machine unattended! In Cookingdom, you might be required to manage multiple tasks, so keep an eye on your popcorn.</p>
+        <p><strong>Tip:</strong> Don\'t leave the machine unattended! In Cookingdom Level 11, you might be required to manage multiple tasks, so keep an eye on your popcorn.</p>
     </li>
     <li>
         <h3>Season the Popcorn:</h3>
-        <p>Once the popcorn is ready, it's time to season it. Cookingdom offers a variety of seasoning options, such as butter, salt, cheese, or caramel. Be sure to choose the right seasoning for each customer order.</p>
+        <p>Once the popcorn is ready, it's time to season it. Cookingdom Level 11 offers a variety of seasoning options, such as butter, salt, cheese, or caramel. Be sure to choose the right seasoning for each customer order.</p>
         <p><strong>Tip:</strong> You can add multiple layers of seasoning to enhance the flavor. For example, start with butter, then sprinkle on some salt or cheese for extra taste.</p>
     </li>
     <li>
         <h3>Serve the Popcorn:</h3>
         <p>Once the popcorn is seasoned, it\'s time to serve it. Make sure the popcorn is still hot and fresh when you hand it to the customer.</p>
-        <p><strong>Tip:</strong> The fresher the popcorn, the better the ratings you'll receive. Cookingdom customers are very particular about freshness.</p>
+        <p><strong>Tip:</strong> The fresher the popcorn, the better the ratings you'll receive. Cookingdom Level 11 customers are very particular about freshness.</p>
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 11 Tips & Tricks</h2>
 <ul>
     <li>
-        <strong>Perfect Popping Time:</strong> Timing is everything when it comes to popping popcorn. Too much heat or too long of a wait can burn the popcorn, while too little heat can leave kernels unpopped. Pay attention to the popping sounds and make sure to stop the process as soon as the popping slows down.
+        <strong>Perfect Popping Time:</strong> Timing is everything when it comes to popping popcorn. Too much heat or too long of a wait can burn the popcorn, while too little heat can leave kernels unpopped.
     </li>
     <li>
-        <strong>Flavor Customization:</strong> In Cookingdom, the key to success is catering to your customers' preferences. Some customers may want plain popcorn, while others may want buttery, cheesy, or caramel-coated popcorn. Make sure to read each order carefully and apply the right flavoring to keep your customers satisfied.
+        <strong>Flavor Customization:</strong> In Cookingdom Level 11 , the key to success is catering to your customers' preferences. Some customers may want plain popcorn, while others may want buttery, cheesy, or caramel-coated popcorn. Make sure to read each order carefully and apply the right flavoring to keep your customers satisfied.
     </li>
     <li>
-        <strong>Upgrade Your Equipment:</strong> As you progress through Cookingdom, consider upgrading your popcorn machine. A faster popper will allow you to serve multiple customers in less time, improving your efficiency and ratings.
+        <strong>Upgrade Your Equipment:</strong> As you progress through Cookingdom Level 11 , consider upgrading your popcorn machine. 
     </li>
     <li>
-        <strong>Speed and Efficiency:</strong> Cookingdom requires quick service, and this is no different in Level 11. Try to serve the popcorn as soon as it's popped and flavored. The faster you serve, the higher your chances of getting a positive rating from your customers.
+        <strong>Speed and Efficiency:</strong> Cookingdom Level 11 requires quick service, Try to serve the popcorn as soon as it's popped and flavored. The faster you serve, the higher your chances of getting a positive rating from your customers.
     </li>
     <li>
-        <strong>Handle Multiple Orders:</strong> As more customers arrive, you'll need to prepare multiple orders of popcorn at once. Manage the popping process carefully and try to avoid leaving popcorn in the machine for too long. Always serve the freshest popcorn to avoid complaints.
+        <strong>Handle Multiple Orders:</strong> As more customers arrive, you'll need to prepare multiple orders of popcorn at once. 
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 11 of Cookingdom, making Popcorn seems simple but requires attention to detail in timing and seasoning. Perfectly popped kernels, the right amount of seasoning, and fast service will ensure your customers leave happy. Whether it\'s a basic order or a request for extra butter and cheese, your efficiency and multitasking skills will be tested.</p>
-<p>As you continue in Cookingdom, the complexity of managing orders will increase, but mastering popcorn will give you the foundation you need to tackle more complex dishes. Keep up with your upgrades, manage multiple orders, and stay focused on delivering fresh, tasty popcorn to keep your customers coming back for more!</p>
+<p>In Cookingdom Level 11 making Popcorn seems simple but requires attention to detail in timing and seasoning. Perfectly popped kernels, the right amount of seasoning, and fast service will ensure your customers leave happy. </p>
+<p>As you continue in Cookingdom Level 11 , the complexity of managing orders will increase, but mastering popcorn will give you the foundation you need to tackle more complex dishes. Keep up with your upgrades, asty popcorn to keep your customers coming back for more!</p>
 `,
   },
   {
@@ -1097,21 +1097,20 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
     iframeUrl: 'https://www.youtube.com/embed/OhB019qY8Fc', // Placeholder
     seo: {
-      title: 'Cookingdom Level 12 Guide: Ramen | Tips & Strategy',
+      title: 'Cookingdom Level 12 Guide: Ramen | cookingdom.co',
       description:
-        'Master Ramen in Cookingdom Level 12. Tips for perfect broth, noodles, toppings, and fast service.',
-      keywords:
-        'cookingdom, level 12, ramen, guide, broth, noodles, toppings, time management, strategy',
+        'Master Ramen in Cookingdom Level 12 . Tips for perfect broth, noodles, toppings, and fast service.',
+      keywords: 'cookingdom level 12 , cookingdom ramen, guide,toppings, time management, strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_12.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Ramen</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx. Time:</strong> 5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>', // Estimation
+        '<h3>cookingdom level 12 Ramen</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx. Time:</strong> 5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>', // Estimation
       featuredGuides: [
         {
           id: 'cookingdom-game-level-9',
           title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_09.webp', // Placeholder
+          imageUrl: '/images/guides_9.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
         },
         {
@@ -1129,74 +1128,71 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 12 brings a hearty and complex dish: Ramen. This Japanese favorite requires multiple components to be prepared at once: the broth, noodles, and toppings. In Cookingdom, your goal is to create the perfect bowl of ramen that will keep your customers coming back for more. You\'ll need to balance timing, multitask, and pay attention to details to ensure each bowl of ramen is flavorful, warm, and perfectly garnished.</p>
-<p>Ramen in Cookingdom is an opportunity to show off your skills in both cooking and presentation, as customers will have specific preferences for their bowl of ramen. Let's dive into the steps to prepare this complex dish!</p>
+<h2 id="overview">cookingdom level 12 Game Overview</h2>
+<p>In Cookingdom Level 12 brings a hearty and complex dish: Ramen. This Japanese favorite requires multiple components to be prepared at once: the broth, noodles, and toppings. In cookingdom level 12 your goal is to create the perfect bowl of ramen that will keep your customers coming back for more. You\'ll need to balance timing, multitask, and pay attention to details to ensure each bowl of ramen is flavorful, warm, and perfectly garnished.</p>
+<p>Ramen in cookingdom level 12 is an opportunity to show off your skills in both cooking and presentation, as customers will have specific preferences for their bowl of ramen. Let's dive into the steps to prepare this complex dish!</p>
 
-<h2 id="goal">Level 12 Goals</h2>
+<h2 id="goal">cookingdom Level 12 Goals</h2>
 <ul>
-    <li><strong>Prepare the Ramen Broth:</strong> The broth is the foundation of any great ramen, and in Cookingdom, getting it just right is essential for customer satisfaction. You'll need to make sure the broth is flavorful and well-seasoned.</li>
-    <li><strong>Cook the Ramen Noodles:</strong> Ramen noodles are quick to cook but need to be perfectly timed. Too long in the water, and they'll be overcooked; too little, and they'll be too tough.</li>
-    <li><strong>Add the Toppings:</strong> The finishing touches of ramen are just as important as the noodles and broth. You'll need to prepare toppings like eggs, vegetables, and meat, and arrange them carefully for a visually appealing dish.</li>
-    <li><strong>Serve Quickly:</strong> Timing is everything in Cookingdom, and ramen is best served fresh and hot. The faster you serve the ramen, the happier your customers will be.</li>
+    <li><strong>Prepare the Ramen Broth:</strong> The broth is the foundation of any great ramen, and in cookingdom level 12, getting it just right is essential for customer satisfaction. You'll need to make sure the broth is flavorful and well-seasoned.</li>
+    <li><strong>Cook the Ramen Noodles:</strong> Ramen noodles are quick to cook but need to be perfectly timed. </li>
+    <li><strong>Add the Toppings:</strong> The finishing touches of ramen are just as important as the noodles and broth.</li>
+    <li><strong>Serve Quickly:</strong> Timing is everything in cookingdom Level 12 , and ramen is best served fresh and hot. The faster you serve the ramen, the happier your customers will be.</li>
 </ul>
 
-<h2 id="steps">Steps to Make Ramen</h2>
+<h2 id="steps">cookingdom Level 12 Steps to Make Ramen</h2>
 <ol>
     <li>
-        <h3>Prepare the Ramen Broth:</h3>
-        <p>The first step in making Ramen is to prepare the broth. Cookingdom will guide you through the process of adding ingredients to a pot to create the perfect broth. Typically, a rich, savory broth is made from a mix of water, soy sauce, miso, and/or chicken stock.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you'll be able to adjust the flavor by adding ingredients like garlic, ginger, or green onions. Make sure to simmer the broth for the right amount of time so it becomes rich and flavorful.</p>
+        <h3>cookingdom Level 12 Prepare the Ramen Broth:</h3>
+        <p>The first step in making Ramen is to prepare the broth. cookingdom Level 12 will guide you through the process of adding ingredients to a pot to create the perfect broth. Typically, a rich, savory broth is made from a mix of water, soy sauce, miso, and/or chicken stock.</p>
+        <p><strong>Tip:</strong> In cookingdom Level 12 , you'll be able to adjust the flavor by adding ingredients like garlic, ginger, or green onions. Make sure to simmer the broth for the right amount of time so it becomes rich and flavorful.</p>
         <p><strong>Tip:</strong> Keep an eye on the temperature. If the broth is too hot or too cold, it may not have the right consistency. Stir occasionally to avoid burning or over-reduction.</p>
     </li>
     <li>
-        <h3>Cook the Ramen Noodles:</h3>
-        <p>While the broth is simmering, start cooking the ramen noodles. In Cookingdom, the noodles will cook quickly, usually in just a few minutes. Add the noodles to boiling water, and ensure they don't stick together.</p>
+        <h3>cookingdom Level 12 Cook the Ramen Noodles:</h3>
+        <p>While the broth is simmering, start cooking the ramen noodles. In cookingdom Level 12 , the noodles will cook quickly, usually in just a few minutes. Add the noodles to boiling water, and ensure they don't stick together.</p>
         <p><strong>Tip:</strong> Stir the noodles occasionally to keep them separated. You'll know the noodles are ready when they become tender but still firm to the bite.</p>
         <p><strong>Tip:</strong> Timing is crucial here! Undercooked noodles will be too chewy, while overcooked noodles will turn mushy. Keep an eye on the timer to ensure the noodles are cooked to perfection.</p>
     </li>
     <li>
-        <h3>Prepare the Toppings:</h3>
-        <p>While the broth is simmering and the noodles are cooking, it's time to prepare the toppings for your ramen. Cookingdom offers a variety of options, such as boiled eggs, sliced pork, seaweed, corn, and vegetables.</p>
+        <h3>cookingdom Level 12 Prepare the Toppings:</h3>
+        <p>While the broth is simmering and the noodles are cooking, it's time to prepare the toppings for your ramen. cookingdom Level 12 offers a variety of options, such as boiled eggs, sliced pork, seaweed, corn, and vegetables.</p>
         <p><strong>Tip:</strong> Soft-boiled eggs are a popular ramen topping. To prepare them, cook the eggs for 6-7 minutes for a slightly runny yolk, and then peel them carefully.</p>
-        <p><strong>Tip:</strong> You can also add vegetables like spinach, bok choy, or mushrooms. Sauté them lightly or serve them fresh, depending on your recipe in Cookingdom.</p>
+        <p><strong>Tip:</strong> You can also add vegetables like spinach, bok choy, or mushrooms. Sauté them lightly or serve them fresh, depending on your recipe in cookingdom Level 12 .</p>
     </li>
     <li>
-        <h3>Assemble the Ramen:</h3>
-        <p>Once the broth, noodles, and toppings are ready, it's time to assemble the ramen bowl. Start by ladling the broth into a bowl, then add the cooked noodles. Carefully arrange your toppings on top, ensuring that the dish looks appetizing and balanced.</p>
-        <p><strong>Tip:</strong> The presentation is key in Cookingdom. Arrange the toppings neatly, and consider the colors and textures to make the ramen look appealing. A well-presented dish will result in a higher customer rating.</p>
+        <h3>cookingdom Level 12 Assemble the Ramen:</h3>
+        <p>Once the broth, noodles, and toppings are ready, it's time to assemble the ramen bowl. </p>
+        <p><strong>Tip:</strong> The presentation is key in cookingdom Level 12 . Arrange the toppings neatly, and consider the colors and textures to make the ramen look appealing. A well-presented dish will result in a higher customer rating.</p>
     </li>
     <li>
-        <h3>Serve the Ramen:</h3>
-        <p>Once your ramen is perfectly assembled, it's time to serve! Make sure the ramen is hot when you serve it, as Cookingdom customers expect their food fresh and steaming.</p>
-        <p><strong>Tip:</strong> Don't let the ramen sit out too long. The longer it waits, the colder it gets, and cold ramen can disappoint customers.</p>
-    </li>
+        <h3>cookingdom Level 12 Serve the Ramen:</h3>
+        <p>Once your ramen is perfectly assembled, it's time to serve! Make sure the ramen is hot when you serve it, as cookingdom Level 12 customers expect their food fresh and steaming.</p>
+            </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">cookingdom Level 12 Tips & Tricks</h2>
 <ul>
     <li>
-        <strong>Perfect Broth:</strong> The broth is the soul of the ramen, so make sure to get the seasoning just right. Experiment with different ingredients to adjust the flavor to your liking. In Cookingdom, you can tweak the broth to suit customer preferences (e.g., saltier, spicier).
-        <p><strong>Tip:</strong> Add a small amount of soy sauce or miso for a richer flavor. Also, consider simmering the broth for a longer time to deepen the taste.</p>
+        <strong>Perfect Broth:</strong> The broth is the soul of the ramen, so make sure to get the seasoning just right. Experiment with different ingredients to adjust the flavor to your liking. In cookingdom Level 12 , you can tweak the broth to suit customer preferences (e.g., saltier, spicier).
+       
+    <li>
+        <strong>Time the Noodles:</strong> cookingdom Level 12 challenges you with cooking ramen noodles just right. Keep a close eye on the timer and stir the noodles to prevent clumping. If the noodles overcook, they'll lose their texture, and your customers won't be satisfied.
     </li>
     <li>
-        <strong>Time the Noodles:</strong> Cookingdom challenges you with cooking ramen noodles just right. Keep a close eye on the timer and stir the noodles to prevent clumping. If the noodles overcook, they'll lose their texture, and your customers won't be satisfied.
+        <strong>Toppings Variety:</strong> Customers in cookingdom Level 12 may request different toppings, so be ready to customize their ramen bowl to match their preferences. Whether it\'s a boiled egg, sliced pork, or fresh vegetables, always check the order carefully to avoid any mistakes.
+        
+    <li>
+        <strong>Upgrade Your Kitchen Tools:</strong> As you progress through cookingdom Level 12 , you can unlock upgrades for your kitchen. Consider upgrading your pot for faster broth preparation or a larger stove to cook noodles more efficiently. This can save you time and help you meet customer demands more quickly.
     </li>
     <li>
-        <strong>Toppings Variety:</strong> Customers in Cookingdom may request different toppings, so be ready to customize their ramen bowl to match their preferences. Whether it\'s a boiled egg, sliced pork, or fresh vegetables, always check the order carefully to avoid any mistakes.
-        <p><strong>Tip:</strong> Adding more colorful ingredients can improve the presentation and flavor of the ramen. Green onions, sesame seeds, or chili flakes are great additions.</p>
-    </li>
-    <li>
-        <strong>Upgrade Your Kitchen Tools:</strong> As you progress through Cookingdom, you can unlock upgrades for your kitchen. Consider upgrading your pot for faster broth preparation or a larger stove to cook noodles more efficiently. This can save you time and help you meet customer demands more quickly.
-    </li>
-    <li>
-        <strong>Multitasking:</strong> In Cookingdom, you'll likely have several orders to manage at once. Start the broth early and cook the noodles while preparing the toppings to save time. Managing multiple elements at once is crucial to getting everything right in time.
+        <strong>Multitasking:</strong> In cookingdom Level 12 , you'll likely have several orders to manage at once. Start the broth early and cook the noodles while preparing the toppings to save time. Managing multiple elements at once is crucial to getting everything right in time.
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 12 of Cookingdom, making Ramen involves a careful balance of cooking the broth, preparing the noodles, and adding the perfect toppings. It's a multi-step dish that requires timing, precision, and speed. The key to success is making sure everything is cooked to perfection and served hot. With practice, you'll be able to tackle this flavorful dish and keep your customers happy with the right blend of ingredients.</p>
-<p>As you continue through Cookingdom, the challenges will get tougher, but mastering ramen will set you on the path to becoming a top chef in the game. Keep your customers satisfied with well-seasoned broth, tender noodles, and fresh toppings, and you'll continue to rise in the ranks of Cookingdom!</p>
+<p>In Level 12 of cookingdom Level 12, making Ramen involves a careful balance of cooking the broth, preparing the noodles, and adding the perfect toppings. It's a multi-step dish that requires timing, precision, and speed. The key to success is making sure everything is cooked to perfection and served hot. With practice, you'll be able to tackle this flavorful dish and keep your customers happy with the right blend of ingredients.</p>
+<p>As you continue through cookingdom Level 12, the challenges will get tougher, but mastering ramen will set you on the path to becoming a top chef in the game. Keep your customers satisfied with well-seasoned broth, tender noodles, and fresh toppings, and you'll continue to rise in the ranks of Cookingdom!</p>
 `,
   },
   {
@@ -1211,16 +1207,15 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
     iframeUrl: 'https://www.youtube.com/embed/-at0GKqanSg', // Placeholder
     seo: {
-      title: 'Cookingdom Level 13 Guide: Hotdog | Tips & Strategy',
+      title: 'Cookingdom Level 13 Guide: Hotdog | cookigdom.co',
       description:
-        'Master the Hotdog in Cookingdom Level 13. Tips for cooking sausages, grilling buns, adding condiments, and fast service.',
-      keywords:
-        'cookingdom, level 13, hotdog, guide, sausage, bun, condiments, fast food, strategy',
+        'Master the Hotdog in Cookingdom Level 13 . Tips for cooking sausages, grilling buns, adding condiments, and fast service.',
+      keywords: 'cookingdom level 13, cookingdom hotdog, guide, sausage, fast food, strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_13.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Hotdog</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 2 minutes</p><p><strong>Reward:</strong> 4 Stars</p>', // Estimation
+        '<h3>cookingdom level 13 Hotdog</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 2 minutes</p><p><strong>Reward:</strong> 4 Stars</p>', // Estimation
       featuredGuides: [
         {
           id: 'cookingdom-game-level-10',
@@ -1243,33 +1238,31 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 13 introduces you to a beloved fast food classic: the Hotdog. While it may seem simple, preparing the perfect hotdog requires attention to detail, especially when managing customer orders and timing. In this level, you'll need to focus on cooking the perfect sausage, grilling the buns, and adding just the right condiments to satisfy your customers' cravings.</p>
-<p>The challenge in Cookingdom lies in keeping up with the increasing customer demand while ensuring each hotdog is served quickly and to perfection. Are you ready to take on this delicious challenge? Let's break down how to make the perfect hotdog!</p>
+<h2 id="overview">cookingdom level 13 Game Overview</h2>
+<p>In Cookingdom Level 13 introduces you to a beloved fast food classic: the Hotdog. While it may seem simple, preparing the perfect hotdog requires attention to detail, especially when managing customer orders and timing. In this level, you'll need to focus on cooking the perfect sausage, grilling the buns, and adding just the right condiments to satisfy your customers' cravings.</p>
+<p>The challenge in cookingdom level 13 lies in keeping up with the increasing customer demand while ensuring each hotdog is served quickly and to perfection. </p>
 
-<h2 id="goal">Level 13 Goals</h2>
+<h2 id="goal">cookingdom Level 13 Goals</h2>
 <ul>
     <li><strong>Cook the Sausages:</strong> The sausage is the star of the hotdog. You'll need to grill it to just the right level of crispiness without overcooking it.</li>
     <li><strong>Grill the Buns:</strong> The buns must be toasted lightly to add a nice crunch and enhance the flavor of the hotdog.</li>
-    <li><strong>Add Condiments and Toppings:</strong> Customize each hotdog with popular condiments like ketchup, mustard, relish, onions, and other toppings. Ensure each order matches the customer's preferences.</li>
-    <li><strong>Serve Quickly:</strong> As with all dishes in Cookingdom, serving the hotdog quickly is key. The faster you serve, the happier your customers will be.</li>
+    <li><strong>Add Condiments and Toppings:</strong> Customize each hotdog with popular condiments like ketchup, mustard, relish, onions, and other toppings.</li>
+    <li><strong>Serve Quickly:</strong> As with all dishes in cookingdom level 13 , serving the hotdog quickly is key. The faster you serve, the happier your customers will be.</li>
 </ul>
 
-<h2 id="steps">Steps to Make Hotdog</h2>
+<h2 id="steps">cookingdom Level 13 Steps to Make Hotdog</h2>
 <ol>
     <li>
-        <h3>Cook the Sausages:</h3>
-        <p>Start by cooking the sausages. In Cookingdom, you'll be provided with a grill or stovetop where you can heat the sausages. Be sure to monitor the cooking time closely — too long, and they'll become burnt, too short, and they'll be undercooked.</p>
-        <p><strong>Tip:</strong> Look for visual cues like browning or sizzling to gauge when the sausages are ready. Keep turning them to ensure even cooking on all sides.</p>
-    </li>
+        <h3>cookingdom Level 13 Cook the Sausages:</h3>
+        <p>Start by cooking the sausages. In cookingdom Level 13 , you'll be provided with a grill or stovetop where you can heat the sausages. Be sure to monitor the cooking time closely — too long, and they'll become burnt, too short, and they'll be undercooked.</p>
+        </li>
     <li>
-        <h3>Grill the Buns:</h3>
+        <h3>cookingdom Level 13 Grill the Buns:</h3>
         <p>While the sausages are cooking, you can toast the buns. Place the buns on the grill or griddle, ensuring they become lightly browned and slightly crispy. In Cookingdom, the buns should be soft on the inside but have a slight crunch on the outside.</p>
-        <p><strong>Tip:</strong> Don't overdo the toasting! You want the buns to be warm and crisp, but not burnt. Keep an eye on them to prevent them from getting too dark.</p>
-    </li>
+            </li>
     <li>
-        <h3>Prepare the Condiments and Toppings:</h3>
-        <p>Cookingdom allows you to add a variety of condiments to your hotdog. Common options include:</p>
+        <h3>cookingdom Level 13 Prepare the Condiments and Toppings:</h3>
+        <p>cookingdom Level 13 allows you to add a variety of condiments to your hotdog. Common options include:</p>
         <ul>
             <li>Ketchup</li>
             <li>Mustard</li>
@@ -1281,43 +1274,42 @@ export const guides = [
             <li>Jalapeños</li>
         </ul>
         <p>Ensure you read each customer order carefully to add the right condiments and toppings. Some customers may prefer a basic hotdog, while others want extra toppings.</p>
-        <p><strong>Tip:</strong> You can add multiple toppings for a more flavorful and complex hotdog. Be sure to layer them evenly on the sausage for a balanced bite.</p>
+       
     </li>
     <li>
-        <h3>Assemble the Hotdog:</h3>
-        <p>Once the sausage is perfectly cooked and the buns are toasted, it's time to assemble the hotdog. Place the sausage in the bun and add the requested condiments and toppings. Cookingdom allows you to customize each order, so pay attention to detail!</p>
-        <p><strong>Tip:</strong> Don't overstuff the hotdog. A little goes a long way with condiments, and too many toppings can overwhelm the flavor of the sausage.</p>
-    </li>
+        <h3>cookingdom Level 13 Assemble the Hotdog:</h3>
+        <p>Once the sausage is perfectly cooked and the buns are toasted, it's time to assemble the hotdog. Place the sausage in the bun and add the requested condiments and toppings. cookingdom Level 13 allows you to customize each order, so pay attention to detail!</p>
+            </li>
     <li>
-        <h3>Serve the Hotdog:</h3>
-        <p>After assembling the hotdog, it's time to serve it. Make sure it's still warm and fresh. Cookingdom customers expect their food to be hot and delicious, so don't leave it sitting out too long.</p>
+        <h3>cookingdom Level 13 Serve the Hotdog:</h3>
+        <p>After assembling the hotdog, it's time to serve it. Make sure it's still warm and fresh. cookingdom Level 13 customers expect their food to be hot and delicious, so don't leave it sitting out too long.</p>
         <p><strong>Tip:</strong> The fresher the hotdog, the better your rating will be. Serve it quickly to keep your customers satisfied.</p>
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">cookingdom Level 13 Tips & Tricks</h2>
 <ul>
     <li>
         <strong>Monitor Cooking Time:</strong> Timing is crucial when grilling the sausages and buns. Under-cooked sausages won't taste right, and overcooked sausages will be dry. Keep a close eye on the cooking process to get the perfect balance.
     </li>
     <li>
-        <strong>Customization is Key:</strong> In Cookingdom, customers often have specific preferences for their hotdogs. Some may want extra mustard, while others prefer a simpler version. Always read each order carefully and customize the hotdog to match what's requested.
+        <strong>Customization is Key:</strong> In cookingdom Level 13, customers often have specific preferences for their hotdogs. Some may want extra mustard, while others prefer a simpler version. Always read each order carefully and customize the hotdog to match what's requested.
     </li>
     <li>
-        <strong>Use a Sharp Knife for Toppings:</strong> If you're adding toppings like onions or pickles, make sure you slice them thinly. In Cookingdom, neat presentation is important, and well-sliced toppings make the hotdog more visually appealing.
+        <strong>Use a Sharp Knife for Toppings:</strong> If you're adding toppings like onions or pickles, make sure you slice them thinly. In cookingdom Level 13, neat presentation is important, and well-sliced toppings make the hotdog more visually appealing.
     </li>
     <li>
-        <strong>Upgrade Your Equipment:</strong> As you progress in Cookingdom, consider upgrading your grill or stove. A faster cooking process can help you handle multiple orders at once, improving your efficiency in a busy kitchen.
+        <strong>Upgrade Your Equipment:</strong> As you progress in cookingdom Level 13 , consider upgrading your grill or stove. A faster cooking process can help you handle multiple orders at once, improving your efficiency in a busy kitchen.
         <p><strong>Tip:</strong> You can also upgrade your bun toaster to make the toasting process quicker, allowing you to keep up with the increased customer demand.</p>
     </li>
     <li>
-        <strong>Serve Quickly:</strong> Cookingdom rewards quick service. The faster you assemble and serve the hotdog, the better the customer satisfaction. Always keep an eye on the clock, as Cookingdom customers tend to get impatient if their food isn't served quickly.
+        <strong>Serve Quickly:</strong> cookingdom Level 13 rewards quick service. The faster you assemble and serve the hotdog, the better the customer satisfaction.
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 13 of Cookingdom, preparing the perfect Hotdog is all about timing and customization. Cooking the sausages and buns to perfection, adding the right condiments, and serving quickly are the key to success. As with all levels in Cookingdom, multitasking is essential. Keep the grill and bun toaster working in tandem while preparing the toppings to maximize efficiency.</p>
-<p>Mastering this fast food classic will help you continue to progress in Cookingdom. Whether you're serving a simple hotdog or one loaded with toppings, attention to detail and speed will make all the difference in earning those high ratings from your customers.</p>
+<p>In cookingdom Level 13, preparing the perfect Hotdog is all about timing and customization. Cooking the sausages and buns to perfection, adding the right condiments, and serving quickly are the key to success. As with all levels in Cookingdom, multitasking is essential. Keep the grill and bun toaster working in tandem while preparing the toppings to maximize efficiency.</p>
+<p>Mastering this fast food classic will help you continue to progress in cookingdom Level 13. Whether you're serving a simple hotdog or one loaded with toppings, attention to detail and speed will make all the difference in earning those high ratings from your customers.</p>
 `,
   },
   {
@@ -1336,7 +1328,7 @@ export const guides = [
       description:
         'Master Salmon with Minestrone in Cookingdom Level 14. Tips for cooking salmon, preparing minestrone soup, and balancing complex dishes.',
       keywords:
-        'cookingdom, level 14, salmon, minestrone, soup, guide, cooking fish, italian soup, strategy',
+        'cookingdom level 14, cookingdom salmon, minestrone, soup, guide, cooking fish, strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_14.webp', // Placeholder
@@ -1364,39 +1356,39 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 14 presents a slightly more sophisticated dish: Salmon with Minestrone. This level introduces a combination of two popular items — a healthy, protein-packed salmon fillet served with a hearty, vegetable-filled minestrone soup. As with all recipes in Cookingdom, attention to detail, timing, and multitasking are essential to create the perfect dish for your customers.</p>
-<p>Unlike other levels that focus on simpler items, this level challenges you to balance two complex elements at once: the salmon and the soup. Let\'s break down how to successfully prepare Salmon with Minestrone in Cookingdom.</p>
+<h2 id="overview">Cookingdom Level 14 Game Overview</h2>
+<p>In Cookingdom Level 14 presents a slightly more sophisticated dish: Salmon with Minestrone. This level introduces a combination of two popular items — a healthy, protein-packed salmon fillet served with a hearty, vegetable-filled minestrone soup. As with all recipes in Cookingdom Level 14, attention to detail, timing, and multitasking are essential to create the perfect dish for your customers.</p>
+<p>Unlike other levels that focus on simpler items, this level challenges you to balance two complex elements at once: the salmon and the soup. Let\'s break down how to successfully prepare Salmon with Minestrone in Cookingdom Level 14.</p>
 
-<h2 id="goal">Level 14 Goals</h2>
+<h2 id="goal">Cookingdom Level 14 Goals</h2>
 <ul>
     <li><strong>Cook the Salmon:</strong> Salmon must be cooked perfectly — crispy on the outside and tender on the inside. You'll need to ensure the timing is just right to avoid overcooking the fish.</li>
-    <li><strong>Prepare the Minestrone Soup:</strong> Minestrone is a hearty Italian soup made with a variety of vegetables, beans, and pasta. In Cookingdom, you'll need to carefully manage each ingredient, ensuring the soup is flavorful and cooked properly.</li>
-    <li><strong>Serve Quickly:</strong> As always in Cookingdom, serving your dish quickly and fresh is key to earning a great rating. The salmon should be hot, the soup should be flavorful, and both components should be served together while still fresh and appetizing.</li>
+    <li><strong>Prepare the Minestrone Soup:</strong> Minestrone is a hearty Italian soup made with a variety of vegetables, beans, and pasta. In Cookingdom Level 14, you'll need to carefully manage each ingredient, ensuring the soup is flavorful and cooked properly.</li>
+    <li><strong>Serve Quickly:</strong> As always in Cookingdom Level 14, serving your dish quickly and fresh is key to earning a great rating. The salmon should be hot, the soup should be flavorful, and both components should be served together while still fresh and appetizing.</li>
 </ul>
 
 <h2 id="steps">Steps to Make Salmon with Minestrone</h2>
 <ol>
     <li>
         <h3>Prepare the Minestrone Soup:</h3>
-        <p>Start by cooking the minestrone soup. In Cookingdom, you'll begin by sautéing some base ingredients like onions, garlic, and carrots in a pot. Once these are softened, you'll add in the beans, vegetables, pasta, and broth.</p>
+        <p>Start by cooking the minestrone soup. In Cookingdom Level 14, you'll begin by sautéing some base ingredients like onions, garlic, and carrots in a pot. Once these are softened, you'll add in the beans, vegetables, pasta, and broth.</p>
         <p><strong>Tip:</strong> Stir the soup regularly to ensure it doesn't stick to the pot. Once everything is combined, let the soup simmer to allow the flavors to meld together. You'll know it's ready when the vegetables are tender and the broth is rich and flavorful.</p>
-        <p><strong>Tip:</strong> In Cookingdom, there's a visual timer for the soup. Keep an eye on it to prevent overcooking. Overcooked soup will lose its fresh taste and texture.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 14, there's a visual timer for the soup. Keep an eye on it to prevent overcooking. Overcooked soup will lose its fresh taste and texture.</p>
     </li>
     <li>
         <h3>Cook the Salmon:</h3>
-        <p>While the soup is simmering, focus on the salmon. Place the salmon fillets on a heated grill or pan and cook them. In Cookingdom, the salmon will need to be seared on both sides for a crispy texture, while still remaining tender on the inside.</p>
-        <p><strong>Tip:</strong> The perfect cooking time for salmon in Cookingdom is crucial. Watch for the golden crust on the outside and check the inside for doneness. Overcooked salmon will be dry, so ensure it's just cooked through — a slight pinkness inside is okay for perfect salmon.</p>
+        <p>While the soup is simmering, focus on the salmon. Place the salmon fillets on a heated grill or pan and cook them. In Cookingdom Level 14, the salmon will need to be seared on both sides for a crispy texture, while still remaining tender on the inside.</p>
+        <p><strong>Tip:</strong> The perfect cooking time for salmon in Cookingdom Level 14 is crucial. Watch for the golden crust on the outside and check the inside for doneness. Overcooked salmon will be dry, so ensure it's just cooked through — a slight pinkness inside is okay for perfect salmon.</p>
         <p><strong>Tip:</strong> You can add seasoning or a splash of lemon juice to enhance the flavor of the salmon.</p>
     </li>
     <li>
         <h3>Combine the Dish:</h3>
         <p>Once both the salmon and the minestrone soup are ready, it's time to plate the dish. Begin by ladling the soup into a bowl, ensuring there's a nice balance of vegetables, pasta, and broth. Place the cooked salmon fillet alongside the soup, making sure the salmon is positioned neatly to complement the soup's presentation.</p>
-        <p><strong>Tip:</strong> Presentation matters in Cookingdom! Arrange the salmon nicely on the plate, and make sure the soup is served with a generous amount of vegetables and pasta.</p>
+        <p><strong>Tip:</strong> Presentation matters in Cookingdom Level 14! Arrange the salmon nicely on the plate, and make sure the soup is served with a generous amount of vegetables and pasta.</p>
     </li>
     <li>
         <h3>Serve the Dish:</h3>
-        <p>After plating the Salmon with Minestrone, it's time to serve. Make sure both the salmon and the soup are hot. Cookingdom customers expect fresh, hot meals, and serving the dish quickly will help increase your rating.</p>
+        <p>After plating the Salmon with Minestrone, it's time to serve. Make sure both the salmon and the soup are hot. Cookingdom Level 14 customers expect fresh, hot meals, and serving the dish quickly will help increase your rating.</p>
         <p><strong>Tip:</strong> Don't wait too long to serve the dish. The longer it sits, the colder it gets, and cold food can lead to dissatisfied customers.</p>
     </li>
 </ol>
@@ -1407,7 +1399,7 @@ export const guides = [
         <strong>Perfectly Cooked Salmon:</strong> To avoid overcooking the salmon, use a visual timer or watch the color change. The salmon should have a nice golden-brown crust on the outside, while still being tender and slightly pink inside. Don't leave it on the grill too long.
     </li>
     <li>
-        <strong>Balance the Minestrone Soup:</strong> Cookingdom requires that you maintain a balance between the different elements of the minestrone soup, such as pasta, vegetables, and beans. Make sure you add the right amount of each ingredient to avoid one overpowering the others.
+        <strong>Balance the Minestrone Soup:</strong> Cookingdom Level 14 requires that you maintain a balance between the different elements of the minestrone soup, such as pasta, vegetables, and beans. Make sure you add the right amount of each ingredient to avoid one overpowering the others.
         <p><strong>Tip:</strong> If the soup is too thick, add a little extra broth or water to loosen it up before serving.</p>
     </li>
     <li>
@@ -1415,16 +1407,16 @@ export const guides = [
         <p><strong>Tip:</strong> You can start the soup cooking first, then focus on the salmon. This way, the soup will have plenty of time to simmer while you finish cooking the fish.</p>
     </li>
     <li>
-        <strong>Upgrade Your Kitchen:</strong> As you progress through Cookingdom, consider upgrading your kitchen equipment. A faster cooking process for both the salmon and the soup will help you handle more orders in less time, allowing you to increase efficiency and customer satisfaction.
+        <strong>Upgrade Your Kitchen:</strong> As you progress through Cookingdom Level 14, consider upgrading your kitchen equipment. A faster cooking process for both the salmon and the soup will help you handle more orders in less time, allowing you to increase efficiency and customer satisfaction.
         <p><strong>Tip:</strong> Upgrade your stove for faster cooking times, and look for ways to speed up the soup simmering process.</p>
     </li>
     <li>
-        <strong>Serve the Dish Hot:</strong> Freshness is key in Cookingdom, so make sure to serve the dish as soon as both the salmon and soup are ready. Cold or lukewarm food will lead to disappointed customers and lower ratings.
+        <strong>Serve the Dish Hot:</strong> Freshness is key in Cookingdom Level 14, so make sure to serve the dish as soon as both the salmon and soup are ready. Cold or lukewarm food will lead to disappointed customers and lower ratings.
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 14 of Cookingdom, preparing Salmon with Minestrone requires precision and multitasking. Cooking the salmon to the perfect level of tenderness and crispiness, while simmering the soup to a flavorful finish, can be tricky but rewarding. Managing both elements at once and serving them hot and fresh will ensure your customers leave satisfied.</p>
+<p>In Cookingdom Level 14, preparing Salmon with Minestrone requires precision and multitasking. Cooking the salmon to the perfect level of tenderness and crispiness, while simmering the soup to a flavorful finish, can be tricky but rewarding. Managing both elements at once and serving them hot and fresh will ensure your customers leave satisfied.</p>
 <p>By focusing on perfect timing, balancing the flavors of the soup, and ensuring the salmon is cooked just right, you'll master this dish in no time. Continue upgrading your equipment and refining your skills to handle the increasing complexity of dishes as you progress through Cookingdom!</p>
 `,
   },
@@ -1441,16 +1433,16 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
     iframeUrl: 'https://www.youtube.com/embed/clZlGkI5iOI', // Placeholder
     seo: {
-      title: 'Cookingdom Level 15 Guide: Chicken Fried | Tips & Strategy',
+      title: 'Cookingdom Level 15 Guide: Chicken Fried |cookingdom.co',
       description:
         'Master Chicken Fried in Cookingdom Level 15. Get tips on achieving crispy chicken, managing sides (mashed potatoes, coleslaw, fries), and serving quickly.',
       keywords:
-        'Cookingdom, Level 15, Chicken Fried, Fried Chicken, Guide, Crispy Chicken, Sides, Mashed Potatoes, Coleslaw, Fries, Strategy',
+        'Cookingdom Level 15, Cookingdom Chicken Fried, Fried Chicken, Guide, Crispy Chicken, Coleslaw, Fries, Strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_15.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Chicken Fried</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 3.5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimated
+        '<h3>Cookingdom Level 15 Chicken Fried</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 3.5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimated
       featuredGuides: [
         {
           id: 'cookingdom-game-level-12',
@@ -1473,85 +1465,84 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 15 introduces a classic comfort food: Chicken Fried. This level challenges you to prepare crispy, golden-brown fried chicken, paired with the perfect sides to create a satisfying meal. The process may seem straightforward, but the game adds its own set of challenges to ensure you stay on your toes. Timing, temperature, and seasoning will play a crucial role in making the chicken crispy and juicy while keeping your customers satisfied.</p>
-<p>Cooking the perfect Chicken Fried in Cookingdom requires both focus and speed. Let's dive into the steps to successfully prepare this hearty dish!</p>
+<h2 id="overview">Cookingdom Level 15 Game Overview</h2>
+<p>In Cookingdom Level 15 introduces a classic comfort food: Chicken Fried. This level challenges you to prepare crispy, golden-brown fried chicken, paired with the perfect sides to create a satisfying meal. The process may seem straightforward, but the game adds its own set of challenges to ensure you stay on your toes. Timing, temperature, and seasoning will play a crucial role in making the chicken crispy and juicy while keeping your customers satisfied.</p>
+<p>Cooking the perfect Chicken Fried in Cookingdom Level 15 requires both focus and speed. Let's dive into the steps to successfully prepare this hearty dish!</p>
 
-<h2 id="goal">Level 15 Goals</h2>
+<h2 id="goal">Cookingdom Level 15 Goals</h2>
 <ul>
     <li>
-        <strong>Prepare the Chicken:</strong> The chicken must be coated in a seasoned batter and fried to golden perfection. Managing the oil temperature is key to avoid undercooking or burning the chicken.
+        <strong>Prepare the Chicken:</strong> The chicken must be coated in a seasoned batter and fried to golden perfection.
     </li>
     <li>
-        <strong>Cook the Sides:</strong> Typically, Chicken Fried is served with sides like mashed potatoes, coleslaw, or fries. You'll need to balance the preparation of these sides while frying the chicken.
+        <strong>Cook the Sides:</strong> Typically, Chicken Fried is served with sides like mashed potatoes, coleslaw, or fries.
     </li>
     <li>
-        <strong>Serve Quickly:</strong> As with all levels in Cookingdom, serving the dish quickly is important for customer satisfaction. Fresh and hot meals will earn you better ratings.
+        <strong>Serve Quickly:</strong> As with all levels in Cookingdom Level 15, serving the dish quickly is important for customer satisfaction. 
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Chicken Fried</h2>
+<h2 id="steps">Cookingdom Level 15 Steps to Make Chicken Fried</h2>
 <ol>
     <li>
-        <h3>Prepare the Chicken:</h3>
+        <h3>Cookingdom Level 15 Prepare the Chicken:</h3>
         <p>Start by seasoning the chicken pieces. In Cookingdom, you'll dip the chicken into a seasoned batter before placing it into a hot frying pan or deep fryer.</p>
         <p><strong>Tip:</strong> Make sure the batter is evenly applied to the chicken for a crispy and golden exterior. Season the batter to enhance the flavor, and ensure the oil temperature is correct. If the oil is too hot, the chicken will burn on the outside but remain raw on the inside.</p>
         <p><strong>Tip:</strong> Turn the chicken pieces periodically while frying to ensure they cook evenly and achieve that perfect crispy texture.</p>
     </li>
     <li>
-        <h3>Cook the Sides:</h3>
+        <h3>Cookingdom Level 15 Cook the Sides:</h3>
         <p>While the chicken is frying, you'll need to prepare the side dishes. Common sides for Chicken Fried include:</p>
         <ul>
-            <li><strong>Mashed Potatoes:</strong> In Cookingdom, you'll need to boil and mash the potatoes, then add butter, milk, and seasoning.</li>
+            <li><strong>Mashed Potatoes:</strong> In Cookingdom Level 15 , you'll need to boil and mash the potatoes, then add butter, milk, and seasoning.</li>
             <li><strong>Coleslaw:</strong> You can quickly prepare coleslaw by chopping vegetables and mixing them with a creamy dressing.</li>
             <li><strong>Fries:</strong> If fries are on the menu, make sure to fry them until they are crispy and golden brown.</li>
         </ul>
-        <p><strong>Tip:</strong> You can prepare these sides while the chicken is frying. If you're multitasking, make sure none of the sides are overcooked or undercooked.</p>
+        <p><strong>Cookingdom Level 15 Tip:</strong> You can prepare these sides while the chicken is frying. If you're multitasking, make sure none of the sides are overcooked or undercooked.</p>
     </li>
     <li>
-        <h3>Assemble the Dish:</h3>
+        <h3>Cookingdom Level 15 Assemble the Dish:</h3>
         <p>Once the chicken is perfectly fried and the sides are ready, it's time to plate the dish. Arrange the fried chicken on the plate and add the sides, ensuring everything is well-presented. You can add garnishes like parsley or a drizzle of gravy for extra flavor.</p>
-        <p><strong>Tip:</strong> Keep the sides balanced with the fried chicken so the dish looks appealing. A well-arranged plate will impress your customers.</p>
-    </li>
+           </li>
     <li>
-        <h3>Serve the Chicken Fried:</h3>
-        <p>After plating, serve the dish quickly while it's still hot. Cookingdom customers expect freshly cooked meals, and the faster you serve, the higher your ratings will be.</p>
-        <p><strong>Tip:</strong> Don't let the chicken sit for too long before serving. Fried chicken is best enjoyed immediately after cooking, as it can lose its crispiness if it cools down.</p>
+        <h3>Cookingdom Level 15 Serve the Chicken Fried:</h3>
+        <p>After plating, serve the dish quickly while it's still hot. Cookingdom Level 15 customers expect freshly cooked meals, and the faster you serve, the higher your ratings will be.</p>
+       
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 15 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Perfect Fried Chicken:</h3>
         <p>The key to perfect fried chicken is frying at the right temperature. If the oil is too hot, the batter will burn before the chicken is fully cooked inside. If the oil is too cool, the chicken will absorb too much oil and become greasy.</p>
-        <p><strong>Tip:</strong> Keep the oil at a steady temperature. You can test the oil by dropping a small piece of batter into it; it should bubble immediately without burning.</p>
+        
     </li>
     <li>
         <h3>Manage the Sides:</h3>
-        <p>Cookingdom challenges you to multitask, so managing the cooking of the sides is just as important as frying the chicken. Be sure to keep an eye on the timer to ensure nothing is overcooked.</p>
+        <p>Cookingdom Level 15  challenges you to multitask, so managing the cooking of the sides is just as important as frying the chicken. Be sure to keep an eye on the timer to ensure nothing is overcooked.</p>
         <p><strong>Tip:</strong> Start preparing the sides as soon as the chicken is in the fryer. Mashed potatoes and fries can be prepared quickly, while coleslaw can be made in advance.</p>
     </li>
     <li>
         <h3>Seasoning:</h3>
-        <p>Seasoning is crucial in Cookingdom. The chicken batter should have just the right amount of salt, pepper, and spices. Don't forget to season the sides as well for a balanced flavor.</p>
+        <p>Seasoning is crucial in Cookingdom Level 15 . The chicken batter should have just the right amount of salt, pepper, and spices. Don't forget to season the sides as well for a balanced flavor.</p>
         <p><strong>Tip:</strong> You can adjust the seasoning based on customer preferences, like adding extra spice to the batter for those who enjoy a bit of heat.</p>
     </li>
     <li>
         <h3>Upgrade Your Equipment:</h3>
-        <p>As you advance in Cookingdom, consider upgrading your fryer and stove. A faster cooking process will help you handle the increasing volume of orders in later levels.</p>
+        <p>As you advance in Cookingdom Level 15 , consider upgrading your fryer and stove. A faster cooking process will help you handle the increasing volume of orders in later levels.</p>
         <p><strong>Tip:</strong> Upgrades to your kitchen equipment will speed up the frying process and ensure your side dishes are cooked quickly.</p>
     </li>
     <li>
         <h3>Don't Let the Oil Cool:</h3>
-        <p>Cookingdom requires that the oil remain at a high enough temperature to cook the chicken properly. If the oil cools down too much, the chicken will absorb more oil and lose its crispiness. Keep an eye on the temperature and adjust it as needed.</p>
+        <p>Cookingdom Level 15  requires that the oil remain at a high enough temperature to cook the chicken properly. If the oil cools down too much, the chicken will absorb more oil and lose its crispiness. Keep an eye on the temperature and adjust it as needed.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 15 of Cookingdom, preparing Chicken Fried involves frying the chicken to crispy perfection and managing sides like mashed potatoes, coleslaw, or fries. Timing and multitasking are essential, as you need to manage both the frying process and the preparation of side dishes at the same time.</p>
-<p>Perfectly seasoned chicken, golden fries, and smooth mashed potatoes will have your customers coming back for more. As always in Cookingdom, speed and presentation matter, so make sure to serve everything fresh and hot!</p>
-<p>By mastering Chicken Fried and improving your multitasking abilities, you'll continue to level up and handle even more complex dishes in Cookingdom.</p>
+<p>In Cookingdom Level 15 , preparing Chicken Fried involves frying the chicken to crispy perfection and managing sides like mashed potatoes, coleslaw, or fries. Timing and multitasking are essential, as you need to manage both the frying process and the preparation of side dishes at the same time.</p>
+<p>Perfectly seasoned chicken, golden fries, and smooth mashed potatoes will have your customers coming back for more. As always in Cookingdom Level 15 , speed and presentation matter, so make sure to serve everything fresh and hot!</p>
+<p>By mastering Chicken Fried and improving your multitasking abilities, you'll continue to level up and handle even more complex dishes in Cookingdom Level 15 .</p>
 `,
   },
   {
@@ -1567,11 +1558,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
     iframeUrl: 'https://www.youtube.com/embed/KyijXpwgOn8', // Placeholder
     seo: {
-      title: 'Cookingdom Level 16 Guide: Texas BBQ | Tips & Strategy',
+      title: 'Cookingdom Level 16 Guide: Texas BBQ | cookingdom.co',
       description:
         'Learn to cook Texas BBQ (ribs, brisket) in Cookingdom Level 16. Get tips on slow-cooking, BBQ sauce, sides (cornbread, beans, coleslaw), and timing.',
       keywords:
-        'Cookingdom, Level 16, Texas BBQ, BBQ Guide, Ribs, Brisket, BBQ Sauce, Cornbread, Baked Beans, Coleslaw, Slow Cooking, Strategy',
+        'Cookingdom Level 16, cookingdom Texas BBQ, BBQ Guide, Ribs, Brisket, BBQ Sauce, Cornbread,Slow Cooking, Strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_16.webp', // Placeholder
@@ -1599,15 +1590,15 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 16 brings the bold and flavorful Texas BBQ into the kitchen. This level challenges you to prepare a hearty, smoky BBQ meal with various meats, sauces, and sides. Texas BBQ is all about slow-cooked meats with smoky flavors, and the key to success here is getting the timing and seasoning right for a mouthwatering dish.</p>
-<p>At this level, you will be preparing BBQ meats like ribs or brisket, and pairing them with classic BBQ sides like cornbread, baked beans, and coleslaw. The challenge in Cookingdom is balancing the cooking times of the meats and sides while ensuring everything is served hot and flavorful.</p>
+<h2 id="overview">Cookingdom Level 16 Game Overview</h2>
+<p>In Cookingdom Level 16 brings the bold and flavorful Texas BBQ into the kitchen. This level challenges you to prepare a hearty, smoky BBQ meal with various meats, sauces, and sides.</p>
+<p>At this level, you will be preparing BBQ meats like ribs or brisket, and pairing them with classic BBQ sides like cornbread, baked beans, and coleslaw. The challenge in Cookingdom Level 16 is balancing the cooking times of the meats and sides while ensuring everything is served hot and flavorful.</p>
 <p>Let's dive into the details of Level 16 and master Texas BBQ!</p>
 
-<h2 id="goal">Level 16 Goals</h2>
+<h2 id="goal">Cookingdom Level 16 Goals</h2>
 <ul>
     <li>
-        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor. This can take time, so managing your cooking times is key.
+        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor. 
     </li>
     <li>
         <strong>Prepare the BBQ Sauce:</strong> A good BBQ sauce is crucial for that authentic Texas flavor. You'll need to make sure the sauce is well-seasoned and paired perfectly with the meat.
@@ -1616,48 +1607,48 @@ export const guides = [
         <strong>Cook the Sides:</strong> Texas BBQ is usually served with sides like cornbread, baked beans, and coleslaw. You'll need to keep these cooking while you manage the BBQ meats.
     </li>
     <li>
-        <strong>Serve Quickly:</strong> As always in Cookingdom, serving your BBQ dishes hot and fresh is important for earning high ratings from customers. The faster you serve, the better your customer satisfaction.
+        <strong>Serve Quickly:</strong> As always in Cookingdom Level 16 , serving your BBQ dishes hot and fresh is important for earning high ratings from customers. The faster you serve, the better your customer satisfaction.
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Texas BBQ</h2>
+<h2 id="steps">Cookingdom Level 16 Steps to Make Texas BBQ</h2>
 <ol>
     <li>
         <h3>Cook the BBQ Meat (Ribs or Brisket):</h3>
-        <p>Start by seasoning your choice of meat (ribs or brisket) with a dry rub or marinade. In Cookingdom, the seasoning will be provided for you, so your task is to apply it evenly to the meat.</p>
-        <p>Once the meat is seasoned, place it in the smoker or grill. Cookingdom uses a slow-cooking method, so this process can take time. Monitor the cooking to ensure the meat is tender and perfectly cooked.</p>
+        <p>Start by seasoning your choice of meat (ribs or brisket) with a dry rub or marinade. In Cookingdom Level 16 , the seasoning will be provided for you, so your task is to apply it evenly to the meat.</p>
+        <p>Once the meat is seasoned, place it in the smoker or grill. Cookingdom Level 16  uses a slow-cooking method, so this process can take time. Monitor the cooking to ensure the meat is tender and perfectly cooked.</p>
         <p><strong>Tip:</strong> Turn the meat regularly to ensure it cooks evenly on all sides. The ideal BBQ meat will be crispy on the outside, with a juicy and tender inside.</p>
-        <p><strong>Tip:</strong> Don't overcook the meat! In Cookingdom, keeping the meat just right will give it the best texture and flavor.</p>
+        <p><strong>Tip:</strong> Don't overcook the meat! In Cookingdom Level 16 , keeping the meat just right will give it the best texture and flavor.</p>
     </li>
     <li>
-        <h3>Prepare the BBQ Sauce:</h3>
-        <p>While the meat is cooking, focus on making the BBQ sauce. In Cookingdom, the sauce is typically a blend of tangy, sweet, and smoky flavors, often with a base of ketchup or tomato sauce, vinegar, and brown sugar.</p>
+        <h3>Cookingdom Level 16 Prepare the BBQ Sauce:</h3>
+        <p>While the meat is cooking, focus on making the BBQ sauce. In Cookingdom Level 16 , the sauce is typically a blend of tangy, sweet, and smoky flavors, often with a base of ketchup or tomato sauce, vinegar, and brown sugar.</p>
         <p>You'll need to mix the ingredients together and cook them down into a thick, flavorful sauce. Once the sauce is ready, you'll apply it to the meat either during cooking or after the meat is plated.</p>
         <p><strong>Tip:</strong> Don't let the sauce burn! Stir it occasionally to keep it from sticking to the bottom of the pot. The sauce should be thick enough to coat the meat without being too runny.</p>
     </li>
     <li>
-        <h3>Cook the Sides:</h3>
+        <h3>Cookingdom Level 16 Cook the Sides:</h3>
         <p>While you're focusing on the BBQ meat and sauce, don't forget about the sides! Texas BBQ is typically served with:</p>
         <ul>
             <li><strong>Cornbread:</strong> A slightly sweet, moist bread to complement the savory BBQ flavors.</li>
             <li><strong>Baked Beans:</strong> Slow-cooked beans in a rich sauce, often flavored with BBQ sauce or bacon.</li>
             <li><strong>Coleslaw:</strong> A cool, crunchy side to balance the richness of the BBQ.</li>
         </ul>
-        <p><strong>Tip:</strong> Cook the sides while the meat is smoking or grilling. Make sure the cornbread is golden and moist, the baked beans are tender, and the coleslaw is crisp and fresh.</p>
+        
     </li>
     <li>
-        <h3>Assemble the Dish:</h3>
+        <h3>Cookingdom Level 16 Assemble the Dish:</h3>
         <p>Once the meat is cooked to perfection, and the sides are ready, it's time to plate the Texas BBQ. Start by placing the BBQ meat on the plate, then add generous portions of cornbread, baked beans, and coleslaw.</p>
-        <p><strong>Tip:</strong> Make sure the BBQ sauce is applied evenly to the meat. You can drizzle some extra sauce over the sides if you like, but don't overdo it. Keep the presentation clean and balanced.</p>
+        
     </li>
     <li>
-        <h3>Serve the Texas BBQ:</h3>
+        <h3>Cookingdom Level 16 Serve the Texas BBQ:</h3>
         <p>After assembling the dish, serve it quickly while everything is still hot. Cookingdom rewards speed, so the faster you serve, the higher your customer ratings will be.</p>
         <p><strong>Tip:</strong> Don't let the dish sit too long before serving — BBQ is best enjoyed fresh and hot. Make sure all the components are well-heated and ready to go.</p>
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 16 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Slow-Cook the Meat:</h3>
@@ -1669,7 +1660,7 @@ export const guides = [
     </li>
     <li>
         <h3>Multitask Efficiently:</h3>
-        <p>Cookingdom requires multitasking, so while the BBQ meat is cooking, keep an eye on the sides. Make sure the cornbread doesn't burn, the baked beans are simmering to the right consistency, and the coleslaw is fresh and crisp.</p>
+        <p>Cookingdom Level 16  requires multitasking, so while the BBQ meat is cooking, keep an eye on the sides. Make sure the cornbread doesn't burn, the baked beans are simmering to the right consistency, and the coleslaw is fresh and crisp.</p>
     </li>
     <li>
         <h3>Serve Fresh and Hot:</h3>
@@ -1677,12 +1668,12 @@ export const guides = [
     </li>
     <li>
         <h3>Upgrade Your Kitchen:</h3>
-        <p>As you progress in Cookingdom, consider upgrading your grill and other kitchen equipment to speed up the cooking process. A faster grill or smoker will help you keep up with the growing number of customers and reduce wait times.</p>
+        <p>As you progress in Cookingdom Level 16 , consider upgrading your grill and other kitchen equipment to speed up the cooking process. A faster grill or smoker will help you keep up with the growing number of customers and reduce wait times.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 16 of Cookingdom, preparing Texas BBQ involves mastering the art of slow-cooking meats, perfecting the BBQ sauce, and balancing the sides like cornbread, baked beans, and coleslaw. Timing and multitasking are key to success, as you need to manage both the grilling of the meats and the preparation of the sides.</p>
+<p>In Level 16 of Cookingdom Level 16 , preparing Texas BBQ involves mastering the art of slow-cooking meats, perfecting the BBQ sauce, and balancing the sides like cornbread, baked beans, and coleslaw. Timing and multitasking are key to success, as you need to manage both the grilling of the meats and the preparation of the sides.</p>
 <p>By focusing on perfecting the BBQ meat, creating a flavorful sauce, and managing your kitchen efficiently, you'll impress your customers and earn top ratings. The combination of tender BBQ, savory sides, and smoky flavor will keep your customers coming back for more.</p>
 `,
   },
@@ -1699,16 +1690,16 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/9vMHRRYFPMg', // Placeholder
     seo: {
-      title: 'Cookingdom Level 17 Guide: Café Macchiato | Tips & Strategy',
+      title: 'Cookingdom Level 17 Guide: Café Macchiato | cookindom.co',
       description:
         'Master the Café Macchiato in Cookingdom Level 17. Get tips on brewing espresso, foaming milk perfectly, and achieving the right balance for this classic coffee.',
       keywords:
-        'Cookingdom, Level 17, Café Macchiato, Macchiato Guide, Espresso, Milk Foam, Coffee, Brewing, Strategy',
+        'Cookingdom Level 17, Cookingdom Café Macchiato, Macchiato Guide, Espresso, Milk Foam, Coffee',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_17.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Café Macchiato</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 2 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimated
+        '<h3>Cookingdom Level 17 Café Macchiato</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 2 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimated
       featuredGuides: [
         {
           id: 'cookingdom-game-level-14',
@@ -1731,74 +1722,73 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 17 introduces a delightful and sophisticated beverage: the Café Macchiato. This level challenges you to prepare a smooth espresso base topped with a dollop of foamed milk, all while maintaining perfect timing and precision. It's a classic coffeehouse favorite that requires attention to detail and the ability to multitask, as you'll need to perfect the espresso shot and milk foam simultaneously.</p>
-<p>As Café Macchiato is a popular drink in coffee shops around the world, preparing it correctly will impress your customers and help you level up in Cookingdom. Let's break down the process and guide you to a perfect Café Macchiato.</p>
+<h2 id="overview">Cookingdom Level 17Game Overview</h2>
+<p>In Cookingdom Level 17 , introduces a delightful and sophisticated beverage: the Café Macchiato. This level challenges you to prepare a smooth espresso base topped with a dollop of foamed milk, all while maintaining perfect timing and precision. It's a classic coffeehouse favorite that requires attention to detail and the ability to multitask, as you'll need to perfect the espresso shot and milk foam simultaneously.</p>
+<p>As Café Macchiato is a popular drink in coffee shops around the world, preparing it correctly will impress your customers and help you level up in Cookingdom Level 17. Let's break down the process and guide you to a perfect Café Macchiato.</p>
 
-<h2 id="goal">Level 17 Goals</h2>
+<h2 id="goal">Cookingdom Level 17 Goals</h2>
 <ul>
     <li>
-        <strong>Prepare the Espresso:</strong> The base of the Café Macchiato is a rich, strong espresso shot. You'll need to brew the espresso correctly, ensuring it's bold and full of flavor.
+        <strong>Prepare the Espresso:</strong> The base of the Café Macchiato is a rich, strong espresso shot. 
     </li>
     <li>
-        <strong>Foam the Milk:</strong> You need to foam the milk to the perfect texture and temperature. This requires careful control of the milk steamer to ensure the milk becomes light, frothy, and creamy.
+        <strong>Foam the Milk:</strong> You need to foam the milk to the perfect texture and temperature.
     </li>
     <li>
         <strong>Serve the Drink:</strong> After preparing the espresso and milk foam, combine them in the correct proportions and serve the Café Macchiato while it's still fresh and hot.
     </li>
     <li>
-        <strong>Serve Quickly:</strong> As always in Cookingdom, speed matters. The faster you serve the Café Macchiato, the better your rating. Freshness is key in ensuring the drink maintains its optimal taste and texture.
+        <strong>Serve Quickly:</strong> As always in Cookingdom Level 17 , speed matters. The faster you serve the Café Macchiato, the better your rating. Freshness is key in ensuring the drink maintains its optimal taste and texture.
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Café Macchiato</h2>
+<h2 id="steps">Cookingdom Level 17 Steps to Make Café Macchiato</h2>
 <ol>
     <li>
         <h3>Prepare the Espresso:</h3>
-        <p>Begin by brewing the espresso shot. In Cookingdom, you'll have to use an espresso machine to extract the perfect shot of coffee. The coffee grounds must be tamped evenly to ensure the espresso is brewed to perfection.</p>
-        <p><strong>Tip:</strong> Watch the espresso closely to avoid over-extracting or under-extracting the shot. The espresso should have a deep, rich flavor with a layer of crema (the golden, foamy top) on the surface.</p>
-        <p><strong>Tip:</strong> The perfect espresso shot is key to the flavor of the Café Macchiato, so make sure it's brewed well before moving on to the milk.</p>
+        <p>Begin by brewing the espresso shot. In Cookingdom Level 17 , you'll have to use an espresso machine to extract the perfect shot of coffee. The coffee grounds must be tamped evenly to ensure the espresso is brewed to perfection.</p>
+        <p><strong>Tip:</strong> Watch the espresso closely to avoid over-extracting or under-extracting the shot. </p>
+        <p><strong>Tip:</strong> The perfect espresso shot is key to the flavor of the Café Macchiato</p>
     </li>
     <li>
         <h3>Foam the Milk:</h3>
-        <p>Next, focus on the milk. To make the Café Macchiato, you need to froth the milk until it's creamy and airy, but not overly thick. Use the milk steamer to heat and froth the milk to a light, velvety texture.</p>
-        <p><strong>Tip:</strong> Be careful not to overheat the milk — it should reach the ideal temperature of around 150°F (65°C). Overheating can result in a burnt taste, which will affect the flavor of the drink.</p>
-        <p><strong>Tip:</strong> When foaming the milk, you're aiming for a smooth, creamy texture with small bubbles. The foam should be dense enough to stay on top of the espresso shot without sinking.</p>
+        <p>Next, focus on the milk. To make the Café Macchiato, you need to froth the milk until it's creamy and airy, but not overly thick. </p>
+        <p><strong>Tip:</strong> Be careful not to overheat the milk — it should reach the ideal temperature of around 150°F (65°C).</p>
+        <p><strong>Tip:</strong> When foaming the milk, you're aiming for a smooth, creamy texture with small bubbles. </p>
     </li>
     <li>
         <h3>Combine the Espresso and Milk:</h3>
         <p>Once both the espresso and the milk foam are ready, it's time to combine them. For a Café Macchiato, you'll pour the espresso shot into a cup and then add a small dollop of the milk foam on top.</p>
-        <p><strong>Tip:</strong> The key to a Café Macchiato is the balance between the strong, bold espresso and the delicate, creamy foam. Don't add too much milk foam — just a spoonful is enough to top the drink.</p>
+        <p><strong>Tip:</strong> The key to a Café Macchiato is the balance between the strong, bold espresso and the delicate, creamy foam. </p>
     </li>
     <li>
         <h3>Serve the Café Macchiato:</h3>
-        <p>After preparing the Café Macchiato, serve the drink quickly while it's still hot. In Cookingdom, you'll want to serve the drink while the foam is still fresh and the espresso shot hasn't cooled down.</p>
-        <p><strong>Tip:</strong> Serve the drink immediately after assembling to preserve the texture and temperature. The foam should stay light and airy, and the espresso should remain bold and hot.</p>
+        <p>After preparing the Café Macchiato, serve the drink quickly while it's still hot. In Cookingdom Level 17 , you'll want to serve the drink while the foam is still fresh and the espresso shot hasn't cooled down.</p>
+        
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 17 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Perfect Espresso Shot:</h3>
         <p>The key to a great Café Macchiato is the espresso. Make sure the coffee grounds are evenly tamped before brewing, and pay attention to the timing to get a rich, balanced shot of espresso.</p>
-        <p><strong>Tip:</strong> If the espresso tastes too bitter, it could be over-extracted. If it's too weak, it might be under-extracted. Adjust the grind size and tamp pressure to perfect the shot.</p>
+        
     </li>
     <li>
         <h3>Foam the Milk to Perfection:</h3>
         <p>The milk foam should be smooth, creamy, and airy — not too thick or frothy. To achieve the right texture, pay attention to the sound of the steamer. It should create a gentle hissing sound, not a loud sputtering noise.</p>
-        <p><strong>Tip:</strong> Don't overheat the milk, as it will lose its creamy texture. Use a thermometer to monitor the temperature of the milk, or rely on visual cues to know when it's ready.</p>
+        
     </li>
     <li>
         <h3>Work on Your Timing:</h3>
-        <p>Cookingdom is all about multitasking and timing. While the espresso is brewing, start foaming the milk to save time. This will allow you to assemble the Café Macchiato quickly and efficiently.</p>
-        <p><strong>Tip:</strong> If you're ever unsure whether the espresso or the milk is ready first, trust your instinct. The milk can wait a moment, but if the espresso cools down too much, it won't have the right flavor.</p>
+        <p>Cookingdom Level 17 is all about multitasking and timing. While the espresso is brewing, start foaming the milk to save time. This will allow you to assemble the Café Macchiato quickly and efficiently.</p>
+        
     </li>
     <li>
         <h3>Don't Overdo the Milk Foam:</h3>
         <p>For a Café Macchiato, only a small amount of foam is needed. The drink should still have the bold, strong flavor of the espresso with just a hint of milk. Too much foam will overpower the coffee and make the drink too milky.</p>
-        <p><strong>Tip:</strong> Only add a dollop of foam — it should sit gently on top of the espresso, not mix into it too much.</p>
-    </li>
+            </li>
     <li>
         <h3>Serve Fresh and Hot:</h3>
         <p>The Café Macchiato must be served immediately after preparation. As with all drinks in Cookingdom, freshness is important. Hot drinks lose their appeal quickly, so serving it right away is crucial to your success.</p>
@@ -1806,8 +1796,8 @@ export const guides = [
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 17 of Cookingdom, preparing the Café Macchiato requires attention to detail and perfect timing. Brewing the espresso to perfection and foaming the milk to the ideal texture is the key to crafting this classic coffeehouse drink. With careful attention to the brewing and foaming process, you'll serve up a smooth, rich Café Macchiato that will delight your customers.</p>
-<p>Multitask efficiently, keep an eye on the timing, and serve the drink hot and fresh to maximize your ratings in Cookingdom!</p>
+<p>In Cookingdom Level 17, preparing the Café Macchiato requires attention to detail and perfect timing. Brewing the espresso to perfection and foaming the milk to the ideal texture is the key to crafting this classic coffeehouse drink. With careful attention to the brewing and foaming process, you'll serve up a smooth, rich Café Macchiato that will delight your customers.</p>
+<p>Multitask efficiently, keep an eye on the timing, and serve the drink hot and fresh to maximize your ratings in Cookingdom Level 17!</p>
 `,
   },
   {
@@ -1823,11 +1813,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
     iframeUrl: 'https://www.youtube.com/embed/YADKwUHp4XY', // Placeholder
     seo: {
-      title: 'Cookingdom Level 18 Guide: Ratatouille | Tips & Strategy',
+      title: 'Cookingdom Level 18 Guide: Ratatouille | cookingdom.co',
       description:
         'Master Ratatouille in Cookingdom Level 18. Get tips on slicing vegetables (eggplant, zucchini, peppers, tomatoes), cooking them perfectly, and simmering the sauce.',
       keywords:
-        'Cookingdom, Level 18, Ratatouille, French Cuisine, Vegetable Medley, Guide, Sautéing, Simmering, Strategy',
+        'Cookingdom Level 18, Cookingdom Ratatouille, French Cuisine, Vegetable Medley, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_18.webp', // Placeholder
@@ -1855,11 +1845,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 18 brings a healthy and flavorful dish to the table: Ratatouille. This classic French vegetable medley consists of various vegetables like eggplant, zucchini, peppers, and tomatoes, all cooked in a rich, aromatic sauce. The key to this level is making sure the vegetables are perfectly sliced and cooked to retain their freshness while balancing the seasoning to create the perfect Ratatouille.</p>
-<p>In Cookingdom, Level 18 is all about multitasking and precision. You'll need to manage the preparation and cooking of multiple vegetables while ensuring each one is cooked at the right time and temperature. Let's dive into the steps for mastering Ratatouille and impressing your customers with this tasty dish!</p>
+<h2 id="overview">Cookingdom Level 18 Game Overview</h2>
+<p>In Cookingdom Level 18 brings a healthy and flavorful dish to the table: Ratatouille. This classic French vegetable medley consists of various vegetables like eggplant, zucchini, peppers, and tomatoes, all cooked in a rich, aromatic sauce. The key to this level is making sure the vegetables are perfectly sliced and cooked to retain their freshness while balancing the seasoning to create the perfect Ratatouille.</p>
+<p>In Cookingdom Level 18 is all about multitasking and precision. You'll need to manage the preparation and cooking of multiple vegetables while ensuring each one is cooked at the right time and temperature. Let's dive into the steps for mastering Ratatouille and impressing your customers with this tasty dish!</p>
 
-<h2 id="goal">Level 18 Goals</h2>
+<h2 id="goal">Cookingdom Level 18 Goals</h2>  
 <ul>
     <li>
         <strong>Prepare the Vegetables:</strong> The main components of Ratatouille are fresh vegetables such as eggplant, zucchini, peppers, and tomatoes. You'll need to slice them evenly and precisely to ensure even cooking.
@@ -1871,26 +1861,26 @@ export const guides = [
         <strong>Simmer the Sauce:</strong> The vegetables are cooked with a simple tomato sauce, seasoned with herbs like thyme, basil, and rosemary. The sauce needs to simmer gently, allowing the flavors to blend and intensify.
     </li>
     <li>
-        <strong>Serve the Ratatouille:</strong> Once the vegetables are cooked and the sauce is ready, assemble the dish and serve it quickly. In Cookingdom, speed and presentation are essential for earning high customer ratings.
+        <strong>Serve the Ratatouille:</strong> Once the vegetables are cooked and the sauce is ready, assemble the dish and serve it quickly. In Cookingdom Level 18 , speed and presentation are essential for earning high customer ratings.
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Ratatouille</h2>
+<h2 id="steps">Cookingdom Level 18 Steps to Make Ratatouille</h2>
 <ol>
     <li>
         <h3>Prepare the Vegetables:</h3>
-        <p>Start by slicing the vegetables evenly. In Cookingdom, the key is to get uniform slices to ensure they cook evenly. Cut the eggplant, zucchini, peppers, and tomatoes into thin slices.</p>
+        <p>Start by slicing the vegetables evenly. In Cookingdom Level 18 , the key is to get uniform slices to ensure they cook evenly. Cut the eggplant, zucchini, peppers, and tomatoes into thin slices.</p>
         <p><strong>Tip:</strong> Slice the vegetables as thin as possible to ensure they cook evenly and absorb the flavors of the sauce. You can use a mandoline slicer or knife to achieve perfect cuts.</p>
     </li>
     <li>
         <h3>Sauté the Vegetables:</h3>
-        <p>In Cookingdom, the next step involves sautéing the vegetables in a pan with olive oil and garlic. Heat the oil until it's hot, then add the garlic and sauté for a few seconds to release its fragrance.</p>
+        <p>In Cookingdom Level 18 , the next step involves sautéing the vegetables in a pan with olive oil and garlic. Heat the oil until it's hot, then add the garlic and sauté for a few seconds to release its fragrance.</p>
         <p>Add the sliced vegetables one by one and stir them to ensure even cooking. Don't overcook the vegetables; they should remain tender but still have a slight bite.</p>
         <p><strong>Tip:</strong> Stir occasionally to prevent burning, and adjust the heat as necessary. If the vegetables start to brown too quickly, lower the heat slightly.</p>
     </li>
     <li>
         <h3>Simmer the Sauce:</h3>
-        <p>Once the vegetables are sautéed, it's time to prepare the sauce. In Cookingdom, you'll simmer a tomato-based sauce with herbs like thyme, rosemary, and basil.</p>
+        <p>Once the vegetables are sautéed, it's time to prepare the sauce. In Cookingdom Level 18 , you'll simmer a tomato-based sauce with herbs like thyme, rosemary, and basil.</p>
         <p>Add the sauce to the pan with the vegetables, and allow it to simmer. The sauce will begin to thicken and coat the vegetables, enhancing their flavor.</p>
         <p><strong>Tip:</strong> Let the sauce simmer gently for 10-15 minutes, allowing the flavors to meld together. Stir occasionally to prevent the sauce from sticking to the pan.</p>
     </li>
@@ -1901,12 +1891,12 @@ export const guides = [
     </li>
     <li>
         <h3>Serve the Ratatouille:</h3>
-        <p>After plating, serve the Ratatouille quickly while it's still hot. In Cookingdom, speed is important, so don't let the dish sit for too long before serving it to the customers.</p>
+        <p>After plating, serve the Ratatouille quickly while it's still hot. In Cookingdom Level 18 , speed is important, so don't let the dish sit for too long before serving it to the customers.</p>
         <p><strong>Tip:</strong> Serve the dish with a small side of bread or rice to complete the meal. This will make it more filling and appealing to your customers.</p>
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 18 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Evenly Slice the Vegetables:</h3>
@@ -1915,7 +1905,7 @@ export const guides = [
     </li>
     <li>
         <h3>Don't Overcook the Vegetables:</h3>
-        <p>In Cookingdom, it's important to sauté the vegetables just until they're tender but not mushy. Overcooked vegetables will lose their texture and flavor.</p>
+        <p>In Cookingdom Level 18 , it's important to sauté the vegetables just until they're tender but not mushy. Overcooked vegetables will lose their texture and flavor.</p>
         <p><strong>Tip:</strong> Keep an eye on the heat and stir regularly to prevent burning. If the vegetables seem to be cooking too fast, reduce the heat slightly.</p>
     </li>
     <li>
@@ -1925,19 +1915,19 @@ export const guides = [
     </li>
     <li>
         <h3>Garnish and Present Well:</h3>
-        <p>Presentation is important in Cookingdom. After arranging the vegetables, garnish the Ratatouille with fresh herbs or a sprinkle of cheese for added flavor and a beautiful touch.</p>
+        <p>Presentation is important in Cookingdom Level 18 . After arranging the vegetables, garnish the Ratatouille with fresh herbs or a sprinkle of cheese for added flavor and a beautiful touch.</p>
         <p><strong>Tip:</strong> A nice garnish can elevate the look of the dish and impress your customers. A few fresh basil leaves or a drizzle of olive oil can make a big difference.</p>
     </li>
     <li>
         <h3>Upgrade Your Kitchen:</h3>
-        <p>As you progress in Cookingdom, consider upgrading your cooking equipment, such as your stovetop or pan. A faster cooking process will allow you to manage multiple dishes more efficiently.</p>
+        <p>As you progress in Cookingdom Level 18 , consider upgrading your cooking equipment, such as your stovetop or pan. A faster cooking process will allow you to manage multiple dishes more efficiently.</p>
         <p><strong>Tip:</strong> Upgrades to your kitchen tools can help speed up your cooking and ensure everything is prepared on time, especially when dealing with multiple orders.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 18 of Cookingdom, preparing Ratatouille requires precision in slicing the vegetables, sautéing them just right, and simmering the flavorful tomato sauce. This dish combines simple ingredients and techniques to create a delicious and well-balanced meal. With careful timing, multitasking, and attention to detail, you'll be able to create the perfect Ratatouille that will delight your customers and earn you top ratings in Cookingdom.</p>
-<p>Master the art of vegetable preparation and sauce simmering, and soon you'll be ready to take on even more challenging dishes as you continue your journey through Cookingdom.</p>
+<p>In Cookingdom Level 18 , preparing Ratatouille requires precision in slicing the vegetables, sautéing them just right, and simmering the flavorful tomato sauce. This dish combines simple ingredients and techniques to create a delicious and well-balanced meal. With careful timing, multitasking, and attention to detail, you'll be able to create the perfect Ratatouille that will delight your customers and earn you top ratings in Cookingdom.</p>
+<p>Master the art of vegetable preparation and sauce simmering, and soon you'll be ready to take on even more challenging dishes as you continue your journey through Cookingdom Level 18 .</p>
 `,
   },
   {
@@ -1953,11 +1943,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
     iframeUrl: 'https://www.youtube.com/embed/CoSI8csqCbc', // Placeholder
     seo: {
-      title: 'Cookingdom Level 19 Guide: Pumpkin Pie | Tips & Strategy',
+      title: 'Cookingdom Level 19 Guide: Pumpkin Pie |cookingdom.co',
       description:
-        'Master Pumpkin Pie in Level 19 of Cookingdom. Get tips on making the perfect crust, smooth filling, baking, and serving this classic dessert.',
+        'Master Pumpkin Pie in Cookingdom Level 19. Get tips on making the perfect crust, smooth filling, baking, and serving this classic dessert.',
       keywords:
-        'Cookingdom, Level 19, Pumpkin Pie, Dessert, Baking, Pie Crust, Pumpkin Filling, Guide, Strategy',
+        'Cookingdom Level 19, cookingdom Pumpkin Pie, Dessert, Baking, Pie Crust, Pumpkin Filling',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_19.webp', // Placeholder
@@ -1985,11 +1975,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 19 introduces a sweet and delicious treat: Pumpkin Pie. This classic dessert is a favorite in many cultures, especially during the fall season. Preparing Pumpkin Pie in Cookingdom requires you to create a smooth pumpkin filling, prepare the perfect pie crust, and bake it to golden perfection. Timing, ingredient balance, and presentation will be key to achieving the highest customer satisfaction.</p>
-<p>In Level 19, you'll need to manage your ingredients and cooking steps carefully to ensure that both the pie crust and the filling are just right. Let's break down the steps and tips for creating the ultimate Pumpkin Pie!</p>
+<h2 id="overview">Cookingdom Level 19 Game Overview</h2>
+<p>In Cookingdom Level 19 ,introduces a sweet and delicious treat: Pumpkin Pie. This classic dessert is a favorite in many cultures, especially during the fall season. Preparing Pumpkin Pie in Cookingdom Level 19 requires you to create a smooth pumpkin filling, prepare the perfect pie crust, and bake it to golden perfection. Timing, ingredient balance, and presentation will be key to achieving the highest customer satisfaction.</p>
+<p>In Cookingdom Level 19 ,you'll need to manage your ingredients and cooking steps carefully to ensure that both the pie crust and the filling are just right. Let's break down the steps and tips for creating the ultimate Pumpkin Pie!</p>
 
-<h2 id="goal">Level 19 Goals</h2>
+<h2 id="goal">Cookingdom Level 19 Goals</h2>
 <ul>
     <li>
         <strong>Prepare the Pie Crust:</strong> The first step is to prepare the buttery and flaky pie crust. You'll need to mix the ingredients to form a dough, roll it out, and fit it into the pie dish.
@@ -2005,18 +1995,18 @@ export const guides = [
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Pumpkin Pie</h2>
+<h2 id="steps">Cookingdom Level 19 Steps to Make Pumpkin Pie</h2>
 <ol>
     <li>
         <h3>Prepare the Pie Crust:</h3>
-        <p>Start by making the pie crust. In Cookingdom, this involves mixing flour, butter, and a little bit of water to form a dough. Knead it gently and roll it out until it's thin and even.</p>
+        <p>Start by making the pie crust. In Cookingdom Level 19, this involves mixing flour, butter, and a little bit of water to form a dough. Knead it gently and roll it out until it's thin and even.</p>
         <p><strong>Tip:</strong> Make sure the dough isn't too sticky. If it's too dry, add a little more water, but don't overdo it. The right consistency will make the crust flaky and crisp once baked.</p>
         <p>After rolling the dough out, transfer it into the pie dish and trim any excess dough around the edges. Press the edges gently to form a nice border.</p>
         <p><strong>Tip:</strong> You can refrigerate the pie crust dough for 15 minutes before baking it to help it hold its shape better.</p>
     </li>
     <li>
         <h3>Make the Pumpkin Filling:</h3>
-        <p>Next, it's time to make the pumpkin filling. In Cookingdom, you'll need to mix together pureed pumpkin, eggs, sugar, and spices like cinnamon, nutmeg, and ginger. The result should be a smooth and creamy mixture.</p>
+        <p>Next, it's time to make the pumpkin filling. In Cookingdom Level 19, you'll need to mix together pureed pumpkin, eggs, sugar, and spices like cinnamon, nutmeg, and ginger. The result should be a smooth and creamy mixture.</p>
         <p><strong>Tip:</strong> Use fresh or canned pumpkin puree for this step. Make sure the spices are well-mixed and adjust the sweetness to your preference. You want the filling to be rich and flavorful, but not overwhelmingly sweet.</p>
         <p><strong>Tip:</strong> Blend the mixture thoroughly to avoid any lumps. The filling should be smooth and well-combined before pouring it into the pie crust.</p>
     </li>
@@ -2033,17 +2023,17 @@ export const guides = [
     </li>
     <li>
         <h3>Cool and Serve:</h3>
-        <p>After the pie has finished baking, let it cool for a few minutes before slicing. In Cookingdom, the pie needs to be served warm, but it shouldn't be too hot to handle.</p>
+        <p>After the pie has finished baking, let it cool for a few minutes before slicing. In Cookingdom Level 19, the pie needs to be served warm, but it shouldn't be too hot to handle.</p>
         <p><strong>Tip:</strong> You can garnish the pie with whipped cream or a sprinkle of cinnamon for an extra touch of flavor and presentation.</p>
     </li>
     <li>
         <h3>Serve the Pumpkin Pie:</h3>
         <p>Once the pie has cooled and you've sliced it, serve the Pumpkin Pie immediately. Be sure to serve it with a scoop of whipped cream or a dollop of vanilla ice cream to complete the dessert.</p>
-        <p><strong>Tip:</strong> Serving the pie while it's still warm is key to creating the perfect dessert experience for your customers in Cookingdom. A warm slice of pumpkin pie with whipped cream will impress every time!</p>
+        <p><strong>Tip:</strong> Serving the pie while it's still warm is key to creating the perfect dessert experience for your customers in Cookingdom Level 19. A warm slice of pumpkin pie with whipped cream will impress every time!</p>
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 19 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Perfect Pie Crust:</h3>
@@ -2062,17 +2052,17 @@ export const guides = [
     </li>
     <li>
         <h3>Garnish and Presentation:</h3>
-        <p>A well-presented Pumpkin Pie can really impress your customers in Cookingdom. Garnish the pie with a dollop of whipped cream, a sprinkle of cinnamon, or a few pumpkin seeds for extra flavor and visual appeal.</p>
+        <p>A well-presented Pumpkin Pie can really impress your customers in Cookingdom Level 19. Garnish the pie with a dollop of whipped cream, a sprinkle of cinnamon, or a few pumpkin seeds for extra flavor and visual appeal.</p>
         <p><strong>Tip:</strong> A little creativity in garnishing will elevate the dish and help you earn top ratings.</p>
     </li>
     <li>
         <h3>Serve Fresh and Warm:</h3>
-        <p>As with all dishes in Cookingdom, freshness is key. Serve the Pumpkin Pie while it's still warm and freshly sliced to give your customers the best experience.</p>
+        <p>As with all dishes in Cookingdom Level 19, freshness is key. Serve the Pumpkin Pie while it's still warm and freshly sliced to give your customers the best experience.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 19 of Cookingdom, preparing the Pumpkin Pie requires attention to detail, from making the perfect pie crust to creating a smooth, flavorful pumpkin filling. With careful timing and multitasking, you can create a delicious pie that will impress your customers. Whether it's for a holiday or a regular day, Pumpkin Pie will always be a hit in Cookingdom!</p>
+<p>In Cookingdom Level 19, preparing the Pumpkin Pie requires attention to detail, from making the perfect pie crust to creating a smooth, flavorful pumpkin filling. With careful timing and multitasking, you can create a delicious pie that will impress your customers. Whether it's for a holiday or a regular day, Pumpkin Pie will always be a hit in Cookingdom!</p>
 <p>By perfecting your pie crust, filling, and baking techniques, you'll be ready to tackle even more delicious desserts in the future. Keep an eye on your timing, and don't forget to garnish your pie to make it even more irresistible!</p>
 `,
   },
@@ -2089,11 +2079,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
     iframeUrl: 'https://www.youtube.com/embed/Rp9i4GwAC6E', // Placeholder
     seo: {
-      title: 'Cookingdom Level 20 Guide: Roast Turkey | Tips & Strategy',
+      title: 'Cookingdom Level 20 Guide: Roast Turkey | cookingdom.co',
       description:
-        'Master Roast Turkey in Level 20 of Cookingdom. Get tips on seasoning, roasting, basting, and serving this festive dish.',
+        'Master Roast Turkey in Cookingdom Level 20. Get tips on seasoning, roasting, basting, and serving this festive dish.',
       keywords:
-        'Cookingdom, Level 20, Roast Turkey, Festive Dish, Roasting, Basting, Turkey Guide, Strategy',
+        'Cookingdom Level 20, cookingdom Roast Turkey, Festive Dish, Roasting, Basting, Turkey Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_20.webp', // Placeholder
@@ -2121,11 +2111,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 20 introduces a festive and flavorful dish: Roast Turkey. As one of the most popular and traditional dishes, especially for celebrations and feasts, Roast Turkey requires a careful balance of seasoning, preparation, and timing. This level is all about roasting the turkey to perfection while also ensuring that the sides and garnishes complement the dish.</p>
-<p>In Cookingdom, mastering the art of roasting turkey will require you to manage multiple steps simultaneously, such as marinating, basting, and ensuring the meat cooks evenly. With careful attention, you'll serve up a golden, juicy turkey that will impress your customers and help you advance to the next level!</p>
+<h2 id="overview">Cookingdom Level 20 Game Overview</h2>
+<p>In Cookingdom Level 20 ,introduces a festive and flavorful dish: Roast Turkey. As one of the most popular and traditional dishes, especially for celebrations and feasts, Roast Turkey requires a careful balance of seasoning, preparation, and timing. This level is all about roasting the turkey to perfection while also ensuring that the sides and garnishes complement the dish.</p>
+<p>In Cookingdom Level 20 , mastering the art of roasting turkey will require you to manage multiple steps simultaneously, such as marinating, basting, and ensuring the meat cooks evenly. With careful attention, you'll serve up a golden, juicy turkey that will impress your customers and help you advance to the next level!</p>
 
-<h2 id="goal">Level 20 Goals</h2>
+<h2 id="goal">Cookingdom Level 20 Goals</h2>
 <ul>
     <li>
         <strong>Prepare the Turkey:</strong> Start by preparing the turkey. You'll need to clean, season, and stuff the bird with aromatic herbs and spices to infuse flavor.
@@ -2141,11 +2131,11 @@ export const guides = [
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Roast Turkey</h2>
+<h2 id="steps">Cookingdom Level 20Steps to Make Roast Turkey</h2>
 <ol>
     <li>
         <h3>Prepare the Turkey:</h3>
-        <p>Start by prepping the turkey. In Cookingdom, this step includes cleaning the bird, removing any giblets, and patting it dry with paper towels. The drier the skin, the crispier it will become during roasting.</p>
+        <p>Start by prepping the turkey. In Cookingdom Level 20, this step includes cleaning the bird, removing any giblets, and patting it dry with paper towels. The drier the skin, the crispier it will become during roasting.</p>
         <p><strong>Tip:</strong> For extra flavor, rub the turkey inside and out with a mixture of olive oil, garlic, salt, and pepper. Add fresh herbs like rosemary, thyme, and sage for an aromatic boost.</p>
         <p><strong>Tip:</strong> You can stuff the turkey with a variety of ingredients such as onions, garlic, and citrus fruits like lemon or orange. These will infuse the meat with moisture and flavor as it roasts.</p>
     </li>
@@ -2189,7 +2179,7 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 20 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Perfect Roasting Temperature:</h3>
@@ -2219,7 +2209,7 @@ export const guides = [
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 20 of Cookingdom, preparing the Roast Turkey requires attention to detail, timing, and the right technique. From seasoning the bird to perfectly roasting and basting it, this level is a true test of your culinary skills. With proper temperature control and careful basting, you'll create a golden, juicy turkey that will delight your customers and elevate your Cookingdom experience.</p>
+<p>In Cookingdom Level 20, preparing the Roast Turkey requires attention to detail, timing, and the right technique. From seasoning the bird to perfectly roasting and basting it, this level is a true test of your culinary skills. With proper temperature control and careful basting, you'll create a golden, juicy turkey that will delight your customers and elevate your Cookingdom experience.</p>
 <p>Master the art of roasting turkey, and you'll be well on your way to handling even more complex dishes in future levels!</p>
 `,
   },
@@ -2236,11 +2226,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
     iframeUrl: 'https://www.youtube.com/embed/sT6G1wBptko', // Placeholder
     seo: {
-      title: 'Cookingdom Level 21 Guide: Boba Milk Tea | Tips & Strategy',
+      title: 'Cookingdom Level 21 Guide: Boba Milk Tea | cookingdom.co',
       description:
-        'Master Boba Milk Tea in Level 21 of Cookingdom. Get tips on cooking boba pearls, brewing tea, balancing milk, and serving this trendy drink.',
+        'Master Boba Milk Tea in Cookingdom Level 21. Get tips on cooking boba pearls, brewing tea, balancing milk, and serving this trendy drink.',
       keywords:
-        'Cookingdom, Level 21, Boba Milk Tea, Bubble Tea, Taiwanese Drink, Tea Guide, Strategy',
+        'Cookingdom Level 21, Cookingdom Boba Milk Tea, Bubble Tea, Taiwanese Drink, Tea Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_21.webp', // Placeholder
@@ -2268,11 +2258,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 21 introduces a trendy and refreshing drink: Boba Milk Tea. This popular Taiwanese beverage, also known as bubble tea, is made with tea, milk, and chewy tapioca pearls. The challenge in this level is to perfectly balance the tea, milk, and sugar while ensuring the boba pearls are cooked just right for a satisfying and flavorful drink.</p>
-<p>In Cookingdom, the key to success in Level 21 is precision in brewing the tea, cooking the boba pearls, and assembling the drink quickly. Let's dive into the steps and tips for creating the perfect Boba Milk Tea and earning top ratings!</p>
+<h2 id="overview">Cookingdom Level 21 Game Overview</h2>
+<p>In Cookingdom Level 21 , Level 21 introduces a trendy and refreshing drink: Boba Milk Tea. This popular Taiwanese beverage, also known as bubble tea, is made with tea, milk, and chewy tapioca pearls. The challenge in this level is to perfectly balance the tea, milk, and sugar while ensuring the boba pearls are cooked just right for a satisfying and flavorful drink.</p>
+<p>In Cookingdom Level 21 , the key to success in Level 21 is precision in brewing the tea, cooking the boba pearls, and assembling the drink quickly. Let's dive into the steps and tips for creating the perfect Boba Milk Tea and earning top ratings!</p>
 
-<h2 id="goal">Level 21 Goals</h2>
+<h2 id="goal">Cookingdom Level 21 Goals</h2>
 <ul>
     <li>
         <strong>Prepare the Boba Pearls:</strong> The first step in making Boba Milk Tea is cooking the tapioca pearls. These pearls need to be cooked to perfection to achieve the right texture – soft and chewy on the inside, with a slightly firm exterior.
@@ -2288,17 +2278,17 @@ export const guides = [
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make Boba Milk Tea</h2>
+<h2 id="steps">Cookingdom Level 21 Steps to Make Boba Milk Tea</h2>
 <ol>
     <li>
         <h3>Cook the Boba Pearls:</h3>
-        <p>Start by cooking the tapioca pearls. In Cookingdom, the first thing you need to do is bring a large pot of water to a boil. Once the water is boiling, add the tapioca pearls and stir them gently to prevent clumping.</p>
+        <p>Start by cooking the tapioca pearls. In Cookingdom Level 21 , the first thing you need to do is bring a large pot of water to a boil. Once the water is boiling, add the tapioca pearls and stir them gently to prevent clumping.</p>
         <p><strong>Tip:</strong> Cook the pearls according to the package instructions (usually for about 20-30 minutes). Make sure the pearls are fully cooked but still chewy. Overcooking them can make them too soft, and undercooking them can leave them hard in the center.</p>
         <p><strong>Tip:</strong> After cooking, rinse the pearls in cold water to stop the cooking process and prevent them from sticking together.</p>
     </li>
     <li>
         <h3>Brew the Tea:</h3>
-        <p>While the boba pearls are cooking, brew the tea. In Cookingdom, use a strong black tea (or any tea of your choice). Steep the tea for about 3-5 minutes to get a strong, flavorful base.</p>
+        <p>While the boba pearls are cooking, brew the tea. In Cookingdom Level 21 , use a strong black tea (or any tea of your choice). Steep the tea for about 3-5 minutes to get a strong, flavorful base.</p>
         <p><strong>Tip:</strong> For a richer flavor, you can brew the tea slightly stronger than usual. This will help the tea flavor come through after adding milk and sweetness.</p>
         <p><strong>Tip:</strong> If you want a more unique flavor, consider using flavored teas like jasmine or oolong, but black tea remains the most traditional choice.</p>
     </li>
@@ -2310,12 +2300,12 @@ export const guides = [
     </li>
     <li>
         <h3>Sweeten the Tea:</h3>
-        <p>In Cookingdom, the sweetness of the drink is crucial. Add sugar or a sweetener to the brewed tea and stir well to dissolve. The amount of sugar will depend on your personal preference, but it should complement the bitterness of the tea without overpowering it.</p>
+        <p>In Cookingdom Level 21 , the sweetness of the drink is crucial. Add sugar or a sweetener to the brewed tea and stir well to dissolve. The amount of sugar will depend on your personal preference, but it should complement the bitterness of the tea without overpowering it.</p>
         <p><strong>Tip:</strong> You can also use honey, syrup, or other sweeteners instead of regular sugar. Adjust the sweetness to match your customer's taste preferences.</p>
     </li>
     <li>
         <h3>Assemble the Drink:</h3>
-        <p>Now it's time to assemble the Boba Milk Tea. In Cookingdom, pour the cooked tapioca pearls into a glass first. Then, add ice cubes to keep the drink cold and refreshing.</p>
+        <p>Now it's time to assemble the Boba Milk Tea. In Cookingdom Level 21 , pour the cooked tapioca pearls into a glass first. Then, add ice cubes to keep the drink cold and refreshing.</p>
         <p><strong>Tip:</strong> If the drink is served chilled, make sure to use a generous amount of ice to keep the tea cool and refreshing. Avoid adding too much ice, though, as it may dilute the drink.</p>
         <p>Pour the prepared tea and milk mixture over the pearls and ice.</p>
         <p><strong>Tip:</strong> For an added visual appeal, you can drizzle some syrup or honey on top of the tea before serving.</p>
@@ -2327,7 +2317,7 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 21 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Perfect Boba Pearls:</h3>
@@ -2357,8 +2347,8 @@ export const guides = [
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 21 of Cookingdom, making the perfect Boba Milk Tea requires precision in cooking the tapioca pearls, brewing the tea, and balancing the milk and sweetness. Pay attention to the texture of the boba and ensure that the tea and milk complement each other for a satisfying and delicious drink.</p>
-<p>With proper preparation, boba pearls, and a touch of creativity, you'll be able to impress your customers and continue your journey through Cookingdom!</p>
+<p>In Cookingdom Level 21 , making the perfect Boba Milk Tea requires precision in cooking the tapioca pearls, brewing the tea, and balancing the milk and sweetness. Pay attention to the texture of the boba and ensure that the tea and milk complement each other for a satisfying and delicious drink.</p>
+<p>With proper preparation, boba pearls, and a touch of creativity, you'll be able to impress your customers and continue your journey through Cookingdom Level 21 !</p>
 `,
   },
   {
@@ -2374,11 +2364,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
     iframeUrl: 'https://www.youtube.com/embed/_h0bTaAM-0o', // Placeholder
     seo: {
-      title: 'Cookingdom Level 22 Guide: Easy Smoothie | Tips & Strategy',
+      title: 'Cookingdom Level 22 Guide: Easy Smoothie | cookingdom.co',
       description:
-        'Master the Easy Smoothie in Level 22 of Cookingdom. Get tips on choosing fruits, blending, achieving the right consistency, and serving.',
+        'Master the Easy Smoothie in Cookingdom Level 22. Get tips on choosing fruits, blending, achieving the right consistency, and serving.',
       keywords:
-        'Cookingdom, Level 22, Easy Smoothie, Healthy Drink, Blending, Fruit Smoothie, Guide, Strategy',
+        'Cookingdom Level 22, Cookingdom Easy Smoothie, Healthy Drink, Blending, Fruit Smoothie',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_22.webp', // Placeholder
@@ -2406,11 +2396,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, Level 22 introduces a delicious and healthy treat: the Easy Smoothie. This refreshing drink is perfect for a quick and nutritious snack, and it's all about balancing the right amount of fruit, yogurt, and other ingredients to create a creamy, smooth, and flavorful blend. The goal is to prepare the perfect smoothie quickly to satisfy your customers and advance to the next level.</p>
-<p>In Cookingdom, the Easy Smoothie level focuses on preparing a refreshing drink with precision. You'll need to choose the right fruits, blend them to perfection, and serve it with the correct consistency. Whether it's a tropical mango smoothie or a berry burst smoothie, the key to success lies in getting the right texture and flavor.</p>
+<h2 id="overview">Cookingdom Level 22 Game Overview</h2>
+<p>In Cookingdom Level 22 ,introduces a delicious and healthy treat: the Easy Smoothie. This refreshing drink is perfect for a quick and nutritious snack, and it's all about balancing the right amount of fruit, yogurt, and other ingredients to create a creamy, smooth, and flavorful blend. The goal is to prepare the perfect smoothie quickly to satisfy your customers and advance to the next level.</p>
+<p>In Cookingdom Level 22 , the Easy Smoothie level focuses on preparing a refreshing drink with precision. You'll need to choose the right fruits, blend them to perfection, and serve it with the correct consistency. Whether it's a tropical mango smoothie or a berry burst smoothie, the key to success lies in getting the right texture and flavor.</p>
 
-<h2 id="goal">Level 22 Goals</h2>
+<h2 id="goal">Cookingdom Level 22 Level 22 Goals</h2>
 <ul>
     <li>
         <strong>Choose the Fruit:</strong> Select the fruit base for your smoothie. You can use a combination of fruits like bananas, strawberries, blueberries, or mangoes to create a delicious and balanced flavor.
@@ -2426,11 +2416,11 @@ export const guides = [
     </li>
 </ul>
 
-<h2 id="steps">Steps to Make the Easy Smoothie</h2>
+<h2 id="steps">Cookingdom Level 22 Steps to Make the Easy Smoothie</h2>
 <ol>
     <li>
         <h3>Choose Your Fruit:</h3>
-        <p>The first step in making a great Easy Smoothie is selecting your fruit. In Cookingdom, you have various options, from tropical fruits like mango and pineapple to classic choices like strawberries, blueberries, or bananas.</p>
+        <p>The first step in making a great Easy Smoothie is selecting your fruit. In Cookingdom Level 22, you have various options, from tropical fruits like mango and pineapple to classic choices like strawberries, blueberries, or bananas.</p>
         <p><strong>Tip:</strong> For a tropical smoothie, combine mango, pineapple, and a little coconut milk for a refreshing treat. For a berry smoothie, mix strawberries, blueberries, and raspberries for a tangy and sweet flavor.</p>
     </li>
     <li>
@@ -2441,7 +2431,7 @@ export const guides = [
     </li>
     <li>
         <h3>Blend the Ingredients:</h3>
-        <p>Once you've added the fruit and liquid base, it's time to blend. In Cookingdom, you'll need to blend the ingredients thoroughly until you achieve a smooth and creamy texture. Be sure to blend for just the right amount of time—overblending can make the smoothie too thin, while underblending can leave chunks of fruit.</p>
+        <p>Once you've added the fruit and liquid base, it's time to blend. In Cookingdom Level 22, you'll need to blend the ingredients thoroughly until you achieve a smooth and creamy texture. Be sure to blend for just the right amount of time—overblending can make the smoothie too thin, while underblending can leave chunks of fruit.</p>
         <p><strong>Tip:</strong> Start by blending at a low speed and gradually increase to ensure everything mixes evenly. Add a little extra liquid if the smoothie is too thick or if your blender is having trouble.</p>
     </li>
     <li>
@@ -2457,7 +2447,7 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 22 Tips & Tricks</h2>
 <ul>
     <li>
         <h3>Use Frozen Fruit for a Thicker Smoothie:</h3>
@@ -2471,7 +2461,7 @@ export const guides = [
     </li>
     <li>
         <h3>Experiment with Add-ins:</h3>
-        <p>In Cookingdom, you can get creative with your smoothies by adding extra ingredients like chia seeds, flax seeds, protein powder, or even spinach for an extra boost of nutrition.</p>
+        <p>In Cookingdom Level 22, you can get creative with your smoothies by adding extra ingredients like chia seeds, flax seeds, protein powder, or even spinach for an extra boost of nutrition.</p>
         <p><strong>Tip:</strong> Adding a handful of spinach won't affect the flavor much but will boost the smoothie's health benefits.</p>
     </li>
     <li>
@@ -2488,7 +2478,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Level 22 of Cookingdom, making the Easy Smoothie is all about choosing the right fruits, blending them with a creamy base, and achieving the perfect consistency. Keep the texture smooth, adjust the sweetness, and serve it cold with a decorative touch for maximum customer satisfaction.</p>
-<p>Mastering the Easy Smoothie will not only enhance your Cookingdom skills but also set you up for success in future levels where you'll create even more complex dishes and drinks!</p>
+<p>Mastering the Easy Smoothie will not only enhance your Cookingdom Level 22 skills but also set you up for success in future levels where you'll create even more complex dishes and drinks!</p>
 `,
   },
   {
@@ -2504,11 +2494,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
     iframeUrl: 'https://www.youtube.com/embed/FCFq9xRRobo', // Placeholder
     seo: {
-      title: 'Cookingdom Level 23 Guide: Yule Log Cake | Tips & Strategy',
+      title: 'Cookingdom Level 23 Guide: Yule Log Cake | cookingdom.co',
       description:
-        'Master the Yule Log Cake in Level 23 of Cookingdom. Get tips on baking sponge, rolling, filling, frosting, and decorating this holiday classic.',
+        'Master the Yule Log Cake in Cookingdom Level 23 . Get tips on baking sponge, rolling, filling, frosting, and decorating this holiday classic.',
       keywords:
-        'Cookingdom, Level 23, Yule Log Cake, Bûche de Noël, Holiday Dessert, Baking Guide, Strategy',
+        'Cookingdom Level 23, cookingdom Yule Log Cake, Bûche de Noël, Holiday Dessert, Baking Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_23.webp', // Placeholder
@@ -2536,11 +2526,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>Welcome to Level 23 of the Cookingdom game, where your baking skills are put to the test with the classic holiday dessert – the Yule Log Cake (also known as Bûche de Noël). This level challenges players to carefully bake, roll, and decorate a festive sponge cake filled with cream and coated in rich chocolate. Precision and timing are key to completing this intricate dessert and delighting your virtual customers.</p>
-<p>The Cookingdom walkthrough guides help you navigate each step of this level to ensure your Yule Log Cake is not only delicious but also visually appealing.</p>
+<h2 id="overview">Cookingdom Level 23 Game Overview</h2>
+<p>Welcome to Cookingdom Level 23 game, where your baking skills are put to the test with the classic holiday dessert – the Yule Log Cake (also known as Bûche de Noël). This level challenges players to carefully bake, roll, and decorate a festive sponge cake filled with cream and coated in rich chocolate. Precision and timing are key to completing this intricate dessert and delighting your virtual customers.</p>
+<p>The Cookingdom Level 23 walkthrough guides help you navigate each step of this level to ensure your Yule Log Cake is not only delicious but also visually appealing.</p>
 
-<h2 id="goal">Level 23 Objectives</h2>
+<h2 id="goal">Cookingdom Level 23 Objectives</h2>
 <ul>
     <li>Bake a light, flexible sponge cake.</li>
     <li>Prepare and spread a creamy filling.</li>
@@ -2550,13 +2540,13 @@ export const guides = [
     <li>Deliver perfect cakes within time limits.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master the Yule Log Cake</h2>
+<h2 id="steps">Cookingdom Level 23 Step-by-Step Guide to Master the Yule Log Cake</h2>
 <ol>
     <li>
         <h3>Prepare the Sponge Cake Batter</h3>
-        <p>In Cookingdom, start by mixing eggs, sugar, flour, and cocoa powder.</p>
+        <p>In Cookingdom Level 23, start by mixing eggs, sugar, flour, and cocoa powder.</p>
         <p><strong>Tip:</strong> Whisk the eggs and sugar until light and fluffy — this gives your sponge its airy texture.</p>
-        <p><strong>Cookingdom game tip:</strong> Avoid overmixing the flour to keep the batter soft.</p>
+        <p><strong>Cookingdom Level 23 game tip:</strong> Avoid overmixing the flour to keep the batter soft.</p>
     </li>
     <li>
         <h3>Bake the Sponge</h3>
@@ -2568,11 +2558,11 @@ export const guides = [
         <h3>Roll While Warm</h3>
         <p>Immediately after baking, roll the sponge (with the parchment paper) while it’s still warm.</p>
         <p>Let it cool in the rolled shape — this “trains” the cake and prevents cracks later.</p>
-        <p><strong>Cookingdom walkthrough guides stress that skipping this step risks a broken cake!</strong></p>
+        <p><strong>Cookingdom Level 23 walkthrough guides stress that skipping this step risks a broken cake!</strong></p>
     </li>
     <li>
         <h3>Prepare the Cream Filling</h3>
-        <p>In this level of the Cookingdom game, whip heavy cream with a bit of vanilla and sugar.</p>
+        <p>In Cookingdom Level 23 , whip heavy cream with a bit of vanilla and sugar.</p>
         <p>Optional: Add a dash of espresso or cocoa for extra depth.</p>
     </li>
     <li>
@@ -2584,18 +2574,18 @@ export const guides = [
     <li>
         <h3>Frost the Log</h3>
         <p>Cover the roll in chocolate ganache or buttercream.</p>
-        <p>Use a fork to create “bark” texture — a key detail in the Cookingdom game that boosts your score.</p>
+        <p>Use a fork to create “bark” texture — a key detail in the Cookingdom Level 23 that boosts your score.</p>
         <p><strong>Tip:</strong> Chill the cake briefly to set the frosting before decorating.</p>
     </li>
     <li>
         <h3>Add Festive Decorations</h3>
         <p>Use powdered sugar for a snow-dusted effect.</p>
         <p>Add holly, berries, or edible mushrooms.</p>
-        <p><strong>The Cookingdom walkthrough guides encourage creativity here — decoration boosts your star rating!</strong></p>
+        <p><strong>The Cookingdom Level 23 walkthrough guides encourage creativity here — decoration boosts your star rating!</strong></p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 23 Success</h2>
+<h2 id="tips">Cookingdom Level 23 Tips </h2>
 <ul>
     <li>
         <h3>Timing Is Everything</h3>
@@ -2603,7 +2593,7 @@ export const guides = [
     </li>
     <li>
         <h3>Decoration Matters</h3>
-        <p>The Cookingdom game rewards players who take time to decorate. The more festive, the better!</p>
+        <p>The Cookingdom Level 23 rewards players who take time to decorate. The more festive, the better!</p>
     </li>
     <li>
         <h3>Practice Makes Perfect</h3>
@@ -2633,11 +2623,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
     iframeUrl: 'https://www.youtube.com/embed/iKRnARMMl_0', // Placeholder
     seo: {
-      title: 'Cookingdom Level 24 Guide: Beef Pho | Tips & Strategy',
+      title: 'Cookingdom Level 24 Guide: Beef Pho | cookingdom.co',
       description:
-        'Master Beef Pho in Level 24 of Cookingdom. Get tips on simmering broth, cooking noodles, slicing beef, and assembling this aromatic Vietnamese soup.',
+        'Master Beef Pho in Cookingdom Level 24. Get tips on simmering broth, cooking noodles, slicing beef, and assembling this aromatic Vietnamese soup.',
       keywords:
-        'Cookingdom, Level 24, Beef Pho, Vietnamese Soup, Noodle Soup, Broth Simmering, Guide, Strategy',
+        'Cookingdom Level 24, Cookingdom Beef Pho, Vietnamese Soup, Noodle Soup, Broth Simmering, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_24.webp', // Placeholder
@@ -2665,11 +2655,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 24 Game Overview</h2>
 <p>In Cookingdom Level 24, you are introduced to Beef Pho, a delicious and aromatic Vietnamese noodle soup. The challenge here lies in preparing the broth to perfection, cooking the beef just right, and assembling the dish with all the essential garnishes. The combination of fragrant herbs, rice noodles, and thinly sliced beef makes this a beloved dish, and in Cookingdom, it’s all about getting every step right to ensure your customers are satisfied.</p>
-<p>This level requires precision and attention to detail, as Beef Pho involves multiple steps: simmering the broth, preparing the noodles, and ensuring the beef is cooked just right. The Cookingdom game walkthrough guides provide you with step-by-step instructions to ace this level.</p>
+<p>This Cookingdom Level 24 requires precision and attention to detail, as Beef Pho involves multiple steps: simmering the broth, preparing the noodles, and ensuring the beef is cooked just right. The Cookingdom game walkthrough guides provide you with step-by-step instructions to ace this level.</p>
 
-<h2 id="goal">Level 24 Objectives</h2>
+<h2 id="goal">Cookingdom Level 24 Objectives</h2>
 <ul>
     <li>Simmer the broth with the right spices and ingredients.</li>
     <li>Prepare the rice noodles and keep them tender.</li>
@@ -2682,17 +2672,17 @@ export const guides = [
 <ol>
     <li>
         <h3>Simmer the Broth</h3>
-        <p>Start by preparing the broth in Cookingdom. The key to a flavorful pho broth is long simmering. In the game, you’ll add beef bones, onions, ginger, and spices like star anise, cloves, cinnamon, and cardamom. Simmer these ingredients for an extended period (usually 30-40 minutes in the game).</p>
+        <p>Start by preparing the broth in Cookingdom Level 24 . The key to a flavorful pho broth is long simmering. In the game, you’ll add beef bones, onions, ginger, and spices like star anise, cloves, cinnamon, and cardamom. Simmer these ingredients for an extended period (usually 30-40 minutes in the game).</p>
         <p><strong>Tip:</strong> Skim off any impurities that float to the surface to keep the broth clear and clean.</p>
     </li>
     <li>
         <h3>Prepare the Rice Noodles</h3>
-        <p>While the broth simmers, it’s time to prepare the rice noodles. In Cookingdom, you will need to cook them until they are tender but not mushy.</p>
+        <p>While the broth simmers, it’s time to prepare the rice noodles. In Cookingdom Level 24 , you will need to cook them until they are tender but not mushy.</p>
         <p><strong>Tip:</strong> Don’t overcook the noodles. They should retain a slight bite, as they will continue to soften once served with the hot broth.</p>
     </li>
     <li>
         <h3>Slice the Beef</h3>
-        <p>Beef Pho is typically served with thinly sliced raw beef that cooks in the hot broth. In Cookingdom, you’ll be asked to slice the beef against the grain as thinly as possible.</p>
+        <p>Beef Pho is typically served with thinly sliced raw beef that cooks in the hot broth. In Cookingdom Level 24 , you’ll be asked to slice the beef against the grain as thinly as possible.</p>
         <p><strong>Tip:</strong> Freeze the beef for 10-15 minutes before slicing to make it easier to cut paper-thin slices.</p>
     </li>
     <li>
@@ -2702,7 +2692,7 @@ export const guides = [
     </li>
     <li>
         <h3>Add Fresh Herbs and Garnishes</h3>
-        <p>In Cookingdom, the final touch is crucial: add fresh herbs like cilantro, basil, and green onions, along with a squeeze of lime and some bean sprouts on the side.</p>
+        <p>In Cookingdom Level 24 , the final touch is crucial: add fresh herbs like cilantro, basil, and green onions, along with a squeeze of lime and some bean sprouts on the side.</p>
         <p><strong>Tip:</strong> If you want an extra burst of flavor, add a few slices of jalapeño or a dash of hoisin sauce and sriracha for heat.</p>
     </li>
     <li>
@@ -2721,7 +2711,7 @@ export const guides = [
     </li>
     <li>
         <h3>Don’t Overcook the Noodles</h3>
-        <p>Rice noodles cook very quickly. Overcooking them in Cookingdom will result in a mushy texture. Keep an eye on the timer and pull them out just when they’re tender.</p>
+        <p>Rice noodles cook very quickly. Overcooking them in Cookingdom Level 24  will result in a mushy texture. Keep an eye on the timer and pull them out just when they’re tender.</p>
     </li>
     <li>
         <h3>Perfectly Slice the Beef</h3>
@@ -2735,7 +2725,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 24, making Beef Pho involves a perfect balance of ingredients, timing, and presentation. From simmering a flavorful broth to assembling the dish with the right garnishes, this level is all about attention to detail. By following the Cookingdom walkthrough guides, you’ll learn how to get the broth just right, cook the beef slices perfectly, and assemble the pho with the right mix of herbs and spices.</p>
-<p>With patience and practice, you'll master Beef Pho and continue your journey through the exciting and delicious world of Cookingdom!</p>
+<p>With patience and practice, you'll master Beef Pho and continue your journey through the exciting and delicious world of Cookingdom Level 24 !</p>
 `,
   },
   {
@@ -2751,11 +2741,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
     iframeUrl: 'https://www.youtube.com/embed/BJJ9KEWeJBc', // Placeholder
     seo: {
-      title: 'Cookingdom Level 25 Guide: Pizza | Tips & Strategy',
+      title: 'Cookingdom Level 25 Guide: Pizza | cookingdom.co',
       description:
-        'Master Pizza making in Level 25 of Cookingdom. Get tips on dough, sauce, toppings, baking, and serving the perfect pizza.',
+        'Master Pizza making in Cookingdom Level 25. Get tips on dough, sauce, toppings, baking, and serving the perfect pizza.',
       keywords:
-        'Cookingdom, Level 25, Pizza, Pizza Dough, Baking, Toppings, Italian Food, Guide, Strategy',
+        'Cookingdom Level 25, Cookingdom Pizza, Pizza Dough, Baking, Toppings, Italian Food, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_25.webp', // Placeholder
@@ -2783,11 +2773,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom Level 25, you are tasked with preparing one of a href="/level-1" title="level 1 pizza" the most popular and versatile dishes around: Pizza. This level challenges you to make a perfect pizza, starting from scratch by creating the dough, preparing toppings, and baking it to a golden crisp. With a variety of toppings available, Cookingdom puts your skills to the test in balancing flavors and textures to create the ultimate pizza.</p>
-<p>The goal is to ensure that your pizza is perfectly cooked, with a crispy crust, well-distributed toppings, and just the right amount of cheese and sauce. In this Cookingdom walkthrough guide, we’ll break down each step you need to take to master Level 25 and satisfy your customers.</p>
+<h2 id="overview">Cookingdom Level 25 Game Overview</h2>
+<p>In Cookingdom Level 25, you are tasked with the most popular and versatile dishes around: Pizza. This level challenges you to make a perfect pizza, starting from scratch by creating the dough, preparing toppings, and baking it to a golden crisp. With a variety of toppings available, Cookingdom puts your skills to the test in balancing flavors and textures to create the ultimate pizza.</p>
+<p>The goal is to ensure that your pizza is perfectly cooked, with a crispy crust, well-distributed toppings, and just the right amount of cheese and sauce. In this Cookingdom Level 25 walkthrough guide, we’ll break down each step you need to take to master Level 25 and satisfy your customers.</p>
 
-<h2 id="goal">Level 25 Objectives</h2>
+<h2 id="goal">Cookingdom Level 25  Objectives</h2>
 <ul>
     <li>Prepare the pizza dough from scratch.</li>
     <li>Spread the sauce evenly on the dough.</li>
@@ -2796,18 +2786,18 @@ export const guides = [
     <li>Serve the pizza while it’s hot and delicious.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Pizza</h2>
+<h2 id="steps">Cookingdom Level 25 Step-by-Step Guide to Master Pizza</h2>
 <ol>
     <li>
         <h3>Prepare the Pizza Dough</h3>
-        <p>In Cookingdom, making the perfect pizza dough is crucial. The dough needs to be light and airy but firm enough to hold the toppings.</p>
+        <p>In Cookingdom Level 25 , making the perfect pizza dough is crucial. The dough needs to be light and airy but firm enough to hold the toppings.</p>
         <p>Start by mixing flour, yeast, water, olive oil, and salt to create a smooth dough.</p>
         <p><strong>Tip:</strong> Knead the dough for at least 5-7 minutes to activate the gluten and ensure a chewy yet crisp crust.</p>
     </li>
     <li>
         <h3>Let the Dough Rise</h3>
         <p>After kneading, let the dough rest for about 30 minutes to rise. The dough should double in size. During this time, the yeast works to create the bubbles that give the crust its airy texture.</p>
-        <p><strong>Tip:</strong> In Cookingdom, if you skip this step, your dough will not rise properly, resulting in a dense and chewy crust.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 25 , if you skip this step, your dough will not rise properly, resulting in a dense and chewy crust.</p>
     </li>
     <li>
         <h3>Roll Out the Dough</h3>
@@ -2817,7 +2807,7 @@ export const guides = [
     </li>
     <li>
         <h3>Spread the Sauce</h3>
-        <p>In Cookingdom, the next step is spreading a tomato sauce or white sauce evenly over the dough.</p>
+        <p>In Cookingdom Level 25 , the next step is spreading a tomato sauce or white sauce evenly over the dough.</p>
         <p>Don’t overdo it—use a thin layer to prevent the pizza from becoming soggy.</p>
         <p><strong>Tip:</strong> For extra flavor, you can add a pinch of garlic powder, oregano, or basil to the sauce before spreading it on the dough.</p>
     </li>
@@ -2830,7 +2820,7 @@ export const guides = [
     </li>
     <li>
         <h3>Bake the Pizza</h3>
-        <p>Cookingdom will guide you through baking the pizza. Ensure your oven is preheated to around 475°F (245°C). Place the pizza on a baking sheet or a pizza stone.</p>
+        <p>Cookingdom Level 25  will guide you through baking the pizza. Ensure your oven is preheated to around 475°F (245°C). Place the pizza on a baking sheet or a pizza stone.</p>
         <p>Bake the pizza for 10-15 minutes, depending on your preferred crust and topping ratio. The pizza is ready when the crust is golden brown and the cheese is bubbly and slightly browned.</p>
         <p><strong>Tip:</strong> Keep an eye on the pizza, as baking time can vary depending on the thickness of the dough and the toppings.</p>
     </li>
@@ -2847,7 +2837,7 @@ export const guides = [
 <ul>
     <li>
         <h3>Don’t Overload the Pizza with Toppings</h3>
-        <p>While it’s tempting to pile on the toppings, Cookingdom rewards balanced pizzas. Overloading the pizza may result in uneven cooking or a soggy crust.</p>
+        <p>While it’s tempting to pile on the toppings, Cookingdom Level 25  rewards balanced pizzas. Overloading the pizza may result in uneven cooking or a soggy crust.</p>
         <p><strong>Tip:</strong> Less is more! Stick to 3-4 toppings that complement each other well.</p>
     </li>
     <li>
@@ -2857,19 +2847,19 @@ export const guides = [
     </li>
     <li>
         <h3>Proper Baking Temperature</h3>
-        <p>Cookingdom allows you to bake the pizza at a high temperature, so make sure the oven is fully preheated. A hotter oven ensures a crispy, golden crust.</p>
+        <p>Cookingdom Level 25  allows you to bake the pizza at a high temperature, so make sure the oven is fully preheated. A hotter oven ensures a crispy, golden crust.</p>
         <p><strong>Tip:</strong> If you’re using a pizza stone, preheat it in the oven for extra crispiness.</p>
     </li>
     <li>
         <h3>Keep an Eye on the Time</h3>
-        <p>Timing is crucial in Cookingdom. Don’t let the pizza overbake, or the crust will become too hard and burnt.</p>
+        <p>Timing is crucial in Cookingdom Level 25 . Don’t let the pizza overbake, or the crust will become too hard and burnt.</p>
         <p><strong>Tip:</strong> Check the pizza after 10 minutes. Once the cheese starts bubbling and the edges of the crust turn golden, it’s time to take it out.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
 <p>Cookingdom Level 25 challenges you to make the perfect Pizza from scratch, from preparing the dough to adding the perfect amount of cheese and toppings. The key to success is balancing the flavors and textures, ensuring the crust is crispy and the cheese is melted just right.</p>
-<p>By following the Cookingdom walkthrough guides, you’ll be able to master every step, from the dough preparation to the final bake. Once you perfect your pizza-making skills, you’ll be ready to tackle even more complex dishes in future levels.</p>
+<p>By following the Cookingdom Level 25 walkthrough guides, you’ll be able to master every step, from the dough preparation to the final bake. Once you perfect your pizza-making skills, you’ll be ready to tackle even more complex dishes in future levels.</p>
 `,
   },
   {
@@ -2885,11 +2875,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
     iframeUrl: 'https://www.youtube.com/embed/BK2eYJhoKl8', // Placeholder
     seo: {
-      title: 'Cookingdom Level 26 Guide: Smoothie | Tips & Strategy',
+      title: 'Cookingdom Level 26 Guide: Smoothie | cookingdom.co',
       description:
-        'Master the Smoothie in Level 26 of Cookingdom. Get tips on choosing fruits, liquids, blending to the right consistency, and garnishing.',
+        'Master the Smoothie in Cookingdom Level 26. Get tips on choosing fruits, liquids, blending to the right consistency, and garnishing.',
       keywords:
-        'Cookingdom, Level 26, Smoothie, Healthy Drink, Blending, Fruit Drink, Guide, Strategy',
+        'Cookingdom Level 26, cookingdom Smoothie, Healthy Drink, Blending, Fruit Drink, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_26.webp', // Placeholder
@@ -2917,11 +2907,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom Level 26, you’re tasked with preparing a <a href="/level-22" title="level 22 smoothie">Smoothie</a>, a refreshing and healthy treat. This level focuses on blending the right ingredients to create a smooth, creamy texture that’s not too thick or too thin. You’ll need to carefully choose the fruits, liquids, and additives to get the perfect balance of flavors. Cookingdom challenges you to combine your ingredients precisely to satisfy your virtual customers’ taste buds.</p>
-<p>This guide will walk you through the steps of making the perfect smoothie in Cookingdom, ensuring that your creation is both delicious and visually appealing.</p>
+<h2 id="overview">Cookingdom Level 26 Game Overview</h2>
+<p>In Cookingdom Level 26 , you’re tasked with preparing a <a href="/cookingdom-game-level-26" title="level 26 smoothie">cookingdom Smoothie</a>, a refreshing and healthy treat. This level focuses on blending the right ingredients to create a smooth, creamy texture that’s not too thick or too thin. You’ll need to carefully choose the fruits, liquids, and additives to get the perfect balance of flavors. Cookingdom challenges you to combine your ingredients precisely to satisfy your virtual customers’ taste buds.</p>
+<p>This guide will walk you through the steps of making the perfect smoothie in Cookingdom Level 26, ensuring that your creation is both delicious and visually appealing.</p>
 
-<h2 id="goal">Level 26 Objectives</h2>
+<h2 id="goal">Cookingdom Level 26 Objectives</h2>
 <ul>
     <li>Choose the right fruits for the smoothie base.</li>
     <li>Add liquids such as milk, juice, or yogurt.</li>
@@ -2930,11 +2920,11 @@ export const guides = [
     <li>Create multiple variations to keep your customers happy.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Smoothie</h2>
+<h2 id="steps">Cookingdom Level 26 Step-by-Step Guide to Master Smoothie</h2>
 <ol>
     <li>
         <h3>Choose the Base Fruits</h3>
-        <p>In Cookingdom, you have several fruit options to choose from, such as bananas, strawberries, blueberries, and mangoes. The key is to pick a good balance of fruits that complement each other.</p>
+        <p>In Cookingdom Level 26 , you have several fruit options to choose from, such as bananas, strawberries, blueberries, and mangoes. The key is to pick a good balance of fruits that complement each other.</p>
         <p><strong>Tip:</strong> For a thick smoothie, choose bananas or mangoes. For a lighter texture, opt for berries or pineapple.</p>
     </li>
     <li>
@@ -2944,7 +2934,7 @@ export const guides = [
     </li>
     <li>
         <h3>Add Optional Ingredients</h3>
-        <p>In Cookingdom, you can add other ingredients to enhance the flavor and texture of your smoothie, like:</p>
+        <p>In Cookingdom Level 26 , you can add other ingredients to enhance the flavor and texture of your smoothie, like:</p>
         <ul>
             <li>Honey or agave syrup for sweetness.</li>
             <li>Spinach or kale for a green boost.</li>
@@ -2955,12 +2945,12 @@ export const guides = [
     </li>
     <li>
         <h3>Blend to Perfection</h3>
-        <p>Once all your ingredients are in the blender, it’s time to blend! The goal is to achieve a smooth, lump-free consistency. In Cookingdom, you’ll need to monitor the blending process closely.</p>
+        <p>Once all your ingredients are in the blender, it’s time to blend! The goal is to achieve a smooth, lump-free consistency. In Cookingdom Level 26, you’ll need to monitor the blending process closely.</p>
         <p><strong>Tip:</strong> Start with a short blending cycle, check the texture, and then blend more if needed. If the smoothie is too thick, add more liquid; if it’s too thin, add more fruit or ice.</p>
     </li>
     <li>
         <h3>Taste and Adjust</h3>
-        <p>After blending, take a moment to taste the smoothie in Cookingdom. Adjust the sweetness, acidity, or thickness if needed.</p>
+        <p>After blending, take a moment to taste the smoothie in Cookingdom Level 26. Adjust the sweetness, acidity, or thickness if needed.</p>
         <p><strong>Tip:</strong> If it’s too sweet, add a squeeze of lemon juice or lime for a fresh kick. If it’s too thick, add a splash more liquid.</p>
     </li>
     <li>
@@ -2971,7 +2961,7 @@ export const guides = [
             <li>Mint leaves for a fresh pop of color.</li>
             <li>A sprinkle of chia seeds or granola for texture.</li>
         </ul>
-        <p><strong>Tip:</strong> Presentation is important in Cookingdom! The more appealing your smoothie looks, the higher the customer satisfaction.</p>
+        <p><strong>Tip:</strong> Presentation is important in Cookingdom Level 26! The more appealing your smoothie looks, the higher the customer satisfaction.</p>
     </li>
     <li>
         <h3>Serve and Delight Your Customer</h3>
@@ -2979,7 +2969,7 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 26 Success</h2>
+<h2 id="tips">Cookingdom Level 26 Pro Tips </h2>
 <ul>
     <li>
         <h3>Balance Your Fruits and Liquids</h3>
@@ -2999,13 +2989,13 @@ export const guides = [
     </li>
     <li>
         <h3>Experiment with Superfoods</h3>
-        <p>Want to stand out? Add superfoods like chia seeds, flax seeds, or spirulina to the smoothie for extra health benefits and an edge over your competitors in Cookingdom.</p>
+        <p>Want to stand out? Add superfoods like chia seeds, flax seeds, or spirulina to the smoothie for extra health benefits and an edge over your competitors in Cookingdom Level 26.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 26, making the perfect Smoothie requires the right balance of fruits, liquids, and optional ingredients, all blended to perfection. Whether you’re creating a tropical smoothie with mangoes and pineapple or a berry-packed drink with strawberries and blueberries, this level is all about precision and creativity.</p>
-<p>By following the Cookingdom walkthrough guides, you’ll be able to master smoothie-making in no time. Get the consistency just right, garnish your smoothie with style, and serve up a delicious treat that will make your customers happy!</p>
+<p>By following the Cookingdom Level 26 walkthrough guides, you’ll be able to master smoothie-making in no time. Get the consistency just right, garnish your smoothie with style, and serve up a delicious treat that will make your customers happy!</p>
 `,
   },
   {
@@ -3021,11 +3011,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/vWz6SmiMBk0', // Placeholder
     seo: {
-      title: 'Cookingdom Level 27 Guide: Sandwich | Tips & Strategy',
+      title: 'Cookingdom Level 27 Guide: Sandwich | cookingdom.co',
       description:
-        'Master the Sandwich in Level 27 of Cookingdom. Get tips on choosing bread, protein, veggies, condiments, layering, and serving.',
+        'Master the Sandwich in Cookingdom Level 27 . Get tips on choosing bread, protein, veggies, condiments, layering, and serving.',
       keywords:
-        'Cookingdom, Level 27, Sandwich, Quick Meal, Layering, Bread, Protein, Guide, Strategy',
+        'Cookingdom Level 27, Cookingdom Sandwich, Quick Meal, Layering, Bread, Protein, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_27.webp', // Placeholder
@@ -3053,11 +3043,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom Level 27, you’re tasked with preparing a delicious Sandwich, a quick yet satisfying meal. While it may seem simple, making the perfect sandwich in Cookingdom involves selecting the right combination of ingredients and assembling them in a way that delights your customers. This level challenges your creativity, balance of flavors, and ability to layer the ingredients for maximum satisfaction.</p>
+<h2 id="overview">Cookingdom Level 27 Game Overview</h2>
+<p>In Cookingdom Level 27, you’re tasked with preparing a delicious Sandwich, a quick yet satisfying meal. While it may seem simple, making the perfect sandwich in Cookingdom Level 27 Cookingdom involves selecting the right combination of ingredients and assembling them in a way that delights your customers. This level challenges your creativity, balance of flavors, and ability to layer the ingredients for maximum satisfaction.</p>
 <p>Your sandwich should have a crisp, flavorful combination of bread, protein, veggies, and condiments. It’s important to get the layers just right to ensure that every bite is balanced and delicious. This guide will take you through each step to ensure you master Cookingdom Level 27 and deliver the perfect sandwich.</p>
 
-<h2 id="goal">Level 27 Objectives</h2>
+<h2 id="goal">Cookingdom Level 27 Objectives</h2>
 <ul>
     <li>Choose the bread for the sandwich.</li>
     <li>Select the protein (e.g., chicken, turkey, or beef).</li>
@@ -3066,17 +3056,17 @@ export const guides = [
     <li>Assemble the sandwich and serve it fresh.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Sandwich</h2>
+<h2 id="steps">Cookingdom Level 27 Step-by-Step Guide to Master Sandwich</h2>
 <ol>
     <li>
         <h3>Choose the Bread</h3>
-        <p>The bread is the foundation of any great sandwich. In Cookingdom, you’ll have a variety of bread options to choose from, such as white bread, whole wheat, ciabatta, or baguette. The type of bread will influence the texture and overall flavor.</p>
+        <p>The bread is the foundation of any great sandwich. In Cookingdom Level 27 , you’ll have a variety of bread options to choose from, such as white bread, whole wheat, ciabatta, or baguette. The type of bread will influence the texture and overall flavor.</p>
         <p><strong>Tip:</strong> For a crispier sandwich, opt for a baguette or ciabatta. For a softer sandwich, go for whole wheat or white bread.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you may also be asked to toast the bread for extra crunch.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 27 , you may also be asked to toast the bread for extra crunch.</p>
     </li>
     <li>
         <h3>Add the Protein</h3>
-        <p>Cookingdom allows you to choose a protein for the sandwich, such as grilled chicken, turkey, ham, or even beef patties.</p>
+        <p>Cookingdom Level 27 allows you to choose a protein for the sandwich, such as grilled chicken, turkey, ham, or even beef patties.</p>
         <p>Add the protein to your bread, ensuring it’s evenly spread across the slice. Protein adds the main flavor and substance to the sandwich.</p>
         <p><strong>Tip:</strong> Ensure the protein is cooked to perfection and doesn’t overwhelm the other ingredients. Grilled chicken and turkey are popular choices for a balanced sandwich.</p>
     </li>
@@ -3084,7 +3074,7 @@ export const guides = [
         <h3>Layer the Vegetables</h3>
         <p>Vegetables add crunch and freshness to the sandwich. Lettuce, tomato, onions, and pickles are classic choices.</p>
         <p><strong>Tip:</strong> Slice the vegetables evenly and layer them to ensure a bite of everything in every mouthful. Don't overload the sandwich with too many veggies, or it will be hard to eat.</p>
-        <p><strong>Tip:</strong> In Cookingdom, always use fresh veggies for the best taste and appearance.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 27 , always use fresh veggies for the best taste and appearance.</p>
     </li>
     <li>
         <h3>Add Condiments and Cheese</h3>
@@ -3100,11 +3090,11 @@ export const guides = [
     <li>
         <h3>Serve and Enjoy</h3>
         <p>Once the sandwich is fully assembled, it’s time to serve it. Make sure the sandwich is fresh and visually appealing.</p>
-        <p><strong>Tip:</strong> In Cookingdom, presentation matters! Cut the sandwich into neat halves or quarters, and if you have time, add a garnish like a pickle or side of chips.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 27 , presentation matters! Cut the sandwich into neat halves or quarters, and if you have time, add a garnish like a pickle or side of chips.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 27 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 27</h2>
 <ul>
     <li>
         <h3>Use Fresh Ingredients</h3>
@@ -3120,17 +3110,17 @@ export const guides = [
     </li>
     <li>
         <h3>Check for Customer Preferences</h3>
-        <p>In Cookingdom, some customers may have specific sandwich preferences. Watch out for requests such as “extra cheese,” “no onions,” or “extra mayo.” Fulfilling these requests will improve your customer ratings.</p>
+        <p>In Cookingdom Level 27 , some customers may have specific sandwich preferences. Watch out for requests such as “extra cheese,” “no onions,” or “extra mayo.” Fulfilling these requests will improve your customer ratings.</p>
     </li>
     <li>
         <h3>Don’t Overload the Sandwich</h3>
-        <p>While it’s tempting to add as many toppings as possible, a too-large sandwich can be difficult to manage, both in Cookingdom and in real life. Keep it simple and well-balanced.</p>
+        <p>While it’s tempting to add as many toppings as possible, a too-large sandwich can be difficult to manage, both in Cookingdom Level 27 and in real life. Keep it simple and well-balanced.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 27, making the perfect Sandwich is all about balance and attention to detail. From choosing the right bread to adding the perfect protein, vegetables, condiments, and cheese, each step must be executed carefully to create a satisfying sandwich.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to create a delicious and well-constructed sandwich that your customers will love. Remember to keep an eye on their preferences, toast the bread for extra crunch, and always serve fresh!</p>
+<p>By following this Cookingdom Level 27 walkthrough guide, you’ll be able to create a delicious and well-constructed sandwich that your customers will love. Remember to keep an eye on their preferences, toast the bread for extra crunch, and always serve fresh!</p>
 `,
   },
   {
@@ -3146,11 +3136,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/c0TZorOkxWU', // Placeholder
     seo: {
-      title: 'Cookingdom Level 28 Guide: Croissant | Tips & Strategy',
+      title: 'Cookingdom Level 28 Guide: Croissant | cookingdom.co',
       description:
-        'Master the Croissant in Level 28 of Cookingdom. Get tips on dough preparation, lamination, shaping, proofing, and baking this classic French pastry.',
+        'Master the Croissant in Cookingdom Level 28. Get tips on dough preparation, lamination, shaping, proofing, and baking this classic French pastry.',
       keywords:
-        'Cookingdom, Level 28, Croissant, French Pastry, Baking, Lamination, Dough, Guide, Strategy',
+        'Cookingdom Level 28, Cookingdom Croissant, French Pastry, Baking, Lamination, Dough, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_28.webp', // Placeholder
@@ -3178,11 +3168,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom Level 28, you’re tasked with preparing a Croissant, a classic French pastry known for its flaky, buttery layers. This level focuses on precision, as making the perfect croissant requires a good balance of ingredients, careful preparation, and attention to baking times. Cookingdom challenges you to perfect the technique of creating these delicate pastries, ensuring that each croissant is golden, crispy, and tender on the inside.</p>
+<h2 id="overview">Cookingdom Level 28 Game Overview</h2>
+<p>In Cookingdom Level 28 , you’re tasked with preparing a Croissant, a classic French pastry known for its flaky, buttery layers. This level focuses on precision, as making the perfect croissant requires a good balance of ingredients, careful preparation, and attention to baking times. Cookingdom challenges you to perfect the technique of creating these delicate pastries, ensuring that each croissant is golden, crispy, and tender on the inside.</p>
 <p>This guide will walk you through the process of making a traditional croissant, from preparing the dough to baking it to perfection.</p>
 
-<h2 id="goal">Level 28 Objectives</h2>
+<h2 id="goal">Cookingdom Level 28 Objectives</h2>
 <ul>
     <li>Prepare the dough for the croissant.</li>
     <li>Fold and laminate the dough to create the flaky layers.</li>
@@ -3191,11 +3181,11 @@ export const guides = [
     <li>Serve the croissants fresh and hot.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Croissant</h2>
+<h2 id="steps">Cookingdom Level 28 Step-by-Step Guide to Master Croissant</h2>
 <ol>
     <li>
         <h3>Prepare the Dough</h3>
-        <p>The first step in making a croissant is preparing the dough. Cookingdom provides you with all the basic ingredients you need: flour, butter, yeast, sugar, milk, and a pinch of salt.</p>
+        <p>The first step in making a croissant is preparing the dough. Cookingdom Level 28 provides you with all the basic ingredients you need: flour, butter, yeast, sugar, milk, and a pinch of salt.</p>
         <p><strong>Tip:</strong> Mix the dry ingredients first—flour, sugar, and salt—and then add the wet ingredients—yeast and milk. Knead the dough until it’s smooth, then let it rest for about 30 minutes to rise.</p>
         <p><strong>Tip:</strong> Ensure the butter is cold before incorporating it into the dough; this helps create the layers later.</p>
     </li>
@@ -3203,7 +3193,7 @@ export const guides = [
         <h3>Fold and Laminate the Dough</h3>
         <p>This step is crucial in creating the layers in the croissant. After the dough has rested, you’ll need to roll it out into a rectangle. Place a cold block of butter in the center of the dough.</p>
         <p>Fold the dough over the butter like a letter, then roll it out again into a thin rectangle. Fold the dough into thirds and let it rest for 20-30 minutes.</p>
-        <p><strong>Tip:</strong> Repeat this process 2-3 times to create the distinct flaky layers. In Cookingdom, each fold and rest period is important for the texture.</p>
+        <p><strong>Tip:</strong> Repeat this process 2-3 times to create the distinct flaky layers. In Cookingdom Level 28, each fold and rest period is important for the texture.</p>
     </li>
     <li>
         <h3>Shape the Croissant</h3>
@@ -3214,7 +3204,7 @@ export const guides = [
     <li>
         <h3>Allow the Croissants to Rise</h3>
         <p>After shaping the croissants, they need to rise. Place them on a baking sheet, leaving space between each one, and let them rest for about 1 hour. They should puff up during this time.</p>
-        <p><strong>Tip:</strong> Keep the dough in a warm, draft-free area to help with the rising process. In Cookingdom, patience is key to achieving the perfect texture.</p>
+        <p><strong>Tip:</strong> Keep the dough in a warm, draft-free area to help with the rising process. In Cookingdom Level 28, patience is key to achieving the perfect texture.</p>
     </li>
     <li>
         <h3>Bake the Croissants</h3>
@@ -3230,15 +3220,15 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 28 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 28</h2>
 <ul>
     <li>
         <h3>Use Cold Butter</h3>
-        <p>The key to a flaky croissant is the cold butter. Cookingdom rewards you for making sure the butter remains cold throughout the folding process. This creates steam during baking, which helps form the layers.</p>
+        <p>The key to a flaky croissant is the cold butter. Cookingdom Level 28 rewards you for making sure the butter remains cold throughout the folding process. This creates steam during baking, which helps form the layers.</p>
     </li>
     <li>
         <h3>Patience During the Resting Periods</h3>
-        <p>Don’t rush the resting periods. Allow the dough to rise properly between folding and shaping. In Cookingdom, this step can’t be skipped.</p>
+        <p>Don’t rush the resting periods. Allow the dough to rise properly between folding and shaping. In Cookingdom Level 28 , this step can’t be skipped.</p>
     </li>
     <li>
         <h3>Egg Wash for a Golden Finish</h3>
@@ -3256,7 +3246,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 28, preparing the perfect Croissant involves a balance of technique and timing. From creating the dough to folding and laminating it to form layers, each step is important in achieving the classic flaky texture. Don’t forget the final touch: baking the croissants to a golden brown finish and serving them fresh and warm.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to master the art of croissant-making and impress your customers with these delicious, buttery pastries. Once you’ve perfected this skill, you’ll be ready to take on even more challenging levels in Cookingdom!</p>
+<p>By following this Cookingdom Level 28 walkthrough guide, you’ll be able to master the art of croissant-making and impress your customers with these delicious, buttery pastries. Once you’ve perfected this skill, you’ll be ready to take on even more challenging levels in Cookingdom!</p>
 `,
   },
   {
@@ -3272,11 +3262,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
     iframeUrl: 'https://www.youtube.com/embed/BI4QGcm-kDM', // Placeholder
     seo: {
-      title: 'Cookingdom Level 29 Guide: Matcha Boba Tea | Tips & Strategy',
+      title: 'Cookingdom Level 29 Guide: Matcha Boba Tea | cookingdom.co',
       description:
-        'Master the Matcha Boba Tea in Level 29 of Cookingdom. Get tips on cooking boba pearls, mixing matcha, combining milk, and assembling this popular drink.',
+        'Master the Matcha Boba Tea in Cookingdom Level 29. Get tips on cooking boba pearls, mixing matcha, combining milk, and assembling this popular drink.',
       keywords:
-        'Cookingdom, Level 29, Matcha Boba Tea, Boba, Matcha, Bubble Tea, Drink, Guide, Strategy',
+        'Cookingdom Level 29, Cookingdom Matcha Boba Tea, Boba, Matcha, Bubble Tea, Drink, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_29.webp', // Placeholder
@@ -3304,11 +3294,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom Level 29, you’ll be preparing the trendy and delicious Matcha Boba Tea! This popular beverage combines the earthy, rich flavor of matcha with chewy boba pearls, creating a sweet and satisfying drink. The challenge in this level is to balance the distinct flavor of matcha with the smoothness of milk and the chewy texture of the boba. Your goal is to make a perfect cup of Matcha Boba Tea that your customers will love.</p>
+<h2 id="overview">Cookingdom Level 29 Game Overview</h2>
+<p>In Cookingdom Level 29 , you’ll be preparing the trendy and delicious Matcha Boba Tea! This popular beverage combines the earthy, rich flavor of matcha with chewy boba pearls, creating a sweet and satisfying drink. The challenge in this level is to balance the distinct flavor of matcha with the smoothness of milk and the chewy texture of the boba. Your goal is to make a perfect cup of Matcha Boba Tea that your customers will love.</p>
 <p>This guide will take you through each step of preparing the perfect Matcha Boba Tea, from cooking the boba pearls to mixing the matcha and milk to serving it in style.</p>
 
-<h2 id="goal">Level 29 Objectives</h2>
+<h2 id="goal">Cookingdom Level 29 Objectives</h2>
 <ul>
     <li>Prepare the boba pearls.</li>
     <li>Mix the matcha with the appropriate ingredients.</li>
@@ -3317,29 +3307,29 @@ export const guides = [
     <li>Serve the drink with the right garnish.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Matcha Boba Tea</h2>
+<h2 id="steps">Cookingdom Level 29 Step-by-Step Guide to Master Matcha Boba Tea</h2>
 <ol>
     <li>
         <h3>Prepare the Boba Pearls</h3>
-        <p>First, start by cooking the boba pearls. In Cookingdom, you’ll find the boba pearls that need to be boiled in water for about 10-15 minutes.</p>
+        <p>First, start by cooking the boba pearls. In Cookingdom Level 29, you’ll find the boba pearls that need to be boiled in water for about 10-15 minutes.</p>
         <p><strong>Tip:</strong> Stir the boba pearls occasionally while cooking to prevent them from sticking together. Once they’re cooked and tender, rinse them under cold water to stop the cooking process.</p>
         <p><strong>Tip:</strong> Let the pearls sit in some sugar syrup or honey to add sweetness and enhance the flavor. This gives the boba a nice sweet finish.</p>
     </li>
     <li>
         <h3>Mix the Matcha</h3>
-        <p>Next, it’s time to prepare the matcha. In Cookingdom, you’ll be given matcha powder, which you’ll need to whisk with a little hot water until it becomes smooth and frothy.</p>
+        <p>Next, it’s time to prepare the matcha. In Cookingdom Level 29, you’ll be given matcha powder, which you’ll need to whisk with a little hot water until it becomes smooth and frothy.</p>
         <p><strong>Tip:</strong> Use a small whisk or frother to ensure the matcha powder dissolves completely. If it’s too clumpy, the flavor won’t mix well with the other ingredients.</p>
         <p>Add sweetener to your matcha mixture, such as sugar or honey, depending on your customer’s preferences.</p>
     </li>
     <li>
         <h3>Combine the Milk</h3>
-        <p>Now it’s time to add milk to the matcha. In Cookingdom, you can choose between regular whole milk, almond milk, or oat milk. The choice of milk will affect the creaminess of the drink.</p>
+        <p>Now it’s time to add milk to the matcha. In Cookingdom Level 29, you can choose between regular whole milk, almond milk, or oat milk. The choice of milk will affect the creaminess of the drink.</p>
         <p>Pour the milk into the matcha mixture and stir until it’s well-combined.</p>
         <p><strong>Tip:</strong> If you want to make the drink even more indulgent, you can use condensed milk for extra creaminess and sweetness.</p>
     </li>
     <li>
         <h3>Assemble the Matcha Boba Tea</h3>
-        <p>In Cookingdom, you will have to layer the boba pearls at the bottom of a glass or cup.</p>
+        <p>In Cookingdom Level 29, you will have to layer the boba pearls at the bottom of a glass or cup.</p>
         <p>Once the boba is in place, pour the matcha milk mixture over the boba pearls.</p>
         <p><strong>Tip:</strong> Make sure the matcha and milk are well-mixed before pouring to avoid clumps of matcha powder settling at the bottom.</p>
     </li>
@@ -3351,7 +3341,7 @@ export const guides = [
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 29 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 29 Success</h2>
 <ul>
     <li>
         <h3>Get the Boba Pearls Right</h3>
@@ -3359,7 +3349,7 @@ export const guides = [
     </li>
     <li>
         <h3>Sift the Matcha Powder</h3>
-        <p>If your matcha powder isn’t sifting well or forms lumps, use a fine mesh sieve to ensure smoothness. Cookingdom rewards you for paying attention to detail in the mixing process.</p>
+        <p>If your matcha powder isn’t sifting well or forms lumps, use a fine mesh sieve to ensure smoothness. Cookingdom Level 29 rewards you for paying attention to detail in the mixing process.</p>
     </li>
     <li>
         <h3>Use the Right Milk</h3>
@@ -3377,7 +3367,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 29, making the perfect Matcha Boba Tea is all about balancing the flavor of the matcha with the texture of the chewy boba pearls and the creaminess of the milk. Follow the steps to ensure that the boba is cooked properly, the matcha is well-mixed, and the drink is perfectly sweetened. Pay attention to the small details, like using the right milk and sweetener, to make your Matcha Boba Tea truly exceptional.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to make a perfect Matcha Boba Tea that your customers will love, bringing you one step closer to mastering the art of beverage making in Cookingdom!</p>
+<p>By following this Cookingdom Level 29 walkthrough guide, you’ll be able to make a perfect Matcha Boba Tea that your customers will love, bringing you one step closer to mastering the art of beverage making in Cookingdom!</p>
 `,
   },
   {
@@ -3393,11 +3383,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
     iframeUrl: 'https://www.youtube.com/embed/6l1-yu8zZKs', // Placeholder
     seo: {
-      title: 'Cookingdom Level 30 Guide: Doner Kebab | Tips & Strategy',
+      title: 'Cookingdom Level 30 Guide: Doner Kebab | cookingdom.co',
       description:
-        'Master the Doner Kebab in Level 30 of Cookingdom. Get tips on grilling meat, preparing toppings, assembling, and serving this Turkish street food favorite.',
+        'Master the Doner Kebab in Cookingdom Level 30 . Get tips on grilling meat, preparing toppings, assembling, and serving this Turkish street food favorite.',
       keywords:
-        'Cookingdom, Level 30, Doner Kebab, Kebab, Turkish Food, Street Food, Grill, Pita, Guide, Strategy',
+        'Cookingdom Level 30, Cookingdom Doner Kebab, Kebab, Turkish Food, Street Food, Grill, Pita, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_30.webp', // Placeholder
@@ -3425,11 +3415,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom Level 30, you're tasked with preparing a classic and beloved dish: the Doner Kebab! This Turkish street food favorite consists of savory meat (usually lamb, chicken, or beef), fresh vegetables, and delicious sauces, all wrapped in a warm pita or flatbread. The challenge in this level is to perfectly grill the meat, assemble the fillings, and ensure that the kebab is flavorful and well-balanced.</p>
-<p>This guide will walk you through each step of making the Doner Kebab, ensuring that you meet all the objectives and serve up a delicious and satisfying meal to your customers.</p>
+<h2 id="overview">Cookingdom Level 30 Game Overview</h2>
+<p>In Cookingdom Level 30 , you're tasked with preparing a classic and beloved dish: the Doner Kebab! This Turkish street food favorite consists of savory meat (usually lamb, chicken, or beef), fresh vegetables, and delicious sauces, all wrapped in a warm pita or flatbread. The challenge in this level is to perfectly grill the meat, assemble the fillings, and ensure that the kebab is flavorful and well-balanced.</p>
+<p>This Cookingdom Level 30 guide will walk you through each step of making the Doner Kebab, ensuring that you meet all the objectives and serve up a delicious and satisfying meal to your customers.</p>
 
-<h2 id="goal">Level 30 Objectives</h2>
+<h2 id="goal">Cookingdom Level 30 Objectives</h2>
 <ul>
     <li>Cook the meat (lamb, chicken, or beef).</li>
     <li>Prepare the toppings (vegetables, sauces).</li>
@@ -3437,13 +3427,13 @@ export const guides = [
     <li>Serve the kebab to customers.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Doner Kebab</h2>
+<h2 id="steps">Cookingdom Level 30 Step-by-Step Guide to Master Doner Kebab</h2>
 <ol>
     <li>
         <h3>Prepare the Meat</h3>
-        <p>The first step in making a Doner Kebab is cooking the meat. In Cookingdom, you will have the option to choose from different types of meat: chicken, beef, or lamb.</p>
+        <p>The first step in making a Doner Kebab is cooking the meat. In Cookingdom Level 30 , you will have the option to choose from different types of meat: chicken, beef, or lamb.</p>
         <p><strong>Tip:</strong> Make sure the meat is well-marinated with spices and herbs to ensure a rich, flavorful taste. The meat should be grilled or cooked until it's crispy on the outside and tender on the inside.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you may need to monitor the grilling process to avoid overcooking or undercooking the meat. The perfect doner meat is golden-brown and crispy on the edges but juicy on the inside.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 30 , you may need to monitor the grilling process to avoid overcooking or undercooking the meat. The perfect doner meat is golden-brown and crispy on the edges but juicy on the inside.</p>
     </li>
     <li>
         <h3>Prepare the Vegetables</h3>
@@ -3452,7 +3442,7 @@ export const guides = [
     </li>
     <li>
         <h3>Prepare the Sauces</h3>
-        <p>A great Doner Kebab isn’t complete without the right sauces. In Cookingdom, you’ll be given options for sauces such as yogurt sauce, garlic sauce, and spicy chili sauce.</p>
+        <p>A great Doner Kebab isn’t complete without the right sauces. In Cookingdom Level 30 , you’ll be given options for sauces such as yogurt sauce, garlic sauce, and spicy chili sauce.</p>
         <p><strong>Tip:</strong> Drizzle the sauces evenly over the meat and vegetables to enhance the overall flavor of the kebab. Be careful not to overdo it with the sauces—just enough to add creaminess and spice without overpowering the other flavors.</p>
     </li>
     <li>
@@ -3467,15 +3457,15 @@ export const guides = [
         <h3>Wrap and Serve</h3>
         <p>To complete the Doner Kebab, wrap the pita or flatbread tightly around the fillings, ensuring everything stays in place.</p>
         <p><strong>Tip:</strong> If the pita or flatbread is too large, you can fold the edges to secure the filling. Make sure it’s wrapped securely so the kebab doesn’t fall apart when served.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you can optionally cut the kebab in half for easier handling, depending on your customer’s preference.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 30 , you can optionally cut the kebab in half for easier handling, depending on your customer’s preference.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 30 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 30 Success</h2>
 <ul>
     <li>
         <h3>Perfectly Grill the Meat</h3>
-        <p>The meat is the star of the Doner Kebab, so grilling it to perfection is essential. Keep an eye on the cooking time and make sure it’s crispy on the outside but still juicy on the inside. Cookingdom rewards you for getting this balance just right.</p>
+        <p>The meat is the star of the Doner Kebab, so grilling it to perfection is essential. Keep an eye on the cooking time and make sure it’s crispy on the outside but still juicy on the inside. Cookingdom Level 30  rewards you for getting this balance just right.</p>
     </li>
     <li>
         <h3>Use Fresh, Crunchy Vegetables</h3>
@@ -3491,13 +3481,13 @@ export const guides = [
     </li>
     <li>
         <h3>Monitor Cooking Times</h3>
-        <p>In Cookingdom, cooking times for the meat and grilling should be carefully watched. Overcooking the meat can make it dry, while undercooking it can result in chewy, unappetizing texture.</p>
+        <p>In Cookingdom Level 30 , cooking times for the meat and grilling should be carefully watched. Overcooking the meat can make it dry, while undercooking it can result in chewy, unappetizing texture.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 30, making the perfect Doner Kebab involves grilling the meat to a crispy, golden finish, preparing fresh vegetables, and balancing the right sauces to create a savory and satisfying meal. By following this guide and paying attention to the details, you’ll be able to assemble a delicious and well-balanced kebab that your customers will love.</p>
-<p>Remember, Cookingdom is all about the balance between texture, flavor, and presentation. Perfect your grilling, sauce application, and wrapping technique, and you’ll be serving up the best Doner Kebabs in town!</p>
+<p>Remember, Cookingdom Level 30  is all about the balance between texture, flavor, and presentation. Perfect your grilling, sauce application, and wrapping technique, and you’ll be serving up the best Doner Kebabs in town!</p>
 `,
   },
   {
@@ -3513,11 +3503,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
     iframeUrl: 'https://www.youtube.com/embed/iq0t6XrkgF0', // Placeholder
     seo: {
-      title: 'Cookingdom Level 31 Guide: Café Mocha | Tips & Strategy',
+      title: 'Cookingdom Level 31 Guide: Café Mocha | Cookingdom.co',
       description:
-        'Master the Café Mocha in Level 31 of Cookingdom. Get tips on brewing espresso, preparing chocolate, steaming milk, and assembling this classic coffee drink.',
+        'Master the Café Mocha in Cookingdom Level 31 . Get tips on brewing espresso, preparing chocolate, steaming milk, and assembling this classic coffee drink.',
       keywords:
-        'Cookingdom, Level 31, Café Mocha, Mocha, Coffee, Espresso, Chocolate, Drink, Guide, Strategy',
+        'Cookingdom Level 31,Cookingdom Café Mocha, Mocha, Coffee, Espresso, Chocolate, Drink, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_31.webp', // Placeholder
@@ -3545,11 +3535,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 31 Game Overview</h2>
 <p>In Cookingdom Level 31, you’ll be preparing a delightful and comforting Café Mocha, a favorite coffeehouse drink that combines the rich flavor of espresso, the smoothness of steamed milk, and the indulgence of chocolate. The challenge in this level is to perfect the balance between the bitterness of the espresso and the sweetness of the chocolate, ensuring your customers enjoy a creamy and flavorful experience.</p>
-<p>This guide will take you through each step of making the perfect Café Mocha, from brewing the espresso to steaming the milk and assembling the drink with a decadent layer of chocolate.</p>
+<p>This Cookingdom Level 31 guide will take you through each step of making the perfect Café Mocha, from brewing the espresso to steaming the milk and assembling the drink with a decadent layer of chocolate.</p>
 
-<h2 id="goal">Level 31 Objectives</h2>
+<h2 id="goal">Cookingdom Level 31 Objectives</h2>
 <ul>
     <li>Brew the espresso to perfection.</li>
     <li>Prepare the chocolate syrup or powder.</li>
@@ -3558,23 +3548,23 @@ export const guides = [
     <li>Serve the Café Mocha to customers.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Café Mocha</h2>
+<h2 id="steps">Cookingdom Level 31 Step-by-Step Guide to Master Café Mocha</h2>
 <ol>
     <li>
         <h3>Brew the Espresso</h3>
-        <p>The first step in creating a Café Mocha is brewing the perfect espresso. In Cookingdom, you’ll need to use a coffee machine or espresso maker to brew a strong shot of espresso.</p>
-        <p><strong>Tip:</strong> Make sure the espresso is brewed to a deep, rich consistency. A shot of espresso should be bold and not too watery. In Cookingdom, it’s essential to watch the brewing process closely to avoid over-extraction or under-extraction.</p>
+        <p>The first step in creating a Café Mocha is brewing the perfect espresso. In Cookingdom Level 31 , you’ll need to use a coffee machine or espresso maker to brew a strong shot of espresso.</p>
+        <p><strong>Tip:</strong> Make sure the espresso is brewed to a deep, rich consistency. A shot of espresso should be bold and not too watery. In Cookingdom Level 31 , it’s essential to watch the brewing process closely to avoid over-extraction or under-extraction.</p>
         <p><strong>Tip:</strong> If you want a stronger flavor, you can add a second shot of espresso, but make sure the espresso doesn’t overpower the chocolate.</p>
     </li>
     <li>
         <h3>Prepare the Chocolate Syrup</h3>
         <p>While the espresso is brewing, it’s time to prepare the chocolate syrup or chocolate powder for the mocha base.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you’ll be given options for chocolate syrup, powder, or even cocoa. Stir the syrup or powder into the hot espresso to ensure it’s fully dissolved and smooth.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 31 , you’ll be given options for chocolate syrup, powder, or even cocoa. Stir the syrup or powder into the hot espresso to ensure it’s fully dissolved and smooth.</p>
         <p><strong>Tip:</strong> Adjust the amount of chocolate based on your customer’s preference. Too little chocolate will result in a bland mocha, while too much can overpower the other flavors.</p>
     </li>
     <li>
         <h3>Steam the Milk</h3>
-        <p>Now, prepare the steamed milk. In Cookingdom, you’ll use a milk steamer or frother to heat the milk until it’s creamy and smooth.</p>
+        <p>Now, prepare the steamed milk. In Cookingdom Level 31 , you’ll use a milk steamer or frother to heat the milk until it’s creamy and smooth.</p>
         <p><strong>Tip:</strong> Ensure the milk is steamed to the right temperature—around 150°F (65°C). The milk should be hot but not scalded. Steamed milk should be creamy, not frothy, for a Café Mocha.</p>
         <p><strong>Tip:</strong> You can choose between whole milk or non-dairy milk such as almond or oat milk, depending on your customer's preference.</p>
     </li>
@@ -3588,21 +3578,21 @@ export const guides = [
     </li>
     <li>
         <h3>Garnish and Serve</h3>
-        <p>To finish the Café Mocha, you can add a generous swirl of whipped cream on top. In Cookingdom, you may also have the option to sprinkle cocoa powder or chocolate shavings on top for added flavor and decoration.</p>
+        <p>To finish the Café Mocha, you can add a generous swirl of whipped cream on top. In Cookingdom Level 31 , you may also have the option to sprinkle cocoa powder or chocolate shavings on top for added flavor and decoration.</p>
         <p><strong>Tip:</strong> A few chocolate shavings or a sprinkle of cocoa powder can add a nice touch to the drink, giving it an extra burst of flavor and visual appeal.</p>
         <p><strong>Tip:</strong> Serve the drink with a chocolate drizzle on top or along the rim for a beautiful presentation.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 31 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 31 Success</h2>
 <ul>
     <li>
         <h3>Brew the Espresso Strong and Fresh</h3>
-        <p>Espresso is the heart of a Café Mocha, so make sure it’s brewed properly. The espresso should be rich and bold but not too bitter. In Cookingdom, over-brewing can result in a harsh flavor, so be careful with the brewing time.</p>
+        <p>Espresso is the heart of a Café Mocha, so make sure it’s brewed properly. The espresso should be rich and bold but not too bitter. In Cookingdom Level 31 , over-brewing can result in a harsh flavor, so be careful with the brewing time.</p>
     </li>
     <li>
         <h3>Properly Steam the Milk</h3>
-        <p>The milk should be smooth and creamy, but not overly frothy. In Cookingdom, pay attention to the milk-steaming process to achieve the ideal texture. Steamed milk adds to the overall richness of the drink.</p>
+        <p>The milk should be smooth and creamy, but not overly frothy. In Cookingdom Level 31 , pay attention to the milk-steaming process to achieve the ideal texture. Steamed milk adds to the overall richness of the drink.</p>
     </li>
     <li>
         <h3>Balance the Chocolate and Coffee</h3>
@@ -3620,7 +3610,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 31, making the perfect Café Mocha involves careful attention to each step—from brewing a rich espresso to perfectly steaming the milk and balancing the chocolate flavors. The key to success is ensuring the espresso is bold, the milk is smooth, and the chocolate adds just the right amount of sweetness. A well-garnished drink will leave your customers happy and coming back for more.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to create a delightful and indulgent Café Mocha that will impress everyone and bring you closer to mastering the art of coffee-based beverages in Cookingdom!</p>
+<p>By following this Cookingdom Level 31 walkthrough guide, you’ll be able to create a delightful and indulgent Café Mocha that will impress everyone and bring you closer to mastering the art of coffee-based beverages in Cookingdom!</p>
 `,
   },
   {
@@ -3636,11 +3626,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/VViL7ptIJUA', // Placeholder
     seo: {
-      title: 'Cookingdom Level 32 Guide: Hamburger | Tips & Strategy',
+      title: 'Cookingdom Level 32 Guide: Hamburger | Cookingdom.co',
       description:
-        'Master the Hamburger in Level 32 of Cookingdom. Get tips on cooking patties, preparing toppings, toasting buns, and assembling this iconic dish.',
+        'Master the Hamburger in Cookingdom Level 32. Get tips on cooking patties, preparing toppings, toasting buns, and assembling this iconic dish.',
       keywords:
-        'Cookingdom, Level 32, Hamburger, Burger, Beef Patty, Grill, Toppings, Buns, Guide, Strategy',
+        'Cookingdom Level 32, Cookingdom Hamburger, Burger, Beef Patty, Grill, Toppings, Buns, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_32.webp', // Placeholder
@@ -3668,11 +3658,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 32 Game Overview</h2>
 <p>In Cookingdom Level 32, you’re tasked with preparing a classic and delicious Hamburger! This iconic dish consists of a juicy beef patty, fresh vegetables, and flavorful condiments, all sandwiched between two soft buns. The challenge in this level is to perfectly cook the patty, assemble the burger with the right ingredients, and ensure that it’s both visually appealing and delicious.</p>
-<p>This guide will take you through the steps to create the perfect Hamburger, from cooking the patty to assembling and serving it.</p>
+<p>This Cookingdom Level 32 guide will take you through the steps to create the perfect Hamburger, from cooking the patty to assembling and serving it.</p>
 
-<h2 id="goal">Level 32 Objectives</h2>
+<h2 id="goal">Cookingdom Level 32 Objectives</h2>
 <ul>
     <li>Cook the beef patty to perfection.</li>
     <li>Prepare the toppings (lettuce, tomato, onions, cheese, etc.).</li>
@@ -3681,11 +3671,11 @@ export const guides = [
     <li>Serve the Hamburger to your customers.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Hamburger</h2>
+<h2 id="steps">Cookingdom Level 32 Step-by-Step Guide to Master Hamburger</h2>
 <ol>
     <li>
         <h3>Cook the Beef Patty</h3>
-        <p>The first step in making a great Hamburger is cooking the beef patty. In Cookingdom, you’ll need to monitor the patty as it cooks to ensure that it’s perfectly done.</p>
+        <p>The first step in making a great Hamburger is cooking the beef patty. In Cookingdom Level 32, you’ll need to monitor the patty as it cooks to ensure that it’s perfectly done.</p>
         <p><strong>Tip:</strong> Cook the patty over medium heat, flipping it at the right time to ensure it’s golden-brown and cooked evenly. A well-cooked patty should have a crispy outer layer and remain juicy on the inside.</p>
         <p><strong>Tip:</strong> For a medium burger, cook the patty for about 4-5 minutes per side, but this can vary depending on the thickness of the patty and your desired level of doneness.</p>
     </li>
@@ -3696,12 +3686,12 @@ export const guides = [
             <li><strong>Lettuce:</strong> Use fresh, crisp lettuce leaves. Romaine or iceberg lettuce work best for a nice crunch.</li>
             <li><strong>Tomato:</strong> Slice the tomato into thick rounds.</li>
             <li><strong>Onions:</strong> Slice the onions thinly. You can choose red onions for a bit of sweetness or yellow onions for a more savory flavor.</li>
-            <li><strong>Cheese:</strong> In Cookingdom, you’ll have the option to choose from various types of cheese, such as cheddar, American, or Swiss. Select the cheese that will melt nicely over the patty.</li>
+            <li><strong>Cheese:</strong> In Cookingdom Level 32, you’ll have the option to choose from various types of cheese, such as cheddar, American, or Swiss. Select the cheese that will melt nicely over the patty.</li>
         </ul>
     </li>
     <li>
         <h3>Toast the Buns</h3>
-        <p>To enhance the flavor and texture, toast the burger buns. In Cookingdom, you’ll be given the option to lightly toast the top and bottom buns.</p>
+        <p>To enhance the flavor and texture, toast the burger buns. In Cookingdom Level 32, you’ll be given the option to lightly toast the top and bottom buns.</p>
         <p><strong>Tip:</strong> Toasting the buns adds a crispy texture and prevents them from becoming soggy once you add the toppings. Lightly buttering the buns before toasting will add extra flavor.</p>
     </li>
     <li>
@@ -3716,11 +3706,11 @@ export const guides = [
     <li>
         <h3>Serve the Hamburger</h3>
         <p>The final step is serving the Hamburger to your customers. Ensure that the Hamburger is neatly wrapped or served on a plate with a side (like fries or salad) for a complete meal.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you may have the option to garnish the burger with a small pickle or a side of crispy fries for added presentation.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 32, you may have the option to garnish the burger with a small pickle or a side of crispy fries for added presentation.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 32 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 32 Success</h2>
 <ul>
     <li>
         <h3>Perfectly Cook the Beef Patty</h3>
@@ -3746,7 +3736,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 32, creating the perfect Hamburger involves balancing flavors and textures—from cooking the beef patty to toasting the buns and layering the toppings. The key is in the details: cook the patty just right, choose fresh and crisp toppings, and toast the buns to perfection.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to serve up delicious, well-balanced Hamburgers that your customers will love, helping you move closer to mastering the art of burger making in Cookingdom!</p>
+<p>By following this Cookingdom Level 32 walkthrough guide, you’ll be able to serve up delicious, well-balanced Hamburgers that your customers will love, helping you move closer to mastering the art of burger making in Cookingdom!</p>
 `,
   },
   {
@@ -3763,11 +3753,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
     iframeUrl: 'https://www.youtube.com/embed/2wdfF1Rzb0M', // Placeholder
     seo: {
-      title: 'Cookingdom Level 33 Guide: Alaskan Steamed Lobster | Tips & Strategy',
+      title: 'Cookingdom Level 33 Guide: Alaskan Steamed Lobster | Cookingdom.co',
       description:
-        'Master Alaskan Steamed Lobster in Level 33 of Cookingdom. Get tips on preparing, steaming, making butter sauce, and serving this seafood delicacy.',
+        'Master Alaskan Steamed Lobster in Cookingdom Level 33. Get tips on preparing, steaming, making butter sauce, and serving this seafood delicacy.',
       keywords:
-        'Cookingdom, Level 33, Alaskan Steamed Lobster, Lobster, Seafood, Steam, Butter Sauce, Guide, Strategy',
+        'Cookingdom Level 33, Cookingdom Alaskan Steamed Lobster,  Seafood, Butter Sauce, Guide, Strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_33.webp', // Placeholder
@@ -3795,11 +3785,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 33 Game Overview</h2>
 <p>In Cookingdom Level 33, you’ll be preparing a luxurious and mouth-watering dish: Alaskan Steamed Lobster. This delicacy is known for its rich flavor and tender meat, making it a popular choice for seafood lovers. The challenge in this level lies in perfectly steaming the lobster while keeping it juicy, adding the right seasonings, and serving it with a delicious butter sauce to bring out the natural sweetness of the lobster meat.</p>
-<p>This guide will walk you through each step of making Alaskan Steamed Lobster, from preparing the lobster to steaming it and serving it with the perfect accompaniments.</p>
+<p>This Cookingdom Level 33 guide will walk you through each step of making Alaskan Steamed Lobster, from preparing the lobster to steaming it and serving it with the perfect accompaniments.</p>
 
-<h2 id="goal">Level 33 Objectives</h2>
+<h2 id="goal">Cookingdom Level 33 Objectives</h2>
 <ul>
     <li>Prepare the lobster for steaming.</li>
     <li>Steam the lobster to perfection.</li>
@@ -3807,18 +3797,18 @@ export const guides = [
     <li>Serve the Alaskan Steamed Lobster with the butter sauce.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Alaskan Steamed Lobster</h2>
+<h2 id="steps">Cookingdom Level 33 Step-by-Step Guide to Master Alaskan Steamed Lobster</h2>
 <ol>
     <li>
         <h3>Prepare the Lobster</h3>
         <p>The first step in creating Alaskan Steamed Lobster is properly preparing the lobster for steaming.</p>
-        <p>In Cookingdom, you will need to clean the lobster and remove any parts that need to be discarded.</p>
+        <p>In CCookingdom Level 33 , you will need to clean the lobster and remove any parts that need to be discarded.</p>
         <p><strong>Tip:</strong> Rinse the lobster under cold water to remove any dirt or debris, especially from the claws and tail.</p>
-        <p><strong>Tip:</strong> If you're working with live lobsters, it’s essential to handle them carefully. In Cookingdom, you’ll typically place the lobster in a large steaming pot or basket.</p>
+        <p><strong>Tip:</strong> If you're working with live lobsters, it’s essential to handle them carefully. In Cookingdom Level 33 , you’ll typically place the lobster in a large steaming pot or basket.</p>
     </li>
     <li>
         <h3>Steam the Lobster</h3>
-        <p>Now that your lobster is clean and ready, it’s time to steam it. In Cookingdom, you will need to place the lobster in a large steaming pot with water and bring it to a boil.</p>
+        <p>Now that your lobster is clean and ready, it’s time to steam it. In Cookingdom Level 33 , you will need to place the lobster in a large steaming pot with water and bring it to a boil.</p>
         <p><strong>Tip:</strong> Make sure there’s enough water in the pot to generate steam, but not so much that the lobster is submerged.</p>
         <p><strong>Tip:</strong> Steam the lobster for about 8-10 minutes per pound. You’ll know the lobster is done when its shell turns bright red, and the meat is tender and opaque.</p>
         <p><strong>Tip:</strong> Be careful not to over-steam the lobster, as this can result in tough and rubbery meat. Keep a close eye on the timer.</p>
@@ -3826,7 +3816,7 @@ export const guides = [
     <li>
         <h3>Prepare the Butter Sauce</h3>
         <p>While the lobster is steaming, it’s time to prepare the butter sauce to serve alongside the lobster.</p>
-        <p>In Cookingdom, you can make a simple garlic butter sauce by melting butter in a pan and adding minced garlic, lemon juice, and herbs (like parsley or thyme).</p>
+        <p>In Cookingdom Level 33 , you can make a simple garlic butter sauce by melting butter in a pan and adding minced garlic, lemon juice, and herbs (like parsley or thyme).</p>
         <p><strong>Tip:</strong> Adjust the seasoning to taste. If you want a spicier kick, you can add chili flakes or paprika to the butter sauce.</p>
         <p><strong>Tip:</strong> Keep the butter sauce warm while the lobster is cooking so that you can serve it immediately when the lobster is done.</p>
     </li>
@@ -3834,13 +3824,13 @@ export const guides = [
         <h3>Serve the Lobster</h3>
         <p>Once the lobster is steamed and the butter sauce is ready, it’s time to serve.</p>
         <p>Carefully remove the lobster from the steaming pot and place it on a serving plate.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you may want to break open the lobster’s shell to make it easier for the customer to enjoy the meat. You can also use a lobster cracker or small fork to help with this.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 33 , you may want to break open the lobster’s shell to make it easier for the customer to enjoy the meat. You can also use a lobster cracker or small fork to help with this.</p>
         <p>Pour the butter sauce over the lobster or serve it on the side for dipping.</p>
         <p><strong>Tip:</strong> Garnish the dish with fresh herbs like parsley or a lemon wedge for added visual appeal.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 33 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 33 Success</h2>
 <ul>
     <li>
         <h3>Don’t Over-Steam the Lobster</h3>
@@ -3862,7 +3852,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 33, preparing Alaskan Steamed Lobster is all about balancing the steaming process, making a flavorful butter sauce, and serving it beautifully. Perfectly steaming the lobster and preparing the right butter sauce will result in a delicious, tender, and flavorful dish that your customers will love.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to create a perfect Alaskan Steamed Lobster every time. Keep an eye on your steaming time, prepare a rich butter sauce, and serve it fresh for the ultimate dining experience.</p>
+<p>By following this Cookingdom Level 33 walkthrough guide, you’ll be able to create a perfect Alaskan Steamed Lobster every time. Keep an eye on your steaming time, prepare a rich butter sauce, and serve it fresh for the ultimate dining experience.</p>
 `,
   },
   {
@@ -3882,7 +3872,7 @@ export const guides = [
       description:
         'Master King Crab in Level 34 of Cookingdom. Get tips on cracking, cooking, making sauce, and serving this luxurious seafood dish.',
       keywords:
-        'Cookingdom, Level 34, King Crab, Crab, Seafood, Steam, Boil, Butter Sauce, Guide, Strategy',
+        'Cookingdom Level 34, Cookingdom King Crab,Seafood, Boil, Butter Sauce, Guide, Strategy',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_34.webp', // Placeholder
@@ -3910,9 +3900,9 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 34 Game Overview</h2>
 <p>In Cookingdom Level 34, you're tasked with preparing an exquisite and royal dish: the King Crab. Known for its tender and sweet meat, King Crab is a luxurious seafood choice that requires precise handling and cooking to get the perfect balance of texture and flavor. The challenge in this level involves not only cooking the crab but also preparing the ideal sauce to complement the rich, delicate flavor of the meat.</p>
-<p>This guide will take you step-by-step through how to prepare the King Crab, from cracking open the shell to serving it with the perfect sauce.</p>
+<p>This Cookingdom Level 34 guide will take you step-by-step through how to prepare the King Crab, from cracking open the shell to serving it with the perfect sauce.</p>
 
 <h2 id="goal">Level 34 Objectives</h2>
 <ul>
@@ -3922,24 +3912,24 @@ export const guides = [
     <li>Serve the King Crab with sauce and garnish.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master King Crab</h2>
+<h2 id="steps">Cookingdom Level 34 Step-by-Step Guide to Master King Crab</h2>
 <ol>
     <li>
         <h3>Crack Open the King Crab</h3>
-        <p>The first step in preparing King Crab is cracking open the shell. In Cookingdom, you’ll need a crab cracker or other tools to break open the tough shell and extract the sweet, tender meat.</p>
+        <p>The first step in preparing King Crab is cracking open the shell. In Cookingdom Level 34, you’ll need a crab cracker or other tools to break open the tough shell and extract the sweet, tender meat.</p>
         <p><strong>Tip:</strong> Be careful not to damage the delicate crab meat inside. Crack the shell in strategic places to avoid crushing the meat.</p>
         <p><strong>Tip:</strong> You’ll need to remove any inedible parts of the crab, such as the gills and the legs, before you can proceed to cook.</p>
     </li>
     <li>
         <h3>Cook the King Crab Meat</h3>
-        <p>Once the meat is extracted, it’s time to cook it. In Cookingdom, you’ll typically steam or boil the King Crab to bring out its natural flavor.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you’ll need to steam the crab for around 8-10 minutes until the meat is fully heated through. Be cautious not to overcook it, as that can cause the meat to become tough and dry.</p>
+        <p>Once the meat is extracted, it’s time to cook it. In Cookingdom Level 34 , you’ll typically steam or boil the King Crab to bring out its natural flavor.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 34 , you’ll need to steam the crab for around 8-10 minutes until the meat is fully heated through. Be cautious not to overcook it, as that can cause the meat to become tough and dry.</p>
         <p><strong>Tip:</strong> If you’re boiling the crab, ensure the water is well-seasoned with salt for optimal flavor. You can also add herbs or lemon to the water for added fragrance.</p>
     </li>
     <li>
         <h3>Prepare the Complementary Sauce</h3>
         <p>While the crab is cooking, you’ll need to prepare a rich butter sauce to complement the King Crab. A simple garlic butter sauce works wonderfully with crab, adding depth and richness to the dish.</p>
-        <p>In Cookingdom, melt butter in a pan, then add minced garlic, lemon juice, and chopped parsley for freshness.</p>
+        <p>In Cookingdom Level 34 , melt butter in a pan, then add minced garlic, lemon juice, and chopped parsley for freshness.</p>
         <p><strong>Tip:</strong> You can also add a splash of white wine or chili flakes to the sauce for a little extra kick.</p>
         <p><strong>Tip:</strong> Taste the sauce and adjust seasoning as needed to ensure the right balance of flavors. The butter sauce should enhance the sweetness of the crab meat without overwhelming it.</p>
     </li>
@@ -3947,12 +3937,12 @@ export const guides = [
         <h3>Serve the King Crab</h3>
         <p>After cooking the crab and preparing the sauce, it’s time to serve the King Crab.</p>
         <p>Place the crab on a serving plate and drizzle it generously with the prepared butter sauce.</p>
-        <p><strong>Tip:</strong> In Cookingdom, you can also garnish the dish with fresh herbs (such as parsley or thyme) and lemon wedges to add brightness and a fresh touch.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 34 , you can also garnish the dish with fresh herbs (such as parsley or thyme) and lemon wedges to add brightness and a fresh touch.</p>
         <p><strong>Tip:</strong> Serve the crab with a side of crusty bread or steamed vegetables to complete the dish.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 34 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 34 Success</h2>
 <ul>
     <li>
         <h3>Don’t Overcook the Crab</h3>
@@ -3978,7 +3968,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 34, preparing King Crab is all about finesse and precision. From cracking open the tough shell to ensuring the meat is perfectly cooked, every step is crucial to creating a delicious and memorable dish. Pair the crab with a flavorful butter sauce and serve it fresh with a beautiful garnish for the perfect finish.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to master the art of preparing King Crab and impress your customers with this luxurious seafood dish. Keep an eye on the cooking time, prepare a rich sauce, and garnish with care to create a dish that’s as beautiful as it is tasty.</p>
+<p>By following this Cookingdom Level 34 walkthrough guide, you’ll be able to master the art of preparing King Crab and impress your customers with this luxurious seafood dish. Keep an eye on the cooking time, prepare a rich sauce, and garnish with care to create a dish that’s as beautiful as it is tasty.</p>
 `,
   },
   {
@@ -3994,11 +3984,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
     iframeUrl: 'https://www.youtube.com/embed/3-Cfdyxut48', // Placeholder
     seo: {
-      title: 'Cookingdom Level 35 Guide: Chocolate | Tips & Strategy',
+      title: 'Cookingdom Level 35 Guide: Chocolate | Cookingdom.co',
       description:
         'Master Chocolate desserts in Level 35 of Cookingdom. Get tips on melting chocolate, preparing desserts like mousse or fondue, and garnishing.',
       keywords:
-        'Cookingdom, Level 35, Chocolate, Dessert, Melting Chocolate, Fondue, Mousse, Cake, Guide, Strategy',
+        'Cookingdom Level 35 , cookingdom Chocolate, Dessert, Melting Chocolate, Fondue, Mousse, Cake, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_35.webp', // Placeholder
@@ -4026,28 +4016,28 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 35 Game Overview</h2>
 <p>In Cookingdom Level 35, you’ll be preparing a delightful and indulgent treat: Chocolate! Chocolate is a beloved dessert ingredient, and in this level, you’ll need to create a decadent dish that showcases its rich, creamy, and sweet qualities. Whether you’re melting the chocolate for a smooth fondue or crafting a beautiful chocolate dessert, this level is all about precision and balancing the flavors to perfection.</p>
-<p>This guide will walk you through each step of preparing the perfect Chocolate dish, from melting the chocolate to assembling the final dessert.</p>
+<p>This Cookingdom Level 35 guide will walk you through each step of preparing the perfect Chocolate dish, from melting the chocolate to assembling the final dessert.</p>
 
-<h2 id="goal">Level 35 Objectives</h2>
+<h2 id="goal">Cookingdom Level 35 Objectives</h2>
 <ul>
     <li>Melt the chocolate properly to achieve a smooth texture.</li>
     <li>Prepare the dessert by incorporating the melted chocolate.</li>
     <li>Garnish and serve the chocolate dish.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Chocolate</h2>
+<h2 id="steps">Cookingdom Level 35 Step-by-Step Guide to Master Chocolate</h2>
 <ol>
     <li>
         <h3>Melt the Chocolate</h3>
-        <p>The first step in preparing any chocolate dessert is to melt the chocolate. In Cookingdom, you’ll be tasked with melting the chocolate carefully to ensure it becomes smooth and silky without burning.</p>
+        <p>The first step in preparing any chocolate dessert is to melt the chocolate. In Cookingdom Level 35 , you’ll be tasked with melting the chocolate carefully to ensure it becomes smooth and silky without burning.</p>
         <p><strong>Tip:</strong> You can melt chocolate using a double boiler or microwave. If using a microwave, melt the chocolate in short bursts (20-30 seconds at a time) and stir in between to prevent burning.</p>
         <p><strong>Tip:</strong> Stir the melted chocolate gently to ensure it’s perfectly smooth and glossy. If it’s too thick, you can add a little bit of cream or butter to achieve the desired consistency.</p>
     </li>
     <li>
         <h3>Prepare the Dessert</h3>
-        <p>Now that the chocolate is melted, it’s time to incorporate it into your dessert. In Cookingdom, you can create a variety of chocolate-based desserts such as a chocolate cake, chocolate mousse, or chocolate fondue.</p>
+        <p>Now that the chocolate is melted, it’s time to incorporate it into your dessert. In Cookingdom Level 35 , you can create a variety of chocolate-based desserts such as a chocolate cake, chocolate mousse, or chocolate fondue.</p>
         <p><strong>Tip:</strong> If you’re making a chocolate mousse, fold the melted chocolate into whipped cream to create a light and airy texture.</p>
         <p><strong>Tip:</strong> If preparing chocolate fondue, pour the melted chocolate into a fondue pot and keep it warm. You can dip fruits like strawberries, bananas, and marshmallows into the chocolate for a fun and delicious treat.</p>
     </li>
@@ -4063,11 +4053,11 @@ export const guides = [
         <p>Once the chocolate is prepared and flavored, it’s time to assemble your dessert.</p>
         <p>If you’re creating a chocolate cake, layer the cake with frosting and drizzle melted chocolate over the top.</p>
         <p>For chocolate fondue, serve the melted chocolate in a fondue pot with an assortment of dippable treats like fruit, biscuits, or marshmallows.</p>
-        <p><strong>Tip:</strong> In Cookingdom, presentation matters! Arrange the dessert nicely on a plate and garnish with chocolate shavings, fresh berries, or a drizzle of caramel sauce for an elegant touch.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 35 , presentation matters! Arrange the dessert nicely on a plate and garnish with chocolate shavings, fresh berries, or a drizzle of caramel sauce for an elegant touch.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 35 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 35 Success</h2>
 <ul>
     <li>
         <h3>Melt Chocolate Slowly</h3>
@@ -4093,7 +4083,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 35, creating a perfect Chocolate dish requires careful attention to detail. Whether you’re melting the chocolate for a fondue or using it to create a decadent dessert, every step matters. Be sure to melt the chocolate slowly, enhance the flavors with vanilla or salt, and present the dish beautifully.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to master the art of preparing indulgent chocolate desserts, impressing your customers with every sweet creation. Whether you’re making a cake, mousse, or fondue, chocolate is always a winning choice for any dessert lover.</p>
+<p>By following this Cookingdom Level 35 walkthrough guide, you’ll be able to master the art of preparing indulgent chocolate desserts, impressing your customers with every sweet creation. Whether you’re making a cake, mousse, or fondue, chocolate is always a winning choice for any dessert lover.</p>
 `,
   },
   {
@@ -4109,11 +4099,10 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
     iframeUrl: 'https://www.youtube.com/embed/ME58Cd2FYJ4', // Placeholder
     seo: {
-      title: 'Cookingdom Level 36 Guide: Indian Curry | Tips & Strategy',
+      title: 'Cookingdom Level 36 Guide: Indian Curry | Cookingdom.co',
       description:
-        'Master Indian Curry in Level 36 of Cookingdom. Get tips on preparing ingredients, blending spices, simmering, and serving this aromatic dish.',
-      keywords:
-        'Cookingdom, Level 36, Indian Curry, Curry, Indian Food, Spices, Simmer, Guide, Strategy',
+        'Master Indian Curry in Cookingdom Level 36 . Get tips on preparing ingredients, blending spices, simmering, and serving this aromatic dish.',
+      keywords: 'Cookingdom Level 36, Indian Curry, Curry, Indian Food, Spices, Simmer, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_36.webp', // Placeholder
@@ -4141,11 +4130,11 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">Cookingdom Level 36 Game Overview</h2>
 <p>In Cookingdom Level 36, you’ll be preparing a flavorful and aromatic dish: Indian Curry. Known for its rich, spicy, and complex flavors, Indian Curry is a beloved dish in many cultures around the world. The key challenge in this level is creating the perfect balance of spices and ingredients to make the curry both fragrant and delicious. The preparation involves simmering vegetables and meats in a combination of spices, herbs, and cream or coconut milk, making it a hearty and flavorful dish.</p>
 <p>This guide will walk you through each step of preparing a delicious and aromatic Indian Curry, from preparing the spices to serving it with the perfect accompaniments.</p>
 
-<h2 id="goal">Level 36 Objectives</h2>
+<h2 id="goal">Cookingdom Level 36 Objectives</h2>
 <ul>
     <li>Prepare the ingredients for the curry.</li>
     <li>Cook the curry with the perfect blend of spices.</li>
@@ -4153,7 +4142,7 @@ export const guides = [
     <li>Serve the Indian Curry with rice or bread.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Indian Curry</h2>
+<h2 id="steps">Cookingdom Level 36 Step-by-Step Guide to Master Indian Curry</h2>
 <ol>
     <li>
         <h3>Prepare the Ingredients</h3>
@@ -4164,7 +4153,7 @@ export const guides = [
             <li>A variety of spices such as cumin, turmeric, coriander, garam masala, and chili powder.</li>
             <li>Coconut milk, tomatoes, or cream for the sauce base.</li>
         </ul>
-        <p><strong>Tip:</strong> In Cookingdom, you’ll need to chop and prep the vegetables, meats, and spices in advance for smooth and efficient cooking.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 36 , you’ll need to chop and prep the vegetables, meats, and spices in advance for smooth and efficient cooking.</p>
     </li>
     <li>
         <h3>Sauté the Aromatics</h3>
@@ -4193,19 +4182,19 @@ export const guides = [
     <li>
         <h3>Simmer the Curry</h3>
         <p>Bring the curry to a simmer and let it cook for about 15-20 minutes. This allows the flavors to meld together and the meat or vegetables to become tender.</p>
-        <p><strong>Tip:</strong> In Cookingdom, make sure to taste the curry halfway through and adjust the seasoning if needed. You can add salt, pepper, or more spices depending on your taste preference.</p>
+        <p><strong>Tip:</strong> In Cookingdom Level 36 , make sure to taste the curry halfway through and adjust the seasoning if needed. You can add salt, pepper, or more spices depending on your taste preference.</p>
         <p><strong>Tip:</strong> If you prefer a thicker curry, allow it to simmer longer or reduce the liquid by increasing the heat slightly.</p>
     </li>
     <li>
         <h3>Serve the Indian Curry</h3>
         <p>Once your Indian Curry is cooked and the flavors have melded beautifully, it’s time to serve!</p>
-        <p>In Cookingdom, pair your curry with steamed rice, naan, or roti for a complete meal.</p>
+        <p>In Cookingdom Level 36 , pair your curry with steamed rice, naan, or roti for a complete meal.</p>
         <p><strong>Tip:</strong> Garnish the curry with fresh cilantro or a squeeze of lemon to enhance the flavor and freshness of the dish.</p>
         <p><strong>Tip:</strong> Serve it with a side of yogurt or raita (a yogurt-based side dish) to cool down the spiciness.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 36 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 36 Success</h2>
 <ul>
     <li>
         <h3>Perfect Your Spice Blend</h3>
@@ -4231,7 +4220,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 36, preparing Indian Curry is all about balancing spices, creating a flavorful sauce, and allowing everything to simmer until the ingredients are tender and infused with rich flavors. Whether you’re using chicken, lamb, or vegetables, the key to a great curry is in the careful combination of spices, the right cooking time, and the proper accompaniment of rice or bread.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll be able to create a flavorful and aromatic Indian Curry that will impress your customers and satisfy their taste buds.</p>
+<p>By following this Cookingdom Level 36 walkthrough guide, you’ll be able to create a flavorful and aromatic Indian Curry that will impress your customers and satisfy their taste buds.</p>
 `,
   },
   {
@@ -4247,11 +4236,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
     iframeUrl: 'https://www.youtube.com/embed/tFEyZT_-jTM', // Placeholder
     seo: {
-      title: 'Cookingdom Level 37 Guide: Kimchi Rice | Tips & Strategy',
+      title: 'Cookingdom Level 37 Guide: Kimchi Rice | Cookingdom.co',
       description:
         'Master Kimchi Rice in Level 37 of Cookingdom. Get tips on preparing rice, stir-frying kimchi, adding toppings like fried egg, and serving this Korean dish.',
       keywords:
-        'Cookingdom, Level 37, Kimchi Rice, Kimchi, Korean Food, Stir-fry, Fried Egg, Gochujang, Guide, Strategy',
+        'Cookingdom Level 37, Cookingdom Kimchi Rice, Kimchi, Korean Food, Stir-fry, Fried Egg, Gochujang',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_37.webp', // Placeholder (Reddish theme)
@@ -4279,18 +4268,18 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+<h2 id="overview">CCookingdom Level 37 Game Overview</h2>
 <p>In Cookingdom Level 37, you’ll be preparing a flavorful and tangy dish: Kimchi Rice. This iconic Korean dish is made with kimchi, a traditional fermented vegetable dish, mixed with rice, and often accompanied by vegetables and a fried egg on top. It’s a simple yet flavorful meal that offers a satisfying balance of spicy, sour, and savory flavors. The key challenge in this level is properly blending the kimchi with the rice and other ingredients to create a dish that’s perfectly seasoned and well-cooked.</p>
-<p>This guide will walk you through each step of preparing delicious Kimchi Rice, ensuring you create a dish full of flavor and texture.</p>
+<p>This Cookingdom Level 37 guide will walk you through each step of preparing delicious Kimchi Rice, ensuring you create a dish full of flavor and texture.</p>
 
-<h2 id="goal">Level 37 Objectives</h2>
+<h2 id="goal">Cookingdom Level 37 Objectives</h2>
 <ul>
     <li>Prepare the rice as a base.</li>
     <li>Stir-fry the kimchi and other ingredients to create the perfect balance of flavors.</li>
     <li>Serve the Kimchi Rice with a fried egg and garnish.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step Guide to Master Kimchi Rice</h2>
+<h2 id="steps">Cookingdom Level 37 Step-by-Step Guide to Master Kimchi Rice</h2>
 <ol>
     <li>
         <h3>Prepare the Rice</h3>
@@ -4299,7 +4288,7 @@ export const guides = [
     </li>
     <li>
         <h3>Sauté the Kimchi</h3>
-        <p>In Cookingdom, you’ll need to sauté the kimchi (fermented cabbage) in a pan to bring out its rich and tangy flavor.</p>
+        <p>In Cookingdom Level 37 , you’ll need to sauté the kimchi (fermented cabbage) in a pan to bring out its rich and tangy flavor.</p>
         <p><strong>Tip:</strong> Cut the kimchi into smaller pieces before adding it to the pan for even cooking.</p>
         <p>Add a small amount of oil to a pan and sauté the kimchi for about 2-3 minutes. This will soften the kimchi and enhance its natural flavor.</p>
         <p><strong>Tip:</strong> If you like extra spice, you can also add a bit of gochujang (Korean chili paste) or gochugaru (Korean chili flakes) at this stage to make the dish spicier.</p>
@@ -4318,19 +4307,19 @@ export const guides = [
     <li>
         <h3>Fry an Egg</h3>
         <p>Kimchi Rice is often served with a fried egg on top, adding richness and creaminess to the dish.</p>
-        <p>In Cookingdom, fry an egg to your liking. The runny yolk can be stirred into the rice, giving it a creamy texture.</p>
+        <p>In Cookingdom Level 37 , fry an egg to your liking. The runny yolk can be stirred into the rice, giving it a creamy texture.</p>
         <p><strong>Tip:</strong> To make the dish even more decadent, you can add a little drizzle of sesame oil or soy sauce on top of the fried egg.</p>
     </li>
     <li>
         <h3>Serve the Kimchi Rice</h3>
         <p>Once the Kimchi Rice is cooked and well-seasoned, it’s time to serve.</p>
-        <p>In Cookingdom, serve the rice in a bowl or on a plate and place the fried egg on top.</p>
+        <p>In Cookingdom Level 37 , serve the rice in a bowl or on a plate and place the fried egg on top.</p>
         <p><strong>Tip:</strong> Garnish with chopped green onions or sesame seeds for added flavor and a pop of color.</p>
         <p><strong>Tip:</strong> You can also add a small side of kimchi for an extra kick of flavor.</p>
     </li>
 </ol>
 
-<h2 id="tips">Pro Tips for Level 37 Success</h2>
+<h2 id="tips">Pro Tips for Cookingdom Level 37 Success</h2>
 <ul>
     <li>
         <h3>Use Day-Old Rice</h3>
@@ -4356,7 +4345,7 @@ export const guides = [
 
 <h2 id="summary">Summary</h2>
 <p>In Cookingdom Level 37, preparing Kimchi Rice is all about balancing the rich, spicy, and tangy flavors of kimchi with the neutral rice. Stir-fry the kimchi with the rice, add a bit of soy sauce or sesame oil, and top the dish with a fried egg to complete the meal. Whether you’re using vegetables or just focusing on the kimchi, this dish is sure to satisfy your customers with its bold and comforting flavors.</p>
-<p>By following this Cookingdom walkthrough guide, you’ll master the art of making Kimchi Rice, a delicious and satisfying dish that combines traditional Korean flavors with simple ingredients.</p>
+<p>By following this Cookingdom Level 37 walkthrough guide, you’ll master the art of making Kimchi Rice, a delicious and satisfying dish that combines traditional Korean flavors with simple ingredients.</p>
 `,
   },
   {
@@ -4372,11 +4361,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
     iframeUrl: 'https://www.youtube.com/embed/EzXju3Q8Zsc', // Placeholder - Replace with actual video ID
     seo: {
-      title: 'Cookingdom Level 38 Guide: Tteokbokki Rush | Tips & Strategy',
+      title: 'Cookingdom Level 38 Guide: Tteokbokki Rush | Cookingdom.co',
       description:
         'Master Tteokbokki Rush in Level 38 of Cookingdom. Get tips on cooking rice cakes, managing sauce, adding eggs, and achieving high scores.',
       keywords:
-        'Cookingdom, Level 38, Tteokbokki, Korean Street Food, Rice Cakes, Gochujang, Guide, Strategy',
+        'Cookingdom Level 38, Cookingdom Tteokbokki, Korean Street Food, Rice Cakes, Gochujang, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_38.webp', // Placeholder
@@ -4405,17 +4394,17 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>Level 38 brings the heat with <strong>Tteokbokki</strong>, a spicy Korean street food favorite. Speed, accuracy, and time management are critical in this fast-paced level.</p>
+<h2 id="overview">ookingdom Level 38 Game Overview</h2>
+<p>Cookingdom Level 38 brings the heat with <strong>Tteokbokki</strong>, a spicy Korean street food favorite. Speed, accuracy, and time management are critical in this fast-paced level.</p>
 
-<h2 id="goal">🎯 Goal</h2>
+<h2 id="goal">🎯 Cookingdom Level 38 Goal</h2>
 <ul>
   <li>Serve at least 30 Tteokbokki dishes</li>
   <li>Keep satisfaction above 85%</li>
   <li>Finish within 3 minutes</li>
 </ul>
 
-<h2 id="ingredients">🌶️ Ingredients</h2>
+<h2 id="ingredients">🌶️Cookingdom Level 38 Ingredients</h2>
 <ul>
   <li>Rice cakes (tteok)</li>
   <li>Gochujang sauce</li>
@@ -4423,7 +4412,7 @@ export const guides = [
   <li>Green onion or sesame seeds (garnish)</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<h2 id="steps">👨‍🍳 Cookingdom Level 38 Step-by-Step Strategy</h2>
 <ol>
   <li>Start by boiling rice cakes in both pots.</li>
   <li>Prepare gochujang sauce while the rice cakes cook.</li>
@@ -4432,14 +4421,14 @@ export const guides = [
   <li>Queue next batch while serving current one to avoid downtime.</li>
 </ol>
 
-<h2 id="tips">🔥 Pro Tips</h2>
+<h2 id="tips">🔥 Cookingdom Level 38 Pro Tips</h2>
 <ul>
   <li><strong>Batch Cooking:</strong> Cook multiple servings at once to save time.</li>
   <li><strong>Egg = Bonus:</strong> Always add if the customer has time.</li>
   <li><strong>Keep an Eye on Pots:</strong> Overcooked rice cakes get wasted.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h2 id="mistakes">🚫Cookingdom Level 38 Common Mistakes</h2>
 <ul>
   <li>Letting sauce burn by leaving it unattended too long.</li>
   <li>Not prepping ahead — idle time kills combos.</li>
@@ -4461,11 +4450,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
     iframeUrl: 'https://www.youtube.com/embed/VfAxaHCxBOA', // Placeholder - Replace with actual video ID
     seo: {
-      title: 'Cookingdom Level 39 Guide: Spaghetti with Mushroom Cream Sauce | Tips & Strategy',
+      title: 'Cookingdom Level 39 Guide:Spaghetti with Mushroom Cream Sauce',
       description:
         'Master Spaghetti with Mushroom Cream Sauce in Level 39 of Cookingdom. Get tips on cooking pasta, sautéing mushrooms, preparing cream sauce, and serving this creamy dish.',
       keywords:
-        'Cookingdom, Level 39, Spaghetti, Mushroom Cream Sauce, Pasta, Cream Sauce, Italian Food, Guide, Strategy',
+        'Cookingdom Level 39, Cookingdom Spaghetti with Mushroom Cream Sauce, Pasta, Italian Food, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_39.webp', // Placeholder
@@ -4494,17 +4483,17 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p><strong>Level 39</strong> introduces <strong>Spaghetti with Mushroom Cream Sauce</strong>, a creamy Western dish that demands perfect timing between boiling pasta and sautéing mushrooms. Precision is the key to 3 stars here.</p>
+<h2 id="overview">Cookingdom Level 39 Game Overview</h2>
+<p><strong>Cookingdom Level 39 </strong> introduces <strong>Spaghetti with Mushroom Cream Sauce</strong>, a creamy Western dish that demands perfect timing between boiling pasta and sautéing mushrooms. Precision is the key to 3 stars here.</p>
 
-<h2 id="goal">🎯 Goal</h2>
+<h2 id="goal">🎯 Cookingdom Level 39 Goal</h2>
 <ul>
   <li>Serve at least 20 full dishes</li>
   <li>Keep customer satisfaction at 90% or higher</li>
   <li>Finish within 3 minutes 30 seconds</li>
 </ul>
 
-<h2 id="ingredients">🍝 Ingredients</h2>
+<h2 id="ingredients">🍝 Cookingdom Level 39 Ingredients</h2>
 <ul>
   <li>Spaghetti noodles (boiled)</li>
   <li>Mushrooms (sliced and sautéed)</li>
@@ -4512,7 +4501,7 @@ export const guides = [
   <li>Parsley or cheese for garnish</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<h2 id="steps">👨‍🍳 Cookingdom Level 39 Step-by-Step Strategy</h2>
 <ol>
   <li>Begin by boiling spaghetti in both pots immediately.</li>
   <li>Sauté mushrooms in a separate pan while pasta cooks.</li>
@@ -4521,14 +4510,14 @@ export const guides = [
   <li>Garnish with parsley or cheese to finish each dish.</li>
 </ol>
 
-<h2 id="tips">🔥 Pro Tips</h2>
+<h2 id="tips">🔥 Cookingdom Level 39 Pro Tips</h2>
 <ul>
   <li><strong>Stagger Your Boiling:</strong> Start one pot slightly later to keep a steady flow of pasta.</li>
   <li><strong>Pre-Slice Mushrooms:</strong> Saves time in the middle of a rush.</li>
   <li><strong>Use Auto-Serve:</strong> When overwhelmed, this keeps combos alive.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h2 id="mistakes">🚫 Cookingdom Level 39 Common Mistakes</h2>
 <ul>
   <li>Letting pasta overcook — it ruins the dish and wastes time.</li>
   <li>Forgetting to warm sauce before combining — lowers dish rating.</li>
@@ -4549,11 +4538,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
     iframeUrl: 'https://www.youtube.com/embed/DGrXE28wjnU', // Placeholder - Replace with actual video ID
     seo: {
-      title: 'Cookingdom Level 40 Guide: Beef Wellington | Tips & Strategy',
+      title: 'Cookingdom Level 40 Guide: Beef Wellington |Cookingdom.co',
       description:
         'Master Beef Wellington in Level 40 of Cookingdom. Get tips on searing beef, preparing duxelles, wrapping pastry, baking, and serving this complex dish.',
       keywords:
-        'Cookingdom, Level 40, Beef Wellington, Beef Tenderloin, Puff Pastry, Mushroom Duxelles, Baking, Guide, Strategy',
+        'Cookingdom Level 40, Cookingdom Beef Wellington, Beef Tenderloin, Puff Pastry,Baking, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_40.webp', // Placeholder
@@ -4582,17 +4571,17 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p><strong>Level 40</strong> presents the elegant and complex dish <strong>Beef Wellington</strong>. Timing, prep work, and oven usage are critical. It’s one of the most challenging levels so far — but rewarding when mastered.</p>
+<h2 id="overview">Cookingdom Level 40 Game Overview</h2>
+<p><strong>Cookingdom Level 40</strong> presents the elegant and complex dish <strong>Beef Wellington</strong>. Timing, prep work, and oven usage are critical. It’s one of the most challenging levels so far — but rewarding when mastered.</p>
 
-<h2 id="goal">🎯 Goal</h2>
+<h2 id="goal">🎯 Cookingdom Level 40 Goal</h2>
 <ul>
   <li>Serve at least 18 Beef Wellington dishes</li>
   <li>Maintain 85%+ customer satisfaction</li>
   <li>Finish within 4 minutes</li>
 </ul>
 
-<h2 id="ingredients">🥩 Ingredients</h2>
+<h2 id="ingredients">🥩 Cookingdom Level 40 Ingredients</h2>
 <ul>
   <li>Beef tenderloin</li>
   <li>Mushroom duxelles</li>
@@ -4601,7 +4590,7 @@ export const guides = [
   <li>Gravy (optional bonus)</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<h2 id="steps">👨‍🍳 Cookingdom Level 40 Step-by-Step Strategy</h2>
 <ol>
   <li>Start by searing the beef tenderloin in a pan.</li>
   <li>Prepare mushroom duxelles while beef is searing.</li>
@@ -4610,14 +4599,14 @@ export const guides = [
   <li>Serve with gravy when customer allows bonus time.</li>
 </ol>
 
-<h2 id="tips">🔥 Pro Tips</h2>
+<h2 id="tips">🔥 Cookingdom Level 40 Pro Tips</h2>
 <ul>
   <li><strong>Keep Ovens Busy:</strong> Don’t leave oven slots idle — always queue the next Wellington.</li>
   <li><strong>Pre-prep Duxelles:</strong> Have mushroom filling ready to save time during peak orders.</li>
   <li><strong>Upgrade Oven:</strong> Faster baking is crucial to avoid long waits.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h2 id="mistakes">🚫 Cookingdom Level 40 Common Mistakes</h2>
 <ul>
   <li>Forgetting egg wash — leads to lower ratings.</li>
   <li>Overcooked beef — if you leave it on the pan too long.</li>
@@ -4639,10 +4628,10 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
     iframeUrl: 'https://www.youtube.com/embed/gws5p5MT2Bc', // Placeholder - Replace with actual video ID
     seo: {
-      title: 'Cookingdom Level 41 Guide: Donut | Tips & Strategy',
+      title: 'Cookingdom Level 41 Guide: Donut | cookingdom.co',
       description:
         'Master Donuts in Level 41 of Cookingdom. Get tips on deep frying, glazing, adding toppings, and serving these sweet treats quickly.',
-      keywords: 'Cookingdom, Level 41, Donut, Frying, Glaze, Toppings, Dessert, Guide, Strategy',
+      keywords: 'Cookingdom Level 41, Cookingdom Donut, Frying, Glaze, Toppings, Dessert, Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_41.webp', // Placeholder
@@ -4671,17 +4660,17 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p><strong>Level 41</strong> brings the sweet and fast-paced challenge of making <strong>Donuts</strong>. With deep frying, glazing, and topping variations, you’ll need sharp focus and quick hands to keep up with customer demand.</p>
+<h2 id="overview">Cookingdom Level 41 Game Overview</h2>
+<p><strong>Cookingdom Level 41</strong> brings the sweet and fast-paced challenge of making <strong>Donuts</strong>. With deep frying, glazing, and topping variations, you’ll need sharp focus and quick hands to keep up with customer demand.</p>
 
-<h2 id="goal">🎯 Goal</h2>
+<h2 id="goal">🎯Cookingdom Level 41 Goal</h2>
 <ul>
   <li>Serve at least 28 donuts</li>
   <li>Maintain 90% or higher satisfaction</li>
   <li>Finish within 3 minutes</li>
 </ul>
 
-<h2 id="ingredients">🍩 Ingredients</h2>
+<h2 id="ingredients">🍩 Cookingdom Level 41 Ingredients</h2>
 <ul>
   <li>Donut dough (plain)</li>
   <li>Frying oil</li>
@@ -4689,7 +4678,7 @@ export const guides = [
   <li>Toppings (sprinkles, nuts)</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<h2 id="steps">👨‍🍳 Cookingdom Level 41 Step-by-Step Strategy</h2>
 <ol>
   <li>Drop multiple dough pieces into the fryer at once.</li>
   <li>Monitor fry timer carefully — remove before overcooking.</li>
@@ -4698,14 +4687,14 @@ export const guides = [
   <li>Queue next batch of donuts while serving current ones.</li>
 </ol>
 
-<h2 id="tips">🔥 Pro Tips</h2>
+<h2 id="tips">🔥 Cookingdom Level 41 Pro Tips</h2>
 <ul>
   <li><strong>Batch Fry:</strong> Always keep the fryer full to save time.</li>
   <li><strong>Know the Patterns:</strong> Certain customers always request the same combo — memorize them.</li>
   <li><strong>Upgrade Fryer:</strong> Speeds up cooking and reduces burn risk.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h2 id="mistakes">🚫 Cookingdom Level 41 Common Mistakes</h2>
 <ul>
   <li>Over-frying donuts — timing is everything in this level.</li>
   <li>Wrong glaze or topping — pay close attention to orders.</li>
@@ -4727,11 +4716,11 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
     iframeUrl: 'https://www.youtube.com/embed/bMS0DIO6nmo', // Placeholder - Replace with actual video ID
     seo: {
-      title: 'Cookingdom Level 42 Guide: Mapo Tofu | Tips & Strategy',
+      title: 'Cookingdom Level 42 Guide: Mapo Tofu | Cookingdom.co',
       description:
         'Master Mapo Tofu in Level 42 of Cookingdom. Get tips on wok cooking, spice management, handling tofu, and serving this classic Chinese dish.',
       keywords:
-        'Cookingdom, Level 42, Mapo Tofu, Chinese Food, Sichuan Cuisine, Tofu, Doubanjiang, Wok, Guide, Strategy',
+        'Cookingdom Level 42, Cookingdom Mapo Tofu, Chinese Food, Sichuan Cuisine,Tofu,Doubanjiang, Wok,Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_42.webp', // Placeholder
@@ -4760,17 +4749,17 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p><strong>Level 42</strong> features the bold and spicy Chinese dish <strong>Mapo Tofu</strong>. This level introduces wok-based cooking and spice management. Efficiency and attention to ingredient order are key to success.</p>
+<h2 id="overview">Cookingdom Level 42 Game Overview</h2>
+<p><strong>Cookingdom Level 42 </strong> features the bold and spicy Chinese dish <strong>Mapo Tofu</strong>. This level introduces wok-based cooking and spice management. Efficiency and attention to ingredient order are key to success.</p>
 
-<h2 id="goal">🎯 Goal</h2>
+<h2 id="goal">🎯 Cookingdom Level 42 Goal</h2>
 <ul>
   <li>Serve at least 26 Mapo Tofu dishes</li>
   <li>Maintain 85% or higher customer satisfaction</li>
   <li>Finish within 3 minutes 30 seconds</li>
 </ul>
 
-<h2 id="ingredients">🌶️ Ingredients</h2>
+<h2 id="ingredients">🌶️ Cookingdom Level 42 Ingredients</h2>
 <ul>
   <li>Soft tofu cubes</li>
   <li>Ground pork or plant-based meat</li>
@@ -4779,7 +4768,7 @@ export const guides = [
   <li>Optional: Sichuan pepper oil for extra flavor</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<h2 id="steps">👨‍🍳 Cookingdom Level 42 Step-by-Step Strategy</h2>
 <ol>
   <li>Heat oil in the wok and start with the ground pork.</li>
   <li>Add garlic and chili paste, stir quickly to avoid burning.</li>
@@ -4788,14 +4777,14 @@ export const guides = [
   <li>Always prep next batch while one is cooking to stay ahead.</li>
 </ol>
 
-<h2 id="tips">🔥 Pro Tips</h2>
+<h2 id="tips">🔥 Cookingdom Level 42 Pro Tips</h2>
 <ul>
   <li><strong>Don't Over-Stir Tofu:</strong> It breaks easily and ruins dish quality.</li>
   <li><strong>Batch Cooking:</strong> Cook 2-3 portions at once if orders are similar.</li>
   <li><strong>Upgrade Wok:</strong> A faster wok shortens prep time dramatically.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h2 id="mistakes">🚫 Cookingdom Level 42 Common Mistakes</h2>
 <ul>
   <li>Forgetting garlic or chili paste — reduces dish flavor rating.</li>
   <li>Breaking tofu by over-stirring — ruins texture and lowers stars.</li>
@@ -4817,16 +4806,16 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/RetlPFno314', // Placeholder - Replace with actual video ID
     seo: {
-      title: 'Cookingdom Level 43 Guide: Moon Cake | Tips & Strategy',
+      title: 'Cookingdom Level 43 Guide: Moon Cake | Cookingdom.co',
       description:
         'Master Moon Cake baking in Level 43 of Cookingdom. Get tips on selecting fillings, molding, baking accurately, and serving this traditional dessert.',
       keywords:
-        'Cookingdom, Level 43, Moon Cake, Chinese Dessert, Festive Food, Baking, Filling, Mold, Guide, Strategy',
+        'Cookingdom Level 43, Cookingdom Moon Cake, Chinese Dessert,Festive Food,Baking,Filling,Mold,Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_43.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Moon Cake</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+        '<h3>Cookingdom Level 43 <br/> Moon Cake</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
@@ -4850,17 +4839,17 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p><strong>Level 43</strong> celebrates tradition with the delicate and festive <strong>Moon Cake</strong>. This level tests your precision with filling types and baking times. Balance speed and accuracy to keep customers happy and earn 3 stars.</p>
+<h2 id="overview">Cookingdom Level 43 Game Overview</h2>
+<p><strong>Cookingdom Level 43 </strong> celebrates tradition with the delicate and festive <strong>Moon Cake</strong>. This level tests your precision with filling types and baking times. Balance speed and accuracy to keep customers happy and earn 3 stars.</p>
 
-<h2 id="goal">🎯 Goal</h2>
+<h2 id="goal">🎯 Cookingdom Level 43 Goal</h2>
 <ul>
   <li>Serve at least 24 moon cakes</li>
   <li>Keep satisfaction at 90% or higher</li>
   <li>Complete within 3 minutes</li>
 </ul>
 
-<h2 id="ingredients">🥮 Ingredients</h2>
+<h2 id="ingredients">🥮 Cookingdom Level 43 Ingredients</h2>
 <ul>
   <li>Moon cake dough (pre-mixed)</li>
   <li>Fillings: red bean, lotus seed, salted egg yolk</li>
@@ -4868,7 +4857,7 @@ export const guides = [
   <li>Oven for baking</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+<h2 id="steps">👨‍🍳 Cookingdom Level 43 Step-by-Step Strategy</h2>
 <ol>
   <li>Select the correct filling based on customer order.</li>
   <li>Wrap the filling in dough and place into the moon cake mold.</li>
@@ -4877,14 +4866,14 @@ export const guides = [
   <li>Serve immediately once baked. Queue the next batch while waiting.</li>
 </ol>
 
-<h2 id="tips">🔥 Pro Tips</h2>
+<h2 id="tips">🔥 Cookingdom Level 43 Pro Tips</h2>
 <ul>
   <li><strong>Pre-select molds:</strong> Set the correct mold before orders arrive to save seconds.</li>
   <li><strong>Use both oven slots:</strong> Always keep the oven busy to avoid downtime.</li>
   <li><strong>Upgrade oven speed:</strong> Faster baking helps maintain combos during rushes.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h2 id="mistakes">🚫 Cookingdom Level 43 Common Mistakes</h2>
 <ul>
   <li>Wrong filling — double-check the customer order icon before wrapping.</li>
   <li>Burning the moon cake — stay near the oven during baking.</li>
