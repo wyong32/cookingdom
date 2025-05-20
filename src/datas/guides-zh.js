@@ -9,7 +9,7 @@ export const guidesZh = [
     isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
-    iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
+    iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
     seo: {
       title: '料理王国 第1关 攻略 - 第一块披萨',
       description:

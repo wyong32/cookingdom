@@ -9,7 +9,7 @@ export const guidesRu = [
     isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
-    iframeUrl: 'https://www.youtube.com/embed/TTf_oA3ExUQ',
+    iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
     seo: {
       title: 'Cookingdom Уровень 1 Руководство - Первая пицца',
       description:
