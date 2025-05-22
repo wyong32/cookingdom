@@ -44,7 +44,7 @@
     },
     "bottom": {
       "copyright": "© {year} Cookingdom. All rights reserved.",
-      "credits": "Made with ♡ by Fans - Cookingdom game copyright belongs to its developers.",
+      "credits": "Made with ♡ by Fans | Cookingdom game copyright belongs to its developers.",
       "disclaimer": "Disclaimer: This website (www.cookingdom.co) is an unofficial fansite created by enthusiasts and is not affiliated with the official Cookingdom game or its publishers. For informational and entertainment purposes only."
     },
     "privacy": "Privacy Policy",
@@ -209,278 +209,115 @@
     "noGuidesAvailable": "No guides available for this category yet."
   },
   "page": {
-    "about": {
-      "title": "About Us Placeholder Title",
-      "whoWeAre": {
-        "title": "Who We Are Placeholder Title",
-        "teamMessage": "Our Team Message Placeholder.",
-        "description": "Who We Are Description Placeholder text. This section should contain a detailed description of your team or organization, its history, and its passion for the subject matter, similar to the content in other language files."
-      },
-      "ourMission": {
-        "title": "Our Mission Placeholder Title",
-        "description": "Our Mission Description Placeholder text. Describe the primary goals and objectives of your website or organization here."
-      },
-      "ourValues": {
-        "title": "Our Values Placeholder Title",
-        "quality": {
-          "title": "Quality Placeholder Title",
-          "description": "Description of your commitment to quality placeholder."
-        },
-        "community": {
-          "title": "Community Placeholder Title",
-          "description": "Description of your focus on community placeholder."
-        },
-        "fun": {
-          "title": "Fun Placeholder Title",
-          "description": "Description of the element of fun or engagement placeholder."
-        }
-      }
-    },
-    "contact": {
-      "title": "Contact Us Placeholder Title",
-      "getInTouch": {
-        "title": "Get In Touch Placeholder Title",
-        "description": "Introduction to contacting you placeholder. Explain that you are happy to hear from the community and provide ways to get in touch."
-      },
-      "methods": {
-        "email": {
-          "title": "Email Placeholder Title",
-          "value": "your.email@example.com"
-        }
-      },
-      "faq": {
-        "title": "Frequently Asked Questions Placeholder Title",
-        "q1": {
-          "question": "FAQ Question 1 Placeholder?",
-          "answer": "FAQ Answer 1 Placeholder."
-        },
-        "q2": {
-          "question": "FAQ Question 2 Placeholder?",
-          "answer": "FAQ Answer 2 Placeholder."
-        },
-        "q3": {
-          "question": "FAQ Question 3 Placeholder - e.g., Is this an official site?",
-          "answer": "FAQ Answer 3 Placeholder - e.g., No, this is a fan-created website..."
-        }
-      }
-    },
-    "copyright": {
-      "title": "Copyright Information Placeholder Title",
-      "lastUpdated": "Last Updated: Month Day, Year",
-      "intro": "Introduction to copyright information placeholder. Welcome users and state the purpose of this page.",
-      "ownership": {
-        "title": "Content Ownership Placeholder Title",
-        "description": "Content ownership description placeholder. Detail who owns the content on the website and that it's protected by copyright laws. Also include a disclaimer about game assets if applicable, similar to other language files."
-      },
-      "usage": {
-        "title": "Permitted Usage of Content Placeholder Title",
-        "description": "General statement on content usage (e.g., personal, non-commercial).",
-        "allowed": {
-          "title": "Allowed Uses Placeholder Title",
-          "item1": "Allowed use item 1 placeholder (e.g., personal browsing).",
-          "item2": "Allowed use item 2 placeholder (e.g., sharing links).",
-          "item3": "Allowed use item 3 placeholder (e.g., using excerpts with attribution).",
-          "item4": "Allowed use item 4 placeholder (e.g., printing for personal reference)."
-        },
-        "prohibited": {
-          "title": "Prohibited Uses Placeholder Title",
-          "item1": "Prohibited use item 1 placeholder (e.g., reproducing without permission).",
-          "item2": "Prohibited use item 2 placeholder (e.g., creating derivative works).",
-          "item3": "Prohibited use item 3 placeholder (e.g., commercial use without permission).",
-          "item4": "Prohibited use item 4 placeholder (e.g., removing copyright notices).",
-          "item5": "Prohibited use item 5 placeholder (e.g., framing or mirroring)."
-        }
-      },
-      "thirdParty": {
-        "title": "Third-Party Content Placeholder Title",
-        "description": "Third-party content acknowledgment placeholder. State that you respect third-party copyrights and provide a way to report infringements."
-      },
-      "contact": {
-        "title": "Copyright Questions Placeholder Title",
-        "description": "Contact information for copyright inquiries placeholder (e.g., please contact us at your.email@example.com)."
-      },
-      "allRightsReserved": "All Rights Reserved Placeholder."
-    },
     "privacy": {
-      "title": "Privacy Policy Placeholder Title",
-      "lastUpdated": "Last Updated: Month Day, Year",
-      "intro": "Introduction to the Privacy Policy placeholder. Thank the user for visiting and state your commitment to privacy.",
+      "title": "Cookingdom Guide Fansite Privacy Policy",
+      "contentPlaceholder": "",
+      "lastUpdated": "Last Updated: April 30, 2025",
+      "intro": "Thank you for visiting the Cookingdom Guide Fansite (hereinafter \"the Site\"). We value your privacy highly and are committed to protecting your personal information. Please read the following privacy policy carefully to understand how we collect, use, store, and protect your personal data.",
       "section1": {
-        "title": "Section 1: Information We Collect - Placeholder Title",
-        "p1": "Section 1 Paragraph 1 Placeholder: Describe automatically collected technical information (IP address, browser type, etc.) and how it's used (e.g., cookies for site improvement).",
-        "p2": "Section 1 Paragraph 2 Placeholder (Optional): Describe voluntarily provided information (email, username for newsletters, comments, etc.)."
+        "title": "1. Personal Information We Collect",
+        "p1": "When you visit the Site, we may collect the following types of personal information: Automatically collected technical information: Such as your IP address, browser type, device type, operating system version, access times, etc. This information is collected automatically through Cookies and similar technologies to improve our services and user experience.",
+        "p2": "Information voluntarily provided by users: When you register an account, subscribe to newsletters, participate in discussions, or provide feedback on the Site, we may collect information such as your email address, username, message content, etc."
       },
       "section2": {
-        "title": "Section 2: How We Use Your Information - Placeholder Title",
-        "intro": "Introductory sentence for how information is used placeholder.",
-        "b1": "Bullet point 1: Purpose of information use (e.g., providing services and support).",
-        "b2": "Bullet point 2: Purpose of information use (e.g., personalizing experience).",
-        "b3": "Bullet point 3: Purpose of information use (e.g., improving website functionality).",
-        "b4": "Bullet point 4 (Optional): Purpose of information use (e.g., marketing and communication, if applicable and with consent)."
+        "title": "2. Use of Information",
+        "intro": "The information we collect is primarily used for the following purposes:",
+        "b1": "Providing services and support: To provide you with game guides, news updates, technical support, and other services based on your requests.",
+        "b2": "Personalizing experience: To provide customized content and recommendations based on your interests and preferences.",
+        "b3": "Improving website functionality: To analyze user behavior, improve website design and features, and enhance user experience.",
+        "b4": "Marketing and communication: To send you game-related updates, offers, promotions, and other information via email or other channels (if you consent to receive them)."
       },
       "section3": {
-        "title": "Section 3: How We Protect Your Information - Placeholder Title",
-        "p1": "Section 3 Paragraph 1 Placeholder: Describe technical and administrative measures taken to protect personal information (encryption, access controls, security reviews)."
+        "title": "3. How We Protect Your Information",
+        "p1": "We implement appropriate technical and administrative measures to protect your personal information from unauthorized access, disclosure, or alteration. These measures include data encryption, access control, and regular security reviews."
       },
       "section4": {
-        "title": "Section 4: Information Sharing - Placeholder Title",
-        "intro": "Introductory sentence for information sharing placeholder (e.g., we do not sell or rent your personal information).",
-        "b1": "Bullet point 1: Circumstances for sharing (e.g., with service providers bound by confidentiality).",
-        "b2": "Bullet point 2: Circumstances for sharing (e.g., if required by law)."
+        "title": "4. Information Sharing",
+        "intro": "We do not sell or rent your personal information to third parties. We only share your information in the following circumstances:",
+        "b1": "Service Providers: We may share your information with third parties who provide technical support, website hosting, and other services. These service providers are limited to providing services for us and are required to adhere to confidentiality obligations.",
+        "b2": "Legal Requirements: We may disclose your information if required by law or legal process."
       },
       "section5": {
-        "title": "Section 5: Use of Cookies - Placeholder Title",
-        "p1": "Section 5 Paragraph 1 Placeholder: Explain the use of cookies and similar technologies for preferences and browsing habits. Mention user's ability to disable cookies via browser settings and potential impact."
+        "title": "5. Use of Cookies",
+        "p1": "We use Cookies and similar technologies to collect and store your preferences, browsing habits, and other information. You can disable Cookies through your browser settings, but please note that this may affect your ability to use some features of the Site."
       },
       "section6": {
-        "title": "Section 6: Third-Party Links - Placeholder Title",
-        "p1": "Section 6 Paragraph 1 Placeholder: State that the site may contain links to other websites and that you are not responsible for their privacy practices. Advise users to review third-party policies."
+        "title": "6. Third-Party Links",
+        "p1": "The Site may contain links to other websites. We are not responsible for the privacy practices of these third-party websites. We recommend that you review their privacy policies when visiting other sites."
       },
       "section7": {
-        "title": "Section 7: Children's Privacy - Placeholder Title",
-        "p1": "Section 7 Paragraph 1 Placeholder: State that services are not directed to children under a certain age (e.g., 13) and what happens if such information is inadvertently collected."
+        "title": "7. Children's Privacy",
+        "p1": "Our services are not directed to children under the age of 13. If we discover that we have inadvertently collected personal information from a child under 13, we will promptly take steps to delete the relevant information."
       },
       "section8": {
-        "title": "Section 8: Your Rights - Placeholder Title",
-        "p1": "Section 8 Paragraph 1 Placeholder: Inform users of their rights regarding their personal information (access, correction, deletion) and how to make requests or ask questions."
+        "title": "8. Your Rights",
+        "p1": "In accordance with relevant laws and regulations, you have the right to request access to, correct, or delete the personal information we have collected about you. If you have any questions or requests regarding the processing of your personal information, please contact us using the contact information below."
+      },
+      "section9": {
+        "title": "9. Contact Us",
+        "p1": "If you have any questions about this Privacy Policy or need more information, please contact us via the following method:",
+        "email": "Email: maieldilmie223321@gmail.com"
       }
     },
     "terms": {
-      "title": "Terms of Service Placeholder Title",
-      "lastUpdated": "Last Updated: Month Day, Year",
-      "intro": "Introduction to Terms of Service placeholder.",
+      "title": "Cookingdom Guide Fansite Terms of Service",
+      "contentPlaceholder": "",
+      "lastUpdated": "Last Updated: April 30, 2025",
+      "intro": "Welcome to the Cookingdom Guide Fansite (hereinafter \"the Site\"). Before accessing or using the services provided by the Site, please read the following terms of service carefully. Accessing or using the Site signifies your agreement to comply with these terms. If you do not agree to these terms, please do not use the Site.",
       "section1": {
-        "title": "Section 1 Placeholder Title (e.g., Acceptance of Terms)",
-        "p1": "Section 1 Paragraph 1 Placeholder text."
+        "title": "1. Service Content",
+        "p1": "The Site provides guides, tips, update information, community discussions, user reviews, and related content for the \"Cookingdom\" game. We are dedicated to providing players with high-quality game resources and support to help enhance their gaming experience."
       },
       "section2": {
-        "title": "Section 2 Placeholder Title (e.g., Changes to Terms)",
-        "p1": "Section 2 Paragraph 1 Placeholder text."
+        "title": "2. User Account",
+        "p1": "To fully utilize certain features of the Site, you may need to create an account. When registering, you agree to provide accurate and complete personal information and to update this information promptly to maintain its accuracy. You are responsible for the security of your account and password and agree not to share your account information with any third party."
       },
       "section3": {
-        "title": "Section 3 Placeholder Title (e.g., Use of the Site)",
-        "intro": "Section 3 Introductory placeholder text.",
-        "b1": "Section 3 Bullet 1 Placeholder text.",
-        "b2": "Section 3 Bullet 2 Placeholder text.",
-        "b3": "Section 3 Bullet 3 Placeholder text.",
-        "p1": "Section 3 Concluding Paragraph 1 Placeholder text."
+        "title": "3. User Conduct",
+        "intro": "When using the Site, you agree to:",
+        "b1": "Not post content that violates laws, regulations, or is unethical (including but not limited to malware, advertisements, spam, harassing messages, content infringing on others' copyright or privacy rights).",
+        "b2": "Respect the rights of other users and not interfere with the normal operation of the Site.",
+        "b3": "Not obtain content, data, or systems of the Site through any illegal means.",
+        "p1": "If you violate these conduct guidelines, the Site reserves the right to suspend or terminate your account and take necessary legal action."
       },
       "section4": {
-        "title": "Section 4 Placeholder Title (e.g., User Conduct)",
-        "p1": "Section 4 Paragraph 1 Placeholder text.",
-        "p2": "Section 4 Paragraph 2 Placeholder text (optional)."
+        "title": "4. Content Use",
+        "p1": "All content provided on the Site (including text, images, videos, audio, etc.) is the property of the Site or its licensors and is protected by copyright law. Without authorization from the Site, you may not copy, distribute, modify, display, or sell the Site's content in any form.",
+        "p2": "Users may access and use the Site's content for non-commercial purposes in compliance with these Terms of Service, but any commercial use of the content requires prior explicit permission from the Site."
       },
       "section5": {
-        "title": "Section 5 Placeholder Title (e.g., Intellectual Property)",
-        "p1": "Section 5 Paragraph 1 Placeholder text."
+        "title": "5. Intellectual Property",
+        "p1": "All logos, trademarks, service marks, etc., related to the Site are the intellectual property of the Site or its licensors. Without authorization from the Site, you may not use or copy this intellectual property in any form."
       },
       "section6": {
-        "title": "Section 6 Placeholder Title (e.g., Disclaimers)",
-        "p1": "Section 6 Paragraph 1 Placeholder text."
+        "title": "6. Service Interruption and Termination",
+        "p1": "The Site may temporarily interrupt service for maintenance, updates, or other reasons. We will make reasonable efforts to notify users in advance but assume no liability for any consequences arising from service interruptions. The Site reserves the right to modify, suspend, or terminate part or all of its services at any time without prior notice."
       },
       "section7": {
-        "title": "Section 7 Placeholder Title (e.g., Limitation of Liability)",
-        "p1": "Section 7 Paragraph 1 Placeholder text."
+        "title": "7. Third-Party Websites",
+        "p1": "The Site may contain links to other websites operated by third parties. We have no control over the content or privacy policies of these websites and therefore assume no responsibility for their content and privacy practices. We recommend that you carefully read their terms of service and privacy policies when visiting these sites."
       },
       "section8": {
-        "title": "Section 8 Placeholder Title (e.g., Indemnification)",
-        "p1": "Section 8 Paragraph 1 Placeholder text."
+        "title": "8. Disclaimer",
+        "p1": "The Site makes its best effort to ensure the accuracy and completeness of the content provided but makes no express or implied warranties regarding the accuracy, reliability, or completeness of any content. We assume no liability for any direct or indirect losses resulting from the use of the Site's content."
       },
       "section9": {
-        "title": "Section 9 Placeholder Title (e.g., Governing Law)",
-        "p1": "Section 9 Paragraph 1 Placeholder text."
+        "title": "9. User Data and Privacy",
+        "p1": "The collection, use, and protection of your personal data are detailed in our Privacy Policy. Please carefully read our Privacy Policy and agree to its terms before using the Site's services."
       },
       "section10": {
-        "title": "Section 10 Placeholder Title (e.g., Termination)",
-        "p1": "Section 10 Paragraph 1 Placeholder text."
+        "title": "10. Governing Law and Dispute Resolution",
+        "p1": "These Terms of Service are governed by the laws of the People's Republic of China. Any disputes arising from or related to these terms shall be submitted to the court with jurisdiction in the location of the Site for adjudication."
       },
       "section11": {
-        "title": "Section 11 Placeholder Title (e.g., Entire Agreement)",
-        "p1": "Section 11 Paragraph 1 Placeholder text."
+        "title": "11. Modification of Terms",
+        "p1": "The Site reserves the right to modify or update these Terms of Service at any time. The modified terms become effective once published. Your continued use of the Site's services signifies your acceptance of the modified terms. We recommend that you periodically review this page to stay informed about the latest terms of service."
       },
       "section12": {
-        "title": "Section 12 Placeholder Title (e.g., Contact Information)",
-        "p1": "Section 12 Paragraph 1 Placeholder for contact instructions.",
-        "contactEmail": "your.email.for.terms@example.com"
+        "title": "12. Contact Us",
+        "p1": "If you have any questions about these Terms of Service or need more information, please contact us via the following method:",
+        "email": "Email: maieldilmie223321@gmail.com"
       }
-    },
-    "modDownload": {
-      "pageHeadline": "Cookingdom Mod APK Placeholder Headline",
-      "pageTitle": "Download Cookingdom Mod APK Placeholder Title",
-      "pageIntro": "Introduction for downloading Cookingdom Mod APK placeholder. Enjoy enhanced features for a better gaming experience.",
-      "mainMod": {
-        "title": "Cookingdom Mod APK 1.0.32 Placeholder Title",
-        "description": "Description of the latest modded version of Cookingdom Mod APK for Android placeholder.",
-        "meta": {
-          "type": "Mod APK",
-          "size": "XXX MB"
-        },
-        "button": "Download Cookingdom Mod APK Placeholder Button",
-        "downloadLink": "placeholder-download-link.com/modapk"
-      },
-      "modInfo": {
-        "title": "Cookingdom Mod APK Features Placeholder:",
-        "features": [
-          "Feature 1 Placeholder (e.g., Ad-free rewards)",
-          "Feature 2 Placeholder (e.g., No Ads)",
-          "Feature 3 Placeholder (e.g., Mod Menu)"
-        ]
-      },
-      "apkDetails": {
-        "title": "APK Details Placeholder Title",
-        "version": "App Version Placeholder",
-        "versionValue": "1.0.32",
-        "lastUpdated": "Last Updated Placeholder",
-        "lastUpdatedValue": "Month Day, Year",
-        "size": "APK Size Placeholder",
-        "sizeValue": "XXX MB",
-        "price": "Price Placeholder",
-        "priceValue": "Free",
-        "category": "Category Placeholder",
-        "categoryValue": "Simulation",
-        "contentRating": "Content Rating Placeholder",
-        "contentRatingValue": "X.X/5 (XXX Votes)",
-        "supportAndroid": "Supported Android Placeholder",
-        "supportAndroidValue": "Android X.X+",
-        "appPackage": "App Package Placeholder",
-        "appPackageValue": "com.example.placeholderpackage",
-        "rootRequired": "Root Required Placeholder",
-        "rootRequiredValue": "No",
-        "inAppPurchases": "Offers In-App Purchases Placeholder",
-        "inAppPurchasesValue": "Yes (Original App)"
-      },
-      "otherLinks": {
-        "title": "Other Download Options Placeholder Title",
-        "originalApk": {
-          "text": "iOS Version Placeholder Text",
-          "link": "placeholder-ios-appstore-link.com"
-        },
-        "googlePlay": {
-          "text": "Android Version Placeholder Text",
-          "link": "placeholder-googleplay-link.com"
-        }
-      },
-      "allVersions": {
-        "title": "Previous Cookingdom Mod APK Versions Placeholder Title",
-        "versions": [
-          {
-            "name": "Cookingdom Mod APK vX.X.XX Placeholder",
-            "size": "XXX MB",
-            "link": "placeholder-link-to-previous-version1.com"
-          },
-          {
-            "name": "Cookingdom Mod APK vY.Y.YY Placeholder",
-            "size": "YYY MB",
-            "link": "placeholder-link-to-previous-version2.com"
-          }
-        ]
-      },
-      "developerDescription": {
-        "title": "About Cookingdom Mod APK (from Developer) Placeholder Title",
-        "text": "Developer's description of the game placeholder. Welcome to Cookingdom, a chill and cozy game..."
-      },
-      "disclaimerTitle": "Disclaimer Placeholder Title",
-      "disclaimerBody": "Disclaimer body placeholder text. All download links provided on this site are collected from the internet and are for learning and research purposes only..."
     }
   },
   "about": {
@@ -514,8 +351,76 @@
       "description": "We invite you to join our growing community of Cookingdom enthusiasts. Follow us on social media, join our Discord server, or simply explore our guides to become part of our journey.<br><br>Have questions or suggestions? We'd love to hear from you! Visit our <a href='/contact'>Contact page</a> to get in touch."
     }
   },
-  "contact": "This page is temporarily under review. Please check back later.",
-  "copyright": "This page is temporarily under review. Please check back later.",
+  "contact": {
+    "title": "Contact Us",
+    "getInTouch": {
+      "title": "Get In Touch",
+      "description": "We love hearing from our community! Whether you have questions, feedback, or just want to say hello, there are several ways to reach us."
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "value": "delldremo9898@gmail.com"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "How can I contribute to the site?",
+        "answer": "We welcome contributions from the community! You can submit guide suggestions, corrections, or tips through our contact form or by joining our Discord server."
+      },
+      "q2": {
+        "question": "How quickly do you respond to messages?",
+        "answer": "We aim to respond to all inquiries within 48 hours. For urgent matters, Discord is usually the fastest way to reach us."
+      },
+      "q3": {
+        "question": "Is this an official Cookingdom website?",
+        "answer": "No, this is a fan-created site. We are not affiliated with the official Cookingdom game developers or publishers."
+      }
+    },
+    "community": {
+      "title": "Join Our Community",
+      "description": "The best way to stay connected with us and other Cookingdom fans is to join our online communities. Share strategies, ask questions, and make friends with fellow players!",
+      "message": "Join thousands of players in our friendly community and get help with challenging levels!"
+    }
+  },
+  "copyright": {
+    "title": "Copyright Information",
+    "lastUpdated": "Last Updated: May 15, 2025",
+    "intro": "Welcome to the cookingdom.cn website. This page outlines our copyright information and how our content may be used.",
+    "ownership": {
+      "title": "Content Ownership",
+      "description": "All content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, data compilations, and software, is owned by Cookingdom.cn or its content suppliers and is protected by international copyright laws.<br><br>The Cookingdom game itself, including its name, characters, storylines, artwork, and related content, is the property of its respective owners. This fan site is not affiliated with, endorsed by, or connected to the official game developers or publishers."
+    },
+    "usage": {
+      "title": "Content Usage",
+      "description": "The content on this website is provided for personal, non-commercial use only. Users must adhere to the following guidelines when using our content:",
+      "allowed": {
+        "title": "Allowed Uses",
+        "item1": "Accessing and viewing content for personal, non-commercial purposes",
+        "item2": "Sharing links to our content on social media or other platforms",
+        "item3": "Using small excerpts of content with proper attribution",
+        "item4": "Printing or downloading content for personal reference"
+      },
+      "prohibited": {
+        "title": "Prohibited Uses",
+        "item1": "Reproducing, duplicating, copying, or selling any part of our website without permission",
+        "item2": "Modifying or creating derivative works based on our content",
+        "item3": "Using our content for commercial purposes without explicit permission",
+        "item4": "Removing any copyright or other proprietary notices from our content",
+        "item5": "Framing or mirroring any part of our website without permission"
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Content",
+      "description": "Some content on our website may include materials from third parties. We acknowledge all third-party content and respect their copyright. If you believe that any third-party content on our site infringes upon your copyright, please contact us immediately."
+    },
+    "contact": {
+      "title": "Copyright Inquiries",
+      "description": "If you have any questions about our copyright policy or would like to request permission to use our content, please contact us at delldremo9898@gmail.com."
+    },
+    "allRightsReserved": "All Rights Reserved."
+  },
   "modDownload": {
     "pageHeadline": "Cookingdom Mod APK",
     "pageTitle": "Cookingdom Mod APK Download",
@@ -616,7 +521,7 @@
       "keywords": "about cookingdom, cookingdom team, cookingdom mission, cookingdom values, cookingdom community"
     },
     "contact": {
-      "title": "Contact Us – Cookingdom Level Walkthrough",
+      "title": "Contact Us | Cookingdom Level Walkthrough",
       "description": "Get in touch with the Cookingdom Level Walkthrough team. We're here to help with your questions and feedback.",
       "keywords": "contact cookingdom, cookingdom support, cookingdom help, cookingdom feedback, cookingdom community"
     },
@@ -650,7 +555,7 @@
       "keywords": "cookingdom, terms of service, usage rules, legal"
     },
     "copyright": {
-      "title": "Copyright Information – Cookingdom Level Walkthrough",
+      "title": "Copyright Information | Cookingdom Level Walkthrough",
       "description": "Copyright information for Cookingdom Level Walkthrough website. Learn about content ownership and usage guidelines.",
       "keywords": "cookingdom copyright, content usage, copyright policy, cookingdom fansite"
     },
