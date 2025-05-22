@@ -386,13 +386,7 @@
     },
     "usage": {
       "title": "Content Usage",
-      "allowed": {
-        "title": "Allowed Uses",
-        "item1": "Accessing and viewing content for personal, non-commercial purposes",
-        "item2": "Sharing links to our content on social media or other platforms",
-        "item3": "Using small excerpts of content with proper attribution",
-        "item4": "Printing or downloading content for personal reference"
-      },
+      
       "prohibited": {
         "title": "Prohibited Uses",
         "item1": "Reproducing, duplicating, copying, or selling any part of our website without permission",
