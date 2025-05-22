@@ -1,8 +1,15 @@
 <script setup>
 // Import necessary components
 import { RouterView } from 'vue-router'
-import AppHeader from '@/components/Header.vue' // Assuming Header.vue is the correct component
-import AppFooter from '@/components/Footer.vue' // Assuming Footer.vue is the correct component
+import { defineAsyncComponent } from 'vue'
+import AppHeader from '@/components/Header.vue' // Header 保持同步加载，因为是首屏关键内容
+
+// Footer 懒加载，因为不是首屏关键内容
+const AppFooter = defineAsyncComponent({
+  loader: () => import('@/components/Footer.vue'),
+  delay: 200,
+  timeout: 5000,
+})
 </script>
 
 <template>

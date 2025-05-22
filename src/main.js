@@ -9,11 +9,15 @@ import router from './router'
 
 const app = createApp(App)
 
+// 确保按正确顺序安装插件
 app.use(createPinia())
 app.use(router)
 app.use(i18n)
 
-app.mount('#app')
+// 等待 router 准备就绪后再挂载应用
+router.isReady().then(() => {
+  app.mount('#app')
+})
 
 // 注册 Service Worker
 if ('serviceWorker' in navigator) {

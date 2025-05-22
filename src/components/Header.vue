@@ -6,8 +6,18 @@ import { computed, ref } from 'vue'
 import { supportedLangs, defaultLang } from '@/i18n'
 
 const { locale, t } = useI18n() // 获取当前的 locale ref and t function
-const router = useRouter()
-const route = useRoute()
+
+// 添加防护措施，确保 router 可用
+let router, route
+try {
+  router = useRouter()
+  route = useRoute()
+} catch (error) {
+  console.warn('Router not available in Header component:', error)
+  // 提供默认值
+  router = { push: () => {} }
+  route = { path: '/' }
+}
 
 // 控制移动端菜单的显示状态
 const isMobileMenuOpen = ref(false)
@@ -28,13 +38,19 @@ const currentLocale = locale // 直接使用 i18n 的 locale ref
 // 计算属性，用于动态生成带语言参数的路由对象
 const localizedRoute = (name) => {
   return computed(() => {
-    const currentLang = locale.value
-    if (currentLang === defaultLang) {
-      // 默认语言，使用不带后缀的路由名
+    try {
+      const currentLang = locale.value
+      if (currentLang === defaultLang) {
+        // 默认语言，使用不带后缀的路由名
+        return { name: name }
+      } else {
+        // 非默认语言，使用带 -lang 后缀的路由名，并传递 lang 参数
+        return { name: `${name}-lang`, params: { lang: currentLang } }
+      }
+    } catch (error) {
+      console.warn('Error generating localized route:', error)
+      // 返回默认路由
       return { name: name }
-    } else {
-      // 非默认语言，使用带 -lang 后缀的路由名，并传递 lang 参数
-      return { name: `${name}-lang`, params: { lang: currentLang } }
     }
   })
 }
@@ -65,7 +81,7 @@ function changeLocale(event) {
     return
   }
 
-  const currentPath = route.path
+  const currentPath = route ? route.path : window.location.pathname
   let basePath = currentPath
 
   // Check if the path starts with any known language prefix (including default)
@@ -101,8 +117,13 @@ function changeLocale(event) {
   localStorage.setItem('userLanguage', newLang)
 
   // Only push if the path actually changes to avoid redundant navigation
-  if (route.path !== newPath) {
-    router.push(newPath)
+  if (route && route.path !== newPath) {
+    if (router && router.push) {
+      router.push(newPath)
+    } else {
+      // 如果 router 不可用，直接更改 URL
+      window.location.href = newPath
+    }
   } else {
     console.log('New path is the same as current path, navigation skipped.')
     // Even if path is same, locale might need update if v-model didn't trigger watcher
@@ -153,7 +174,13 @@ function changeLocale(event) {
 
           <!-- 语言切换下拉框 -->
           <div class="language-switcher">
-            <select v-model="currentLocale" @change="changeLocale">
+            <label for="language-select" class="sr-only">{{ t('nav.language') }}</label>
+            <select
+              id="language-select"
+              v-model="currentLocale"
+              @change="changeLocale"
+              :aria-label="t('nav.language')"
+            >
               <option v-for="lang in languageOptions" :key="lang.code" :value="lang.code">
                 {{ lang.name }}
               </option>
@@ -413,6 +440,19 @@ function changeLocale(event) {
 
 .language-switcher select:hover {
   border-color: #ff85a2;
+}
+
+/* 屏幕阅读器专用样式 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* --- Media Queries --- */

@@ -43,11 +43,14 @@ const loadGuideIds = () => {
 }
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [
+export default defineConfig(({ command, mode }) => {
+  const isDev = command === 'serve' || mode === 'development'
+
+  const plugins = [
     vue(),
     vueJsx(),
-    vueDevTools(),
+    // 只在开发环境加载 DevTools
+    ...(isDev ? [vueDevTools()] : []),
     ViteSitemapPlugin({
       hostname: 'https://www.cookingdom.co/',
       exclude: ['/:id', '/:lang/:id'],
@@ -91,10 +94,61 @@ Allow: /terms-of-service/
 Allow: /about/
 Allow: /contact/`,
     }),
-  ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+  ]
+
+  return {
+    plugins,
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+      },
     },
-  },
+    build: {
+      // 启用代码分割和优化
+      rollupOptions: {
+        output: {
+          // 手动分割代码块
+          manualChunks: {
+            // Vue 核心库单独打包
+            'vue-vendor': ['vue', 'vue-router', 'pinia'],
+            // i18n 相关单独打包
+            'i18n-vendor': ['vue-i18n'],
+            // 大型组件单独打包
+            'swiper-vendor': ['swiper'],
+          },
+          // 优化文件名
+          chunkFileNames: 'js/[name]-[hash].js',
+          entryFileNames: 'js/[name]-[hash].js',
+          assetFileNames: (assetInfo) => {
+            const fileName = assetInfo.names?.[0] || assetInfo.name || 'asset'
+            const info = fileName.split('.')
+            const ext = info[info.length - 1]
+            if (/\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/i.test(fileName)) {
+              return `media/[name]-[hash].${ext}`
+            }
+            if (/\.(png|jpe?g|gif|svg|webp|avif)(\?.*)?$/i.test(fileName)) {
+              return `images/[name]-[hash].${ext}`
+            }
+            if (ext === 'css') {
+              return `css/[name]-[hash].${ext}`
+            }
+            return `assets/[name]-[hash].${ext}`
+          },
+        },
+      },
+      // 启用压缩（使用默认的 esbuild）
+      minify: true,
+      // 启用 CSS 代码分割
+      cssCodeSplit: true,
+      // 设置 chunk 大小警告限制
+      chunkSizeWarningLimit: 1000,
+    },
+    // 优化依赖预构建
+    optimizeDeps: {
+      include: ['vue', 'vue-router', 'pinia', 'vue-i18n'],
+      exclude: [
+        'swiper', // Swiper 按需加载，不预构建
+      ],
+    },
+  }
 })

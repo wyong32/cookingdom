@@ -1,17 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { nextTick } from 'vue'
+// 只有首页同步加载，其他页面都懒加载
 import HomeView from '../views/HomeView.vue'
-import GuideDetail from '../views/GuideDetail.vue'
-import GuideView from '../views/GuideView.vue'
-import BlogView from '../views/BlogView.vue'
-import BlogDetailView from '../views/BlogDetailView.vue'
-import DownloadView from '../views/DownloadView.vue'
-import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
-import TermsOfServiceView from '../views/TermsOfServiceView.vue'
-import ModDownloadView from '../views/ModDownloadView.vue'
-import AboutView from '../views/AboutView.vue'
-import ContactView from '../views/ContactView.vue'
-import CopyrightView from '../views/CopyrightView.vue'
+
+// 懒加载所有其他视图组件
+const GuideDetail = () => import('../views/GuideDetail.vue')
+const GuideView = () => import('../views/GuideView.vue')
+const BlogView = () => import('../views/BlogView.vue')
+const BlogDetailView = () => import('../views/BlogDetailView.vue')
+const DownloadView = () => import('../views/DownloadView.vue')
+const PrivacyPolicyView = () => import('../views/PrivacyPolicyView.vue')
+const TermsOfServiceView = () => import('../views/TermsOfServiceView.vue')
+const ModDownloadView = () => import('../views/ModDownloadView.vue')
+const AboutView = () => import('../views/AboutView.vue')
+const ContactView = () => import('../views/ContactView.vue')
+const CopyrightView = () => import('../views/CopyrightView.vue')
 import { i18n, supportedLangs, defaultLang } from '@/i18n'
 import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
 
