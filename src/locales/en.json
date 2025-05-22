@@ -209,65 +209,278 @@
     "noGuidesAvailable": "No guides available for this category yet."
   },
   "page": {
-    "privacy": "This page is temporarily under review. Please check back later.",
-    "terms": {
-      "title": "Terms Title Placeholder",
-      "lastUpdated": "Last Updated Placeholder",
-      "intro": "Intro placeholder.",
+    "about": {
+      "title": "About Us Placeholder Title",
+      "whoWeAre": {
+        "title": "Who We Are Placeholder Title",
+        "teamMessage": "Our Team Message Placeholder.",
+        "description": "Who We Are Description Placeholder text. This section should contain a detailed description of your team or organization, its history, and its passion for the subject matter, similar to the content in other language files."
+      },
+      "ourMission": {
+        "title": "Our Mission Placeholder Title",
+        "description": "Our Mission Description Placeholder text. Describe the primary goals and objectives of your website or organization here."
+      },
+      "ourValues": {
+        "title": "Our Values Placeholder Title",
+        "quality": {
+          "title": "Quality Placeholder Title",
+          "description": "Description of your commitment to quality placeholder."
+        },
+        "community": {
+          "title": "Community Placeholder Title",
+          "description": "Description of your focus on community placeholder."
+        },
+        "fun": {
+          "title": "Fun Placeholder Title",
+          "description": "Description of the element of fun or engagement placeholder."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact Us Placeholder Title",
+      "getInTouch": {
+        "title": "Get In Touch Placeholder Title",
+        "description": "Introduction to contacting you placeholder. Explain that you are happy to hear from the community and provide ways to get in touch."
+      },
+      "methods": {
+        "email": {
+          "title": "Email Placeholder Title",
+          "value": "your.email@example.com"
+        }
+      },
+      "faq": {
+        "title": "Frequently Asked Questions Placeholder Title",
+        "q1": {
+          "question": "FAQ Question 1 Placeholder?",
+          "answer": "FAQ Answer 1 Placeholder."
+        },
+        "q2": {
+          "question": "FAQ Question 2 Placeholder?",
+          "answer": "FAQ Answer 2 Placeholder."
+        },
+        "q3": {
+          "question": "FAQ Question 3 Placeholder - e.g., Is this an official site?",
+          "answer": "FAQ Answer 3 Placeholder - e.g., No, this is a fan-created website..."
+        }
+      }
+    },
+    "copyright": {
+      "title": "Copyright Information Placeholder Title",
+      "lastUpdated": "Last Updated: Month Day, Year",
+      "intro": "Introduction to copyright information placeholder. Welcome users and state the purpose of this page.",
+      "ownership": {
+        "title": "Content Ownership Placeholder Title",
+        "description": "Content ownership description placeholder. Detail who owns the content on the website and that it's protected by copyright laws. Also include a disclaimer about game assets if applicable, similar to other language files."
+      },
+      "usage": {
+        "title": "Permitted Usage of Content Placeholder Title",
+        "description": "General statement on content usage (e.g., personal, non-commercial).",
+        "allowed": {
+          "title": "Allowed Uses Placeholder Title",
+          "item1": "Allowed use item 1 placeholder (e.g., personal browsing).",
+          "item2": "Allowed use item 2 placeholder (e.g., sharing links).",
+          "item3": "Allowed use item 3 placeholder (e.g., using excerpts with attribution).",
+          "item4": "Allowed use item 4 placeholder (e.g., printing for personal reference)."
+        },
+        "prohibited": {
+          "title": "Prohibited Uses Placeholder Title",
+          "item1": "Prohibited use item 1 placeholder (e.g., reproducing without permission).",
+          "item2": "Prohibited use item 2 placeholder (e.g., creating derivative works).",
+          "item3": "Prohibited use item 3 placeholder (e.g., commercial use without permission).",
+          "item4": "Prohibited use item 4 placeholder (e.g., removing copyright notices).",
+          "item5": "Prohibited use item 5 placeholder (e.g., framing or mirroring)."
+        }
+      },
+      "thirdParty": {
+        "title": "Third-Party Content Placeholder Title",
+        "description": "Third-party content acknowledgment placeholder. State that you respect third-party copyrights and provide a way to report infringements."
+      },
+      "contact": {
+        "title": "Copyright Questions Placeholder Title",
+        "description": "Contact information for copyright inquiries placeholder (e.g., please contact us at your.email@example.com)."
+      },
+      "allRightsReserved": "All Rights Reserved Placeholder."
+    },
+    "privacy": {
+      "title": "Privacy Policy Placeholder Title",
+      "lastUpdated": "Last Updated: Month Day, Year",
+      "intro": "Introduction to the Privacy Policy placeholder. Thank the user for visiting and state your commitment to privacy.",
       "section1": {
-        "title": "Section 1 Title Placeholder",
-        "p1": "Section 1 Paragraph 1 placeholder."
+        "title": "Section 1: Information We Collect - Placeholder Title",
+        "p1": "Section 1 Paragraph 1 Placeholder: Describe automatically collected technical information (IP address, browser type, etc.) and how it's used (e.g., cookies for site improvement).",
+        "p2": "Section 1 Paragraph 2 Placeholder (Optional): Describe voluntarily provided information (email, username for newsletters, comments, etc.)."
       },
       "section2": {
-        "title": "Section 2 Title Placeholder",
-        "p1": "Section 2 Paragraph 1 placeholder."
+        "title": "Section 2: How We Use Your Information - Placeholder Title",
+        "intro": "Introductory sentence for how information is used placeholder.",
+        "b1": "Bullet point 1: Purpose of information use (e.g., providing services and support).",
+        "b2": "Bullet point 2: Purpose of information use (e.g., personalizing experience).",
+        "b3": "Bullet point 3: Purpose of information use (e.g., improving website functionality).",
+        "b4": "Bullet point 4 (Optional): Purpose of information use (e.g., marketing and communication, if applicable and with consent)."
       },
       "section3": {
-        "title": "Section 3 Title Placeholder",
-        "intro": "Section 3 Intro placeholder.",
-        "b1": "Section 3 Bullet 1 placeholder.",
-        "b2": "Section 3 Bullet 2 placeholder.",
-        "b3": "Section 3 Bullet 3 placeholder.",
-        "p1": "Section 3 Paragraph 1 placeholder."
+        "title": "Section 3: How We Protect Your Information - Placeholder Title",
+        "p1": "Section 3 Paragraph 1 Placeholder: Describe technical and administrative measures taken to protect personal information (encryption, access controls, security reviews)."
       },
       "section4": {
-        "title": "Section 4 Title Placeholder",
-        "p1": "Section 4 Paragraph 1 placeholder.",
-        "p2": "Section 4 Paragraph 2 placeholder."
+        "title": "Section 4: Information Sharing - Placeholder Title",
+        "intro": "Introductory sentence for information sharing placeholder (e.g., we do not sell or rent your personal information).",
+        "b1": "Bullet point 1: Circumstances for sharing (e.g., with service providers bound by confidentiality).",
+        "b2": "Bullet point 2: Circumstances for sharing (e.g., if required by law)."
       },
       "section5": {
-        "title": "Section 5 Title Placeholder",
-        "p1": "Section 5 Paragraph 1 placeholder."
+        "title": "Section 5: Use of Cookies - Placeholder Title",
+        "p1": "Section 5 Paragraph 1 Placeholder: Explain the use of cookies and similar technologies for preferences and browsing habits. Mention user's ability to disable cookies via browser settings and potential impact."
       },
       "section6": {
-        "title": "Section 6 Title Placeholder",
-        "p1": "Section 6 Paragraph 1 placeholder."
+        "title": "Section 6: Third-Party Links - Placeholder Title",
+        "p1": "Section 6 Paragraph 1 Placeholder: State that the site may contain links to other websites and that you are not responsible for their privacy practices. Advise users to review third-party policies."
       },
       "section7": {
-        "title": "Section 7 Title Placeholder",
-        "p1": "Section 7 Paragraph 1 placeholder."
+        "title": "Section 7: Children's Privacy - Placeholder Title",
+        "p1": "Section 7 Paragraph 1 Placeholder: State that services are not directed to children under a certain age (e.g., 13) and what happens if such information is inadvertently collected."
       },
       "section8": {
-        "title": "Section 8 Title Placeholder",
-        "p1": "Section 8 Paragraph 1 placeholder."
+        "title": "Section 8: Your Rights - Placeholder Title",
+        "p1": "Section 8 Paragraph 1 Placeholder: Inform users of their rights regarding their personal information (access, correction, deletion) and how to make requests or ask questions."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service Placeholder Title",
+      "lastUpdated": "Last Updated: Month Day, Year",
+      "intro": "Introduction to Terms of Service placeholder.",
+      "section1": {
+        "title": "Section 1 Placeholder Title (e.g., Acceptance of Terms)",
+        "p1": "Section 1 Paragraph 1 Placeholder text."
+      },
+      "section2": {
+        "title": "Section 2 Placeholder Title (e.g., Changes to Terms)",
+        "p1": "Section 2 Paragraph 1 Placeholder text."
+      },
+      "section3": {
+        "title": "Section 3 Placeholder Title (e.g., Use of the Site)",
+        "intro": "Section 3 Introductory placeholder text.",
+        "b1": "Section 3 Bullet 1 Placeholder text.",
+        "b2": "Section 3 Bullet 2 Placeholder text.",
+        "b3": "Section 3 Bullet 3 Placeholder text.",
+        "p1": "Section 3 Concluding Paragraph 1 Placeholder text."
+      },
+      "section4": {
+        "title": "Section 4 Placeholder Title (e.g., User Conduct)",
+        "p1": "Section 4 Paragraph 1 Placeholder text.",
+        "p2": "Section 4 Paragraph 2 Placeholder text (optional)."
+      },
+      "section5": {
+        "title": "Section 5 Placeholder Title (e.g., Intellectual Property)",
+        "p1": "Section 5 Paragraph 1 Placeholder text."
+      },
+      "section6": {
+        "title": "Section 6 Placeholder Title (e.g., Disclaimers)",
+        "p1": "Section 6 Paragraph 1 Placeholder text."
+      },
+      "section7": {
+        "title": "Section 7 Placeholder Title (e.g., Limitation of Liability)",
+        "p1": "Section 7 Paragraph 1 Placeholder text."
+      },
+      "section8": {
+        "title": "Section 8 Placeholder Title (e.g., Indemnification)",
+        "p1": "Section 8 Paragraph 1 Placeholder text."
       },
       "section9": {
-        "title": "Section 9 Title Placeholder",
-        "p1": "Section 9 Paragraph 1 placeholder."
+        "title": "Section 9 Placeholder Title (e.g., Governing Law)",
+        "p1": "Section 9 Paragraph 1 Placeholder text."
       },
       "section10": {
-        "title": "Section 10 Title Placeholder",
-        "p1": "Section 10 Paragraph 1 placeholder."
+        "title": "Section 10 Placeholder Title (e.g., Termination)",
+        "p1": "Section 10 Paragraph 1 Placeholder text."
       },
       "section11": {
-        "title": "Section 11 Title Placeholder",
-        "p1": "Section 11 Paragraph 1 placeholder."
+        "title": "Section 11 Placeholder Title (e.g., Entire Agreement)",
+        "p1": "Section 11 Paragraph 1 Placeholder text."
       },
       "section12": {
-        "title": "Section 12 Title Placeholder",
-        "p1": "Section 12 Paragraph 1 placeholder.",
-        "contactEmail": "email.placeholder@example.com"
+        "title": "Section 12 Placeholder Title (e.g., Contact Information)",
+        "p1": "Section 12 Paragraph 1 Placeholder for contact instructions.",
+        "contactEmail": "your.email.for.terms@example.com"
       }
+    },
+    "modDownload": {
+      "pageHeadline": "Cookingdom Mod APK Placeholder Headline",
+      "pageTitle": "Download Cookingdom Mod APK Placeholder Title",
+      "pageIntro": "Introduction for downloading Cookingdom Mod APK placeholder. Enjoy enhanced features for a better gaming experience.",
+      "mainMod": {
+        "title": "Cookingdom Mod APK 1.0.32 Placeholder Title",
+        "description": "Description of the latest modded version of Cookingdom Mod APK for Android placeholder.",
+        "meta": {
+          "type": "Mod APK",
+          "size": "XXX MB"
+        },
+        "button": "Download Cookingdom Mod APK Placeholder Button",
+        "downloadLink": "placeholder-download-link.com/modapk"
+      },
+      "modInfo": {
+        "title": "Cookingdom Mod APK Features Placeholder:",
+        "features": [
+          "Feature 1 Placeholder (e.g., Ad-free rewards)",
+          "Feature 2 Placeholder (e.g., No Ads)",
+          "Feature 3 Placeholder (e.g., Mod Menu)"
+        ]
+      },
+      "apkDetails": {
+        "title": "APK Details Placeholder Title",
+        "version": "App Version Placeholder",
+        "versionValue": "1.0.32",
+        "lastUpdated": "Last Updated Placeholder",
+        "lastUpdatedValue": "Month Day, Year",
+        "size": "APK Size Placeholder",
+        "sizeValue": "XXX MB",
+        "price": "Price Placeholder",
+        "priceValue": "Free",
+        "category": "Category Placeholder",
+        "categoryValue": "Simulation",
+        "contentRating": "Content Rating Placeholder",
+        "contentRatingValue": "X.X/5 (XXX Votes)",
+        "supportAndroid": "Supported Android Placeholder",
+        "supportAndroidValue": "Android X.X+",
+        "appPackage": "App Package Placeholder",
+        "appPackageValue": "com.example.placeholderpackage",
+        "rootRequired": "Root Required Placeholder",
+        "rootRequiredValue": "No",
+        "inAppPurchases": "Offers In-App Purchases Placeholder",
+        "inAppPurchasesValue": "Yes (Original App)"
+      },
+      "otherLinks": {
+        "title": "Other Download Options Placeholder Title",
+        "originalApk": {
+          "text": "iOS Version Placeholder Text",
+          "link": "placeholder-ios-appstore-link.com"
+        },
+        "googlePlay": {
+          "text": "Android Version Placeholder Text",
+          "link": "placeholder-googleplay-link.com"
+        }
+      },
+      "allVersions": {
+        "title": "Previous Cookingdom Mod APK Versions Placeholder Title",
+        "versions": [
+          {
+            "name": "Cookingdom Mod APK vX.X.XX Placeholder",
+            "size": "XXX MB",
+            "link": "placeholder-link-to-previous-version1.com"
+          },
+          {
+            "name": "Cookingdom Mod APK vY.Y.YY Placeholder",
+            "size": "YYY MB",
+            "link": "placeholder-link-to-previous-version2.com"
+          }
+        ]
+      },
+      "developerDescription": {
+        "title": "About Cookingdom Mod APK (from Developer) Placeholder Title",
+        "text": "Developer's description of the game placeholder. Welcome to Cookingdom, a chill and cozy game..."
+      },
+      "disclaimerTitle": "Disclaimer Placeholder Title",
+      "disclaimerBody": "Disclaimer body placeholder text. All download links provided on this site are collected from the internet and are for learning and research purposes only..."
     }
   },
   "about": {
