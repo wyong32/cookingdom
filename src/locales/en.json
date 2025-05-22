@@ -384,7 +384,10 @@
       "title": "Content Ownership",
       "description": "All content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, data compilations, and software, is owned by Cookingdom.cn or its content suppliers and is protected by international copyright laws.<br><br>The Cookingdom game itself, including its name, characters, storylines, artwork, and related content, is the property of its respective owners. This fan site is not affiliated with, endorsed by, or connected to the official game developers or publishers."
     },
-   
+    "contact": {
+      "title": "Copyright Inquiries",
+      "description": "If you have any questions about our copyright policy or would like to request permission to use our content, please contact us at delldremo9898@gmail.com."
+    },
     "allRightsReserved": "All Rights Reserved."
   },
   "modDownload": {
