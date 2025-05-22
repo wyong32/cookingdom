@@ -256,7 +256,7 @@
       "section9": {
         "title": "9. Contact Us",
         "p1": "If you have any questions about this Privacy Policy or need more information, please contact us via the following method:",
-        "email": "Email: maieldilmie223321@gmail.com"
+        "contactEmail": "Email: maieldilmie223321@gmail.com"
       }
     },
     "terms": {
@@ -316,7 +316,7 @@
       "section12": {
         "title": "12. Contact Us",
         "p1": "If you have any questions about these Terms of Service or need more information, please contact us via the following method:",
-        "email": "Email: maieldilmie223321@gmail.com"
+        "contactEmail": "Email: maieldilmie223321@gmail.com"
       }
     }
   },
@@ -358,7 +358,7 @@
       "description": "We love hearing from our community! Whether you have questions, feedback, or just want to say hello, there are several ways to reach us."
     },
     "methods": {
-      "email": {
+      "contactEmail": {
         "title": "Email",
         "value": "delldremo9898@gmail.com"
       }
