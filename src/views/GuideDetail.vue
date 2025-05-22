@@ -80,6 +80,7 @@
     </div>
     <div v-else-if="!isLoadingList && !currentGuide && guideId" class="loading-or-not-found">
       <p>{{ $t('guideDetail.loadingOrNotFound') }}</p>
+      <p>{{ $t('guideDetail.idNotFound', { id: guideId }) }}</p>
       <router-link :to="{ name: 'guides' }" class="back-link">{{
         $t('guideDetail.backLink')
       }}</router-link>
@@ -130,6 +131,13 @@ watch(
     if (isLoadingList.value) return // Don't do anything if the list is still loading
 
     if (newGuide) {
+      // 保存当前查看的guide ID到localStorage，以便在返回时自动选择正确的tab
+      try {
+        localStorage.setItem('last-viewed-guide-id', newGuide.id)
+      } catch (e) {
+        console.error('Error saving guide ID to localStorage:', e)
+      }
+
       const seoTitle = newGuide.seo?.title || t('meta.guideDetail.title', 'Guide Detail')
       const seoDescription =
         newGuide.seo?.description ||
@@ -201,6 +209,14 @@ const getFeaturedGuideLinkProps = (featured) => {
   if (!isDefault) {
     routeParams.lang = currentLocaleValue
   }
+
+  // 当用户点击featured guide时，保存guide ID到localStorage
+  try {
+    localStorage.setItem('last-viewed-guide-id', featured.id)
+  } catch (e) {
+    console.error('Error saving featured guide ID to localStorage:', e)
+  }
+
   // If featured guides in the data already have a pre-calculated routeObject from useGuides,
   // you could potentially use that directly: return featured.routeObject
   return { name: routeName, params: routeParams }
@@ -413,7 +429,7 @@ watch(currentGuide, (newVal) => {
 .iframe-container {
   margin-top: 2rem;
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 75%;
   height: 0;
   overflow: hidden;
   border: 1px solid #eee;
@@ -471,4 +487,4 @@ watch(currentGuide, (newVal) => {
     margin-bottom: 1rem;
   }
 }
-</style> 
+</style>

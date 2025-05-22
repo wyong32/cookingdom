@@ -95,6 +95,21 @@ function getLocalizedRoute(name, params = {}) {
                   t('footer.terms')
                 }}</RouterLink>
               </li>
+              <li>
+                <RouterLink :to="getLocalizedRoute('copyright')">{{
+                  t('footer.copyright.linkText')
+                }}</RouterLink>
+              </li>
+              <li>
+                <RouterLink :to="getLocalizedRoute('about')">{{
+                  t('footer.about.linkText')
+                }}</RouterLink>
+              </li>
+              <li>
+                <RouterLink :to="getLocalizedRoute('contact')">{{
+                  t('footer.contact.linkText')
+                }}</RouterLink>
+              </li>
             </ul>
           </div>
         </div>
@@ -339,4 +354,4 @@ function getLocalizedRoute(name, params = {}) {
     margin-bottom: 0.2rem;
   }
 }
-</style> 
+</style>

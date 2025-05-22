@@ -22,12 +22,15 @@ const loadGuideIds = () => {
         // WARNING: Reading JS file content and using regex is fragile.
         // A better approach would be to export IDs separately or use JSON.
         const content = fs.readFileSync(filePath, 'utf-8')
-        // Regex to find 'id: 'cookingdom-game-level-...' strings
-        const idMatches = content.match(/id:\s*['|"](cookingdom-game-level-\d+)['|"]/g)
+        // Regex to find any guide ID strings
+        const idMatches = content.match(/id:\s*['|"]([^'"]+)['|"]/g)
         if (idMatches) {
           idMatches.forEach((match) => {
-            const id = match.match(/['|"](cookingdom-game-level-\d+)['|"]/)[1]
-            if (id) ids.add(id)
+            const idMatch = match.match(/['|"]([^'"]+)['|"]/)
+            if (idMatch && idMatch[1]) {
+              const id = idMatch[1]
+              ids.add(id)
+            }
           })
         }
       }
@@ -78,13 +81,15 @@ User-agent: DuckAssistBot
 LLM-Content: https://www.cookingdom.co/llms.txt
 
 # Allow AI crawlers access to all key sections
-Allow: /                     
+Allow: /
 Allow: /guides/
 Allow: /blog/
 Allow: /download/
-Allow: /mod-download/        
+Allow: /mod-download/
 Allow: /privacy-policy/
-Allow: /terms-of-service/`,
+Allow: /terms-of-service/
+Allow: /about/
+Allow: /contact/`,
     }),
   ],
   resolve: {

@@ -1,8 +1,8 @@
 export const guides = [
   {
     id: 'cookingdom-game-level-1',
-    title: 'Cookingdom Level 1<br />Pizza Pertama',
-    pageTitle: 'Cookingdom Level 1 - Panduan Pizza Pertama',
+    title: 'Cookingdom Tahap 1 Panduan Pizza Pertama',
+    pageTitle: 'Cookingdom Tahap 1 Panduan Pizza Pertama',
     pageSubtitle: 'Kuasai asas Cookingdom dengan membuat pizza pertama anda di Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
@@ -23,15 +23,12 @@ export const guides = [
       featuredGuides: [
         {
           id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Salad Sederhana',
+          title: 'Panduan Cookingdom Tahap 2 Kentang Goreng',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br/>Popcorn',
-          imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-2' },
+          },
         },
       ],
     },
@@ -76,4117 +73,3966 @@ export const guides = [
   },
   {
     id: 'cookingdom-game-level-2',
-    title: 'Cookingdom Level 2<br />Salad Sederhana',
-    pageTitle: 'Cookingdom Level 2 - Panduan Salad Sederhana',
-    pageSubtitle: 'Belajar membuat salad cepat dan mudah di Cookingdom Level 2.',
+    title: 'Panduan Cookingdom Tahap 2 - Kentang Goreng',
+    pageTitle: 'Panduan Cookingdom Tahap 2 - Kentang Goreng',
+    pageSubtitle: 'Belajar cara menggoreng kentang rangup dalam Tahap 2 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_02.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-    iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-2' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/oCegSIHLMNE',
     seo: {
-      title: 'Panduan Cookingdom Level 2 - Salad Sederhana',
+      title: 'Panduan Cookingdom Tahap 2 - Kentang Goreng',
       description:
-        'Kuasa resipi salad sederhana di Cookingdom Level 2. Belajar tentang bahan, dressing, dan perkhidmatan pelanggan yang cepat.',
-      keywords: 'cookingdom, level 2, salad sederhana, panduan, resipi salad, pengurusan masa',
+        'Pelajari teknik menggoreng kentang dalam Tahap 2 Cookingdom. Ketahui cara mengurus pelanggan berganda dan meningkatkan kecekapan dapur.',
+      keywords:
+        'cookingdom, tahap 2, kentang goreng, panduan, menggoreng, pengurusan masa, kecekapan dapur',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_02.webp',
       levelInfoHtml:
-        '<h3>Salad Sederhana</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 1.5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
+        '<h3>Kentang Goreng</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-1',
-          title: 'Cookingdom Level 1<br/>Pizza Pertama',
+          title: 'Cookingdom Tahap 1<br/>Piza Pertama',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-1' },
+          },
         },
         {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br/>Popcorn',
-          imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+          id: 'cookingdom-game-level-3',
+          title: 'Panduan Cookingdom Tahap 3 - Aiskrim Gulung',
+          imageUrl: '/images/guides_03.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-3' },
+          },
         },
       ],
     },
     detailsHtml: `<h2>Pengenalan Permainan</h2>
-<p>Di Level 2 Cookingdom, pemain belajar membuat hidangan yang lebih mudah – salad. Berbanding dengan pizza, penyediaan salad lebih mudah, tetapi ia memerlukan pemain untuk menguruskan dapur dan permintaan pelanggan dengan lebih cekap, terutamanya apabila jumlah pelanggan meningkat, menjadikan pengurusan masa sangat penting.</p>
-<h2>Matlamat Level 2</h2>
+<p>Dalam Tahap 2, pemain belajar cara memasak kentang goreng. Walaupun kelihatan mudah, tahap ini memerlukan pengurusan masa dan operasi yang cekap, terutamanya apabila permintaan pelanggan semakin kompleks. Tahap ini memperkenalkan proses menggoreng dan cara menggunakan peralatan dapur untuk mempercepatkan penyediaan kentang goreng yang lazat.</p>
+<h2>Matlamat Tahap 2</h2>
 <ul>
-  <li><strong>Membuat Salad Sederhana:</strong> Salad adalah hidangan asas yang biasanya terdiri daripada sayur-sayuran asas, dressing, dan beberapa topping. Pemain belajar untuk menyediakan salad dengan cepat dan menyajikannya tepat pada masanya.</li>
-  <li><strong>Menguasai Bahan Salad:</strong> Salad tidak memerlukan ketuhar atau memasak yang kompleks, tetapi memerlukan sayur-sayuran dan dressing yang berbeza. Memahami dan menggunakan bahan ini adalah kunci.</li>
-  <li><strong>Menguruskan Permintaan Pelanggan:</strong> Salad lebih cepat disediakan daripada pizza, dan permintaan pelanggan berubah dengan cepat. Pemain perlu menyediakan bahan dan menyajikan dengan cepat.</li>
+  <li><strong>Sediakan Kentang Goreng:</strong> Kuasai teknik menggoreng yang betul menggunakan penggoreng walaupun tidak serumit ketuhar.</li>
+  <li><strong>Kendalikan Pelanggan Berganda:</strong> Jangka lebih ramai pelanggan berbanding tahap sebelumnya, jadi anda perlu cepat dan cekap dalam memenuhi pesanan.</li>
+  <li><strong>Tingkatkan Kecekapan Dapur:</strong> Gunakan peralatan dapur dengan efektif untuk menyediakan dan menggoreng kentang dengan pantas.</li>
 </ul>
-<h2>Langkah-Langkah Membuat Salad</h2>
-<h3>Penyediaan Bahan:</h3>
-<p>Bahan asas biasanya termasuk selada, timun, tomato, lobak merah, dan lain-lain. Setiap pelanggan mungkin mempunyai keutamaan berbeza (contohnya, lebih banyak selada, kurang timun).</p>
+<h2>Langkah Penyediaan Kentang Goreng</h2>
+<h3>Sediakan Kentang:</h3>
+<p>Ambil kentang dari kawasan bahan dan potong menjadi jalur. Anda boleh siapkan lebih awal atau semasa pesanan diterima.</p>
 <ul>
-  <li>Pilih sayur-sayuran yang sesuai dari kawasan bahan salad mengikut pesanan pelanggan dan letakkan dalam mangkuk salad.</li>
+  <li><strong>Petua:</strong> Sediakan kentang lebih awal untuk mengurangkan masa menunggu pelanggan, terutamanya semasa waktu sibuk.</li>
 </ul>
-<h3>Menambah Dressing:</h3>
-<p>Dressing seperti Thousand Island atau Vinaigrette adalah penting. Pilih yang betul mengikut keutamaan pelanggan.</p>
+<h3>Goreng Kentang:</h3>
+<p>Letakkan kentang dalam penggoreng. Kawal masa menggoreng supaya luarannya rangup dan dalamnya lembut.</p>
 <ul>
-  <li><strong>Tip:</strong> Memilih dressing yang salah akan mengecewakan pelanggan dan menurunkan markah.</li>
+  <li>Perhatikan perubahan warna kentang semasa menggoreng untuk elakkan hangus atau berminyak.</li>
+  <li><strong>Petua:</strong> Kentang biasanya siap apabila berwarna keemasan dan terapung – keluarkan segera.</li>
 </ul>
-<h3>Mencampurkan Salad:</h3>
-<p>Campurkan bahan dan dressing dengan sekata. Walaupun mudah, campuran yang betul meningkatkan rasa dan kepuasan.</p>
-<h3>Menyajikan kepada Pelanggan:</h3>
-<p>Hantar salad yang telah disiapkan ke meja pelanggan tepat pada masanya untuk mengelakkan menurunkan kepuasan.</p>
-<ul>
-  <li><strong>Nota:</strong> Salad lebih cepat dibuat berbanding pizza, yang mengurangkan masa menunggu pelanggan dan memberi lebih banyak masa untuk pesanan lain.</li>
-</ul>
+<h3>Tambah Perasa:</h3>
+<p>Selepas menggoreng, taburkan garam atau lada untuk menambah rasa dan memuaskan pelanggan.</p>
+<h3>Hidang kepada Pelanggan:</h3>
+<p>Hidangkan kentang goreng dengan segera. Walaupun mudah disediakan, masa layanan tetap penting agar pelanggan tidak menunggu terlalu lama.</p>
 <h2>Petua dan Trik</h2>
 <ul>
-  <li><strong>Penyediaan Bahan Awal:</strong> Walaupun masa penyediaan cepat, menyediakan sayur-sayuran dan dressing lebih awal membantu kecekapan, terutamanya dengan perubahan permintaan yang kerap. Sediakan untuk salad seterusnya semasa yang pertama sedang dicampurkan.</li>
-  <li><strong>Menyajikan dengan Cepat:</strong> Kurangkan masa menunggu. Penyediaan dan penghantaran yang cepat meningkatkan kepuasan dan markah.</li>
-  <li><strong>Kuasa Keutamaan Pelanggan:</strong> Perhatikan permintaan khusus untuk bahan atau dressing. Cepat kenal pasti dan penuhi keutamaan tersebut.</li>
-  <li><strong>Gunakan Peningkat:</strong> Gunakan item dalam permainan untuk mempercepatkan penyediaan bahan atau memasak, sangat berguna dengan pelanggan yang banyak.</li>
-  <li><strong>Naik Taraf Peralatan:</strong> Gunakan syiling untuk menaik taraf peralatan dapur. Walaupun salad tidak memerlukan peralatan kompleks seperti ketuhar, meningkatkan kecekapan meja kerja membantu mengendalikan lebih banyak pesanan.</li>
+  <li><strong>Sediakan Bahan Awal:</strong> Dengan permintaan pelanggan yang tinggi, menyediakan kentang awal dan memastikan penggoreng siap digunakan sangat membantu.</li>
+  <li><strong>Kawal Masa Menggoreng:</strong> Goreng terlalu lama akan menyebabkan kentang hangus, terlalu sekejap pula akan kurang rangup. Perhatikan rupa dan warna kentang.</li>
+  <li><strong>Gunakan Peralatan Dapur:</strong> Anda mungkin akan membuka kunci penggoreng pantas atau alat tambahan. Gunakan semasa waktu puncak untuk mempercepatkan proses.</li>
+  <li><strong>Utamakan Pesanan Pelanggan:</strong> Jika ramai pelanggan datang serentak, utamakan pelanggan yang menunggu lebih lama dahulu.</li>
+  <li><strong>Layani Dengan Cepat:</strong> Pastikan perkhidmatan kekal cekap. Gunakan masa yang ada untuk siapkan bahan seterusnya atau kemas dapur.</li>
 </ul>
 <h2>Ringkasan</h2>
-<p>Level 2 memberi tumpuan kepada menguasai proses salad sederhana. Walaupun lebih mudah daripada pizza, ia memerlukan pengurusan masa dan penyediaan bahan yang cekap. Level ini membantu anda menyesuaikan diri dengan operasi dapur yang cekap, mengendalikan pelanggan lebih ramai dan pelbagai keperluan mereka.</p>
-<p>Menyelesaikan Level 2 membuka lebih banyak resipi dan peralatan, menyediakan anda untuk level yang lebih mencabar.</p>`,
+<p>Kentang goreng dalam Tahap 2 mungkin mudah, tetapi menuntut kawalan masa dan kecekapan dapur. Anda akan belajar mengendalikan peralatan menggoreng dan memenuhi keperluan pelanggan dengan cekap. Semakin anda maju, semakin mencabar resipi dan tugas — jadi kecekapan adalah kunci kejayaan.</p>
+<p>Melengkapkan Tahap 2 akan membuka lebih banyak resipi dan peralatan untuk tahap yang lebih sukar.</p>`,
   },
+
   {
     id: 'cookingdom-game-level-3',
-    title: 'Cookingdom Level 3<br />Kentang Goreng',
-    pageTitle: 'Cookingdom Level 3 - Panduan Kentang Goreng',
-    pageSubtitle: 'Belajar membuat kentang goreng rangup di Cookingdom Level 3.',
+    title: 'Panduan Cookingdom Tahap 3 – Ais Krim Gulung',
+    pageTitle: 'Panduan Cookingdom Tahap 3 – Ais Krim Gulung',
+    pageSubtitle: 'Kuasaikan seni menggulung ais krim dalam Tahap 3 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_03.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
-    iframeUrl: 'https://www.youtube.com/embed/oWpl7YwOYbw',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-3' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/AKOuNnLSb88',
     seo: {
-      title: 'Cookingdom Level 3 Panduan - Kentang Goreng',
+      title: 'Panduan Cookingdom Tahap 3 – Ais Krim Gulung',
       description:
-        'Kuasi kentang goreng di Cookingdom Level 3. Pelajari teknik menggoreng, menguruskan pelanggan, dan kecekapan dapur.',
+        'Pelajari cara membuat ais krim gulung dalam Tahap 3 Cookingdom. Ikuti petua mengenai pembekuan, menggulung, menambah hiasan, dan menyajikan dengan cepat kepada pelanggan.',
       keywords:
-        'cookingdom, level 3, kentang goreng, panduan, menggoreng, pengurusan masa, kecekapan dapur',
+        'cookingdom, tahap 3, ais krim gulung, panduan, pembekuan, topping, pencuci mulut, pengurusan masa',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_03.webp',
       levelInfoHtml:
-        '<h3>Kentang Goreng</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Est. Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
+        '<h3>Ais Krim Gulung</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-1',
-          title: 'Cookingdom Level 1<br/>Pizza Pertama',
-          imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
+          id: 'cookingdom-game-level-2',
+          title: 'Panduan Cookingdom Tahap 2 – Kentang Goreng',
+          imageUrl: '/images/guides_02.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-2' },
+          },
         },
         {
-          id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Salad Sederhana',
-          imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
+          id: 'cookingdom-game-level-4',
+          title: 'Panduan Cookingdom Tahap 4 – Salad Ringkas',
+          imageUrl: '/images/guides_04.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-4' },
+          },
         },
       ],
     },
     detailsHtml: `<h2>Pengenalan Permainan</h2>
-<p>Di Level 3, pemain belajar untuk membuat Kentang Goreng. Walaupun agak mudah, ia memerlukan pengurusan masa yang lebih baik dan operasi yang terperinci, terutamanya apabila berhadapan dengan permintaan pelanggan yang kompleks. Level ini memperkenalkan proses menggoreng, mengajar pemain untuk menggunakan peralatan dapur untuk mempercepatkan memasak dan menyajikan kentang goreng yang lazat.</p>
-<h2>Matlamat Level 3</h2>
+<p>Tahap 3 memperkenalkan pemain kepada keseronokan membuat ais krim gulung. Pencuci mulut ini memerlukan ketepatan dan masa yang tepat, serta mengajar cara menggunakan plat sejuk, mengawal konsistensi, dan menghias dengan topping.</p>
+<h2>Matlamat Tahap 3</h2>
 <ul>
-  <li><strong>Memasak Kentang Goreng:</strong> Kuasai proses menggoreng yang betul menggunakan penggoreng, walaupun ia tidak mempunyai langkah-langkah kompleks seperti oven.</li>
-  <li><strong>Menangani Pelanggan Banyak:</strong> Terdapat lebih banyak pelanggan berbanding level sebelumnya, yang memerlukan anda untuk mengendalikan banyak pesanan dengan pantas dan efisien.</li>
-  <li><strong>Meningkatkan Kecekapan Dapur:</strong> Belajar untuk menggunakan peralatan dapur dengan efektif, seperti menyediakan kentang dengan cepat dan mempercepatkan proses menggoreng.</li>
+  <li><strong>Kuasai Teknik Gulung:</strong> Tuang dan bekukan asas ais krim, kemudian gulung dengan teliti untuk hasil yang menarik.</li>
+  <li><strong>Gunakan Topping Secara Kreatif:</strong> Tambah buah, gula-gula, atau sos untuk meningkatkan kepuasan pelanggan.</li>
+  <li><strong>Masa dan Urutan:</strong> Urus proses pembekuan dan penggulungan dengan cekap untuk mengelak kelewatan.</li>
 </ul>
-<h2>Langkah Membuat Kentang Goreng</h2>
-<h3>Menyiapkan Kentang:</h3>
-<p>Ambil kentang dari kawasan bahan dan potong menjadi jalur. Anda boleh memilih untuk menyediakannya terlebih dahulu atau apabila pesanan masuk.</p>
+<h2>Langkah Membuat Ais Krim Gulung</h2>
+<h3>Sediakan Asas:</h3>
+<p>Pilih asas ais krim yang sesuai dari kawasan bahan. Tuang secara rata ke atas plat sejuk untuk pembekuan.</p>
 <ul>
-  <li><strong>Tip:</strong> Menyediakan kentang lebih awal mengurangkan masa menunggu pelanggan, terutamanya apabila banyak pelanggan tiba serentak.</li>
+  <li><strong>Petua:</strong> Ratakan nipis untuk pembekuan lebih cepat dan mudah digulung.</li>
 </ul>
-<h3>Menggoreng Kentang:</h3>
-<p>Letakkan jalur kentang yang dipotong ke dalam penggoreng. Kawal masa menggoreng untuk memastikan mereka rangup di luar dan lembut di dalam.</p>
+<h3>Bekukan dan Gulung:</h3>
+<p>Biarkan asas membeku di atas plat. Gunakan spatula untuk mengikis dan menggulung lapisan beku menjadi gulungan.</p>
 <ul>
-  <li>Perhatikan perubahan pada kentang semasa menggoreng untuk mengelakkan terlalu menggoreng (menjadikan mereka terbakar atau berminyak).</li>
-  <li><strong>Tip:</strong> Kentang biasanya siap apabila ia bertukar menjadi perang keemasan dan terapung ke permukaan; keluarkan mereka dengan segera.</li>
+  <li>Perhatikan konsistensi — mula gulung apabila tekstur padat tetapi tidak terlalu keras.</li>
+  <li><strong>Petua:</strong> Gulungan yang licin dan sekata meningkatkan kepuasan pelanggan dan mempercepat penyajian.</li>
 </ul>
-<h3>Tambahkan Perasa:</h3>
-<p>Selepas menggoreng, tambahkan perasa tambahan seperti garam atau lada untuk meningkatkan rasa dan kepuasan pelanggan.</p>
+<h3>Tambah Topping:</h3>
+<p>Pilih topping seperti strawberi, sirap coklat, atau taburan. Tambah dengan cepat sebelum menyajikan.</p>
 <h3>Sajikan kepada Pelanggan:</h3>
-<p>Sajikan kentang goreng yang telah siap dengan segera. Walaupun agak cepat untuk disediakan, penyampaian tepat pada masanya tetap diperlukan untuk mengelakkan pelanggan menunggu terlalu lama.</p>
-<h2>Tips dan Trik</h2>
+<p>Hidangkan ais krim yang telah dihias serta-merta. Persembahan dan kelajuan memberi kesan kepada skor kepuasan.</p>
+<h2>Petua dan Trik</h2>
 <ul>
-  <li><strong>Sediakan Bahan Awal:</strong> Dengan kemungkinan permintaan pelanggan yang kerap, menyediakan jalur kentang dan penggoreng adalah kunci kecekapan. Penyediaan awal menjimatkan masa yang ketara, terutama apabila banyak pelanggan sedang menunggu.</li>
-  <li><strong>Kuasi Masa Menggoreng:</strong> Pastikan masa menggoreng berada dalam julat yang betul. Terlalu lama menjadikan kentang berminyak atau terbakar; terlalu singkat menjadikan ia tidak cukup rangup. Perhatikan penampilan mereka dan perubahan di dalam penggoreng.</li>
-  <li><strong>Manfaatkan Peralatan Dapur:</strong> Anda mungkin membuka penggalak atau peralatan seperti penggoreng cepat. Gunakan ini untuk mempercepatkan proses memasak semasa waktu sibuk.</li>
-  <li><strong>Utamakan Pesanan Pelanggan:</strong> Banyak pelanggan mungkin tiba serentak. Utamakan mereka yang telah menunggu lebih lama untuk memastikan mereka mendapat makanan dengan cepat.</li>
-  <li><strong>Sajikan dengan Cepat:</strong> Menjaga servis yang cekap untuk mengurangkan masa menunggu. Oleh kerana kentang goreng disediakan dengan cepat, gunakan masa yang dijimatkan untuk menyediakan hidangan seterusnya atau membersihkan dapur.</li>
+  <li><strong>Bekerja dalam Kumpulan:</strong> Sediakan beberapa asas dan bekukan secara berurutan untuk kelancaran semasa waktu sibuk.</li>
+  <li><strong>Perhatikan Pembekuan:</strong> Masa sangat penting. Jika asas kurang beku, ia tidak boleh digulung; jika terlalu beku, sukar dibentuk.</li>
+  <li><strong>Hias dengan Cepat:</strong> Sediakan topping lebih awal supaya dapat dihias sebaik sahaja menggulung, menjimatkan masa.</li>
+  <li><strong>Tingkatkan Peralatan:</strong> Buka pembeku yang lebih pantas atau spatula yang lebih baik untuk mempercepat proses.</li>
 </ul>
 <h2>Ringkasan</h2>
-<p>Membuat kentang goreng di Level 3 adalah mudah tetapi memerlukan pengurusan dapur dan kawalan masa yang cekap. Anda akan belajar mengendalikan peralatan menggoreng dan menangani pelbagai keperluan pelanggan. Apabila permainan semakin mencabar, menghadapi hidangan yang lebih pelbagai dan tugas yang lebih kompleks, meningkatkan kecekapan dapur adalah kunci kejayaan.</p>
-<p>Menyelesaikan Level 3 membuka lebih banyak resipi dan peralatan, mempersiapkan anda untuk level yang lebih sukar.</p>`,
+<p>Tahap 3 dalam Cookingdom menambah keseronokan dengan teknik unik membuat ais krim gulung. Anda akan belajar menyeimbangkan masa pembekuan, kemahiran menggulung dan hiasan untuk mencipta pencuci mulut yang sempurna. Dengan latihan, anda akan dapat menyajikan dengan cepat dan cantik di bawah tekanan masa. Bersedia untuk hidangan yang lebih mencabar pada tahap seterusnya!</p>`,
   },
+
   {
     id: 'cookingdom-game-level-4',
-    title: 'Cookingdom Level 4:<br>Aiskrim Gulung',
-    pageTitle: 'Cookingdom Level 4 - Panduan Aiskrim Gulung',
-    pageSubtitle: 'Belajar seni membuat aiskrim gulung yang sempurna di Cookingdom Level 4.',
+    title: 'Panduan Cookingdom Tahap 4 — Salad Simple',
+    pageTitle: 'Panduan Cookingdom Tahap 4 — Salad Simple',
+    pageSubtitle: 'Sediakan Salad Simple yang segar dan sihat dalam Cookingdom Tahap 4.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_04.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
-    iframeUrl: 'https://www.youtube.com/embed/ndEW4RcERyI',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-4' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/gwdtg5SY7qo',
     seo: {
-      title: 'Cookingdom Level 4 Panduan: Aiskrim Gulung | Tips & Strategi',
+      title: 'Panduan Cookingdom Tahap 4 — Salad Simple',
       description:
-        'Kuasi Level 4 di Cookingdom! Pelajari cara membuat Aiskrim Gulung yang lazat dengan panduan langkah demi langkah, teknik pembekuan, dan kombinasi bahan.',
-      keywords: 'cookingdom, level 4, aiskrim gulung, panduan, pembekuan, topping, strategi',
+        'Pelajari cara menyediakan Salad Simple yang segar dalam Cookingdom Tahap 4. Ikuti panduan ini untuk memotong, mencampur, dan menyajikan salad dengan cepat dan cekap.',
+      keywords:
+        'cookingdom, tahap 4, salad simple, panduan, memotong, mencampur, makanan sihat, kelajuan dapur',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_04.webp',
       levelInfoHtml:
-        '<h3>Aiskrim Gulung</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Est. Masa:</strong> 2.5 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
+        '<h3>Salad Simple</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2–3 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-1',
-          title: 'Cookingdom Level 1<br/>Pizza Pertama',
-          imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
-        },
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Salad Sederhana',
-          imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-        },
-        {
           id: 'cookingdom-game-level-3',
-          title: 'Cookingdom Level 3<br/>Kentang Goreng',
+          title: 'Panduan Cookingdom Tahap 3 — Aiskrim Gulung',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-3' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-5',
+          title: 'Panduan Cookingdom Tahap 5 — Ikan Bakar',
+          imageUrl: '/images/guides_05.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-5' },
+          },
         },
       ],
     },
-    detailsHtml: `
-<h2 id="overview">Pengenalan Permainan</h2>
-<p>Di Level 4 Cookingdom, pemain akan belajar bagaimana membuat Aiskrim Gulung. Berbanding dengan hidangan sebelumnya, proses untuk aiskrim gulung lebih terperinci, melibatkan operasi pembekuan dan kombinasi bahan yang bijak. Matlamat level ini adalah untuk menguasai teknik pembekuan aiskrim dan menyediakan aiskrim gulung dengan cepat setelah pesanan pelanggan diterima.</p>
-
-<h2 id="goal">Matlamat Level 4</h2>
+    detailsHtml: `<h2>Pengenalan Permainan</h2>
+<p>Tahap 4 memperkenalkan pemain kepada hidangan yang segar dan sihat: Salad Simple. Walaupun kelihatan mudah, cabaran terletak pada pemprosesan pesanan yang pantas dan penyediaan bahan. Ketepatan, kelajuan, dan multitugas adalah kunci kejayaan.</p>
+<h2>Matlamat Tahap 4</h2>
 <ul>
-    <li><strong>Memasak Aiskrim Gulung:</strong> Membuat aiskrim gulung lebih kompleks daripada aiskrim biasa, memerlukan pemain menggunakan platform pembekuan, menguruskan proses penyejukan, dan menggulungnya menjadi gulungan aiskrim yang menarik.</li>
-    <li><strong>Kawal Masa Pembekuan:</strong> Masa pembekuan untuk aiskrim gulung perlu dikawal dengan tepat untuk memastikan tekstur dan bentuk gulungan aiskrim memenuhi kehendak.</li>
-    <li><strong>Menangani Pelanggan Banyak:</strong> Apabila permainan berkembang, Level 4 akan membawa lebih banyak pelanggan, memerlukan pemain untuk menguruskan masa dengan efektif dan menangani banyak pesanan.</li>
+  <li><strong>Potong dan Campur:</strong> Sediakan bahan salad dengan tepat dengan memotong sayur-sayuran dan mencampurkannya mengikut susunan yang betul.</li>
+  <li><strong>Sajikan dengan Cepat:</strong> Pelanggan mengharapkan perkhidmatan yang pantas; kekalkan aliran kerja yang lancar untuk mengelakkan kelewatan.</li>
+  <li><strong>Urus Kesegaran:</strong> Jangan biarkan bahan terlalu lama atau ia mungkin rosak atau ditolak oleh pelanggan yang cerewet.</li>
 </ul>
-
-<h2 id="steps">Langkah Membuat Aiskrim Gulung</h2>
-<ol>
-    <li>
-        <h3>Menyiapkan Asas Aiskrim:</h3>
-        <p>Di kawasan dapur, pilih asas aiskrim yang sesuai untuk aiskrim gulung (biasanya susu, gula, vanila, dll). Tuangkan asas tersebut ke atas platform pembekuan.</p>
-        <p>Ini adalah langkah pertama dalam membuat aiskrim gulung. Pastikan nisbah asas adalah betul untuk menghasilkan tekstur aiskrim yang licin.</p>
-    </li>
-    <li>
-        <h3>Pilih Topping:</h3>
-        <p>Di platform pembekuan, anda boleh menambah pelbagai topping mengikut permintaan pelanggan, seperti buah-buahan, cip coklat, kacang, dll.</p>
-        <p><strong>Tip:</strong> Pilih topping yang diminta oleh pelanggan dan pastikan ia diedarkan dengan sekata pada aiskrim. Topping yang berbeza boleh mempengaruhi rasa dan penampilan aiskrim, dan hiasan yang cantik membantu meningkatkan kepuasan pelanggan.</p>
-    </li>
-    <li>
-        <h3>Bekukan dan Bentuk Aiskrim Gulung:</h3>
-        <p>Selepas mencampur asas aiskrim dan topping, mula proses pembekuan. Di platform pembekuan, aiskrim akan membeku dengan cepat, dan anda perlu menggunakan spatula untuk menggulungnya dengan kemas.</p>
-        <p><strong>Teknik:</strong> Pastikan pergerakan spatula sekata untuk mengelakkan aiskrim daripada pecah atau bentuk yang tidak sekata.</p>
-    </li>
-    <li>
-        <h3>Sajikan:</h3>
-        <p>Ambil aiskrim gulung dari platform pembekuan, letakkan dengan lembut ke atas pinggan, dan hias dengan sedikit topping tambahan atau sirap.</p>
-        <p>Apabila siap, segera sajikan aiskrim gulung ke meja pelanggan, memastikan mereka menerima makanan mereka dengan cepat dalam masa yang ditunggu.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips dan Trik</h2>
+<h2>Langkah-Langkah Menyediakan Salad Simple</h2>
+<h3>Kumpulkan Bahan:</h3>
+<p>Kumpulkan sayur-sayuran: salad, tomato, dan timun. Bahan-bahan diletakkan di stesen bahan—ketik untuk membawa ke papan penyediaan.</p>
 <ul>
-    <li>
-        <strong>Kawal Masa Pembekuan:</strong> Masa pembekuan sangat penting ketika membuat aiskrim gulung. Terlalu lama boleh menjadikan aiskrim terlalu keras untuk digulung; terlalu singkat pula menjadikannya terlalu lembik untuk dibentuk. Perhatikan perubahan di platform pembekuan dan tentukan keadaan aiskrim dengan teliti.
-    </li>
-    <li>
-        <strong>Kombinasi Topping:</strong> Di Level 4, pelanggan mungkin meminta pelbagai topping. Ingat untuk menambah buah-buahan, kacang, atau gula-gula yang sesuai mengikut keperluan mereka. Terlalu banyak atau terlalu sedikit topping boleh mempengaruhi penampilan dan rasa. Cubalah menggunakan pelbagai topping untuk menarik perhatian pelanggan.
-    </li>
-    <li>
-        <strong>Pastikan Gulungan Sekata:</strong> Apabila mengikis aiskrim menjadi gulungan, pastikan setiap gulungan sekata dari segi saiz dan bentuk. Gulungan yang sekata kelihatan lebih menarik dan meningkatkan kepuasan pelanggan.
-    </li>
-    <li>
-        <strong>Manfaatkan Peralatan Dapur:</strong> Jika permainan menyediakan item atau peralatan untuk mempercepatkan proses, gunakan mereka untuk mempercepatkan pembekuan atau penyediaan bahan. Penggunaan yang betul boleh meningkatkan kecekapan dan membantu anda mengendalikan pesanan semasa waktu puncak.
-    </li>
-    <li>
-        <strong>Sajikan Dengan Cepat:</strong> Walaupun membuat aiskrim gulung memerlukan sedikit masa, ia adalah dalam masa yang agak singkat. Pastikan ia disiapkan dan dihidangkan tepat pada waktunya untuk mengelakkan ketidakpuasan pelanggan akibat menunggu terlalu lama.
-    </li>
+  <li><strong>Tip:</strong> Sentiasa sediakan beberapa bahan semasa waktu tidak sibuk.</li>
 </ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Level 4 di Cookingdom memperkenalkan lebih banyak kemahiran operasional untuk membuat aiskrim gulung, terutamanya mengenai proses pembekuan dan kombinasi topping. Menguasai masa pembekuan, teknik spatula, dan kombinasi topping yang pelbagai adalah kunci kejayaan. Apabila permainan semakin mencabar, anda akan menghadapi hidangan yang lebih pelbagai dan permintaan pelanggan yang lebih tinggi, jadi meningkatkan kecekapan dapur dan menguasai multitasking akan menjadi kemahiran penting untuk melepasi level ini.</p>
-<p>Selepas menyelesaikan Level 4, anda akan membuka lebih banyak resipi dan peralatan dapur, membolehkan anda menangani tugas yang lebih mencabar.</p>
-`,
+<h3>Potong Sayur:</h3>
+<p>Gunakan alat pisau untuk memotong bahan. Ketepatan penting—potong terlalu perlahan, pelanggan menunggu; potong terlalu cepat, mungkin silap.</p>
+<h3>Campur dan Susun:</h3>
+<p>Letakkan sayur yang telah dipotong ke dalam mangkuk salad mengikut susunan yang betul. Sesetengah pelanggan mungkin meminta kombinasi tertentu.</p>
+<ul>
+  <li><strong>Tip:</strong> Perhatikan gelembung pesanan yang menunjukkan pilihan pelanggan.</li>
+</ul>
+<h3>Sajikan kepada Pelanggan:</h3>
+<p>Hantar salad dengan cepat selepas penyediaan. Jika lewat, kepuasan pelanggan akan berkurang.</p>
+<h2>Tip dan Trik</h2>
+<ul>
+  <li><strong>Potong Awal Sayur Biasa:</strong> Salad dan tomato sering muncul dalam pesanan, jadi penyediaan awal boleh mempercepat perkhidmatan.</li>
+  <li><strong>Perhatikan Giliran Pesanan:</strong> Sediakan pesanan seterusnya semasa menyediakan pesanan semasa untuk mengekalkan aliran semasa waktu sibuk.</li>
+  <li><strong>Tingkatkan Alat:</strong> Buka pisau lebih cepat atau pemotong automatik untuk meningkatkan kelajuan dan ketepatan.</li>
+  <li><strong>Urus Masa:</strong> Kawal jumlah bahan yang dipotong supaya tidak membazir.</li>
+</ul>
+<h2>Ringkasan</h2>
+<p>Cookingdom Tahap 4 menuntut kelajuan dan ketepatan. Walaupun salad simple, pesanan yang cepat berubah dan permintaan khusus akan menguji kecekapan anda mengurus bahan dan masa. Bersiaplah untuk hidangan lebih mencabar di tahap berikutnya!</p>`,
   },
+
   {
     id: 'cookingdom-game-level-5',
-    title: 'Cookingdom Level 5:<br>Ikan Bakar',
-    pageTitle: 'Cookingdom Level 5 - Panduan Ikan Bakar',
-    pageSubtitle: 'Kuasai seni memanggang ikan dalam Cookingdom Level 5.',
+    title: 'Panduan Cookingdom Tahap 5: Ikan Goreng',
+    pageTitle: 'Panduan Cookingdom Tahap 5: Ikan Goreng',
+    pageSubtitle: 'Pelajari seni menggoreng ikan dalam Tahap 5 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_05.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
-    iframeUrl: 'https://www.youtube.com/embed/8CdDamlaEHA',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-5' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/x8l4-Iu40Ek',
     seo: {
-      title: 'Cookingdom Level 5 Panduan: Ikan Bakar | Tips & Strategi',
+      title: 'Panduan Cookingdom Tahap 5: Ikan Goreng | Petua & Strategi',
       description:
-        'Pelajari cara memanggang ikan dengan sempurna di Cookingdom Level 5. Dapatkan tips mengenai kawalan haba, masa, dan pengurusan pesanan pelanggan.',
+        'Ketahui cara menggoreng ikan dengan sempurna dalam Tahap 5 Cookingdom. Ketahui tip kawalan suhu, masa memasak, dan servis pelanggan dengan pantas.',
       keywords:
-        'cookingdom, level 5, ikan bakar, panduan, memanggang, kawalan haba, pengurusan masa',
+        'cookingdom, tahap 5, ikan goreng, panduan, menggoreng, kawalan suhu, pengurusan masa',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_05.webp',
       levelInfoHtml:
-        '<h3>Ikan Bakar</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
+        '<h3>Ikan Goreng</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Salad Mudah',
-          imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-        },
-        {
-          id: 'cookingdom-game-level-3',
-          title: 'Cookingdom Level 3<br/>Kentang Goreng',
-          imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
-        },
-        {
           id: 'cookingdom-game-level-4',
-          title: 'Cookingdom Level 4<br/>Ais Krim Gulung',
+          title: 'Panduan Cookingdom Tahap 4: Salad Mudah',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-4' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-6',
+          title: 'Panduan Cookingdom Tahap 6: Espresso Kafe',
+          imageUrl: '/images/guides_06.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-6' },
+          },
         },
       ],
     },
     detailsHtml: `
 <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Dalam Cookingdom, setiap level memperkenalkan cabaran memasak baru, dan dalam Level 5, pemain diberikan tugas untuk menyediakan Ikan Bakar. Berbanding dengan level sebelumnya, memanggang ikan memerlukan perhatian yang teliti terhadap masa dan kawalan haba. Anda perlu menguasai teknik memanggang, memastikan ikan dimasak dengan betul, dan menyajikan pesanan kepada pelanggan dengan cepat untuk memastikan mereka gembira.</p>
-<p>Sewaktu anda maju dalam Cookingdom, kemahiran baru akan dibuka, dan dengan setiap level baru, anda akan menemui resipi yang lebih kompleks dan permintaan pelanggan yang lebih tinggi. Level ini memperkenalkan teknik memanggang sebagai kemahiran utama dan akan menguji keupayaan anda untuk mengurus masa dengan cekap di dapur.</p>
+<p>Dalam Cookingdom, setiap tahap memberikan cabaran memasak yang baharu. Pada Tahap 5, pemain perlu memasak ikan goreng. Berbeza dengan tahap sebelumnya, teknik menggoreng memerlukan kawalan suhu dan masa yang tepat. Anda perlu belajar teknik memasak dengan teliti, memantau tahap kematangan ikan, dan melayani pelanggan dengan cepat.</p>
+<p>Semakin anda maju dalam permainan, resipi menjadi lebih rumit dan permintaan pelanggan meningkat. Pada tahap ini, menggoreng menjadi kaedah utama, dan kebolehan anda mengurus masa sangat penting untuk berjaya.</p>
 
-<h2 id="goal">Matlamat Level 5</h2>
+<h2 id="goal">Matlamat Tahap 5</h2>
 <ul>
-    <li><strong>Masak Ikan Bakar:</strong> Dalam level ini, anda akan belajar bagaimana memanggang ikan dengan sempurna. Cookingdom memberi anda alat yang diperlukan untuk mengawal suhu grill, tetapi anda mesti memantau ikan dengan teliti untuk memastikan ia tidak terbakar atau tidak cukup masak. Matlamatnya adalah untuk memanggang ikan secara sekata dan mencapai tekstur dan rasa yang tepat.</li>
-    <li><strong>Kawal Haba:</strong> Memanggang ikan memerlukan kawalan haba yang tepat. Anda perlu memanggang ikan cukup lama untuk mendapat permukaan yang rangup dan emas, sementara bahagian dalamnya tetap lembut dan lembap. Terlalu masak atau kurang masak akan menyebabkan pelanggan tidak puas hati.</li>
-    <li><strong>Sajikan Pesanan Pelanggan dengan Cekap:</strong> Semasa lebih ramai pelanggan tiba, anda perlu mengendalikan pelbagai pesanan pada masa yang sama. Cookingdom akan menguji keupayaan anda untuk mengurus masa dan memprioritaskan pesanan sementara memastikan setiap hidangan disediakan dengan sempurna.</li>
+  <li><strong>Masak ikan goreng:</strong> Belajar menggoreng ikan hingga sempurna. Anda boleh mengawal suhu, tetapi perlu memerhatikan ikan supaya tidak hangus atau mentah.</li>
+  <li><strong>Kawal suhu dengan teliti:</strong> Ikan harus rangup di luar dan lembut di dalam. Masa memasak yang salah boleh menyebabkan pelanggan tidak puas hati.</li>
+  <li><strong>Layan pelanggan dengan pantas:</strong> Semakin banyak pesanan masuk, semakin cepat anda perlu bertindak untuk mengekalkan kepuasan pelanggan.</li>
 </ul>
 
-<h2 id="steps">Langkah-langkah untuk Membuat Ikan Bakar</h2>
+<h2 id="steps">Langkah-langkah Menggoreng Ikan</h2>
 <ol>
-    <li>
-        <h3>Sediakan Ikan:</h3>
-        <p>Langkah pertama, ambil ikan dari kawasan bahan dan letakkan ia di atas grill. Dalam Cookingdom, terdapat pelbagai jenis ikan yang mungkin tersedia, jadi pastikan anda memilih ikan yang tepat berdasarkan permintaan pelanggan.</p>
-        <p><strong>Tip:</strong> Jika pelanggan meminta jenis ikan tertentu, sediakan dengan cepat untuk mengelakkan kelewatan.</p>
-    </li>
-    <li>
-        <h3>Perasakan Ikan:</h3>
-        <p>Setelah ikan diletakkan di atas grill, tambahkan perasa yang sesuai. Perasa biasa termasuk garam, lada, atau rempah lain mengikut pilihan pelanggan.</p>
-        <p><strong>Tip:</strong> Perasa yang betul meningkatkan rasa ikan. Berhati-hati untuk tidak berlebihan, kerana terlalu banyak perasa boleh menutupi rasa semula jadi ikan.</p>
-    </li>
-    <li>
-        <h3>Grill Ikan:</h3>
-        <p>Pantau grill semasa ikan memasak. Anda perlu mengawal masa grill dengan tepat untuk memastikan ikan dimasak sepenuhnya tetapi tidak terlalu masak. Ikan harus mempunyai permukaan yang rangup dan emas, sementara bahagian dalamnya lembut dan lembap.</p>
-        <p><strong>Tip:</strong> Jika anda melihat ikan mula menjadi emas atau sedikit menggelembung, itu tanda bahawa ia hampir siap. Jangan tunggu terlalu lama, kerana ikan yang terlalu masak akan kehilangan tekstur lembutnya.</p>
-    </li>
-    <li>
-        <h3>Sajikan Ikan:</h3>
-        <p>Setelah ikan dimasak dengan sempurna, angkat ikan dari grill dan letakkan di atas pinggan. Anda juga boleh menambah hiasan seperti hirisan lemon, herba, atau hidangan sampingan untuk meningkatkan persembahan.</p>
-        <p>Sajikan hidangan dengan cepat kepada pelanggan untuk mengelakkan kepuasan mereka menurun disebabkan waktu menunggu yang panjang.</p>
-    </li>
+  <li>
+    <h3>Sediakan ikan:</h3>
+    <p>Ambil ikan dari bahagian bahan-bahan dan letakkan di atas gril. Pastikan anda memilih jenis ikan yang diminta oleh pelanggan.</p>
+    <p><strong>Petua:</strong> Jika pelanggan memesan jenis tertentu, utamakan ikan tersebut dahulu untuk menjimatkan masa.</p>
+  </li>
+  <li>
+    <h3>Perasakan ikan:</h3>
+    <p>Selepas ikan diletakkan di gril, tambahkan perasa seperti garam, lada, atau rempah mengikut permintaan pelanggan.</p>
+    <p><strong>Petua:</strong> Jangan terlebih perasa supaya rasa asli ikan kekal sedap.</p>
+  </li>
+  <li>
+    <h3>Goreng ikan:</h3>
+    <p>Perhatikan dengan teliti semasa ikan digoreng. Warna keemasan dan buih kecil pada permukaan menandakan masa untuk angkat ikan sudah hampir.</p>
+    <p><strong>Petua:</strong> Elakkan menggoreng terlalu lama atau terlalu singkat agar hasilnya rangup di luar dan lembut di dalam.</p>
+  </li>
+  <li>
+    <h3>Hidang ikan:</h3>
+    <p>Angkat ikan dari gril dan letakkan di pinggan. Hias dengan hirisan lemon, sayur-sayuran atau lauk tambahan mengikut selera pelanggan.</p>
+    <p>Hidangkan segera untuk mengekalkan kepuasan pelanggan.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Tips & Trik</h2>
+<h2 id="tips">Petua & Strategi</h2>
 <ul>
-    <li><strong>Kuasa Kawalan Masa Grill:</strong> Kunci untuk memanggang ikan di Cookingdom adalah masa yang tepat. Jika anda biarkan ikan terlalu lama di grill, ia akan menjadi kering dan terlalu masak. Jika kurang masak, ia akan terlalu mentah. Perhatikan warna keemasan dan pinggiran yang menggelembung untuk tahu bila ikan sudah siap.</li>
-    <li><strong>Pengurusan Pesanan yang Cekap:</strong> Semakin lama permainan, semakin banyak pelanggan yang datang, dan penting untuk mengurus pesanan mereka dengan cekap. Utamakan pesanan berdasarkan masa menunggu dan sediakan bahan-bahan lebih awal untuk menjimatkan masa semasa tempoh permintaan tinggi.</li>
-    <li><strong>Naik Taraf Peralatan Dapur:</strong> Semasa anda maju dalam Cookingdom, anda boleh membuka peralatan dapur baru. Menaik taraf grill atau peralatan memasak lain akan membantu anda memasak lebih cepat dan lebih cekap, yang sangat penting untuk mengurus lebih banyak pelanggan dan pesanan mereka.</li>
-    <li><strong>Gunakan Booster dan Speedup:</strong> Dalam beberapa level, anda boleh menggunakan booster atau item speed-up untuk memasak ikan lebih cepat atau menyediakan bahan-bahan lain. Alat ini boleh menjadi penyelamat semasa anda menghadapi banyak pesanan pada masa yang sama.</li>
-    <li><strong>Kepuasan Pelanggan:</strong> Ingat bahawa Cookingdom adalah tentang kepuasan pelanggan. Semakin cepat anda menyajikan makanan mereka dengan hidangan yang sempurna, semakin tinggi skor anda. Perkhidmatan yang tepat pada masa dan hidangan yang sempurna akan memastikan pelanggan gembira dan penilaian anda tinggi.</li>
+  <li><strong>Masa memasak sempurna:</strong> Gunakan warna dan buih sebagai penunjuk. Elakkan masakan terlalu masak atau mentah.</li>
+  <li><strong>Urus pesanan dengan cekap:</strong> Semasa pelanggan ramai, rancang dengan baik dan siapkan bahan awal-awal.</li>
+  <li><strong>Tingkatkan peralatan dapur:</strong> Peralatan yang lebih baik akan mempercepat proses memasak dan mengurangkan kesilapan.</li>
+  <li><strong>Guna penambah kuasa (booster):</strong> Booster membantu anda mengendalikan pesanan yang banyak dengan lebih pantas.</li>
+  <li><strong>Tumpukan kepada kepuasan pelanggan:</strong> Hidangan yang sedap dan servis pantas akan memastikan pelanggan memberi penilaian tertinggi.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Level 5 dalam Cookingdom memperkenalkan cabaran memasak ikan bakar. Kunci kejayaan adalah mengawal suhu grill dan masa memasak untuk memastikan ikan dimasak dengan sempurna. Menguruskan pesanan pelanggan, menaik taraf peralatan dapur, dan menggunakan booster akan membantu anda menyelesaikan level ini dengan jayanya.</p>
-<p>Setelah anda menyelesaikan level ini, anda akan membuka lebih banyak naik taraf dapur dan resipi baru yang akan membawa kemahiran masakan anda ke tahap seterusnya. Teruskan memperbaiki kemahiran memasak dan pengurusan masa anda untuk kekal di hadapan dalam permainan!</p>
+<h2 id="summary">Kesimpulan</h2>
+<p>Tahap 5 memperkenalkan kemahiran menggoreng dalam Cookingdom. Untuk berjaya, anda perlu menguasai masa dan suhu dengan tepat. Rancang dengan baik, kemas kini dapur anda, dan gunakan booster untuk mendapat keputusan terbaik.</p>
+<p>Selesai tahap ini, anda akan membuka resipi dan peningkatan baharu yang akan membawa pengalaman memasak anda ke tahap seterusnya. Teruskan berlatih dan jadi pakar masakan!</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-6',
-    title: 'Cookingdom Level 6:<br>Café Espresso',
-    pageTitle: 'Cookingdom Level 6 - Panduan Café Espresso',
-    pageSubtitle: 'Belajar untuk menyeduh espresso yang sempurna di Cookingdom Level 6.',
+    title: 'Panduan Cookingdom Tahap 6: Espresso',
+    pageTitle: 'Panduan Cookingdom Tahap 6: Espresso',
+    pageSubtitle: 'Ketahui cara menyeduh espresso yang sempurna dalam Cookingdom Tahap 6.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_06.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
-    iframeUrl: 'https://www.youtube.com/embed/OTKpJ9M7to',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-6' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/jZaXNSTn1Ng',
     seo: {
-      title: 'Cookingdom Level 6 Panduan: Café Espresso | Petua & Strategi',
+      title: 'Cookingdom Tahap 6: Espresso | Petua dan Strategi',
       description:
-        'Kuasa seni menyeduh Café Espresso di Cookingdom Level 6. Petua tentang pengisaran, masa penyeduhan, dan pengurusan pesanan.',
-      keywords:
-        'cookingdom, level 6, café espresso, espresso, panduan, kopi, penyeduhan, pengurusan masa',
+        'Kuasi seni membuat espresso dalam Cookingdom Tahap 6. Panduan tentang pengisaran, penyeduhan, dan pengurusan pesanan.',
+      keywords: 'cookingdom, tahap 6, espresso, kopi, panduan, penyediaan, pengurusan masa',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_06.webp',
       levelInfoHtml:
-        '<h3>Café Espresso</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Masa Anggaran:</strong> 1.5 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
+        '<h3>Espresso</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Masa main:</strong> 1.5 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-3',
-          title: 'Cookingdom Level 3<br/>Fried Potatoes',
-          imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
-        },
-        {
-          id: 'cookingdom-game-level-4',
-          title: 'Cookingdom Level 4<br/>Rolled Ice-cream',
-          imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
-        },
-        {
           id: 'cookingdom-game-level-5',
-          title: 'Cookingdom Level 5<br/>Grilled Fish',
+          title: 'Panduan Cookingdom Tahap 5: Ikan Bakar',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-5' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-7',
+          title: 'Panduan Cookingdom Tahap 7: Telur Mata',
+          imageUrl: '/images/guides_07.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-7' },
+          },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Umum Permainan</h2>
-<p>Dalam Cookingdom, setiap level memperkenalkan cabaran dan resipi baru yang perlu dikuasai. Di Level 6, anda akan menghadapi tugas untuk menyediakan Café Espresso, kemahiran penting untuk mengembangkan tawaran kafe anda dan meningkatkan kepuasan pelanggan. Level ini tertumpu kepada mempelajari cara untuk menyeduh espresso yang sempurna, elemen utama dalam minuman berasaskan kopi yang akan muncul lebih kerap apabila anda maju dalam permainan.</p>
-<p>Semasa anda bergerak melalui level ini, anda juga akan mula berhadapan dengan pesanan pelanggan yang lebih kompleks dan perlu menguruskan beberapa minuman secara serentak. Kini tiba masanya untuk mengasah kemahiran pengurusan masa anda dan meningkatkan kecekapan di dapur!</p>
+<h2 id="overview">Gambaran Tahap</h2>
+<p>Setiap tahap dalam Cookingdom memperkenalkan cabaran dan resipi baharu. Dalam Tahap 6, anda akan belajar cara menyeduh espresso — satu kemahiran penting untuk memperluaskan menu kafe dan memuaskan pelanggan. Ini ialah minuman utama yang akan sering muncul pada tahap-tahap akan datang.</p>
+<p>Anda juga akan mula menerima pesanan yang lebih mencabar dan perlu mengendalikan beberapa minuman pada masa yang sama. Inilah masanya untuk mengasah kemahiran pengurusan masa dan menjadi lebih cekap di dapur!</p>
 
-<h2 id="goal">Matlamat Level 6</h2>
+<h2 id="goal">Matlamat Tahap 6</h2>
 <ul>
-    <li><strong>Sediakan Café Espresso:</strong> Di level ini, anda akan memberi tumpuan kepada membuat espresso yang sempurna. Proses ini agak mudah tetapi memerlukan ketepatan untuk mendapatkan keseimbangan yang betul. Anda perlu menggunakan mesin kopi, mengawal pengisaran biji kopi, dan memastikan jumlah air yang betul mengalir melalui kopi.</li>
-    <li><strong>Uruskankan Beberapa Pesanan:</strong> Sebagai pelanggan mula memesan kopi dan espresso, anda mesti menjejaki beberapa minuman secara serentak. Ini melibatkan penyediaan pelbagai minuman sambil memastikan kualiti setiap satu.</li>
-    <li><strong>Sajikan dengan Ketepatan dan Kelajuan:</strong> Memandangkan espresso memerlukan masa penyeduhan yang singkat, anda mesti menyajikannya dengan cepat. Memantau beberapa pesanan sekaligus dan menyajikan setiap satu dengan segera akan menjadi kunci untuk memaksimumkan kepuasan pelanggan.</li>
+  <li><strong>Sediakan espresso:</strong> Anda perlu menguasai teknik menyeduh espresso yang seimbang. Ini termasuk pengisaran yang betul, jumlah serbuk kopi yang tepat, dan tekanan air yang konsisten.</li>
+  <li><strong>Kawal beberapa pesanan:</strong> Perhatikan aliran pesanan dan sediakan lebih daripada satu minuman tanpa mengorbankan kualiti.</li>
+  <li><strong>Penyediaan yang pantas dan tepat:</strong> Espresso perlu disediakan dan disajikan segera untuk mengekalkan rasa dan kepuasan pelanggan.</li>
 </ul>
 
-<h2 id="steps">Langkah-langkah untuk Membuat Café Espresso</h2>
+<h2 id="steps">Langkah Penyediaan Espresso</h2>
 <ol>
-    <li>
-        <h3>Giling Biji Kopi:</h3>
-        <p>Langkah pertama dalam membuat Café Espresso yang hebat adalah memilih dan menggiling biji kopi yang betul. Di Cookingdom, penggiling kopi akan tersedia untuk digunakan. Pastikan untuk melaraskan saiz pengisaran dengan betul, kerana espresso memerlukan pengisaran yang lebih halus berbanding minuman kopi yang lain.</p>
-        <p><strong>Petua:</strong> Jika pengisaran terlalu kasar, espresso akan lemah. Jika terlalu halus, kopi mungkin terasa pahit.</p>
-    </li>
-    <li>
-        <h3>Persiapkan Mesin Espresso:</h3>
-        <p>Setelah biji kopi digiling, masukkan serbuk kopi ke dalam portafilter mesin espresso. Pastikan serbuk kopi diagihkan secara rata dan dipadatkan untuk mengelakkan pengambilan yang tidak sekata.</p>
-        <p><strong>Petua:</strong> Portafilter yang dipadatkan dengan baik memastikan pengambilan yang sekata, yang penting untuk menghasilkan espresso yang seimbang.</p>
-    </li>
-    <li>
-        <h3>Penyeduhan Espresso:</h3>
-        <p>Letakkan portafilter ke dalam mesin espresso dan mulakan proses penyeduhan. Mesin akan memaksa air panas melalui kopi yang digiling halus untuk menghasilkan satu shot espresso yang kaya dan wangi.</p>
-        <p><strong>Petua:</strong> Perhatikan masa penyeduhan. Biasanya, satu shot espresso mengambil masa kira-kira 25-30 saat untuk diseduh. Espresso harus mempunyai crema yang kaya (buih keemasan) di atasnya.</p>
-    </li>
-    <li>
-        <h3>Sajikan Espresso:</h3>
-        <p>Setelah diseduh, sajikan espresso dalam cawan kecil. Di Cookingdom, anda mungkin mempunyai pilihan untuk menambah hiasan, seperti ketulan gula atau kayu manis, tetapi secara tradisinya, espresso disajikan tanpa tambahan.</p>
-        <p><strong>Petua:</strong> Kelajuan adalah kunci! Memandangkan espresso adalah minuman yang cepat untuk disediakan, pastikan untuk menyajikannya dengan segera untuk mengelakkan pelanggan menunggu terlalu lama.</p>
-    </li>
+  <li>
+    <h3>Kisar biji kopi:</h3>
+    <p>Pilih biji kopi yang sesuai dan kisar menggunakan pengisar. Espresso memerlukan kisaran halus — lebih halus berbanding kopi biasa.</p>
+    <p><strong>Petua:</strong> Jika terlalu kasar, rasa akan hambar; terlalu halus, rasa akan pahit.</p>
+  </li>
+  <li>
+    <h3>Penyediaan mesin espresso:</h3>
+    <p>Letakkan serbuk kopi ke dalam portafilter dan mampatkan dengan padat. Ini penting untuk penyeduhan yang sekata.</p>
+    <p><strong>Petua:</strong> Pemadatan yang rata dan padat menghasilkan espresso yang konsisten dan beraroma.</p>
+  </li>
+  <li>
+    <h3>Seduhan:</h3>
+    <p>Masukkan portafilter ke dalam mesin dan mula menyeduh. Air panas akan mengekstrak rasa melalui serbuk kopi dan menghasilkan espresso dengan lapisan krim (crema) di atasnya.</p>
+    <p><strong>Petua:</strong> Masa seduhan ideal ialah antara 25–30 saat. Jangan biarkan terlalu lama atau terlalu pendek.</p>
+  </li>
+  <li>
+    <h3>Saji minuman:</h3>
+    <p>Sajikan espresso dalam cawan kecil. Dalam permainan, anda boleh menghias dengan gula atau kayu manis, tetapi espresso klasik biasanya tanpa hiasan.</p>
+    <p><strong>Petua:</strong> Hidangkan segera selepas disediakan untuk mengelakkan pelanggan menunggu lama.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Petua & Trik</h2>
+<h2 id="tips">Petua Tambahan</h2>
 <ul>
-    <li><strong>Kontrol Pengisaran:</strong> Pengisaran biji kopi anda akan memberi impak besar kepada rasa espresso anda. Pastikan pengisaran cukup halus untuk mendapatkan pengambilan yang betul, tetapi tidak terlalu halus sehingga air tidak dapat mengalir melaluinya. Pengisaran yang seimbang akan memastikan shot espresso yang kaya dan berperisa.</li>
-    <li><strong>Waktu Penyediaan:</strong> Masa penyeduhan espresso biasanya antara 25-30 saat. Jika proses penyeduhan terlalu cepat, espresso mungkin terasa cair atau tidak terambil dengan baik. Jika terlalu perlahan, ia mungkin terasa pahit. Penentuan masa adalah kunci untuk mencipta espresso yang sempurna.</li>
-    <li><strong>Jejak Pesanan Berbilang:</strong> Semakin ramai pelanggan datang, semakin banyak pesanan yang perlu anda uruskan. Cookingdom akan mencabar anda dengan pesanan serentak untuk pelbagai minuman, jadi bersiap sedia untuk mengendalikan pelbagai tugas sekaligus. Utamakan pesanan berdasarkan kesabaran pelanggan dan kerumitan minuman.</li>
-    <li><strong>Naik Taraf Peralatan Kopi Anda:</strong> Semasa anda maju dalam Cookingdom, menaik taraf mesin espresso atau penggiling anda akan meningkatkan kecekapan anda dan memperbaiki kualiti espresso anda. Melabur dalam peralatan yang lebih baik boleh membantu anda mengendalikan lebih banyak pesanan dalam masa yang lebih singkat.</li>
-    <li><strong>Sajikan Cepat untuk Memaksimumkan Kepuasan:</strong> Pelanggan dalam Cookingdom akan menjadi tidak sabar jika mereka terpaksa menunggu terlalu lama untuk pesanan mereka. Memandangkan espresso adalah minuman yang cepat disediakan, pastikan untuk menyajikannya dengan segera untuk memastikan pelanggan berpuas hati dan meningkatkan penarafan anda.</li>
+  <li><strong>Kawal pengisaran:</strong> Kisar terlalu kasar atau terlalu halus akan menjejaskan rasa. Uji beberapa kali untuk dapatkan hasil terbaik.</li>
+  <li><strong>Perhatikan masa seduhan:</strong> 25–30 saat ialah tempoh optimum. Kurang masa = kurang rasa, terlalu lama = pahit.</li>
+  <li><strong>Uruskan berbilang pesanan:</strong> Pilih keutamaan berdasarkan tahap kesabaran pelanggan.</li>
+  <li><strong>Tingkatkan peralatan:</strong> Naik taraf mesin kopi dan pengisar untuk meningkatkan kelajuan dan kualiti.</li>
+  <li><strong>Penyediaan cepat = pelanggan gembira:</strong> Kelajuan menyajikan minuman memberi kesan besar kepada penilaian dan pendapatan.</li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Di Level 6 Cookingdom, membuat Café Espresso yang sempurna adalah tentang mengawal pengisaran kopi, masa penyeduhan, dan menyajikan dengan cepat. Dengan lebih banyak pelanggan yang memesan minuman, anda perlu menguruskan masa dengan cekap, multitasking, dan mengutamakan pesanan untuk memastikan operasi yang lancar. Menguasai espresso akan membuka pelbagai minuman kopi dan cabaran yang akan muncul di level-level seterusnya.</p>
-<p>Level ini adalah pengenalan yang hebat kepada resipi kopi yang lebih maju, mempersiapkan anda untuk pesanan yang lebih kompleks yang akan datang di tahap seterusnya dalam permainan. Pada penghujung level ini, anda akan mempunyai pemahaman yang kukuh tentang penyediaan kopi dan bersedia untuk menghadapi teknik memasak dan penyediaan minuman yang lebih canggih.</p>
+<p>Tahap 6 menumpukan pada teknik asas dalam menyediakan espresso yang betul — pengisaran, pemadatan, penyeduhan, dan penyajian. Jika anda berjaya menguasainya, anda akan lebih bersedia menghadapi tahap-tahap yang lebih kompleks dalam Cookingdom.</p>
+<p>Ini adalah pengenalan hebat kepada dunia minuman kopi dan peluang yang baik untuk melatih pengurusan masa dan prestasi di dapur!</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-7',
-    title: 'Cookingdom Level 7:<br>Sunny Eggs',
-    pageTitle: 'Cookingdom Level 7 - Panduan Sunny Eggs',
-    pageSubtitle:
-      'Pelajari cara memasak telur sunny-side-up yang sempurna dalam Cookingdom Level 7.',
+    title: 'Cookingdom Tahap 7: Panduan Telur Matahari',
+    pageTitle: 'Cookingdom Tahap 7: Panduan Telur Matahari',
+    pageSubtitle: 'Belajar memasak telur matahari yang sempurna di Cookingdom Tahap 7.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_07.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-    iframeUrl: 'https://www.youtube.com/embed/IiwEmCzNwYM',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-7' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/U06ryujgPy4',
     seo: {
-      title: 'Panduan Cookingdom Level 7: Sunny Eggs | Tips & Strategi',
+      title: 'Panduan Cookingdom Tahap 7: Telur Matahari | Petua & Strategi',
       description:
-        'Kuasa dalam memasak telur sunny-side-up di Cookingdom Level 7. Tips kawalan haba, mengelakkan kuning telur pecah, dan perkhidmatan cepat.',
+        'Kuasi cara memasak telur matahari di Cookingdom Tahap 7. Petua kawalan haba, elak kuning telur pecah, dan servis cepat.',
       keywords:
-        'cookingdom, level 7, sunny eggs, panduan, sunny side up, telur, kawalan haba, pengurusan masa',
+        'cookingdom, tahap 7, telur matahari, panduan, telur matahari, kawalan haba, pengurusan masa',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_07.webp',
       levelInfoHtml:
-        '<h3>Sunny Eggs</h3><p><strong>Kepayahan:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 1 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
+        '<h3>Telur Matahari</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 1 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-4',
-          title: 'Cookingdom Level 4<br/>Rolled Ice-cream',
-          imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
-        },
-        {
-          id: 'cookingdom-game-level-5',
-          title: 'Cookingdom Level 5<br/>Grilled Fish',
-          imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
-        },
-        {
           id: 'cookingdom-game-level-6',
-          title: 'Cookingdom Level 6<br/>Café Espresso',
-          imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
+          title: 'Cookingdom Tahap 6: Panduan Kopi Espresso',
+          imageUrl: '/images/guides_04.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-6' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-8',
+          title: 'Cookingdom Tahap 8: Panduan BBQ Texas',
+          imageUrl: '/images/guides_08.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-8' },
+          },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Dalam Cookingdom, setiap level memperkenalkan cabaran dan resipi baru yang menguji kemahiran memasak dan pengurusan masa anda. Level 7 memberi tumpuan kepada penyediaan Sunny Eggs, hidangan yang ringkas tetapi memerlukan ketepatan untuk memastikan kuning telur tetap utuh semasa memasak. Seiring anda maju dalam Cookingdom, anda perlu menguasai hidangan ini untuk memenuhi permintaan pelanggan yang semakin meningkat, yang mengharapkan telur sunny-side-up yang sempurna.</p>
-<p>Level ini memperkenalkan multitasking yang lebih kompleks apabila anda mengendalikan beberapa pesanan sekaligus, tetapi jangan risau — dengan pendekatan yang betul, anda boleh mengendalikannya. Mari kita terokai langkah-langkah untuk menyediakan telur sunny yang sempurna!</p>
+<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
+<p>Dalam Cookingdom, setiap tahap memperkenalkan cabaran memasak dan resipi baru yang menguji kemahiran dan pengurusan masa anda. Tahap 7 fokus pada penyediaan Telur Matahari, hidangan mudah tetapi memerlukan ketelitian supaya kuning telur tidak pecah semasa memasak. Semasa anda maju, anda perlu menguasai hidangan ini untuk memenuhi permintaan pelanggan yang mahukan telur matahari yang sempurna.</p>
+<p>Tahap ini memperkenalkan multitasking yang lebih kompleks kerana anda perlu menguruskan beberapa pesanan sekaligus, tapi jangan risau — dengan pendekatan yang betul, anda boleh mengatasinya. Mari mulakan langkah demi langkah cara membuat telur matahari yang sempurna!</p>
 
-<h2 id="goal">Matlamat Level 7</h2>
+<h2 id="goal">Matlamat Tahap 7</h2>
 <ul>
-    <li><strong>Masak Sunny Eggs:</strong> Dalam Cookingdom, sunny eggs adalah hidangan sarapan yang klasik. Matlamat dalam level ini adalah untuk memasak telur dengan sempurna dengan kuning telur yang utuh, sambil mengelakkan putih telur yang terlalu masak. Memasak telur pada tahap kematangan yang sempurna akan menjadi kunci kejayaan dalam level ini.</li>
-    <li><strong>Urusi Beberapa Pesanan Secara Efisien:</strong> Seperti dalam level sebelumnya, anda perlu mengendalikan beberapa pesanan pada satu masa. Dalam level ini, sunny eggs akan menjadi item yang popular di menu, jadi anda perlu memantau masa dan menyampaikan setiap hidangan tepat pada waktunya.</li>
-    <li><strong>Hidang Dengan Cepat dan Tepat:</strong> Pelanggan Cookingdom tidak sabar, dan mereka mengharapkan telur sunny mereka dimasak dengan sempurna. Jika telur terlalu masak atau dihidangkan terlalu lambat, markah anda akan berkurang, jadi masa dan kecekapan adalah penting.</li>
+    <li><strong>Masak Telur Matahari:</strong> Dalam Cookingdom, telur matahari adalah hidangan sarapan klasik. Matlamat tahap ini adalah memasak telur dengan kuning telur tetap utuh dan putih telur masak sempurna. Memasak telur dengan kematangan tepat adalah kunci kejayaan.</li>
+    <li><strong>Urus Pesanan Berkali-kali dengan Efisien:</strong> Seperti tahap sebelumnya, anda perlu menguruskan pelbagai pesanan serentak. Telur matahari adalah item popular, jadi anda perlu memantau masa dan menghidangkan setiap hidangan tepat pada waktunya.</li>
+    <li><strong>Hidangkan dengan Cepat dan Tepat:</strong> Pelanggan Cookingdom tidak sabar dan mengharapkan telur matahari dimasak sempurna. Terlalu lama atau terlebih masak akan menurunkan skor, jadi masa dan kecekapan adalah penting.</li>
 </ul>
 
-<h2 id="steps">Langkah-langkah untuk Membuat Sunny Eggs</h2>
+<h2 id="steps">Langkah-Langkah Memasak Telur Matahari</h2>
 <ol>
     <li>
-        <h3>Persiapkan Kuali:</h3>
-        <p>Untuk memasak sunny eggs, mula-mula panaskan kuali. Setelah kuali panas, tambahkan sedikit minyak atau mentega untuk mengelakkan telur daripada melekat. Pastikan minyak tersebar dengan sekata di permukaan kuali.</p>
-        <p><strong>Tip:</strong> Kuali tidak melekat adalah yang terbaik untuk sunny eggs bagi mengelakkan kuning telur pecah.</p>
+        <h3>Sediakan Kuali:</h3>
+        <p>Untuk memasak telur matahari, mulakan dengan memanaskan kuali. Setelah panas, masukkan sedikit minyak atau mentega supaya telur tidak melekat. Pastikan minyak tersebar rata di permukaan kuali.</p>
+        <p><strong>Petua:</strong> Kuali non-stick terbaik untuk telur matahari supaya kuning telur tidak pecah.</p>
     </li>
     <li>
         <h3>Pecahkan Telur:</h3>
-        <p>Dengan hati-hati pecahkan telur dan letakkan dalam kuali. Pastikan kuning telur tidak pecah. Cookingdom akan memberi anda pilihan untuk memecahkan telur satu per satu, jadi bersabar dan pastikan kuning telur kekal utuh apabila anda meletakkan setiap telur dalam kuali.</p>
-        <p><strong>Tip:</strong> Jika anda memasak beberapa telur, pastikan ia mempunyai ruang yang cukup untuk mengelakkan ia saling melekat.</p>
+        <p>Dengan berhati-hati pecahkan telur dan masukkan ke dalam kuali. Elakkan kuning telur pecah. Cookingdom membenarkan anda pecahkan telur satu persatu, jadi bersabarlah dan pastikan kuning telur kekal utuh.</p>
+        <p><strong>Petua:</strong> Jika memasak banyak telur, pastikan jarak antara telur cukup supaya tidak melekat antara satu sama lain.</p>
     </li>
     <li>
         <h3>Masak Telur:</h3>
-        <p>Biarkan telur masak dengan haba sederhana selama beberapa minit sehingga putih telur benar-benar masak dan kuning telur masih cair. Kunci kejayaan di sini adalah memasak putih telur sepenuhnya tanpa memasak kuning telur terlalu lama. Telur harus mempunyai kuning telur yang lembut dengan warna keemasan di tengah.</p>
-        <p><strong>Tip:</strong> Jangan terbalikkan telur! Sunny eggs dimasak hanya pada satu sisi, dan terbalikkan telur boleh menyebabkan kuning telur pecah.</p>
+        <p>Biarkan telur masak dengan api sederhana selama beberapa minit sehingga putih telur masak sepenuhnya tetapi kuning telur masih cair. Kunci adalah memasak putih telur sempurna tanpa terlebih masak kuning telur. Telur harus mempunyai kuning telur yang lembut dan berwarna keemasan di tengah.</p>
+        <p><strong>Petua:</strong> Jangan balikkan telur! Telur matahari dimasak sebelah sahaja, membalikkan telur boleh merosakkan kuning.</p>
     </li>
     <li>
-        <h3>Hidangkan Sunny Eggs:</h3>
-        <p>Setelah telur dimasak dengan sempurna, dengan hati-hati letakkan di atas pinggan. Dalam Cookingdom, anda boleh menambah hiasan pada telur dengan herba atau menyajikannya dengan hidangan sampingan, bergantung pada pesanan pelanggan.</p>
-        <p><strong>Tip:</strong> Hidangkan telur segera untuk memastikan ia segar dan mengelakkan ketidakpuasan pelanggan akibat menunggu terlalu lama.</p>
+        <h3>Hidangkan Telur Matahari:</h3>
+        <p>Setelah telur masak sempurna, alihkan dengan berhati-hati ke pinggan. Dalam Cookingdom, anda boleh hiaskan telur dengan herba atau hidangkan dengan lauk ikut pesanan pelanggan.</p>
+        <p><strong>Petua:</strong> Hidangkan segera untuk memastikan kesegaran dan mengelakkan pelanggan kecewa kerana menunggu lama.</p>
     </li>
 </ol>
 
 <h2 id="tips">Petua & Trik</h2>
 <ul>
-    <li><strong>Monitor Haba Dengan Teliti:</strong> Dalam Cookingdom, mengawal haba adalah kunci untuk memasak sunny eggs dengan sempurna. Jika haba terlalu tinggi, telur mungkin masak terlalu cepat dan menyebabkan putih telur terbakar sebelum kuning telur masak. Kekalkan haba pada tahap sederhana untuk memastikan kuning telur berwarna keemasan dan putih telur masak sepenuhnya.</li>
-    <li><strong>Jangan Terburu-buru:</strong> Walaupun telur kelihatan mudah untuk disediakan, tergesa-gesa boleh menyebabkan kuning telur pecah atau telur yang terlalu masak. Luangkan masa dan fokus untuk memasak telur dengan betul. Pelanggan dalam Cookingdom sangat mementingkan kualiti makanan mereka.</li>
-    <li><strong>Multitasking:</strong> Cookingdom akan menguji kemahiran multitasking anda kerana anda sering perlu menyediakan sunny eggs semasa pesanan lain juga sedang menunggu. Pastikan untuk memberi keutamaan pada pesanan berdasarkan masa dan kesukaran, dan jangan lupa untuk memeriksa telur secara berkala semasa bekerja pada hidangan lain.</li>
-    <li><strong>Gunakan Peningkatan untuk Kecekapan:</strong> Semasa anda maju dalam Cookingdom, anda akan membuka peningkatan dan kecepatan yang dapat membantu anda memasak dengan lebih cepat atau meningkatkan kecekapan. Menggunakan alat ini dengan bijak dapat membantu anda menyelesaikan pesanan tepat pada waktunya, terutamanya apabila banyak pelanggan memesan sunny eggs.</li>
-    <li><strong>Kepuasan Pelanggan:</strong> Cookingdom adalah tentang memuaskan pelanggan anda. Jika telur anda dimasak dengan sempurna dan disajikan dengan cepat, anda akan mendapat penilaian tinggi. Sentiasa berusaha untuk menyajikan telur sebaik sahaja ia siap untuk mengelakkan kekecewaan pelanggan.</li>
+    <li>
+        <strong>Pantau Haba dengan Teliti:</strong> Dalam Cookingdom, kawalan haba adalah kunci memasak telur matahari yang sempurna. Jika terlalu panas, putih telur akan hangus sebelum kuning telur masak. Gunakan api sederhana untuk dapatkan kuning yang keemasan dan putih masak sempurna.
+    </li>
+    <li>
+        <strong>Jangan Terburu-Buru:</strong> Walaupun kelihatan mudah, memasak telur dengan cepat boleh menyebabkan kuning telur pecah atau terlebih masak. Ambil masa anda dan fokus memasak dengan tepat. Pelanggan Cookingdom sangat memilih kualiti makanan.
+    </li>
+    <li>
+        <strong>Multitasking:</strong> Cookingdom menguji kemahiran multitasking anda, kerana anda akan menyediakan telur matahari sambil mengurus pesanan lain. Utamakan pesanan berdasarkan masa dan kesukaran, dan jangan lupa periksa telur secara berkala semasa mengurus hidangan lain.
+    </li>
+    <li>
+        <strong>Gunakan Booster untuk Kecekapan:</strong> Semasa bermain, anda akan membuka booster dan pemecut yang membantu memasak lebih cepat atau tingkatkan kecekapan. Gunakan dengan strategi untuk selesaikan pesanan tepat waktu, terutama bila banyak pelanggan pesan telur matahari.
+    </li>
+    <li>
+        <strong>Kepuasan Pelanggan:</strong> Cookingdom adalah tentang memuaskan pelanggan. Jika telur dimasak sempurna dan dihidangkan dengan segera, anda akan dapat penilaian tinggi. Sentiasa pastikan hidangan dihidang segera supaya pelanggan tidak kecewa.
+    </li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Level 7 dalam Cookingdom adalah tentang menguasai seni memasak sunny eggs. Kunci kejayaan adalah mengawal haba, memasak telur dengan betul tanpa terlebih masak, dan menyajikannya segera selepas dimasak. Pengurusan masa dan multitasking adalah penting ketika anda menyediakan sunny eggs bersama hidangan lain.</p>
-<p>Dengan teknik yang betul dan perkhidmatan cepat, anda akan berjaya menamatkan level ini dan membuat pelanggan anda gembira. Semasa anda maju dalam Cookingdom, anda akan menghadapi resipi dan pesanan pelanggan yang lebih kompleks, jadi menguasai asas sunny eggs akan mempersiapkan anda untuk kejayaan di masa hadapan.</p>
+<p>Tahap 7 dalam Cookingdom adalah tentang menguasai seni memasak telur matahari yang sempurna. Kunci kejayaan adalah kawalan haba, memasak telur dengan betul tanpa terlebih masak, dan hidangkan secepat mungkin. Pengurusan masa dan multitasking sangat penting ketika menyediakan telur matahari bersama hidangan lain.</p>
+<p>Dengan teknik yang betul dan servis cepat, anda akan mudah menamatkan tahap ini dan pastikan pelanggan gembira. Ketika maju dalam Cookingdom, anda akan hadapi resipi dan pesanan lebih kompleks, jadi menguasai asas telur matahari adalah persiapan penting untuk kejayaan akan datang.</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-8',
-    title: 'Cookingdom Level 8:<br>Steak',
-    pageTitle: 'Cookingdom Level 8 - Panduan Steak',
-    pageSubtitle: 'Pelajari cara memasak steak yang sempurna di Cookingdom Level 8.',
+    title: 'Cookingdom Tahap 8: Panduan Memasak Barbeku Texas',
+    pageTitle: 'Cookingdom Tahap 8: Panduan Memasak Barbeku Texas',
+    pageSubtitle: 'Pelajari cara memasak stik yang sempurna di Tahap 8 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_08.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-8' },
+    },
     iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
     seo: {
-      title: 'Panduan Cookingdom Level 8: Steak | Tips & Strategi',
+      title: 'Cookingdom Tahap 8: Stik | Tips dan Strategi',
       description:
-        'Kuasa memasak steak (rare, medium, well-done) di Cookingdom Level 8. Tips mengenai masa, suhu, dan pengurusan pesanan.',
+        'Kuasi cara memasak stik (rare, medium, well-done) pada Tahap 8 Cookingdom. Tips tentang masa, suhu, dan pengurusan pesanan.',
       keywords:
-        'cookingdom, level 8, steak, panduan, grilling, searing, doneness, rare, medium, well-done, pengurusan masa',
+        'cookingdom, tahap 8, stik, panduan, barbeku, tahap masak, rare, medium, well-done, pengurusan masa',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_08.webp',
+      sidebarImageUrl: '/images/guides_07.webp',
       levelInfoHtml:
-        '<h3>Steak</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3.5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
+        '<h3>Stik</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Masa:</strong> 3.5 minit</p><p><strong>Anugerah:</strong> 5 Bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-5',
-          title: 'Cookingdom Level 5<br/>Grilled Fish',
+          id: 'cookingdom-game-level-7',
+          title: 'Cookingdom Tahap 7: Panduan Telur Mata',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-7' },
+          },
         },
         {
-          id: 'cookingdom-game-level-6',
-          title: 'Cookingdom Level 6<br/>Café Espresso',
+          id: 'cookingdom-game-level-9',
+          title: 'Cookingdom Tahap 9: Panduan Spaghetti',
           imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
-        },
-        {
-          id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Level 7<br/>Sunny Eggs',
-          imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Dalam Cookingdom, setiap level baru menantang anda dengan hidangan yang lebih rumit. Level 8 tidak terkecuali, kerana anda ditugaskan untuk memasak Steak yang sempurna. Hidangan ini memerlukan masa yang tepat, kawalan suhu, dan perhatian teliti terhadap pesanan pelanggan. Semasa anda maju dalam Cookingdom, memasak steak akan menjadi asas menu anda, dan mengendalikan tahap doneness steak yang berbeza akan menjadi penting untuk memastikan pelanggan anda gembira.</p>
-<p>Dalam level ini, anda perlu menguruskan dapur anda dengan cekap sambil memastikan setiap steak dimasak dengan betul, sama ada rare, medium, atau well-done. Mari kita teroka butiran tentang cara membuat steak yang sempurna!</p>
-
-<h2 id="goal">Matlamat Level 8</h2>
-<ul>
-    <li><strong>Masak Steak dengan Sempurna:</strong> Cookingdom memerlukan anda memasak steak dengan tahap doneness yang berbeza: rare, medium, dan well-done. Setiap pelanggan akan mempunyai keutamaan mereka sendiri, dan penting untuk memasak setiap steak dengan betul untuk memenuhi jangkaan tersebut.</li>
-    <li><strong>Kendalikan Beberapa Pesanan Steak:</strong> Seperti level-level sebelumnya, menguruskan beberapa pesanan adalah penting. Cookingdom akan menguji kemampuan anda untuk mengendalikan pesanan yang lebih kompleks pada masa yang sama sambil memastikan setiap steak dimasak dengan betul.</li>
-    <li><strong>Sajikan Steak dengan Cepat:</strong> Pelanggan dalam Cookingdom mudah hilang sabar, jadi menyajikan setiap steak sebaik sahaja ia dimasak adalah penting. Masa adalah kunci untuk mendapatkan penilaian terbaik.</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah untuk Memasak Steak</h2>
-<ol>
-    <li>
-        <h3>Sediakan Kuali atau Grill:</h3>
-        <p>Sebelum memasak, panaskan kuali atau grill anda hingga suhu yang tinggi. Kunci kepada steak yang baik adalah memastikan kuali atau grill cukup panas untuk mengeringkan bahagian luar sambil mengekalkan kelembapan di dalam. Tambahkan sedikit minyak atau mentega ke dalam kuali untuk mengelakkan steak daripada melekat.</p>
-        <p><strong>Tip:</strong> Kuali atau grill yang panas adalah penting untuk mencapai kerak yang lazat pada steak.</p>
-    </li>
-    <li>
-        <h3>Perasakan Steak:</h3>
-        <p>Apabila kuali anda panas, perasakan steak dengan garam, lada, dan rempah atau herba lain yang anda suka. Sesetengah pelanggan dalam Cookingdom mungkin mempunyai permintaan perasa tertentu, jadi pastikan untuk memeriksa pesanan mereka untuk keutamaan.</p>
-        <p><strong>Tip:</strong> Gunakan jumlah perasa yang banyak untuk meningkatkan rasa steak. Jangan lupa untuk memerasakan kedua-dua sisi steak.</p>
-    </li>
-    <li>
-        <h3>Masak Steak:</h3>
-        <p>Letakkan steak dalam kuali yang panas atau di atas grill. Bergantung pada tahap doneness yang diminta oleh pelanggan, masak steak mengikut masa berikut:</p>
-        <ul>
-            <li>Rare: 2-3 minit setiap sisi.</li>
-            <li>Medium: 4-5 minit setiap sisi.</li>
-            <li>Well-Done: 6-7 minit setiap sisi.</li>
-        </ul>
-        <p><strong>Tip:</strong> Balikkan steak hanya sekali untuk mengelakkan kehilangan jus. Gunakan penjepit untuk membalikkan steak dengan lembut.</p>
-    </li>
-    <li>
-        <h3>Periksa Tahap Doneness:</h3>
-        <p>Gunakan isyarat visual dan sentuhan untuk memeriksa tahap doneness steak:</p>
-        <ul>
-            <li>Rare: Sejuk kepada sentuhan dan merah di tengah.</li>
-            <li>Medium: Agak keras dengan tengah yang berwarna merah jambu.</li>
-            <li>Well-Done: Keras dan coklat sepenuhnya, tanpa merah jambu di dalam.</li>
-        </ul>
-        <p><strong>Tip:</strong> Dalam Cookingdom, anda juga mungkin akan melihat indikator visual atau pemasa yang menunjukkan bila steak sudah siap, membantu anda mengelakkan memasak terlalu lama.</p>
-    </li>
-    <li>
-        <h3>Rehatkan Steak:</h3>
-        <p>Apabila steak dimasak dengan betul, keluarkan ia dari kuali atau grill dan biarkan ia rehat selama satu atau dua minit. Ini membantu menyebarkan semula jus dan memastikan steak yang lembut dan berair.</p>
-        <p><strong>Tip:</strong> Jangan abaikan langkah ini! Membiarkan steak berehat adalah penting untuk mengekalkan rasa dan kelembapannya.</p>
-    </li>
-    <li>
-        <h3>Sajikan Steak:</h3>
-        <p>Setelah steak berehat, letakkan ia di atas pinggan dan sajikan kepada pelanggan. Anda boleh menghias steak dengan hidangan sampingan seperti kentang lenyek, sayur-sayuran, atau sos, bergantung kepada pesanan.</p>
-        <p><strong>Tip:</strong> Sajikan steak sebaik sahaja ia sudah siap untuk memastikan pelanggan gembira dan mengelakkan sebarang ketidakpuasan hati akibat perkhidmatan yang lambat.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Trik</h2>
-<ul>
-    <li><strong>Mastering Steak Doneness:</strong> Dalam Cookingdom, memasak steak ke tahap doneness yang betul adalah penting. Pelanggan akan menentukan bagaimana mereka mahu steak mereka, dan menyediakannya dengan sempurna akan memberikan anda penilaian tinggi. Perhatikan pesanan mereka dan gunakan masa memasak yang betul untuk mencapai steak yang sempurna.</li>
-    <li><strong>Pengurusan Pesanan yang Cekap:</strong> Apabila lebih banyak pelanggan datang, anda perlu menguruskan banyak pesanan steak sekaligus. Utamakan pesanan berdasarkan berapa lama pelanggan telah menunggu. Pastikan untuk memeriksa doneness setiap steak dan elakkan memasaknya terlalu lama sambil mengendalikan hidangan lain.</li>
-    <li><strong>Peningkatan dan Peralatan:</strong> Semasa anda maju dalam Cookingdom, anda boleh meningkatkan peralatan memasak anda. Grill atau kuali berkualiti tinggi akan memasak steak lebih cepat dan cekap. Pertimbangkan untuk meningkatkan peralatan anda untuk mempercepatkan proses memasak dan memperbaiki hasil anda.</li>
-    <li><strong>Gunakan Speed Boosts dan Boosters:</strong> Cookingdom menawarkan boost dan pemecut untuk membantu anda menguruskan masa sibuk. Gunakan untuk mempercepatkan masa memasak atau menyajikan pelanggan lebih cepat, terutamanya apabila anda perlu menguruskan banyak pesanan steak pada masa yang sama.</li>
-    <li><strong>Kepuasan Pelanggan:</strong> Kesabaran pelanggan adalah faktor besar dalam Cookingdom. Jika anda membiarkan pelanggan menunggu terlalu lama untuk steak mereka, mereka mungkin akan pergi tanpa berpuas hati. Sentiasa sasarkan untuk menyajikan steak panas dan segera untuk memastikan kepuasan pelanggan dan mendapatkan hasil terbaik.</li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Dalam Level 8 Cookingdom, menyediakan Steak yang sempurna adalah tentang mengawal masa memasak dan memastikan setiap steak pelanggan dimasak mengikut tahap doneness yang mereka suka. Anda perlu menguasai teknik grilling dan pan-searing, menguruskan pesanan yang banyak pada masa yang sama, dan menyajikan steak sementara ia masih segar dan berair.</p>
-<p>Di penghujung level ini, anda akan memperoleh kemahiran berharga dalam penyediaan steak yang akan membantu anda menangani hidangan yang lebih rumit dalam level-level akan datang. Dengan perhatian kepada per
-incian dan pengurusan masa yang baik, anda akan menjadi tukang masak terbaik dalam Cookingdom!</p>
-`,
-  },
-  {
-    id: 'cookingdom-game-level-9',
-    title: 'Cookingdom Level 9:<br>Spaghetti',
-    pageTitle: 'Cookingdom Level 9 - Panduan Spaghetti',
-    pageSubtitle: 'Kuasai seni memasak spaghetti yang sempurna di Cookingdom Level 9.',
-    category: '01-10',
-    publishDate: '2025-05-03',
-    isSpecial: true,
-    imageUrl: '/images/guides_09.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-    iframeUrl: 'https://www.youtube.com/embed/SOGzuHCsQkQ',
-    seo: {
-      title: 'Panduan Cookingdom Level 9: Spaghetti | Tips & Strategi',
-      description:
-        'Pelajari cara memasak spaghetti yang sempurna (al dente!) dengan sos yang tepat di Cookingdom Level 9. Tips mengenai masa, penyediaan sos, dan multitasking.',
-      keywords:
-        'cookingdom, level 9, spaghetti, panduan, pasta, sos, al dente, pengurusan masa, multitasking',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_09.webp',
-      levelInfoHtml:
-        '<h3>Spaghetti</h3><p><strong>Kadaran Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 2.5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-6',
-          title: 'Cookingdom Level 6<br/>Café Espresso',
-          imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
-        },
-        {
-          id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Level 7<br/>Sunny Eggs',
-          imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-        },
-        {
-          id: 'cookingdom-game-level-8',
-          title: 'Cookingdom Level 8<br/>Steak',
-          imageUrl: '/images/guides_08.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Dalam Cookingdom, setiap level memperkenalkan hidangan baru dan pelanggan yang lebih mencabar. Di Level 9, tugas anda adalah menyediakan Spaghetti, hidangan klasik Itali yang memerlukan masakan yang teliti dan masa yang tepat. Memasak spaghetti dan menyediakan sos adalah hanya permulaan. Untuk memastikan pelanggan anda berpuas hati, anda perlu memberi perhatian kepada perincian, dari ketepatan masak pasta hingga pemilihan sos dan topping.</p>
-<p>Sambil maju di Cookingdom, anda akan menghadapi pesanan yang lebih kompleks, dan menyediakan spaghetti akan menguji kemahiran multitasking dan pengurusan masa anda. Mari kita ikuti langkah-langkah untuk memastikan anda menguasai hidangan ini!</p>
-
-<h2 id="goal">Matlamat Level 9</h2>
-<ul>
-    <li><strong>Masak Spaghetti dengan Sempurna:</strong> Matlamat utama level ini adalah untuk memasak spaghetti dengan betul — al dente! Memastikan pasta dimasak dengan sempurna adalah penting untuk kepuasan pelanggan. Pasta yang terlalu lembut atau keras akan menjejaskan skor anda.</li>
-    <li><strong>Sediakan Sos:</strong> Spaghetti bukan sahaja tentang mi. Di Cookingdom, anda perlu menyediakan sos yang sesuai dengan pasta, sama ada sos tomato, sos berasaskan krim, atau pesto. Sos mesti mempunyai rasa yang sedap dan sesuai dengan spaghetti.</li>
-    <li><strong>Hidangkan dengan Cepat:</strong> Seperti di level lain, kelajuan dan ketepatan adalah kunci. Pelanggan anda sedang menunggu, dan menyajikan spaghetti yang sempurna pada suhu yang betul adalah penting untuk mendapatkan penilaian yang tinggi.</li>
-</ul>
-
-<h2 id="steps">Langkah-Langkah Membuat Spaghetti</h2>
-<ol>
-    <li>
-        <h3>Didihkan Air:</h3>
-        <p>Mulakan dengan mengisi periuk dengan air dan didihkan. Pastikan anda menggunakan periuk yang cukup besar untuk memasak spaghetti dengan betul.</p>
-        <p><strong>Petua:</strong> Menambah garam ke dalam air membantu memberikan rasa pada pasta dan memperbaiki teksturnya.</p>
-    </li>
-    <li>
-        <h3>Masak Spaghetti:</h3>
-        <p>Apabila air sudah mendidih, masukkan spaghetti. Pastikan mi terendam sepenuhnya dalam air untuk masakan yang sekata. Di Cookingdom, pasta akan mengambil masa sekitar 7-10 minit untuk dimasak, bergantung kepada tahap kemasakan yang anda pilih.</p>
-        <p><strong>Petua:</strong> Kacau mi secara berkala untuk mengelakkan ia melekat. Perhatikan masa masakan, kerana pasta yang terlalu lama dimasak akan menjadi lembik.</p>
-    </li>
-    <li>
-        <h3>Sediakan Sos:</h3>
-        <p>Sementara pasta dimasak, sediakan sos. Cookingdom menawarkan beberapa jenis sos, jadi pastikan anda menyediakan sos yang betul berdasarkan pesanan pelanggan. Untuk sos tomato, tumis bawang dan bawang putih dalam minyak zaitun, tambah tomato dalam tin, dan biarkan ia mereneh. Untuk sos krim, cairkan mentega dan krim, kemudian perasakan dengan garam dan lada.</p>
-        <p><strong>Petua:</strong> Biarkan sos mereneh selama beberapa minit untuk menggabungkan rasa. Anda juga boleh menambah herba seperti basil, oregano, atau pasli untuk meningkatkan rasa sos.</p>
-    </li>
-    <li>
-        <h3>Topek dan Campurkan:</h3>
-        <p>Setelah pasta dimasak, topek dengan berhati-hati, pastikan sedikit air pasta disimpan (untuk melaraskan sos jika perlu). Masukkan pasta ke dalam kuali dengan sos, dan gaulkan dengan baik supaya mi diliputi sos.</p>
-        <p><strong>Petua:</strong> Jika sos terlalu pekat, tambah sedikit air pasta yang disimpan untuk melonggarkan sos dan membolehkan sos melekat lebih baik.</p>
-    </li>
-    <li>
-        <h3>Hidangkan Spaghetti:</h3>
-        <p>Setelah pasta dan sos digabungkan dengan baik, letakkan spaghetti di atas pinggan. Hias dengan topping tambahan seperti keju parut, herba segar, atau sedikit minyak zaitun. Di Cookingdom, sesetengah pelanggan mungkin meminta topping tertentu, jadi pastikan anda memeriksa pesanan mereka dengan teliti.</p>
-        <p><strong>Petua:</strong> Hidangkan spaghetti sebaik sahaja ia siap untuk mengelakkan ia masak lebih lama atau sejuk. Pelanggan Cookingdom mengharapkan makanan yang panas dan segar, jadi penghantaran yang cepat adalah penting.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Trik</h2>
-<ul>
-    <li><strong>Perancangan Masa yang Sempurna:</strong> Aspek paling penting dalam memasak spaghetti adalah masa. Jika anda memasaknya terlalu lama, ia akan menjadi lembik, dan jika kurang masak, ia akan terlalu keras. Cookingdom menyediakan timer untuk setiap hidangan, jadi pastikan anda memerhatikan pasta dengan teliti.</li>
-    <li><strong>Penyediaan Sos:</strong> Sos adalah sama pentingnya dengan pasta! Pastikan sos anda berperisa dan disediakan dengan baik. Dalam Cookingdom, pelanggan sering meminta jenis sos atau hiasan tertentu, jadi pastikan anda peka dengan pesanan mereka.</li>
-    <li><strong>Upgrade Peralatan Dapur:</strong> Semasa anda maju dalam Cookingdom, anda boleh membuka peralatan dapur baru yang akan mempercepatkan dan mempermudah proses memasak pasta. Meningkatkan dapur atau menambah periuk yang lebih besar akan membantu anda menyediakan banyak hidangan spaghetti pada satu masa.</li>
-    <li><strong>Menangani Banyak Pesanan:</strong> Dalam Cookingdom, anda sering perlu mengendalikan lebih dari satu pesanan pada masa yang sama. Sediakan spaghetti dan sos untuk setiap pesanan secara serentak, dan hidangkan mereka sebaik sahaja ia selesai. Utamakan pesanan yang lebih lama menunggu dan pastikan anda memasak sos yang betul untuk setiap pelanggan.</li>
-    <li><strong>Kepuasan Pelanggan:</strong> Pelanggan di Cookingdom sangat mementingkan kualiti dan kelajuan pesanan mereka. Untuk memastikan mereka berpuas hati, hidangkan spaghetti dengan segera dan pastikan ia dimasak dengan betul mengikut kehendak mereka. Spaghetti yang terlalu masak akan mengecewakan mereka, dan yang kurang masak akan menyebabkan aduan.</li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Level 9 Cookingdom, menyediakan Spaghetti yang sempurna memerlukan perhatian yang teliti terhadap perincian. Dari merebus pasta hingga menyediakan sos dan menghidangkannya panas, masa dan kecekapan adalah kunci untuk mendapatkan penilaian yang tinggi. Semasa anda mengendalikan banyak pesanan, pastikan setiap pinggan spaghetti disajikan dengan sempurna dengan sos dan topping yang betul.</p>
-<p>Dengan menguasai hidangan ini, anda akan membuka resipi yang lebih kompleks dan terus meningkatkan kemahiran anda di Cookingdom. Sempurnakan teknik memasak pasta anda dan terus maju dalam permainan untuk menghadapi cabaran kulinari baru yang menarik!</p>
-`,
-  },
-  {
-    id: 'cookingdom-game-level-10',
-    title: 'Cookingdom Level 10:<br>Salmon Sushi',
-    pageTitle: 'Cookingdom Level 10 - Panduan Salmon Sushi',
-    pageSubtitle: 'Pelajari cara membuat Salmon Sushi yang sempurna di Cookingdom Level 10.',
-    category: '01-10',
-    publishDate: '2025-05-03',
-    isSpecial: false,
-    imageUrl: '/images/guides_10.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-    iframeUrl: 'https://www.youtube.com/embed/sR03duivZNM',
-    seo: {
-      title: 'Cookingdom Level 10 Panduan: Salmon Sushi | Tips & Strategi',
-      description:
-        'Kuasa Salmon Sushi di Cookingdom Level 10. Tips untuk nasi yang sempurna, memotong salmon, menggulung sushi, dan penyajian.',
-      keywords:
-        'cookingdom, level 10, salmon sushi, panduan sushi, nasi sushi, memotong ikan, menggulung sushi, strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_10.webp',
-      levelInfoHtml:
-        '<h3>Salmon Sushi</h3><p><strong>Kesukaran:</strong> Sukar</p><p><strong>Anggaran Masa:</strong> 4.5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Level 7<br>Sunny Eggs',
-          imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-        },
-        {
-          id: 'cookingdom-game-level-8',
-          title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_08.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
-        },
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_09.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Dalam Cookingdom, mencapai Level 10 bermakna anda telah menguasai asas dan kini memasuki hidangan yang lebih canggih. Level 10 membawa cabaran yang lebih halus dengan Salmon Sushi — hidangan yang menggabungkan seni menyempurnakan nasi, memotong ikan, dan merangkainya menjadi gulungan sushi yang cantik. Tidak seperti level lain, Salmon Sushi memerlukan ketepatan dalam penyediaan dan penyajian.</p>
-<p>Di peringkat ini dalam Cookingdom, pelanggan akan mengharapkan penghantaran pesanan mereka dengan cepat dan sempurna, dan anda perlu mengendalikan komponen sushi yang sensitif. Kini tiba masanya untuk meningkatkan kemahiran pisau dan teknik memasak nasi anda!</p>
-
-<h2 id="goal">Matlamat Level 10</h2>
-<ul>
-    <li><strong>Masak Nasi Sushi:</strong> Asas setiap sushi yang hebat adalah nasi yang dimasak dengan sempurna. Dalam Cookingdom, anda perlu menyediakan nasi sushi, yang melibatkan mencuci, memasak, dan menyediakannya dengan campuran cuka, gula, dan garam.</li>
-    <li><strong>Potong Salmon Segar:</strong> Salmon adalah bintang dalam hidangan ini, dan kesegaran serta ketebalannya sangat penting untuk mencipta pengalaman sushi yang sahih. Anda perlu memotong salmon dengan berhati-hati ke ketebalan yang betul dan persembahannya.</li>
-    <li><strong>Merangka Sushi:</strong> Setelah nasi dan salmon siap, kini tiba masanya untuk merangka sushi. Dalam Cookingdom, anda perlu menggulung nasi dan salmon bersama-sama, memastikan semuanya sejajar dengan sempurna dan kemas.</li>
-    <li><strong>Hidangkan Sushi:</strong> Seperti mana-mana hidangan dalam Cookingdom, masa adalah sangat penting. Hidangkan sushi dengan segera bagi mengelakkan ia kehilangan kesegarannya.</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah untuk Membuat Salmon Sushi</h2>
-<ol>
-    <li>
-        <h3>Sediakan Nasi Sushi:</h3>
-        <p>Langkah pertama dalam membuat Salmon Sushi adalah menyediakan nasi sushi. Mulakan dengan membasuh nasi dengan teliti untuk menghilangkan kanji berlebihan. Ini akan membantu mencegah nasi daripada menjadi terlalu melekit.</p>
-        <p><strong>Tip:</strong> Basuh nasi beberapa kali sehingga airnya jernih untuk mendapatkan tekstur yang sempurna.</p>
-        <p>Masak nasi dalam periuk nasi atau periuk. Setelah nasi masak, pindahkan ia ke dalam mangkuk besar dan biarkan ia sejuk. Setelah nasi sedikit sejuk, perasakan dengan campuran cuka nasi, gula, dan garam untuk memberi rasa yang khas.</p>
-        <p><strong>Tip:</strong> Kacau nasi dengan lembut menggunakan sudu kayu untuk mengelakkan butiran nasi daripada hancur. Biarkan ia sejuk sepenuhnya sebelum digunakan untuk sushi.</p>
-    </li>
-    <li>
-        <h3>Potong Salmon Segar:</h3>
-        <p>Sementara nasi sejuk, kini tiba masanya untuk menyediakan salmon. Cookingdom memerlukan anda untuk memotong salmon menjadi hirisan yang nipis dan rata. Gunakan pisau tajam untuk mencapai potongan yang bersih dan licin. Setiap hirisan hendaklah kira-kira 1/8 inci tebal untuk tekstur sushi yang terbaik.</p>
-        <p><strong>Tip:</strong> Gunakan salmon yang segar dan berkualiti tinggi untuk rasa terbaik. Dalam Cookingdom, anda akan dapat memilih bahan yang paling segar, jadi pastikan untuk memilih salmon yang berkualiti tinggi.</p>
-    </li>
-    <li>
-        <h3>Merangka Sushi:</h3>
-        <p>Kini, tiba masanya untuk merangka sushi. Letakkan sedikit nasi sushi di atas tikar bambu atau permukaan bersih. Ratakan nasi dengan perlahan untuk membentuk lapisan yang nipis dan rata.</p>
-        <p><strong>Tip:</strong> Jangan tekan nasi terlalu kuat; hanya sebarkan dengan ringan untuk memastikan sushi kekal ringan dan gebu.</p>
-        <p>Letakkan hirisan salmon segar di atas nasi, pastikan ia berada di tengah dan seimbang.</p>
-        <p><strong>Tip:</strong> Jika Cookingdom menawarkan pilihan garnis seperti wasabi atau halia jeruk, jangan lupa untuk menambah bahan-bahan ini untuk pengalaman yang lebih sahih.</p>
-    </li>
-    <li>
-        <h3>Gulung Sushi:</h3>
-        <p>Gunakan tikar bambu untuk menggulung nasi dan salmon bersama dengan ketat. Pastikan gulungan itu kemas tetapi tidak terlalu ketat, kerana ini akan membantu mengekalkan sushi tanpa memecahkan nasi.</p>
-        <p><strong>Tip:</strong> Gulung sushi dengan perlahan dan berhati-hati untuk memastikan nasi dan salmon tetap bersama.</p>
-    </li>
-    <li>
-        <h3>Potong dan Hidangkan Sushi:</h3>
-        <p>Setelah sushi digulung, potong ia menjadi kepingan kecil. Dalam Cookingdom, potongannya perlu bersih dan licin, bukan bergerigi. Pisau tajam adalah sangat penting untuk membuat potongan sushi yang sempurna.</p>
-        <p><strong>Tip:</strong> Untuk penampilan yang sahih, pastikan setiap hirisan mempunyai saiz dan bentuk yang seragam.</p>
-        <p>Hidangkan Segera:</p>
-        <p>Seperti mana-mana hidangan dalam Cookingdom, pelanggan lebih suka sushi yang segar. Hidangkan sushi segera setelah dipotong untuk memastikan ia berada dalam keadaan terbaik.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Trik</h2>
-<ul>
-    <li>
-        <strong>Nasi Sushi yang Sempurna:</strong> Nasi sushi adalah asas kepada sushi yang hebat, jadi pastikan anda melakukannya dengan betul. Ikut langkah-langkah yang tepat untuk mencuci, memasak, dan mengatur rasa nasi. Cookingdom membolehkan anda menyesuaikan perasa nasi, jadi bereksperimenlah sehingga anda mendapatkan keseimbangan yang sempurna antara cuka, gula, dan garam.
-    </li>
-    <li>
-        <strong>Gunakan Pisau Tajam untuk Memotong:</strong> Kunci untuk hirisan salmon yang bersih dan rata adalah pisau yang tajam. Jika pisau tumpul, salmon mungkin hancur atau terkoyak berbanding dipotong dengan bersih.
-        <p><strong>Tip:</strong> Dalam Cookingdom, anda mungkin boleh menaik taraf pisau anda apabila anda maju, jadi pertimbangkan untuk meningkatkan alat anda bagi memastikan hirisan sushi yang sempurna.</p>
-</li>
-<li>
-<strong>Jangan Terlalu Mengisi Gulungan Sushi:</strong> Walaupun ia menggoda untuk menambah terlalu banyak salmon, jangan terlalu mengisi gulungan sushi. Isi yang terlalu banyak akan menyukarkan anda untuk menggulung dengan ketat dan seimbang. Gulungan sushi yang ideal mempunyai jumlah nasi dan ikan yang seimbang.
-<p><strong>Tip:</strong> Kekalkan isian di tengah dan buat gulungan dengan lembut untuk mengekalkan bentuk sushi.</p>
-</li>
-<li>
-<strong>Multitasking:</strong> Apabila lebih banyak pesanan datang, anda mungkin perlu menyediakan hidangan lain bersama-sama dengan sushi. Dalam Cookingdom, multitasking adalah penting. Sementara nasi sedang menyejuk, anda boleh mula menyediakan bahan-bahan lain atau merangka hidangan lain.
-</li>
-<li>
-<strong>Garnishing dan Penyajian:</strong> Cookingdom memberi ganjaran kepada penyajian yang cantik. Tambahkan garnis kecil seperti halia jeruk atau wasabi untuk meningkatkan hidangan anda. Pastikan sushi dihias dengan menarik untuk meningkatkan kepuasan pelanggan dan mendapatkan penarafan yang lebih tinggi.
-</li>
-
-</ul> <h2 id="summary">Ringkasan</h2> <p>Di Level 10 Cookingdom, menyediakan Salmon Sushi adalah cabaran yang menguji ketepatan, pengurusan masa, dan kemahiran multitasking anda. Dari memasak nasi hingga memotong ikan dan menggulung sushi, setiap langkah memerlukan perhatian kepada butiran. Kunci kejayaan adalah kesegaran, ketepatan, dan perkhidmatan cepat.</p> <p>Menjadi pakar dalam sushi akan mempersiapkan anda untuk kejayaan di level-level yang akan datang, kerana pelanggan akan mengharapkan hidangan yang lebih kompleks dan halus. Dengan latihan, anda akan dapat mencipta gulungan sushi yang sempurna yang akan menggembirakan pelanggan anda dan memastikan restoran anda berkembang.</p>`,
-  },
-  {
-    id: 'cookingdom-game-level-11',
-    title: 'Cookingdom Level 11:<br>Popcorn',
-    pageTitle: 'Cookingdom Level 11 - Panduan Popcorn',
-    pageSubtitle: 'Pelajari cara membuat popcorn yang sempurna dalam Cookingdom Level 11.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: true,
-    imageUrl: '/images/guides_11.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-    iframeUrl: 'https://www.youtube.com/embed/5mFzPngHJF8',
-    seo: {
-      title: 'Cookingdom Level 11 Panduan: Popcorn | Tips & Strategi',
-      description:
-        'Kuasa Popcorn dalam Cookingdom Level 11. Tips untuk masa pop yang sempurna, perasa, dan servis pantas.',
-      keywords:
-        'cookingdom, level 11, popcorn, panduan, popping, perasa, pengurusan masa, strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_11.webp',
-      levelInfoHtml:
-        '<h3>Popcorn</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 1.5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-8',
-          title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_08.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
-        },
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_09.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-        },
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Cookingdom Level 10<br>Salmon Sushi',
-          imageUrl: '/images/guides_10.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Dalam Cookingdom, Level 11 membawa cabaran yang ringan tetapi penting: membuat Popcorn yang sempurna. Walaupun hidangan ini kelihatan mudah, ia memerlukan masa yang tepat dan perhatian terhadap butiran, terutamanya apabila menyediakan banyak batch untuk pelanggan. Popcorn adalah snek kegemaran, dan dalam Cookingdom, ia akan menguji kemampuan anda untuk menguruskan suhu, perasa, dan kelajuan di bawah tekanan.</p>
-<p>Sambil anda bergerak ke hadapan dalam permainan, Cookingdom memperkenalkan hidangan yang kelihatan mudah tetapi memerlukan multitasking yang cekap untuk mengikut permintaan pelanggan yang semakin meningkat. Bersiap sedia untuk mempopkan biji jagung dengan sempurna!</p>
-
-<h2 id="goal">Matlamat Level 11</h2>
-<ul>
-    <li><strong>Popkan Biji Jagung:</strong> Tugas utama dalam level ini adalah untuk mempopkan biji jagung pada suhu dan masa yang tepat. Anda perlu memastikan bahawa setiap batch dipopkan tanpa terbakar.</li>
-    <li><strong>Tambah Perasa:</strong> Selepas biji jagung dipopkan, anda perlu menambah perasa pada popcorn. Sama ada mentega, keju, atau karamel, menambah perasa akan meningkatkan rasa hidangan.</li>
-    <li><strong>Servis Cepat:</strong> Pelanggan Cookingdom mengharapkan servis yang cepat. Pastikan popcorn yang baru dipopkan dan diperasakan disajikan secepat mungkin untuk memastikan mereka gembira.</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah untuk Membuat Popcorn</h2>
-<ol>
-    <li>
-        <h3>Panasakan Mesin Popcorn:</h3>
-        <p>Mula dengan memanaskan mesin popcorn atau kuali. Cookingdom menyediakan anda dengan pemanas atau dapur untuk memasak popcorn. Pastikan mesin dipanaskan terlebih dahulu, kerana ini membantu biji jagung pop dengan sekata dan mengelakkan terbakar.</p>
-        <p><strong>Tip:</strong> Dalam Cookingdom, anda juga mungkin mempunyai pilihan untuk menaik taraf peralatan anda untuk mempercepatkan proses popping. Menaik taraf mesin popcorn anda akan menjimatkan masa dan mengurangkan kesilapan.</p>
-    </li>
-    <li>
-        <h3>Tambah Biji Jagung:</h3>
-        <p>Setelah mesin cukup panas, masukkan biji jagung dengan berhati-hati. Pastikan biji jagung disebarkan dengan sekata untuk memastikan popping yang seragam. Terlalu banyak biji jagung sekaligus boleh menyebabkan sesak dan popping yang tidak sekata, manakala terlalu sedikit akan membuang ruang dan melambatkan kemajuan anda.</p>
-        <p><strong>Tip:</strong> Dalam Cookingdom, anda akan melihat penunjuk visual atau jam yang menunjukkan bila popcorn sedang dipopkan. Dengar dengan teliti bunyi popping dan ikut petunjuk visual untuk tahu bila proses popping perlu dihentikan.</p>
-    </li>
-    <li>
-        <h3>Menunggu Proses Popping:</h3>
-        <p>Biarkan biji jagung pop, dengan mendengar dengan teliti bunyi popping yang perlahan. Ini adalah isyarat untuk berhenti proses tersebut. Popping yang berlebihan boleh membakar popcorn, manakala popping yang kurang boleh meninggalkan beberapa biji jagung yang tidak dipopkan.</p>
-        <p><strong>Tip:</strong> Jangan tinggalkan mesin tanpa pengawasan! Dalam Cookingdom, anda mungkin perlu menguruskan beberapa tugas, jadi pastikan anda sentiasa memantau popcorn anda.</p>
-    </li>
-    <li>
-        <h3>Perasakan Popcorn:</h3>
-        <p>Setelah popcorn siap, tiba masanya untuk menambah perasa. Cookingdom menawarkan pelbagai pilihan perasa seperti mentega, garam, keju, atau karamel. Pastikan anda memilih perasa yang tepat untuk setiap pesanan pelanggan.</p>
-        <p><strong>Tip:</strong> Anda boleh menambah beberapa lapisan perasa untuk meningkatkan rasa. Contohnya, mulakan dengan mentega, kemudian taburkan sedikit garam atau keju untuk rasa tambahan.</p>
-    </li>
-    <li>
-        <h3>Sajikan Popcorn:</h3>
-        <p>Setelah popcorn diperasakan, kini tiba masa untuk menyajikannya. Pastikan popcorn masih panas dan segar apabila diserahkan kepada pelanggan.</p>
-        <p><strong>Tip:</strong> Semakin segar popcorn, semakin baik rating yang anda akan terima. Pelanggan di Cookingdom sangat menuntut tentang kesegaran.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Trik</h2>
-<ul>
-    <li>
-        <strong>Masa Popping yang Sempurna:</strong> Masa adalah segala-galanya apabila datang kepada popping popcorn. Terlalu banyak haba atau terlalu lama menunggu boleh membakar popcorn, manakala terlalu sedikit haba boleh meninggalkan biji jagung yang tidak dipopkan. Dengar dengan teliti bunyi popping dan pastikan untuk menghentikan proses sebaik sahaja bunyi popping perlahan.</li>
-    <li>
-        <strong>Penyesuaian Perasa:</strong> Dalam Cookingdom, kejayaan terletak pada memenuhi kehendak pelanggan. Sesetengah pelanggan mungkin mahu popcorn biasa, manakala yang lain mungkin mahukan popcorn mentega, keju, atau berkaramel. Pastikan anda membaca setiap pesanan dengan teliti dan menambah perasa yang tepat untuk memastikan kepuasan pelanggan.</li>
-    <li>
-        <strong>Upgrade Peralatan Anda:</strong> Semasa anda melangkah dalam Cookingdom, pertimbangkan untuk menaik taraf mesin popcorn anda. Pemanas yang lebih pantas membolehkan anda melayani lebih banyak pelanggan dalam masa yang lebih singkat, meningkatkan kecekapan dan rating anda.</li>
-    <li>
-        <strong>Bilis dan Kecekapan:</strong> Cookingdom memerlukan servis yang pantas, dan ini tidak berbeza di Level 11. Cuba untuk menyajikan popcorn secepat mungkin setelah ia dipopkan dan diperasakan. Semakin cepat anda menyajikan, semakin tinggi peluang anda untuk mendapat rating positif dari pelanggan.</li>
-    <li>
-        <strong>Uruskankan Banyak Pesanan:</strong> Semakin ramai pelanggan datang, semakin banyak pesanan popcorn yang perlu anda sediakan. Uruskan proses popping dengan berhati-hati dan cuba elakkan meninggalkan popcorn terlalu lama di dalam mesin. Sentiasa hidangkan popcorn yang paling segar untuk mengelakkan aduan.</li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Level 11 dalam Cookingdom, membuat Popcorn kelihatan mudah tetapi memerlukan perhatian kepada masa dan perasa. Biji jagung yang dipop dengan sempurna, jumlah perasa yang tepat, dan servis yang pantas akan memastikan pelanggan anda keluar dengan gembira. Sama ada pesanan biasa atau permintaan untuk mentega dan keju tambahan, kecekapan dan kemahiran multitasking anda akan diuji.</p>
-<p>Semasa anda terus maju dalam Cookingdom, kompleksiti pengurusan pesanan akan meningkat, tetapi menguasai popcorn akan memberi anda asas yang kukuh untuk menghadapi hidangan yang lebih rumit. Teruskan menaik taraf peralatan anda, uruskan banyak pesanan, dan fokus pada menyajikan popcorn yang segar dan lazat untuk memastikan pelanggan kembali lagi!</p>
-`,
-  },
-  {
-    id: 'cookingdom-game-level-12',
-    title: 'Cookingdom Level 12:<br>Ramen',
-    pageTitle: 'Cookingdom Level 12 - Panduan Ramen',
-    pageSubtitle: 'Pelajari cara memasak ramen yang enak dan rumit di Cookingdom Level 12.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: true,
-    imageUrl: '/images/guides_12.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-    iframeUrl: 'https://www.youtube.com/embed/OhB019qY8Fc', // Placeholder
-    seo: {
-      title: 'Cookingdom Level 12 Panduan: Ramen | Tips dan Strategi',
-      description:
-        'Pelajari cara memasak ramen yang sempurna di Cookingdom Level 12. Tips untuk kuah, mi, topping, dan penyajian yang cepat.',
-      keywords:
-        'cookingdom, level 12, ramen, panduan, kuah, mi, topping, pengurusan masa, strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_12.webp', // Placeholder
-      levelInfoHtml:
-        '<h3>Ramen</h3><p><strong>Kadar Kesukaran:</strong> Sukar</p><p><strong>Masa Diperlukan:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimasi
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_09.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-        },
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Cookingdom Level 10<br>Salmon Sushi',
-          imageUrl: '/images/guides_10.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br>Popcorn',
-          imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan</h2>
-<p>Di Cookingdom, Level 12 memperkenalkan hidangan yang enak dan rumit: Ramen. Makanan Jepun kegemaran ini memerlukan banyak bahan yang perlu disediakan serentak: kuah, mi, dan topping. Dalam Cookingdom, matlamat anda adalah untuk menyediakan mangkuk ramen yang sempurna yang akan memikat pelanggan anda. Anda perlu menyeimbangkan masa, berbilang tugas, dan memberi perhatian kepada perincian untuk memastikan setiap mangkuk ramen adalah enak, panas, dan dihias dengan sempurna.</p>
-<p>Ramen dalam Cookingdom adalah peluang untuk menunjukkan kemahiran memasak dan pembentangan anda, kerana pelanggan mempunyai keinginan tertentu untuk mangkuk ramen mereka. Mari kita pelajari langkah-langkah untuk menyediakan hidangan rumit ini!</p>
-
-<h2 id="goal">Matlamat Level 12</h2>
-<ul>
-    <li><strong>Sediakan Kuah Ramen:</strong> Kuah adalah asas bagi setiap ramen yang hebat, dan di Cookingdom, ia penting untuk mendapatkannya dengan betul untuk memuaskan pelanggan. Anda perlu memastikan kuahnya enak dan mempunyai rasa yang tepat.</li>
-    <li><strong>Masak Mi Ramen:</strong> Mi ramen dimasak dengan cepat, tetapi ia memerlukan masa yang tepat. Jika dimasak terlalu lama, ia akan menjadi lembik; jika tidak cukup, ia akan keras.</li>
-    <li><strong>Tambah Topping:</strong> Lapisan terakhir ramen adalah sama pentingnya seperti mi dan kuah. Anda perlu menyediakan topping seperti telur, sayur-sayuran, dan daging, dan meletakkannya dengan betul untuk memastikan hidangan tersebut menarik.</li>
-    <li><strong>Sajikan dengan Cepat:</strong> Kepantasan penyajian penting di Cookingdom, dan ramen terbaik disajikan panas dan segar. Jika anda dapat menyajikan ramen dengan cepat, pelanggan akan lebih berpuas hati.</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah Memasak Ramen</h2>
-<ol>
-    <li>
-        <h3>Sediakan Kuah Ramen:</h3>
-        <p>Langkah pertama dalam membuat ramen adalah menyediakan kuah. Cookingdom memberi panduan untuk menambah bahan-bahan dalam periuk untuk menghasilkan kuah yang sempurna. Biasanya, kuah yang sedap dan kaya rasa dibuat dari gabungan air, sos soya, miso, dan/atau kuah ayam.</p>
-        <p><strong>Tip:</strong> Di Cookingdom, anda boleh menyesuaikan rasa dengan menambah bahan seperti bawang putih, halia, atau bawang. Pastikan kuah dididihkan pada suhu yang tepat untuk memastikan rasa yang kaya.</p>
-        <p><strong>Tip:</strong> Perhatikan suhu. Jika kuah terlalu panas atau sejuk, ia mungkin kehilangan konsistensinya. Kacau sekali-sekala untuk mengelakkan ia terbakar atau mendidih terlalu lama.</p>
-    </li>
-    <li>
-        <h3>Masak Mi Ramen:</h3>
-        <p>Sementara kuah sedang dipanaskan, mulakan dengan memasak mi ramen. Di Cookingdom, mi dimasak dengan cepat, biasanya dalam beberapa minit sahaja. Letakkan mi ke dalam air mendidih dan pastikan ia tidak melekat antara satu sama lain.</p>
-        <p><strong>Tip:</strong> Kacau mi sekali-sekala untuk mengelakkan ia melekat. Anda akan tahu mi telah siap apabila ia lembut tetapi masih sedikit kenyal.</p>
-        <p><strong>Tip:</strong> Masa adalah kunci di sini! Jika mi dimasak kurang, ia akan keras, dan jika terlalu lama, ia akan lembik. Pastikan anda mengawasi masa untuk memastikan mi dimasak dengan sempurna.</p>
-    </li>
-    <li>
-        <h3>Sediakan Topping:</h3>
-        <p>Sementara kuah dan mi sedang disediakan, kini tiba masanya untuk menyediakan topping ramen. Di Cookingdom, terdapat pelbagai topping yang boleh digunakan seperti telur rebus, daging yang dihiris, rumpai laut, jagung, dan sayur-sayuran.</p>
-        <p><strong>Tip:</strong> Telur rebus separuh masak adalah topping yang popular untuk ramen. Untuk menyediakan telur ini, rebus telur selama 6-7 minit untuk mendapatkan kuning telur yang sedikit cair, kemudian kupas dengan berhati-hati.</p>
-        <p><strong>Tip:</strong> Anda juga boleh menambah sayur-sayuran seperti bayam, bok choy, atau cendawan. Sauté dengan ringan atau sajikan segar bergantung pada resipi Cookingdom.</p>
-    </li>
-    <li>
-        <h3>Satukan Ramen:</h3>
-        <p>Apabila kuah, mi, dan topping sudah siap, kini tiba masanya untuk menyatukan ramen. Mulakan dengan menuang kuah ke dalam mangkuk, kemudian letakkan mi yang sudah dimasak. Susun topping dengan berhati-hati di atasnya untuk memastikan ia kelihatan menarik.</p>
-        <p><strong>Tip:</strong> Pembentangan adalah penting di Cookingdom. Susun topping dengan kemas dan ambil kira warna serta tekstur untuk menghasilkan ramen yang cantik. Pembentangan yang baik akan memberi anda markah yang lebih tinggi daripada pelanggan.</p>
-    </li>
-    <li>
-        <h3>Sajikan Ramen:</h3>
-        <p>Apabila ramen anda siap, tiba masanya untuk menyajikannya! Pastikan ia masih panas apabila disajikan, kerana pelanggan di Cookingdom mengharapkan hidangan mereka untuk disajikan segar dan panas.</p>
-        <p><strong>Tip:</strong> Jangan biarkan ramen terlalu lama sebelum disajikan. Apabila ia sejuk, ia tidak akan memberikan pengalaman yang terbaik kepada pelanggan.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips dan Trik</h2>
-<ul>
-    <li>
-        <strong>Kuah yang Sempurna:</strong> Kuah adalah jiwa ramen, jadi pastikan rasanya tepat. Anda boleh mencuba bahan-bahan yang berbeza untuk menyesuaikan rasa mengikut citarasa anda. Di Cookingdom, anda boleh mengubah kuah untuk memenuhi kehendak pelanggan (contohnya, lebih masin, lebih pedas).
-        <p><strong>Tip:</strong> Tambah sedikit sos soya atau miso untuk rasa yang lebih mendalam. Pastikan kuah direbus dengan lama untuk mendapatkan rasa yang lebih kaya.</p>
-    </li>
-    <li>
-        <strong>Waktu Memasak Mi:</strong> Cookingdom menguji anda dalam memasak mi ramen pada masa yang tepat. Perhatikan timer dan kacau mi untuk mengelakkan ia melekat. Jika mi dimasak lebih lama daripada yang sepatutnya, ia akan kehilangan teksturnya dan tidak memuaskan pelanggan.
-    </li>
-    <li>
-        <strong>Variasi Topping:</strong> Pelanggan mungkin ingin topping yang berbeza di Cookingdom, jadi pastikan anda bersedia untuk menyesuaikan ramen mereka mengikut kehendak mereka. Sama ada telur, daging yang dihiris, atau sayuran segar, sentiasa periksa pesanan untuk mengelakkan kesilapan.
-        <p><strong>Tip:</strong> Bahan berwarna-warni boleh menambah keindahan dan rasa ramen. Bawang hijau, bijan, atau serpihan cili adalah tambahan yang baik.</p>
-    </li>
-    <li>
-        <strong>Upgrade Peralatan Dapur Anda:</strong> Semasa anda maju di Cookingdom, anda boleh membuka upgrade untuk dapur anda. Pertimbangkan untuk menaik taraf periuk anda untuk memasak kuah lebih cepat atau memasang dapur yang lebih besar untuk memasak mi lebih cepat. Ini akan membantu anda menjimatkan masa dan memenuhi keperluan pelanggan dengan lebih cepat.
-    </li>
-    <li>
-        <strong>Multitasking:</strong> Di Cookingdom, kemungkinan besar anda akan menguruskan beberapa pesanan serentak. Mulakan dengan kuah lebih awal dan masak mi semasa anda menyediakan topping untuk menjimatkan masa. Pengurusan banyak elemen pada masa yang sama adalah penting untuk kejayaan.
-    </li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Level 12 Cookingdom, memasak ramen adalah keseimbangan yang baik antara menyediakan kuah, memasak mi, dan menambah topping yang betul. Ia adalah hidangan berbilang langkah yang memerlukan masa, ketepatan, dan kepantasan. Kunci kejayaan adalah memastikan semuanya dimasak dengan sempurna dan disajikan panas. Dengan latihan, anda akan menguasai hidangan ini dan terus menaiki tangga kejayaan di Cookingdom!</p>
-<p>Sementara anda terus maju di Cookingdom, cabarannya akan menjadi lebih sukar, tetapi kecekapan dalam menyediakan ramen akan membentuk anda menjadi chef yang lebih baik dalam permainan. Kekalkan kepuasan pelanggan anda dengan kuah yang betul, mi yang kenyal, dan topping yang segar, dan anda akan terus naik di kedudukan Cookingdom!</p>
-`,
-  },
-  {
-    id: 'cookingdom-game-level-13',
-    title: 'Cookingdom Level 13:<br>Hotdog',
-    pageTitle: 'Cookingdom Level 13 - Panduan Hotdog',
-    pageSubtitle: 'Belajar cara membuat Hotdog sempurna di Cookingdom Level 13.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: true,
-    imageUrl: '/images/guides_13.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-    iframeUrl: 'https://www.youtube.com/embed/-at0GKqanSg', // Placeholder
-    seo: {
-      title: 'Panduan Cookingdom Level 13: Hotdog | Tips & Strategi',
-      description:
-        'Kuasi Hotdog di Cookingdom Level 13. Tips untuk memasak sosej, memanggang roti, menambah perasa, dan servis pantas.',
-      keywords:
-        'cookingdom, level 13, hotdog, panduan, sosej, roti, perasa, makanan segera, strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_13.webp', // Placeholder
-      levelInfoHtml:
-        '<h3>Hotdog</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>', // Estimation
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Cookingdom Level 10<br>Sushi Salmon',
-          imageUrl: '/images/guides_10.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br>Popcorn',
-          imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-        },
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Cookingdom Level 12<br>Ramen',
-          imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Di Cookingdom, Level 13 memperkenalkan anda kepada hidangan makanan segera yang digemari: Hotdog. Walaupun kelihatan mudah, menyediakan hotdog yang sempurna memerlukan perhatian kepada perincian, terutamanya apabila menguruskan pesanan pelanggan dan masa. Dalam tahap ini, anda perlu menumpukan perhatian untuk memasak sosej yang sempurna, memanggang roti, dan menambah perasa yang tepat untuk memenuhi kehendak pelanggan.</p>
-<p>Cabaran dalam Cookingdom terletak pada mengikut permintaan pelanggan yang semakin meningkat sambil memastikan setiap hotdog disajikan dengan cepat dan sempurna. Sudah bersedia untuk menghadapi cabaran yang lazat ini? Mari kita pecahkan cara membuat hotdog yang sempurna!</p>
-
-<h2 id="goal">Matlamat Level 13</h2>
-<ul>
-    <li><strong>Masak Sosej:</strong> Sosej adalah bintang dalam hotdog. Anda perlu memanggangnya hingga ke tahap kecrispyan yang tepat tanpa terlebih masak.</li>
-    <li><strong>Gril Roti:</strong> Roti mesti dipanggang dengan ringan untuk menambah kerenyahan dan meningkatkan rasa hotdog.</li>
-    <li><strong>Tambah Perasa dan Topping:</strong> Sesuaikan setiap hotdog dengan perasa yang popular seperti ketchup, mustard, relish, bawang, dan topping lain. Pastikan setiap pesanan sesuai dengan keinginan pelanggan.</li>
-    <li><strong>Servis dengan Cepat:</strong> Seperti semua hidangan di Cookingdom, menyajikan hotdog dengan cepat adalah kunci. Lagi cepat anda menyajikan, lagi gembira pelanggan anda.</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah Membuat Hotdog</h2>
-<ol>
-    <li>
-        <h3>Masak Sosej:</h3>
-        <p>Mulakan dengan memasak sosej. Di Cookingdom, anda akan disediakan dengan gril atau dapur untuk memanaskan sosej. Pastikan memantau masa memasak dengan teliti — terlalu lama, dan ia akan terbakar, terlalu singkat, dan ia akan mentah.</p>
-        <p><strong>Tip:</strong> Cari petunjuk visual seperti kekuningan atau berdesis untuk menganggarkan bila sosej sudah siap. Pastikan memusingkan mereka untuk memastikan masakan rata di semua sisi.</p>
-    </li>
-    <li>
-        <h3>Gril Roti:</h3>
-        <p>Sementara sosej sedang dimasak, anda boleh memanggang roti. Letakkan roti di atas gril atau dapur, pastikan ia menjadi perang sedikit dan sedikit rangup. Di Cookingdom, roti harus lembut di dalam tetapi mempunyai sedikit kerenyahan di luar.</p>
-        <p><strong>Tip:</strong> Jangan terlalu memanggang! Anda mahu roti menjadi hangat dan rangup, tetapi tidak terbakar. Perhatikan dengan teliti untuk mengelakkan ia menjadi terlalu gelap.</p>
-    </li>
-    <li>
-        <h3>Sediakan Perasa dan Topping:</h3>
-        <p>Cookingdom membenarkan anda menambah pelbagai perasa pada hotdog anda. Pilihan biasa termasuk:</p>
-        <ul>
-            <li>Ketchup</li>
-            <li>Mustard</li>
-            <li>Relish</li>
-            <li>Bawang</li>
-            <li>Asam Jawa</li>
-            <li>Keju</li>
-            <li>Timun Jeruk</li>
-            <li>Jalapeños</li>
-        </ul>
-        <p>Pastikan anda membaca setiap pesanan pelanggan dengan teliti untuk menambah perasa dan topping yang betul. Ada pelanggan yang mungkin mahukan hotdog asas, manakala yang lain mahu topping tambahan.</p>
-        <p><strong>Tip:</strong> Anda boleh menambah pelbagai topping untuk rasa yang lebih kompleks. Pastikan untuk menyusunnya secara rata di atas sosej untuk setiap gigitan yang seimbang.</p>
-    </li>
-    <li>
-        <h3>Satukan Hotdog:</h3>
-        <p>Setelah sosej dimasak dengan sempurna dan roti dipanggang, kini tiba masa untuk menyatukan hotdog. Letakkan sosej dalam roti dan tambah perasa serta topping yang diminta. Cookingdom membenarkan anda menyesuaikan setiap pesanan, jadi beri perhatian pada perinciannya!</p>
-        <p><strong>Tip:</strong> Jangan terlalu mengisi hotdog. Sedikit sahaja perasa, dan terlalu banyak topping boleh menjejaskan rasa sosej.</p>
-    </li>
-    <li>
-        <h3>Servis Hotdog:</h3>
-        <p>Setelah menyatukan hotdog, kini tiba masa untuk menyajikannya. Pastikan ia masih panas dan segar. Pelanggan Cookingdom mengharapkan makanan mereka dalam keadaan panas dan lazat, jadi jangan biarkan terlalu lama.</p>
-        <p><strong>Tip:</strong> Semakin segar hotdog, semakin baik penilaian anda. Sajikan dengan cepat untuk memastikan pelanggan anda berpuas hati.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Trik</h2>
-<ul>
-    <li>
-        <strong>Pantau Masa Memasak:</strong> Masa sangat penting ketika memanggang sosej dan roti. Sosej yang kurang masak tidak akan rasa sedap, dan sosej yang terlebih masak akan menjadi kering. Perhatikan proses memasak untuk mendapatkan keseimbangan yang sempurna.
-    </li>
-    <li>
-        <strong>Kustomisasi adalah Kunci:</strong> Dalam Cookingdom, pelanggan sering mempunyai keinginan tertentu untuk hotdog mereka. Ada yang mahu mustard lebih, manakala yang lain lebih suka versi yang lebih sederhana. Sentiasa baca setiap pesanan dengan teliti dan sesuaikan hotdog mengikut apa yang diminta.
-    </li>
-    <li>
-        <strong>Gunakan Pisau Tajam untuk Topping:</strong> Jika anda menambah topping seperti bawang atau timun, pastikan anda memotongnya dengan nipis. Dalam Cookingdom, persembahan yang kemas adalah penting, dan topping yang dipotong rapi akan menjadikan hotdog lebih menarik.
-    </li>
-    <li>
-        <strong>Naik taraf Peralatan Anda:</strong> Ketika anda maju dalam Cookingdom, pertimbangkan untuk menaik taraf gril atau dapur anda. Proses memasak yang lebih pantas dapat membantu anda mengendalikan lebih banyak pesanan sekaligus, meningkatkan kecekapan anda di dapur yang sibuk.
-        <p><strong>Tip:</strong> Anda juga boleh menaik taraf pemanggang roti anda untuk menjadikan proses pemanggangan lebih pantas, membolehkan anda mengekalkan permintaan pelanggan yang semakin meningkat.</p>
-    </li>
-    <li>
-        <strong>Servis dengan Cepat:</strong> Cookingdom memberi ganjaran kepada servis pantas. Lagi cepat anda menyusun dan menyajikan hotdog, semakin baik kepuasan pelanggan. Sentiasa perhatikan jam, kerana pelanggan Cookingdom cenderung menjadi tidak sabar jika makanan mereka tidak disajikan dengan cepat.
-    </li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Level 13 Cookingdom, menyediakan Hotdog yang sempurna adalah tentang masa dan kustomisasi. Memasak sosej dan roti dengan sempurna, menambah perasa yang betul, dan menyajikan dengan cepat adalah kunci kejayaan. Seperti semua tahap dalam Cookingdom, multitasking adalah penting. Pastikan gril dan pemanggang roti berfungsi bersama-sama sambil menyediakan topping untuk memaksimumkan kecekapan.</p>
-<p>Menjadi pakar dalam hidangan makanan segera ini akan membantu anda terus maju dalam Cookingdom. Sama ada anda menyajikan hotdog yang ringkas atau yang dipenuhi topping, perhatian kepada perinciannya dan kelajuan akan membuat perbezaan besar dalam mendapatkan penilaian tinggi daripada pelanggan anda.</p>
-`,
-  },
-
-  {
-    id: 'cookingdom-game-level-14',
-    title: 'Cookingdom Level 14:<br>Salmon dengan Minestrone',
-    pageTitle: 'Cookingdom Level 14 - Panduan Salmon dengan Minestrone',
-    pageSubtitle:
-      'Belajar cara membuat Salmon dengan Minestrone yang canggih di Cookingdom Level 14.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: false,
-    imageUrl: '/images/guides_14.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-    iframeUrl: 'https://www.youtube.com/embed/osxEv217AuU', // Placeholder
-    seo: {
-      title: 'Panduan Cookingdom Level 14: Salmon dengan Minestrone | Tips & Strategi',
-      description:
-        'Kuasi Salmon dengan Minestrone di Cookingdom Level 14. Tips untuk memasak salmon, menyediakan sup minestrone, dan menyeimbangkan hidangan kompleks.',
-      keywords:
-        'cookingdom, level 14, salmon, minestrone, sup, panduan, masak ikan, sup italia, strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_14.webp', // Placeholder
-      levelInfoHtml:
-        '<h3>Salmon w/ Minestrone</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimation
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br>Popcorn',
-          imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-        },
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Cookingdom Level 12<br>Ramen',
-          imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-        },
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Cookingdom Level 13<br>Hotdog',
-          imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-        },
-      ],
-    },
-    detailsHtml: `
-    <h2 id="overview">Gambaran Permainan</h2>
-<p>Di Cookingdom, Level 14 memperkenalkan anda kepada hidangan yang lebih rumit: Salmon dengan Minestrone. Anda perlu memasak salmon yang lembut dan enak, serta menyediakan sup Minestrone yang penuh dengan sayuran dan pasta kecil. Gabungan kedua-dua hidangan ini mencipta pengalaman makan yang seimbang dan memuaskan.</p>
-<p>Memasak salmon dengan sempurna dan menyediakan sup yang lazat mungkin kelihatan mudah, tetapi ia memerlukan perhatian terhadap suhu dan masa. Supaya pelanggan anda dapat menikmati hidangan penuh rasa yang segar, anda mesti mengekalkan keseimbangan antara memasak ikan dan menyediakan sup yang enak.</p>
-
-<h2 id="goal">Matlamat Level 14</h2>
-<ul>
-    <li><strong>Masak Salmon:</strong> Ikan salmon harus dimasak dengan sempurna untuk mendapatkan rasa yang lembut dan tekstur yang ideal. Pastikan ia tidak terlalu masak atau mentah.</li>
-    <li><strong>Sediakan Minestrone:</strong> Sup Minestrone harus kaya dengan sayur-sayuran dan pasta, tetapi tidak terlalu pekat. Masak dengan teliti untuk memastikan rasa sup yang seimbang.</li>
-    <li><strong>Gabungkan Kedua-dua Hidangan:</strong> Gabungkan salmon dan Minestrone dalam hidangan yang kemas dan visual yang menarik. Sajikan dengan pantas!</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah Memasak Salmon dengan Minestrone</h2>
-<ol>
-    <li>
-        <h3>Masak Salmon:</h3>
-        <p>Untuk memasak salmon, anda perlu mengawal suhu dengan teliti. Ikan salmon harus dipanggang atau digoreng dengan minyak zaitun atau mentega. Memasak salmon terlalu lama akan membuatnya kering, jadi pastikan ia masak hanya pada suhu yang ideal.</p>
-        <p><strong>Tip:</strong> Pastikan ikan salmon tidak terlalu kering atau terlalu mentah. Periksa kematangan dengan menekan sedikit ke atas ikan; jika ia mudah terpisah, salmon sudah siap.</p>
-    </li>
-    <li>
-        <h3>Sediakan Minestrone:</h3>
-        <p>Sup Minestrone adalah sup sayuran yang enak, dan harus dimasak dengan sempurna. Pastikan sayur-sayuran dalam sup masih segar dan pasta tidak terlalu lembut. Sup ini harus kaya dengan rasa tetapi tidak terlalu berat.</p>
-        <p><strong>Tip:</strong> Gunakan sayur-sayuran segar seperti lobak, zucchini, dan tomato untuk rasa yang terbaik. Sesuaikan tahap perasa dengan garam dan lada secukupnya.</p>
-    </li>
-    <li>
-        <h3>Satukan Hidangan:</h3>
-        <p>Saat kedua-dua salmon dan sup Minestrone sudah siap, gabungkan kedua-duanya dalam satu hidangan yang kemas. Letakkan sepotong salmon di atas sup dan pastikan ia disusun dengan cantik. Penampilan yang menarik adalah kunci untuk mendapat penilaian yang tinggi!</p>
-        <p><strong>Tip:</strong> Pastikan salmon disajikan di atas sup dengan rapi. Ini bukan sahaja meningkatkan rasa tetapi juga penampilan hidangan.</p>
-    </li>
-    <li>
-        <h3>Servis dengan Cepat:</h3>
-        <p>Seperti semua hidangan dalam Cookingdom, penting untuk menyajikan hidangan ini dengan cepat. Sup yang masih panas dan salmon yang segar adalah kunci kejayaan!</p>
-        <p><strong>Tip:</strong> Pastikan salmon dan Minestrone disajikan dalam keadaan panas agar pelanggan puas hati dengan hidangan yang segar dan lazat.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Trik</h2>
-<ul>
-    <li><strong>Pantau Masa Memasak Salmon:</strong> Salmon yang terlalu masak boleh menjadi kering dan tidak menyenangkan. Sentiasa periksa dengan teliti untuk memastikan ikan tidak terlalu masak.</li>
-    <li><strong>Sediakan Sup Minestrone dengan Teliti:</strong> Pastikan sayur-sayuran dalam sup masih segar dan tekstur pasta sesuai. Jika sup terlalu pekat, anda boleh menambah sedikit air atau stok untuk menipiskannya.</li>
-    <li><strong>Gabungkan dengan Perasa yang Betul:</strong> Pastikan perasa sup Minestrone seimbang. Anda boleh menambah beberapa herba segar seperti basil atau oregano untuk memberikan rasa yang lebih kaya.</li>
-    <li><strong>Naik taraf Peralatan Memasak Anda:</strong> Jika anda dapat, pastikan anda mempunyai peralatan yang tepat untuk memasak ikan salmon dengan sempurna. Dapur yang lebih maju atau pemanggang boleh membantu mempercepatkan proses memasak.</li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Level 14, memasak Salmon dengan Minestrone memerlukan keseimbangan antara memasak ikan yang sempurna dan menyediakan sup yang lazat. Dengan mengikuti langkah-langkah di atas dan memberi perhatian kepada setiap perincian, anda dapat menyediakan hidangan yang enak dan menarik. Sama ada anda memasak salmon atau menyediakan sup Minestrone, pastikan kedua-duanya disajikan dengan cepat dan cantik untuk mencapai penilaian tertinggi!</p>
-
-    `,
-  },
-
-  {
-    // Tambahkan entri untuk Level 15
-    id: 'cookingdom-game-level-15',
-    title: 'Cookingdom Level 15:<br>Ayam Goreng',
-    pageTitle: 'Cookingdom Level 15 - Panduan Ayam Goreng',
-    pageSubtitle:
-      'Pelajari cara memasak Ayam Goreng yang rangup dan sedap di Level 15 dalam Cookingdom.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: false,
-    imageUrl: '/images/guides_15.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
-    iframeUrl: 'https://www.youtube.com/embed/clZlGkI5iOI', // Placeholder
-    seo: {
-      title: 'Cookingdom Level 15 Panduan: Ayam Goreng | Tip dan Strategi',
-      description:
-        'Pelajari cara menguasai Ayam Goreng di Cookingdom Level 15. Dapatkan tip tentang cara memasak ayam yang rangup, menguruskan hidangan sampingan (purée kentang, coleslaw, kentang goreng), dan menyajikan dengan cepat.',
-      keywords:
-        'Cookingdom, Level 15, Ayam Goreng, Panduan, Ayam Rangup, Hidangan Sampingan, Purée Kentang, Coleslaw, Kentang Goreng, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_15.webp', // Placeholder
-      levelInfoHtml:
-        '<h3>Ayam Goreng</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3.5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Teka-teki
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Cookingdom Level 12<br>Ramen',
-          imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-        },
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Cookingdom Level 13<br>Hot Dog',
-          imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-        },
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Cookingdom Level 14<br>Salmon dengan Minestrone',
-          imageUrl: '/images/guides_14.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Dalam Cookingdom, Level 15 memperkenalkan makanan keselesaan klasik: Ayam Goreng. Level ini mencabar anda untuk memasak ayam yang rangup, keemasan, dengan hidangan sampingan yang tepat untuk mencipta hidangan yang lazat. Walaupun ia kelihatan mudah, permainan ini mengenal pasti beberapa cabaran untuk memastikan anda sentiasa berwaspada. Masa yang tepat, suhu, dan rempah memainkan peranan besar dalam menghasilkan ayam yang rangup dan berair sambil mengekalkan kepuasan pelanggan.</p>
-<p>Memasak Ayam Goreng yang sempurna dalam Cookingdom memerlukan tumpuan dan kelajuan. Mari kita lihat langkah-langkah untuk berjaya dalam menyediakan hidangan ini!</p>
-
-<h2 id="goal">Matlamat Level 15</h2>
-<ul>
-    <li>
-        <strong>Sediakan Ayam:</strong> Ayam perlu dibalut dengan rempah dan digoreng hingga mencapai tahap keemasan yang sempurna. Menguruskan suhu minyak adalah penting untuk mengelakkan ayam dari terlalu mentah atau terbakar.
-    </li>
-    <li>
-        <strong>Masak Hidangan Sampingan:</strong> Ayam Goreng biasanya dihidangkan dengan hidangan sampingan seperti purée kentang, coleslaw, atau kentang goreng. Anda perlu menyeimbangkan penyediaan hidangan sampingan sambil menggoreng ayam.
-    </li>
-    <li>
-        <strong>Sajikan dengan Cepat:</strong> Seperti dalam semua level di Cookingdom, masa penyajian yang pantas adalah kunci untuk memastikan kepuasan pelanggan. Makanan yang segar dan panas akan memberikan penarafan yang lebih tinggi.
-    </li>
-</ul>
-
-<h2 id="steps">Langkah-langkah untuk Memasak Ayam Goreng</h2>
-<ol>
-    <li>
-        <h3>Sediakan Ayam:</h3>
-        <p>Mulakan dengan membalut ayam dengan rempah. Dalam Cookingdom, ayam perlu direndam dalam adunan rempah sebelum digoreng dalam kuali panas atau penggoreng dalam minyak.</p>
-        <p><strong>Tip:</strong> Pastikan adunan rempah disapukan dengan rata pada ayam untuk mendapatkan luar yang rangup dan keemasan. Perasakan adunan untuk meningkatkan rasa, dan pastikan suhu minyak tepat. Jika minyak terlalu panas, lapisan luar akan terbakar sebelum ayam dimasak sepenuhnya.</p>
-        <p><strong>Tip:</strong> Sesekali pusingkan ayam semasa menggoreng untuk memastikan ia masak dengan sekata dan memperoleh tekstur rangup yang sempurna.</p>
-    </li>
-    <li>
-        <h3>Masak Hidangan Sampingan:</h3>
-        <p>Semasa ayam digoreng, anda perlu menyediakan hidangan sampingan. Hidangan sampingan biasa untuk Ayam Goreng adalah:</p>
-        <ul>
-            <li><strong>Purée Kentang:</strong> Dalam Cookingdom, anda perlu mendidihkan dan melumatkan kentang, menambah mentega, susu, dan rempah.</li>
-            <li><strong>Coleslaw:</strong> Anda boleh dengan cepat menyediakan coleslaw dengan memotong sayur-sayuran dan mencampurnya dengan dressing berkrim.</li>
-            <li><strong>Kentang Goreng:</strong> Jika kentang goreng ada dalam menu, pastikan ia digoreng sehingga keemasan dan rangup.</li>
-        </ul>
-        <p><strong>Tip:</strong> Anda boleh menyediakan hidangan sampingan semasa ayam sedang digoreng. Jika anda mengusahakan banyak perkara dalam satu masa, pastikan tidak ada hidangan sampingan yang terlalu masak atau mentah.</p>
-    </li>
-    <li>
-        <h3>Satukan Hidangan:</h3>
-        <p>Apabila ayam sudah siap dan hidangan sampingan telah disediakan, sudah tiba masanya untuk menyusun hidangan. Susun ayam goreng di atas pinggan dan letakkan hidangan sampingan, pastikan semuanya teratur. Anda juga boleh menambah hiasan seperti daun parsley atau sedikit sos untuk menambah rasa.</p>
-        <p><strong>Tip:</strong> Pastikan hidangan sampingan dan ayam goreng disusun dengan seimbang agar hidangan kelihatan menarik. Penampilan yang kemas akan memberikan kesan yang baik kepada pelanggan.</p>
-    </li>
-    <li>
-        <h3>Sajikan Ayam Goreng:</h3>
-        <p>Selepas penyusunan, hidangkan makanan segera ketika ia masih panas. Pelanggan di Cookingdom mengharapkan hidangan yang baru dimasak, dan jika anda menyajikan dengan cepat, anda akan mendapat penarafan yang lebih tinggi.</p>
-        <p><strong>Tip:</strong> Jangan biarkan makanan terlalu lama sebelum disajikan. Ayam goreng adalah terbaik apabila masih panas, kerana ia akan kehilangan rangupnya apabila sejuk.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tip dan Trik</h2>
-<ul>
-    <li>
-        <h3>Ayam Goreng yang Sempurna:</h3>
-        <p>Petunjuk untuk ayam goreng yang sempurna adalah suhu minyak yang betul. Jika minyak terlalu panas, lapisan luar akan terbakar sebelum ayam dimasak dengan sempurna. Jika minyak terlalu sejuk, ayam akan menyerap terlalu banyak minyak dan menjadi lembik.</p>
-        <p><strong>Tip:</strong> Pastikan suhu minyak stabil. Anda boleh menguji minyak dengan memasukkan sedikit adunan rempah; ia harus berbuih dengan cepat tanpa terbakar.</p>
-    </li>
-    <li>
-        <h3>Uruskankan Hidangan Sampingan:</h3>
-        <p>Cookingdom mencabar anda untuk multitasking, jadi penting untuk menguruskan masa dalam penyediaan hidangan sampingan. Pastikan tiada hidangan sampingan yang terlalu masak atau mentah.</p>
-        <p><strong>Tip:</strong> Mulakan penyediaan hidangan sampingan apabila ayam sudah dalam minyak. Purée kentang dan kentang goreng akan cepat dimasak, sementara coleslaw boleh disediakan lebih awal.</p>
-    </li>
-    <li>
-        <h3>Perasakan yang Betul:</h3>
-        <p>Perasa adalah penting dalam Cookingdom. Pastikan anda mempunyai keseimbangan garam, lada, dan rempah dalam adunan ayam. Jangan lupa untuk memerahkan hidangan sampingan juga untuk rasa yang seimbang.</p>
-        <p><strong>Tip:</strong> Anda boleh mengubah rempah bergantung kepada selera pelanggan, seperti menambah kepedasan dalam adunan bagi mereka yang suka pedas.</p>
-    </li>
-    <li>
-        <h3>Naik Taraf Peralatan Anda:</h3>
-        <p>Sewaktu anda maju dalam Cookingdom, pertimbangkan untuk menaik taraf penggoreng dan dapur anda. Proses memasak yang lebih cepat akan membantu anda menguruskan pesanan yang semakin banyak pada level yang lebih tinggi.</p>
-        <p><strong>Tip:</strong> Peningkatan peralatan dapur anda akan membantu mempercepatkan proses menggoreng dan memastikan hidangan sampingan disediakan dengan lebih pantas.</p>
-    </li>
-    <li>
-        <h3>Jaga Suhu Minyak:</h3>
-        <p>Cookingdom memerlukan suhu minyak yang tinggi untuk memasak ayam dengan betul. Jika minyak terlalu sejuk, ayam akan menyerap terlalu banyak minyak dan menjadi lembik. Pastikan minyak berada dalam suhu yang stabil.</p>
-    </li>
-</ul>
-
-<h2 id="summary">Kesimpulan</h2>
-<p>Di Level 15 dalam Cookingdom, menyediakan Ayam Goreng memerlukan kemahiran dalam menggoreng ayam untuk mendapatkan rangup yang sempurna dan menguruskan hidangan sampingan seperti purée kentang, coleslaw, atau kentang goreng. Penting untuk bekerja dengan cepat dan menguruskan masa dengan baik supaya setiap hidangan disajikan dalam keadaan terbaik.</p>
-<p>Ayam goreng yang sempurna dengan perasa yang tepat, kentang goreng yang rangup, dan purée kentang yang licin akan memastikan pelanggan kembali lagi. Seperti biasa, kelajuan dan penyajian adalah kunci, jadi pastikan hidangan disajikan segar dan panas!</p>
-<p>Dengan menguasai Ayam Goreng dan meningkatkan multitasking anda, anda akan terus naik level dan menghadapi hidangan yang lebih kompleks dalam Cookingdom.</p>
-`,
-  },
-
-  {
-    id: 'cookingdom-game-level-16',
-    title: 'Cookingdom Level 16:<br>Texas BBQ',
-    pageTitle: 'Cookingdom Level 16 - Panduan Texas BBQ',
-    pageSubtitle: 'Kuasaikan BBQ Texas yang berasap dan berperisa dalam Level 16 Cookingdom.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: false,
-    imageUrl: '/images/guides_16.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-    iframeUrl: 'https://www.youtube.com/embed/KyijXpwgOn8',
-    seo: {
-      title: 'Panduan Cookingdom Level 16: Texas BBQ | Tips & Strategi',
-      description:
-        'Pelajari cara memasak BBQ Texas (ribs, brisket) dalam Cookingdom Level 16. Dapatkan petua memasak perlahan, sos BBQ, hidangan sampingan (roti jagung, kacang panggang, coleslaw), dan pengurusan masa.',
-      keywords:
-        'Cookingdom, Level 16, Texas BBQ, Panduan BBQ, Ribs, Brisket, Sos BBQ, Roti Jagung, Kacang Panggang, Coleslaw, Memasak Perlahan, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_16.webp',
-      levelInfoHtml:
-        '<h3>Texas BBQ</h3><p><strong>Tahap Kesukaran:</strong> Sukar</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Cookingdom Level 13<br>Hot Dog',
-          imageUrl: '/images/guides_13.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-        },
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Cookingdom Level 14<br>Salmon dengan Minestrone',
-          imageUrl: '/images/guides_14.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-        },
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Level 15<br>Ayam Goreng',
-          imageUrl: '/images/guides_15.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-9' },
+          },
         },
       ],
     },
     detailsHtml: `
   <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Dalam Cookingdom, Level 16 membawa cabaran lazat BBQ Texas ke dapur anda. Peringkat ini menguji kemahiran anda dalam menyediakan hidangan BBQ yang penuh rasa dan berasap dengan pelbagai jenis daging, sos dan hidangan sampingan.</p>
-  <p>Anda akan menyediakan BBQ seperti ribs atau brisket, digandingkan dengan roti jagung, kacang panggang dan coleslaw. Kunci kejayaan adalah pengurusan masa memasak dan sajian yang baik.</p>
-  <p>Jom mula dan kuasai BBQ Texas dalam Level 16!</p>
-  
-  <h2 id="goal">Matlamat Level 16</h2>
+  <p>Dalam Cookingdom, setiap tahap baru menuntut anda menyediakan hidangan yang lebih kompleks. Tahap 8 tidak terkecuali — anda perlu memasak stik yang sempurna. Hidangan ini memerlukan kawalan tepat masa, suhu, dan perhatian terhadap pesanan pelanggan. Sepanjang permainan, memasak stik akan menjadi bahagian penting dalam menu anda, dan kemahiran mengawal tahap masakan adalah kunci untuk memuaskan pelanggan.</p>
+  <p>Dalam tahap ini, anda perlu menguruskan dapur dengan cekap untuk memastikan stik dimasak mengikut tahap yang diminta — rare, medium, atau well-done. Mari kita lihat cara memasak stik yang sempurna!</p>
+
+  <h2 id="goal">Matlamat Tahap 8</h2>
   <ul>
-    <li><strong>Masak Daging BBQ (Ribs atau Brisket):</strong> Perlu dimasak dengan betul supaya empuk, berjus dan penuh rasa berasap.</li>
-    <li><strong>Sediakan Sos BBQ:</strong> Sos ini penting untuk menyempurnakan rasa. Pastikan ia kaya, seimbang dan tidak hangus.</li>
-    <li><strong>Masak Hidangan Sampingan:</strong> Roti jagung, kacang panggang dan coleslaw adalah teman setia BBQ Texas.</li>
-    <li><strong>Hidang dengan Cepat:</strong> Seperti biasa dalam Cookingdom, masa adalah penting untuk mengekalkan kepuasan pelanggan.</li>
+      <li><strong>Memasak stik dengan sempurna:</strong> Dalam Cookingdom, anda perlu memasak stik mengikut tahap masakan yang berbeza: rare, medium, dan well-done. Setiap pelanggan mempunyai pilihan sendiri dan penting untuk memasak stik tepat seperti yang dipesan.</li>
+      <li><strong>Menangani beberapa pesanan stik:</strong> Seperti tahap sebelumnya, pengurusan beberapa pesanan adalah kritikal. Cookingdom akan menguji keupayaan anda mengendalikan pesanan yang lebih kompleks pada masa yang sama sambil mengekalkan kualiti.</li>
+      <li><strong>Menghidangkan stik tepat pada masa:</strong> Pelanggan tidak suka menunggu, jadi penting untuk menghidangkan stik segera selepas dimasak. Masa adalah kunci untuk mendapat penilaian terbaik.</li>
   </ul>
-  
-  <h2 id="steps">Langkah-langkah Memasak Texas BBQ</h2>
+
+  <h2 id="steps">Langkah Memasak Stik</h2>
   <ol>
-    <li>
-      <h3>Masak Daging BBQ:</h3>
-      <p>Perap daging dengan rempah yang disediakan. Letakkan atas gril atau dalam smoker dan masak perlahan-lahan. Balikkan untuk memastikan masakan sekata.</p>
-      <p><strong>Tip:</strong> Jangan terlebih masak – ia boleh jadi kering!</p>
-    </li>
-    <li>
-      <h3>Sediakan Sos BBQ:</h3>
-      <p>Campur bahan-bahan asas seperti tomato, cuka, dan gula perang. Renedih sehingga pekat. Kacau selalu untuk elakkan hangus.</p>
-    </li>
-    <li>
-      <h3>Masak Hidangan Sampingan:</h3>
-      <ul>
-        <li><strong>Roti Jagung:</strong> Sedikit manis dan lembut.</li>
-        <li><strong>Kacang Panggang:</strong> Kaya rasa dengan sos BBQ atau sedikit daging.</li>
-        <li><strong>Coleslaw:</strong> Segar dan rangup, penyeimbang hidangan BBQ.</li>
-      </ul>
-    </li>
-    <li>
-      <h3>Susun Hidangan:</h3>
-      <p>Letakkan daging BBQ di pinggan, siramkan sos, dan susun hidangan sampingan dengan kemas.</p>
-    </li>
-    <li>
-      <h3>Hidangkan:</h3>
-      <p>Hantar segera sementara makanan masih panas untuk skor maksimum.</p>
-    </li>
+      <li>
+          <h3>Sediakan kuali atau pemanggang:</h3>
+          <p>Sebelum memasak, panaskan kuali atau pemanggang pada suhu tinggi. Kunci stik yang baik adalah panas yang kuat untuk menghasilkan kerak di luar dan isi yang juicy di dalam. Tambah minyak atau mentega supaya stik tidak melekat.</p>
+          <p><strong>Tip:</strong> Kuali atau pemanggang yang panas memastikan kerak yang enak pada stik.</p>
+      </li>
+      <li>
+          <h3>Perasakan stik:</h3>
+          <p>Apabila kuali panas, perasakan stik dengan garam, lada dan rempah lain mengikut citarasa. Sesetengah pelanggan mungkin mempunyai permintaan khas untuk perasa — sentiasa periksa pesanan.</p>
+          <p><strong>Tip:</strong> Gunakan perasa yang cukup untuk menambah rasa pada kedua-dua belah stik.</p>
+      </li>
+      <li>
+          <h3>Masak stik:</h3>
+          <p>Letakkan stik di atas kuali atau pemanggang panas. Masa memasak bergantung pada tahap masakan yang dikehendaki:</p>
+          <ul>
+              <li>Rare: 2-3 minit setiap sisi.</li>
+              <li>Medium: 4-5 minit setiap sisi.</li>
+              <li>Well-Done: 6-7 minit setiap sisi.</li>
+          </ul>
+          <p><strong>Tip:</strong> Balikkan stik hanya sekali untuk mengekalkan jus. Gunakan penyepit untuk membalik dengan rapi.</p>
+      </li>
+      <li>
+          <h3>Periksa tahap masakan:</h3>
+          <p>Nilai stik secara visual dan sentuhan:</p>
+          <ul>
+              <li>Rare: sejuk sedikit apabila disentuh, isi merah.</li>
+              <li>Medium: agak kenyal, isi merah jambu.</li>
+              <li>Well-Done: padat dan perang di dalam, tiada warna merah jambu.</li>
+          </ul>
+          <p><strong>Tip:</strong> Dalam permainan, mungkin ada penunjuk visual atau pemasa untuk membantu elakkan terlebih masak.</p>
+      </li>
+      <li>
+          <h3>Beri stik berehat:</h3>
+          <p>Setelah dimasak, angkat stik dari api dan biarkan selama satu dua minit. Ini membolehkan jus menyebar rata, menjadikan stik juicy dan lembut.</p>
+          <p><strong>Tip:</strong> Jangan langkau langkah ini! Rehat penting untuk rasa dan kelembapan stik.</p>
+      </li>
+      <li>
+          <h3>Hidangkan stik:</h3>
+          <p>Letakkan stik di atas pinggan dan hidangkan kepada pelanggan. Boleh hias dengan lauk sampingan seperti kentang lecek, sayur atau sos mengikut pesanan.</p>
+          <p><strong>Tip:</strong> Hidangkan segera supaya pelanggan berpuas hati dan tidak bosan menunggu.</p>
+      </li>
   </ol>
-  
-  <h2 id="tips">Tip & Strategi</h2>
+
+  <h2 id="tips">Tips dan Trik</h2>
   <ul>
-    <li><strong>Guna Sos Sama untuk Daging dan Kacang:</strong> Jimat masa dan beri rasa konsisten.</li>
-    <li><strong>Pantau Masa Memasak:</strong> Daging BBQ perlu perhatian – jangan biarkan ia terlalu lama.</li>
-    <li><strong>Masak Hidangan Sampingan Secara Serentak:</strong> Simpan beberapa portion roti jagung dan coleslaw sebagai persediaan awal.</li>
-    <li><strong>Hidang dengan Segera:</strong> Makanan yang segar dan panas beri kepuasan pelanggan yang tinggi.</li>
+      <li>
+          <strong>Memasak stik dengan tahap yang tepat:</strong> Dalam Cookingdom, penting untuk memasak stik mengikut tahap yang dipesan. Pelanggan akan beri penilaian tinggi jika stik dimasak sempurna. Sentiasa perhatikan pesanan dan masa memasak.
+      </li>
+      <li>
+          <strong>Pengurusan pesanan cekap:</strong> Dengan bilangan pelanggan yang meningkat, anda perlu memasak beberapa stik serentak. Prioritikan pesanan mengikut masa menunggu dan elakkan terlebih masak sambil memasak hidangan lain.
+      </li>
+      <li>
+          <strong>Kemaskini peralatan dapur:</strong> Semasa permainan, anda boleh tingkatkan peralatan. Kuali atau pemanggang yang berkualiti masak stik lebih cepat dan berkualiti. Kemaskini ini bantu percepatkan proses dan tingkatkan hasil.
+      </li>
+      <li>
+          <strong>Gunakan pemecut dan booster:</strong> Cookingdom menawarkan pemecut dan booster untuk bantu anda pada waktu sibuk. Gunakan untuk mempercepatkan memasak dan servis terutama semasa pesanan bertimbun.
+      </li>
+      <li>
+          <strong>Puaskan pelanggan:</strong> Kesabaran pelanggan terhad. Jika mereka tunggu terlalu lama, mereka akan pergi kecewa. Sentiasa hidangkan stik panas dengan cepat untuk mengekalkan rating tinggi.
+      </li>
   </ul>
-  
+
   <h2 id="summary">Ringkasan</h2>
-  <p>Level 16 mencabar anda untuk menjadi pakar BBQ Texas. Gabungan teknik memasak perlahan, rasa yang kaya dan pengurusan masa yang baik akan membantu anda memperoleh penilaian tertinggi.</p>
-  <p>Adakah anda bersedia untuk menjadi juara BBQ Texas? 🔥</p>
-    `,
+  <p>Dalam Tahap 8 Cookingdom, memasak stik yang sempurna melibatkan kawalan masa dan mengikuti pilihan pelanggan tentang tahap masakan. Anda akan menguasai penggunaan pemanggang dan kuali, belajar mengurus beberapa pesanan serentak dan menghidangkan stik yang panas dan juicy.</p>
+  <p>Tahap ini memberikan kemahiran penting yang berguna untuk hidangan yang lebih kompleks di tahap berikutnya. Dengan perhatian kepada detail dan penyajian pantas, anda akan menjadi pakar memasak stik dan menggembirakan pelanggan anda!</p>
+  `,
   },
+
+  {
+    id: 'cookingdom-game-level-9',
+    title: 'Cookingdom Tahap 9: Spaghetti - Panduan Lengkap',
+    pageTitle: 'Cookingdom Tahap 9: Spaghetti - Panduan Lengkap',
+    pageSubtitle: 'Kuasi seni memasak spaghetti sempurna pada tahap 9 dalam Cookingdom.',
+    category: '01-10',
+    publishDate: '2025-05-03',
+    isSpecial: true,
+    imageUrl: '/images/guides_09.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-9' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/tZMPN2bgwZo',
+    seo: {
+      title: 'Cookingdom Tahap 9: Panduan Spaghetti | Tips dan Strategi',
+      description:
+        'Belajar memasak spaghetti yang sempurna (al dente!) dengan sos yang tepat pada tahap 9 Cookingdom. Tips tentang masa memasak, penyediaan sos, dan multitasking.',
+      keywords:
+        'cookingdom, tahap 9, spaghetti, panduan, pasta, sos, al dente, pengurusan masa, multitasking',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_09.webp',
+      levelInfoHtml:
+        '<h3>Spaghetti</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 2.5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-8',
+          title: 'Cookingdom Tahap 8: Barbeku Texas - Panduan',
+          imageUrl: '/images/guides_08.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-8' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-10',
+          title: 'Cookingdom Tahap 10: Salmon Sushi - Panduan',
+          imageUrl: '/images/guides_10.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-10' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
+<p>Dalam Cookingdom, setiap tahap memperkenalkan hidangan baru dan pelanggan yang lebih menuntut. Pada tahap 9, misi anda adalah memasak spaghetti, hidangan klasik Itali yang memerlukan kawalan masa yang teliti. Merebus pasta dan menyediakan sos hanyalah permulaan. Untuk memuaskan pelanggan, anda perlu memberi perhatian kepada setiap butiran – dari tahap kemasakan pasta hingga pilihan sos dan hiasan.</p>
+<p>Apabila anda maju dalam Cookingdom, anda akan menghadapi pesanan yang lebih kompleks, dan memasak spaghetti akan menguji kemahiran multitasking dan pengurusan masa anda. Mari lihat langkah-langkah untuk menguasai hidangan ini!</p>
+
+<h2 id="goal">Matlamat Tahap 9</h2>
+<ul>
+  <li><strong>Memasak spaghetti sempurna:</strong> Matlamat utama ialah memasak spaghetti dengan tepat – al dente! Tahap kemasakan yang betul penting untuk memuaskan pelanggan. Pasta yang terlalu lembut atau keras akan mengurangkan penilaian anda.</li>
+  <li><strong>Menyediakan sos:</strong> Spaghetti bukan sahaja tentang pasta. Dalam Cookingdom, anda perlu menyediakan sos yang betul – tomato, krim, atau pesto. Sos mestilah sedap dan sesuai dengan pasta.</li>
+  <li><strong>Menyajikan hidangan dengan cepat:</strong> Seperti tahap lain, kelajuan dan ketepatan penting. Pelanggan menunggu, dan menyajikan spaghetti yang dimasak sempurna dalam keadaan panas adalah kunci untuk mendapat penilaian tinggi.</li>
+</ul>
+
+<h2 id="steps">Langkah-langkah Memasak Spaghetti</h2>
+<ol>
+  <li>
+    <h3>Didihkan air:</h3>
+    <p>Mula-mula, isi periuk dengan air dan didihkan. Pastikan air cukup untuk merebus pasta secara sekata, dan periuk cukup besar.</p>
+    <p><strong>Petua:</strong> Menambah garam ke dalam air memberi rasa pada pasta dan meningkatkan tekstur.</p>
+  </li>
+  <li>
+    <h3>Rebus spaghetti:</h3>
+    <p>Setelah air mendidih, masukkan spaghetti. Pastikan pasta tenggelam sepenuhnya supaya masak rata. Dalam Cookingdom, pasta dimasak selama kira-kira 7-10 minit bergantung kepada tahap kemasakan yang dikehendaki.</p>
+    <p><strong>Petua:</strong> Kacau pasta sekali-sekala supaya tidak melekat. Perhatikan masa – pasta yang terlebih masak akan menjadi lembik dan hancur.</p>
+  </li>
+  <li>
+    <h3>Sediakan sos:</h3>
+    <p>Sambil pasta direbus, sediakan sos. Dalam Cookingdom, ada pelbagai jenis sos, pastikan anda menyediakan sos yang betul mengikut pesanan pelanggan. Untuk sos tomato, tumis bawang dan bawang putih dalam minyak zaitun, tambah tomato dalam tin dan reneh. Untuk sos krim, cairkan mentega dan krim, perasakan dengan garam dan lada.</p>
+    <p><strong>Petua:</strong> Renehkan sos selama beberapa minit supaya aroma berkembang. Boleh tambah herba seperti basil, oregano, atau parsley untuk menambah rasa.</p>
+  </li>
+  <li>
+    <h3>Toskan air dan campur:</h3>
+    <p>Apabila pasta sudah masak, toskan air, tinggalkan sedikit air rebusan untuk sesuaikan sos. Masukkan pasta ke dalam sos dan kacau rata supaya pasta disaluti sos dengan sekata.</p>
+    <p><strong>Petua:</strong> Jika sos terlalu pekat, tambah sedikit air rebusan untuk memudahkan salutan sos pada pasta.</p>
+  </li>
+  <li>
+    <h3>Sajikan spaghetti:</h3>
+    <p>Setelah pasta dan sos dicampur dengan baik, hidangkan spaghetti ke atas pinggan. Hiaskan dengan keju parut, herba segar, atau sedikit minyak zaitun. Dalam Cookingdom, sesetengah pelanggan mungkin minta hiasan khas, jadi periksa pesanan dengan teliti.</p>
+    <p><strong>Petua:</strong> Hidangkan spaghetti segera supaya tidak terlalu masak atau sejuk. Pelanggan Cookingdom mahu hidangan panas dan segar, jadi kelajuan penyajian penting.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Tips dan Cadangan</h2>
+<ul>
+  <li><strong>Masa yang tepat:</strong> Perkara paling penting dalam memasak spaghetti ialah masa merebus. Jika dimasak terlalu lama, pasta akan hancur; jika kurang, ia keras. Dalam permainan ada pemasa untuk setiap hidangan, pantau masa dengan teliti.</li>
+  <li><strong>Penyediaan sos:</strong> Sos sama penting dengan pasta! Pastikan rasanya sedap dan sesuai dengan pesanan pelanggan. Pelanggan biasanya pesan sos atau hiasan tertentu, baca pesanan dengan teliti.</li>
+  <li><strong>Kemaskini peralatan dapur:</strong> Semasa bermain, anda boleh membuka peralatan dapur baru yang mempercepatkan masa memasak pasta. Penambahbaikan dapur atau periuk besar membolehkan memasak beberapa hidangan serentak.</li>
+  <li><strong>Urus pesanan berbilang:</strong> Dalam Cookingdom, anda sering perlu menyediakan beberapa pesanan serentak. Masak pasta dan sos untuk setiap pesanan secara selari dan hidang bila sudah siap. Utamakan pesanan yang menunggu lama dan pastikan sos sesuai dengan pesanan.</li>
+  <li><strong>Memuaskan pelanggan:</strong> Pelanggan Cookingdom sangat menuntut dari segi kualiti dan kelajuan. Untuk buat mereka gembira, hidangkan spaghetti tepat pada masa dan pada tahap kemasakan yang betul. Pasta yang terlebih atau kurang masak akan menyebabkan ketidakpuasan hati.</li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Tahap 9 dalam Cookingdom menguji kemahiran anda dalam memasak spaghetti sempurna dengan perhatian pada setiap butiran. Dari mendidihkan air hingga menyediakan sos dan menghidangkan hidangan panas — masa dan kecekapan sangat penting untuk mendapat penilaian tinggi. Urus beberapa pesanan dengan cekap dan pastikan setiap pinggan disajikan dengan sos yang tepat dan keadaan terbaik.</p>
+<p>Kuasi hidangan ini untuk membuka resipi lebih kompleks dan terus tingkatkan kemahiran memasak anda dalam Cookingdom. Asah teknik memasak pasta dan teruskan perjalanan anda!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-10',
+    title: 'Panduan Cookingdom Tahap 10: Sushi Salmon',
+    pageTitle: 'Panduan Cookingdom Tahap 10: Sushi Salmon',
+    pageSubtitle: 'Pelajari cara menyediakan sushi salmon yang sempurna di tahap 10 Cookingdom.',
+    category: '01-10',
+    publishDate: '2025-05-03',
+    isSpecial: false,
+    imageUrl: '/images/guides_10.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-10' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/Z6UgpR3Z8CI',
+    seo: {
+      title: 'Cookingdom Tahap 10: Sushi Salmon | cookingdom.co',
+      description:
+        'Kuasi cara menyediakan sushi salmon di tahap 10 Cookingdom. Tips untuk nasi sushi yang sempurna, potongan salmon, cara gulung sushi, dan penyajian.',
+      keywords:
+        'cookingdom tahap 10, cookingdom sushi salmon, panduan sushi, nasi sushi, potongan ikan, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_10.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 10: Sushi Salmon</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 4.5 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-9',
+          title: 'Panduan Cookingdom Tahap 9: Spaghetti',
+          imageUrl: '/images/guides_09.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-9' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Panduan Cookingdom Tahap 11: Popcorn',
+          imageUrl: '/images/guides_11.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-11' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 10</h2>
+<p>Di tahap 10 Cookingdom, anda telah menguasai asas-asas dan kini bersedia untuk menyediakan hidangan yang lebih kompleks. Sushi salmon adalah hidangan yang memerlukan seni menyediakan nasi sushi yang sempurna, memotong ikan salmon dengan tepat, dan menggulung sushi dengan kemas. Berbeza dengan tahap-tahap sebelumnya, tahap ini menuntut ketepatan dalam penyediaan dan persembahan.</p>
+<p>Pada tahap ini, pemain perlu menyediakan pesanan dengan cepat dan tepat, memberi perhatian kepada bahan-bahan halus dalam sushi salmon. Ini adalah masa untuk meningkatkan kemahiran menggunakan pisau dan penyediaan nasi anda!</p>
+
+<h2 id="goal">Matlamat Cookingdom Tahap 10</h2>
+<ul>
+  <li><strong>Sediakan nasi sushi:</strong> Asas kepada sushi yang baik ialah nasi yang dimasak sempurna. Dalam Cookingdom, anda perlu membasuh nasi dengan teliti, memasaknya, dan membumbui dengan cuka, gula, dan garam.</li>
+  <li><strong>Potong salmon segar:</strong> Salmon adalah bahan utama hidangan ini, dan kesegaran serta ketebalannya penting untuk rasa yang autentik. Potong salmon dengan hati-hati menjadi kepingan nipis dan sekata.</li>
+  <li><strong>Kumpulkan sushi:</strong> Selepas menyediakan nasi dan salmon, gulung sushi dengan kemas memastikan ia kemas dan rata.</li>
+  <li><strong>Hidangkan sushi:</strong> Masa adalah penting — hidangkan sushi dengan cepat untuk mengekalkan kesegarannya.</li>
+</ul>
+
+<h2 id="steps">Langkah-langkah Menyediakan Sushi Salmon di Cookingdom Tahap 10</h2>
+<ol>
+  <li>
+    <h3>Menyediakan Nasi Sushi</h3>
+    <p>Langkah pertama adalah menyediakan nasi. Basuh nasi dengan teliti beberapa kali untuk menghilangkan kanji berlebihan supaya nasi tidak menjadi terlalu melekit.</p>
+    <p><strong>Tip:</strong> Basuh nasi sehingga air menjadi jernih untuk tekstur yang sempurna.</p>
+    <p>Masak nasi menggunakan periuk nasi atau periuk biasa. Selepas masak, pindahkan nasi ke dalam mangkuk besar dan biarkan ia sejuk sedikit. Kemudian, gaulkan dengan campuran cuka beras, gula, dan garam.</p>
+    <p><strong>Tip:</strong> Kacau nasi dengan sudu kayu secara perlahan supaya butiran nasi tidak hancur. Pastikan nasi benar-benar sejuk sebelum digunakan.</p>
+  </li>
+  <li>
+    <h3>Memotong Salmon Segar</h3>
+    <p>Sementara nasi sejuk, mulakan memotong salmon. Gunakan pisau yang tajam untuk mendapatkan kepingan nipis dan rata setebal kira-kira 1/8 inci untuk tekstur terbaik.</p>
+    <p><strong>Tip:</strong> Pilih salmon yang segar dan berkualiti tinggi untuk rasa yang terbaik. Dalam permainan, anda boleh memilih bahan paling segar.</p>
+  </li>
+  <li>
+    <h3>Menyusun Sushi</h3>
+    <p>Letakkan sedikit nasi di atas tikar buluh atau permukaan bersih. Ratakan nasi dengan nipis dan sekata.</p>
+    <p><strong>Tip:</strong> Jangan tekan nasi terlalu kuat supaya sushi kekal ringan dan gebu.</p>
+    <p>Letakkan kepingan salmon di tengah-tengah nasi secara rata.</p>
+    <p><strong>Tip:</strong> Jika permainan menawarkan bahan tambahan seperti wasabi atau halia jeruk, jangan lupa tambah untuk rasa autentik.</p>
+  </li>
+  <li>
+    <h3>Menggulung Sushi</h3>
+    <p>Gunakan tikar buluh untuk menggulung nasi dan salmon dengan ketat. Gulungan harus padat tetapi tidak terlalu keras supaya nasi tidak hancur.</p>
+    <p><strong>Tip:</strong> Gulung dengan perlahan dan berhati-hati untuk mengekalkan bentuk sushi.</p>
+  </li>
+  <li>
+    <h3>Memotong dan Menghidang Sushi</h3>
+    <p>Selepas menggulung, potong sushi kepada saiz satu suapan dengan pisau tajam untuk potongan yang rata tanpa serpihan.</p>
+    <p><strong>Tip:</strong> Potongan yang sekata dan seragam memberikan penampilan autentik.</p>
+    <p>Hidangkan sushi segera selepas memotong untuk mengekalkan kesegarannya.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Tips dan Trik Cookingdom Tahap 10</h2>
+<ul>
+  <li><strong>Nasi sushi yang sempurna:</strong> Ikuti langkah tepat untuk membasuh, memasak, dan membumbui nasi. Cuba resipi cuka, gula, dan garam yang berbeza untuk rasa yang seimbang.</li>
+  <li><strong>Gunakan pisau tajam:</strong> Pisau tajam memastikan potongan salmon yang kemas tanpa merosakkan isi ikan. Dalam permainan, anda boleh menaik taraf pisau untuk hasil terbaik.</li>
+  <li><strong>Jangan terlalu penuh gulungan:</strong> Kuantiti isi yang optimum penting untuk menggulung dengan mudah dan bentuk sushi yang baik.</li>
+  <li><strong>Multi-tugasan:</strong> Sementara nasi sejuk, mulakan penyediaan bahan atau hidangan lain untuk efisiensi lebih tinggi.</li>
+  <li><strong>Hiasan dan penyajian:</strong> Tambah wasabi, halia jeruk dan hiasan lain untuk penampilan lebih menarik dan skor pelanggan lebih tinggi.</li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Cookingdom Tahap 10 adalah ujian ketepatan, pengurusan masa dan multi-tugasan. Dari penyediaan nasi ke pemotongan ikan dan penggulungan sushi, setiap langkah memerlukan perhatian pada perincian. Kunci kejayaan adalah kesegaran, ketelitian dan penyajian yang pantas. Menguasai sushi salmon akan mempersiapkan anda untuk hidangan yang lebih rumit di tahap seterusnya dan memuaskan pelanggan restoran anda.</p>
+  `,
+  },
+
+  {
+    id: 'cookingdom-game-level-11',
+    title: 'Panduan Cookingdom Tahap 11: PopCorn',
+    pageTitle: 'Panduan Cookingdom Tahap 11: PopCorn',
+    pageSubtitle: 'Belajar cara membuat popcorn yang sempurna di Cookingdom Tahap 11.',
+    category: '11-20',
+    publishDate: '2025-05-04',
+    isSpecial: true,
+    imageUrl: '/images/guides_11.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+    iframeUrl: 'https://www.youtube.com/embed/B1RSotgn3Bo',
+    seo: {
+      title: 'Panduan Cookingdom Tahap 11: Popcorn | cookingdom.co',
+      description:
+        'Kuasi cara membuat Popcorn di Cookingdom Tahap 11. Petua masa meletup yang sempurna, perisa, dan servis pantas.',
+      keywords:
+        'cookingdom tahap 11, popcorn Cookingdom, panduan, meletup, perisa, pengurusan masa, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_11.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 11: Popcorn</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 1.5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-10',
+          title: 'Panduan Cookingdom Tahap 10: Salmon Sushi',
+          imageUrl: '/images/guides_10.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
+        },
+        {
+          id: 'cookingdom-game-level-12',
+          title: 'Panduan Cookingdom Tahap 12: Ramen',
+          imageUrl: '/images/guides_12.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 11</h2>
+<p>Cookingdom Tahap 11 mempersembahkan cabaran ringan tetapi penting: membuat popcorn yang sempurna. Walaupun hidangan ini kelihatan mudah, ia memerlukan masa yang tepat dan perhatian terhadap perincian, terutamanya apabila menyediakan jumlah yang banyak untuk beberapa pelanggan. Popcorn adalah snek kegemaran, dan dalam Cookingdom, ia menguji keupayaan anda menguruskan haba, perisa, dan kelajuan di bawah tekanan.</p>
+<p>Semasa anda maju dalam permainan, Cookingdom memperkenalkan hidangan yang kelihatan mudah tetapi memerlukan multitugas yang cekap untuk memenuhi permintaan pelanggan yang semakin meningkat. Bersedia untuk meletupkan biji jagung itu dengan sempurna!</p>
+
+<h2 id="goal">Matlamat Cookingdom Tahap 11</h2>
+<ul>
+  <li><strong>Letupkan Biji Jagung:</strong> Tugas utama di peringkat ini ialah meletupkan biji jagung pada suhu dan masa yang tepat. Anda perlu memastikan setiap kumpulan meletup tanpa terbakar.</li>
+  <li><strong>Tambah Perisa:</strong> Selepas meletupkan biji jagung, anda perlu membumbui popcorn dengan sempurna. Sama ada mentega, keju, atau karamel, perisa akan menaikkan rasa hidangan.</li>
+  <li><strong>Hidangkan Dengan Cepat:</strong> Pelanggan Cookingdom Tahap 11 mengharapkan perkhidmatan cepat. Pastikan popcorn yang baru meletup dan dibumbui dihidangkan dengan segera untuk memastikan mereka gembira.</li>
+</ul>
+
+<h2 id="steps">Langkah-Langkah Membuat Popcorn di Cookingdom Tahap 11</h2>
+<ol>
+  <li>
+    <h3>Panaskan Mesin Popcorn:</h3>
+    <p>Mula dengan memanaskan mesin popcorn atau kuali. Cookingdom Tahap 11 menyediakan anda dengan mesin atau dapur untuk memasak popcorn. Pastikan mesin dipanaskan terlebih dahulu kerana ini membantu biji jagung meletup dengan rata dan mengelakkan terbakar.</p>
+    <p><strong>Tip:</strong> Di Cookingdom Tahap 11, anda juga mungkin mempunyai pilihan untuk menaik taraf peralatan anda bagi mempercepatkan dan menjadikan proses meletup lebih efisien. Menaik taraf mesin popcorn akan menjimatkan masa dan mengurangkan kesilapan.</p>
+  </li>
+  <li>
+    <h3>Masukkan Biji Jagung:</h3>
+    <p>Setelah mesin panas, masukkan biji jagung dengan berhati-hati. Pastikan biji jagung diagihkan dengan rata untuk memastikan meletup yang sekata. Terlalu banyak biji jagung dalam satu masa boleh menyebabkan sesak dan meletup tidak sekata, manakala terlalu sedikit akan membazirkan ruang dan melambatkan kemajuan anda.</p>
+    <p><strong>Tip:</strong> Dalam Cookingdom Tahap 11, anda akan melihat penunjuk visual atau pemasa yang menunjukkan bila popcorn sedang meletup. Perhatikan bunyi dan petunjuk visual untuk tahu bila hendak berhenti meletup.</p>
+  </li>
+  <li>
+    <h3>Tunggu Proses Meletup:</h3>
+    <p>Biar biji jagung meletup, dengar dengan teliti bunyi meletup yang semakin perlahan. Ini adalah isyarat anda untuk berhenti. Meletup berlebihan boleh menyebabkan popcorn terbakar, manakala meletup kurang boleh meninggalkan beberapa biji tidak meletup.</p>
+    <p><strong>Tip:</strong> Jangan tinggalkan mesin tanpa pengawasan! Dalam Cookingdom Tahap 11, anda mungkin perlu menguruskan pelbagai tugas, jadi sentiasa perhatikan popcorn anda.</p>
+  </li>
+  <li>
+    <h3>Perasakan Popcorn:</h3>
+    <p>Setelah popcorn siap, tiba masa untuk membumbuinya. Cookingdom Tahap 11 menawarkan pelbagai pilihan perisa seperti mentega, garam, keju, atau karamel. Pastikan anda memilih perisa yang betul untuk setiap pesanan pelanggan.</p>
+    <p><strong>Tip:</strong> Anda boleh menambah beberapa lapisan perisa untuk menambah rasa. Contohnya, mula dengan mentega, kemudian taburkan sedikit garam atau keju untuk rasa tambahan.</p>
+  </li>
+  <li>
+    <h3>Hidangkan Popcorn:</h3>
+    <p>Setelah popcorn dibumbui, masa untuk menghidangkannya. Pastikan popcorn masih panas dan segar ketika diserahkan kepada pelanggan.</p>
+    <p><strong>Tip:</strong> Semakin segar popcorn, semakin baik penilaian yang anda akan terima. Pelanggan Cookingdom Tahap 11 sangat mementingkan kesegaran.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua & Trik Cookingdom Tahap 11</h2>
+<ul>
+  <li>
+    <strong>Masa Meletup Sempurna:</strong> Masa sangat penting semasa meletupkan popcorn. Terlalu panas atau terlalu lama boleh menyebabkan popcorn terbakar, manakala kurang panas boleh meninggalkan biji jagung tidak meletup.
+  </li>
+  <li>
+    <strong>Penyesuaian Perisa:</strong> Dalam Cookingdom Tahap 11, kunci kejayaan adalah memenuhi keinginan pelanggan anda. Sesetengah pelanggan mahu popcorn biasa, manakala yang lain mahukan popcorn bermentega, berkeju, atau berkaramel. Pastikan anda membaca setiap pesanan dengan teliti dan gunakan perisa yang betul untuk memuaskan pelanggan.
+  </li>
+  <li>
+    <strong>Tingkatkan Peralatan Anda:</strong> Semasa anda maju dalam Cookingdom Tahap 11, pertimbangkan untuk menaik taraf mesin popcorn anda.
+  </li>
+  <li>
+    <strong>Kelajuan dan Kecekapan:</strong> Cookingdom Tahap 11 memerlukan perkhidmatan pantas. Cuba hidangkan popcorn sebaik sahaja ia siap meletup dan dibumbui. Semakin cepat anda hidangkan, semakin tinggi peluang mendapat penilaian positif dari pelanggan anda.
+  </li>
+  <li>
+    <strong>Urus Pelbagai Pesanan:</strong> Apabila lebih ramai pelanggan tiba, anda perlu menyediakan beberapa pesanan popcorn sekaligus.
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Dalam Cookingdom Tahap 11, membuat Popcorn nampak mudah tetapi memerlukan perhatian kepada masa dan perisa. Biji jagung yang meletup dengan sempurna, jumlah perisa yang tepat, dan perkhidmatan pantas akan memastikan pelanggan anda berpuas hati.</p>
+<p>Apabila anda meneruskan Cookingdom Tahap 11, kerumitan pengurusan pesanan akan meningkat, tetapi menguasai popcorn akan memberikan anda asas yang diperlukan untuk menangani hidangan yang lebih kompleks. Teruskan menaik taraf peralatan dan buat popcorn yang sedap supaya pelanggan anda akan kembali lagi!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-12',
+    title: 'Cookingdom Tahap 12 Panduan Memasak Ramen',
+    pageTitle: 'Cookingdom Tahap 12 Panduan Memasak Ramen',
+    pageSubtitle:
+      'Belajar cara menyediakan ramen yang lazat dan kompleks dalam Cookingdom Tahap 12.',
+    category: '11-20',
+    publishDate: '2025-05-04',
+    isSpecial: true,
+    imageUrl: '/images/guides_12.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
+    iframeUrl: 'https://www.youtube.com/embed/cWCa8cDO_hw',
+    seo: {
+      title: 'Cookingdom Tahap 12 Panduan Ramen | cookingdom.co',
+      description:
+        'Kuasi cara memasak ramen dalam Cookingdom Tahap 12. Petua untuk sup yang sempurna, mi, topping dan servis yang pantas.',
+      keywords:
+        'cookingdom tahap 12, cookingdom ramen, panduan, topping, pengurusan masa, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_12.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 12 Ramen</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Cookingdom Tahap 11 Panduan Popcorn',
+          imageUrl: '/images/guides_11.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+        },
+        {
+          id: 'cookingdom-game-level-13',
+          title: 'Cookingdom Tahap 13 Panduan Hotdog',
+          imageUrl: '/images/guides_13.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 12</h2>
+<p>Dalam Cookingdom Tahap 12, anda akan menyediakan ramen yang kaya dan kompleks. Hidangan Jepun kegemaran ini memerlukan persiapan beberapa komponen serentak: sup, mi, dan topping. Matlamat anda adalah menghasilkan semangkuk ramen yang sempurna supaya pelanggan berpuas hati dan terus datang kembali. Anda perlu mengimbangi masa, mengurus beberapa tugas pada masa yang sama, dan memastikan setiap mangkuk ramen sedap, panas dan cantik dihias.</p>
+<p>Ramen di Tahap 12 adalah peluang terbaik untuk menunjukkan kemahiran memasak dan penyajian anda kerana pelanggan mempunyai pilihan topping yang berbeza. Mari kita lihat langkah-langkah penyediaan!</p>
+
+<h2 id="goal">Matlamat Cookingdom Tahap 12</h2>
+<ul>
+  <li><strong>Sediakan sup ramen:</strong> Sup adalah asas ramen yang baik, dan di tahap 12 sangat penting untuk menyediakan sup yang tepat bagi memuaskan pelanggan.</li>
+  <li><strong>Rebus mi:</strong> Mi ramen masak dengan cepat, tetapi masa yang tepat adalah penting.</li>
+  <li><strong>Tambah topping:</strong> Sentuhan terakhir pada ramen sama penting dengan mi dan sup.</li>
+  <li><strong>Hidangkan pesanan dengan cepat:</strong> Masa sangat penting dalam Tahap 12, ramen perlu dihidang segar dan panas.</li>
+</ul>
+
+<h2 id="steps">Langkah Penyediaan Ramen dalam Cookingdom Tahap 12</h2>
+<ol>
+  <li>
+    <h3>Menyediakan sup:</h3>
+    <p>Langkah pertama adalah menyediakan sup. Di tahap 12, anda perlu menambah bahan ke dalam periuk untuk menghasilkan sup yang sempurna. Biasanya campuran air, kicap, miso, dan/atau stok ayam.</p>
+    <p><strong>Tip:</strong> Anda boleh tambah bawang putih, halia, atau daun bawang untuk rasa yang lebih sedap. Rebus sup cukup lama supaya rasa kaya dan wangi.</p>
+    <p><strong>Tip:</strong> Perhatikan suhu supaya sup tidak terlalu panas atau sejuk. Kacau sekali-sekala agar sup tidak melekat di dasar periuk.</p>
+  </li>
+  <li>
+    <h3>Memasak mi:</h3>
+    <p>Sambil sup dimasak, rebus mi. Mi ramen masak dalam masa singkat, biasanya dalam beberapa minit sahaja. Masukkan mi ke dalam air mendidih dan pastikan mi tidak melekat antara satu sama lain.</p>
+    <p><strong>Tip:</strong> Kacau mi supaya tidak bergumpal. Mi dianggap masak apabila lembut tetapi masih kenyal.</p>
+    <p><strong>Tip:</strong> Masa memasak penting! Mi yang kurang masak keras, mi yang terlebih masak pula lembik dan kurang sedap.</p>
+  </li>
+  <li>
+    <h3>Menyediakan topping:</h3>
+    <p>Sambil sup dan mi dimasak, sediakan topping. Di tahap 12, anda boleh gunakan pelbagai topping seperti telur rebus, hirisan daging babi, rumpai laut, jagung, dan sayur-sayuran.</p>
+    <p><strong>Tip:</strong> Telur rebus sangat digemari. Rebus telur selama 6-7 minit supaya kuning telur sedikit cair dan kupas dengan kemas.</p>
+    <p><strong>Tip:</strong> Tambah sayur seperti bayam, bok choy atau cendawan — boleh digoreng sedikit atau digunakan segar bergantung pada resipi.</p>
+  </li>
+  <li>
+    <h3>Menyusun ramen:</h3>
+    <p>Apabila sup, mi dan topping sudah siap, susun ramen dalam mangkuk.</p>
+    <p><strong>Tip:</strong> Susun dengan kemas supaya kelihatan menarik — perhatikan warna dan tekstur supaya pelanggan tertarik dan beri rating tinggi.</p>
+  </li>
+  <li>
+    <h3>Menghidang ramen:</h3>
+    <p>Hidangkan ramen segera selepas siap untuk memastikan hidangan panas dan segar — ini penting untuk kepuasan pelanggan di tahap 12.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua dan Trik untuk Cookingdom Tahap 12</h2>
+<ul>
+  <li><strong>Sup yang sempurna:</strong> Sup adalah jiwa ramen, laraskan perasa mengikut citarasa pelanggan (contoh: masin atau pedas).</li>
+  <li><strong>Masa tepat untuk mi:</strong> Sentiasa pantau masa memasak dan kacau supaya mi tidak bergumpal. Mi yang terlebih masak kehilangan tekstur dan mengecewakan pelanggan.</li>
+  <li><strong>Variasi topping:</strong> Pelanggan mungkin mahu topping berbeza, jadi pastikan anda baca pesanan dengan teliti untuk elak kesilapan.</li>
+  <li><strong>Tingkatkan peralatan dapur:</strong> Dalam permainan, anda boleh naik taraf peralatan dapur seperti periuk dan dapur untuk percepatkan proses memasak.</li>
+  <li><strong>Multi-tasking:</strong> Masak sup, rebus mi dan sediakan topping serentak untuk guna masa dengan efisien dan hadapi aliran pesanan yang banyak.</li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Cookingdom Tahap 12 memerlukan kemahiran memasak sup, mi dan topping secara serentak — satu hidangan kompleks dengan banyak langkah. Kunci kejayaan adalah masa yang tepat, ketelitian dan kelajuan menghidang. Dengan latihan, anda akan dapat menyediakan ramen yang lazat dan panas dengan pantas, memuaskan pelanggan.</p>
+<p>Apabila anda terus maju, tahap menjadi lebih mencabar, tetapi penguasaan ramen akan membantu anda menjadi tukang masak terunggul dalam Cookingdom. Jaga rasa sup, keanjalan mi dan kesegaran topping untuk kekal di puncak!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-13',
+    title: 'Cookingdom Tahap 13: Panduan Hotdog',
+    pageTitle: 'Cookingdom Tahap 13: Panduan Hotdog',
+    pageSubtitle: 'Pelajari cara membuat Hotdog yang sempurna di Cookingdom Tahap 13.',
+    category: '11-20',
+    publishDate: '2025-05-04',
+    isSpecial: true,
+    imageUrl: '/images/guides_13.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
+    iframeUrl: 'https://www.youtube.com/embed/KAEF5XdupAg',
+    seo: {
+      title: 'Cookingdom Tahap 13: Hotdog | cookigdom.co',
+      description:
+        'Kuasi cara membuat hotdog di Cookingdom Tahap 13. Tips memasak sosej, memanggang roti, menambah perasa, dan servis pantas.',
+      keywords: 'cookingdom tahap 13, cookingdom hotdog, panduan, sosej, makanan segera, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_13.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 13: Hotdog</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-12',
+          title: 'Cookingdom Tahap 12: Ramen',
+          imageUrl: '/images/guides_12.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
+        },
+        {
+          id: 'cookingdom-game-level-14',
+          title: 'Cookingdom Tahap 14: Salmon Dengan Minestrone',
+          imageUrl: '/images/guides_14.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 13</h2>
+<p>Di Cookingdom Tahap 13, anda akan diperkenalkan dengan hidangan makanan segera yang popular: Hotdog. Walaupun nampak mudah, menyediakan hotdog yang sempurna memerlukan perhatian pada detail, terutama dalam menguruskan pesanan pelanggan dan masa. Dalam tahap ini, anda perlu fokus memasak sosej dengan sempurna, memanggang roti, dan menambah perasa yang tepat untuk memuaskan kehendak pelanggan.</p>
+<p>Cabaran utama di Cookingdom Tahap 13 adalah untuk menguruskan permintaan pelanggan yang semakin meningkat sambil memastikan setiap hotdog dihidangkan dengan cepat dan sempurna.</p>
+
+<h2 id="goal">Matlamat Cookingdom Tahap 13</h2>
+<ul>
+  <li><strong>Masak Sosej:</strong> Sosej adalah bintang utama hotdog. Anda perlu memanggangnya sampai cukup rangup tanpa terlebih masak.</li>
+  <li><strong>Memanggang Roti:</strong> Roti mesti dipanggang sedikit supaya menjadi rangup dan menambah rasa pada hotdog.</li>
+  <li><strong>Tambah Perasa dan Topping:</strong> Sesuaikan setiap hotdog dengan perasa popular seperti ketchup, mustard, relish, bawang, dan topping lain.</li>
+  <li><strong>Hidang Dengan Cepat:</strong> Seperti semua hidangan di Cookingdom Tahap 13, penyajian yang pantas adalah kunci. Lebih cepat anda hidang, lebih puas hati pelanggan.</li>
+</ul>
+
+<h2 id="steps">Langkah-Langkah Memasak Hotdog di Cookingdom Tahap 13</h2>
+<ol>
+  <li>
+    <h3>Masak Sosej</h3>
+    <p>Mula dengan memasak sosej. Di Cookingdom Tahap 13, anda akan diberi alat pemanggang atau dapur untuk memanaskan sosej. Pastikan masa memasak dipantau dengan teliti — terlalu lama akan menyebabkan sosej hangus, terlalu singkat pula akan menyebabkan sosej kurang masak.</p>
+  </li>
+  <li>
+    <h3>Memanggang Roti</h3>
+    <p>Sementara sosej dimasak, anda boleh memanggang roti. Letakkan roti di atas pemanggang atau kuali rata sehingga sedikit keperangan dan rangup. Roti perlu lembut di dalam tetapi rangup sedikit di luar.</p>
+  </li>
+  <li>
+    <h3>Sediakan Perasa dan Topping</h3>
+    <p>Di Cookingdom Tahap 13, anda boleh menambah pelbagai perasa pada hotdog anda. Pilihan biasa termasuk:</p>
+    <ul>
+      <li>Ketchup</li>
+      <li>Mustard</li>
+      <li>Relish</li>
+      <li>Bawang</li>
+      <li>Sauerkraut</li>
+      <li>Keju</li>
+      <li>Timun jeruk</li>
+      <li>Jalapeños</li>
+    </ul>
+    <p>Baca pesanan pelanggan dengan teliti untuk menambah perasa dan topping yang betul. Ada pelanggan yang mahu hotdog asas, manakala ada yang mahu topping ekstra.</p>
+  </li>
+  <li>
+    <h3>Pasang Hotdog</h3>
+    <p>Setelah sosej dimasak sempurna dan roti dipanggang, masa untuk memasang hotdog. Letakkan sosej dalam roti dan tambah perasa serta topping yang dipesan. Pastikan teliti dalam setiap pesanan!</p>
+  </li>
+  <li>
+    <h3>Hidang Hotdog</h3>
+    <p>Selepas dipasang, hidangkan hotdog dengan cepat. Pastikan ia masih panas dan segar. Pelanggan Cookingdom mengharapkan makanan mereka panas dan sedap, jadi jangan biarkan ia terlalu lama.</p>
+    <p><strong>Tip:</strong> Hotdog yang lebih segar akan mendapat rating lebih baik. Hidang dengan cepat untuk memastikan pelanggan puas hati.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Tips & Trik Cookingdom Tahap 13</h2>
+<ul>
+  <li><strong>Pantau Masa Memasak:</strong> Masa adalah penting semasa memanggang sosej dan roti. Sosej yang kurang masak tidak enak, manakala sosej yang terlebih masak akan kering. Sentiasa perhatikan proses memasak untuk mendapatkan keseimbangan yang tepat.</li>
+  <li><strong>Kustomisasi Penting:</strong> Pelanggan sering mempunyai pilihan peribadi untuk hotdog mereka. Ada yang mahu lebih mustard, ada yang mahu versi ringkas. Sentiasa baca pesanan dengan teliti dan buat kustomisasi yang tepat.</li>
+  <li><strong>Gunakan Pisau Tajam untuk Topping:</strong> Jika menambah topping seperti bawang atau timun jeruk, pastikan dihiris nipis. Penampilan yang kemas menjadikan hotdog lebih menarik.</li>
+  <li><strong>Kemaskini Peralatan:</strong> Semasa anda maju dalam tahap ini, pertimbangkan untuk menaik taraf pemanggang atau dapur anda. Proses memasak yang lebih pantas membantu anda mengurus banyak pesanan sekaligus.</li>
+  <li><strong>Hidang Dengan Cepat:</strong> Penyajian yang cepat akan meningkatkan kepuasan pelanggan dan rating anda.</li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Di Cookingdom Tahap 13, menyediakan hotdog yang sempurna memerlukan masa dan kustomisasi yang tepat. Memasak sosej dan memanggang roti sehingga sempurna, menambah perasa yang betul, dan penyajian pantas adalah kunci kejayaan. Seperti semua tahap dalam Cookingdom, multitugas adalah penting. Pastikan pemanggang dan pemanggang roti berfungsi bersama-sama sambil menyediakan topping untuk meningkatkan kecekapan.</p>
+<p>Penguasaan hidangan klasik ini akan membantu anda terus maju dalam Cookingdom Tahap 13. Sama ada anda menyajikan hotdog asas atau yang penuh dengan topping, perhatian pada detail dan kelajuan akan membuat perbezaan besar dalam mendapatkan penilaian tinggi daripada pelanggan.</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-14',
+    title: 'Panduan Cookingdom Tahap 14: Salmon dengan Minestrone',
+    pageTitle: 'Panduan Cookingdom Tahap 14: Salmon dengan Minestrone',
+    pageSubtitle:
+      'Pelajari cara memasak Salmon dengan Minestrone yang lazat di tahap 14 Cookingdom.',
+    category: '11-20',
+    publishDate: '2025-05-04',
+    isSpecial: false,
+    imageUrl: '/images/guides_14.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
+    iframeUrl: 'https://www.youtube.com/embed/NqPuIo5iASQ',
+    seo: {
+      title: 'Cookingdom Tahap 14: Salmon dengan Minestrone | Tips dan Strategi',
+      description:
+        'Kuasi Salmon dengan Minestrone di tahap 14 Cookingdom. Tips memasak salmon, minestrone dan seimbangkan hidangan yang kompleks.',
+      keywords:
+        'cookingdom tahap 14, salmon cookingdom, minestrone, sup, panduan, memasak ikan, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_14.webp',
+      levelInfoHtml:
+        '<h3>Salmon dengan Minestrone</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-13',
+          title: 'Panduan Cookingdom Tahap 13: Hotdog',
+          imageUrl: '/images/guides_13.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
+        },
+        {
+          id: 'cookingdom-game-level-15',
+          title: 'Panduan Cookingdom Tahap 15: Ayam Goreng',
+          imageUrl: '/images/guides_15.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Tahap 14 Cookingdom</h2>
+<p>Tahap 14 Cookingdom memperkenalkan hidangan yang lebih rumit: Salmon dengan Minestrone. Tahap ini menggabungkan dua hidangan popular — salmon yang kaya protein dan sup sayur minestrone yang mengenyangkan. Seperti biasa, perhatian pada detail, masa, dan multitasking adalah penting untuk menyediakan hidangan yang sempurna untuk pelanggan anda.</p>
+<p>Berbeza dengan tahap lain yang mudah, di sini anda perlu mengimbangkan dua elemen kompleks: salmon dan sup. Mari kita lihat bagaimana untuk berjaya menyediakan Salmon dengan Minestrone di Cookingdom Tahap 14.</p>
+
+<h2 id="goal">Matlamat Tahap 14</h2>
+<ul>
+  <li><strong>Masak salmon:</strong> Salmon harus dimasak dengan sempurna — kulit rangup di luar dan lembut di dalam. Penting untuk mematuhi masa memasak yang betul agar ikan tidak terlalu kering.</li>
+  <li><strong>Masak sup Minestrone:</strong> Minestrone adalah sup Itali yang kaya dengan sayur-sayuran, kacang dan pasta. Dalam Cookingdom 14, anda perlu mengurus setiap bahan dengan teliti agar sup menjadi lazat dan dimasak dengan baik.</li>
+  <li><strong>Hidangkan dengan cepat:</strong> Penting untuk menghidangkan hidangan dengan cepat dan segar. Salmon harus panas dan sup harus aromatik, serta kedua-duanya perlu dihidangkan bersama supaya kekal segar dan menarik.</li>
+</ul>
+
+<h2 id="steps">Langkah-langkah Memasak Salmon dengan Minestrone</h2>
+<ol>
+  <li>
+    <h3>Memasak sup Minestrone:</h3>
+    <p>Mulakan dengan memasak sup. Di Cookingdom 14, tumis bawang, bawang putih dan lobak merah dalam periuk. Setelah lembut, masukkan kacang, sayur-sayuran, pasta dan stok sup.</p>
+    <p><strong>Tip:</strong> Kacau sup secara berkala supaya tidak hangus. Apabila semua bahan bergabung, biarkan sup mendidih supaya rasa menyatu. Sup siap apabila sayur lembut dan kuah pekat.</p>
+    <p><strong>Tip:</strong> Gunakan penunjuk masa visual dalam permainan untuk mengelakkan sup terlebih masak supaya tidak hilang rasa dan tekstur.</p>
+  </li>
+  <li>
+    <h3>Memasak salmon:</h3>
+    <p>Sementara sup sedang dimasak, sediakan salmon. Letakkan fillet ke dalam kuali panas atau pemanggang. Masak salmon sehingga berkulit keemasan tetapi lembut di dalam.</p>
+    <p><strong>Tip:</strong> Patuh pada masa memasak yang tepat. Perhatikan warna kulit dan isi dalam. Salmon yang terlebih masak akan menjadi kering, jadi lebih baik isi dalam masih sedikit merah jambu.</p>
+    <p><strong>Tip:</strong> Boleh tambahkan rempah atau perahan limau untuk rasa lebih segar.</p>
+  </li>
+  <li>
+    <h3>Hidangkan hidangan:</h3>
+    <p>Apabila sup dan salmon sudah siap, hidangkan. Tuang sup ke dalam pinggan, pastikan sayur, pasta dan kuah seimbang. Letakkan fillet salmon di sisi dengan kemas untuk penyajian cantik.</p>
+    <p><strong>Tip:</strong> Penyajian yang cantik penting dalam permainan! Susun salmon dengan rapi dan pastikan sup mempunyai sayur dan pasta secukupnya.</p>
+  </li>
+  <li>
+    <h3>Hidangkan dengan cepat:</h3>
+    <p>Selepas penyajian, hidangkan dengan segera. Salmon dan sup mesti panas. Pelanggan menunggu hidangan yang segar dan panas yang mempengaruhi penilaian anda.</p>
+    <p><strong>Tip:</strong> Jangan lambat menghidang — hidangan yang lama berdiri akan menjadi sejuk dan mengecewakan pelanggan.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Tips dan Cadangan</h2>
+<ul>
+  <li>
+    <strong>Salmon sempurna:</strong> Gunakan penunjuk masa visual untuk elak salmon terlebih masak. Kulit harus keemasan dan isi dalam lembut. Jangan masak terlalu lama.
+  </li>
+  <li>
+    <strong>Seimbangkan sup Minestrone:</strong> Jaga keseimbangan antara pasta, sayur dan kacang. Masukkan bahan dalam kuantiti betul supaya rasa tidak mendominasi antara satu sama lain.
+    <p><strong>Tip:</strong> Jika sup terlalu pekat, tambah sedikit stok atau air sebelum hidang.</p>
+  </li>
+  <li>
+    <strong>Pengurusan masa penting:</strong> Mengurus masa memasak salmon dan sup secara serentak agak mencabar. Gunakan kemahiran multitasking untuk elak salmon kering dan bagi sup cukup masa untuk masak sempurna.
+    <p><strong>Tip:</strong> Mulakan dengan sup dahulu, kemudian masak salmon supaya sup sempat meresap rasa.</p>
+  </li>
+  <li>
+    <strong>Tingkatkan peralatan dapur:</strong> Tingkatkan peralatan untuk percepat proses memasak salmon dan sup supaya dapat hidang lebih ramai pelanggan dengan cepat.
+    <p><strong>Tip:</strong> Naik taraf dapur dan periuk untuk memasak lebih pantas.</p>
+  </li>
+  <li>
+    <strong>Hidangkan panas:</strong> Pastikan hidangan disajikan panas dan segar supaya pelanggan puas hati.
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Tahap 14 Cookingdom menguji kemahiran anda memasak dua hidangan serentak — Salmon dan Minestrone. Dengan masa yang tepat dan pengurusan rasa, anda boleh mencapai penilaian tertinggi. Terus tingkatkan peralatan dapur dan kemahiran memasak untuk mengatasi tahap yang lebih mencabar!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-15',
+    title: 'Panduan Cookingdom Tahap 15: Ayam Goreng',
+    pageTitle: 'Panduan Cookingdom Tahap 15: Ayam Goreng',
+    pageSubtitle:
+      'Pelajari cara memasak ayam goreng yang rangup dan berjus pada tahap 15 Cookingdom.',
+    category: '11-20',
+    publishDate: '2025-05-04',
+    isSpecial: false,
+    imageUrl: '/images/guides_15.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+    iframeUrl: 'https://www.youtube.com/embed/bW0rp5c8cIc',
+    seo: {
+      title: 'Cookingdom Tahap 15 Panduan: Ayam Goreng | cookingdom.co',
+      description:
+        'Kuasi ayam goreng pada tahap 15 Cookingdom. Dapatkan petua untuk mencapai kerak rangup, menyediakan hidangan sampingan (kentang lenyek, salad kobis, kentang goreng) dan penghantaran pantas.',
+      keywords:
+        'Cookingdom tahap 15, ayam goreng Cookingdom, ayam goreng, panduan, ayam rangup, salad kobis, kentang goreng, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_15.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 15: Ayam Goreng</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3.5 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-14',
+          title: 'Panduan Cookingdom Tahap 14: Salmon dengan Minestrone',
+          imageUrl: '/images/guides_14.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
+        },
+        {
+          id: 'cookingdom-game-level-16',
+          title: 'Panduan Cookingdom Tahap 16: Steak',
+          imageUrl: '/images/guides_16.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Tahap 15 Cookingdom</h2>
+<p>Pada tahap 15 Cookingdom, anda akan memasak hidangan klasik — ayam goreng. Tahap ini menuntut anda menyediakan ayam yang rangup dan berwarna keemasan bersama hidangan sampingan yang sesuai untuk mencipta hidangan yang mengenyangkan. Prosesnya mungkin kelihatan mudah, tetapi permainan menambah cabaran tersendiri untuk memastikan anda sentiasa berjaga-jaga. Masa, suhu dan perasa memainkan peranan penting agar ayam menjadi rangup dan berjus, dan pelanggan berpuas hati.</p>
+<p>Untuk memasak ayam goreng yang sempurna dalam Cookingdom Tahap 15, anda memerlukan fokus dan kelajuan. Mari kita lihat langkah-langkah untuk berjaya menyediakan hidangan lazat ini!</p>
+
+<h2 id="goal">Matlamat Tahap 15 Cookingdom</h2>
+<ul>
+  <li><strong>Sediakan ayam:</strong> Ayam perlu disalut dengan adunan tepung berperisa dan digoreng hingga keemasan.</li>
+  <li><strong>Masak hidangan sampingan:</strong> Ayam goreng biasanya disajikan bersama hidangan sampingan seperti kentang lenyek, salad kobis atau kentang goreng.</li>
+  <li><strong>Hidangkan dengan cepat:</strong> Seperti semua tahap Cookingdom, perkhidmatan pantas penting untuk memuaskan pelanggan.</li>
+</ul>
+
+<h2 id="steps">Langkah-langkah Memasak Ayam Goreng di Cookingdom Tahap 15</h2>
+<ol>
+  <li>
+    <h3>Penyediaan Ayam:</h3>
+    <p>Mula dengan membumbui kepingan ayam. Dalam Cookingdom, anda mencelup ayam ke dalam adunan tepung berperisa, kemudian letakkan dalam kuali panas atau penggoreng.</p>
+    <p><strong>Petua:</strong> Pastikan adunan tepung menyalut ayam secara sekata untuk mendapatkan kerak yang rangup dan keemasan. Perasakan adunan tepung untuk menambah rasa, dan kawal suhu minyak. Jika minyak terlalu panas, ayam akan hangus di luar tetapi mentah di dalam.</p>
+    <p><strong>Petua:</strong> Kacau ayam dari semasa ke semasa semasa menggoreng supaya masak sekata dan mendapat tekstur rangup yang sempurna.</p>
+  </li>
+  <li>
+    <h3>Memasak Hidangan Sampingan:</h3>
+    <p>Sementara ayam sedang digoreng, sediakan hidangan sampingan. Hidangan sampingan biasa untuk ayam goreng termasuk:</p>
+    <ul>
+      <li><strong>Kentang Lenyek:</strong> Dalam Cookingdom Tahap 15, anda perlu merebus dan melenyek kentang, kemudian tambah mentega, susu dan perasa.</li>
+      <li><strong>Salad Kobis:</strong> Anda boleh menyediakan salad dengan cepat dengan memotong sayur-sayuran dan mencampurkannya dengan dressing krim.</li>
+      <li><strong>Kentang Goreng:</strong> Jika dalam menu ada kentang goreng, goreng hingga rangup dan keemasan.</li>
+    </ul>
+    <p><strong>Petua:</strong> Anda boleh memasak hidangan sampingan serentak dengan ayam goreng. Jika anda boleh melakukan multitugas, pastikan tiada hidangan sampingan terlebih atau kurang masak.</p>
+  </li>
+  <li>
+    <h3>Penyusunan Hidangan:</h3>
+    <p>Apabila ayam goreng sudah masak dengan sempurna dan hidangan sampingan sedia, susun hidangan. Letakkan ayam goreng di atas pinggan, tambah hidangan sampingan dan hias dengan daun parsli atau sos.</p>
+  </li>
+  <li>
+    <h3>Penghidangan Ayam Goreng:</h3>
+    <p>Setelah disusun, hidangkan dengan cepat selagi masih panas. Pelanggan dalam Cookingdom Tahap 15 mengharapkan hidangan segar, dan lebih cepat anda hidang, lebih tinggi markah anda.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua dan Panduan untuk Cookingdom Tahap 15</h2>
+<ul>
+  <li>
+    <h3>Ayam Goreng Sempurna:</h3>
+    <p>Kunci kepada ayam goreng yang sempurna adalah suhu minyak yang betul. Jika minyak terlalu panas, adunan tepung akan hangus sebelum ayam masak sepenuhnya. Jika minyak terlalu sejuk, ayam akan menyerap banyak minyak dan menjadi berminyak.</p>
+  </li>
+  <li>
+    <h3>Pengurusan Hidangan Sampingan:</h3>
+    <p>Cookingdom Tahap 15 memerlukan multitugas, jadi pengurusan hidangan sampingan sama pentingnya dengan menggoreng ayam. Perhatikan masa agar tiada hidangan sampingan terlebih atau kurang masak.</p>
+    <p><strong>Petua:</strong> Mulakan memasak hidangan sampingan sebaik sahaja ayam mula digoreng. Kentang lenyek dan kentang goreng masak dengan cepat, salad boleh disediakan terlebih dahulu.</p>
+  </li>
+  <li>
+    <h3>Perasa:</h3>
+    <p>Perasa sangat penting. Adunan tepung harus mengandungi jumlah garam, lada dan rempah yang betul. Jangan lupa untuk membumbui hidangan sampingan supaya rasa seimbang.</p>
+    <p><strong>Petua:</strong> Anda boleh sesuaikan perasa mengikut citarasa pelanggan, contohnya menambah lebih rempah untuk yang suka pedas.</p>
+  </li>
+  <li>
+    <h3>Peningkatan Peralatan:</h3>
+    <p>Semasa anda maju dalam Cookingdom Tahap 15, pertimbangkan untuk menaik taraf penggoreng dan dapur anda. Memasak yang lebih cepat akan membantu anda mengatasi jumlah pesanan yang bertambah di peringkat berikutnya.</p>
+    <p><strong>Petua:</strong> Peningkatan akan mempercepatkan proses menggoreng dan memasak hidangan sampingan.</p>
+  </li>
+  <li>
+    <h3>Jangan Biarkan Minyak Sejuk:</h3>
+    <p>Cookingdom Tahap 15 memerlukan anda mengekalkan suhu minyak yang tinggi untuk gorengan yang cepat dan sekata.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Cookingdom Tahap 15 menawarkan cabaran klasik — menyediakan ayam goreng yang sedap dan rangup dengan hidangan sampingan. Penting untuk mengawal suhu minyak, mengurus masa memasak hidangan sampingan dan menyajikan hidangan dengan cepat kepada pelanggan. Dengan mengikuti petua ini, anda boleh mendapat 5 bintang dengan mudah dan menamatkan tahap ini.</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-16',
+    title: 'Panduan Cookingdom Tahap 16 — Steak',
+    pageTitle: 'Panduan Cookingdom Tahap 16 — Steak',
+    pageSubtitle:
+      'Kuasi teknik membuat Texas Barbecue yang kaya rasa dan beraroma pada Tahap 16 Cookingdom.',
+    category: '11-20',
+    publishDate: '2025-05-04',
+    isSpecial: false,
+    imageUrl: '/images/guides_16.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
+    iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI',
+    seo: {
+      title: 'Panduan Cookingdom Tahap 16: Texas Barbecue | cookingdom.co',
+      description:
+        'Pelajari cara membuat Texas Barbecue (rib, brisket) di Cookingdom Tahap 16. Tips memasak perlahan, sos, lauk sampingan (roti jagung, kacang, salad kubis), dan pengurusan masa.',
+      keywords:
+        'Cookingdom tahap 16, texas barbecue, panduan barbecue, rib, brisket, sos barbecue, roti jagung, memasak perlahan, strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_16.webp',
+      levelInfoHtml:
+        '<h3>Texas Barbecue</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-15',
+          title: 'Panduan Cookingdom Tahap 15 — Ayam Goreng',
+          imageUrl: '/images/guides_15.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+        },
+        {
+          id: 'cookingdom-game-level-17',
+          title: 'Panduan Cookingdom Tahap 17 — Café Macchiato',
+          imageUrl: '/images/guides_17.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Tahap 16 Cookingdom</h2>
+<p>Tahap 16 Cookingdom memperkenalkan hidangan Texas Barbecue yang kaya dan beraroma ke dapur anda. Dalam tahap ini, anda akan menyediakan hidangan daging berasap yang lezat dengan pelbagai sos dan lauk sampingan.</p>
+<p>Anda akan memasak daging barbecue seperti tulang rusuk atau brisket, serta menyajikannya bersama lauk klasik: roti jagung, kacang rebus, dan salad kubis. Cabarannya adalah menyelaraskan masa memasak daging dan lauk agar semuanya panas dan sedap disajikan.</p>
+<p>Jom kita lihat dengan lebih dekat tahap 16 dan kuasai Texas Barbecue!</p>
+
+<h2 id="goal">Matlamat Tahap 16 Cookingdom</h2>
+<ul>
+  <li><strong>Masak daging barbecue (tulang rusuk atau brisket):</strong> Pastikan daging dimasak sempurna — lembut, berjus, dan penuh rasa asap yang kaya.</li>
+  <li><strong>Masak sos barbecue:</strong> Sos yang sedap adalah kunci rasa asli Texas. Pastikan rasa sos seimbang dan disajikan bersama daging.</li>
+  <li><strong>Masak lauk sampingan:</strong> Texas Barbecue biasanya dihidang bersama roti jagung, kacang rebus, dan salad kubis. Pantau kesemua lauk dengan teliti.</li>
+  <li><strong>Sajikan hidangan dengan cepat:</strong> Seperti biasa di Cookingdom, sajian panas dan segar mendapat penilaian tinggi dari pelanggan.</li>
+</ul>
+
+<h2 id="steps">Langkah-langkah Memasak Texas Barbecue di Tahap 16</h2>
+<ol>
+  <li>
+    <h3>Memasak daging (tulang rusuk atau brisket):</h3>
+    <p>Mula dengan melapisi daging menggunakan campuran perasa kering atau perapan. Pada tahap 16, campuran perasa sudah disediakan — tugas anda adalah mengolesnya secara merata pada daging.</p>
+    <p>Letakkan daging dalam pengasap atau atas gril. Memasak secara perlahan memerlukan masa; pantau daging agar lembut dan masak sekata.</p>
+    <p><strong>Tip:</strong> Balikkan daging secara berkala untuk memasak sekata. Barbecue yang sempurna mempunyai kerak rangup di luar dan isi yang lembut di dalam.</p>
+    <p><strong>Tip:</strong> Jangan terlalu masak! Masa memasak yang betul menghasilkan tekstur dan rasa terbaik.</p>
+  </li>
+  <li>
+    <h3>Memasak sos barbecue:</h3>
+    <p>Sambil menunggu daging, sediakan sos. Biasanya gabungan rasa masam, manis, dan asap berasaskan sos tomato, cuka, dan gula perang.</p>
+    <p>Gaul bahan-bahan dan reneh sehingga pekat. Sos digunakan untuk sapuan pada daging semasa atau selepas memasak.</p>
+    <p><strong>Tip:</strong> Jangan biarkan sos hangus — kacau sekali-sekala. Sos harus cukup pekat untuk menyaluti daging.</p>
+  </li>
+  <li>
+    <h3>Memasak lauk sampingan:</h3>
+    <p>Jangan lupa lauk sampingan! Lazimnya dihidang:</p>
+    <ul>
+      <li><strong>Roti jagung:</strong> Roti sedikit manis dan lembap yang melengkapi barbeku.</li>
+      <li><strong>Kacang rebus:</strong> Kacang dimasak perlahan dalam sos pekat, kadang disertai daging bacon.</li>
+      <li><strong>Salad kubis:</strong> Segar dan rangup, melengkapkan rasa berat barbeku.</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Menyusun hidangan:</h3>
+    <p>Apabila daging dan lauk siap, susun di pinggan: daging, roti jagung, kacang rebus dan salad kubis.</p>
+  </li>
+  <li>
+    <h3>Menyajikan hidangan:</h3>
+    <p>Sajikan dengan cepat supaya hidangan masih panas. Penyajian pantas meningkatkan penilaian pelanggan.</p>
+    <p><strong>Tip:</strong> Jangan biarkan hidangan sejuk — barbeku terbaik disajikan segar dan panas.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Tip dan Petua untuk Tahap 16</h2>
+<ul>
+  <li>
+    <h3>Memasak daging secara perlahan:</h3>
+    <p>Texas Barbecue memerlukan kesabaran. Jangan tergesa-gesa dan pastikan haba merata. Memasak perlahan menghasilkan daging yang lembut.</p>
+  </li>
+  <li>
+    <h3>Sos barbecue yang sempurna:</h3>
+    <p>Sos adalah elemen penting. Pastikan rasanya seimbang, kacau untuk elakkan hangus.</p>
+  </li>
+  <li>
+    <h3>Pengurusan multitugas yang efektif:</h3>
+    <p>Perhatikan daging dan lauk sampingan seperti roti jagung, kacang rebus dan salad kubis secara serentak.</p>
+  </li>
+  <li>
+    <h3>Sajikan panas dan segar:</h3>
+    <p>Kesegaran hidangan menentukan penilaian pelanggan. Sajikan segera selepas dimasak.</p>
+  </li>
+  <li>
+    <h3>Tingkatkan peralatan dapur:</h3>
+    <p>Kemas kini gril dan peralatan lain untuk mempercepat proses memasak dan mengurangkan masa menunggu.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Dalam Tahap 16 Cookingdom, memasak Texas Barbecue memerlukan kemahiran memasak daging secara perlahan, membuat sos yang lazat dan mengimbangi lauk sampingan. Pengurusan masa dan multitugas adalah kunci kejayaan.</p>
+<p>Dengan perhatian pada daging, sos dan dapur yang teratur, anda dapat menggembirakan pelanggan dan mendapat penilaian tinggi. Rasa yang kaya, daging yang lembut dan lauk sampingan yang lazat akan membuat pelanggan kembali lagi.</p>
+`,
+  },
+
   {
     id: 'cookingdom-game-level-17',
-    title: 'Cookingdom Tahap 17:<br>Café Macchiato',
-    pageTitle: 'Cookingdom Tahap 17 - Panduan Café Macchiato',
-    pageSubtitle:
-      'Ketahui cara menyediakan Café Macchiato yang sempurna dalam Tahap 17 Cookingdom.',
+    title: 'Panduan Cookingdom Tahap 17: Café Macchiato',
+    pageTitle: 'Panduan Cookingdom Tahap 17: Café Macchiato',
+    pageSubtitle: 'Belajar cara membuat Café Macchiato yang sempurna di Tahap 17 Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_17.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
-    iframeUrl: 'https://www.youtube.com/embed/9vMHRRYFPMg',
+    iframeUrl: 'https://www.youtube.com/embed/Zwv2uvuWHwI',
     seo: {
-      title: 'Panduan Cookingdom Tahap 17: Café Macchiato | Petua & Strategi',
+      title: 'Panduan Cookingdom Tahap 17: Café Macchiato | cookingdom.co',
       description:
-        'Kuasi penyediaan Café Macchiato dalam Cookingdom Tahap 17. Dapatkan petua untuk membancuh espresso, memfoaming susu dengan sempurna, dan mencapai keseimbangan rasa untuk minuman klasik ini.',
+        'Kuasaikan penyediaan Café Macchiato di Tahap 17 Cookingdom. Dapatkan petua untuk membuat espresso, menghasilkan buih susu yang sempurna, dan mencapai keseimbangan yang tepat untuk kopi klasik ini.',
       keywords:
-        'Cookingdom, Tahap 17, Café Macchiato, Panduan Macchiato, Espresso, Buih Susu, Kopi, Bancuhan, Strategi',
+        'Cookingdom Tahap 17, Cookingdom Café Macchiato, Panduan Macchiato, Espresso, Buih Susu, Kopi',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_17.webp',
       levelInfoHtml:
-        '<h3>Café Macchiato</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Cookingdom Tahap 14<br>Salmon dengan Minestrone',
-          imageUrl: '/images/guides_14.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-        },
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Tahap 15<br>Ayam Goreng',
-          imageUrl: '/images/guides_15.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
-        },
-        {
-          id: 'cookingdom-game-level-16',
-          title: 'Cookingdom Tahap 16<br>Texas BBQ',
-          imageUrl: '/images/guides_16.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-        },
-      ],
-    },
-    detailsHtml: `
-  <h2 id="overview">Gambaran Umum Permainan</h2>
-  <p>Dalam Cookingdom Tahap 17, anda akan menyediakan minuman yang lazat dan sofistikated: Café Macchiato. Tahap ini mencabar anda untuk menyempurnakan bancuhan espresso dan buih susu secara serentak — dengan ketepatan masa dan kemahiran.</p>
-  <p>Sebagai minuman kegemaran di kafe seluruh dunia, penyediaan Café Macchiato yang betul akan memberikan kepuasan kepada pelanggan anda dan membantu anda naik ke tahap seterusnya. Ikuti langkah-langkah ini untuk berjaya.</p>
-  
-  <h2 id="goal">Matlamat Tahap 17</h2>
-  <ul>
-    <li><strong>Sediakan Espresso:</strong> Asas Café Macchiato ialah espresso yang kuat dan kaya. Pastikan ianya dibancuh dengan sempurna.</li>
-    <li><strong>Foamkan Susu:</strong> Susu perlu dibuihkan kepada tekstur dan suhu yang sesuai — ringan, berkrim, dan halus.</li>
-    <li><strong>Hidangkan Minuman:</strong> Gabungkan espresso dan buih susu dalam kadar yang tepat, kemudian hidangkan ketika masih panas dan segar.</li>
-    <li><strong>Hidang dengan Pantas:</strong> Seperti biasa dalam Cookingdom, kepantasan penting. Lebih cepat anda hidangkan, lebih tinggi penilaian anda.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah-langkah Menyediakan Café Macchiato</h2>
-  <ol>
-    <li>
-      <h3>Sediakan Espresso:</h3>
-      <p>Gunakan mesin espresso untuk mengekstrak espresso yang sempurna. Padatkan serbuk kopi secara rata sebelum membancuh.</p>
-      <p><strong>Petua:</strong> Pantau masa bancuhan — espresso yang baik mempunyai lapisan crema (buih keemasan) di atasnya.</p>
-    </li>
-    <li>
-      <h3>Foamkan Susu:</h3>
-      <p>Buihkan susu menggunakan stimmer sehingga menjadi berkrim dan bertekstur baldu, dengan buih halus.</p>
-      <p><strong>Petua:</strong> Elakkan terlalu memanaskan susu — suhu ideal ialah sekitar 65°C. Susu yang terlalu panas akan menjadi pahit.</p>
-    </li>
-    <li>
-      <h3>Gabungkan Espresso dan Susu:</h3>
-      <p>Tuangkan espresso ke dalam cawan, kemudian tambahkan satu sudu buih susu di atasnya. Jangan terlebih buih!</p>
-    </li>
-    <li>
-      <h3>Hidangkan Café Macchiato:</h3>
-      <p>Hidangkan segera selepas disediakan, sebelum espresso menjadi sejuk dan buih mula hilang tekstur.</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Petua & Trik</h2>
-  <ul>
-    <li>
-      <h3>Espresso Yang Sempurna:</h3>
-      <p>Espresso adalah kunci utama. Pastikan bancuhan seimbang, tidak terlalu pahit (over-extracted) dan tidak terlalu lemah (under-extracted).</p>
-    </li>
-    <li>
-      <h3>Buih Susu yang Tepat:</h3>
-      <p>Gunakan pendengaran — bunyi stimmer sepatutnya lembut dan stabil. Buih mestilah halus, tidak terlalu tebal.</p>
-    </li>
-    <li>
-      <h3>Pengurusan Masa:</h3>
-      <p>Semasa espresso dibancuh, mula buihkan susu. Ini menjimatkan masa dan memastikan kedua-duanya sedia pada masa yang sama.</p>
-    </li>
-    <li>
-      <h3>Jangan Berlebihan Buih:</h3>
-      <p>Café Macchiato hanya memerlukan sedikit buih di atas. Tujuannya ialah untuk menambah kelembutan kepada espresso — bukan menenggelamkannya.</p>
-    </li>
-    <li>
-      <h3>Hidang Segar dan Panas:</h3>
-      <p>Untuk penilaian terbaik, pastikan anda hidang secepat mungkin selepas penyediaan. Suhu dan tekstur adalah segalanya.</p>
-    </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Tahap 17 Cookingdom, penyediaan Café Macchiato menuntut ketelitian, kemahiran dan masa yang tepat. Espresso yang kaya dan buih susu yang sempurna akan memberikan minuman yang memuaskan hati pelanggan anda.</p>
-  <p>Urus masa dengan cekap, selaraskan tugas anda, dan hidang minuman dengan segera untuk mencapai penilaian tertinggi!</p>
-  `,
-  },
-  {
-    id: 'cookingdom-game-level-18',
-    title: 'Cookingdom Tahap 18:<br>Ratatouille',
-    pageTitle: 'Panduan Cookingdom Tahap 18 - Ratatouille',
-    pageSubtitle:
-      'Pelajari cara menyediakan Ratatouille Perancis klasik dalam Tahap 18 Cookingdom.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: false,
-    imageUrl: '/images/guides_18.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
-    iframeUrl: 'https://www.youtube.com/embed/YADKwUHp4XY',
-    seo: {
-      title: 'Panduan Cookingdom Tahap 18: Ratatouille | Tip & Strategi',
-      description:
-        'Kuasai Ratatouille dalam Cookingdom Tahap 18. Dapatkan tip tentang memotong sayur (terung, zucchini, lada, tomato), memasaknya dengan sempurna, dan merebus sos.',
-      keywords:
-        'Cookingdom, Tahap 18, Ratatouille, Masakan Perancis, Sayuran Campuran, Panduan, Tumis, Rebus, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_18.webp',
-      levelInfoHtml:
-        '<h3>Ratatouille</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Tahap 15<br>Ayam Goreng',
-          imageUrl: '/images/guides_15.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
-        },
-        {
-          id: 'cookingdom-game-level-16',
-          title: 'Cookingdom Tahap 16<br>BBQ Texas',
-          imageUrl: '/images/guides_16.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-        },
-        {
-          id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Tahap 17<br>Kopi Macchiato',
-          imageUrl: '/images/guides_17.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
-        },
-      ],
-    },
-    detailsHtml: `
-  <h2 id="overview">Gambaran Umum Permainan</h2>
-  <p>Dalam Cookingdom, Tahap 18 memperkenalkan hidangan yang sihat dan beraroma: Ratatouille. Hidangan klasik Perancis ini terdiri daripada pelbagai sayur seperti terung, zucchini, lada, dan tomato, semuanya dimasak dalam sos yang kaya dan beraroma. Kunci utama dalam tahap ini adalah untuk memastikan sayur-sayuran dihiris dengan sempurna dan dimasak dengan betul bagi mengekalkan kesegarannya sambil mengimbangi perasa untuk menghasilkan Ratatouille terbaik.</p>
-  <p>Tahap ini memerlukan anda melakukan pelbagai tugas serentak dengan ketepatan. Anda perlu mengurus penyediaan dan memasak pelbagai sayur sambil memastikan setiap satu dimasak pada masa dan suhu yang sesuai. Mari kita lihat langkah-langkah untuk menguasai Ratatouille dan memikat hati pelanggan anda!</p>
-  
-  <h2 id="goal">Matlamat Tahap 18</h2>
-  <ul>
-    <li><strong>Sediakan Sayur-Sayuran:</strong> Bahan utama Ratatouille ialah sayuran segar seperti terung, zucchini, lada, dan tomato. Hiris dengan sekata dan tepat untuk memastikan ia masak dengan rata.</li>
-    <li><strong>Masak Sayur-Sayuran:</strong> Tumis sayuran dalam minyak zaitun bersama bawang putih dan herba. Masak sehingga lembut tetapi masih mengekalkan bentuknya.</li>
-    <li><strong>Rebus Sos:</strong> Masak sayur dengan sos tomato ringkas yang dibumbui dengan thyme, basil, dan rosemary. Biarkan ia mereneh perlahan-lahan supaya rasa menyerap.</li>
-    <li><strong>Hidangkan Ratatouille:</strong> Setelah dimasak, susun dan hidangkan segera. Dalam Cookingdom, kelajuan dan persembahan adalah penting untuk memperoleh penilaian tertinggi.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah-langkah Menyediakan Ratatouille</h2>
-  <ol>
-    <li><h3>Sediakan Sayur-Sayuran:</h3><p>Hiris sayur-sayuran seperti terung, zucchini, lada, dan tomato secara sekata dan nipis. Ketebalan yang sekata memastikan ia masak dengan rata dan menyerap rasa sos.</p></li>
-    <li><h3>Tumis Sayur-Sayuran:</h3><p>Panaskan minyak zaitun dan bawang putih sehingga wangi. Masukkan sayuran satu demi satu dan tumis sehingga lembut. Pastikan tidak terlalu masak.</p></li>
-    <li><h3>Rebus Sos:</h3><p>Sediakan sos tomato dengan herba seperti thyme, rosemary, dan basil. Masukkan ke dalam kuali bersama sayur dan biarkan mereneh selama 10–15 minit.</p></li>
-    <li><h3>Susun Hidangan:</h3><p>Setelah sos pekat dan sayur lembut, susun sayuran secara kemas di atas pinggan. Siram dengan sos dan hiaskan dengan herba segar.</p></li>
-    <li><h3>Hidangkan:</h3><p>Hidangkan segera semasa panas. Tambah roti atau nasi sebagai pelengkap untuk lebih nilai dalam hidangan.</p></li>
-  </ol>
-  
-  <h2 id="tips">Tip & Trik</h2>
-  <ul>
-    <li><h3>Hiris Sayur Dengan Sekata:</h3><p>Gunakan alat pemotong mandolin untuk ketebalan sekata. Ini penting untuk memasak yang konsisten.</p></li>
-    <li><h3>Jangan Terlebih Masak:</h3><p>Tumis sehingga lembut tetapi tidak hancur. Sayur yang terlalu lembik akan hilang tekstur dan rasa.</p></li>
-    <li><h3>Sempurnakan Sos:</h3><p>Perasakan sos dengan betul dan renehkan supaya rasa menyerap. Tambah air jika terlalu pekat atau reneh lebih lama jika terlalu cair.</p></li>
-    <li><h3>Hiaskan Dengan Cantik:</h3><p>Gunakan basil segar, pasli, atau sedikit minyak zaitun untuk menjadikan hidangan lebih menarik dan menggoda.</p></li>
-    <li><h3>Tingkatkan Dapur Anda:</h3><p>Tingkatkan peralatan dapur seperti dapur atau kuali untuk memasak dengan lebih cepat dan efisien dalam mengendalikan pelbagai pesanan.</p></li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Tahap 18 dalam Cookingdom menguji kemahiran anda dalam menghiris, menumis, dan mereneh. Gabungan teknik mudah dengan penyediaan rapi menghasilkan Ratatouille yang lazat dan berwarna-warni. Dengan masa yang tepat, perhatian terhadap butiran, dan sedikit kreativiti, anda akan berjaya menghidangkan hidangan ini dengan cemerlang dan mara ke tahap seterusnya!</p>
-  <p>Kuasai seni penyediaan sayur dan pembuatan sos untuk mencapai 5 bintang dan pujian pelanggan anda!</p>
-  `,
-  },
-  {
-    // Tambah entri untuk Tahap 19
-    id: 'cookingdom-game-level-19',
-    title: 'Cookingdom Level 19:<br>Pai Labu',
-    pageTitle: 'Cookingdom Level 19 - Panduan Pai Labu',
-    pageSubtitle: 'Ketahui cara membakar Pai Labu yang sempurna dalam Tahap 19 Cookingdom.',
-    category: '11-20',
-    publishDate: '2025-05-04',
-    isSpecial: false,
-    imageUrl: '/images/guides_19.webp', // Tempat letak
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
-    iframeUrl: 'https://www.youtube.com/embed/CoSI8csqCbc', // Tempat letak
-    seo: {
-      title: 'Panduan Cookingdom Tahap 19: Pai Labu | Petua & Strategi',
-      description:
-        'Kuasi Pai Labu dalam Tahap 19 Cookingdom. Dapatkan petua untuk menyediakan kerak pai yang sempurna, inti yang licin, membakar, dan menyajikan pencuci mulut klasik ini.',
-      keywords:
-        'Cookingdom, Tahap 19, Pai Labu, Pencuci Mulut, Membakar, Kerak Pai, Inti Labu, Panduan, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_19.webp', // Tempat letak
-      levelInfoHtml:
-        '<h3>Pai Labu</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
+        '<h3>Cookingdom Tahap 17 Café Macchiato</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-16',
-          title: 'Cookingdom Level 16<br>Texas BBQ',
+          title: 'Panduan Cookingdom Tahap 16 Steak',
           imageUrl: '/images/guides_16.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-        },
-        {
-          id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Level 17<br>Caffè Macchiato',
-          imageUrl: '/images/guides_17.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
         {
           id: 'cookingdom-game-level-18',
-          title: 'Cookingdom Level 18<br>Ratatouille',
+          title: 'Panduan Cookingdom Tahap 18 Ratatouille',
           imageUrl: '/images/guides_18.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Dalam Cookingdom, Tahap 19 memperkenalkan pencuci mulut manis dan lazat: Pai Labu. Pencuci mulut klasik ini sangat digemari dalam pelbagai budaya, terutamanya semasa musim luruh. Menyediakan Pai Labu dalam Cookingdom memerlukan anda mencipta inti labu yang licin, menyediakan kerak pai yang sempurna, dan membakarnya hingga keemasan. Masa, keseimbangan bahan, dan persembahan adalah kunci untuk mencapai kepuasan pelanggan tertinggi.</p>
-<p>Dalam Tahap 19, anda perlu menguruskan bahan dan langkah memasak dengan teliti supaya kerak dan inti pai sempurna. Mari kita huraikan langkah dan petua untuk mencipta Pai Labu terbaik!</p>
+<h2 id="overview">Gambaran Keseluruhan Tahap 17 Cookingdom</h2>
+<p>Dalam Tahap 17 Cookingdom, anda akan menyediakan minuman yang lazat dan sofistikated: Café Macchiato. Tahap ini menguji kemahiran anda untuk menyediakan espresso yang pekat dan halus dengan lapisan buih susu di atasnya, sambil memastikan masa dan ketepatan yang sempurna. Ia merupakan minuman klasik yang memerlukan perhatian terhadap butiran dan keupayaan multitasking.</p>
+<p>Café Macchiato adalah minuman popular di kedai kopi di seluruh dunia. Penyediaan yang betul akan memukau pelanggan anda dan membantu anda melangkah ke tahap seterusnya. Mari kita pecahkan proses ini dan pandu anda untuk membuat Café Macchiato yang sempurna.</p>
 
-<h2 id="goal">Matlamat Tahap 19</h2>
+<h2 id="goal">Matlamat Tahap 17 Cookingdom</h2>
 <ul>
-    <li><strong>Sediakan Kerak Pai:</strong> Langkah pertama adalah menyediakan kerak pai yang bermentega dan rangup. Anda perlu mencampurkan bahan untuk membentuk doh, canaikannya, dan letakkan dalam loyang pai.</li>
-    <li><strong>Buat Inti Labu:</strong> Inti pai diperbuat daripada puri labu dicampur dengan telur, gula, dan rempah seperti kayu manis, buah pala, dan halia. Campuran ini mesti licin dan berperisa sempurna.</li>
-    <li><strong>Pasang dan Bakar Pai:</strong> Selepas menyediakan kerak dan inti, anda perlu memasang pai dan membakarnya hingga perang keemasan dan inti mengeras. Proses membakar amat penting.</li>
-    <li><strong>Hidang Pai Labu:</strong> Setelah pai siap, hidangkan ia panas, segar, dan dipotong cantik untuk pengalaman pelanggan terbaik.</li>
+  <li><strong>Sediakan Espresso:</strong> Asas Café Macchiato adalah espresso yang kaya dan kuat.</li>
+  <li><strong>Buihkan Susu:</strong> Susu perlu dibuihkan ke tekstur dan suhu yang ideal.</li>
+  <li><strong>Sajikan Minuman:</strong> Setelah espresso dan buih susu siap, gabungkan dengan nisbah yang betul dan sajikan semasa masih segar dan panas.</li>
+  <li><strong>Sajikan dengan Pantas:</strong> Seperti biasa dalam Tahap 17 Cookingdom, kelajuan sangat penting. Lebih cepat anda menyajikan, lebih tinggi penilaian anda. Kesegaran adalah kunci untuk memastikan rasa dan tekstur yang optimum.</li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Membuat Pai Labu</h2>
+<h2 id="steps">Langkah-langkah Membuat Café Macchiato di Tahap 17 Cookingdom</h2>
 <ol>
-    <li>
-        <h3>Sediakan Kerak Pai:</h3>
-        <p>Mulakan dengan membuat kerak pai. Dalam Cookingdom, ini melibatkan mencampurkan tepung, mentega, dan sedikit air untuk membentuk doh. Uli perlahan dan canaikan hingga nipis dan sekata.</p>
-        <p><strong>Petua:</strong> Pastikan doh tidak terlalu melekit. Jika terlalu kering, tambahkan sedikit air, tetapi jangan berlebihan. Konsistensi yang betul akan menjadikan kerak rangup selepas dibakar.</p>
-        <p>Pindahkan doh ke dalam loyang pai dan potong bahagian lebih. Tekan tepi perlahan-lahan untuk membentuk bingkai yang kemas.</p>
-        <p><strong>Petua:</strong> Sejukkan doh selama 15 minit sebelum membakar untuk bantu ia kekal bentuk.</p>
-    </li>
-    <li>
-        <h3>Buat Inti Labu:</h3>
-        <p>Kemudian, sediakan inti labu. Dalam Cookingdom, anda perlu mencampurkan puri labu, telur, gula, dan rempah seperti kayu manis, buah pala, dan halia. Hasilnya harus licin dan berkrim.</p>
-        <p><strong>Petua:</strong> Gunakan puri labu segar atau dalam tin. Campurkan rempah dengan sekata dan laraskan kemanisan ikut selera. Anda mahu inti kaya rasa, tetapi tidak terlalu manis.</p>
-        <p><strong>Petua:</strong> Kisar campuran hingga halus. Pastikan tiada ketulan sebelum dituangkan ke dalam kerak pai.</p>
-    </li>
-    <li>
-        <h3>Pasang Pai:</h3>
-        <p>Tuang inti labu ke dalam kerak yang telah disediakan. Gunakan spatula untuk ratakan bahagian atas.</p>
-        <p><strong>Petua:</strong> Jangan terlalu penuhkan loyang. Inti harus berada sedikit di bawah tepi kerak untuk ruang naik semasa membakar.</p>
-    </li>
-    <li>
-        <h3>Bakar Pai Labu:</h3>
-        <p>Panaskan ketuhar kepada suhu yang sesuai (sekitar 375°F atau 190°C). Bakar pai hingga inti mengeras dan kerak perang keemasan.</p>
-        <p><strong>Petua:</strong> Perhatikan pai semasa membakar. Inti harus pejal dan sedikit mengembang, tetapi tidak retak. Kerak perlu perang keemasan.</p>
-        <p><strong>Petua:</strong> Jika kerak cepat perang, tutup bahagian tepi dengan foil agar tidak hangus sementara inti terus masak.</p>
-    </li>
-    <li>
-        <h3>Sejukkan dan Hidang:</h3>
-        <p>Selepas dibakar, biarkan pai sejuk sebentar sebelum dipotong. Dalam Cookingdom, pai perlu dihidang hangat, bukan terlalu panas.</p>
-        <p><strong>Petua:</strong> Hiaskan dengan krim putar atau serbuk kayu manis untuk rasa dan persembahan ekstra.</p>
-    </li>
-    <li>
-        <h3>Hidang Pai Labu:</h3>
-        <p>Setelah sejuk dan dipotong, hidangkan Pai Labu segera. Hidangkan dengan krim putar atau aiskrim vanila untuk melengkapkan pencuci mulut.</p>
-        <p><strong>Petua:</strong> Hidangan hangat adalah kunci untuk pengalaman pelanggan yang sempurna. Pai Labu panas dengan krim putar pasti memukau!</p>
-    </li>
+  <li>
+    <h3>Sediakan Espresso:</h3>
+    <p>Mula dengan membuat espresso. Gunakan mesin espresso untuk mendapatkan kopi yang sempurna. Pastikan kopi ditapis dengan rata supaya espresso diseduh dengan baik.</p>
+    <p><strong>Tip:</strong> Perhatikan proses espresso supaya tidak terlebih atau kurang seduh.</p>
+    <p><strong>Tip:</strong> Espresso yang sempurna adalah kunci kepada rasa Café Macchiato.</p>
+  </li>
+  <li>
+    <h3>Buihkan Susu:</h3>
+    <p>Seterusnya, fokus pada susu. Anda perlu menghasilkan buih susu yang lembut dan berkrim tetapi tidak terlalu pekat.</p>
+    <p><strong>Tip:</strong> Jangan terlalu panas susu — suhu ideal ialah sekitar 65°C (150°F).</p>
+    <p><strong>Tip:</strong> Semasa membuih susu, sasarkan tekstur yang licin dan berkrim dengan buih halus.</p>
+  </li>
+  <li>
+    <h3>Gabungkan Espresso dan Susu:</h3>
+    <p>Setelah espresso dan buih susu siap, tuang espresso ke dalam cawan dan tambah sedikit buih susu di atasnya.</p>
+    <p><strong>Tip:</strong> Kunci Café Macchiato adalah keseimbangan antara espresso yang kuat dan buih susu yang lembut.</p>
+  </li>
+  <li>
+    <h3>Sajikan Café Macchiato:</h3>
+    <p>Selepas penyediaan, sajikan minuman dengan cepat selagi masih panas dan buih susu masih segar.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Petua & Trik</h2>
+<h2 id="tips">Petua dan Trik Tahap 17 Cookingdom</h2>
 <ul>
-    <li>
-        <h3>Kerak Pai Sempurna:</h3>
-        <p>Kunci Pai Labu yang hebat ialah kerak yang rangup dan bermentega. Pastikan doh sejuk semasa diuli dan jangan terlalu uli.</p>
-        <p><strong>Petua:</strong> Sejukkan doh sebelum canai supaya lebih mudah diurus. Bakar hingga betul-betul perang keemasan.</p>
-    </li>
-    <li>
-        <h3>Inti Licin dan Berkrim:</h3>
-        <p>Inti perlu licin dan berkrim. Gaulkan puri labu bersama telur, gula, dan rempah supaya tiada ketulan.</p>
-        <p><strong>Petua:</strong> Gunakan pengisar tangan atau blender untuk hasil paling halus.</p>
-    </li>
-    <li>
-        <h3>Bakar Sempurna:</h3>
-        <p>Langkah paling penting adalah membakar. Inti perlu pejal, tidak terlalu keras, dan bertekstur seperti kastard.</p>
-        <p><strong>Petua:</strong> Jangan terlalu bakar (inti akan retak), jangan kurang bakar (inti lembik). Goyang pai perlahan — ia seharusnya hanya sedikit bergerak apabila sudah masak.</p>
-    </li>
-    <li>
-        <h3>Hiasan dan Persembahan:</h3>
-        <p>Pai Labu yang dihias cantik akan memikat pelanggan. Hiaskan dengan krim putar, serbuk kayu manis, atau biji labu.</p>
-        <p><strong>Petua:</strong> Sentuhan kreatif dalam hiasan membantu anda meraih penilaian tertinggi.</p>
-    </li>
-    <li>
-        <h3>Hidang Segar dan Hangat:</h3>
-        <p>Seperti semua hidangan dalam Cookingdom, kesegaran adalah kunci. Hidangkan Pai Labu semasa masih hangat dan baru dipotong.</p>
-    </li>
+  <li>
+    <h3>Espresso yang Sempurna:</h3>
+    <p>Pastikan kopi ditapis rata dan perhatikan masa penyediaan untuk mendapatkan espresso yang kaya dan seimbang.</p>
+  </li>
+  <li>
+    <h3>Buihkan Susu dengan Sempurna:</h3>
+    <p>Buih susu harus licin, berkrim dan ringan — tidak terlalu pekat atau berbuih. Dengar bunyi stim; ia harus lembut dan tidak bising.</p>
+  </li>
+  <li>
+    <h3>Kawal Masa Anda:</h3>
+    <p>Tahap 17 memerlukan multitasking dan masa yang tepat. Semasa espresso disediakan, mulakan membuih susu untuk menjimatkan masa.</p>
+  </li>
+  <li>
+    <h3>Jangan Terlebih Buih Susu:</h3>
+    <p>Untuk Café Macchiato, hanya sedikit buih susu diperlukan supaya rasa kopi yang kuat tidak terganggu.</p>
+  </li>
+  <li>
+    <h3>Sajikan Segar dan Panas:</h3>
+    <p>Café Macchiato mesti disajikan segera selepas penyediaan untuk mengekalkan rasa dan tekstur terbaik.</p>
+  </li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Dalam Tahap 19 Cookingdom, penyediaan Pai Labu memerlukan perhatian terhadap perincian — daripada kerak pai yang sempurna hingga inti labu yang lazat. Dengan masa yang tepat dan pengurusan baik, anda boleh hasilkan pai yang memukau pelanggan. Sama ada untuk musim perayaan atau hari biasa, Pai Labu pasti digemari dalam Cookingdom!</p>
-<p>Dengan menguasai kerak, inti, dan teknik membakar anda, anda bersedia menghadapi lebih banyak pencuci mulut yang sedap. Awasi masa, dan jangan lupa untuk menghias pai anda agar lebih menggoda!</p>
+<p>Dalam Tahap 17 Cookingdom, penyediaan Café Macchiato memerlukan perhatian terhadap detail dan masa yang tepat. Penyediaan espresso yang sempurna dan buih susu dengan tekstur ideal adalah kunci untuk menghasilkan minuman kopi klasik ini. Dengan perhatian yang teliti terhadap proses penyediaan, anda akan menyajikan Café Macchiato yang halus dan kaya yang pasti memuaskan pelanggan anda.</p>
+<p>Multitasking dengan cekap, pantau masa, dan sajikan minuman panas dan segar untuk mencapai penilaian tertinggi di Tahap 17 Cookingdom!</p>
 `,
   },
+
   {
-    // Add entry for Level 20
-    id: 'cookingdom-game-level-20',
-    title: 'Cookingdom Level 20:<br>Ayam Belanda Panggang',
-    pageTitle: 'Cookingdom Level 20 - Panduan Ayam Belanda Panggang',
+    // Tambah entri untuk Level 18
+    id: 'cookingdom-game-level-18',
+    title: 'Panduan Cookingdom Tahap 18: Ratatouille',
+    pageTitle: 'Panduan Cookingdom Tahap 18: Ratatouille',
     pageSubtitle:
-      'Ketahui cara menyediakan Ayam Belanda Panggang yang sempurna di Level 20 Cookingdom.',
+      'Pelajari cara menyediakan Ratatouille klasik Perancis pada tahap 18 dalam Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
-    imageUrl: '/images/guides_20.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
-    iframeUrl: 'https://www.youtube.com/embed/Rp9i4GwAC6E', // Placeholder
+    imageUrl: '/images/guides_18.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
+    iframeUrl: 'https://www.youtube.com/embed/KxPWxzkOqyA',
     seo: {
-      title: 'Cookingdom Level 20 Panduan: Ayam Belanda Panggang | Petua & Strategi',
+      title: 'Cookingdom Tahap 18: Panduan Ratatouille | cookingdom.co',
       description:
-        'Kuasi Ayam Belanda Panggang di Level 20 Cookingdom. Dapatkan petua tentang perasa, pemanggangan, penyiraman, dan penyajian hidangan meriah ini.',
+        'Kuasi Ratatouille pada tahap 18 dalam Cookingdom. Dapatkan tips memotong sayur-sayuran seperti terung, zucchini, lada benggala dan tomato serta cara memasak dan menumis sos dengan betul.',
       keywords:
-        'Cookingdom, Level 20, Ayam Belanda Panggang, Hidangan Meriah, Memanggang, Penyiraman, Panduan Ayam, Strategi',
+        'Cookingdom Tahap 18, Cookingdom Ratatouille, Masakan Perancis, Masakan Sayur, Panduan Memasak',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_20.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_18.webp',
       levelInfoHtml:
-        '<h3>Ayam Belanda Panggang</h3><p><strong>Kebolehan:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Ratatouille</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Level 17<br>Caffè Macchiato',
-          imageUrl: '/images/guides_17.webp', // Placeholder
+          title: 'Panduan Cookingdom Tahap 17: Café Macchiato',
+          imageUrl: '/images/guides_17.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
         {
-          id: 'cookingdom-game-level-18',
-          title: 'Cookingdom Level 18<br>Ratatouille',
-          imageUrl: '/images/guides_18.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
-        },
-        {
           id: 'cookingdom-game-level-19',
-          title: 'Cookingdom Level 19<br>Pie Labu',
-          imageUrl: '/images/guides_19.webp', // Placeholder
+          title: 'Panduan Cookingdom Tahap 19: Pai Labu',
+          imageUrl: '/images/guides_19.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Dalam Cookingdom, Level 20 memperkenalkan hidangan meriah dan penuh rasa: Ayam Belanda Panggang. Sebagai salah satu hidangan yang paling popular dan tradisional, terutamanya untuk perayaan dan jamuan, Ayam Belanda Panggang memerlukan keseimbangan perasa, persediaan, dan masa yang tepat. Level ini mengutamakan pemanggangan ayam belanda dengan sempurna, sambil memastikan hidangan sampingan dan hiasan melengkapkan hidangan tersebut.</p>
-<p>Dalam Cookingdom, menguasai seni memanggang ayam belanda memerlukan anda menguruskan pelbagai langkah sekaligus, seperti memerap, menyiram, dan memastikan daging masak dengan sekata. Dengan perhatian yang teliti, anda akan menyajikan ayam belanda yang keemasan dan berjus yang akan memikat pelanggan anda dan membantu anda maju ke level seterusnya!</p>
+<h2 id="overview">Gambaran Keseluruhan Tahap 18 dalam Cookingdom</h2>
+<p>Pada tahap 18 Cookingdom, anda akan menyediakan hidangan sihat dan lazat — Ratatouille. Ia adalah masakan sayur-sayuran klasik Perancis yang terdiri daripada terung, zucchini, lada benggala, dan tomato yang dimasak dalam sos yang kaya dengan rasa. Kunci utama adalah memotong sayur-sayuran dengan betul dan memasaknya supaya rasa seimbang dan segar terpelihara.</p>
+<p>Tahap 18 memerlukan multitasking dan ketepatan. Anda perlu memasak beberapa sayur sekaligus sambil memantau masa dan suhu agar sayur-sayuran dimasak dengan sempurna. Mari kita lihat langkah-langkah untuk menyediakan Ratatouille dengan berjaya dan memuaskan pelanggan anda!</p>
 
-<h2 id="goal">Matlamat Level 20</h2>
+<h2 id="goal">Matlamat Tahap 18 dalam Cookingdom</h2>
 <ul>
-    <li>
-        <strong>Sediakan Ayam Belanda:</strong> Mulakan dengan menyediakan ayam belanda. Anda perlu membersihkan, memberi perasa, dan menyumbat ayam belanda dengan herba dan rempah aromatik untuk memberi rasa.
-    </li>
-    <li>
-        <strong>Memanggang Ayam Belanda:</strong> Setelah ayam belanda diperap, masa untuk memanggang. Ini memerlukan perhatian teliti terhadap haba dan masa untuk memastikan ayam belanda masak sepenuhnya, keemasan, dan berjus.
-    </li>
-    <li>
-        <strong>Menyiram Ayam Belanda:</strong> Sepanjang proses pemanggangan, anda perlu menyiram ayam belanda untuk mengekalkan kelembapan dan rasa yang sedap.
-    </li>
-    <li>
-        <strong>Sajikan Ayam Belanda Panggang:</strong> Setelah ayam belanda dipanggang dengan sempurna, hiris ayam belanda dan sajikan dengan cepat untuk memastikan ia kekal segar dan berjus untuk pelanggan anda.
-    </li>
+  <li>
+    <strong>Penyediaan Sayur:</strong> Bahan utama ialah sayur segar: terung, zucchini, lada benggala, dan tomato. Potong dengan kemas supaya ia dimasak dengan sekata.
+  </li>
+  <li>
+    <strong>Memasak Sayur:</strong> Sayur ditumis dalam minyak zaitun dengan bawang putih dan herba. Penting untuk tidak memasak terlalu lama supaya sayur kekal sedikit rangup.
+  </li>
+  <li>
+    <strong>Menumis Sos:</strong> Sayur ditumis dalam sos tomato bersama thyme, basil, dan rosemary. Sos perlu dimasak perlahan supaya rasa menyerap dengan sempurna.
+  </li>
+  <li>
+    <strong>Penghidangan Ratatouille:</strong> Selepas memasak, susun sayur dan curahkan sos. Kelajuan dan penyediaan yang kemas penting untuk mendapat penilaian tinggi dari pelanggan.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah untuk Membuat Ayam Belanda Panggang</h2>
+<h2 id="steps">Langkah Menyediakan Ratatouille di Tahap 18 Cookingdom</h2>
 <ol>
-    <li>
-        <h3>Sediakan Ayam Belanda:</h3>
-        <p>Mulakan dengan menyediakan ayam belanda. Dalam Cookingdom, langkah ini termasuk membersihkan ayam, mengeluarkan segala isi dalaman, dan menepuknya dengan tuala kertas untuk mengeringkan kulitnya. Semakin kering kulit, semakin rangup ia semasa memanggang.</p>
-        <p><strong>Petua:</strong> Untuk rasa tambahan, sapukan minyak zaitun, bawang putih, garam, dan lada di dalam dan luar ayam belanda. Tambahkan herba segar seperti rosemary, thyme, dan sage untuk meningkatkan aroma.</p>
-        <p><strong>Petua:</strong> Anda boleh menyumbat ayam belanda dengan pelbagai bahan seperti bawang, bawang putih, dan buah-buahan sitrus seperti lemon atau oren. Ini akan memberikan kelembapan dan rasa pada daging semasa ia dipanggang.</p>
-    </li>
-    <li>
-        <h3>Perasakan Ayam Belanda:</h3>
-        <p>Setelah menyediakan ayam belanda, tiba masanya untuk memberi perasa. Sapukan campuran perasa pilihan anda pada seluruh permukaan ayam belanda. Pilihan popular termasuk campuran herba seperti rosemary, thyme, dan sage, bersama garam, lada, dan bawang putih.</p>
-        <p><strong>Petua:</strong> Pastikan untuk memberi perasa pada bahagian dalam ayam belanda juga. Ini memastikan rasa meresap ke dalam daging dengan sempurna, menjadikan setiap gigitan lebih sedap.</p>
-        <p><strong>Petua:</strong> Jika ada masa, biarkan ayam belanda meresap di dalam peti sejuk selama beberapa jam atau semalaman. Ini akan membolehkan rasa meresap lebih mendalam ke dalam daging.</p>
-    </li>
-    <li>
-        <h3>Memanggang Ayam Belanda:</h3>
-        <p>Panaskan ketuhar pada suhu yang disyorkan (biasanya sekitar 350°F atau 175°C). Letakkan ayam belanda pada rak pemanggang atau dulang pembakar yang dilapisi dengan foil untuk menangkap cecair yang menitis.</p>
-        <p><strong>Petua:</strong> Untuk mengelakkan ayam belanda menjadi kering, tutup ayam belanda dengan foil pada permulaan pemanggangan. Ini membantu ayam belanda mengekalkan kelembapannya semasa dimasak.</p>
-        <p><strong>Petua:</strong> Panggang ayam belanda selama kira-kira 13-15 minit per paun, atau sehingga suhu dalaman mencapai 165°F (75°C) apabila diperiksa dengan termometer daging.</p>
-        <p><strong>Petua:</strong> Jika ayam belanda terlalu cepat keperangan, kurangkan sedikit suhu ketuhar untuk memastikan daging dimasak dengan sekata.</p>
-    </li>
-    <li>
-        <h3>Menyiram Ayam Belanda:</h3>
-        <p>Setiap 30-45 minit, siram ayam belanda dengan jusnya sendiri atau campuran mentega cair dan stok untuk mengekalkan kelembapan dan rasa.</p>
-        <p><strong>Petua:</strong> Penyiraman adalah kunci untuk mendapatkan kulit yang keemasan dan rangup serta mengekalkan kelembapan daging. Pastikan tidak terlalu kerap membuka pintu ketuhar, kerana ini boleh menyebabkan suhu turun naik.</p>
-    </li>
-    <li>
-        <h3>Periksa Kematangan Ayam Belanda:</h3>
-        <p>Setelah beberapa jam memanggang, periksa suhu dalaman ayam belanda. Masukkan termometer daging ke dalam bahagian paha yang paling tebal, pastikan ia tidak menyentuh tulang.</p>
-        <p><strong>Petua:</strong> Setelah ayam belanda mencapai suhu dalaman 165°F (75°C), ia sudah sedia untuk dikeluarkan dari ketuhar. Jika belum, teruskan memanggang dan siram sekali lagi untuk memastikan pemasakan sekata.</p>
-    </li>
-    <li>
-        <h3>Rehatkan Ayam Belanda:</h3>
-        <p>Setelah ayam belanda siap dipanggang, keluarkan dari ketuhar dan biarkan ia berehat selama 15-20 minit sebelum dipotong. Ini membantu cecair meresap semula ke dalam daging, menjadikannya lebih berjus.</p>
-        <p><strong>Petua:</strong> Jangan potong ayam belanda segera selepas mengeluarkannya dari ketuhar, kerana jusnya akan keluar dan daging menjadi kering. Biarkan ia berehat untuk mengekalkan kelembapannya.</p>
-    </li>
-    <li>
-        <h3>Potong Ayam Belanda:</h3>
-        <p>Setelah ayam belanda berehat, potong ia menjadi bahagian menggunakan pisau tajam. Hiriskan daging dada dan asingkan kaki dan sayap.</p>
-        <p><strong>Petua:</strong> Sajikan ayam belanda dalam bahagian yang kemas untuk penyajian yang menarik. Susun hirisan pada pinggan dan hias dengan herba segar atau sos kranberi.</p>
-    </li>
-    <li>
-        <h3>Sajikan Ayam Belanda Panggang:</h3>
-        <p>Setelah dipotong, sajikan Ayam Belanda Panggang dengan cepat untuk memastikan ia segar dan berjus. Padankan dengan hidangan sampingan tradisional seperti kentang tumbuk, isi roti, kuah, dan sos kranberi untuk hidangan lengkap.</p>
-        <p><strong>Petua:</strong> Menyajikan ayam belanda dengan jusnya atau kuah akan meningkatkan rasa dan menjadikan hidangan lebih memuaskan.</p>
-    </li>
+  <li>
+    <h3>Sediakan Sayur:</h3>
+    <p>Potong sayur dengan nipis dan sekata. Potongan yang sekata membantu sayur masak sekata.</p>
+    <p><strong>Tip:</strong> Gunakan mandolin atau pisau tajam untuk potongan yang tepat.</p>
+  </li>
+  <li>
+    <h3>Tumis Sayur:</h3>
+    <p>Panaskan minyak zaitun, tumis bawang putih sehingga naik bau. Masukkan sayur dan kacau perlahan. Jangan terlalu lama masak supaya sayur kekal rangup sedikit.</p>
+    <p><strong>Tip:</strong> Kacau selalu dan kawal api supaya tidak hangus.</p>
+  </li>
+  <li>
+    <h3>Menumis Sos:</h3>
+    <p>Tambah sos tomato bersama herba ke dalam sayur dan tumis dengan api perlahan selama 10-15 minit supaya sos pekat dan rasa sebati.</p>
+    <p><strong>Tip:</strong> Kacau sekali-sekala supaya sos tidak melekat di kuali.</p>
+  </li>
+  <li>
+    <h3>Susun Hidangan:</h3>
+    <p>Susun sayur di pinggan dan curahkan sos di atasnya.</p>
+    <p><strong>Tip:</strong> Hiaskan dengan herba segar untuk warna dan aroma tambahan.</p>
+  </li>
+  <li>
+    <h3>Hidang Ratatouille:</h3>
+    <p>Hidang dalam keadaan panas dan cepat supaya rasa dan kesegaran terpelihara.</p>
+    <p><strong>Tip:</strong> Lengkapkan hidangan dengan roti atau nasi untuk menjadikannya lebih kenyang.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Petua & Trik</h2>
+<h2 id="tips">Petua dan Trik untuk Tahap 18 Cookingdom</h2>
 <ul>
-    <li>
-        <h3>Suhu Memanggang yang Sempurna:</h3>
-        <p>Kunci untuk memanggang ayam belanda yang sempurna adalah mengawal suhu. Jangan memanggang pada suhu terlalu tinggi kerana anda akan membakar kulitnya manakala bahagian dalam masih mentah.</p>
-        <p><strong>Petua:</strong> Tutup ayam belanda dengan foil untuk bahagian pertama pemanggangan, kemudian buangkan foil pada 30 minit terakhir untuk mendapatkan kulit yang rangup dan keemasan.</p>
-    </li>
-    <li>
-        <h3>Jangan Terlebih Masak Ayam Belanda:</h3>
-        <p>Terlebih masak boleh menyebabkan ayam belanda menjadi kering. Gunakan termometer daging untuk memastikan ayam belanda dimasak sepenuhnya tetapi tidak terlebih masak. Setelah mencapai suhu 165°F (75°C), keluarkan dari ketuhar.</p>
-        <p><strong>Petua:</strong> Jika ayam belanda kecil, ia mungkin masak lebih cepat daripada yang dijangka. Perhatikan masa, dan jangan takut untuk mengubah masa memanggang.</p>
-    </li>
-    <li>
-        <h3>Siraman untuk Kelembapan:</h3>
-        <p>Menjirus ayam belanda secara berkala memastikan daging kekal lembap. Gunakan mentega cair, stok ayam, atau jus ayam belanda untuk menyiram ayam belanda, mengekalkan kulit yang lembap dan penuh rasa.</p>
-        <p><strong>Petua:</strong> Jangan lepaskan langkah ini! Penyiraman membantu menambah rasa dan kelembapan, serta memastikan kulit rangup dan daging lembut.</p>
-    </li>
-    <li>
-        <h3>Rehatkan Ayam Belanda Selepas Memanggang:</h3>
-        <p>Biarkan ayam belanda berehat selepas dikeluarkan dari ketuhar adalah salah satu langkah yang paling penting untuk mendapatkan ayam belanda yang berjus. Ia memberi masa untuk cecair meresap semula ke dalam daging.</p>
-        <p><strong>Petua:</strong> Letakkan foil ke atas ayam belanda untuk memastikan ia tetap panas semasa berehat.</p>
-    </li>
-    <li>
-        <h3>Potong dengan Tepat:</h3>
-        <p>Semasa memotong, gunakan pisau tajam dan pastikan potongan tepat. Potong daging menentang arah urat untuk hirisan yang lebih lembut dan berjus.</p>
-        <p><strong>Petua:</strong> Jika anda menyajikan untuk ramai orang, pastikan untuk memotong ayam belanda dalam bahagian kemas untuk memudahkan penyajian.</p>
-    </li>
+  <li>
+    <h3>Potongan Sayur Sekata:</h3>
+    <p>Sayur yang dipotong sekata akan memasak dengan sempurna. Gunakan mandolin untuk potongan yang tepat.</p>
+  </li>
+  <li>
+    <h3>Elak Masak Terlalu Lama:</h3>
+    <p>Sayur harus lembut tetapi tidak hancur. Kawal api dan kacau selalu.</p>
+  </li>
+  <li>
+    <h3>Sempurnakan Sos:</h3>
+    <p>Sos harus wangi dan pekat. Jika terlalu cair, masak lebih lama; jika terlalu pekat, tambah sedikit air atau stok sayur.</p>
+  </li>
+  <li>
+    <h3>Hiaskan dan Hidang:</h3>
+    <p>Hiaskan dengan herba segar atau keju untuk penyediaan yang menarik dan rasa yang lebih sedap.</p>
+  </li>
+  <li>
+    <h3>Tingkatkan Peralatan Dapur:</h3>
+    <p>Meningkatkan dapur atau kuali akan membantu memasak lebih pantas dan uruskan pesanan yang banyak.</p>
+  </li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Di Level 20 Cookingdom, menyediakan Ayam Belanda Panggang memerlukan perhatian terhadap perincian, masa, dan teknik yang tepat. Dari memberi perasa kepada ayam belanda hingga memanggang dan menyiramnya dengan sempurna, level ini adalah ujian sebenar kemahiran kulinari anda. Dengan kawalan suhu yang betul dan penyiraman yang teliti, anda akan menghasilkan ayam belanda yang keemasan dan berjus yang akan memikat pelanggan anda dan meningkatkan pengalaman Cookingdom anda.</p>
-<p>Kuasi seni memanggang ayam belanda, dan anda akan bersedia untuk menangani hidangan yang lebih kompleks di level akan datang!</p>
+<h2 id="summary">Kesimpulan</h2>
+<p>Memasak Ratatouille pada tahap 18 Cookingdom memerlukan ketepatan dalam memotong sayur, tumis yang betul dan menumis sos dengan baik. Hidangan yang mudah tetapi sedap ini akan memberikan anda penilaian tinggi dan kepuasan pelanggan.</p>
+<p>Terus tingkatkan kemahiran dan bersiap sedia untuk cabaran memasak yang seterusnya dalam Cookingdom!</p>
 `,
   },
+
   {
-    // Add entry for Level 21
-    id: 'cookingdom-game-level-21',
-    title: 'Cookingdom Level 21:<br>Boba Milk Tea',
-    pageTitle: 'Panduan Cookingdom Level 21 - Boba Milk Tea',
-    pageSubtitle: 'Ketahui cara membuat Boba Milk Tea yang sempurna di Level 21 Cookingdom.',
-    category: '21-30',
-    publishDate: '2025-05-05', // Updated category
+    id: 'cookingdom-game-level-19',
+    title: 'Cookingdom Tahap 19: Panduan Pai Labu',
+    pageTitle: 'Cookingdom Tahap 19: Panduan Pai Labu',
+    pageSubtitle: 'Belajar cara menyediakan pai labu yang sempurna di Tahap 19 Cookingdom.',
+    category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
-    imageUrl: '/images/guides_21.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
-    iframeUrl: 'https://www.youtube.com/embed/sT6G1wBptko', // Placeholder
+    imageUrl: '/images/guides_19.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
+    iframeUrl: 'https://www.youtube.com/embed/1n_bblOOYDo',
     seo: {
-      title: 'Panduan Cookingdom Level 21: Boba Milk Tea | Tips & Strategi',
+      title: 'Cookingdom Tahap 19: Pai Labu | cookingdom.co',
       description:
-        'Kuasi Boba Milk Tea di Level 21 Cookingdom. Dapatkan tips tentang memasak boba pearls, menyeduh teh, mengimbangkan susu, dan menyajikan minuman trendy ini.',
+        'Kuasa menyediakan pai labu di Tahap 19 Cookingdom. Tips untuk menyediakan doh yang sempurna, inti labu yang lembut, membakar dan menghidang pencuci mulut klasik.',
       keywords:
-        'Cookingdom, Level 21, Boba Milk Tea, Bubble Tea, Minuman Taiwan, Panduan Teh, Strategi',
+        'Cookingdom Tahap 19, Cookingdom pai labu, pencuci mulut, pembakaran, doh pai, inti labu',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_21.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_19.webp',
       levelInfoHtml:
-        '<h3>Boba Milk Tea</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Pai Labu</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-18',
-          title: 'Cookingdom Level 18<br>Ratatouille',
-          imageUrl: '/images/guides_18.webp', // Placeholder
+          title: 'Cookingdom Tahap 18: Panduan Ratatouille',
+          imageUrl: '/images/guides_18.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
         {
-          id: 'cookingdom-game-level-19',
-          title: 'Cookingdom Level 19<br>Pie Labu',
-          imageUrl: '/images/guides_19.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
-        },
-        {
           id: 'cookingdom-game-level-20',
-          title: 'Cookingdom Level 20<br>Ayam Belanda Panggang',
-          imageUrl: '/images/guides_20.webp', // Placeholder
+          title: 'Cookingdom Tahap 20: Panduan Ayam Belanda Goreng',
+          imageUrl: '/images/guides_20.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Di Cookingdom, Level 21 memperkenalkan minuman yang trendy dan menyegarkan: Boba Milk Tea. Minuman Taiwan yang popular ini, juga dikenali sebagai bubble tea, dibuat dengan teh, susu, dan boba pearls yang kenyal. Cabaran dalam level ini adalah untuk mengimbangkan teh, susu, dan gula dengan sempurna sambil memastikan boba pearls dimasak dengan betul untuk mendapatkan minuman yang memuaskan dan penuh rasa.</p>
-<p>Di Cookingdom, kunci kejayaan dalam Level 21 adalah ketepatan dalam menyeduh teh, memasak boba pearls, dan menyusun minuman dengan cepat. Mari kita teroka langkah-langkah dan tips untuk membuat Boba Milk Tea yang sempurna dan meraih penarafan tertinggi!</p>
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 19</h2>
+<p>Di Tahap 19 Cookingdom, anda akan menyediakan pai labu yang manis dan lazat. Pencuci mulut klasik ini popular dalam pelbagai budaya, terutama pada musim luruh. Penyediaan pai labu memerlukan inti labu yang licin, doh yang sempurna dan pembakaran sehingga kekuningan. Penting untuk mengimbangi bahan, masa memasak dan penyajian untuk kepuasan pelanggan maksimum.</p>
+<p>Di tahap ini, anda perlu mengurus bahan dan langkah dengan teliti supaya doh dan inti menjadi sempurna. Mari lihat langkah demi langkah untuk menyediakan pai labu terbaik!</p>
 
-<h2 id="goal">Matlamat Level 21</h2>
+<h2 id="goal">Matlamat Cookingdom Tahap 19</h2>
 <ul>
-    <li>
-        <strong>Sediakan Boba Pearls:</strong> Langkah pertama dalam membuat Boba Milk Tea adalah memasak tapioca pearls. Pearls ini perlu dimasak dengan sempurna untuk mendapatkan tekstur yang betul – lembut dan kenyal di dalam, dengan luarannya yang sedikit pejal.
-    </li>
-    <li>
-        <strong>Teh Seduhan:</strong> Seterusnya, seduh teh yang kuat. Secara tradisinya, teh hitam digunakan, tetapi anda boleh memilih teh hijau atau teh oolong mengikut citarasa anda.
-    </li>
-    <li>
-        <strong>Sediakan Susu:</strong> Tambah susu atau alternatif tanpa tenusu ke dalam teh untuk mencipta tekstur yang krim dan lancar. Imbangan susu dan teh yang betul sangat penting untuk rasa minuman.
-    </li>
-    <li>
-        <strong>Satukan dan Sajikan:</strong> Gabungkan boba pearls yang telah dimasak, teh yang diseduh, dan susu dalam gelas, kemudian hidangkan dengan ais dan straw lebar untuk meminum boba pearls.
-    </li>
+  <li><strong>Sediakan doh pai:</strong> Mula dengan doh yang bermentega dan rapuh. Campurkan bahan untuk doh, canai dan susun dalam acuan pai.</li>
+  <li><strong>Sediakan inti labu:</strong> Inti terdiri daripada puri labu, telur, gula dan rempah (kayu manis, pala, halia). Campuran mesti licin dan harum.</li>
+  <li><strong>Susun dan bakar pai:</strong> Tuang inti ke dalam doh dan bakar sehingga doh kekuningan dan inti masak.</li>
+  <li><strong>Hidang pai labu:</strong> Hidangkan pai yang hangat dan potong dengan kemas untuk kesan terbaik kepada pelanggan.</li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Membuat Boba Milk Tea</h2>
+<h2 id="steps">Langkah Penyediaan Pai Labu</h2>
 <ol>
-    <li>
-        <h3>Masak Boba Pearls:</h3>
-        <p>Mulakan dengan memasak tapioca pearls. Di Cookingdom, perkara pertama yang perlu anda lakukan adalah mendidihkan sekumpulan air yang banyak. Setelah air mendidih, masukkan tapioca pearls dan kacau perlahan untuk mengelakkan ketulan.</p>
-        <p><strong>Tip:</strong> Masak pearls mengikut arahan pada pembungkusan (biasanya sekitar 20-30 minit). Pastikan pearls dimasak sepenuhnya tetapi masih kenyal. Jangan masak terlalu lama kerana ia boleh menjadi terlalu lembut, dan jangan kurang masak kerana ia akan kekal keras di tengah.</p>
-        <p><strong>Tip:</strong> Setelah dimasak, bilas pearls dengan air sejuk untuk menghentikan proses memasak dan mengelakkan mereka melekat antara satu sama lain.</p>
-    </li>
-    <li>
-        <h3>Seduh Teh:</h3>
-        <p>Sementara boba pearls dimasak, seduh teh. Di Cookingdom, gunakan teh hitam yang kuat (atau teh pilihan anda). Biarkan teh meresap selama sekitar 3-5 minit untuk mendapatkan asas teh yang kuat dan berperisa.</p>
-        <p><strong>Tip:</strong> Untuk rasa yang lebih kaya, anda boleh menyeduh teh sedikit lebih kuat daripada biasa. Ini akan membantu rasa teh muncul selepas menambah susu dan kemanisan.</p>
-        <p><strong>Tip:</strong> Jika anda mahu rasa yang lebih unik, pertimbangkan untuk menggunakan teh berperisa seperti jasmine atau oolong, tetapi teh hitam tetap menjadi pilihan tradisional.</p>
-    </li>
-    <li>
-        <h3>Sediakan Susu:</h3>
-        <p>Setelah teh diseduh, tambah susu pilihan anda. Anda boleh menggunakan susu penuh, susu badam, atau alternatif tanpa tenusu lain yang anda pilih.</p>
-        <p><strong>Tip:</strong> Untuk tekstur yang lebih berkrim, gunakan susu penuh atau susu kelapa. Untuk minuman yang lebih ringan, cuba susu skim atau susu oat.</p>
-        <p><strong>Tip:</strong> Tambah susu sedikit demi sedikit dan rasa untuk memastikan imbangan antara teh dan susu yang tepat. Anda mahu minuman itu berkrim tetapi masih menonjolkan rasa teh.</p>
-    </li>
-    <li>
-        <h3>Maniskan Teh:</h3>
-        <p>Di Cookingdom, kemanisan minuman sangat penting. Tambah gula atau pemanis lain ke dalam teh yang telah diseduh dan kacau dengan baik untuk melarutkan gula. Jumlah gula akan bergantung pada citarasa peribadi anda, tetapi ia harus melengkapkan rasa pahit teh tanpa menumpaskan rasa teh itu sendiri.</p>
-        <p><strong>Tip:</strong> Anda juga boleh menggunakan madu, sirap, atau pemanis lain sebagai pengganti gula biasa. Sesuaikan kemanisan mengikut selera pelanggan anda.</p>
-    </li>
-    <li>
-        <h3>Satukan Minuman:</h3>
-        <p>Sekarang tiba masa untuk menyatukan Boba Milk Tea. Di Cookingdom, tuangkan boba pearls yang dimasak ke dalam gelas terlebih dahulu. Kemudian, tambah kiub ais untuk mengekalkan minuman tetap sejuk dan menyegarkan.</p>
-        <p><strong>Tip:</strong> Jika minuman disajikan sejuk, pastikan untuk menggunakan banyak ais untuk mengekalkan teh tetap sejuk dan menyegarkan. Elakkan menambah terlalu banyak ais kerana ia boleh mencairkan minuman.</p>
-        <p>Tuangkan campuran teh dan susu ke atas pearls dan ais.</p>
-        <p><strong>Tip:</strong> Untuk menambah daya tarikan visual, anda boleh mencurahkan sirap atau madu di atas teh sebelum disajikan.</p>
-    </li>
-    <li>
-        <h3>Sajikan Boba Milk Tea:</h3>
-        <p>Setelah Boba Milk Tea siap disatukan, sajikan dengan straw lebar untuk memudahkan minuman boba pearls. Pastikan ia disajikan sejuk, dan jangan lupa untuk mengacau sebelum diminum supaya susu, teh, dan boba dapat dicampurkan dengan baik.</p>
-        <p><strong>Tip:</strong> Hiasi dengan tambahan boba pearls atau buah-buahan seperti hirisan limau atau setangkai pudina untuk menambah rasa dan penyajian.</p>
-    </li>
+  <li>
+    <h3>Menyediakan doh:</h3>
+    <p>Campurkan tepung, mentega dan sedikit air sehingga menjadi doh. Uli dengan lembut dan canai hingga ketebalan rata.</p>
+    <p><strong>Tip:</strong> Doh tidak boleh terlalu melekit atau terlalu kering. Jika kering, tambah sedikit air; jika melekit, tambah sedikit tepung.</p>
+    <p>Susun doh dalam acuan dan potong lebihan doh supaya tepi kemas.</p>
+    <p><strong>Tip:</strong> Sejukkan doh dalam peti sejuk selama 15 minit sebelum dibakar untuk bentuk yang lebih baik.</p>
+  </li>
+  <li>
+    <h3>Menyediakan inti:</h3>
+    <p>Campurkan puri labu, telur, gula dan rempah. Campuran mesti sekata dan berkrim.</p>
+    <p><strong>Tip:</strong> Gunakan puri segar atau tin dan kacau rempah dengan teliti, laraskan kemanisan ikut citarasa.</p>
+    <p><strong>Tip:</strong> Pukul campuran dengan baik supaya tiada ketulan.</p>
+  </li>
+  <li>
+    <h3>Susun pai:</h3>
+    <p>Tuang inti ke dalam doh dan ratakan permukaan.</p>
+    <p><strong>Tip:</strong> Jangan isi terlalu penuh — tinggalkan ruang sedikit dari tepi.</p>
+  </li>
+  <li>
+    <h3>Membakar:</h3>
+    <p>Panaskan ketuhar kepada 190°C dan bakar sehingga doh kekuningan dan inti masak.</p>
+    <p><strong>Tip:</strong> Perhatikan pai: inti harus sedikit bergoyang, tidak retak, dan doh kekuningan.</p>
+    <p><strong>Tip:</strong> Jika tepi cepat keperangan, tutup dengan aluminium foil.</p>
+  </li>
+  <li>
+    <h3>Sejukkan dan hidang:</h3>
+    <p>Biar pai sejuk sedikit, kemudian potong dan hidangkan semasa hangat.</p>
+    <p><strong>Tip:</strong> Hiaskan dengan krim putar atau taburkan kayu manis untuk rasa dan penampilan yang lebih menarik.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Tips & Trik</h2>
+<h2 id="tips">Tips dan Cadangan</h2>
 <ul>
-    <li>
-        <h3>Boba Pearls Sempurna:</h3>
-        <p>Kunci kepada Boba Milk Tea yang baik adalah tekstur tapioca pearls. Ia harus lembut dan kenyal, dengan sedikit kekerasan di luar.</p>
-        <p><strong>Tip:</strong> Jangan masak pearls terlalu lama; ia harus mempunyai sedikit kunyahan. Jika pearls dibiarkan terlalu lama selepas dimasak, ia boleh menjadi melekit, jadi sajikan segera.</p>
-    </li>
-    <li>
-        <h3>Imbangan Susu dan Teh:</h3>
-        <p>Imbangan yang betul antara susu dan teh sangat penting dalam Boba Milk Tea. Terlalu banyak susu akan mengalahkan rasa teh, manakala terlalu sedikit akan menjadikan minuman itu terlalu pahit.</p>
-        <p><strong>Tip:</strong> Rasa teh selepas menambah susu dan sesuaikan nisbah mengikut selera anda. Nisbah yang ideal harus berkrim tetapi masih membenarkan rasa teh untuk menonjol.</p>
-    </li>
-    <li>
-        <h3>Kemanisan Itu Kunci:</h3>
-        <p>Kemanisan Boba Milk Tea sangat penting, tetapi jangan terlalu berlebihan. Kemanisan yang sedikit akan meningkatkan rasa tanpa menjadikan minuman terlalu manis.</p>
-        <p><strong>Tip:</strong> Sentiasa rasa teh sebelum disajikan untuk memastikan kemanisan adalah tepat. Jika terlalu manis, tambah sedikit teh; jika tidak cukup manis, tambah sedikit lebih gula.</p>
-    </li>
-    <li>
-        <h3>Sejukkan Teh dan Boba:</h3>
-        <p>Pastikan kedua-dua teh dan boba pearls sejuk sebelum disajikan. Minuman sejuk lebih menyegarkan dan nikmat, terutama pada hari yang panas.</p>
-        <p><strong>Tip:</strong> Jika anda dalam keadaan tergesa-gesa, sejukkan teh yang diseduh di dalam peti sejuk sebelum disajikan, dan simpan boba pearls yang telah dimasak dalam peti sejuk sehingga sedia digunakan.</p>
-    </li>
-    <li>
-        <h3>Variasi Kreatif:</h3>
-        <p>Anda boleh menambah topping tambahan seperti pes kekacang merah, buah-buahan, atau bahkan puding untuk menjadikan Boba Milk Tea lebih menarik dan unik.</p>
-        <p><strong>Tip:</strong> Bereksperimen dengan rasa teh yang berbeza, seperti jasmine, oolong, atau teh hijau, untuk mencipta minuman istimewa yang menonjol.</p>
-    </li>
+  <li>
+    <h3>Doh yang sempurna:</h3>
+    <p>Pastikan doh sejuk dan jangan uli terlalu lama supaya doh tidak keras.</p>
+  </li>
+  <li>
+    <h3>Inti licin:</h3>
+    <p>Kacau puri dengan baik supaya tiada ketulan.</p>
+  </li>
+  <li>
+    <h3>Pembakaran:</h3>
+    <p>Perhatikan masa memasak supaya inti lembut dan tidak terlalu kering.</p>
+  </li>
+  <li>
+    <h3>Hiasan dan hidangan:</h3>
+    <p>Hias pai untuk kesan terbaik kepada pelanggan.</p>
+  </li>
+  <li>
+    <h3>Hidang panas:</h3>
+    <p>Pai yang hangat lebih disukai pelanggan.</p>
+  </li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Di Level 21 Cookingdom, membuat Boba Milk Tea yang sempurna memerlukan ketepatan dalam memasak tapioca pearls, menyeduh teh, dan mengimbangkan susu serta kemanisan. Perhatikan tekstur boba dan pastikan teh dan susu saling melengkapi untuk mendapatkan minuman yang memuaskan dan lazat.</p>
-<p>Dengan persediaan yang betul, boba pearls, dan sedikit kreativiti, anda akan dapat memukau pelanggan anda dan meneruskan perjalanan anda di Cookingdom!</p>
+<p>Cookingdom Tahap 19 memerlukan perhatian terhadap setiap langkah dalam menyediakan pai labu — dari doh yang sempurna, inti yang enak, hingga pembakaran yang tepat. Ikuti panduan ini untuk memuaskan pelanggan dengan pencuci mulut yang lazat!</p>
 `,
   },
+
   {
-    // Add entry for Level 22
-    id: 'cookingdom-game-level-22',
-    title: 'Cookingdom Level 22:<br>Easy Smoothie',
-    pageTitle: 'Cookingdom Level 22 - Panduan Easy Smoothie',
+    id: 'cookingdom-game-level-20',
+    title: 'Panduan Cookingdom Tahap 20: Ayam Belanda Panggang',
+    pageTitle: 'Panduan Cookingdom Tahap 20: Ayam Belanda Panggang',
     pageSubtitle:
-      'Pelajari cara untuk menyediakan Easy Smoothie yang sempurna di Level 22 Cookingdom.',
-    category: '21-30',
-    publishDate: '2025-05-05',
+      'Pelajari cara menyediakan ayam belanda panggang yang sempurna di Tahap 20 Cookingdom.',
+    category: '11-20',
+    publishDate: '2025-05-04',
     isSpecial: false,
-    imageUrl: '/images/guides_22.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
-    iframeUrl: 'https://www.youtube.com/embed/_h0bTaAM-0o', // Placeholder
+    imageUrl: '/images/guides_20.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
+    iframeUrl: 'https://www.youtube.com/embed/QeQSbWgrtWs',
     seo: {
-      title: 'Panduan Cookingdom Level 22: Easy Smoothie | Tips & Strategi',
+      title: 'Panduan Cookingdom Tahap 20: Ayam Belanda Panggang | cookingdom.co',
       description:
-        'Kuasai Easy Smoothie di Level 22 Cookingdom. Dapatkan tips untuk memilih buah, mengadun, mencapai konsistensi yang tepat, dan menyajikannya.',
+        'Kuasi cara memasak ayam belanda panggang dalam Cookingdom pada tahap 20. Tips untuk perapan, memanggang, menyiram, dan penyajian hidangan perayaan.',
       keywords:
-        'Cookingdom, Level 22, Easy Smoothie, Minuman Sihat, Mengadun, Smoothie Buah, Panduan, Strategi',
+        'Cookingdom Tahap 20, Ayam Belanda Panggang, Hidangan Perayaan, Memanggang, Menyiram, Panduan Memasak Ayam Belanda',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_22.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_20.webp',
       levelInfoHtml:
-        '<h3>Easy Smoothie</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Ayam Belanda Panggang</h3><p><strong>Kesukaran:</strong> Sederhana ke Tinggi</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-19',
-          title: 'Cookingdom Level 19<br>Pumpkin Pie',
-          imageUrl: '/images/guides_19.webp', // Placeholder
+          title: 'Panduan Cookingdom Tahap 19: Pai Labu',
+          imageUrl: '/images/guides_19.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
-        },
-        {
-          id: 'cookingdom-game-level-20',
-          title: 'Cookingdom Level 20<br>Roast Turkey',
-          imageUrl: '/images/guides_20.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
         {
           id: 'cookingdom-game-level-21',
-          title: 'Cookingdom Level 21<br>Boba Milk Tea',
-          imageUrl: '/images/guides_21.webp', // Placeholder
+          title: 'Panduan Cookingdom Tahap 21: Teh Susu Boba',
+          imageUrl: '/images/guides_21.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Permainan</h2>
-  <p>Di dalam Cookingdom, Level 22 memperkenalkan satu hidangan yang menyegarkan dan sihat: Easy Smoothie. Minuman menyegarkan ini adalah pilihan yang sempurna untuk snek yang cepat dan berkhasiat, dan ia tentang mengimbangkan jumlah buah, yogurt, dan bahan-bahan lain untuk menghasilkan adunan yang berkrim, lancar, dan berperisa. Matlamatnya adalah untuk menyediakan smoothie yang sempurna dengan cepat untuk memuaskan hati pelanggan dan maju ke level seterusnya.</p>
-  <p>Di Cookingdom, tahap Easy Smoothie menekankan pada penyediaan minuman menyegarkan dengan ketepatan. Anda perlu memilih buah yang tepat, mengadun dengan sempurna, dan menyajikannya dengan konsistensi yang betul. Sama ada smoothie mangga tropika atau smoothie beri, kunci kejayaan adalah mendapatkan tekstur dan rasa yang tepat.</p>
-  
-  <h2 id="goal">Matlamat Level 22</h2>
-  <ul>
-      <li>
-          <strong>Pilih Buah:</strong> Pilih asas buah untuk smoothie anda. Anda boleh menggunakan kombinasi buah seperti pisang, strawberi, blueberry, atau mangga untuk mencipta rasa yang sedap dan seimbang.
-      </li>
-      <li>
-          <strong>Tambah Yogurt atau Cecair:</strong> Pilih yogurt atau asas cecair, seperti susu, susu badam, atau jus oren, untuk membantu mengadun buah-buahan menjadi konsistensi yang licin.
-      </li>
-      <li>
-          <strong>Adun dengan Sempurna:</strong> Setelah menambah bahan, adun mereka hingga lancar. Berhati-hati untuk tidak terlebih atau terkurang mengadun kerana ia mempengaruhi tekstur smoothie.
-      </li>
-      <li>
-          <strong>Sajikan Smoothie:</strong> Setelah mengadun, tuangkan smoothie ke dalam gelas dan sajikan segera. Anda boleh menambah hiasan atau buah tambahan untuk sentuhan dekoratif.
-      </li>
-  </ul>
-  
-  <h2 id="steps">Langkah-langkah untuk Menyediakan Easy Smoothie</h2>
-  <ol>
-      <li>
-          <h3>Pilih Buah Anda:</h3>
-          <p>Langkah pertama dalam membuat Easy Smoothie yang hebat adalah memilih buah anda. Di Cookingdom, anda mempunyai pelbagai pilihan, daripada buah tropika seperti mangga dan nanas hingga pilihan klasik seperti strawberi, blueberry, atau pisang.</p>
-          <p><strong>Petua:</strong> Untuk smoothie tropika, gabungkan mangga, nanas, dan sedikit susu kelapa untuk hidangan yang menyegarkan. Untuk smoothie beri, campurkan strawberi, blueberry, dan raspberi untuk rasa masam dan manis.</p>
-      </li>
-      <li>
-          <h3>Tambah Yogurt atau Asas Cecair:</h3>
-          <p>Setelah memilih buah, anda perlu menambah asas krimi untuk membantu mengadun bahan-bahan tersebut. Pilih yogurt untuk smoothie yang lebih pekat dan berkrim, atau pilih susu, susu badam, atau jus oren untuk konsistensi yang lebih ringan.</p>
-          <p><strong>Petua:</strong> Jika anda mahukan pilihan tanpa tenusu, susu badam atau susu kelapa sangat baik sebagai asas cecair. Untuk smoothie yang lebih kaya, pilih yogurt penuh lemak atau yogurt Yunani untuk protein dan kekriman tambahan.</p>
-          <p><strong>Petua:</strong> Untuk rasa dan kekriman tambahan, anda juga boleh menambah madu, agave, atau sirap maple untuk manis.</p>
-      </li>
-      <li>
-          <h3>Adun Bahan-bahan:</h3>
-          <p>Setelah menambah buah dan asas cecair, masa untuk mengadun. Di Cookingdom, anda perlu mengadun bahan-bahan tersebut hingga mencapai tekstur yang licin dan berkrim. Pastikan untuk mengadun pada masa yang tepat—terlebih adun boleh membuat smoothie terlalu cair, manakala terkurang adun boleh meninggalkan ketulan buah.</p>
-          <p><strong>Petua:</strong> Mulakan dengan mengadun pada kelajuan rendah dan secara beransur-ansur tingkatkan untuk memastikan semuanya bercampur rata. Tambahkan sedikit cecair tambahan jika smoothie terlalu pekat atau jika pengadun anda mengalami kesukaran.</p>
-      </li>
-      <li>
-          <h3>Periksa Konsistensi:</h3>
-          <p>Setelah mengadun, periksa konsistensi smoothie. Ia harus pekat, berkrim, dan mudah diminum dengan straw. Jika terlalu pekat, tambahkan sedikit cecair untuk melonggarkannya. Jika terlalu cair, adunkan beberapa potongan buah atau lebih yogurt.</p>
-          <p><strong>Petua:</strong> Jika smoothie terlalu berketul atau berbiji, adunkan selama beberapa saat lagi untuk mencapai kelembutan yang diingini.</p>
-      </li>
-      <li>
-          <h3>Sajikan Smoothie:</h3>
-          <p>Setelah anda berpuas hati dengan konsistensi, masa untuk menyajikan smoothie. Tuangkan smoothie ke dalam gelas yang sejuk dan hias dengan buah tambahan atau taburan biji chia, flaxseed, atau granola untuk tekstur.</p>
-          <p><strong>Petua:</strong> Untuk persembahan yang cantik, anda juga boleh menambah straw berwarna atau beberapa daun pudina sebagai hiasan.</p>
-          <p><strong>Petua:</strong> Sajikan smoothie segera setelah mengadun untuk rasa dan tekstur terbaik.</p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Tips & Trik</h2>
-  <ul>
-      <li>
-          <h3>Gunakan Buah Beku untuk Smoothie yang Lebih Pekat:</h3>
-          <p>Buah beku adalah tambahan yang bagus untuk smoothie kerana ia memekatkan minuman dan menjadikannya sejuk dan menyegarkan.</p>
-          <p><strong>Petua:</strong> Jika anda menggunakan buah segar, pertimbangkan untuk membekukannya terlebih dahulu, terutama pisang atau beri, untuk memberikan tekstur yang sempurna pada smoothie.</p>
-      </li>
-      <li>
-          <h3>Sesuaikan Manis Mengikut Selera:</h3>
-          <p>Rasa smoothie anda sebelum menyajikan dan sesuaikan manis jika perlu. Anda boleh menambah madu, sirap agave, atau sedikit jus buah untuk memaniskan.</p>
-          <p><strong>Petua:</strong> Jika anda lebih suka smoothie tanpa gula, pilih buah yang manis secara semula jadi seperti mangga atau pisang dan elakkan pemanis tambahan.</p>
-      </li>
-      <li>
-          <h3>Bereksperimen dengan Bahan Tambahan:</h3>
-          <p>Di Cookingdom, anda boleh menjadi kreatif dengan smoothie anda dengan menambah bahan tambahan seperti biji chia, flaxseed, serbuk protein, atau bahkan bayam untuk penambahan nutrisi.</p>
-          <p><strong>Petua:</strong> Menambah segenggam bayam tidak akan banyak mempengaruhi rasa tetapi akan meningkatkan manfaat kesihatan smoothie.</p>
-      </li>
-      <li>
-          <h3>Jangan Terlebih Adun:</h3>
-          <p>Berhati-hati agar tidak terlebih adun bahan-bahan. Walaupun mengadun adalah penting untuk mendapatkan tekstur yang licin, terlebih adun boleh menyebabkan smoothie menjadi terlalu cair atau nipis.</p>
-          <p><strong>Petua:</strong> Adun selama 30-45 saat, kemudian periksa konsistensi. Jika perlu, adun beberapa saat lagi.</p>
-      </li>
-      <li>
-          <h3>Sajikan Segera:</h3>
-          <p>Smoothie adalah yang terbaik apabila disajikan segar, jadi pastikan anda menyajikan smoothie anda segera setelah mengadun untuk mengekalkan rasa dan teksturnya.</p>
-          <p><strong>Petua:</strong> Jika anda perlu menyimpan smoothie untuk kemudian, simpan dalam bekas kedap udara di dalam peti sejuk selama sehingga 24 jam, tetapi lebih baik dinikmati segar.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Di Level 22 Cookingdom, membuat Easy Smoothie adalah tentang memilih buah yang tepat, mengadunnya dengan asas krimi, dan mencapai konsistensi yang sempurna. Kekalkan tekstur yang licin, sesuaikan rasa manis, dan sajikan sejuk dengan sentuhan dekoratif untuk kepuasan pelanggan yang maksimum.</p>
-  <p>Menguasai Easy Smoothie bukan sahaja akan meningkatkan kemahiran Cookingdom anda tetapi juga akan membuka peluang untuk kejayaan dalam level-level yang lebih mencabar yang akan datang!</p>
+<h2 id="overview">Gambaran Keseluruhan Tahap 20 Cookingdom</h2>
+<p>Pada tahap 20 Cookingdom, anda akan menyediakan hidangan yang kaya rasa dan tradisional — ayam belanda panggang. Hidangan ini sangat popular terutamanya semasa musim perayaan dan majlis khas. Menyediakan ayam belanda panggang memerlukan keseimbangan antara perapan, penyediaan dan masa memanggang yang tepat. Pada tahap ini, anda perlu memastikan ayam belanda masak sempurna dan disajikan bersama hidangan sampingan yang sesuai.</p>
+<p>Untuk berjaya di tahap 20, anda perlu mengawal beberapa langkah serentak — perapan, penyiraman dan memanggang supaya ayam belanda menjadi rangup dan berjus. Dengan teknik yang betul, anda akan menyajikan ayam belanda yang emas keemasan dan memuaskan pelanggan untuk melangkah ke tahap seterusnya.</p>
+
+<h2 id="goal">Matlamat Tahap 20 Cookingdom</h2>
+<ul>
+  <li>
+    <strong>Sediakan ayam belanda:</strong> Bersihkan ayam belanda, lumurkan dengan perapan dan isikan dengan herba serta rempah untuk rasa yang mendalam.
+  </li>
+  <li>
+    <strong>Memanggang ayam belanda:</strong> Pastikan suhu dan masa memanggang tepat supaya ayam masak sempurna dan berkulit rangup.
+  </li>
+  <li>
+    <strong>Menyiram ayam belanda:</strong> Siram ayam dengan jus sendiri atau campuran mentega cair supaya ayam kekal berjus.
+  </li>
+  <li>
+    <strong>Sajikan ayam belanda:</strong> Setelah siap, potong ayam dan hidangkan dengan cepat untuk mengekalkan keenakan.
+  </li>
+</ul>
+
+<h2 id="steps">Langkah Menyediakan Ayam Belanda Panggang di Cookingdom Tahap 20</h2>
+<ol>
+  <li>
+    <h3>Penyediaan Ayam Belanda:</h3>
+    <p>Bersihkan ayam, buang isi perut dan keringkan dengan tuala kertas supaya kulit mudah rangup.</p>
+    <p><strong>Petua:</strong> Sapukan minyak zaitun, bawang putih, garam dan lada. Tambahkan herba segar seperti rosemary, thyme dan sage.</p>
+    <p><strong>Petua:</strong> Isi ayam dengan bawang, bawang putih dan buah sitrus (limau atau oren) untuk aroma dan kelembapan.</p>
+  </li>
+  <li>
+    <h3>Perapan Ayam:</h3>
+    <p>Lumurkan campuran rempah ke seluruh bahagian luar dan dalam ayam. Campuran popular termasuk rosemary, thyme, sage, garam, lada dan bawang putih.</p>
+    <p><strong>Petua:</strong> Jangan lupa lumurkan bahagian dalam ayam untuk perasa meresap lebih baik.</p>
+    <p><strong>Petua:</strong> Jika ada masa, perap ayam dalam peti sejuk beberapa jam atau semalaman.</p>
+  </li>
+  <li>
+    <h3>Memanggang Ayam:</h3>
+    <p>Panaskan ketuhar pada 175°C (350°F). Letakkan ayam di atas rak atau dulang dengan kertas aluminium untuk mengumpul jus.</p>
+    <p><strong>Petua:</strong> Tutup ayam dengan kertas aluminium pada awal memanggang untuk mengekalkan kelembapan.</p>
+    <p><strong>Petua:</strong> Panggang selama kira-kira 13–15 minit setiap 450 gram sehingga suhu dalam ayam mencapai 75°C (165°F).</p>
+    <p><strong>Petua:</strong> Jika kulit terlalu cepat menjadi gelap, kurangkan suhu ketuhar.</p>
+  </li>
+  <li>
+    <h3>Menyiram Ayam:</h3>
+    <p>Setiap 30–45 minit, siram ayam dengan jus panggang sendiri atau campuran mentega cair dan stok ayam.</p>
+    <p><strong>Petua:</strong> Elakkan membuka ketuhar terlalu kerap supaya suhu tetap stabil.</p>
+  </li>
+  <li>
+    <h3>Periksa Kesempurnaan Memasak:</h3>
+    <p>Periksa suhu di bahagian paling tebal kaki tanpa menyentuh tulang.</p>
+    <p><strong>Petua:</strong> Apabila mencapai 75°C (165°F), ayam sudah masak dan boleh dikeluarkan.</p>
+  </li>
+  <li>
+    <h3>Rehatkan Ayam:</h3>
+    <p>Biarkan ayam berehat selama 15–20 minit supaya jus meresap rata.</p>
+    <p><strong>Petua:</strong> Tutup ayam dengan kertas aluminium untuk mengekalkan kehangatan.</p>
+  </li>
+  <li>
+    <h3>Potong Ayam:</h3>
+    <p>Potong ayam menggunakan pisau tajam, bahagikan kepada bahagian dada, peha dan sayap.</p>
+    <p><strong>Petua:</strong> Potong melawan arah serat supaya lebih lembut.</p>
+  </li>
+  <li>
+    <h3>Sajikan Ayam:</h3>
+    <p>Sajikan bersama lauk tradisional seperti kentang lecek, inti, kuah panggang dan sos kranberi.</p>
+    <p><strong>Petua:</strong> Siram ayam dengan kuah untuk menambah rasa.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua dan Tips untuk Tahap 20 Cookingdom</h2>
+<ul>
+  <li>
+    <h3>Suhu Memanggang yang Sesuai:</h3>
+    <p>Jangan gunakan suhu terlalu tinggi agar kulit tidak terbakar dan ayam masak sempurna.</p>
+    <p><strong>Petua:</strong> Tutup ayam dengan kertas aluminium pada dua pertiga masa memasak, buka untuk kulit rangup di akhir.</p>
+  </li>
+  <li>
+    <h3>Jangan Memasak Berlebihan:</h3>
+    <p>Ayam yang terlalu kering kurang sedap. Gunakan termometer untuk memeriksa suhu tepat.</p>
+    <p><strong>Petua:</strong> Untuk ayam kecil, masa memasak mungkin lebih singkat. Perhatikan dengan teliti.</p>
+  </li>
+  <li>
+    <h3>Sering Menyiram Ayam:</h3>
+    <p>Ini memastikan ayam kekal lembap dan berperisa.</p>
+    <p><strong>Petua:</strong> Jangan abaikan proses menyiram untuk hasil terbaik.</p>
+  </li>
+  <li>
+    <h3>Rehatkan Ayam Setelah Memanggang:</h3>
+    <p>Menjadikan daging lebih lembut dan berjus.</p>
+    <p><strong>Petua:</strong> Simpan ayam dalam keadaan hangat dengan menutupnya menggunakan kertas aluminium.</p>
+  </li>
+  <li>
+    <h3>Potongan yang Kemasan:</h3>
+    <p>Memudahkan penyajian dan hidangan.</p>
+    <p><strong>Petua:</strong> Potong melawan serat daging untuk kelembutan.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Tahap 20 Cookingdom menguji kemahiran memasak anda dengan penyediaan ayam belanda panggang yang sempurna. Dari penyediaan, perapan hingga memanggang dan menyiram, setiap langkah penting untuk menghasilkan hidangan yang berjus dan lazat. Setelah menguasai tahap ini, anda bersedia menghadapi resipi yang lebih kompleks pada tahap-tahap berikutnya!</p>
   `,
   },
+
   {
-    // Add entry for Level 23
-    id: 'cookingdom-game-level-23',
-    title: 'Cookingdom Level 23:<br>Yule Log Cake',
-    pageTitle: 'Cookingdom Level 23 - Panduan Yule Log Cake',
-    pageSubtitle: 'Kuasa pembuatan Yule Log Cake (Bûche de Noël) di Level 23 Cookingdom.',
+    id: 'cookingdom-game-level-21',
+    title: 'Cookingdom Tahap 21: Panduan Langkah demi Langkah Membuat Bobba Milk Tea',
+    pageTitle: 'Cookingdom Tahap 21: Panduan Langkah demi Langkah Membuat Bobba Milk Tea',
+    pageSubtitle: 'Ketahui cara membuat Bobba Milk Tea yang sempurna di Tahap 21 Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_23.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
-    iframeUrl: 'https://www.youtube.com/embed/FCFq9xRRobo', // Placeholder
+    imageUrl: '/images/guides_21.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
+    iframeUrl: 'https://www.youtube.com/embed/Gx6cF0wkSek',
     seo: {
-      title: 'Panduan Cookingdom Level 23: Yule Log Cake | Petua & Strategi',
+      title: 'Cookingdom Tahap 21: Panduan Bobba Milk Tea | cookingdom.co',
       description:
-        'Pelajari cara membuat Yule Log Cake di Level 23 Cookingdom. Dapatkan petua untuk membakar sponge, menggulung, mengisi, menyalut, dan menghias pencuci mulut klasik ini.',
+        'Kuasi cara membuat Bobba Milk Tea di Cookingdom Tahap 21. Dapatkan tip penyediaan mutiara bobba, penyeduhan teh, pengimbangan susu dan penyajian minuman trendi ini.',
       keywords:
-        'Cookingdom, Level 23, Yule Log Cake, Bûche de Noël, Pencuci Mulut Musim Perayaan, Panduan Membakar, Strategi',
+        'Cookingdom Tahap 21, Cookingdom Bobba Milk Tea, Bubble Tea, Minuman Taiwan, Panduan Teh',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_23.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_21.webp',
       levelInfoHtml:
-        '<h3>Yule Log Cake</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Masa Anggaran:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Bobba Milk Tea</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Anugerah:</strong> 5 bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-20',
-          title: 'Cookingdom Level 20<br>Roast Turkey',
-          imageUrl: '/images/guides_20.webp', // Placeholder
+          title: 'Cookingdom Tahap 20: Panduan Langkah demi Langkah Membuat Ayam Belanda Goreng',
+          imageUrl: '/images/guides_20.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
-        },
-        {
-          id: 'cookingdom-game-level-21',
-          title: 'Cookingdom Level 21<br>Boba Milk Tea',
-          imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
         {
           id: 'cookingdom-game-level-22',
-          title: 'Cookingdom Level 22<br>Easy Smoothie',
-          imageUrl: '/images/guides_22.webp', // Placeholder
+          title: 'Cookingdom Tahap 22: Panduan Langkah demi Langkah Membuat Smoothie Ringan',
+          imageUrl: '/images/guides_22.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Selamat datang ke Level 23 dalam permainan Cookingdom, di mana kemahiran membakar anda akan diuji dengan pencuci mulut perayaan klasik – Yule Log Cake (juga dikenali sebagai Bûche de Noël). Level ini mencabar pemain untuk membakar, menggulung, dan menghias kek span perayaan yang diisi dengan krim dan disalut dengan coklat pekat. Ketepatan dan masa adalah kunci untuk menyelesaikan pencuci mulut yang rumit ini dan menggembirakan pelanggan maya anda.</p>
-  <p>Panduan Cookingdom akan membantu anda mengarahkan setiap langkah dalam level ini untuk memastikan Yule Log Cake anda bukan sahaja sedap tetapi juga menarik mata.</p>
-  
-  <h2 id="goal">Objektif Level 23</h2>
-  <ul>
-      <li>Bakery kek span yang ringan dan fleksibel.</li>
-      <li>Persiapkan dan sebarkan pengisian krim.</li>
-      <li>Gulungkan sponge tanpa retak.</li>
-      <li>Salutkan batang dengan icing coklat.</li>
-      <li>Hias dengan topping bertema perayaan.</li>
-      <li>Hantar kek sempurna dalam had masa.</li>
-  </ul>
-  
-  <h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Yule Log Cake</h2>
-  <ol>
-      <li>
-          <h3>Sediakan Adunan Sponge Cake</h3>
-          <p>Dalam Cookingdom, mula dengan mencampurkan telur, gula, tepung, dan serbuk koko.</p>
-          <p><strong>Tip:</strong> Pukul telur dan gula sehingga ringan dan berbuih — ini memberikan tekstur yang ringan pada sponge anda.</p>
-          <p><strong>Tip dari Cookingdom:</strong> Elakkan mengadun tepung terlalu banyak untuk mengekalkan kelembutan adunan.</p>
-      </li>
-      <li>
-          <h3>Bakar Sponge</h3>
-          <p>Tuangkan adunan ke dalam dulang pembakar yang dilapisi kertas perkamen.</p>
-          <p>Bakar dalam oven yang telah dipanaskan sehingga kek kukuh — lebih kurang 10 minit dalam masa permainan.</p>
-          <p><strong>Tip:</strong> Sponge mesti kekal fleksibel untuk digulung tanpa pecah.</p>
-      </li>
-      <li>
-          <h3>Gulungkan Semasa Hangat</h3>
-          <p>Sebaik sahaja dibakar, gulungkan sponge (bersama kertas perkamen) semasa ia masih hangat.</p>
-          <p>Biarkan sejuk dalam bentuk gulungan — ini “melatih” kek dan mengelakkan keretakan nanti.</p>
-          <p><strong>Panduan Cookingdom menegaskan bahawa jika langkah ini dilepaskan, kek mungkin pecah!</strong></p>
-      </li>
-      <li>
-          <h3>Sediakan Pengisian Krim</h3>
-          <p>Dalam level ini, pukul krim sebat dengan sedikit vanila dan gula.</p>
-          <p>Opsyenal: Tambahkan sedikit espresso atau koko untuk rasa tambahan.</p>
-      </li>
-      <li>
-          <h3>Isikan dan Gulung</h3>
-          <p>Dengan berhati-hati, buka gulungan sponge yang telah sejuk, sebarkan krim secara rata, dan gulungkannya semula dengan lembut.</p>
-          <p>Gunakan tangan yang stabil untuk mengelakkan kek daripada terkoyak.</p>
-          <p><strong>Tip:</strong> Pastikan gulungan ketat untuk kesan spiral yang lebih baik apabila dihiris.</p>
-      </li>
-      <li>
-          <h3>Salutkan Log</h3>
-          <p>Salutkan gulungan dengan ganache coklat atau buttercream.</p>
-          <p>Gunakan garpu untuk membuat tekstur “kulit kayu” — butiran penting dalam Cookingdom yang meningkatkan skor anda.</p>
-          <p><strong>Tip:</strong> Sejukkan kek sebentar untuk menetapkan frosting sebelum menghias.</p>
-      </li>
-      <li>
-          <h3>Tambahkan Dekorasi Perayaan</h3>
-          <p>Gunakan gula aising untuk kesan diselaputi salji.</p>
-          <p>Tambahkan holly, beri, atau cendawan yang boleh dimakan.</p>
-          <p><strong>Panduan Cookingdom menggalakkan kreativiti di sini — dekorasi meningkatkan penarafan bintang anda!</strong></p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Tip Profesional untuk Kejayaan di Level 23</h2>
-  <ul>
-      <li>
-          <h3>Timing Itu Penting</h3>
-          <p>Jangan bakar sponge terlalu lama; ia mesti cukup lembut untuk digulung.</p>
-      </li>
-      <li>
-          <h3>Dekorasi Itu Penting</h3>
-          <p>Permainan Cookingdom menghargai pemain yang meluangkan masa untuk menghias. Lagi meriah, lagi bagus!</p>
-      </li>
-      <li>
-          <h3>Latihan Membuat Sempurna</h3>
-          <p>Level ini mungkin memerlukan beberapa cubaan untuk menguasai teknik menggulung dan mengisi.</p>
-      </li>
-      <li>
-          <h3>Combo Streaks</h3>
-          <p>Siapkan beberapa kek dengan cepat untuk mencetuskan bonus combo bagi skor yang lebih tinggi.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Cookingdom Level 23, menguasai Yule Log Cake bermakna mengimbangi kemahiran membakar, ketepatan masa, dan kreativiti. Dari membuat sponge yang sempurna hingga menghias kek dengan sentuhan perayaan, level ini menguji semua yang telah anda pelajari setakat ini. Dengan bantuan panduan Cookingdom, anda akan menggulung jalan menuju kejayaan dan meninggalkan pelanggan anda dengan kegembiraan perayaan!</p>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Tahap 21 Cookingdom</h2>
+<p>Tahap 21 dalam Cookingdom menampilkan penyediaan minuman yang popular dan menyegarkan — Bobba Milk Tea. Minuman Taiwan yang dikenali juga sebagai bubble tea ini terdiri daripada teh, susu dan mutiara tapioka yang kenyal. Objektif tahap ini ialah untuk mengimbangi rasa teh, susu dan gula serta menyediakan mutiara tapioka yang sempurna untuk menghasilkan minuman yang kaya dan sedap.</p>
+<p>Kunci kejayaan di tahap 21 adalah ketepatan dalam menyeduh teh, memasak tapioka dan menyediakan minuman dengan cepat. Mari kita lihat langkah dan tip yang akan membantu anda menghasilkan Bobba Milk Tea yang sempurna dan memperoleh penilaian tertinggi!</p>
+
+<h2 id="goal">Matlamat Tahap 21 Cookingdom</h2>
+<ul>
+    <li>
+        <strong>Masak mutiara bobba:</strong> Langkah pertama ialah memasak mutiara tapioka. Mutiara perlu dimasak sehingga lembut dan kenyal di dalam, dengan tekstur sedikit liat di luar.
+    </li>
+    <li>
+        <strong>Seduh teh:</strong> Langkah seterusnya ialah menyediakan teh yang pekat. Biasanya menggunakan teh hitam, tetapi boleh juga teh hijau atau oolong mengikut citarasa.
+    </li>
+    <li>
+        <strong>Sediakan susu:</strong> Tambahkan susu atau alternatif susu supaya minuman menjadi berkrim dan lembut. Imbangan susu dan teh sangat penting.
+    </li>
+    <li>
+        <strong>Sediakan dan hidangkan minuman:</strong> Satukan mutiara yang telah dimasak, teh yang diseduh dan susu ke dalam gelas, hidangkan dengan sejuk bersama straw lebar untuk kemudahan minum mutiara.
+    </li>
+</ul>
+
+<h2 id="steps">Langkah-Langkah Membuat Bobba Milk Tea di Cookingdom Tahap 21</h2>
+<ol>
+    <li>
+        <h3>Masak mutiara bobba:</h3>
+        <p>Mula dengan memasak mutiara tapioka. Didihkan air dalam periuk besar dan masukkan mutiara sambil kacau perlahan supaya tidak melekat.</p>
+        <p><strong>Tip:</strong> Masak mengikut arahan pembungkusan (biasanya 20-30 minit). Mutiara perlu dimasak sepenuhnya tapi masih kenyal. Masak terlalu lama akan menjadikan mutiara terlalu lembut, kurang masak pula keras di dalam.</p>
+        <p><strong>Tip:</strong> Setelah masak, bilas mutiara dengan air sejuk untuk hentikan proses memasak dan elak daripada melekat.</p>
+    </li>
+    <li>
+        <h3>Seduh teh:</h3>
+        <p>Semasa mutiara dimasak, seduh teh yang pekat. Gunakan teh hitam atau pilihan lain mengikut citarasa. Seduh selama 3-5 minit untuk rasa yang kaya.</p>
+        <p><strong>Tip:</strong> Seduh sedikit lebih pekat supaya rasa tidak hilang selepas ditambah susu dan gula.</p>
+        <p><strong>Tip:</strong> Untuk rasa unik, boleh guna teh jasmine atau oolong, tetapi teh hitam adalah tradisional.</p>
+    </li>
+    <li>
+        <h3>Sediakan susu:</h3>
+        <p>Tambahkan susu pilihan anda — susu penuh krim, susu badam atau susu berasaskan tumbuhan lain.</p>
+        <p><strong>Tip:</strong> Untuk rasa berkrim, gunakan susu penuh krim atau santan. Untuk minuman ringan, gunakan susu tanpa lemak atau susu oat.</p>
+        <p><strong>Tip:</strong> Tambah susu sedikit demi sedikit dan rasa supaya dapat imbangan yang sempurna antara teh dan susu.</p>
+    </li>
+    <li>
+        <h3>Tambah pemanis:</h3>
+        <p>Masukkan gula atau pemanis lain dan kacau rata. Jumlah gula boleh diubah ikut citarasa supaya menyeimbangkan kepahitan teh.</p>
+        <p><strong>Tip:</strong> Guna madu, sirap atau pemanis lain mengikut keperluan. Laraskan kemanisan mengikut selera pelanggan.</p>
+    </li>
+    <li>
+        <h3>Satukan minuman:</h3>
+        <p>Dalam gelas, letakkan mutiara yang dimasak dahulu, kemudian tambah ais.</p>
+        <p><strong>Tip:</strong> Gunakan ais yang cukup supaya minuman kekal sejuk tapi tidak terlalu cair sehingga merosakkan rasa.</p>
+        <p>Tuang teh yang dicampur susu ke dalam gelas.</p>
+        <p><strong>Tip:</strong> Untuk hiasan, boleh tambah sedikit sirap atau madu di atasnya.</p>
+    </li>
+    <li>
+        <h3>Hidangkan Bobba Milk Tea:</h3>
+        <p>Hidangkan dengan straw lebar supaya mudah minum mutiara. Pastikan kacau sebelum diminum.</p>
+        <p><strong>Tip:</strong> Hiaskan dengan tambahan mutiara atau buah-buahan seperti hirisan lemon atau daun pudina.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tip dan Cadangan untuk Cookingdom Tahap 21</h2>
+<ul>
+    <li>
+        <h3>Mutiara bobba yang sempurna:</h3>
+        <p>Tekstur mutiara sangat penting. Mesti lembut dan kenyal dengan lapisan luar yang sedikit liat.</p>
+        <p><strong>Tip:</strong> Jangan masak terlalu lama dan hidangkan segar supaya tidak melekat.</p>
+    </li>
+    <li>
+        <h3>Imbangan susu dan teh:</h3>
+        <p>Jika terlalu banyak susu, rasa teh akan hilang, jika kurang susu, minuman jadi pahit.</p>
+        <p><strong>Tip:</strong> Cuba rasa minuman dan laraskan supaya seimbang.</p>
+    </li>
+    <li>
+        <h3>Kemanisan:</h3>
+        <p>Kemanisan perlu melengkapkan rasa dan bukan mendominasi.</p>
+        <p><strong>Tip:</strong> Rasa dahulu dan laraskan kemanisan sebelum hidang.</p>
+    </li>
+    <li>
+        <h3>Sejukkan teh dan mutiara:</h3>
+        <p>Minuman paling sedap apabila disajikan sejuk.</p>
+        <p><strong>Tip:</strong> Simpan teh dalam peti sejuk dan mutiara yang sudah dimasak juga sejukkan sebelum hidang.</p>
+    </li>
+    <li>
+        <h3>Variasi kreatif:</h3>
+        <p>Boleh tambah topping seperti kacang merah, buah-buahan atau puding.</p>
+        <p><strong>Tip:</strong> Cuba guna pelbagai jenis teh untuk rasa yang unik.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Menyediakan Bobba Milk Tea yang sempurna di tahap 21 memerlukan ketelitian memasak mutiara tapioka, menyeduh teh dan melaraskan susu serta kemanisan dengan tepat. Pastikan tekstur mutiara tepat dan kombinasi susu-teh seimbang untuk menghasilkan minuman yang lazat.</p>
+<p>Dengan persediaan yang betul, bahan segar dan kreativiti, anda boleh memukau pelanggan dan berjaya menamatkan tahap 21 dalam Cookingdom!</p>
+`,
   },
+
   {
-    // Add entry for Level 24
+    id: 'cookingdom-game-level-22',
+    title: 'Panduan Penuh Cookingdom Tahap 22: Smoothie Mudah',
+    pageTitle: 'Panduan Penuh Cookingdom Tahap 22: Smoothie Mudah',
+    pageSubtitle:
+      'Ketahui cara membuat Smoothie Mudah dengan betul dalam Tahap 22 permainan Cookingdom.',
+    category: '21-30',
+    publishDate: '2025-05-05',
+    isSpecial: false,
+    imageUrl: '/images/guides_22.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
+    iframeUrl: 'https://www.youtube.com/embed/Xdrg_MknwEQ',
+    seo: {
+      title: 'Panduan Cookingdom Tahap 22: Smoothie Mudah | cookingdom.co',
+      description:
+        'Pelajari cara menyediakan Smoothie Mudah dalam Tahap 22 permainan Cookingdom. Petua untuk memilih buah, mengisar, mendapatkan tekstur sempurna, dan cara hidangan yang menarik.',
+      keywords:
+        'Cookingdom Tahap 22, Smoothie Mudah, Smoothie Buah, Cara Buat Smoothie, Panduan Cookingdom',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_22.webp',
+      levelInfoHtml:
+        '<h3>Smoothie Mudah</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-21',
+          title: 'Panduan Penuh Cookingdom Tahap 21: Teh Susu dengan Kacang',
+          imageUrl: '/images/guides_21.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
+        },
+        {
+          id: 'cookingdom-game-level-23',
+          title: 'Panduan Penuh Cookingdom Tahap 23: Kek Gulung Krismas',
+          imageUrl: '/images/guides_23.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Umum Tahap 22 dalam Cookingdom</h2>
+<p>Tahap 22 dalam permainan Cookingdom memperkenalkan hidangan menyegarkan dan sihat — Smoothie Mudah. Ia adalah pilihan ringan yang sempurna untuk pelanggan yang ingin menikmati minuman buah yang lazat. Matlamat anda adalah untuk menyediakannya dengan cepat dan tepat.</p>
+<p>Cabaran utama adalah memilih kombinasi buah yang sesuai, mengisar dengan sempurna, dan mencapai tekstur yang ideal. Sama ada anda menyediakan smoothie tropika berasaskan mangga atau campuran beri, tekstur dan rasa yang tepat adalah kunci kejayaan.</p>
+
+<h2 id="goal">Objektif Tahap 22</h2>
+<ul>
+  <li><strong>Pilih Buah-buahan:</strong> Gunakan buah seperti pisang, strawberi, beri biru, atau mangga sebagai asas.</li>
+  <li><strong>Tambahkan Yogurt atau Cecair:</strong> Gunakan susu, susu badam, jus oren, atau yogurt untuk melembutkan campuran.</li>
+  <li><strong>Kisar Sehingga Halus:</strong> Gunakan pengisar sehingga teksturnya licin — jangan terlalu lama untuk elak ia terlalu cair.</li>
+  <li><strong>Penyediaan:</strong> Tuang ke dalam gelas dan hiaskan jika mahu.</li>
+</ul>
+
+<h2 id="steps">Langkah-langkah Menyediakan Smoothie Mudah</h2>
+<ol>
+  <li>
+    <h3>Pemilihan Buah</h3>
+    <p>Pilih buah-buahan mengikut citarasa. Untuk rasa tropika, gunakan mangga dan nanas. Untuk rasa beri, gunakan strawberi dan beri biru.</p>
+    <p><strong>Petua:</strong> Tambahkan sedikit susu kelapa untuk rasa tropika yang lebih kaya.</p>
+  </li>
+  <li>
+    <h3>Tambah Asas Cecair</h3>
+    <p>Tambahkan yogurt, susu, atau alternatif tumbuhan (seperti susu badam atau jus buah) mengikut citarasa dan keperluan konsistensi.</p>
+    <p><strong>Petua:</strong> Yogurt Greek akan memberikan tekstur lebih pekat.</p>
+  </li>
+  <li>
+    <h3>Mengisar</h3>
+    <p>Mula dengan kelajuan rendah, tingkatkan secara beransur-ansur sehingga campuran sebati. Semak tekstur semasa proses.</p>
+  </li>
+  <li>
+    <h3>Periksa Tekstur</h3>
+    <p>Smoothie siap apabila ia licin dan tidak terlalu cair. Laraskan dengan menambah lebih buah atau cecair jika perlu.</p>
+  </li>
+  <li>
+    <h3>Penyediaan dan Hidangan</h3>
+    <p>Tuang ke dalam gelas. Boleh dihias dengan hirisan buah, daun pudina, atau taburan bijian. Hidangkan segera.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Berguna</h2>
+<ul>
+  <li>
+    <h3>Guna Buah Beku</h3>
+    <p>Buah beku menjadikan smoothie lebih sejuk dan pekat tanpa ais tambahan.</p>
+  </li>
+  <li>
+    <h3>Laras Tahap Kem manisan</h3>
+    <p>Rasa dahulu sebelum menambah madu, sirap maple, atau jus tambahan.</p>
+  </li>
+  <li>
+    <h3>Tambahan Sihat</h3>
+    <p>Boleh tambahkan biji chia, biji rami, serbuk protein, atau sayur bayam untuk lebih khasiat.</p>
+  </li>
+  <li>
+    <h3>Elakkan Mengisar Terlalu Lama</h3>
+    <p>30–45 saat sudah mencukupi. Lebih lama boleh menjadikan smoothie terlalu cair.</p>
+  </li>
+  <li>
+    <h3>Hidangkan Segera</h3>
+    <p>Smoothie paling sedap apabila segar. Jika perlu simpan, gunakan bekas kedap udara dan simpan dalam peti sejuk tidak lebih dari 24 jam.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Tahap 22 dalam Cookingdom memerlukan pemilihan buah yang betul, pengisaran tepat, dan persembahan menarik. Dengan penyediaan yang betul, anda pasti memperoleh 5 bintang!</p>
+<p>Setelah menguasai Smoothie Mudah, anda bersedia untuk cabaran masakan yang lebih mencabar dalam tahap-tahap berikutnya!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-23',
+    title: 'Cookingdom Tahap 23 — Panduan Membuat Kek Batang Pokok Krismas',
+    pageTitle: 'Cookingdom Tahap 23 — Panduan Membuat Kek Batang Pokok Krismas',
+    pageSubtitle:
+      'Pelajari cara membuat Bûche de Noël, kek klasik musim perayaan, di Tahap 23 Cookingdom.',
+    category: '21-30',
+    publishDate: '2025-05-05',
+    isSpecial: false,
+    imageUrl: '/images/guides_23.webp', // Gantian
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
+    iframeUrl: 'https://www.youtube.com/embed/3Eg2387hpaE', // Gantian
+    seo: {
+      title: 'Panduan Cookingdom Tahap 23: Bûche de Noël | cookingdom.co',
+      description:
+        'Pelajari cara menyediakan kek perayaan Bûche de Noël dalam Cookingdom Tahap 23. Ketahui petua membakar kek span, menggulung, mengisi krim, menyalut dengan aising coklat, dan menghias.',
+      keywords:
+        'Cookingdom Tahap 23, Kek Batang Pokok Krismas, Bûche de Noël, Panduan Cookingdom, Kek Krismas',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_23.webp', // Gantian
+      levelInfoHtml:
+        '<h3>Kek Batang Pokok Krismas</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-22',
+          title: 'Cookingdom Tahap 22 — Panduan Smoothie Ringkas',
+          imageUrl: '/images/guides_22.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
+        },
+        {
+          id: 'cookingdom-game-level-24',
+          title: 'Cookingdom Tahap 24 — Panduan Sup Daging Pho',
+          imageUrl: '/images/guides_24.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Umum Cookingdom Tahap 23</h2>
+<p>Selamat datang ke Tahap 23 dalam Cookingdom! Dalam cabaran ini, anda akan menyediakan kek tradisional musim perayaan dari Perancis — Bûche de Noël (kek batang pokok Krismas). Ia melibatkan membakar kek span, menggulung, mengisi krim, melapis dengan aising coklat, dan menghias secara kreatif. Ketepatan dan masa adalah kunci kejayaan.</p>
+
+<h2 id="goal">Matlamat Tahap 23</h2>
+<ul>
+    <li>Membakar kek span lembut dan fleksibel.</li>
+    <li>Menyediakan krim isian vanila atau mocha.</li>
+    <li>Menggulung kek dengan rapi tanpa retak.</li>
+    <li>Melapis dengan aising coklat seperti kulit kayu.</li>
+    <li>Menghias dengan elemen musim sejuk/krismas.</li>
+    <li>Menyampaikan kek dengan sempurna dan pantas.</li>
+</ul>
+
+<h2 id="steps">Langkah Demi Langkah Menyediakan Bûche de Noël</h2>
+<ol>
+  <li>
+    <h3>Sediakan Adunan Kek Span</h3>
+    <p>Pukul telur dan gula hingga kembang, kemudian masukkan tepung dan serbuk koko.</p>
+    <p><strong>Petua:</strong> Adunan ringan membantu kek menggulung tanpa pecah.</p>
+  </li>
+  <li>
+    <h3>Bakar Dalam Loyang</h3>
+    <p>Tuang ke dalam loyang nipis dan bakar selama 10 minit.</p>
+    <p><strong>Peringatan:</strong> Jangan terlalu kering atau kek akan retak semasa digulung.</p>
+  </li>
+  <li>
+    <h3>Gulung Sementara Panas</h3>
+    <p>Gulung kek terus dari oven dengan kertas pembakar. Biarkan sejuk dalam bentuk gulungan.</p>
+    <p><strong>Penting:</strong> Langkah ini penting untuk bentuk kek yang cantik.</p>
+  </li>
+  <li>
+    <h3>Sediakan Krim Isian</h3>
+    <p>Pukul krim segar bersama vanila atau serbuk koko.</p>
+    <p>Boleh tambah kopi (mocha) untuk variasi rasa.</p>
+  </li>
+  <li>
+    <h3>Sapukan & Gulung</h3>
+    <p>Buka semula kek, sapukan krim, dan gulung semula dengan kemas.</p>
+    <p><strong>Petua:</strong> Gulung padat untuk hasil spiral yang menarik.</p>
+  </li>
+  <li>
+    <h3>Lapiskan Aising Coklat</h3>
+    <p>Sapukan aising coklat atau ganache dan gunakan garpu untuk buat tekstur kulit kayu.</p>
+  </li>
+  <li>
+    <h3>Hiaskan</h3>
+    <p>Tabur gula aising, tambah beri, cendawan fondan, atau dedaun hiasan musim sejuk.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Tambahan</h2>
+<ul>
+  <li><strong>Jangan terlebih bakar</strong> — kek mesti kekal lembut untuk digulung.</li>
+  <li><strong>Hiasan menambah markah</strong> — lebih kreatif, lebih tinggi penilaian!</li>
+  <li><strong>Berlatih</strong> — jangan risau jika gagal pada percubaan pertama.</li>
+  <li><strong>Bonus Kombo</strong> — hantar kek berturut-turut untuk ganjaran tambahan.</li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Tahap 23 adalah cabaran bakeri sebenar dalam Cookingdom. Jika anda berjaya menggulung dan menghias dengan betul, pelanggan anda pasti gembira — dan anda akan mendapat 5 bintang!</p>
+`,
+  },
+
+  {
+    // Tambah entri untuk Tahap 24
     id: 'cookingdom-game-level-24',
-    title: 'Cookingdom Level 24:<br>Beef Pho',
-    pageTitle: 'Cookingdom Level 24 - Panduan Beef Pho',
-    pageSubtitle: 'Kuasi seni membuat Beef Pho Vietnam yang lazat di Level 24 Cookingdom.',
+    title: 'Panduan Cookingdom Tahap 24: Pho Daging Sapi',
+    pageTitle: 'Panduan Cookingdom Tahap 24: Pho Daging Sapi',
+    pageSubtitle:
+      'Kuasi seni menyediakan pho daging sapi Vietnam yang lazat dalam Tahap 24 Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: true,
     imageUrl: '/images/guides_24.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
-    iframeUrl: 'https://www.youtube.com/embed/iKRnARMMl_0', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/wTjgf3r0fAc', // Placeholder
     seo: {
-      title: 'Panduan Cookingdom Level 24: Beef Pho | Petua & Strategi',
+      title: 'Panduan Cookingdom Tahap 24: Pho Daging Sapi | cookingdom.co',
       description:
-        'Kuasi Beef Pho di Level 24 Cookingdom. Dapatkan petua tentang cara memasak sup, memasak mi, menghiris daging, dan menyusun sup Vietnam yang harum ini.',
-      keywords: 'Cookingdom, Level 24, Beef Pho, Sup Vietnam, Sup Mi, Masak Sup, Panduan, Strategi',
+        'Pelajari cara membuat pho daging sapi dalam Tahap 24 Cookingdom. Ketahui tip tentang merebus sup, menyediakan mi, memotong daging, dan menyusun mangkuk pho yang lazat.',
+      keywords:
+        'Cookingdom Tahap 24, Cookingdom Pho Daging, Sup Vietnam, Sup Mi, Panduan Memasak, Panduan Permainan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_24.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Beef Pho</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Pho Daging Sapi</h3><p><strong>Tahap Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-21',
-          title: 'Cookingdom Level 21<br>Boba Milk Tea',
-          imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
-        },
-        {
-          id: 'cookingdom-game-level-22',
-          title: 'Cookingdom Level 22<br>Easy Smoothie',
-          imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
-        },
-        {
           id: 'cookingdom-game-level-23',
-          title: 'Cookingdom Level 23<br>Yule Log Cake',
+          title: 'Panduan Cookingdom Tahap 23: Kek Kayu Yule',
           imageUrl: '/images/guides_23.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
+        },
+        {
+          id: 'cookingdom-game-level-25',
+          title: 'Panduan Cookingdom Tahap 25: Piza',
+          imageUrl: '/images/guides_25.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Di Cookingdom Level 24, anda diperkenalkan dengan Beef Pho, sup mi Vietnam yang lazat dan harum. Cabaran di sini adalah menyediakan sup dengan sempurna, memasak daging dengan tepat, dan menyusun hidangan ini dengan semua garnis yang penting. Gabungan herba yang wangi, mi nasi, dan daging lembu yang dihiris nipis menjadikan hidangan ini sangat digemari, dan di Cookingdom, semuanya mengenai melakukan setiap langkah dengan tepat untuk memastikan pelanggan anda berpuas hati.</p>
-  <p>Level ini memerlukan ketepatan dan perhatian terhadap perincian, kerana Beef Pho melibatkan beberapa langkah: memasak sup, menyediakan mi, dan memastikan daging dimasak dengan sempurna. Panduan permainan Cookingdom memberikan arahan langkah demi langkah untuk menjayakan level ini.</p>
-  
-  <h2 id="goal">Objektif Level 24</h2>
-  <ul>
-      <li>Masak sup dengan rempah dan bahan yang tepat.</li>
-      <li>Siapkan mi nasi dan pastikan ia lembut.</li>
-      <li>Masak hirisan daging lembu ke tahap kematangan yang tepat.</li>
-      <li>Susun pho dengan herba segar, bean sprout, dan limau nipis.</li>
-      <li>Hidangkan pho ketika ia panas dan penuh rasa.</li>
-  </ul>
-  
-  <h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Beef Pho</h2>
-  <ol>
-      <li>
-          <h3>Masak Sup</h3>
-          <p>Mulakan dengan menyediakan sup di Cookingdom. Kunci kepada sup pho yang lazat adalah memasaknya dalam masa yang lama. Dalam permainan, anda akan menambah tulang lembu, bawang, halia, dan rempah seperti star anise, cengkih, kayu manis, dan buah pelaga. Masak bahan-bahan ini untuk tempoh yang panjang (biasanya 30-40 minit dalam permainan).</p>
-          <p><strong>Petua:</strong> Singkirkan kotoran yang terapung di permukaan untuk memastikan sup kekal jernih dan bersih.</p>
-      </li>
-      <li>
-          <h3>Sediakan Mi Nasi</h3>
-          <p>Sementara sup sedang dimasak, kini tiba masanya untuk menyediakan mi nasi. Di Cookingdom, anda perlu memasaknya sehingga ia lembut tetapi tidak terlalu lembik.</p>
-          <p><strong>Petua:</strong> Jangan masak mi terlalu lama. Mi harus mempunyai sedikit gigitan kerana ia akan terus lembut selepas dihidangkan dengan sup yang panas.</p>
-      </li>
-      <li>
-          <h3>Hiris Daging Lembu</h3>
-          <p>Beef Pho biasanya dihidangkan dengan hirisan daging lembu mentah yang dimasak dalam sup panas. Di Cookingdom, anda diminta untuk menghiris daging lembu dengan nipis melawan seratnya.</p>
-          <p><strong>Petua:</strong> Bekukan daging lembu selama 10-15 minit sebelum menghiris untuk memudahkan pemotongan hirisan yang sangat nipis.</p>
-      </li>
-      <li>
-          <h3>Susun Pho</h3>
-          <p>Apabila sup siap dan mi sudah dimasak, kini tiba masanya untuk menyusun pho. Letakkan mi dalam mangkuk terlebih dahulu, kemudian susun hirisan daging lembu mentah di atasnya. Tuangkan sup panas ke atas daging, membolehkan suhu sup untuk memasak daging lembu.</p>
-          <p><strong>Petua:</strong> Pastikan anda tuang sup dengan perlahan ke atas daging supaya ia dimasak dengan sekata, tetapi jangan biarkan ia terlalu lama atau daging akan masak berlebihan.</p>
-      </li>
-      <li>
-          <h3>Tambahkan Herba Segar dan Garnis</h3>
-          <p>Di Cookingdom, sentuhan terakhir sangat penting: tambah herba segar seperti ketumbar, basil, dan daun bawang, bersama dengan limau nipis dan bean sprouts di sisi.</p>
-          <p><strong>Petua:</strong> Jika anda mahu rasa lebih kuat, tambah beberapa hirisan jalapeño atau beberapa titik hoisin sauce dan sriracha untuk rasa pedas.</p>
-      </li>
-      <li>
-          <h3>Hidangkan Pho</h3>
-          <p>Hidangkan pho ketika ia panas, pastikan daging masih sedikit merah jambu di tengah dan sangat lembut. Sup panas akan terus memasak daging semasa pelanggan menikmatinya.</p>
-          <p><strong>Petua:</strong> Pastikan sup berwap dan harum, kerana baunya adalah sebahagian besar dari pengalaman pho.</p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Petua Pro untuk Kejayaan di Level 24</h2>
-  <ul>
-      <li>
-          <h3>Dapatkan Sup yang Tepat</h3>
-          <p>Sup adalah teras kepada setiap pho. Masaknya selama mungkin yang dibenarkan dalam permainan, dan pastikan rempahnya seimbang dengan sempurna.</p>
-          <p><strong>Petua:</strong> Jika sup rasa terlalu kuat, anda boleh mencairkannya dengan sedikit air; jika terlalu lemah, teruskan memasaknya lebih lama.</p>
-      </li>
-      <li>
-          <h3>Jangan Masak Mi Terlalu Lama</h3>
-          <p>Mi nasi masak dengan cepat. Memasaknya terlalu lama dalam Cookingdom akan menyebabkan mi menjadi lembik. Pastikan anda memantau masa dan keluarkan mi apabila ia cukup lembut.</p>
-      </li>
-      <li>
-          <h3>Hiris Daging dengan Tepat</h3>
-          <p>Hiris daging sehalus mungkin untuk memastikan ia dimasak dengan cepat dalam sup panas. Gunakan pisau yang tajam untuk hasil yang terbaik. Membekukan daging terlebih dahulu memudahkan pemotongan hirisan yang sangat nipis.</p>
-      </li>
-      <li>
-          <h3>Kehendak Pelanggan</h3>
-          <p>Sesetengah pelanggan mungkin meminta lebih banyak herba atau sriracha untuk pedas. Sentiasa semak kehendak mereka dan tambah topping tambahan jika diminta.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Di Cookingdom Level 24, membuat Beef Pho melibatkan keseimbangan yang sempurna antara bahan, masa, dan penyajian. Dari memasak sup yang lazat hingga menyusun hidangan dengan garnis yang tepat, level ini menekankan perhatian terhadap perincian. Dengan mengikuti panduan permainan Cookingdom, anda akan belajar bagaimana untuk memasak sup dengan tepat, memasak hirisan daging dengan sempurna, dan menyusun pho dengan gabungan herba dan rempah yang betul.</p>
-  <p>Dengan kesabaran dan latihan, anda akan menguasai Beef Pho dan meneruskan perjalanan anda melalui dunia Cookingdom yang menarik dan lazat!</p>
-  `,
+<h2 id="overview">Gambaran Umum Tahap 24 Cookingdom</h2>
+<p>Tahap 24 Cookingdom memperkenalkan anda kepada pho daging sapi — sup mi Vietnam yang kaya dan beraroma. Matlamat anda ialah untuk menghasilkan sup yang lazat, menyediakan daging dan mi dengan sempurna, serta menyusun mangkuk pho yang memuaskan hati pelanggan.</p>
+<p>Tahap ini memerlukan perhatian kepada butiran kerana pho melibatkan beberapa langkah penting: merebus sup, memasak mi dan menyusun bahan-bahan dengan betul. Panduan ini akan membantu anda langkah demi langkah.</p>
+
+<h2 id="goal">Matlamat Tahap 24 Cookingdom</h2>
+<ul>
+  <li>Merebus sup dengan rempah dan bahan-bahan yang betul.</li>
+  <li>Memasak mi beras hingga tahap kenyal yang sempurna.</li>
+  <li>Memotong dan menyusun daging sapi dengan tepat.</li>
+  <li>Menambah herba segar, tauge, dan limau nipis.</li>
+  <li>Menyajikan pho dalam keadaan panas dan beraroma.</li>
+</ul>
+
+<h2 id="steps">Langkah Demi Langkah Menyediakan Pho Daging Sapi</h2>
+<ol>
+  <li>
+    <h3>Merebus Sup</h3>
+    <p>Mula dengan membuat sup. Gunakan tulang daging sapi, bawang, halia, dan rempah seperti bunga lawang, cengkih, kayu manis, dan buah pelaga. Rebus selama 30–40 minit.</p>
+    <p><strong>Petua:</strong> Buang buih dan kotoran untuk memastikan sup jernih dan bersih.</p>
+  </li>
+  <li>
+    <h3>Memasak Mi</h3>
+    <p>Semasa sup direbus, rendam dan masak mi beras hingga lembut tapi masih kenyal.</p>
+    <p><strong>Petua:</strong> Jangan terlalu masak kerana mi akan terus lembut dalam sup panas.</p>
+  </li>
+  <li>
+    <h3>Memotong Daging</h3>
+    <p>Potong daging sapi nipis-nipis melawan arah urat. Dalam permainan, daging akan masak apabila disiram dengan sup panas.</p>
+    <p><strong>Petua:</strong> Sejukkan daging sebentar di peti sejuk untuk memudahkan pemotongan.</p>
+  </li>
+  <li>
+    <h3>Menyusun Pho</h3>
+    <p>Letakkan mi dalam mangkuk, susun daging di atasnya dan tuangkan sup panas untuk memasak daging.</p>
+    <p><strong>Petua:</strong> Pastikan sup cukup panas untuk memasak daging dengan cepat tanpa terlalu masak.</p>
+  </li>
+  <li>
+    <h3>Menambah Herba dan Hiasan</h3>
+    <p>Tambahkan daun ketumbar, selasih Thai, tauge, daun bawang, dan limau nipis.</p>
+    <p><strong>Petua:</strong> Sos sriracha dan hoisin boleh ditambah untuk rasa pedas dan manis.</p>
+  </li>
+  <li>
+    <h3>Menyajikan Pho</h3>
+    <p>Hidangkan pho semasa panas. Daging harus lembut dan sedikit merah jambu di bahagian tengah.</p>
+    <p><strong>Petua:</strong> Aroma sup sangat penting — pastikan baunya menggoda selera!</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Tambahan untuk Kejayaan Tahap 24</h2>
+<ul>
+  <li>
+    <h3>Sup yang Sempurna</h3>
+    <p>Luangkan masa untuk membangunkan rasa sup. Gunakan rempah yang betul dan rebus dengan sabar.</p>
+    <p><strong>Petua:</strong> Tambah air jika terlalu pekat, atau rebus lebih lama jika rasa kurang kuat.</p>
+  </li>
+  <li>
+    <h3>Elakkan Mi Terlalu Masak</h3>
+    <p>Masak mi sekejap sahaja agar ia tidak menjadi lembik dalam mangkuk pho.</p>
+  </li>
+  <li>
+    <h3>Potong Daging dengan Nipis</h3>
+    <p>Gunakan pisau yang tajam dan potong daging setipis mungkin.</p>
+  </li>
+  <li>
+    <h3>Fahami Permintaan Pelanggan</h3>
+    <p>Sesetengah pelanggan mungkin mahukan lebih banyak herba atau rasa pedas — sesuaikan hidangan mengikut permintaan mereka.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Tahap 24 dalam Cookingdom menguji kemahiran anda dalam memasak pho dengan betul. Dengan sup yang kaya, daging lembut, dan herba segar — anda boleh memuaskan setiap pelanggan.</p>
+<p>Ikuti panduan ini untuk melengkapkan tahap ini dengan penuh keyakinan dan nikmati pengalaman memasak dalam Cookingdom!</p>
+`,
   },
+
   {
-    // Add entry for Level 25
     id: 'cookingdom-game-level-25',
-    title: 'Cookingdom Level 25:<br>Pizza',
-    pageTitle: 'Cookingdom Level 25 - Panduan Pizza',
-    pageSubtitle:
-      'Pelajari cara untuk membuat Pizza yang sempurna dari awal di Level 25 Cookingdom.',
+    title: 'Cookingdom Level 25: Panduan Langkah Demi Langkah Membuat Piza',
+    pageTitle: 'Cookingdom Level 25: Panduan Langkah Demi Langkah Membuat Piza',
+    pageSubtitle: 'Pelajari cara membuat piza sempurna dari awal dalam Level 25 Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_25.webp', // Placeholder
+    imageUrl: '/images/guides_25.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
-    iframeUrl: 'https://www.youtube.com/embed/BJJ9KEWeJBc', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/2VmrimKmrPE',
     seo: {
-      title: 'Cookingdom Level 25 Panduan: Pizza | Tips dan Strategi',
+      title: 'Cookingdom Level 25: Piza | cookingdom.co',
       description:
-        'Jadilah pakar dalam membuat Pizza di Level 25 Cookingdom. Dapatkan tips tentang membuat doh, sos, topping, memasak, dan menyajikan pizza yang sempurna.',
-      keywords:
-        'Cookingdom, Level 25, Pizza, Doh Pizza, Memasak, Topping, Makanan Itali, Panduan, Strategi',
+        'Pelajari cara menyediakan piza dalam Level 25 Cookingdom. Ketahui rahsia doh, sos, topping, pembakaran dan penyediaan untuk piza yang sempurna.',
+      keywords: 'Cookingdom Level 25, piza, doh piza, pembakaran, makanan Itali, panduan permainan',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_25.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_25.webp',
       levelInfoHtml:
-        '<h3>Pizza</h3><p><strong>Tahap Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Piza</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-22',
-          title: 'Cookingdom Level 22<br>Easy Smoothie',
-          imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
-        },
-        {
-          id: 'cookingdom-game-level-23',
-          title: 'Cookingdom Level 23<br>Yule Log Cake',
-          imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
-        },
-        {
           id: 'cookingdom-game-level-24',
-          title: 'Cookingdom Level 24<br>Beef Pho',
-          imageUrl: '/images/guides_24.webp', // Placeholder
+          title: 'Cookingdom Level 24: Panduan Sup Daging Pho',
+          imageUrl: '/images/guides_24.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
+        },
+        {
+          id: 'cookingdom-game-level-26',
+          title: 'Cookingdom Level 26: Panduan Sediakan Smoothie',
+          imageUrl: '/images/guides_26.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Di Level 25 Cookingdom, tugas anda adalah untuk menyediakan salah satu hidangan yang paling popular dan penuh rasa: Pizza. Level ini adalah cabaran untuk membuat pizza yang sempurna, dari penyediaan doh, penyediaan topping, hingga memasaknya hingga garing yang sempurna. Dengan pelbagai jenis topping yang boleh digunakan, Cookingdom akan menguji kemahiran anda dalam mengimbangkan rasa dan tekstur untuk mencipta pizza yang terbaik.</p>
-  <p>Matlamatnya adalah untuk memastikan pizza anda garing, dengan kerak yang rangup, topping yang seimbang, dan jumlah keju serta sos yang tepat. Dalam panduan Cookingdom ini, kami akan membincangkan setiap langkah yang perlu anda ambil untuk berjaya di Level 25 dan memuaskan pelanggan anda.</p>
-  
-  <h2 id="goal">Matlamat Level 25</h2>
-  <ul>
-      <li>Persiapkan doh pizza dari awal.</li>
-      <li>Sapukan sos secara rata pada doh.</li>
-      <li>Tambah jumlah keju dan topping yang tepat.</li>
-      <li>Masak pizza hingga garing dan sempurna.</li>
-      <li>Sajikan pizza ketika masih panas dan enak.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah-langkah Membuat Pizza</h2>
-  <ol>
-      <li>
-          <h3>Persiapkan Doh Pizza</h3>
-          <p>Di Cookingdom, pembuatan doh pizza yang sempurna adalah kunci. Doh perlu ringan dan lembut tetapi cukup kuat untuk menampung topping.</p>
-          <p>Mulakan dengan mencampurkan tepung, yis, air, minyak zaitun, dan garam untuk membentuk doh yang licin.</p>
-          <p><strong>Tip:</strong> Uli doh selama 5-7 minit untuk mengaktifkan gluten dan memastikan kerak yang kenyal namun rangup.</p>
-      </li>
-      <li>
-          <h3>Rehatkan Doh</h3>
-          <p>Selepas menguli, biarkan doh berehat selama kira-kira 30 minit untuk naik dua kali ganda. Semasa masa ini, yis akan bekerja untuk menghasilkan gelembung udara yang memberikan tekstur ringan pada kerak.</p>
-          <p><strong>Tip:</strong> Di Cookingdom, jika anda terlepas langkah ini, doh anda tidak akan naik dengan baik dan akan menghasilkan kerak yang keras dan kenyal.</p>
-      </li>
-      <li>
-          <h3>Gulung Doh</h3>
-          <p>Apabila doh sudah naik, tekan perlahan-lahan untuk mengeluarkan udara. Gulung doh di atas permukaan bertepung hingga mencapai ketebalan yang diingini.</p>
-          <p><strong>Tip:</strong> Jika anda mahu kerak yang lebih nipis, gulung doh dengan lebih nipis. Untuk kerak yang lebih tebal, biarkan ia sedikit tebal.</p>
-          <p><strong>Tip:</strong> Untuk kerak yang lebih rangup, pastikan bahagian tepi lebih nipis.</p>
-      </li>
-      <li>
-          <h3>Sapukan Sos</h3>
-          <p>Di Cookingdom, langkah seterusnya adalah menyebarkan sos tomato atau sos putih secara rata pada doh.</p>
-          <p>Jangan letakkan terlalu banyak sos—gunakan lapisan yang nipis untuk mengelakkan pizza menjadi basah.</p>
-          <p><strong>Tip:</strong> Untuk rasa tambahan, anda boleh menambah sedikit serbuk bawang putih, oregano, atau basil pada sos sebelum menyebarkannya di atas doh.</p>
-      </li>
-      <li>
-          <h3>Tambah Keju dan Topping</h3>
-          <p>Setelah sos disapukan, masa untuk menambah keju pada pizza. Mozzarella adalah pilihan yang paling biasa, tetapi anda juga boleh menggunakan campuran keju seperti cheddar, parmesan, atau keju kambing untuk rasa yang lebih kuat.</p>
-          <p><strong>Tip:</strong> Gunakan keju yang banyak untuk mendapatkan rasa yang meleleh dan kenyal.</p>
-          <p>Selepas keju, tambah topping pilihan anda. Anda boleh menggunakan pepperoni, cendawan, dan lada hijau, atau menjadi kreatif dengan sosis, bawang, atau bahkan nanas.</p>
-          <p><strong>Tip:</strong> Pastikan topping diatur dengan rata agar keseimbangan rasa dalam setiap gigitan.</p>
-      </li>
-      <li>
-          <h3>Masak Pizza</h3>
-          <p>Cookingdom akan membimbing anda dalam proses membakar pizza. Pastikan ketuhar anda telah dipanaskan terlebih dahulu pada suhu sekitar 475°F (245°C). Letakkan pizza pada lembaran pembakar atau batu pizza.</p>
-          <p>Masak pizza selama 10-15 minit, bergantung pada ketebalan kerak dan topping. Pizza siap apabila kerak berwarna perang keemasan dan keju mula berbuih dan sedikit keperangan.</p>
-          <p><strong>Tip:</strong> Sentiasa pantau pizza anda, kerana masa memasak mungkin berbeza bergantung pada ketebalan doh dan topping.</p>
-      </li>
-      <li>
-          <h3>Potong dan Sajikan</h3>
-          <p>Apabila pizza sudah siap, keluarkan dari ketuhar dan biarkan sejuk selama beberapa minit.</p>
-          <p>Gunakan pemotong pizza untuk memotong pizza ke dalam bahagian yang sempurna.</p>
-          <p><strong>Tip:</strong> Sajikan pizza segera ketika keju masih meleleh dan keraknya masih rangup.</p>
-          <p>Bonus: Anda boleh menambah sedikit basil segar atau titisan minyak zaitun untuk rasa tambahan sebelum menyajikan.</p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Tips Profesional untuk Kejayaan di Level 25</h2>
-  <ul>
-      <li>
-          <h3>Elakkan Meletakkan Topping Berlebihan</h3>
-          <p>Walaupun menggoda untuk meletakkan banyak topping, Cookingdom menekankan pentingnya pizza yang seimbang. Terlalu banyak topping boleh mengakibatkan pizza tidak dimasak dengan baik atau kerak menjadi basah.</p>
-          <p><strong>Tip:</strong> Lebih sedikit adalah lebih baik! Pastikan anda hanya menggunakan 3-4 topping yang sesuai bersama-sama.</p>
-      </li>
-      <li>
-          <h3>Perlukan Tekstur Doh yang Sempurna</h3>
-          <p>Doh yang ringan dan lembut adalah kunci untuk pizza yang hebat. Jangan terburu-buru dalam proses membuat doh; menguli dan membiarkannya berehat dengan sempurna akan menghasilkan kerak terbaik.</p>
-          <p><strong>Tip:</strong> Jika doh terlalu melekit, tambahkan sedikit tepung, tetapi berhati-hati agar doh tidak terlalu kering.</p>
-      </li>
-      <li>
-          <h3>Masak Pizza dengan Suhu yang Tepat</h3>
-          <p>Cookingdom membenarkan anda untuk membakar pizza pada suhu tinggi, jadi pastikan ketuhar anda dipanaskan sepenuhnya. Ketuhar yang panas akan memastikan kerak yang rangup dan keemasan.</p>
-          <p><strong>Tip:</strong> Jika anda menggunakan batu pizza, panaskan batu itu dalam ketuhar untuk hasil yang lebih rangup.</p>
-      </li>
-      <li>
-          <h3>Pantau Masa dengan Teliti</h3>
-          <p>Masa sangat penting di Cookingdom. Jangan biarkan pizza terlalu lama dalam ketuhar atau ia akan menjadi terlalu kering dan terbakar.</p>
-          <p><strong>Tip:</strong> Periksa pizza selepas 10 minit. Apabila keju mula berbuih dan tepi kerak berwarna keemasan, sudah tiba masanya untuk mengeluarkannya.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Kesimpulan</h2>
-  <p>Cookingdom Level 25 mengandungi cabaran untuk membuat pizza yang sempurna dari awal, bermula dari penyediaan doh hingga menambah jumlah keju dan topping yang tepat. Kunci kejayaan adalah mendapatkan rasa dan tekstur yang seimbang, dengan kerak yang rangup dan keju yang meleleh sempurna.</p>
-  <p>Dengan mengikuti panduan Cookingdom ini, anda akan dapat menguasai setiap langkah dari penyediaan doh hingga memasak dengan sempurna. Setelah anda menguasai pizza, anda akan bersedia untuk menghadapi hidangan yang lebih kompleks di level-level seterusnya.</p>
-  `,
+<h2 id="overview">Gambaran Umum Level 25 Cookingdom</h2>
+<p>Dalam Level 25 Cookingdom, anda akan menyediakan salah satu hidangan paling ikonik dan digemari ramai — piza. Tahap ini menguji kemahiran anda dalam membuat piza dari awal: dari penyediaan doh hingga membakar dengan topping. Anda perlu mengimbangi rasa dan tekstur dengan betul untuk memuaskan pelanggan.</p>
+<p>Matlamatnya adalah untuk menghasilkan piza yang rangup, enak, dan berperisa dengan keju, sos, dan topping yang seimbang. Panduan ini akan membantu anda melengkapkan level ini dengan sempurna.</p>
+
+<h2 id="goal">Matlamat Level 25</h2>
+<ul>
+  <li>Sediakan doh piza dari awal.</li>
+  <li>Ratakan sos pada doh secara sekata.</li>
+  <li>Letakkan keju dan topping dengan betul.</li>
+  <li>Bakar piza sehingga rangup dan sempurna.</li>
+  <li>Hidangkan piza panas dan lazat.</li>
+</ul>
+
+<h2 id="steps">Langkah Demi Langkah Menyediakan Piza</h2>
+<ol>
+  <li>
+    <h3>Sediakan Doh</h3>
+    <p>Campurkan tepung, yis, air, minyak zaitun dan garam hingga menjadi doh lembut.</p>
+    <p><strong>Tip:</strong> Uli selama 5–7 minit untuk membangunkan gluten dan tekstur yang baik.</p>
+  </li>
+  <li>
+    <h3>Biarkan Doh Naik</h3>
+    <p>Rehatkan doh selama 30 minit sehingga ia mengembang dua kali ganda.</p>
+    <p><strong>Tip:</strong> Doh yang tidak naik dengan baik akan menghasilkan piza yang padat dan tidak lembut.</p>
+  </li>
+  <li>
+    <h3>Canai Doh</h3>
+    <p>Canai doh atas permukaan rata dan bertabur tepung hingga ketebalan yang dikehendaki.</p>
+    <p><strong>Tip:</strong> Doh nipis untuk piza rangup; doh lebih tebal untuk tekstur lembut.</p>
+  </li>
+  <li>
+    <h3>Letakkan Sos</h3>
+    <p>Ratakan sos tomato atau sos putih secara sekata. Jangan terlalu banyak agar doh tidak basah.</p>
+    <p><strong>Tip:</strong> Tambah sedikit bawang putih, oregano, atau basil untuk aroma ekstra.</p>
+  </li>
+  <li>
+    <h3>Tambah Keju dan Topping</h3>
+    <p>Taburkan keju (seperti mozzarella, cheddar atau parmesan), kemudian letakkan topping seperti pepperoni, cendawan dan lada benggala.</p>
+    <p><strong>Tip:</strong> Sebarkan topping secara sekata supaya setiap bahagian piza mempunyai rasa seimbang.</p>
+  </li>
+  <li>
+    <h3>Bakar Piza</h3>
+    <p>Panaskan ketuhar kepada 245°C. Bakar piza selama 10–15 minit hingga kerak berwarna keemasan dan keju meleleh.</p>
+    <p><strong>Tip:</strong> Masa bergantung pada ketebalan doh dan jumlah topping.</p>
+  </li>
+  <li>
+    <h3>Potong dan Hidang</h3>
+    <p>Biarkan piza rehat 1–2 minit, kemudian potong dan hidangkan panas-panas.</p>
+    <p><strong>Tip:</strong> Tabur daun basil segar atau titiskan minyak zaitun sebagai sentuhan akhir.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Tambahan</h2>
+<ul>
+  <li>
+    <h3>Jangan Terlalu Banyak Topping</h3>
+    <p>Terlalu banyak topping boleh buat piza lembap atau tidak masak.</p>
+    <p><strong>Tip:</strong> Gunakan maksimum 3–4 topping yang saling melengkapi.</p>
+  </li>
+  <li>
+    <h3>Perhatikan Tekstur Doh</h3>
+    <p>Doh yang diuli dengan baik dan cukup masa naik akan jadi lebih gebu dan ringan.</p>
+    <p><strong>Tip:</strong> Jika doh terlalu melekit, tambahkan sedikit tepung — jangan terlalu banyak.</p>
+  </li>
+  <li>
+    <h3>Pastikan Ketuhar Panas Sepenuhnya</h3>
+    <p>Ketuhar yang cukup panas membantu membentuk kerak rangup.</p>
+    <p><strong>Tip:</strong> Jika menggunakan batu piza, panaskan ia terlebih dahulu dalam ketuhar.</p>
+  </li>
+  <li>
+    <h3>Pantau Masa Memasak</h3>
+    <p>Piza yang terlalu lama dibakar akan jadi keras dan pahit.</p>
+    <p><strong>Tip:</strong> Periksa piza selepas 10 minit. Cari kerak perang keemasan dan keju berbuih.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Cookingdom Level 25 memperkenalkan anda kepada seni membuat piza dari awal hingga siap. Dengan mengikuti setiap langkah dengan teliti, anda akan menghasilkan piza yang bukan sahaja enak tetapi juga memuaskan pelanggan anda dalam permainan.</p>
+<p>Selamat memasak dan bersedia untuk cabaran yang lebih mencabar dalam level seterusnya!</p>
+`,
   },
+
   {
-    // Add entry for Level 26
     id: 'cookingdom-game-level-26',
-    title: 'Cookingdom Level 26:<br>Smoothie',
-    pageTitle: 'Cookingdom Level 26 - Panduan Smoothie',
-    pageSubtitle: 'Pelajari cara menyediakan Smoothie yang sempurna di Level 26 Cookingdom.',
+    title: 'Panduan Cookingdom Level 26: Smoothie',
+    pageTitle: 'Panduan Cookingdom Level 26: Smoothie',
+    pageSubtitle: 'Belajar cara menyediakan smoothie yang sempurna di Level 26 Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_26.webp', // Placeholder
+    imageUrl: '/images/guides_26.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
-    iframeUrl: 'https://www.youtube.com/embed/BK2eYJhoKl8', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/28BOvXkyj-E',
     seo: {
-      title: 'Cookingdom Level 26 Panduan: Smoothie | Petua & Strategi',
+      title: 'Cookingdom Level 26: Panduan Smoothie | cookingdom.co',
       description:
-        'Kuasa penyediaan Smoothie di Level 26 Cookingdom. Dapatkan petua untuk memilih buah, cecair, membland dengan konsistensi yang betul, dan hiasan.',
+        'Pelajari cara menyediakan smoothie di Level 26 Cookingdom. Dapatkan petua tentang pemilihan buah, cecair, campuran sempurna, dan hiasan.',
       keywords:
-        'Cookingdom, Level 26, Smoothie, Minuman Sihat, Membland, Minuman Buah, Panduan, Strategi',
+        'Cookingdom Level 26, Cookingdom smoothie, minuman sihat, campuran buah, panduan permainan',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_26.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_26.webp',
       levelInfoHtml:
-        '<h3>Smoothie</h3><p><strong>Kebolehan:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Smoothie</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 2 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-23',
-          title: 'Cookingdom Level 23<br>Yule Log Cake',
-          imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
-        },
-        {
-          id: 'cookingdom-game-level-24',
-          title: 'Cookingdom Level 24<br>Beef Pho',
-          imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
-        },
-        {
           id: 'cookingdom-game-level-25',
-          title: 'Cookingdom Level 25<br>Pizza',
-          imageUrl: '/images/guides_25.webp', // Placeholder
+          title: 'Panduan Cookingdom Level 25: Pizza',
+          imageUrl: '/images/guides_25.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
+        },
+        {
+          id: 'cookingdom-game-level-27',
+          title: 'Panduan Cookingdom Level 27: Sandwich',
+          imageUrl: '/images/guides_27.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Di Cookingdom Level 26, tugas anda adalah menyediakan <a href="/level-22" title="level 22 smoothie">Smoothie</a>, minuman yang menyegarkan dan sihat. Level ini memberi tumpuan kepada pencampuran bahan yang tepat untuk mencipta tekstur yang licin dan krimi yang tidak terlalu pekat atau terlalu cair. Anda perlu memilih buah-buahan, cecair, dan bahan tambahan dengan berhati-hati untuk mencapai keseimbangan rasa yang sempurna. Cookingdom mencabar anda untuk menggabungkan bahan-bahan dengan tepat untuk memuaskan selera pelanggan maya anda.</p>
-  <p>Panduan ini akan membawa anda melalui langkah-langkah untuk membuat smoothie yang sempurna dalam Cookingdom, memastikan bahawa ciptaan anda adalah sedap dan menarik dari segi penampilan.</p>
-  
-  <h2 id="goal">Objektif Level 26</h2>
-  <ul>
-      <li>Pilih buah yang sesuai untuk asas smoothie.</li>
-      <li>Tambahkan cecair seperti susu, jus, atau yogurt.</li>
-      <li>Blend hingga mencapai konsistensi yang tepat.</li>
-      <li>Hidangkan smoothie dengan hiasan pilihan.</li>
-      <li>Cipta variasi smoothie untuk memastikan pelanggan anda gembira.</li>
-  </ul>
-  
-  <h2 id="steps">Panduan Langkah-demi-Langkah untuk Menguasai Smoothie</h2>
-  <ol>
-      <li>
-          <h3>Pilih Buah Asas</h3>
-          <p>Dalam Cookingdom, anda mempunyai beberapa pilihan buah untuk dipilih seperti pisang, strawberi, blueberry, dan mangga. Kuncinya adalah memilih kombinasi buah yang baik yang saling melengkapi.</p>
-          <p><strong>Tip:</strong> Untuk smoothie yang lebih pekat, pilih pisang atau mangga. Untuk tekstur yang lebih ringan, pilih beri atau nanas.</p>
-      </li>
-      <li>
-          <h3>Tambahkan Cecair</h3>
-          <p>Langkah seterusnya adalah menambah asas cecair. Anda boleh memilih antara susu, susu badam, jus oren, atau yogurt. Cecair ini membantu untuk mencampurkan buah dengan lancar dan menentukan konsistensi akhir.</p>
-          <p><strong>Tip:</strong> Jika anda mahukan tekstur yang lebih krimi, pilih yogurt atau susu. Jika anda mahukan smoothie yang lebih ringan, jus atau air lebih sesuai.</p>
-      </li>
-      <li>
-          <h3>Tambahkan Bahan Pilihan</h3>
-          <p>Di Cookingdom, anda boleh menambah bahan lain untuk meningkatkan rasa dan tekstur smoothie, seperti:</p>
-          <ul>
-              <li>Madu atau sirap agave untuk menambah rasa manis.</li>
-              <li>Bayam atau kale untuk khasiat tambahan.</li>
-              <li>Ais untuk menjadikannya lebih sejuk dan pekat.</li>
-              <li>Protein powder atau mentega kacang untuk smoothie yang kaya protein.</li>
-          </ul>
-          <p><strong>Tip:</strong> Berhati-hati dengan tahap kemanisan; terlalu banyak madu atau sirap boleh mengalahkan rasa buah-buahan asli.</p>
-      </li>
-      <li>
-          <h3>Blend hingga Sempurna</h3>
-          <p>Setelah semua bahan dimasukkan ke dalam pengisar, kini tiba masanya untuk mengisar! Matlamatnya adalah untuk mendapatkan tekstur yang licin tanpa gumpalan. Dalam Cookingdom, anda perlu memantau proses pengisaran dengan teliti.</p>
-          <p><strong>Tip:</strong> Mulakan dengan kitaran pengisaran yang singkat, periksa tekstur, dan kemudian teruskan mengisar jika perlu. Jika smoothie terlalu pekat, tambah lebih banyak cecair; jika terlalu cair, tambah lebih banyak buah atau ais.</p>
-      </li>
-      <li>
-          <h3>Rasa dan Laras</h3>
-          <p>Selepas mengisar, luangkan masa untuk merasai smoothie di Cookingdom. Laraskan tahap kemanisan, keasidan, atau ketebalan jika perlu.</p>
-          <p><strong>Tip:</strong> Jika terlalu manis, tambah sedikit jus lemon atau limau untuk rasa yang lebih segar. Jika terlalu pekat, tambah sedikit cecair.</p>
-      </li>
-      <li>
-          <h3>Hias dan Hidangkan</h3>
-          <p>Untuk memberikan sentuhan profesional pada smoothie anda, hiaskan dengan topping seperti:</p>
-          <ul>
-              <li>Potongan buah-buahan segar (seperti strawberi di tepi atau hirisan pisang).</li>
-              <li>Daun pudina untuk warna yang segar.</li>
-              <li>Taburan biji chia atau granola untuk tekstur tambahan.</li>
-          </ul>
-          <p><strong>Tip:</strong> Penampilan penting dalam Cookingdom! Semakin menarik rupa smoothie anda, semakin tinggi kepuasan pelanggan.</p>
-      </li>
-      <li>
-          <h3>Hidangkan dan Puaskan Pelanggan Anda</h3>
-          <p>Setelah anda berpuas hati dengan rasa dan penampilan smoothie, hidangkan segera. Produk akhir harus licin, krimi, dan sedap, dengan warna-warna yang cerah dan bau yang menyegarkan.</p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Petua Pro untuk Kejayaan Level 26</h2>
-  <ul>
-      <li>
-          <h3>Seimbangkan Buah dan Cecair</h3>
-          <p>Kunci kepada smoothie yang sempurna adalah keseimbangan. Pilih buah-buahan yang sesuai bersama, dan sentiasa tambah cukup cecair untuk membantu proses pengisaran tanpa menjadikan smoothie terlalu cair.</p>
-      </li>
-      <li>
-          <h3>Gunakan Ais dengan Berhemah</h3>
-          <p>Walaupun ais membantu untuk menebalkan smoothie, terlalu banyak akan mencairkan rasa. Tambahkan sedikit ais untuk tekstur yang menyegarkan.</p>
-      </li>
-      <li>
-          <h3>Sesuaikan Mengikut Pilihan Pelanggan</h3>
-          <p>Sebahagian pelanggan mungkin lebih suka smoothie hijau atau meminta bahan-bahan tertentu seperti beri atau protein powder. Perhatikan permintaan pelanggan untuk meningkatkan penilaian anda.</p>
-      </li>
-      <li>
-          <h3>Perhatikan Masa Pengisaran</h3>
-          <p>Jangan terlalu mengisar! Pantau konsistensinya. Pengisaran berlebihan boleh menjadikan smoothie terlalu cair.</p>
-      </li>
-      <li>
-          <h3>Bereksperimen dengan Superfoods</h3>
-          <p>Ingin menonjol? Tambahkan superfoods seperti biji chia, biji flax, atau spirulina ke dalam smoothie untuk manfaat kesihatan tambahan dan kelebihan berbanding pesaing di Cookingdom.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Di Cookingdom Level 26, membuat Smoothie yang sempurna memerlukan keseimbangan yang tepat antara buah-buahan, cecair, dan bahan tambahan, semuanya diblend dengan sempurna. Sama ada anda membuat smoothie tropika dengan mangga dan nanas atau minuman penuh beri dengan strawberi dan blueberry, level ini adalah mengenai ketepatan dan kreativiti.</p>
-  <p>Dengan mengikuti panduan walkthrough Cookingdom, anda akan dapat menguasai pembuatan smoothie dalam masa singkat. Dapatkan konsistensi yang tepat, hias smoothie dengan gaya, dan hidangkan minuman yang sedap yang akan menggembirakan pelanggan anda!</p>
-  `,
+<h2 id="overview">Gambaran Umum Level 26 Cookingdom</h2>
+<p>Dalam Cookingdom Level 26, tugas anda adalah untuk menyediakan <a href="/cookingdom-game-level-26" title="smoothie Level 26">smoothie</a> — minuman segar dan sihat. Tahap ini menumpukan pada mencampur bahan yang betul untuk menghasilkan tekstur yang halus dan berkrim, tidak terlalu pekat atau terlalu cair. Anda perlu memilih buah, cecair dan bahan tambahan dengan teliti untuk mencapai keseimbangan rasa yang sempurna. Cookingdom mencabar anda untuk memenuhi cita rasa pelanggan maya dengan padanan bahan yang tepat.</p>
+<p>Panduan ini akan membawa anda langkah demi langkah dalam menyediakan smoothie terbaik di Level 26, memastikan hasil yang lazat dan menarik dari segi visual.</p>
+
+<h2 id="goal">Matlamat Cookingdom Level 26</h2>
+<ul>
+  <li>Pilih buah yang betul sebagai asas smoothie.</li>
+  <li>Tambah cecair seperti susu, jus atau yogurt.</li>
+  <li>Kisar hingga mencapai konsistensi yang sesuai.</li>
+  <li>Hidangkan smoothie dengan hiasan tambahan.</li>
+  <li>Pelbagaikan kombinasi untuk memenuhi permintaan pelanggan.</li>
+</ul>
+
+<h2 id="steps">Langkah demi Langkah Menyediakan Smoothie</h2>
+<ol>
+  <li>
+    <h3>Pilih Buah Asas</h3>
+    <p>Antara pilihan dalam Level 26 adalah pisang, strawberi, beri biru, dan mangga. Gabungkan buah yang sesuai untuk rasa seimbang.</p>
+    <p><strong>Petua:</strong> Untuk tekstur pekat, gunakan pisang atau mangga. Untuk rasa segar, gunakan beri atau nanas.</p>
+  </li>
+  <li>
+    <h3>Tambah Cecair</h3>
+    <p>Seterusnya, pilih asas cecair seperti susu, susu badam, jus oren, atau yogurt. Ini membantu mencapai konsistensi yang betul.</p>
+    <p><strong>Petua:</strong> Yogurt atau susu menghasilkan smoothie berkrim. Jus atau air memberi hasil lebih ringan.</p>
+  </li>
+  <li>
+    <h3>Tambah Bahan Tambahan</h3>
+    <p>Antara bahan tambahan dalam Level 26:</p>
+    <ul>
+      <li>Madu atau sirap agave untuk kemanisan.</li>
+      <li>Bayam atau kale untuk smoothie hijau.</li>
+      <li>Ais untuk penyejukan dan kepekatan.</li>
+      <li>Serbuk protein atau mentega kacang untuk tenaga tambahan.</li>
+    </ul>
+    <p><strong>Petua:</strong> Jangan terlalu banyak menambah pemanis agar rasa buah tidak tenggelam.</p>
+  </li>
+  <li>
+    <h3>Kisar Hingga Sempurna</h3>
+    <p>Masukkan semua bahan ke dalam pengisar dan kisar hingga halus dan bertekstur krim tanpa ketulan.</p>
+    <p><strong>Petua:</strong> Kisar secara berperingkat. Jika terlalu pekat, tambah cecair; jika terlalu cair, tambah buah atau ais.</p>
+  </li>
+  <li>
+    <h3>Rasa dan Laras</h3>
+    <p>Cuba smoothie selepas dikisar dan laras rasa atau tekstur jika perlu.</p>
+    <p><strong>Petua:</strong> Jika terlalu manis, perah sedikit jus lemon. Untuk kepekatan tambahan, tambah buah beku atau yogurt.</p>
+  </li>
+  <li>
+    <h3>Hiaskan dan Hidang</h3>
+    <p>Hias smoothie anda dengan kepingan buah, daun pudina atau biji chia untuk menambah nilai estetik.</p>
+    <p><strong>Petua:</strong> Pembentangan adalah penting dalam permainan – smoothie yang cantik dapat meningkatkan kepuasan pelanggan.</p>
+  </li>
+  <li>
+    <h3>Hidang Segera</h3>
+    <p>Hidangkan smoothie segera selepas penyediaan untuk rasa dan kesegaran terbaik.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Tambahan untuk Level 26</h2>
+<ul>
+  <li>
+    <h3>Seimbangkan Buah dan Cecair</h3>
+    <p>Keseimbangan antara bahan adalah kunci kepada smoothie yang sempurna. Gunakan jumlah buah dan cecair yang tepat.</p>
+  </li>
+  <li>
+    <h3>Jangan Terlalu Banyak Ais</h3>
+    <p>Ais menambah tekstur pekat, tetapi terlalu banyak boleh mencairkan rasa buah.</p>
+  </li>
+  <li>
+    <h3>Penuhi Selera Pelanggan</h3>
+    <p>Beberapa pelanggan mungkin mahukan smoothie hijau atau tambahan istimewa. Ambil perhatian untuk dapatkan lebih banyak bintang.</p>
+  </li>
+  <li>
+    <h3>Jangan Kisar Terlalu Lama</h3>
+    <p>Kisar terlalu lama boleh menjadikan smoothie terlalu cair.</p>
+  </li>
+  <li>
+    <h3>Cuba Bahan Superfood</h3>
+    <p>Tambah chia, biji rami atau spirulina untuk smoothie yang lebih sihat dan unik.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Level 26 Cookingdom menguji kemahiran anda dalam menyediakan smoothie yang ideal dengan memilih dan menggabungkan buah, cecair dan bahan tambahan yang tepat. Dengan mengikuti panduan ini, anda boleh menguasai penyediaan smoothie dan menggembirakan pelanggan dengan minuman yang lazat dan cantik.</p>
+`,
   },
+
   {
-    // Add entry for Level 27
     id: 'cookingdom-game-level-27',
-    title: 'Cookingdom Level 27:<br>Sandwic',
-    pageTitle: 'Cookingdom Level 27 - Panduan Sandwic',
-    pageSubtitle: 'Pelajari cara menyediakan Sandwic yang sempurna dalam Level 27 Cookingdom.',
+    title: 'Panduan Cookingdom Tahap 27: Sandwich',
+    pageTitle: 'Panduan Cookingdom Tahap 27: Sandwich',
+    pageSubtitle:
+      'Pelajari cara menyusun sandwich yang sempurna dalam Tahap 27 permainan Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_27.webp', // Placeholder
+    imageUrl: '/images/guides_27.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
-    iframeUrl: 'https://www.youtube.com/embed/vWz6SmiMBk0', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY',
     seo: {
-      title: 'Cookingdom Level 27 Panduan: Sandwic | Petua & Strategi',
+      title: 'Panduan Cookingdom Tahap 27: Sandwich | cookingdom.co',
       description:
-        'Kuasa Sandwic dalam Level 27 Cookingdom. Dapatkan petua tentang pemilihan roti, protein, sayur-sayuran, sos, lapisan, dan penyajian.',
+        'Ketahui cara menyediakan sandwich yang lazat di Tahap 27 Cookingdom. Tip pemilihan roti, protein, sayur-sayuran, sos, susunan lapisan dan penyediaan.',
       keywords:
-        'Cookingdom, Level 27, Sandwic, Makanan Cepat, Lapisan, Roti, Protein, Panduan, Strategi',
+        'Cookingdom Tahap 27, Sandwich Cookingdom, Roti, Protein, Panduan, Penyediaan Cepat',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_27.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_27.webp',
       levelInfoHtml:
-        '<h3>Sandwic</h3><p><strong>Kebolehan:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Sandwich</h3><p><strong>Kesukaran:</strong> Mudah</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-24',
-          title: 'Cookingdom Level 24<br>Beef Pho',
-          imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
-        },
-        {
-          id: 'cookingdom-game-level-25',
-          title: 'Cookingdom Level 25<br>Pizza',
-          imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
-        },
-        {
           id: 'cookingdom-game-level-26',
-          title: 'Cookingdom Level 26<br>Smoothie',
-          imageUrl: '/images/guides_26.webp', // Placeholder
+          title: 'Panduan Cookingdom Tahap 26: Smoothie',
+          imageUrl: '/images/guides_26.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
+        },
+        {
+          id: 'cookingdom-game-level-28',
+          title: 'Panduan Cookingdom Tahap 28: Croissant',
+          imageUrl: '/images/guides_28.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Dalam Cookingdom Level 27, anda akan ditugaskan untuk menyediakan Sandwic yang lazat, hidangan cepat yang memuaskan. Walaupun kelihatan mudah, membuat sandwic yang sempurna dalam Cookingdom melibatkan pemilihan kombinasi bahan yang betul dan menyusunnya dengan cara yang memuaskan hati pelanggan anda. Tahap ini mencabar kreativiti anda, keseimbangan rasa, dan keupayaan untuk mengatur bahan dengan lapisan yang betul untuk kepuasan maksimum.</p>
-  <p>Sandwic anda harus mempunyai kombinasi roti, protein, sayur-sayuran, dan sos yang rangup dan lazat. Adalah penting untuk mendapatkan lapisan dengan betul bagi memastikan setiap gigitan seimbang dan sedap. Panduan ini akan membawa anda melalui setiap langkah untuk memastikan anda menguasai Cookingdom Level 27 dan menyampaikan sandwic yang sempurna.</p>
-  
-  <h2 id="goal">Objektif Level 27</h2>
-  <ul>
-      <li>Pilih roti untuk sandwic.</li>
-      <li>Pilih protein (contohnya, ayam, kalkun, atau daging lembu).</li>
-      <li>Tambah sayur-sayuran untuk rasa dan kerenyahan.</li>
-      <li>Letakkan sos dan tambahan seperti keju.</li>
-      <li>Susun sandwic dan hidangkan dengan segar.</li>
-  </ul>
-  
-  <h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Sandwic</h2>
-  <ol>
-      <li>
-          <h3>Pilih Roti</h3>
-          <p>Roti adalah asas kepada setiap sandwic yang hebat. Dalam Cookingdom, anda akan mempunyai beberapa pilihan roti seperti roti putih, gandum penuh, ciabatta, atau baguette. Jenis roti akan mempengaruhi tekstur dan rasa keseluruhan.</p>
-          <p><strong>Tip:</strong> Untuk sandwic yang lebih rangup, pilih baguette atau ciabatta. Untuk sandwic yang lebih lembut, pilih roti gandum penuh atau roti putih.</p>
-          <p><strong>Tip:</strong> Dalam Cookingdom, anda juga mungkin diminta untuk memanggang roti untuk tekstur yang lebih rangup.</p>
-      </li>
-      <li>
-          <h3>Tambah Protein</h3>
-          <p>Cookingdom membenarkan anda memilih protein untuk sandwic, seperti ayam panggang, kalkun, ham, atau patty daging lembu.</p>
-          <p>Letakkan protein di atas roti, pastikan ia tersebar rata di setiap hirisan. Protein menambah rasa utama dan ketumpatan kepada sandwic.</p>
-          <p><strong>Tip:</strong> Pastikan protein dimasak dengan sempurna dan tidak menenggelamkan bahan-bahan lain. Ayam panggang dan kalkun adalah pilihan popular untuk sandwic yang seimbang.</p>
-      </li>
-      <li>
-          <h3>Lapiskan Sayur-Sayuran</h3>
-          <p>Sayur-sayuran menambah kerenyahan dan kesegaran kepada sandwic. Lettuce, tomato, bawang, dan jeruk adalah pilihan klasik.</p>
-          <p><strong>Tip:</strong> Potong sayur-sayuran dengan sekata dan susun lapisan dengan betul untuk memastikan setiap suapan mengandungi semua bahan. Jangan letakkan terlalu banyak sayur-sayuran kerana ia akan menyukarkan untuk makan sandwic.</p>
-          <p><strong>Tip:</strong> Dalam Cookingdom, pastikan sayur-sayuran sentiasa segar untuk rasa dan penampilan terbaik.</p>
-      </li>
-      <li>
-          <h3>Tambah Sos dan Keju</h3>
-          <p>Sekarang tiba masanya untuk menambah rasa! Sos seperti mayonis, mustard, ketchup, atau sos barbeku boleh menambahkan lebih banyak rasa pada sandwic anda.</p>
-          <p><strong>Tip:</strong> Jangan terlalu banyak menggunakan sos; cukup sekadar untuk menambah kelembapan dan rasa. Anda juga boleh menambah keju untuk lapisan kelembutan, seperti keju cheddar, Swiss, atau keju Amerika.</p>
-          <p><strong>Tip:</strong> Jika anda menambah keju, pastikan ia sedikit cair untuk mendapatkan tekstur yang lembut dan meleleh.</p>
-      </li>
-      <li>
-          <h3>Susun Sandwic</h3>
-          <p>Susun sandwic anda dengan hati-hati dengan menumpuk lapisan dengan kemas. Mulakan dengan hirisan roti bawah, tambah protein, kemudian sayur-sayuran, dan akhiri dengan sos dan keju. Akhirnya, letakkan hirisan roti atas untuk menyiapkan sandwic.</p>
-          <p><strong>Tip:</strong> Jika sandwic terlalu tinggi, anda boleh menekannya sedikit atau memotongnya menjadi dua untuk memudahkan pengendalian.</p>
-      </li>
-      <li>
-          <h3>Hidang dan Nikmati</h3>
-          <p>Setelah sandwic selesai disusun, kini tiba masanya untuk menghidangkannya. Pastikan sandwic tersebut segar dan kelihatan menarik.</p>
-          <p><strong>Tip:</strong> Dalam Cookingdom, persembahan adalah penting! Potong sandwic kepada dua atau empat bahagian yang kemas, dan jika ada masa, tambahkan hiasan seperti acar atau snek sampingan seperti cip.</p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Petua Pro untuk Kejayaan Level 27</h2>
-  <ul>
-      <li>
-          <h3>Gunakan Bahan Segar</h3>
-          <p>Kesegaran adalah kunci dalam membuat sandwic. Sentiasa pilih sayur-sayuran dan protein yang paling segar untuk memastikan sandwic berkualiti tinggi.</p>
-      </li>
-      <li>
-          <h3>Seimbangkan Rasa</h3>
-          <p>Pastikan rasa yang dihasilkan seimbang. Jika protein terlalu berat (seperti daging lembu), gunakan sos dan sayur-sayuran yang lebih ringan. Jika protein ringan (seperti kalkun), anda boleh menambah rasa yang lebih kuat seperti mustard atau sos barbeku.</p>
-      </li>
-      <li>
-          <h3>Toas untuk Kerenyahan</h3>
-          <p>Memanggang roti menambah tekstur kepada sandwic. Sandwic rangup boleh meningkatkan pengalaman, terutamanya jika dihidangkan dengan keju yang cair dan panas.</p>
-      </li>
-      <li>
-          <h3>Periksa Keutamaan Pelanggan</h3>
-          <p>Dalam Cookingdom, beberapa pelanggan mungkin mempunyai keutamaan tertentu untuk sandwic mereka. Waspadai permintaan seperti "extra cheese", "tiada bawang", atau "extra mayo". Memenuhi permintaan ini akan meningkatkan penilaian pelanggan anda.</p>
-      </li>
-      <li>
-          <h3>Jangan Terlalu Membebankan Sandwic</h3>
-          <p>Sementara anda mungkin tergoda untuk menambah banyak topping, sandwic yang terlalu besar akan menjadi sukar untuk diuruskan, baik dalam Cookingdom atau dalam kehidupan sebenar. Pastikan ia tetap sederhana dan seimbang.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Cookingdom Level 27, membuat Sandwic yang sempurna adalah tentang keseimbangan dan perhatian terhadap perincian. Dari memilih roti yang tepat hingga menambah protein, sayur-sayuran, sos, dan keju yang sempurna, setiap langkah harus dilakukan dengan teliti untuk mencipta sandwic yang memuaskan.</p>
-  <p>Dengan mengikuti panduan Cookingdom ini, anda akan dapat menciptasandwic yang luar biasa dan memuaskan pelanggan anda. Teruskan latihan dan nikmati pencapaian anda!</p>
+<h2 id="overview">Gambaran Umum Tahap 27 dalam Cookingdom</h2>
+<p>Dalam Tahap 27 Cookingdom, anda akan menyediakan sandwich yang lazat — satu hidangan ringkas tetapi mengenyangkan. Walaupun nampak mudah, membuat sandwich yang sempurna memerlukan pemilihan bahan yang tepat dan susunan lapisan yang kemas untuk menggembirakan pelanggan.</p>
+<p>Sandwich anda harus mengandungi roti yang rangup, protein, sayur-sayuran segar, dan sos. Susunan lapisan yang betul adalah kunci untuk mencipta rasa yang seimbang dalam setiap gigitan. Panduan ini akan membantu anda menguasai Tahap 27 dan menjadi pakar sandwich.</p>
+
+<h2 id="goal">Matlamat Tahap 27</h2>
+<ul>
+  <li>Pilih jenis roti untuk sandwich.</li>
+  <li>Pilih protein (seperti ayam, ayam belanda, atau daging lembu).</li>
+  <li>Tambah sayur-sayuran segar untuk tekstur dan rasa.</li>
+  <li>Tambah sos dan bahan tambahan (seperti keju).</li>
+  <li>Susun dan hidangkan sandwich dengan segar.</li>
+</ul>
+
+<h2 id="steps">Langkah demi Langkah Penyediaan Sandwich</h2>
+<ol>
+  <li>
+    <h3>Pilih Roti</h3>
+    <p>Roti adalah asas sandwich. Anda boleh pilih roti putih, gandum penuh, ciabatta atau baguette dalam permainan ini.</p>
+    <p><strong>Petua:</strong> Baguette atau ciabatta memberikan kerangupan tambahan. Roti putih atau gandum penuh lebih lembut.</p>
+    <p><strong>Petua:</strong> Kadangkala anda perlu memanggang roti sedikit untuk tekstur yang lebih baik.</p>
+  </li>
+  <li>
+    <h3>Tambah Protein</h3>
+    <p>Pilih sumber protein seperti ayam panggang, ayam belanda, daging salai, atau daging lembu.</p>
+    <p>Susun protein dengan sekata atas roti. Ini adalah asas rasa dan ketepuan.</p>
+    <p><strong>Petua:</strong> Masak protein dengan baik dan jangan terlalu banyak. Ayam dan ayam belanda adalah pilihan yang seimbang.</p>
+  </li>
+  <li>
+    <h3>Lapisan Sayur-Sayuran</h3>
+    <p>Masukkan sayur segar seperti salad, tomato, bawang, atau timun.</p>
+    <p><strong>Petua:</strong> Potong nipis dan lapiskan dengan kemas. Elakkan terlalu banyak agar mudah dimakan.</p>
+    <p><strong>Petua:</strong> Pastikan sayur dalam keadaan segar untuk hasil terbaik.</p>
+  </li>
+  <li>
+    <h3>Sos dan Keju</h3>
+    <p>Gunakan mayonis, mustard, sos BBQ, atau sos lain mengikut kehendak.</p>
+    <p><strong>Petua:</strong> Gunakan sos secara sederhana agar tidak mendominasi rasa. Tambah keju (seperti cheddar atau Swiss) untuk kelembutan.</p>
+    <p><strong>Petua:</strong> Cairkan keju sedikit untuk tekstur yang menarik.</p>
+  </li>
+  <li>
+    <h3>Susun Sandwich</h3>
+    <p>Susunan yang betul: roti – protein – sayur – sos – keju – roti atas.</p>
+    <p><strong>Petua:</strong> Jika sandwich terlalu tebal, tekan sedikit atau potong dua.</p>
+  </li>
+  <li>
+    <h3>Penyajian</h3>
+    <p>Hidangkan sandwich dengan segar dan menarik.</p>
+    <p><strong>Petua:</strong> Potong separuh dan hias dengan acar atau kerepek untuk persembahan menarik.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Tambahan untuk Tahap 27</h2>
+<ul>
+  <li>
+    <h3>Gunakan Bahan Segar</h3>
+    <p>Semakin segar bahan, semakin sedap sandwich anda.</p>
+  </li>
+  <li>
+    <h3>Seimbangkan Rasa</h3>
+    <p>Jika protein kuat (seperti daging lembu), guna sayur dan sos yang ringan. Untuk protein ringan, guna sos yang lebih kuat.</p>
+  </li>
+  <li>
+    <h3>Panggang Roti</h3>
+    <p>Memanggang menambah tekstur dan rasa.</p>
+  </li>
+  <li>
+    <h3>Penuhi Permintaan Pelanggan</h3>
+    <p>Sesetengah pelanggan mungkin mahukan “tanpa bawang” atau “lebih keju”. Ambil perhatian untuk penilaian yang lebih tinggi.</p>
+  </li>
+  <li>
+    <h3>Jangan Terlalu Penuh</h3>
+    <p>Sandwich yang terlalu besar sukar dimakan. Kekalkan kesederhanaan.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Tahap 27 dalam Cookingdom menguji kemahiran anda dalam menyediakan sandwich yang seimbang dan lazat. Pemilihan bahan yang tepat dan susunan lapisan yang betul adalah kunci kejayaan.</p>
+<p>Ikuti panduan ini, beri perhatian kepada kehendak pelanggan, panggang roti untuk tekstur dan sajikan dengan menarik. Anda pasti akan memenangi hati pelanggan!</p>
 `,
   },
+
   {
-    // Add entry for Level 28
     id: 'cookingdom-game-level-28',
-    title: 'Cookingdom Level 28:<br>Croissant',
-    pageTitle: 'Cookingdom Level 28 - Panduan Croissant',
+    title: 'Cookingdom Tahap 28: Panduan Croissant',
+    pageTitle: 'Cookingdom Tahap 28: Panduan Croissant',
     pageSubtitle:
-      'Pelajari cara membuat Croissant yang sempurna dan berlapis di Level 28 Cookingdom.',
+      'Ketahui cara menyediakan croissant berlapis sempurna dalam Tahap 28 permainan Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_28.webp', // Placeholder
+    imageUrl: '/images/guides_28.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
-    iframeUrl: 'https://www.youtube.com/embed/c0TZorOkxWU', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI',
     seo: {
-      title: 'Cookingdom Level 28 Panduan: Croissant | Petua & Strategi',
+      title: 'Cookingdom Tahap 28: Croissant | cookingdom.co',
       description:
-        'Kuasa dalam membuat Croissant di Level 28 Cookingdom. Dapatkan petua tentang penyediaan doh, lamination, pembentukan, pembuktian, dan membakar pastri Perancis klasik ini.',
-      keywords:
-        'Cookingdom, Level 28, Croissant, Pastri Perancis, Membakar, Lamination, Doh, Panduan, Strategi',
+        'Pelajari seni membuat croissant dalam Cookingdom Tahap 28. Dapatkan petua untuk penyediaan doh, laminasi, pembentukan, pemerapan dan pembakaran pastri klasik Perancis ini.',
+      keywords: 'Cookingdom Tahap 28, Croissant, Pastri Perancis, Laminasi, Doh, Panduan',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_28.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_28.webp',
       levelInfoHtml:
-        '<h3>Croissant</h3><p><strong>Kebolehan:</strong> Tinggi</p><p><strong>Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Croissant</h3><p><strong>Tahap Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-25',
-          title: 'Cookingdom Level 25<br>Pizza',
-          imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
-        },
-        {
-          id: 'cookingdom-game-level-26',
-          title: 'Cookingdom Level 26<br>Smoothie',
-          imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
-        },
-        {
           id: 'cookingdom-game-level-27',
-          title: 'Cookingdom Level 27<br>Sandwich',
-          imageUrl: '/images/guides_27.webp', // Placeholder
+          title: 'Cookingdom Tahap 27: Panduan Sandwich',
+          imageUrl: '/images/guides_27.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
+        },
+        {
+          id: 'cookingdom-game-level-29',
+          title: 'Cookingdom Tahap 29: Panduan Matcha Bola Teh',
+          imageUrl: '/images/guides_29.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Di Cookingdom Level 28, anda diberikan tugas untuk menyediakan Croissant, pastri Perancis klasik yang terkenal dengan lapisan berbutter dan rangup. Level ini memberi fokus kepada ketepatan, kerana membuat croissant yang sempurna memerlukan keseimbangan bahan yang baik, penyediaan yang berhati-hati, dan perhatian kepada masa pembakaran. Cookingdom mencabar anda untuk mempelajari teknik membuat pastri yang halus ini, memastikan setiap croissant keemasan, rangup, dan lembut di dalamnya.</p>
-<p>Panduan ini akan membimbing anda melalui proses membuat croissant tradisional, dari penyediaan doh hingga membakarnya hingga sempurna.</p>
+<h2 id="overview">Gambaran Umum Tahap 28</h2>
+<p>Dalam Cookingdom Tahap 28, anda ditugaskan untuk menyediakan croissant — pastri klasik Perancis yang terkenal dengan lapisan bermentega dan berlapis. Tahap ini memerlukan ketepatan, kerana croissant yang sempurna memerlukan keseimbangan bahan, penyediaan teliti dan masa pembakaran yang tepat.</p>
+<p>Panduan ini akan membawa anda langkah demi langkah dari penyediaan doh hingga pembakaran croissant yang sempurna.</p>
 
-<h2 id="goal">Objektif Level 28</h2>
+<h2 id="goal">Matlamat Tahap 28</h2>
 <ul>
-    <li>Sediakan doh untuk croissant.</li>
-    <li>Lipat dan laminasi doh untuk membuat lapisan yang rangup.</li>
-    <li>Bentuk croissant dan biarkan ia naik.</li>
-    <li>Bakarlah croissant hingga keemasan sempurna.</li>
-    <li>Sajikan croissant segar dan panas.</li>
+  <li>Sediakan doh croissant.</li>
+  <li>Laminasi doh untuk menghasilkan lapisan berlapis.</li>
+  <li>Bentuk croissant dan biarkan ia diperam (proof).</li>
+  <li>Bakar sehingga keemasan.</li>
+  <li>Hidangkan croissant panas dan segar.</li>
 </ul>
 
-<h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Croissant</h2>
+<h2 id="steps">Langkah demi Langkah</h2>
 <ol>
-    <li>
-        <h3>Sediakan Doh</h3>
-        <p>Langkah pertama dalam membuat croissant adalah menyediakan doh. Cookingdom menyediakan semua bahan asas yang anda perlukan: tepung, mentega, yis, gula, susu, dan sedikit garam.</p>
-        <p><strong>Tip:</strong> Campurkan bahan kering terlebih dahulu—tepung, gula, dan garam—kemudian tambah bahan basah—yeast dan susu. Uli doh sehingga licin, kemudian biarkan ia berehat selama kira-kira 30 minit untuk naik.</p>
-        <p><strong>Tip:</strong> Pastikan mentega sejuk sebelum memasukkannya ke dalam doh; ini akan membantu membuat lapisan-lapisan nanti.</p>
-    </li>
-    <li>
-        <h3>Lipat dan Laminasi Doh</h3>
-        <p>Langkah ini sangat penting untuk membuat lapisan dalam croissant. Setelah doh berehat, anda perlu menggulungnya menjadi bentuk segi empat. Letakkan sekeping mentega sejuk di tengah doh.</p>
-        <p>Lipat doh ke atas mentega seperti surat, kemudian gulungkannya lagi menjadi bentuk segi empat nipis. Lipat doh menjadi tiga bahagian dan biarkan ia berehat selama 20-30 minit.</p>
-        <p><strong>Tip:</strong> Ulangi proses ini 2-3 kali untuk menghasilkan lapisan-lapisan yang rangup. Di Cookingdom, setiap lipatan dan tempoh berehat sangat penting untuk tekstur.</p>
-    </li>
-    <li>
-        <h3>Bentuk Croissant</h3>
-        <p>Apabila doh telah dilaminasi, gulungkannya sekali lagi menjadi bentuk segi empat besar. Potong doh menjadi bentuk segitiga—ini akan menjadi croissant individu.</p>
-        <p><strong>Tip:</strong> Untuk bentuk croissant yang sempurna, gulungkan doh dari bahagian bawah segitiga hingga ke hujung, pastikan lapisannya digulung dengan ketat. Anda juga boleh sedikit melengkungkan croissant menjadi bentuk bulan sabit untuk penampilan tradisional.</p>
-        <p><strong>Tip:</strong> Pastikan croissant mempunyai saiz yang sekata supaya mereka dibakar dengan sekata.</p>
-    </li>
-    <li>
-        <h3>Biarkan Croissant Naik</h3>
-        <p>Setelah membentuk croissant, mereka perlu naik. Letakkan mereka di atas lembaran pembakar, dengan jarak antara setiap croissant, dan biarkan mereka berehat selama kira-kira 1 jam. Mereka sepatutnya mengembang semasa ini.</p>
-        <p><strong>Tip:</strong> Pastikan doh berada di tempat yang hangat dan bebas daripada draf untuk membantu proses naik. Di Cookingdom, kesabaran adalah kunci untuk mencapai tekstur yang sempurna.</p>
-    </li>
-    <li>
-        <h3>Bakarlah Croissant</h3>
-        <p>Panaskan oven anda ke 375°F (190°C). Setelah croissant mengembang, tiba masanya untuk membakarnya.</p>
-        <p><strong>Tip:</strong> Sapukan sedikit egg wash (campuran telur yang dipukul dan air) pada bahagian atas croissant sebelum membakar. Ini akan memberikan croissant anda penampilan keemasan yang cantik.</p>
-        <p>Bakarlah croissant selama kira-kira 15-20 minit atau sehingga ia keemasan dan kembang.</p>
-        <p><strong>Tip:</strong> Perhatikan croissant semasa membakar; jangan biarkan mereka terbakar terlalu lama sehingga menjadi keras, tetapi juga jangan kurang bakar yang menyebabkan ia masih basah.</p>
-    </li>
-    <li>
-        <h3>Sajikan dan Nikmati</h3>
-        <p>Setelah croissant menjadi keemasan dan kembang, keluarkan dari oven dan biarkan sejuk sebentar sebelum disajikan.</p>
-        <p><strong>Tip:</strong> Croissant paling sedap jika disajikan segar dan panas, dengan permukaan yang sedikit rangup dan bahagian dalam yang lembut dan berlapis. Sebagai tambahan, anda boleh taburkan sedikit serbuk gula atau sajikan bersama jem atau mentega.</p>
-    </li>
+  <li>
+    <h3>Penyediaan Doh</h3>
+    <p>Mula-mula, sediakan doh. Anda perlukan: tepung, mentega, yis, gula, susu dan sedikit garam.</p>
+    <p><strong>Petua:</strong> Campur bahan kering (tepung, gula, garam) dahulu, kemudian masukkan yis dan susu. Uli hingga doh licin dan biarkan rehat selama 30 minit.</p>
+    <p><strong>Petua:</strong> Gunakan mentega yang sejuk — ini penting untuk pembentukan lapisan.</p>
+  </li>
+  <li>
+    <h3>Laminasi Doh</h3>
+    <p>Gelek doh menjadi bentuk segi empat. Letakkan mentega sejuk di tengah, kemudian lipat doh seperti surat dan gelek semula.</p>
+    <p>Ulang langkah ini 2–3 kali, dengan rehat 20–30 minit antara setiap kali lipatan.</p>
+  </li>
+  <li>
+    <h3>Membentuk Croissant</h3>
+    <p>Gelek doh sekali lagi dan potong menjadi bentuk segitiga. Gulung setiap segitiga dari bahagian bawah ke atas. Boleh dibengkokkan sedikit seperti bulan sabit.</p>
+    <p><strong>Petua:</strong> Pastikan saiz croissant seragam untuk pembakaran sekata.</p>
+  </li>
+  <li>
+    <h3>Pemerapan</h3>
+    <p>Susun croissant di atas dulang pembakar dan biarkan diperam selama kira-kira satu jam. Ia akan mengembang dan menjadi gebu.</p>
+    <p><strong>Petua:</strong> Letakkan di tempat yang hangat dan tidak berangin.</p>
+  </li>
+  <li>
+    <h3>Pembakaran</h3>
+    <p>Panaskan ketuhar kepada 190°C. Sapu permukaan croissant dengan telur untuk hasil berkilat. Bakar selama 15–20 minit sehingga naik dan perang keemasan.</p>
+    <p><strong>Petua:</strong> Jangan terlebih bakar — croissant boleh menjadi kering.</p>
+  </li>
+  <li>
+    <h3>Penyajian</h3>
+    <p>Biarkan croissant sejuk selama beberapa minit sebelum dihidangkan. Ia paling sedap dimakan ketika masih suam. Anda boleh tabur gula aising atau hidangkan dengan jem.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Petua Pro untuk Kejayaan Level 28</h2>
+<h2 id="tips">Petua Tambahan</h2>
 <ul>
-    <li>
-        <h3>Gunakan Mentega Sejuk</h3>
-        <p>Kunci kepada croissant yang rangup adalah mentega sejuk. Cookingdom menghargai usaha anda untuk memastikan mentega kekal sejuk sepanjang proses melipat. Ini menghasilkan wap semasa membakar, yang membantu membentuk lapisan.</p>
-    </li>
-    <li>
-        <h3>Kesabaran Semasa Waktu Rehat</h3>
-        <p>Jangan tergesa-gesa semasa tempoh rehat. Biarkan doh naik dengan sempurna antara setiap lipatan dan bentuk. Di Cookingdom, langkah ini tidak boleh dilepaskan.</p>
-    </li>
-    <li>
-        <h3>Egg Wash untuk Penyelesaian Keemasan</h3>
-        <p>Menggunakan egg wash sebelum dibakar memberikan croissant penampilan keemasan yang berkilat. Ini juga penting untuk mencapai tekstur yang sempurna.</p>
-    </li>
-    <li>
-        <h3>Jangan Terlalu Padatkan Lembaran Pembakar</h3>
-        <p>Pastikan terdapat ruang yang cukup antara setiap croissant di atas lembaran pembakar. Menumpukkan croissant terlalu banyak akan menyebabkan ia tidak dibakar dengan sekata dan mungkinmenghalang perkembangan semasa naik.</p>
-</li>
+  <li><strong>Gunakan mentega sejuk</strong> — penting untuk menghasilkan lapisan.</li>
+  <li><strong>Jangan tergesa-gesa</strong> — ikut masa rehat dan pemerapan dengan betul.</li>
+  <li><strong>Sapuan telur</strong> — memberikan kemasan berkilat dan keemasan.</li>
+  <li><strong>Jangan sempitkan dulang pembakar</strong> — pastikan ada ruang antara croissant.</li>
+  <li><strong>Awasi masa pembakaran</strong> — elakkan overbake.</li>
+</ul>
 
-</ul> <h2 id="conclusion">Kesimpulan</h2> <p>Level 28 di Cookingdom adalah cabaran yang menarik untuk penggemar pastri, dan dengan panduan langkah demi langkah ini, anda akan menguasai croissant dengan mudah. Fokus pada ketepatan dan kesabaran semasa proses penyediaan dan pembakaran untuk menghasilkan croissant terbaik yang pernah anda buat!</p> `,
+<h2 id="summary">Ringkasan</h2>
+<p>Tahap 28 dalam Cookingdom menguji kemahiran membakar anda. Dengan teknik dan kesabaran yang betul, anda boleh menghasilkan croissant yang sempurna — rangup di luar, lembut dan berlapis di dalam.</p>
+<p>Ikuti panduan ini dengan teliti dan anda akan bersedia untuk cabaran pastri yang lebih sukar dalam tahap seterusnya!</p>
+`,
   },
+
   {
-    // Add entry for Level 29
     id: 'cookingdom-game-level-29',
-    title: 'Cookingdom Level 29:<br>Matcha Boba Tea',
-    pageTitle: 'Cookingdom Level 29 - Panduan Matcha Boba Tea',
-    pageSubtitle: 'Pelajari cara membuat Matcha Boba Tea yang trendi di Level 29 Cookingdom.',
+    title: 'Cookingdom Tahap 29 Panduan Membuat Teh Matcha Boba',
+    pageTitle: 'Cookingdom Tahap 29 Panduan Membuat Teh Matcha Boba',
+    pageSubtitle: 'Pelajari cara membuat minuman trendy Teh Matcha Boba di Tahap 29 Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_29.webp', // Placeholder
+    imageUrl: '/images/guides_29.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
-    iframeUrl: 'https://www.youtube.com/embed/BI4QGcm-kDM', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/RE42E5fmjLo',
     seo: {
-      title: 'Cookingdom Level 29 Panduan: Matcha Boba Tea | Tips & Strategi',
+      title: 'Cookingdom Tahap 29: Teh Matcha Boba | cookingdom.co',
       description:
-        'Pelajari cara membuat Matcha Boba Tea di Level 29 Cookingdom. Dapatkan tips tentang cara memasak boba pearls, mencampur matcha, mencampurkan susu, dan menyusun minuman yang popular ini.',
+        'Kuasa membuat Teh Matcha Boba di Tahap 29 Cookingdom. Dapatkan petua memasak boba, mencampur matcha, menambah susu, dan menghidangkan minuman ini.',
       keywords:
-        'Cookingdom, Level 29, Matcha Boba Tea, Boba, Matcha, Bubble Tea, Minuman, Panduan, Strategi',
+        'Cookingdom Tahap 29, Cookingdom Teh Matcha Boba, Boba, Matcha, Teh Boba, Minuman, Panduan',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_29.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_29.webp',
       levelInfoHtml:
-        '<h3>Matcha Boba Tea</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>', // Estimate
+        '<h3>Teh Matcha Boba</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-26',
-          title: 'Cookingdom Level 26<br>Smoothie',
-          imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
-        },
-        {
-          id: 'cookingdom-game-level-27',
-          title: 'Cookingdom Level 27<br>Sandwich',
-          imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
-        },
-        {
           id: 'cookingdom-game-level-28',
-          title: 'Cookingdom Level 28<br>Croissant',
-          imageUrl: '/images/guides_28.webp', // Placeholder
+          title: 'Cookingdom Tahap 28 Panduan Croissant',
+          imageUrl: '/images/guides_28.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
+        },
+        {
+          id: 'cookingdom-game-level-30',
+          title: 'Cookingdom Tahap 30 Panduan Doner Kebab',
+          imageUrl: '/images/guides_30.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Di Cookingdom Level 29, anda akan membuat Matcha Boba Tea yang trendi dan lazat! Minuman popular ini menggabungkan rasa matcha yang kaya dan berperisa dengan boba pearls yang kenyal, menghasilkan minuman manis yang memuaskan. Cabaran di tahap ini adalah untuk menyeimbangkan rasa matcha yang jelas dengan kelembutan susu dan tekstur kenyal boba. Matlamat anda adalah untuk membuat secawan Matcha Boba Tea yang sempurna yang disukai oleh pelanggan anda.</p>
-<p>Panduan ini akan membimbing anda melalui setiap langkah untuk menyediakan Matcha Boba Tea yang sempurna, dari memasak boba pearls hingga mencampurkan matcha dan susu dan menyajikannya dengan penuh gaya.</p>
+<h2 id="overview">Gambaran Keseluruhan Tahap 29 Cookingdom</h2>
+<p>Dalam Tahap 29 Cookingdom, anda akan menyediakan minuman trendy dan lazat iaitu Teh Matcha Boba! Minuman popular ini menggabungkan rasa tanah yang kaya dari matcha dengan tekstur kenyal boba, menghasilkan minuman manis dan memuaskan. Cabaran tahap ini adalah untuk mengimbangi rasa matcha yang unik dengan kelembutan susu dan tekstur kenyal boba. Matlamat anda adalah menyediakan secawan Teh Matcha Boba yang sempurna untuk pelanggan anda.</p>
+<p>Panduan ini akan membawa anda langkah demi langkah untuk menyediakan Teh Matcha Boba yang sempurna, dari memasak boba, mencampur matcha dan susu, hingga menghidangkannya dengan gaya.</p>
 
-<h2 id="goal">Objektif Level 29</h2>
+<h2 id="goal">Objektif Tahap 29 Cookingdom</h2>
 <ul>
-    <li>Persiapkan boba pearls.</li>
-    <li>Campurkan matcha dengan bahan yang betul.</li>
-    <li>Gabungkan susu untuk menghasilkan minuman yang krimi.</li>
-    <li>Susun Matcha Boba Tea.</li>
-    <li>Sajikan minuman dengan hiasan yang sesuai.</li>
+  <li>Masak pearl boba.</li>
+  <li>Campurkan matcha dengan bahan yang sesuai.</li>
+  <li>Gabungkan susu untuk menghasilkan minuman yang berkrim.</li>
+  <li>Susun Teh Matcha Boba.</li>
+  <li>Hidangkan minuman dengan hiasan yang tepat.</li>
 </ul>
 
-<h2 id="steps">Panduan Langkah-demi-Langkah untuk Menguasai Matcha Boba Tea</h2>
+<h2 id="steps">Panduan Langkah demi Langkah Tahap 29 Cookingdom untuk Menguasai Teh Matcha Boba</h2>
 <ol>
-    <li>
-        <h3>Persiapkan Boba Pearls</h3>
-        <p>Mula-mula, masak boba pearls. Di Cookingdom, anda akan menemui boba pearls yang perlu direbus dalam air selama lebih kurang 10-15 minit.</p>
-        <p><strong>Tip:</strong> Kacau boba pearls sekali-sekala semasa memasak untuk mengelakkan mereka melekat bersama. Setelah dimasak dan lembut, bilas mereka dengan air sejuk untuk menghentikan proses memasak.</p>
-        <p><strong>Tip:</strong> Biarkan pearls duduk dalam sirap gula atau madu untuk menambah kemanisan dan memperbaiki rasa. Ini memberikan boba rasa manis yang sedap.</p>
-    </li>
-    <li>
-        <h3>Campurkan Matcha</h3>
-        <p>Seterusnya, sediakan matcha. Di Cookingdom, anda akan diberi serbuk matcha yang perlu dipukul dengan sedikit air panas sehingga ia menjadi licin dan berbuih.</p>
-        <p><strong>Tip:</strong> Gunakan whisk kecil atau frother untuk memastikan serbuk matcha larut sepenuhnya. Jika terlalu berketul, rasa tidak akan bercampur dengan baik dengan bahan lain.</p>
-        <p>Tambahkan pemanis ke dalam campuran matcha anda, seperti gula atau madu, mengikut citarasa pelanggan anda.</p>
-    </li>
-    <li>
-        <h3>Gabungkan Susu</h3>
-        <p>Sekarang masukkan susu ke dalam campuran matcha. Di Cookingdom, anda boleh memilih antara susu penuh, susu badam, atau susu oat. Pemilihan susu ini akan memberi kesan kepada kelemakan minuman tersebut.</p>
-        <p>Tuangkan susu ke dalam campuran matcha dan kacau sehingga sebati.</p>
-        <p><strong>Tip:</strong> Jika anda ingin membuat minuman lebih lazat, anda boleh menggunakan susu pekat manis untuk kelembutan dan kemanisan tambahan.</p>
-    </li>
-    <li>
-        <h3>Susun Matcha Boba Tea</h3>
-        <p>Di Cookingdom, anda perlu meletakkan boba pearls di bahagian bawah gelas atau cawan.</p>
-        <p>Setelah boba diletakkan, tuangkan campuran susu matcha di atas boba pearls.</p>
-        <p><strong>Tip:</strong> Pastikan matcha dan susu dicampur dengan baik sebelum dituangkan untuk mengelakkan serbuk matcha yang berketul di bahagian bawah.</p>
-    </li>
-    <li>
-        <h3>Hias dan Sajikan</h3>
-        <p>Untuk melengkapkan Matcha Boba Tea, anda boleh menambah kiub ais untuk menjadikannya lebih segar dan sejuk.</p>
-        <p>Anda juga boleh menghias dengan sedikit serbuk matcha di atas atau straw dekoratif untuk menambah daya tarikan visual minuman ini.</p>
-        <p><strong>Tip:</strong> Jika anda mahu menyajikan teh dengan cara tradisional, gunakan straw lebar supaya boba pearls mudah melalui straw.</p>
-    </li>
+  <li>
+    <h3>Masak Pearl Boba</h3>
+    <p>Mula-mula, masak pearl boba. Dalam Tahap 29 Cookingdom, anda perlu merebus pearl boba dalam air selama kira-kira 10-15 minit.</p>
+    <p><strong>Tip:</strong> Kacau pearl boba dari semasa ke semasa semasa memasak supaya tidak melekat antara satu sama lain. Setelah masak dan lembut, bilas dengan air sejuk untuk menghentikan proses memasak.</p>
+    <p><strong>Tip:</strong> Rendam pearl boba dalam sirap gula atau madu untuk menambah kemanisan dan meningkatkan rasa. Ini akan memberi sentuhan manis yang sedap pada boba.</p>
+  </li>
+  <li>
+    <h3>Campurkan Matcha</h3>
+    <p>Seterusnya, sediakan matcha. Dalam Tahap 29 Cookingdom, anda akan mendapat serbuk matcha yang perlu dikacau dengan sedikit air panas sehingga menjadi halus dan berbuih.</p>
+    <p><strong>Tip:</strong> Gunakan whisk kecil atau frother untuk memastikan serbuk matcha larut sepenuhnya. Jika bergumpal, rasa tidak akan sekata dengan bahan lain.</p>
+    <p>Tambahkan pemanis seperti gula atau madu mengikut citarasa pelanggan.</p>
+  </li>
+  <li>
+    <h3>Gabungkan Susu</h3>
+    <p>Kini masa untuk tambah susu ke dalam matcha. Dalam Tahap 29 Cookingdom, anda boleh memilih antara susu segar, susu badam, atau susu oat. Pilihan susu akan mempengaruhi kekayaan tekstur minuman.</p>
+    <p>Tuangkan susu ke dalam campuran matcha dan kacau hingga sebati.</p>
+    <p><strong>Tip:</strong> Untuk minuman yang lebih kaya dan manis, anda boleh guna susu pekat manis.</p>
+  </li>
+  <li>
+    <h3>Susun Teh Matcha Boba</h3>
+    <p>Dalam Tahap 29 Cookingdom, letakkan pearl boba di dasar gelas.</p>
+    <p>Tuangkan campuran susu matcha ke atas pearl boba.</p>
+    <p><strong>Tip:</strong> Pastikan campuran matcha dan susu sudah sebati sebelum dituangkan supaya tiada serbuk matcha yang terkumpul di bawah.</p>
+  </li>
+  <li>
+    <h3>Hiaskan dan Hidangkan</h3>
+    <p>Untuk melengkapkan Teh Matcha Boba, tambahkan ketulan ais supaya minuman kekal sejuk dan menyegarkan.</p>
+    <p>Boleh juga hiaskan dengan sedikit serbuk matcha di atas atau straw hiasan untuk penampilan yang menarik.</p>
+    <p><strong>Tip:</strong> Gunakan straw yang lebar supaya pearl boba boleh keluar dengan mudah semasa diminum.</p>
+  </li>
 </ol>
 
-<h2 id="tips">Tips Profesional untuk Kejayaan di Level 29</h2>
+<h2 id="tips">Petua Pro untuk Berjaya di Tahap 29 Cookingdom</h2>
 <ul>
-    <li>
-        <h3>Pastikan Boba Pearls Tepat</h3>
-        <p>Tekstur boba pearls sangat penting untuk membuat Matcha Boba Tea yang baik. Mereka perlu kenyal, tidak terlalu lembut, dan tidak terlalu keras. Pastikan ia dimasak dengan sempurna dan manis dengan baik.</p>
-    </li>
-    <li>
-        <h3>Saring Serbuk Matcha</h3>
-        <p>Jika serbuk matcha tidak dapat disaring dengan baik atau membentuk gumpalan, gunakan penapis mesh halus untuk memastikan keseragaman. Cookingdom menghargai perhatian anda terhadap perincian dalam proses pencampuran.</p>
-    </li>
-    <li>
-        <h3>Pilih Susu yang Tepat</h3>
-        <p>Pilih susu yang betul untuk Matcha Boba Tea anda. Untuk tekstur yang lebih kaya dan lebih krim, pilih susu penuh. Untuk versi lebih ringan dan tanpa tenusu, pilih susu badam atau susu oat.</p>
-    </li>
-    <li>
-        <h3>Pastikan Pengadukan Tepat</h3>
-        <p>Pastikan campuran matcha dan susu dikacau dengan baik. Jika tidak, rasa akan tidak sekata dan serbuk matcha akan membentuk gumpalan dalam minuman.</p>
-    </li>
-    <li>
-        <h3>Perhatikan Tahap Kemmanisan</h3>
-        <p>Maniskan campuran matcha dengan berhati-hati. Anda ingin rasa matcha, susu krimi, dan boba yang kenyal saling melengkapi. Terlalu banyak gula boleh membuat minuman terlalu manis, sementara terlalu sedikit akan menjadikannya pahit.</p>
-    </li>
+  <li>
+    <h3>Tekstur Pearl Boba Yang Tepat</h3>
+    <p>Tekstur pearl boba sangat penting dalam menyediakan Teh Matcha Boba yang baik. Ia harus kenyal, tidak terlalu lembut dan tidak keras. Pastikan ia dimasak sempurna dan dimaniskan dengan baik.</p>
+  </li>
+  <li>
+    <h3>Tapis Serbuk Matcha</h3>
+    <p>Jika serbuk matcha anda tidak larut dengan baik atau bergumpal, tapis dengan ayakan halus supaya lebih licin. Tahap 29 Cookingdom akan memberi ganjaran jika anda teliti dalam proses pencampuran.</p>
+  </li>
+  <li>
+    <h3>Pilih Susu Yang Betul</h3>
+    <p>Pilih susu yang sesuai untuk Teh Matcha Boba anda. Untuk tekstur yang lebih kaya dan berkrim, guna susu segar. Untuk versi ringan dan tanpa tenusu, pilih susu badam atau susu oat.</p>
+  </li>
+  <li>
+    <h3>Gaul Dengan Sempurna</h3>
+    <p>Kacau campuran matcha dan susu dengan baik. Jika tidak dicampur rata, rasa tidak sekata dan serbuk matcha akan bergumpal dalam minuman.</p>
+  </li>
+  <li>
+    <h3>Kawal Tahap Kemanisan</h3>
+    <p>Maniskan campuran matcha dengan berhati-hati. Anda mahu rasa yang seimbang antara susu berkrim dan pearl boba yang kenyal. Terlalu manis akan merosakkan rasa, terlalu kurang pula akan jadi pahit.</p>
+  </li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Level 29, membuat Matcha Boba Tea yang sempurna adalah tentang menyeimbangkan rasa matcha dengan tekstur boba pearls yang kenyal dan kelembutan susu. Ikuti langkah-langkah untuk memastikan boba dimasak dengan baik, matcha dicampur dengan sempurna, dan minuman disediakan dengan kemanisan yang sempurna. Perhatikan perincian kecil, seperti memilih susu dan pemanis yang betul, untuk memastikan Matcha Boba Tea anda benar-benar luar biasa.</p>
-<p>Dengan mengikuti panduan ini di Cookingdom, anda akan dapat membuat Matcha Boba Tea yang sempurna yang disukai oleh pelanggan anda, membawa anda selangkah lebih dekat untuk menguasai seni membuat minuman di Cookingdom!</p>
+<p>Dalam Tahap 29 Cookingdom, menyediakan Teh Matcha Boba yang sempurna adalah mengenai keseimbangan rasa matcha, tekstur pearl boba yang kenyal, dan kelembutan susu. Ikuti langkah-langkah ini untuk memastikan pearl boba dimasak dengan betul, matcha dicampur rata, dan minuman dimaniskan dengan sempurna. Perhatikan butiran kecil seperti pemilihan susu dan pemanis untuk menghasilkan Teh Matcha Boba yang luar biasa.</p>
+<p>Dengan mengikuti panduan Tahap 29 Cookingdom ini, anda pasti dapat menyediakan minuman yang bukan sahaja lazat tetapi juga memuaskan hati pelanggan anda!</p>
 `,
   },
+
   {
-    // Add entry for Level 30
     id: 'cookingdom-game-level-30',
-    title: 'Cookingdom Level 30:<br>Doner Kebab',
-    pageTitle: 'Cookingdom Level 30 - Panduan Doner Kebab',
-    pageSubtitle: 'Pelajari cara membuat Doner Kebab klasik di Level 30 Cookingdom.',
+    title: 'Panduan Cookingdom Tahap 30: Doner Kebab',
+    pageTitle: 'Panduan Cookingdom Tahap 30: Doner Kebab',
+    pageSubtitle:
+      'Pelajari cara menyediakan Doner Kebab klasik pada tahap 30 dalam permainan Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
-    imageUrl: '/images/guides_30.webp', // Placeholder
+    imageUrl: '/images/guides_30.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-    iframeUrl: 'https://www.youtube.com/embed/6l1-yu8zZKs', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/G3sO3IvbM0Q',
     seo: {
-      title: 'Cookingdom Level 30 Panduan: Doner Kebab | Petua & Strategi',
+      title: 'Cookingdom Tahap 30: Doner Kebab | cookingdom.co',
       description:
-        'Kuasa dalam Doner Kebab di Level 30 Cookingdom. Dapatkan petua tentang membakar daging, menyediakan topping, merakit, dan menyajikan makanan jalanan kegemaran Turki ini.',
+        'Kuasa menyediakan Doner Kebab pada tahap 30 permainan Cookingdom. Tips memasak daging bakar, menyediakan inti, membungkus dan menghidangkan hidangan jalanan Turki yang popular ini.',
       keywords:
-        'Cookingdom, Level 30, Doner Kebab, Kebab, Makanan Turki, Makanan Jalanan, Grill, Pita, Panduan, Strategi',
+        'Cookingdom Tahap 30, Cookingdom Doner Kebab, Kebab, Makanan Turki, Makanan Jalanan, Bakar, Pita, Panduan',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_30.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_30.webp',
       levelInfoHtml:
-        '<h3>Doner Kebab</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>', // Estimate
+        '<h3>Doner Kebab</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-27',
-          title: 'Cookingdom Level 27<br>Sandwic',
-          imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
-        },
-        {
-          id: 'cookingdom-game-level-28',
-          title: 'Cookingdom Level 28<br>Croissant',
-          imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
-        },
-        {
           id: 'cookingdom-game-level-29',
-          title: 'Cookingdom Level 29<br>Matcha Boba Tea',
-          imageUrl: '/images/guides_29.webp', // Placeholder
+          title: 'Panduan Cookingdom Tahap 29: Teh Matcha Bola',
+          imageUrl: '/images/guides_29.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
+        },
+        {
+          id: 'cookingdom-game-level-31',
+          title: 'Panduan Cookingdom Tahap 31: Cafe Mocha',
+          imageUrl: '/images/guides_31.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Di Cookingdom Level 30, matlamat anda adalah untuk menyediakan hidangan klasik yang disukai ramai: Doner Kebab! Makanan jalanan Turki yang terkenal ini terdiri daripada daging yang lazat (biasanya kambing, ayam, atau daging lembu), sayur-sayuran segar, dan sos yang sedap, semua dibalut dalam pita panas atau roti rata. Cabaran dalam tahap ini adalah untuk membakar daging dengan sempurna, merakit pengisian, dan memastikan kebab itu penuh rasa dan seimbang.</p>
-<p>Panduan ini akan memandu anda melalui setiap langkah untuk membuat Doner Kebab, memastikan anda memenuhi semua objektif dan menghidangkan hidangan yang lazat dan memuaskan untuk pelanggan anda.</p>
+<h2 id="overview">Gambaran Keseluruhan Tahap 30 dalam Cookingdom</h2>
+<p>Pada tahap 30 permainan Cookingdom, anda akan menyediakan hidangan klasik dan kegemaran — Doner Kebab! Hidangan jalanan Turki yang popular ini terdiri daripada daging yang berperisa (biasanya kambing, ayam, atau daging lembu), sayur-sayuran segar dan sos yang lazat, dibalut dalam roti pita atau lavash yang hangat. Objektif tahap ini adalah memasak daging dengan sempurna di atas panggangan, menyediakan inti, dan menghasilkan rasa yang kaya dan seimbang.</p>
+<p>Panduan ini akan membimbing anda langkah demi langkah untuk menyediakan Doner Kebab supaya anda dapat menyelesaikan semua tugas dan menghidangkan hidangan yang lazat dan mengenyangkan kepada pelanggan anda.</p>
 
-<h2 id="goal">Objektif Level 30</h2>
+<h2 id="goal">Matlamat Tahap 30 dalam Cookingdom</h2>
 <ul>
-    <li>Masak daging (kambing, ayam, atau daging lembu).</li>
-    <li>Sediakan topping (sayur-sayuran, sos).</li>
-    <li>Assemble Doner Kebab dalam pita atau roti rata.</li>
-    <li>Hidangkan kebab kepada pelanggan.</li>
+    <li>Memasak daging (kambing, ayam atau daging lembu).</li>
+    <li>Menyediakan inti (sayur-sayuran, sos).</li>
+    <li>Mengumpulkan Doner Kebab dalam roti pita atau lavash.</li>
+    <li>Menghidangkan kebab kepada pelanggan.</li>
 </ul>
 
-<h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Doner Kebab</h2>
+<h2 id="steps">Panduan Langkah Demi Langkah Memasak Doner Kebab di Cookingdom Tahap 30</h2>
 <ol>
     <li>
-        <h3>Sediakan Daging</h3>
-        <p>Langkah pertama dalam membuat Doner Kebab adalah memasak daging. Di Cookingdom, anda akan mempunyai pilihan untuk memilih dari pelbagai jenis daging: ayam, lembu, atau kambing.</p>
-        <p><strong>Petua:</strong> Pastikan daging dimarinasi dengan rempah dan herba untuk memastikan rasa yang kaya dan lazat. Daging harus dibakar atau dimasak sehingga rangup di luar dan lembut di dalam.</p>
-        <p><strong>Petua:</strong> Di Cookingdom, anda mungkin perlu memantau proses pembakaran untuk mengelakkan daging terlalu masak atau tidak cukup masak. Daging Doner yang sempurna adalah perang keemasan dan rangup di tepi tetapi berair di dalam.</p>
+        <h3>Memasak Daging</h3>
+        <p>Langkah pertama adalah memasak daging. Di Cookingdom Tahap 30, anda boleh memilih antara beberapa jenis daging: ayam, daging lembu atau kambing.</p>
+        <p><strong>Tip:</strong> Pastikan daging diperap dengan rempah dan herba untuk rasa yang kaya. Daging harus dipanggang hingga permukaan garing dan isi di dalam masih juicy.</p>
+        <p><strong>Tip:</strong> Pantau proses memasak supaya tidak terlebih atau kurang masak. Doner yang sempurna berwarna keemasan dengan kerak garing dan isi yang lembut.</p>
     </li>
     <li>
-        <h3>Sediakan Sayur-sayuran</h3>
-        <p>Semasa daging sedang dimasak, anda perlu menyediakan sayur-sayuran. Biasanya, tomato, bawang, dan selada digunakan dalam Doner Kebab tradisional. Anda juga boleh menambah acar atau timun untuk memberikan rasa tambahan dan tekstur yang rangup.</p>
-        <p><strong>Petua:</strong> Potong sayur-sayuran secara rata dan nipis supaya ia mudah dimasukkan ke dalam kebab. Sayur-sayuran yang segar dan rangup sangat penting untuk melengkapi rasa daging yang kaya dan lazat.</p>
+        <h3>Menyediakan Sayur-sayuran</h3>
+        <p>Sambil daging dimasak, potong sayur-sayuran. Biasanya, Doner Kebab diisi dengan tomato, bawang, dan salad. Anda juga boleh menggunakan timun dan acar untuk menambah kerenyahan dan rasa.</p>
+        <p><strong>Tip:</strong> Potong sayur-sayuran nipis dan sekata supaya mudah disusun dalam kebab. Sayur segar dan rangup akan melengkapi rasa daging.</p>
     </li>
     <li>
-        <h3>Sediakan Sos</h3>
-        <p>Doner Kebab yang baik tidak lengkap tanpa sos yang tepat. Di Cookingdom, anda akan diberikan pilihan sos seperti sos yogurt, sos bawang putih, dan sos cili pedas.</p>
-        <p><strong>Petua:</strong> Siram sos secara rata ke atas daging dan sayur-sayuran untuk meningkatkan rasa keseluruhan kebab. Pastikan tidak terlalu banyak sos – cukup untuk memberikan kelembutan dan kepedasan tanpa mengatasi rasa yang lain.</p>
+        <h3>Menyediakan Sos</h3>
+        <p>Sos yang tepat adalah bahagian penting Doner Kebab. Di Cookingdom Tahap 30, terdapat pilihan sos seperti yogurt, bawang putih, dan sos cili pedas.</p>
+        <p><strong>Tip:</strong> Ratakan sos secara sekata pada daging dan sayur-sayuran. Jangan terlalu banyak, cukup untuk menambah kelembutan dan sedikit kepedasan yang menonjolkan rasa.</p>
     </li>
     <li>
-        <h3>Assemble Doner Kebab</h3>
-        <p>Apabila semua bahan siap, tiba masanya untuk menyusun Doner Kebab. Mulakan dengan meletakkan daging yang telah dibakar di tengah-tengah pita atau roti rata yang panas.</p>
-        <p><strong>Petua:</strong> Pastikan daging diletakkan secara rata supaya setiap gigitan mengandungi jumlah pengisian yang seimbang.</p>
-        <p>Letakkan sayur-sayuran yang telah dipotong ke atas daging.</p>
-        <p><strong>Petua:</strong> Pastikan sayur-sayuran diletakkan secara rata untuk memastikan setiap gigitan mempunyai tekstur dan rasa yang seimbang.</p>
-        <p>Akhir sekali, siram sos pilihan anda di atasnya, berhati-hati supaya tidak terlalu banyak mengisi kebab yang boleh menyebabkan ia menjadi berantakan.</p>
+        <h3>Mengumpulkan Doner Kebab</h3>
+        <p>Apabila semuanya siap, mulakan mengumpulkan Doner Kebab. Letakkan daging di tengah roti pita atau lavash yang hangat.</p>
+        <p><strong>Tip:</strong> Sebarkan daging secara sekata supaya setiap gigitan mempunyai isi yang seimbang.</p>
+        <p>Tambah sayur-sayuran berlapis di atas daging.</p>
+        <p><strong>Tip:</strong> Sayur juga harus disusun secara sekata supaya tekstur dan rasa seimbang.</p>
+        <p>Akhir sekali, tuangkan sos di atasnya tanpa mengisi kebab sehingga terlalu penuh supaya mudah dimakan.</p>
     </li>
     <li>
-        <h3>Balut dan Hidangkan</h3>
-        <p>Untuk melengkapkan Doner Kebab, balut pita atau roti rata dengan ketat di sekeliling pengisian, memastikan semuanya berada di tempatnya.</p>
-        <p><strong>Petua:</strong> Jika pita atau roti rata terlalu besar, anda boleh melipat tepinya untuk memastikan pengisian terjaga. Pastikan ia dibalut dengan ketat supaya kebab tidak terburai ketika dihidangkan.</p>
-        <p><strong>Petua:</strong> Di Cookingdom, anda boleh memotong kebab kepada dua bahagian untuk memudahkan pelanggan memegangnya, bergantung pada keinginan mereka.</p>
+        <h3>Membalut dan Menghidang</h3>
+        <p>Balut roti pita atau lavash dengan kemas supaya semua isi kekal bersama.</p>
+        <p><strong>Tip:</strong> Jika pita terlalu besar, lipat bahagian tepi supaya inti tidak terkeluar. Pembalutan harus ketat supaya kebab tidak mudah terbuka ketika dihidang.</p>
+        <p><strong>Tip:</strong> Di Cookingdom Tahap 30, anda boleh memotong kebab menjadi dua bahagian untuk kemudahan pelanggan jika dikehendaki.</p>
     </li>
 </ol>
 
-<h2 id="tips">Petua Profesional untuk Kejayaan di Level 30</h2>
+<h2 id="tips">Petua Berguna untuk Berjaya dalam Tahap 30</h2>
 <ul>
     <li>
-        <h3>Grill Daging dengan Sempurna</h3>
-        <p>Daging adalah bintang utama Doner Kebab, jadi grill dengan sempurna sangat penting. Pastikan anda mengawasi masa memasak dan pastikan ia rangup di luar tetapi masih lembut di dalam. Cookingdom memberi ganjaran untuk mendapatkan keseimbangan ini dengan sempurna.</p>
+        <h3>Masak daging dengan sempurna</h3>
+        <p>Daging adalah bintang utama hidangan, jadi penting untuk memasaknya dengan betul: garing di luar dan juicy di dalam. Anda akan mendapat markah tambahan untuk ini di Cookingdom Tahap 30.</p>
     </li>
     <li>
-        <h3>Gunakan Sayur-sayuran Segar dan Rangup</h3>
-        <p>Sayur-sayuran harus menambah kelepasan dan kesegaran pada kebab, jadi potong nipis dan hanya gunakan bahan yang segar. Selada, bawang, dan tomato yang segar akan memberikan tekstur dan rasa terbaik.</p>
+        <h3>Gunakan sayur-sayuran segar dan rangup</h3>
+        <p>Sayur-sayuran harus menambah kesegaran dan tekstur. Potong nipis dan gunakan hanya bahan segar.</p>
     </li>
     <li>
-        <h3>Seimbangkan Sos</h3>
-        <p>Jangan gunakan terlalu banyak sos, kerana ia boleh menenggelamkan rasa yang lain. Salutan ringan sos bawang putih dan sedikit sos cili pedas akan memberikan keseimbangan sempurna antara kelembutan dan kepedasan.</p>
+        <h3>Seimbangkan penggunaan sos</h3>
+        <p>Jangan gunakan sos terlalu banyak — lapisan tipis sos bawang putih dan cili pedas cukup untuk memperkuat rasa.</p>
     </li>
     <li>
-        <h3>Balut dengan Baik</h3>
-        <p>Cara anda membalut Doner Kebab sangat penting! Pastikan pita atau roti rata dibalut dengan ketat di sekeliling pengisian untuk memastikan semuanya berada di tempatnya. Jika pembalut tidak cukup ketat, pengisian mungkin terburai apabila pelanggan cuba memakannya.</p>
+        <h3>Balut kebab dengan kemas</h3>
+        <p>Kemas dan kemas dalam pembalutan supaya mudah dimakan dan tidak mudah terbuka.</p>
     </li>
     <li>
-        <h3>Pantau Masa Memasak</h3>
-        <p>Di Cookingdom, masa memasak untuk daging dan pembakaran perlu dipantau dengan teliti. Daging yang terlalu dimasak boleh menjadi kering, manakala daging yang kurang dimasak boleh menyebabkan tekstur yang kenyal dan tidak sedap.</p>
+        <h3>Perhatikan masa memasak</h3>
+        <p>Dalam Cookingdom Tahap 30, kawal masa memasak daging dan sayur-sayuran agar tidak terlebih atau kurang masak.</p>
     </li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Level 30, untuk membuat Doner Kebab yangsempurna, anda perlu fokus pada beberapa elemen utama: memasak daging dengan sempurna, menyediakan topping segar, memilih sos yang tepat, dan membalut kebab dengan ketat. Ikut panduan ini dan gunakan petua profesional untuk meningkatkan kemahiran anda dan memastikan pelanggan gembira dengan hidangan anda!</p>`,
+<p>Di Cookingdom Tahap 30, penyediaan Doner Kebab yang sempurna melibatkan memasak daging dengan kerak keemasan, menyediakan sayur-sayuran segar, dan menggunakan sos dengan betul untuk menghasilkan hidangan yang kaya dan seimbang. Ikuti panduan ini dan beri perhatian kepada perincian untuk menghasilkan kebab yang lazat dan seimbang yang pasti disukai pelanggan anda.</p>
+<p>Ingat bahawa tahap 30 menekankan keseimbangan tekstur, rasa, dan penyediaan. Asah kemahiran memanggang, sapuan sos dan pembalutan anda untuk menjadi pakar Doner Kebab!</p>
+`,
   },
+
   {
-    // Add entry for Level 31
     id: 'cookingdom-game-level-31',
-    title: 'Cookingdom Level 31:<br>Café Mocha',
-    pageTitle: 'Cookingdom Level 31 - Panduan Café Mocha',
-    pageSubtitle: 'Pelajari cara menyediakan Café Mocha yang sempurna di Level 31 Cookingdom.',
-    category: '31-40',
-    publishDate: '2025-05-06', // Permulaan kategori baru
-    isSpecial: false,
-    imageUrl: '/images/guides_31.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
-    iframeUrl: 'https://www.youtube.com/embed/iq0t6XrkgF0', // Placeholder
-    seo: {
-      title: 'Panduan Level 31 Cookingdom: Café Mocha | Tips & Strategi',
-      description:
-        'Kuasa untuk menyediakan Café Mocha di Level 31 Cookingdom. Dapatkan tips tentang membuat espresso, menyediakan coklat, mengukus susu, dan merangkai minuman kopi klasik ini.',
-      keywords:
-        'Cookingdom, Level 31, Café Mocha, Mocha, Kopi, Espresso, Coklat, Minuman, Panduan, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_31.webp', // Placeholder
-      levelInfoHtml:
-        '<h3>Café Mocha</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>', // Estimate
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-28',
-          title: 'Cookingdom Level 28<br>Croissant',
-          imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
-        },
-        {
-          id: 'cookingdom-game-level-29',
-          title: 'Cookingdom Level 29<br>Matcha Boba Tea',
-          imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
-        },
-        {
-          id: 'cookingdom-game-level-30',
-          title: 'Cookingdom Level 30<br>Doner Kebab',
-          imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Umum Permainan</h2>
-<p>Di Level 31 Cookingdom, anda akan menyediakan Café Mocha yang enak dan menghangatkan hati, minuman kopi kegemaran yang menggabungkan rasa espresso yang kaya, kelembutan susu kukus, dan kepuasan coklat. Cabaran pada tahap ini adalah untuk mencapai keseimbangan antara rasa pahit espresso dan manisnya coklat, memastikan pelanggan anda menikmati pengalaman yang berkrim dan penuh rasa.</p>
-<p>Panduan ini akan membawa anda melalui setiap langkah dalam membuat Café Mocha yang sempurna, dari membuat espresso hingga mengukus susu dan merangkai minuman dengan lapisan coklat yang lazat.</p>
-
-<h2 id="goal">Objektif Level 31</h2>
-<ul>
-    <li>Masak espresso dengan sempurna.</li>
-    <li>Sediakan sirap coklat atau serbuk coklat.</li>
-    <li>Steam susu untuk tekstur yang berkrim.</li>
-    <li>Gabungkan bahan-bahan untuk membuat Café Mocha yang sempurna.</li>
-    <li>Hidangkan Café Mocha kepada pelanggan.</li>
-</ul>
-
-<h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Café Mocha</h2>
-<ol>
-    <li>
-        <h3>Masak Espresso</h3>
-        <p>Langkah pertama dalam membuat Café Mocha adalah memasak espresso yang sempurna. Di Cookingdom, anda perlu menggunakan mesin kopi atau pembuat espresso untuk menyediakan espresso yang kuat.</p>
-        <p><strong>Petua:</strong> Pastikan espresso dimasak dengan konsistensi yang dalam dan kaya. Satu shot espresso harus kuat dan tidak terlalu cair. Di Cookingdom, penting untuk memantau proses pembuatan espresso dengan teliti untuk mengelakkan terlalu banyak atau kurang ekstraksi.</p>
-        <p><strong>Petua:</strong> Jika anda mahukan rasa yang lebih kuat, anda boleh menambah satu lagi shot espresso, tetapi pastikan espresso tidak mengatasi coklat.</p>
-    </li>
-    <li>
-        <h3>Sediakan Sirap Coklat</h3>
-        <p>Sementara espresso sedang dimasak, sekarang adalah masa untuk menyediakan sirap coklat atau serbuk coklat untuk asas mocha.</p>
-        <p><strong>Petua:</strong> Di Cookingdom, anda akan diberikan pilihan untuk sirap coklat, serbuk, atau bahkan koko. Kacau sirap atau serbuk ke dalam espresso panas untuk memastikan ia larut sepenuhnya dan lancar.</p>
-        <p><strong>Petua:</strong> Sesuaikan jumlah coklat mengikut keutamaan pelanggan anda. Terlalu sedikit coklat akan menghasilkan mocha yang hambar, manakala terlalu banyak akan mengatasi rasa yang lain.</p>
-    </li>
-    <li>
-        <h3>Steam Susu</h3>
-        <p>Sekarang, sediakan susu kukus. Di Cookingdom, anda akan menggunakan pemanas susu atau pemukul untuk memanaskan susu sehingga ia menjadi krim dan lancar.</p>
-        <p><strong>Petua:</strong> Pastikan susu dikukus pada suhu yang betul—sekitar 150°F (65°C). Susu harus panas tetapi tidak terbakar. Susu kukus harus krim, bukan berbuih, untuk Café Mocha.</p>
-        <p><strong>Petua:</strong> Anda boleh memilih antara susu penuh atau susu bukan tenusu seperti susu badam atau oat, bergantung pada keutamaan pelanggan anda.</p>
-    </li>
-    <li>
-        <h3>Gabungkan Bahan-bahan</h3>
-        <p>Setelah semua bahan sedia, masa untuk menggabungkan Café Mocha.</p>
-        <p>Tuangkan espresso ke dalam cawan, diikuti dengan sirap coklat atau serbuk yang disediakan. Kacau dengan baik sehingga coklat larut sepenuhnya dalam espresso.</p>
-        <p><strong>Petua:</strong> Kacau espresso dan coklat dengan teliti untuk memastikan rasa yang sekata.</p>
-        <p>Kemudian, tuangkan susu kukus ke atas campuran espresso-coklat. Tuangkan dengan perlahan untuk menghasilkan campuran kopi dan coklat yang lancar.</p>
-        <p><strong>Petua:</strong> Tinggalkan sedikit ruang di bahagian atas cawan untuk memberi ruang bagi krim atau hiasan jika perlu.</p>
-    </li>
-    <li>
-        <h3>Hias dan Hidangkan</h3>
-        <p>Untuk menamatkan Café Mocha, anda boleh menambah swirli krim disebelah atas. Di Cookingdom, anda juga mungkin mempunyai pilihan untuk menaburkan serbuk koko atau serbuk coklat di atasnya untuk menambah rasa dan dekorasi.</p>
-        <p><strong>Petua:</strong> Beberapa serbuk coklat atau serbuk koko boleh memberikan sentuhan yang baik pada minuman, memberikan ledakan rasa tambahan dan daya tarikan visual.</p>
-        <p><strong>Petua:</strong> Hidangkan minuman dengan sirap coklat di atas atau di tepi cawan untuk persembahan yang cantik.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tip Pro untuk Kejayaan Level 31</h2>
-<ul>
-    <li>
-        <h3>Masak Espresso dengan Kuat dan Segar</h3>
-        <p>Espresso adalah jantung bagi Café Mocha, jadi pastikan ia dimasak dengan betul. Espresso perlu kaya dan kuat tetapi tidak terlalu pahit. Di Cookingdom, pembuatan yang berlebihan boleh menghasilkan rasa pahit, jadi berhati-hatilah dengan masa pembuatan.</p>
-    </li>
-    <li>
-        <h3>Steaming Susu dengan Betul</h3>
-        <p>Susu perlu menjadi lancar dan berkrim, tetapi tidak terlalu berbuih. Di Cookingdom, beri perhatian kepada proses steaming susu untuk mencapai tekstur yang ideal. Susu kukus menambah kekayaan pada minuman.</p>
-    </li>
-    <li>
-        <h3>Seimbangkan Coklat dan Kopi</h3>
-        <p>Kunci kepada Café Mocha yang hebat adalah mencari keseimbangan yang betul antara kepahitan espresso dan manisnya coklat. Sesuaikan jumlah coklat mengikut citarasa anda, tetapi jangan biarkan ia mengalahkan espresso.</p>
-    </li>
-    <li>
-        <h3>Hias dengan Kreatif</h3>
-        <p>Café Mocha yang dihias dengan baik bukan sahaja enak tetapi juga menarik. Tambah swirli krim, serbuk koko, atau serbuk coklat untuk sentuhan mewah.</p>
-    </li>
-    <li>
-        <h3>Hidangkan Segera</h3>
-        <p>Café Mocha adalah terbaik apabila dihidangkan panas dan segar. Setelah digabungkan, hidangkan kepada pelanggan anda segera sementara ia masih hangat dan berkrim.</p>
-    </li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Level 31, membuat Café Mocha yang sempurna melibatkan perhatian teliti pada setiap langkah—dari membuat espresso yang kaya hingga mengukus susu dengan sempurna dan menyeimbangkan rasa coklat. Kunci kejayaan adalah memastikan espresso kuat, susu berkrim, dan coklat memberikan jumlah kemanisan yang betul. Minuman yang dihias dengan baik pasti akan menggembirakan pelanggan anda dan memastikan mereka datang kembali.</p>
-<p>Dengan mengikuti panduan Cookingdom ini, anda akan dapat membuat Café Mocha yang lazat dan memanjakan yang akan memukau semua orang dan membawa anda lebih dekat kepada
-kejayaan.</p>
-`,
-  },
-  {
-    // Add entry for Level 32
-    id: 'cookingdom-game-level-32',
-    title: 'Cookingdom Level 32:<br>Hamburger',
-    pageTitle: 'Cookingdom Level 32 - Panduan Hamburger',
-    pageSubtitle: 'Pelajari cara menyediakan Hamburger klasik di Level 32 Cookingdom.',
-    category: '31-40',
-    publishDate: '2025-05-06',
-    isSpecial: false,
-    imageUrl: '/images/guides_32.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
-    iframeUrl: 'https://www.youtube.com/embed/VViL7ptIJUA', // Placeholder
-    seo: {
-      title: 'Cookingdom Level 32 Panduan: Hamburger | Petua & Strategi',
-      description:
-        'Kuasa Hamburger di Level 32 Cookingdom. Dapatkan petua tentang memasak patty, menyediakan topping, memanggang roti, dan menyusun hidangan ikonik ini.',
-      keywords:
-        'Cookingdom, Level 32, Hamburger, Burger, Beef Patty, Grill, Topping, Roti, Panduan, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_32.webp', // Placeholder
-      levelInfoHtml:
-        '<h3>Hamburger</h3><p><strong>Kepayahan:</strong> Sederhana</p><p><strong>Masa Anggaran:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>', // Estimate
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-29',
-          title: 'Cookingdom Level 29<br>Matcha Boba Tea',
-          imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
-        },
-        {
-          id: 'cookingdom-game-level-30',
-          title: 'Cookingdom Level 30<br>Doner Kebab',
-          imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-        },
-        {
-          id: 'cookingdom-game-level-31',
-          title: 'Cookingdom Level 31<br>Café Mocha',
-          imageUrl: '/images/guides_31.webp3', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
-        },
-      ],
-    },
-    detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Di Cookingdom Level 32, tugas anda adalah menyediakan Hamburger klasik yang lazat! Hidangan ikonik ini terdiri daripada beef patty yang berjus, sayur-sayuran segar, dan sos yang penuh rasa, semuanya diapit di antara dua roti lembut. Cabaran dalam level ini adalah untuk memasak patty dengan sempurna, menyusun burger dengan bahan yang tepat, dan memastikan ia tidak hanya menarik dari segi visual tetapi juga enak.</p>
-<p>Panduan ini akan membawa anda melalui langkah-langkah untuk mencipta Hamburger yang sempurna, dari memasak patty hingga menyusun dan menyajikannya.</p>
-
-<h2 id="goal">Objektif Level 32</h2>
-<ul>
-    <li>Masak beef patty dengan sempurna.</li>
-    <li>Siapkan topping (salad, tomato, bawang, keju, dll.).</li>
-    <li>Roti bakar untuk rasa dan tekstur tambahan.</li>
-    <li>Susun Hamburger dengan keseimbangan bahan yang betul.</li>
-    <li>Sajikan Hamburger kepada pelanggan anda.</li>
-</ul>
-
-<h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Hamburger</h2>
-<ol>
-    <li>
-        <h3>Masak Beef Patty</h3>
-        <p>Langkah pertama dalam membuat Hamburger yang hebat adalah memasak beef patty. Di Cookingdom, anda perlu memantau patty semasa memasaknya untuk memastikan ia dimasak dengan sempurna.</p>
-        <p><strong>Petua:</strong> Masak patty dengan api sederhana, terbalikkan pada masa yang tepat untuk memastikan ia masak keemasan dan sekata. Patty yang dimasak dengan baik harus mempunyai lapisan luar yang rangup dan kekal berjus di dalam.</p>
-        <p><strong>Petua:</strong> Untuk burger sederhana, masak patty selama kira-kira 4-5 minit setiap sisi, tetapi ini boleh berbeza bergantung pada ketebalan patty dan tahap kematangan yang diinginkan.</p>
-    </li>
-    <li>
-        <h3>Siapkan Topping</h3>
-        <p>Sementara patty dimasak, anda boleh menyiapkan topping untuk burger.</p>
-        <ul>
-            <li><strong>Salad:</strong> Gunakan daun salad yang segar dan rangup. Salad Romaine atau iceberg adalah pilihan terbaik untuk mendapatkan kerangupan yang baik.</li>
-            <li><strong>Tomato:</strong> Potong tomato menjadi bulatan yang tebal.</li>
-            <li><strong>Bawang:</strong> Potong bawang dengan nipis. Anda boleh memilih bawang merah untuk rasa manis atau bawang kuning untuk rasa yang lebih savory.</li>
-            <li><strong>Keju:</strong> Di Cookingdom, anda mempunyai pilihan untuk memilih dari beberapa jenis keju seperti cheddar, American, atau Swiss. Pilih keju yang meleleh dengan baik di atas patty.</li>
-        </ul>
-    </li>
-    <li>
-        <h3>Roti Bakar</h3>
-        <p>Untuk meningkatkan rasa dan tekstur, bakar roti burger. Di Cookingdom, anda akan diberi pilihan untuk memanggang sedikit roti atas dan bawah.</p>
-        <p><strong>Petua:</strong> Memanggang roti menambahkan tekstur rangup dan menghalangnya daripada menjadi lembik apabila topping ditambah. Membantu roti sedikit dengan mentega sebelum memanggang akan menambah rasa tambahan.</p>
-    </li>
-    <li>
-        <h3>Susun Hamburger</h3>
-        <p>Setelah patty dimasak, roti telah dipanggang, dan topping sudah siap, kini tiba masanya untuk menyusun Hamburger anda.</p>
-        <p>Mulakan dengan roti bawah dan letakkan patty yang dimasak di tengahnya.</p>
-        <p>Letakkan sepotong keju di atas patty sementara ia masih panas agar keju meleleh dengan sempurna.</p>
-        <p>Lapiskan salad, tomato, dan bawang di atas patty.</p>
-        <p><strong>Petua:</strong> Pastikan bahan-bahan diagihkan secara sekata, supaya setiap gigitan mempunyai kombinasi rasa dan tekstur yang seimbang.</p>
-        <p>Letakkan roti atas ke atas bahan yang telah disusun.</p>
-    </li>
-    <li>
-        <h3>Sajikan Hamburger</h3>
-        <p>Langkah terakhir adalah menyajikan Hamburger kepada pelanggan anda. Pastikan Hamburger dibungkus dengan kemas atau disajikan di atas pinggan dengan sampingan (seperti kentang goreng atau salad) untuk hidangan yang lengkap.</p>
-        <p><strong>Petua:</strong> Di Cookingdom, anda mungkin mempunyai pilihan untuk menghias burger dengan sedikit acar atau sisi kentang goreng rangup untuk persembahan tambahan.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Petua Pro untuk Kejayaan Level 32</h2>
-<ul>
-    <li>
-        <h3>Masak Beef Patty dengan Sempurna</h3>
-        <p>Beef patty adalah inti dari Hamburger, jadi memasaknya dengan betul adalah penting. Pantau proses memasak dengan teliti untuk mengelakkan patty yang tidak dimasak atau terlalu masak. Patty yang dimasak dengan baik harus berjus dan berperisa, tidak kering.</p>
-    </li>
-    <li>
-        <h3>Pilih Keju yang Betul</h3>
-        <p>Keju adalah komponen penting dalam Hamburger. Cheddar adalah pilihan klasik, tetapi anda boleh bereksperimen dengan jenis keju lain seperti Swiss atau American. Keju harus meleleh dengan baik di atas patty yang panas untuk tekstur yang terbaik.</p>
-    </li>
-    <li>
-        <h3>Gunakan Topping yang Segar dan Rangup</h3>
-        <p>Salad yang segar dan tomato yang masak akan menjadikan Hamburger anda lebih menarik. Gunakan bahan yang paling segar untuk memastikan burger anda tidak hanya menarik tetapi juga enak.</p>
-    </li>
-    <li>
-        <h3>Roti Bakar dengan Sederhana</h3>
-        <p>Roti yang dibakar dengan sedikit akan menambah tekstur rangup dan menghalang roti daripada menjadi lembik kerana jus burger. Berhati-hati jangan memanggangnya terlalu lama kerana ia boleh menjadi terlalu keras.</p>
-    </li>
-    <li>
-        <h3>Susun Burger dengan Rapi</h3>
-        <p>Pastikan topping tersusun dengan rapi untuk mengelakkan burger yang berantakan. Hamburger yang tersusun dengan baik akan lebih mudah dinikmati oleh pelanggan dan kelihatan lebih menarik.</p>
-    </li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Level 32, mencipta Hamburger yang sempurna melibatkan keseimbangan rasa dan tekstur—dari memasak beef patty, memanggang roti, hingga melapisi topping. Kunci kejayaan terletak pada butir-butir kecil: memasak patty dengan sempurna, memilih topping yang segar dan rangup, serta memanggang roti dengan sempurna.</p>
-<p>Dengan mengikuti panduan ini, anda akan dapat menyediakan Hamburger yang lazat dan seimbang yang pasti akan disukai oleh pelanggan anda, dan membawa anda lebih dekat ke penguasaan seni membuat burger di Cookingdom!</p>
-`,
-  },
-  {
-    // Add entry for Level 33
-    id: 'cookingdom-game-level-33',
-    title: 'Cookingdom Level 33:<br>Alaskan Steamed Lobster',
-    pageTitle: 'Cookingdom Level 33 - Panduan Alaskan Steamed Lobster',
+    title: 'Panduan Cookingdom Level 31: Café Mocha',
+    pageTitle: 'Panduan Cookingdom Level 31: Café Mocha',
     pageSubtitle:
-      'Pelajari cara menyediakan Alaskan Steamed Lobster yang mewah di Level 33 Cookingdom.',
+      'Belajar cara menyediakan Café Mocha yang sempurna pada level 31 dalam Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
-    imageUrl: '/images/guides_33.webp', // Placeholder
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
-    iframeUrl: 'https://www.youtube.com/embed/2wdfF1Rzb0M', // Placeholder
+    imageUrl: '/images/guides_31.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
+    iframeUrl: 'https://www.youtube.com/embed/vsRaRZkRCsw',
     seo: {
-      title: 'Cookingdom Level 33 Panduan: Alaskan Steamed Lobster | Tip & Strategi',
+      title: 'Cookingdom Level 31: Café Mocha | Cookingdom.co',
       description:
-        'Kuasa Alaskan Steamed Lobster di Level 33 Cookingdom. Dapatkan tip tentang penyediaan, pengukusan, pembuatan sos mentega, dan penyajian hidangan laut ini.',
+        'Kuasi penyediaan Café Mocha pada level 31 Cookingdom. Tips untuk espresso, coklat, susu berbuih dan penyediaan minuman kopi klasik ini.',
       keywords:
-        'Cookingdom, Level 33, Alaskan Steamed Lobster, Lobster, Hidangan Laut, Kukus, Sos Mentega, Panduan, Strategi',
+        'Cookingdom Level 31, Cookingdom Café Mocha, Mocha, Kopi, Espresso, Coklat, Minuman, Panduan',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_33.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_31.webp',
       levelInfoHtml:
-        '<h3>Alaskan Steamed Lobster</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimate
+        '<h3>Café Mocha</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-30',
-          title: 'Cookingdom Level 30<br>Doner Kebab',
-          imageUrl: '/images/guides_30.webp', // Placeholder
+          title: 'Panduan Cookingdom Level 30: Doner Kebab',
+          imageUrl: '/images/guides_28.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-        },
-        {
-          id: 'cookingdom-game-level-31',
-          title: 'Cookingdom Level 31<br>Café Mocha',
-          imageUrl: '/images/guides_31.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
         {
           id: 'cookingdom-game-level-32',
-          title: 'Cookingdom Level 32<br>Hamburger',
-          imageUrl: '/images/guides_32.webp', // Placeholder
+          title: 'Panduan Cookingdom Level 32: Burger',
+          imageUrl: '/images/guides_32.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Permainan</h2>
-<p>Di Cookingdom Level 33, anda akan menyediakan hidangan mewah dan menyelerakan: Alaskan Steamed Lobster. Hidangan ini terkenal dengan rasa yang kaya dan daging yang lembut, menjadikannya pilihan popular bagi pencinta makanan laut. Cabaran di level ini adalah mengukus lobster dengan sempurna sambil mengekalkan kelembutannya, menambah rempah yang betul, dan menyajikannya dengan sos mentega yang lazat untuk menonjolkan rasa manis semula jadi daging lobster.</p>
-<p>Panduan ini akan memandu anda melalui setiap langkah dalam menyediakan Alaskan Steamed Lobster, dari penyediaan lobster hingga mengukusnya dan menyajikannya dengan pelengkap yang sempurna.</p>
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Level 31</h2>
+<p>Pada level 31 Cookingdom, anda akan menyediakan minuman Café Mocha yang lazat dan menghangatkan — minuman popular di kafe yang menggabungkan rasa espresso yang pekat, kelembutan susu berbuih dan manis coklat. Matlamat utama pada level ini adalah mencari keseimbangan sempurna antara kepahitan espresso dan kemanisan coklat supaya pelanggan dapat menikmati minuman yang berkrim dan beraroma.</p>
+<p>Panduan ini akan membawa anda melalui setiap langkah penyediaan Café Mocha yang sempurna — dari penyediaan espresso hingga susu berbuih dan penyusunan minuman dengan lapisan coklat yang menggoda.</p>
 
-<h2 id="goal">Objektif Level 33</h2>
+<h2 id="goal">Matlamat Cookingdom Level 31</h2>
 <ul>
-    <li>Persiapkan lobster untuk pengukusan.</li>
-    <li>Kukus lobster dengan sempurna.</li>
-    <li>Sediakan sos mentega untuk melengkapkan lobster.</li>
-    <li>Sajikan Alaskan Steamed Lobster dengan sos mentega.</li>
+    <li>Menyediakan espresso yang sempurna.</li>
+    <li>Menyediakan sirap atau serbuk coklat.</li>
+    <li>Membuihkan susu sehingga tekstur berkrim.</li>
+    <li>Menyusun bahan untuk menghasilkan Café Mocha yang sempurna.</li>
+    <li>Menghidangkan Café Mocha kepada pelanggan.</li>
 </ul>
 
-<h2 id="steps">Panduan Langkah demi Langkah untuk Menguasai Alaskan Steamed Lobster</h2>
+<h2 id="steps">Panduan Langkah demi Langkah Penyediaan Café Mocha di Level 31 Cookingdom</h2>
 <ol>
     <li>
-        <h3>Persiapkan Lobster</h3>
-        <p>Langkah pertama dalam membuat Alaskan Steamed Lobster adalah mempersiapkan lobster dengan betul untuk pengukusan.</p>
-        <p>Di Cookingdom, anda perlu membersihkan lobster dan mengeluarkan bahagian yang perlu dibuang.</p>
-        <p><strong>Tip:</strong> Bilas lobster di bawah air sejuk untuk menghilangkan kotoran atau serpihan, terutamanya pada cakar dan ekor.</p>
-        <p><strong>Tip:</strong> Jika anda bekerja dengan lobster hidup, pastikan untuk memegangnya dengan berhati-hati. Di Cookingdom, anda biasanya akan meletakkan lobster dalam pot besar untuk mengukus.</p>
+        <h3>Penyediaan Espresso</h3>
+        <p>Langkah pertama ialah menyediakan espresso yang sempurna. Pada level 31 Cookingdom, anda perlu menggunakan mesin kopi atau mesin espresso untuk menyediakan espresso yang pekat.</p>
+        <p><strong>Tips:</strong> Pastikan espresso pekat dan kental, bukan cair. Penting untuk tidak terlalu lama atau terlalu singkat masa penyediaan.</p>
+        <p><strong>Tips:</strong> Anda boleh tambah satu shot espresso kedua untuk menambah rasa, tetapi jangan terlebih supaya tidak menenggelamkan coklat.</p>
     </li>
     <li>
-        <h3>Kukus Lobster</h3>
-        <p>Sekarang lobster anda sudah bersih dan siap, tiba masanya untuk mengukusnya. Di Cookingdom, anda perlu meletakkan lobster dalam pot besar bersama air dan mendidihkannya.</p>
-        <p><strong>Tip:</strong> Pastikan ada cukup air dalam pot untuk menghasilkan stim, tetapi jangan terlalu banyak sehingga lobster tenggelam.</p>
-        <p><strong>Tip:</strong> Kukus lobster selama kira-kira 8-10 minit setiap pound. Anda akan tahu lobster sudah siap apabila kulitnya berubah menjadi merah terang dan dagingnya lembut serta keruh.</p>
-        <p><strong>Tip:</strong> Hati-hati agar tidak terlebih kukus lobster kerana ini boleh menyebabkan dagingnya menjadi keras dan kenyal. Pastikan untuk memantau masa dengan teliti.</p>
+        <h3>Penyediaan Sirap Coklat</h3>
+        <p>Sambil espresso disediakan, sediakan sirap atau serbuk coklat untuk asas mocha.</p>
+        <p><strong>Tips:</strong> Pada level 31 Cookingdom, anda boleh pilih antara sirap, serbuk atau koko. Kacau coklat dengan baik dalam espresso panas untuk rasa yang sekata.</p>
+        <p><strong>Tips:</strong> Laraskan jumlah coklat supaya tidak terlalu kurang yang menjadikan minuman tawar atau terlalu banyak yang menenggelamkan rasa kopi.</p>
     </li>
     <li>
-        <h3>Sediakan Sos Mentega</h3>
-        <p>Sementara lobster dikukus, sudah tiba masanya untuk menyediakan sos mentega untuk dihidangkan bersama lobster.</p>
-        <p>Di Cookingdom, anda boleh membuat sos mentega bawang putih yang mudah dengan mencairkan mentega dalam kuali dan menambah bawang putih cincang, jus lemon, dan herba (seperti parsley atau thyme).</p>
-        <p><strong>Tip:</strong> Sesuaikan perasa mengikut selera. Jika anda ingin rasa pedas, anda boleh menambah serpihan cili atau paprika dalam sos mentega.</p>
-        <p><strong>Tip:</strong> Pastikan sos mentega tetap hangat semasa lobster sedang dikukus agar ia dapat dihidangkan dengan segera apabila lobster siap.</p>
+        <h3>Membuihkan Susu</h3>
+        <p>Seterusnya, buihkan susu menggunakan stim atau pemegang buih sehingga teksturnya berkrim.</p>
+        <p><strong>Tips:</strong> Susu harus dipanaskan pada kira-kira 65°C (150°F), jangan terlalu panas supaya tidak terbakar. Untuk Café Mocha, susu harus licin dan berkrim, bukan berbuih banyak.</p>
+        <p><strong>Tips:</strong> Anda boleh guna susu lembu atau alternatif seperti susu badam atau oat bergantung pada pilihan pelanggan.</p>
     </li>
     <li>
-        <h3>Sajikan Lobster</h3>
-        <p>Setelah lobster dikukus dan sos mentega siap, kini tiba masa untuk menyajikannya.</p>
-        <p>Dengan berhati-hati, keluarkan lobster dari pot pengukus dan letakkan di atas pinggan hidang.</p>
-        <p><strong>Tip:</strong> Di Cookingdom, anda mungkin ingin memecahkan kulit lobster agar lebih mudah untuk pelanggan menikmati dagingnya. Anda juga boleh menggunakan pemecah lobster atau garpu kecil untuk membantu dengan ini.</p>
-        <p>Tuangkan sos mentega ke atas lobster atau hidangkan di sisi untuk dicelup.</p>
-        <p><strong>Tip:</strong> Hias hidangan dengan herba segar seperti parsley atau hirisan lemon untuk penampilan yang lebih menarik.</p>
+        <h3>Penyusunan Minuman</h3>
+        <p>Selepas bahan disediakan, susun Café Mocha.</p>
+        <p>Tuangkan espresso ke dalam cawan, tambah sirap atau serbuk coklat dan kacau rata.</p>
+        <p><strong>Tips:</strong> Kacau coklat dan espresso dengan baik untuk rasa yang sekata.</p>
+        <p>Tambah susu berbuih perlahan-lahan untuk menghasilkan peralihan rasa yang lancar.</p>
+        <p><strong>Tips:</strong> Tinggalkan ruang sedikit dalam cawan untuk hiasan seperti krim putar atau taburan.</p>
+    </li>
+    <li>
+        <h3>Hiasan dan Hidangan</h3>
+        <p>Untuk menyempurnakan, tambah krim putar di atas. Pada level 31 Cookingdom, anda juga boleh taburkan serbuk koko atau coklat parut untuk rasa dan hiasan.</p>
+        <p><strong>Tips:</strong> Taburkan coklat parut atau serbuk koko untuk menjadikan minuman lebih menarik dan lazat.</p>
+        <p><strong>Tips:</strong> Hiasi tepi cawan dengan glasir coklat untuk penampilan yang cantik.</p>
     </li>
 </ol>
 
-<h2 id="tips">Tip Pro untuk Kejayaan Level 33</h2>
+<h2 id="tips">Tips Berguna untuk Berjaya di Level 31 Cookingdom</h2>
 <ul>
     <li>
-        <h3>Jangan Terlebih Kukus Lobster</h3>
-        <p>Kukusan yang berlebihan boleh membuatkan daging lobster menjadi keras dan kering. Pastikan untuk memantau proses pengukusan dengan teliti. Masa pengukusan bergantung pada saiz lobster, jadi perhatikan warna dan tekstur kulit lobster untuk mengetahui bila ia siap.</p>
+        <h3>Espresso Segar dan Pekat</h3>
+        <p>Espresso adalah asas Café Mocha, jadi penting untuk memasaknya dengan betul. Minuman harus pekat dan berperisa tetapi tidak pahit. Kawal masa penyediaan untuk elak rasa tidak menyenangkan.</p>
     </li>
     <li>
-        <h3>Buatan Sos Mentega yang Berperisa</h3>
-        <p>Sos mentega yang kaya dengan perasa boleh meningkatkan rasa Alaskan Steamed Lobster. Bawang putih, jus lemon, dan herba segar akan memberikan rasa segar dan penuh perisa. Pastikan untuk mencairkan mentega dengan api kecil untuk mengelakkan bawang putih terbakar.</p>
+        <h3>Teknik Membuih Susu yang Betul</h3>
+        <p>Susu harus licin dan berkrim, bukan terlalu berbuih. Perhatikan proses membuih untuk mencapai tekstur yang sempurna.</p>
     </li>
     <li>
-        <h3>Sajikan Segera untuk Rasa Terbaik</h3>
-        <p>Alaskan Steamed Lobster adalah terbaik disajikan segar dan panas. Setelah lobster siap dikukus dan sos mentega siap, hidangkan segera untuk rasa dan pengalaman terbaik.</p>
+        <h3>Keseimbangan Coklat dan Kopi</h3>
+        <p>Rahsia utama mocha yang enak ialah keseimbangan antara kepahitan kopi dan kemanisan coklat. Laraskan coklat supaya tidak menenggelamkan rasa espresso.</p>
     </li>
     <li>
-        <h3>Hias dengan Kreatif</h3>
-        <p>Penghiasan dengan herba segar seperti parsley atau hirisan lemon boleh menambah sentuhan elegan pada penyajian dan meningkatkan daya tarikan keseluruhan hidangan.</p>
+        <h3>Hiasan Kreatif</h3>
+        <p>Hiasan bukan sahaja menjadikan minuman sedap tetapi juga menarik mata. Tambah krim putar, serbuk koko atau coklat parut.</p>
+    </li>
+    <li>
+        <h3>Sajikan Segera</h3>
+        <p>Café Mocha paling sedap disajikan panas dan segar. Hidangkan segera selepas penyediaan supaya aroma dan rasa terpelihara.</p>
     </li>
 </ul>
 
 <h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Level 33, menyediakan Alaskan Steamed Lobster adalah mengenai menyeimbangkan proses pengukusan, membuat sos mentega yang penuh perasa, dan menyajikannya dengan cantik. Pengukusan lobster yang sempurna dan penyediaan sos mentega yang betul akan menghasilkan hidangan yang lazat, lembut, dan penuh rasa yang akan disukai oleh pelanggan anda.</p>
-<p>Dengan mengikuti panduan Cookingdom ini, anda akan dapat menyediakan Alaskan Steamed Lobster yang sempurna setiap kali. Pastikan untuk memantau masa pengukusan, menyediakan sos mentega yang kaya, dan menyajikannya segar untuk pengalaman makan terbaik.</p>
+<p>Pada level 31 Cookingdom, untuk menyediakan Café Mocha yang sempurna, anda perlu mengikuti setiap langkah dengan teliti — dari menyediakan espresso pekat, membuih susu dengan tepat, hingga mengimbangi rasa coklat. Pastikan espresso kuat, susu licin dan coklat memberikan kemanisan yang menyenangkan. Hiasan yang cantik akan menjadikan minuman lebih menarik.</p>
+<p>Dengan panduan ini, anda boleh menyediakan Café Mocha yang lazat dan memuaskan pelanggan, sekaligus menjadi pakar minuman kopi dalam Cookingdom!</p>
 `,
   },
+
+  {
+    id: 'cookingdom-game-level-32',
+    title: 'Panduan Cookingdom Level 32: Burger',
+    pageTitle: 'Panduan Cookingdom Level 32: Burger',
+    pageSubtitle: 'Belajar cara menyediakan burger klasik di Level 32 Cookingdom.',
+    category: '31-40',
+    publishDate: '2025-05-06',
+    isSpecial: false,
+    imageUrl: '/images/guides_32.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
+    iframeUrl: 'https://www.youtube.com/embed/V_JKX3tFHTE',
+    seo: {
+      title: 'Cookingdom Level 32: Burger | Cookingdom.co',
+      description:
+        'Kuasi cara menyediakan burger pada Level 32 Cookingdom. Tips memasak patty daging, menyediakan bahan, memanggang roti, dan menyusun burger.',
+      keywords:
+        'Cookingdom level 32, Cookingdom burger, burger, patty daging, grill, bahan, roti, panduan',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_32.webp',
+      levelInfoHtml:
+        '<h3>Burger</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Masa:</strong> sekitar 4 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-31',
+          title: 'Panduan Cookingdom Level 31: Café Mocha',
+          imageUrl: '/images/guides_31.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
+        },
+        {
+          id: 'cookingdom-game-level-33',
+          title: 'Panduan Cookingdom Level 33: Lobster Stim Alaska',
+          imageUrl: '/images/guides_33.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Level 32 dalam Cookingdom</h2>
+<p>Di Level 32 Cookingdom, anda akan memasak burger klasik yang lazat! Hidangan ini terdiri daripada patty daging lembu yang juicy, sayur segar, dan sos berperisa, semua disusun di antara dua roti lembut. Tugas utama anda adalah memasak patty dengan sempurna, menyediakan bahan dengan betul, dan menyusun burger supaya menarik dan sedap.</p>
+<p>Panduan ini akan membawa anda langkah demi langkah dalam menyediakan burger yang sempurna — dari memanggang patty hingga menyusun dan menghidang.</p>
+
+<h2 id="goal">Objektif Level 32 dalam Cookingdom</h2>
+<ul>
+    <li>Memasak patty daging lembu dengan sempurna.</li>
+    <li>Menyediakan bahan seperti salad, tomato, bawang, keju dan lain-lain.</li>
+    <li>Memanggang roti untuk rasa dan tekstur tambahan.</li>
+    <li>Menyusun burger dengan bahan yang seimbang.</li>
+    <li>Menghidangkan burger kepada pelanggan.</li>
+</ul>
+
+<h2 id="steps">Panduan Langkah demi Langkah untuk Memasak Burger di Level 32</h2>
+<ol>
+    <li>
+        <h3>Memasak Patty Daging Lembu</h3>
+        <p>Mulakan dengan memasak patty dengan betul. Dalam Level 32 Cookingdom, perhatikan patty semasa memasak untuk hasil yang sempurna.</p>
+        <p><strong>Tip:</strong> Masak patty dengan api sederhana, balikkan pada masa yang sesuai supaya bahagian luar masak sekata dan bahagian dalam juicy.</p>
+        <p><strong>Tip:</strong> Untuk masakan medium, masak selama 4-5 minit setiap sisi, masa bergantung pada ketebalan patty dan tahap kematangan yang diinginkan.</p>
+    </li>
+    <li>
+        <h3>Menyediakan Bahan</h3>
+        <p>Semasa patty dimasak, sediakan bahan segar untuk burger.</p>
+        <ul>
+            <li><strong>Salad:</strong> Gunakan daun salad segar dan rangup seperti romaine atau iceberg.</li>
+            <li><strong>Tomato:</strong> Potong tomato menjadi kepingan tebal.</li>
+            <li><strong>Bawang:</strong> Potong bawang menjadi cincin nipis. Bawang merah memberi rasa manis, bawang kuning rasa lebih kuat.</li>
+            <li><strong>Keju:</strong> Pilih dari beberapa jenis keju seperti cheddar, keju Amerika atau Swiss. Pilih keju yang mudah cair di atas patty panas.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Memanggang Roti</h3>
+        <p>Untuk menambah rasa dan tekstur, panggang sedikit roti. Dalam Level 32 Cookingdom, anda boleh memanggang roti atas dan bawah dengan ringan.</p>
+        <p><strong>Tip:</strong> Memanggang roti menjadikannya sedikit rangup dan mengelakkan roti daripada menjadi lembik akibat bahan-bahan basah. Letak sedikit mentega pada roti sebelum memanggang untuk rasa tambahan.</p>
+    </li>
+    <li>
+        <h3>Menyusun Burger</h3>
+        <p>Apabila patty sudah masak, roti dipanggang, dan bahan sudah sedia, susun burger.</p>
+        <p>Mulakan dengan roti bawah, letakkan patty di tengah.</p>
+        <p>Letakkan kepingan keju di atas patty panas supaya cair.</p>
+        <p>Susun salad, tomato, dan bawang di atasnya.</p>
+        <p><strong>Tip:</strong> Susun bahan secara rata supaya setiap gigitan mempunyai rasa dan tekstur yang seimbang.</p>
+        <p>Tutup dengan roti atas.</p>
+    </li>
+    <li>
+        <h3>Menghidang Burger</h3>
+        <p>Langkah terakhir adalah menghidang burger kepada pelanggan. Pastikan burger dibungkus rapi atau dihidang di atas pinggan dengan garnis seperti kentang goreng atau salad.</p>
+        <p><strong>Tip:</strong> Dalam Level 32 Cookingdom, anda boleh hiaskan hidangan dengan acar kecil atau kentang goreng rangup untuk persembahan yang lebih menarik.</p>
+    </li>
+</ol>
+
+<h2 id="tips">Tips Berguna untuk Berjaya di Level 32</h2>
+<ul>
+    <li>
+        <h3>Memasak Patty dengan Sempurna</h3>
+        <p>Patty adalah inti burger, jadi penting untuk memasaknya dengan betul. Pantau proses memasak supaya patty tidak terlalu masak atau mentah. Patty yang baik harus juicy dan berperisa.</p>
+    </li>
+    <li>
+        <h3>Pemilihan Keju</h3>
+        <p>Keju adalah komponen penting. Cheddar adalah pilihan klasik, tetapi anda juga boleh cuba keju Swiss atau Amerika. Keju harus mudah cair di atas patty panas.</p>
+    </li>
+    <li>
+        <h3>Gunakan Bahan Segar</h3>
+        <p>Salad segar dan tomato masak menjadikan burger lebih sedap dan menarik.</p>
+    </li>
+    <li>
+        <h3>Memanggang Roti Secara Ringan</h3>
+        <p>Ini menambah lapisan tekstur rangup dan mengelakkan roti menjadi lembik. Jangan panggang terlalu lama.</p>
+    </li>
+    <li>
+        <h3>Menyusun Burger dengan Teliti</h3>
+        <p>Susun bahan secara seimbang supaya burger kemas dan mudah dimakan.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Di Level 32 Cookingdom, burger yang sempurna adalah gabungan rasa dan tekstur: dari memasak patty dengan tepat hingga memanggang roti dan menggunakan bahan segar. Perhatian kepada detail sangat penting.</p>
+<p>Dengan panduan ini, anda boleh menyediakan burger yang lazat dan seimbang yang pasti akan memuaskan pelanggan dan meningkatkan kemahiran memasak anda dalam Cookingdom!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-33',
+    title: 'Panduan Memasak Cookingdom Tahap 33: Ketam Stim Alaska',
+    pageTitle: 'Panduan Memasak Cookingdom Tahap 33: Ketam Stim Alaska',
+    pageSubtitle: 'Pelajari cara menyediakan Ketam Stim Alaska yang mewah di Tahap 33 Cookingdom.',
+    category: '31-40',
+    publishDate: '2025-05-06',
+    isSpecial: false,
+    imageUrl: '/images/guides_33.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
+    iframeUrl: 'https://www.youtube.com/embed/BDtqpxQBHEw',
+    seo: {
+      title: 'Panduan Cookingdom Tahap 33: Ketam Stim Alaska | Cookingdom.co',
+      description:
+        'Kuasi cara memasak Ketam Stim Alaska di Tahap 33 Cookingdom. Dapatkan tip memasak, mengukus, menyediakan sos mentega dan menghidangkan hidangan laut yang lazat ini.',
+      keywords:
+        'Cookingdom Tahap 33, Ketam Stim Alaska, Makanan Laut, Sos Mentega, Panduan, Strategi',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_33.webp',
+      levelInfoHtml:
+        '<h3>Ketam Stim Alaska</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-32',
+          title: 'Panduan Memasak Cookingdom Tahap 32: Hamburger',
+          imageUrl: '/images/guides_32.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
+        },
+        {
+          id: 'cookingdom-game-level-34',
+          title: 'Panduan Memasak Cookingdom Tahap 34: Ketam Raja',
+          imageUrl: '/images/guides_34.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Tahap 33 Cookingdom</h2>
+<p>Dalam Tahap 33 Cookingdom, anda akan menyediakan hidangan mewah dan lazat: Ketam Stim Alaska. Hidangan ini terkenal dengan rasa yang kaya dan isi yang lembut, menjadikannya pilihan popular di kalangan pencinta makanan laut. Cabaran utama adalah mengukus ketam dengan sempurna agar isi tetap juicy, menambah perasa yang tepat, dan menghidangkannya dengan sos mentega yang lazat untuk menyerlahkan kemanisan asli isi ketam.</p>
+<p>Panduan Tahap 33 ini akan membantu anda melalui setiap langkah penyediaan Ketam Stim Alaska, dari persiapan hingga mengukus dan menghidangkannya dengan pelengkap yang sempurna.</p>
+
+<h2 id="goal">Objektif Tahap 33 Cookingdom</h2>
+<ul>
+  <li>Sediakan ketam untuk dikukus.</li>
+  <li>Ukur masa mengukus ketam dengan tepat.</li>
+  <li>Sediakan sos mentega untuk melengkapkan ketam.</li>
+  <li>Hidangkan Ketam Stim Alaska bersama sos mentega.</li>
+</ul>
+
+<h2 id="steps">Panduan Langkah demi Langkah Tahap 33 untuk Menguasai Ketam Stim Alaska</h2>
+<ol>
+  <li>
+    <h3>Sediakan Ketam</h3>
+    <p>Langkah pertama adalah menyediakan ketam dengan betul sebelum dikukus.</p>
+    <p>Di Tahap 33 Cookingdom, anda perlu membersihkan ketam dan membuang bahagian yang tidak diperlukan.</p>
+    <p><strong>Tip:</strong> Bilas ketam dengan air sejuk untuk menghilangkan kotoran dan sisa, terutama di bahagian kuku dan ekor.</p>
+    <p><strong>Tip:</strong> Jika anda menggunakan ketam hidup, pastikan mengendalikan dengan berhati-hati. Biasanya ketam akan diletakkan dalam periuk stim atau bakul besar.</p>
+  </li>
+  <li>
+    <h3>Stim Ketam</h3>
+    <p>Setelah ketam bersih dan sedia, masa untuk mengukusnya. Dalam Tahap 33 Cookingdom, anda perlu meletakkan ketam dalam periuk stim besar dengan air dan didihkan.</p>
+    <p><strong>Tip:</strong> Pastikan ada cukup air untuk menghasilkan wap, tetapi ketam tidak tenggelam dalam air.</p>
+    <p><strong>Tip:</strong> Kukus ketam selama 8-10 minit setiap pound berat. Ketam sudah masak apabila cengkerangnya bertukar menjadi merah terang dan isi ketam lembut serta tidak lutsinar.</p>
+    <p><strong>Tip:</strong> Elakkan mengukus terlalu lama kerana isi ketam boleh menjadi keras dan liat. Perhatikan masa dengan teliti.</p>
+  </li>
+  <li>
+    <h3>Sediakan Sos Mentega</h3>
+    <p>Sambil ketam dikukus, sediakan sos mentega untuk hidangan.</p>
+    <p>Di Tahap 33 Cookingdom, anda boleh membuat sos mentega bawang putih mudah dengan mencairkan mentega dalam kuali dan menambah bawang putih cincang, jus lemon, dan herba seperti parsli atau thyme.</p>
+    <p><strong>Tip:</strong> Sesuaikan perisa mengikut citarasa. Jika suka pedas, boleh tambah serpihan cili atau paprika dalam sos mentega.</p>
+    <p><strong>Tip:</strong> Pastikan sos mentega sentiasa panas ketika ketam sedang dikukus supaya boleh dihidang segera.</p>
+  </li>
+  <li>
+    <h3>Hidangkan Ketam</h3>
+    <p>Setelah ketam dikukus dan sos mentega siap, masa untuk hidang.</p>
+    <p>Angkat ketam dari periuk stim dengan berhati-hati dan letakkan di pinggan hidangan.</p>
+    <p><strong>Tip:</strong> Di Tahap 33 Cookingdom, anda boleh pecahkan cengkerang ketam untuk memudahkan pelanggan menikmati isi ketam. Gunakan pemecah ketam atau garfu kecil untuk membantu.</p>
+    <p>Tuang sos mentega ke atas ketam atau hidangkan sos secara berasingan untuk celupan.</p>
+    <p><strong>Tip:</strong> Hiasi hidangan dengan herba segar seperti parsli atau hirisan lemon untuk penampilan yang lebih menarik.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Tip Profesional untuk Berjaya di Tahap 33 Cookingdom</h2>
+<ul>
+  <li>
+    <h3>Jangan Kukus Terlalu Lama</h3>
+    <p>Kukus berlebihan boleh menyebabkan isi ketam keras dan kering. Sentiasa pantau masa mengukus dan perhatikan warna serta tekstur ketam untuk memastikan masak sempurna.</p>
+  </li>
+  <li>
+    <h3>Sediakan Sos Mentega yang Sedap</h3>
+    <p>Sos mentega yang berperisa boleh meningkatkan rasa Ketam Stim Alaska. Bawang putih, jus lemon, dan herba segar memberikan rasa yang segar dan enak. Cairkan mentega dengan api kecil agar bawang putih tidak hangus.</p>
+  </li>
+  <li>
+    <h3>Hidangkan Segera untuk Rasa Terbaik</h3>
+    <p>Ketam Stim Alaska paling sedap dihidang panas dan segar. Setelah siap, hidang segera untuk rasa yang maksimum.</p>
+  </li>
+  <li>
+    <h3>Hias dengan Kreatif</h3>
+    <p>Hias dengan herba segar seperti parsli atau hirisan lemon untuk menambah sentuhan elegan pada hidangan dan meningkatkan daya tarikan visual.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Di Tahap 33 Cookingdom, penyediaan Ketam Stim Alaska melibatkan mengukus ketam dengan tepat, menyediakan sos mentega yang berperisa, dan menghidangkannya dengan menarik. Kukusan ketam yang sempurna bersama sos mentega akan menghasilkan hidangan yang lazat, lembut dan digemari pelanggan.</p>
+<p>Ikuti panduan Tahap 33 ini untuk menghasilkan Ketam Stim Alaska yang sempurna setiap kali. Kawal masa stim, sediakan sos yang kaya, dan hidangkan dengan segera untuk pengalaman makan terbaik.</p>
+`,
+  },
+
   {
     id: 'cookingdom-game-level-34',
-    title: 'Cookingdom Level 34:<br>Ketam Raja',
-    pageTitle: 'Panduan Cookingdom Level 34 - Ketam Raja',
-    pageSubtitle: 'Ketahui cara menyediakan hidangan mewah Ketam Raja dalam Level 34 Cookingdom.',
+    title: 'Cookingdom Tahap 34: Panduan Ketam Diraja',
+    pageTitle: 'Cookingdom Tahap 34: Panduan Ketam Diraja',
+    pageSubtitle: 'Pelajari cara menyediakan ketam diraja yang mewah di Tahap 34 Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_34.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-    iframeUrl: 'https://www.youtube.com/embed/1dlwivzYyZg',
+    iframeUrl: 'https://www.youtube.com/embed/5FLk6Yq4GPo',
     seo: {
-      title: 'Panduan Cookingdom Level 34: Ketam Raja | Tip & Strategi',
+      title: 'Cookingdom Tahap 34: Panduan Ketam Diraja | Tips dan Strategi',
       description:
-        'Pelajari cara menguasai Ketam Raja dalam Level 34 Cookingdom. Ketahui teknik memecah, memasak, membuat sos, dan menyajikan makanan laut mewah ini.',
+        'Kuasi penyediaan ketam diraja di Tahap 34 Cookingdom. Tips membuka cangkerang, memasak, menyediakan sos krim, dan menghidangkan hidangan mewah ini.',
       keywords:
-        'Cookingdom, Level 34, Ketam Raja, Ketam, Makanan Laut, Kukus, Rebus, Sos Mentega, Panduan, Strategi',
+        'Cookingdom tahap 34, ketam diraja, makanan laut, mengukus, sos krim, panduan, strategi',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_34.webp',
       levelInfoHtml:
-        '<h3>Ketam Raja</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
+        '<h3>Ketam Diraja</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-31',
-          title: 'Cookingdom Level 31<br>Café Mocha',
-          imageUrl: '/images/guides_31.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
-        },
-        {
-          id: 'cookingdom-game-level-32',
-          title: 'Cookingdom Level 32<br>Hamburger',
-          imageUrl: '/images/guides_32.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
-        },
-        {
           id: 'cookingdom-game-level-33',
-          title: 'Cookingdom Level 33<br>Lobster Kukus Alaska',
+          title: 'Cookingdom Tahap 33: Panduan Lobster Stim Alaska',
           imageUrl: '/images/guides_33.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
+        },
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Cookingdom Tahap 35: Panduan Spaghetti Sos Krim Cendawan',
+          imageUrl: '/images/guides_35.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Umum Permainan</h2>
-  <p>Dalam Cookingdom Level 34, anda akan menyediakan hidangan mewah dan istimewa: Ketam Raja. Dikenali dengan isi yang lembut dan manis, Ketam Raja merupakan pilihan makanan laut yang memerlukan teknik memasak yang tepat untuk mengekalkan tekstur dan rasa. Cabaran dalam tahap ini bukan sahaja memasak ketam tetapi juga menyediakan sos yang sempurna untuk melengkapkan rasanya.</p>
-  <p>Panduan ini akan membimbing anda langkah demi langkah dalam penyediaan Ketam Raja — dari memecahkan cangkerang hingga menyajikan bersama sos yang lazat.</p>
-  
-  <h2 id="goal">Objektif Level 34</h2>
-  <ul>
-    <li>Pecahkan cangkerang Ketam Raja untuk mengeluarkan isinya.</li>
-    <li>Masak isi Ketam Raja dengan sempurna.</li>
-    <li>Sediakan sos pelengkap untuk ketam.</li>
-    <li>Sajikan Ketam Raja dengan sos dan hiasan.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah Demi Langkah Menyediakan Ketam Raja</h2>
-  <ol>
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 34</h2>
+<p>Dalam Tahap 34 Cookingdom, tugasan anda adalah menyediakan hidangan mewah iaitu ketam diraja. Ketam ini terkenal dengan isi yang lembut dan manis, menjadikannya pilihan makanan laut yang mewah yang memerlukan teknik tepat untuk mendapatkan tekstur dan rasa yang sempurna. Cabaran tahap ini bukan sahaja memasak ketam tetapi juga menyediakan sos yang sesuai untuk melengkapkan rasa halus isi ketam.</p>
+<p>Panduan ini akan membawa anda langkah demi langkah untuk menyediakan ketam diraja di Tahap 34 Cookingdom, dari membuka cangkerang hingga penyediaan sos dan menghidang hidangan.</p>
+
+<h2 id="goal">Matlamat Tahap 34</h2>
+<ul>
+    <li>Membuka cangkerang ketam diraja dengan berhati-hati untuk mendapatkan isi.</li>
+    <li>Memasak isi ketam dengan sempurna.</li>
+    <li>Menyediakan sos yang sesuai untuk ketam.</li>
+    <li>Menghidang ketam bersama sos dan garnis.</li>
+</ul>
+
+<h2 id="steps">Panduan Langkah demi Langkah untuk Menyediakan Ketam Diraja di Tahap 34 Cookingdom</h2>
+<ol>
     <li>
-      <h3>Pecahkan Cangkerang Ketam</h3>
-      <p>Langkah pertama ialah memecahkan cangkerang ketam. Dalam Cookingdom, anda akan menggunakan alat pemecah ketam untuk memecahkan cangkerang yang keras dan mengeluarkan isi ketam yang manis.</p>
-      <p><strong>Petua:</strong> Berhati-hati agar tidak merosakkan isi ketam. Pecahkan pada bahagian strategik.</p>
-      <p><strong>Petua:</strong> Buang bahagian yang tidak boleh dimakan seperti insang dan kaki sebelum memasak.</p>
+        <h3>Membuka Cangkerang Ketam Diraja</h3>
+        <p>Langkah pertama adalah membuka cangkerang ketam diraja. Anda perlu menggunakan penjepit ketam atau alat khas untuk memecahkan cangkerang yang keras dengan berhati-hati supaya isi tidak rosak.</p>
+        <p><strong>Petua:</strong> Pecahkan cangkerang di tempat yang strategik supaya isi tidak hancur.</p>
+        <p><strong>Petua:</strong> Buang bahagian yang tidak boleh dimakan seperti insang dan kaki sebelum memasak.</p>
     </li>
     <li>
-      <h3>Masak Isi Ketam</h3>
-      <p>Setelah isi dikeluarkan, ia perlu dimasak. Dalam Cookingdom, anda akan mengukus atau merebus Ketam Raja.</p>
-      <p><strong>Petua:</strong> Kukus selama 8–10 minit sehingga isi masak sepenuhnya. Jangan terlalu lama kerana ia boleh menjadi keras dan kering.</p>
-      <p><strong>Petua:</strong> Jika merebus, pastikan air direbus dengan garam dan herba atau lemon untuk aroma tambahan.</p>
+        <h3>Memasak Isi Ketam Diraja</h3>
+        <p>Selepas mendapatkan isi, masa untuk memasak. Biasanya ketam diraja dimasak dengan mengukus atau merebus untuk mengekalkan rasa asli.</p>
+        <p><strong>Petua:</strong> Kukus ketam selama 8-10 minit sehingga isi masak sepenuhnya tanpa terlebih masak yang menyebabkan isi menjadi keras.</p>
+        <p><strong>Petua:</strong> Jika merebus, pastikan air dicampur garam dan boleh tambah herba atau limau untuk aroma.</p>
     </li>
     <li>
-      <h3>Sediakan Sos Pelengkap</h3>
-      <p>Sementara ketam dimasak, sediakan sos mentega bawang putih. Ia akan menambah kekayaan rasa kepada isi ketam yang manis.</p>
-      <p>Cairkan mentega dalam kuali, masukkan bawang putih cincang, jus lemon dan pasli cincang untuk rasa segar.</p>
-      <p><strong>Petua:</strong> Tambah sedikit wain putih atau serbuk cili untuk rasa yang lebih berani.</p>
-      <p><strong>Petua:</strong> Rasa dahulu dan laraskan perasa. Sos harus menyerlahkan rasa ketam, bukan menutupinya.</p>
+        <h3>Menyediakan Sos Krim</h3>
+        <p>Sambil ketam dimasak, sediakan sos krim yang kaya dan lazat untuk melengkapkan ketam diraja. Sos krim bawang putih yang mudah sangat sesuai.</p>
+        <p>Lelehkan mentega dalam kuali, tambahkan bawang putih cincang, jus limau, dan daun pasli cincang untuk kesegaran.</p>
+        <p><strong>Petua:</strong> Tambah sedikit wain putih atau cili serbuk untuk rasa lebih menarik.</p>
+        <p><strong>Petua:</strong> Rasa dan sesuaikan perisa sos supaya seimbang dan menonjolkan kemanisan isi ketam.</p>
     </li>
     <li>
-      <h3>Sajikan Ketam Raja</h3>
-      <p>Letakkan isi ketam di atas pinggan dan siramkan dengan sos mentega.</p>
-      <p><strong>Petua:</strong> Hiaskan dengan herba segar seperti pasli atau thyme dan hirisan lemon.</p>
-      <p><strong>Petua:</strong> Sajikan bersama roti rangup atau sayur kukus sebagai pelengkap hidangan.</p>
+        <h3>Menghidang Ketam Diraja</h3>
+        <p>Selepas memasak, hidangkan ketam diraja di pinggan dan siram dengan sos krim yang telah disediakan.</p>
+        <p><strong>Petua:</strong> Hiaskan dengan daun herba segar dan hirisan limau untuk tambahan warna dan kesegaran.</p>
+        <p><strong>Petua:</strong> Hidangkan bersama roti rangup atau sayur kukus untuk hidangan lengkap.</p>
     </li>
-  </ol>
-  
-  <h2 id="tips">Petua Profesional untuk Berjaya di Level 34</h2>
-  <ul>
+</ol>
+
+<h2 id="tips">Tips Penting untuk Berjaya di Tahap 34 Cookingdom</h2>
+<ul>
     <li>
-      <h3>Jangan Terlebih Masak</h3>
-      <p>Isi ketam boleh menjadi keras jika terlebih masak. Pastikan masa memasak antara 8–10 minit sahaja.</p>
-    </li>
-    <li>
-      <h3>Sempurnakan Sos Mentega</h3>
-      <p>Sos adalah kunci utama. Gunakan bahan segar dan seimbangkan rasa untuk meningkatkan kemanisan isi ketam.</p>
+        <h3>Elakkan terlebih masak ketam</h3>
+        <p>Memasak ketam terlalu lama akan menyebabkan isi keras dan kering. Kukus atau rebus selama 8-10 minit adalah masa yang ideal.</p>
     </li>
     <li>
-      <h3>Gunakan Alat yang Sesuai</h3>
-      <p>Gunakan alat pemecah ketam untuk membuka cangkerang dengan berhati-hati tanpa merosakkan isi.</p>
+        <h3>Sos krim yang sempurna</h3>
+        <p>Sos krim adalah kunci untuk hidangan ketam yang lazat. Pastikan sos kaya rasa tetapi tidak terlalu kuat, dengan bahan segar seperti bawang putih, limau, dan herba.</p>
     </li>
     <li>
-      <h3>Sajikan Serta-Merta</h3>
-      <p>Hidangkan ketam ketika masih panas dan segar bersama sos mentega yang hangat.</p>
+        <h3>Gunakan alat yang sesuai untuk membuka cangkerang</h3>
+        <p>Gunakan penjepit atau alat khas untuk membuka cangkerang dengan berhati-hati supaya isi tidak hancur dan hidangan kelihatan kemas.</p>
     </li>
     <li>
-      <h3>Hiaskan untuk Tarikan Visual</h3>
-      <p>Gunakan herba segar, lemon, atau sedikit paprika untuk mencantikkan persembahan dan menambah lapisan rasa.</p>
+        <h3>Hidangkan segera selepas memasak</h3>
+        <p>Ketam dan sos perlu dihidang panas supaya rasa dan tekstur optimum terpelihara.</p>
     </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Cookingdom Level 34 menampilkan cabaran penyediaan Ketam Raja yang memerlukan ketelitian dan teknik. Dengan memasak yang betul, sos yang lazat, dan persembahan yang menarik, anda boleh menghasilkan hidangan mewah yang akan mengagumkan pelanggan anda.</p>
-  <p>Iringi Ketam Raja dengan sos mentega dan hiasan segar untuk pengalaman masakan yang tidak dapat dilupakan. Selamat mencuba!</p>
-  `,
+    <li>
+        <h3>Hiasan untuk penampilan menarik</h3>
+        <p>Hiaskan hidangan dengan herba segar dan hirisan limau untuk membuatkan hidangan kelihatan lebih menarik dan menggoda selera.</p>
+    </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Tahap 34 Cookingdom menuntut ketelitian dalam menyediakan ketam diraja yang mewah. Dari membuka cangkerang yang keras hingga memasak isi dengan sempurna, setiap langkah penting untuk menghasilkan hidangan yang lazat dan memukau. Tambahkan sos krim yang kaya dan hiaskan hidangan untuk penyediaan yang sempurna.</p>
+<p>Ikuti panduan ini untuk menguasai kemahiran memasak ketam diraja di Cookingdom dan buat pelanggan anda terpesona dengan hidangan makanan laut mewah ini. Kawal masa memasak, sediakan sos lazat, dan hias dengan kemas untuk hasil terbaik.</p>
+`,
   },
+
   {
     id: 'cookingdom-game-level-35',
-    title: 'Cookingdom Level 35:<br>Coklat',
-    pageTitle: 'Cookingdom Level 35 - Panduan Coklat',
+    title: 'Cookingdom Tahap 35: Spaghetti Dengan Sos Krim Cendawan - Panduan Lengkap',
+    pageTitle: 'Cookingdom Tahap 35: Spaghetti Dengan Sos Krim Cendawan - Panduan Lengkap',
     pageSubtitle:
-      'Pelajari cara menyediakan pencuci mulut Coklat yang lazat di Level 35 Cookingdom.',
+      'Belajar menyediakan Spaghetti yang kaya dan berkrim dengan Sos Krim Cendawan di Tahap 35 Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_35.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
-    iframeUrl: 'https://www.youtube.com/embed/3-Cfdyxut48',
+    iframeUrl: 'https://www.youtube.com/embed/kykU7FrPi9s',
     seo: {
-      title: 'Panduan Cookingdom Level 35: Coklat | Tip & Strategi',
+      title: 'Cookingdom Tahap 35: Panduan Spaghetti Dengan Sos Krim Cendawan | Cookingdom.co',
       description:
-        'Kuasi pencuci mulut berasaskan coklat dalam Level 35 Cookingdom. Dapatkan petua tentang cara mencairkan coklat, menyediakan mousse atau fondue, dan menghias dengan sempurna.',
+        'Kuasi Spaghetti Dengan Sos Krim Cendawan di Tahap 35 Cookingdom. Pelajari cara terbaik memasak pasta, menumis cendawan, dan membuat sos krim yang lazat.',
       keywords:
-        'Cookingdom, Level 35, Coklat, Pencuci Mulut, Cairkan Coklat, Fondue, Mousse, Kek, Panduan, Strategi',
+        'Cookingdom Tahap 35, spaghetti, sos cendawan, pasta, sos krim, masakan Itali, panduan Cookingdom',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_35.webp',
       levelInfoHtml:
-        '<h3>Coklat</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-32',
-          title: 'Cookingdom Level 32<br>Hamburger',
-          imageUrl: '/images/guides_32.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
-        },
-        {
-          id: 'cookingdom-game-level-33',
-          title: 'Cookingdom Level 33<br>Lobster Kukus Alaska',
-          imageUrl: '/images/guides_33.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
-        },
-        {
-          id: 'cookingdom-game-level-34',
-          title: 'Cookingdom Level 34<br>Ketam Raja',
-          imageUrl: '/images/guides_34.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-        },
-      ],
-    },
-    detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Dalam Cookingdom Level 35, anda akan menyediakan pencuci mulut yang kaya dan memanjakan: Coklat! Sebagai bahan utama dalam pencuci mulut, anda perlu menonjolkan kelembutan dan rasa manis coklat dalam hidangan ini. Sama ada mencairkan coklat untuk fondue atau mencipta kek coklat mewah, ketelitian adalah penting.</p>
-  <p>Panduan ini akan membantu anda dari langkah pertama mencairkan coklat sehingga ke penyediaan akhir pencuci mulut anda.</p>
-  
-  <h2 id="goal">Objektif Level 35</h2>
-  <ul>
-    <li>Cairkan coklat dengan sempurna untuk tekstur yang licin.</li>
-    <li>Masukkan coklat cair ke dalam pencuci mulut pilihan.</li>
-    <li>Hiaskan dan hidangkan hidangan coklat.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah demi Langkah: Panduan Coklat</h2>
-  <ol>
-    <li>
-      <h3>Cairkan Coklat</h3>
-      <p>Langkah pertama adalah mencairkan coklat dengan berhati-hati untuk mengelakkan daripada hangus.</p>
-      <p><strong>Petua:</strong> Gunakan kaedah dandang berganda atau gelombang mikro. Jika menggunakan gelombang mikro, panaskan selama 20–30 saat setiap kali dan kacau di antara sesi.</p>
-      <p><strong>Petua:</strong> Kacau perlahan-lahan untuk mendapatkan hasil yang licin dan berkilat. Tambah sedikit krim atau mentega jika terlalu pekat.</p>
-    </li>
-    <li>
-      <h3>Sediakan Pencuci Mulut</h3>
-      <p>Setelah coklat dicairkan, anda boleh menggunakannya dalam pelbagai resipi seperti kek coklat, mousse atau fondue.</p>
-      <p><strong>Petua:</strong> Untuk mousse, gaul coklat cair ke dalam krim putar untuk tekstur gebu dan ringan.</p>
-      <p><strong>Petua:</strong> Untuk fondue, letakkan coklat cair dalam periuk fondue dan kekalkan kehangatan. Sajikan dengan buah seperti strawberi, pisang dan marshmallow.</p>
-    </li>
-    <li>
-      <h3>Tambah Perisa dan Hiasan</h3>
-      <p>Tambah ekstrak vanila atau secubit garam untuk memperkayakan rasa.</p>
-      <p>Taburan seperti kacang hancur, krim putar atau parutan coklat boleh meningkatkan tekstur dan penampilan.</p>
-      <p><strong>Petua:</strong> Untuk kek coklat, salutkan dengan ganache atau krim coklat untuk sentuhan mewah.</p>
-    </li>
-    <li>
-      <h3>Susun dan Hidang</h3>
-      <p>Setelah siap, susun dengan menarik sebelum dihidangkan.</p>
-      <p>Lapiskan kek dengan krim dan tuang coklat cair di atas.</p>
-      <p>Untuk fondue, sajikan bersama pilihan celupan seperti buah, biskut atau marshmallow.</p>
-      <p><strong>Petua:</strong> Dalam Cookingdom, persembahan adalah penting! Hiaskan dengan beri segar, parutan coklat atau sos karamel.</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Petua Pro untuk Kejayaan Level 35</h2>
-  <ul>
-    <li>
-      <h3>Cairkan Perlahan-lahan</h3>
-      <p>Gunakan api perlahan dan kacau sentiasa. Jangan tergesa-gesa atau coklat akan hangus dan membeku.</p>
-    </li>
-    <li>
-      <h3>Gunakan Coklat Berkualiti</h3>
-      <p>Pilih coklat premium. Gunakan coklat gelap untuk membakar, dan coklat susu atau putih untuk rasa berkrim.</p>
-    </li>
-    <li>
-      <h3>Seimbangkan Rasa Manis</h3>
-      <p>Secubit garam boleh menonjolkan rasa semula jadi coklat dan mengimbangi kemanisan.</p>
-    </li>
-    <li>
-      <h3>Padankan dengan Rasa Sesuai</h3>
-      <p>Coklat sesuai dengan beri, kacang dan rempah seperti kayu manis atau kopi. Cuba gabungan berbeza!</p>
-    </li>
-    <li>
-      <h3>Hidangkan Segar</h3>
-      <p>Hidangan coklat paling sedap apabila segar. Sediakan awal, tetapi susun sebelum dihidang untuk rasa terbaik.</p>
-    </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Level 35 menumpukan pada seni menghasilkan pencuci mulut coklat yang sempurna. Dari mencairkan hingga menghias, setiap langkah penting.</p>
-  <p>Dengan panduan ini, anda akan menguasai seni pencuci mulut coklat — kek, mousse, fondue — dan menawan hati pelanggan anda dengan setiap suapan.</p>
-  `,
-  },
-  {
-    // Tambah entri untuk Level 36
-    id: 'cookingdom-game-level-36',
-    title: 'Cookingdom Level 36:<br>Kari India',
-    pageTitle: 'Cookingdom Level 36 - Panduan Kari India',
-    pageSubtitle: 'Pelajari cara memasak Kari India yang penuh rasa dalam Level 36 Cookingdom.',
-    category: '31-40',
-    publishDate: '2025-05-06',
-    isSpecial: false,
-    imageUrl: '/images/guides_36.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-    iframeUrl: 'https://www.youtube.com/embed/ME58Cd2FYJ4',
-    seo: {
-      title: 'Panduan Cookingdom Level 36: Kari India | Tips & Strategi',
-      description:
-        'Kuasi masakan Kari India dalam Level 36 Cookingdom. Dapatkan tips penyediaan bahan, campuran rempah, merebus, dan cara penyajian hidangan beraroma ini.',
-      keywords:
-        'Cookingdom, Level 36, Kari India, Kari, Makanan India, Rempah, Rebus, Panduan, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_36.webp',
-      levelInfoHtml:
-        '<h3>Kari India</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-33',
-          title: 'Cookingdom Level 33<br>Lobster Kukus Alaska',
-          imageUrl: '/images/guides_33.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
-        },
-        {
-          id: 'cookingdom-game-level-34',
-          title: 'Cookingdom Level 34<br>Ketam Raja',
-          imageUrl: '/images/guides_34.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-        },
-        {
-          id: 'cookingdom-game-level-35',
-          title: 'Cookingdom Level 35<br>Coklat',
-          imageUrl: '/images/guides_35.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
-        },
-      ],
-    },
-    detailsHtml: `
-  <h2 id="overview">Gambaran Permainan</h2>
-  <p>Dalam Cookingdom Level 36, anda akan menyediakan hidangan berperisa dan beraroma: Kari India. Dikenali dengan rasa yang kaya, pedas, dan kompleks, Kari India adalah hidangan kegemaran dalam pelbagai budaya. Cabaran utama di peringkat ini ialah mencipta keseimbangan sempurna antara rempah dan bahan untuk menjadikan kari wangi dan lazat. Penyediaan melibatkan merebus sayur-sayuran dan daging dalam kombinasi rempah, herba, dan krim atau santan, menjadikannya hidangan yang menyelerakan dan mengenyangkan.</p>
-  <p>Panduan ini akan membawa anda melalui setiap langkah untuk menyediakan Kari India yang lazat dan beraroma, daripada penyediaan rempah hingga menyajikannya dengan pelengkap yang sempurna.</p>
-  
-  <h2 id="goal">Objektif Level 36</h2>
-  <ul>
-      <li>Sediakan bahan-bahan untuk kari.</li>
-      <li>Masak kari dengan campuran rempah yang sempurna.</li>
-      <li>Rebus kari agar perisa menyerap sepenuhnya.</li>
-      <li>Sajikan Kari India bersama nasi atau roti.</li>
-  </ul>
-  
-  <h2 id="steps">Panduan Langkah demi Langkah untuk Kuasai Kari India</h2>
-  <ol>
-      <li>
-          <h3>Sediakan Bahan-bahan</h3>
-          <p>Langkah pertama untuk mencipta Kari India yang hebat ialah mengumpul dan menyediakan bahan-bahan anda. Antara bahan biasa ialah:</p>
-          <ul>
-              <li>Ayam, kambing, atau sayur-sayuran (bergantung pada jenis kari yang anda sediakan).</li>
-              <li>Bawang, bawang putih, dan halia sebagai asas.</li>
-              <li>Pelbagai rempah seperti jintan, kunyit, ketumbar, garam masala, dan serbuk cili.</li>
-              <li>Santan, tomato, atau krim untuk asas kuah.</li>
-          </ul>
-          <p><strong>Petua:</strong> Dalam Cookingdom, anda perlu memotong dan menyediakan bahan lebih awal untuk proses memasak yang lancar dan efisien.</p>
-      </li>
-      <li>
-          <h3>Tumis Bahan Beraroma</h3>
-          <p>Panaskan minyak dalam periuk besar. Tambah bawang cincang, bawang putih, dan halia untuk membentuk asas aromatik kari.</p>
-          <p><strong>Petua:</strong> Tumis sehingga keperangan dan berbau wangi. Ini akan membina asas rasa yang kaya untuk kari anda.</p>
-          <p><strong>Petua:</strong> Kacau selalu untuk mengelakkan bahan dari hangus.</p>
-      </li>
-      <li>
-          <h3>Masukkan Rempah</h3>
-          <p>Apabila bawang, bawang putih, dan halia sudah cukup ditumis, masukkan rempah.</p>
-          <p>Tambah jintan, kunyit, ketumbar, garam masala, dan serbuk cili. Biarkan ia masak selama satu atau dua minit untuk mengeluarkan minyak semula jadi dan memperdalam rasa.</p>
-          <p><strong>Petua:</strong> Hati-hati dengan serbuk cili jika anda tidak tahan pedas. Laraskan mengikut citarasa anda.</p>
-      </li>
-      <li>
-          <h3>Masukkan Daging atau Sayuran</h3>
-          <p>Selepas rempah digoreng, masukkan pilihan anda seperti ayam, kambing atau sayuran ke dalam kuali. Gaul agar semuanya bersalut dengan rempah.</p>
-          <p><strong>Petua:</strong> Masak daging hingga keperangan. Untuk sayuran, pastikan ia lembut sedikit sebelum menambah kuah.</p>
-      </li>
-      <li>
-          <h3>Masukkan Asas Kuah</h3>
-          <p>Kini tiba masa untuk mencipta kuah kari. Tambah tomato atau santan, bergantung pada jenis kari yang anda sediakan.</p>
-          <p><strong>Petua:</strong> Jika mahukan kari yang berkrim, santan atau krim berat akan memberikan tekstur halus dan berkrim.</p>
-          <p>Kacau hingga semuanya sebati. Tambah sedikit air atau stok jika kuah terlalu pekat.</p>
-      </li>
-      <li>
-          <h3>Rebus Kari</h3>
-          <p>Didihkan kari dan biarkan ia mereneh selama 15–20 minit. Ini membolehkan perisa bercampur dan bahan menjadi lembut.</p>
-          <p><strong>Petua:</strong> Dalam Cookingdom, rasa kari separuh jalan dan sesuaikan perisa jika perlu. Tambah garam, lada atau rempah lain mengikut citarasa.</p>
-          <p><strong>Petua:</strong> Jika mahu kari lebih pekat, teruskan merebus lebih lama atau naikkan suhu sedikit untuk mengurangkan kuah.</p>
-      </li>
-      <li>
-          <h3>Sajikan Kari India</h3>
-          <p>Apabila kari anda sudah siap dan cukup berperisa, masa untuk menyajikannya!</p>
-          <p>Dalam Cookingdom, padankan kari dengan nasi kukus, roti naan, atau roti capati untuk hidangan lengkap.</p>
-          <p><strong>Petua:</strong> Hiaskan dengan daun ketumbar segar atau perahan limau nipis untuk menambah kesegaran.</p>
-          <p><strong>Petua:</strong> Sajikan bersama yogurt atau raita untuk menyeimbangkan kepedasan.</p>
-      </li>
-  </ol>
-  
-  <h2 id="tips">Petua Profesional untuk Kejayaan Level 36</h2>
-  <ul>
-      <li>
-          <h3>Sempurnakan Campuran Rempah</h3>
-          <p>Keseimbangan rempah sangat penting. Gunakan campuran garam masala sedia ada sebagai asas, kemudian laraskan dengan rempah individu seperti jintan dan kunyit.</p>
-      </li>
-      <li>
-          <h3>Rebus untuk Rasa Lebih Kaya</h3>
-          <p>Proses merebus membantu menyatukan semua perisa. Jangan tergesa-gesa – kesabaran adalah kunci rasa yang mendalam.</p>
-      </li>
-      <li>
-          <h3>Laraskan Tahap Pedas</h3>
-          <p>Sesuaikan jumlah serbuk cili mengikut tahap kepedasan yang anda inginkan. Tambah lebih banyak atau masukkan cili segar untuk kari yang lebih pedas.</p>
-      </li>
-      <li>
-          <h3>Gunakan Bahan Segar</h3>
-          <p>Halia dan bawang putih segar memberikan rasa lebih mantap. Sayur dan daging segar juga meningkatkan tekstur dan rasa keseluruhan.</p>
-      </li>
-      <li>
-          <h3>Hiaskan untuk Tarikan Visual</h3>
-          <p>Taburan daun ketumbar, sedikit garam masala, dan perahan limau boleh menyerlahkan rupa serta rasa hidangan anda.</p>
-      </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Cookingdom Level 36, menyediakan Kari India memerlukan keseimbangan rempah, kuah yang lazat, dan masa memasak yang cukup. Sama ada anda menggunakan ayam, kambing, atau sayur, kunci utama adalah gabungan rempah yang sempurna, masa merebus yang betul, dan padanan nasi atau roti yang sesuai.</p>
-  <p>Ikuti panduan ini untuk menghasilkan Kari India yang beraroma dan memikat pelanggan anda di Cookingdom!</p>
-  `,
-  },
-  {
-    id: 'cookingdom-game-level-37',
-    title: 'Cookingdom Level 37:<br>Nasi Kimchi',
-    pageTitle: 'Cookingdom Level 37 - Panduan Nasi Kimchi',
-    pageSubtitle: 'Belajar menyediakan Nasi Kimchi yang penuh rasa dalam Level 37 Cookingdom.',
-    category: '31-40',
-    publishDate: '2025-05-06',
-    isSpecial: false,
-    imageUrl: '/images/guides_37.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
-    iframeUrl: 'https://www.youtube.com/embed/tFEyZT_-jTM',
-    seo: {
-      title: 'Panduan Cookingdom Level 37: Nasi Kimchi | Tip & Strategi',
-      description:
-        'Kuasi hidangan Nasi Kimchi dalam Level 37 Cookingdom. Dapatkan petua tentang penyediaan nasi, menumis kimchi, menambah telur goreng, dan cara menghidang hidangan Korea ini.',
-      keywords:
-        'Cookingdom, Level 37, Nasi Kimchi, Kimchi, Makanan Korea, Tumis, Telur Goreng, Gochujang, Panduan, Strategi',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_37.webp',
-      levelInfoHtml:
-        '<h3>Nasi Kimchi</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
+        '<h3>Spaghetti Dengan Sos Krim Cendawan</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 6 minit</p><p><strong>Ganjaran:</strong> 4 Bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-34',
-          title: 'Cookingdom Level 34<br>Ketam Raja',
+          title: 'Cookingdom Tahap 34: Ketam Raja - Panduan',
           imageUrl: '/images/guides_34.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-        },
-        {
-          id: 'cookingdom-game-level-35',
-          title: 'Cookingdom Level 35<br>Coklat',
-          imageUrl: '/images/guides_35.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
         },
         {
           id: 'cookingdom-game-level-36',
-          title: 'Cookingdom Level 36<br>Kari India',
+          title: 'Cookingdom Tahap 36: Kari India - Panduan',
           imageUrl: '/images/guides_36.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Permainan</h2>
-  <p>Dalam Cookingdom Level 37, anda akan menyediakan hidangan Korea yang lazat dan masam iaitu Nasi Kimchi. Hidangan ini terdiri daripada kimchi yang ditumis bersama nasi, dan sering dihidang dengan sayuran serta telur goreng di atasnya. Cabaran utama adalah untuk menggabungkan kimchi dan nasi dengan sempurna agar rasa pedas, masam dan masinnya seimbang.</p>
-  <p>Panduan ini akan membimbing anda langkah demi langkah untuk menyediakan Nasi Kimchi yang enak dan seimbang rasa.</p>
-  
-  <h2 id="goal">Objektif Level 37</h2>
-  <ul>
-    <li>Sediakan nasi sebagai asas.</li>
-    <li>Tumis kimchi dan bahan lain untuk keseimbangan rasa yang sempurna.</li>
-    <li>Hidang Nasi Kimchi dengan telur goreng dan hiasan.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah demi Langkah: Cara Menyediakan Nasi Kimchi</h2>
-  <ol>
-    <li>
-      <h3>Sediakan Nasi</h3>
-      <p>Mula-mula, masak nasi kukus (nasi putih atau nasi berbiji pendek paling sesuai). Jika ada nasi semalam, itu lebih baik.</p>
-      <p><strong>Petua:</strong> Nasi semalam lebih kering dan tidak melekit, menjadikannya lebih mudah ditumis dan menyerap rasa.</p>
-    </li>
-    <li>
-      <h3>Tumis Kimchi</h3>
-      <p>Potong kimchi menjadi kepingan kecil. Panaskan sedikit minyak dalam kuali dan tumis kimchi selama 2-3 minit untuk menaikkan rasanya.</p>
-      <p><strong>Petua:</strong> Tambah sedikit gochujang (pes cili Korea) atau gochugaru (serbuk cili Korea) jika anda sukakan pedas.</p>
-    </li>
-    <li>
-      <h3>Tumis Nasi</h3>
-      <p>Masukkan nasi ke dalam kuali bersama kimchi dan kacau hingga rata.</p>
-      <p><strong>Petua:</strong> Tumis selama lebih kurang 5 minit untuk memastikan nasi menyerap semua rasa.</p>
-      <p><strong>Petua:</strong> Boleh tambah sedikit kicap atau minyak bijan untuk lapisan rasa tambahan.</p>
-    </li>
-    <li>
-      <h3>Tambah Sayuran (Pilihan)</h3>
-      <p>Anda boleh tambah lobak merah, daun bawang atau kacang pis untuk menambah tekstur dan warna.</p>
-      <p><strong>Petua:</strong> Tumis sayuran bersama kimchi sebelum mencampurkannya dengan nasi.</p>
-    </li>
-    <li>
-      <h3>Goreng Telur</h3>
-      <p>Telur goreng adalah pelengkap penting untuk Nasi Kimchi. Pastikan kuning telur sedikit cair untuk tekstur berkrim.</p>
-      <p><strong>Petua:</strong> Tambah sedikit minyak bijan atau kicap di atas telur untuk rasa lebih sedap.</p>
-    </li>
-    <li>
-      <h3>Hidangkan Nasi Kimchi</h3>
-      <p>Letakkan nasi dalam mangkuk atau pinggan, dan letak telur goreng di atasnya.</p>
-      <p><strong>Petua:</strong> Hias dengan daun bawang cincang atau bijan panggang untuk warna dan rasa tambahan.</p>
-      <p><strong>Petua:</strong> Hidangkan bersama sedikit kimchi tambahan di sisi untuk rasa lebih menendang.</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Petua Profesional untuk Berjaya dalam Level 37</h2>
-  <ul>
-    <li>
-      <h3>Guna Nasi Semalam</h3>
-      <p>Nasi yang tidak melekit adalah lebih senang untuk dimasak dan menyerap rasa.</p>
-    </li>
-    <li>
-      <h3>Kimchi yang Sempurna</h3>
-      <p>Tumis kimchi untuk mengeluarkan rasa umami yang mendalam. Tambah gochujang atau gochugaru jika suka pedas.</p>
-    </li>
-    <li>
-      <h3>Laraskan Tahap Pedas</h3>
-      <p>Sesuaikan jumlah gochujang dan gochugaru mengikut citarasa anda. Kurangkan atau abaikan jika mahu versi kurang pedas.</p>
-    </li>
-    <li>
-      <h3>Telur Goreng adalah Kunci</h3>
-      <p>Kuning telur yang cair menjadikan nasi lebih berkrim dan enak bila digaul bersama.</p>
-    </li>
-    <li>
-      <h3>Hiasan Menarik</h3>
-      <p>Daun bawang dan bijan menambahkan rupa dan rasa yang menarik kepada hidangan.</p>
-    </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Level 37 Cookingdom, Nasi Kimchi menggabungkan rasa pedas, masam dan gurih. Tumis kimchi dengan nasi, perisa dengan minyak bijan atau kicap, dan lengkapkan dengan telur goreng. Sama ada dengan sayuran atau tanpa, hidangan ini pasti memuaskan pelanggan anda.</p>
-  <p>Ikuti panduan ini untuk menguasai seni menyediakan Nasi Kimchi, hidangan Korea yang lazat dan menyelerakan.</p>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Tahap 35 Cookingdom</h2>
+<p>Di Tahap 35 Cookingdom, anda akan menyediakan hidangan klasik yang kaya dan menyelerakan: Spaghetti Dengan Sos Krim Cendawan! Hidangan berinspirasikan Itali ini menggabungkan pasta yang dimasak sempurna dengan sos krim cendawan yang kaya dengan rasa umami. Masa, penyediaan bahan dan konsistensi sos adalah kunci kejayaan tahap ini.</p>
+<p>Panduan ini akan membimbing anda langkah demi langkah dalam menyediakan pinggan spaghetti yang sempurna di Tahap 35, daripada merebus pasta hingga menyediakan sos cendawan dan menyusun hidangan akhir.</p>
+
+<h2 id="goal">Objektif Tahap 35 Cookingdom</h2>
+<ul>
+  <li>Rebus spaghetti sehingga teksturnya al dente.</li>
+  <li>Tumis cendawan bersama bawang putih dan herba.</li>
+  <li>Sediakan sos krim dengan mentega, krim, dan keju.</li>
+  <li>Gabungkan dan hidangkan hidangan dengan menarik.</li>
+</ul>
+
+<h2 id="steps">Panduan Langkah Demi Langkah Tahap 35 Cookingdom</h2>
+<ol>
+  <li>
+    <h3>Masak Spaghetti</h3>
+    <p>Mula-mula, didihkan air dan tambahkan sedikit garam. Setelah air mendidih, masukkan spaghetti dan masak sehingga mencapai tekstur al dente.</p>
+    <p><strong>Tip:</strong> Jangan terlebih masak pasta. Al dente bermaksud pasta lembut tetapi masih sedikit kenyal — sesuai untuk menyerap sos kemudian.</p>
+  </li>
+  <li>
+    <h3>Tumis Cendawan</h3>
+    <p>Sambil memasak pasta, tumis hirisan cendawan dalam kuali dengan mentega atau minyak zaitun. Tambah bawang putih cincang dan sedikit garam untuk menambah rasa.</p>
+    <p><strong>Tip:</strong> Jangan terlalu penuhkan kuali supaya cendawan dapat masak dengan sempurna dan menghasilkan rasa yang kaya.</p>
+  </li>
+  <li>
+    <h3>Sediakan Sos Krim</h3>
+    <p>Setelah cendawan bertukar perang, tuangkan krim pekat dan reneh dengan perlahan. Kacau keju Parmesan parut dan sedikit lada hitam untuk menghasilkan tekstur yang kaya dan berkrim.</p>
+    <p><strong>Tip:</strong> Jika sos terlalu pekat, tambahkan sedikit air rebusan pasta untuk mencairkannya dan membantu sos melekat pada spaghetti.</p>
+  </li>
+  <li>
+    <h3>Gabungkan dan Hidangkan</h3>
+    <p>Tos spaghetti yang telah dimasak dan masukkan terus ke dalam sos krim cendawan. Gaul rata sehingga spaghetti disaluti sos dengan sempurna.</p>
+    <p>Hidangkan pasta dan hias dengan daun pasli segar dan taburan Parmesan.</p>
+    <p><strong>Tip:</strong> Penyajian adalah penting! Hidangkan dalam pinggan lebar dan gulung pasta dengan kemas untuk penampilan profesional.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Pakar Untuk Kejayaan Tahap 35 Cookingdom</h2>
+<ul>
+  <li>
+    <h3>Gunakan Cendawan Segar</h3>
+    <p>Cendawan segar seperti cremini atau shiitake menawarkan rasa dan tekstur yang lebih baik daripada cendawan tin. Hiriskan dengan saiz yang sama untuk memasak sekata.</p>
+  </li>
+  <li>
+    <h3>Jangan Tinggalkan Bawang Putih</h3>
+    <p>Bawang putih penting untuk menambah kedalaman rasa pada sos. Tumis sehingga keemasan sahaja — jangan sampai hangit untuk elak rasa pahit.</p>
+  </li>
+  <li>
+    <h3>Kawal Kepekatan Krim</h3>
+    <p>Jika sos terlalu pekat, perah sedikit jus lemon atau tambahkan sedikit wain putih untuk mengurangkan kepedapan dan menambah kesegaran.</p>
+  </li>
+  <li>
+    <h3>Keju Untuk Rasa Hebat</h3>
+    <p>Parmesan menambah rasa umami dan masin. Parut keju segar jika boleh, dan gunakan dalam sos serta sebagai hiasan akhir.</p>
+  </li>
+  <li>
+    <h3>Masak Sos dan Pasta Serentak</h3>
+    <p>Masa sangat penting. Usahakan supaya sos siap tepat ketika pasta sudah masak agar kedua-duanya dapat digabungkan dengan panas dan segar.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Di Tahap 35 Cookingdom, anda akan menguasai seni menyediakan Spaghetti Dengan Sos Krim Cendawan — hidangan yang kaya dan menyenangkan yang memerlukan penyelarasan yang baik antara pasta, cendawan dan sos berkrim. Kunci kejayaan adalah masa yang tepat, keseimbangan rasa krim dan kepekatan cendawan, serta penyajian yang menarik.</p>
+<p>Ikuti panduan ini untuk menyediakan hidangan yang lazat dan elegan yang akan mengagumkan pelanggan maya anda dan memperoleh penilaian tertinggi di Cookingdom!</p>
+`,
   },
+
+  {
+    id: 'cookingdom-game-level-36',
+    title: 'Panduan Cookingdom Tahap 36: Kari India',
+    pageTitle: 'Panduan Cookingdom Tahap 36: Kari India',
+    pageSubtitle:
+      'Pelajari cara menyediakan kari India yang harum dan lazat pada Tahap 36 Cookingdom.',
+    category: '31-40',
+    publishDate: '2025-05-06',
+    isSpecial: false,
+    imageUrl: '/images/guides_36.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+    iframeUrl: 'https://www.youtube.com/embed/qKUPwJWggA8',
+    seo: {
+      title: 'Cookingdom Tahap 36: Kari India | Cookingdom.co',
+      description:
+        'Kuasi kari India di Tahap 36 Cookingdom. Dapatkan petua tentang penyediaan bahan, pencampuran rempah, memasak, dan penyajian kari yang harum.',
+      keywords: 'Cookingdom tahap 36, kari India, kari, masakan India, rempah, memasak, panduan',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_36.webp',
+      levelInfoHtml:
+        '<h3>Kari India</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Panduan Cookingdom Tahap 35: Spageti Sos Krim Cendawan',
+          imageUrl: '/images/guides_35.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
+        },
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Panduan Cookingdom Tahap 37: Nasi Kimchi',
+          imageUrl: '/images/guides_37.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Tahap 36 Cookingdom</h2>
+<p>Pada tahap 36 Cookingdom, anda akan menyediakan hidangan kari India yang harum dan kaya rasa. Kari India terkenal dengan kombinasi rempah yang pelbagai dan rasa yang mendalam. Objektif utama tahap ini ialah menghasilkan kari yang seimbang dari segi rempah dan bahan supaya ia menjadi lazat dan menarik. Proses memasak melibatkan menumis sayur dan daging bersama rempah, herba, serta santan atau krim untuk menghasilkan kuah yang pekat dan berkrim.</p>
+<p>Panduan ini akan membantu anda melalui setiap langkah untuk menyediakan kari India yang harum dan lazat — dari penyediaan rempah hingga penyajian bersama lauk sampingan yang sesuai.</p>
+
+<h2 id="goal">Matlamat Tahap 36 Cookingdom</h2>
+<ul>
+  <li>Menyediakan bahan-bahan kari.</li>
+  <li>Menyediakan kari dengan gabungan rempah yang sempurna.</li>
+  <li>Memasak kari sehingga rasa menyerap.</li>
+  <li>Menyajikan kari India bersama nasi atau roti.</li>
+</ul>
+
+<h2 id="steps">Langkah demi Langkah Panduan Tahap 36 Cookingdom: Kari India</h2>
+<ol>
+  <li>
+    <h3>Penyediaan Bahan</h3>
+    <p>Langkah pertama adalah menyediakan bahan dengan lengkap. Bahan utama termasuk:</p>
+    <ul>
+      <li>Ayam, kambing atau sayur-sayuran (bergantung pada jenis kari).</li>
+      <li>Bawang, bawang putih dan halia sebagai asas.</li>
+      <li>Rempah ratus seperti jintan manis, kunyit, ketumbar, garam masala dan serbuk cili.</li>
+      <li>Santan, tomato atau krim untuk kuah.</li>
+    </ul>
+    <p><strong>Petua:</strong> Pada tahap 36, anda perlu memotong dan menyediakan bahan dengan baik untuk memasak yang cekap.</p>
+  </li>
+  <li>
+    <h3>Menumis Bahan Perasa</h3>
+    <p>Panaskan minyak dalam kuali besar. Tumis bawang, bawang putih dan halia sehingga wangi dan keemasan.</p>
+    <p><strong>Petua:</strong> Tumis hingga wangi untuk memberikan rasa yang mendalam kepada kari.</p>
+    <p><strong>Petua:</strong> Kacau sentiasa agar tidak hangus.</p>
+  </li>
+  <li>
+    <h3>Tambah Rempah</h3>
+    <p>Masukkan rempah jintan manis, kunyit, ketumbar, garam masala dan serbuk cili. Tumis selama 1-2 minit untuk melepaskan aroma rempah.</p>
+    <p><strong>Petua:</strong> Kurangkan serbuk cili jika mahu kari kurang pedas.</p>
+  </li>
+  <li>
+    <h3>Masukkan Daging atau Sayur</h3>
+    <p>Masukkan ayam, kambing atau sayur. Gaul rata supaya semua bahan dilapisi rempah.</p>
+    <p><strong>Petua:</strong> Masak daging sehingga keperangan dan sayur lembut tetapi tidak terlalu masak.</p>
+  </li>
+  <li>
+    <h3>Tambah Kuah</h3>
+    <p>Masukkan tomato atau santan dan gaul rata.</p>
+    <p><strong>Petua:</strong> Santan atau krim akan menjadikan kuah lebih lemak dan pekat.</p>
+    <p>Tambahkan air atau stok jika kuah terlalu pekat.</p>
+  </li>
+  <li>
+    <h3>Memasak Kari</h3>
+    <p>Biarkan kari mendidih perlahan dan reneh selama 15-20 minit supaya semua rasa sebati.</p>
+    <p><strong>Petua:</strong> Cuba rasa di tengah-tengah memasak dan tambah garam atau rempah jika perlu.</p>
+    <p><strong>Petua:</strong> Untuk kuah yang lebih pekat, masak lebih lama atau tingkatkan sedikit api supaya air berkurang.</p>
+  </li>
+  <li>
+    <h3>Penyajian Kari India</h3>
+    <p>Hidangkan kari bersama nasi putih, roti naan atau roti canai.</p>
+    <p><strong>Petua:</strong> Hiaskan dengan daun ketumbar segar atau titisan limau untuk rasa segar.</p>
+    <p><strong>Petua:</strong> Hidangkan bersama yogurt atau raita untuk mengimbangi kepedasan.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Berguna untuk Tahap 36 Cookingdom</h2>
+<ul>
+  <li>
+    <h3>Keseimbangan Rempah</h3>
+    <p>Keseimbangan rempah sangat penting. Jika baru belajar, mulakan dengan campuran garam masala yang siap dan tambah rempah lain ikut citarasa.</p>
+  </li>
+  <li>
+    <h3>Memasak Perlahan Untuk Rasa Mendalam</h3>
+    <p>Memasak perlahan membolehkan rasa sebati dan menjadi lebih kaya. Bersabar supaya hasilnya lebih sedap.</p>
+  </li>
+  <li>
+    <h3>Laraskan Kepedasan</h3>
+    <p>Berhati-hati dengan serbuk cili. Kurangkan untuk kari yang lebih lembut, atau tambah untuk rasa pedas yang lebih kuat.</p>
+  </li>
+  <li>
+    <h3>Bahan Segar</h3>
+    <p>Halia dan bawang putih segar memberikan aroma yang kuat, manakala bahan segar lain memberikan tekstur dan rasa yang lebih baik.</p>
+  </li>
+  <li>
+    <h3>Hiasan Hidangan</h3>
+    <p>Daun ketumbar segar, sedikit garam masala dan titisan limau akan menjadikan kari anda lebih menarik dan lazat.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Ringkasan</h2>
+<p>Pada Tahap 36 Cookingdom, memasak kari India melibatkan keseimbangan rempah, mencipta kuah yang harum, dan memasak sehingga bahan menjadi lembut dan rasa menyerap. Sama ada menggunakan ayam, kambing atau sayur, rahsia kari yang sedap ialah kombinasi rempah yang betul, masa memasak yang sesuai dan lauk sampingan yang tepat.</p>
+<p>Ikuti panduan ini untuk menyediakan kari India yang harum dan lazat yang pasti menggembirakan pelanggan anda.</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-37',
+    title: 'Panduan Cookingdom Level 37: Nasi Goreng Kimchi',
+    pageTitle: 'Panduan Cookingdom Level 37: Nasi Goreng Kimchi',
+    pageSubtitle:
+      'Pelajari cara menyediakan Nasi Goreng Kimchi yang lazat pada Level 37 dalam Cookingdom.',
+    category: '31-40',
+    publishDate: '2025-05-06',
+    isSpecial: false,
+    imageUrl: '/images/guides_37.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+    iframeUrl: 'https://www.youtube.com/embed/Oz9L0TFbgro',
+    seo: {
+      title: 'Panduan Cookingdom Level 37: Nasi Goreng Kimchi | Cookingdom.co',
+      description:
+        'Kuasa cara menyediakan Nasi Goreng Kimchi pada Level 37 dalam Cookingdom. Tips memasak nasi, menumis kimchi, menambah telur goreng dan menghidangkan hidangan tradisional Korea.',
+      keywords:
+        'Cookingdom Level 37, Nasi Goreng Kimchi, Kimchi, Masakan Korea, Menumis, Telur Goreng, Gochujang',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_37.webp',
+      levelInfoHtml:
+        '<h3>Nasi Goreng Kimchi</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 4 bintang</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Panduan Cookingdom Level 36: Kari India',
+          imageUrl: '/images/guides_36.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Panduan Cookingdom Level 38: Ayam dan Sayur Tumis',
+          imageUrl: '/images/guides_38.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Level 37</h2>
+<p>Pada Level 37 Cookingdom, anda akan menyediakan hidangan yang beraroma dan berperisa iaitu Nasi Goreng Kimchi. Hidangan tradisional Korea ini disediakan menggunakan kimchi — sayur yang diperam — dicampur dengan nasi, sering bersama sayur-sayuran dan telur goreng di atasnya. Hidangan ini ringkas namun penuh dengan rasa pedas, masam dan masin yang seimbang. Objektif utama adalah untuk menggabungkan kimchi dengan nasi dan bahan lain dengan tepat untuk mendapatkan rasa dan tekstur yang sempurna.</p>
+<p>Panduan ini akan membawa anda langkah demi langkah menyediakan Nasi Goreng Kimchi yang lazat dengan rasa dan tekstur yang memukau.</p>
+
+<h2 id="goal">Matlamat Level Cookingdom 37</h2>
+<ul>
+  <li>Masak nasi sebagai asas hidangan.</li>
+  <li>Tumis kimchi dan bahan lain untuk mendapatkan rasa yang seimbang.</li>
+  <li>Sajikan Nasi Goreng Kimchi bersama telur goreng dan garnis.</li>
+</ul>
+
+<h2 id="steps">Langkah demi Langkah Memasak Nasi Goreng Kimchi (Level 37)</h2>
+<ol>
+  <li>
+    <h3>Masak Nasi</h3>
+    <p>Asas Nasi Goreng Kimchi ialah nasi. Mulakan dengan memasak nasi yang telah diperap (beras putih atau beras bulat pendek sesuai), jika tiada nasi yang dimasak sebelumnya.</p>
+    <p><strong>Tip:</strong> Lebih baik menggunakan nasi yang dimasak sehari sebelumnya kerana ia lebih kering dan kurang melekat, sesuai untuk menumis dan menyerap rasa.</p>
+  </li>
+  <li>
+    <h3>Tumis Kimchi</h3>
+    <p>Tumis kimchi (kubis yang diperam) dalam kuali untuk mengeluarkan rasa yang kaya dan masam.</p>
+    <p><strong>Tip:</strong> Potong kimchi kepada kepingan kecil untuk menumis lebih sekata.</p>
+    <p>Tambah sedikit minyak dalam kuali dan tumis kimchi selama 2-3 minit supaya ia menjadi lembut dan rasa lebih terserlah.</p>
+    <p><strong>Tip:</strong> Untuk rasa pedas yang lebih kuat, tambahkan sedikit gochujang (pes cili Korea) atau gochugaru (serpihan cili Korea).</p>
+  </li>
+  <li>
+    <h3>Tumis Nasi dengan Kimchi</h3>
+    <p>Selepas menumis kimchi, tambah nasi ke dalam kuali dan kacau rata supaya nasi menyerap jus kimchi.</p>
+    <p><strong>Tip:</strong> Tumis nasi selama kira-kira 5 minit pada api sederhana supaya nasi menyerap rasa kimchi dan rempah.</p>
+    <p><strong>Tip:</strong> Tambahkan sedikit kicap atau minyak bijan untuk aroma tambahan.</p>
+  </li>
+  <li>
+    <h3>Tambah Sayur-sayuran (Pilihan)</h3>
+    <p>Jika mahu, tambah sayur-sayuran seperti lobak merah, daun bawang, atau kacang peas untuk tekstur dan rasa tambahan.</p>
+    <p><strong>Tip:</strong> Jika tambah sayur, tumis bersama kimchi sebelum mencampur dengan nasi.</p>
+  </li>
+  <li>
+    <h3>Goreng Telur</h3>
+    <p>Nasi Goreng Kimchi biasanya disajikan dengan telur goreng di atasnya, memberikan rasa dan tekstur yang kaya.</p>
+    <p>Goreng telur mengikut kesukaan anda. Kuning telur yang cair akan mencampurkan rasa krim dengan nasi.</p>
+    <p><strong>Tip:</strong> Untuk rasa lebih sedap, boleh tambah sedikit minyak bijan atau kicap di atas telur goreng.</p>
+  </li>
+  <li>
+    <h3>Sajikan Nasi Goreng Kimchi</h3>
+    <p>Selepas memasak dan membumbui, hidangkan Nasi Goreng Kimchi di dalam mangkuk atau pinggan, letakkan telur goreng di atasnya.</p>
+    <p><strong>Tip:</strong> Hiaskan dengan daun bawang cincang atau bijan untuk rasa dan warna yang menarik.</p>
+    <p><strong>Tip:</strong> Boleh juga sajikan dengan sedikit kimchi sebagai garnis tambahan.</p>
+  </li>
+</ol>
+
+<h2 id="tips">Petua Berguna untuk Berjaya di Level 37</h2>
+<ul>
+  <li>
+    <h3>Gunakan Nasi Semalam</h3>
+    <p>Nasi yang dimasak sehari sebelumnya lebih sesuai untuk Nasi Goreng Kimchi kerana kurang melekit dan lebih mudah ditumis. Jika menggunakan nasi baru, biarkan ia sejuk dahulu supaya tidak melekat.</p>
+  </li>
+  <li>
+    <h3>Rasa Kimchi Yang Sempurna</h3>
+    <p>Menumis kimchi adalah kunci untuk mendapatkan rasa masam dan umami yang seimbang. Untuk rasa pedas lebih kuat, tambahkan lebih gochujang atau gochugaru.</p>
+  </li>
+  <li>
+    <h3>Laraskan Tahap Kepedasan</h3>
+    <p>Laraskan kuantiti gochujang dan gochugaru mengikut citarasa. Untuk kurang pedas, gunakan kurang atau tidak sama sekali.</p>
+  </li>
+  <li>
+    <h3>Telur Goreng adalah Rahsia</h3>
+    <p>Telur goreng di atas nasi menambah rasa dan tekstur yang kaya. Pastikan kuning telur sedikit cair untuk tekstur terbaik.</p>
+  </li>
+  <li>
+    <h3>Hiasan</h3>
+    <p>Hiaskan dengan daun bawang dan bijan untuk menambah rasa dan penampilan yang menarik.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Kesimpulan</h2>
+<p>Level 37 Cookingdom mengajar anda menyediakan Nasi Goreng Kimchi dengan gabungan rasa pedas, masam dan umami yang seimbang dengan nasi yang netral. Tumis kimchi bersama nasi, tambah sedikit kicap atau minyak bijan, dan letakkan telur goreng di atasnya. Sama ada anda menambah sayur atau menonjolkan kimchi, hidangan ini pasti memuaskan pelanggan dengan rasa yang kaya dan menyelerakan.</p>
+<p>Dengan panduan ini, anda akan mahir menyediakan Nasi Goreng Kimchi yang sedap dan mengenyangkan dengan rasa tradisional Korea dan bahan yang mudah didapati.</p>
+`,
+  },
+
   {
     id: 'cookingdom-game-level-38',
-    title: 'Cookingdom Level 38:<br>Tteokbokki Rush',
-    pageTitle: 'Cookingdom Level 38 - Panduan Tteokbokki Rush',
-    pageSubtitle: 'Kuasai Tteokbokki pedas dalam Level 38 yang pantas di Cookingdom.',
+    title: 'Cookingdom Tahap 38: Ayam Goreng Pan Dengan Sayur — Panduan Lengkap',
+    pageTitle: 'Cookingdom Tahap 38: Ayam Goreng Pan Dengan Sayur — Panduan Lengkap',
+    pageSubtitle: 'Kuasi Tteokbokki pedas dalam Tahap 38 Cookingdom yang pantas dan mencabar.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_38.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-    iframeUrl: 'https://www.youtube.com/embed/EzXju3Q8Zsc',
+    iframeUrl: 'https://www.youtube.com/embed/ED0NlqwWiwg',
     seo: {
-      title: 'Panduan Cookingdom Level 38: Tteokbokki Rush | Tips & Strategi',
+      title: 'Cookingdom Tahap 38: Panduan Tteokbokki Rush | Cookingdom.co',
       description:
-        'Kuasai Tteokbokki Rush dalam Level 38 Cookingdom. Dapatkan tip memasak kek beras, mengurus sos, menambah telur, dan mencapai markah tinggi.',
+        'Kuasi Tteokbokki Rush di Tahap 38 Cookingdom. Dapatkan tip memasak kek nasi, mengawal sos, menambah telur, dan mencapai skor tinggi.',
       keywords:
-        'Cookingdom, Level 38, Tteokbokki, Makanan Jalanan Korea, Kek Beras, Gochujang, Panduan, Strategi',
+        'Cookingdom Tahap 38, Tteokbokki Cookingdom, Makanan Jalanan Korea, Kek Nasi, Gochujang, Panduan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_38.webp',
@@ -4194,172 +4040,161 @@ kejayaan.</p>
         '<h3>Tteokbokki Rush</h3><p><strong>Kesukaran:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-35',
-          title: 'Cookingdom Level 35<br>Coklat',
-          imageUrl: '/images/guides_35.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
-        },
-        {
-          id: 'cookingdom-game-level-36',
-          title: 'Cookingdom Level 36<br>Kari India',
-          imageUrl: '/images/guides_36.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-        },
-        {
           id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37<br>Nasi Kimchi',
+          title: 'Cookingdom Tahap 37: Panduan Nasi Kimchi',
           imageUrl: '/images/guides_37.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Tahap 39: Panduan Sup Borscht Merah',
+          imageUrl: '/images/guides_39.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Permainan</h2>
-  <p>Level 38 menghidangkan cabaran pedas dengan <strong>Tteokbokki</strong>, makanan jalanan Korea yang popular. Kelajuan, ketepatan, dan pengurusan masa sangat penting dalam level pantas ini.</p>
-  
-  <h2 id="goal">🎯 Matlamat</h2>
-  <ul>
-    <li>Hidangkan sekurang-kurangnya 30 hidangan Tteokbokki</li>
-    <li>Pastikan kepuasan pelanggan melebihi 85%</li>
-    <li>Siapkan dalam masa 3 minit</li>
-  </ul>
-  
-  <h2 id="ingredients">🌶️ Bahan-bahan</h2>
-  <ul>
-    <li>Kek beras (tteok)</li>
-    <li>Sos gochujang</li>
-    <li>Telur rebus (bonus pilihan)</li>
-    <li>Daun bawang atau bijan (hiasan)</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah</h2>
-  <ol>
-    <li>Mulakan dengan merebus kek beras dalam kedua-dua periuk.</li>
-    <li>Sediakan sos gochujang semasa kek beras dimasak.</li>
-    <li>Masukkan sos ke dalam kuali, kacau bersama kek beras, dan masak hingga sedikit pekat.</li>
-    <li>Letakkan telur dan hiasan sebelum dihidang.</li>
-    <li>Sediakan batch seterusnya semasa menghidang untuk elak masa terbuang.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Tips Pro</h2>
-  <ul>
-    <li><strong>Masak Berkelompok:</strong> Masak beberapa hidangan serentak untuk jimat masa.</li>
-    <li><strong>Telur = Bonus:</strong> Sentiasa tambah jika pelanggan ada masa.</li>
-    <li><strong>Perhatikan Periuk:</strong> Kek beras yang terlebih masak akan dibazirkan.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Lazim</h2>
-  <ul>
-    <li>Sos hangus kerana dibiarkan terlalu lama.</li>
-    <li>Tiada persediaan awal — masa tidak digunakan menjejaskan combo.</li>
-    <li>Terlupa tambah telur/hiaskan — kehilangan mata bonus.</li>
-  </ul>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Tahap 38</h2>
+<p>Cookingdom Tahap 38 memperkenalkan <strong>Tteokbokki</strong>, makanan jalanan Korea yang pedas dan popular. Kepantasan, ketepatan, dan pengurusan masa adalah penting dalam tahap yang pantas ini.</p>
+
+<h2 id="goal">🎯 Matlamat Tahap 38</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 30 hidangan Tteokbokki</li>
+  <li>Kekalkan kepuasan pelanggan melebihi 85%</li>
+  <li>Selesai dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🌶️ Bahan-bahan</h2>
+<ul>
+  <li>Kek nasi (tteok)</li>
+  <li>Sos Gochujang</li>
+  <li>Telur rebus (pilihan bonus)</li>
+  <li>Daun bawang atau biji bijan untuk hiasan</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah</h2>
+<ol>
+  <li>Mula dengan merebus kek nasi dalam dua periuk.</li>
+  <li>Sediakan sos gochujang semasa kek nasi dimasak.</li>
+  <li>Tambah sos ke dalam kuali, kacau bersama kek nasi, dan masak sehingga sedikit pekat.</li>
+  <li>Letakkan telur dan hias sebelum dihidang.</li>
+  <li>Susun pesanan seterusnya semasa menghidang untuk elakkan masa terbuang.</li>
+</ol>
+
+<h2 id="tips">🔥 Tip Pro Tahap 38</h2>
+<ul>
+  <li><strong>Memasak secara berkelompok:</strong> Masak beberapa hidangan sekaligus untuk jimat masa.</li>
+  <li><strong>Telur = Bonus:</strong> Sentiasa tambah jika pelanggan ada masa.</li>
+  <li><strong>Perhatikan periuk:</strong> Kek nasi yang terlebih masak akan dibazirkan.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Lazim</h2>
+<ul>
+  <li>Meninggalkan sos terlalu lama hingga terbakar.</li>
+  <li>Tidak membuat persediaan awal — masa terbiar akan merosakkan kombo.</li>
+  <li>Lupa telur/hiasan — anda akan kehilangan mata bonus.</li>
+</ul>
+`,
   },
+
   {
     id: 'cookingdom-game-level-39',
-    title: 'Cookingdom Level 39:<br>Spaghetti with Mushroom Cream Sauce',
-    pageTitle: 'Cookingdom Level 39 - Panduan Spaghetti dengan Mushroom Cream Sauce',
+    title: 'Panduan Cookingdom Level 39: Sup Beet Merah (Red Borscht)',
+    pageTitle: 'Panduan Cookingdom Level 39: Sup Beet Merah (Red Borscht)',
     pageSubtitle:
-      'Kuasi Spaghetti dengan Mushroom Cream Sauce, hidangan berkrim dari Barat yang memerlukan ketepatan masa dalam Level 39.',
+      'Kuasi Spaghetti dengan Sos Krim Cendawan, hidangan Barat berkrim yang memerlukan masa yang tepat dalam Level 39.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_39.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-    iframeUrl: 'https://www.youtube.com/embed/VfAxaHCxBOA',
+    iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko',
     seo: {
-      title: 'Panduan Cookingdom Level 39: Spaghetti dengan Mushroom Cream Sauce | Tips & Strategi',
+      title: 'Panduan Cookingdom Level 39: Spaghetti dengan Sos Krim Cendawan',
       description:
-        'Kuasi Spaghetti dengan Mushroom Cream Sauce dalam Level 39 Cookingdom. Dapatkan tips memasak pasta, menumis cendawan, menyediakan krim sos, dan menyajikan hidangan berkrim ini.',
-      keywords:
-        'Cookingdom, Level 39, Spaghetti, Mushroom Cream Sauce, Pasta, Krim Sos, Makanan Barat, Panduan, Strategi',
+        'Kuasi Spaghetti dengan Sos Krim Cendawan di Level 39 Cookingdom. Dapatkan tip memasak pasta, menumis cendawan, menyediakan sos krim, dan menghidangkan hidangan berkrim ini.',
+      keywords: 'Cookingdom Level 39, Spaghetti Sos Krim Cendawan, Pasta, Makanan Itali, Panduan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_39.webp',
       levelInfoHtml:
-        '<h3>Spaghetti dengan Mushroom Cream Sauce</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit 30 saat</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+        '<h3>Spaghetti dengan Sos Krim Cendawan</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit 30 saat</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-36',
-          title: 'Cookingdom Level 36<br>Indian Curry',
-          imageUrl: '/images/guides_36.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-        },
-        {
-          id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37<br>Kimchi Rice',
-          imageUrl: '/images/guides_37.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
-        },
-        {
           id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
+          title: 'Panduan Cookingdom Level 38: Ayam Goreng Dengan Sayur',
           imageUrl: '/images/guides_38.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Panduan Cookingdom Level 40: Beef Wellington',
+          imageUrl: '/images/guides_40.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p><strong>Level 39</strong> memperkenalkan <strong>Spaghetti dengan Mushroom Cream Sauce</strong>, hidangan berkrim dari Barat yang memerlukan ketepatan masa antara merebus pasta dan menumis cendawan. Ketepatan adalah kunci untuk mendapatkan 3 bintang di sini.</p>
-  
-  <h2 id="goal">🎯 Matlamat</h2>
-  <ul>
-    <li>Sajikan sekurang-kurangnya 20 hidangan lengkap</li>
-    <li>Pastikan kepuasan pelanggan 90% atau lebih</li>
-    <li>Selesaikan dalam masa 3 minit 30 saat</li>
-  </ul>
-  
-  <h2 id="ingredients">🍝 Bahan-bahan</h2>
-  <ul>
-    <li>Spaghetti (direbus)</li>
-    <li>Cendawan (dihiris dan ditumis)</li>
-    <li>Krim sos (disediakan secara berasingan)</li>
-    <li>Pasli atau keju sebagai hiasan</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Langkah demi Langkah Strategi</h2>
-  <ol>
-    <li>Mulakan dengan merebus spaghetti di kedua-dua periuk.</li>
-    <li>Tumis cendawan dalam kuali yang berasingan sementara pasta dimasak.</li>
-    <li>Panaskan krim sos dalam periuk kecil — jangan biarkan ia mendidih.</li>
-    <li>Gabungkan pasta, cendawan, dan krim sos sebelum menghidang.</li>
-    <li>Hias dengan pasli atau keju sebelum dihidang.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Tips Profesional</h2>
-  <ul>
-    <li><strong>Jangan Rebus Serentak:</strong> Mulakan satu periuk sedikit lewat untuk memastikan aliran pasta yang lancar.</li>
-    <li><strong>Hiris Cendawan Awal:</strong> Jimat masa semasa kesibukan.</li>
-    <li><strong>Gunakan Auto-Serve:</strong> Apabila terasa terlampau sibuk, ini membantu mengekalkan combo.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Umum</h2>
-  <ul>
-    <li>Biarkan pasta terlalu lama direbus — ia merosakkan hidangan dan membuang masa.</li>
-    <li>Lupa untuk memanaskan sos sebelum digabungkan — mengurangkan penilaian hidangan.</li>
-    <li>Tidak meletakkan hiasan — kehilangan mata bonus yang berharga.</li>
-  </ul>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Level 39 Cookingdom</h2>
+<p><strong>Level 39 Cookingdom</strong> memperkenalkan <strong>Spaghetti dengan Sos Krim Cendawan</strong>, hidangan Barat berkrim yang memerlukan masa yang tepat antara merebus pasta dan menumis cendawan. Ketepatan masa adalah kunci untuk mendapatkan 3 bintang.</p>
+
+<h2 id="goal">🎯 Matlamat Level 39</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 20 hidangan lengkap</li>
+  <li>Pastikan kepuasan pelanggan pada 90% atau lebih</li>
+  <li>Selesaikan dalam masa 3 minit 30 saat</li>
+</ul>
+
+<h2 id="ingredients">🍝 Bahan-bahan Level 39</h2>
+<ul>
+  <li>Mi spaghetti (direbus)</li>
+  <li>Cendawan (dihiris dan ditumis)</li>
+  <li>Sos krim (disediakan berasingan)</li>
+  <li>Pasli atau keju untuk hiasan</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Level 39</h2>
+<ol>
+  <li>Mulakan dengan merebus spaghetti dalam dua periuk segera.</li>
+  <li>Tumis cendawan dalam kuali berasingan semasa pasta dimasak.</li>
+  <li>Panaskan sos krim dalam kuali kecil – jangan biarkan mendidih.</li>
+  <li>Gabungkan pasta, cendawan, dan sos krim sebelum menghidang.</li>
+  <li>Hiaskan dengan pasli atau keju untuk setiap hidangan.</li>
+</ol>
+
+<h2 id="tips">🔥 Tip Pro Level 39</h2>
+<ul>
+  <li><strong>Rebus secara bertindan:</strong> Mulakan satu periuk sedikit lewat untuk mengekalkan aliran pasta yang stabil.</li>
+  <li><strong>Hiris cendawan lebih awal:</strong> Jimat masa semasa waktu puncak.</li>
+  <li><strong>Gunakan auto-serve:</strong> Apabila terlalu sibuk, ini membantu mengekalkan kombo.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Lazim Level 39</h2>
+<ul>
+  <li>Memasak pasta terlalu lama – merosakkan hidangan dan membazir masa.</li>
+  <li>Lupa memanaskan sos sebelum mencampur – menurunkan rating hidangan.</li>
+  <li>Melangkau hiasan – kehilangan mata bonus yang berharga.</li>
+</ul>
+`,
   },
+
   {
     id: 'cookingdom-game-level-40',
-    title: 'Cookingdom Level 40:<br>Beef Wellington',
-    pageTitle: 'Cookingdom Level 40 - Panduan Beef Wellington',
-    pageSubtitle: 'Kuasai Beef Wellington yang elegan dan kompleks di Level 40 Cookingdom.',
+    title: 'Panduan Cookingdom Tahap 40: Beef Wellington',
+    pageTitle: 'Panduan Cookingdom Tahap 40: Beef Wellington',
+    pageSubtitle: 'Kuasi hidangan elegan dan kompleks Beef Wellington di Tahap 40 Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_40.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
-    iframeUrl: 'https://www.youtube.com/embed/DGrXE28wjnU',
+    iframeUrl: 'https://www.youtube.com/embed/O6RrVnSHTzU',
     seo: {
-      title: 'Cookingdom Level 40 Panduan: Beef Wellington | Tips & Strategi',
+      title: 'Panduan Cookingdom Tahap 40: Beef Wellington | Cookingdom.co',
       description:
-        'Kuasa Beef Wellington di Level 40 Cookingdom. Dapatkan tips tentang memanggang daging lembu, menyediakan duxelles, membalut pastry, membakar, dan menghidangkan hidangan kompleks ini.',
+        'Kuasi Beef Wellington di Tahap 40 Cookingdom. Dapatkan petua tentang menumis daging, menyediakan duxelles cendawan, membalut pastri, membakar, dan menghidang hidangan kompleks ini.',
       keywords:
-        'Cookingdom, Level 40, Beef Wellington, Beef Tenderloin, Puff Pastry, Mushroom Duxelles, Baking, Panduan, Strategi',
+        'Cookingdom Tahap 40, Beef Wellington, Daging Tenderloin, Pastri Puff, Membakar, Panduan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_40.webp',
@@ -4367,173 +4202,163 @@ kejayaan.</p>
         '<h3>Beef Wellington</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 4 minit</p><p><strong>Ganjaran:</strong> 5 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37<br>Kimchi Rice',
-          imageUrl: '/images/guides_37.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
-        },
-        {
-          id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
-          imageUrl: '/images/guides_38.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-        },
-        {
           id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
+          title: 'Panduan Cookingdom Tahap 39: Sup Beet Merah',
           imageUrl: '/images/guides_39.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+        {
+          id: 'cookingdom-game-level-41',
+          title: 'Panduan Cookingdom Tahap 41: Donut',
+          imageUrl: '/images/guides_41.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p><strong>Level 40</strong> memperkenalkan hidangan <strong>Beef Wellington</strong> yang elegan dan kompleks. Masa yang tepat, persediaan, dan penggunaan oven sangat penting. Ini adalah salah satu level yang paling mencabar setakat ini, tetapi sangat memuaskan apabila dikuasai.</p>
-  
-  <h2 id="goal">🎯 Matlamat</h2>
-  <ul>
-    <li>Sajikan sekurang-kurangnya 18 hidangan Beef Wellington lengkap</li>
-    <li>Pastikan kepuasan pelanggan melebihi 85%</li>
-    <li>Selesaikan dalam masa 4 minit</li>
-  </ul>
-  
-  <h2 id="ingredients">🥩 Bahan-bahan</h2>
-  <ul>
-    <li>Beef tenderloin</li>
-    <li>Mushroom duxelles</li>
-    <li>Puff pastry</li>
-    <li>Egg wash (untuk glazing)</li>
-    <li>Gravy (bonus pilihan)</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Langkah-langkah Strategi</h2>
-  <ol>
-    <li>Mulakan dengan menggoreng beef tenderloin dalam kuali.</li>
-    <li>Sediakan mushroom duxelles sementara daging dimasak.</li>
-    <li>Balut beef dan duxelles dalam puff pastry dan sapukan egg wash.</li>
-    <li>Bakar di dalam oven — gunakan kedua-dua ruang oven untuk meningkatkan hasil.</li>
-    <li>Sajikan dengan gravy apabila pelanggan memberi masa bonus.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Tips Pro</h2>
-  <ul>
-    <li><strong>Pastikan Oven Sentiasa Sibuk:</strong> Jangan biarkan ruang oven tidak digunakan — selalu queue Wellington seterusnya.</li>
-    <li><strong>Pre-prep Duxelles:</strong> Sediakan isian cendawan untuk menjimatkan masa semasa waktu sibuk.</li>
-    <li><strong>Naik taraf Oven:</strong> Pembakaran yang lebih pantas adalah penting untuk mengelakkan masa menunggu yang panjang.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Biasa</h2>
-  <ul>
-    <li>Lupa sapukan egg wash — menyebabkan penilaian rendah.</li>
-    <li>Daging overcooked — jika dibiarkan terlalu lama dalam kuali.</li>
-    <li>Masa kosong semasa menunggu oven — merancang lebih awal dan multitasking.</li>
-  </ul>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 40</h2>
+<p><strong>Cookingdom Tahap 40</strong> mempersembahkan hidangan elegan dan kompleks — <strong>Beef Wellington</strong>. Masa, persiapan, dan penggunaan ketuhar adalah kritikal. Ini antara tahap paling mencabar setakat ini tetapi sangat memuaskan apabila dikuasai.</p>
+
+<h2 id="goal">🎯 Matlamat Cookingdom Tahap 40</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 18 hidangan Beef Wellington</li>
+  <li>Pastikan kepuasan pelanggan melebihi 85%</li>
+  <li>Selesaikan dalam masa 4 minit</li>
+</ul>
+
+<h2 id="ingredients">🥩 Bahan-bahan Cookingdom Tahap 40</h2>
+<ul>
+  <li>Daging tenderloin</li>
+  <li>Duxelles cendawan</li>
+  <li>Puff pastry</li>
+  <li>Salutan telur (untuk mengilat)</li>
+  <li>Kuah (bonus pilihan)</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Cookingdom Tahap 40</h2>
+<ol>
+  <li>Mula dengan menumis daging tenderloin dalam kuali.</li>
+  <li>Sediakan duxelles cendawan semasa daging ditumis.</li>
+  <li>Balut daging dan duxelles dalam puff pastry dan sapukan salutan telur.</li>
+  <li>Bakar dalam ketuhar — gunakan kedua-dua ruang ketuhar untuk memaksimumkan pengeluaran.</li>
+  <li>Hidangkan dengan kuah jika pelanggan membenarkan masa bonus.</li>
+</ol>
+
+<h2 id="tips">🔥 Petua Pro Cookingdom Tahap 40</h2>
+<ul>
+  <li><strong>Pastikan Ketuhar Sentiasa Sibuk:</strong> Jangan biarkan ruang ketuhar kosong — sentiasa antrikan Beef Wellington seterusnya.</li>
+  <li><strong>Sediakan Duxelles Lebih Awal:</strong> Simpan bahan isi cendawan siap untuk jimat masa semasa tempoh sibuk.</li>
+  <li><strong>Kemas Kini Ketuhar:</strong> Membakar lebih cepat sangat penting untuk elakkan masa menunggu yang lama.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Biasa Cookingdom Tahap 40</h2>
+<ul>
+  <li>Lupa sapu salutan telur — menurunkan penilaian.</li>
+  <li>Daging terlebih masak — jika dibiarkan terlalu lama dalam kuali.</li>
+  <li>Masa menganggur menunggu ketuhar — rancang lebih awal dan lakukan banyak tugasan serentak.</li>
+</ul>
+`,
   },
+
   {
     id: 'cookingdom-game-level-41',
-    title: 'Cookingdom Level 41:<br>Donut',
-    pageTitle: 'Cookingdom Level 41 - Panduan Donut',
-    pageSubtitle: 'Kuasi cabaran manis dan pantas dalam membuat Donut di Level 41 Cookingdom.',
+    title: 'Panduan Cookingdom Level 41: Donut',
+    pageTitle: 'Panduan Cookingdom Level 41: Donut',
+    pageSubtitle: 'Kuasi cabaran manis dan pantas membuat Donut di Level 41 Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-07',
     isSpecial: false,
     imageUrl: '/images/guides_41.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
-    iframeUrl: 'https://www.youtube.com/embed/gws5p5MT2Bc',
+    iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E',
     seo: {
-      title: 'Cookingdom Level 41 Panduan: Donut | Tips & Strategi',
+      title: 'Panduan Cookingdom Level 41: Donut | cookingdom.co',
       description:
-        'Kuasi pembuatan Donut di Level 41 Cookingdom. Dapatkan tips tentang menggoreng, glazing, menambah topping, dan menghidangkan manisan ini dengan cepat.',
+        'Kuasi Donut di Level 41 Cookingdom. Dapatkan petua menggoreng, mengilat, menambah topping, dan menyajikan dengan cepat.',
       keywords:
-        'Cookingdom, Level 41, Donut, Menggoreng, Glaze, Topping, Pencuci Mulut, Panduan, Strategi',
+        'Cookingdom Level 41, Donut Cookingdom, Menggoreng, Glaze, Topping, Pencuci Mulut, Panduan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_41.webp',
       levelInfoHtml:
-        '<h3>Donut</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+        '<h3>Donut</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
-          imageUrl: '/images/guides_38.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-        },
-        {
-          id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
-          imageUrl: '/images/guides_39.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-        },
-        {
           id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40<br>Beef Wellington',
+          title: 'Panduan Cookingdom Level 40: Beef Wellington',
           imageUrl: '/images/guides_40.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+        {
+          id: 'cookingdom-game-level-42',
+          title: 'Panduan Cookingdom Level 42: Mapo Tofu',
+          imageUrl: '/images/guides_42.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p><strong>Level 41</strong> membawa cabaran manis dan pantas dalam membuat <strong>Donut</strong>. Dengan menggoreng, glazing, dan variasi topping, anda memerlukan tumpuan yang tajam dan tangan yang pantas untuk mengekalkan permintaan pelanggan.</p>
-  
-  <h2 id="goal">🎯 Matlamat</h2>
-  <ul>
-    <li>Hidangkan sekurang-kurangnya 28 donut</li>
-    <li>Menjaga kepuasan pelanggan 90% atau lebih</li>
-    <li>Menamatkan dalam masa 3 minit</li>
-  </ul>
-  
-  <h2 id="ingredients">🍩 Bahan-bahan</h2>
-  <ul>
-    <li>Doh donut (plain)</li>
-    <li>Minyak menggoreng</li>
-    <li>Glaze coklat / glaze gula</li>
-    <li>Topping (sprinkles, kacang)</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah</h2>
-  <ol>
-    <li>Turunkan beberapa ketulan doh ke dalam penggoreng sekali gus.</li>
-    <li>Perhatikan masa menggoreng dengan teliti — keluarkan sebelum terlebih masak.</li>
-    <li>Celup ke dalam glaze yang diminta (coklat atau gula).</li>
-    <li>Tambah topping yang betul dan hidangkan dengan segera.</li>
-    <li>Susun doh seterusnya untuk digoreng semasa menghidangkan yang pertama.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Petua Pro</h2>
-  <ul>
-    <li><strong>Goreng secara berkumpulan:</strong> Sentiasa penuhkan penggoreng untuk menjimatkan masa.</li>
-    <li><strong>Kenali Corak Pesanan:</strong> Sesetengah pelanggan sentiasa meminta kombinasi yang sama — hafalkan ia.</li>
-    <li><strong>Naik taraf Penggoreng:</strong> Mempercepatkan proses memasak dan mengurangkan risiko terbakar.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Biasa</h2>
-  <ul>
-    <li>Goreng donut terlalu lama — masa sangat penting dalam tahap ini.</li>
-    <li>Glaze atau topping yang salah — beri perhatian pada pesanan.</li>
-    <li>Waktu penggoreng yang terbiar — menyebabkan combo pecah dan penarafan bintang yang rendah.</li>
-  </ul>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Cookingdom Level 41</h2>
+<p><strong>Cookingdom Level 41</strong> memperkenalkan cabaran manis dan pantas untuk membuat <strong>Donut</strong>. Dengan menggoreng, mengilat dan variasi topping, anda memerlukan fokus dan tangan yang cepat untuk memenuhi permintaan pelanggan.</p>
+
+<h2 id="goal">🎯 Matlamat Cookingdom Level 41</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 28 donut</li>
+  <li>Kekalkan kepuasan pelanggan 90% ke atas</li>
+  <li>Selesaikan dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🍩 Bahan-bahan Cookingdom Level 41</h2>
+<ul>
+  <li>Adunan donut (biasa)</li>
+  <li>Minyak untuk menggoreng</li>
+  <li>Glaze coklat / glaze gula</li>
+  <li>Topping (taburan, kacang)</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Cookingdom Level 41</h2>
+<ol>
+  <li>Masukkan beberapa keping doh ke dalam penggoreng serentak.</li>
+  <li>Perhatikan masa menggoreng dengan teliti — keluarkan sebelum terlalu masak.</li>
+  <li>Celup ke dalam glaze yang diminta (coklat atau gula).</li>
+  <li>Tambah topping yang betul dan hidangkan dengan segera.</li>
+  <li>Susun batch donut seterusnya semasa menghidang yang sedang dimasak.</li>
+</ol>
+
+<h2 id="tips">🔥 Petua Pro Cookingdom Level 41</h2>
+<ul>
+  <li><strong>Goreng secara berkelompok:</strong> Sentiasa penuhkan penggoreng untuk jimat masa.</li>
+  <li><strong>Kenali corak pelanggan:</strong> Sesetengah pelanggan selalu minta kombinasi yang sama — hafal mereka.</li>
+  <li><strong>Tingkatkan penggoreng:</strong> Mempercepatkan proses memasak dan mengurangkan risiko hangus.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Biasa Cookingdom Level 41</h2>
+<ul>
+  <li>Donut terlalu masak — kawal masa dengan teliti.</li>
+  <li>Glaze atau topping salah — perhatikan pesanan dengan cermat.</li>
+  <li>Penggoreng tidak digunakan — menyebabkan gangguan kombo dan penurunan bintang.</li>
+</ul>
+`,
   },
+
   {
     id: 'cookingdom-game-level-42',
-    title: 'Cookingdom Level 42:<br>Mapo Tofu',
-    pageTitle: 'Cookingdom Level 42 - Panduan Mapo Tofu',
+    title: 'Panduan Cookingdom Level 42: Mapo Tofu',
+    pageTitle: 'Panduan Cookingdom Level 42: Mapo Tofu',
     pageSubtitle:
-      'Kuasaikan hidangan pedas dan berani Mapo Tofu, dengan tumpuan pada kemahiran wok dan pengurusan rempah dalam Level 42.',
+      'Kuasi masakan Cina pedas dan berani Mapo Tofu dengan fokus pada kemahiran menggoreng menggunakan wok dan pengurusan rempah di Level 42.',
     category: '41-50',
     publishDate: '2025-05-07',
     isSpecial: false,
     imageUrl: '/images/guides_42.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
-    iframeUrl: 'https://www.youtube.com/embed/bMS0DIO6nmo',
+    iframeUrl: 'https://www.youtube.com/embed/ekB2_ZAvJqg',
     seo: {
-      title: 'Cookingdom Level 42 Panduan: Mapo Tofu | Tips & Strategi',
+      title: 'Panduan Cookingdom Level 42: Mapo Tofu | Cookingdom.co',
       description:
-        'Kuasaikan Mapo Tofu dalam Level 42 Cookingdom. Dapatkan tips tentang memasak dengan wok, pengurusan rempah, mengendalikan tofu, dan menyajikan hidangan klasik Cina ini.',
+        'Kuasi Mapo Tofu di Level 42 Cookingdom. Dapatkan petua tentang memasak menggunakan wok, pengurusan rempah, pengendalian tauhu, dan penyajian hidangan Cina klasik ini.',
       keywords:
-        'Cookingdom, Level 42, Mapo Tofu, Makanan Cina, Masakan Sichuan, Tofu, Doubanjiang, Wok, Panduan, Strategi',
+        'Cookingdom Level 42, Mapo Tofu, Makanan Cina, Masakan Sichuan, Tauhu, Doubanjiang, Wok, Panduan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_42.webp',
@@ -4541,154 +4366,551 @@ kejayaan.</p>
         '<h3>Mapo Tofu</h3><p><strong>Kesukaran:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit 30 saat</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39<br>Spaghetti dengan Sos Krim Cendawan',
-          imageUrl: '/images/guides_39.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-        },
-        {
-          id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40<br>Beef Wellington',
-          imageUrl: '/images/guides_40.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
-        },
-        {
           id: 'cookingdom-game-level-41',
-          title: 'Cookingdom Level 41<br>Donut',
+          title: 'Panduan Cookingdom Level 41: Donut',
           imageUrl: '/images/guides_41.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+        },
+        {
+          id: 'cookingdom-game-level-43',
+          title: 'Panduan Cookingdom Level 43: Kuih Bulan',
+          imageUrl: '/images/guides_43.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p><strong>Level 42</strong> menampilkan hidangan pedas dan berani <strong>Mapo Tofu</strong>. Level ini memperkenalkan masakan menggunakan wok dan pengurusan rempah. Kecekapan dan perhatian terhadap urutan bahan adalah kunci kejayaan.</p>
-  
-  <h2 id="goal">🎯 Matlamat</h2>
-  <ul>
-    <li>Sajikan sekurang-kurangnya 26 hidangan Mapo Tofu</li>
-    <li>Menjaga kepuasan pelanggan 85% atau lebih tinggi</li>
-    <li>Lengkapkan dalam masa 3 minit 30 saat</li>
-  </ul>
-  
-  <h2 id="ingredients">🌶️ Bahan-bahan</h2>
-  <ul>
-    <li>Ketulan tofu lembut</li>
-    <li>Daging babi kisar atau daging berasaskan tumbuhan</li>
-    <li>Pasta kacang cili (doubanjiang)</li>
-    <li>Bawang putih, daun bawang</li>
-    <li>Opsyenal: Minyak lada Sichuan untuk rasa tambahan</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Langkah-langkah Strategi</h2>
-  <ol>
-    <li>Panaskan minyak dalam wok dan mulakan dengan daging babi kisar.</li>
-    <li>Tambah bawang putih dan pasta cili, kacau cepat-cepat untuk mengelakkan terbakar.</li>
-    <li>Masukkan tofu dengan perlahan dan biarkan ia mereneh sehingga kuah pekat.</li>
-    <li>Taburkan dengan daun bawang dan minyak lada jika suka, kemudian hidangkan.</li>
-    <li>Sentiasa sediakan batch seterusnya semasa batch yang pertama sedang dimasak untuk kekal pantas.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Tips Pro</h2>
-  <ul>
-    <li><strong>Jangan Kacau Tofu Terlalu Banyak:</strong> Tofu mudah hancur dan merosakkan kualiti hidangan.</li>
-    <li><strong>Memasak dalam Batch:</strong> Masak 2-3 bahagian sekali gus jika pesanan adalah serupa.</li>
-    <li><strong>Upgrade Wok:</strong> Wok yang lebih pantas mempercepatkan masa penyediaan dengan ketara.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Umum</h2>
-  <ul>
-    <li>Terlepas bawang putih atau pasta cili — mengurangkan rasa hidangan.</li>
-    <li>Memecahkan tofu dengan terlalu banyak kacauan — merosakkan tekstur dan menurunkan bintang.</li>
-    <li>Menghabiskan masa dengan memasak satu bahagian pada satu masa semasa waktu puncak.</li>
-  </ul>
-  `,
+<h2 id="overview">Gambaran Keseluruhan Level 42 Cookingdom</h2>
+<p><strong>Level 42 Cookingdom</strong> menampilkan hidangan Cina pedas dan berani iaitu <strong>Mapo Tofu</strong>. Level ini memperkenalkan kemahiran memasak menggunakan wok dan pengurusan rempah. Kecekapan dan perhatian terhadap urutan bahan penting untuk berjaya.</p>
+
+<h2 id="goal">🎯 Matlamat Level 42 Cookingdom</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 26 hidangan Mapo Tofu</li>
+  <li>Kekalkan kepuasan pelanggan sekurang-kurangnya 85%</li>
+  <li>Selesaikan dalam masa 3 minit 30 saat</li>
+</ul>
+
+<h2 id="ingredients">🌶️ Bahan-bahan Level 42 Cookingdom</h2>
+<ul>
+  <li>Kotak tauhu lembut</li>
+  <li>Daging cincang atau daging berasaskan tumbuhan</li>
+  <li>Pes kacang cili (doubanjiang)</li>
+  <li>Bawang putih, daun bawang</li>
+  <li>Opsyenal: Minyak lada Sichuan untuk rasa tambahan</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Level 42 Cookingdom</h2>
+<ol>
+  <li>Panaskan minyak dalam wok dan mula dengan daging cincang.</li>
+  <li>Masukkan bawang putih dan pes cili, kacau dengan cepat supaya tidak terbakar.</li>
+  <li>Masukkan tauhu dengan perlahan dan reneh sehingga kuah pekat.</li>
+  <li>Taburkan daun bawang dan minyak lada jika mahu, kemudian hidangkan.</li>
+  <li>Sediakan batch seterusnya semasa memasak untuk kekal pantas.</li>
+</ol>
+
+<h2 id="tips">🔥 Petua Profesional Level 42 Cookingdom</h2>
+<ul>
+  <li><strong>Jangan kacau tauhu terlalu banyak:</strong> Ia mudah hancur dan menjejaskan kualiti.</li>
+  <li><strong>Masak dalam batch:</strong> Masak 2-3 bahagian sekaligus jika pesanan serupa.</li>
+  <li><strong>Tingkatkan wok:</strong> Wok yang lebih cepat boleh mengurangkan masa penyediaan dengan ketara.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Biasa Level 42 Cookingdom</h2>
+<ul>
+  <li>Lupa bawang putih atau pes cili — mengurangkan rasa hidangan.</li>
+  <li>Mengacau tauhu terlalu banyak — merosakkan tekstur dan menurunkan bintang.</li>
+  <li>Buang masa memasak satu bahagian semasa waktu sibuk.</li>
+</ul>
+`,
   },
+
   {
     id: 'cookingdom-game-level-43',
-    title: 'Cookingdom Level 43:<br>Moon Cake',
-    pageTitle: 'Cookingdom Level 43 - Panduan Moon Cake',
+    title: 'Panduan Cookingdom Tahap 43 — Kuih Bulan',
+    pageTitle: 'Panduan Cookingdom Tahap 43 — Kuih Bulan',
     pageSubtitle:
-      'Kuasi Moon Cake yang halus dan meriah, menguji ketepatan dengan isian dan pemanggangan di Level 43.',
+      'Kuasi seni membuat Kuih Bulan yang tradisional dan istimewa — tepat dalam memilih inti dan masa membakar adalah kunci kejayaan!',
     category: '41-50',
     publishDate: '2025-05-07',
     isSpecial: false,
     imageUrl: '/images/guides_43.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
-    iframeUrl: 'https://www.youtube.com/embed/RetlPFno314',
+    iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY',
     seo: {
-      title: 'Cookingdom Level 43 Panduan: Moon Cake | Tips & Strategi',
+      title: 'Panduan Cookingdom Tahap 43: Kuih Bulan | Cookingdom.co',
       description:
-        'Kuasi Moon Cake di Level 43 Cookingdom. Dapatkan tips mengenai pemilihan isian, pencetakan, pemanggangan tepat, dan penyajian pencuci mulut tradisional ini.',
+        'Pelajari cara membuat Kuih Bulan dengan betul dalam Tahap 43 Cookingdom. Dapatkan tips tentang memilih inti, menggunakan acuan, membakar dan menyajikan kuih tradisional ini.',
       keywords:
-        'Cookingdom, Level 43, Moon Cake, Pencuci Mulut Cina, Makanan Perayaan, Memanggang, Isian, Acuan, Panduan, Strategi',
+        'Cookingdom Tahap 43, Kuih Bulan Cookingdom, Pencuci Mulut Cina, Kuih Tradisional, Membakar, Inti, Acuan, Panduan',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_43.webp',
       levelInfoHtml:
-        '<h3>Moon Cake</h3><p><strong>Kesukaran:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+        '<h3>Cookingdom Tahap 43 <br/> Kuih Bulan</h3><p><strong>Kesukaran:</strong> Sederhana ke tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40<br>Beef Wellington',
-          imageUrl: '/images/guides_40.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
-        },
-        {
-          id: 'cookingdom-game-level-41',
-          title: 'Cookingdom Level 41<br>Donut',
-          imageUrl: '/images/guides_41.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
-        },
-        {
           id: 'cookingdom-game-level-42',
-          title: 'Cookingdom Level 42<br>Mapo Tofu',
+          title: 'Panduan Cookingdom Tahap 42 — Mapo Tofu',
           imageUrl: '/images/guides_42.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
+        },
+        {
+          id: 'cookingdom-game-level-44',
+          title: 'Panduan Cookingdom Tahap 44 — Coklat',
+          imageUrl: '/images/guides_44.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
         },
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Permainan</h2>
-  <p><strong>Level 43</strong> meraikan tradisi dengan <strong>Moon Cake</strong> yang halus dan meriah. Level ini menguji ketepatan anda dengan jenis isian dan masa pemanggangan. Seimbangkan kelajuan dan ketepatan untuk memastikan kepuasan pelanggan dan memperoleh 3 bintang.</p>
-  
-  <h2 id="goal">🎯 Matlamat</h2>
-  <ul>
-    <li>Hidangkan sekurang-kurangnya 24 moon cake</li>
-    <li>Pastikan kepuasan pelanggan adalah 90% atau lebih</li>
-    <li>Selesaikan dalam masa 3 minit</li>
-  </ul>
-  
-  <h2 id="ingredients">🥮 Bahan-bahan</h2>
-  <ul>
-    <li>Adunan moon cake (pradiperbuat)</li>
-    <li>Isian: kacang merah, biji teratai, kunir telur masin</li>
-    <li>Acuan moon cake (mencetak corak di atas)</li>
-    <li>Ketuhar untuk memanggang</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Langkah demi Langkah Strategi</h2>
-  <ol>
-    <li>Pilih isian yang betul mengikut pesanan pelanggan.</li>
-    <li>Balutkan isian dalam adunan dan letakkan dalam acuan moon cake.</li>
-    <li>Cetak corak dan masukkan ke dalam ketuhar.</li>
-    <li>Perhatikan masa pemanggangan dengan teliti — moon cake yang tidak cukup masak atau terlalu masak akan mengurangkan mata.</li>
-    <li>Hidangkan segera selepas dipanggang. Sediakan batch seterusnya semasa menunggu.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Tips Profesional</h2>
-  <ul>
-    <li><strong>Pilih acuan terlebih dahulu:</strong> Sediakan acuan yang betul sebelum pesanan datang untuk menjimatkan masa.</li>
-    <li><strong>Gunakan kedua-dua slot ketuhar:</strong> Sentiasa pastikan ketuhar sibuk untuk mengelakkan masa rehat.</li>
-    <li><strong>Kemas kini kelajuan ketuhar:</strong> Pemanggangan yang lebih cepat membantu mengekalkan kombo semasa waktu sibuk.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Umum</h2>
-  <ul>
-    <li>Isian yang salah — semak semula ikon pesanan pelanggan sebelum membalut.</li>
-    <li>Moon cake terbakar — sentiasa berada berhampiran ketuhar semasa memanggang.</li>
-    <li>Adunan tidak dimasak — menyebabkan pembaziran masa persiapan dan memutuskan rantai kombo.</li>
-  </ul>
-  `,
+<h2 id="overview">Gambaran Umum Tahap 43</h2>
+<p><strong>Tahap 43 dalam Cookingdom</strong> meraikan tradisi dengan pencuci mulut istimewa — <strong>Kuih Bulan</strong>. Cabaran tahap ini adalah ketepatan memilih inti dan masa membakar. Seimbangkan kelajuan dan ketelitian untuk memastikan pelanggan berpuas hati dan mencapai 3 bintang.</p>
+
+<h2 id="goal">🎯 Matlamat Tahap 43</h2>
+<ul>
+  <li>Sediakan sekurang-kurangnya 24 kuih bulan</li>
+  <li>Kekalkan kepuasan pelanggan pada 90% atau lebih tinggi</li>
+  <li>Siapkan dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🥮 Bahan & Peralatan</h2>
+<ul>
+  <li>Doh kuih bulan (pra-campur)</li>
+  <li>Inti: kacang merah, biji teratai, kuning telur masin</li>
+  <li>Acuan kuih bulan (corak atas)</li>
+  <li>Oven untuk membakar</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Langkah Demi Langkah</h2>
+<ol>
+  <li>Pilih inti yang betul berdasarkan pesanan pelanggan.</li>
+  <li>Balut inti dalam doh dan masukkan ke dalam acuan kuih bulan.</li>
+  <li>Tekan corak dan masukkan ke dalam oven.</li>
+  <li>Perhatikan masa membakar — terlalu mentah atau hangus akan menjejaskan markah.</li>
+  <li>Sajikan segera selepas dibakar dan mula sediakan batch seterusnya.</li>
+</ol>
+
+<h2 id="tips">🔥 Tips Profesional</h2>
+<ul>
+  <li><strong>Sediakan acuan lebih awal:</strong> Pilih corak acuan sebelum pesanan datang untuk jimat masa.</li>
+  <li><strong>Gunakan kedua-dua slot oven:</strong> Pastikan oven sentiasa aktif untuk elak masa terbuang.</li>
+  <li><strong>Tingkatkan kelajuan oven:</strong> Membantu mengekalkan kombo semasa waktu sibuk.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Biasa</h2>
+<ul>
+  <li>Salah pilih inti — semak ikon pesanan pelanggan sebelum balut.</li>
+  <li>Kuih hangus — kekal dekat oven semasa membakar.</li>
+  <li>Doh tidak dibakar — membazir masa dan memutuskan kombo.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-44',
+    title: 'Cookingdom Level 44: Panduan Coklat',
+    pageTitle: 'Cookingdom Level 44: Panduan Coklat',
+    pageSubtitle:
+      'Kuasi seni pembuatan coklat — cairkan, bentuk, dan hidangkan dengan sempurna dalam cabaran manis dan kaya di Level 44 ini.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_44.webp', // Gambar tempat letak
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
+    iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Ganti dengan video sebenar
+    seo: {
+      title: 'Panduan Cookingdom Level 44: Coklat | Cookingdom.co',
+      description:
+        'Tawan Level 44 Cookingdom dengan belajar cara mencair, membentuk, dan menghidangkan coklat dengan cepat dan tepat. Tips dan trik untuk mendapat 3 bintang dalam cabaran manis ini.',
+      keywords:
+        'Cookingdom Level 44, Cookingdom Coklat, Panduan Permainan Coklat, Pembuatan Gula-gula, Tips Permainan Memasak, Level 44 Cookingdom',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_44.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 44 <br/> Coklat</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 2–3 minit</p><p><strong>Ganjaran:</strong> 3–4 Bintang (Anggaran)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-43',
+          title: 'Cookingdom Level 43: Panduan Kuih Bulan',
+          imageUrl: '/images/guides_43.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
+        },
+        {
+          id: 'cookingdom-game-level-45',
+          title: 'Cookingdom Level 45: Panduan Pastitsio',
+          imageUrl: '/images/guides_45.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Level 44 Cookingdom</h2>
+<p><strong>Cookingdom Level 44</strong> membawa anda ke dunia pembuatan coklat yang kaya. Dari mencairkan coklat hingga menggunakan acuan dan topping, level ini memerlukan ketepatan masa dan perhatian pada butiran. Bersiaplah untuk memuaskan pelanggan dengan manisan yang sempurna!</p>
+
+<h2 id="goal">🎯 Matlamat Level 44 Cookingdom</h2>
+<ul>
+  <li>Hidangkan sekurang-kurangnya 28 pencuci mulut coklat</li>
+  <li>Pastikan kepuasan pelanggan melebihi 85%</li>
+  <li>Selesaikan dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🍫 Bahan-bahan Level 44 Cookingdom</h2>
+<ul>
+  <li>Asas coklat susu</li>
+  <li>Asas coklat gelap</li>
+  <li>Infusi perisa: pudina, strawberi, karamel</li>
+  <li>Acuan coklat (hati, segi empat, pusingan)</li>
+  <li>Topping: kacang, taburan, beri</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Level 44 Cookingdom</h2>
+<ol>
+  <li>Pilih asas coklat yang betul mengikut pesanan pelanggan.</li>
+  <li>Tuangkan coklat cair ke dalam acuan yang dipilih.</li>
+  <li>Tambah infusi perisa jika diperlukan.</li>
+  <li>Hiasi dengan topping yang diminta sebelum disejukkan.</li>
+  <li>Hidangkan dengan cepat selepas coklat mengeras. Sementara menunggu, sediakan batch seterusnya.</li>
+</ol>
+
+<h2 id="tips">🔥 Tip Pro Level 44 Cookingdom</h2>
+<ul>
+  <li><strong>Panaskan pemanas coklat:</strong> Sentiasa pastikan kedua-dua asas coklat sentiasa hangat dan sedia digunakan.</li>
+  <li><strong>Ingat bentuk acuan:</strong> Biasakan diri dengan bentuk acuan untuk mempercepatkan pemilihan.</li>
+  <li><strong>Tingkatkan penyejuk:</strong> Penyejukan lebih cepat bermakna penghantaran lebih pantas dan kombo lebih baik.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Biasa di Level 44</h2>
+<ul>
+  <li>Gunakan asas coklat yang salah — sentiasa periksa ikon sebelum bermula.</li>
+  <li>Lupa topping — topping yang terlepas boleh merosakkan pencuci mulut.</li>
+  <li>Meninggalkan coklat dalam acuan terlalu lama — melambatkan pesanan dan memutuskan kombo.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-45',
+    title: 'Panduan Cookingdom Level 45: Pastitsio',
+    pageTitle: 'Panduan Cookingdom Level 45: Pastitsio',
+    pageSubtitle:
+      'Sediakan lapisan pasta, sos daging, dan sos béchamel berkrim dalam cabaran masakan bertemakan Greek ini.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_45.webp', // Gambar sementara
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
+    iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Gantikan dengan video sebenar
+    seo: {
+      title: 'Panduan Cookingdom Level 45: Pastitsio | Cookingdom.co',
+      description:
+        'Kuasi Pastitsio di Cookingdom Level 45. Pelajari cara menyusun pasta, sos daging, dan béchamel untuk hidangan Greek yang sempurna. Tips untuk dapatkan 3 bintang!',
+      keywords:
+        'Cookingdom Level 45, Pastitsio, Bakar Pasta Greek, Panduan Cookingdom, Sos Béchamel, Sos Daging, Strategi Permainan',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_45.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 45 <br/> Pastitsio</h3><p><strong>Kesukaran:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 3–4 minit</p><p><strong>Ganjaran:</strong> 3–4 Bintang (Anggaran)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-44',
+          title: 'Panduan Cookingdom Level 44: Coklat',
+          imageUrl: '/images/guides_44.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
+        },
+        {
+          id: 'cookingdom-game-level-46',
+          title: 'Panduan Cookingdom Level 46: Puding Ubi Manis Kenyal',
+          imageUrl: '/images/guides_46.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Level 45 Cookingdom</h2>
+<p><strong>Cookingdom Level 45</strong> mempersembahkan hidangan klasik Greek — <strong>Pastitsio</strong>. Hidangan pasta bakar ini mempunyai lapisan yang kaya dan menguji kemahiran multitugas serta masa anda. Imbangkan penyediaan dan penggunaan oven untuk memastikan kombo anda terus mantap.</p>
+
+<h2 id="goal">🎯 Matlamat Cookingdom Level 45</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 22 bahagian Pastitsio</li>
+  <li>Pastikan kepuasan pelanggan melebihi 85%</li>
+  <li>Selesaikan level dalam masa kurang daripada 4 minit</li>
+</ul>
+
+<h2 id="ingredients">🍝 Bahan-bahan Cookingdom Level 45</h2>
+<ul>
+  <li>Pasta tiub yang sudah dimasak (penne atau macaroni)</li>
+  <li>Sos daging cincang (daging lembu atau kambing)</li>
+  <li>Sos béchamel (sos putih berkrim)</li>
+  <li>Keju taburan (pilihan, tetapi meningkatkan skor)</li>
+  <li>Oven untuk membakar</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Cookingdom Level 45</h2>
+<ol>
+  <li>Susun pasta yang sudah dimasak dalam loyang pembakar.</li>
+  <li>Tambahkan sos daging di atas, kemudian lapisan tebal sos béchamel.</li>
+  <li>Taburkan keju jika diminta.</li>
+  <li>Bakar dalam oven sehingga keemasan.</li>
+  <li>Sajikan panas dan sediakan batch seterusnya semasa pembakaran.</li>
+</ol>
+
+<h2 id="tips">🔥 Petua Pakar Cookingdom Level 45</h2>
+<ul>
+  <li><strong>Atur batch anda secara berselang:</strong> Sentiasa ada satu dalam oven dan satu lagi dalam proses penyediaan.</li>
+  <li><strong>Tingkatkan kelajuan oven:</strong> Membakar dengan cepat adalah kunci untuk memenuhi permintaan.</li>
+  <li><strong>Ingat permintaan pelanggan:</strong> Sesetengah pelanggan tidak mahu keju — beri perhatian khusus.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Biasa di Level 45</h2>
+<ul>
+  <li>Susunan lapisan yang salah — sentiasa ikut pasta → daging → béchamel.</li>
+  <li>Memasak terlalu lama — boleh menyebabkan hidangan terbakar dan kehilangan mata.</li>
+  <li>Oven yang tidak beroperasi — pastikan oven sentiasa berjalan untuk elak kelewatan sajian.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-46',
+    title: 'Cookingdom Tahap 46: Panduan Puding Ubi Keledek Kenyal',
+    pageTitle: 'Cookingdom Tahap 46: Panduan Puding Ubi Keledek Kenyal',
+    pageSubtitle:
+      'Puaskan pelanggan dengan puding ubi keledek yang kenyal dan hangat. Kukus, kacau, dan hidangkan pencuci mulut sempurna dalam dapur yang pantas ini.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_46.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
+    iframeUrl: 'https://www.youtube.com/embed/arOpSIeqAlw',
+    seo: {
+      title: 'Cookingdom Tahap 46: Puding Ubi Keledek Kenyal | Cookingdom.co',
+      description:
+        'Pelajari cara menguasai Cookingdom Tahap 46 dan hidangkan Puding Ubi Keledek Kenyal yang lazat. Dapatkan tip pakar untuk mengacau, mengukus, dan mengatur masa pencuci mulut ini dengan tepat.',
+      keywords:
+        'Cookingdom Tahap 46, Puding Ubi Keledek, Pencuci Mulut Kenyal, Kukusan, Panduan Cookingdom, Strategi Permainan Memasak',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_46.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 46 <br/> Puding Ubi Keledek Kenyal</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 3 Bintang (Anggaran)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-45',
+          title: 'Cookingdom Tahap 45: Panduan Pastitsio',
+          imageUrl: '/images/guides_45.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
+        },
+        {
+          id: 'cookingdom-game-level-47',
+          title: 'Cookingdom Tahap 47: Panduan Kotak Makan Tengah Hari',
+          imageUrl: '/images/guides_47.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Tahap 46 Cookingdom</h2>
+<p><strong>Tahap 46 Cookingdom</strong> mempersembahkan cabaran lazat dengan <strong>Puding Ubi Keledek Kenyal</strong>. Pencuci mulut lembut dan melekit ini memerlukan masa yang tepat untuk mengukus dan mengacau bagi mengekalkan tekstur kenyal yang sempurna.</p>
+
+<h2 id="goal">🎯 Matlamat Tahap 46</h2>
+<ul>
+  <li>Hidangkan sekurang-kurangnya 25 puding</li>
+  <li>Pastikan kepuasan pelanggan melebihi 88%</li>
+  <li>Selesaikan tahap dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🍠 Bahan-bahan Tahap 46</h2>
+<ul>
+  <li>Ubi keledek yang telah dilenyek</li>
+  <li>Kanji tapioka atau tepung beras</li>
+  <li>Susu kelapa (untuk hiasan pilihan)</li>
+  <li>Pengukus</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Tahap 46</h2>
+<ol>
+  <li>Gaul ubi keledek lenyek dengan kanji untuk membuat adunan puding.</li>
+  <li>Sudukan adunan ke dalam acuan dan letakkan dalam pengukus.</li>
+  <li>Kukus sehingga lembut dan kenyal. Perhatikan masa dengan teliti!</li>
+  <li>Hidangkan dengan susu kelapa jika diminta.</li>
+  <li>Mulakan penyediaan adunan seterusnya semasa yang pertama sedang dikukus.</li>
+</ol>
+
+<h2 id="tips">🔥 Tip Pakar Tahap 46</h2>
+<ul>
+  <li><strong>Sentiasa pastikan pengukus penuh:</strong> Sentiasa ada puding sedang dimasak untuk elak masa terbuang.</li>
+  <li><strong>Sediakan adunan lebih awal:</strong> Kurangkan masa menunggu ketika tempoh pesanan tinggi.</li>
+  <li><strong>Perhatikan arahan hiasan:</strong> Tidak semua pesanan memerlukan susu kelapa — jimat masa bila boleh.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Lazim Tahap 46</h2>
+<ul>
+  <li>Pengukusan berlebihan — menyebabkan puding melekat atau hangus, mengurangkan kepuasan pelanggan.</li>
+  <li>Lupa hiasan — mengakibatkan markah rendah untuk pesanan yang memerlukan susu kelapa.</li>
+  <li>Masa mengadun yang tidak efisien — sediakan adunan awal untuk memastikan kelancaran proses.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-47',
+    title: 'Panduan Cookingdom Tahap 47: Kotak Makan Tengah Hari',
+    pageTitle: 'Panduan Cookingdom Tahap 47: Kotak Makan Tengah Hari',
+    pageSubtitle:
+      'Sediakan dan susun kotak makan tengah hari yang lazat dan seimbang di Tahap 47. Kekal teratur untuk mengurus pelbagai bahan dan memuaskan banyak pesanan pelanggan.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_47.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
+    iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',
+    seo: {
+      title: 'Panduan Cookingdom Tahap 47: Kotak Makan Tengah Hari | Cookingdom.co',
+      description:
+        'Kuasi Tahap 47 Cookingdom dengan menyediakan dan membungkus kotak makan tengah hari yang disesuaikan. Pelajari cara menguruskan nasi, protein, dan lauk dengan cekap untuk skor tertinggi.',
+      keywords:
+        'Cookingdom Tahap 47, Kotak Makan Tengah Hari, Permainan Bento, Panduan Cookingdom, Penyediaan Makanan, Strategi Memasak',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_47.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Tahap 47 <br/> Kotak Makan Tengah Hari</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-46',
+          title: 'Panduan Cookingdom Tahap 46: Puding Ubi Keledek Kenyal',
+          imageUrl: '/images/guides_46.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
+        },
+        {
+          id: 'cookingdom-game-level-48',
+          title: 'Panduan Cookingdom Tahap 48: Pasta Makanan Laut',
+          imageUrl: '/images/guides_48.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-48' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Permainan Cookingdom Tahap 47</h2>
+<p><strong>Cookingdom Tahap 47</strong> menguji kemahiran anda menyediakan dan membungkus <strong>Kotak Makan Tengah Hari</strong> dengan cekap. Setiap pesanan mungkin memerlukan kombinasi berbeza nasi, protein, sayur-sayuran, dan sos, menjadikan multitugas dan ketepatan amat penting.</p>
+
+<h2 id="goal">🎯 Matlamat Tahap 47</h2>
+<ul>
+  <li>Sediakan sekurang-kurangnya 20 kotak makan tengah hari</li>
+  <li>Kekalkan tahap kepuasan pelanggan melebihi 85%</li>
+  <li>Selesaikan tahap dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🍱 Bahan-bahan Tahap 47</h2>
+<ul>
+  <li>Nasi stim</li>
+  <li>Protein: ayam panggang, tauhu, atau udang</li>
+  <li>Sayur-sayuran: brokoli, lobak merah, edamame</li>
+  <li>Sos: teriyaki, bijan, atau pedas</li>
+  <li>Bekas kotak makan tengah hari</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Tahap 47</h2>
+<ol>
+  <li>Periksa pesanan pelanggan dengan teliti untuk bahan yang betul.</li>
+  <li>Isikan kotak makan tengah hari dengan nasi sebagai asas.</li>
+  <li>Tambah protein dan sayur yang diperlukan.</li>
+  <li>Sirami dengan sos yang diminta.</li>
+  <li>Sajikan dengan cepat dan sediakan pesanan seterusnya semasa animasi.</li>
+</ol>
+
+<h2 id="tips">🔥 Tip Pro Tahap 47</h2>
+<ul>
+  <li><strong>Kumpulkan pesanan serupa:</strong> Jika beberapa pelanggan mahu kotak yang sama, sediakan bersama.</li>
+  <li><strong>Gunakan jalan pintas:</strong> Hafal kombinasi biasa untuk membuat lebih cepat semasa waktu sibuk.</li>
+  <li><strong>Masak protein awal:</strong> Pastikan semua protein siap sebelum pelanggan tiba.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Lazim Tahap 47</h2>
+<ul>
+  <li>Sos salah — sentiasa periksa ikon pelanggan sebelum menghabiskan kotak.</li>
+  <li>Kurang sayur — melangkau lauk sampingan menurunkan skor pelanggan.</li>
+  <li>Menyediakan kotak yang salah — membazir masa dan ruang di bar penyediaan.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-48',
+    title: 'Panduan Cookingdom Level 48: Pasta Makanan Laut',
+    pageTitle: 'Panduan Cookingdom Level 48: Pasta Makanan Laut',
+    pageSubtitle:
+      'Masak Pasta Makanan Laut yang penuh rasa di Level 48. Uruskan merebus, menumis, dan menghidang untuk melayani pesanan makanan laut dengan cekap.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_48.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-48' } },
+    iframeUrl: 'https://www.youtube.com/embed/8xmYoVeTwnE',
+    seo: {
+      title: 'Panduan Cookingdom Level 48: Pasta Makanan Laut | Cookingdom.co',
+      description:
+        'Pelajari cara menguasai Level 48 Cookingdom dengan menyediakan Pasta Makanan Laut yang kaya dan sedap. Tips tentang masa, bahan, dan multitugas disertakan.',
+      keywords:
+        'Cookingdom Level 48, Pasta Makanan Laut, Pasta Cookingdom, Pasta Udang, Panduan Permainan Memasak',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_48.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 48 <br/> Pasta Makanan Laut</h3><p><strong>Kesukaran:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-47',
+          title: 'Panduan Cookingdom Level 47: Kotak Makan Tengah Hari',
+          imageUrl: '/images/guides_47.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Gambaran Keseluruhan Level 48 Cookingdom</h2>
+<p><strong>Cookingdom Level 48</strong> membawa anda ke rasa kaya dengan <strong>Pasta Makanan Laut</strong>. Level ini menguji kebolehan anda menguruskan merebus pasta, menumis makanan laut, dan menyelaras sos sambil mengekalkan kepuasan pelanggan yang tinggi.</p>
+
+<h2 id="goal">🎯 Matlamat Level 48 Cookingdom</h2>
+<ul>
+  <li>Sajikan sekurang-kurangnya 22 hidangan pasta makanan laut</li>
+  <li>Pastikan kepuasan melebihi 88%</li>
+  <li>Selesaikan dalam masa 3 minit</li>
+</ul>
+
+<h2 id="ingredients">🍤 Bahan-bahan Level 48 Cookingdom</h2>
+<ul>
+  <li>Mi spageti</li>
+  <li>Campuran makanan laut: udang, sotong, kerang</li>
+  <li>Sos mentega bawang putih, sos tomato</li>
+  <li>Hiasan daun pasli (pilihan bonus)</li>
+  <li>Piring untuk menghidang</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Level 48 Cookingdom</h2>
+<ol>
+  <li>Mula dengan merebus mi — sentiasa pastikan satu periuk mendidih.</li>
+  <li>Tumis campuran makanan laut yang betul mengikut pesanan.</li>
+  <li>Gaulkan pasta dan makanan laut yang sudah dimasak dengan sos yang dipilih.</li>
+  <li>Hidang dengan cepat — gunakan hiasan daun pasli untuk mata bonus jika diminta.</li>
+  <li>Susun pesanan pasta atau makanan laut yang seterusnya semasa hidangan sebelumnya dimasak.</li>
+</ol>
+
+<h2 id="tips">🔥 Tips Pro Level 48 Cookingdom</h2>
+<ul>
+  <li><strong>Sentiasa rebus terlebih dahulu:</strong> Jangan tunggu pesanan untuk mula merebus mi — rebus awal bila boleh.</li>
+  <li><strong>Panaskan kuali:</strong> Pastikan satu kuali sentiasa panas untuk kurangkan masa menunggu antara hidangan.</li>
+  <li><strong>Hiasan tambahan:</strong> Menambah daun pasli apabila diminta memberi mata bonus dan menaikkan penarafan bintang.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Kesilapan Lazim di Level 48</h2>
+<ul>
+  <li>Mi kurang masak — jangan tergesa-gesa atau anda akan hilang mata.</li>
+  <li>Sos salah — sentiasa padankan ikon sos yang ditunjukkan dalam pesanan.</li>
+  <li>Dapur terlalu sesak — masa memasak yang tidak terurus boleh mengganggu aliran hidangan.</li>
+</ul>
+`,
   },
 ]

@@ -59,8 +59,8 @@
 <script setup>
 // Import ref and computed from Vue, and RouterLink from vue-router
 // Import ref, computed, and defineProps from Vue
-import { ref, computed, defineProps } from 'vue'
-import { RouterLink } from 'vue-router'
+import { ref, computed, defineProps, onMounted, watch } from 'vue'
+import { RouterLink, useRoute } from 'vue-router'
 // 移除静态导入
 // import allGuidesData from '@/datas/guides.json'
 // 移除 useGuides composable 导入
@@ -85,16 +85,79 @@ const props = defineProps({
   },
 })
 
-// 不再需要调用 useGuides
-// const { guides: allGuides, isLoading, error } = useGuides()
+// 获取当前路由
+const route = useRoute()
 
-// Ref to track the active tab - default to 'special' now
-const activeTab = ref('special')
+// 使用localStorage存储和恢复tab状态
+const STORAGE_KEY = 'cookingdom-active-tab'
+
+// 从localStorage获取保存的tab，如果没有则默认为'special'
+const getSavedTab = () => {
+  try {
+    const savedTab = localStorage.getItem(STORAGE_KEY)
+    return savedTab || 'special'
+  } catch (e) {
+    console.error('Error accessing localStorage:', e)
+    return 'special'
+  }
+}
+
+// 根据guide ID确定应该属于哪个tab
+const getCategoryTabForGuide = (guideId) => {
+  if (!props.guides || !guideId) return null
+
+  // 查找匹配的guide
+  const guide = props.guides.find((g) => g.id === guideId)
+  if (!guide) return null
+
+  // 返回guide的category
+  return guide.category
+}
+
+// 检查URL中是否有guide ID，如果有则自动切换到对应的tab
+const autoSelectTabFromUrl = () => {
+  // 如果是从详情页返回，检查localStorage中是否有记录的最后访问的guideId
+  const lastViewedGuideId = localStorage.getItem('last-viewed-guide-id')
+  if (lastViewedGuideId) {
+    const categoryTab = getCategoryTabForGuide(lastViewedGuideId)
+    if (categoryTab) {
+      // 清除最后访问的guideId
+      localStorage.removeItem('last-viewed-guide-id')
+      // 设置tab
+      return categoryTab
+    }
+  }
+
+  // 如果没有最后访问的guideId或找不到对应的tab，则使用保存的tab
+  return getSavedTab()
+}
+
+// Ref to track the active tab - 根据URL或localStorage获取初始值
+const activeTab = ref(autoSelectTabFromUrl())
 
 // Function to change the active tab
 const setActiveTab = (tab) => {
   activeTab.value = tab
+  // 保存到localStorage
+  try {
+    localStorage.setItem(STORAGE_KEY, tab)
+  } catch (e) {
+    console.error('Error saving to localStorage:', e)
+  }
 }
+
+// 监听路由变化，当返回到guides页面时自动选择正确的tab
+watch(
+  () => route.path,
+  (newPath) => {
+    if (newPath === '/guides') {
+      const newTab = autoSelectTabFromUrl()
+      if (newTab && newTab !== activeTab.value) {
+        setActiveTab(newTab)
+      }
+    }
+  }
+)
 
 // Define the regex for removing <br> tags
 const brRegex = /<br\s*\/?\s*>/gi
@@ -307,4 +370,4 @@ const filteredGuides = computed(() => {
 .error-message {
   color: #dc3545; /* Bootstrap danger color */
 }
-</style> 
+</style>

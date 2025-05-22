@@ -1,13 +1,26 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { useRouter, useRoute, RouterLink } from 'vue-router'
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 // 导入 i18n 配置中导出的变量
 import { supportedLangs, defaultLang } from '@/i18n'
 
 const { locale, t } = useI18n() // 获取当前的 locale ref and t function
 const router = useRouter()
 const route = useRoute()
+
+// 控制移动端菜单的显示状态
+const isMobileMenuOpen = ref(false)
+
+// 切换移动端菜单的显示状态
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value
+}
+
+// 关闭移动端菜单
+const closeMobileMenu = () => {
+  isMobileMenuOpen.value = false
+}
 
 // 当前选择的语言，用于 v-model 绑定到 select
 const currentLocale = locale // 直接使用 i18n 的 locale ref
@@ -106,32 +119,85 @@ function changeLocale(event) {
   <header class="header">
     <div class="container">
       <div class="logo"><img src="/logo.webp" alt="" />{{ t('header.logo') }}</div>
-      <nav>
+
+      <!-- 桌面端导航 -->
+      <nav class="desktop-nav">
         <ul>
           <li>
-            <RouterLink :to="homeRoute">{{ t('nav.home') }}</RouterLink>
+            <RouterLink :to="homeRoute" @click="closeMobileMenu">{{ t('nav.home') }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="guidesRoute">{{ t('nav.guides') }}</RouterLink>
+            <RouterLink :to="guidesRoute" @click="closeMobileMenu">{{
+              t('nav.guides')
+            }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="blogRoute">{{ t('nav.blog') }}</RouterLink>
+            <RouterLink :to="blogRoute" @click="closeMobileMenu">{{ t('nav.blog') }}</RouterLink>
           </li>
           <li>
-            <RouterLink :to="downloadRoute">{{ t('nav.download') }}</RouterLink>
+            <RouterLink :to="downloadRoute" @click="closeMobileMenu">{{
+              t('nav.download')
+            }}</RouterLink>
           </li>
         </ul>
       </nav>
 
-      <div class="mascot-placeholder-header">
-        <!-- Placeholder for the small mascot -->
-        <img
-          src="https://placehold.co/50x50/ff85a2/ffffff?text=:)"
-          alt="Mascot"
-          style="width: 50px; opacity: 0.7"
-        />
+      <div class="header-right">
+        <div class="mascot-placeholder-header">
+          <!-- Placeholder for the small mascot -->
+          <img
+            src="https://placehold.co/50x50/ff85a2/ffffff?text=:)"
+            alt="Mascot"
+            style="width: 50px; opacity: 0.7"
+          />
 
-        <!-- 语言切换下拉框 -->
+          <!-- 语言切换下拉框 -->
+          <div class="language-switcher">
+            <select v-model="currentLocale" @change="changeLocale">
+              <option v-for="lang in languageOptions" :key="lang.code" :value="lang.code">
+                {{ lang.name }}
+              </option>
+            </select>
+          </div>
+
+          <!-- 汉堡菜单按钮 -->
+          <button class="hamburger-menu" @click="toggleMobileMenu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 移动端导航抽屉 -->
+    <div
+      class="mobile-nav-overlay"
+      :class="{ active: isMobileMenuOpen }"
+      @click="closeMobileMenu"
+    ></div>
+    <nav class="mobile-nav" :class="{ open: isMobileMenuOpen }">
+      <div class="mobile-nav-header">
+        <div class="logo"><img src="/logo.webp" alt="" />{{ t('header.logo') }}</div>
+        <button class="close-menu" @click="closeMobileMenu" aria-label="Close menu">×</button>
+      </div>
+      <ul>
+        <li>
+          <RouterLink :to="homeRoute" @click="closeMobileMenu">{{ t('nav.home') }}</RouterLink>
+        </li>
+        <li>
+          <RouterLink :to="guidesRoute" @click="closeMobileMenu">{{ t('nav.guides') }}</RouterLink>
+        </li>
+        <li>
+          <RouterLink :to="blogRoute" @click="closeMobileMenu">{{ t('nav.blog') }}</RouterLink>
+        </li>
+        <li>
+          <RouterLink :to="downloadRoute" @click="closeMobileMenu">{{
+            t('nav.download')
+          }}</RouterLink>
+        </li>
+      </ul>
+      <!-- <div class="mobile-nav-footer">
         <div class="language-switcher">
           <select v-model="currentLocale" @change="changeLocale">
             <option v-for="lang in languageOptions" :key="lang.code" :value="lang.code">
@@ -139,8 +205,8 @@ function changeLocale(event) {
             </option>
           </select>
         </div>
-      </div>
-    </div>
+      </div> -->
+    </nav>
   </header>
 </template>
 
@@ -180,7 +246,13 @@ function changeLocale(event) {
   margin-right: 0.5rem;
 }
 
-.header nav ul {
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* 桌面端导航样式 */
+.desktop-nav ul {
   list-style: none;
   display: flex;
   gap: 1.8rem; /* Slightly reduced gap */
@@ -188,7 +260,7 @@ function changeLocale(event) {
   padding: 0; /* Reset padding */
 }
 
-.header nav a {
+.desktop-nav a {
   text-decoration: none;
   color: #7c6f9f;
   font-weight: 500;
@@ -196,9 +268,121 @@ function changeLocale(event) {
   font-size: 0.95rem; /* Slightly smaller links */
 }
 
-.header nav a:hover {
+.desktop-nav a:hover {
   color: #ff85a2;
 }
+
+.desktop-nav a.router-link-active {
+  color: #ff85a2; /* Example active color */
+  font-weight: bold;
+}
+
+/* 汉堡菜单按钮样式 */
+.hamburger-menu {
+  display: none; /* 默认隐藏 */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  z-index: 1001;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: #7c6f9f;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* 移动端导航样式 */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -280px; /* 初始位置在屏幕外 */
+  width: 280px;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1002;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-nav.open {
+  right: 0; /* 显示导航 */
+}
+
+.mobile-nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mobile-nav-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #f0eaff;
+}
+
+.close-menu {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #7c6f9f;
+  cursor: pointer;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.mobile-nav li {
+  margin-bottom: 1rem;
+}
+
+.mobile-nav a {
+  display: block;
+  text-decoration: none;
+  color: #7c6f9f;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.mobile-nav a:hover,
+.mobile-nav a.router-link-active {
+  color: #ff85a2;
+}
+
+.mobile-nav-footer {
+  padding: 1rem;
+  border-top: 1px solid #f0eaff;
+}
+
 .mascot-placeholder-header {
   display: flex;
   align-items: center;
@@ -211,6 +395,7 @@ function changeLocale(event) {
   opacity: 0.7;
   animation: bounce-small 2s infinite ease-in-out;
 }
+
 .language-switcher {
   margin-left: 1rem; /* 在导航和 mascot 之间添加一些间距 */
 }
@@ -230,12 +415,6 @@ function changeLocale(event) {
   border-color: #ff85a2;
 }
 
-/* Add active link styling if needed */
-.header nav a.router-link-active {
-  color: #ff85a2; /* Example active color */
-  font-weight: bold;
-}
-
 /* --- Media Queries --- */
 
 /* Tablet Styles (<= 1024px) */
@@ -244,10 +423,10 @@ function changeLocale(event) {
     max-width: 90%;
     padding: 0 1.5rem; /* More padding */
   }
-  .header nav ul {
+  .desktop-nav ul {
     gap: 1rem;
   }
-  .header nav a {
+  .desktop-nav a {
     font-size: 0.9rem;
   }
   .logo {
@@ -258,48 +437,54 @@ function changeLocale(event) {
 /* Mobile Styles (<= 767px) */
 @media (max-width: 767px) {
   .header {
-    padding: 0.8rem 0; /* Increase padding slightly for two lines */
-    position: static;
+    padding: 0.8rem 0;
   }
+
   .header > .container {
     padding: 0 1rem;
-    flex-wrap: wrap; /* Allow items to wrap */
-    justify-content: center; /* Center items horizontally */
-    row-gap: 0rem; /* Add gap between logo row and nav row */
+    margin: 0;
+    max-width: 100%;
+    justify-content: space-between;
   }
+
   .logo {
     font-size: 1.2rem;
-    width: 100%; /* Allow logo to take full width initially */
-    order: 1;
-    text-align: center; /* Center logo text */
-    margin-bottom: 0; /* Add space below logo */
   }
-  .header nav {
-    display: block; /* Ensure nav is displayed */
-    width: 100%; /* Nav takes full width */
-    order: 3; /* Place nav after logo (and mascot if it existed) */
-  }
-  .header nav ul {
-    justify-content: center; /* Center nav items */
-    gap: 0.8rem; /* Adjust gap for mobile */
-    flex-wrap: wrap; /* Allow nav items to wrap too if needed */
-  }
-  .header nav a {
-    font-size: 0.85rem; /* Adjust link size */
-  }
-  .mascot-placeholder-header img {
-    /* Keep hidden on mobile or adjust as needed */
+
+  /* 隐藏桌面导航 */
+  .desktop-nav {
     display: none;
   }
-  .language-switcher {
-    order: 2; /* 在移动视图中，让它排在 logo 下方，导航之前 */
-    margin-left: 0;
-    margin-bottom: 0; /* 添加一些底部间距 */
-    width: auto; /* 不要占满整行 */
-    display: inline-block; /* 允许居中 */
+
+  /* 显示汉堡菜单按钮 */
+  .hamburger-menu {
+    display: block;
   }
-  .header nav {
-    order: 3; /* 导航在切换器之后 */
+
+  .mascot-placeholder-header img {
+    display: none; /* 隐藏吉祥物 */
+  }
+
+  .language-switcher {
+    margin-left: 0;
+  }
+
+  .mascot-placeholder-header {
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+
+  /* 移动端导航样式调整 */
+  .mobile-nav {
+    width: 250px; /* 稍微窄一点 */
+  }
+
+  .mobile-nav-header .logo {
+    font-size: 1.1rem;
+  }
+
+  .mobile-nav a {
+    font-size: 1rem;
   }
 }
 
@@ -318,4 +503,4 @@ function changeLocale(event) {
     transform: translateY(-3px);
   }
 }
-</style> 
+</style>

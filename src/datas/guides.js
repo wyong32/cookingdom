@@ -1,8 +1,8 @@
 export const guides = [
   {
     id: 'cookingdom-game-level-1',
-    title: 'Cookingdom Level 1<br />First Pizza',
-    pageTitle: 'Cookingdom Level 1 -First Pizza Guide',
+    title: 'Cookingdom Level 1 First Pizza Guide',
+    pageTitle: 'Cookingdom Level 1 First Pizza Guide',
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
@@ -23,15 +23,12 @@ export const guides = [
       featuredGuides: [
         {
           id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Simple Salad',
+          title: 'Cookingdom Level 2 Fried Potatos Walkthrough',
           imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br/>Popcorn',
-          imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-2' },
+          },
         },
       ],
     },
@@ -74,100 +71,30 @@ export const guides = [
 <p>Making the first pizza is an introductory task in Cookingdom. It familiarizes you with cooking and serving basics, ingredient management, cooking time control, and customer needs. The goal is to understand basic time management and preparation skills for more complex levels ahead.</p>
 <p>Completing Level 1 grants coins and score rewards, unlocking more kitchen equipment and recipes for a richer game experience.</p>`,
   },
+
   {
     id: 'cookingdom-game-level-2',
-    title: 'Cookingdom Level 2<br />Simple Salad',
-    pageTitle: 'Cookingdom Level 2 - Simple Salad Guide',
-    pageSubtitle: 'Learn to make quick and easy salads in Cookingdom Level 2.',
-    category: '01-10',
-    publishDate: '2025-05-03',
-    isSpecial: true,
-    imageUrl: '/images/guides_02.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-    iframeUrl: 'https://www.youtube.com/embed/9o1UmXbb_JU',
-    seo: {
-      title: 'Cookingdom Level 2 Guide - Simple Salad',
-      description:
-        'Master the simple salad recipe in Cookingdom Level 2. Learn about ingredients, dressing, and fast customer service.',
-      keywords: 'cookingdom, level 2, simple salad, guide, salad recipe, time management',
-    },
-    sidebarData: {
-      sidebarImageUrl: '/images/guides_02.webp',
-      levelInfoHtml:
-        '<h3>Simple Salad</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Est. Time:</strong> 1.5 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
-      featuredGuides: [
-        {
-          id: 'cookingdom-game-level-1',
-          title: 'Cookingdom Level 1<br/>First Pizza',
-          imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br/>Popcorn',
-          imageUrl: '/images/guides_11.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-        },
-      ],
-    },
-    detailsHtml: `<h2>Game Introduction</h2>
-<p>In Level 2 of Cookingdom, players learn to make a simpler dish – salad. Compared to pizza, salad preparation is easier, but it requires players to manage the kitchen and customer demands more efficiently, especially as customer numbers increase, making time management crucial.</p>
-<h2>Level 2 Goal</h2>
-<ul>
-  <li><strong>Make Simple Salad:</strong> Salad is a basic dish, typically consisting of base vegetables, dressing, and some toppings. Players learn to quickly prepare salads and deliver them on time.</li>
-  <li><strong>Master Salad Ingredients:</strong> Salad doesn't require ovens or complex cooking, but needs different vegetables and dressings. Understanding and using these ingredients is key.</li>
-  <li><strong>Handle Customer Demands:</strong> Salads are quicker to make than pizzas, and customer demands change faster. Players need to prep ingredients and serve quickly.</li>
-</ul>
-<h2>Salad Making Steps</h2>
-<h3>Prepare Ingredients:</h3>
-<p>Basic ingredients usually include lettuce, cucumber, tomatoes, carrots, etc. Each customer might have different preferences (e.g., more lettuce, less cucumber).</p>
-<ul>
-  <li>Select corresponding vegetables from the salad ingredient area based on customer orders and place them in the salad bowl.</li>
-</ul>
-<h3>Add Dressing:</h3>
-<p>Dressings like Thousand Island or Vinaigrette are key. Choose the right one based on customer preference.</p>
-<ul>
-  <li><strong>Tip:</strong> Selecting the wrong dressing dissatisfies customers and lowers scores.</li>
-</ul>
-<h3>Mix the Salad:</h3>
-<p>Mix the ingredients and dressing evenly. While simple, proper mixing enhances taste and satisfaction.</p>
-<h3>Serve to Customer:</h3>
-<p>Deliver the finished salad to the customer's table promptly within their waiting time to avoid lowering satisfaction.</p>
-<ul>
-  <li><strong>Note:</strong> Salads are faster to make than pizza, reducing customer wait times and giving you more time for other orders.</li>
-</ul>
-<h2>Tips and Tricks</h2>
-<ul>
-  <li><strong>Prepare Ingredients in Advance:</strong> Despite quick prep time, prepping vegetables and dressings ahead helps efficiency, especially with frequent demand changes. Prep for the next salad while one is mixing.</li>
-  <li><strong>Serve Quickly:</strong> Minimize wait times. Fast preparation and delivery boost satisfaction and scores.</li>
-  <li><strong>Master Customer Preferences:</strong> Pay attention to specific requests for ingredients or dressings. Quickly identify and fulfill preferences.</li>
-  <li><strong>Use Boosters:</strong> Use in-game items to speed up ingredient prep or cooking, especially helpful with multiple simultaneous customers.</li>
-  <li><strong>Upgrade Equipment:</strong> Use coins to upgrade kitchen equipment. While salads don't need complex devices like ovens, improving workbench efficiency helps handle more orders.</li>
-</ul>
-<h2>Summary</h2>
-<p>Level 2 focuses on mastering the simple salad process. Although easier than pizza, it demands efficient time management and ingredient prep. This level helps you adapt to high-efficiency kitchen operations, handling multiple customers and their varied needs.</p>
-<p>Completing Level 2 unlocks more recipes and equipment, preparing you for more challenging levels.</p>`,
-  },
-  {
-    id: 'cookingdom-game-level-3',
-    title: 'Cookingdom Level 3<br />Fried Potatoes',
-    pageTitle: 'Cookingdom Level 3 - Fried Potatoes Guide',
+    title: 'Cookingdom Level 2 Fried Potatos Walkthrough',
+    pageTitle: 'Cookingdom Level 2 Fried Potatos Walkthrough',
     pageSubtitle: 'Learn to make crispy fried potatoes in Cookingdom Level 3.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
-    imageUrl: '/images/guides_03.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
-    iframeUrl: 'https://www.youtube.com/embed/oWpl7YwOYbw',
+    imageUrl: '/images/guides_02.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-2' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/oCegSIHLMNE',
     seo: {
-      title: 'Cookingdom Level 3 Guide - Fried Potatoes',
+      title: 'Cookingdom Level 2 Guide - Fried Potatoes',
       description:
-        'Master fried potatoes in Cookingdom Level 3. Learn about frying techniques, managing multiple customers, and kitchen efficiency.',
+        'Master fried potatoes in Cookingdom Level 2. Learn about frying techniques, managing multiple customers, and kitchen efficiency.',
       keywords:
-        'cookingdom, level 3, fried potatoes, guide, frying, time management, kitchen efficiency',
+        'cookingdom, level 2, fried potatoes, guide, frying, time management, kitchen efficiency',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_03.webp',
+      sidebarImageUrl: '/images/guides_02.webp',
       levelInfoHtml:
         '<h3>Fried Potatoes</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Est. Time:</strong> 2 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
       featuredGuides: [
@@ -175,19 +102,25 @@ export const guides = [
           id: 'cookingdom-game-level-1',
           title: 'Cookingdom Level 1<br/>First Pizza',
           imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-1' },
+          },
         },
         {
-          id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Simple Salad',
-          imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
+          id: 'cookingdom-game-level-3',
+          title: 'Cookingdom Level 3 Rolled Ice-Cream Walkthrough',
+          imageUrl: '/images/guides_03.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-3' },
+          },
         },
       ],
     },
     detailsHtml: `<h2>Game Introduction</h2>
-<p>In Level 3, players learn to make Fried Potatoes. While relatively simple, it requires more time management and detailed operation, especially with complex customer demands. This level introduces the frying process, teaching players to use kitchen equipment to speed up cooking and serve delicious fries.</p>
-<h2>Level 3 Goal</h2>
+<p>In Level 2, players learn to make Fried Potatoes. While relatively simple, it requires more time management and detailed operation, especially with complex customer demands. This level introduces the frying process, teaching players to use kitchen equipment to speed up cooking and serve delicious fries.</p>
+<h2>Level 2 Goal</h2>
 <ul>
   <li><strong>Make Fried Potatoes:</strong> Master the correct frying process using the fryer, even though it lacks the complex steps of an oven.</li>
   <li><strong>Handle Multiple Customers:</strong> Expect more customers than in previous levels, requiring quick handling of multiple orders and efficient service.</li>
@@ -221,118 +154,182 @@ export const guides = [
 <p>Level 3's fried potato making is simple but demands efficient kitchen management and time control. You'll learn to operate frying equipment and handle multiple customer needs. As the game progresses, facing more diverse dishes and complex tasks, improving kitchen efficiency is crucial for success.</p>
 <p>Completing Level 3 unlocks more recipes and equipment, preparing you for higher difficulty levels.</p>`,
   },
+
+  {
+    id: 'cookingdom-game-level-3',
+    title: 'Cookingdom Level 3 Rolled Ice-Cream Walkthrough',
+    pageTitle: 'Cookingdom Level 3 Rolled Ice-Cream Walkthrough',
+    pageSubtitle: 'Master the art of rolling ice cream in Cookingdom Level 3.',
+    category: '01-10',
+    publishDate: '2025-05-03',
+    isSpecial: false,
+    imageUrl: '/images/guides_03.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-3' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/AKOuNnLSb88',
+    seo: {
+      title: 'Cookingdom Level 3 Guide - Rolled Ice Cream',
+      description:
+        'Learn how to make rolled ice cream in Cookingdom Level 3. Follow tips on freezing, rolling, topping, and serving to satisfy your customers quickly.',
+      keywords:
+        'cookingdom, level 3, rolled ice cream, guide, freezing, toppings, dessert, time management',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_03.webp',
+      levelInfoHtml:
+        '<h3>Rolled Ice Cream</h3><p><strong>Difficulty:</strong> Moderate</p><p><strong>Est. Time:</strong> 3 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-2',
+          title: 'Cookingdom Level 2 Fried Potatos Walkthrough',
+          imageUrl: '/images/guides_02.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-2' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-4',
+          title: 'Cookingdom-Level-4-Simple-Salad-Walkthrough',
+          imageUrl: '/images/guides_04.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-4' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Game Introduction</h2>
+<p>Level 3 introduces players to the fun of making Rolled Ice Cream. This dessert requires more precision and timing, and teaches players how to use freezing plates, control consistency, and decorate with toppings.</p>
+<h2>Level 3 Goal</h2>
+<ul>
+  <li><strong>Master the Roll:</strong> Pour and freeze the ice cream base, then roll it with precision to make visually appealing desserts.</li>
+  <li><strong>Use Toppings Creatively:</strong> Add fruit, candy, or sauces to increase customer satisfaction.</li>
+  <li><strong>Time and Sequence:</strong> Manage the freezing and rolling process efficiently to avoid delays.</li>
+</ul>
+<h2>Rolled Ice Cream Making Steps</h2>
+<h3>Prepare the Base:</h3>
+<p>Select the right ice cream base from the ingredient area. Pour it evenly onto the cold plate for freezing.</p>
+<ul>
+  <li><strong>Tip:</strong> Spread the mixture thin for faster freezing and easier rolling.</li>
+</ul>
+<h3>Freeze and Roll:</h3>
+<p>Let the base freeze on the plate. Use the spatula to scrape and roll the frozen layer into curls.</p>
+<ul>
+  <li>Watch carefully—start rolling once the base is firm but not rock solid.</li>
+  <li><strong>Tip:</strong> Smooth, even rolling boosts customer ratings and makes serving quicker.</li>
+</ul>
+<h3>Add Toppings:</h3>
+<p>Choose from toppings like strawberries, chocolate syrup, or sprinkles. Add them quickly before serving.</p>
+<h3>Serve to Customer:</h3>
+<p>Deliver the decorated ice cream rolls immediately. Presentation and speed affect satisfaction scores.</p>
+<h2>Tips and Tricks</h2>
+<ul>
+  <li><strong>Work in Batches:</strong> Prepare multiple bases and freeze in sequence to keep production steady during rushes.</li>
+  <li><strong>Watch the Freezing:</strong> Timing is critical. If the base is under-frozen, it won’t roll well; if over-frozen, it’s hard to shape.</li>
+  <li><strong>Decorate Fast:</strong> Have toppings ready to add right after rolling. This minimizes time and maximizes customer delight.</li>
+  <li><strong>Upgrade Equipment:</strong> Unlock faster freezers or better spatulas to reduce effort and speed up the process.</li>
+</ul>
+<h2>Summary</h2>
+<p>Cookingdom Level 3 elevates the gameplay with the unique technique of making rolled ice cream. You’ll learn to balance freezing time, rolling skills, and toppings to craft the perfect treat. With practice, you’ll be able to serve quickly and beautifully under time pressure. Get ready for more advanced dishes in future levels!</p>`,
+  },
+
   {
     id: 'cookingdom-game-level-4',
-    title: 'Cookingdom Level 4:<br>Rolled Ice-cream',
-    pageTitle: 'Cookingdom Level 4 - Rolled Ice-cream Guide',
-    pageSubtitle: 'Learn the art of making perfect rolled ice-cream in Cookingdom Level 4.',
+    title: 'Cookingdom Level 4 Simple Salad Walkthrough',
+    pageTitle: 'Cookingdom Level 4 Simple Salad Walkthrough',
+    pageSubtitle: 'Prepare a fresh and healthy Simple Salad in Cookingdom Level 4.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_04.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
-    iframeUrl: 'https://www.youtube.com/embed/ndEW4RcERyI',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-4' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/gwdtg5SY7qo',
     seo: {
-      title: 'Cookingdom Level 4 Guide: Rolled Ice-cream | Tips & Strategy',
+      title: 'Cookingdom Level 4 Guide - Simple Salad',
       description:
-        'Master Level 4 in Cookingdom! Learn how to make delicious Rolled Ice-cream with our step-by-step guide, freezing tips, and ingredient combinations.',
-      keywords: 'cookingdom, level 4, rolled ice-cream, guide, freezing, toppings, strategy',
+        'Learn how to prepare a fresh Simple Salad in Cookingdom Level 4. Follow this guide to chop, mix, and serve salads quickly and efficiently.',
+      keywords:
+        'cookingdom, level 4, simple salad, guide, chopping, mixing, healthy food, kitchen speed',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_04.webp',
       levelInfoHtml:
-        '<h3>Rolled Ice-cream</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 2.5 minutes</p><p><strong>Reward:</strong> 4 Stars</p>',
+        '<h3>Simple Salad</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Est. Time:</strong> 2–3 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-1',
-          title: 'Cookingdom Level 1<br/>First Pizza',
-          imageUrl: '/images/guides_01.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
-        },
-        {
-          id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Simple Salad',
-          imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-        },
-        {
           id: 'cookingdom-game-level-3',
-          title: 'Cookingdom Level 3<br/>Fried Potatoes',
+          title: 'Cookingdom Level 3 Rolled Ice-Cream Walkthrough',
           imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-3' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-5',
+          title: 'Cookingdom Level 5 Grilled Fish Walkthrough',
+          imageUrl: '/images/guides_05.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-5' },
+          },
         },
       ],
     },
-    detailsHtml: `
-<h2 id="overview">Game Introduction</h2>
-<p>In Level 4 of Cookingdom, players will learn how to make Rolled Ice-cream. Compared to previous dishes, the process for rolled ice-cream is more detailed, involving freezing operations and clever ingredient combinations. The goal of this level is to master the ice-cream freezing technique and quickly prepare and serve rolled ice-cream upon customer orders.</p>
-
-<h2 id="goal">Level 4 Goals</h2>
+    detailsHtml: `<h2>Game Introduction</h2>
+<p>Level 4 introduces players to a refreshing and healthy dish: the Simple Salad. While it seems easy, the challenge lies in the fast-paced order processing and ingredient preparation. Precision, speed, and multitasking are key to success here.</p>
+<h2>Level 4 Goal</h2>
 <ul>
-    <li><strong>Make Rolled Ice-cream:</strong> Making rolled ice-cream is more complex than regular ice-cream, requiring players to use a freezing platform, manage the cooling process, and roll it into attractive ice-cream rolls.</li>
-    <li><strong>Control Freezing Time:</strong> The freezing time for rolled ice-cream needs precise control to ensure the texture and shape of the ice-cream rolls meet requirements.</li>
-    <li><strong>Handle Multiple Customers:</strong> As the game progresses, Level 4 will bring more customers, requiring players to manage time effectively and handle multiple orders.</li>
+  <li><strong>Chop and Mix:</strong> Accurately prepare salad ingredients by chopping vegetables and mixing them in the correct order.</li>
+  <li><strong>Serve Quickly:</strong> Customers expect quick service; maintain a steady workflow to avoid delays.</li>
+  <li><strong>Manage Freshness:</strong> Don’t leave ingredients out too long or they may spoil or be rejected by picky customers.</li>
 </ul>
-
-<h2 id="steps">Rolled Ice-cream Making Steps</h2>
-<ol>
-    <li>
-        <h3>Prepare Ice-cream Base:</h3>
-        <p>In the kitchen area, select the basic ice-cream base suitable for rolled ice-cream (usually milk, sugar, vanilla, etc.). Pour the base onto the freezing platform.</p>
-        <p>This is the first step in making rolled ice-cream. Ensure the base ratio is correct to achieve a smooth ice-cream texture.</p>
-    </li>
-    <li>
-        <h3>Choose Toppings:</h3>
-        <p>On the freezing platform, you can add various toppings according to customer requests, such as fruits, chocolate chips, nuts, etc.</p>
-        <p><strong>Tip:</strong> Choose the toppings requested by the customer and ensure they are evenly distributed on the ice-cream. Different toppings can affect the taste and appearance of the ice-cream, and beautiful decorations help increase customer satisfaction.</p>
-    </li>
-    <li>
-        <h3>Freeze and Form Ice-cream Rolls:</h3>
-        <p>After mixing the ice-cream base and toppings, begin freezing. On the freezing platform, the ice-cream will quickly solidify, and you need to use a spatula to neatly roll it into rolls.</p>
-        <p><strong>Technique:</strong> Ensure the spatula movements are even to prevent the ice-cream from breaking or having an irregular shape.</p>
-    </li>
-    <li>
-        <h3>Plate and Serve:</h3>
-        <p>Remove the rolled ice-cream from the freezing platform, gently place it on a plate, and garnish with some extra toppings or syrup.</p>
-        <p>Once ready, immediately deliver the rolled ice-cream to the customer's table, ensuring they receive their meal as quickly as possible within the waiting time.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips and Tricks</h2>
+<h2>Simple Salad Making Steps</h2>
+<h3>Gather Ingredients:</h3>
+<p>Collect the vegetables: lettuce, tomato, and cucumber. Ingredients are placed in the ingredient station—tap them to bring them to the prep board.</p>
 <ul>
-    <li>
-        <strong>Control Freezing Time:</strong> Freezing time is crucial when making rolled ice-cream. Too long might make the ice-cream too hard to roll; too short might make it too soft to shape. Observe the changes on the freezing platform and judge the state of the ice-cream accordingly.
-    </li>
-    <li>
-        <strong>Topping Combinations:</strong> In Level 4, customers may request different toppings. Remember to add appropriate fruits, nuts, or candies based on their needs. Too many or too few toppings can affect the appearance and taste. Try using diverse toppings to attract customer attention.
-    </li>
-    <li>
-        <strong>Ensure Uniform Rolls:</strong> When scraping the ice-cream into rolls, ensure each roll is uniform in size and shape. Uniform rolls look more appealing and increase customer satisfaction.
-    </li>
-    <li>
-        <strong>Utilize Kitchen Equipment:</strong> If the game provides speed-up items or equipment, use them to accelerate the freezing process or ingredient preparation. Proper use of these items can improve efficiency and help you handle peak-time orders better.
-    </li>
-    <li>
-        <strong>Serve Quickly:</strong> Although making rolled ice-cream takes time, it's relatively short. Ensure timely completion and serving to avoid customer dissatisfaction due to long waits.
-    </li>
+  <li><strong>Tip:</strong> Always keep a few of each ingredient prepped during idle moments.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>Level 4 of Cookingdom introduces more operational skills for rolled ice-cream making, especially regarding the freezing process and topping combinations. Mastering freezing time, spatula techniques, and diverse topping combinations are key to success. As the game progresses, you'll face more varied dishes and customer demands, so improving kitchen efficiency and mastering multitasking will be essential skills for passing the level.</p>
-<p>After completing Level 4, you will unlock more recipes and kitchen equipment, allowing you to tackle more challenging tasks.</p>
-`,
+<h3>Chop Vegetables:</h3>
+<p>Use the knife tool to chop ingredients. Precision is key—chop too slowly, and customers will wait. Chop too fast, and you may make mistakes.</p>
+<h3>Mix and Assemble:</h3>
+<p>Place the chopped vegetables into the salad bowl in the right order. Some customers may request specific ingredient combinations.</p>
+<ul>
+  <li><strong>Tip:</strong> Pay attention to order bubbles showing customer preferences.</li>
+</ul>
+<h3>Serve to Customer:</h3>
+<p>Deliver the salad quickly after assembling. If served late, customer satisfaction will decrease.</p>
+<h2>Tips and Tricks</h2>
+<ul>
+  <li><strong>Pre-Chop Common Veggies:</strong> Lettuce and tomato appear in most orders, so having them ready reduces service time.</li>
+  <li><strong>Watch the Order Queue:</strong> Prepare for the next order while assembling the current one. This helps maintain a flow during peak times.</li>
+  <li><strong>Upgrade Tools:</strong> Unlock a faster knife or an automatic chopper to increase your speed and accuracy.</li>
+  <li><strong>Time Management:</strong> Juggling orders and freshness is crucial. Don't overstock chopped ingredients to avoid waste.</li>
+</ul>
+<h2>Summary</h2>
+<p>Cookingdom Level 4 is all about speed and accuracy. Making a Simple Salad might be basic, but with fast-paced orders and specific requests, you’ll need to manage ingredients, prep time, and service flow efficiently. Get ready for more challenging dishes in the next levels!</p>`,
   },
+
   {
     id: 'cookingdom-game-level-5',
-    title: 'Cookingdom Level 5:<br>Grilled Fish',
-    pageTitle: 'Cookingdom Level 5 - Grilled Fish Guide',
+    title: 'Cookingdom Level 5 Grilled Fish Walkthrough',
+    pageTitle: 'Cookingdom Level 5 Grilled Fish Walkthrough',
     pageSubtitle: 'Master the art of grilling fish in Cookingdom Level 5.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_05.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
-    iframeUrl: 'https://www.youtube.com/embed/8CdDamlaEHA',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-5' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/x8l4-Iu40Ek',
     seo: {
       title: 'Cookingdom Level 5 Guide: Grilled Fish | Tips & Strategy',
       description:
@@ -345,22 +342,22 @@ export const guides = [
         '<h3>Grilled Fish</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 3 minutes</p><p><strong>Reward:</strong> 4 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-2',
-          title: 'Cookingdom Level 2<br/>Simple Salad',
-          imageUrl: '/images/guides_02.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-2' } },
-        },
-        {
-          id: 'cookingdom-game-level-3',
-          title: 'Cookingdom Level 3<br/>Fried Potatoes',
-          imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
-        },
-        {
           id: 'cookingdom-game-level-4',
-          title: 'Cookingdom Level 4<br/>Rolled Ice-cream',
+          title: 'Cookingdom Level 4 Simple Salad Walkthrough',
           imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-4' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-6',
+          title: 'Cookingdom Level 6 Cafe Espresso Walkthrough',
+          imageUrl: '/images/guides_06.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-6' },
+          },
         },
       ],
     },
@@ -424,17 +421,21 @@ export const guides = [
 <p>Once you finish this level, you'll unlock more kitchen upgrades and new recipes that will take your culinary skills to the next level. Keep refining your cooking and time-management skills to stay ahead of the game!</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-6',
-    title: 'Cookingdom Level 6:<br>Café Espresso',
-    pageTitle: 'Cookingdom Level 6 - Café Espresso Guide',
+    title: 'Cookingdom Level 6 Cafe Espresso Walkthrough',
+    pageTitle: 'Cookingdom Level 6 Cafe Espresso Walkthrough',
     pageSubtitle: 'Learn to brew the perfect espresso in Cookingdom Level 6.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_06.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
-    iframeUrl: 'https://www.youtube.com/embed/OTKpJ9M7to',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-6' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/jZaXNSTn1Ng',
     seo: {
       title: 'Cookingdom Level 6 Guide: Café Espresso | Tips & Strategy',
       description:
@@ -448,22 +449,22 @@ export const guides = [
         '<h3>Café Espresso</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 1.5 minutes</p><p><strong>Reward:</strong> 4 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-3',
-          title: 'Cookingdom Level 3<br/>Fried Potatoes',
-          imageUrl: '/images/guides_03.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-3' } },
-        },
-        {
-          id: 'cookingdom-game-level-4',
-          title: 'Cookingdom Level 4<br/>Rolled Ice-cream',
-          imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
-        },
-        {
           id: 'cookingdom-game-level-5',
-          title: 'Cookingdom Level 5<br/>Grilled Fish',
+          title: 'Cookingdom Level 5 Grilled Fish Walkthrough',
           imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-5' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-7',
+          title: 'Cookingdom Level 7 Sunny Eggs Walkthrough',
+          imageUrl: '/images/guides_07.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-7' },
+          },
         },
       ],
     },
@@ -529,15 +530,18 @@ export const guides = [
   },
   {
     id: 'cookingdom-game-level-7',
-    title: 'Cookingdom Level 7:<br>Sunny Eggs',
-    pageTitle: 'Cookingdom Level 7 - Sunny Eggs Guide',
+    title: 'Cookingdom Level 7 Sunny Eggs Walkthrough',
+    pageTitle: 'Cookingdom Level 7 Sunny Eggs Walkthrough',
     pageSubtitle: 'Learn to cook perfect sunny-side-up eggs in Cookingdom Level 7.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_07.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-    iframeUrl: 'https://www.youtube.com/embed/IiwEmCzNwYM',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-7' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/U06ryujgPy4',
     seo: {
       title: 'Cookingdom Level 7 Guide: Sunny Eggs | Tips & Strategy',
       description:
@@ -551,22 +555,22 @@ export const guides = [
         '<h3>Sunny Eggs</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Est. Time:</strong> 1 minute</p><p><strong>Reward:</strong> 3 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-4',
-          title: 'Cookingdom Level 4<br/>Rolled Ice-cream',
-          imageUrl: '/images/guides_04.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-4' } },
-        },
-        {
-          id: 'cookingdom-game-level-5',
-          title: 'Cookingdom Level 5<br/>Grilled Fish',
-          imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
-        },
-        {
           id: 'cookingdom-game-level-6',
-          title: 'Cookingdom Level 6<br/>Café Espresso',
-          imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
+          title: 'Cookingdom Level 6 Cafe Espresso Walkthrough',
+          imageUrl: '/images/guides_04.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-6' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-8',
+          title: 'Cookingdom Level 8 Texas BBQ Walkthrough',
+          imageUrl: '/images/guides_08.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-8' },
+          },
         },
       ],
     },
@@ -632,14 +636,17 @@ export const guides = [
   },
   {
     id: 'cookingdom-game-level-8',
-    title: 'Cookingdom Level 8:<br>Steak',
-    pageTitle: 'Cookingdom Level 8 - Steak Guide',
+    title: 'Cookingdom Level 8 Texas BBQ Walkthrough',
+    pageTitle: 'Cookingdom Level 8 Texas BBQ Walkthrough',
     pageSubtitle: 'Learn to cook the perfect steak to order in Cookingdom Level 8.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_08.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-8' },
+    },
     iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
     seo: {
       title: 'Cookingdom Level 8 Guide: Steak | Tips & Strategy',
@@ -649,32 +656,32 @@ export const guides = [
         'cookingdom, level 8, steak, guide, grilling, searing, doneness, rare, medium, well-done, time management',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_08.webp',
+      sidebarImageUrl: '/images/guides_07.webp',
       levelInfoHtml:
         '<h3>Steak</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 3.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-5',
-          title: 'Cookingdom Level 5<br/>Grilled Fish',
-          imageUrl: '/images/guides_05.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-5' } },
-        },
-        {
-          id: 'cookingdom-game-level-6',
-          title: 'Cookingdom Level 6<br/>Café Espresso',
-          imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
-        },
-        {
           id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Level 7<br/>Sunny Eggs',
-          imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
+          title: 'Cookingdom Level 7 Sunny Eggs Walkthrough',
+          imageUrl: '/images/guides_05.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-7' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-9',
+          title: 'Cookingdom Level 9 Spaghetti Walkthrough',
+          imageUrl: '/images/guides_06.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-9' },
+          },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
+    <h2 id="overview">Game Overview</h2>
 <p>In Cookingdom, each new level challenges you with a more complex dish. Level 8 is no exception, as you're tasked with preparing a perfectly cooked Steak. This dish requires precise timing, heat control, and careful attention to customer orders. As you move forward in Cookingdom, cooking steak will become a cornerstone of your menu, and handling the complexity of different steak doneness levels will be crucial to keep your customers happy.</p>
 <p>In this level, you'll need to manage your kitchen efficiently while ensuring every steak is cooked to the right level, whether it's rare, medium, or well-done. Let's dive into the details of making the perfect steak!</p>
 
@@ -753,17 +760,21 @@ export const guides = [
 <p>By the end of this level, you'll have gained valuable skills in steak preparation that will help you tackle even more complex dishes in future levels. With careful attention to detail and quick service, you'll be able to handle the steak orders like a pro and keep your customers coming back for more!</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-9',
-    title: 'Cookingdom Level 9:<br>Spaghetti',
-    pageTitle: 'Cookingdom Level 9 - Spaghetti Guide',
+    title: 'Cookingdom Level 9 Spaghetti Walkthrough',
+    pageTitle: 'Cookingdom Level 9 Spaghetti Walkthrough',
     pageSubtitle: 'Master the art of cooking perfect spaghetti in Cookingdom Level 9.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
     imageUrl: '/images/guides_09.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-    iframeUrl: 'https://www.youtube.com/embed/SOGzuHCsQkQ',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-9' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/tZMPN2bgwZo',
     seo: {
       title: 'Cookingdom Level 9 Guide: Spaghetti | Tips & Strategy',
       description:
@@ -777,22 +788,22 @@ export const guides = [
         '<h3>Spaghetti</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 2.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-6',
-          title: 'Cookingdom Level 6<br/>Café Espresso',
-          imageUrl: '/images/guides_06.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-6' } },
-        },
-        {
-          id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Level 7<br/>Sunny Eggs',
-          imageUrl: '/images/guides_07.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-        },
-        {
           id: 'cookingdom-game-level-8',
-          title: 'Cookingdom Level 8<br/>Steak',
+          title: 'Cookingdom Level 8 Texas BBQ Walkthrough',
           imageUrl: '/images/guides_08.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-8' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-10',
+          title: 'Cookingdom Level 10 Salmon Sushi Walkthrough',
+          imageUrl: '/images/guides_10.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-10' },
+          },
         },
       ],
     },
@@ -861,17 +872,21 @@ export const guides = [
 <p>By mastering this dish, you'll unlock more complex recipes and continue to grow your skills in Cookingdom. Perfect your pasta-cooking technique and continue advancing through the game to face new and exciting culinary challenges!</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-10',
-    title: 'Cookingdom Level 10:<br>Salmon Sushi',
-    pageTitle: 'Cookingdom Level 10 - Salmon Sushi Guide',
+    title: 'Cookingdom Level 10 Salmon Sushi Walkthrough',
+    pageTitle: 'Cookingdom Level 10 Salmon Sushi Walkthrough',
     pageSubtitle: 'Learn to make perfect Salmon Sushi in Cookingdom Level 10.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: false,
     imageUrl: '/images/guides_10.webp',
-    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-    iframeUrl: 'https://www.youtube.com/embed/sR03duivZNM',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-10' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/Z6UgpR3Z8CI',
     seo: {
       title: 'Cookingdom Level 10 Guide: Salmon Sushi | cookingdom.co',
       description:
@@ -885,22 +900,22 @@ export const guides = [
         '<h3>Cookingdom Level 10 Salmon Sushi</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx. Time:</strong> 4.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Level 7<br>Sunny Eggs',
-          imageUrl: '/images/guides_7.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-7' } },
-        },
-        {
-          id: 'cookingdom-game-level-8',
-          title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_8.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
-        },
-        {
           id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_9.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
+          title: 'Cookingdom Level 9 Spaghetti Walkthrough',
+          imageUrl: '/images/guides_09.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-9' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-11',
+          title: 'Cookingdom Level 11 PopCorn Walkthrough',
+          imageUrl: '/images/guides_11.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-11' },
+          },
         },
       ],
     },
@@ -977,17 +992,18 @@ export const guides = [
 <p>In Cookingdom Level 10 , preparing Salmon Sushi is a challenge that tests your precision, time management, and multitasking skills. From cooking the rice to slicing the fish and rolling the sushi, every step requires attention to detail. The key to success is freshness, accuracy, and quick service.</p>
 <p>Mastering sushi will set you up for success in future levels, as customers will expect more complex and delicate dishes. With practice, you'll be able to create perfect sushi rolls that keep your customers happy and your restaurant thriving.</p>`,
   },
+
   {
     id: 'cookingdom-game-level-11',
-    title: 'Cookingdom Level 11:<br>Popcorn',
-    pageTitle: 'Cookingdom Level 11 - Popcorn Guide',
+    title: 'Cookingdom Level 11 PopCorn Walkthrough',
+    pageTitle: 'Cookingdom Level 11 PopCorn Walkthrough',
     pageSubtitle: 'Learn to make perfect popcorn in Cookingdom Level 11.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-    iframeUrl: 'https://www.youtube.com/embed/5mFzPngHJF8',
+    iframeUrl: 'https://www.youtube.com/embed/B1RSotgn3Bo',
     seo: {
       title: 'Cookingdom Level 11 Guide: Popcorn | cookingdom.co',
       description:
@@ -1001,22 +1017,16 @@ export const guides = [
         '<h3>Cookingdom Level 11 Popcorn</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 1.5 minutes</p><p><strong>Reward:</strong> 3 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-8',
-          title: 'Cookingdom Level 8<br>Steak',
-          imageUrl: '/images/guides_8.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-8' } },
-        },
-        {
-          id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_9.webp',
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-        },
-        {
           id: 'cookingdom-game-level-10',
-          title: 'Cookingdom Level 10<br>Salmon Sushi',
+          title: 'Cookingdom Level 10 Salmon Sushi Walkthrough',
           imageUrl: '/images/guides_10.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
+        },
+        {
+          id: 'cookingdom-game-level-12',
+          title: 'Cookingdom Level 12 Ramen Walkthrough',
+          imageUrl: '/images/guides_12.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
         },
       ],
     },
@@ -1070,13 +1080,13 @@ export const guides = [
         <strong>Flavor Customization:</strong> In Cookingdom Level 11 , the key to success is catering to your customers' preferences. Some customers may want plain popcorn, while others may want buttery, cheesy, or caramel-coated popcorn. Make sure to read each order carefully and apply the right flavoring to keep your customers satisfied.
     </li>
     <li>
-        <strong>Upgrade Your Equipment:</strong> As you progress through Cookingdom Level 11 , consider upgrading your popcorn machine. 
+        <strong>Upgrade Your Equipment:</strong> As you progress through Cookingdom Level 11 , consider upgrading your popcorn machine.
     </li>
     <li>
         <strong>Speed and Efficiency:</strong> Cookingdom Level 11 requires quick service, Try to serve the popcorn as soon as it's popped and flavored. The faster you serve, the higher your chances of getting a positive rating from your customers.
     </li>
     <li>
-        <strong>Handle Multiple Orders:</strong> As more customers arrive, you'll need to prepare multiple orders of popcorn at once. 
+        <strong>Handle Multiple Orders:</strong> As more customers arrive, you'll need to prepare multiple orders of popcorn at once.
     </li>
 </ul>
 
@@ -1087,15 +1097,15 @@ export const guides = [
   },
   {
     id: 'cookingdom-game-level-12',
-    title: 'Cookingdom Level 12:<br>Ramen',
-    pageTitle: 'Cookingdom Level 12 - Ramen Guide',
+    title: 'Cookingdom Level 12 Ramen Walkthrough',
+    pageTitle: 'Cookingdom Level 12 Ramen Walkthrough',
     pageSubtitle: 'Learn to make hearty and complex Ramen in Cookingdom Level 12.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_12.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-    iframeUrl: 'https://www.youtube.com/embed/OhB019qY8Fc', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/cWCa8cDO_hw', // Placeholder
     seo: {
       title: 'Cookingdom Level 12 Guide: Ramen | cookingdom.co',
       description:
@@ -1108,22 +1118,16 @@ export const guides = [
         '<h3>cookingdom level 12 Ramen</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx. Time:</strong> 5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>', // Estimation
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Level 9<br>Pasta',
-          imageUrl: '/images/guides_9.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-9' } },
-        },
-        {
-          id: 'cookingdom-game-level-10',
-          title: 'Cookingdom Level 10<br>Salmon Sushi',
-          imageUrl: '/images/guides_10.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-        },
-        {
           id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br>Popcorn',
+          title: 'Cookingdom Level 11 PopCorn Walkthrough',
           imageUrl: '/images/guides_11.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
+        },
+        {
+          id: 'cookingdom-game-level-13',
+          title: 'Cookingdoml Level 13 Hotdog Walkthrough',
+          imageUrl: '/images/guides_13.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
         },
       ],
     },
@@ -1175,13 +1179,13 @@ export const guides = [
 <ul>
     <li>
         <strong>Perfect Broth:</strong> The broth is the soul of the ramen, so make sure to get the seasoning just right. Experiment with different ingredients to adjust the flavor to your liking. In cookingdom Level 12 , you can tweak the broth to suit customer preferences (e.g., saltier, spicier).
-       
+
     <li>
         <strong>Time the Noodles:</strong> cookingdom Level 12 challenges you with cooking ramen noodles just right. Keep a close eye on the timer and stir the noodles to prevent clumping. If the noodles overcook, they'll lose their texture, and your customers won't be satisfied.
     </li>
     <li>
         <strong>Toppings Variety:</strong> Customers in cookingdom Level 12 may request different toppings, so be ready to customize their ramen bowl to match their preferences. Whether it\'s a boiled egg, sliced pork, or fresh vegetables, always check the order carefully to avoid any mistakes.
-        
+
     <li>
         <strong>Upgrade Your Kitchen Tools:</strong> As you progress through cookingdom Level 12 , you can unlock upgrades for your kitchen. Consider upgrading your pot for faster broth preparation or a larger stove to cook noodles more efficiently. This can save you time and help you meet customer demands more quickly.
     </li>
@@ -1195,17 +1199,18 @@ export const guides = [
 <p>As you continue through cookingdom Level 12, the challenges will get tougher, but mastering ramen will set you on the path to becoming a top chef in the game. Keep your customers satisfied with well-seasoned broth, tender noodles, and fresh toppings, and you'll continue to rise in the ranks of Cookingdom!</p>
 `,
   },
+
   {
     id: 'cookingdom-game-level-13',
-    title: 'Cookingdom Level 13:<br>Hotdog',
-    pageTitle: 'Cookingdom Level 13 - Hotdog Guide',
+    title: 'Cookingdoml Level 13 Hotdog Walkthrough',
+    pageTitle: 'Cookingdoml Level 13 Hotdog Walkthrough',
     pageSubtitle: 'Learn to make the perfect Hotdog in Cookingdom Level 13.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_13.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-    iframeUrl: 'https://www.youtube.com/embed/-at0GKqanSg', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/KAEF5XdupAg', // Placeholder
     seo: {
       title: 'Cookingdom Level 13 Guide: Hotdog | cookigdom.co',
       description:
@@ -1218,22 +1223,16 @@ export const guides = [
         '<h3>cookingdom level 13 Hotdog</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 2 minutes</p><p><strong>Reward:</strong> 4 Stars</p>', // Estimation
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-10',
-          title: 'Cookingdom Level 10<br>Salmon Sushi',
-          imageUrl: '/images/guides_10.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-10' } },
-        },
-        {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br>Popcorn',
-          imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-        },
-        {
           id: 'cookingdom-game-level-12',
-          title: 'Cookingdom Level 12<br>Ramen',
+          title: 'Cookingdom Level 12 Ramen Walkthrough',
           imageUrl: '/images/guides_12.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
+        },
+        {
+          id: 'cookingdom-game-level-14',
+          title: 'Cookingdom Level 14 Salmon With Minestrone Walkthrough',
+          imageUrl: '/images/guides_14.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
         },
       ],
     },
@@ -1274,7 +1273,7 @@ export const guides = [
             <li>Jalapeños</li>
         </ul>
         <p>Ensure you read each customer order carefully to add the right condiments and toppings. Some customers may prefer a basic hotdog, while others want extra toppings.</p>
-       
+
     </li>
     <li>
         <h3>cookingdom Level 13 Assemble the Hotdog:</h3>
@@ -1314,15 +1313,15 @@ export const guides = [
   },
   {
     id: 'cookingdom-game-level-14',
-    title: 'Cookingdom Level 14:<br>Salmon with Minestrone',
-    pageTitle: 'Cookingdom Level 14 - Salmon with Minestrone Guide',
+    title: 'Cookingdom Level 14 Salmon With Minestrone Walkthrough',
+    pageTitle: 'Cookingdom Level 14 Salmon With Minestrone Walkthrough',
     pageSubtitle: 'Learn to make sophisticated Salmon with Minestrone in Cookingdom Level 14.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_14.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-    iframeUrl: 'https://www.youtube.com/embed/osxEv217AuU', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/NqPuIo5iASQ', // Placeholder
     seo: {
       title: 'Cookingdom Level 14 Guide: Salmon with Minestrone | Tips & Strategy',
       description:
@@ -1336,22 +1335,16 @@ export const guides = [
         '<h3>Salmon w/ Minestrone</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 minutes</p><p><strong>Reward:</strong> 5 Stars</p>', // Estimation
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-11',
-          title: 'Cookingdom Level 11<br>Popcorn',
-          imageUrl: '/images/guides_11.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
-        },
-        {
-          id: 'cookingdom-game-level-12',
-          title: 'Cookingdom Level 12<br>Ramen',
-          imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-        },
-        {
           id: 'cookingdom-game-level-13',
-          title: 'Cookingdom Level 13<br>Hotdog',
+          title: 'Cookingdoml Level 13 Hotdog Walkthrough',
           imageUrl: '/images/guides_13.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
+        },
+        {
+          id: 'cookingdom-game-level-15',
+          title: 'Cookingdom Level 15 Chicken Fried Walkthrough',
+          imageUrl: '/images/guides_15.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
       ],
     },
@@ -1423,15 +1416,15 @@ export const guides = [
   {
     // Add entry for Level 15
     id: 'cookingdom-game-level-15',
-    title: 'Cookingdom Level 15:<br>Chicken Fried',
-    pageTitle: 'Cookingdom Level 15 - Chicken Fried Guide',
+    title: 'Cookingdom Level 15 Chicken Fried Walkthrough',
+    pageTitle: 'Cookingdom Level 15 Chicken Fried Walkthrough',
     pageSubtitle: 'Learn to make crispy and juicy Chicken Fried in Level 15 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_15.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
-    iframeUrl: 'https://www.youtube.com/embed/clZlGkI5iOI', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/bW0rp5c8cIc', // Placeholder
     seo: {
       title: 'Cookingdom Level 15 Guide: Chicken Fried |cookingdom.co',
       description:
@@ -1445,22 +1438,16 @@ export const guides = [
         '<h3>Cookingdom Level 15 Chicken Fried</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 3.5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimated
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-12',
-          title: 'Cookingdom Level 12<br>Ramen',
-          imageUrl: '/images/guides_12.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
-        },
-        {
-          id: 'cookingdom-game-level-13',
-          title: 'Cookingdom Level 13<br>Hot Dog',
-          imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-        },
-        {
           id: 'cookingdom-game-level-14',
-          title: 'Cookingdom Level 14<br>Salmon with Minestrone',
+          title: 'Cookingdom Level 14 Salmon With Minestrone Walkthrough',
           imageUrl: '/images/guides_14.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
+        },
+        {
+          id: 'cookingdom-game-level-16',
+          title: 'Cookingdom Level 16 Steak Walkthrough',
+          imageUrl: '/images/guides_16.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
         },
       ],
     },
@@ -1478,7 +1465,7 @@ export const guides = [
         <strong>Cook the Sides:</strong> Typically, Chicken Fried is served with sides like mashed potatoes, coleslaw, or fries.
     </li>
     <li>
-        <strong>Serve Quickly:</strong> As with all levels in Cookingdom Level 15, serving the dish quickly is important for customer satisfaction. 
+        <strong>Serve Quickly:</strong> As with all levels in Cookingdom Level 15, serving the dish quickly is important for customer satisfaction.
     </li>
 </ul>
 
@@ -1507,7 +1494,7 @@ export const guides = [
     <li>
         <h3>Cookingdom Level 15 Serve the Chicken Fried:</h3>
         <p>After plating, serve the dish quickly while it's still hot. Cookingdom Level 15 customers expect freshly cooked meals, and the faster you serve, the higher your ratings will be.</p>
-       
+
     </li>
 </ol>
 
@@ -1516,7 +1503,7 @@ export const guides = [
     <li>
         <h3>Perfect Fried Chicken:</h3>
         <p>The key to perfect fried chicken is frying at the right temperature. If the oil is too hot, the batter will burn before the chicken is fully cooked inside. If the oil is too cool, the chicken will absorb too much oil and become greasy.</p>
-        
+
     </li>
     <li>
         <h3>Manage the Sides:</h3>
@@ -1548,15 +1535,15 @@ export const guides = [
   {
     // Add entry for Level 16
     id: 'cookingdom-game-level-16',
-    title: 'Cookingdom Level 16:<br>Texas BBQ',
-    pageTitle: 'Cookingdom Level 16 - Texas BBQ Guide',
+    title: 'Cookingdom Level 16 Steak Walkthrough',
+    pageTitle: 'Cookingdom Level 16 Steak Walkthrough',
     pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 16 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_16.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-    iframeUrl: 'https://www.youtube.com/embed/KyijXpwgOn8', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI', // Placeholder
     seo: {
       title: 'Cookingdom Level 16 Guide: Texas BBQ | cookingdom.co',
       description:
@@ -1570,22 +1557,16 @@ export const guides = [
         '<h3>Texas BBQ</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimated
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-13',
-          title: 'Cookingdom Level 13<br>Hot Dog',
-          imageUrl: '/images/guides_13.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-13' } },
-        },
-        {
-          id: 'cookingdom-game-level-14',
-          title: 'Cookingdom Level 14<br>Salmon with Minestrone',
-          imageUrl: '/images/guides_14.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-        },
-        {
           id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Level 15<br>Chicken Fried',
+          title: 'Cookingdom Level 15 Chicken Fried Walkthrough',
           imageUrl: '/images/guides_15.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
+        },
+        {
+          id: 'cookingdom-game-level-17',
+          title: 'Cookingdom Level 17 Cafe Macchiato Walkthrough',
+          imageUrl: '/images/guides_17.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
       ],
     },
@@ -1598,7 +1579,7 @@ export const guides = [
 <h2 id="goal">Cookingdom Level 16 Goals</h2>
 <ul>
     <li>
-        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor. 
+        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor.
     </li>
     <li>
         <strong>Prepare the BBQ Sauce:</strong> A good BBQ sauce is crucial for that authentic Texas flavor. You'll need to make sure the sauce is well-seasoned and paired perfectly with the meat.
@@ -1634,12 +1615,12 @@ export const guides = [
             <li><strong>Baked Beans:</strong> Slow-cooked beans in a rich sauce, often flavored with BBQ sauce or bacon.</li>
             <li><strong>Coleslaw:</strong> A cool, crunchy side to balance the richness of the BBQ.</li>
         </ul>
-        
+
     </li>
     <li>
         <h3>Cookingdom Level 16 Assemble the Dish:</h3>
         <p>Once the meat is cooked to perfection, and the sides are ready, it's time to plate the Texas BBQ. Start by placing the BBQ meat on the plate, then add generous portions of cornbread, baked beans, and coleslaw.</p>
-        
+
     </li>
     <li>
         <h3>Cookingdom Level 16 Serve the Texas BBQ:</h3>
@@ -1680,15 +1661,15 @@ export const guides = [
   {
     // Add entry for Level 17
     id: 'cookingdom-game-level-17',
-    title: 'Cookingdom Level 17:<br>Café Macchiato',
-    pageTitle: 'Cookingdom Level 17 - Café Macchiato Guide',
+    title: 'Cookingdom Level 17 Cafe Macchiato Walkthrough',
+    pageTitle: 'Cookingdom Level 17 Cafe Macchiato Walkthrough',
     pageSubtitle: 'Learn to make the perfect Café Macchiato in Level 17 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: true,
     imageUrl: '/images/guides_17.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
-    iframeUrl: 'https://www.youtube.com/embed/9vMHRRYFPMg', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/Zwv2uvuWHwI', // Placeholder
     seo: {
       title: 'Cookingdom Level 17 Guide: Café Macchiato | cookindom.co',
       description:
@@ -1702,22 +1683,16 @@ export const guides = [
         '<h3>Cookingdom Level 17 Café Macchiato</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 2 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimated
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-14',
-          title: 'Cookingdom Level 14<br>Salmon with Minestrone',
-          imageUrl: '/images/guides_14.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
-        },
-        {
-          id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Level 15<br>Chicken Fried',
-          imageUrl: '/images/guides_15.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
-        },
-        {
           id: 'cookingdom-game-level-16',
-          title: 'Cookingdom Level 16<br>Texas BBQ',
+          title: 'Cookingdom Level 16 Steak Walkthrough',
           imageUrl: '/images/guides_16.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
+        },
+        {
+          id: 'cookingdom-game-level-18',
+          title: 'Cookingdom Level 18 Ratatouille Walkthrough',
+          imageUrl: '/images/guides_18.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
         },
       ],
     },
@@ -1729,7 +1704,7 @@ export const guides = [
 <h2 id="goal">Cookingdom Level 17 Goals</h2>
 <ul>
     <li>
-        <strong>Prepare the Espresso:</strong> The base of the Café Macchiato is a rich, strong espresso shot. 
+        <strong>Prepare the Espresso:</strong> The base of the Café Macchiato is a rich, strong espresso shot.
     </li>
     <li>
         <strong>Foam the Milk:</strong> You need to foam the milk to the perfect texture and temperature.
@@ -1764,7 +1739,7 @@ export const guides = [
     <li>
         <h3>Serve the Café Macchiato:</h3>
         <p>After preparing the Café Macchiato, serve the drink quickly while it's still hot. In Cookingdom Level 17 , you'll want to serve the drink while the foam is still fresh and the espresso shot hasn't cooled down.</p>
-        
+
     </li>
 </ol>
 
@@ -1773,17 +1748,17 @@ export const guides = [
     <li>
         <h3>Perfect Espresso Shot:</h3>
         <p>The key to a great Café Macchiato is the espresso. Make sure the coffee grounds are evenly tamped before brewing, and pay attention to the timing to get a rich, balanced shot of espresso.</p>
-        
+
     </li>
     <li>
         <h3>Foam the Milk to Perfection:</h3>
         <p>The milk foam should be smooth, creamy, and airy — not too thick or frothy. To achieve the right texture, pay attention to the sound of the steamer. It should create a gentle hissing sound, not a loud sputtering noise.</p>
-        
+
     </li>
     <li>
         <h3>Work on Your Timing:</h3>
         <p>Cookingdom Level 17 is all about multitasking and timing. While the espresso is brewing, start foaming the milk to save time. This will allow you to assemble the Café Macchiato quickly and efficiently.</p>
-        
+
     </li>
     <li>
         <h3>Don't Overdo the Milk Foam:</h3>
@@ -1803,15 +1778,15 @@ export const guides = [
   {
     // Add entry for Level 18
     id: 'cookingdom-game-level-18',
-    title: 'Cookingdom Level 18:<br>Ratatouille',
-    pageTitle: 'Cookingdom Level 18 - Ratatouille Guide',
+    title: 'Cookingdom Level 18 Ratatouille Walkthrough',
+    pageTitle: 'Cookingdom Level 18 Ratatouille Walkthrough',
     pageSubtitle: 'Learn to make the classic French Ratatouille in Level 18 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_18.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
-    iframeUrl: 'https://www.youtube.com/embed/YADKwUHp4XY', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/KxPWxzkOqyA', // Placeholder
     seo: {
       title: 'Cookingdom Level 18 Guide: Ratatouille | cookingdom.co',
       description:
@@ -1825,22 +1800,16 @@ export const guides = [
         '<h3>Ratatouille</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimated
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Level 15<br>Chicken Fried',
-          imageUrl: '/images/guides_15.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
-        },
-        {
-          id: 'cookingdom-game-level-16',
-          title: 'Cookingdom Level 16<br>Texas BBQ',
-          imageUrl: '/images/guides_16.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-        },
-        {
           id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Level 17<br>Café Macchiato',
+          title: 'Cookingdom Level 17 Cafe Macchiato Walkthrough',
           imageUrl: '/images/guides_17.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
+        },
+        {
+          id: 'cookingdom-game-level-19',
+          title: 'Cookingdom Level 19 Pumpkin Pie Walkthrough',
+          imageUrl: '/images/guides_19.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
         },
       ],
     },
@@ -1849,7 +1818,7 @@ export const guides = [
 <p>In Cookingdom Level 18 brings a healthy and flavorful dish to the table: Ratatouille. This classic French vegetable medley consists of various vegetables like eggplant, zucchini, peppers, and tomatoes, all cooked in a rich, aromatic sauce. The key to this level is making sure the vegetables are perfectly sliced and cooked to retain their freshness while balancing the seasoning to create the perfect Ratatouille.</p>
 <p>In Cookingdom Level 18 is all about multitasking and precision. You'll need to manage the preparation and cooking of multiple vegetables while ensuring each one is cooked at the right time and temperature. Let's dive into the steps for mastering Ratatouille and impressing your customers with this tasty dish!</p>
 
-<h2 id="goal">Cookingdom Level 18 Goals</h2>  
+<h2 id="goal">Cookingdom Level 18 Goals</h2>
 <ul>
     <li>
         <strong>Prepare the Vegetables:</strong> The main components of Ratatouille are fresh vegetables such as eggplant, zucchini, peppers, and tomatoes. You'll need to slice them evenly and precisely to ensure even cooking.
@@ -1933,15 +1902,15 @@ export const guides = [
   {
     // Add entry for Level 19
     id: 'cookingdom-game-level-19',
-    title: 'Cookingdom Level 19:<br>Pumpkin Pie',
-    pageTitle: 'Cookingdom Level 19 - Pumpkin Pie Guide',
+    title: 'Cookingdom Level 19 Pumpkin Pie Walkthrough',
+    pageTitle: 'Cookingdom Level 19 Pumpkin Pie Walkthrough',
     pageSubtitle: 'Learn how to bake the perfect Pumpkin Pie in Level 19 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_19.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
-    iframeUrl: 'https://www.youtube.com/embed/CoSI8csqCbc', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/1n_bblOOYDo', // Placeholder
     seo: {
       title: 'Cookingdom Level 19 Guide: Pumpkin Pie |cookingdom.co',
       description:
@@ -1955,22 +1924,16 @@ export const guides = [
         '<h3>Pumpkin Pie</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-16',
-          title: 'Cookingdom Level 16<br>Texas BBQ',
-          imageUrl: '/images/guides_16.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-        },
-        {
-          id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Level 17<br>Caffè Macchiato',
-          imageUrl: '/images/guides_17.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
-        },
-        {
           id: 'cookingdom-game-level-18',
-          title: 'Cookingdom Level 18<br>Ratatouille',
+          title: 'Cookingdom Level 18 Ratatouille Walkthrough',
           imageUrl: '/images/guides_18.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
+        },
+        {
+          id: 'cookingdom-game-level-20',
+          title: 'Cookingdom Level 20 Roast TurkeyWalkthrough',
+          imageUrl: '/images/guides_20.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
         },
       ],
     },
@@ -2069,15 +2032,15 @@ export const guides = [
   {
     // Add entry for Level 20
     id: 'cookingdom-game-level-20',
-    title: 'Cookingdom Level 20:<br>Roast Turkey',
-    pageTitle: 'Cookingdom Level 20 - Roast Turkey Guide',
+    title: 'Cookingdom Level 20 Roast TurkeyWalkthrough',
+    pageTitle: 'Cookingdom Level 20 Roast TurkeyWalkthrough',
     pageSubtitle: 'Learn how to prepare the perfect Roast Turkey in Level 20 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
     imageUrl: '/images/guides_20.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
-    iframeUrl: 'https://www.youtube.com/embed/Rp9i4GwAC6E', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/QeQSbWgrtWs', // Placeholder
     seo: {
       title: 'Cookingdom Level 20 Guide: Roast Turkey | cookingdom.co',
       description:
@@ -2091,22 +2054,16 @@ export const guides = [
         '<h3>Roast Turkey</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Level 17<br>Caffè Macchiato',
-          imageUrl: '/images/guides_17.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
-        },
-        {
-          id: 'cookingdom-game-level-18',
-          title: 'Cookingdom Level 18<br>Ratatouille',
-          imageUrl: '/images/guides_18.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
-        },
-        {
           id: 'cookingdom-game-level-19',
-          title: 'Cookingdom Level 19<br>Pumpkin Pie',
+          title: 'Cookingdom Level 19 Pumpkin Pie Walkthrough',
           imageUrl: '/images/guides_19.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
+        },
+        {
+          id: 'cookingdom-game-level-21',
+          title: 'Cookingdom Level 21 Boba Milk Tea Walkthrough',
+          imageUrl: '/images/guides_21.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
         },
       ],
     },
@@ -2216,15 +2173,15 @@ export const guides = [
   {
     // Add entry for Level 21
     id: 'cookingdom-game-level-21',
-    title: 'Cookingdom Level 21:<br>Boba Milk Tea',
-    pageTitle: 'Cookingdom Level 21 - Boba Milk Tea Guide',
+    title: 'Cookingdom Level 21 Boba Milk Tea Walkthrough',
+    pageTitle: 'Cookingdom Level 21 Boba Milk Tea Walkthrough',
     pageSubtitle: 'Learn how to make the perfect Boba Milk Tea in Level 21 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05', // Updated category
     isSpecial: false,
     imageUrl: '/images/guides_21.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
-    iframeUrl: 'https://www.youtube.com/embed/sT6G1wBptko', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/Gx6cF0wkSek', // Placeholder
     seo: {
       title: 'Cookingdom Level 21 Guide: Boba Milk Tea | cookingdom.co',
       description:
@@ -2238,22 +2195,16 @@ export const guides = [
         '<h3>Boba Milk Tea</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-18',
-          title: 'Cookingdom Level 18<br>Ratatouille',
-          imageUrl: '/images/guides_18.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-18' } },
-        },
-        {
-          id: 'cookingdom-game-level-19',
-          title: 'Cookingdom Level 19<br>Pumpkin Pie',
-          imageUrl: '/images/guides_19.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
-        },
-        {
           id: 'cookingdom-game-level-20',
-          title: 'Cookingdom Level 20<br>Roast Turkey',
+          title: 'Cookingdom Level 20 Roast TurkeyWalkthrough',
           imageUrl: '/images/guides_20.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
+        },
+        {
+          id: 'cookingdom-game-level-22',
+          title: 'Cookingdom Level 22 Easy Smoothie Walkthrough',
+          imageUrl: '/images/guides_22.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
         },
       ],
     },
@@ -2354,15 +2305,15 @@ export const guides = [
   {
     // Add entry for Level 22
     id: 'cookingdom-game-level-22',
-    title: 'Cookingdom Level 22:<br>Easy Smoothie',
-    pageTitle: 'Cookingdom Level 22 - Easy Smoothie Guide',
+    title: 'Cookingdom Level 22 Easy Smoothie Walkthrough',
+    pageTitle: 'Cookingdom Level 22 Easy Smoothie Walkthrough',
     pageSubtitle: 'Learn how to blend the perfect Easy Smoothie in Level 22 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_22.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
-    iframeUrl: 'https://www.youtube.com/embed/_h0bTaAM-0o', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/Xdrg_MknwEQ', // Placeholder
     seo: {
       title: 'Cookingdom Level 22 Guide: Easy Smoothie | cookingdom.co',
       description:
@@ -2376,22 +2327,16 @@ export const guides = [
         '<h3>Easy Smoothie</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 2 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-19',
-          title: 'Cookingdom Level 19<br>Pumpkin Pie',
-          imageUrl: '/images/guides_19.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
-        },
-        {
-          id: 'cookingdom-game-level-20',
-          title: 'Cookingdom Level 20<br>Roast Turkey',
-          imageUrl: '/images/guides_20.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
-        },
-        {
           id: 'cookingdom-game-level-21',
-          title: 'Cookingdom Level 21<br>Boba Milk Tea',
+          title: 'Cookingdom Level 21 Boba Milk Tea Walkthrough',
           imageUrl: '/images/guides_21.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
+        },
+        {
+          id: 'cookingdom-game-level-23',
+          title: 'Cookingdom Level 23 Yule Log Cake Walkthrough',
+          imageUrl: '/images/guides_23.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
         },
       ],
     },
@@ -2484,15 +2429,15 @@ export const guides = [
   {
     // Add entry for Level 23
     id: 'cookingdom-game-level-23',
-    title: 'Cookingdom Level 23:<br>Yule Log Cake',
-    pageTitle: 'Cookingdom Level 23 - Yule Log Cake Guide',
+    title: 'Cookingdom Level 23 Yule Log Cake Walkthrough',
+    pageTitle: 'Cookingdom Level 23 Yule Log Cake Walkthrough',
     pageSubtitle: 'Master the festive Yule Log Cake (Bûche de Noël) in Level 23 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_23.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
-    iframeUrl: 'https://www.youtube.com/embed/FCFq9xRRobo', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/3Eg2387hpaE', // Placeholder
     seo: {
       title: 'Cookingdom Level 23 Guide: Yule Log Cake | cookingdom.co',
       description:
@@ -2506,22 +2451,16 @@ export const guides = [
         '<h3>Yule Log Cake</h3><p><strong>Difficulty:</strong> High</p><p><strong>Approx. Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-20',
-          title: 'Cookingdom Level 20<br>Roast Turkey',
-          imageUrl: '/images/guides_20.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
-        },
-        {
-          id: 'cookingdom-game-level-21',
-          title: 'Cookingdom Level 21<br>Boba Milk Tea',
-          imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
-        },
-        {
           id: 'cookingdom-game-level-22',
-          title: 'Cookingdom Level 22<br>Easy Smoothie',
+          title: 'Cookingdom Level 22 Easy Smoothie Walkthrough',
           imageUrl: '/images/guides_22.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
+        },
+        {
+          id: 'cookingdom-game-level-24',
+          title: 'Cookingdom Level 24 Beef Pho Walkthrough',
+          imageUrl: '/images/guides_24.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
         },
       ],
     },
@@ -2612,8 +2551,8 @@ export const guides = [
   {
     // Add entry for Level 24
     id: 'cookingdom-game-level-24',
-    title: 'Cookingdom Level 24:<br>Beef Pho',
-    pageTitle: 'Cookingdom Level 24 - Beef Pho Guide',
+    title: 'Cookingdom Level 24 Beef Pho Walkthrough',
+    pageTitle: 'Cookingdom Level 24 Beef Pho Walkthrough',
     pageSubtitle:
       'Master the art of making delicious Vietnamese Beef Pho in Level 24 of Cookingdom.',
     category: '21-30',
@@ -2621,7 +2560,7 @@ export const guides = [
     isSpecial: true,
     imageUrl: '/images/guides_24.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
-    iframeUrl: 'https://www.youtube.com/embed/iKRnARMMl_0', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/wTjgf3r0fAc', // Placeholder
     seo: {
       title: 'Cookingdom Level 24 Guide: Beef Pho | cookingdom.co',
       description:
@@ -2635,22 +2574,16 @@ export const guides = [
         '<h3>Beef Pho</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-21',
-          title: 'Cookingdom Level 21<br>Boba Milk Tea',
-          imageUrl: '/images/guides_21.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
-        },
-        {
-          id: 'cookingdom-game-level-22',
-          title: 'Cookingdom Level 22<br>Easy Smoothie',
-          imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
-        },
-        {
           id: 'cookingdom-game-level-23',
-          title: 'Cookingdom Level 23<br>Yule Log Cake',
+          title: 'Cookingdom Level 23 Yule Log Cake Walkthrough',
           imageUrl: '/images/guides_23.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
+        },
+        {
+          id: 'cookingdom-game-level-25',
+          title: 'Cookingdom Level 25 Pizza Walkthrough',
+          imageUrl: '/images/guides_25.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
         },
       ],
     },
@@ -2731,15 +2664,15 @@ export const guides = [
   {
     // Add entry for Level 25
     id: 'cookingdom-game-level-25',
-    title: 'Cookingdom Level 25:<br>Pizza',
-    pageTitle: 'Cookingdom Level 25 - Pizza Guide',
+    title: 'Cookingdom Level 25 Pizza Walkthrough',
+    pageTitle: 'Cookingdom Level 25 Pizza Walkthrough',
     pageSubtitle: 'Learn how to make the perfect Pizza from scratch in Level 25 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_25.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
-    iframeUrl: 'https://www.youtube.com/embed/BJJ9KEWeJBc', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/2VmrimKmrPE', // Placeholder
     seo: {
       title: 'Cookingdom Level 25 Guide: Pizza | cookingdom.co',
       description:
@@ -2753,22 +2686,16 @@ export const guides = [
         '<h3>Pizza</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-22',
-          title: 'Cookingdom Level 22<br>Easy Smoothie',
-          imageUrl: '/images/guides_22.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
-        },
-        {
-          id: 'cookingdom-game-level-23',
-          title: 'Cookingdom Level 23<br>Yule Log Cake',
-          imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
-        },
-        {
           id: 'cookingdom-game-level-24',
-          title: 'Cookingdom Level 24<br>Beef Pho',
+          title: 'Cookingdom Level 24 Beef Pho Walkthrough',
           imageUrl: '/images/guides_24.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
+        },
+        {
+          id: 'cookingdom-game-level-26',
+          title: 'Cookingdom Level 26 Smoothie Walkthrough',
+          imageUrl: '/images/guides_26.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
         },
       ],
     },
@@ -2865,15 +2792,15 @@ export const guides = [
   {
     // Add entry for Level 26
     id: 'cookingdom-game-level-26',
-    title: 'Cookingdom Level 26:<br>Smoothie',
-    pageTitle: 'Cookingdom Level 26 - Smoothie Guide',
+    title: 'Cookingdom Level 26 Smoothie Walkthrough',
+    pageTitle: 'Cookingdom Level 26 Smoothie Walkthrough',
     pageSubtitle: 'Learn to blend the perfect Smoothie in Level 26 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_26.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
-    iframeUrl: 'https://www.youtube.com/embed/BK2eYJhoKl8', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/28BOvXkyj-E', // Placeholder
     seo: {
       title: 'Cookingdom Level 26 Guide: Smoothie | cookingdom.co',
       description:
@@ -2887,22 +2814,16 @@ export const guides = [
         '<h3>Smoothie</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 2 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-23',
-          title: 'Cookingdom Level 23<br>Yule Log Cake',
-          imageUrl: '/images/guides_23.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
-        },
-        {
-          id: 'cookingdom-game-level-24',
-          title: 'Cookingdom Level 24<br>Beef Pho',
-          imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
-        },
-        {
           id: 'cookingdom-game-level-25',
-          title: 'Cookingdom Level 25<br>Pizza',
+          title: 'Cookingdom Level 25 Pizza Walkthrough',
           imageUrl: '/images/guides_25.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
+        },
+        {
+          id: 'cookingdom-game-level-27',
+          title: 'Cookingdom Level 27 Sandwich Walkthrough',
+          imageUrl: '/images/guides_27.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
         },
       ],
     },
@@ -3001,15 +2922,15 @@ export const guides = [
   {
     // Add entry for Level 27
     id: 'cookingdom-game-level-27',
-    title: 'Cookingdom Level 27:<br>Sandwich',
-    pageTitle: 'Cookingdom Level 27 - Sandwich Guide',
+    title: 'Cookingdom Level 27 Sandwich Walkthrough',
+    pageTitle: 'Cookingdom Level 27 Sandwich Walkthrough',
     pageSubtitle: 'Learn to assemble the perfect Sandwich in Level 27 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_27.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
-    iframeUrl: 'https://www.youtube.com/embed/vWz6SmiMBk0', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY', // Placeholder
     seo: {
       title: 'Cookingdom Level 27 Guide: Sandwich | cookingdom.co',
       description:
@@ -3023,22 +2944,16 @@ export const guides = [
         '<h3>Sandwich</h3><p><strong>Difficulty:</strong> Easy</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-24',
-          title: 'Cookingdom Level 24<br>Beef Pho',
-          imageUrl: '/images/guides_24.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
-        },
-        {
-          id: 'cookingdom-game-level-25',
-          title: 'Cookingdom Level 25<br>Pizza',
-          imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
-        },
-        {
           id: 'cookingdom-game-level-26',
-          title: 'Cookingdom Level 26<br>Smoothie',
+          title: 'Cookingdom Level 26 Smoothie Walkthrough',
           imageUrl: '/images/guides_26.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
+        },
+        {
+          id: 'cookingdom-game-level-28',
+          title: 'Cookingdom Level 28 Croissant Walkthrough',
+          imageUrl: '/images/guides_28.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
         },
       ],
     },
@@ -3126,15 +3041,15 @@ export const guides = [
   {
     // Add entry for Level 28
     id: 'cookingdom-game-level-28',
-    title: 'Cookingdom Level 28:<br>Croissant',
-    pageTitle: 'Cookingdom Level 28 - Croissant Guide',
+    title: 'Cookingdom Level 28 Croissant Walkthrough',
+    pageTitle: 'Cookingdom Level 28 Croissant Walkthrough',
     pageSubtitle: 'Learn to make the perfect flaky Croissant in Level 28 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_28.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
-    iframeUrl: 'https://www.youtube.com/embed/c0TZorOkxWU', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI', // Placeholder
     seo: {
       title: 'Cookingdom Level 28 Guide: Croissant | cookingdom.co',
       description:
@@ -3148,22 +3063,16 @@ export const guides = [
         '<h3>Croissant</h3><p><strong>Difficulty:</strong> High</p><p><strong>Approx. Time:</strong> 6 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-25',
-          title: 'Cookingdom Level 25<br>Pizza',
-          imageUrl: '/images/guides_25.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-25' } },
-        },
-        {
-          id: 'cookingdom-game-level-26',
-          title: 'Cookingdom Level 26<br>Smoothie',
-          imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
-        },
-        {
           id: 'cookingdom-game-level-27',
-          title: 'Cookingdom Level 27<br>Sandwich',
+          title: 'Cookingdom Level 27 Sandwich Walkthrough',
           imageUrl: '/images/guides_27.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
+        },
+        {
+          id: 'cookingdom-game-level-29',
+          title: 'Cookingdom Level 29 Matcha Bola Tea Walkthrough',
+          imageUrl: '/images/guides_29.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
         },
       ],
     },
@@ -3252,15 +3161,15 @@ export const guides = [
   {
     // Add entry for Level 29
     id: 'cookingdom-game-level-29',
-    title: 'Cookingdom Level 29:<br>Matcha Boba Tea',
-    pageTitle: 'Cookingdom Level 29 - Matcha Boba Tea Guide',
+    title: 'Cookingdom Level 29 Matcha Bola Tea Walkthrough',
+    pageTitle: 'Cookingdom Level 29 Matcha Bola Tea Walkthrough',
     pageSubtitle: 'Learn to make the trendy Matcha Boba Tea in Level 29 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_29.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
-    iframeUrl: 'https://www.youtube.com/embed/BI4QGcm-kDM', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/RE42E5fmjLo', // Placeholder
     seo: {
       title: 'Cookingdom Level 29 Guide: Matcha Boba Tea | cookingdom.co',
       description:
@@ -3274,22 +3183,16 @@ export const guides = [
         '<h3>Matcha Boba Tea</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-26',
-          title: 'Cookingdom Level 26<br>Smoothie',
-          imageUrl: '/images/guides_26.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-26' } },
-        },
-        {
-          id: 'cookingdom-game-level-27',
-          title: 'Cookingdom Level 27<br>Sandwich',
-          imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
-        },
-        {
           id: 'cookingdom-game-level-28',
-          title: 'Cookingdom Level 28<br>Croissant',
+          title: 'Cookingdom Level 28 Croissant Walkthrough',
           imageUrl: '/images/guides_28.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
+        },
+        {
+          id: 'cookingdom-game-level-30',
+          title: 'Cookingdom Level 30 Doner Kebab Walkthrough',
+          imageUrl: '/images/guides_30.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
         },
       ],
     },
@@ -3373,15 +3276,15 @@ export const guides = [
   {
     // Add entry for Level 30
     id: 'cookingdom-game-level-30',
-    title: 'Cookingdom Level 30:<br>Doner Kebab',
-    pageTitle: 'Cookingdom Level 30 - Doner Kebab Guide',
+    title: 'Cookingdom Level 30 Doner Kebab Walkthrough',
+    pageTitle: 'Cookingdom Level 30 Doner Kebab Walkthrough',
     pageSubtitle: 'Learn to make the classic Doner Kebab in Level 30 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
     isSpecial: false,
     imageUrl: '/images/guides_30.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-    iframeUrl: 'https://www.youtube.com/embed/6l1-yu8zZKs', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/G3sO3IvbM0Q', // Placeholder
     seo: {
       title: 'Cookingdom Level 30 Guide: Doner Kebab | cookingdom.co',
       description:
@@ -3395,22 +3298,16 @@ export const guides = [
         '<h3>Doner Kebab</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-27',
-          title: 'Cookingdom Level 27<br>Sandwich',
-          imageUrl: '/images/guides_27.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
-        },
-        {
-          id: 'cookingdom-game-level-28',
-          title: 'Cookingdom Level 28<br>Croissant',
-          imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
-        },
-        {
           id: 'cookingdom-game-level-29',
-          title: 'Cookingdom Level 29<br>Matcha Boba Tea',
+          title: 'Cookingdom Level 29 Matcha Bola Tea Walkthrough',
           imageUrl: '/images/guides_29.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
+        },
+        {
+          id: 'cookingdom-game-level-31',
+          title: 'Cookingdom Level 31 Cafe Mocha Walkthrough',
+          imageUrl: '/images/guides_31.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
         },
       ],
     },
@@ -3493,15 +3390,15 @@ export const guides = [
   {
     // Add entry for Level 31
     id: 'cookingdom-game-level-31',
-    title: 'Cookingdom Level 31:<br>Café Mocha',
-    pageTitle: 'Cookingdom Level 31 - Café Mocha Guide',
+    title: 'Cookingdom Level 31 Cafe Mocha Walkthrough',
+    pageTitle: 'Cookingdom Level 31 Cafe Mocha Walkthrough',
     pageSubtitle: 'Learn to craft the perfect Café Mocha in Level 31 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06', // Start of new category
     isSpecial: false,
     imageUrl: '/images/guides_31.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
-    iframeUrl: 'https://www.youtube.com/embed/iq0t6XrkgF0', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/vsRaRZkRCsw', // Placeholder
     seo: {
       title: 'Cookingdom Level 31 Guide: Café Mocha | Cookingdom.co',
       description:
@@ -3515,22 +3412,16 @@ export const guides = [
         '<h3>Café Mocha</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-28',
-          title: 'Cookingdom Level 28<br>Croissant',
-          imageUrl: '/images/guides_28.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
-        },
-        {
-          id: 'cookingdom-game-level-29',
-          title: 'Cookingdom Level 29<br>Matcha Boba Tea',
-          imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
-        },
-        {
           id: 'cookingdom-game-level-30',
-          title: 'Cookingdom Level 30<br>Doner Kebab',
-          imageUrl: '/images/guides_30.webp', // Placeholder
+          title: 'Cookingdom Level 30 Doner Kebab Walkthrough',
+          imageUrl: '/images/guides_28.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
+        },
+        {
+          id: 'cookingdom-game-level-32',
+          title: 'Cookingdom Level 32 Hamburger Walkthrough',
+          imageUrl: '/images/guides_32.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
         },
       ],
     },
@@ -3616,15 +3507,15 @@ export const guides = [
   {
     // Add entry for Level 32
     id: 'cookingdom-game-level-32',
-    title: 'Cookingdom Level 32:<br>Hamburger',
-    pageTitle: 'Cookingdom Level 32 - Hamburger Guide',
+    title: 'Cookingdom Level 32 Hamburger Walkthrough',
+    pageTitle: 'Cookingdom Level 32 Hamburger Walkthrough',
     pageSubtitle: 'Learn to assemble the classic Hamburger in Level 32 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_32.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
-    iframeUrl: 'https://www.youtube.com/embed/VViL7ptIJUA', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/V_JKX3tFHTE', // Placeholder
     seo: {
       title: 'Cookingdom Level 32 Guide: Hamburger | Cookingdom.co',
       description:
@@ -3638,22 +3529,16 @@ export const guides = [
         '<h3>Hamburger</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-29',
-          title: 'Cookingdom Level 29<br>Matcha Boba Tea',
-          imageUrl: '/images/guides_29.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-29' } },
-        },
-        {
-          id: 'cookingdom-game-level-30',
-          title: 'Cookingdom Level 30<br>Doner Kebab',
-          imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-        },
-        {
           id: 'cookingdom-game-level-31',
-          title: 'Cookingdom Level 31<br>Café Mocha',
-          imageUrl: '/images/guides_31.webp3', // Placeholder
+          title: 'Cookingdom Level 31 Cafe Mocha Walkthrough',
+          imageUrl: '/images/guides_31.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
+        },
+        {
+          id: 'cookingdom-game-level-33',
+          title: 'Cookingdom Level 33 Alaskan Steamed Lobster Walkthrough',
+          imageUrl: '/images/guides_33.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
         },
       ],
     },
@@ -3742,8 +3627,8 @@ export const guides = [
   {
     // Add entry for Level 33
     id: 'cookingdom-game-level-33',
-    title: 'Cookingdom Level 33:<br>Alaskan Steamed Lobster',
-    pageTitle: 'Cookingdom Level 33 - Alaskan Steamed Lobster Guide',
+    title: 'Cookingdom Level 33 Alaskan Steamed Lobster Walkthrough',
+    pageTitle: 'Cookingdom Level 33 Alaskan Steamed Lobster Walkthrough',
     pageSubtitle:
       'Learn to prepare the luxurious Alaskan Steamed Lobster in Level 33 of Cookingdom.',
     category: '31-40',
@@ -3751,7 +3636,7 @@ export const guides = [
     isSpecial: false,
     imageUrl: '/images/guides_33.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
-    iframeUrl: 'https://www.youtube.com/embed/2wdfF1Rzb0M', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/BDtqpxQBHEw', // Placeholder
     seo: {
       title: 'Cookingdom Level 33 Guide: Alaskan Steamed Lobster | Cookingdom.co',
       description:
@@ -3765,22 +3650,16 @@ export const guides = [
         '<h3>Alaskan Steamed Lobster</h3><p><strong>Difficulty:</strong> High</p><p><strong>Approx. Time:</strong> 6 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-30',
-          title: 'Cookingdom Level 30<br>Doner Kebab',
-          imageUrl: '/images/guides_30.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-30' } },
-        },
-        {
-          id: 'cookingdom-game-level-31',
-          title: 'Cookingdom Level 31<br>Café Mocha',
-          imageUrl: '/images/guides_31.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
-        },
-        {
           id: 'cookingdom-game-level-32',
-          title: 'Cookingdom Level 32<br>Hamburger',
+          title: 'Cookingdom Level 32 Hamburger Walkthrough',
           imageUrl: '/images/guides_32.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
+        },
+        {
+          id: 'cookingdom-game-level-34',
+          title: 'Cookingdom Level 34 King Crab Walkthrough',
+          imageUrl: '/images/guides_34.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
         },
       ],
     },
@@ -3858,15 +3737,15 @@ export const guides = [
   {
     // Add entry for Level 34
     id: 'cookingdom-game-level-34',
-    title: 'Cookingdom Level 34:<br>King Crab',
-    pageTitle: 'Cookingdom Level 34 - King Crab Guide',
+    title: 'Cookingdom Level 34 King Crab Walkthrough',
+    pageTitle: 'Cookingdom Level 34 King Crab Walkthrough',
     pageSubtitle: 'Learn to prepare the exquisite King Crab in Level 34 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_34.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-    iframeUrl: 'https://www.youtube.com/embed/1dlwivzYyZg', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/5FLk6Yq4GPo', // Placeholder
     seo: {
       title: 'Cookingdom Level 34 Guide: King Crab | Tips & Strategy',
       description:
@@ -3880,22 +3759,16 @@ export const guides = [
         '<h3>King Crab</h3><p><strong>Difficulty:</strong> High</p><p><strong>Approx. Time:</strong> 6 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-31',
-          title: 'Cookingdom Level 31<br>Café Mocha',
-          imageUrl: '/images/guides_31.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-31' } },
-        },
-        {
-          id: 'cookingdom-game-level-32',
-          title: 'Cookingdom Level 32<br>Hamburger',
-          imageUrl: '/images/guides_32.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
-        },
-        {
           id: 'cookingdom-game-level-33',
-          title: 'Cookingdom Level 33<br>Alaskan Steamed Lobster',
+          title: 'Cookingdom Level 33 Alaskan Steamed Lobster Walkthrough',
           imageUrl: '/images/guides_33.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
+        },
+        {
+          id: 'cookingdom-game-level-35',
+          title: 'Cookingdom Level 35 Spaghetti With Mushroom Cream Sauce Walkthrough',
+          imageUrl: '/images/guides_35.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
         },
       ],
     },
@@ -3974,130 +3847,122 @@ export const guides = [
   {
     // Add entry for Level 35
     id: 'cookingdom-game-level-35',
-    title: 'Cookingdom Level 35:<br>Chocolate',
-    pageTitle: 'Cookingdom Level 35 - Chocolate Guide',
-    pageSubtitle: 'Learn to create decadent Chocolate treats in Level 35 of Cookingdom.',
+    title: 'Cookingdom Level 35 Spaghetti With Mushroom Cream Sauce Walkthrough',
+    pageTitle: 'Cookingdom Level 35 Spaghetti With Mushroom Cream Sauce Walkthrough',
+    pageSubtitle:
+      'Learn to prepare rich and creamy Spaghetti with Mushroom Cream Sauce in Level 35 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_35.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
-    iframeUrl: 'https://www.youtube.com/embed/3-Cfdyxut48', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/kykU7FrPi9s', // Placeholder
     seo: {
-      title: 'Cookingdom Level 35 Guide: Chocolate | Cookingdom.co',
+      title: 'Cookingdom Level 35 Guide: Spaghetti With Mushroom Cream Sauce | Cookingdom.co',
       description:
-        'Master Chocolate desserts in Level 35 of Cookingdom. Get tips on melting chocolate, preparing desserts like mousse or fondue, and garnishing.',
+        'Master Spaghetti with Mushroom Cream Sauce in Level 35 of Cookingdom. Learn the best steps for cooking pasta, sautéing mushrooms, and creating a creamy, savory sauce.',
       keywords:
-        'Cookingdom Level 35 , cookingdom Chocolate, Dessert, Melting Chocolate, Fondue, Mousse, Cake, Guide',
+        'Cookingdom Level 35, cookingdom Spaghetti, Mushroom Sauce, Pasta, Cream Sauce, Italian Cooking, Cookingdom walkthrough',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_35.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Chocolate</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
+        '<h3>Spaghetti With Mushroom Cream Sauce</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 6 mins</p><p><strong>Rewards:</strong> 4 Stars</p>',
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-32',
-          title: 'Cookingdom Level 32<br>Hamburger',
-          imageUrl: '/images/guides_32.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
-        },
-        {
-          id: 'cookingdom-game-level-33',
-          title: 'Cookingdom Level 33<br>Alaskan Steamed Lobster',
-          imageUrl: '/images/guides_33.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
-        },
-        {
           id: 'cookingdom-game-level-34',
-          title: 'Cookingdom Level 34<br>King Crab',
+          title: 'Cookingdom Level 34 King Crab Walkthrough',
           imageUrl: '/images/guides_34.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
+        },
+        {
+          id: 'cookingdom-game-level-36',
+          title: 'Cookingdom Level 36 Indian Curry Walkthrough',
+          imageUrl: '/images/guides_36.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
         },
       ],
     },
     detailsHtml: `
 <h2 id="overview">Cookingdom Level 35 Game Overview</h2>
-<p>In Cookingdom Level 35, you’ll be preparing a delightful and indulgent treat: Chocolate! Chocolate is a beloved dessert ingredient, and in this level, you’ll need to create a decadent dish that showcases its rich, creamy, and sweet qualities. Whether you’re melting the chocolate for a smooth fondue or crafting a beautiful chocolate dessert, this level is all about precision and balancing the flavors to perfection.</p>
-<p>This Cookingdom Level 35 guide will walk you through each step of preparing the perfect Chocolate dish, from melting the chocolate to assembling the final dessert.</p>
+<p>In Cookingdom Level 35, you'll be preparing a savory and satisfying classic: Spaghetti with Mushroom Cream Sauce! This comforting Italian-inspired dish combines perfectly cooked pasta with a creamy, umami-rich mushroom sauce. Timing, ingredient prep, and sauce consistency are key to succeeding in this level.</p>
+<p>This walkthrough will guide you through each step of creating the perfect plate of spaghetti in Level 35, from boiling the pasta to preparing the mushroom sauce and assembling the final dish.</p>
 
 <h2 id="goal">Cookingdom Level 35 Objectives</h2>
 <ul>
-    <li>Melt the chocolate properly to achieve a smooth texture.</li>
-    <li>Prepare the dessert by incorporating the melted chocolate.</li>
-    <li>Garnish and serve the chocolate dish.</li>
+  <li>Boil the spaghetti to al dente texture.</li>
+  <li>Sauté mushrooms with garlic and herbs.</li>
+  <li>Prepare a creamy sauce with butter, cream, and cheese.</li>
+  <li>Combine and serve the dish attractively.</li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 35 Step-by-Step Guide to Master Chocolate</h2>
+<h2 id="steps">Cookingdom Level 35 Step-by-Step Guide</h2>
 <ol>
-    <li>
-        <h3>Melt the Chocolate</h3>
-        <p>The first step in preparing any chocolate dessert is to melt the chocolate. In Cookingdom Level 35 , you’ll be tasked with melting the chocolate carefully to ensure it becomes smooth and silky without burning.</p>
-        <p><strong>Tip:</strong> You can melt chocolate using a double boiler or microwave. If using a microwave, melt the chocolate in short bursts (20-30 seconds at a time) and stir in between to prevent burning.</p>
-        <p><strong>Tip:</strong> Stir the melted chocolate gently to ensure it’s perfectly smooth and glossy. If it’s too thick, you can add a little bit of cream or butter to achieve the desired consistency.</p>
-    </li>
-    <li>
-        <h3>Prepare the Dessert</h3>
-        <p>Now that the chocolate is melted, it’s time to incorporate it into your dessert. In Cookingdom Level 35 , you can create a variety of chocolate-based desserts such as a chocolate cake, chocolate mousse, or chocolate fondue.</p>
-        <p><strong>Tip:</strong> If you’re making a chocolate mousse, fold the melted chocolate into whipped cream to create a light and airy texture.</p>
-        <p><strong>Tip:</strong> If preparing chocolate fondue, pour the melted chocolate into a fondue pot and keep it warm. You can dip fruits like strawberries, bananas, and marshmallows into the chocolate for a fun and delicious treat.</p>
-    </li>
-    <li>
-        <h3>Add Flavorings and Toppings</h3>
-        <p>To enhance the flavor of your chocolate dish, you can add flavorings or toppings.</p>
-        <p>For a richer flavor, add a splash of vanilla extract or a pinch of salt to balance out the sweetness.</p>
-        <p>Toppings like crushed nuts, whipped cream, or chocolate shavings will give the dessert an extra layer of texture and visual appeal.</p>
-        <p><strong>Tip:</strong> If you’re preparing a chocolate cake, make sure to frost it with chocolate ganache or a creamy chocolate frosting for an added indulgence.</p>
-    </li>
-    <li>
-        <h3>Assemble and Serve the Chocolate Dish</h3>
-        <p>Once the chocolate is prepared and flavored, it’s time to assemble your dessert.</p>
-        <p>If you’re creating a chocolate cake, layer the cake with frosting and drizzle melted chocolate over the top.</p>
-        <p>For chocolate fondue, serve the melted chocolate in a fondue pot with an assortment of dippable treats like fruit, biscuits, or marshmallows.</p>
-        <p><strong>Tip:</strong> In Cookingdom Level 35 , presentation matters! Arrange the dessert nicely on a plate and garnish with chocolate shavings, fresh berries, or a drizzle of caramel sauce for an elegant touch.</p>
-    </li>
+  <li>
+    <h3>Cook the Spaghetti</h3>
+    <p>Start by boiling a pot of water and adding a pinch of salt. Once the water boils, add the spaghetti and cook it until it reaches an al dente texture.</p>
+    <p><strong>Tip:</strong> Don’t overcook the pasta. Al dente means it’s tender but firm to the bite—perfect for absorbing the sauce later.</p>
+  </li>
+  <li>
+    <h3>Sauté the Mushrooms</h3>
+    <p>While the pasta is cooking, sauté sliced mushrooms in a pan with butter or olive oil. Add minced garlic and a pinch of salt for extra flavor.</p>
+    <p><strong>Tip:</strong> Don’t overcrowd the pan—this allows the mushrooms to brown properly and develop a deep, savory flavor.</p>
+  </li>
+  <li>
+    <h3>Make the Cream Sauce</h3>
+    <p>Once the mushrooms are browned, pour in heavy cream and simmer gently. Stir in grated Parmesan cheese and a bit of black pepper to create a rich, creamy texture.</p>
+    <p><strong>Tip:</strong> If the sauce is too thick, add a splash of pasta water to thin it out and help it cling to the spaghetti.</p>
+  </li>
+  <li>
+    <h3>Combine and Serve</h3>
+    <p>Drain the cooked pasta and add it directly to the mushroom cream sauce. Toss everything together until the spaghetti is well coated.</p>
+    <p>Plate the pasta and garnish with freshly chopped parsley and a sprinkle of Parmesan.</p>
+    <p><strong>Tip:</strong> Presentation counts! Serve in a wide bowl and neatly twist the pasta for a professional look.</p>
+  </li>
 </ol>
 
 <h2 id="tips">Pro Tips for Cookingdom Level 35 Success</h2>
 <ul>
-    <li>
-        <h3>Melt Chocolate Slowly</h3>
-        <p>When melting chocolate, avoid rushing the process. Use low heat and stir constantly to achieve a smooth and lump-free consistency. Overheating the chocolate can cause it to seize up or burn, ruining the dish.</p>
-    </li>
-    <li>
-        <h3>Use the Right Chocolate</h3>
-        <p>Use high-quality chocolate for the best flavor and texture. For baking, dark chocolate is ideal, but for a creamier taste, milk chocolate or even white chocolate can be used. Match the chocolate to the type of dessert you’re making.</p>
-    </li>
-    <li>
-        <h3>Balance Sweetness with Salt</h3>
-        <p>A pinch of salt can balance the sweetness of the chocolate and enhance its natural flavor. If you're preparing a chocolate dessert like a mousse or cake, adding salt can elevate the taste.</p>
-    </li>
-    <li>
-        <h3>Serve with Complementary Flavors</h3>
-        <p>Chocolate pairs well with fruits like berries (strawberries, raspberries, etc.), nuts, and even spices like cinnamon or coffee. Experiment with different flavor combinations to make your dessert unique.</p>
-    </li>
-    <li>
-        <h3>Keep It Fresh</h3>
-        <p>Chocolate desserts are best served fresh, especially if you're using whipped cream or other perishable ingredients. Prepare everything ahead of time, but assemble the final dessert just before serving for the best taste.</p>
-    </li>
+  <li>
+    <h3>Use Fresh Mushrooms</h3>
+    <p>Fresh mushrooms like cremini or shiitake offer more flavor and texture than canned ones. Slice them evenly for even cooking.</p>
+  </li>
+  <li>
+    <h3>Don’t Skip the Garlic</h3>
+    <p>Garlic is essential for boosting the savory depth of the sauce. Sauté it until just golden—not burnt—to avoid bitterness.</p>
+  </li>
+  <li>
+    <h3>Balance the Creaminess</h3>
+    <p>If your sauce becomes too rich, a squeeze of lemon juice or a touch of white wine can cut through the creaminess and add freshness.</p>
+  </li>
+  <li>
+    <h3>Cheese for the Win</h3>
+    <p>Parmesan adds umami and saltiness. Grate it fresh if possible, and use it both in the sauce and as a finishing touch.</p>
+  </li>
+  <li>
+    <h3>Cook Sauce and Pasta Simultaneously</h3>
+    <p>Timing is important. Aim to finish the sauce just as the pasta is ready so everything combines while hot and fresh.</p>
+  </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 35, creating a perfect Chocolate dish requires careful attention to detail. Whether you’re melting the chocolate for a fondue or using it to create a decadent dessert, every step matters. Be sure to melt the chocolate slowly, enhance the flavors with vanilla or salt, and present the dish beautifully.</p>
-<p>By following this Cookingdom Level 35 walkthrough guide, you’ll be able to master the art of preparing indulgent chocolate desserts, impressing your customers with every sweet creation. Whether you’re making a cake, mousse, or fondue, chocolate is always a winning choice for any dessert lover.</p>
+<p>In Cookingdom Level 35, you’ll master the art of creating Spaghetti with Mushroom Cream Sauce—a rich and comforting dish that requires skillful coordination of pasta, mushrooms, and a creamy sauce. The key to success is proper timing, balancing the richness of the cream with the earthiness of the mushrooms, and presenting the dish attractively.</p>
+<p>Follow this walkthrough to deliver a delicious and elegant meal that will impress your virtual customers and earn you top ratings in Cookingdom!</p>
 `,
   },
+
   {
     // Add entry for Level 36
     id: 'cookingdom-game-level-36',
-    title: 'Cookingdom Level 36:<br>Indian Curry',
-    pageTitle: 'Cookingdom Level 36 - Indian Curry Guide',
+    title: 'Cookingdom Level 36 Indian Curry Walkthrough',
+    pageTitle: 'Cookingdom Level 36 Indian Curry Walkthrough',
     pageSubtitle: 'Learn to cook flavorful Indian Curry in Level 36 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_36.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-    iframeUrl: 'https://www.youtube.com/embed/ME58Cd2FYJ4', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/qKUPwJWggA8', // Placeholder
     seo: {
       title: 'Cookingdom Level 36 Guide: Indian Curry | Cookingdom.co',
       description:
@@ -4110,22 +3975,16 @@ export const guides = [
         '<h3>Indian Curry</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-33',
-          title: 'Cookingdom Level 33<br>Alaskan Steamed Lobster',
-          imageUrl: '/images/guides_33.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
-        },
-        {
-          id: 'cookingdom-game-level-34',
-          title: 'Cookingdom Level 34<br>King Crab',
-          imageUrl: '/images/guides_34.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-        },
-        {
           id: 'cookingdom-game-level-35',
-          title: 'Cookingdom Level 35<br>Chocolate',
+          title: 'Cookingdom Level 35 Spaghetti With Mushroom Cream Sauce Walkthrough',
           imageUrl: '/images/guides_35.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
+        },
+        {
+          id: 'cookingdom-game-level-37',
+          title: 'Cookingdom Level 37 Kimchi Rice Walkthrough',
+          imageUrl: '/images/guides_37.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
         },
       ],
     },
@@ -4226,15 +4085,15 @@ export const guides = [
   {
     // Add entry for Level 37
     id: 'cookingdom-game-level-37',
-    title: 'Cookingdom Level 37:<br>Kimchi Rice',
-    pageTitle: 'Cookingdom Level 37 - Kimchi Rice Guide',
+    title: 'Cookingdom Level 37 Kimchi Rice Walkthrough',
+    pageTitle: 'Cookingdom Level 37 Kimchi Rice Walkthrough',
     pageSubtitle: 'Learn to make flavorful Kimchi Rice in Level 37 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
     imageUrl: '/images/guides_37.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
-    iframeUrl: 'https://www.youtube.com/embed/tFEyZT_-jTM', // Placeholder
+    iframeUrl: 'https://www.youtube.com/embed/Oz9L0TFbgro', // Placeholder
     seo: {
       title: 'Cookingdom Level 37 Guide: Kimchi Rice | Cookingdom.co',
       description:
@@ -4248,22 +4107,16 @@ export const guides = [
         '<h3>Kimchi Rice</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 4 mins</p><p><strong>Rewards:</strong> 4 Stars</p>', // Estimate
       featuredGuides: [
         {
-          id: 'cookingdom-game-level-34',
-          title: 'Cookingdom Level 34<br>King Crab',
-          imageUrl: '/images/guides_34.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
-        },
-        {
-          id: 'cookingdom-game-level-35',
-          title: 'Cookingdom Level 35<br>Chocolate',
-          imageUrl: '/images/guides_35.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
-        },
-        {
           id: 'cookingdom-game-level-36',
-          title: 'Cookingdom Level 36<br>Indian Curry',
+          title: 'Cookingdom Level 36 Indian Curry Walkthrough',
           imageUrl: '/images/guides_36.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
+        },
+        {
+          id: 'cookingdom-game-level-38',
+          title: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
+          imageUrl: '/images/guides_38.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
         },
       ],
     },
@@ -4351,15 +4204,15 @@ export const guides = [
   {
     // Add entry for Level 38
     id: 'cookingdom-game-level-38',
-    title: 'Cookingdom Level 38:<br>Tteokbokki Rush',
-    pageTitle: 'Cookingdom Level 38 - Tteokbokki Rush Guide',
+    title: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
+    pageTitle: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
     pageSubtitle: 'Master the spicy Tteokbokki in the fast-paced Level 38 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_38.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-    iframeUrl: 'https://www.youtube.com/embed/EzXju3Q8Zsc', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/ED0NlqwWiwg', // Placeholder - Replace with actual video ID
     seo: {
       title: 'Cookingdom Level 38 Guide: Tteokbokki Rush | Cookingdom.co',
       description:
@@ -4374,22 +4227,16 @@ export const guides = [
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
-          id: 'cookingdom-game-level-35',
-          title: 'Cookingdom Level 35<br>Chocolate',
-          imageUrl: '/images/guides_35.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
-        },
-        {
-          id: 'cookingdom-game-level-36',
-          title: 'Cookingdom Level 36<br>Indian Curry',
-          imageUrl: '/images/guides_36.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-        },
-        {
           id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37<br>Kimchi Rice',
+          title: 'Cookingdom Level 37 Kimchi Rice Walkthrough',
           imageUrl: '/images/guides_37.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
+        },
+        {
+          id: 'cookingdom-game-level-39',
+          title: 'Cookingdom Level 39 Red Borscht Walkthrough',
+          imageUrl: '/images/guides_39.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
         },
       ],
     },
@@ -4439,8 +4286,8 @@ export const guides = [
   {
     // Add entry for Level 39
     id: 'cookingdom-game-level-39',
-    title: 'Cookingdom Level 39:<br>Spaghetti with Mushroom Cream Sauce',
-    pageTitle: 'Cookingdom Level 39 - Spaghetti with Mushroom Cream Sauce Guide',
+    title: 'Cookingdom Level 39 Red Borscht Walkthrough',
+    pageTitle: 'Cookingdom Level 39 Red Borscht Walkthrough',
     pageSubtitle:
       'Master Spaghetti with Mushroom Cream Sauce, a creamy Western dish demanding perfect timing in Level 39.',
     category: '31-40',
@@ -4448,7 +4295,7 @@ export const guides = [
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_39.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-    iframeUrl: 'https://www.youtube.com/embed/VfAxaHCxBOA', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko', // Placeholder - Replace with actual video ID
     seo: {
       title: 'Cookingdom Level 39 Guide:Spaghetti with Mushroom Cream Sauce',
       description:
@@ -4463,22 +4310,16 @@ export const guides = [
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
-          id: 'cookingdom-game-level-36',
-          title: 'Cookingdom Level 36<br>Indian Curry',
-          imageUrl: '/images/guides_36.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-        },
-        {
-          id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37<br>Kimchi Rice',
-          imageUrl: '/images/guides_37.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
-        },
-        {
           id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
+          title: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
           imageUrl: '/images/guides_38.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
+        },
+        {
+          id: 'cookingdom-game-level-40',
+          title: 'Cookingdom Level 40 Beef Wellington Walkthrough',
+          imageUrl: '/images/guides_40.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
         },
       ],
     },
@@ -4528,15 +4369,15 @@ export const guides = [
   {
     // Add entry for Level 40
     id: 'cookingdom-game-level-40',
-    title: 'Cookingdom Level 40:<br>Beef Wellington',
-    pageTitle: 'Cookingdom Level 40 - Beef Wellington Guide',
+    title: 'Cookingdom Level 40 Beef Wellington Walkthrough',
+    pageTitle: 'Cookingdom Level 40 Beef Wellington Walkthrough',
     pageSubtitle: 'Master the elegant and complex Beef Wellington in Level 40 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false, // Marked as special due to complexity and description
     imageUrl: '/images/guides_40.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
-    iframeUrl: 'https://www.youtube.com/embed/DGrXE28wjnU', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/O6RrVnSHTzU', // Placeholder - Replace with actual video ID
     seo: {
       title: 'Cookingdom Level 40 Guide: Beef Wellington |Cookingdom.co',
       description:
@@ -4551,22 +4392,16 @@ export const guides = [
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
-          id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37<br>Kimchi Rice',
-          imageUrl: '/images/guides_37.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
-        },
-        {
-          id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
-          imageUrl: '/images/guides_38.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-        },
-        {
           id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
+          title: 'Cookingdom Level 39 Red Borscht Walkthrough',
           imageUrl: '/images/guides_39.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
+        },
+        {
+          id: 'cookingdom-game-level-41',
+          title: 'Cookingdom Level 41 Donut Walkthrough',
+          imageUrl: '/images/guides_41.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
         },
       ],
     },
@@ -4617,8 +4452,8 @@ export const guides = [
   {
     // Add entry for Level 41
     id: 'cookingdom-game-level-41',
-    title: 'Cookingdom Level 41:<br>Donut',
-    pageTitle: 'Cookingdom Level 41 - Donut Guide',
+    title: 'Cookingdom Level 41 Donut Walkthrough',
+    pageTitle: 'Cookingdom Level 41 Donut Walkthrough',
     pageSubtitle:
       'Master the sweet and fast-paced challenge of making Donuts in Level 41 of Cookingdom.',
     category: '41-50',
@@ -4626,7 +4461,7 @@ export const guides = [
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_41.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
-    iframeUrl: 'https://www.youtube.com/embed/gws5p5MT2Bc', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E', // Placeholder - Replace with actual video ID
     seo: {
       title: 'Cookingdom Level 41 Guide: Donut | cookingdom.co',
       description:
@@ -4640,22 +4475,16 @@ export const guides = [
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
-          id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38<br>Tteokbokki Rush',
-          imageUrl: '/images/guides_38.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-        },
-        {
-          id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
-          imageUrl: '/images/guides_39.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-        },
-        {
           id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40<br>Beef Wellington',
+          title: 'Cookingdom Level 40 Beef Wellington Walkthrough',
           imageUrl: '/images/guides_40.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
+        },
+        {
+          id: 'cookingdom-game-level-42',
+          title: 'Cookingdom Level 42 Mapo Tofu Walkthrough',
+          imageUrl: '/images/guides_42.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
         },
       ],
     },
@@ -4705,8 +4534,8 @@ export const guides = [
   {
     // Add entry for Level 42
     id: 'cookingdom-game-level-42',
-    title: 'Cookingdom Level 42:<br>Mapo Tofu',
-    pageTitle: 'Cookingdom Level 42 - Mapo Tofu Guide',
+    title: 'Cookingdom Level 42 Mapo Tofu Walkthrough',
+    pageTitle: 'Cookingdom Level 42 Mapo Tofu Walkthrough',
     pageSubtitle:
       'Master the bold and spicy Chinese dish Mapo Tofu, focusing on wok skills and spice management in Level 42.',
     category: '41-50',
@@ -4714,7 +4543,7 @@ export const guides = [
     isSpecial: false, // Assuming it's not special unless specified
     imageUrl: '/images/guides_42.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
-    iframeUrl: 'https://www.youtube.com/embed/bMS0DIO6nmo', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/ekB2_ZAvJqg', // Placeholder - Replace with actual video ID
     seo: {
       title: 'Cookingdom Level 42 Guide: Mapo Tofu | Cookingdom.co',
       description:
@@ -4729,22 +4558,16 @@ export const guides = [
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
-          id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39<br>Spaghetti with Mushroom Cream Sauce',
-          imageUrl: '/images/guides_39.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-        },
-        {
-          id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40<br>Beef Wellington',
-          imageUrl: '/images/guides_40.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
-        },
-        {
           id: 'cookingdom-game-level-41',
-          title: 'Cookingdom Level 41<br>Donut',
+          title: 'Cookingdom Level 41 Donut Walkthrough',
           imageUrl: '/images/guides_41.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
+        },
+        {
+          id: 'cookingdom-game-level-43',
+          title: 'Cookingdom Level 43 Moon Cake Walkthrough',
+          imageUrl: '/images/guides_43.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
         },
       ],
     },
@@ -4795,8 +4618,8 @@ export const guides = [
   {
     // Add entry for Level 43
     id: 'cookingdom-game-level-43',
-    title: 'Cookingdom Level 43:<br>Moon Cake',
-    pageTitle: 'Cookingdom Level 43 - Moon Cake Guide',
+    title: 'Cookingdom Level 43 Moon Cake Walkthrough',
+    pageTitle: 'Cookingdom Level 43 Moon Cake Walkthrough',
     pageSubtitle:
       'Master the delicate and festive Moon Cake, testing precision with fillings and baking in Level 43.',
     category: '41-50',
@@ -4804,7 +4627,7 @@ export const guides = [
     isSpecial: false, // Can be set to true if considered a special/festive level
     imageUrl: '/images/guides_43.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
-    iframeUrl: 'https://www.youtube.com/embed/RetlPFno314', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // Placeholder - Replace with actual video ID
     seo: {
       title: 'Cookingdom Level 43 Guide: Moon Cake | Cookingdom.co',
       description:
@@ -4819,22 +4642,16 @@ export const guides = [
       featuredGuides: [
         // Placeholder - Adjust as needed
         {
-          id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40<br>Beef Wellington',
-          imageUrl: '/images/guides_40.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
-        },
-        {
-          id: 'cookingdom-game-level-41',
-          title: 'Cookingdom Level 41<br>Donut',
-          imageUrl: '/images/guides_41.webp', // Placeholder
-          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
-        },
-        {
           id: 'cookingdom-game-level-42',
-          title: 'Cookingdom Level 42<br>Mapo Tofu',
+          title: 'Cookingdom Level 42 Mapo Tofu Walkthrough',
           imageUrl: '/images/guides_42.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
+        },
+        {
+          id: 'cookingdom-game-level-44',
+          title: 'Cookingdom Level 44 Chocolate Walkthrough',
+          imageUrl: '/images/guides_44.webp', // Placeholder
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
         },
       ],
     },
@@ -4878,6 +4695,414 @@ export const guides = [
   <li>Wrong filling — double-check the customer order icon before wrapping.</li>
   <li>Burning the moon cake — stay near the oven during baking.</li>
   <li>Idle dough waiting unbaked — causes wasted prep time and breaks combo chains.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-44',
+    title: 'Cookingdom Level 44 Chocolate Walkthrough',
+    pageTitle: 'Cookingdom Level 44 Chocolate Walkthrough',
+    pageSubtitle:
+      'Master the art of chocolate crafting — melt, mold, and serve perfectly in this sweet and rich Level 44 challenge.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_44.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
+    iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Replace with actual video
+    seo: {
+      title: 'Cookingdom Level 44 Guide: Chocolate | Cookingdom.co',
+      description:
+        'Conquer Level 44 of Cookingdom by learning how to melt, mold, and serve chocolate quickly and accurately. Tips and tricks to earn 3 stars in this sweet challenge.',
+      keywords:
+        'Cookingdom Level 44, Cookingdom Chocolate, Chocolate Game Guide, Candy Crafting, Cooking Game Tips, Level 44 Cookingdom',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_44.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 44 <br/> Chocolate</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 2–3 mins</p><p><strong>Rewards:</strong> 3–4 Stars (Estimate)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-43',
+          title: 'Cookingdom Level 43 Moon Cake Walkthrough',
+          imageUrl: '/images/guides_43.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
+        },
+        {
+          id: 'cookingdom-game-level-45',
+          title: 'Cookingdom Level 45 Pastitsio Walkthrough',
+          imageUrl: '/images/guides_45.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Cookingdom Level 44 Game Overview</h2>
+<p><strong>Cookingdom Level 44</strong> takes you into the world of rich chocolate-making. From melting chocolate to using molds and toppings, this level demands fast timing and attention to detail. Get ready to satisfy customers with perfectly crafted sweets!</p>
+
+<h2 id="goal">🎯 Cookingdom Level 44 Goal</h2>
+<ul>
+  <li>Serve at least 28 chocolate desserts</li>
+  <li>Maintain customer satisfaction above 85%</li>
+  <li>Finish within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🍫 Cookingdom Level 44 Ingredients</h2>
+<ul>
+  <li>Milk chocolate base</li>
+  <li>Dark chocolate base</li>
+  <li>Flavor infusions: mint, strawberry, caramel</li>
+  <li>Chocolate molds (heart, square, swirl)</li>
+  <li>Toppings: nuts, sprinkles, berries</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Cookingdom Level 44 Step-by-Step Strategy</h2>
+<ol>
+  <li>Choose the correct chocolate base as per customer request.</li>
+  <li>Pour the melted chocolate into the selected mold.</li>
+  <li>Add the correct flavor infusion if required.</li>
+  <li>Top with the requested toppings before chilling.</li>
+  <li>Serve quickly once set. Work on the next batch while waiting.</li>
+</ol>
+
+<h2 id="tips">🔥 Cookingdom Level 44 Pro Tips</h2>
+<ul>
+  <li><strong>Preheat chocolate melters:</strong> Always keep both bases warm and ready.</li>
+  <li><strong>Memorize mold shapes:</strong> Familiarize yourself with the shapes to speed up selection.</li>
+  <li><strong>Upgrade chillers:</strong> Faster cooling means faster servings and better combos.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes in Level 44</h2>
+<ul>
+  <li>Using wrong chocolate base — always check the icon before starting.</li>
+  <li>Forgetting toppings — a missed topping can ruin the whole dessert.</li>
+  <li>Leaving chocolate in mold too long — delays orders and breaks combos.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-45',
+    title: 'Cookingdom Level 45 Pastitsio Walkthrough',
+    pageTitle: 'Cookingdom Level 45 Pastitsio Walkthrough',
+    pageSubtitle:
+      'Prepare hearty layers of pasta, meat sauce, and creamy béchamel in this Greek-inspired culinary challenge.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_45.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
+    iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Replace with actual video
+    seo: {
+      title: 'Cookingdom Level 45 Guide: Pastitsio | Cookingdom.co',
+      description:
+        'Master Pastitsio in Cookingdom Level 45. Learn how to layer pasta, meat sauce, and béchamel for a perfectly baked Greek dish. Tips to help you earn 3 stars!',
+      keywords:
+        'Cookingdom Level 45, Pastitsio, Greek Pasta Bake, Cookingdom Walkthrough, Béchamel Sauce, Meat Sauce, Cooking Game Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_45.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 45 <br/> Pastitsio</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3–4 mins</p><p><strong>Rewards:</strong> 3–4 Stars (Estimate)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-44',
+          title: 'Cookingdom Level 44 Chocolate Walkthrough',
+          imageUrl: '/images/guides_44.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
+        },
+        {
+          id: 'cookingdom-game-level-46',
+          title: 'Cookingdom Level 46 Sweet Potato Chewy Pudding Walkthrough',
+          imageUrl: '/images/guides_46.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Cookingdom Level 45 Game Overview</h2>
+<p><strong>Cookingdom Level 45</strong> brings a Greek classic to the table — <strong>Pastitsio</strong>. This baked pasta dish features hearty layers that test your multitasking and timing skills. Balance prep and oven usage to keep your combos going strong.</p>
+
+<h2 id="goal">🎯 Cookingdom Level 45 Goal</h2>
+<ul>
+  <li>Serve at least 22 portions of Pastitsio</li>
+  <li>Maintain satisfaction above 85%</li>
+  <li>Complete the level in under 4 minutes</li>
+</ul>
+
+<h2 id="ingredients">🍝 Cookingdom Level 45 Ingredients</h2>
+<ul>
+  <li>Cooked pasta tubes (penne or macaroni)</li>
+  <li>Ground meat sauce (beef or lamb)</li>
+  <li>Béchamel sauce (creamy white sauce)</li>
+  <li>Cheese topping (optional but boosts score)</li>
+  <li>Oven for baking</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Cookingdom Level 45 Step-by-Step Strategy</h2>
+<ol>
+  <li>Layer cooked pasta in a baking dish.</li>
+  <li>Add meat sauce on top, followed by a thick layer of béchamel.</li>
+  <li>Sprinkle with cheese if requested.</li>
+  <li>Bake in the oven until golden brown.</li>
+  <li>Serve hot and prep the next batch during baking time.</li>
+</ol>
+
+<h2 id="tips">🔥 Cookingdom Level 45 Pro Tips</h2>
+<ul>
+  <li><strong>Stagger your batches:</strong> Always have one in the oven and another in prep.</li>
+  <li><strong>Upgrade oven speed:</strong> Faster baking is key to keeping up with demand.</li>
+  <li><strong>Memorize requests:</strong> Some customers prefer no cheese — pay close attention.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes in Level 45</h2>
+<ul>
+  <li>Incorrect layer order — always follow pasta → meat → béchamel.</li>
+  <li>Overbaking — can result in burnt dishes and lost points.</li>
+  <li>Idle oven — keep it running to avoid lag in servings.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-46',
+    title: 'Cookingdom Level 46 Sweet Potato Chewy Pudding Walkthrough',
+    pageTitle: 'Cookingdom Level 46 Sweet Potato Chewy Pudding Walkthrough',
+    pageSubtitle:
+      'Delight customers with chewy, warm sweet potato pudding. Steam, mix, and serve the perfect dessert in this level’s time-sensitive kitchen.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_46.webp', // Placeholder image
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
+    iframeUrl: 'https://www.youtube.com/embed/arOpSIeqAlw', // Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 46 Guide: Sweet Potato Chewy Pudding | Cookingdom.co',
+      description:
+        'Learn to master Cookingdom Level 46 and serve delicious Sweet Potato Chewy Pudding. Get pro tips for mixing, steaming, and timing the dessert right.',
+      keywords:
+        'Cookingdom Level 46, Sweet Potato Pudding, Chewy Dessert, Steamed Sweets, Cookingdom Walkthrough, Cooking Game Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_46.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 46 <br/> Sweet Potato Chewy Pudding</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 3 Stars (Estimate)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-45',
+          title: 'Cookingdom Level 45 Pastitsio Walkthrough',
+          imageUrl: '/images/guides_45.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
+        },
+        {
+          id: 'cookingdom-game-level-47',
+          title: 'Cookingdom Level 47 Lunch Box Walkthrough',
+          imageUrl: '/images/guides_47.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Cookingdom Level 46 Game Overview</h2>
+<p><strong>Cookingdom Level 46</strong> brings a delicious challenge with <strong>Sweet Potato Chewy Pudding</strong>. This soft and sticky dessert requires careful timing with steaming and mixing to maintain its perfect chewy texture.</p>
+
+<h2 id="goal">🎯 Cookingdom Level 46 Goal</h2>
+<ul>
+  <li>Serve at least 25 puddings</li>
+  <li>Keep customer satisfaction above 88%</li>
+  <li>Complete the level within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🍠 Cookingdom Level 46 Ingredients</h2>
+<ul>
+  <li>Mashed sweet potato</li>
+  <li>Tapioca starch or rice flour</li>
+  <li>Coconut milk (optional topping)</li>
+  <li>Steamer for cooking</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Cookingdom Level 46 Step-by-Step Strategy</h2>
+<ol>
+  <li>Mix mashed sweet potato with starch to create the pudding base.</li>
+  <li>Spoon mixture into molds and place in the steamer.</li>
+  <li>Steam until soft and chewy. Watch the timing carefully!</li>
+  <li>Serve with optional coconut milk topping if requested.</li>
+  <li>Begin preparing the next batch while one is steaming.</li>
+</ol>
+
+<h2 id="tips">🔥 Cookingdom Level 46 Pro Tips</h2>
+<ul>
+  <li><strong>Keep the steamer full:</strong> Always have pudding cooking to avoid idle time.</li>
+  <li><strong>Pre-mix extra batter:</strong> This minimizes lag during high-order periods.</li>
+  <li><strong>Watch for topping cues:</strong> Not every order needs coconut milk — save time when possible.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes in Level 46</h2>
+<ul>
+  <li>Oversteaming — results in sticky or burnt pudding, reducing satisfaction.</li>
+  <li>Forgetting toppings — causes partial scores for orders that request it.</li>
+  <li>Idle mixing — prep batter in advance to maintain rhythm.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-47',
+    title: 'Cookingdom Level 47 Lunch Box Walkthrough',
+    pageTitle: 'Cookingdom Level 47 Lunch Box Walkthrough',
+    pageSubtitle:
+      'Assemble delicious and balanced lunch boxes in Level 47. Stay organized to manage diverse ingredients and satisfy multiple custom orders.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_47.webp', // Placeholder image
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
+    iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8', // Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 47 Guide: Lunch Box | Cookingdom.co',
+      description:
+        'Master Cookingdom Level 47 by preparing and packing customized lunch boxes. Learn how to manage rice, proteins, and sides efficiently for top scores.',
+      keywords:
+        'Cookingdom Level 47, Lunch Box, Bento Game, Cookingdom Walkthrough, Meal Prep, Cooking Strategy',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_47.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 47 <br/> Lunch Box</h3><p><strong>Difficulty:</strong> High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-46',
+          title: 'Cookingdom Level 46 Sweet Potato Chewy Pudding Walkthrough',
+          imageUrl: '/images/guides_46.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
+        },
+        {
+          id: 'cookingdom-game-level-48',
+          title: 'Cookingdom Level 48 Seafood Pasta Walkthrough',
+          imageUrl: '/images/guides_48.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-48' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Cookingdom Level 47 Game Overview</h2>
+<p><strong>Cookingdom Level 47</strong> challenges you to prepare and pack customized <strong>Lunch Boxes</strong> efficiently. Each order may require a different combination of rice, protein, vegetables, and sauce, making multitasking and accuracy essential for success.</p>
+
+<h2 id="goal">🎯 Cookingdom Level 47 Goal</h2>
+<ul>
+  <li>Assemble at least 20 lunch boxes</li>
+  <li>Maintain satisfaction rate above 85%</li>
+  <li>Complete the level within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🍱 Cookingdom Level 47 Ingredients</h2>
+<ul>
+  <li>Steamed rice</li>
+  <li>Protein: grilled chicken, tofu, or shrimp</li>
+  <li>Vegetables: broccoli, carrots, edamame</li>
+  <li>Sauces: teriyaki, sesame, or spicy</li>
+  <li>Lunch box containers</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Cookingdom Level 47 Step-by-Step Strategy</h2>
+<ol>
+  <li>Check the customer order carefully for the correct ingredients.</li>
+  <li>Fill the lunch box with rice as a base.</li>
+  <li>Add the required protein and vegetable side items.</li>
+  <li>Drizzle the requested sauce on top.</li>
+  <li>Serve quickly and prepare the next one during animations.</li>
+</ol>
+
+<h2 id="tips">🔥 Cookingdom Level 47 Pro Tips</h2>
+<ul>
+  <li><strong>Group similar orders:</strong> If multiple customers want the same lunch box, batch them together.</li>
+  <li><strong>Use shortcuts:</strong> Memorize the common combos to assemble faster during rushes.</li>
+  <li><strong>Pre-cook proteins:</strong> Ensure all proteins are ready before customers arrive.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes in Level 47</h2>
+<ul>
+  <li>Wrong sauce — always double-check the customer icon before finishing the box.</li>
+  <li>Missing vegetables — skipping a side lowers your customer score.</li>
+  <li>Over-preparing wrong boxes — wastes time and space in your prep line.</li>
+</ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-48',
+    title: 'Cookingdom Level 48 Seafood Pasta Walkthrough',
+    pageTitle: 'Cookingdom Level 48 Seafood Pasta Walkthrough',
+    pageSubtitle:
+      'Cook up flavorful Seafood Pasta in Level 48. Juggle boiling, sautéing, and plating to serve high-demand seafood dishes efficiently.',
+    category: '41-50',
+    publishDate: '2025-05-22',
+    isSpecial: false,
+    imageUrl: '/images/guides_48.webp', // Placeholder
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-48' } },
+    iframeUrl: 'https://www.youtube.com/embed/8xmYoVeTwnE', // Replace with actual video ID
+    seo: {
+      title: 'Cookingdom Level 48 Guide: Seafood Pasta | Cookingdom.co',
+      description:
+        'Learn how to master Level 48 of Cookingdom by preparing rich and savory Seafood Pasta. Tips for timing, ingredients, and multitasking included.',
+      keywords:
+        'Cookingdom Level 48, Seafood Pasta, Cookingdom Pasta Level, Shrimp Pasta, Cooking Game Walkthrough',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_48.webp',
+      levelInfoHtml:
+        '<h3>Cookingdom Level 48 <br/> Seafood Pasta</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-47',
+          title: 'Cookingdom Level 47 Lunch Box Walkthrough',
+          imageUrl: '/images/guides_47.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2 id="overview">Cookingdom Level 48 Game Overview</h2>
+<p><strong>Cookingdom Level 48</strong> dives into rich flavors with <strong>Seafood Pasta</strong>. This level tests your ability to manage boiling pasta, sautéing seafood, and coordinating sauces while keeping customer satisfaction high.</p>
+
+<h2 id="goal">🎯 Cookingdom Level 48 Goal</h2>
+<ul>
+  <li>Serve at least 22 seafood pasta dishes</li>
+  <li>Keep satisfaction above 88%</li>
+  <li>Complete within 3 minutes</li>
+</ul>
+
+<h2 id="ingredients">🍤 Cookingdom Level 48 Ingredients</h2>
+<ul>
+  <li>Spaghetti noodles</li>
+  <li>Seafood mix: shrimp, squid, mussels</li>
+  <li>Garlic butter sauce, tomato sauce</li>
+  <li>Parsley garnish (optional bonus)</li>
+  <li>Plates for serving</li>
+</ul>
+
+<h2 id="steps">👨‍🍳 Cookingdom Level 48 Step-by-Step Strategy</h2>
+<ol>
+  <li>Start by boiling the noodles — keep one pot running at all times.</li>
+  <li>Sauté the correct seafood combination based on the order.</li>
+  <li>Mix the cooked pasta and seafood with the selected sauce.</li>
+  <li>Plate and serve quickly — use the parsley garnish for bonus points when requested.</li>
+  <li>Queue the next pasta or seafood while the previous dish is cooking.</li>
+</ol>
+
+<h2 id="tips">🔥 Cookingdom Level 48 Pro Tips</h2>
+<ul>
+  <li><strong>Always boil ahead:</strong> Don’t wait for an order to start boiling pasta — pre-boil when possible.</li>
+  <li><strong>Preheat the pan:</strong> Keep one sauté pan hot to reduce wait time between dishes.</li>
+  <li><strong>Garnish boosts:</strong> Adding parsley when requested gives you bonus points and improves star rating.</li>
+</ul>
+
+<h2 id="mistakes">🚫 Common Mistakes in Level 48</h2>
+<ul>
+  <li>Undercooked pasta — don’t rush it or you'll lose points.</li>
+  <li>Wrong sauce — always match the sauce icon shown in the order.</li>
+  <li>Overcrowding the stove — poor pan/pot timing can stall your flow.</li>
 </ul>
 `,
   },

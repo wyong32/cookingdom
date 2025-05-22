@@ -9,6 +9,9 @@ import DownloadView from '../views/DownloadView.vue'
 import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import ModDownloadView from '../views/ModDownloadView.vue'
+import AboutView from '../views/AboutView.vue'
+import ContactView from '../views/ContactView.vue'
+import CopyrightView from '../views/CopyrightView.vue'
 import { i18n, supportedLangs, defaultLang } from '@/i18n'
 import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
 
@@ -115,13 +118,36 @@ const router = createRouter({
       ),
     },
     {
+      path: '/about',
+      name: 'about',
+      component: AboutView,
+      // TDK for About page. Keys defined in i18n files:
+      // Title: meta.about.title
+      // Description: meta.about.description
+      // Keywords: meta.about.keywords
+      meta: getMeta('meta.about.title', 'meta.about.description', 'meta.about.keywords'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactView,
+      // TDK for Contact page. Keys defined in i18n files:
+      // Title: meta.contact.title
+      // Description: meta.contact.description
+      // Keywords: meta.contact.keywords
+      meta: getMeta('meta.contact.title', 'meta.contact.description', 'meta.contact.keywords'),
+    },
+    {
+      path: '/copyright',
+      name: 'copyright',
+      component: CopyrightView,
+    },
+    {
       path: '/:id',
       beforeEnter: (to, from, next) => {
-        if (/^cookingdom-game-level-\d+$/.test(to.params.id)) {
-          next()
-        } else {
-          next({ name: 'home' })
-        }
+        // 允许任何ID格式，只要它存在于guides数据中
+        // 这里我们简单地允许所有ID通过，实际验证将在组件中进行
+        next()
       },
       name: 'guide-detail',
       component: GuideDetail,
@@ -202,17 +228,39 @@ const router = createRouter({
       ),
     },
     {
+      path: `/:lang(${langParamRegex})/about`,
+      name: 'about-lang',
+      component: AboutView,
+      props: true,
+      // TDK Keys: meta.about.title, meta.about.description, meta.about.keywords
+      meta: getMeta('meta.about.title', 'meta.about.description', 'meta.about.keywords'),
+    },
+    {
+      path: `/:lang(${langParamRegex})/contact`,
+      name: 'contact-lang',
+      component: ContactView,
+      props: true,
+      // TDK Keys: meta.contact.title, meta.contact.description, meta.contact.keywords
+      meta: getMeta('meta.contact.title', 'meta.contact.description', 'meta.contact.keywords'),
+    },
+    {
+      path: `/:lang(${langParamRegex})/copyright`,
+      name: 'copyright-lang',
+      component: CopyrightView,
+      props: true,
+    },
+    {
       path: '/:lang/:id',
       beforeEnter: (to, from, next) => {
         const langIsValid = nonDefaultLangs.includes(to.params.lang)
-        const idIsValid = /^cookingdom-game-level-\d+$/.test(to.params.id)
 
-        if (langIsValid && idIsValid) {
+        // 只验证语言参数，不验证ID格式
+        if (langIsValid) {
           next()
         } else {
           next({
-            name: langIsValid ? 'home-lang' : 'home',
-            params: langIsValid ? { lang: to.params.lang } : {},
+            name: 'home',
+            params: {},
           })
         }
       },

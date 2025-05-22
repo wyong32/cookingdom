@@ -19,8 +19,6 @@ This site aims to provide comprehensive information and resource support for "Co
 - [Privacy Policy](https://www.cookingdom.co/privacy-policy/): Read our privacy policy to understand how we handle and protect your personal information.
 - [Sitemap](https://www.cookingdom.co/sitemap.xml): A complete index of the site's pages, making it easy for you and search engines to find all content.
 
-## Optional
-# (If your site has an "About Us" page, uncomment and update the link and description)
-# - [About Us](https://www.cookingdom.co/about/): Company or team profile
-# (If your site has an FAQ page, uncomment and update the link and description)
-# - [FAQ](https://www.cookingdom.co/faq/): Answers to frequently asked questions 
+## Additional Pages
+- [About Us](https://www.cookingdom.co/about/): Learn about the team behind Cookingdom Level Walkthrough, our mission, and our passion for helping players master the game.
+- [Contact Us](https://www.cookingdom.co/contact/): Get in touch with the Cookingdom Level Walkthrough team. We're here to help with your questions and feedback.

@@ -4,7 +4,7 @@
   },
   "example": "Ini adalah contoh teks.",
   "header": {
-    "logo": "Cookingdom"
+    "logo": "Cookingdom Level Walkthrough"
   },
   "nav": {
     "home": "🏠 Laman Utama",
@@ -16,7 +16,11 @@
   "footer": {
     "about": {
       "title": "Laman Peminat Cookingdom",
-      "description": "Laman peminat panduan permainan Cookingdom yang paling comel, berkongsi petua dan keseronokan."
+      "description": "Laman peminat panduan permainan Cookingdom yang paling comel, berkongsi petua dan keseronokan.",
+      "linkText": "Tentang Kami"
+    },
+    "contact": {
+      "linkText": "Hubungi Kami"
     },
     "links": {
       "quickNav": {
@@ -312,6 +316,98 @@
       }
     }
   },
+  "about": {
+    "title": "Tentang Kami",
+    "whoWeAre": {
+      "title": "Siapa Kami",
+      "teamMessage": "Pasukan peminat Cookingdom yang berdedikasi bekerja bersama untuk mencipta panduan permainan terbaik!",
+      "description": "Kami adalah pasukan peminat Cookingdom yang bersemangat yang menyukai permainan ini dan ingin membantu orang lain menikmatinya sepenuhnya. Pasukan kami terdiri daripada pemain berpengalaman, pencipta kandungan, dan pakar permainan yang telah menghabiskan banyak masa menguasai setiap tahap Cookingdom.<br><br>Ditubuhkan pada tahun 2025, misi kami adalah untuk mencipta sumber yang paling komprehensif dan membantu untuk pemain Cookingdom di seluruh dunia."
+    },
+    "ourMission": {
+      "title": "Misi Kami",
+      "description": "Misi kami mudah: untuk membantu pemain Cookingdom dari semua tahap kemahiran mengatasi cabaran, menemui strategi baru, dan menikmati permainan sepenuhnya.<br><br>Kami percaya bahawa permainan harus menyeronokkan dan boleh diakses oleh semua orang, itulah sebabnya kami mencipta panduan terperinci, petua, dan sumber yang memenuhi keperluan pemain baru dan berpengalaman."
+    },
+    "ourValues": {
+      "title": "Nilai-nilai Kami",
+      "quality": {
+        "title": "Kualiti",
+        "description": "Kami komited untuk menyediakan panduan yang tepat, dikaji dengan baik, dan komprehensif yang benar-benar membantu pemain meningkatkan permainan mereka."
+      },
+      "community": {
+        "title": "Komuniti",
+        "description": "Kami percaya dalam membina komuniti yang menyokong dan inklusif di mana pemain boleh berkongsi pengalaman dan belajar antara satu sama lain."
+      },
+      "fun": {
+        "title": "Keseronokan",
+        "description": "Yang paling penting, kami percaya bahawa permainan harus menyeronokkan. Panduan kami bertujuan untuk meningkatkan pengalaman anda, bukan menjadikannya kerja."
+      }
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "getInTouch": {
+      "title": "Hubungi Kami",
+      "description": "Kami suka mendengar dari komuniti kami! Sama ada anda mempunyai soalan, maklum balas, atau hanya ingin menyapa, terdapat beberapa cara untuk menghubungi kami."
+    },
+    "methods": {
+      "email": {
+        "title": "E-mel",
+        "value": "delldremo9898@gmail.com"
+      }
+    },
+    "faq": {
+      "title": "Soalan Lazim",
+      "q1": {
+        "question": "Bagaimana saya boleh menyumbang kepada laman web ini?",
+        "answer": "Kami mengalu-alukan sumbangan dari komuniti! Anda boleh menghantar cadangan panduan, pembetulan, atau petua melalui borang hubungan kami atau dengan menyertai pelayan Discord kami."
+      },
+      "q2": {
+        "question": "Berapa cepat anda membalas mesej?",
+        "answer": "Kami berusaha untuk membalas semua pertanyaan dalam masa 48 jam. Untuk perkara yang mendesak, Discord biasanya adalah cara terpantas untuk menghubungi kami."
+      },
+      "q3": {
+        "question": "Adakah ini laman web rasmi Cookingdom?",
+        "answer": "Tidak, ini adalah laman web yang dicipta oleh peminat. Kami tidak berkaitan dengan pembangun atau penerbit permainan Cookingdom rasmi."
+      }
+    }
+  },
+  "copyright": {
+    "title": "Maklumat Hak Cipta",
+    "lastUpdated": "Kemaskini Terakhir: 15 Mei 2025",
+    "intro": "Selamat datang ke laman web cookingdom.cn. Halaman ini mengandungi maklumat hak cipta kami dan cara kandungan kami boleh digunakan.",
+    "ownership": {
+      "title": "Pemilikan Kandungan",
+      "description": "Semua kandungan di laman web ini, termasuk tetapi tidak terhad kepada teks, grafik, logo, imej, klip audio, muat turun digital, kompilasi data, dan perisian, dimiliki oleh Cookingdom.cn atau pembekal kandungannya dan dilindungi oleh undang-undang hak cipta antarabangsa.<br><br>Permainan Cookingdom itu sendiri, termasuk nama, watak, jalan cerita, karya seni, dan kandungan berkaitan, adalah hak milik pemilik asalnya. Laman peminat ini tidak mempunyai sebarang kaitan rasmi, sokongan, atau hubungan dengan pembangun atau penerbit permainan rasmi."
+    },
+    "usage": {
+      "title": "Penggunaan Kandungan",
+      "description": "Kandungan di laman web ini disediakan untuk kegunaan peribadi dan bukan komersial sahaja. Pengguna mesti mematuhi garis panduan berikut semasa menggunakan kandungan kami:",
+      "allowed": {
+        "title": "Penggunaan yang Dibenarkan",
+        "item1": "Mengakses dan melihat kandungan untuk tujuan peribadi dan bukan komersial",
+        "item2": "Berkongsi pautan ke kandungan kami di media sosial atau platform lain",
+        "item3": "Menggunakan petikan kandungan dengan memberikan kredit yang sewajarnya",
+        "item4": "Mencetak atau memuat turun kandungan untuk rujukan peribadi"
+      },
+      "prohibited": {
+        "title": "Penggunaan yang Dilarang",
+        "item1": "Menggandakan, menyalin, atau menjual mana-mana bahagian laman web kami tanpa kebenaran",
+        "item2": "Mengubah atau mencipta karya terbitan berdasarkan kandungan kami",
+        "item3": "Menggunakan kandungan kami untuk tujuan komersial tanpa kebenaran jelas",
+        "item4": "Mengalih keluar sebarang notis hak cipta atau pemilikan daripada kandungan kami",
+        "item5": "Membingkaikan atau mencerminkan mana-mana bahagian laman web kami tanpa kebenaran"
+      }
+    },
+    "thirdParty": {
+      "title": "Kandungan Pihak Ketiga",
+      "description": "Beberapa kandungan di laman web kami mungkin merangkumi bahan daripada pihak ketiga. Kami mengiktiraf dan menghormati hak cipta semua kandungan pihak ketiga. Jika anda percaya mana-mana kandungan pihak ketiga di laman kami melanggar hak cipta anda, sila hubungi kami dengan segera."
+    },
+    "contact": {
+      "title": "Pertanyaan Hak Cipta",
+      "description": "Jika anda mempunyai sebarang pertanyaan tentang polisi hak cipta kami atau ingin memohon kebenaran untuk menggunakan kandungan kami, sila hubungi kami di delldremo9898@gmail.com."
+    },
+    "allRightsReserved": "Hak cipta terpelihara."
+  },
   "modDownload": {
     "pageHeadline": "Cookingdom Mod APK",
     "pageTitle": "Muat Turun Cookingdom Mod APK",
@@ -424,6 +520,16 @@
       "title": "Muat Turun Cookingdom – Mulakan Pengembaraan Memasak Anda",
       "description": "Muat turun Cookingdom sekarang dan mulakan pengembaraan memasak anda! Nikmati cabaran yang menyeronokkan, strategi, dan permainan.",
       "keywords": "Muat turun Cookingdom, aplikasi Cookingdom, permainan memasak, muat turun Cookingdom, pengembaraan memasak"
+    },
+    "about": {
+      "title": "Tentang Kami | Panduan Permainan Cookingdom",
+      "description": "Ketahui tentang pasukan di sebalik Panduan Permainan Cookingdom, misi kami, dan semangat kami untuk membantu pemain menguasai permainan.",
+      "keywords": "tentang cookingdom, pasukan cookingdom, misi cookingdom, nilai cookingdom, komuniti cookingdom"
+    },
+    "contact": {
+      "title": "Hubungi Kami | Panduan Permainan Cookingdom",
+      "description": "Hubungi pasukan Panduan Permainan Cookingdom. Kami di sini untuk membantu dengan soalan dan maklum balas anda.",
+      "keywords": "hubungi cookingdom, sokongan cookingdom, bantuan cookingdom, maklum balas cookingdom, komuniti cookingdom"
     },
     "privacy": {
       "title": "Dasar Privasi - Cookingdom Fansite",

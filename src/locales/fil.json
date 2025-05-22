@@ -4,7 +4,7 @@
   },
   "example": "Ito ay isang halimbawa ng teksto.",
   "header": {
-    "logo": "Cookingdom"
+    "logo": "Cookingdom Level Walkthrough"
   },
   "nav": {
     "home": "🏠 Home",
@@ -16,7 +16,11 @@
   "footer": {
     "about": {
       "title": "Fansite ng Cookingdom",
-      "description": "Ang pinakacute na fansite para sa gabay sa larong Cookingdom, nagbabahagi ng tips at kasiyahan."
+      "description": "Ang pinakacute na fansite para sa gabay sa larong Cookingdom, nagbabahagi ng tips at kasiyahan.",
+      "linkText": "Tungkol sa Amin"
+    },
+    "contact": {
+      "linkText": "Makipag-ugnayan sa Amin"
     },
     "links": {
       "quickNav": {
@@ -312,6 +316,61 @@
       }
     }
   },
+  "about": {
+    "title": "Tungkol sa Amin",
+    "whoWeAre": {
+      "title": "Sino Kami",
+      "teamMessage": "Isang dedikadong grupo ng mga mahilig sa Cookingdom na nagtutulungan para gumawa ng pinakamahusay na mga gabay sa laro!",
+      "description": "Kami ay isang masigasig na grupo ng mga mahilig sa Cookingdom na nagmamahal sa laro at gustong tulungan ang iba na lubos na ma-enjoy ito. Ang aming grupo ay binubuo ng mga matagal nang manlalaro, content creator, at mga eksperto sa gaming na gumugol ng maraming oras sa pag-master ng bawat level ng Cookingdom.<br><br>Itinatag noong 2025, ang aming misyon ay lumikha ng pinaka-komprehensibong mapagkukunan para sa mga manlalaro ng Cookingdom sa buong mundo."
+    },
+    "ourMission": {
+      "title": "Ang Aming Misyon",
+      "description": "Ang aming misyon ay simple: tulungan ang mga manlalaro ng Cookingdom sa lahat ng antas ng kasanayan na malampasan ang mga hamon, matuklasan ang mga bagong estratehiya, at lubos na ma-enjoy ang laro.<br><br>Naniniwala kami na ang paglalaro ay dapat masaya at madaling ma-access para sa lahat, kaya gumagawa kami ng detalyadong mga gabay, tips, at mapagkukunan na angkop para sa mga baguhan at mga matagal nang manlalaro."
+    },
+    "ourValues": {
+      "title": "Ang Aming Mga Pinahahalagahan",
+      "quality": {
+        "title": "Kalidad",
+        "description": "Nakatuon kami sa pagbibigay ng tumpak, mabuting nairesearch, at komprehensibong mga gabay na tunay na tumutulong sa mga manlalaro na mapabuti ang kanilang gameplay."
+      },
+      "community": {
+        "title": "Komunidad",
+        "description": "Naniniwala kami sa pagtataguyod ng isang suportadong at inklusibong komunidad kung saan ang mga manlalaro ay maaaring magbahagi ng mga karanasan at matuto mula sa isa't isa."
+      },
+      "fun": {
+        "title": "Kasiyahan",
+        "description": "Higit sa lahat, naniniwala kami na ang paglalaro ay dapat masaya. Ang aming mga gabay ay naglalayong mapahusay ang iyong karanasan, hindi ito gawing trabaho."
+      }
+    }
+  },
+  "contact": {
+    "title": "Makipag-ugnayan sa Amin",
+    "getInTouch": {
+      "title": "Makipag-ugnayan",
+      "description": "Gustung-gusto naming marinig mula sa aming komunidad! Kung mayroon kang mga tanong, feedback, o gusto lang bumati, may ilang paraan para makipag-ugnayan sa amin."
+    },
+    "methods": {
+      "email": {
+        "title": "Email",
+        "value": "delldremo9898@gmail.com"
+      }
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Paano ako makakapag-ambag sa site?",
+        "answer": "Malugod naming tinatanggap ang mga kontribusyon mula sa komunidad! Maaari kang magsumite ng mga suhestiyon sa gabay, mga pagwawasto, o mga tip sa pamamagitan ng aming contact form o sa pagsali sa aming Discord server."
+      },
+      "q2": {
+        "question": "Gaano kabilis kayo tumugon sa mga mensahe?",
+        "answer": "Nagsusumikap kaming tumugon sa lahat ng mga katanungan sa loob ng 48 oras. Para sa mga agarang bagay, ang Discord ay kadalasang ang pinakamabilis na paraan para makipag-ugnayan sa amin."
+      },
+      "q3": {
+        "question": "Ito ba ay opisyal na website ng Cookingdom?",
+        "answer": "Hindi, ito ay isang site na ginawa ng mga tagahanga. Hindi kami konektado sa opisyal na mga developer o publisher ng larong Cookingdom."
+      }
+    }
+  },
   "modDownload": {
     "pageHeadline": "Cookingdom Mod APK",
     "pageTitle": "I-download ang Cookingdom Mod APK",
@@ -396,6 +455,44 @@
     "disclaimerTitle": "Paunawa",
     "disclaimerBody": "Ang lahat ng mga link sa pag-download na ibinigay sa site na ito ay kinuha mula sa internet at para lamang sa layunin ng pag-aaral at pananaliksik. Ang site na ito ay hindi responsable sa legalidad, kaligtasan, o kabuuan ng anumang nilalaman na na-download, at hindi rin nito inaako ang anumang panganib o pananagutang legal na maaaring idulot ng paggamit ng mga link na ito. Pinapayuhan ang mga gumagamit na gamitin ang kanilang sariling pagpapasya bago mag-download at gumamit ng anumang nilalaman."
   },
+  "copyright": {
+    "title": "Impormasyon sa Copyright",
+    "lastUpdated": "Huling Nai-update: Mayo 15, 2025",
+    "intro": "Maligayang pagdating sa website na cookingdom.cn. Itong pahina ay naglalaman ng aming impormasyon sa copyright at kung paano maaaring gamitin ang aming nilalaman.",
+    "ownership": {
+      "title": "Pagmamay-ari ng Nilalaman",
+      "description": "Ang lahat ng nilalaman sa website na ito, kabilang ngunit hindi limitado sa teksto, graphics, logo, larawan, audio clips, digital downloads, data compilations, at software, ay pagmamay-ari ng Cookingdom.cn o ng mga tagapagtustos nito at protektado ng mga pandaigdigang batas sa copyright.<br><br>Ang laro ng Cookingdom mismo, kabilang ang pangalan nito, mga karakter, kuwento, sining, at kaugnay na nilalaman, ay pag-aari ng kani-kanilang mga may-ari. Ang fan site na ito ay hindi konektado, inendorso, o kaakibat ng opisyal na mga developer o publisher ng laro."
+    },
+    "usage": {
+      "title": "Paggamit ng Nilalaman",
+      "description": "Ang nilalaman sa website na ito ay ibinibigay para lamang sa personal at hindi pang-komersyal na paggamit. Kailangang sumunod ang mga gumagamit sa sumusunod na mga patakaran sa paggamit ng aming nilalaman:",
+      "allowed": {
+        "title": "Pinapahintulutang Gamit",
+        "item1": "Pag-access at pagtingin sa nilalaman para sa personal at hindi pang-komersyal na layunin",
+        "item2": "Pagbabahagi ng mga link sa aming nilalaman sa social media o iba pang mga platform",
+        "item3": "Paggamit ng maikling sipi ng nilalaman basta’t may wastong pagkilala sa pinagmulan",
+        "item4": "Pagpi-print o pag-download ng nilalaman para sa personal na sanggunian"
+      },
+      "prohibited": {
+        "title": "Ipinagbabawal na Gamit",
+        "item1": "Pagkopya, pagdoble, pagbebenta, o pamamahagi ng anumang bahagi ng aming website nang walang pahintulot",
+        "item2": "Pagbabago o paglikha ng mga derivatibong gawa mula sa aming nilalaman",
+        "item3": "Paggamit ng aming nilalaman para sa komersyal na layunin nang walang hayag na pahintulot",
+        "item4": "Pag-aalis ng anumang copyright o pag-aari na pabatid mula sa aming nilalaman",
+        "item5": "Pag-frame o pag-mirror ng anumang bahagi ng aming website nang walang pahintulot"
+      }
+    },
+    "thirdParty": {
+      "title": "Nilalamang Galing sa Ibang Partido",
+      "description": "Ang ilang nilalaman sa aming website ay maaaring naglalaman ng materyal mula sa ikatlong partido. Kinikilala at iginagalang namin ang copyright ng lahat ng third-party na nilalaman. Kung naniniwala kang may lumalabag sa iyong copyright sa aming site, mangyaring makipag-ugnayan agad sa amin."
+    },
+    "contact": {
+      "title": "Mga Katanungan sa Copyright",
+      "description": "Kung mayroon kang mga katanungan tungkol sa aming patakaran sa copyright o nais humiling ng pahintulot upang gamitin ang aming nilalaman, mangyaring makipag-ugnayan sa amin sa delldremo9898@gmail.com."
+    },
+    "allRightsReserved": "Lahat ng Karapatan ay Nakareserba."
+  },
+
   "meta": {
     "defaultDescription": "Ang iyong default na paglalarawan para sa Cookingdom site.",
     "defaultKeywords": "cookingdom, laro, gabay, pagluluto, simulasyon, kasiyahan",
@@ -424,6 +521,16 @@
       "title": "I-download ang Cookingdom – Simulan ang Iyong Paglalakbay sa Pagluluto",
       "description": "I-download ang Cookingdom ngayon at simulan ang iyong paglalakbay sa pagluluto! Tangkilikin ang mga masayang hamon, estratehiya, at gameplay.",
       "keywords": "Cookingdom download, Cookingdom app, cooking game, download Cookingdom, pagluluto adventure"
+    },
+    "about": {
+      "title": "Tungkol sa Amin | Gabay sa Larong Cookingdom",
+      "description": "Alamin ang tungkol sa grupo sa likod ng Gabay sa Larong Cookingdom, ang aming misyon, at ang aming pasyon para tulungan ang mga manlalaro na maging mahusay sa laro.",
+      "keywords": "tungkol sa cookingdom, grupo ng cookingdom, misyon ng cookingdom, mga pinahahalagahan ng cookingdom, komunidad ng cookingdom"
+    },
+    "contact": {
+      "title": "Makipag-ugnayan sa Amin | Gabay sa Larong Cookingdom",
+      "description": "Makipag-ugnayan sa grupo ng Gabay sa Larong Cookingdom. Nandito kami para tumulong sa iyong mga tanong at feedback.",
+      "keywords": "makipag-ugnayan sa cookingdom, suporta ng cookingdom, tulong ng cookingdom, feedback ng cookingdom, komunidad ng cookingdom"
     },
     "privacy": {
       "title": "Privacy Policy - Cookingdom Fansite",
