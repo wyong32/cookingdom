@@ -265,7 +265,8 @@
       },
       "section12": {
         "title": "Section 12 Title Placeholder",
-        "p1": "Section 12 Paragraph 1 placeholder."
+        "p1": "Section 12 Paragraph 1 placeholder.",
+        "contactEmail": "email.placeholder@example.com"
       }
     }
   },
