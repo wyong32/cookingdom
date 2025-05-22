@@ -15,8 +15,14 @@
       fetchpriority="high"
     />
     <link rel="preload" href="/logo.webp" as="image" type="image/webp" />
+
+    <!-- 字体预连接和加载 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rounded+M+PLUS+1c:wght@400;500;700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- DNS 预解析 -->
     <link rel="dns-prefetch" href="//www.googletagmanager.com" />
@@ -33,7 +39,7 @@
       }
 
       body {
-        font-family: 'Rounded Mplus 1c', 'Varela Round', sans-serif;
+        font-family: 'Rounded M PLUS 1c', 'Varela Round', 'Arial', sans-serif;
         background-color: #fff0f5;
         color: #5b4b8a;
         line-height: 1.6;
@@ -114,7 +120,10 @@
         .hero-single-image-container {
           width: 90%;
           max-width: 350px;
+          min-height: 280px;
           margin: 1rem auto;
+          /* 防止布局偏移 */
+          aspect-ratio: 350 / 280;
         }
       }
     </style>

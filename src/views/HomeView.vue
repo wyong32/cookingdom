@@ -187,6 +187,8 @@ onMounted(() => {
               :src="sliderImages[0]"
               alt="Banner Image"
               class="hero-single-image"
+              width="350"
+              height="280"
               loading="eager"
               fetchpriority="high"
               decoding="async"
@@ -222,14 +224,29 @@ onMounted(() => {
                 :key="index"
                 class="hero-swiper-slide"
               >
-                <img :src="image" alt="Slider Image" class="slider-image" />
+                <img
+                  :src="image"
+                  alt="Slider Image"
+                  class="slider-image"
+                  width="300"
+                  height="400"
+                  loading="lazy"
+                />
               </component>
             </component>
           </div>
 
           <!-- 桌面端加载中状态 -->
           <div v-else-if="!isMobile && !swiperLoaded" class="hero-loading-container">
-            <img :src="sliderImages[0]" alt="Banner Image" class="hero-single-image" />
+            <img
+              :src="sliderImages[0]"
+              alt="Banner Image"
+              class="hero-single-image"
+              width="350"
+              height="280"
+              loading="eager"
+              fetchpriority="high"
+            />
             <div class="loading-indicator">加载中...</div>
           </div>
         </div>
@@ -589,6 +606,7 @@ main {
   margin: 1rem auto;
   width: 100%;
   max-width: 350px;
+  min-height: 280px; /* 设置最小高度，防止布局偏移 */
   height: auto;
   border-radius: 15px;
   overflow: hidden;
@@ -596,6 +614,8 @@ main {
   /* 优化图片容器的渲染性能 */
   contain: layout style paint;
   will-change: transform;
+  /* 防止布局偏移 */
+  aspect-ratio: 350 / 280;
 }
 
 .hero-single-image {
@@ -616,10 +636,13 @@ main {
   margin: 1rem auto;
   width: 100%;
   max-width: 350px;
+  min-height: 280px; /* 设置最小高度，防止布局偏移 */
   height: auto;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* 防止布局偏移 */
+  aspect-ratio: 350 / 280;
 }
 
 .loading-indicator {
@@ -820,6 +843,8 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
+  /* 设置最小高度，防止布局偏移 */
+  min-height: 500px;
 }
 
 .placeholder-item {
@@ -828,6 +853,8 @@ main {
   border-radius: 15px;
   animation: shimmer 1.5s linear infinite;
   background-size: 200% 100%;
+  /* 防止布局偏移 */
+  contain: layout style paint;
 }
 
 @keyframes shimmer {

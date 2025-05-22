@@ -1,23 +1,17 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-import { useRouter, useRoute, RouterLink } from 'vue-router'
 import { computed, ref } from 'vue'
 // 导入 i18n 配置中导出的变量
 import { supportedLangs, defaultLang } from '@/i18n'
+// 导入安全的 router composable
+import { useRouterSafe } from '@/composables/useRouterSafe'
+// 导入安全的 RouterLink 组件
+import SafeRouterLink from '@/components/SafeRouterLink.vue'
 
 const { locale, t } = useI18n() // 获取当前的 locale ref and t function
 
-// 添加防护措施，确保 router 可用
-let router, route
-try {
-  router = useRouter()
-  route = useRoute()
-} catch (error) {
-  console.warn('Router not available in Header component:', error)
-  // 提供默认值
-  router = { push: () => {} }
-  route = { path: '/' }
-}
+// 使用安全的 router composable
+const { router, route, isRouterAvailable, safePush, safeReplace, currentPath } = useRouterSafe()
 
 // 控制移动端菜单的显示状态
 const isMobileMenuOpen = ref(false)
@@ -81,18 +75,18 @@ function changeLocale(event) {
     return
   }
 
-  const currentPath = route ? route.path : window.location.pathname
-  let basePath = currentPath
+  const currentPathValue = currentPath.value
+  let basePath = currentPathValue
 
   // Check if the path starts with any known language prefix (including default)
   for (const lang of supportedLangs) {
     const prefix = `/${lang}`
-    if (currentPath.startsWith(prefix + '/')) {
+    if (currentPathValue.startsWith(prefix + '/')) {
       // e.g., /zh/some/path or /en/some/path
-      basePath = currentPath.substring(prefix.length) // -> /some/path
+      basePath = currentPathValue.substring(prefix.length) // -> /some/path
       console.log(`Stripped prefix '${prefix}', basePath is now: ${basePath}`)
       break // Found and removed prefix
-    } else if (currentPath === prefix) {
+    } else if (currentPathValue === prefix) {
       // e.g., exactly /zh or /en
       basePath = '/'
       console.log(`Path was exactly prefix '${prefix}', basePath is now: /`)
@@ -112,18 +106,14 @@ function changeLocale(event) {
   if (newPath === '') newPath = '/'
 
   console.log(
-    `Current Path: ${currentPath}, Calculated Base Path: ${basePath}, Target New Path: ${newPath}`
+    `Current Path: ${currentPathValue}, Calculated Base Path: ${basePath}, Target New Path: ${newPath}`
   )
   localStorage.setItem('userLanguage', newLang)
 
   // Only push if the path actually changes to avoid redundant navigation
-  if (route && route.path !== newPath) {
-    if (router && router.push) {
-      router.push(newPath)
-    } else {
-      // 如果 router 不可用，直接更改 URL
-      window.location.href = newPath
-    }
+  if (currentPathValue !== newPath) {
+    console.log('使用安全导航到:', newPath)
+    safePush(newPath)
   } else {
     console.log('New path is the same as current path, navigation skipped.')
     // Even if path is same, locale might need update if v-model didn't trigger watcher
@@ -145,20 +135,24 @@ function changeLocale(event) {
       <nav class="desktop-nav">
         <ul>
           <li>
-            <RouterLink :to="homeRoute" @click="closeMobileMenu">{{ t('nav.home') }}</RouterLink>
+            <SafeRouterLink :to="homeRoute" @click="closeMobileMenu">{{
+              t('nav.home')
+            }}</SafeRouterLink>
           </li>
           <li>
-            <RouterLink :to="guidesRoute" @click="closeMobileMenu">{{
+            <SafeRouterLink :to="guidesRoute" @click="closeMobileMenu">{{
               t('nav.guides')
-            }}</RouterLink>
+            }}</SafeRouterLink>
           </li>
           <li>
-            <RouterLink :to="blogRoute" @click="closeMobileMenu">{{ t('nav.blog') }}</RouterLink>
+            <SafeRouterLink :to="blogRoute" @click="closeMobileMenu">{{
+              t('nav.blog')
+            }}</SafeRouterLink>
           </li>
           <li>
-            <RouterLink :to="downloadRoute" @click="closeMobileMenu">{{
+            <SafeRouterLink :to="downloadRoute" @click="closeMobileMenu">{{
               t('nav.download')
-            }}</RouterLink>
+            }}</SafeRouterLink>
           </li>
         </ul>
       </nav>
@@ -210,18 +204,24 @@ function changeLocale(event) {
       </div>
       <ul>
         <li>
-          <RouterLink :to="homeRoute" @click="closeMobileMenu">{{ t('nav.home') }}</RouterLink>
+          <SafeRouterLink :to="homeRoute" @click="closeMobileMenu">{{
+            t('nav.home')
+          }}</SafeRouterLink>
         </li>
         <li>
-          <RouterLink :to="guidesRoute" @click="closeMobileMenu">{{ t('nav.guides') }}</RouterLink>
+          <SafeRouterLink :to="guidesRoute" @click="closeMobileMenu">{{
+            t('nav.guides')
+          }}</SafeRouterLink>
         </li>
         <li>
-          <RouterLink :to="blogRoute" @click="closeMobileMenu">{{ t('nav.blog') }}</RouterLink>
+          <SafeRouterLink :to="blogRoute" @click="closeMobileMenu">{{
+            t('nav.blog')
+          }}</SafeRouterLink>
         </li>
         <li>
-          <RouterLink :to="downloadRoute" @click="closeMobileMenu">{{
+          <SafeRouterLink :to="downloadRoute" @click="closeMobileMenu">{{
             t('nav.download')
-          }}</RouterLink>
+          }}</SafeRouterLink>
         </li>
       </ul>
       <!-- <div class="mobile-nav-footer">
