@@ -29,46 +29,16 @@ const swiperLoaded = ref(false)
 // Use i18n locale for useGuides
 const { locale } = useI18n()
 
-// 创建响应式引用，但不立即加载数据
-const guidesData = ref(null)
-const guidesLoading = ref(false)
-const guidesError = ref(null)
+// 直接使用 useGuides，但通过显示控制实现懒加载效果
+const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(locale)
 
-// 在需要时加载指南数据
-const loadGuides = async () => {
-  try {
-    guidesLoading.value = true
-    console.log('开始加载指南数据...')
+// 控制指南部分是否显示
+const showGuides = ref(false)
 
-    // 直接使用 useGuides composable
-    const { guides, isLoading, error } = useGuides(locale)
-
-    // 等待数据加载完成
-    const checkDataLoaded = () => {
-      return new Promise((resolve) => {
-        const unwatch = watch(
-          [guides, isLoading],
-          ([guidesValue, loadingValue]) => {
-            if (!loadingValue && guidesValue && guidesValue.length > 0) {
-              guidesData.value = guidesValue
-              guidesError.value = error.value
-              guidesLoading.value = false
-              console.log('指南数据加载完成:', guidesValue.length, '条')
-              unwatch()
-              resolve()
-            }
-          },
-          { immediate: true }
-        )
-      })
-    }
-
-    await checkDataLoaded()
-  } catch (err) {
-    console.error('加载指南数据失败:', err)
-    guidesError.value = err
-    guidesLoading.value = false
-  }
+// 简化的加载函数
+const loadGuides = () => {
+  console.log('显示指南部分')
+  showGuides.value = true
 }
 
 // Ref to track the active tab
@@ -304,30 +274,38 @@ onMounted(() => {
       <div id="guides-section">
         <h2>{{ $t('guides.title') }}</h2>
 
-        <!-- 加载状态 -->
-        <div v-if="guidesLoading && !guidesData" class="guides-loading">
-          <div class="loading-spinner"></div>
-          <p>加载指南内容中...</p>
-        </div>
-
-        <!-- 错误状态 -->
-        <div v-else-if="guidesError" class="guides-error">
-          <p>加载失败，请刷新页面重试</p>
-          <button @click="loadGuides" class="btn btn-retry">重试</button>
-        </div>
-
-        <!-- 内容已加载 -->
-        <GuidesSection
-          v-else-if="guidesData"
-          :guides="guidesData"
-          :is-loading="guidesLoading"
-          :error="guidesError"
-        />
-
-        <!-- 占位内容 -->
-        <div v-else class="guides-placeholder">
+        <!-- 未显示状态 - 显示占位内容 -->
+        <div v-if="!showGuides" class="guides-placeholder">
           <div class="placeholder-item" v-for="i in 6" :key="i"></div>
         </div>
+
+        <!-- 显示状态 - 根据加载状态显示不同内容 -->
+        <template v-else>
+          <!-- 加载状态 -->
+          <div v-if="guidesLoading" class="guides-loading">
+            <div class="loading-spinner"></div>
+            <p>加载指南内容中...</p>
+          </div>
+
+          <!-- 错误状态 -->
+          <div v-else-if="guidesError" class="guides-error">
+            <p>加载失败，请刷新页面重试</p>
+            <button @click="loadGuides" class="btn btn-retry">重试</button>
+          </div>
+
+          <!-- 内容已加载 -->
+          <GuidesSection
+            v-else-if="guides && guides.length > 0"
+            :guides="guides"
+            :is-loading="guidesLoading"
+            :error="guidesError"
+          />
+
+          <!-- 无数据状态 -->
+          <div v-else class="guides-empty">
+            <p>暂无指南内容</p>
+          </div>
+        </template>
       </div>
 
       <!-- Downloads Section -->
@@ -826,6 +804,14 @@ main {
   background-color: #ff85a2;
   color: white;
   margin-top: 1rem;
+}
+
+/* 无数据状态样式 */
+.guides-empty {
+  text-align: center;
+  padding: 3rem;
+  color: #a08ee6;
+  font-size: 1.1rem;
 }
 
 /* 占位内容样式 */
