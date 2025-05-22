@@ -255,64 +255,20 @@
         "email": "Email: maieldilmie223321@gmail.com"
       }
     },
-    "terms": {
-      "title": "Terma Perkhidmatan Cookingdom Guide Fansite",
-      "contentPlaceholder": "",
-      "lastUpdated": "Kemaskini Terakhir: 30 April 2025",
-      "intro": "Selamat datang ke Cookingdom Guide Fansite (di sini dirujuk sebagai \"Laman Web\"). Sebelum mengakses atau menggunakan perkhidmatan yang disediakan oleh Laman Web ini, sila baca dengan teliti terma perkhidmatan berikut. Akses atau penggunaan Laman Web ini bermaksud anda bersetuju untuk mematuhi terma-terma ini. Jika anda tidak bersetuju dengan terma-terma ini, sila jangan gunakan Laman Web ini.",
-      "section1": {
-        "title": "1. Kandungan Perkhidmatan",
-        "p1": "Laman Web ini menyediakan panduan, petua, maklumat kemas kini, perbincangan komuniti, ulasan pengguna, dan kandungan berkaitan untuk permainan \"Cookingdom\". Kami komited untuk menyediakan pemain dengan sumber permainan berkualiti tinggi dan sokongan untuk membantu mereka meningkatkan pengalaman permainan mereka."
+    "terms": "Halaman syarat perkhidmatan sedang disemak buat sementara waktu.",
+    "faq": {
+      "title": "Soalan Lazim",
+      "q1": {
+        "question": "Bagaimana saya boleh menyumbang kepada laman web ini?",
+        "answer": "Kami mengalu-alukan sumbangan dari komuniti! Anda boleh menghantar cadangan panduan, pembetulan, atau petua melalui borang hubungan kami atau dengan menyertai pelayan Discord kami."
       },
-      "section2": {
-        "title": "2. Akaun Pengguna",
-        "p1": "Untuk menggunakan beberapa ciri Laman Web ini sepenuhnya, anda mungkin perlu membuat akaun. Apabila anda mendaftar, anda bersetuju untuk memberikan maklumat peribadi yang tepat dan lengkap dan mengemas kini maklumat ini dengan segera untuk memastikan ketepatannya. Anda bertanggungjawab ke atas keselamatan akaun dan kata laluan anda dan bersetuju untuk tidak berkongsi maklumat akaun anda dengan mana-mana pihak ketiga."
+      "q2": {
+        "question": "Berapa cepat anda membalas mesej?",
+        "answer": "Kami berusaha untuk membalas semua pertanyaan dalam masa 48 jam. Untuk perkara yang mendesak, Discord biasanya adalah cara terpantas untuk menghubungi kami."
       },
-      "section3": {
-        "title": "3. Tingkah Laku Pengguna",
-        "intro": "Apabila menggunakan Laman Web ini, anda bersetuju untuk:",
-        "b1": "Tidak menyiarkan kandungan yang melanggar undang-undang, peraturan, atau tidak beretika (termasuk tetapi tidak terhad kepada perisian hasad, iklan, spam, mesej ancaman, kandungan yang melanggar hak cipta atau hak privasi pihak lain).",
-        "b2": "Menghormati hak pengguna lain dan tidak mengganggu operasi normal Laman Web.",
-        "b3": "Tidak mengambil kandungan, data, atau sistem Laman Web menggunakan cara yang menyalahi undang-undang.",
-        "p1": "Sekiranya anda melanggar peraturan tingkah laku ini, Laman Web ini berhak untuk menggantung atau menamatkan akaun anda dan mengambil tindakan yang diperlukan secara sah."
-      },
-      "section4": {
-        "title": "4. Penggunaan Kandungan",
-        "p1": "Semua kandungan yang disediakan di Laman Web ini (termasuk teks, imej, video, audio, dan sebagainya) adalah milik Laman Web atau pemberi lesen kami dan dilindungi oleh undang-undang hak cipta. Tanpa kebenaran daripada Laman Web, anda tidak boleh menyalin, mengedar, mengubah, memaparkan, atau menjual kandungan Laman Web dalam apa jua bentuk.",
-        "p2": "Pengguna boleh mengakses dan menggunakan kandungan Laman Web untuk tujuan bukan komersial mengikut Terma Perkhidmatan ini, tetapi sebarang penggunaan komersial kandungan memerlukan kebenaran terlebih dahulu daripada Laman Web."
-      },
-      "section5": {
-        "title": "5. Harta Intelek",
-        "p1": "Semua logo, tanda dagangan, tanda perkhidmatan, dan sebagainya yang berkaitan dengan Laman Web ini adalah harta intelek Laman Web atau pemberi lesen kami. Tanpa kebenaran daripada Laman Web, anda tidak boleh menggunakan atau menyalin harta intelek ini dalam apa jua bentuk."
-      },
-      "section6": {
-        "title": "6. Gangguan dan Penamatan Perkhidmatan",
-        "p1": "Perkhidmatan Laman Web ini mungkin tertangguh buat sementara waktu untuk penyelenggaraan, kemas kini, atau sebab-sebab lain. Kami akan berusaha dengan sebaik mungkin untuk memaklumkan pengguna terlebih dahulu tetapi kami tidak bertanggungjawab atas sebarang akibat yang timbul daripada kelewatan perkhidmatan. Laman Web ini berhak untuk mengubah, menggantung, atau menamatkan sebahagian atau keseluruhan perkhidmatan pada bila-bila masa tanpa notis awal."
-      },
-      "section7": {
-        "title": "7. Laman Web Pihak Ketiga",
-        "p1": "Laman Web ini mungkin mengandungi pautan ke laman web lain yang dikendalikan oleh pihak ketiga. Kami tidak mempunyai kawalan ke atas kandungan atau amalan privasi laman web pihak ketiga ini dan oleh itu tidak bertanggungjawab terhadap kandungan dan amalan privasi mereka. Kami mengesyorkan agar anda membaca terma perkhidmatan dan dasar privasi mereka apabila melawat laman web lain."
-      },
-      "section8": {
-        "title": "8. Penafian",
-        "p1": "Laman Web ini berusaha sedaya upaya untuk memastikan ketepatan dan kesempurnaan kandungan yang disediakan tetapi tidak memberi jaminan nyata atau tersirat mengenai ketepatan, kebolehpercayaan, atau kesempurnaan mana-mana kandungan. Kami tidak bertanggungjawab atas sebarang kehilangan langsung atau tidak langsung yang disebabkan oleh penggunaan kandungan Laman Web."
-      },
-      "section9": {
-        "title": "9. Data Pengguna dan Privasi",
-        "p1": "Pengumpulan, penggunaan, dan perlindungan data peribadi anda dinyatakan dalam Dasar Privasi kami. Sila baca Dasar Privasi kami dengan teliti dan bersetuju dengan terma-terma tersebut sebelum menggunakan perkhidmatan Laman Web."
-      },
-      "section10": {
-        "title": "10. Undang-undang yang Mengawal dan Penyelesaian Pertikaian",
-        "p1": "Terma Perkhidmatan ini dikawal oleh undang-undang Republik Rakyat China. Sebarang pertikaian yang timbul daripada atau berkaitan dengan terma-terma ini hendaklah diserahkan kepada mahkamah yang mempunyai bidang kuasa di lokasi Laman Web untuk pendengaran."
-      },
-      "section11": {
-        "title": "11. Perubahan Terma",
-        "p1": "Laman Web ini berhak untuk mengubah atau mengemas kini Terma Perkhidmatan pada bila-bila masa. Terma yang dipinda akan berkuat kuasa sebaik sahaja diterbitkan. Penggunaan terus anda terhadap perkhidmatan Laman Web ini menunjukkan penerimaan anda terhadap terma-terma yang dipinda. Kami mengesyorkan agar anda memeriksa halaman ini dengan kerap untuk kekal dikemaskini dengan terma-terma perkhidmatan terkini."
-      },
-      "section12": {
-        "title": "12. Hubungi Kami",
-        "p1": "Jika anda mempunyai sebarang pertanyaan mengenai Terma Perkhidmatan ini atau memerlukan maklumat lanjut, sila hubungi kami melalui kaedah berikut:",
-        "email": "Email: maieldilmie223321@gmail.com"
+      "q3": {
+        "question": "Adakah ini laman web rasmi Cookingdom?",
+        "answer": "Tidak, ini adalah laman web yang dicipta oleh peminat. Kami tidak berkaitan dengan pembangun atau penerbit permainan Cookingdom rasmi."
       }
     }
   },
