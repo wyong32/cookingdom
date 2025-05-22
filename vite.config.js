@@ -8,6 +8,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import ViteSitemapPlugin from 'vite-plugin-sitemap'
 import { robots } from 'vite-plugin-robots'
+import { VitePWA } from 'vite-plugin-pwa'
 
 // Helper function to load guide IDs from data files
 const loadGuideIds = () => {
@@ -93,6 +94,80 @@ Allow: /privacy-policy/
 Allow: /terms-of-service/
 Allow: /about/
 Allow: /contact/`,
+    }),
+    VitePWA({
+      registerType: 'autoUpdate',
+      // devOptions: { // 在开发中测试 PWA 功能时启用
+      //   enabled: true,
+      //   type: 'module',
+      // },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,webmanifest,txt,xml}'], // 确保缓存所有必要的静态资源类型
+        cleanupOutdatedCaches: true, // 清理旧版本 Service Worker 创建的过期缓存
+        // clientsClaim: true, // 由 registerType: 'autoUpdate' 处理
+        // skipWaiting: true,  // 由 registerType: 'autoUpdate' 处理
+      },
+      includeAssets: ['favicon.ico', 'logo.webp', 'images/**/*.webp', 'llms.txt'], // 明确包含 public 目录下的资源
+      manifest: {
+        name: 'Cookingdom Fansite',
+        short_name: 'Cookingdom',
+        description: 'Your go-to fansite for Cookingdom game guides, news, and community.',
+        theme_color: '#4DBA87', // Vue 绿色作为示例主题色
+        background_color: '#ffffff',
+        display: 'standalone',
+        scope: '/',
+        start_url: '/',
+        icons: [
+          {
+            src: 'images/icons/pwa-72x72.png',
+            sizes: '72x72',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-96x96.png',
+            sizes: '96x96',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-128x128.png',
+            sizes: '128x128',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-144x144.png',
+            sizes: '144x144',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-152x152.png',
+            sizes: '152x152',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-384x384.png',
+            sizes: '384x384',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+          {
+            src: 'images/icons/pwa-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable',
+          },
+        ],
+      },
     }),
   ]
 

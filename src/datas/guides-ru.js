@@ -3782,7 +3782,7 @@ export const guidesRu = [
     isSpecial: false,
     imageUrl: '/images/guides_36.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-36' } },
-    iframeUrl: 'https://www.youtube.com/embed/ME58Cd2FYJ4',
+    iframeUrl: 'https://www.youtube.com/embed/qKUPwJWggA8',
     seo: {
       title: 'Cookingdom Уровень 36: Индийское Карри | Cookingdom.co',
       description:
