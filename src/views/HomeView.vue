@@ -1,27 +1,60 @@
 <script setup>
-import { ref } from 'vue' // Import ref for state management
-import GuidesSection from '@/components/GuidesSection.vue' // Import the new GuidesSection component
+import { ref, onMounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
 
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue'
-
-// Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/autoplay'
-import 'swiper/css/effect-coverflow' // Import coverflow effect styles
-
-// import required modules
-import { Autoplay, EffectCoverflow } from 'swiper/modules'
+// 使用异步组件加载 GuidesSection
+const GuidesSection = defineAsyncComponent({
+  loader: () => import('@/components/GuidesSection.vue'),
+  delay: 200,
+  timeout: 5000,
+  // 加载时显示的组件
+  loadingComponent: {
+    template: '<div class="async-loading">加载指南内容中...</div>',
+  },
+  // 出错时显示的组件
+  errorComponent: {
+    template: '<div class="async-error">加载失败，请刷新页面重试</div>',
+  },
+})
 
 // Import useGuides to fetch guide data
 import { useGuides } from '@/composables/useGuides'
 import { useI18n } from 'vue-i18n'
 
+// 使用 shallowRef 存储动态导入的组件
+const Swiper = shallowRef(null)
+const SwiperSlide = shallowRef(null)
+const swiperModulesComponents = shallowRef(null)
+const swiperLoaded = ref(false)
+
 // Use i18n locale for useGuides
 const { locale } = useI18n()
 
-// Fetch guides data using the composable
-const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(locale)
+// 懒加载指南数据
+const loadGuidesData = async () => {
+  // 只在需要时加载指南数据
+  return useGuides(locale)
+}
+
+// 创建响应式引用，但不立即加载数据
+const guidesData = ref(null)
+const guidesLoading = ref(true)
+const guidesError = ref(null)
+
+// 在需要时加载指南数据
+const loadGuides = async () => {
+  try {
+    guidesLoading.value = true
+    const { guides, isLoading, error } = await loadGuidesData()
+    guidesData.value = guides
+    guidesError.value = error
+    guidesLoading.value = isLoading
+  } catch (error) {
+    console.error('加载指南数据失败:', error)
+    guidesError.value = error
+  } finally {
+    guidesLoading.value = false
+  }
+}
 
 // Ref to track the active tab
 const activeTab = ref('1-10') // Default to '1-10'
@@ -64,10 +97,82 @@ const sliderImages = ref([
   '/images/banner10.webp',
 ])
 
-// Swiper modules to use
-const swiperModules = [Autoplay, EffectCoverflow]
+// 检测是否为移动设备
+const isMobile = ref(false)
 
-// Later: import components or add logic if needed
+// 检查设备类型
+const checkDeviceType = () => {
+  // 使用媒体查询检测移动设备
+  isMobile.value = window.matchMedia('(max-width: 767px)').matches
+  console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备')
+
+  // 如果不是移动设备，则加载 Swiper
+  if (!isMobile.value && !swiperLoaded.value) {
+    loadSwiperComponents()
+  }
+}
+
+// 动态加载 Swiper 组件
+const loadSwiperComponents = async () => {
+  try {
+    // 动态导入 Swiper 组件
+    const swiperModule = await import('swiper/vue')
+    Swiper.value = swiperModule.Swiper
+    SwiperSlide.value = swiperModule.SwiperSlide
+
+    // 动态导入 Swiper 模块
+    const modulesModule = await import('swiper/modules')
+    swiperModulesComponents.value = [modulesModule.Autoplay, modulesModule.EffectCoverflow]
+
+    // 动态导入 CSS
+    await import('swiper/css')
+    await import('swiper/css/autoplay')
+    await import('swiper/css/effect-coverflow')
+
+    swiperLoaded.value = true
+    console.log('Swiper 组件加载完成')
+  } catch (error) {
+    console.error('加载 Swiper 组件失败:', error)
+  }
+}
+
+// 组件挂载时检测设备类型并加载数据
+onMounted(() => {
+  // 检测设备类型
+  checkDeviceType()
+
+  // 监听窗口大小变化，重新检测设备类型
+  window.addEventListener('resize', checkDeviceType)
+
+  // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        // 当指南部分进入视口时加载数据
+        if (entry.isIntersecting) {
+          loadGuides()
+          // 加载后取消观察
+          observer.disconnect()
+        }
+      })
+    },
+    { threshold: 0.1 }
+  ) // 当10%的元素可见时触发
+
+  // 开始观察指南部分
+  setTimeout(() => {
+    const guidesSection = document.getElementById('guides-section')
+    if (guidesSection) {
+      observer.observe(guidesSection)
+    }
+  }, 1000) // 延迟1秒，确保DOM已渲染
+
+  // 组件卸载时清理
+  return () => {
+    window.removeEventListener('resize', checkDeviceType)
+    observer.disconnect()
+  }
+})
 </script>
 
 <template>
@@ -91,10 +196,16 @@ const swiperModules = [Autoplay, EffectCoverflow]
               </button>
             </div>
           </div>
-          <!-- Swiper container -->
-          <div class="hero-swiper-container card-slider">
-            <swiper
-              :modules="swiperModules"
+          <!-- 移动端显示单张图片 -->
+          <div v-if="isMobile" class="hero-single-image-container">
+            <img :src="sliderImages[0]" alt="Banner Image" class="hero-single-image" />
+          </div>
+
+          <!-- 桌面端轮播图 - 仅在组件加载完成后显示 -->
+          <div v-else-if="!isMobile && swiperLoaded" class="hero-swiper-container card-slider">
+            <component
+              :is="Swiper"
+              :modules="swiperModulesComponents"
               :effect="'coverflow'"
               :grab-cursor="true"
               :centered-slides="true"
@@ -113,14 +224,21 @@ const swiperModules = [Autoplay, EffectCoverflow]
               }"
               class="hero-swiper"
             >
-              <swiper-slide
+              <component
+                :is="SwiperSlide"
                 v-for="(image, index) in sliderImages"
                 :key="index"
                 class="hero-swiper-slide"
               >
                 <img :src="image" alt="Slider Image" class="slider-image" />
-              </swiper-slide>
-            </swiper>
+              </component>
+            </component>
+          </div>
+
+          <!-- 桌面端加载中状态 -->
+          <div v-else-if="!isMobile && !swiperLoaded" class="hero-loading-container">
+            <img :src="sliderImages[0]" alt="Banner Image" class="hero-single-image" />
+            <div class="loading-indicator">加载中...</div>
           </div>
         </div>
       </section>
@@ -160,10 +278,34 @@ const swiperModules = [Autoplay, EffectCoverflow]
         </div>
       </section>
 
-      <!-- Guides Section (Use the new component and pass props) -->
+      <!-- Guides Section (使用异步组件和懒加载数据) -->
       <div id="guides-section">
         <h2>{{ $t('guides.title') }}</h2>
-        <GuidesSection :guides="guides" :is-loading="guidesLoading" :error="guidesError" />
+
+        <!-- 加载状态 -->
+        <div v-if="guidesLoading && !guidesData" class="guides-loading">
+          <div class="loading-spinner"></div>
+          <p>加载指南内容中...</p>
+        </div>
+
+        <!-- 错误状态 -->
+        <div v-else-if="guidesError" class="guides-error">
+          <p>加载失败，请刷新页面重试</p>
+          <button @click="loadGuides" class="btn btn-retry">重试</button>
+        </div>
+
+        <!-- 内容已加载 -->
+        <GuidesSection
+          v-else-if="guidesData"
+          :guides="guidesData"
+          :is-loading="guidesLoading"
+          :error="guidesError"
+        />
+
+        <!-- 占位内容 -->
+        <div v-else class="guides-placeholder">
+          <div class="placeholder-item" v-for="i in 6" :key="i"></div>
+        </div>
       </div>
 
       <!-- Downloads Section -->
@@ -442,7 +584,51 @@ main {
   box-shadow: 0 6px 12px rgba(255, 221, 87, 0.4);
 }
 
-/* Swiper Container Styles */
+/* 移动端单张图片样式 */
+.hero-single-image-container {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-single-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* 加载中状态样式 */
+.hero-loading-container {
+  position: relative;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #a08ee6;
+  font-weight: bold;
+}
+
+/* 桌面端轮播图样式 */
 .hero-swiper-container.card-slider {
   flex: 0 0 auto;
   width: 550px;
@@ -555,6 +741,84 @@ main {
   text-align: center;
   font-size: 2rem;
   color: #ff85a2; /* Pink color like other titles */
+}
+
+/* 异步组件加载状态样式 */
+.async-loading,
+.async-error {
+  text-align: center;
+  padding: 2rem;
+  color: #a08ee6;
+  font-size: 1.1rem;
+}
+
+.async-error {
+  color: #ff6b8f;
+}
+
+/* 指南加载状态样式 */
+.guides-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(160, 142, 230, 0.3);
+  border-radius: 50%;
+  border-top-color: #a08ee6;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.guides-loading p {
+  color: #a08ee6;
+  font-size: 1rem;
+}
+
+/* 错误状态样式 */
+.guides-error {
+  text-align: center;
+  padding: 2rem;
+  color: #ff6b8f;
+}
+
+.btn-retry {
+  background-color: #ff85a2;
+  color: white;
+  margin-top: 1rem;
+}
+
+/* 占位内容样式 */
+.guides-placeholder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.placeholder-item {
+  height: 200px;
+  background: linear-gradient(110deg, #f5f5f5 8%, #efefef 18%, #f5f5f5 33%);
+  border-radius: 15px;
+  animation: shimmer 1.5s linear infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
 }
 
 /* Tabs Navigation Styles */
@@ -1314,23 +1578,26 @@ main {
     font-size: 1.5rem;
     line-height: 1.2;
   }
+  /* 移动端隐藏轮播图，显示单张图片 */
   .hero-swiper-container.card-slider {
-    width: 90%; /* Use percentage */
-    max-width: 350px; /* Limit max size */
-    height: auto; /* Adjust height automatically */
-    aspect-ratio: 1 / 1; /* Keep it square-ish */
-    margin-top: 1rem;
+    display: none; /* 完全隐藏轮播图 */
   }
-  .hero-swiper {
-    padding-bottom: 0; /* Reset padding if needed */
+
+  /* 移动端单张图片样式 */
+  .hero-single-image-container {
+    width: 90%;
+    max-width: 350px;
+    margin: 1rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .hero-swiper-slide {
-    width: 75%; /* Adjust slide width relative to container */
+
+  .hero-single-image {
+    width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1;
-  }
-  .hero-swiper-slide.swiper-slide-active {
-    transform: scale(1.05); /* Slightly less scaling on mobile */
+    display: block;
+    border-radius: 15px;
   }
 
   /* Features Section Mobile */

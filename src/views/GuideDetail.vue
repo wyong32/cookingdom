@@ -127,13 +127,19 @@ const currentGuide = computed(() => {
 // Watch for changes in currentGuide to update TDK or handle not found
 watch(
   currentGuide,
-  (newGuide, oldGuide) => {
+  (newGuide) => {
     if (isLoadingList.value) return // Don't do anything if the list is still loading
 
     if (newGuide) {
       // 保存当前查看的guide ID到localStorage，以便在返回时自动选择正确的tab
       try {
+        console.log(`Saving guide ID to localStorage: ${newGuide.id}`)
         localStorage.setItem('last-viewed-guide-id', newGuide.id)
+        // 同时保存当前的category，以防guide ID不能正确映射到category
+        if (newGuide.category) {
+          console.log(`Saving guide category to localStorage: ${newGuide.category}`)
+          localStorage.setItem('last-viewed-guide-category', newGuide.category)
+        }
       } catch (e) {
         console.error('Error saving guide ID to localStorage:', e)
       }
@@ -210,11 +216,19 @@ const getFeaturedGuideLinkProps = (featured) => {
     routeParams.lang = currentLocaleValue
   }
 
-  // 当用户点击featured guide时，保存guide ID到localStorage
+  // 当用户点击featured guide时，保存guide ID和category到localStorage
   try {
+    console.log(`Saving featured guide ID to localStorage: ${featured.id}`)
     localStorage.setItem('last-viewed-guide-id', featured.id)
+
+    // 查找featured guide的完整数据以获取category
+    const featuredGuideData = guides.value.find((g) => g.id === featured.id)
+    if (featuredGuideData && featuredGuideData.category) {
+      console.log(`Saving featured guide category to localStorage: ${featuredGuideData.category}`)
+      localStorage.setItem('last-viewed-guide-category', featuredGuideData.category)
+    }
   } catch (e) {
-    console.error('Error saving featured guide ID to localStorage:', e)
+    console.error('Error saving featured guide data to localStorage:', e)
   }
 
   // If featured guides in the data already have a pre-calculated routeObject from useGuides,

@@ -110,26 +110,63 @@ const getCategoryTabForGuide = (guideId) => {
   const guide = props.guides.find((g) => g.id === guideId)
   if (!guide) return null
 
-  // 返回guide的category
-  return guide.category
+  // 如果是特殊指南，返回'special'
+  if (guide.isSpecial === true) {
+    return 'special'
+  }
+
+  // 返回guide的category，确保格式一致
+  // 处理可能的格式差异，例如'1-10'和'01-10'
+  const category = guide.category
+  if (category === '1-10' || category === '01-10') return '01-10'
+  if (category === '11-20') return '11-20'
+  if (category === '21-30') return '21-30'
+  if (category === '31-40') return '31-40'
+  if (category === '41-50') return '41-50'
+
+  return category
 }
 
 // 检查URL中是否有guide ID，如果有则自动切换到对应的tab
 const autoSelectTabFromUrl = () => {
   // 如果是从详情页返回，检查localStorage中是否有记录的最后访问的guideId
   const lastViewedGuideId = localStorage.getItem('last-viewed-guide-id')
+
   if (lastViewedGuideId) {
+    // 首先尝试从localStorage获取保存的category
+    const savedCategory = localStorage.getItem('last-viewed-guide-category')
+    if (savedCategory) {
+      console.log(`Found saved category ${savedCategory} for guide ID ${lastViewedGuideId}`)
+
+      // 清除localStorage中的数据
+      localStorage.removeItem('last-viewed-guide-id')
+      localStorage.removeItem('last-viewed-guide-category')
+
+      // 根据category确定tab
+      if (savedCategory === '01-10' || savedCategory === '1-10') return '01-10'
+      if (savedCategory === '11-20') return '11-20'
+      if (savedCategory === '21-30') return '21-30'
+      if (savedCategory === '31-40') return '31-40'
+      if (savedCategory === '41-50') return '41-50'
+    }
+
+    // 如果没有保存的category或无法映射，尝试从guides数据中获取
     const categoryTab = getCategoryTabForGuide(lastViewedGuideId)
     if (categoryTab) {
+      console.log(`Found category tab ${categoryTab} for guide ID ${lastViewedGuideId}`)
       // 清除最后访问的guideId
       localStorage.removeItem('last-viewed-guide-id')
       // 设置tab
       return categoryTab
+    } else {
+      console.log(`Could not find category tab for guide ID ${lastViewedGuideId}`)
     }
   }
 
   // 如果没有最后访问的guideId或找不到对应的tab，则使用保存的tab
-  return getSavedTab()
+  const savedTab = getSavedTab()
+  console.log(`Using saved tab: ${savedTab}`)
+  return savedTab
 }
 
 // Ref to track the active tab - 根据URL或localStorage获取初始值
@@ -150,9 +187,13 @@ const setActiveTab = (tab) => {
 watch(
   () => route.path,
   (newPath) => {
-    if (newPath === '/guides') {
+    // 检查是否是guides页面（考虑多语言路径）
+    if (newPath === '/guides' || /^\/[a-z]{2}\/guides$/.test(newPath)) {
+      console.log(`Navigated to guides page: ${newPath}`)
       const newTab = autoSelectTabFromUrl()
+      console.log(`Selected tab: ${newTab}, current tab: ${activeTab.value}`)
       if (newTab && newTab !== activeTab.value) {
+        console.log(`Setting active tab to: ${newTab}`)
         setActiveTab(newTab)
       }
     }
@@ -172,16 +213,20 @@ const filteredGuides = computed(() => {
     return props.guides.filter((guide) => guide.isSpecial === true)
   } else {
     // Otherwise, filter by the category matching the active tab
-    // Adjust mapping based on actual data structure if needed
+    // Handle potential format differences (e.g., '1-10' vs '01-10')
     const categoryMap = {
-      '01-10': '01-10',
-      '11-20': '11-20',
-      '21-30': '21-30',
-      '31-40': '31-40',
-      '41-50': '41-50',
+      '01-10': ['01-10', '1-10'],
+      '11-20': ['11-20'],
+      '21-30': ['21-30'],
+      '31-40': ['31-40'],
+      '41-50': ['41-50'],
     }
-    const targetCategory = categoryMap[activeTab.value] || activeTab.value
-    return props.guides.filter((guide) => guide.category === targetCategory)
+
+    // Get the possible category values for the active tab
+    const possibleCategories = categoryMap[activeTab.value] || [activeTab.value]
+
+    // Filter guides that match any of the possible categories
+    return props.guides.filter((guide) => possibleCategories.includes(guide.category))
   }
 })
 </script>
