@@ -205,205 +205,207 @@
     "noGuidesAvailable": "Walang gabay na available para sa kategoryang ito."
   },
   "page": {
-    "privacy": {
-      "title": "Patakaran sa Privacy ng Cookingdom Guide Fansite",
-      "contentPlaceholder": "",
-      "lastUpdated": "Huling Nai-update: Abril 30, 2025",
-      "intro": "Salamat sa pagbisita sa Cookingdom Guide Fansite (dito tinutukoy bilang \"ang Site\"). Pinahahalagahan namin ang inyong privacy at nakatuon kami sa proteksyon ng inyong personal na impormasyon. Mangyaring basahin nang mabuti ang patakarang ito upang maunawaan kung paano namin kinokolekta, ginagamit, ini-imbak, at pinoprotektahan ang inyong personal na data.",
+    "terms": {
+      "title": "Mga Tuntunin ng Serbisyo Placeholder Title",
+      "lastUpdated": "Huling Nai-update Placeholder",
+      "intro": "Panimula Placeholder.",
       "section1": {
-        "title": "1. Personal na Impormasyon na Kinokolekta Namin",
-        "p1": "Kapag binisita mo ang Site, maaaring mangolekta kami ng mga sumusunod na uri ng personal na impormasyon: Awtomatikong nakolektang teknikal na impormasyon: Katulad ng iyong IP address, uri ng browser, uri ng device, bersyon ng operating system, oras ng pag-access, atbp. Kinokolekta ang impormasyong ito nang awtomatiko gamit ang Cookies at mga katulad na teknolohiya upang mapabuti ang aming serbisyo at karanasan ng gumagamit.",
-        "p2": "Impormasyon na kusang ibinibigay ng mga gumagamit: Kapag nagrehistro ka ng account, nag-subscribe sa mga newsletter, lumahok sa mga talakayan, o nagbigay ng feedback sa Site, maaaring mangolekta kami ng impormasyon tulad ng iyong email address, username, nilalaman ng mensahe, atbp."
+        "title": "Seksyon 1 Pamagat Placeholder",
+        "p1": "Seksyon 1 Talata 1 Placeholder."
       },
       "section2": {
-        "title": "2. Paggamit ng Impormasyon",
-        "intro": "Ang impormasyong kinokolekta namin ay pangunahing ginagamit para sa mga sumusunod na layunin:",
-        "b1": "Pagbibigay ng mga serbisyo at suporta: Upang magbigay sa iyo ng mga gabay sa laro, mga update sa balita, teknikal na suporta, at iba pang mga serbisyo batay sa iyong mga kahilingan.",
-        "b2": "Pag-personalize ng karanasan: Upang magbigay ng mga pasadyang nilalaman at rekomendasyon batay sa iyong mga interes at kagustuhan.",
-        "b3": "Pagpapabuti ng functionality ng website: Upang suriin ang pag-uugali ng gumagamit, mapabuti ang disenyo ng website at mga tampok, at mapahusay ang karanasan ng gumagamit.",
-        "b4": "Marketing at komunikasyon: Upang magpadala sa iyo ng mga update na may kaugnayan sa laro, mga alok, promosyon, at iba pang impormasyon sa pamamagitan ng email o iba pang mga channel (kung papayag kang matanggap ito)."
+        "title": "Seksyon 2 Pamagat Placeholder",
+        "p1": "Seksyon 2 Talata 1 Placeholder."
       },
       "section3": {
-        "title": "3. Paano Namin Pinoprotektahan ang Iyong Impormasyon",
-        "p1": "Nagpapatupad kami ng mga angkop na teknikal at administratibong hakbang upang protektahan ang iyong personal na impormasyon mula sa hindi awtorisadong pag-access, pagbubunyag, o pagbabago. Kasama sa mga hakbang na ito ang pag-encrypt ng data, kontrol sa pag-access, at regular na mga pagsusuri ng seguridad."
+        "title": "Seksyon 3 Pamagat Placeholder",
+        "intro": "Seksyon 3 Panimula Placeholder.",
+        "b1": "Seksyon 3 Bullet 1 Placeholder.",
+        "b2": "Seksyon 3 Bullet 2 Placeholder.",
+        "b3": "Seksyon 3 Bullet 3 Placeholder.",
+        "p1": "Seksyon 3 Talata 1 Placeholder."
       },
       "section4": {
-        "title": "4. Pagbabahagi ng Impormasyon",
-        "intro": "Hindi namin ibinibenta o inuupahan ang iyong personal na impormasyon sa mga ikatlong partido. Ibinabahagi lamang namin ang iyong impormasyon sa mga sumusunod na pagkakataon:",
-        "b1": "Mga Tagapagbigay ng Serbisyo: Maaaring ibahagi namin ang iyong impormasyon sa mga ikatlong partido na nagbibigay ng teknikal na suporta, hosting ng website, at iba pang mga serbisyo. Ang mga tagapagbigay ng serbisyong ito ay limitado sa pagbibigay ng mga serbisyo para sa amin at kinakailangan nilang sumunod sa mga obligasyon ng pagiging kompidensyal.",
-        "b2": "Mga Legal na Pangangailangan: Maaaring ibunyag namin ang iyong impormasyon kung kinakailangan ng batas o legal na proseso."
+        "title": "Seksyon 4 Pamagat Placeholder",
+        "p1": "Seksyon 4 Talata 1 Placeholder.",
+        "p2": "Seksyon 4 Talata 2 Placeholder."
       },
       "section5": {
-        "title": "5. Paggamit ng Cookies",
-        "p1": "Gumagamit kami ng Cookies at mga katulad na teknolohiya upang mangolekta at mag-imbak ng iyong mga kagustuhan, gawi sa pag-browse, at iba pang impormasyon. Maaaring i-disable ang Cookies sa pamamagitan ng iyong mga setting ng browser, ngunit mangyaring tandaan na maaaring makaapekto ito sa iyong kakayahang gamitin ang ilang tampok ng Site."
+        "title": "Seksyon 5 Pamagat Placeholder",
+        "p1": "Seksyon 5 Talata 1 Placeholder."
       },
       "section6": {
-        "title": "6. Mga Link ng Ikatlong Partido",
-        "p1": "Ang Site ay maaaring naglalaman ng mga link sa ibang mga website. Wala kaming kontrol sa mga kasanayan sa privacy ng mga third-party na website na ito. Inirerekomenda naming basahin mo ang kanilang mga patakaran sa privacy kapag bumisita sa ibang mga site."
+        "title": "Seksyon 6 Pamagat Placeholder",
+        "p1": "Seksyon 6 Talata 1 Placeholder."
       },
       "section7": {
-        "title": "7. Privacy ng mga Bata",
-        "p1": "Ang aming mga serbisyo ay hindi nakatuon sa mga bata na wala pang 13 taong gulang. Kung matutuklasan namin na hindi sinasadyang nakolekta namin ang personal na impormasyon mula sa isang bata na wala pang 13, agad naming gagawin ang mga hakbang upang tanggalin ang kaugnay na impormasyon."
+        "title": "Seksyon 7 Pamagat Placeholder",
+        "p1": "Seksyon 7 Talata 1 Placeholder."
       },
       "section8": {
-        "title": "8. Iyong mga Karapatan",
-        "p1": "Ayon sa mga kaugnay na batas at regulasyon, mayroon kang karapatan na humiling ng access sa, itama, o tanggalin ang personal na impormasyong kinolekta namin tungkol sa iyo. Kung mayroon kang mga katanungan o kahilingan tungkol sa pagproseso ng iyong personal na impormasyon, mangyaring makipag-ugnayan sa amin gamit ang impormasyon sa pakikipag-ugnayan sa ibaba."
+        "title": "Seksyon 8 Pamagat Placeholder",
+        "p1": "Seksyon 8 Talata 1 Placeholder."
       },
       "section9": {
-        "title": "9. Makipag-ugnayan sa Amin",
-        "p1": "Kung mayroon kang anumang mga katanungan tungkol sa Patakaran sa Privacy na ito o kailangan ng karagdagang impormasyon, mangyaring makipag-ugnayan sa amin sa sumusunod na paraan:",
-        "email": "Email: maieldilmie223321@gmail.com"
+        "title": "Seksyon 9 Pamagat Placeholder",
+        "p1": "Seksyon 9 Talata 1 Placeholder."
+      },
+      "section10": {
+        "title": "Seksyon 10 Pamagat Placeholder",
+        "p1": "Seksyon 10 Talata 1 Placeholder."
+      },
+      "section11": {
+        "title": "Seksyon 11 Pamagat Placeholder",
+        "p1": "Seksyon 11 Talata 1 Placeholder."
+      },
+      "section12": {
+        "title": "Seksyon 12 Pamagat Placeholder",
+        "p1": "Seksyon 12 Talata 1 Placeholder.",
+        "contactEmail": "email.placeholder@example.com"
       }
     },
-    "terms": "Pansamantalang sinusuri ang pahina ng mga tuntunin ng serbisyo.",
-    "guideDetail": {
-      "title": "Cookingdom Guide",
-      "description": "Detalyadong gabay para sa isang antas ng Cookingdom."
+    "privacy": {
+      "title": "Patakaran sa Privacy Placeholder Title"
+    },
+    "about": {
+      "title": "Tungkol sa Amin",
+      "whoWeAre": {
+        "title": "Sino Kami",
+        "teamMessage": "Isang dedikadong grupo ng mga mahilig sa Cookingdom na nagtutulungan para gumawa ng pinakamahusay na mga gabay sa laro!",
+        "description": "Kami ay isang masigasig na grupo ng mga mahilig sa Cookingdom na nagmamahal sa laro at gustong tulungan ang iba na lubos na ma-enjoy ito. Ang aming grupo ay binubuo ng mga matagal nang manlalaro, content creator, at mga eksperto sa gaming na gumugol ng maraming oras sa pag-master ng bawat level ng Cookingdom.<br><br>Itinatag noong 2025, ang aming misyon ay lumikha ng pinaka-komprehensibong mapagkukunan para sa mga manlalaro ng Cookingdom sa buong mundo."
+      },
+      "ourMission": {
+        "title": "Ang Aming Misyon",
+        "description": "Ang aming misyon ay simple: tulungan ang mga manlalaro ng Cookingdom sa lahat ng antas ng kasanayan na malampasan ang mga hamon, matuklasan ang mga bagong estratehiya, at lubos na ma-enjoy ang laro.<br><br>Naniniwala kami na ang paglalaro ay dapat masaya at madaling ma-access para sa lahat, kaya gumagawa kami ng detalyadong mga gabay, tips, at mapagkukunan na angkop para sa mga baguhan at mga matagal nang manlalaro."
+      },
+      "ourValues": {
+        "title": "Ang Aming Mga Pinahahalagahan",
+        "quality": {
+          "title": "Kalidad",
+          "description": "Nakatuon kami sa pagbibigay ng tumpak, mabuting nairesearch, at komprehensibong mga gabay na tunay na tumutulong sa mga manlalaro na mapabuti ang kanilang gameplay."
+        },
+        "community": {
+          "title": "Komunidad",
+          "description": "Naniniwala kami sa pagtataguyod ng isang suportadong at inklusibong komunidad kung saan ang mga manlalaro ay maaaring magbahagi ng mga karanasan at matuto mula sa isa't isa."
+        },
+        "fun": {
+          "title": "Kasiyahan",
+          "description": "Higit sa lahat, naniniwala kami na ang paglalaro ay dapat masaya. Ang aming mga gabay ay naglalayong mapahusay ang iyong karanasan, hindi ito gawing trabaho."
+        }
+      }
+    },
+    "contact": {
+      "title": "Makipag-ugnayan sa Amin",
+      "getInTouch": {
+        "title": "Makipag-ugnayan",
+        "description": "Gustung-gusto naming marinig mula sa aming komunidad! Kung mayroon kang mga tanong, feedback, o gusto lang bumati, may ilang paraan para makipag-ugnayan sa amin."
+      },
+      "methods": {
+        "email": {
+          "title": "Email",
+          "value": "delldremo9898@gmail.com"
+        }
+      },
+      "faq": {
+        "title": "Mga Madalas Itanong",
+        "q1": {
+          "question": "Paano ako makakapag-ambag sa site?",
+          "answer": "Malugod naming tinatanggap ang mga kontribusyon mula sa komunidad! Maaari kang magsumite ng mga suhestiyon sa gabay, mga pagwawasto, o mga tip sa pamamagitan ng aming contact form o sa pagsali sa aming Discord server."
+        },
+        "q2": {
+          "question": "Gaano kabilis kayo tumugon sa mga mensahe?",
+          "answer": "Nagsusumikap kaming tumugon sa lahat ng mga katanungan sa loob ng 48 oras. Para sa mga agarang bagay, ang Discord ay kadalasang ang pinakamabilis na paraan para makipag-ugnayan sa amin."
+        },
+        "q3": {
+          "question": "Ito ba ay opisyal na website ng Cookingdom?",
+          "answer": "Hindi, ito ay isang site na ginawa ng mga tagahanga. Hindi kami konektado sa opisyal na mga developer o publisher ng larong Cookingdom."
+        }
+      }
     },
     "modDownload": {
-      "title": "I-download ang Mga Bersyon ng Cookingdom Mod APK - I-unlock ang Lahat",
-      "description": "Kunin ang pinakabagong Cookingdom Mod APK at IPA . Mag-enjoy ng walang limitasyong mga mapagkukunan, naka-unlock ang lahat ng antas, at walang ad na karanasan sa paglalaro.",
-      "keywords": "Cookingdom Mod APK, cookingdom apk mod, cookingdom ipa mod, basag na laro, walang limitasyong mapagkukunan"
-    }
-  },
-  "about": {
-    "title": "Tungkol sa Amin",
-    "whoWeAre": {
-      "title": "Sino Kami",
-      "teamMessage": "Isang dedikadong grupo ng mga mahilig sa Cookingdom na nagtutulungan para gumawa ng pinakamahusay na mga gabay sa laro!",
-      "description": "Kami ay isang masigasig na grupo ng mga mahilig sa Cookingdom na nagmamahal sa laro at gustong tulungan ang iba na lubos na ma-enjoy ito. Ang aming grupo ay binubuo ng mga matagal nang manlalaro, content creator, at mga eksperto sa gaming na gumugol ng maraming oras sa pag-master ng bawat level ng Cookingdom.<br><br>Itinatag noong 2025, ang aming misyon ay lumikha ng pinaka-komprehensibong mapagkukunan para sa mga manlalaro ng Cookingdom sa buong mundo."
-    },
-    "ourMission": {
-      "title": "Ang Aming Misyon",
-      "description": "Ang aming misyon ay simple: tulungan ang mga manlalaro ng Cookingdom sa lahat ng antas ng kasanayan na malampasan ang mga hamon, matuklasan ang mga bagong estratehiya, at lubos na ma-enjoy ang laro.<br><br>Naniniwala kami na ang paglalaro ay dapat masaya at madaling ma-access para sa lahat, kaya gumagawa kami ng detalyadong mga gabay, tips, at mapagkukunan na angkop para sa mga baguhan at mga matagal nang manlalaro."
-    },
-    "ourValues": {
-      "title": "Ang Aming Mga Pinahahalagahan",
-      "quality": {
-        "title": "Kalidad",
-        "description": "Nakatuon kami sa pagbibigay ng tumpak, mabuting nairesearch, at komprehensibong mga gabay na tunay na tumutulong sa mga manlalaro na mapabuti ang kanilang gameplay."
-      },
-      "community": {
-        "title": "Komunidad",
-        "description": "Naniniwala kami sa pagtataguyod ng isang suportadong at inklusibong komunidad kung saan ang mga manlalaro ay maaaring magbahagi ng mga karanasan at matuto mula sa isa't isa."
-      },
-      "fun": {
-        "title": "Kasiyahan",
-        "description": "Higit sa lahat, naniniwala kami na ang paglalaro ay dapat masaya. Ang aming mga gabay ay naglalayong mapahusay ang iyong karanasan, hindi ito gawing trabaho."
-      }
-    }
-  },
-  "contact": {
-    "title": "Makipag-ugnayan sa Amin",
-    "getInTouch": {
-      "title": "Makipag-ugnayan",
-      "description": "Gustung-gusto naming marinig mula sa aming komunidad! Kung mayroon kang mga tanong, feedback, o gusto lang bumati, may ilang paraan para makipag-ugnayan sa amin."
-    },
-    "methods": {
-      "email": {
-        "title": "Email",
-        "value": "delldremo9898@gmail.com"
-      }
-    },
-    "faq": {
-      "title": "Mga Madalas Itanong",
-      "q1": {
-        "question": "Paano ako makakapag-ambag sa site?",
-        "answer": "Malugod naming tinatanggap ang mga kontribusyon mula sa komunidad! Maaari kang magsumite ng mga suhestiyon sa gabay, mga pagwawasto, o mga tip sa pamamagitan ng aming contact form o sa pagsali sa aming Discord server."
-      },
-      "q2": {
-        "question": "Gaano kabilis kayo tumugon sa mga mensahe?",
-        "answer": "Nagsusumikap kaming tumugon sa lahat ng mga katanungan sa loob ng 48 oras. Para sa mga agarang bagay, ang Discord ay kadalasang ang pinakamabilis na paraan para makipag-ugnayan sa amin."
-      },
-      "q3": {
-        "question": "Ito ba ay opisyal na website ng Cookingdom?",
-        "answer": "Hindi, ito ay isang site na ginawa ng mga tagahanga. Hindi kami konektado sa opisyal na mga developer o publisher ng larong Cookingdom."
-      }
-    }
-  },
-  "modDownload": {
-    "pageHeadline": "Cookingdom Mod APK",
-    "pageTitle": "I-download ang Cookingdom Mod APK",
-    "pageIntro": "I-download ang Cookingdom Mod APK. Mag-enjoy ng mga pinahusay na tampok para sa mas magandang karanasan sa paglalaro.",
-    "mainMod": {
-      "title": "Cookingdom Mod APK 1.0.32",
-      "description": "Pinakabagong modded na bersyon ng Cookingdom Mod APK para sa Android, nag-aalok ng mga espesyal na tampok.",
-      "meta": {
-        "type": "Mod APK",
-        "size": "389.21 MB"
-      },
-      "button": "I-download ang Cookingdom Mod APK",
-      "downloadLink": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/download.html"
-    },
-    "modInfo": {
-      "title": "Mga Tampok ng Cookingdom Mod APK:",
-      "features": ["Mga gantimpala nang walang ads", "Walang Ads", "Mod Menu"]
-    },
-    "happymodReference": {
-      "text": "Pinagmulan:",
-      "linkText": "HappyMod",
-      "linkUrl": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/"
-    },
-    "apkDetails": {
-      "title": "Detalye ng Cookingdom Mod APK",
-      "version": "Bersyon ng App",
-      "versionValue": "1.0.32",
-      "lastUpdated": "Huling Na-update",
-      "lastUpdatedValue": "Abr 22, 2025",
-      "size": "Laki ng APK",
-      "sizeValue": "389.21 MB",
-      "price": "Presyo",
-      "priceValue": "Libre",
-      "category": "Kategorya",
-      "categoryValue": "Simulasyon",
-      "contentRating": "Rating ng Nilalaman",
-      "contentRatingValue": "5.0/5 (507 boto)",
-      "supportAndroid": "Sinusuportahang Android",
-      "supportAndroidValue": "Android",
-      "appPackage": "Package ng App",
-      "appPackageValue": "com.abi.cook.chill",
-      "rootRequired": "ROOT",
-      "rootRequiredValue": "Hindi kinakailangan",
-      "inAppPurchases": "Nag-aalok ng Pagbili sa App",
-      "inAppPurchasesValue": "Oo (Orihinal na App)"
-    },
-    "otherLinks": {
-      "title": "Iba pang Opsyon ng Pag-download",
-      "originalApk": {
-        "text": "Bersyon ng iOS",
-        "link": "https://apps.apple.com/us/app/cookingdom/id6742222069"
-      },
-      "googlePlay": {
-        "text": "Bersyon ng Android",
-        "link": "https://play.google.com/store/apps/details?id=com.abi.cook.chill"
-      }
-    },
-    "allVersions": {
-      "title": "Mga Nakaraang Bersyon ng Mod",
-      "versions": [
-        {
-          "name": "Cookingdom Mod APK 1.0.31",
-          "size": "385.14 MB",
-          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-v1-0-31-mod-down.html"
+      "pageHeadline": "Cookingdom Mod APK",
+      "pageTitle": "I-download ang Cookingdom Mod APK",
+      "pageIntro": "I-download ang Cookingdom Mod APK. Mag-enjoy ng mga pinahusay na tampok para sa mas magandang karanasan sa paglalaro.",
+      "mainMod": {
+        "title": "Cookingdom Mod APK 1.0.32",
+        "description": "Pinakabagong modded na bersyon ng Cookingdom Mod APK para sa Android, nag-aalok ng mga espesyal na tampok.",
+        "meta": {
+          "type": "Mod APK",
+          "size": "389.21 MB"
         },
-        {
-          "name": "Cookingdom Mod APK 1.0.29",
-          "size": "431.29 MB",
-          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/nap.mod.cookingdom-1-0-29-down.html"
+        "button": "I-download ang Cookingdom Mod APK",
+        "downloadLink": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/download.html"
+      },
+      "modInfo": {
+        "title": "Mga Tampok ng Cookingdom Mod APK:",
+        "features": ["Mga gantimpala nang walang ads", "Walang Ads", "Mod Menu"]
+      },
+      "happymodReference": {
+        "text": "Pinagmulan:",
+        "linkText": "HappyMod",
+        "linkUrl": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/"
+      },
+      "apkDetails": {
+        "title": "Detalye ng Cookingdom Mod APK",
+        "version": "Bersyon ng App",
+        "versionValue": "1.0.32",
+        "lastUpdated": "Huling Na-update",
+        "lastUpdatedValue": "Abr 22, 2025",
+        "size": "Laki ng APK",
+        "sizeValue": "389.21 MB",
+        "price": "Presyo",
+        "priceValue": "Libre",
+        "category": "Kategorya",
+        "categoryValue": "Simulasyon",
+        "contentRating": "Rating ng Nilalaman",
+        "contentRatingValue": "5.0/5 (507 boto)",
+        "supportAndroid": "Sinusuportahang Android",
+        "supportAndroidValue": "Android",
+        "appPackage": "Package ng App",
+        "appPackageValue": "com.abi.cook.chill",
+        "rootRequired": "ROOT",
+        "rootRequiredValue": "Hindi kinakailangan",
+        "inAppPurchases": "Nag-aalok ng Pagbili sa App",
+        "inAppPurchasesValue": "Oo (Orihinal na App)"
+      },
+      "otherLinks": {
+        "title": "Iba pang Opsyon ng Pag-download",
+        "originalApk": {
+          "text": "Bersyon ng iOS",
+          "link": "https://apps.apple.com/us/app/cookingdom/id6742222069"
         },
-        {
-          "name": "Cookingdom Mod APK 0.24",
-          "size": "369.63 MB",
-          "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-mod-apk-0-24-down.html"
+        "googlePlay": {
+          "text": "Bersyon ng Android",
+          "link": "https://play.google.com/store/apps/details?id=com.abi.cook.chill"
         }
-      ]
-    },
-    "developerDescription": {
-      "title": "Tungkol sa Cookingdom Mod APK (mula sa Developer)",
-      "text": "Maligayang pagdating sa Cookingdom Mod APK, isang ultimate chill at cozy na laro na ginagawang kasing-relax ng isang satisfying Sunday morning ang pagluluto. Ang lahat ng ito ay tungkol sa pagpapabagal, kasiyahan, at paggawa ng masasarap na mga putahe hakbang-hakbang. Magsisimula ka mula sa pag-chop ng patatas hanggang sa pagtatanghal ng mga masterpiece, habang sumasabay sa mga nakakarelaks na vibes."
-    },
-    "disclaimerTitle": "Paunawa",
-    "disclaimerBody": "Ang lahat ng mga link sa pag-download na ibinigay sa site na ito ay kinuha mula sa internet at para lamang sa layunin ng pag-aaral at pananaliksik. Ang site na ito ay hindi responsable sa legalidad, kaligtasan, o kabuuan ng anumang nilalaman na na-download, at hindi rin nito inaako ang anumang panganib o pananagutang legal na maaaring idulot ng paggamit ng mga link na ito. Pinapayuhan ang mga gumagamit na gamitin ang kanilang sariling pagpapasya bago mag-download at gumamit ng anumang nilalaman."
+      },
+      "allVersions": {
+        "title": "Mga Nakaraang Bersyon ng Mod",
+        "versions": [
+          {
+            "name": "Cookingdom Mod APK 1.0.31",
+            "size": "385.14 MB",
+            "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-v1-0-31-mod-down.html"
+          },
+          {
+            "name": "Cookingdom Mod APK 1.0.29",
+            "size": "431.29 MB",
+            "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/nap.mod.cookingdom-1-0-29-down.html"
+          },
+          {
+            "name": "Cookingdom Mod APK 0.24",
+            "size": "369.63 MB",
+            "link": "https://m.happymod.com/cookingdom-mod/com.abi.cook.chill/com.mod.cookingdom-mod-apk-0-24-down.html"
+          }
+        ]
+      },
+      "developerDescription": {
+        "title": "Tungkol sa Cookingdom Mod APK (mula sa Developer)",
+        "text": "Maligayang pagdating sa Cookingdom Mod APK, isang ultimate chill at cozy na laro na ginagawang kasing-relax ng isang satisfying Sunday morning ang pagluluto. Ang lahat ng ito ay tungkol sa pagpapabagal, kasiyahan, at paggawa ng masasarap na mga putahe hakbang-hakbang. Magsisimula ka mula sa pag-chop ng patatas hanggang sa pagtatanghal ng mga masterpiece, habang sumasabay sa mga nakakarelaks na vibes."
+      },
+      "disclaimerTitle": "Paunawa",
+      "disclaimerBody": "Ang lahat ng mga link sa pag-download na ibinigay sa site na ito ay kinuha mula sa internet at para lamang sa layunin ng pag-aaral at pananaliksik. Ang site na ito ay hindi responsable sa legalidad, kaligtasan, o kabuuan ng anumang nilalaman na na-download, at hindi rin nito inaako ang anumang panganib o pananagutang legal na maaaring idulot ng paggamit ng mga link na ito. Pinapayuhan ang mga gumagamit na gamitin ang kanilang sariling pagpapasya bago mag-download at gumamit ng anumang nilalaman."
+    }
   },
   "copyright": {
     "title": "Impormasyon sa Copyright",
