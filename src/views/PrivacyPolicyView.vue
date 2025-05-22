@@ -50,7 +50,7 @@ const { t } = useI18n()
 
     <h2>{{ t('page.privacy.section9.title') }}</h2>
     <p>{{ t('page.privacy.section9.p1') }}</p>
-    <p>{{ t('page.privacy.section9.contactEmail') }}</p>
+    <p>Email: maieldilmie223321@gmail.com</p>
   </div>
 </template>
 

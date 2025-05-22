@@ -11,8 +11,8 @@
           <div class="contact-methods">
             <div class="contact-method">
               <div class="contact-icon">📧</div>
-              <h3>{{ $t('contact.methods.contactEmail.title') }}</h3>
-              <p>{{ $t('contact.methods.contactEmail.value') }}</p>
+              <h3>Email</h3>
+              <p>delldremo9898@gmail.com</p>
             </div>
 
             <!-- <div class="contact-method">
