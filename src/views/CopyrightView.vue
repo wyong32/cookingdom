@@ -35,8 +35,8 @@
           <h2>{{ $t('copyright.thirdParty.title') }}</h2>
           <p v-html="$t('copyright.thirdParty.description')"></p>
 
-          <h2>{{ $t('copyright.contact.title') }}</h2>
-          <p v-html="$t('copyright.contact.description')"></p>
+          <h2>{{ $t('copyright.contactaaa.title') }}</h2>
+          <p v-html="$t('copyright.contactaaa.description')"></p>
 
           <div class="copyright-footer">
             <p>
