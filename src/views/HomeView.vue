@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
+import { ref, onMounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -29,29 +29,44 @@ const swiperLoaded = ref(false)
 // Use i18n locale for useGuides
 const { locale } = useI18n()
 
-// 懒加载指南数据
-const loadGuidesData = async () => {
-  // 只在需要时加载指南数据
-  return useGuides(locale)
-}
-
 // 创建响应式引用，但不立即加载数据
 const guidesData = ref(null)
-const guidesLoading = ref(true)
+const guidesLoading = ref(false)
 const guidesError = ref(null)
 
 // 在需要时加载指南数据
 const loadGuides = async () => {
   try {
     guidesLoading.value = true
-    const { guides, isLoading, error } = await loadGuidesData()
-    guidesData.value = guides
-    guidesError.value = error
-    guidesLoading.value = isLoading
-  } catch (error) {
-    console.error('加载指南数据失败:', error)
-    guidesError.value = error
-  } finally {
+    console.log('开始加载指南数据...')
+
+    // 直接使用 useGuides composable
+    const { guides, isLoading, error } = useGuides(locale)
+
+    // 等待数据加载完成
+    const checkDataLoaded = () => {
+      return new Promise((resolve) => {
+        const unwatch = watch(
+          [guides, isLoading],
+          ([guidesValue, loadingValue]) => {
+            if (!loadingValue && guidesValue && guidesValue.length > 0) {
+              guidesData.value = guidesValue
+              guidesError.value = error.value
+              guidesLoading.value = false
+              console.log('指南数据加载完成:', guidesValue.length, '条')
+              unwatch()
+              resolve()
+            }
+          },
+          { immediate: true }
+        )
+      })
+    }
+
+    await checkDataLoaded()
+  } catch (err) {
+    console.error('加载指南数据失败:', err)
+    guidesError.value = err
     guidesLoading.value = false
   }
 }
@@ -198,7 +213,14 @@ onMounted(() => {
           </div>
           <!-- 移动端显示单张图片 -->
           <div v-if="isMobile" class="hero-single-image-container">
-            <img :src="sliderImages[0]" alt="Banner Image" class="hero-single-image" />
+            <img
+              :src="sliderImages[0]"
+              alt="Banner Image"
+              class="hero-single-image"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
           </div>
 
           <!-- 桌面端轮播图 - 仅在组件加载完成后显示 -->
@@ -593,6 +615,9 @@ main {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* 优化图片容器的渲染性能 */
+  contain: layout style paint;
+  will-change: transform;
 }
 
 .hero-single-image {
@@ -601,6 +626,10 @@ main {
   height: auto;
   object-fit: cover;
   border-radius: 15px;
+  /* 优化图片渲染性能 */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  transform: translateZ(0); /* 启用硬件加速 */
 }
 
 /* 加载中状态样式 */
