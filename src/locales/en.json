@@ -254,6 +254,10 @@
       "section9": {
         "title": "Section 9 Title Placeholder",
         "p1": "Section 9 Paragraph 1 placeholder."
+      },
+      "section10": {
+        "title": "Section 10 Title Placeholder",
+        "p1": "Section 10 Paragraph 1 placeholder."
       }
     }
   },
