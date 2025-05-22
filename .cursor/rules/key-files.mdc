@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+\
+# Key Files Guide
+
+This document highlights some of the most important files in the project.
+
+- **[`package.json`](mdc:package.json)**: Defines project metadata, dependencies, and scripts.
+- **[`vite.config.js`](mdc:vite.config.js)**: Configuration file for Vite, the build tool.
+- **[`src/App.vue`](mdc:src/App.vue)**: The root Vue component of the application.
+- **[`src/main.js`](mdc:src/main.js)**: The main JavaScript entry point. Initializes Vue and its plugins.
+- **[`src/router/index.js`](mdc:src/router/index.js)** (if it exists, otherwise look for a similar file in `src/router/`): Configures the application's routes using Vue Router.
+- **[`src/i18n.js`](mdc:src/i18n.js)**: Configures Vue I18n for internationalization.
+- **`eslint.config.js`**: Configuration for ESLint, the linter.
+- **`.prettierrc.json`**: Configuration for Prettier, the code formatter.
+
