@@ -238,6 +238,22 @@
       "section5": {
         "title": "Section 5 Title Placeholder",
         "p1": "Section 5 Paragraph 1 placeholder."
+      },
+      "section6": {
+        "title": "Section 6 Title Placeholder",
+        "p1": "Section 6 Paragraph 1 placeholder."
+      },
+      "section7": {
+        "title": "Section 7 Title Placeholder",
+        "p1": "Section 7 Paragraph 1 placeholder."
+      },
+      "section8": {
+        "title": "Section 8 Title Placeholder",
+        "p1": "Section 8 Paragraph 1 placeholder."
+      },
+      "section9": {
+        "title": "Section 9 Title Placeholder",
+        "p1": "Section 9 Paragraph 1 placeholder."
       }
     }
   },
