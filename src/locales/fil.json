@@ -41,7 +41,7 @@
     },
     "bottom": {
       "copyright": "© {year} Cookingdom. Lahat ng karapatan ay nakalaan.",
-      "credits": "Ginawa nang may ♡ ng mga Tagahanga | Ang copyright ng larong Cookingdom ay pagmamay-ari ng mga developer nito.",
+      "credits": "Ginawa nang may ♡ ng mga Tagahanga - Ang copyright ng larong Cookingdom ay pagmamay-ari ng mga developer nito.",
       "disclaimer": "Paunawa: Ang website na ito (www.cookingdom.co) ay isang di-opisyal na fansite na ginawa ng mga tagahanga at hindi konektado sa opisyal na larong Cookingdom o sa mga publisher nito. Para sa layuning impormasyon at libangan lamang."
     },
     "privacy": "Patakaran sa Privacy",
@@ -128,7 +128,7 @@
       "title": "Paano Laruin ang Cookingdom Game",
       "step1": {
         "title": "Ano ang Cookingdom Game?",
-        "description": "Ang Cookingdom ay isang nakakarelaks na cooking simulator na magdadala sa’yo sa isang di malilimutang culinary adventure. Sundan ang mga tips para mabilis na maging eksperto at maipakita ang iyong virtual cooking skills. Tandaan: ang layunin ng Cookingdom ay tamasahin ang proseso!"
+        "description": "Ang Cookingdom ay isang nakakarelaks na cooking simulator na magdadala sa'yo sa isang di malilimutang culinary adventure. Sundan ang mga tips para mabilis na maging eksperto at maipakita ang iyong virtual cooking skills. Tandaan: ang layunin ng Cookingdom ay tamasahin ang proseso!"
       },
       "step2": {
         "title": "Pag-aaral ng Mga Pangunahing Hakbang",
@@ -470,7 +470,7 @@
         "title": "Pinapahintulutang Gamit",
         "item1": "Pag-access at pagtingin sa nilalaman para sa personal at hindi pang-komersyal na layunin",
         "item2": "Pagbabahagi ng mga link sa aming nilalaman sa social media o iba pang mga platform",
-        "item3": "Paggamit ng maikling sipi ng nilalaman basta’t may wastong pagkilala sa pinagmulan",
+        "item3": "Paggamit ng maikling sipi ng nilalaman basta't may wastong pagkilala sa pinagmulan",
         "item4": "Pagpi-print o pag-download ng nilalaman para sa personal na sanggunian"
       },
       "prohibited": {
