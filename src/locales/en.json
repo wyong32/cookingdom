@@ -212,9 +212,33 @@
     "privacy": "This page is temporarily under review. Please check back later.",
     "terms": {
       "title": "Terms Title Placeholder",
-      "contentPlaceholder": "Content Placeholder",
       "lastUpdated": "Last Updated Placeholder",
-      "intro": "Intro placeholder."
+      "intro": "Intro placeholder.",
+      "section1": {
+        "title": "Section 1 Title Placeholder",
+        "p1": "Section 1 Paragraph 1 placeholder."
+      },
+      "section2": {
+        "title": "Section 2 Title Placeholder",
+        "p1": "Section 2 Paragraph 1 placeholder."
+      },
+      "section3": {
+        "title": "Section 3 Title Placeholder",
+        "intro": "Section 3 Intro placeholder.",
+        "b1": "Section 3 Bullet 1 placeholder.",
+        "b2": "Section 3 Bullet 2 placeholder.",
+        "b3": "Section 3 Bullet 3 placeholder.",
+        "p1": "Section 3 Paragraph 1 placeholder."
+      },
+      "section4": {
+        "title": "Section 4 Title Placeholder",
+        "p1": "Section 4 Paragraph 1 placeholder.",
+        "p2": "Section 4 Paragraph 2 placeholder."
+      },
+      "section5": {
+        "title": "Section 5 Title Placeholder",
+        "p1": "Section 5 Paragraph 1 placeholder."
+      }
     }
   },
   "about": {
