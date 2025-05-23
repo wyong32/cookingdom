@@ -37,10 +37,13 @@
         <!-- Sidebar Image -->
         <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
           <img
-            :src="currentGuide.sidebarData.sidebarImageUrl"
+            :src="optimizeImageUrl(currentGuide.sidebarData.sidebarImageUrl)"
             alt="Cookingdom Level"
             fetchpriority="high"
             loading="eager"
+            decoding="sync"
+            width="350"
+            height="280"
           />
         </div>
 
@@ -64,11 +67,13 @@
             <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
               <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
                 <img
-                  :src="featured.imageUrl"
+                  :src="optimizeImageUrl(featured.imageUrl)"
                   alt="Cookingdom Level"
                   class="featured-guide-img"
                   loading="lazy"
                   decoding="async"
+                  width="80"
+                  height="60"
                 />
                 <span v-html="featured.title"></span>
               </router-link>
@@ -280,6 +285,17 @@ const addVideoSchema = (guideObj) => {
   document.head.appendChild(script)
 }
 
+// 优化图片URL，添加宽度和质量参数
+const optimizeImageUrl = (url) => {
+  if (!url) return ''
+
+  // 如果是外部URL，直接返回
+  if (url.startsWith('http')) return url
+
+  // 添加宽度、质量和缓存参数
+  return `${url}?w=350&q=90&cache=31536000`
+}
+
 // 获取视频缩略图
 const getVideoThumbnail = (guide) => {
   if (!guide) return null
@@ -289,9 +305,10 @@ const getVideoThumbnail = (guide) => {
 
   // 确保路径是绝对路径
   if (thumbnail && thumbnail.startsWith('/')) {
+    // 添加优化参数
     thumbnail = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumbnail.substring(
       1
-    )}`
+    )}?w=640&q=90&cache=31536000`
   }
 
   return thumbnail

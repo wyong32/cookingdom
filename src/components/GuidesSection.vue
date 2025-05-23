@@ -42,13 +42,14 @@
         >
           <div class="guide-image-placeholder">
             <img
-              :src="guide.imageUrl"
+              :src="optimizeImageUrl(guide.imageUrl, index)"
               :alt="guide.title?.replace(brRegex, ' ') || 'Guide image'"
-              :fetchpriority="index < 5 ? 'high' : 'auto'"
-              :loading="index < 5 ? 'eager' : 'lazy'"
+              :fetchpriority="index < 3 ? 'high' : 'auto'"
+              :loading="index < 3 ? 'eager' : 'lazy'"
               width="300"
               height="150"
-              :decoding="index < 5 ? 'sync' : 'async'"
+              :decoding="index < 3 ? 'sync' : 'async'"
+              :onerror="handleImageError"
             />
           </div>
           <div class="guide-content">
@@ -210,6 +211,28 @@ watch(
 
 // Define the regex for removing <br> tags
 const brRegex = /<br\s*\/?\s*>/gi
+
+// 优化图片URL，添加宽度和质量参数
+const optimizeImageUrl = (url, index) => {
+  if (!url) return ''
+
+  // 如果是外部URL，直接返回
+  if (url.startsWith('http')) return url
+
+  // 为前3个图片使用高质量，其余使用中等质量
+  const quality = index < 3 ? 90 : 75
+
+  // 添加宽度、质量和缓存参数
+  return `${url}?w=300&q=${quality}&cache=31536000`
+}
+
+// 处理图片加载错误
+const handleImageError = (event) => {
+  // 设置默认图片
+  event.target.src = '/logo.webp'
+  // 移除加载中状态
+  event.target.classList.add('error')
+}
 
 // Computed property to filter guides based on the *props*
 const filteredGuides = computed(() => {

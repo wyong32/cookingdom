@@ -96,11 +96,22 @@ const videoId = computed(() => {
 
 const thumbnailUrl = computed(() => {
   if (props.customThumbnail) {
+    // 添加优化参数
+    if (props.customThumbnail.startsWith('/')) {
+      return `${props.customThumbnail}?w=640&q=85&cache=31536000`
+    }
     return props.customThumbnail
   }
 
   if (props.autoThumbnail && videoId.value) {
-    // 使用YouTube缩略图API
+    // 使用YouTube缩略图API，添加预连接
+    if (typeof document !== 'undefined') {
+      const link = document.createElement('link')
+      link.rel = 'preconnect'
+      link.href = 'https://img.youtube.com'
+      link.crossOrigin = 'anonymous'
+      document.head.appendChild(link)
+    }
     return `https://img.youtube.com/vi/${videoId.value}/hqdefault.jpg`
   }
 
