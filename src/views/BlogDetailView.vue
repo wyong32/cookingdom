@@ -114,6 +114,10 @@ watch(listError, (newError) => {
   background-color: #fff; /* Optional: white background for content area */
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  contain: layout style paint; /* 防止布局偏移 */
+  min-height: 800px; /* 设置最小高度，防止内容加载时的布局偏移 */
+  width: 100%; /* 确保宽度固定 */
+  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .loading-message,
@@ -129,11 +133,18 @@ watch(listError, (newError) => {
   text-decoration: underline;
 }
 
+.blog-post-content {
+  contain: layout style paint; /* 防止布局偏移 */
+  min-height: 600px; /* 设置最小高度，防止内容加载时的布局偏移 */
+}
+
 .blog-post-content h1 {
   font-size: 2.5rem;
   color: #5b4b8a;
   margin-bottom: 0.5rem;
   line-height: 1.3;
+  height: auto; /* 确保高度自适应 */
+  min-height: 3.5rem; /* 设置最小高度，防止布局偏移 */
 }
 
 .subtitle {
@@ -153,6 +164,10 @@ hr {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #333;
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 400px; /* 设置最小高度，防止内容加载时的布局偏移 */
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 1000px; /* 提供估计高度，防止布局偏移 */
 }
 
 /* Target elements within v-html */
@@ -207,9 +222,14 @@ hr {
   .blog-detail-view {
     padding: 1rem;
     margin: 0;
+    min-height: 600px; /* 移动端减少最小高度 */
+  }
+  .blog-post-content {
+    min-height: 400px; /* 移动端减少最小高度 */
   }
   .blog-post-content h1 {
     font-size: 1.5rem;
+    min-height: 2.5rem; /* 移动端减少最小高度 */
   }
   .subtitle {
     font-size: 1.1rem;
@@ -217,6 +237,7 @@ hr {
   .post-body {
     font-size: 1rem;
     line-height: 1.7;
+    min-height: 300px; /* 移动端减少最小高度 */
   }
 }
-</style> 
+</style>

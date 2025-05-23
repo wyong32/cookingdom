@@ -1,15 +1,10 @@
 <script setup>
 // Import necessary components
 import { RouterView } from 'vue-router'
-import { defineAsyncComponent } from 'vue'
 import AppHeader from '@/components/Header.vue' // Header 保持同步加载，因为是首屏关键内容
 
-// Footer 懒加载，因为不是首屏关键内容
-const AppFooter = defineAsyncComponent({
-  loader: () => import('@/components/Footer.vue'),
-  delay: 200,
-  timeout: 5000,
-})
+// 不再懒加载Footer，避免布局偏移
+import AppFooter from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -33,11 +28,16 @@ const AppFooter = defineAsyncComponent({
   flex: 1; /* Allow main content to grow and push footer down */
   /* Add padding or other styles if needed */
   padding-top: 60px; /* Example: Adjust based on your header's height */
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 800px; /* 设置最小高度，防止内容加载时的布局偏移 */
+  width: 100%; /* 确保宽度固定 */
+  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 @media (max-width: 767px) {
   .main-content-area {
     padding-top: 20px; /* Example: Adjust based on your header's height */
+    min-height: 600px; /* 移动端减少最小高度 */
   }
 }
 

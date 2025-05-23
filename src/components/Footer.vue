@@ -136,6 +136,10 @@ function getLocalizedRoute(name, params = {}) {
   background-color: #5b4b8a; /* Dark purple */
   color: #e8dff5; /* Light purple text */
   border-top: 5px solid #a08ee6; /* Lighter purple border */
+  contain: layout style paint; /* 防止布局偏移 */
+  min-height: 300px; /* 设置最小高度，防止内容加载时的布局偏移 */
+  width: 100%; /* 确保宽度固定 */
+  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 /* Container within footer should be centered */
@@ -154,6 +158,10 @@ function getLocalizedRoute(name, params = {}) {
   padding-bottom: 2rem;
   margin-bottom: 2rem; /* Space before bottom section */
   border-bottom: 1px solid #7c6f9f; /* Separator line */
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 200px; /* 设置最小高度 */
+  width: 100%; /* 确保宽度固定 */
+  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .footer-about {
@@ -250,6 +258,10 @@ function getLocalizedRoute(name, params = {}) {
   font-size: 0.85rem;
   color: #b1a4cc; /* Muted purple */
   padding-top: 1.5rem; /* Use padding instead of margin */
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 80px; /* 设置最小高度 */
+  width: 100%; /* 确保宽度固定 */
+  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .footer-bottom p {
