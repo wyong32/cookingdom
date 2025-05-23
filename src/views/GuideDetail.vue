@@ -22,8 +22,6 @@
             :videoUrl="currentGuide.iframeUrl"
             :title="$t('guideDetail.iframeTitle')"
             :customThumbnail="getVideoThumbnail(currentGuide)"
-            :optimizeRendering="true"
-            class="main-video-facade"
           />
         </div>
 
@@ -38,12 +36,10 @@
         <!-- Sidebar Image -->
         <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
           <img
-            :src="optimizeImageUrl(currentGuide.sidebarData.sidebarImageUrl, true)"
+            :src="currentGuide.sidebarData.sidebarImageUrl"
             alt="Cookingdom Level"
-            loading="lazy"
-            decoding="async"
-            width="350"
-            height="280"
+            fetchpriority="high"
+            loading="eager"
           />
         </div>
 
@@ -67,13 +63,11 @@
             <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
               <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
                 <img
-                  :src="optimizeImageUrl(featured.imageUrl, false)"
+                  :src="featured.imageUrl"
                   alt="Cookingdom Level"
                   class="featured-guide-img"
                   loading="lazy"
                   decoding="async"
-                  width="80"
-                  height="60"
                 />
                 <span v-html="featured.title"></span>
               </router-link>
@@ -285,23 +279,6 @@ const addVideoSchema = (guideObj) => {
   document.head.appendChild(script)
 }
 
-// 优化图片URL，添加宽度和质量参数
-const optimizeImageUrl = (url, isHero = false) => {
-  if (!url) return ''
-
-  // 如果是外部URL，直接返回
-  if (url.startsWith('http')) return url
-
-  // 根据图片用途设置不同的宽度和质量
-  // 英雄图片(侧边栏大图)使用更高的质量
-  const width = isHero ? 350 : 200
-  const quality = isHero ? 80 : 70
-
-  // 添加宽度、质量、格式转换和缓存参数
-  // 使用webp格式，减小文件大小
-  return `${url}?w=${width}&q=${quality}&fm=webp&cache=31536000`
-}
-
 // 获取视频缩略图
 const getVideoThumbnail = (guide) => {
   if (!guide) return null
@@ -311,12 +288,9 @@ const getVideoThumbnail = (guide) => {
 
   // 确保路径是绝对路径
   if (thumbnail && thumbnail.startsWith('/')) {
-    // 使用通用的优化方法
-    const relativePath = thumbnail.substring(1)
-    const fullPath = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${relativePath}`
-
-    // 视频缩略图使用更高的质量和宽度
-    thumbnail = `${fullPath}?w=640&q=75&fm=webp&cache=31536000`
+    thumbnail = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumbnail.substring(
+      1
+    )}`
   }
 
   return thumbnail
@@ -524,19 +498,6 @@ watch(currentGuide, (newVal) => {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   aspect-ratio: 16 / 9;
-  contain: layout style paint; /* 防止布局偏移 */
-}
-
-/* 优化主视频加载 */
-.main-video-facade {
-  content-visibility: visible !important; /* 确保内容可见 */
-  contain: none !important; /* 禁用contain，确保立即渲染 */
-}
-
-.main-video-facade img {
-  content-visibility: visible !important;
-  will-change: auto !important;
-  contain: none !important;
 }
 
 .loading-or-not-found {

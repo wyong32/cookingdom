@@ -7,61 +7,15 @@
     <meta name="theme-color" content="#4DBA87" />
     <title>Cookingdom Guides List – All Strategies and Tips</title>
 
+    <!-- 预加载关键资源 -->
+    <link
+      rel="preload"
+      href="/images/banner1.webp"
+      as="image"
+      type="image/webp"
+      fetchpriority="high"
+    />
     <link rel="preload" href="/logo.webp" as="image" type="image/webp" />
-
-    <!-- 预连接到关键域名 -->
-    <link rel="preconnect" href="https://www.cookingdom.co" crossorigin />
-    <link rel="preconnect" href="https://img.youtube.com" crossorigin />
-
-    <!-- 预加载关键视频缩略图 -->
-    <link rel="preload" href="/images/guides_01.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_02.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_03.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_04.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_05.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_06.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_07.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_08.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_09.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_10.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_11.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_12.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_13.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_14.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_15.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_16.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_17.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_18.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_19.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_20.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_21.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_22.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_23.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_24.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_25.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_26.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_27.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_28.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_29.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_30.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_31.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_32.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_33.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_34.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_35.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_36.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_37.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_38.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_39.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_40.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_41.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_42.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_43.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_44.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_45.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_46.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_47.webp" as="image" fetchpriority="high" />
-    <link rel="preload" href="/images/guides_48.webp" as="image" fetchpriority="high" />
 
     <!-- DNS 预解析 -->
     <link rel="dns-prefetch" href="//www.googletagmanager.com" />
@@ -121,27 +75,6 @@
         top: 0;
         left: 0;
         transform: translateZ(0);
-      }
-
-      /* 优化渲染性能 - 应用于所有图片 */
-      img {
-        content-visibility: auto;
-        contain-intrinsic-size: auto 150px;
-        will-change: transform;
-        transform: translateZ(0);
-        backface-visibility: hidden;
-        perspective: 1000;
-        image-rendering: -webkit-optimize-contrast;
-        image-rendering: crisp-edges;
-        paint-order: visibility;
-        contain: layout style paint;
-      }
-
-      /* 优化视频缩略图加载 - 特别是guides_13.webp */
-      img[src*='guides_13.webp'] {
-        content-visibility: visible !important;
-        contain: none !important;
-        will-change: auto !important;
       }
 
       /* 首屏 Hero 区域关键样式 */
@@ -216,68 +149,40 @@
 
     <!-- 延迟加载 Google Analytics -->
     <script>
-      // 使用 requestIdleCallback 在浏览器空闲时加载非关键脚本
-      const loadAnalytics = () => {
-        // Google tag (gtag.js)
-        var script = document.createElement('script')
-        script.async = true
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-81VQXRQEHC'
-        document.head.appendChild(script)
+      // 延迟加载 GTM，减少初始加载时间
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          // Google tag (gtag.js)
+          var script = document.createElement('script')
+          script.async = true
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-81VQXRQEHC'
+          document.head.appendChild(script)
 
-        window.dataLayer = window.dataLayer || []
-        function gtag() {
-          dataLayer.push(arguments)
-        }
-        gtag('js', new Date())
-        gtag('config', 'G-81VQXRQEHC')
+          window.dataLayer = window.dataLayer || []
+          function gtag() {
+            dataLayer.push(arguments)
+          }
+          gtag('js', new Date())
+          gtag('config', 'G-81VQXRQEHC')
 
-        console.log('Google Analytics 已延迟加载')
-      }
-
-      // 使用 requestIdleCallback 或 setTimeout 作为降级方案
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(loadAnalytics, { timeout: 5000 })
-      } else {
-        window.addEventListener('load', function () {
-          setTimeout(loadAnalytics, 3000)
-        })
-      }
+          console.log('Google Analytics 已延迟加载')
+        }, 2000) // 页面加载后延迟2秒
+      })
     </script>
 
     <!-- 延迟加载广告脚本 -->
     <script>
-      // 使用 Intersection Observer 检测页面滚动后再加载广告
-      const loadAds = () => {
-        var adScript = document.createElement('script')
-        adScript.async = true
-        adScript.src =
-          'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181'
-        adScript.crossOrigin = 'anonymous'
-        document.head.appendChild(adScript)
-
-        console.log('Google Ads 已延迟加载')
-      }
-
-      // 页面加载完成后再添加观察器
       window.addEventListener('load', function () {
-        // 创建一个观察器，当页面滚动到底部附近时加载广告
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                loadAds()
-                observer.disconnect() // 加载一次后停止观察
-              }
-            })
-          },
-          { threshold: 0.1 },
-        ) // 当10%的元素可见时触发
+        setTimeout(function () {
+          var adScript = document.createElement('script')
+          adScript.async = true
+          adScript.src =
+            'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181'
+          adScript.crossOrigin = 'anonymous'
+          document.head.appendChild(adScript)
 
-        // 延迟1秒后开始观察页面底部
-        setTimeout(() => {
-          const footer = document.querySelector('footer') || document.body
-          observer.observe(footer)
-        }, 1000)
+          console.log('Google Ads 已延迟加载')
+        }, 3000) // 页面加载后延迟3秒
       })
     </script>
   </head>

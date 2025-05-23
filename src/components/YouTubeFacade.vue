@@ -7,11 +7,6 @@
         :src="thumbnailUrl"
         :alt="title || 'YouTube video thumbnail'"
         class="youtube-thumbnail"
-        loading="eager"
-        fetchpriority="high"
-        decoding="sync"
-        width="640"
-        height="360"
       />
 
       <!-- 播放按钮 -->
@@ -47,6 +42,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 const props = defineProps({
   videoUrl: {
@@ -65,13 +61,9 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  optimizeRendering: {
-    type: Boolean,
-    default: false,
-  },
 })
 
-// 不再需要 useI18n
+const { t } = useI18n()
 
 // 状态
 const isLoaded = ref(false)
@@ -95,29 +87,11 @@ const videoId = computed(() => {
 
 const thumbnailUrl = computed(() => {
   if (props.customThumbnail) {
-    // 添加优化参数 - 使用通用的优化策略
-    if (props.customThumbnail.startsWith('/')) {
-      // 检查是否是guides_13.webp，如果是则不添加任何参数，保持原始URL
-      // 这是因为我们已经在HTML中预加载了这个图片
-      if (props.customThumbnail.includes('guides_13.webp')) {
-        return props.customThumbnail
-      }
-
-      // 其他视频缩略图使用更高的质量和宽度
-      return `${props.customThumbnail}?w=640&q=85&fm=webp&cache=31536000`
-    }
     return props.customThumbnail
   }
 
   if (props.autoThumbnail && videoId.value) {
-    // 使用YouTube缩略图API，添加预连接
-    if (typeof document !== 'undefined') {
-      const link = document.createElement('link')
-      link.rel = 'preconnect'
-      link.href = 'https://img.youtube.com'
-      link.crossOrigin = 'anonymous'
-      document.head.appendChild(link)
-    }
+    // 使用YouTube缩略图API
     return `https://img.youtube.com/vi/${videoId.value}/hqdefault.jpg`
   }
 
@@ -125,7 +99,9 @@ const thumbnailUrl = computed(() => {
   return '/images/video-placeholder.webp'
 })
 
-// 本地化文本 - 可以在模板中直接使用 t() 函数
+// 本地化文本
+const loadText = computed(() => t('youtube.clickToLoad', '点击加载视频'))
+const performanceText = computed(() => t('youtube.performanceNote', '延迟加载以提高页面性能'))
 
 // 方法：加载YouTube视频
 const loadYouTube = () => {
@@ -183,11 +159,6 @@ onMounted(() => {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #000;
   aspect-ratio: 16 / 9;
-  contain: layout style paint; /* 防止布局偏移和减少渲染计算 */
-  will-change: transform; /* 提示浏览器这个元素会变化 */
-  transform: translateZ(0); /* 启用GPU加速 */
-  content-visibility: auto; /* 优化渲染性能 */
-  contain-intrinsic-size: 0 360px; /* 提供估计高度 */
 }
 
 .youtube-placeholder {
@@ -219,15 +190,6 @@ onMounted(() => {
   height: 100%;
   object-fit: cover;
   z-index: 1;
-  will-change: transform; /* 提示浏览器这个元素会变化 */
-  transform: translateZ(0); /* 启用GPU加速 */
-  backface-visibility: hidden; /* 防止闪烁 */
-  perspective: 1000; /* 提高渲染性能 */
-  image-rendering: -webkit-optimize-contrast; /* 提高图片渲染质量 */
-  image-rendering: crisp-edges; /* 提高图片渲染质量 */
-  content-visibility: auto; /* 优化渲染性能 */
-  contain-intrinsic-size: 0 360px; /* 提供估计高度 */
-  paint-order: visibility; /* 优先渲染可见部分 */
 }
 
 .play-button {
