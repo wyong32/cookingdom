@@ -7,6 +7,11 @@
         :src="thumbnailUrl"
         :alt="title || 'YouTube video thumbnail'"
         class="youtube-thumbnail"
+        :fetchpriority="props.optimizeRendering ? 'high' : 'auto'"
+        :loading="props.optimizeRendering ? 'eager' : 'lazy'"
+        :decoding="props.optimizeRendering ? 'sync' : 'async'"
+        width="640"
+        height="360"
       />
 
       <!-- 播放按钮 -->
@@ -60,6 +65,10 @@ const props = defineProps({
   customThumbnail: {
     type: String,
     default: '',
+  },
+  optimizeRendering: {
+    type: Boolean,
+    default: false,
   },
 })
 
@@ -159,6 +168,11 @@ onMounted(() => {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #000;
   aspect-ratio: 16 / 9;
+  contain: layout style paint; /* 防止布局偏移和减少渲染计算 */
+  will-change: transform; /* 提示浏览器这个元素会变化 */
+  transform: translateZ(0); /* 启用GPU加速 */
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 0 360px; /* 提供估计高度 */
 }
 
 .youtube-placeholder {
@@ -190,6 +204,15 @@ onMounted(() => {
   height: 100%;
   object-fit: cover;
   z-index: 1;
+  will-change: transform; /* 提示浏览器这个元素会变化 */
+  transform: translateZ(0); /* 启用GPU加速 */
+  backface-visibility: hidden; /* 防止闪烁 */
+  perspective: 1000; /* 提高渲染性能 */
+  image-rendering: -webkit-optimize-contrast; /* 提高图片渲染质量 */
+  image-rendering: crisp-edges; /* 提高图片渲染质量 */
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 0 360px; /* 提供估计高度 */
+  paint-order: visibility; /* 优先渲染可见部分 */
 }
 
 .play-button {

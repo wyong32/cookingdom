@@ -22,6 +22,7 @@
             :videoUrl="currentGuide.iframeUrl"
             :title="$t('guideDetail.iframeTitle')"
             :customThumbnail="getVideoThumbnail(currentGuide)"
+            :optimizeRendering="true"
           />
         </div>
 

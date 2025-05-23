@@ -307,10 +307,15 @@ const filteredGuides = computed(() => {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: left; /* Align text left */
+  contain: layout style paint; /* 防止布局偏移和减少渲染计算 */
+  will-change: transform; /* 提示浏览器这个元素会变化 */
+  transform: translateZ(0); /* 启用GPU加速 */
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 0 250px; /* 提供估计高度 */
 }
 
 .guide-card.image-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) translateZ(0); /* 保持GPU加速 */
   box-shadow: 0 8px 20px rgba(160, 142, 230, 0.2);
 }
 
@@ -343,6 +348,13 @@ const filteredGuides = computed(() => {
   perspective: 1000; /* 提高渲染性能 */
   image-rendering: -webkit-optimize-contrast; /* 提高图片渲染质量 */
   image-rendering: crisp-edges; /* 提高图片渲染质量 */
+
+  /* 优化渲染性能 */
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 0 150px; /* 提供估计高度 */
+
+  /* 减少渲染延迟 */
+  paint-order: visibility; /* 优先渲染可见部分 */
 }
 
 .guide-content {
