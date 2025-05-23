@@ -41,5 +41,18 @@ const AppFooter = defineAsyncComponent({
   }
 }
 
-/* Add other global styles if necessary */
+/* 全局样式，确保所有图片都有占位符和固定尺寸 */
+:deep(img) {
+  background-color: #f0f0f0; /* 图片加载前的背景色 */
+  transition: opacity 0.3s ease; /* 平滑过渡效果 */
+}
+
+:deep([data-v-f2a2c12e]) {
+  contain: layout style paint; /* 防止布局偏移 */
+}
+
+:deep(.featured-guides),
+:deep(.guide-detail-page) {
+  contain: layout style; /* 防止布局偏移 */
+}
 </style>

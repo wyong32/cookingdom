@@ -298,6 +298,9 @@ watch(currentGuide, (newVal) => {
   max-width: 1200px; /* Wider max-width for two columns */
   margin: 2rem auto;
   padding: 0 1rem; /* Add padding for overall page */
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 100vh; /* 确保页面有足够的高度 */
+  display: block; /* 确保正确的显示模式 */
 }
 
 .guide-layout {
@@ -372,6 +375,10 @@ watch(currentGuide, (newVal) => {
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #eee;
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 200px; /* 设置最小高度 */
+  width: 100%; /* 确保宽度固定 */
+  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .featured-guides h4 {
@@ -387,10 +394,14 @@ watch(currentGuide, (newVal) => {
   list-style: none;
   padding: 0;
   margin: 0;
+  contain: layout style; /* 防止布局偏移 */
+  min-height: 50px; /* 设置最小高度 */
 }
 
 .featured-guides li {
   margin-bottom: 0.8rem;
+  height: 60px; /* 固定高度 */
+  contain: layout style; /* 防止布局偏移 */
 }
 
 .featured-guide-link {
@@ -402,6 +413,9 @@ watch(currentGuide, (newVal) => {
   transition: background-color 0.2s ease;
   padding: 0.4rem;
   border-radius: 4px;
+  height: 100%; /* 填充父容器高度 */
+  contain: layout style; /* 防止布局偏移 */
+  box-sizing: border-box; /* 确保padding不影响总高度 */
 }
 
 .featured-guide-link:hover {
@@ -427,6 +441,8 @@ watch(currentGuide, (newVal) => {
 .guide-html-content {
   line-height: 1.7;
   color: #333;
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 1000px; /* 提供估计高度，防止布局偏移 */
 }
 
 .guide-html-content :deep(h1),
@@ -495,18 +511,22 @@ watch(currentGuide, (newVal) => {
   .guide-detail-page {
     padding: 0;
     margin: 0;
+    min-height: 100vh; /* 确保移动端也有足够高度 */
   }
   .guide-layout {
     padding: 0;
     margin: 0;
+    min-height: 600px; /* 移动端减少最小高度 */
   }
   .main-content {
     padding: 0 1rem;
     margin: 0;
+    min-height: 400px; /* 确保主内容区有最小高度 */
   }
   .sidebar {
     padding: 0 1rem;
     margin: 0;
+    min-height: 200px; /* 确保侧边栏有最小高度 */
   }
   h1 {
     font-size: 1.5rem;
@@ -515,6 +535,13 @@ watch(currentGuide, (newVal) => {
   .page-main-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+  }
+  /* 确保特色指南在移动端也有固定高度 */
+  .featured-guides {
+    min-height: 150px;
+  }
+  .featured-guides li {
+    height: 50px; /* 移动端减少高度 */
   }
 }
 </style>
