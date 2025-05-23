@@ -206,122 +206,175 @@
   },
   "page": {
     "terms": {
-      "title": "Mga Tuntunin ng Serbisyo Placeholder Title",
-      "lastUpdated": "Huling Nai-update Placeholder",
-      "intro": "Panimula Placeholder.",
+      "title": "Mga Tuntunin ng Serbisyo ng Cookingdom Guide Fansite",
+      "contentPlaceholder": "",
+      "lastUpdated": "Huling Na-update: Abril 30, 2025",
+      "intro": "Maligayang pagdating sa Cookingdom Guide Fansite (mula rito ay tinutukoy bilang \"ang Site\"). Bago gamitin o i-access ang mga serbisyo ng Site, mangyaring basahin nang mabuti ang mga sumusunod na tuntunin ng serbisyo. Sa pag-access o paggamit ng Site, sumasang-ayon kang sundin ang mga tuntuning ito. Kung hindi ka sumasang-ayon, mangyaring huwag gamitin ang Site.",
       "section1": {
-        "title": "Seksyon 1 Pamagat Placeholder",
-        "p1": "Seksyon 1 Talata 1 Placeholder."
+        "title": "1. Nilalaman ng Serbisyo",
+        "p1": "Nagbibigay ang Site ng mga gabay, tips, update, talakayan ng komunidad, mga review ng user, at iba pang nilalaman na may kaugnayan sa larong \"Cookingdom.\" Layunin naming magbigay ng de-kalidad na mga sanggunian at suporta upang mapahusay ang karanasan ng mga manlalaro."
       },
       "section2": {
-        "title": "Seksyon 2 Pamagat Placeholder",
-        "p1": "Seksyon 2 Talata 1 Placeholder."
+        "title": "2. Account ng User",
+        "p1": "Upang ganap na magamit ang ilang bahagi ng Site, maaaring kailanganin mong gumawa ng account. Sa pagpaparehistro, sumasang-ayon kang magbigay ng tumpak at kumpletong impormasyon at agad itong i-update kung kinakailangan. Ikaw ay may pananagutan sa seguridad ng iyong account at password at sumasang-ayon kang huwag ibahagi ang iyong impormasyon sa iba."
       },
       "section3": {
-        "title": "Seksyon 3 Pamagat Placeholder",
-        "intro": "Seksyon 3 Panimula Placeholder.",
-        "b1": "Seksyon 3 Bullet 1 Placeholder.",
-        "b2": "Seksyon 3 Bullet 2 Placeholder.",
-        "b3": "Seksyon 3 Bullet 3 Placeholder.",
-        "p1": "Seksyon 3 Talata 1 Placeholder."
+        "title": "3. Gawi ng Gumagamit",
+        "intro": "Sa paggamit ng Site, sumasang-ayon kang:",
+        "b1": "Huwag mag-post ng nilalaman na lumalabag sa batas, regulasyon, o hindi etikal (kasama na pero hindi limitado sa malware, mga advertisement, spam, mapanirang mensahe, o nilalaman na lumalabag sa copyright o privacy ng iba).",
+        "b2": "Igalang ang karapatan ng ibang mga user at huwag gambalain ang normal na operasyon ng Site.",
+        "b3": "Huwag kumuha ng nilalaman, datos, o sistema ng Site sa ilegal na paraan.",
+        "p1": "Kung lalabag ka sa mga patakarang ito, may karapatan ang Site na suspindihin o wakasan ang iyong account at magsagawa ng naaangkop na legal na hakbang."
       },
       "section4": {
-        "title": "Seksyon 4 Pamagat Placeholder",
-        "p1": "Seksyon 4 Talata 1 Placeholder.",
-        "p2": "Seksyon 4 Talata 2 Placeholder."
+        "title": "4. Paggamit ng Nilalaman",
+        "p1": "Ang lahat ng nilalaman sa Site (kabilang ang teksto, larawan, video, audio, atbp.) ay pagmamay-ari ng Site o ng mga tagapaglisensya nito at protektado sa ilalim ng batas ng copyright. Hindi mo maaaring kopyahin, ipamahagi, baguhin, ipakita, o ibenta ang anomang bahagi ng nilalaman nang walang pahintulot mula sa Site.",
+        "p2": "Pinapayagan ang mga user na gamitin ang nilalaman ng Site para sa hindi-komersyal na layunin alinsunod sa mga Tuntunin ng Serbisyong ito. Ang anomang paggamit para sa komersyal na layunin ay nangangailangan ng malinaw na pahintulot mula sa Site."
       },
       "section5": {
-        "title": "Seksyon 5 Pamagat Placeholder",
-        "p1": "Seksyon 5 Talata 1 Placeholder."
+        "title": "5. Karapatang Intelektwal",
+        "p1": "Ang lahat ng logo, trademark, at iba pang marka na nauugnay sa Site ay pagmamay-ari ng Site o ng mga tagapaglisensya nito. Hindi mo maaaring gamitin o kopyahin ang mga ito nang walang pahintulot."
       },
       "section6": {
-        "title": "Seksyon 6 Pamagat Placeholder",
-        "p1": "Seksyon 6 Talata 1 Placeholder."
+        "title": "6. Pagkaantala at Pagwawakas ng Serbisyo",
+        "p1": "Maaring pansamantalang itigil ang serbisyo ng Site para sa maintenance, update, o iba pang dahilan. Sisikapin naming magbigay ng abiso ngunit hindi kami mananagot sa anumang epekto ng pagkaantala. May karapatan kaming baguhin, ihinto, o tapusin ang bahagi o kabuuan ng serbisyo anumang oras nang walang abiso."
       },
       "section7": {
-        "title": "Seksyon 7 Pamagat Placeholder",
-        "p1": "Seksyon 7 Talata 1 Placeholder."
+        "title": "7. Mga Website ng Ikatlong Partido",
+        "p1": "Maaring may mga link sa Site na papunta sa mga website na pinapatakbo ng ibang partido. Wala kaming kontrol sa nilalaman o mga patakaran sa privacy ng mga ito kaya’t hindi kami mananagot. Pinapayuhan ka naming basahing mabuti ang kanilang mga tuntunin ng serbisyo at patakaran sa privacy bago gamitin ang mga iyon."
       },
       "section8": {
-        "title": "Seksyon 8 Pamagat Placeholder",
-        "p1": "Seksyon 8 Talata 1 Placeholder."
+        "title": "8. Pagtatatwa",
+        "p1": "Pinagsusumikapan naming tiyakin ang kawastuhan at kabuuan ng mga nilalaman sa Site, ngunit hindi kami nagbibigay ng hayagan o implicitong garantiya sa pagiging tama, mapagkakatiwalaan, o kumpleto ng mga ito. Hindi kami mananagot sa anumang direkta o hindi direktang pinsala dahil sa paggamit ng nilalaman ng Site."
       },
       "section9": {
-        "title": "Seksyon 9 Pamagat Placeholder",
-        "p1": "Seksyon 9 Talata 1 Placeholder."
+        "title": "9. Datos ng User at Privacy",
+        "p1": "Ang pagkolekta, paggamit, at proteksyon ng iyong personal na datos ay nakasaad sa aming Patakaran sa Privacy. Mangyaring basahin ito at sumang-ayon bago gamitin ang mga serbisyo ng Site."
       },
       "section10": {
-        "title": "Seksyon 10 Pamagat Placeholder",
-        "p1": "Seksyon 10 Talata 1 Placeholder."
+        "title": "10. Batas na Namamahala at Resolusyon ng Alitan",
+        "p1": "Ang mga Tuntunin ng Serbisyong ito ay pinamumunuan ng batas ng People's Republic of China. Anumang alitan ay isusumite sa korte na may hurisdiksyon sa lokasyon ng Site."
       },
       "section11": {
-        "title": "Seksyon 11 Pamagat Placeholder",
-        "p1": "Seksyon 11 Talata 1 Placeholder."
+        "title": "11. Pagbabago sa mga Tuntunin",
+        "p1": "May karapatan ang Site na baguhin o i-update ang mga Tuntunin ng Serbisyong ito anumang oras. Ang mga pagbabagong ito ay magkakabisa kaagad sa paglalathala. Ang patuloy mong paggamit ng Site ay nangangahulugang tinatanggap mo ang mga binagong tuntunin. Inirerekomenda naming regular mong suriin ang pahinang ito."
       },
       "section12": {
-        "title": "Seksyon 12 Pamagat Placeholder",
-        "p1": "Seksyon 12 Talata 1 Placeholder.",
-        "contactEmail": "email.placeholder@example.com"
+        "title": "12. Makipag-ugnayan sa Amin",
+        "p1": "Kung mayroon kang katanungan ukol sa mga Tuntunin ng Serbisyong ito o nangangailangan ng karagdagang impormasyon, mangyaring makipag-ugnayan sa amin sa pamamagitan ng sumusunod na paraan:"
       }
     },
     "privacy": {
-      "title": "Patakaran sa Privacy Placeholder Title"
-    },
-    "about": {
-      "title": "Tungkol sa Amin",
-      "whoWeAre": {
-        "title": "Sino Kami",
-        "teamMessage": "Isang dedikadong grupo ng mga mahilig sa Cookingdom na nagtutulungan para gumawa ng pinakamahusay na mga gabay sa laro!",
-        "description": "Kami ay isang masigasig na grupo ng mga mahilig sa Cookingdom na nagmamahal sa laro at gustong tulungan ang iba na lubos na ma-enjoy ito. Ang aming grupo ay binubuo ng mga matagal nang manlalaro, content creator, at mga eksperto sa gaming na gumugol ng maraming oras sa pag-master ng bawat level ng Cookingdom.<br><br>Itinatag noong 2025, ang aming misyon ay lumikha ng pinaka-komprehensibong mapagkukunan para sa mga manlalaro ng Cookingdom sa buong mundo."
+      "title": "Patakaran sa Privacy ng Fansite ng Cookingdom Guide",
+      "contentPlaceholder": "",
+      "lastUpdated": "Huling Na-update: Abril 30, 2025",
+      "intro": "Salamat sa pagbisita sa Fansite ng Cookingdom Guide (mula rito ay tinutukoy bilang \"ang Site\"). Pinahahalagahan namin ang iyong privacy at nakatuon kami sa pagprotekta ng iyong personal na impormasyon. Mangyaring basahin nang mabuti ang sumusunod na patakaran sa privacy upang maunawaan kung paano namin kinokolekta, ginagamit, iniimbak, at pinoprotektahan ang iyong personal na datos.",
+      "section1": {
+        "title": "1. Personal na Impormasyong Kinokolekta Namin",
+        "p1": "Kapag bumisita ka sa Site, maaari kaming mangolekta ng mga sumusunod na uri ng personal na impormasyon: Awtomatikong nakokolektang teknikal na impormasyon tulad ng iyong IP address, uri ng browser, uri ng device, bersyon ng operating system, oras ng pag-access, atbp. Ang impormasyong ito ay awtomatikong kinokolekta sa pamamagitan ng Cookies at mga katulad na teknolohiya upang mapabuti ang aming serbisyo at karanasan ng gumagamit.",
+        "p2": "Impormasyong kusang ibinigay ng mga gumagamit: Kapag nagrehistro ka ng account, nag-subscribe sa newsletter, lumahok sa mga talakayan, o nagbibigay ng feedback sa Site, maaari naming kolektahin ang impormasyon tulad ng iyong email address, username, nilalaman ng mensahe, atbp."
       },
-      "ourMission": {
-        "title": "Ang Aming Misyon",
-        "description": "Ang aming misyon ay simple: tulungan ang mga manlalaro ng Cookingdom sa lahat ng antas ng kasanayan na malampasan ang mga hamon, matuklasan ang mga bagong estratehiya, at lubos na ma-enjoy ang laro.<br><br>Naniniwala kami na ang paglalaro ay dapat masaya at madaling ma-access para sa lahat, kaya gumagawa kami ng detalyadong mga gabay, tips, at mapagkukunan na angkop para sa mga baguhan at mga matagal nang manlalaro."
+      "section2": {
+        "title": "2. Paggamit ng Impormasyon",
+        "intro": "Pangunahing ginagamit ang impormasyong kinokolekta namin para sa mga sumusunod na layunin:",
+        "b1": "Pagbibigay ng serbisyo at suporta: Upang maibigay sa iyo ang mga game guide, balita, teknikal na suporta, at iba pang serbisyong batay sa iyong kahilingan.",
+        "b2": "Pagpapersonalisa ng karanasan: Upang makapagbigay ng naka-angkop na nilalaman at mga rekomendasyon batay sa iyong interes at kagustuhan.",
+        "b3": "Pagpapabuti ng functionality ng website: Upang suriin ang gawi ng mga gumagamit, mapahusay ang disenyo at tampok ng website, at pagandahin ang karanasan ng gumagamit.",
+        "b4": "Marketing at komunikasyon: Upang magpadala sa iyo ng mga update, alok, promosyon, at iba pang impormasyon na may kaugnayan sa laro sa pamamagitan ng email o iba pang paraan (kung sumang-ayon kang tumanggap nito)."
       },
-      "ourValues": {
-        "title": "Ang Aming Mga Pinahahalagahan",
-        "quality": {
-          "title": "Kalidad",
-          "description": "Nakatuon kami sa pagbibigay ng tumpak, mabuting nairesearch, at komprehensibong mga gabay na tunay na tumutulong sa mga manlalaro na mapabuti ang kanilang gameplay."
-        },
-        "community": {
-          "title": "Komunidad",
-          "description": "Naniniwala kami sa pagtataguyod ng isang suportadong at inklusibong komunidad kung saan ang mga manlalaro ay maaaring magbahagi ng mga karanasan at matuto mula sa isa't isa."
-        },
-        "fun": {
-          "title": "Kasiyahan",
-          "description": "Higit sa lahat, naniniwala kami na ang paglalaro ay dapat masaya. Ang aming mga gabay ay naglalayong mapahusay ang iyong karanasan, hindi ito gawing trabaho."
-        }
+      "section3": {
+        "title": "3. Paano Namin Pinoprotektahan ang Iyong Impormasyon",
+        "p1": "Kami ay nagpapatupad ng naaangkop na teknikal at administratibong hakbang upang maprotektahan ang iyong personal na impormasyon mula sa hindi awtorisadong pag-access, pagsisiwalat, o pagbabago. Kasama sa mga hakbang na ito ang encryption ng datos, kontrol sa pag-access, at regular na pagsusuri sa seguridad."
+      },
+      "section4": {
+        "title": "4. Pagbabahagi ng Impormasyon",
+        "intro": "Hindi namin ibinebenta o inuupahan ang iyong personal na impormasyon sa mga ikatlong partido. Ibinabahagi lamang namin ang iyong impormasyon sa mga sumusunod na pagkakataon:",
+        "b1": "Mga Tagapagbigay ng Serbisyo: Maaari naming ibahagi ang iyong impormasyon sa mga ikatlong partido na nagbibigay ng teknikal na suporta, hosting ng website, at iba pang serbisyo. Ang mga tagapagbigay na ito ay limitado sa pagbibigay ng serbisyo para sa amin at kinakailangang sumunod sa mga obligasyon sa pagiging kumpidensyal.",
+        "b2": "Legal na Kahilingan: Maaari naming isiwalat ang iyong impormasyon kung ito ay kinakailangan ng batas o legal na proseso."
+      },
+      "section5": {
+        "title": "5. Paggamit ng Cookies",
+        "p1": "Gumagamit kami ng Cookies at mga katulad na teknolohiya upang kolektahin at itago ang iyong mga kagustuhan, gawi sa pag-browse, at iba pang impormasyon. Maaari mong i-disable ang Cookies sa pamamagitan ng mga setting ng iyong browser, ngunit pakitandaan na maaaring maapektuhan nito ang iyong kakayahang gamitin ang ilang bahagi ng Site."
+      },
+      "section6": {
+        "title": "6. Mga Link ng Third-Party",
+        "p1": "Maaaring maglaman ang Site ng mga link papunta sa ibang mga website. Hindi kami responsable sa mga patakaran sa privacy ng mga third-party na site na ito. Inirerekomenda namin na basahin mo ang kanilang mga patakaran sa privacy kapag bumibisita sa mga site na iyon."
+      },
+      "section7": {
+        "title": "7. Privacy ng mga Bata",
+        "p1": "Hindi nakalaan ang aming serbisyo para sa mga batang wala pang 13 taong gulang. Kung matutuklasan naming aksidenteng nakolekta namin ang personal na impormasyon mula sa batang wala pang 13 taong gulang, agad naming isasagawa ang hakbang upang tanggalin ang naturang impormasyon."
+      },
+      "section8": {
+        "title": "8. Iyong mga Karapatan",
+        "p1": "Ayon sa mga naaangkop na batas at regulasyon, may karapatan kang humiling ng access, pagwawasto, o pagbura ng personal na impormasyong nakolekta namin tungkol sa iyo. Kung mayroon kang mga tanong o kahilingan tungkol sa pagproseso ng iyong personal na impormasyon, mangyaring makipag-ugnayan sa amin gamit ang impormasyong nakasaad sa ibaba."
+      },
+      "section9": {
+        "title": "9. Makipag-ugnayan sa Amin",
+        "p1": "Kung mayroon kang anumang mga tanong tungkol sa Patakaran sa Privacy na ito o kailangan ng karagdagang impormasyon, mangyaring makipag-ugnayan sa amin sa pamamagitan ng sumusunod na paraan:"
       }
     },
+
     "contact": {
       "title": "Makipag-ugnayan sa Amin",
       "getInTouch": {
         "title": "Makipag-ugnayan",
-        "description": "Gustung-gusto naming marinig mula sa aming komunidad! Kung mayroon kang mga tanong, feedback, o gusto lang bumati, may ilang paraan para makipag-ugnayan sa amin."
-      },
-      "methods": {
-        "email": {
-          "title": "Email",
-          "value": "delldremo9898@gmail.com"
-        }
+        "description": "Masaya kaming makarinig mula sa aming komunidad! Kung may mga tanong, suhestiyon, o nais mo lamang kaming batiin, maraming paraan para makipag-ugnayan sa amin."
       },
       "faq": {
         "title": "Mga Madalas Itanong",
         "q1": {
-          "question": "Paano ako makakapag-ambag sa site?",
-          "answer": "Malugod naming tinatanggap ang mga kontribusyon mula sa komunidad! Maaari kang magsumite ng mga suhestiyon sa gabay, mga pagwawasto, o mga tip sa pamamagitan ng aming contact form o sa pagsali sa aming Discord server."
+          "question": "Paano ako makakatulong sa site?",
+          "answer": "Tinatanggap namin ang mga kontribusyon mula sa komunidad! Maaari kang magpasa ng mga mungkahing gabay, pagwawasto, o mga tip sa pamamagitan ng aming contact form o sa pamamagitan ng pagsali sa aming Discord server."
         },
         "q2": {
-          "question": "Gaano kabilis kayo tumugon sa mga mensahe?",
-          "answer": "Nagsusumikap kaming tumugon sa lahat ng mga katanungan sa loob ng 48 oras. Para sa mga agarang bagay, ang Discord ay kadalasang ang pinakamabilis na paraan para makipag-ugnayan sa amin."
+          "question": "Gaano katagal bago kayo sumagot sa mga mensahe?",
+          "answer": "Sinisikap naming sagutin ang lahat ng mga katanungan sa loob ng 48 oras. Para sa mga agarang usapin, ang Discord ay kadalasang pinakamabilis na paraan para makipag-ugnayan."
         },
         "q3": {
-          "question": "Ito ba ay opisyal na website ng Cookingdom?",
-          "answer": "Hindi, ito ay isang site na ginawa ng mga tagahanga. Hindi kami konektado sa opisyal na mga developer o publisher ng larong Cookingdom."
+          "question": "Opisyal ba ang Cookingdom website na ito?",
+          "answer": "Hindi, ito ay isang fan-created na website. Wala kaming kaugnayan sa mga opisyal na developer o publisher ng Cookingdom."
         }
+      },
+      "community": {
+        "title": "Sumali sa Aming Komunidad",
+        "description": "Ang pinakamahusay na paraan para manatiling konektado sa amin at sa ibang tagahanga ng Cookingdom ay ang pagsali sa aming mga online community. Magbahagi ng mga estratehiya, magtanong, at makipagkaibigan sa kapwa manlalaro!",
+        "message": "Sumali sa libu-libong manlalaro sa aming magiliw na komunidad at humingi ng tulong sa mga mahihirap na antas!"
       }
     },
+    "copyright": {
+      "title": "Impormasyon sa Copyright",
+      "lastUpdated": "Huling Na-update: Mayo 15, 2025",
+      "intro": "Maligayang pagdating sa website na cookingdom.cn. Inilalahad ng pahinang ito ang aming impormasyon sa copyright at kung paano maaaring gamitin ang aming nilalaman.",
+      "ownership": {
+        "title": "Pagmamay-ari ng Nilalaman",
+        "description": "Ang lahat ng nilalaman sa website na ito, kabilang ngunit hindi limitado sa teksto, graphics, logo, imahe, audio clips, digital downloads, data compilations, at software ay pagmamay-ari ng Cookingdom.cn o ng mga supplier ng nilalaman nito at protektado ng mga internasyonal na batas sa copyright.<br><br>Ang mismong laro ng Cookingdom, kasama ang pangalan nito, mga karakter, kuwento, likhang-sining, at kaugnay na nilalaman ay pagmamay-ari ng kani-kanilang may-ari. Ang fan site na ito ay hindi konektado, aprubado, o kaugnay sa mga opisyal na developer o publisher ng laro."
+      },
+      "usage": {
+        "title": "Paggamit ng Nilalaman",
+        "description": "Ang nilalaman sa website na ito ay ibinibigay para lamang sa personal at hindi pang-komersyal na paggamit. Dapat sundin ng mga gumagamit ang sumusunod na mga alituntunin kapag ginagamit ang aming nilalaman:",
+        "allowed": {
+          "title": "Pinapayagang Paggamit",
+          "item1": "Pag-access at panonood ng nilalaman para sa personal at hindi pang-komersyal na layunin",
+          "item2": "Pagbabahagi ng mga link sa aming nilalaman sa social media o iba pang platform",
+          "item3": "Paggamit ng maliliit na sipi ng nilalaman na may wastong pagbibigay-kredito",
+          "item4": "Pagpi-print o pag-download ng nilalaman para sa personal na sanggunian"
+        },
+        "prohibited": {
+          "title": "Ipinagbabawal na Paggamit",
+          "item1": "Pagkokopya, pagdodoble, pagbebenta ng alinmang bahagi ng aming website nang walang pahintulot",
+          "item2": "Pagbabago o paglikha ng mga derivatibong gawa batay sa aming nilalaman",
+          "item3": "Paggamit ng aming nilalaman para sa layuning pang-komersyal nang walang hayagang pahintulot",
+          "item4": "Pag-aalis ng anumang copyright o iba pang paunawa ng pagmamay-ari mula sa aming nilalaman",
+          "item5": "Pag-frame o pag-mirror ng alinmang bahagi ng aming website nang walang pahintulot"
+        }
+      },
+      "thirdParty": {
+        "title": "Nilalaman mula sa Ibang Partido",
+        "description": "Ang ilang nilalaman sa aming website ay maaaring naglalaman ng materyal mula sa ibang partido. Kinikilala namin ang lahat ng nilalaman mula sa ikatlong partido at iginagalang ang kanilang copyright. Kung naniniwala kang may nilalaman sa aming site na lumalabag sa iyong copyright, mangyaring makipag-ugnayan kaagad sa amin."
+      },
+      "allRightsReserved": "Nakalaan ang Lahat ng Karapatan."
+    },
+
     "modDownload": {
       "pageHeadline": "Cookingdom Mod APK",
       "pageTitle": "I-download ang Cookingdom Mod APK",
