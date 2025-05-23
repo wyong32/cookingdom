@@ -7,8 +7,9 @@
         :src="thumbnailUrl"
         :alt="title || 'YouTube video thumbnail'"
         class="youtube-thumbnail"
-        loading="lazy"
-        decoding="async"
+        loading="eager"
+        fetchpriority="high"
+        decoding="sync"
         width="640"
         height="360"
       />
@@ -96,8 +97,14 @@ const thumbnailUrl = computed(() => {
   if (props.customThumbnail) {
     // 添加优化参数 - 使用通用的优化策略
     if (props.customThumbnail.startsWith('/')) {
-      // 视频缩略图使用更高的质量和宽度
-      return `${props.customThumbnail}?w=640&q=75&fm=webp&cache=31536000&auto=format`
+      // 检查是否是guides_13.webp，如果是则不添加任何参数，保持原始URL
+      // 这是因为我们已经在HTML中预加载了这个图片
+      if (props.customThumbnail.includes('guides_13.webp')) {
+        return props.customThumbnail
+      }
+
+      // 其他视频缩略图使用更高的质量和宽度
+      return `${props.customThumbnail}?w=640&q=85&fm=webp&cache=31536000`
     }
     return props.customThumbnail
   }

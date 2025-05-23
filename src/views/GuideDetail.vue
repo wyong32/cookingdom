@@ -23,6 +23,7 @@
             :title="$t('guideDetail.iframeTitle')"
             :customThumbnail="getVideoThumbnail(currentGuide)"
             :optimizeRendering="true"
+            class="main-video-facade"
           />
         </div>
 
@@ -523,6 +524,19 @@ watch(currentGuide, (newVal) => {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   aspect-ratio: 16 / 9;
+  contain: layout style paint; /* 防止布局偏移 */
+}
+
+/* 优化主视频加载 */
+.main-video-facade {
+  content-visibility: visible !important; /* 确保内容可见 */
+  contain: none !important; /* 禁用contain，确保立即渲染 */
+}
+
+.main-video-facade img {
+  content-visibility: visible !important;
+  will-change: auto !important;
+  contain: none !important;
 }
 
 .loading-or-not-found {

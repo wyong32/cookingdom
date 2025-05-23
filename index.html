@@ -13,6 +13,56 @@
     <link rel="preconnect" href="https://www.cookingdom.co" crossorigin />
     <link rel="preconnect" href="https://img.youtube.com" crossorigin />
 
+    <!-- 预加载关键视频缩略图 -->
+    <link rel="preload" href="/images/guides_01.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_02.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_03.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_04.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_05.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_06.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_07.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_08.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_09.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_10.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_11.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_12.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_13.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_14.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_15.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_16.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_17.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_18.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_19.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_20.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_21.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_22.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_23.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_24.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_25.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_26.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_27.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_28.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_29.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_30.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_31.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_32.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_33.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_34.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_35.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_36.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_37.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_38.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_39.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_40.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_41.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_42.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_43.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_44.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_45.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_46.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_47.webp" as="image" fetchpriority="high" />
+    <link rel="preload" href="/images/guides_48.webp" as="image" fetchpriority="high" />
+
     <!-- DNS 预解析 -->
     <link rel="dns-prefetch" href="//www.googletagmanager.com" />
     <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
@@ -85,6 +135,13 @@
         image-rendering: crisp-edges;
         paint-order: visibility;
         contain: layout style paint;
+      }
+
+      /* 优化视频缩略图加载 - 特别是guides_13.webp */
+      img[src*='guides_13.webp'] {
+        content-visibility: visible !important;
+        contain: none !important;
+        will-change: auto !important;
       }
 
       /* 首屏 Hero 区域关键样式 */
