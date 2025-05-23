@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
+import { ref, onMounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -702,24 +702,12 @@ main {
   padding: 4rem 0;
   text-align: center;
   background-color: #ffffff;
-  contain: layout style paint; /* 防止布局偏移 */
-  min-height: 500px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .features-section h2 {
   font-size: 2rem;
   color: #a08ee6; /* Kawaii purple */
   margin-bottom: 0.5rem;
-  min-height: 2.5rem; /* 设置最小高度，防止内容加载时的布局偏移 */
-}
-
-.features-section > .container {
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 450px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .features-section > .container > p {
@@ -729,7 +717,6 @@ main {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  min-height: 1.5em; /* 设置最小高度，防止内容加载时的布局偏移 */
 }
 
 .features-grid {
@@ -737,10 +724,6 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
   gap: 1.5rem;
   margin: 0 auto;
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 300px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .feature-card {
@@ -749,10 +732,6 @@ main {
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 4px 10px rgba(160, 142, 230, 0.1); /* Soft purple shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 200px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
 }
 
 .feature-card:hover {
@@ -765,20 +744,17 @@ main {
   color: #ff85a2; /* Kawaii pink */
   margin-bottom: 0.8rem;
   /* Consider using actual icons later */
-  min-height: 2rem; /* 设置最小高度，防止内容加载时的布局偏移 */
 }
 
 .feature-card h3 {
   font-size: 1.2rem;
   color: #5b4b8a;
   margin-bottom: 0.5rem;
-  min-height: 1.5rem; /* 设置最小高度，防止内容加载时的布局偏移 */
 }
 
 .feature-card p {
   font-size: 0.9rem;
   color: #7c6f9f;
-  min-height: 4rem; /* 设置最小高度，防止内容加载时的布局偏移 */
 }
 
 /* Guides Section */
@@ -1604,15 +1580,10 @@ main {
   }
   .features-section {
     padding: 2em 0;
-    min-height: 400px; /* 移动端减少最小高度 */
-  }
-  .features-section > .container {
-    min-height: 350px; /* 移动端减少最小高度 */
   }
   .features-section > .container > p {
     font-size: 0.8rem;
     margin-bottom: 1.5rem;
-    min-height: 1.2em; /* 移动端减少最小高度 */
   }
 
   /* Hero Section Mobile */
@@ -1648,7 +1619,6 @@ main {
   .features-section h2 {
     font-size: 1.5rem;
     line-height: 1.2;
-    min-height: 2rem; /* 移动端减少最小高度 */
   }
   /* 移动端隐藏轮播图，显示单张图片 */
   .hero-swiper-container.card-slider {
@@ -1674,24 +1644,17 @@ main {
 
   /* Features Section Mobile */
   .features-grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    min-height: 250px; /* 移动端减少最小高度 */
+    grid-template-columns: repeat(2, 1fr); /* Three columns */
   }
 
   .feature-card {
     padding: 1rem;
-    min-height: 150px; /* 移动端减少最小高度 */
-  }
-  .feature-card .icon {
-    min-height: 1.5rem; /* 移动端减少最小高度 */
   }
   .feature-card h3 {
     font-size: 1.2rem;
-    min-height: 1.2rem; /* 移动端减少最小高度 */
   }
   .feature-card p {
     font-size: 0.8rem;
-    min-height: 3rem; /* 移动端减少最小高度 */
   }
 
   .guides-section {
