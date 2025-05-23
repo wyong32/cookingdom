@@ -303,6 +303,8 @@ watch(currentGuide, (newVal) => {
 .guide-layout {
   display: flex;
   gap: 2rem; /* Space between main content and sidebar */
+  min-height: 800px; /* 设置最小高度，防止内容加载时的布局偏移 */
+  contain: layout; /* 防止布局偏移 */
 }
 
 .main-content {
@@ -312,11 +314,12 @@ watch(currentGuide, (newVal) => {
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  contain: layout style; /* 防止布局偏移 */
 }
 
 .sidebar {
   flex: 0 0 300px; /* Fixed width for sidebar */
-  /* Add some styling if needed */
+  contain: layout style; /* 防止布局偏移 */
 }
 
 .back-link {
@@ -406,10 +409,13 @@ watch(currentGuide, (newVal) => {
 }
 
 .featured-guide-img {
-  width: 50px; /* Adjust size as needed */
-  height: 50px;
+  width: 50px; /* Fixed width */
+  height: 50px; /* Fixed height */
   border-radius: 4px;
   object-fit: cover;
+  aspect-ratio: 1 / 1; /* 确保宽高比固定 */
+  background-color: #f0f0f0; /* 加载前的背景色 */
+  contain: layout paint; /* 防止布局偏移 */
 }
 
 .featured-guide-link span {

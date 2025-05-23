@@ -306,11 +306,23 @@ const filteredGuides = computed(() => {
   box-shadow: 0 8px 20px rgba(160, 142, 230, 0.2);
 }
 
+.guide-image-placeholder {
+  width: 100%;
+  height: 150px; /* 固定高度 */
+  background-color: #f0f0f0; /* 加载前的背景色 */
+  position: relative;
+  overflow: hidden;
+  contain: layout paint; /* 防止布局偏移 */
+}
+
 .guide-image-placeholder img {
   width: 100%;
-  height: 150px; /* Fixed height for consistency */
+  height: 100%; /* 使用100%高度填充容器 */
   object-fit: cover; /* Cover the area, may crop */
   display: block; /* Remove bottom space */
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .guide-content {
@@ -380,8 +392,8 @@ const filteredGuides = computed(() => {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.8rem;
   }
-  .guide-image-placeholder img {
-    height: 120px; /* Adjust image height */
+  .guide-image-placeholder {
+    height: 120px; /* 调整容器高度 */
   }
   .guide-content {
     padding: 0.6rem;
