@@ -35,7 +35,12 @@
       <aside class="sidebar">
         <!-- Sidebar Image -->
         <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
-          <img :src="currentGuide.sidebarData.sidebarImageUrl" alt="Cookingdom Level" />
+          <img
+            :src="currentGuide.sidebarData.sidebarImageUrl"
+            alt="Cookingdom Level"
+            fetchpriority="high"
+            loading="eager"
+          />
         </div>
 
         <!-- Level Info Box -->
@@ -57,7 +62,13 @@
           <ul>
             <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
               <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
-                <img :src="featured.imageUrl" alt="Cookingdom Level" class="featured-guide-img" />
+                <img
+                  :src="featured.imageUrl"
+                  alt="Cookingdom Level"
+                  class="featured-guide-img"
+                  loading="lazy"
+                  decoding="async"
+                />
                 <span v-html="featured.title"></span>
               </router-link>
             </li>

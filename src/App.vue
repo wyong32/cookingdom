@@ -45,6 +45,10 @@ const AppFooter = defineAsyncComponent({
 :deep(img) {
   background-color: #f0f0f0; /* 图片加载前的背景色 */
   transition: opacity 0.3s ease; /* 平滑过渡效果 */
+  transform: translateZ(0); /* 启用GPU加速 */
+  backface-visibility: hidden; /* 防止闪烁 */
+  will-change: transform; /* 提示浏览器这个元素会变化 */
+  image-rendering: -webkit-optimize-contrast; /* 提高图片渲染质量 */
 }
 
 :deep([data-v-f2a2c12e]) {

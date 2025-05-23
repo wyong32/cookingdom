@@ -35,13 +35,21 @@
       </div>
       <div v-else-if="filteredGuides.length > 0" class="guides-grid image-grid">
         <router-link
-          v-for="guide in filteredGuides"
+          v-for="(guide, index) in filteredGuides"
           :key="guide.id"
           :to="guide.routeObject"
           class="guide-card image-card"
         >
           <div class="guide-image-placeholder">
-            <img :src="guide.imageUrl" :alt="guide.title?.replace(brRegex, ' ') || 'Guide image'" />
+            <img
+              :src="guide.imageUrl"
+              :alt="guide.title?.replace(brRegex, ' ') || 'Guide image'"
+              :fetchpriority="index < 5 ? 'high' : 'auto'"
+              :loading="index < 5 ? 'eager' : 'lazy'"
+              width="300"
+              height="150"
+              :decoding="index < 5 ? 'sync' : 'async'"
+            />
           </div>
           <div class="guide-content">
             <h3 v-html="guide.title"></h3>
@@ -313,6 +321,12 @@ const filteredGuides = computed(() => {
   position: relative;
   overflow: hidden;
   contain: layout paint; /* 防止布局偏移 */
+  will-change: transform; /* 提示浏览器这个元素会变化 */
+  transform: translateZ(0); /* 启用GPU加速 */
+  backface-visibility: hidden; /* 防止闪烁 */
+  perspective: 1000; /* 提高渲染性能 */
+  content-visibility: auto; /* 优化渲染性能 */
+  contain-intrinsic-size: 0 150px; /* 提供估计高度 */
 }
 
 .guide-image-placeholder img {
@@ -323,6 +337,12 @@ const filteredGuides = computed(() => {
   position: absolute;
   top: 0;
   left: 0;
+  will-change: transform; /* 提示浏览器这个元素会变化 */
+  transform: translateZ(0); /* 启用GPU加速 */
+  backface-visibility: hidden; /* 防止闪烁 */
+  perspective: 1000; /* 提高渲染性能 */
+  image-rendering: -webkit-optimize-contrast; /* 提高图片渲染质量 */
+  image-rendering: crisp-edges; /* 提高图片渲染质量 */
 }
 
 .guide-content {
