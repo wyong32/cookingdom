@@ -44,12 +44,14 @@
             <img
               :src="optimizeImageUrl(guide.imageUrl, index)"
               :alt="guide.title?.replace(brRegex, ' ') || 'Guide image'"
-              :fetchpriority="index < 3 ? 'high' : 'auto'"
-              :loading="index < 3 ? 'eager' : 'lazy'"
+              :fetchpriority="index < 2 ? 'high' : 'auto'"
+              :loading="index < 5 ? 'eager' : 'lazy'"
               width="300"
               height="150"
-              :decoding="index < 3 ? 'sync' : 'async'"
+              :decoding="index < 5 ? 'sync' : 'async'"
               :onerror="handleImageError"
+              :style="{ opacity: index < 15 ? 1 : 0, transition: 'opacity 0.3s ease' }"
+              @load="handleImageLoad"
             />
           </div>
           <div class="guide-content">
@@ -219,11 +221,17 @@ const optimizeImageUrl = (url, index) => {
   // 如果是外部URL，直接返回
   if (url.startsWith('http')) return url
 
-  // 为前3个图片使用高质量，其余使用中等质量
-  const quality = index < 3 ? 90 : 75
+  // 使用更通用的优先级策略，基于索引而非特定图片名称
+  // 前3个图片为高优先级，其余根据可见性动态调整
+  const isHighPriority = index < 3
 
-  // 添加宽度、质量和缓存参数
-  return `${url}?w=300&q=${quality}&cache=31536000`
+  // 根据索引动态调整质量，前面的图片质量更高
+  // 使用滑动比例，索引越大质量越低
+  const quality = isHighPriority ? 85 : Math.max(60, 80 - Math.floor(index / 5) * 5)
+
+  // 添加宽度、质量、格式转换和缓存参数
+  // 使用webp格式，减小文件大小
+  return `${url}?w=300&q=${quality}&fm=webp&cache=31536000`
 }
 
 // 处理图片加载错误
@@ -232,6 +240,26 @@ const handleImageError = (event) => {
   event.target.src = '/logo.webp'
   // 移除加载中状态
   event.target.classList.add('error')
+}
+
+// 处理图片加载完成
+const handleImageLoad = (event) => {
+  // 获取当前索引
+  const cardElement = event.target.closest('.guide-card')
+  if (!cardElement) return
+
+  // 获取所有卡片，找出当前卡片的索引
+  const allCards = Array.from(document.querySelectorAll('.guide-card'))
+  const index = allCards.indexOf(cardElement)
+
+  // 所有图片加载完成后都设置为可见
+  // 这样可以确保即使DOM顺序变化，图片也能正确显示
+  event.target.style.opacity = '1'
+
+  // 对于延迟加载的图片，添加一个淡入效果
+  if (index >= 15) {
+    event.target.classList.add('fade-in')
+  }
 }
 
 // Computed property to filter guides based on the *props*
@@ -378,6 +406,22 @@ const filteredGuides = computed(() => {
 
   /* 减少渲染延迟 */
   paint-order: visibility; /* 优先渲染可见部分 */
+
+  /* 淡入效果 */
+  transition: opacity 0.5s ease;
+}
+
+.guide-image-placeholder img.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .guide-content {

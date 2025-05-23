@@ -37,11 +37,10 @@
         <!-- Sidebar Image -->
         <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
           <img
-            :src="optimizeImageUrl(currentGuide.sidebarData.sidebarImageUrl)"
+            :src="optimizeImageUrl(currentGuide.sidebarData.sidebarImageUrl, true)"
             alt="Cookingdom Level"
-            fetchpriority="high"
-            loading="eager"
-            decoding="sync"
+            loading="lazy"
+            decoding="async"
             width="350"
             height="280"
           />
@@ -67,7 +66,7 @@
             <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
               <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
                 <img
-                  :src="optimizeImageUrl(featured.imageUrl)"
+                  :src="optimizeImageUrl(featured.imageUrl, false)"
                   alt="Cookingdom Level"
                   class="featured-guide-img"
                   loading="lazy"
@@ -286,14 +285,20 @@ const addVideoSchema = (guideObj) => {
 }
 
 // 优化图片URL，添加宽度和质量参数
-const optimizeImageUrl = (url) => {
+const optimizeImageUrl = (url, isHero = false) => {
   if (!url) return ''
 
   // 如果是外部URL，直接返回
   if (url.startsWith('http')) return url
 
-  // 添加宽度、质量和缓存参数
-  return `${url}?w=350&q=90&cache=31536000`
+  // 根据图片用途设置不同的宽度和质量
+  // 英雄图片(侧边栏大图)使用更高的质量
+  const width = isHero ? 350 : 200
+  const quality = isHero ? 80 : 70
+
+  // 添加宽度、质量、格式转换和缓存参数
+  // 使用webp格式，减小文件大小
+  return `${url}?w=${width}&q=${quality}&fm=webp&cache=31536000`
 }
 
 // 获取视频缩略图
@@ -305,10 +310,12 @@ const getVideoThumbnail = (guide) => {
 
   // 确保路径是绝对路径
   if (thumbnail && thumbnail.startsWith('/')) {
-    // 添加优化参数
-    thumbnail = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumbnail.substring(
-      1
-    )}?w=640&q=90&cache=31536000`
+    // 使用通用的优化方法
+    const relativePath = thumbnail.substring(1)
+    const fullPath = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${relativePath}`
+
+    // 视频缩略图使用更高的质量和宽度
+    thumbnail = `${fullPath}?w=640&q=75&fm=webp&cache=31536000`
   }
 
   return thumbnail

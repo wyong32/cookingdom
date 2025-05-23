@@ -7,9 +7,8 @@
         :src="thumbnailUrl"
         :alt="title || 'YouTube video thumbnail'"
         class="youtube-thumbnail"
-        :fetchpriority="props.optimizeRendering ? 'high' : 'auto'"
-        :loading="props.optimizeRendering ? 'eager' : 'lazy'"
-        :decoding="props.optimizeRendering ? 'sync' : 'async'"
+        loading="lazy"
+        decoding="async"
         width="640"
         height="360"
       />
@@ -47,7 +46,6 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useI18n } from 'vue-i18n'
 
 const props = defineProps({
   videoUrl: {
@@ -72,7 +70,7 @@ const props = defineProps({
   },
 })
 
-const { t } = useI18n()
+// 不再需要 useI18n
 
 // 状态
 const isLoaded = ref(false)
@@ -96,9 +94,10 @@ const videoId = computed(() => {
 
 const thumbnailUrl = computed(() => {
   if (props.customThumbnail) {
-    // 添加优化参数
+    // 添加优化参数 - 使用通用的优化策略
     if (props.customThumbnail.startsWith('/')) {
-      return `${props.customThumbnail}?w=640&q=85&cache=31536000`
+      // 视频缩略图使用更高的质量和宽度
+      return `${props.customThumbnail}?w=640&q=75&fm=webp&cache=31536000&auto=format`
     }
     return props.customThumbnail
   }
@@ -119,9 +118,7 @@ const thumbnailUrl = computed(() => {
   return '/images/video-placeholder.webp'
 })
 
-// 本地化文本
-const loadText = computed(() => t('youtube.clickToLoad', '点击加载视频'))
-const performanceText = computed(() => t('youtube.performanceNote', '延迟加载以提高页面性能'))
+// 本地化文本 - 可以在模板中直接使用 t() 函数
 
 // 方法：加载YouTube视频
 const loadYouTube = () => {

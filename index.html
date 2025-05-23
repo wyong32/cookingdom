@@ -73,10 +73,10 @@
         transform: translateZ(0);
       }
 
-      /* 优化渲染性能 */
-      img[src*='guides_40.webp'] {
+      /* 优化渲染性能 - 应用于所有图片 */
+      img {
         content-visibility: auto;
-        contain-intrinsic-size: 0 150px;
+        contain-intrinsic-size: auto 150px;
         will-change: transform;
         transform: translateZ(0);
         backface-visibility: hidden;
