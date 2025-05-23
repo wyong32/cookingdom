@@ -638,7 +638,7 @@ export const guides = [
     id: 'cookingdom-game-level-8',
     title: 'Cookingdom Level 8 Texas BBQ Walkthrough',
     pageTitle: 'Cookingdom Level 8 Texas BBQ Walkthrough',
-    pageSubtitle: 'Learn to cook the perfect steak to order in Cookingdom Level 8.',
+    pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 8 of Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
@@ -647,18 +647,18 @@ export const guides = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-8' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
+    iframeUrl: 'https://www.youtube.com/embed/qxPUF3cKPrs',
     seo: {
-      title: 'Cookingdom Level 8 Guide: Steak | Tips & Strategy',
+      title: 'Cookingdom Level 8 Guide: Texas BBQ | cookingdom.co',
       description:
-        'Master cooking steak (rare, medium, well-done) in Cookingdom Level 8. Tips on timing, heat, and order management.',
+        'Learn to cook Texas BBQ (ribs, brisket) in Cookingdom Level 8. Get tips on slow-cooking, BBQ sauce, sides (cornbread, beans, coleslaw), and timing.',
       keywords:
-        'cookingdom, level 8, steak, guide, grilling, searing, doneness, rare, medium, well-done, time management',
+        'Cookingdom Level 8, cookingdom Texas BBQ, BBQ Guide, Ribs, Brisket, BBQ Sauce, Cornbread,Slow Cooking, Strategy',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_07.webp',
+      sidebarImageUrl: '/images/guides_08.webp',
       levelInfoHtml:
-        '<h3>Steak</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 3.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>',
+        '<h3>Texas BBQ</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-7',
@@ -681,84 +681,93 @@ export const guides = [
       ],
     },
     detailsHtml: `
-    <h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, each new level challenges you with a more complex dish. Level 8 is no exception, as you're tasked with preparing a perfectly cooked Steak. This dish requires precise timing, heat control, and careful attention to customer orders. As you move forward in Cookingdom, cooking steak will become a cornerstone of your menu, and handling the complexity of different steak doneness levels will be crucial to keep your customers happy.</p>
-<p>In this level, you'll need to manage your kitchen efficiently while ensuring every steak is cooked to the right level, whether it's rare, medium, or well-done. Let's dive into the details of making the perfect steak!</p>
+    <h2 id="overview">Cookingdom Level 8 Game Overview</h2>
+<p>In Cookingdom Level 8 brings the bold and flavorful Texas BBQ into the kitchen. This level challenges you to prepare a hearty, smoky BBQ meal with various meats, sauces, and sides.</p>
+<p>At this level, you will be preparing BBQ meats like ribs or brisket, and pairing them with classic BBQ sides like cornbread, baked beans, and coleslaw. The challenge in Cookingdom Level 8 is balancing the cooking times of the meats and sides while ensuring everything is served hot and flavorful.</p>
+<p>Let's dive into the details of Level 8 and master Texas BBQ!</p>
 
-<h2 id="goal">Level 8 Goals</h2>
+<h2 id="goal">Cookingdom Level 8 Goals</h2>
 <ul>
-    <li><strong>Cook Steak to Perfection:</strong> Cookingdom requires you to cook steak to different levels of doneness: rare, medium, and well-done. Each customer will have their own preference, and it's essential to cook each steak just right to meet those expectations.</li>
-    <li><strong>Handle Multiple Steak Orders:</strong> As with previous levels, managing multiple orders is critical. Cookingdom will test your ability to handle more complex orders at the same time while ensuring each steak is cooked properly.</li>
-    <li><strong>Serve the Steak Promptly:</strong> Customers in Cookingdom get impatient, so serving each steak as soon as it's cooked is essential. Timing is key to earning the best possible ratings.</li>
+    <li>
+        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor.
+    </li>
+    <li>
+        <strong>Prepare the BBQ Sauce:</strong> A good BBQ sauce is crucial for that authentic Texas flavor. You'll need to make sure the sauce is well-seasoned and paired perfectly with the meat.
+    </li>
+    <li>
+        <strong>Cook the Sides:</strong> Texas BBQ is usually served with sides like cornbread, baked beans, and coleslaw. You'll need to keep these cooking while you manage the BBQ meats.
+    </li>
+    <li>
+        <strong>Serve Quickly:</strong> As always in Cookingdom Level 8 , serving your BBQ dishes hot and fresh is important for earning high ratings from customers. The faster you serve, the better your customer satisfaction.
+    </li>
 </ul>
 
-<h2 id="steps">Steps to Make Steak</h2>
+<h2 id="steps">Cookingdom Level 8 Steps to Make Texas BBQ</h2>
 <ol>
     <li>
-        <h3>Prepare the Pan or Grill:</h3>
-        <p>Before cooking, heat your pan or grill to a high temperature. The key to a good steak is getting the pan or grill hot enough to sear the outside while keeping the inside juicy. Add some oil or butter to the pan to prevent the steak from sticking.</p>
-        <p><strong>Tip:</strong> A hot pan or grill is essential to achieving that delicious crust on the steak.</p>
+        <h3>Cook the BBQ Meat (Ribs or Brisket):</h3>
+        <p>Start by seasoning your choice of meat (ribs or brisket) with a dry rub or marinade. In Cookingdom Level 8 , the seasoning will be provided for you, so your task is to apply it evenly to the meat.</p>
+        <p>Once the meat is seasoned, place it in the smoker or grill. Cookingdom Level 8  uses a slow-cooking method, so this process can take time. Monitor the cooking to ensure the meat is tender and perfectly cooked.</p>
+        <p><strong>Tip:</strong> Turn the meat regularly to ensure it cooks evenly on all sides. The ideal BBQ meat will be crispy on the outside, with a juicy and tender inside.</p>
+        <p><strong>Tip:</strong> Don't overcook the meat! In Cookingdom Level 8 , keeping the meat just right will give it the best texture and flavor.</p>
     </li>
     <li>
-        <h3>Season the Steak:</h3>
-        <p>Once your pan is hot, season the steak with salt, pepper, and any other spices or herbs you prefer. Some customers in Cookingdom may have specific seasoning requests, so be sure to check their orders for any preferences.</p>
-        <p><strong>Tip:</strong> Use a generous amount of seasoning to enhance the steak's flavor. Don't forget to season both sides of the steak.</p>
+        <h3>Cookingdom Level 8 Prepare the BBQ Sauce:</h3>
+        <p>While the meat is cooking, focus on making the BBQ sauce. In Cookingdom Level 8 , the sauce is typically a blend of tangy, sweet, and smoky flavors, often with a base of ketchup or tomato sauce, vinegar, and brown sugar.</p>
+        <p>You'll need to mix the ingredients together and cook them down into a thick, flavorful sauce. Once the sauce is ready, you'll apply it to the meat either during cooking or after the meat is plated.</p>
+        <p><strong>Tip:</strong> Don't let the sauce burn! Stir it occasionally to keep it from sticking to the bottom of the pot. The sauce should be thick enough to coat the meat without being too runny.</p>
     </li>
     <li>
-        <h3>Cook the Steak:</h3>
-        <p>Place the steak in the hot pan or on the grill. Depending on the doneness requested by the customer, cook the steak for the following times:</p>
+        <h3>Cookingdom Level 8 Cook the Sides:</h3>
+        <p>While you're focusing on the BBQ meat and sauce, don't forget about the sides! Texas BBQ is typically served with:</p>
         <ul>
-            <li>Rare: 2-3 minutes per side.</li>
-            <li>Medium: 4-5 minutes per side.</li>
-            <li>Well-Done: 6-7 minutes per side.</li>
+            <li><strong>Cornbread:</strong> A slightly sweet, moist bread to complement the savory BBQ flavors.</li>
+            <li><strong>Baked Beans:</strong> Slow-cooked beans in a rich sauce, often flavored with BBQ sauce or bacon.</li>
+            <li><strong>Coleslaw:</strong> A cool, crunchy side to balance the richness of the BBQ.</li>
         </ul>
-        <p><strong>Tip:</strong> Flip the steak only once to avoid losing juices. Use tongs to flip the steak gently.</p>
+
     </li>
     <li>
-        <h3>Check for Doneness:</h3>
-        <p>Use the visual and tactile cues to check the doneness of the steak:</p>
-        <ul>
-            <li>Rare: Cool to the touch and red in the center.</li>
-            <li>Medium: Slightly firm with a pink center.</li>
-            <li>Well-Done: Firm and browned through, with no pink inside.</li>
-        </ul>
-        <p><strong>Tip:</strong> In Cookingdom, you may also see a visual indicator or timer that shows when the steak is ready, helping you avoid overcooking.</p>
+        <h3>Cookingdom Level 8 Assemble the Dish:</h3>
+        <p>Once the meat is cooked to perfection, and the sides are ready, it's time to plate the Texas BBQ. Start by placing the BBQ meat on the plate, then add generous portions of cornbread, baked beans, and coleslaw.</p>
+
     </li>
     <li>
-        <h3>Rest the Steak:</h3>
-        <p>Once the steak is cooked to the correct doneness, remove it from the pan or grill and let it rest for a minute or two. This helps redistribute the juices and ensures a tender, juicy steak.</p>
-        <p><strong>Tip:</strong> Don't skip this step! Resting the steak is essential for maintaining its flavor and moisture.</p>
-    </li>
-    <li>
-        <h3>Serve the Steak:</h3>
-        <p>Once the steak has rested, place it on a plate and serve it to the customer. You can garnish the steak with sides like mashed potatoes, vegetables, or sauces, depending on the order.</p>
-        <p><strong>Tip:</strong> Serve the steak as soon as it's ready to keep your customers happy and avoid any dissatisfaction due to slow service.</p>
+        <h3>Cookingdom Level 8 Serve the Texas BBQ:</h3>
+        <p>After assembling the dish, serve it quickly while everything is still hot. Cookingdom rewards speed, so the faster you serve, the higher your customer ratings will be.</p>
+        <p><strong>Tip:</strong> Don't let the dish sit too long before serving — BBQ is best enjoyed fresh and hot. Make sure all the components are well-heated and ready to go.</p>
     </li>
 </ol>
 
-<h2 id="tips">Tips & Tricks</h2>
+<h2 id="tips">Cookingdom Level 8 Tips & Tricks</h2>
 <ul>
     <li>
-        <strong>Mastering Steak Doneness:</strong> In Cookingdom, cooking the steak to the correct level of doneness is essential. Customers will specify how they want their steak, and delivering it perfectly cooked will earn you high ratings. Pay close attention to their orders and use the correct cooking times to achieve the perfect steak.
+        <h3>Slow-Cook the Meat:</h3>
+        <p>Texas BBQ requires slow-cooked meats, so be patient! The key is not to rush the cooking process. Monitor the grill or smoker carefully and avoid turning the heat up too high. A slow, steady cook is the key to tenderness.</p>
     </li>
     <li>
-        <strong>Efficient Order Management:</strong> As more customers arrive, you will need to handle multiple steak orders at once. Prioritize based on the time each customer has been waiting. Make sure to check each steak's doneness and avoid overcooking them while managing other dishes.
+        <h3>Perfect BBQ Sauce:</h3>
+        <p>The BBQ sauce is what really sets Texas BBQ apart. Make sure it's thick and flavorful, but not too sweet or tangy. Balance the flavors well, and stir frequently to avoid burning the sauce.</p>
     </li>
     <li>
-        <strong>Upgrades and Equipment:</strong> As you progress through Cookingdom, you can upgrade your cooking equipment. A higher-quality grill or pan will cook steaks faster and more efficiently. Consider upgrading your tools to speed up the cooking process and improve your results.
+        <h3>Multitask Efficiently:</h3>
+        <p>Cookingdom Level 8  requires multitasking, so while the BBQ meat is cooking, keep an eye on the sides. Make sure the cornbread doesn't burn, the baked beans are simmering to the right consistency, and the coleslaw is fresh and crisp.</p>
     </li>
     <li>
-        <strong>Use Speed Boosts and Boosters:</strong> Cookingdom offers boosts and speed-ups to help you handle busy times. Use them to speed up cooking or serve your customers faster, especially when you have multiple steak orders to manage at once.
+        <h3>Serve Fresh and Hot:</h3>
+        <p>The freshness of Texas BBQ is crucial to customer satisfaction. Serve the dish as soon as all the components are ready and hot. The longer the dish sits, the cooler it becomes, and the less appetizing it will be.</p>
     </li>
     <li>
-        <strong>Customer Satisfaction:</strong> Customer patience is a big factor in Cookingdom. If you keep customers waiting too long for their steak, they may leave unhappy. Always aim to serve your steaks hot and promptly, and keep your customers satisfied for the best results.
+        <h3>Upgrade Your Kitchen:</h3>
+        <p>As you progress in Cookingdom Level 8 , consider upgrading your grill and other kitchen equipment to speed up the cooking process. A faster grill or smoker will help you keep up with the growing number of customers and reduce wait times.</p>
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 8 of Cookingdom, preparing the perfect Steak is all about controlling the cooking times and ensuring that each customer's steak is cooked to their preferred level of doneness. You'll need to master grilling and pan-searing techniques, manage multiple orders simultaneously, and serve the steak while it's still fresh and juicy.</p>
-<p>By the end of this level, you'll have gained valuable skills in steak preparation that will help you tackle even more complex dishes in future levels. With careful attention to detail and quick service, you'll be able to handle the steak orders like a pro and keep your customers coming back for more!</p>
-`,
+<p>In Level 8 of Cookingdom Level 8 , preparing Texas BBQ involves mastering the art of slow-cooking meats, perfecting the BBQ sauce, and balancing the sides like cornbread, baked beans, and coleslaw. Timing and multitasking are key to success, as you need to manage both the grilling of the meats and the preparation of the sides.</p>
+<p>By focusing on perfecting the BBQ meat, creating a flavorful sauce, and managing your kitchen efficiently, you'll impress your customers and earn top ratings. The combination of tender BBQ, savory sides, and smoky flavor will keep your customers coming back for more.</p>
+
+    `,
   },
 
   {
@@ -1537,7 +1546,7 @@ export const guides = [
     id: 'cookingdom-game-level-16',
     title: 'Cookingdom Level 16 Steak Walkthrough',
     pageTitle: 'Cookingdom Level 16 Steak Walkthrough',
-    pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 16 of Cookingdom.',
+    pageSubtitle: 'Learn to cook the perfect steak to order in Cookingdom Level 16.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
@@ -1545,16 +1554,16 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
     iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI', // Placeholder
     seo: {
-      title: 'Cookingdom Level 16 Guide: Texas BBQ | cookingdom.co',
+      title: 'Cookingdom Level 16 Guide: Steak | Tips & Strategy',
       description:
-        'Learn to cook Texas BBQ (ribs, brisket) in Cookingdom Level 16. Get tips on slow-cooking, BBQ sauce, sides (cornbread, beans, coleslaw), and timing.',
+        'Master cooking steak (rare, medium, well-done) in Cookingdom Level 16. Tips on timing, heat, and order management.',
       keywords:
-        'Cookingdom Level 16, cookingdom Texas BBQ, BBQ Guide, Ribs, Brisket, BBQ Sauce, Cornbread,Slow Cooking, Strategy',
+        'cookingdom, level 16, steak, guide, grilling, searing, doneness, rare, medium, well-done, time management',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_16.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Texas BBQ</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Approx Time:</strong> 5 mins</p><p><strong>Rewards:</strong> 5 Stars</p>', // Estimated
+        '<h3>Steak</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 3.5 minutes</p><p><strong>Reward:</strong> 5 Stars</p>', // Estimated
       featuredGuides: [
         {
           id: 'cookingdom-game-level-15',
@@ -1571,91 +1580,84 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 16 Game Overview</h2>
-<p>In Cookingdom Level 16 brings the bold and flavorful Texas BBQ into the kitchen. This level challenges you to prepare a hearty, smoky BBQ meal with various meats, sauces, and sides.</p>
-<p>At this level, you will be preparing BBQ meats like ribs or brisket, and pairing them with classic BBQ sides like cornbread, baked beans, and coleslaw. The challenge in Cookingdom Level 16 is balancing the cooking times of the meats and sides while ensuring everything is served hot and flavorful.</p>
-<p>Let's dive into the details of Level 16 and master Texas BBQ!</p>
+<h2 id="overview">Game Overview</h2>
+<p>In Cookingdom, each new level challenges you with a more complex dish. Level 16 is no exception, as you're tasked with preparing a perfectly cooked Steak. This dish requires precise timing, heat control, and careful attention to customer orders. As you move forward in Cookingdom, cooking steak will become a cornerstone of your menu, and handling the complexity of different steak doneness levels will be crucial to keep your customers happy.</p>
+<p>In this level, you'll need to manage your kitchen efficiently while ensuring every steak is cooked to the right level, whether it's rare, medium, or well-done. Let's dive into the details of making the perfect steak!</p>
 
-<h2 id="goal">Cookingdom Level 16 Goals</h2>
+<h2 id="goal">Level 16 Goals</h2>
 <ul>
-    <li>
-        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor.
-    </li>
-    <li>
-        <strong>Prepare the BBQ Sauce:</strong> A good BBQ sauce is crucial for that authentic Texas flavor. You'll need to make sure the sauce is well-seasoned and paired perfectly with the meat.
-    </li>
-    <li>
-        <strong>Cook the Sides:</strong> Texas BBQ is usually served with sides like cornbread, baked beans, and coleslaw. You'll need to keep these cooking while you manage the BBQ meats.
-    </li>
-    <li>
-        <strong>Serve Quickly:</strong> As always in Cookingdom Level 16 , serving your BBQ dishes hot and fresh is important for earning high ratings from customers. The faster you serve, the better your customer satisfaction.
-    </li>
+    <li><strong>Cook Steak to Perfection:</strong> Cookingdom requires you to cook steak to different levels of doneness: rare, medium, and well-done. Each customer will have their own preference, and it's essential to cook each steak just right to meet those expectations.</li>
+    <li><strong>Handle Multiple Steak Orders:</strong> As with previous levels, managing multiple orders is critical. Cookingdom will test your ability to handle more complex orders at the same time while ensuring each steak is cooked properly.</li>
+    <li><strong>Serve the Steak Promptly:</strong> Customers in Cookingdom get impatient, so serving each steak as soon as it's cooked is essential. Timing is key to earning the best possible ratings.</li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 16 Steps to Make Texas BBQ</h2>
+<h2 id="steps">Steps to Make Steak</h2>
 <ol>
     <li>
-        <h3>Cook the BBQ Meat (Ribs or Brisket):</h3>
-        <p>Start by seasoning your choice of meat (ribs or brisket) with a dry rub or marinade. In Cookingdom Level 16 , the seasoning will be provided for you, so your task is to apply it evenly to the meat.</p>
-        <p>Once the meat is seasoned, place it in the smoker or grill. Cookingdom Level 16  uses a slow-cooking method, so this process can take time. Monitor the cooking to ensure the meat is tender and perfectly cooked.</p>
-        <p><strong>Tip:</strong> Turn the meat regularly to ensure it cooks evenly on all sides. The ideal BBQ meat will be crispy on the outside, with a juicy and tender inside.</p>
-        <p><strong>Tip:</strong> Don't overcook the meat! In Cookingdom Level 16 , keeping the meat just right will give it the best texture and flavor.</p>
+        <h3>Prepare the Pan or Grill:</h3>
+        <p>Before cooking, heat your pan or grill to a high temperature. The key to a good steak is getting the pan or grill hot enough to sear the outside while keeping the inside juicy. Add some oil or butter to the pan to prevent the steak from sticking.</p>
+        <p><strong>Tip:</strong> A hot pan or grill is essential to achieving that delicious crust on the steak.</p>
     </li>
     <li>
-        <h3>Cookingdom Level 16 Prepare the BBQ Sauce:</h3>
-        <p>While the meat is cooking, focus on making the BBQ sauce. In Cookingdom Level 16 , the sauce is typically a blend of tangy, sweet, and smoky flavors, often with a base of ketchup or tomato sauce, vinegar, and brown sugar.</p>
-        <p>You'll need to mix the ingredients together and cook them down into a thick, flavorful sauce. Once the sauce is ready, you'll apply it to the meat either during cooking or after the meat is plated.</p>
-        <p><strong>Tip:</strong> Don't let the sauce burn! Stir it occasionally to keep it from sticking to the bottom of the pot. The sauce should be thick enough to coat the meat without being too runny.</p>
+        <h3>Season the Steak:</h3>
+        <p>Once your pan is hot, season the steak with salt, pepper, and any other spices or herbs you prefer. Some customers in Cookingdom may have specific seasoning requests, so be sure to check their orders for any preferences.</p>
+        <p><strong>Tip:</strong> Use a generous amount of seasoning to enhance the steak's flavor. Don't forget to season both sides of the steak.</p>
     </li>
     <li>
-        <h3>Cookingdom Level 16 Cook the Sides:</h3>
-        <p>While you're focusing on the BBQ meat and sauce, don't forget about the sides! Texas BBQ is typically served with:</p>
+        <h3>Cook the Steak:</h3>
+        <p>Place the steak in the hot pan or on the grill. Depending on the doneness requested by the customer, cook the steak for the following times:</p>
         <ul>
-            <li><strong>Cornbread:</strong> A slightly sweet, moist bread to complement the savory BBQ flavors.</li>
-            <li><strong>Baked Beans:</strong> Slow-cooked beans in a rich sauce, often flavored with BBQ sauce or bacon.</li>
-            <li><strong>Coleslaw:</strong> A cool, crunchy side to balance the richness of the BBQ.</li>
+            <li>Rare: 2-3 minutes per side.</li>
+            <li>Medium: 4-5 minutes per side.</li>
+            <li>Well-Done: 6-7 minutes per side.</li>
         </ul>
-
+        <p><strong>Tip:</strong> Flip the steak only once to avoid losing juices. Use tongs to flip the steak gently.</p>
     </li>
     <li>
-        <h3>Cookingdom Level 16 Assemble the Dish:</h3>
-        <p>Once the meat is cooked to perfection, and the sides are ready, it's time to plate the Texas BBQ. Start by placing the BBQ meat on the plate, then add generous portions of cornbread, baked beans, and coleslaw.</p>
-
+        <h3>Check for Doneness:</h3>
+        <p>Use the visual and tactile cues to check the doneness of the steak:</p>
+        <ul>
+            <li>Rare: Cool to the touch and red in the center.</li>
+            <li>Medium: Slightly firm with a pink center.</li>
+            <li>Well-Done: Firm and browned through, with no pink inside.</li>
+        </ul>
+        <p><strong>Tip:</strong> In Cookingdom, you may also see a visual indicator or timer that shows when the steak is ready, helping you avoid overcooking.</p>
     </li>
     <li>
-        <h3>Cookingdom Level 16 Serve the Texas BBQ:</h3>
-        <p>After assembling the dish, serve it quickly while everything is still hot. Cookingdom rewards speed, so the faster you serve, the higher your customer ratings will be.</p>
-        <p><strong>Tip:</strong> Don't let the dish sit too long before serving — BBQ is best enjoyed fresh and hot. Make sure all the components are well-heated and ready to go.</p>
+        <h3>Rest the Steak:</h3>
+        <p>Once the steak is cooked to the correct doneness, remove it from the pan or grill and let it rest for a minute or two. This helps redistribute the juices and ensures a tender, juicy steak.</p>
+        <p><strong>Tip:</strong> Don't skip this step! Resting the steak is essential for maintaining its flavor and moisture.</p>
+    </li>
+    <li>
+        <h3>Serve the Steak:</h3>
+        <p>Once the steak has rested, place it on a plate and serve it to the customer. You can garnish the steak with sides like mashed potatoes, vegetables, or sauces, depending on the order.</p>
+        <p><strong>Tip:</strong> Serve the steak as soon as it's ready to keep your customers happy and avoid any dissatisfaction due to slow service.</p>
     </li>
 </ol>
 
-<h2 id="tips">Cookingdom Level 16 Tips & Tricks</h2>
+<h2 id="tips">Tips & Tricks</h2>
 <ul>
     <li>
-        <h3>Slow-Cook the Meat:</h3>
-        <p>Texas BBQ requires slow-cooked meats, so be patient! The key is not to rush the cooking process. Monitor the grill or smoker carefully and avoid turning the heat up too high. A slow, steady cook is the key to tenderness.</p>
+        <strong>Mastering Steak Doneness:</strong> In Cookingdom, cooking the steak to the correct level of doneness is essential. Customers will specify how they want their steak, and delivering it perfectly cooked will earn you high ratings. Pay close attention to their orders and use the correct cooking times to achieve the perfect steak.
     </li>
     <li>
-        <h3>Perfect BBQ Sauce:</h3>
-        <p>The BBQ sauce is what really sets Texas BBQ apart. Make sure it's thick and flavorful, but not too sweet or tangy. Balance the flavors well, and stir frequently to avoid burning the sauce.</p>
+        <strong>Efficient Order Management:</strong> As more customers arrive, you will need to handle multiple steak orders at once. Prioritize based on the time each customer has been waiting. Make sure to check each steak's doneness and avoid overcooking them while managing other dishes.
     </li>
     <li>
-        <h3>Multitask Efficiently:</h3>
-        <p>Cookingdom Level 16  requires multitasking, so while the BBQ meat is cooking, keep an eye on the sides. Make sure the cornbread doesn't burn, the baked beans are simmering to the right consistency, and the coleslaw is fresh and crisp.</p>
+        <strong>Upgrades and Equipment:</strong> As you progress through Cookingdom, you can upgrade your cooking equipment. A higher-quality grill or pan will cook steaks faster and more efficiently. Consider upgrading your tools to speed up the cooking process and improve your results.
     </li>
     <li>
-        <h3>Serve Fresh and Hot:</h3>
-        <p>The freshness of Texas BBQ is crucial to customer satisfaction. Serve the dish as soon as all the components are ready and hot. The longer the dish sits, the cooler it becomes, and the less appetizing it will be.</p>
+        <strong>Use Speed Boosts and Boosters:</strong> Cookingdom offers boosts and speed-ups to help you handle busy times. Use them to speed up cooking or serve your customers faster, especially when you have multiple steak orders to manage at once.
     </li>
     <li>
-        <h3>Upgrade Your Kitchen:</h3>
-        <p>As you progress in Cookingdom Level 16 , consider upgrading your grill and other kitchen equipment to speed up the cooking process. A faster grill or smoker will help you keep up with the growing number of customers and reduce wait times.</p>
+        <strong>Customer Satisfaction:</strong> Customer patience is a big factor in Cookingdom. If you keep customers waiting too long for their steak, they may leave unhappy. Always aim to serve your steaks hot and promptly, and keep your customers satisfied for the best results.
     </li>
 </ul>
 
 <h2 id="summary">Summary</h2>
-<p>In Level 16 of Cookingdom Level 16 , preparing Texas BBQ involves mastering the art of slow-cooking meats, perfecting the BBQ sauce, and balancing the sides like cornbread, baked beans, and coleslaw. Timing and multitasking are key to success, as you need to manage both the grilling of the meats and the preparation of the sides.</p>
-<p>By focusing on perfecting the BBQ meat, creating a flavorful sauce, and managing your kitchen efficiently, you'll impress your customers and earn top ratings. The combination of tender BBQ, savory sides, and smoky flavor will keep your customers coming back for more.</p>
+<p>In Level 16 of Cookingdom, preparing the perfect Steak is all about controlling the cooking times and ensuring that each customer's steak is cooked to their preferred level of doneness. You'll need to master grilling and pan-searing techniques, manage multiple orders simultaneously, and serve the steak while it's still fresh and juicy.</p>
+<p>By the end of this level, you'll have gained valuable skills in steak preparation that will help you tackle even more complex dishes in future levels. With careful attention to detail and quick service, you'll be able to handle the steak orders like a pro and keep your customers coming back for more!</p>
+
 `,
   },
   {
@@ -4201,114 +4203,114 @@ export const guides = [
 <p>By following this Cookingdom Level 37 walkthrough guide, you’ll master the art of making Kimchi Rice, a delicious and satisfying dish that combines traditional Korean flavors with simple ingredients.</p>
 `,
   },
+
   {
-    // Add entry for Level 38
     id: 'cookingdom-game-level-38',
     title: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
     pageTitle: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
-    pageSubtitle: 'Master the spicy Tteokbokki in the fast-paced Level 38 of Cookingdom.',
+    pageSubtitle:
+      'Master the sizzling pan-fried chicken with vibrant vegetables in Cookingdom Level 38.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false, // Assuming it's not special unless specified
-    imageUrl: '/images/guides_38.webp', // Placeholder
+    isSpecial: false,
+    imageUrl: '/images/guides_38.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
-    iframeUrl: 'https://www.youtube.com/embed/ED0NlqwWiwg', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/ED0NlqwWiwg',
     seo: {
-      title: 'Cookingdom Level 38 Guide: Tteokbokki Rush | Cookingdom.co',
+      title: 'Cookingdom Level 38 Guide: Pan Fried Chicken With Vegetables | Cookingdom.co',
       description:
-        'Master Tteokbokki Rush in Level 38 of Cookingdom. Get tips on cooking rice cakes, managing sauce, adding eggs, and achieving high scores.',
+        'Master pan-fried chicken with vegetables in Level 38 of Cookingdom. Learn key strategies to cook juicy chicken, manage vegetable prep, and earn top rewards.',
       keywords:
-        'Cookingdom Level 38, Cookingdom Tteokbokki, Korean Street Food, Rice Cakes, Gochujang, Guide',
+        'Cookingdom Level 38, Pan Fried Chicken, Cookingdom Guide, Stir Fry Chicken, Vegetable Dish, Cooking Game Tips',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_38.webp', // Placeholder
+      sidebarImageUrl: '/images/guides_38.webp',
       levelInfoHtml:
-        '<h3>Tteokbokki Rush</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Approx. Time:</strong> 3 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+        '<h3>Pan Fried Chicken With Vegetables</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3–4 mins</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>',
       featuredGuides: [
-        // Placeholder - Adjust as needed
         {
           id: 'cookingdom-game-level-37',
           title: 'Cookingdom Level 37 Kimchi Rice Walkthrough',
-          imageUrl: '/images/guides_37.webp', // Placeholder
+          imageUrl: '/images/guides_37.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
         },
         {
           id: 'cookingdom-game-level-39',
           title: 'Cookingdom Level 39 Red Borscht Walkthrough',
-          imageUrl: '/images/guides_39.webp', // Placeholder
+          imageUrl: '/images/guides_39.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">ookingdom Level 38 Game Overview</h2>
-<p>Cookingdom Level 38 brings the heat with <strong>Tteokbokki</strong>, a spicy Korean street food favorite. Speed, accuracy, and time management are critical in this fast-paced level.</p>
-
-<h2 id="goal">🎯 Cookingdom Level 38 Goal</h2>
-<ul>
-  <li>Serve at least 30 Tteokbokki dishes</li>
-  <li>Keep satisfaction above 85%</li>
-  <li>Finish within 3 minutes</li>
-</ul>
-
-<h2 id="ingredients">🌶️Cookingdom Level 38 Ingredients</h2>
-<ul>
-  <li>Rice cakes (tteok)</li>
-  <li>Gochujang sauce</li>
-  <li>Boiled eggs (optional bonus)</li>
-  <li>Green onion or sesame seeds (garnish)</li>
-</ul>
-
-<h2 id="steps">👨‍🍳 Cookingdom Level 38 Step-by-Step Strategy</h2>
-<ol>
-  <li>Start by boiling rice cakes in both pots.</li>
-  <li>Prepare gochujang sauce while the rice cakes cook.</li>
-  <li>Add sauce to pan, stir in rice cakes, and cook until slightly thick.</li>
-  <li>Top with egg and garnish before serving.</li>
-  <li>Queue next batch while serving current one to avoid downtime.</li>
-</ol>
-
-<h2 id="tips">🔥 Cookingdom Level 38 Pro Tips</h2>
-<ul>
-  <li><strong>Batch Cooking:</strong> Cook multiple servings at once to save time.</li>
-  <li><strong>Egg = Bonus:</strong> Always add if the customer has time.</li>
-  <li><strong>Keep an Eye on Pots:</strong> Overcooked rice cakes get wasted.</li>
-</ul>
-
-<h2 id="mistakes">🚫Cookingdom Level 38 Common Mistakes</h2>
-<ul>
-  <li>Letting sauce burn by leaving it unattended too long.</li>
-  <li>Not prepping ahead — idle time kills combos.</li>
-  <li>Forgetting eggs/garnish — you’ll lose bonus points.</li>
-</ul>
-`,
+  <h2 id="overview">Cookingdom Level 38 Game Overview</h2>
+  <p>In Level 38, you'll master a delicious stir-fry: <strong>Pan Fried Chicken With Vegetables</strong>. Timing and order of ingredients are crucial in this multitasking challenge.</p>
+  
+  <h2 id="goal">🎯 Cookingdom Level 38 Goal</h2>
+  <ul>
+    <li>Serve at least 25 Pan-Fried Chicken Dishes</li>
+    <li>Customer satisfaction stays above 80%</li>
+    <li>Finish in under 4 minutes</li>
+  </ul>
+  
+  <h2 id="ingredients">🥘 Ingredients for Level 38</h2>
+  <ul>
+    <li>Chicken slices</li>
+    <li>Mixed vegetables (bell peppers, carrots, broccoli)</li>
+    <li>Oil and soy-based stir-fry sauce</li>
+    <li>Optional garnish: sesame seeds or scallions</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
+  <ol>
+    <li>Heat both pans with oil before starting.</li>
+    <li>Begin frying chicken first, as it takes longer to cook.</li>
+    <li>Once chicken is half-cooked, add mixed vegetables and sauce.</li>
+    <li>Stir-fry until vegetables are tender-crisp and chicken is golden.</li>
+    <li>Plate and serve, then immediately begin next batch.</li>
+  </ol>
+  
+  <h2 id="tips">🔥 Pro Tips for Success</h2>
+  <ul>
+    <li><strong>Preheat Pans:</strong> Hot pans speed up cooking from the start.</li>
+    <li><strong>Don’t Overcrowd:</strong> Too much in the pan lowers heat efficiency.</li>
+    <li><strong>Alternate Pans:</strong> Use both pans in rotation to serve quickly.</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 Common Mistakes</h2>
+  <ul>
+    <li>Adding sauce too early — causes sogginess.</li>
+    <li>Leaving chicken undercooked — results in penalties.</li>
+    <li>Forgetting garnishes — reduces final score bonuses.</li>
+  </ul>
+  `,
   },
+
   {
     // Add entry for Level 39
     id: 'cookingdom-game-level-39',
     title: 'Cookingdom Level 39 Red Borscht Walkthrough',
     pageTitle: 'Cookingdom Level 39 Red Borscht Walkthrough',
     pageSubtitle:
-      'Master Spaghetti with Mushroom Cream Sauce, a creamy Western dish demanding perfect timing in Level 39.',
+      'Prepare hearty Red Borscht in Level 39 of Cookingdom. Balance beetroot, cabbage, and sour cream to satisfy your customers.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false, // Assuming it's not special unless specified
+    isSpecial: false,
     imageUrl: '/images/guides_39.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
-    iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko', // Placeholder - Replace with actual video ID
+    iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko', // Placeholder
     seo: {
-      title: 'Cookingdom Level 39 Guide:Spaghetti with Mushroom Cream Sauce',
+      title: 'Cookingdom Level 39 Guide: Red Borscht Mastery | Cookingdom.co',
       description:
-        'Master Spaghetti with Mushroom Cream Sauce in Level 39 of Cookingdom. Get tips on cooking pasta, sautéing mushrooms, preparing cream sauce, and serving this creamy dish.',
+        'Master Red Borscht in Level 39 of Cookingdom. Learn how to balance beetroot, cabbage, broth, and sour cream for a perfect Eastern European dish.',
       keywords:
-        'Cookingdom Level 39, Cookingdom Spaghetti with Mushroom Cream Sauce, Pasta, Italian Food, Guide',
+        'Cookingdom Level 39, Red Borscht, Eastern European Soup, Beetroot, Cabbage, Cookingdom Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_39.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Spaghetti w/ Mushroom Cream Sauce</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3 mins 30 secs</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>', // Estimate based on goals
+        '<h3>Red Borscht Challenge</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Approx. Time:</strong> 3 mins 30 secs</p><p><strong>Rewards:</strong> 4 Stars (Estimate)</p>',
       featuredGuides: [
-        // Placeholder - Adjust as needed
         {
           id: 'cookingdom-game-level-38',
           title: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
@@ -4324,48 +4326,51 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 39 Game Overview</h2>
-<p><strong>Cookingdom Level 39 </strong> introduces <strong>Spaghetti with Mushroom Cream Sauce</strong>, a creamy Western dish that demands perfect timing between boiling pasta and sautéing mushrooms. Precision is the key to 3 stars here.</p>
-
-<h2 id="goal">🎯 Cookingdom Level 39 Goal</h2>
-<ul>
-  <li>Serve at least 20 full dishes</li>
-  <li>Keep customer satisfaction at 90% or higher</li>
-  <li>Finish within 3 minutes 30 seconds</li>
-</ul>
-
-<h2 id="ingredients">🍝 Cookingdom Level 39 Ingredients</h2>
-<ul>
-  <li>Spaghetti noodles (boiled)</li>
-  <li>Mushrooms (sliced and sautéed)</li>
-  <li>Cream sauce (prepared separately)</li>
-  <li>Parsley or cheese for garnish</li>
-</ul>
-
-<h2 id="steps">👨‍🍳 Cookingdom Level 39 Step-by-Step Strategy</h2>
-<ol>
-  <li>Begin by boiling spaghetti in both pots immediately.</li>
-  <li>Sauté mushrooms in a separate pan while pasta cooks.</li>
-  <li>Heat cream sauce in a small pan — do not let it boil.</li>
-  <li>Combine pasta, mushrooms, and cream sauce just before serving.</li>
-  <li>Garnish with parsley or cheese to finish each dish.</li>
-</ol>
-
-<h2 id="tips">🔥 Cookingdom Level 39 Pro Tips</h2>
-<ul>
-  <li><strong>Stagger Your Boiling:</strong> Start one pot slightly later to keep a steady flow of pasta.</li>
-  <li><strong>Pre-Slice Mushrooms:</strong> Saves time in the middle of a rush.</li>
-  <li><strong>Use Auto-Serve:</strong> When overwhelmed, this keeps combos alive.</li>
-</ul>
-
-<h2 id="mistakes">🚫 Cookingdom Level 39 Common Mistakes</h2>
-<ul>
-  <li>Letting pasta overcook — it ruins the dish and wastes time.</li>
-  <li>Forgetting to warm sauce before combining — lowers dish rating.</li>
-  <li>Skipping garnish — costs you valuable bonus points.</li>
-</ul>
-`,
+  <h2 id="overview">Cookingdom Level 39 Game Overview</h2>
+  <p><strong>Cookingdom Level 39</strong> introduces <strong>Red Borscht</strong>, a vibrant Eastern European soup rich in flavor and color. Success requires careful coordination of boiling, chopping, and garnishing.</p>
+  
+  <h2 id="goal">🎯 Cookingdom Level 39 Goal</h2>
+  <ul>
+    <li>Serve at least 25 bowls of Red Borscht</li>
+    <li>Maintain customer satisfaction above 88%</li>
+    <li>Complete the level within 3 minutes 30 seconds</li>
+  </ul>
+  
+  <h2 id="ingredients">🥣 Cookingdom Level 39 Ingredients</h2>
+  <ul>
+    <li>Beetroot (sliced)</li>
+    <li>Shredded cabbage</li>
+    <li>Carrots and onions (prepped together)</li>
+    <li>Broth (vegetable or beef)</li>
+    <li>Sour cream (topping)</li>
+    <li>Dill or parsley (garnish)</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 Cookingdom Level 39 Step-by-Step Strategy</h2>
+  <ol>
+    <li>Begin by boiling the broth in both pots.</li>
+    <li>While broth heats, chop beetroot, cabbage, and the veggie mix.</li>
+    <li>Add vegetables to boiling broth in order: onions/carrots, then beetroot, then cabbage.</li>
+    <li>Let it simmer briefly — don't overcook!</li>
+    <li>Ladle soup into bowls, add a spoon of sour cream, and top with dill or parsley before serving.</li>
+  </ol>
+  
+  <h2 id="tips">🔥 Cookingdom Level 39 Pro Tips</h2>
+  <ul>
+    <li><strong>Batch Chop:</strong> Prepare multiple servings of veggies early to keep pace.</li>
+    <li><strong>Stagger Broths:</strong> Use one pot slightly behind the other to maintain flow.</li>
+    <li><strong>Garnish Quickly:</strong> Every topping boosts your score and satisfaction.</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 Cookingdom Level 39 Common Mistakes</h2>
+  <ul>
+    <li>Overcooking cabbage — turns the soup mushy and lowers rating.</li>
+    <li>Skipping sour cream — key to authentic taste and points.</li>
+    <li>Poor timing — delays between batches lead to unhappy customers.</li>
+  </ul>
+  `,
   },
+
   {
     // Add entry for Level 40
     id: 'cookingdom-game-level-40',

@@ -617,9 +617,9 @@ export const guides = [
 
   {
     id: 'cookingdom-game-level-8',
-    title: 'Cookingdom Tahap 8: Panduan Memasak Barbeku Texas',
-    pageTitle: 'Cookingdom Tahap 8: Panduan Memasak Barbeku Texas',
-    pageSubtitle: 'Pelajari cara memasak stik yang sempurna di Tahap 8 Cookingdom.',
+    title: 'Panduan Cookingdom Tahap 8: BBQ Texas',
+    pageTitle: 'Panduan Cookingdom Tahap 8: BBQ Texas',
+    pageSubtitle: 'Kuasi BBQ Texas yang berasap dan penuh rasa dalam Tahap 8 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
@@ -628,22 +628,22 @@ export const guides = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-8' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
+    iframeUrl: 'https://www.youtube.com/embed/qxPUF3cKPrs',
     seo: {
-      title: 'Cookingdom Tahap 8: Stik | Tips dan Strategi',
+      title: 'Panduan Cookingdom Tahap 8: BBQ Texas | cookingdom.co',
       description:
-        'Kuasi cara memasak stik (rare, medium, well-done) pada Tahap 8 Cookingdom. Tips tentang masa, suhu, dan pengurusan pesanan.',
+        'Pelajari cara memasak BBQ Texas (rusuk, brisket) dalam Tahap 8 Cookingdom. Dapatkan petua memasak perlahan, sos BBQ, hidangan sampingan (roti jagung, kacang panggang, coleslaw), dan masa yang tepat.',
       keywords:
-        'cookingdom, tahap 8, stik, panduan, barbeku, tahap masak, rare, medium, well-done, pengurusan masa',
+        'Cookingdom Tahap 8, Cookingdom BBQ Texas, Panduan BBQ, Rusuk, Brisket, Sos BBQ, Roti Jagung, Memasak Perlahan, Strategi',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_07.webp',
+      sidebarImageUrl: '/images/guides_08.webp',
       levelInfoHtml:
-        '<h3>Stik</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Masa:</strong> 3.5 minit</p><p><strong>Anugerah:</strong> 5 Bintang</p>',
+        '<h3>BBQ Texas</h3><p><strong>Kesukaran:</strong> Sukar</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Tahap 7: Panduan Telur Mata',
+          title: 'Panduan Cookingdom Tahap 7: Telur Cerah',
           imageUrl: '/images/guides_05.webp',
           detailsRoute: {
             name: 'guide-detail',
@@ -652,7 +652,7 @@ export const guides = [
         },
         {
           id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Tahap 9: Panduan Spaghetti',
+          title: 'Panduan Cookingdom Tahap 9: Spaghetti',
           imageUrl: '/images/guides_06.webp',
           detailsRoute: {
             name: 'guide-detail',
@@ -662,83 +662,81 @@ export const guides = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Dalam Cookingdom, setiap tahap baru menuntut anda menyediakan hidangan yang lebih kompleks. Tahap 8 tidak terkecuali — anda perlu memasak stik yang sempurna. Hidangan ini memerlukan kawalan tepat masa, suhu, dan perhatian terhadap pesanan pelanggan. Sepanjang permainan, memasak stik akan menjadi bahagian penting dalam menu anda, dan kemahiran mengawal tahap masakan adalah kunci untuk memuaskan pelanggan.</p>
-  <p>Dalam tahap ini, anda perlu menguruskan dapur dengan cekap untuk memastikan stik dimasak mengikut tahap yang diminta — rare, medium, atau well-done. Mari kita lihat cara memasak stik yang sempurna!</p>
-
-  <h2 id="goal">Matlamat Tahap 8</h2>
+  <h2 id="overview">Gambaran Umum Tahap 8 Cookingdom</h2>
+  <p>Tahap 8 Cookingdom membawa aroma dan rasa BBQ Texas ke dapur anda. Tahap ini mencabar anda untuk menyediakan hidangan BBQ yang lazat dan berasap dengan pelbagai jenis daging, sos, dan hidangan sampingan.</p>
+  <p>Anda akan memasak daging BBQ seperti rusuk atau brisket, serta menghidangkannya bersama roti jagung, kacang panggang, dan coleslaw. Cabaran utama adalah mengimbangi masa memasak daging dan hidangan sampingan sambil memastikan semuanya dihidangkan panas dan lazat.</p>
+  <p>Jom kita lihat secara terperinci bagaimana untuk menakluk Tahap 8 dan menjadi pakar BBQ Texas!</p>
+  
+  <h2 id="goal">Matlamat Tahap 8 Cookingdom</h2>
   <ul>
-      <li><strong>Memasak stik dengan sempurna:</strong> Dalam Cookingdom, anda perlu memasak stik mengikut tahap masakan yang berbeza: rare, medium, dan well-done. Setiap pelanggan mempunyai pilihan sendiri dan penting untuk memasak stik tepat seperti yang dipesan.</li>
-      <li><strong>Menangani beberapa pesanan stik:</strong> Seperti tahap sebelumnya, pengurusan beberapa pesanan adalah kritikal. Cookingdom akan menguji keupayaan anda mengendalikan pesanan yang lebih kompleks pada masa yang sama sambil mengekalkan kualiti.</li>
-      <li><strong>Menghidangkan stik tepat pada masa:</strong> Pelanggan tidak suka menunggu, jadi penting untuk menghidangkan stik segera selepas dimasak. Masa adalah kunci untuk mendapat penilaian terbaik.</li>
+    <li><strong>Masak Daging BBQ (Rusuk atau Brisket):</strong> Pastikan daging dimasak sempurna — lembut, berjus, dan beraroma asap.</li>
+    <li><strong>Sediakan Sos BBQ:</strong> Sos BBQ yang lazat amat penting untuk rasa asli Texas. Ia mesti seimbang dan sesuai dipadankan dengan daging.</li>
+    <li><strong>Masak Hidangan Sampingan:</strong> Roti jagung, kacang panggang dan coleslaw harus disediakan serentak semasa memasak daging.</li>
+    <li><strong>Hidang Dengan Cepat:</strong> Pelanggan mahukan hidangan BBQ yang panas dan segar. Lebih cepat anda hidangkan, lebih tinggi penilaian yang diterima.</li>
   </ul>
-
-  <h2 id="steps">Langkah Memasak Stik</h2>
+  
+  <h2 id="steps">Langkah-langkah untuk Menyediakan BBQ Texas</h2>
   <ol>
-      <li>
-          <h3>Sediakan kuali atau pemanggang:</h3>
-          <p>Sebelum memasak, panaskan kuali atau pemanggang pada suhu tinggi. Kunci stik yang baik adalah panas yang kuat untuk menghasilkan kerak di luar dan isi yang juicy di dalam. Tambah minyak atau mentega supaya stik tidak melekat.</p>
-          <p><strong>Tip:</strong> Kuali atau pemanggang yang panas memastikan kerak yang enak pada stik.</p>
-      </li>
-      <li>
-          <h3>Perasakan stik:</h3>
-          <p>Apabila kuali panas, perasakan stik dengan garam, lada dan rempah lain mengikut citarasa. Sesetengah pelanggan mungkin mempunyai permintaan khas untuk perasa — sentiasa periksa pesanan.</p>
-          <p><strong>Tip:</strong> Gunakan perasa yang cukup untuk menambah rasa pada kedua-dua belah stik.</p>
-      </li>
-      <li>
-          <h3>Masak stik:</h3>
-          <p>Letakkan stik di atas kuali atau pemanggang panas. Masa memasak bergantung pada tahap masakan yang dikehendaki:</p>
-          <ul>
-              <li>Rare: 2-3 minit setiap sisi.</li>
-              <li>Medium: 4-5 minit setiap sisi.</li>
-              <li>Well-Done: 6-7 minit setiap sisi.</li>
-          </ul>
-          <p><strong>Tip:</strong> Balikkan stik hanya sekali untuk mengekalkan jus. Gunakan penyepit untuk membalik dengan rapi.</p>
-      </li>
-      <li>
-          <h3>Periksa tahap masakan:</h3>
-          <p>Nilai stik secara visual dan sentuhan:</p>
-          <ul>
-              <li>Rare: sejuk sedikit apabila disentuh, isi merah.</li>
-              <li>Medium: agak kenyal, isi merah jambu.</li>
-              <li>Well-Done: padat dan perang di dalam, tiada warna merah jambu.</li>
-          </ul>
-          <p><strong>Tip:</strong> Dalam permainan, mungkin ada penunjuk visual atau pemasa untuk membantu elakkan terlebih masak.</p>
-      </li>
-      <li>
-          <h3>Beri stik berehat:</h3>
-          <p>Setelah dimasak, angkat stik dari api dan biarkan selama satu dua minit. Ini membolehkan jus menyebar rata, menjadikan stik juicy dan lembut.</p>
-          <p><strong>Tip:</strong> Jangan langkau langkah ini! Rehat penting untuk rasa dan kelembapan stik.</p>
-      </li>
-      <li>
-          <h3>Hidangkan stik:</h3>
-          <p>Letakkan stik di atas pinggan dan hidangkan kepada pelanggan. Boleh hias dengan lauk sampingan seperti kentang lecek, sayur atau sos mengikut pesanan.</p>
-          <p><strong>Tip:</strong> Hidangkan segera supaya pelanggan berpuas hati dan tidak bosan menunggu.</p>
-      </li>
+    <li>
+      <h3>Masak Daging BBQ (Rusuk atau Brisket)</h3>
+      <p>Perapkan daging dengan rempah kering atau perapan yang telah disediakan. Pastikan anda sapu rata pada semua bahagian.</p>
+      <p>Letakkan daging dalam pengasap atau pemanggang. Cookingdom menggunakan teknik memasak perlahan, jadi pastikan anda memantau suhu dan tekstur.</p>
+      <p><strong>Petua:</strong> Balikkan daging dengan kerap agar masak sekata. Daging yang sempurna berkulit rangup di luar dan lembut di dalam.</p>
+      <p><strong>Petua:</strong> Jangan terlalu lama memasak! Masak daging pada waktu yang sesuai untuk hasil terbaik.</p>
+    </li>
+    <li>
+      <h3>Sediakan Sos BBQ</h3>
+      <p>Semasa daging dimasak, sediakan sos BBQ. Gabungan rasa manis, masam dan berasap — biasanya berdasarkan sos tomato, cuka, dan gula perang.</p>
+      <p>Masak semua bahan hingga pekat dan berperisa. Sapukan sos ke atas daging semasa atau selepas masak.</p>
+      <p><strong>Petua:</strong> Kacau sos dari semasa ke semasa agar tidak melekat dan hangus. Ia perlu cukup pekat untuk menyaluti daging dengan sempurna.</p>
+    </li>
+    <li>
+      <h3>Masak Hidangan Sampingan</h3>
+      <p>Jangan lupa sediakan:</p>
+      <ul>
+        <li><strong>Roti Jagung:</strong> Lembut, sedikit manis dan sesuai dipadankan dengan rasa BBQ.</li>
+        <li><strong>Kacang Panggang:</strong> Dimasak perlahan dalam sos lazat, biasanya bersama bacon atau sos BBQ.</li>
+        <li><strong>Coleslaw:</strong> Sayur segar dan rangup untuk imbangi rasa BBQ yang kaya.</li>
+      </ul>
+    </li>
+    <li>
+      <h3>Susun Hidangan</h3>
+      <p>Letakkan daging BBQ yang sudah siap atas pinggan, diikuti roti jagung, kacang panggang, dan coleslaw dalam bahagian yang seimbang.</p>
+    </li>
+    <li>
+      <h3>Hidangkan BBQ Texas</h3>
+      <p>Hidangkan segera selepas siap. Lagi cepat anda hidang, lebih tinggi kepuasan pelanggan.</p>
+      <p><strong>Petua:</strong> Jangan biarkan makanan sejuk terlalu lama. BBQ paling sedap dimakan panas dan segar!</p>
+    </li>
   </ol>
-
-  <h2 id="tips">Tips dan Trik</h2>
+  
+  <h2 id="tips">Petua & Strategi Tahap 8 Cookingdom</h2>
   <ul>
-      <li>
-          <strong>Memasak stik dengan tahap yang tepat:</strong> Dalam Cookingdom, penting untuk memasak stik mengikut tahap yang dipesan. Pelanggan akan beri penilaian tinggi jika stik dimasak sempurna. Sentiasa perhatikan pesanan dan masa memasak.
-      </li>
-      <li>
-          <strong>Pengurusan pesanan cekap:</strong> Dengan bilangan pelanggan yang meningkat, anda perlu memasak beberapa stik serentak. Prioritikan pesanan mengikut masa menunggu dan elakkan terlebih masak sambil memasak hidangan lain.
-      </li>
-      <li>
-          <strong>Kemaskini peralatan dapur:</strong> Semasa permainan, anda boleh tingkatkan peralatan. Kuali atau pemanggang yang berkualiti masak stik lebih cepat dan berkualiti. Kemaskini ini bantu percepatkan proses dan tingkatkan hasil.
-      </li>
-      <li>
-          <strong>Gunakan pemecut dan booster:</strong> Cookingdom menawarkan pemecut dan booster untuk bantu anda pada waktu sibuk. Gunakan untuk mempercepatkan memasak dan servis terutama semasa pesanan bertimbun.
-      </li>
-      <li>
-          <strong>Puaskan pelanggan:</strong> Kesabaran pelanggan terhad. Jika mereka tunggu terlalu lama, mereka akan pergi kecewa. Sentiasa hidangkan stik panas dengan cepat untuk mengekalkan rating tinggi.
-      </li>
+    <li>
+      <h3>Masak Perlahan Daging:</h3>
+      <p>Jangan tergesa-gesa. Gunakan api perlahan untuk dapatkan tekstur yang lembut dan rasa BBQ yang mendalam.</p>
+    </li>
+    <li>
+      <h3>Sos BBQ yang Sempurna:</h3>
+      <p>Seimbangkan rasa manis, masam dan berasap. Kacau dengan kerap untuk elak hangus.</p>
+    </li>
+    <li>
+      <h3>Multitugas dengan Bijak:</h3>
+      <p>Perhatikan semua hidangan serentak. Pastikan roti tidak hangus, kacang tidak kering dan coleslaw kekal segar.</p>
+    </li>
+    <li>
+      <h3>Hidang Panas & Segar:</h3>
+      <p>Suhu dan kesegaran sangat penting. Hidang segera selepas semua siap.</p>
+    </li>
+    <li>
+      <h3>Naik Taraf Dapur:</h3>
+      <p>Naik taraf pemanggang atau peralatan lain untuk mempercepatkan masa memasak dan tingkatkan kepuasan pelanggan.</p>
+    </li>
   </ul>
-
+  
   <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Tahap 8 Cookingdom, memasak stik yang sempurna melibatkan kawalan masa dan mengikuti pilihan pelanggan tentang tahap masakan. Anda akan menguasai penggunaan pemanggang dan kuali, belajar mengurus beberapa pesanan serentak dan menghidangkan stik yang panas dan juicy.</p>
-  <p>Tahap ini memberikan kemahiran penting yang berguna untuk hidangan yang lebih kompleks di tahap berikutnya. Dengan perhatian kepada detail dan penyajian pantas, anda akan menjadi pakar memasak stik dan menggembirakan pelanggan anda!</p>
+  <p>Dalam Tahap 8 Cookingdom, anda akan belajar seni BBQ Texas: masak daging perlahan, sediakan sos BBQ lazat, dan imbangi hidangan sampingan seperti roti jagung, kacang panggang dan coleslaw.</p>
+  <p>Kunci kejayaan adalah masa, kecekapan dan ketepatan. Puaskan pelanggan dengan rasa BBQ sejati dan uruskan dapur anda dengan cekap untuk memperoleh penilaian tertinggi.</p>
   `,
   },
 
@@ -1466,119 +1464,121 @@ export const guides = [
 
   {
     id: 'cookingdom-game-level-16',
-    title: 'Panduan Cookingdom Tahap 16 — Steak',
-    pageTitle: 'Panduan Cookingdom Tahap 16 — Steak',
+    title: 'Panduan Cookingdom Tahap 16: Steak',
+    pageTitle: 'Panduan Cookingdom Tahap 16: Steak',
     pageSubtitle:
-      'Kuasi teknik membuat Texas Barbecue yang kaya rasa dan beraroma pada Tahap 16 Cookingdom.',
+      'Pelajari cara memasak steak yang sempurna mengikut pesanan di Cookingdom Tahap 16.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
-    imageUrl: '/images/guides_16.webp',
+    imageUrl: '/images/guides_16.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-    iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI',
+    iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI', // Placeholder
     seo: {
-      title: 'Panduan Cookingdom Tahap 16: Texas Barbecue | cookingdom.co',
+      title: 'Panduan Cookingdom Tahap 16: Steak | Tips & Strategi',
       description:
-        'Pelajari cara membuat Texas Barbecue (rib, brisket) di Cookingdom Tahap 16. Tips memasak perlahan, sos, lauk sampingan (roti jagung, kacang, salad kubis), dan pengurusan masa.',
+        'Kuasi memasak steak (rare, medium, well-done) di Cookingdom Tahap 16. Tips mengenai masa, haba, dan pengurusan pesanan.',
       keywords:
-        'Cookingdom tahap 16, texas barbecue, panduan barbecue, rib, brisket, sos barbecue, roti jagung, memasak perlahan, strategi',
+        'cookingdom, tahap 16, steak, panduan, memanggang, searing, kematangan, rare, medium, well-done, pengurusan masa',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_16.webp',
+      sidebarImageUrl: '/images/guides_16.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Texas Barbecue</h3><p><strong>Kesukaran:</strong> Tinggi</p><p><strong>Anggaran Masa:</strong> 5 minit</p><p><strong>Ganjaran:</strong> 5 bintang</p>',
+        '<h3>Steak</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3.5 minit</p><p><strong>Ganjaran:</strong> 5 Bintang</p>', // Estimated
       featuredGuides: [
         {
           id: 'cookingdom-game-level-15',
-          title: 'Panduan Cookingdom Tahap 15 — Ayam Goreng',
-          imageUrl: '/images/guides_15.webp',
+          title: 'Panduan Cookingdom Tahap 15: Ayam Goreng',
+          imageUrl: '/images/guides_15.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
         {
           id: 'cookingdom-game-level-17',
-          title: 'Panduan Cookingdom Tahap 17 — Café Macchiato',
-          imageUrl: '/images/guides_17.webp',
+          title: 'Panduan Cookingdom Tahap 17: Cafe Macchiato',
+          imageUrl: '/images/guides_17.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 16 Cookingdom</h2>
-<p>Tahap 16 Cookingdom memperkenalkan hidangan Texas Barbecue yang kaya dan beraroma ke dapur anda. Dalam tahap ini, anda akan menyediakan hidangan daging berasap yang lezat dengan pelbagai sos dan lauk sampingan.</p>
-<p>Anda akan memasak daging barbecue seperti tulang rusuk atau brisket, serta menyajikannya bersama lauk klasik: roti jagung, kacang rebus, dan salad kubis. Cabarannya adalah menyelaraskan masa memasak daging dan lauk agar semuanya panas dan sedap disajikan.</p>
-<p>Jom kita lihat dengan lebih dekat tahap 16 dan kuasai Texas Barbecue!</p>
-
-<h2 id="goal">Matlamat Tahap 16 Cookingdom</h2>
-<ul>
-  <li><strong>Masak daging barbecue (tulang rusuk atau brisket):</strong> Pastikan daging dimasak sempurna — lembut, berjus, dan penuh rasa asap yang kaya.</li>
-  <li><strong>Masak sos barbecue:</strong> Sos yang sedap adalah kunci rasa asli Texas. Pastikan rasa sos seimbang dan disajikan bersama daging.</li>
-  <li><strong>Masak lauk sampingan:</strong> Texas Barbecue biasanya dihidang bersama roti jagung, kacang rebus, dan salad kubis. Pantau kesemua lauk dengan teliti.</li>
-  <li><strong>Sajikan hidangan dengan cepat:</strong> Seperti biasa di Cookingdom, sajian panas dan segar mendapat penilaian tinggi dari pelanggan.</li>
-</ul>
-
-<h2 id="steps">Langkah-langkah Memasak Texas Barbecue di Tahap 16</h2>
-<ol>
-  <li>
-    <h3>Memasak daging (tulang rusuk atau brisket):</h3>
-    <p>Mula dengan melapisi daging menggunakan campuran perasa kering atau perapan. Pada tahap 16, campuran perasa sudah disediakan — tugas anda adalah mengolesnya secara merata pada daging.</p>
-    <p>Letakkan daging dalam pengasap atau atas gril. Memasak secara perlahan memerlukan masa; pantau daging agar lembut dan masak sekata.</p>
-    <p><strong>Tip:</strong> Balikkan daging secara berkala untuk memasak sekata. Barbecue yang sempurna mempunyai kerak rangup di luar dan isi yang lembut di dalam.</p>
-    <p><strong>Tip:</strong> Jangan terlalu masak! Masa memasak yang betul menghasilkan tekstur dan rasa terbaik.</p>
-  </li>
-  <li>
-    <h3>Memasak sos barbecue:</h3>
-    <p>Sambil menunggu daging, sediakan sos. Biasanya gabungan rasa masam, manis, dan asap berasaskan sos tomato, cuka, dan gula perang.</p>
-    <p>Gaul bahan-bahan dan reneh sehingga pekat. Sos digunakan untuk sapuan pada daging semasa atau selepas memasak.</p>
-    <p><strong>Tip:</strong> Jangan biarkan sos hangus — kacau sekali-sekala. Sos harus cukup pekat untuk menyaluti daging.</p>
-  </li>
-  <li>
-    <h3>Memasak lauk sampingan:</h3>
-    <p>Jangan lupa lauk sampingan! Lazimnya dihidang:</p>
-    <ul>
-      <li><strong>Roti jagung:</strong> Roti sedikit manis dan lembap yang melengkapi barbeku.</li>
-      <li><strong>Kacang rebus:</strong> Kacang dimasak perlahan dalam sos pekat, kadang disertai daging bacon.</li>
-      <li><strong>Salad kubis:</strong> Segar dan rangup, melengkapkan rasa berat barbeku.</li>
-    </ul>
-  </li>
-  <li>
-    <h3>Menyusun hidangan:</h3>
-    <p>Apabila daging dan lauk siap, susun di pinggan: daging, roti jagung, kacang rebus dan salad kubis.</p>
-  </li>
-  <li>
-    <h3>Menyajikan hidangan:</h3>
-    <p>Sajikan dengan cepat supaya hidangan masih panas. Penyajian pantas meningkatkan penilaian pelanggan.</p>
-    <p><strong>Tip:</strong> Jangan biarkan hidangan sejuk — barbeku terbaik disajikan segar dan panas.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Tip dan Petua untuk Tahap 16</h2>
-<ul>
-  <li>
-    <h3>Memasak daging secara perlahan:</h3>
-    <p>Texas Barbecue memerlukan kesabaran. Jangan tergesa-gesa dan pastikan haba merata. Memasak perlahan menghasilkan daging yang lembut.</p>
-  </li>
-  <li>
-    <h3>Sos barbecue yang sempurna:</h3>
-    <p>Sos adalah elemen penting. Pastikan rasanya seimbang, kacau untuk elakkan hangus.</p>
-  </li>
-  <li>
-    <h3>Pengurusan multitugas yang efektif:</h3>
-    <p>Perhatikan daging dan lauk sampingan seperti roti jagung, kacang rebus dan salad kubis secara serentak.</p>
-  </li>
-  <li>
-    <h3>Sajikan panas dan segar:</h3>
-    <p>Kesegaran hidangan menentukan penilaian pelanggan. Sajikan segera selepas dimasak.</p>
-  </li>
-  <li>
-    <h3>Tingkatkan peralatan dapur:</h3>
-    <p>Kemas kini gril dan peralatan lain untuk mempercepat proses memasak dan mengurangkan masa menunggu.</p>
-  </li>
-</ul>
-
-<h2 id="summary">Ringkasan</h2>
-<p>Dalam Tahap 16 Cookingdom, memasak Texas Barbecue memerlukan kemahiran memasak daging secara perlahan, membuat sos yang lazat dan mengimbangi lauk sampingan. Pengurusan masa dan multitugas adalah kunci kejayaan.</p>
-<p>Dengan perhatian pada daging, sos dan dapur yang teratur, anda dapat menggembirakan pelanggan dan mendapat penilaian tinggi. Rasa yang kaya, daging yang lembut dan lauk sampingan yang lazat akan membuat pelanggan kembali lagi.</p>
-`,
+  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
+  <p>Dalam Cookingdom, setiap tahap baharu mencabar anda dengan hidangan yang lebih kompleks. Tahap 16 tidak terkecuali, di mana anda perlu menyediakan Steak yang dimasak dengan sempurna. Hidangan ini memerlukan pengawalan masa yang tepat, kawalan haba, dan perhatian rapi pada pesanan pelanggan. Semasa anda maju dalam Cookingdom, memasak steak akan menjadi tunjang menu anda, dan mengurus tahap kematangan steak yang berbeza amat penting untuk memastikan pelanggan berpuas hati.</p>
+  <p>Dalam tahap ini, anda perlu menguruskan dapur anda dengan cekap sambil memastikan setiap steak dimasak pada tahap kematangan yang betul, sama ada rare, medium, atau well-done. Mari kita terokai langkah demi langkah membuat steak yang sempurna!</p>
+  
+  <h2 id="goal">Matlamat Tahap 16</h2>
+  <ul>
+    <li><strong>Masak Steak dengan Sempurna:</strong> Cookingdom memerlukan anda memasak steak pada tahap kematangan berbeza: rare, medium, dan well-done. Setiap pelanggan mempunyai keutamaan masing-masing, dan sangat penting untuk memasak setiap steak dengan tepat untuk memenuhi harapan mereka.</li>
+    <li><strong>Kendalikan Pesanan Steak Berganda:</strong> Seperti tahap sebelum ini, mengurus beberapa pesanan pada masa sama adalah kritikal. Cookingdom akan menguji kemampuan anda untuk mengendalikan pesanan yang lebih kompleks sambil memastikan setiap steak dimasak dengan betul.</li>
+    <li><strong>Sajikan Steak dengan Segera:</strong> Pelanggan di Cookingdom mudah tidak sabar, jadi penyajian steak dengan cepat selepas masak adalah penting. Masa adalah kunci untuk mendapatkan penilaian tertinggi.</li>
+  </ul>
+  
+  <h2 id="steps">Langkah-langkah Memasak Steak</h2>
+  <ol>
+    <li>
+      <h3>Sediakan Kuali atau Grill:</h3>
+      <p>Sebelum memasak, panaskan kuali atau grill pada suhu tinggi. Kunci untuk steak yang baik adalah mendapatkan permukaan kuali atau grill yang cukup panas untuk menghasilkan kerak yang sedap pada luar steak sambil memastikan bahagian dalam kekal berjus. Tambah sedikit minyak atau mentega untuk mengelakkan steak melekat.</p>
+      <p><strong>Tip:</strong> Kuali atau grill yang panas sangat penting untuk mendapatkan kerak yang sedap pada steak.</p>
+    </li>
+    <li>
+      <h3>Perasakan Steak:</h3>
+      <p>Setelah kuali panas, perasakan steak dengan garam, lada, dan herba atau rempah yang anda suka. Beberapa pelanggan mungkin mempunyai permintaan perasa khusus, jadi pastikan periksa pesanan mereka dengan teliti.</p>
+      <p><strong>Tip:</strong> Gunakan perasa yang mencukupi untuk meningkatkan rasa steak. Jangan lupa perasakan kedua-dua belah steak.</p>
+    </li>
+    <li>
+      <h3>Masak Steak:</h3>
+      <p>Letakkan steak dalam kuali panas atau di atas grill. Bergantung pada tahap kematangan yang diminta pelanggan, masak steak untuk tempoh berikut:</p>
+      <ul>
+        <li>Rare: 2-3 minit setiap sisi.</li>
+        <li>Medium: 4-5 minit setiap sisi.</li>
+        <li>Well-Done: 6-7 minit setiap sisi.</li>
+      </ul>
+      <p><strong>Tip:</strong> Balikkan steak hanya sekali untuk mengelakkan jus keluar. Gunakan penyepit untuk membalikkan steak dengan perlahan.</p>
+    </li>
+    <li>
+      <h3>Periksa Tahap Kematangan:</h3>
+      <p>Gunakan isyarat visual dan sentuhan untuk periksa tahap kematangan steak:</p>
+      <ul>
+        <li>Rare: Sejuk bila disentuh dan berwarna merah di tengah.</li>
+        <li>Medium: Sedikit keras dengan bahagian tengah berwarna merah jambu.</li>
+        <li>Well-Done: Keras dan perang sepenuhnya, tiada warna merah jambu di dalam.</li>
+      </ul>
+      <p><strong>Tip:</strong> Dalam Cookingdom, mungkin terdapat penunjuk visual atau pemasa yang menunjukkan bila steak sudah siap, membantu anda elak daripada terlebih masak.</p>
+    </li>
+    <li>
+      <h3>Rehatkan Steak:</h3>
+      <p>Setelah steak dimasak pada tahap yang betul, keluarkan dari kuali atau grill dan biarkan ia berehat selama satu atau dua minit. Ini membantu pengagihan semula jus supaya steak lebih lembut dan berjus.</p>
+      <p><strong>Tip:</strong> Jangan abaikan langkah ini! Rehatkan steak adalah penting untuk mengekalkan rasa dan kelembapan.</p>
+    </li>
+    <li>
+      <h3>Sajikan Steak:</h3>
+      <p>Setelah steak berehat, letakkan pada pinggan dan hidangkan kepada pelanggan. Anda boleh hiaskan steak dengan sampingan seperti kentang lenyek, sayur-sayuran, atau sos bergantung pada pesanan.</p>
+      <p><strong>Tip:</strong> Sajikan steak segera selepas siap untuk memastikan pelanggan gembira dan elakkan ketidakpuasan kerana servis lambat.</p>
+    </li>
+  </ol>
+  
+  <h2 id="tips">Tip & Trik</h2>
+  <ul>
+    <li>
+      <strong>Kuasa Penguasaan Tahap Kematangan Steak:</strong> Dalam Cookingdom, memasak steak pada tahap kematangan yang tepat amat penting. Pelanggan akan menentukan bagaimana mereka mahu steak mereka, dan menyajikan dengan sempurna akan memberi anda penilaian tinggi. Beri perhatian pada pesanan mereka dan gunakan masa memasak yang betul untuk menghasilkan steak yang sempurna.
+    </li>
+    <li>
+      <strong>Pengurusan Pesanan Efisien:</strong> Apabila pelanggan bertambah, anda perlu mengendalikan beberapa pesanan steak pada masa sama. Prioritikan mengikut masa menunggu pelanggan. Pastikan setiap steak diperiksa tahap kematangannya dan elak terlebih masak ketika mengurus hidangan lain.
+    </li>
+    <li>
+      <strong>Peningkatan dan Peralatan:</strong> Semasa maju dalam Cookingdom, anda boleh menaik taraf peralatan memasak. Grill atau kuali yang lebih berkualiti akan memasak steak dengan lebih cepat dan efisien. Pertimbangkan untuk menaik taraf peralatan anda untuk mempercepat proses memasak dan memperbaiki hasil.
+    </li>
+    <li>
+      <strong>Gunakan Boost dan Pecutan:</strong> Cookingdom menawarkan boost dan pecutan untuk membantu anda mengendalikan masa sibuk. Gunakan ia untuk mempercepatkan memasak atau melayani pelanggan lebih pantas, terutama bila ada banyak pesanan steak pada masa sama.
+    </li>
+    <li>
+      <strong>Kepuasan Pelanggan:</strong> Kesabaran pelanggan adalah faktor besar dalam Cookingdom. Jika anda buat pelanggan menunggu lama untuk steak mereka, mereka mungkin akan kecewa. Sentiasa pastikan steak disajikan panas dan segera, dan pastikan pelanggan berpuas hati untuk hasil terbaik.
+    </li>
+  </ul>
+  
+  <h2 id="summary">Ringkasan</h2>
+  <p>Dalam Tahap 16 Cookingdom, menyediakan Steak yang sempurna adalah tentang mengawal masa memasak dan memastikan setiap steak dimasak mengikut tahap kematangan yang pelanggan inginkan. Anda perlu menguasai teknik memanggang dan memasak dalam kuali, mengurus pesanan berganda, dan menyajikan steak ketika masih segar dan berjus.</p>
+  <p>Menjelang akhir tahap ini, anda akan memperoleh kemahiran berharga dalam penyediaan steak yang akan membantu anda menangani hidangan lebih kompleks di tahap seterusnya. Dengan perhatian terperinci dan servis pantas, anda akan mampu mengendalikan pesanan steak seperti seorang profesional dan memastikan pelanggan terus kembali!</p>
+  `,
   },
 
   {
@@ -4018,9 +4018,10 @@ export const guides = [
 
   {
     id: 'cookingdom-game-level-38',
-    title: 'Cookingdom Tahap 38: Ayam Goreng Pan Dengan Sayur — Panduan Lengkap',
-    pageTitle: 'Cookingdom Tahap 38: Ayam Goreng Pan Dengan Sayur — Panduan Lengkap',
-    pageSubtitle: 'Kuasi Tteokbokki pedas dalam Tahap 38 Cookingdom yang pantas dan mencabar.',
+    title: 'Panduan Cookingdom Level 38: Ayam Goreng Pan dengan Sayur-sayuran',
+    pageTitle: 'Panduan Cookingdom Level 38: Ayam Goreng Pan dengan Sayur-sayuran',
+    pageSubtitle:
+      'Kuasi teknik menggoreng ayam pan dengan sayur-sayuran segar dalam Cookingdom Level 38.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
@@ -4028,81 +4029,81 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
     iframeUrl: 'https://www.youtube.com/embed/ED0NlqwWiwg',
     seo: {
-      title: 'Cookingdom Tahap 38: Panduan Tteokbokki Rush | Cookingdom.co',
+      title: 'Panduan Cookingdom Level 38: Ayam Goreng Pan dengan Sayur-sayuran | Cookingdom.co',
       description:
-        'Kuasi Tteokbokki Rush di Tahap 38 Cookingdom. Dapatkan tip memasak kek nasi, mengawal sos, menambah telur, dan mencapai skor tinggi.',
+        'Kuasi ayam goreng pan dengan sayur-sayuran dalam Level 38 Cookingdom. Pelajari strategi penting untuk memasak ayam yang juicy, urus persiapan sayur, dan raih ganjaran terbaik.',
       keywords:
-        'Cookingdom Tahap 38, Tteokbokki Cookingdom, Makanan Jalanan Korea, Kek Nasi, Gochujang, Panduan',
+        'Cookingdom Level 38, Ayam Goreng Pan, Panduan Cookingdom, Masakan Tumis, Hidangan Sayur, Tip Permainan Memasak',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_38.webp',
       levelInfoHtml:
-        '<h3>Tteokbokki Rush</h3><p><strong>Kesukaran:</strong> Sederhana-Tinggi</p><p><strong>Anggaran Masa:</strong> 3 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+        '<h3>Ayam Goreng Pan dengan Sayur-sayuran</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3–4 minit</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Tahap 37: Panduan Nasi Kimchi',
+          title: 'Panduan Cookingdom Level 37: Nasi Kimchi',
           imageUrl: '/images/guides_37.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
         },
         {
           id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Tahap 39: Panduan Sup Borscht Merah',
+          title: 'Panduan Cookingdom Level 39: Sup Borscht Merah',
           imageUrl: '/images/guides_39.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 38</h2>
-<p>Cookingdom Tahap 38 memperkenalkan <strong>Tteokbokki</strong>, makanan jalanan Korea yang pedas dan popular. Kepantasan, ketepatan, dan pengurusan masa adalah penting dalam tahap yang pantas ini.</p>
-
-<h2 id="goal">🎯 Matlamat Tahap 38</h2>
-<ul>
-  <li>Sajikan sekurang-kurangnya 30 hidangan Tteokbokki</li>
-  <li>Kekalkan kepuasan pelanggan melebihi 85%</li>
-  <li>Selesai dalam masa 3 minit</li>
-</ul>
-
-<h2 id="ingredients">🌶️ Bahan-bahan</h2>
-<ul>
-  <li>Kek nasi (tteok)</li>
-  <li>Sos Gochujang</li>
-  <li>Telur rebus (pilihan bonus)</li>
-  <li>Daun bawang atau biji bijan untuk hiasan</li>
-</ul>
-
-<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah</h2>
-<ol>
-  <li>Mula dengan merebus kek nasi dalam dua periuk.</li>
-  <li>Sediakan sos gochujang semasa kek nasi dimasak.</li>
-  <li>Tambah sos ke dalam kuali, kacau bersama kek nasi, dan masak sehingga sedikit pekat.</li>
-  <li>Letakkan telur dan hias sebelum dihidang.</li>
-  <li>Susun pesanan seterusnya semasa menghidang untuk elakkan masa terbuang.</li>
-</ol>
-
-<h2 id="tips">🔥 Tip Pro Tahap 38</h2>
-<ul>
-  <li><strong>Memasak secara berkelompok:</strong> Masak beberapa hidangan sekaligus untuk jimat masa.</li>
-  <li><strong>Telur = Bonus:</strong> Sentiasa tambah jika pelanggan ada masa.</li>
-  <li><strong>Perhatikan periuk:</strong> Kek nasi yang terlebih masak akan dibazirkan.</li>
-</ul>
-
-<h2 id="mistakes">🚫 Kesilapan Lazim</h2>
-<ul>
-  <li>Meninggalkan sos terlalu lama hingga terbakar.</li>
-  <li>Tidak membuat persediaan awal — masa terbiar akan merosakkan kombo.</li>
-  <li>Lupa telur/hiasan — anda akan kehilangan mata bonus.</li>
-</ul>
-`,
+  <h2 id="overview">Gambaran Keseluruhan Cookingdom Level 38</h2>
+  <p>Dalam Level 38, anda akan menguasai hidangan tumis yang lazat: <strong>Ayam Goreng Pan dengan Sayur-sayuran</strong>. Masa dan urutan bahan adalah penting dalam cabaran multitugas ini.</p>
+  
+  <h2 id="goal">🎯 Matlamat Cookingdom Level 38</h2>
+  <ul>
+    <li>Sajikan sekurang-kurangnya 25 hidangan Ayam Goreng Pan</li>
+    <li>Kepuasan pelanggan kekal melebihi 80%</li>
+    <li>Selesaikan dalam masa kurang dari 4 minit</li>
+  </ul>
+  
+  <h2 id="ingredients">🥘 Bahan-bahan untuk Level 38</h2>
+  <ul>
+    <li>Irisan ayam</li>
+    <li>Sayur campur (lada benggala, lobak merah, brokoli)</li>
+    <li>Minyak dan sos tumis berasaskan soya</li>
+    <li>Hiasan pilihan: biji bijan atau daun bawang</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah</h2>
+  <ol>
+    <li>Panaskan kedua-dua kuali dengan minyak sebelum memulakan.</li>
+    <li>Mula goreng ayam dahulu, kerana ia mengambil masa lebih lama untuk dimasak.</li>
+    <li>Apabila ayam sudah separuh masak, tambah sayur campur dan sos.</li>
+    <li>Tumis sehingga sayur menjadi lembut rangup dan ayam kekuningan.</li>
+    <li>Hidang dan teruskan dengan batch seterusnya dengan segera.</li>
+  </ol>
+  
+  <h2 id="tips">🔥 Tips Pro untuk Berjaya</h2>
+  <ul>
+    <li><strong>Panaskan Kuali:</strong> Kuali panas mempercepatkan proses memasak dari awal.</li>
+    <li><strong>Jangan Terlalu Penuhkan Kuali:</strong> Terlalu banyak bahan dalam kuali akan mengurangkan kecekapan haba.</li>
+    <li><strong>Gilirkan Kuali:</strong> Gunakan kedua-dua kuali secara bergilir untuk penyajian yang lebih cepat.</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 Kesilapan Lazim</h2>
+  <ul>
+    <li>Menambah sos terlalu awal — menyebabkan makanan menjadi lembik.</li>
+    <li>Meninggalkan ayam kurang masak — menyebabkan penalti.</li>
+    <li>Lupa hiasan — mengurangkan bonus skor akhir.</li>
+  </ul>
+  `,
   },
 
   {
     id: 'cookingdom-game-level-39',
-    title: 'Panduan Cookingdom Level 39: Sup Beet Merah (Red Borscht)',
-    pageTitle: 'Panduan Cookingdom Level 39: Sup Beet Merah (Red Borscht)',
+    title: 'Panduan Cookingdom Level 39: Red Borscht',
+    pageTitle: 'Panduan Cookingdom Level 39: Red Borscht',
     pageSubtitle:
-      'Kuasi Spaghetti dengan Sos Krim Cendawan, hidangan Barat berkrim yang memerlukan masa yang tepat dalam Level 39.',
+      'Sediakan Red Borscht yang menyelerakan di Level 39 Cookingdom. Seimbangkan beetroot, kobis, dan krim masam untuk memuaskan pelanggan anda.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
@@ -4110,19 +4111,20 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
     iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko',
     seo: {
-      title: 'Panduan Cookingdom Level 39: Spaghetti dengan Sos Krim Cendawan',
+      title: 'Panduan Cookingdom Level 39: Pakar Red Borscht | Cookingdom.co',
       description:
-        'Kuasi Spaghetti dengan Sos Krim Cendawan di Level 39 Cookingdom. Dapatkan tip memasak pasta, menumis cendawan, menyediakan sos krim, dan menghidangkan hidangan berkrim ini.',
-      keywords: 'Cookingdom Level 39, Spaghetti Sos Krim Cendawan, Pasta, Makanan Itali, Panduan',
+        'Kuasi Red Borscht di Level 39 Cookingdom. Pelajari cara mengimbangi beetroot, kobis, sup, dan krim masam untuk hidangan Eropah Timur yang sempurna.',
+      keywords:
+        'Cookingdom Level 39, Red Borscht, Sup Eropah Timur, Beetroot, Kobis, Panduan Cookingdom',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_39.webp',
       levelInfoHtml:
-        '<h3>Spaghetti dengan Sos Krim Cendawan</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit 30 saat</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
+        '<h3>Tantangan Red Borscht</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3 minit 30 saat</p><p><strong>Ganjaran:</strong> 4 Bintang (Anggaran)</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-38',
-          title: 'Panduan Cookingdom Level 38: Ayam Goreng Dengan Sayur',
+          title: 'Panduan Cookingdom Level 38: Ayam Goreng Pan dengan Sayur',
           imageUrl: '/images/guides_38.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
         },
@@ -4135,47 +4137,49 @@ export const guides = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Level 39 Cookingdom</h2>
-<p><strong>Level 39 Cookingdom</strong> memperkenalkan <strong>Spaghetti dengan Sos Krim Cendawan</strong>, hidangan Barat berkrim yang memerlukan masa yang tepat antara merebus pasta dan menumis cendawan. Ketepatan masa adalah kunci untuk mendapatkan 3 bintang.</p>
-
-<h2 id="goal">🎯 Matlamat Level 39</h2>
-<ul>
-  <li>Sajikan sekurang-kurangnya 20 hidangan lengkap</li>
-  <li>Pastikan kepuasan pelanggan pada 90% atau lebih</li>
-  <li>Selesaikan dalam masa 3 minit 30 saat</li>
-</ul>
-
-<h2 id="ingredients">🍝 Bahan-bahan Level 39</h2>
-<ul>
-  <li>Mi spaghetti (direbus)</li>
-  <li>Cendawan (dihiris dan ditumis)</li>
-  <li>Sos krim (disediakan berasingan)</li>
-  <li>Pasli atau keju untuk hiasan</li>
-</ul>
-
-<h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Level 39</h2>
-<ol>
-  <li>Mulakan dengan merebus spaghetti dalam dua periuk segera.</li>
-  <li>Tumis cendawan dalam kuali berasingan semasa pasta dimasak.</li>
-  <li>Panaskan sos krim dalam kuali kecil – jangan biarkan mendidih.</li>
-  <li>Gabungkan pasta, cendawan, dan sos krim sebelum menghidang.</li>
-  <li>Hiaskan dengan pasli atau keju untuk setiap hidangan.</li>
-</ol>
-
-<h2 id="tips">🔥 Tip Pro Level 39</h2>
-<ul>
-  <li><strong>Rebus secara bertindan:</strong> Mulakan satu periuk sedikit lewat untuk mengekalkan aliran pasta yang stabil.</li>
-  <li><strong>Hiris cendawan lebih awal:</strong> Jimat masa semasa waktu puncak.</li>
-  <li><strong>Gunakan auto-serve:</strong> Apabila terlalu sibuk, ini membantu mengekalkan kombo.</li>
-</ul>
-
-<h2 id="mistakes">🚫 Kesilapan Lazim Level 39</h2>
-<ul>
-  <li>Memasak pasta terlalu lama – merosakkan hidangan dan membazir masa.</li>
-  <li>Lupa memanaskan sos sebelum mencampur – menurunkan rating hidangan.</li>
-  <li>Melangkau hiasan – kehilangan mata bonus yang berharga.</li>
-</ul>
-`,
+  <h2 id="overview">Gambaran Keseluruhan Cookingdom Level 39</h2>
+  <p><strong>Cookingdom Level 39</strong> memperkenalkan <strong>Red Borscht</strong>, sup Eropah Timur yang kaya dengan rasa dan warna. Kejayaan memerlukan koordinasi yang teliti dalam merebus, memotong, dan menghias.</p>
+  
+  <h2 id="goal">🎯 Matlamat Cookingdom Level 39</h2>
+  <ul>
+    <li>Sajikan sekurang-kurangnya 25 mangkuk Red Borscht</li>
+    <li>Pastikan kepuasan pelanggan melebihi 88%</li>
+    <li>Selesaikan tahap dalam masa 3 minit 30 saat</li>
+  </ul>
+  
+  <h2 id="ingredients">🥣 Bahan-bahan Cookingdom Level 39</h2>
+  <ul>
+    <li>Beetroot (dihiris)</li>
+    <li>Kobis yang telah disiat</li>
+    <li>Lobak merah dan bawang (disediakan bersama)</li>
+    <li>Sup (sayur atau daging lembu)</li>
+    <li>Krim masam (untuk hiasan)</li>
+    <li>Dill atau pasli (hiasan)</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah Cookingdom Level 39</h2>
+  <ol>
+    <li>Mula dengan merebus sup dalam kedua-dua periuk.</li>
+    <li>Sementara sup dipanaskan, potong beetroot, kobis, dan campuran sayur.</li>
+    <li>Masukkan sayur ke dalam sup yang sedang merebus mengikut urutan: bawang/lobak merah, kemudian beetroot, dan akhir sekali kobis.</li>
+    <li>Biarkan ia mendidih seketika — jangan terlebih masak!</li>
+    <li>Tuang sup ke dalam mangkuk, tambah satu sudu krim masam, dan hiaskan dengan dill atau pasli sebelum dihidang.</li>
+  </ol>
+  
+  <h2 id="tips">🔥 Tips Pakar Cookingdom Level 39</h2>
+  <ul>
+    <li><strong>Potong Secara Pukal:</strong> Sediakan beberapa hidangan sayur lebih awal untuk mengekalkan kelajuan.</li>
+    <li><strong>Atur Sup Secara Selang-seli:</strong> Gunakan satu periuk sedikit ketinggalan untuk mengekalkan aliran kerja.</li>
+    <li><strong>Hias Dengan Cepat:</strong> Setiap hiasan meningkatkan skor dan kepuasan pelanggan.</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 Kesilapan Biasa Cookingdom Level 39</h2>
+  <ul>
+    <li>Kobis terlebih masak — menjadikan sup bertekstur hancur dan menurunkan penilaian.</li>
+    <li>Terlepas krim masam — kunci rasa asli dan mata bonus.</li>
+    <li>Waktu yang tidak tepat — kelewatan antara hidangan menyebabkan pelanggan tidak puas hati.</li>
+  </ul>
+  `,
   },
 
   {

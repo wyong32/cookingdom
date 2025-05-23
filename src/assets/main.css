@@ -6,7 +6,9 @@
 }
 
 body {
-  font-family: 'Rounded M PLUS 1c', 'Varela Round', 'Arial', sans-serif; /* Updated font names */
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', Arial, sans-serif; /* 系统字体栈 */
   background-color: #fff0f5; /* Light pink background */
   color: #5b4b8a; /* Dark purple text */
   line-height: 1.6;

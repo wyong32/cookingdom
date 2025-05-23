@@ -16,15 +16,13 @@
           {{ currentGuide.pageSubtitle }}
         </p>
 
-        <!-- Display iframe if iframeUrl exists -->
+        <!-- Display YouTube video if iframeUrl exists -->
         <div v-if="currentGuide.iframeUrl" class="iframe-container">
-          <iframe
-            :src="currentGuide.iframeUrl"
-            frameborder="0"
-            allowfullscreen
+          <YouTubeFacade
+            :videoUrl="currentGuide.iframeUrl"
             :title="$t('guideDetail.iframeTitle')"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          ></iframe>
+            :customThumbnail="getVideoThumbnail(currentGuide)"
+          />
         </div>
 
         <!-- Render HTML content using v-html (Now last) -->
@@ -101,6 +99,7 @@ import { useI18n } from 'vue-i18n'
 import { useGuides } from '@/composables/useGuides'
 import { defaultLang } from '@/i18n'
 import { updateMetaTag } from '@/utils/head'
+import YouTubeFacade from '@/components/YouTubeFacade.vue'
 
 const route = useRoute()
 const { t, locale } = useI18n()
@@ -267,6 +266,23 @@ const addVideoSchema = (guideObj) => {
   script.id = 'video-schema'
   script.text = JSON.stringify(schema)
   document.head.appendChild(script)
+}
+
+// 获取视频缩略图
+const getVideoThumbnail = (guide) => {
+  if (!guide) return null
+
+  // 优先使用侧边栏图片或主图片作为缩略图
+  let thumbnail = guide.sidebarData?.sidebarImageUrl || guide.imageUrl
+
+  // 确保路径是绝对路径
+  if (thumbnail && thumbnail.startsWith('/')) {
+    thumbnail = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumbnail.substring(
+      1
+    )}`
+  }
+
+  return thumbnail
 }
 
 onMounted(() => {
@@ -442,19 +458,13 @@ watch(currentGuide, (newVal) => {
 
 .iframe-container {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
-  border: 1px solid #eee;
-  border-radius: 4px;
-}
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 16 / 9;
 }
 
 .loading-or-not-found {

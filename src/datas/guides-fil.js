@@ -626,9 +626,9 @@ export const guides = [
 
   {
     id: 'cookingdom-game-level-8',
-    title: 'Cookingdom Antas 8: Gabay sa Pagluluto ng Texas Barbecue',
-    pageTitle: 'Cookingdom Antas 8: Gabay sa Pagluluto ng Texas Barbecue',
-    pageSubtitle: 'Matutunan kung paano magluto ng perpektong steak sa Antas 8 ng Cookingdom.',
+    title: 'Cookingdom Antas 8 Texas BBQ Walkthrough',
+    pageTitle: 'Cookingdom Antas 8 Texas BBQ Walkthrough',
+    pageSubtitle: 'Masterin ang mausok at malinamnam na Texas BBQ sa Antas 8 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
     isSpecial: true,
@@ -637,22 +637,22 @@ export const guides = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-8' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
+    iframeUrl: 'https://www.youtube.com/embed/qxPUF3cKPrs',
     seo: {
-      title: 'Cookingdom Antas 8: Steak | Mga Tip at Estratehiya',
+      title: 'Gabay sa Cookingdom Antas 8: Texas BBQ | cookingdom.co',
       description:
-        'Masterin ang pagluluto ng steak (rare, medium, well-done) sa Antas 8 ng Cookingdom. Mga tips sa timing, temperatura, at pamamahala ng order.',
+        'Matutong magluto ng Texas BBQ (ribs, brisket) sa Cookingdom Antas 8. Alamin ang mga tip sa slow-cooking, BBQ sauce, mga side dish (cornbread, beans, coleslaw), at tamang timing.',
       keywords:
-        'cookingdom, antas 8, steak, gabay, barbecue, level ng pagluluto, rare, medium, well-done, pamamahala ng oras',
+        'Cookingdom Antas 8, cookingdom Texas BBQ, BBQ Gabay, Ribs, Brisket, BBQ Sauce, Cornbread, Slow Cooking, Estratehiya',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_07.webp',
+      sidebarImageUrl: '/images/guides_08.webp',
       levelInfoHtml:
-        '<h3>Steak</h3><p><strong>Hirap:</strong> Katamtaman</p><p><strong>Oras:</strong> 3.5 minuto</p><p><strong>Gantimpala:</strong> 5 Bituin</p>',
+        '<h3>Texas BBQ</h3><p><strong>Hirap:</strong> Mahirap</p><p><strong>Tinatayang Oras:</strong> 5 minuto</p><p><strong>Gantimpala:</strong> 5 Bituin</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-7',
-          title: 'Cookingdom Antas 7: Gabay sa Sunny Eggs',
+          title: 'Cookingdom Antas 7 Sunny Eggs Walkthrough',
           imageUrl: '/images/guides_05.webp',
           detailsRoute: {
             name: 'guide-detail',
@@ -661,7 +661,7 @@ export const guides = [
         },
         {
           id: 'cookingdom-game-level-9',
-          title: 'Cookingdom Antas 9: Gabay sa Spaghetti',
+          title: 'Cookingdom Antas 9 Spaghetti Walkthrough',
           imageUrl: '/images/guides_06.webp',
           detailsRoute: {
             name: 'guide-detail',
@@ -671,83 +671,59 @@ export const guides = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Pangkalahatang-ideya ng Laro</h2>
-  <p>Sa Cookingdom, bawat bagong antas ay humihingi ng mas komplikadong mga putahe. Hindi naiiba ang Antas 8 — kailangang magluto ka ng perpektong steak. Nangangailangan ito ng tamang kontrol sa oras, temperatura, at pagtuon sa order ng customer. Sa kabuuan ng laro, ang pagluluto ng steak ay magiging mahalagang bahagi ng menu mo, at ang galing sa pag-manage ng tamang luto ang susi para mapasaya ang mga customer.</p>
-  <p>Sa antas na ito, kailangang mo maayos na pamahalaan ang kusina upang matiyak na naluluto ang steak ayon sa hinihingi — rare, medium, o well-done. Tingnan natin kung paano magluto ng perpektong steak!</p>
-
-  <h2 id="goal">Mga Layunin ng Antas 8</h2>
+  <h2 id="overview">Pangkalahatang-ideya ng Laro sa Antas 8 ng Cookingdom</h2>
+  <p>Sa Antas 8 ng Cookingdom, dadalhin mo sa iyong kusina ang malakas at malinamnam na lasa ng Texas BBQ. Ang antas na ito ay hamon sa iyong kakayahan sa pagluluto ng masarap na BBQ na may kasamang iba’t ibang karne, sarsa, at mga side dish.</p>
+  <p>Maghahanda ka ng BBQ meats tulad ng ribs o brisket, kasabay ng mga klasikong panig gaya ng cornbread, baked beans, at coleslaw. Ang hamon dito ay ang maayos na pagsabay-sabay ng pagluluto upang mainit at masarap itong maihain.</p>
+  
+  <h2 id="goal">Mga Layunin sa Antas 8</h2>
   <ul>
-      <li><strong>Magluto ng steak nang perpekto:</strong> Sa Cookingdom, kailangang lutuin ang steak ayon sa nais ng customer: rare, medium, o well-done. Bawat isa ay may kanya-kanyang preferensiya, at mahalaga na tama ang luto ng steak.</li>
-      <li><strong>Mag-manage ng maraming steak order:</strong> Tulad ng mga nakaraang antas, kritikal ang mahusay na pamamahala ng maramihang order. Susubukan ng Cookingdom ang kakayahan mo na magluto ng iba't ibang steak nang sabay-sabay habang pinapanatili ang kalidad.</li>
-      <li><strong>Mag-serve ng steak nang mabilis:</strong> Ayaw ng mga customer na maghintay, kaya mahalagang maipasa ang steak agad matapos itong maluto. Mahalaga ang timing para makakuha ng pinakamataas na puntos.</li>
+    <li><strong>Lutuin ang BBQ na Karne (Ribs o Brisket):</strong> Kailangang maluto ito nang malambot, makatas, at puno ng usok-lasa.</li>
+    <li><strong>Ihanda ang BBQ Sauce:</strong> Napakahalaga ng tamang timpla ng sarsa para makuha ang tunay na Texas BBQ flavor.</li>
+    <li><strong>Lutuin ang mga Side Dish:</strong> Isabay ang pagluluto ng cornbread, baked beans, at coleslaw habang nagluluto ng karne.</li>
+    <li><strong>Maghain Agad:</strong> Kailangang mainit at sariwa ang BBQ sa paghatid upang makakuha ng mataas na rating mula sa mga customer.</li>
   </ul>
-
-  <h2 id="steps">Mga Hakbang sa Pagluluto ng Steak</h2>
+  
+  <h2 id="steps">Mga Hakbang sa Pagluluto ng Texas BBQ</h2>
   <ol>
-      <li>
-          <h3>Magpainit ng kawali o griller:</h3>
-          <p>Bago magsimula, painitin nang husto ang kawali o griller. Ang sikreto ng magandang steak ay ang mataas na init para magkaroon ng magandang sear sa labas habang nananatiling juicy sa loob. Magdagdag ng mantika o butter upang hindi dumikit ang steak.</p>
-          <p><strong>Tip:</strong> Ang mainit na kawali ay mahalaga upang makagawa ng masarap na crust sa steak.</p>
-      </li>
-      <li>
-          <h3>Season ang steak:</h3>
-          <p>Kapag mainit na ang kawali, i-season ang steak ng asin, paminta, at iba pang pampalasa ayon sa panlasa. Maaaring may espesyal na request ang customer kaya siguraduhing basahin ang order nang mabuti.</p>
-          <p><strong>Tip:</strong> Gumamit ng sapat na pampalasa sa magkabilang panig ng steak.</p>
-      </li>
-      <li>
-          <h3>Magluto ng steak:</h3>
-          <p>Ilagay ang steak sa mainit na kawali o griller. Depende sa hinihinging luto ng customer, ito ang approximate cooking time:</p>
-          <ul>
-              <li>Rare: 2-3 minuto bawat side.</li>
-              <li>Medium: 4-5 minuto bawat side.</li>
-              <li>Well-Done: 6-7 minuto bawat side.</li>
-          </ul>
-          <p><strong>Tip:</strong> Baliktarin ang steak isang beses lang para hindi mawala ang katas. Gumamit ng tongs para maayos na pagbaliktad.</p>
-      </li>
-      <li>
-          <h3>Suriin ang luto:</h3>
-          <p>Tingnan at hawakan ang steak upang matantiya ang luto nito:</p>
-          <ul>
-              <li>Rare: bahagyang malamig sa hawak, kulay pula ang laman.</li>
-              <li>Medium: medyo firm, kulay pink ang laman.</li>
-              <li>Well-Done: matigas at kulay brown sa loob, walang pink.</li>
-          </ul>
-          <p><strong>Tip:</strong> May mga visual cues o timer sa laro na makakatulong para maiwasan ang overcooking.</p>
-      </li>
-      <li>
-          <h3>Hayaan munang magpahinga ang steak:</h3>
-          <p>Pagkatapos maluto, alisin ang steak sa init at hayaan itong magpahinga ng 1-2 minuto. Nakakatulong ito para kumalat ang katas at maging mas malasa at malambot ang steak.</p>
-          <p><strong>Tip:</strong> Huwag kaligtaan ang hakbang na ito! Mahalaga ang pagpapahinga para sa lasa at juiciness ng steak.</p>
-      </li>
-      <li>
-          <h3>I-serve ang steak:</h3>
-          <p>Ilagay ang steak sa plato at ihain sa customer. Pwede itong sabayan ng mashed potatoes, gulay, o sauce depende sa order.</p>
-          <p><strong>Tip:</strong> Ihain agad upang masiyahan ang customer at maiwasan ang pagkapaso ng lasa.</p>
-      </li>
+    <li>
+      <h3>Lutuin ang BBQ Meat (Ribs o Brisket):</h3>
+      <p>Simulan sa paglalagay ng ibinigay na pampalasa. Ilagay sa grill o smoker at hayaang maluto ng dahan-dahan. Baliktarin paminsan-minsan.</p>
+      <p><strong>Tip:</strong> Huwag labis ang luto—mawawala ang tamang lambot at katas ng karne.</p>
+    </li>
+    <li>
+      <h3>Ihanda ang BBQ Sauce:</h3>
+      <p>Gamitin ang sangkap gaya ng ketchup, suka, at brown sugar upang makabuo ng makapal at flavorful na sarsa. Haluin paminsan-minsan upang hindi masunog.</p>
+    </li>
+    <li>
+      <h3>Lutuin ang mga Side Dish:</h3>
+      <ul>
+        <li><strong>Cornbread:</strong> Matamis-tamis at malambot na tinapay.</li>
+        <li><strong>Baked Beans:</strong> Malinamnam na beans na may sarsa.</li>
+        <li><strong>Coleslaw:</strong> Malutong at preskong salad bilang pantapat sa BBQ.</li>
+      </ul>
+    </li>
+    <li>
+      <h3>Ihanda ang Plato:</h3>
+      <p>Isalansan ang BBQ meat at mga side dish sa plato—maayos, masarap tingnan, at handang ihain.</p>
+    </li>
+    <li>
+      <h3>Ihain ang Texas BBQ:</h3>
+      <p>Ihatid agad ang pagkaing mainit para sa pinakamataas na puntos.</p>
+    </li>
   </ol>
-
-  <h2 id="tips">Mga Tip at Trick</h2>
+  
+  <h2 id="tips">Mga Tip at Teknik sa Antas 8</h2>
   <ul>
-      <li>
-          <strong>Pagluto ng steak ayon sa tamang antas:</strong> Sa Cookingdom, mahalaga na maluto ang steak ayon sa gusto ng customer. Mas mataas ang rating kung perpekto ang luto ng steak. Laging basahin ang order at bantayan ang oras ng pagluluto.
-      </li>
-      <li>
-          <strong>Mabisang pamamahala ng mga order:</strong> Habang dumarami ang customer, kailangang magluto ng maraming steak nang sabay-sabay. Bigyang prayoridad ang mga order base sa haba ng paghihintay at iwasan ang sobra o kulang na luto habang gumagawa ng ibang putahe.
-      </li>
-      <li>
-          <strong>Pag-upgrade ng mga kagamitan sa kusina:</strong> Sa laro, pwedeng i-upgrade ang mga gamit tulad ng kawali at griller para mas mabilis at mas magandang quality ang pagluluto ng steak. Nakakatulong ito para mapabilis ang proseso at tumaas ang kita.
-      </li>
-      <li>
-          <strong>Paggamit ng boosters at power-ups:</strong> Nagbibigay ang Cookingdom ng mga booster para makatulong sa mga rush hour. Gamitin ito para mapabilis ang pagluluto at paghahain lalo na kapag maraming order ang sabay-sabay.
-      </li>
-      <li>
-          <strong>Pagpapanatili ng kasiyahan ng customer:</strong> May limitasyon ang pasensya ng mga customer. Kung matagal silang maghintay, aalis sila ng hindi kuntento. Laging ihain ang mainit na steak nang mabilis para mapanatili ang mataas na rating.
-      </li>
+    <li><strong>Bagalan ang Pagluluto ng Karne:</strong> Dahan-dahan pero tiyak ang proseso—iyan ang susi sa malambot at masarap na BBQ.</li>
+    <li><strong>Perpektuhin ang BBQ Sauce:</strong> Panatilihing balanse ang alat, tamis, at asim. Huwag hayaang masunog habang niluluto.</li>
+    <li><strong>Maging Mahusay sa Multitasking:</strong> Habang nagluluto ng karne, bantayan din ang mga side dish.</li>
+    <li><strong>Ihain Nang Mainit:</strong> Agarang paghatid = mataas na customer rating.</li>
+    <li><strong>I-upgrade ang Kusina:</strong> Mag-invest sa mas mabilis na grill o gamit upang makatugon sa mas maraming order.</li>
   </ul>
-
+  
   <h2 id="summary">Buod</h2>
-  <p>Sa Antas 8 ng Cookingdom, ang pagluluto ng perpektong steak ay nangangailangan ng tamang timing at pagsunod sa gusto ng customer sa luto. Matutunan mong gamitin nang maayos ang griller at kawali, mag-manage ng maraming order, at mag-serve ng mainit at juicy na steak.</p>
-  <p>Mahuhubog sa antas na ito ang mga kakayahan na gagamitin mo sa mas komplikadong mga putahe sa mga susunod na antas. Sa tamang detalye at mabilis na serbisyo, magiging master ka ng steak at mapapasaya mo ang iyong mga customer!</p>
+  <p>Sa Antas 8 ng Cookingdom, kailangan mong masterin ang mabagal na pagluluto ng karne, BBQ sauce, at mga side dish. Ang tagumpay ay nasa tamang timing, multitasking, at masarap na lasa ng bawat bahagi ng putahe.</p>
+  <p>Kung maayos mong mapagsasabay ang mga ito, makakamit mo ang 5-bituing rating at masasayahan ang iyong mga customer sa bawat kagat ng Texas BBQ.</p>
   `,
   },
 
@@ -1474,118 +1450,121 @@ export const guides = [
 
   {
     id: 'cookingdom-game-level-16',
-    title: 'Cookingdom Gabay sa Antas 16 — Steak',
-    pageTitle: 'Cookingdom Gabay sa Antas 16 — Steak',
-    pageSubtitle: 'Masterin ang masarap at malinamnam na Texas Barbecue sa Antas 16 ng Cookingdom.',
+    title: 'Cookingdom Gabay sa Level 16: Steak',
+    pageTitle: 'Cookingdom Gabay sa Level 16: Steak',
+    pageSubtitle:
+      'Matutunan kung paano lutuin ang perpektong steak ayon sa order sa Cookingdom Level 16.',
     category: '11-20',
     publishDate: '2025-05-04',
     isSpecial: false,
-    imageUrl: '/images/guides_16.webp',
+    imageUrl: '/images/guides_16.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
-    iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI',
+    iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI', // Placeholder
     seo: {
-      title: 'Cookingdom Gabay sa Antas 16: Texas Barbecue | cookingdom.co',
+      title: 'Cookingdom Gabay sa Level 16: Steak | Tips at Estratehiya',
       description:
-        'Matutunan kung paano maghanda ng Texas Barbecue (rib, brisket) sa Cookingdom Antas 16. Mga tip sa slow cooking, sarsa, side dishes (cornbread, beans, coleslaw), at time management.',
+        'Masterin ang pagluluto ng steak (rare, medium, well-done) sa Cookingdom Level 16. Mga tips sa timing, init, at pamamahala ng orders.',
       keywords:
-        'Cookingdom antas 16, texas barbecue, barbecue guide, rib, brisket, barbecue sauce, cornbread, slow cooking, strategy',
+        'cookingdom, level 16, steak, gabay, grilling, searing, doneness, rare, medium, well-done, time management',
     },
     sidebarData: {
-      sidebarImageUrl: '/images/guides_16.webp',
+      sidebarImageUrl: '/images/guides_16.webp', // Placeholder
       levelInfoHtml:
-        '<h3>Texas Barbecue</h3><p><strong>Antas ng Kahirapan:</strong> Mataas</p><p><strong>Tinatayang Oras:</strong> 5 minuto</p><p><strong>Gantimpala:</strong> 5 bituin</p>',
+        '<h3>Steak</h3><p><strong>Antas ng Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 3.5 minuto</p><p><strong>Gantimpala:</strong> 5 Bituin</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-15',
-          title: 'Cookingdom Gabay sa Antas 15 — Fried Chicken',
-          imageUrl: '/images/guides_15.webp',
+          title: 'Cookingdom Gabay sa Level 15: Fried Chicken',
+          imageUrl: '/images/guides_15.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
         },
         {
           id: 'cookingdom-game-level-17',
-          title: 'Cookingdom Gabay sa Antas 17 — Café Macchiato',
-          imageUrl: '/images/guides_17.webp',
+          title: 'Cookingdom Gabay sa Level 17: Cafe Macchiato',
+          imageUrl: '/images/guides_17.webp', // Placeholder
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Ideya ng Antas 16 ng Cookingdom</h2>
-<p>Sa Antas 16 ng Cookingdom, ipapakilala sa iyo ang masarap at malinamnam na Texas Barbecue. Sa antas na ito, maghahanda ka ng usok na karne na may iba't ibang sarsa at side dishes.</p>
-<p>Magluluto ka ng barbecue na karne tulad ng ribs o brisket, at ihahain ito kasama ang klasikong side dishes: cornbread, beans, at coleslaw. Ang hamon ay pagsabayin ang pagluluto ng karne at side dishes upang lahat ay mainit at masarap ihain.</p>
-<p>Tingnan natin nang mas malapit ang Antas 16 at maging master sa Texas Barbecue!</p>
-
-<h2 id="goal">Mga Layunin ng Antas 16 ng Cookingdom</h2>
-<ul>
-  <li><strong>Lutuin ang barbecue na karne (ribs o brisket):</strong> Siguraduhing malambot, makatas, at mayaman sa usok ang karne.</li>
-  <li><strong>Gumawa ng barbecue sauce:</strong> Ang masarap na sarsa ay susi sa tunay na lasa ng Texas. Siguraduhing balanseng lasa ang sarsa.</li>
-  <li><strong>Lutuin ang mga side dishes:</strong> Karaniwang sinasamahan ang Texas Barbecue ng cornbread, beans, at coleslaw. Bantayan ang lahat ng side dishes nang maayos.</li>
-  <li><strong>Ihain ang pagkain nang mabilis:</strong> Tulad ng dati sa Cookingdom, mas mataas ang puntos kapag mainit at sariwa ang pagkain na inihain.</li>
-</ul>
-
-<h2 id="steps">Mga Hakbang sa Pagluluto ng Texas Barbecue sa Antas 16</h2>
-<ol>
-  <li>
-    <h3>Pagluluto ng karne (ribs o brisket):</h3>
-    <p>Simulan sa paglalagay ng dry rub o marinade sa karne. Sa Antas 16, nakahanda na ang mga sangkap — ang trabaho mo lang ay ipahid nang pantay-pantay sa karne.</p>
-    <p>Ilagay ang karne sa smoker o grill. Ang mabagal na pagluluto ay mahalaga; bantayan ang karne upang maging malambot at pantay ang luto.</p>
-    <p><strong>Tip:</strong> Baliktarin ang karne nang pana-panahon upang pantay ang luto. Ang perpektong barbecue ay may malutong na crust sa labas at malambot sa loob.</p>
-    <p><strong>Tip:</strong> Huwag masyadong lutuin! Ang tamang oras ng pagluluto ang nagbibigay ng pinakamahusay na texture at lasa.</p>
-  </li>
-  <li>
-    <h3>Pagluluto ng barbecue sauce:</h3>
-    <p>Habang naghihintay sa karne, ihanda ang sarsa. Karaniwang may kombinasyon ng maasim, matamis, at smoky na lasa gamit ang tomato base, suka, at brown sugar.</p>
-    <p>Haluin ang mga sangkap at pakuluan hanggang sa lumapot. Ginagamit ang sarsa para pahiran ang karne habang o pagkatapos maluto.</p>
-    <p><strong>Tip:</strong> Huwag hayaang masunog ang sarsa — haluin paminsan-minsan. Dapat medyo malapot ang sarsa para masarap i-coat ang karne.</p>
-  </li>
-  <li>
-    <h3>Pagluluto ng side dishes:</h3>
-    <p>Huwag kalimutan ang side dishes! Karaniwan itong:</p>
-    <ul>
-      <li><strong>Cornbread:</strong> Medyo matamis at moist na tinapay na bagay sa barbecue.</li>
-      <li><strong>Beans:</strong> Mabagal na niluto sa malapot na sarsa, minsan may kasamang bacon.</li>
-      <li><strong>Coleslaw:</strong> Presko at crunchy, nagbibigay balanse sa mabigat na barbecue.</li>
-    </ul>
-  </li>
-  <li>
-    <h3>Paghahain ng pagkain:</h3>
-    <p>Kapag luto na ang lahat, ilagay sa plato: karne, cornbread, beans, at coleslaw.</p>
-  </li>
-  <li>
-    <h3>Paghahatid:</h3>
-    <p>Ihain agad para mainit pa ang pagkain. Ang mabilis na paghahatid ay nagbibigay ng mataas na rating sa mga customer.</p>
-    <p><strong>Tip:</strong> Huwag hayaang lumamig ang pagkain — ang pinakamahusay na barbecue ay mainit at sariwa.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip para sa Antas 16</h2>
-<ul>
-  <li>
-    <h3>Mabagal na pagluluto ng karne:</h3>
-    <p>Ang Texas Barbecue ay nangangailangan ng pasensya. Huwag magmadali at siguraduhing pantay ang init. Ang mabagal na pagluluto ay nagbibigay ng malambot na karne.</p>
-  </li>
-  <li>
-    <h3>Perpektong barbecue sauce:</h3>
-    <p>Mahalaga ang sarsa. Siguraduhing balanseng lasa at haluin upang hindi masunog.</p>
-  </li>
-  <li>
-    <h3>Mahusay na multitasking:</h3>
-    <p>Bigyang pansin ang karne at side dishes nang sabay-sabay.</p>
-  </li>
-  <li>
-    <h3>Mainit at sariwang paghahain:</h3>
-    <p>Ang pagiging sariwa ng pagkain ang nagbibigay ng mataas na rating.</p>
-  </li>
-  <li>
-    <h3>Pag-upgrade ng kagamitan sa kusina:</h3>
-    <p>I-upgrade ang grill at ibang gamit para mapabilis ang pagluluto at mabawasan ang oras ng paghihintay.</p>
-  </li>
-</ul>
-
-<h2 id="summary">Buod</h2>
-<p>Sa Antas 16 ng Cookingdom, ang pagluluto ng Texas Barbecue ay nangangailangan ng kasanayan sa mabagal na pagluluto ng karne, paggawa ng masarap na sarsa, at pagbabalansi ng side dishes. Ang mahusay na pamamahala ng oras at multitasking ay susi sa tagumpay.</p>
-<p>Sa pagtutok sa karne, sarsa, at organisadong kusina, mapapasaya mo ang mga customer at makakakuha ng mataas na rating. Ang malinamnam na lasa, malambot na karne, at masasarap na side dishes ay magpapabalik sa kanila muli.</p>
-`,
+  <h2 id="overview">Pangkalahatang-ideya ng Laro</h2>
+  <p>Sa Cookingdom, bawat bagong level ay hamon sa iyo na lumikha ng mas komplikadong putahe. Hindi naiiba ang Level 16, kung saan kailangang lutuin ang perpektong steak. Ang pagkaing ito ay nangangailangan ng tamang timing, kontrol sa init, at matinding pansin sa mga order ng mga customer. Habang sumusulong ka sa Cookingdom, ang pagluluto ng steak ay magiging isang mahalagang bahagi ng menu, kaya mahalaga na matutunan ang tamang antas ng pagkakaluto upang masiyahan ang mga customer.</p>
+  <p>Sa level na ito, kailangan mong pamahalaan ang iyong kusina nang maayos habang tinitiyak na bawat steak ay naluluto ayon sa gusto—rare, medium, o well-done. Tuklasin natin ang mga hakbang sa pagluluto ng perpektong steak!</p>
+  
+  <h2 id="goal">Layunin ng Level 16</h2>
+  <ul>
+    <li><strong>Magluto ng Perpektong Steak:</strong> Kinakailangan mong lutuin ang steak sa tamang antas ng pagkakaluto: rare, medium, at well-done. May kanya-kanyang preference ang mga customer kaya mahalaga ang pagiging eksakto upang mapunan ang kanilang inaasahan.</li>
+    <li><strong>Pamahalaan ang Maramihang Order ng Steak:</strong> Tulad ng mga naunang level, kritikal ang kakayahan mong mag-manage ng sabay-sabay na mga order habang tinitiyak na bawat steak ay naluluto ng tama.</li>
+    <li><strong>Ihain nang Mabilis ang Steak:</strong> Madali magmamadali ang mga customer, kaya ang mabilis na pag-serve ng steak pagkatapos maluto ay mahalaga upang makakuha ng mataas na rating.</li>
+  </ul>
+  
+  <h2 id="steps">Mga Hakbang sa Pagluluto ng Steak</h2>
+  <ol>
+    <li>
+      <h3>Initin ang Pan o Grill:</h3>
+      <p>Bago magluto, painitin ang pan o grill sa mataas na temperatura. Ang sikreto sa magandang steak ay ang pagkakaroon ng mainit na surface para magkaroon ng masarap na crust sa labas habang nananatiling juicy sa loob. Maglagay ng konting mantika o butter para hindi dumikit ang steak.</p>
+      <p><strong>Tip:</strong> Mahalaga ang mainit na pan o grill upang makuha ang tamang crust ng steak.</p>
+    </li>
+    <li>
+      <h3>I-season ang Steak:</h3>
+      <p>Kapag mainit na ang pan, i-season ang steak ng asin, paminta, at iba pang herbs o spices na gusto mo. Maaaring may espesyal na request ang customer kaya siguraduhing suriin ang kanilang order nang mabuti.</p>
+      <p><strong>Tip:</strong> Siguraduhing season ang magkabilang side ng steak para mas masarap ang lasa.</p>
+    </li>
+    <li>
+      <h3>Ipagluto ang Steak:</h3>
+      <p>Ilagay ang steak sa mainit na pan o grill. Depende sa gusto ng customer, ito ang tinatayang oras ng pagluluto bawat side:</p>
+      <ul>
+        <li>Rare: 2-3 minuto bawat side.</li>
+        <li>Medium: 4-5 minuto bawat side.</li>
+        <li>Well-Done: 6-7 minuto bawat side.</li>
+      </ul>
+      <p><strong>Tip:</strong> Baliktarin lang ang steak isang beses upang hindi lumabas ang juice. Gamitin ang tongs upang maingat na ibaliktad.</p>
+    </li>
+    <li>
+      <h3>Suriin ang Antas ng Pagkaluto:</h3>
+      <p>Gamitin ang visual cues at touch para masuri ang pagkakaluto:</p>
+      <ul>
+        <li>Rare: Malambot kapag hinawakan, kulay pula sa gitna.</li>
+        <li>Medium: Medyo matigas na may pink na gitna.</li>
+        <li>Well-Done: Matigas at brown na, walang pink sa loob.</li>
+      </ul>
+      <p><strong>Tip:</strong> Sa Cookingdom, maaaring may visual indicator o timer para malaman kung kailan luto na ang steak para maiwasan ang overcooking.</p>
+    </li>
+    <li>
+      <h3>Pahingahin ang Steak:</h3>
+      <p>Kapag luto na, alisin ang steak sa pan o grill at hayaan itong magpahinga ng isa o dalawang minuto. Nakakatulong ito para maipamahagi ang juice nang pantay sa loob ng steak para mas malasa at malambot.</p>
+      <p><strong>Tip:</strong> Huwag palampasin ang hakbang na ito! Mahalaga ang pagpapahinga upang mapanatili ang moisture at lasa.</p>
+    </li>
+    <li>
+      <h3>Ihain ang Steak:</h3>
+      <p>Pagkatapos magpahinga, ilagay ang steak sa plato at ihain sa customer. Pwede mong lagyan ng sides tulad ng mashed potatoes, gulay, o sauces depende sa order.</p>
+      <p><strong>Tip:</strong> Ihain agad ang steak habang mainit pa para masaya ang customer at maiwasan ang pagkabigo dahil sa mabagal na serbisyo.</p>
+    </li>
+  </ol>
+  
+  <h2 id="tips">Mga Tip at Teknik</h2>
+  <ul>
+    <li>
+      <strong>Masterin ang Antas ng Pagkaluto:</strong> Sa Cookingdom, mahalagang lutuin ang steak ayon sa eksaktong level na gusto ng customer para sa mataas na rating. Bigyang pansin ang kanilang order at gamitin ang tamang oras ng pagluluto para makagawa ng perpektong steak.
+    </li>
+    <li>
+      <strong>Epektibong Pamamahala ng Mga Order:</strong> Kapag dumami ang mga customer, kailangan mong mag-handle ng maraming steak order sabay-sabay. Prayoridad ang mga order base sa oras ng paghihintay. Siguraduhing i-check ang pagkakaluto ng bawat steak at iwasang masunog habang nagluluto ng iba.
+    </li>
+    <li>
+      <strong>Pag-upgrade ng Kagamitan:</strong> Habang sumusulong sa Cookingdom, puwede mong i-upgrade ang mga gamit sa kusina. Ang mas magagandang pan at grill ay makakatulong magluto ng steak nang mas mabilis at mas maayos. Isaalang-alang ang pag-upgrade para mapabilis ang proseso at mapaganda ang resulta.
+    </li>
+    <li>
+      <strong>Paggamit ng Boosts at Speed-ups:</strong> Nagbibigay ang Cookingdom ng mga boost para matulungan kang mag-manage ng oras lalo na sa peak hours. Gamitin ito para mapabilis ang pagluluto o pagseserbisyo lalo na kapag maraming steak order.
+    </li>
+    <li>
+      <strong>Kasiya ng Customer:</strong> Mahalaga ang pasensya ng customer. Kapag matagal silang naghintay ng steak, malamang magdudulot ito ng pagkadismaya. Siguraduhing mainit at mabilis ang pag-serve upang mapanatili ang kanilang kasiyahan.
+    </li>
+  </ul>
+  
+  <h2 id="summary">Buod</h2>
+  <p>Sa Cookingdom Level 16, ang paglikha ng perpektong steak ay tungkol sa tamang timing at pagtiyak na naluluto ang steak ayon sa gusto ng customer. Kakailanganin mong maging eksperto sa grilling at pan-cooking, mag-manage ng sabay-sabay na order, at mag-serve ng steak habang mainit pa at juicy.</p>
+  <p>Sa pagtatapos ng level na ito, magkakaroon ka ng mahalagang kasanayan sa pagluluto ng steak na magagamit mo sa mga mas mahirap na level sa hinaharap. Sa tamang detalye at mabilis na serbisyo, magiging pro ka na sa pag-handle ng steak orders at mapapanatili mo ang mga customer na masaya!</p>
+  `,
   },
 
   {
@@ -4026,10 +4005,10 @@ export const guides = [
 
   {
     id: 'cookingdom-game-level-38',
-    title: 'Cookingdom Level 38: Pan Fried Chicken With Vegetables Walkthrough',
-    pageTitle: 'Cookingdom Level 38: Pan Fried Chicken With Vegetables Walkthrough',
+    title: 'Cookingdom Level 38 Gabay: Pan Fried Chicken na may Gulay',
+    pageTitle: 'Cookingdom Level 38 Gabay: Pan Fried Chicken na may Gulay',
     pageSubtitle:
-      'Masterin ang maanghang na Tteokbokki sa mabilis at masayang Level 38 ng Cookingdom.',
+      'Maging eksperto sa pan fried chicken na may makukulay na gulay sa Cookingdom Level 38.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
@@ -4037,81 +4016,81 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
     iframeUrl: 'https://www.youtube.com/embed/ED0NlqwWiwg',
     seo: {
-      title: 'Cookingdom Level 38 Gabay: Tteokbokki Rush | Cookingdom.co',
+      title: 'Cookingdom Level 38 Gabay: Pan Fried Chicken na may Gulay | Cookingdom.co',
       description:
-        'Masterin ang Tteokbokki Rush sa Level 38 ng Cookingdom. Mga tip sa pagluluto ng rice cakes, tamang paggamit ng sarsa, pagdagdag ng itlog, at pagkuha ng mataas na score.',
+        'Matutunan ang pan fried chicken na may gulay sa Level 38 ng Cookingdom. Alamin ang mga estratehiya para lutuin nang juicy ang manok, ayusin ang gulay, at makakuha ng mataas na puntos.',
       keywords:
-        'Cookingdom Level 38, Cookingdom Tteokbokki, Korean Street Food, Rice Cakes, Gochujang, Gabay',
+        'Cookingdom Level 38, Pan Fried Chicken, Gabay sa Cookingdom, Stir Fry Chicken, Gulay, Tips sa Laro ng Pagluluto',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_38.webp',
       levelInfoHtml:
-        '<h3>Tteokbokki Rush</h3><p><strong>Antas ng Hirap:</strong> Katamtaman-Hataas</p><p><strong>Tinatayang Oras:</strong> 3 minuto</p><p><strong>Gantimpala:</strong> 4 Bituin (Tinataya)</p>',
+        '<h3>Pan Fried Chicken na may Gulay</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 3–4 minuto</p><p><strong>Gantimpala:</strong> 4 Bituin (Tinataya)</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-37',
-          title: 'Cookingdom Level 37 Kimchi Rice Gabay',
+          title: 'Cookingdom Level 37 Gabay: Kimchi Rice',
           imageUrl: '/images/guides_37.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
         },
         {
           id: 'cookingdom-game-level-39',
-          title: 'Cookingdom Level 39 Red Borscht Gabay',
+          title: 'Cookingdom Level 39 Gabay: Red Borscht',
           imageUrl: '/images/guides_39.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Pagsusuri ng Level 38</h2>
-<p>Ang Cookingdom Level 38 ay nagdadala ng init gamit ang <strong>Tteokbokki</strong>, isang maanghang na Korean street food na paborito ng marami. Mabilisang kilos, katumpakan, at mahusay na pamamahala ng oras ang susi sa level na ito.</p>
-
-<h2 id="goal">🎯 Layunin ng Level 38</h2>
-<ul>
-  <li>Maglingkod ng hindi bababa sa 30 na Tteokbokki dishes</li>
-  <li>Panatilihing higit sa 85% ang kasiyahan ng mga customer</li>
-  <li>Tapusin sa loob ng 3 minuto</li>
-</ul>
-
-<h2 id="ingredients">🌶️ Mga Sangkap</h2>
-<ul>
-  <li>Rice cakes (tteok)</li>
-  <li>Gochujang sauce</li>
-  <li>Nilagang itlog (opsyonal na bonus)</li>
-  <li>Green onion o sesame seeds (pangdekorasyon)</li>
-</ul>
-
-<h2 id="steps">👨‍🍳 Hakbang-hakbang na Estratehiya</h2>
-<ol>
-  <li>Simulan sa pagpapakulo ng rice cakes sa dalawang kaldero.</li>
-  <li>Ihanda ang gochujang sauce habang niluluto ang rice cakes.</li>
-  <li>Idagdag ang sauce sa kawali, haluin kasama ang rice cakes, at lutuin hanggang bahagyang lumapot.</li>
-  <li>Lagyan ng itlog at dekorasyon bago ihain.</li>
-  <li>Ihanda ang susunod na batch habang naghahain upang maiwasan ang pagkaantala.</li>
-</ol>
-
-<h2 id="tips">🔥 Mga Pro Tips para sa Level 38</h2>
-<ul>
-  <li><strong>Batch Cooking:</strong> Magluto ng maraming servings nang sabay-sabay para makatipid ng oras.</li>
-  <li><strong>Itlog = Bonus:</strong> Laging magdagdag kung may oras ang customer.</li>
-  <li><strong>Bantayan ang mga kaldero:</strong> Ang overcooked na rice cakes ay nasasayang lamang.</li>
-</ul>
-
-<h2 id="mistakes">🚫 Karaniwang Pagkakamali</h2>
-<ul>
-  <li>Pabayaang masunog ang sauce dahil sa hindi pagbabantay.</li>
-  <li>Hindi paghahanda nang maaga — ang idle time ay nakakasira ng combos.</li>
-  <li>Kaligtaan ang itlog o dekorasyon — mawawala ang bonus points.</li>
-</ul>
-`,
+  <h2 id="overview">Pangkalahatang-ideya ng Cookingdom Level 38</h2>
+  <p>Sa Level 38, pag-aaralan mong lutuin ang masarap na stir-fry: <strong>Pan Fried Chicken na may Gulay</strong>. Mahalaga ang tamang timing at pagkakasunod-sunod ng mga sangkap sa hamong ito.</p>
+  
+  <h2 id="goal">🎯 Layunin ng Cookingdom Level 38</h2>
+  <ul>
+    <li>Magsilbi ng hindi bababa sa 25 na Pan Fried Chicken na putahe</li>
+    <li>Manatiling higit sa 80% ang kasiyahan ng mga customer</li>
+    <li>Matapos ang laro sa loob ng 4 na minuto</li>
+  </ul>
+  
+  <h2 id="ingredients">🥘 Mga Sangkap para sa Level 38</h2>
+  <ul>
+    <li>Hiwa ng manok</li>
+    <li>Halo-halong gulay (bell peppers, carrots, broccoli)</li>
+    <li>Langis at toyo-based na stir-fry sauce</li>
+    <li>Opsyonal na garnish: sesame seeds o scallions</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 Hakbang-hakbang na Estratehiya</h2>
+  <ol>
+    <li>Initin ang parehong kawali na may langis bago magsimula.</li>
+    <li>Simulang iprito ang manok dahil ito ang mas matagal maluto.</li>
+    <li>Kapag kalahating luto na ang manok, idagdag ang halo-halong gulay at sauce.</li>
+    <li>I-stir-fry hanggang sa lumambot pero malutong pa ang gulay at maging gintong-kulay ang manok.</li>
+    <li>Ilagay sa plato at agad na simulan ang susunod na batch.</li>
+  </ol>
+  
+  <h2 id="tips">🔥 Mga Pro Tips para sa Tagumpay</h2>
+  <ul>
+    <li><strong>Painitin ang Kawali:</strong> Mas mabilis maluto kapag mainit ang kawali.</li>
+    <li><strong>Huwag Sosobrahan ang Nilalaman:</strong> Kapag masyadong maraming nilagay sa kawali, bumababa ang init.</li>
+    <li><strong>Palitan ang Kawali:</strong> Gamitin ang dalawang kawali nang palitan para mabilis makapagsilbi.</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 Mga Karaniwang Mali</h2>
+  <ul>
+    <li>Maagang paglalagay ng sauce — nagiging malata ang pagkain.</li>
+    <li>Hindi lutong manok — magreresulta sa penalty.</li>
+    <li>Nakakalimutang garnish — bumababa ang puntos.</li>
+  </ul>
+  `,
   },
 
   {
     id: 'cookingdom-game-level-39',
-    title: 'Cookingdom Level 39 Red Borscht Walkthrough',
-    pageTitle: 'Cookingdom Level 39 Red Borscht Walkthrough',
+    title: 'Cookingdom Level 39 Gabay: Red Borscht',
+    pageTitle: 'Cookingdom Level 39 Gabay: Red Borscht',
     pageSubtitle:
-      'Master ang Spaghetti na may Mushroom Cream Sauce, isang creamy Western dish na nangangailangan ng perpektong timing sa Level 39.',
+      'Ihanda ang masustansyang Red Borscht sa Level 39 ng Cookingdom. Balansihin ang beetroot, repolyo, at sour cream para mapasaya ang iyong mga customer.',
     category: '31-40',
     publishDate: '2025-05-06',
     isSpecial: false,
@@ -4119,73 +4098,75 @@ export const guides = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
     iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko',
     seo: {
-      title: 'Cookingdom Level 39 Gabay: Spaghetti na may Mushroom Cream Sauce',
+      title: 'Cookingdom Level 39 Gabay: Master ang Red Borscht | Cookingdom.co',
       description:
-        'Master ang Spaghetti na may Mushroom Cream Sauce sa Level 39 ng Cookingdom. Makakuha ng mga tip sa pagluluto ng pasta, pagsa-sauté ng mushroom, paghahanda ng cream sauce, at paghahain ng creamy na putahe na ito.',
+        'Master ang Red Borscht sa Level 39 ng Cookingdom. Alamin kung paano balansehin ang beetroot, repolyo, sabaw, at sour cream para sa perpektong pagkaing Eastern European.',
       keywords:
-        'Cookingdom Level 39, Cookingdom Spaghetti with Mushroom Cream Sauce, Pasta, Italian Food, Guide',
+        'Cookingdom Level 39, Red Borscht, Eastern European Soup, Beetroot, Repolyo, Cookingdom Guide',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_39.webp',
       levelInfoHtml:
-        '<h3>Spaghetti na may Mushroom Cream Sauce</h3><p><strong>Antas ng Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 3 minuto 30 segundo</p><p><strong>Gantimpala:</strong> 4 Stars (Tinataya)</p>',
+        '<h3>Hamong Red Borscht</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 3 minuto 30 segundo</p><p><strong>Gantimpala:</strong> 4 Bituin (Tinataya)</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-38',
-          title: 'Cookingdom Level 38 Pan Fried Chicken With Vegetables Walkthrough',
+          title: 'Cookingdom Level 38 Gabay: Pan Fried Chicken with Vegetables',
           imageUrl: '/images/guides_38.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-38' } },
         },
         {
           id: 'cookingdom-game-level-40',
-          title: 'Cookingdom Level 40 Beef Wellington Walkthrough',
+          title: 'Cookingdom Level 40 Gabay: Beef Wellington',
           imageUrl: '/images/guides_40.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
         },
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Cookingdom Level 39</h2>
-<p><strong>Cookingdom Level 39</strong> ay nagpapakilala ng <strong>Spaghetti na may Mushroom Cream Sauce</strong>, isang creamy Western dish na nangangailangan ng perpektong timing sa pagitan ng pagpapakulo ng pasta at pagsa-sauté ng mushroom. Ang katumpakan ng oras ang susi para makamit ang 3 stars.</p>
-
-<h2 id="goal">🎯 Layunin ng Cookingdom Level 39</h2>
-<ul>
-  <li>Maghain ng hindi bababa sa 20 buong putahe</li>
-  <li>Panatilihin ang kasiyahan ng customer sa 90% o higit pa</li>
-  <li>Tapusin sa loob ng 3 minuto 30 segundo</li>
-</ul>
-
-<h2 id="ingredients">🍝 Mga Sangkap sa Cookingdom Level 39</h2>
-<ul>
-  <li>Spaghetti noodles (pinakuluan)</li>
-  <li>Mushrooms (hiniwa at sinangag)</li>
-  <li>Cream sauce (hihiwain nang hiwalay)</li>
-  <li>Parsley o keso para sa garnish</li>
-</ul>
-
-<h2 id="steps">👨‍🍳 Hakbang-hakbang na Estratehiya para sa Cookingdom Level 39</h2>
-<ol>
-  <li>Simulan sa pagpapakulo ng spaghetti sa parehong mga kaldero kaagad.</li>
-  <li>Sauté ang mushrooms sa hiwalay na kawali habang niluluto ang pasta.</li>
-  <li>Painitin ang cream sauce sa maliit na kawali—huwag hayaang kumulo.</li>
-  <li>Pagsamahin ang pasta, mushrooms, at cream sauce bago ihain.</li>
-  <li>Garnish gamit ang parsley o keso para tapusin ang bawat putahe.</li>
-</ol>
-
-<h2 id="tips">🔥 Mga Pro Tips para sa Cookingdom Level 39</h2>
-<ul>
-  <li><strong>Hatiin ang pagpapakulo:</strong> Simulan ang isang kaldero nang medyo huli upang mapanatili ang tuloy-tuloy na daloy ng pasta.</li>
-  <li><strong>Ihanda nang maaga ang mushrooms:</strong> Nakakatipid ng oras sa gitna ng rush.</li>
-  <li><strong>Gamitin ang auto-serve:</strong> Kapag sobra na ang trabaho, pinananatili nitong buhay ang mga combo.</li>
-</ul>
-
-<h2 id="mistakes">🚫 Karaniwang Mali sa Cookingdom Level 39</h2>
-<ul>
-  <li>Pinapaluto nang sobra ang pasta—sinisira nito ang putahe at nasasayang ang oras.</li>
-  <li>Nakakalimutang painitin ang sauce bago pagsamahin—nakabababa ng rating ng putahe.</li>
-  <li>Hindi paglalagay ng garnish—nawawala ang mahahalagang bonus points.</li>
-</ul>
-`,
+  <h2 id="overview">Pangkalahatang-ideya ng Cookingdom Level 39</h2>
+  <p><strong>Cookingdom Level 39</strong> ay nagpapakilala ng <strong>Red Borscht</strong>, isang makulay na Eastern European na sopas na puno ng lasa at kulay. Ang tagumpay ay nangangailangan ng maingat na koordinasyon sa pagpapakulo, pagputol, at pag-aayos.</p>
+  
+  <h2 id="goal">🎯 Layunin ng Cookingdom Level 39</h2>
+  <ul>
+    <li>Maglingkod ng hindi bababa sa 25 na mangkok ng Red Borscht</li>
+    <li>Panatilihin ang kasiyahan ng customer na higit sa 88%</li>
+    <li>Tapusin ang antas sa loob ng 3 minuto 30 segundo</li>
+  </ul>
+  
+  <h2 id="ingredients">🥣 Mga Sangkap sa Cookingdom Level 39</h2>
+  <ul>
+    <li>Beetroot (hiniwa)</li>
+    <li>Shredded na repolyo</li>
+    <li>Mga karot at sibuyas (hinanda nang magkasama)</li>
+    <li>Sabaw (gulay o baka)</li>
+    <li>Sour cream (pang-ayos)</li>
+    <li>Dill o perehil (pang-ayos)</li>
+  </ul>
+  
+  <h2 id="steps">👨‍🍳 Hakbang-hakbang na Estratehiya sa Cookingdom Level 39</h2>
+  <ol>
+    <li>Simulan sa pagpapakulo ng sabaw sa parehong palayok.</li>
+    <li>Habang pinapainit ang sabaw, hiwain ang beetroot, repolyo, at halo ng gulay.</li>
+    <li>Idagdag ang mga gulay sa kumukulong sabaw ayon sa pagkakasunod: sibuyas/karot, pagkatapos ay beetroot, at panghuli ang repolyo.</li>
+    <li>Pabayaan itong kumulo nang bahagya — huwag mag-overcook!</li>
+    <li>Isalpak ang sopas sa mga mangkok, magdagdag ng isang kutsara ng sour cream, at budburan ng dill o perehil bago ihain.</li>
+  </ol>
+  
+  <h2 id="tips">🔥 Mga Pro Tip sa Cookingdom Level 39</h2>
+  <ul>
+    <li><strong>Mag-chop nang Marami:</strong> Ihanda ang maraming servings ng gulay nang maaga para mapanatili ang bilis.</li>
+    <li><strong>I-stagger ang Sabaw:</strong> Gamitin ang isang palayok na medyo nahuhuli upang mapanatili ang daloy.</li>
+    <li><strong>Mabilis na Pag-aayos:</strong> Bawat palamuti ay nagpapataas ng score at kasiyahan ng customer.</li>
+  </ul>
+  
+  <h2 id="mistakes">🚫 Karaniwang Pagkakamali sa Cookingdom Level 39</h2>
+  <ul>
+    <li>Overcooking ng repolyo — nagpapalambot ng sopas at nagpapababa ng rating.</li>
+    <li>Pagkaligtaan ng sour cream — susi sa tunay na lasa at dagdag puntos.</li>
+    <li>Maling timing — ang mga pagkaantala sa pagitan ng mga batch ay nagdudulot ng hindi kasiyahan ng customer.</li>
+  </ul>
+  `,
   },
 
   {
