@@ -129,7 +129,7 @@ function changeLocale(event) {
 <template>
   <header class="header">
     <div class="container">
-      <div class="logo"><img src="/logo.webp" alt="" />{{ t('header.logo') }}</div>
+      <div class="logo"><img src="/logo.webp" alt="Cookingdom Logo" />{{ t('header.logo') }}</div>
 
       <!-- 桌面端导航 -->
       <nav class="desktop-nav">
