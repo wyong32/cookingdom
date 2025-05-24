@@ -246,9 +246,10 @@ const getFeaturedGuideLinkProps = (featured) => {
   return { name: routeName, params: routeParams }
 }
 
-// 动态插入 VideoObject 结构化数据，提升 Google 视频索引能力
-const addVideoSchema = (guideObj) => {
-  if (!guideObj || !guideObj.iframeUrl) return
+// 动态插入结构化数据，提升 Google 索引能力
+const addStructuredData = (guideObj) => {
+  if (!guideObj) return
+
   let thumb = guideObj.sidebarData?.sidebarImageUrl || guideObj.imageUrl
   if (thumb && thumb.startsWith('/')) {
     thumb = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumb.substring(1)}`
@@ -256,27 +257,141 @@ const addVideoSchema = (guideObj) => {
   if (!thumb) {
     thumb = 'https://www.cookingdom.co/images/banner1.webp'
   }
-  const schema = {
+
+  // 更新页面的社交分享图片（避免与watch中的重复）
+  updateMetaTag('og:image', thumb)
+  updateMetaTag('twitter:image', thumb)
+
+  // 主要的HowTo结构化数据
+  const howToSchema = {
     '@context': 'https://schema.org',
-    '@type': 'VideoObject',
+    '@type': 'HowTo',
     name: guideObj.seo?.title || guideObj.pageTitle,
     description: guideObj.seo?.description || guideObj.pageSubtitle || guideObj.pageTitle,
-    thumbnailUrl: thumb,
-    embedUrl: guideObj.iframeUrl,
-  }
-  if (guideObj.publishDate) {
-    schema.uploadDate = `${guideObj.publishDate}T00:00:00Z`
-  } else {
-    schema.uploadDate = new Date().toISOString().split('T')[0] + 'T00:00:00Z'
+    image: thumb,
+    author: {
+      '@type': 'Organization',
+      name: 'Cookingdom Fansite',
+      url: 'https://www.cookingdom.co/',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Cookingdom Fansite',
+      url: 'https://www.cookingdom.co/',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`,
+        width: 240,
+        height: 240,
+      },
+    },
+    datePublished: guideObj.publishDate
+      ? `${guideObj.publishDate}T00:00:00Z`
+      : new Date().toISOString(),
+    dateModified: new Date().toISOString(),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': window.location.href,
+    },
+    about: {
+      '@type': 'VideoGame',
+      name: 'Cookingdom',
+      genre: 'Cooking Simulation',
+    },
+    keywords:
+      guideObj.seo?.keywords || 'cookingdom, game guide, walkthrough, cooking game, level guide',
+    inLanguage: locale.value,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Cookingdom Fansite',
+      url: 'https://www.cookingdom.co/',
+    },
   }
 
-  const old = document.getElementById('video-schema')
-  if (old) old.remove()
-  const script = document.createElement('script')
-  script.type = 'application/ld+json'
-  script.id = 'video-schema'
-  script.text = JSON.stringify(schema)
-  document.head.appendChild(script)
+  // 面包屑导航结构化数据
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.cookingdom.co/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Guides',
+        item: 'https://www.cookingdom.co/guides',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: guideObj.seo?.title || guideObj.pageTitle,
+        item: window.location.href,
+      },
+    ],
+  }
+
+  // 如果有视频，添加视频结构化数据
+  let videoSchema = null
+  if (guideObj.iframeUrl) {
+    videoSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'VideoObject',
+      name: guideObj.seo?.title || guideObj.pageTitle,
+      description: guideObj.seo?.description || guideObj.pageSubtitle || guideObj.pageTitle,
+      thumbnailUrl: thumb,
+      embedUrl: guideObj.iframeUrl,
+      uploadDate: guideObj.publishDate
+        ? `${guideObj.publishDate}T00:00:00Z`
+        : new Date().toISOString(),
+      author: {
+        '@type': 'Organization',
+        name: 'Cookingdom Fansite',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Cookingdom Fansite',
+        logo: {
+          '@type': 'ImageObject',
+          url: `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`,
+        },
+      },
+    }
+  }
+
+  // 移除旧的结构化数据
+  const oldHowTo = document.getElementById('howto-schema')
+  const oldVideo = document.getElementById('video-schema')
+  const oldBreadcrumb = document.getElementById('breadcrumb-schema')
+  if (oldHowTo) oldHowTo.remove()
+  if (oldVideo) oldVideo.remove()
+  if (oldBreadcrumb) oldBreadcrumb.remove()
+
+  // 添加HowTo结构化数据
+  const howToScript = document.createElement('script')
+  howToScript.type = 'application/ld+json'
+  howToScript.id = 'howto-schema'
+  howToScript.text = JSON.stringify(howToSchema)
+  document.head.appendChild(howToScript)
+
+  // 添加面包屑结构化数据
+  const breadcrumbScript = document.createElement('script')
+  breadcrumbScript.type = 'application/ld+json'
+  breadcrumbScript.id = 'breadcrumb-schema'
+  breadcrumbScript.text = JSON.stringify(breadcrumbSchema)
+  document.head.appendChild(breadcrumbScript)
+
+  // 如果有视频，添加视频结构化数据
+  if (videoSchema) {
+    const videoScript = document.createElement('script')
+    videoScript.type = 'application/ld+json'
+    videoScript.id = 'video-schema'
+    videoScript.text = JSON.stringify(videoSchema)
+    document.head.appendChild(videoScript)
+  }
 }
 
 // 获取视频缩略图
@@ -297,10 +412,17 @@ const getVideoThumbnail = (guide) => {
 }
 
 onMounted(() => {
-  addVideoSchema(currentGuide.value)
+  // 延迟添加结构化数据，避免阻塞首屏渲染
+  setTimeout(() => {
+    addStructuredData(currentGuide.value)
+  }, 100)
 })
 watch(currentGuide, (newVal) => {
-  addVideoSchema(newVal)
+  if (newVal) {
+    setTimeout(() => {
+      addStructuredData(newVal)
+    }, 100)
+  }
 })
 </script>
 

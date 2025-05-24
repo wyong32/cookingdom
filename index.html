@@ -2,10 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
+
+    <!-- 精简Favicon配置 -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/logo.webp" type="image/webp" />
+    <link rel="apple-touch-icon" href="/logo.webp" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#4DBA87" />
     <title>Cookingdom Guides List – All Strategies and Tips</title>
+
+    <!-- 基础SEO Meta Tags（不会被动态覆盖的） -->
+    <meta name="author" content="Cookingdom Fansite" />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+
+    <!-- 静态Open Graph基础信息（会被路由动态更新） -->
+    <meta property="og:site_name" content="Cookingdom Fansite" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- 注意：title, description, keywords, og:title, og:description, og:url, twitter:* 等
+         会被路由系统动态更新，所以这里不设置静态值 -->
+
+    <!-- Search Engine Verification -->
+    <meta name="msvalidate.01" content="686CBA524F78B16021B42B9BF2F70F12" />
+    <!-- 添加Google验证标签的占位符，请替换为您的实际验证码 -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" /> -->
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="application-name" content="Cookingdom Fansite" />
+    <meta name="msapplication-TileColor" content="#4DBA87" />
+    <!-- canonical URL 由路由系统动态设置 -->
 
     <!-- 预加载关键资源 -->
     <link
@@ -184,6 +213,51 @@
           console.log('Google Ads 已延迟加载')
         }, 3000) // 页面加载后延迟3秒
       })
+    </script>
+
+    <!-- JSON-LD 结构化数据 -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cookingdom Fansite",
+        "alternateName": "Cookingdom.co",
+        "url": "https://www.cookingdom.co/",
+        "description": "Complete Cookingdom game walkthrough guides. Master every level with step-by-step strategies, tips, and tricks for this fun cooking adventure game.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Cookingdom Fansite",
+          "url": "https://www.cookingdom.co/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.cookingdom.co/images/logo.webp",
+            "width": 240,
+            "height": 240
+          }
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.cookingdom.co/guides?search={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        },
+        "sameAs": [
+          "https://www.cookingdom.co/",
+          "https://www.cookingdom.co/zh/",
+          "https://www.cookingdom.co/ru/",
+          "https://www.cookingdom.co/fil/",
+          "https://www.cookingdom.co/ms/"
+        ],
+        "inLanguage": ["en", "zh", "ru", "fil", "ms"],
+        "about": {
+          "@type": "VideoGame",
+          "name": "Cookingdom",
+          "genre": "Cooking Simulation",
+          "description": "A fun cooking adventure game where players master various cooking challenges and unlock new levels."
+        }
+      }
     </script>
   </head>
   <body>

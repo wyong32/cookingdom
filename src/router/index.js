@@ -380,9 +380,23 @@ router.beforeEach((to, from, next) => {
     // --- 3. Determine social tag type and default image ---
     const isDetailPage = to.name?.includes('detail')
     const ogType = isDetailPage ? 'article' : 'website'
-    const twitterCard = isDetailPage ? 'summary_large_image' : 'summary'
-    // Use the specified default image, converting to absolute URL
-    const defaultSocialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`
+    const twitterCard = isDetailPage ? 'summary_large_image' : 'summary_large_image' // 统一使用大图
+
+    // 根据页面类型选择最佳社交分享图片
+    let socialImageUrl
+    if (to.name === 'home' || to.name === 'home-lang') {
+      // 首页使用banner图片
+      socialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/banner1.webp`
+    } else if (to.name === 'guides' || to.name === 'guides-lang') {
+      // 指南页面使用指南相关图片
+      socialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/guides_01.webp`
+    } else if (to.name === 'blog' || to.name === 'blog-lang') {
+      // 博客页面使用博客图片
+      socialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/blog_01.webp`
+    } else {
+      // 其他页面使用logo
+      socialImageUrl = `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`
+    }
 
     // --- 4. Update all Head tags using imported helpers ---
     document.title = pageTitle
@@ -395,14 +409,16 @@ router.beforeEach((to, from, next) => {
     updateMetaTag('og:description', pageDescription)
     updateMetaTag('og:url', finalCanonicalUrl)
     updateMetaTag('og:type', ogType)
-    updateMetaTag('og:image', defaultSocialImageUrl) // Default image
-    updateMetaTag('og:site_name', 'Cookingdom')
+    updateMetaTag('og:image', socialImageUrl) // 页面特定图片
+    updateMetaTag('og:image:width', '1200')
+    updateMetaTag('og:image:height', '630')
+    updateMetaTag('og:site_name', 'Cookingdom Fansite')
 
     // Update Twitter Card tags
     updateMetaTag('twitter:card', twitterCard)
     updateMetaTag('twitter:title', pageTitle)
     updateMetaTag('twitter:description', pageDescription)
-    updateMetaTag('twitter:image', defaultSocialImageUrl) // Default image
+    updateMetaTag('twitter:image', socialImageUrl) // 页面特定图片
   })
 
   // Proceed with navigation if no redirect occurred
