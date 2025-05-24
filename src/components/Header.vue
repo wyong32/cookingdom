@@ -162,7 +162,7 @@ function changeLocale(event) {
           <!-- Placeholder for the small mascot -->
           <img
             src="https://placehold.co/50x50/ff85a2/ffffff?text=:)"
-            alt="Mascot"
+            alt="Cookingdom Mascot Character"
             style="width: 50px; opacity: 0.7"
           />
 
@@ -199,7 +199,7 @@ function changeLocale(event) {
     ></div>
     <nav class="mobile-nav" :class="{ open: isMobileMenuOpen }">
       <div class="mobile-nav-header">
-        <div class="logo"><img src="/logo.webp" alt="" />{{ t('header.logo') }}</div>
+        <div class="logo"><img src="/logo.webp" alt="Cookingdom Logo" />{{ t('header.logo') }}</div>
         <button class="close-menu" @click="closeMobileMenu" aria-label="Close menu">×</button>
       </div>
       <ul>

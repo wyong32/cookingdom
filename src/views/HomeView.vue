@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
+import { ref, onMounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -41,14 +41,14 @@ const loadGuides = () => {
   showGuides.value = true
 }
 
-// Ref to track the active tab
-const activeTab = ref('1-10') // Default to '1-10'
+// Ref to track the active tab (currently unused, reserved for future filtering)
+// const activeTab = ref('1-10') // Default to '1-10'
 
-// Function to change the active tab
-const setActiveTab = (tabName) => {
-  activeTab.value = tabName
-  // Later: Add logic here to filter guides based on the tab
-}
+// Function to change the active tab (currently unused, reserved for future filtering)
+// const setActiveTab = (tabName) => {
+//   activeTab.value = tabName
+//   // Later: Add logic here to filter guides based on the tab
+// }
 
 // Function to scroll to a specific section smoothly
 const scrollToSection = (sectionId) => {
@@ -226,7 +226,7 @@ onMounted(() => {
               >
                 <img
                   :src="image"
-                  alt="Slider Image"
+                  :alt="`Cookingdom Game Screenshot ${index + 1}`"
                   class="slider-image"
                   width="300"
                   height="400"
