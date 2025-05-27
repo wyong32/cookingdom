@@ -37,7 +37,7 @@
 
           <div class="copyright-footer">
             <p>
-              © {{ currentYear }} cookingdom.cn
+              © {{ currentYear }} cookingdom.co
               {{ $t('copyright.allRightsReserved') }}
             </p>
           </div>
