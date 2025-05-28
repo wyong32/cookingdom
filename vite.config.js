@@ -180,6 +180,7 @@ Crawl-delay: 1`,
 
   return {
     plugins,
+    base: '/', // 确保基础路径正确
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -189,14 +190,28 @@ Crawl-delay: 1`,
       // 启用代码分割和优化
       rollupOptions: {
         output: {
-          // 手动分割代码块
-          manualChunks: {
-            // Vue 核心库单独打包
-            'vue-vendor': ['vue', 'vue-router', 'pinia'],
-            // i18n 相关单独打包
-            'i18n-vendor': ['vue-i18n'],
-            // 大型组件单独打包
-            'swiper-vendor': ['swiper'],
+          // 优化的代码分割配置
+          manualChunks(id) {
+            // Vue 核心库
+            if (
+              id.includes('node_modules/vue/') ||
+              id.includes('node_modules/vue-router/') ||
+              id.includes('node_modules/pinia/')
+            ) {
+              return 'vue-vendor'
+            }
+            // i18n 相关
+            if (id.includes('node_modules/vue-i18n/')) {
+              return 'i18n-vendor'
+            }
+            // Swiper 相关
+            if (id.includes('node_modules/swiper/')) {
+              return 'swiper-vendor'
+            }
+            // 其他 node_modules 依赖
+            if (id.includes('node_modules/')) {
+              return 'vendor'
+            }
           },
           // 优化文件名
           chunkFileNames: 'js/[name]-[hash].js',

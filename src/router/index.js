@@ -3,18 +3,62 @@ import { nextTick } from 'vue'
 // 只有首页同步加载，其他页面都懒加载
 import HomeView from '../views/HomeView.vue'
 
-// 懒加载所有其他视图组件
-const GuideDetail = () => import('../views/GuideDetail.vue')
-const GuideView = () => import('../views/GuideView.vue')
-const BlogView = () => import('../views/BlogView.vue')
-const BlogDetailView = () => import('../views/BlogDetailView.vue')
-const DownloadView = () => import('../views/DownloadView.vue')
-const PrivacyPolicyView = () => import('../views/PrivacyPolicyView.vue')
-const TermsOfServiceView = () => import('../views/TermsOfServiceView.vue')
-const ModDownloadView = () => import('../views/ModDownloadView.vue')
-const AboutView = () => import('../views/AboutView.vue')
-const ContactView = () => import('../views/ContactView.vue')
-const CopyrightView = () => import('../views/CopyrightView.vue')
+// 懒加载所有其他视图组件 - 带有错误处理
+const GuideDetail = () =>
+  import('../views/GuideDetail.vue').catch((err) => {
+    console.error('Failed to load GuideDetail:', err)
+    return import('../views/HomeView.vue') // 回退到首页
+  })
+const GuideView = () =>
+  import('../views/GuideView.vue').catch((err) => {
+    console.error('Failed to load GuideView:', err)
+    return import('../views/HomeView.vue')
+  })
+const BlogView = () =>
+  import('../views/BlogView.vue').catch((err) => {
+    console.error('Failed to load BlogView:', err)
+    return import('../views/HomeView.vue')
+  })
+const BlogDetailView = () =>
+  import('../views/BlogDetailView.vue').catch((err) => {
+    console.error('Failed to load BlogDetailView:', err)
+    return import('../views/HomeView.vue')
+  })
+const DownloadView = () =>
+  import('../views/DownloadView.vue').catch((err) => {
+    console.error('Failed to load DownloadView:', err)
+    return import('../views/HomeView.vue')
+  })
+const PrivacyPolicyView = () =>
+  import('../views/PrivacyPolicyView.vue').catch((err) => {
+    console.error('Failed to load PrivacyPolicyView:', err)
+    return import('../views/HomeView.vue')
+  })
+const TermsOfServiceView = () =>
+  import('../views/TermsOfServiceView.vue').catch((err) => {
+    console.error('Failed to load TermsOfServiceView:', err)
+    return import('../views/HomeView.vue')
+  })
+const ModDownloadView = () =>
+  import('../views/ModDownloadView.vue').catch((err) => {
+    console.error('Failed to load ModDownloadView:', err)
+    return import('../views/HomeView.vue')
+  })
+const AboutView = () =>
+  import('../views/AboutView.vue').catch((err) => {
+    console.error('Failed to load AboutView:', err)
+    return import('../views/HomeView.vue')
+  })
+const ContactView = () =>
+  import('../views/ContactView.vue').catch((err) => {
+    console.error('Failed to load ContactView:', err)
+    return import('../views/HomeView.vue')
+  })
+const CopyrightView = () =>
+  import('../views/CopyrightView.vue').catch((err) => {
+    console.error('Failed to load CopyrightView:', err)
+    return import('../views/HomeView.vue')
+  })
 import { i18n, supportedLangs, defaultLang } from '@/i18n'
 import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
 
@@ -147,7 +191,7 @@ const router = createRouter({
     },
     {
       path: '/:id',
-      beforeEnter: (to, from, next) => {
+      beforeEnter: (_, __, next) => {
         // 允许任何ID格式，只要它存在于guides数据中
         // 这里我们简单地允许所有ID通过，实际验证将在组件中进行
         next()
@@ -254,7 +298,7 @@ const router = createRouter({
     },
     {
       path: '/:lang/:id',
-      beforeEnter: (to, from, next) => {
+      beforeEnter: (to, _, next) => {
         const langIsValid = nonDefaultLangs.includes(to.params.lang)
 
         // 只验证语言参数，不验证ID格式
@@ -273,7 +317,7 @@ const router = createRouter({
       meta: getMeta('meta.guideDetail.title', 'meta.guideDetail.description'),
     },
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(_, __, savedPosition) {
     if (savedPosition) {
       return savedPosition
     } else {
@@ -282,7 +326,7 @@ const router = createRouter({
   },
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _, next) => {
   const paramsLang = to.params.lang
   const pathFirstPart = to.path.split('/')[1]
   const storedLang = localStorage.getItem('userLanguage')

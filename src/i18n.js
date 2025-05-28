@@ -5,8 +5,8 @@ import ru from './locales/ru.json'
 import fil from './locales/fil.json'
 import ms from './locales/ms.json'
 
-const supportedLangs = ['en', 'zh', 'ru', 'fil', 'ms']
-const defaultLang = 'en'
+export const supportedLangs = ['en', 'zh', 'ru', 'fil', 'ms']
+export const defaultLang = 'en'
 
 const storedLang = localStorage.getItem('userLanguage')
 let browserLang = ''
@@ -30,5 +30,4 @@ export const i18n = createI18n({
   // globalInjection: true,
 })
 
-// 同时导出方便其他模块使用
-export { supportedLangs, defaultLang }
+// 变量已在上方直接导出

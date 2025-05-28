@@ -1,20 +1,2 @@
-# Redirects for Netlify/Vercel static hosting
-# SEO-friendly redirects
-
-# Handle Vue.js SPA routing
+# SPA routing fallback for Netlify/Vercel
 /*    /index.html   200
-
-# Redirect old URLs to new structure (if any)
-# /old-guides/*  /guides/:splat  301
-# /old-blog/*    /blog/:splat    301
-
-# Force HTTPS (handled by hosting provider usually)
-# http://cookingdom.co/*  https://cookingdom.co/:splat  301!
-# http://www.cookingdom.co/*  https://cookingdom.co/:splat  301!
-
-# Redirect www to non-www (if needed)
-# https://www.cookingdom.co/*  https://cookingdom.co/:splat  301!
-
-# Language-specific redirects (optional)
-# /guide/*  /en/guide/:splat  302
-# /blog/*   /en/blog/:splat   302
