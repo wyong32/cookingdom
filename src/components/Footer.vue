@@ -35,105 +35,73 @@ function getLocalizedRoute(name, params = {}) {
             </a> -->
             <!-- 1 -->
             <a href="https://www.indiehackers.com/kadiyamobi" target="_blank">
-              <img
-                src="https://www.indiehackers.com/images/favicons/favicon--32x32.png"
-                alt="indiehackers"
-                srcset=""
-              />
+              <img src="/image/icon/indiehackers-icon.webp" alt="indiehackers" srcset="" />
             </a>
             <!-- 2 -->
             <a
               href="https://share.evernote.com/note/86753e2a-b043-a5c1-4e0a-08315105d166"
               target="_blank"
             >
-              <img
-                src="https://evernote.com/_next/static/media/evernote-logo.c443c65f.svg"
-                alt="evernote"
-                srcset=""
-              />
+              <img src="/images/icon/evernote-icon.svg" alt="evernote" srcset="" />
             </a>
             <!-- 3 -->
             <a
               href="https://www.notion.so/Cookingdom-Walkthrough-Guides-1c27ae35635d80b08283f09ace67d789"
               target="_blank"
             >
-              <img src="https://www.notion.com/front-static/favicon.ico" alt="notion" srcset="" />
+              <img src="/images/icon/notion-icon.ico" alt="notion" srcset="" />
             </a>
             <!-- 4 -->
             <a
               href="https://ko-fi.com/post/Cookingdom-Game-Complete-Walkthrough-Guides-O5O11EKTVN"
               target="_blank"
             >
-              <img src="https://ko-fi.com/favicon.png" alt="ko-fi" srcset="" />
+              <img src="/images/icon/ko-fi-icon.webp" alt="ko-fi" srcset="" />
             </a>
             <!-- 5 -->
             <a
               href="https://cookingdom1.substack.com/p/cookingdom-game-complete-walkthrough"
               target="_blank"
             >
-              <img
-                src="https://substackcdn.com/icons/substack/favicon.ico"
-                alt="substackcdn"
-                srcset=""
-              />
+              <img src="/images/icon/substack-icon.ico" alt="substackcdn" srcset="" />
             </a>
             <!-- 6 -->
             <a href="https://wenyong3.gumroad.com/l/cookingdom-co" target="_blank">
-              <img
-                src="https://assets.gumroad.com/assets/pink-icon-c5f5013768a1da41246e70403f02afc8b34ac89c20f3ba2dd0a01f3973027700.png"
-                alt="gumroad"
-                srcset=""
-              />
+              <img src="/images/icon/gumroad-icon.webp" alt="gumroad" srcset="" />
             </a>
             <!-- 7 -->
             <a
               href="https://cookingdom.podia.com/blog/80838bc3-8e1c-4225-9134-cdae7d1b8607"
               target="_blank"
             >
-              <img src="https://www.podia.com/favicon.ico" alt="podia" srcset="" />
+              <img src="/images/icon/podia-icon.ico" alt="podia" srcset="" />
             </a>
             <!-- 8 -->
             <a href="https://jimmy11.kit.com/159110e0c4" target="_blank">
-              <img src="https://kit.com/favicon-32x32.png" alt="kit" srcset="" />
+              <img src="/images/icon/kit-icon.png" alt="kit" srcset="" />
             </a>
             <!-- 9 -->
             <a href="https://www.patreon.com/posts/cookingdom-all-129750664" target="_blank">
-              <img
-                src="https://c5.patreon.com/external/favicon/rebrand/favicon-32.png?v=af5597c2ef"
-                alt="patreon"
-                srcset=""
-              />
+              <img src="/images/icon/patreon-icon.png" alt="patreon" srcset="" />
             </a>
             <!-- 10 -->
             <a href="https://www.pinterest.com/wenyong3124/cookingdomco" target="_blank">
-              <img
-                src="https://s.pinimg.com/webapp/logo_transparent_144x144-3da7a67b.png"
-                alt="pinterest"
-                srcset=""
-              />
+              <img src="/images/icon/pinterest-icon.png" alt="pinterest" srcset="" />
             </a>
             <!-- 11 -->
             <a href="https://cal.com/wen-yong-ykijtw" target="_blank">
-              <img
-                src="https://framerusercontent.com/images/yBP2bxRn6dRgikoDZjkgAk2v0.png"
-                alt="cal"
-                srcset=""
-              />
+              <img src="/images/icon/cal-icon.png" alt="cal" srcset="" />
             </a>
             <!-- 12 -->
             <a href="https://linktr.ee/Cookingdom" target="_blank">
-              <img
-                src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66693601ff7950e64e66b56b_favicon.png"
-                alt="linktr"
-                srcset=""
-              />
+              <img src="/images/icon/linktr-icon.png" alt="linktr" srcset="" />
             </a>
             <!-- 13 -->
             <a
               href="https://jmmiy.micro.blog/2025/05/26/cookingdom-game-complete-walkthrough-guides.html"
               target="_blank"
             >
-              <img src="https://micro.blog/jmmiy/favicon.png" alt="jmmiy" srcset="" />
+              <img src="/images/icon/micro-icon.png" alt="jmmiy" srcset="" />
             </a>
           </div>
         </div>
