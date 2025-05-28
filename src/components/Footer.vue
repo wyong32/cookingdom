@@ -35,7 +35,7 @@ function getLocalizedRoute(name, params = {}) {
             </a> -->
             <!-- 1 -->
             <a href="https://www.indiehackers.com/kadiyamobi" target="_blank">
-              <img src="/image/icon/indiehackers-icon.webp" alt="indiehackers" srcset="" />
+              <img src="/images/icon/indiehackers-icon.webp" alt="indiehackers" srcset="" />
             </a>
             <!-- 2 -->
             <a

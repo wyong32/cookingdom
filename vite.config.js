@@ -53,20 +53,26 @@ export default defineConfig(({ command, mode }) => {
     // 只在开发环境加载 DevTools
     ...(isDev ? [vueDevTools()] : []),
     ViteSitemapPlugin({
-      hostname: 'https://www.cookingdom.co/',
+      hostname: 'https://www.cookingdom.co',
       exclude: ['/:id', '/:lang/:id'],
-      dynamicRoutes: loadGuideIds().flatMap((id) => [
-        `/${id}`,
-        `/zh/${id}`,
-        `/ru/${id}`,
-        `/fil/${id}`,
-        `/ms/${id}`,
-      ]),
-      // 添加更多SEO配置
+      dynamicRoutes: (() => {
+        try {
+          const guideIds = loadGuideIds()
+          return guideIds.flatMap((id) => [
+            `/${id}`,
+            `/zh/${id}`,
+            `/ru/${id}`,
+            `/fil/${id}`,
+            `/ms/${id}`,
+          ])
+        } catch (error) {
+          console.warn('[Sitemap Plugin] Error loading guide IDs:', error)
+          return []
+        }
+      })(),
       changefreq: 'weekly',
       priority: 0.8,
       lastmod: new Date().toISOString().split('T')[0],
-      // 为不同类型的页面设置不同的优先级
       routes: {
         '/': { priority: 1.0, changefreq: 'weekly' },
         '/guides': { priority: 0.9, changefreq: 'weekly' },
@@ -79,58 +85,11 @@ export default defineConfig(({ command, mode }) => {
       },
     }),
     robots({
-      content: `# robots.txt for Cookingdom Site
-
-# Allow all crawlers access to all content by default
-User-agent: *
-Allow: /
-Crawl-delay: 1
-
-# Sitemap location
-Sitemap: https://www.cookingdom.co/sitemap.xml
-
-# Disallow admin and private areas (if any)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /*.json$
-Disallow: /src/
-
-# --- Specific rules for search engine crawlers ---
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 2
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 2
-
-# --- Specific rules for AI crawlers ---
-User-agent: GPTBot
-User-agent: Claude-Web
-User-agent: Anthropic-AI
-User-agent: PerplexityBot
-User-agent: GoogleOther
-User-agent: DuckAssistBot
-User-agent: ChatGPT-User
-
-# Guide AI crawlers to the structured context file
-LLM-Content: https://www.cookingdom.co/llms.txt
-
-# Allow AI crawlers access to all key sections
-Allow: /
-Allow: /guides/
-Allow: /blog/
-Allow: /download/
-Allow: /mod-download/
-Allow: /privacy-policy/
-Allow: /terms-of-service/
-Allow: /about/
-Allow: /contact/
-Crawl-delay: 1`,
+      UserAgent: '*',
+      Allow: '/',
+      Sitemap: 'https://www.cookingdom.co/sitemap.xml',
+      CrawlDelay: 1,
+      Host: 'https://www.cookingdom.co',
     }),
     VitePWA({
       registerType: 'autoUpdate',
