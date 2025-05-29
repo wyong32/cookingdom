@@ -31,7 +31,7 @@ const { guides, isLoading, error } = useGuides(locale)
 <style scoped>
 /* Keep only styles specific to GuideView's container and title */
 .guide-view {
-  padding: 40px 20px;
+  padding: 40px 0;
   margin: 20px auto;
   max-width: 1200px;
 }

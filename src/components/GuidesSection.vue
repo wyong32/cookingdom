@@ -24,6 +24,9 @@
         <button :class="{ active: activeTab === '41-50' }" @click="setActiveTab('41-50')">
           {{ $t('guides.tabs.levels41_50') }}
         </button>
+        <button :class="{ active: activeTab === '51-60' }" @click="setActiveTab('51-60')">
+          {{ $t('guides.tabs.levels51_60') }}
+        </button>
         <!-- Add more tabs if needed -->
       </div>
 

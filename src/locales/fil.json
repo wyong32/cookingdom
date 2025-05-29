@@ -194,13 +194,15 @@
   },
   "guides": {
     "title": "📖 Lahat ng Gabay sa Level ng Cookingdom",
+    "title1": "Mga Step-by-Step na Istratehiya para Makabisado ang Bawat Hamon sa Pagluluto!",
     "tabs": {
       "special": "Espesyal na Antas",
       "levels1_10": "Mga Antas 1-10",
       "levels11_20": "Mga Antas 11-20",
       "levels21_30": "Mga Antas 21-30",
       "levels31_40": "Mga Antas 31-40",
-      "levels41_50": "Mga Antas 41-50"
+      "levels41_50": "Mga Antas 41-50",
+      "levels51_60": "Mga Antas 51-60"
     },
     "noGuidesAvailable": "Walang gabay na available para sa kategoryang ito."
   },

@@ -194,13 +194,15 @@
   },
   "guides": {
     "title": "📖 Semua Panduan Tahap Cookingdom",
+    "title1": "Strategi Langkah demi Langkah untuk Menguasai Setiap Cabaran Memasak!",
     "tabs": {
       "special": "Tahap Khas",
       "levels1_10": "Tahap 1-10",
       "levels11_20": "Tahap 11-20",
       "levels21_30": "Tahap 21-30",
       "levels31_40": "Tahap 31-40",
-      "levels41_50": "Tahap 41-50"
+      "levels41_50": "Tahap 41-50",
+      "levels51_60": "Tahap 51-60"
     },
     "noGuidesAvailable": "Tiada panduan tersedia untuk kategori ini."
   },
