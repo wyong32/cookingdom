@@ -4927,7 +4927,7 @@ export const guides = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-49' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',
     seo: {
       title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough & Guide',
       description:
@@ -5017,7 +5017,7 @@ export const guides = [
     isSpecial: false,
     imageUrl: '/images/guides_50.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    iframeUrl: 'https://www.youtube.com/embed/6iXtoAjQu-4',
     seo: {
       title: 'Cookingdom Antas 50: Gabay at Walkthrough ng Grilled Aussie Barramundi',
       description:
@@ -5095,7 +5095,7 @@ export const guides = [
     isSpecial: false,
     imageUrl: '/images/guides_51.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-51' } },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    iframeUrl: 'https://www.youtube.com/embed/h0EXjsI1W7Q',
     seo: {
       title: 'Cookingdom Antas 51: Gabay at Walkthrough ng Beans Sweet Soup',
       description:

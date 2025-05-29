@@ -5130,7 +5130,7 @@ export const guides = [
     isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',
     seo: {
       title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough & Guide',
       description:
@@ -5208,7 +5208,7 @@ export const guides = [
     isSpecial: false,
     imageUrl: '/images/guides_50.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    iframeUrl: 'https://www.youtube.com/embed/6iXtoAjQu-4',
     seo: {
       title: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough & Guide',
       description:
@@ -5304,7 +5304,7 @@ export const guides = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-51' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    iframeUrl: 'https://www.youtube.com/embed/h0EXjsI1W7Q',
     seo: {
       title: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough & Tips',
       description:

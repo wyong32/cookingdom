@@ -4847,7 +4847,7 @@ export const guidesZh = [
     isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',
     seo: {
       title: 'Cookingdom 第49关 冰淇淋甜筒 通关攻略',
       description:
@@ -4937,7 +4937,7 @@ export const guidesZh = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-50' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    iframeUrl: 'https://www.youtube.com/embed/6iXtoAjQu-4',
     seo: {
       title: 'Cookingdom 第50关 烤澳洲金目鲈通关指南',
       description:
@@ -5020,7 +5020,7 @@ export const guidesZh = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-51' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    iframeUrl: 'https://www.youtube.com/embed/h0EXjsI1W7Q',
     seo: {
       title: 'Cookingdom 第51关 甜豆汤攻略与技巧',
       description:
