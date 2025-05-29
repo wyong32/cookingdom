@@ -4860,6 +4860,12 @@ export const guides = [
           imageUrl: '/images/guides_47.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
         },
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom Level 49 Gabay sa Ice Cream Cone',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+        },
       ],
     },
     detailsHtml: `
@@ -4905,5 +4911,242 @@ export const guides = [
   <li>Sobrang dami sa kalan — ang hindi maayos na timing ng kawali/palayok ay nakakabagal ng pagluluto.</li>
 </ul>
 `,
+  },
+
+  {
+    id: 'cookingdom-game-level-49',
+    title: 'Cookingdom Level 49 Gabay sa Ice Cream Cone',
+    pageTitle: 'Cookingdom Level 49 Gabay sa Ice Cream Cone',
+    pageSubtitle:
+      'Matutunan kung paano gumawa at mag-serve ng perpektong ice cream cones sa Level 49 ng Cookingdom.',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_49.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-49' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    seo: {
+      title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough & Guide',
+      description:
+        'Maging eksperto sa paggawa ng ice cream cones sa Cookingdom Level 49. Matutunan kung paano pumili ng cone, paikutin nang tama ang ice cream, at mabilis na maglagay ng toppings para mapasaya ang mga customer.',
+      keywords:
+        'cookingdom level 49, ice cream cone, walkthrough, guide, dessert, cone toppings, time management, cookingdom ice cream',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_49.webp',
+      levelInfoHtml:
+        '<h3>Ice Cream Cone</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 2–3 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonus Coins</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-48',
+          title: 'Cookingdom Level 48 Gabay sa Cupcake Tower',
+          imageUrl: '/images/guides_48.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-48' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-50',
+          title: 'Cookingdom Antas 50: Gabay sa Grilled Aussie Barramundi',
+          imageUrl: '/images/guides_50.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-50' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2>Paglalarawan ng Antas</h2>
+<p>Ang Level 49 ay nagpakilala ng isang masaya ngunit mabilis na dessert: ang klasikong ice cream cone. Kailangan mong buuin ang cones gamit ang iba't ibang lasa at toppings habang tinutugunan ang maraming order ng customer. Mahalaga ang timing, precision, at multitasking.</p>
+
+<h2>Layunin</h2>
+<p>I-serve ang tamang ice cream cones sa lahat ng customer bago maubos ang oras. Pumili ng tamang uri ng cone, paikutin ang ice cream nang tama, at tapusin ito ng mga requested toppings.</p>
+
+<h2>Pagsasaayos ng Ice Cream Cone</h2>
+<h3>Hakbang 1: Piliin ang Cone</h3>
+<ul>
+  <li>Karaniwang may dalawang uri: waffle cone at sugar cone.</li>
+  <li>Piliin ang ipinakita sa order ng customer.</li>
+</ul>
+
+<h3>Hakbang 2: Paikutin ang Ice Cream</h3>
+<ul>
+  <li>Karaniwang lasa: vanilla, chocolate, strawberry.</li>
+  <li>Pindutin at hawakan ang dispenser para paikutin ang ice cream sa cone. Itigil kapag umabot na sa tamang laki (may visual cue).</li>
+  <li>Ang sobrang dami o kulang ay maaaring magpababa ng kasiyahan ng customer.</li>
+</ul>
+
+<h3>Hakbang 3: Magdagdag ng Toppings</h3>
+<ul>
+  <li>Maaaring humiling ang customer ng sprinkles, chocolate syrup, o cherries.</li>
+  <li>I-drag at i-drop ang bawat topping sa ice cream ayon sa tamang pagkakasunod.</li>
+  <li>Mag-ingat na huwag maglagay ng sobra o hindi makaligtaan ang mga toppings.</li>
+</ul>
+
+<h3>Hakbang 4: Mag-serve nang Mabilis</h3>
+<p>Pagkatapos mabuo, i-drag ang cone sa tamang customer. Mahalaga ang oras! Ang pagkaantala ay maaaring magpababa ng pasensya at puntos.</p>
+
+<h2>Mga Tip at Trick</h2>
+<ul>
+  <li><strong>Tandaan ang mga Kombinasyon:</strong> Madalas lumabas ang mga common flavor at topping combos. Tandaan para mapabilis ang trabaho.</li>
+  <li><strong>Huwag Mag-overfill:</strong> Bantayan ang antas ng paikutin. Ang sobrang taas ng cone ay maaaring tumulo at magdulot ng hindi magandang feedback.</li>
+  <li><strong>Maagang Pumili ng Cone:</strong> Kung makikita ang order, piliin agad ang cone para makatipid ng oras.</li>
+  <li><strong>Mabilis at Eksakto:</strong> Ang maayos na pag-drag ng toppings ay makakatulong para makatipid ng oras.</li>
+  <li><strong>Mag-manage ng Maramihang Order:</strong> Simulan ang paggawa ng maraming cones nang sunod-sunod para mapabilis ang multitasking, pero siguraduhing hindi malito sa orders.</li>
+</ul>
+
+<h2>Buod</h2>
+<p>Ang Level 49 ng Cookingdom ay hamon upang gumawa ng perpektong ice cream cones nang mabilis at eksakto. Ang mastery sa pagpili ng cone, paikutin ng ice cream, at paglalagay ng toppings ay magbibigay ng mataas na customer satisfaction at 3-bitwin na rating.</p>
+<p>Ang pagtatapos ng level na ito ay magbubukas ng bagong frozen desserts at makakatulong sa pag-upgrade ng iyong dessert shop. Patuloy na magsanay para mapabilis at maging mas mahusay sa mga susunod na dessert levels!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-50',
+    title: 'Cookingdom Antas 50: Gabay sa Grilled Aussie Barramundi',
+    pageTitle: 'Cookingdom Antas 50: Gabay sa Grilled Aussie Barramundi',
+    pageSubtitle:
+      'Matutunan kung paano ihanda at ihain ang masarap na grilled Aussie Barramundi sa Antas 50 ng Cookingdom.',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_50.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    seo: {
+      title: 'Cookingdom Antas 50: Gabay at Walkthrough ng Grilled Aussie Barramundi',
+      description:
+        'Master ang proseso ng paghahanda ng grilled Aussie Barramundi sa Cookingdom Antas 50. Alamin ang tamang paglilinis, pag-marinate, pag-grill, at paghahain ng isda para sa mataas na customer satisfaction.',
+      keywords:
+        'cookingdom antas 50, grilled Aussie Barramundi, walkthrough, gabay sa pagluluto, isda, pagluluto sa grill',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_50.webp',
+      levelInfoHtml:
+        '<h3>Grilled Aussie Barramundi</h3><p><strong>Antas ng Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 3-4 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonus Coins</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom Antas 49: Gabay sa Ice Cream Cone',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+        },
+        {
+          id: 'cookingdom-game-level-51',
+          title: 'Cookingdom Antas 51: Gabay sa Beans Sweet Soup',
+          imageUrl: '/images/guides_51.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-51' } },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Pangkalahatang-ideya ng Antas</h2>
+<p>Sa Antas 50 ng Cookingdom, matututuhan mong ihanda ang grilled Aussie Barramundi, isang popular na isdang grilled na may masarap na lasa. Mahalaga ang tamang paglilinis, pag-marinate, at pagluluto ng isda upang makamit ang perpektong resulta.</p>
+
+<h2>Layunin ng Antas</h2>
+<p>Ihanda at ihain ang grilled Aussie Barramundi ayon sa mga order ng customer bago matapos ang oras upang makuha ang pinakamataas na puntos.</p>
+
+<h2>Proseso ng Paghahanda</h2>
+<h3>Hakbang 1: Linisin ang Isda</h3>
+<ul>
+  <li>Alisin ang kaliskis at laman ng isda gamit ang tamang kagamitan.</li>
+  <li>Siguraduhing malinis ang isda bago simulang i-marinate.</li>
+</ul>
+
+<h3>Hakbang 2: I-marinate ang Isda</h3>
+<ul>
+  <li>Gamitin ang tamang mga sangkap tulad ng lemon, bawang, at mga pampalasa.</li>
+  <li>Iwanan ang isda sa marinade nang sapat na oras para masipsip ang lasa.</li>
+</ul>
+
+<h3>Hakbang 3: I-grill ang Isda</h3>
+<ul>
+  <li>Ilagay ang isda sa grill at lutuin hanggang sa magkulay gintong kayumanggi.</li>
+  <li>Siguraduhing hindi ma-overcook upang hindi matuyo ang laman.</li>
+</ul>
+
+<h3>Hakbang 4: Ihain</h3>
+<p>Ilipat ang lutong isda sa plato at ihain agad sa customer.</p>
+
+<h2>Mga Tip at Payo</h2>
+<ul>
+  <li><strong>Panatilihing Malinis:</strong> Siguraduhing malinis ang kusina upang maiwasan ang mga problema sa pagluluto.</li>
+  <li><strong>Kontrolin ang Oras:</strong> Bantayan ang oras ng pag-grill upang makuha ang perpektong lutong isda.</li>
+  <li><strong>Multitasking:</strong> Habang nag-ggill, ihanda ang mga side dish o malinis ang lugar para sa mas mabilis na serbisyo.</li>
+  <li><strong>Panatilihing Maayos ang Order:</strong> Bantayan ang bawat order upang hindi malito sa mga pangangailangan ng customer.</li>
+</ul>
+
+<h2>Buod</h2>
+<p>Ang Antas 50 ay isang hamon sa pagluluto ng grilled Aussie Barramundi na nangangailangan ng tamang teknik at mahusay na pamamahala ng oras. Matapos makumpleto ang antas na ito, makakakuha ka ng gantimpala at mabubuksan ang mga bagong kagamitan sa kusina.</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-51',
+    title: 'Cookingdom Antas 51: Gabay sa Beans Sweet Soup',
+    pageTitle: 'Cookingdom Antas 51: Gabay sa Beans Sweet Soup',
+    pageSubtitle:
+      'Matutunan kung paano maghanda at maghain ng masarap na Beans Sweet Soup sa Antas 51 ng Cookingdom.',
+    category: '51-60',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_51.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-51' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    seo: {
+      title: 'Cookingdom Antas 51: Gabay at Walkthrough ng Beans Sweet Soup',
+      description:
+        'Master ang proseso ng paggawa ng Beans Sweet Soup sa Cookingdom Antas 51. Alamin ang tamang pagluluto ng beans, paghalo ng tamis, at paghahain ng mainit na dessert para sa mataas na customer satisfaction.',
+      keywords:
+        'cookingdom antas 51, beans sweet soup, walkthrough, gabay sa pagluluto, dessert, tamis na sopas',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_51.webp',
+      levelInfoHtml:
+        '<h3>Beans Sweet Soup</h3><p><strong>Antas ng Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 3-4 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonus Coins</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-50',
+          title: 'Cookingdom Antas 50: Gabay sa Grilled Aussie Barramundi',
+          imageUrl: '/images/guides_50.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Pangkalahatang-ideya ng Antas</h2>
+<p>Sa Antas 51 ng Cookingdom, matututuhan mong maghanda ng Beans Sweet Soup, isang mainit at matamis na dessert na paborito ng maraming customer. Mahalaga ang tamang pagluluto ng beans at tamang paghalo ng tamis upang makuha ang tamang lasa.</p>
+
+<h2>Layunin ng Antas</h2>
+<p>Ihanda at ihain ang Beans Sweet Soup ayon sa mga order ng customer bago matapos ang oras upang makamit ang pinakamataas na puntos.</p>
+
+<h2>Proseso ng Paghahanda</h2>
+<h3>Hakbang 1: Lutuing Mabuti ang Beans</h3>
+<ul>
+  <li>Pakuluan ang beans hanggang maging malambot at tamang lutong-luto.</li>
+  <li>Siguraduhing hindi matutuyuan o masusunog ang beans habang niluluto.</li>
+</ul>
+
+<h3>Hakbang 2: Haluin ang Matamis na Sahog</h3>
+<ul>
+  <li>Idagdag ang tamis tulad ng asukal o syrup habang niluluto.</li>
+  <li>Tikman upang masiguro na tama ang tamis ayon sa order.</li>
+</ul>
+
+<h3>Hakbang 3: Ihain Nang Mainit</h3>
+<p>Ilipat ang nilutong Beans Sweet Soup sa mangkok at ihain agad sa customer habang mainit pa.</p>
+
+<h2>Mga Tip at Payo</h2>
+<ul>
+  <li><strong>Huwag Masunog:</strong> Bantayan ang beans habang niluluto upang maiwasan ang pagkasunog o pagtuyot.</li>
+  <li><strong>Panatilihing Tama ang Tamis:</strong> Ayusin ang tamis base sa bawat order para sa pinakamagandang lasa.</li>
+  <li><strong>Multitasking:</strong> Habang niluluto ang beans, ihanda ang ibang sahog o linisin ang kusina para sa mas mabilis na serbisyo.</li>
+  <li><strong>Pagmamasid sa Oras:</strong> Siguraduhing ihain agad ang sopas habang mainit pa upang masiyahan ang customer.</li>
+</ul>
+
+<h2>Buod</h2>
+<p>Ang Antas 51 ay isang hamon sa pagluluto ng Beans Sweet Soup na nangangailangan ng tamang pagluluto at mahusay na pamamahala ng oras. Pagkatapos makumpleto ang antas, makakakuha ka ng gantimpala at mabubuksan ang mga bagong resipe sa iyong dessert shop.</p>`,
   },
 ]

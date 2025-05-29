@@ -4871,6 +4871,12 @@ export const guides = [
           imageUrl: '/images/guides_47.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
         },
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Panduan Cookingdom Tahap 49 — Aiskrim Kon',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+        },
       ],
     },
     detailsHtml: `
@@ -4916,5 +4922,239 @@ export const guides = [
   <li>Dapur terlalu sesak — masa memasak yang tidak terurus boleh mengganggu aliran hidangan.</li>
 </ul>
 `,
+  },
+
+  {
+    id: 'cookingdom-game-level-49',
+    title: 'Panduan Cookingdom Tahap 49 — Aiskrim Kon',
+    pageTitle: 'Panduan Cookingdom Tahap 49 — Aiskrim Kon',
+    pageSubtitle:
+      'Pelajari cara menyusun dan menghidangkan aiskrim kon yang sempurna dalam Tahap 49 Cookingdom.',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_49.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-49' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    seo: {
+      title: 'Panduan & Walkthrough Cookingdom Tahap 49 Aiskrim Kon',
+      description:
+        'Kuasai seni membuat aiskrim kon dalam Cookingdom Tahap 49. Belajar memilih kon, pusaran aiskrim dengan sempurna, dan menambah topping dengan cepat untuk memuaskan pelanggan.',
+      keywords:
+        'cookingdom tahap 49, aiskrim kon, panduan, walkthrough, pencuci mulut, topping kon, pengurusan masa, cookingdom aiskrim',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_49.webp',
+      levelInfoHtml:
+        '<h3>Aiskrim Kon</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 2–3 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-48',
+          title: 'Panduan Cookingdom Tahap 48 — Menara Kek Cawan',
+          imageUrl: '/images/guides_48.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-48' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-50',
+          title: 'Cookingdom Tahap 50: Grilled Aussie Barramundi Panduan Lengkap',
+          imageUrl: '/images/guides_50.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-50' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2>Gambaran Tahap</h2>
+<p>Tahap 49 memperkenalkan pencuci mulut yang menyeronokkan tetapi pantas — aiskrim kon klasik. Anda perlu menyusun kon dengan pelbagai perisa dan topping sambil mengikuti pesanan pelanggan yang banyak. Masa, ketepatan, dan multi-tugas adalah kunci utama.</p>
+
+<h2>Objektif</h2>
+<p>Hidangkan aiskrim kon yang betul kepada semua pelanggan sebelum masa tamat. Anda mesti memilih jenis kon yang betul, pusarkan aiskrim dengan rasa yang betul, dan tambah topping mengikut permintaan.</p>
+
+<h2>Penyediaan Aiskrim Kon</h2>
+<h3>Langkah 1: Pilih Kon</h3>
+<ul>
+  <li>Biasanya terdapat dua jenis: kon waffle dan kon gula.</li>
+  <li>Pilih yang ditunjukkan dalam pesanan pelanggan.</li>
+</ul>
+
+<h3>Langkah 2: Pusarkan Aiskrim</h3>
+<ul>
+  <li>Perisa biasa: vanila, coklat, strawberi.</li>
+  <li>Tekan dan tahan dispenser untuk memusingkan aiskrim ke dalam kon. Berhenti apabila mencapai saiz yang ditanda secara visual.</li>
+  <li>Terlalu banyak atau terlalu sedikit boleh menjejaskan kepuasan pelanggan.</li>
+</ul>
+
+<h3>Langkah 3: Tambah Topping</h3>
+<ul>
+  <li>Pelanggan mungkin meminta taburan, sirap coklat, atau ceri.</li>
+  <li>Seret dan lepaskan setiap topping ke atas aiskrim mengikut urutan yang betul.</li>
+  <li>Berhati-hati agar tidak menambah topping berlebihan atau tertinggal.</li>
+</ul>
+
+<h3>Langkah 4: Hidangkan dengan Cepat</h3>
+<p>Selepas siap, seret kon kepada pelanggan yang betul. Masa sangat penting — kelewatan boleh menurunkan kesabaran dan skor anda.</p>
+
+<h2>Petua dan Trik</h2>
+<ul>
+  <li><strong>Hafal Kombinasi:</strong> Gabungan perisa dan topping yang biasa akan kerap muncul. Hafal untuk lebih pantas.</li>
+  <li><strong>Jangan Terlebih Isi:</strong> Perhatikan tahap pusaran. Kon yang melimpah akan tumpah dan menjejaskan skor.</li>
+  <li><strong>Pilih Kon Awal:</strong> Jika anda sudah nampak pesanan, pilih kon awal untuk jimat masa.</li>
+  <li><strong>Gerakkan dengan Tepat:</strong> Seretan topping yang tepat dan licin membantu menjimatkan masa.</li>
+  <li><strong>Urus Pelbagai Pesanan:</strong> Mulakan beberapa kon serentak untuk optimumkan masa, tapi pastikan anda tidak tersilap pesanan!</li>
+</ul>
+
+<h2>Ringkasan</h2>
+<p>Tahap 49 dalam Cookingdom menguji kecekapan anda menyusun aiskrim kon dengan cepat dan tepat. Kuasai pemilihan kon, teknik pusaran, dan susunan topping untuk memperoleh 3 bintang dan pelanggan gembira.</p>
+<p>Melengkapkan tahap ini akan membuka lebih banyak pencuci mulut sejuk dan menaik taraf dapur anda. Teruskan berlatih untuk lebih cekap dalam tahap pencuci mulut akan datang!</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-50',
+    title: 'Cookingdom Tahap 50: Grilled Aussie Barramundi Panduan Lengkap',
+    pageTitle: 'Cookingdom Tahap 50: Grilled Aussie Barramundi Panduan Lengkap',
+    pageSubtitle:
+      'Pelajari cara memanggang ikan Barramundi ala Australia yang sempurna dalam Tahap 50 Cookingdom.',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_50.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    seo: {
+      title: 'Cookingdom Tahap 50: Grilled Aussie Barramundi Panduan & Walkthrough',
+      description:
+        'Kuasi teknik memanggang ikan Barramundi ala Australia di Tahap 50 Cookingdom. Ketahui cara memasak, membalik, dan menghidangkan ikan dengan tepat untuk memuaskan pelanggan.',
+      keywords:
+        'cookingdom tahap 50, grilled barramundi, panduan memasak, walkthrough cookingdom, ikan panggang, tips memasak',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_50.webp',
+      levelInfoHtml:
+        '<h3>Grilled Aussie Barramundi</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3-4 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom Tahap 49: Ice Cream Cone Panduan Lengkap',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+        },
+        {
+          id: 'cookingdom-game-level-51',
+          title: 'Cookingdom Tahap 51: Sup Manis Kacang Panduan Lengkap',
+          imageUrl: '/images/guides_51.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-51' } },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Gambaran Tahap</h2>
+<p>Pada Tahap 50 Cookingdom, anda akan belajar memanggang ikan Barramundi ala Australia yang lazat. Proses memasak memerlukan ketepatan dalam mengawal masa memanggang dan membalik ikan untuk hasil terbaik.</p>
+
+<h2>Objektif Tahap</h2>
+<p>Memanggang dan menghidangkan ikan Barramundi yang sempurna kepada pelanggan dalam masa yang ditetapkan untuk mendapatkan skor tertinggi.</p>
+
+<h2>Proses Memanggang Barramundi</h2>
+<h3>Langkah 1: Persediaan Ikan</h3>
+<ul>
+  <li>Bersihkan dan sediakan ikan Barramundi dengan betul sebelum memasak.</li>
+  <li>Perhatikan jenis ikan dan saiznya untuk menentukan masa memasak.</li>
+</ul>
+
+<h3>Langkah 2: Memanggang Ikan</h3>
+<ul>
+  <li>Letakkan ikan di atas pemanggang yang telah dipanaskan.</li>
+  <li>Balik ikan secara berkala supaya masak sekata.</li>
+  <li>Jangan terlalu lama memanggang supaya ikan tidak hangus.</li>
+</ul>
+
+<h3>Langkah 3: Menghidang</h3>
+<p>Setelah ikan masak sempurna, angkat dan hidangkan kepada pelanggan dengan cepat.</p>
+
+<h2>Petua dan Trik</h2>
+<ul>
+  <li><strong>Kawalan Masa:</strong> Pantau masa memanggang untuk elakkan ikan terlebih masak atau kurang masak.</li>
+  <li><strong>Balik Ikan Tepat Masa:</strong> Membalik pada masa yang sesuai memastikan ikan masak sekata.</li>
+  <li><strong>Persediaan Awal:</strong> Sediakan semua bahan sebelum memasak untuk mempercepat proses.</li>
+  <li><strong>Pengurusan Pesanan:</strong> Urus pesanan dengan baik untuk elakkan kelewatan.</li>
+  <li><strong>Fokus Ketepatan:</strong> Pastikan setiap hidangan disediakan mengikut permintaan pelanggan.</li>
+</ul>
+
+<h2>Ringkasan</h2>
+<p>Tahap 50 menguji kemahiran anda dalam memanggang ikan Barramundi ala Australia dengan tepat dan cepat. Dengan pengurusan masa dan perhatian kepada butiran, anda boleh mencapai 3 bintang dan membuka lebih banyak resipi dan peralatan dapur.</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-51',
+    title: 'Cookingdom Tahap 51: Sup Manis Kacang Panduan Lengkap',
+    pageTitle: 'Cookingdom Tahap 51: Sup Manis Kacang Panduan Lengkap',
+    pageSubtitle:
+      'Pelajari cara menyediakan dan menghidangkan sup manis kacang yang menyegarkan dalam Tahap 51 Cookingdom.',
+    category: '51-60',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_51.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-51' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    seo: {
+      title: 'Cookingdom Tahap 51: Sup Manis Kacang Panduan & Walkthrough',
+      description:
+        'Kuasi seni menyediakan sup manis kacang di Tahap 51 Cookingdom. Ketahui cara merebus kacang, menambah gula, dan menghidangkan dengan tepat untuk kepuasan pelanggan.',
+      keywords:
+        'cookingdom tahap 51, sup manis kacang, panduan memasak, walkthrough cookingdom, pencuci mulut, tips memasak',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_51.webp',
+      levelInfoHtml:
+        '<h3>Sup Manis Kacang</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 3-4 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-50',
+          title: 'Cookingdom Tahap 50: Grilled Aussie Barramundi Panduan Lengkap',
+          imageUrl: '/images/guides_50.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Gambaran Tahap</h2>
+<p>Pada Tahap 51 Cookingdom, anda akan belajar menyediakan sup manis kacang yang lazat dan menyegarkan. Proses memasak melibatkan merebus kacang dengan betul dan menambah gula dalam kadar yang tepat.</p>
+
+<h2>Objektif Tahap</h2>
+<p>Sediakan dan hidangkan sup manis kacang yang sempurna kepada pelanggan dalam masa yang ditetapkan untuk mendapatkan skor tertinggi.</p>
+
+<h2>Proses Penyediaan Sup Manis Kacang</h2>
+<h3>Langkah 1: Merebus Kacang</h3>
+<ul>
+  <li>Pilih jenis kacang yang diperlukan seperti kacang merah atau kacang hijau.</li>
+  <li>Rebus kacang sehingga empuk tetapi tidak terlalu hancur.</li>
+</ul>
+
+<h3>Langkah 2: Menambah Gula</h3>
+<ul>
+  <li>Tambahkan gula mengikut permintaan pelanggan.</li>
+  <li>Kacau sehingga gula larut sepenuhnya untuk rasa manis yang seimbang.</li>
+</ul>
+
+<h3>Langkah 3: Menghidang Sup</h3>
+<p>Tuangkan sup ke dalam mangkuk dan hidangkan dengan segera kepada pelanggan.</p>
+
+<h2>Petua dan Trik</h2>
+<ul>
+  <li><strong>Pengawalan Masa:</strong> Kawal masa merebus supaya kacang tidak terlalu lembik atau keras.</li>
+  <li><strong>Pengadunan Gula:</strong> Pastikan gula larut sepenuhnya untuk rasa yang konsisten.</li>
+  <li><strong>Persediaan Awal:</strong> Sediakan bahan sebelum memasak untuk mempercepatkan proses.</li>
+  <li><strong>Urus Pesanan dengan Baik:</strong> Sentiasa perhatikan pesanan pelanggan untuk menghidangkan tepat pada masanya.</li>
+  <li><strong>Kebersihan:</strong> Sentiasa jaga kebersihan kawasan memasak untuk mengelakkan sebarang masalah.</li>
+</ul>
+
+<h2>Ringkasan</h2>
+<p>Tahap 51 menguji kemahiran anda dalam menyediakan sup manis kacang yang lazat dan tepat masa. Dengan pengurusan masa dan perhatian kepada detail, anda boleh mencapai 3 bintang dan membuka lebih banyak resipi pencuci mulut.</p>`,
   },
 ]

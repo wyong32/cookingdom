@@ -5067,6 +5067,12 @@ export const guides = [
           imageUrl: '/images/guides_47.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
         },
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+        },
       ],
     },
     detailsHtml: `
@@ -5111,6 +5117,257 @@ export const guides = [
   <li>Wrong sauce — always match the sauce icon shown in the order.</li>
   <li>Overcrowding the stove — poor pan/pot timing can stall your flow.</li>
 </ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-49',
+    title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough',
+    pageTitle: 'Cookingdom Level 49 Ice Cream Cone Walkthrough',
+    pageSubtitle: 'Learn to assemble and serve perfect ice cream cones in Level 49 of Cookingdom.',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_49.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    seo: {
+      title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough & Guide',
+      description:
+        'Master the art of making ice cream cones in Cookingdom Level 49. Learn to select cones, swirl the ice cream perfectly, and add toppings quickly to satisfy demanding customers.',
+      keywords:
+        'cookingdom level 49, ice cream cone, Walkthrough & Guide, Cookingdom desserts, cone toppings, time management, cookingdom ice cream',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_49.webp',
+      levelInfoHtml:
+        '<h3>Ice Cream Cone</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 2–3 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-48',
+          title: 'Cookingdom Level 48 Cupcake Tower Walkthrough',
+          imageUrl: '/images/guides_48.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-48' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Level Overview</h2>
+<p>Level 49 introduces a fun but fast-paced dessert: the classic ice cream cone. You'll need to assemble cones with various flavors and toppings while keeping up with multiple customer orders. Timing, precision, and multitasking are key.</p>
+
+<h2>Objective</h2>
+<p>Serve the correct ice cream cones to all customers before time runs out. You must select the correct cone type, swirl the appropriate ice cream flavor, and finish with toppings as requested.</p>
+
+<h2>Ice Cream Cone Assembly</h2>
+<h3>Step 1: Choose a Cone</h3>
+<ul>
+  <li>There are typically two types: waffle cone and sugar cone.</li>
+  <li>Select the one shown in the customer order.</li>
+</ul>
+
+<h3>Step 2: Swirl Ice Cream</h3>
+<ul>
+  <li>Common flavors: vanilla, chocolate, strawberry.</li>
+  <li>Tap and hold the dispenser to swirl the ice cream into the cone. Stop when it reaches the right size (marked by a visual cue).</li>
+  <li>Too much or too little can lower satisfaction.</li>
+</ul>
+
+<h3>Step 3: Add Toppings</h3>
+<ul>
+  <li>Customers may request sprinkles, chocolate syrup, or cherries.</li>
+  <li>Drag and drop each topping onto the ice cream in the correct order.</li>
+  <li>Be careful not to add extra toppings or miss any.</li>
+</ul>
+
+<h3>Step 4: Serve Quickly</h3>
+<p>After assembling the cone, drag it to the corresponding customer. Time matters! Delayed service can reduce patience and impact your score.</p>
+
+<h2>Tips and Tricks</h2>
+<ul>
+  <li><strong>Memorize Combinations:</strong> Common flavor + topping combos reappear. Memorize them to work faster.</li>
+  <li><strong>Don’t Overfill:</strong> Watch the swirl level. Overfilled cones result in spills and unhappy customers.</li>
+  <li><strong>Pre-select Cones:</strong> If a customer's order is visible in advance, pick the cone early to save time.</li>
+  <li><strong>Quick Hands:</strong> Dragging toppings smoothly and accurately is essential. Precision saves time.</li>
+  <li><strong>Manage Multiple Orders:</strong> Start multiple cones in sequence to optimize multitasking, but don’t lose track of orders.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Level 49 of Cookingdom challenges players with building perfect ice cream cones under time pressure. Mastering cone selection, ice cream swirling, and topping placement will ensure high customer satisfaction and a 3-star rating.</p>
+<p>Completing this level unlocks new frozen desserts and contributes to your dessert shop upgrades. Keep practicing to improve accuracy and speed in future dessert-based levels.</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-50',
+    title: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough',
+    pageTitle: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough',
+    pageSubtitle: 'Grill and serve perfect barramundi fillets with sides in Cookingdom Level 50.',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_50.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    seo: {
+      title: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough & Guide',
+      description:
+        'Master Cookingdom Level 50 by perfectly grilling Aussie Barramundi fillets. Learn proper grilling techniques, seasoning steps, and how to serve it with sides to impress every customer.',
+      keywords:
+        'cookingdom level 50, grilled barramundi, Walkthrough & Guide, Aussie barramundi, fish recipe, grilling game, Cookingdom Level 50 tips',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_50.webp',
+      levelInfoHtml:
+        '<h3>Grilled Aussie Barramundi</h3><p><strong>Difficulty:</strong> Medium-High</p><p><strong>Est. Time:</strong> 3–4 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Tips</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom Level 49 Ice Cream Cone Walkthrough',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-49' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-51',
+          title: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough',
+          imageUrl: '/images/guides_51.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-51' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>Level Overview</h2>
+<p>Level 50 takes you to the heart of Australian cuisine, where you’ll grill fresh barramundi fillets and serve them with classic sides. This level tests your grill control, timing, and plating skills. Multiple components must be prepared in sync to satisfy customer expectations.</p>
+
+<h2>Objective</h2>
+<p>Grill Aussie barramundi fillets to perfection, plate them with the correct sides, and serve each dish while it’s hot. The challenge lies in managing grill time and multitasking with side preparation.</p>
+
+<h2>Step-by-Step Guide</h2>
+<h3>Step 1: Prepare the Fish</h3>
+<ul>
+  <li>Select a raw barramundi fillet from the fridge or ingredient tray.</li>
+  <li>Apply seasoning (usually salt, pepper, and lemon juice) as shown in the customer order.</li>
+</ul>
+
+<h3>Step 2: Grill the Fillet</h3>
+<ul>
+  <li>Place the seasoned fillet on the preheated grill.</li>
+  <li>Monitor the timer or color change — flip once halfway for even cooking.</li>
+  <li>A golden-brown texture on both sides indicates perfect doneness.</li>
+  <li><strong>Tip:</strong> Don’t overcook — burned fish lowers customer satisfaction and reduces your score.</li>
+</ul>
+
+<h3>Step 3: Prepare the Sides</h3>
+<ul>
+  <li>Common sides: grilled asparagus, mashed potatoes, or lemon slices.</li>
+  <li>Begin side prep while the fish is grilling to save time.</li>
+  <li>Some sides require boiling or grilling — start these early so they’re ready to plate with the fish.</li>
+</ul>
+
+<h3>Step 4: Plate and Serve</h3>
+<ul>
+  <li>Once the fish and sides are ready, arrange them neatly on the plate.</li>
+  <li>Drag and serve the completed dish to the customer quickly.</li>
+  <li>Timing is essential — lukewarm dishes lead to unhappy customers.</li>
+</ul>
+
+<h2>Tips and Tricks</h2>
+<ul>
+  <li><strong>Grill Awareness:</strong> Don’t leave the grill unattended — overcooked fish is the most common mistake.</li>
+  <li><strong>Side Dish Prep:</strong> Use downtime during grilling to prepare and pre-load side ingredients.</li>
+  <li><strong>Double-Grill Strategy:</strong> If you have two grill slots, stagger fish prep to serve more customers efficiently.</li>
+  <li><strong>Watch for Order Complexity:</strong> Some customers request sauce or extras (like herbs). Follow orders precisely for bonus tips.</li>
+  <li><strong>Multitask Smart:</strong> Prep one side dish while plating another — keep all elements moving.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Cookingdom Level 50 is a rewarding test of your grilling and plating skills. Success requires close attention to timing, careful side preparation, and quick serving. Nail the fish temperature and garnish correctly for high scores and bonus coins.</p>
+<p>Completing this level unlocks advanced seafood recipes and upgrades for your grill station — a must for later challenges!</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-51',
+    title: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough',
+    pageTitle: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough',
+    pageSubtitle:
+      'Master the art of cooking Beans Sweet Soup efficiently in Level 51 of Cookingdom.',
+    category: '51-60',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_51.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-51' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    seo: {
+      title: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough & Tips',
+      description:
+        'Learn how to prepare Beans Sweet Soup perfectly in Cookingdom Level 51. Follow the exact cooking sequence and serve with the right toppings for a 3-star rating.',
+      keywords:
+        'cookingdom level 51, beans sweet soup, walkthrough, dessert soup, cooking guide, cookingdom tips',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_51.webp',
+      levelInfoHtml:
+        '<h3>Beans Sweet Soup</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 2–3 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-50',
+          title: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough',
+          imageUrl: '/images/guides_50.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-50' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2>Level Overview</h2>
+<p>Level 51 introduces a warm and comforting dessert: Beans Sweet Soup. It involves simmering the beans, adding just the right amount of syrup, and optionally topping with items like coconut milk or taro balls based on customer orders.</p>
+
+<h2>Objective</h2>
+<p>Prepare and serve the correct Beans Sweet Soup combinations to all customers before the timer ends. Focus on accuracy, timing, and topping placement.</p>
+
+<h2>Cooking Process</h2>
+<h3>Step 1: Boil the Beans</h3>
+<ul>
+  <li>Select the pot and tap to start boiling red or mung beans as shown in the order.</li>
+  <li>Wait for the progress bar to fill up. Don’t overboil or the soup will become mushy.</li>
+</ul>
+
+<h3>Step 2: Add Syrup</h3>
+<ul>
+  <li>Once boiled, add a ladle of sweet syrup to the beans.</li>
+  <li>The right amount is indicated visually—overpouring may lead to a lower satisfaction score.</li>
+</ul>
+
+<h3>Step 3: Choose Toppings</h3>
+<ul>
+  <li>Common toppings include coconut milk, taro balls, or grass jelly.</li>
+  <li>Drag and drop the correct toppings based on customer request. Topping order may matter for certain VIP customers.</li>
+</ul>
+
+<h3>Step 4: Serve</h3>
+<p>Once completed, serve the sweet soup to the corresponding customer quickly. Delays or incorrect toppings will impact your rating.</p>
+
+<h2>Tips and Tricks</h2>
+<ul>
+  <li><strong>Memorize Topping Combos:</strong> Common combinations repeat across orders. Remembering them speeds up your workflow.</li>
+  <li><strong>Time Boiling Carefully:</strong> Start boiling the next batch while finishing toppings on the current bowl to multitask.</li>
+  <li><strong>Don’t Overpour Syrup:</strong> Watch the visual syrup level marker and stop at the right moment.</li>
+  <li><strong>Tap Sequence Efficiency:</strong> Develop a habit of tapping in the same order: boil → syrup → toppings → serve.</li>
+  <li><strong>Use Visual Cues:</strong> Pay attention to icon highlights and sound prompts to guide your timing.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Level 51 tests your timing and multitasking as you prepare Beans Sweet Soup with various topping requests. Success requires accurate portioning, boiling discipline, and customer-focused speed. Master this level to unlock further Asian dessert recipes and boost your dessert kitchen upgrades.</p>
 `,
   },
 ] // End guides array

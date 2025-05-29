@@ -4784,6 +4784,12 @@ export const guidesZh = [
           imageUrl: '/images/guides_47.webp',
           detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
         },
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom 第49关 冰淇淋甜筒 通关攻略',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+        },
       ],
     },
     detailsHtml: `
@@ -4828,6 +4834,255 @@ export const guidesZh = [
   <li>酱汁错误——务必与订单上的酱汁图标对应。</li>
   <li>炉灶过度拥挤——锅具时间安排不当会影响出菜效率。</li>
 </ul>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-49',
+    title: 'Cookingdom 第49关 冰淇淋甜筒 通关攻略',
+    pageTitle: 'Cookingdom 第49关 冰淇淋甜筒 通关攻略',
+    pageSubtitle: '学习在Cookingdom第49关中组装并快速送出完美的冰淇淋甜筒。',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_49.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID49',
+    seo: {
+      title: 'Cookingdom 第49关 冰淇淋甜筒 通关攻略',
+      description:
+        '掌握在Cookingdom第49关制作冰淇淋甜筒的技巧。学习如何选择甜筒、完美旋转冰淇淋，并快速添加配料以满足顾客的需求。',
+      keywords:
+        'cookingdom 第49关, 冰淇淋甜筒, 通关攻略, Cookingdom 甜点, 甜筒配料, 时间管理, cookingdom 冰淇淋',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_49.webp',
+      levelInfoHtml:
+        '<h3>冰淇淋甜筒</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2–3分钟</p><p><strong>奖励：</strong>三星 + 奖励金币</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-48',
+          title: 'Cookingdom 第48关 纸杯蛋糕塔 通关攻略',
+          imageUrl: '/images/guides_48.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-48' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-51',
+          title: 'Cookingdom 第50关 烤澳洲金目鲈通关指南',
+          imageUrl: '/images/guides_51.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-51' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>关卡概述</h2>
+<p>第49关引入了一道既有趣又节奏紧凑的甜点：经典冰淇淋甜筒。你需要在处理多个顾客订单的同时，组装出包含各种口味和配料的甜筒。把握时机、操作精准、多任务处理是通关关键。</p>
+
+<h2>目标</h2>
+<p>在时间限制内为所有顾客送出正确的冰淇淋甜筒。你需要选择正确的甜筒类型，旋转出合适口味的冰淇淋，并按要求加上配料。</p>
+
+<h2>冰淇淋甜筒制作步骤</h2>
+<h3>第1步：选择甜筒</h3>
+<ul>
+  <li>通常有两种类型：华夫甜筒和脆皮甜筒。</li>
+  <li>根据顾客订单选择对应的甜筒类型。</li>
+</ul>
+
+<h3>第2步：旋转冰淇淋</h3>
+<ul>
+  <li>常见口味：香草、巧克力、草莓。</li>
+  <li>点击并按住冰淇淋机，旋转冰淇淋进甜筒中。当达到视觉提示的适当高度时停止。</li>
+  <li>太多或太少都会影响顾客满意度。</li>
+</ul>
+
+<h3>第3步：添加配料</h3>
+<ul>
+  <li>顾客可能会要求：彩色糖屑、巧克力酱、樱桃等配料。</li>
+  <li>将每个配料按顺序拖放到冰淇淋上。</li>
+  <li>小心不要加错或漏掉配料。</li>
+</ul>
+
+<h3>第4步：快速送出</h3>
+<p>甜筒组装完成后，迅速拖动交给相应的顾客。时间至关重要！送餐延迟会降低顾客耐心并影响得分。</p>
+
+<h2>技巧与建议</h2>
+<ul>
+  <li><strong>记住常见组合：</strong>常见的口味+配料组合会重复出现，记住它们能加快操作速度。</li>
+  <li><strong>不要过量：</strong>注意冰淇淋旋转高度，过量会溢出，导致顾客不满。</li>
+  <li><strong>提前选好甜筒：</strong>如果顾客订单提前显示，可提前选好甜筒节省时间。</li>
+  <li><strong>操作迅速：</strong>拖动配料要顺畅精准，操作越快得分越高。</li>
+  <li><strong>多单处理：</strong>可同时开始制作多个甜筒以提高效率，但要确保不搞混订单。</li>
+</ul>
+
+<h2>总结</h2>
+<p>Cookingdom第49关考验玩家在时间压力下组装完美冰淇淋甜筒的能力。掌握甜筒选择、冰淇淋旋转及配料摆放技巧，将助你获得高顾客满意度和三星评分。</p>
+<p>通关后可解锁新型冷冻甜点，并提升你的甜品店等级。多加练习，以提升未来甜点关卡的准确率与速度。</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-50',
+    title: 'Cookingdom 第50关 烤澳洲金目鲈通关指南',
+    pageTitle: 'Cookingdom 第50关 烤澳洲金目鲈通关指南',
+    pageSubtitle: '掌握在Cookingdom第50关中完美烤制澳洲金目鲈的技巧。',
+    category: '41-50',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_50.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-50' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID50',
+    seo: {
+      title: 'Cookingdom 第50关 烤澳洲金目鲈通关指南',
+      description:
+        '学习如何在Cookingdom第50关中精准烤制澳洲金目鲈，掌握食材调味、烹饪时机和完美上菜的技巧。',
+      keywords: 'cookingdom 第50关, 烤金目鲈, 澳洲鱼料理, 通关指南, 时间管理, 烹饪技巧',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_50.webp',
+      levelInfoHtml:
+        '<h3>烤澳洲金目鲈</h3><p><strong>难度：</strong>较高</p><p><strong>预计时间：</strong>3–4分钟</p><p><strong>奖励：</strong>3星 + 奖励金币</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-49',
+          title: 'Cookingdom 第49关 冰淇淋甜筒通关指南',
+          imageUrl: '/images/guides_49.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-49' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2>关卡概览</h2>
+<p>第50关介绍了一道高端主菜：烤澳洲金目鲈。这道鱼类菜肴要求玩家准确地腌制、翻面和烤制鱼肉，并搭配适当的配菜，满足高要求顾客的需求。</p>
+
+<h2>关卡目标</h2>
+<p>根据顾客订单，准备并烤制出完美的金目鲈，搭配正确的配菜，并在规定时间内高效上菜。</p>
+
+<h2>烹饪流程</h2>
+<h3>第1步：腌制鱼肉</h3>
+<ul>
+  <li>从食材区取出新鲜金目鲈。</li>
+  <li>根据提示加入柠檬汁、橄榄油和香料（如黑胡椒、蒜粉）。</li>
+  <li>等待数秒完成腌制过程。</li>
+</ul>
+
+<h3>第2步：烤制鱼肉</h3>
+<ul>
+  <li>将鱼放置在烤架上。</li>
+  <li>注意翻面时机 —— 一般在出现提示圈时点击翻面按钮。</li>
+  <li>避免过烤或生烤，过烤会使鱼肉发黑，生烤则影响口感与评分。</li>
+</ul>
+
+<h3>第3步：搭配配菜</h3>
+<ul>
+  <li>顾客可能要求搭配土豆泥、蔬菜沙拉或柠檬片。</li>
+  <li>根据订单点击添加，每一项必须准确无误。</li>
+</ul>
+
+<h3>第4步：装盘与上菜</h3>
+<p>将烤好的鱼与配菜一起装盘，拖动至对应顾客处。</p>
+<p>上菜延迟会影响顾客满意度，降低评分。</p>
+
+<h2>小技巧</h2>
+<ul>
+  <li><strong>精准翻面：</strong>学习观察烤鱼颜色变化与提示圈，翻面越精准，评分越高。</li>
+  <li><strong>配菜预备：</strong>当鱼在烤架上时可提前准备配菜节省时间。</li>
+  <li><strong>注意顺序：</strong>按照步骤操作：腌制→烤制→配菜→上菜，避免手忙脚乱。</li>
+  <li><strong>多任务处理：</strong>一边烤鱼一边备菜，适应高级关卡的节奏。</li>
+  <li><strong>顾客耐心条：</strong>注意每位顾客头上的耐心条，优先处理等待时间长的订单。</li>
+</ul>
+
+<h2>总结</h2>
+<p>Cookingdom第50关是一项时间管理与精细烹饪的考验。掌握鱼类腌制、翻面、精准烘烤与快速出餐，将帮助你顺利获取3星评价并解锁更丰富的高级料理内容。</p>
+<p>完成本关将解锁更多海鲜类菜品，并推进你的高级厨房升级路径。</p>
+`,
+  },
+
+  {
+    id: 'cookingdom-game-level-51',
+    title: 'Cookingdom 第51关 甜豆汤通关攻略',
+    pageTitle: 'Cookingdom 第51关 甜豆汤通关攻略',
+    pageSubtitle: '掌握在Cookingdom第51关中高效烹饪甜豆汤的技巧。',
+    category: '51-60',
+    publishDate: '2025-05-29',
+    isSpecial: false,
+    imageUrl: '/images/guides_51.webp',
+    detailsRoute: {
+      name: 'guide-detail',
+      params: { id: 'cookingdom-game-level-51' },
+    },
+    iframeUrl: 'https://www.youtube.com/embed/EXAMPLE_VIDEO_ID51',
+    seo: {
+      title: 'Cookingdom 第51关 甜豆汤攻略与技巧',
+      description:
+        '学习如何在 Cookingdom 第51关中完美制作甜豆汤。遵循正确的烹饪顺序并准确添加配料，即可获得三星评分。',
+      keywords: 'cookingdom 第51关, 甜豆汤, 通关攻略, 甜品汤, 烹饪指南, cookingdom 技巧',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_51.webp',
+      levelInfoHtml:
+        '<h3>甜豆汤</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2–3 分钟</p><p><strong>奖励：</strong>三星 + 奖励金币</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-50',
+          title: 'Cookingdom 第50关 澳洲烤鲈鱼通关攻略',
+          imageUrl: '/images/guides_50.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-50' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `
+<h2>关卡概述</h2>
+<p>第51关引入了一道温暖可口的甜品：甜豆汤。你需要煮豆、加糖浆，并根据顾客的要求添加如椰浆、芋圆等配料，完成后迅速上桌。</p>
+
+<h2>目标</h2>
+<p>在时间耗尽之前，为所有顾客准确制作并送上正确的甜豆汤组合。精准度、时机和配料顺序是关键。</p>
+
+<h2>烹饪流程</h2>
+<h3>第1步：煮豆</h3>
+<ul>
+  <li>根据订单选择红豆或绿豆，点击锅子开始煮。</li>
+  <li>等待进度条完成，过煮会导致口感变差。</li>
+</ul>
+
+<h3>第2步：添加糖浆</h3>
+<ul>
+  <li>煮好后，舀一勺甜糖浆倒入豆中。</li>
+  <li>注意糖浆的视觉提示，倒得太多会影响评分。</li>
+</ul>
+
+<h3>第3步：选择配料</h3>
+<ul>
+  <li>常见配料包括椰浆、芋圆和仙草冻。</li>
+  <li>根据顾客订单拖动相应配料到碗中。有些VIP顾客还要求配料顺序正确。</li>
+</ul>
+
+<h3>第4步：上桌</h3>
+<p>完成后迅速将甜豆汤拖到对应顾客处。拖延或配料错误会降低评分。</p>
+
+<h2>技巧与建议</h2>
+<ul>
+  <li><strong>记住常见配方：</strong>重复出现的配料组合可以提前记住，提升操作效率。</li>
+  <li><strong>合理安排煮豆时间：</strong>在添加配料的同时提前煮下一份豆，提升多任务能力。</li>
+  <li><strong>糖浆量要准确：</strong>留意视觉提示，适量倒入即可。</li>
+  <li><strong>固定操作顺序：</strong>养成「煮豆 → 糖浆 → 配料 → 上桌」的操作习惯更高效。</li>
+  <li><strong>利用视觉提示：</strong>留意高亮提示和声音提示，帮助你掌控时机。</li>
+</ul>
+
+<h2>总结</h2>
+<p>第51关考验你在制作甜豆汤时的时机把控与多任务处理能力。只要准确煮豆、正确添加糖浆与配料，并快速服务顾客，就能轻松获得三星评价。通关后将解锁更多亚洲风味甜品，并为你的甜品厨房升级助力！</p>
 `,
   },
 ]
