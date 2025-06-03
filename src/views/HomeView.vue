@@ -38,23 +38,23 @@ const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(local
 const latestLevels = ref([
   {
     id: 'cookingdom-game-level-51',
-    title: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough',
+    title: 'Cookingdom Level 51 American Breakfast Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-50',
-    title: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough',
+    id: 'cookingdom-game-level-52',
+    title: 'Cookingdom Level 52 Beans Sweet Soup Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-49',
-    title: 'Cookingdom Level 49 Grilled Chicken Breast Walkthrough',
+    id: 'cookingdom-game-level-53',
+    title: 'Cookingdom Level 53 City IceCream Cone Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-48',
-    title: 'Cookingdom Level 48 Grilled Beef Steak Walkthrough',
+    id: 'cookingdom-game-level-54',
+    title: 'Cookingdom Level 54 Arroz Cardo Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-47',
-    title: 'Cookingdom Level 47 Grilled Pork Chop Walkthrough',
+    id: 'cookingdom-game-level-55',
+    title: 'Cookingdom Level 55 Jamaican Pineapple Jerk Chicken Walkthrough',
   },
 ])
 
