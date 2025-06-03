@@ -55,6 +55,9 @@
     "hero": {
       "title": "Cookingdom Game: Complete Walkthrough Guides",
       "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom Level Walkthrough Guides, simple cheats, and video walkthroughs.",
+      "latestLevels": {
+        "title": "🔥 Latest level update"
+      },
       "button": {
         "viewGuides": "View Cookingdom Walkthrough Guides",
         "gameFeatures": "Explore Game Features",

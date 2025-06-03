@@ -52,6 +52,9 @@
     "hero": {
       "title": "Cookingdom Game: Panduan Lengkap Permainan",
       "description": "Teman penting anda untuk menguasai permainan Cookingdom ✨ Akses Panduan Lengkap Semua Tahap Cookingdom, cheat mudah, dan panduan video.",
+      "latestLevels": {
+        "title": "🔥 Kemas kini peringkat terkini"
+      },
       "button": {
         "viewGuides": "Lihat Panduan Permainan Cookingdom",
         "gameFeatures": "Teroka Ciri-ciri Permainan",

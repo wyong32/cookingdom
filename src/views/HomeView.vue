@@ -19,6 +19,8 @@ const GuidesSection = defineAsyncComponent({
 // Import useGuides to fetch guide data
 import { useGuides } from '@/composables/useGuides'
 import { useI18n } from 'vue-i18n'
+import { RouterLink } from 'vue-router'
+import { defaultLang } from '@/i18n'
 
 // 使用 shallowRef 存储动态导入的组件
 const Swiper = shallowRef(null)
@@ -31,6 +33,40 @@ const { locale } = useI18n()
 
 // 直接使用 useGuides，但通过显示控制实现懒加载效果
 const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(locale)
+
+// 最新关卡数据 (最后5个关卡)
+const latestLevels = ref([
+  {
+    id: 'cookingdom-game-level-51',
+    title: 'Cookingdom Level 51 Beans Sweet Soup Walkthrough',
+  },
+  {
+    id: 'cookingdom-game-level-50',
+    title: 'Cookingdom Level 50 Grilled Aussie Barramundi Walkthrough',
+  },
+  {
+    id: 'cookingdom-game-level-49',
+    title: 'Cookingdom Level 49 Grilled Chicken Breast Walkthrough',
+  },
+  {
+    id: 'cookingdom-game-level-48',
+    title: 'Cookingdom Level 48 Grilled Beef Steak Walkthrough',
+  },
+  {
+    id: 'cookingdom-game-level-47',
+    title: 'Cookingdom Level 47 Grilled Pork Chop Walkthrough',
+  },
+])
+
+// 辅助函数生成路由对象，处理语言前缀和额外参数
+function getLocalizedRoute(name, params = {}) {
+  const currentLocale = locale.value
+  if (currentLocale === defaultLang) {
+    return { name: name, params: params }
+  } else {
+    return { name: `${name}-lang`, params: { ...params, lang: currentLocale } }
+  }
+}
 
 // 控制指南部分是否显示
 const showGuides = ref(false)
@@ -169,15 +205,25 @@ onMounted(() => {
           <div class="hero-content">
             <h1>{{ $t('home.hero.title') }}</h1>
             <p>{{ $t('home.hero.description') }}</p>
+
+            <!-- Latest Levels Section -->
+            <div class="latest-levels">
+              <h3>{{ $t('home.hero.latestLevels.title') }}</h3>
+              <ul class="latest-levels-list">
+                <li v-for="level in latestLevels" :key="level.id">
+                  <RouterLink
+                    :to="getLocalizedRoute('guide-detail', { id: level.id })"
+                    class="level-link"
+                  >
+                    {{ level.title }}
+                  </RouterLink>
+                </li>
+              </ul>
+            </div>
+
             <div class="hero-buttons">
               <button class="btn btn-primary" @click="scrollToSection('guides-section')">
                 {{ $t('home.hero.button.viewGuides') }}
-              </button>
-              <button class="btn btn-secondary" @click="scrollToSection('features-section')">
-                {{ $t('home.hero.button.gameFeatures') }}
-              </button>
-              <button class="btn btn-tertiary" @click="scrollToSection('downloads-section')">
-                {{ $t('home.hero.button.downloadGame') }}
               </button>
             </div>
           </div>
@@ -247,7 +293,7 @@ onMounted(() => {
               loading="eager"
               fetchpriority="high"
             />
-            <div class="loading-indicator">加载中...</div>
+            <div class="loading-indicator">loading...</div>
           </div>
         </div>
       </section>
@@ -301,13 +347,13 @@ onMounted(() => {
           <!-- 加载状态 -->
           <div v-if="guidesLoading" class="guides-loading">
             <div class="loading-spinner"></div>
-            <p>加载指南内容中...</p>
+            <p>Loading guide content...</p>
           </div>
 
           <!-- 错误状态 -->
           <div v-else-if="guidesError" class="guides-error">
-            <p>加载失败，请刷新页面重试</p>
-            <button @click="loadGuides" class="btn btn-retry">重试</button>
+            <p>Loading failed, please refresh the page and try again</p>
+            <button @click="loadGuides" class="btn btn-retry">Retry</button>
           </div>
 
           <!-- 内容已加载 -->
@@ -320,7 +366,7 @@ onMounted(() => {
 
           <!-- 无数据状态 -->
           <div v-else class="guides-empty">
-            <p>暂无指南内容</p>
+            <p>No guide content</p>
           </div>
         </template>
       </div>
@@ -549,6 +595,35 @@ main {
   color: #7c6f9f; /* Original Darker purple */
   margin-bottom: 2rem;
   max-width: 500px; /* Optional: Limit paragraph width if needed */
+}
+
+/* Latest Levels Styles */
+.latest-levels {
+  margin-bottom: 2rem;
+}
+
+.latest-levels h3 {
+  font-size: 1.3rem;
+  color: #ff85a2; /* Kawaii pink */
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.latest-levels-list {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.level-link {
+  display: inline-block;
+  color: #5b4b8a; /* Dark purple */
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.level-link:hover {
+  text-decoration: underline;
 }
 
 .hero-buttons {
@@ -1600,7 +1675,7 @@ main {
     font-size: 0.95rem;
   }
   main {
-    padding-top: 0; /* Increased padding-top for taller mobile header */
+    padding-top: 85px; /* Adjusted padding-top for optimized mobile header */
   }
   #features-section,
   #guides-section,
@@ -1639,6 +1714,24 @@ main {
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
+
+  /* Latest Levels Mobile Styles */
+  .latest-levels {
+    margin-bottom: 1.5rem;
+  }
+
+  .latest-levels h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .level-link {
+    font-size: 0.8rem;
+    line-height: 1.3;
+    display: block;
+    text-align: left;
+  }
+
   .hero-buttons {
     justify-content: center;
     gap: 0.5rem;

@@ -33,6 +33,39 @@ function getGuideLinkProps(level, currentLocale) {
   return { name: routeName, params: routeParams }
 }
 
+// Helper function to load guides from new modular structure
+async function loadGuidesFromModules(lang) {
+  const allGuides = []
+
+  // Define the level ranges and their corresponding file names
+  const levelRanges = [
+    { range: '01-10', exportName: 'levels01to10' },
+    { range: '11-20', exportName: 'levels11to20' },
+    { range: '21-30', exportName: 'levels21to30' },
+    { range: '31-40', exportName: 'levels31to40' },
+    { range: '41-50', exportName: 'levels41to50' },
+    { range: '51-60', exportName: 'levels51to60' },
+  ]
+
+  // Load each level range module
+  for (const { range, exportName } of levelRanges) {
+    try {
+      const module = await import(`@/datas/guides/${lang}/levels-${range}.js`)
+      const levelData = module[exportName]
+
+      if (levelData && Array.isArray(levelData)) {
+        allGuides.push(...levelData)
+        console.log(`Loaded ${levelData.length} guides from levels-${range}.js for ${lang}`)
+      }
+    } catch (err) {
+      console.warn(`Failed to load levels-${range}.js for ${lang}:`, err)
+      // Continue loading other ranges even if one fails
+    }
+  }
+
+  return allGuides
+}
+
 export function useGuides() {
   const { locale } = useI18n()
 
@@ -41,28 +74,40 @@ export function useGuides() {
     error.value = null
     console.log(`Attempting to load guides for locale: ${lang}`)
     try {
-      let dataModule
-      let guidesDataToSet // Temporary variable to hold the data from module
+      let guidesDataToSet
 
-      if (lang === 'zh') {
-        dataModule = await import('@/datas/guides-zh.js')
-        guidesDataToSet = dataModule.guidesZh
-      } else if (lang === 'ru') {
-        dataModule = await import('@/datas/guides-ru.js')
-        guidesDataToSet = dataModule.guidesRu
-      } else if (lang === 'fil') {
-        dataModule = await import('@/datas/guides-fil.js')
-        guidesDataToSet = dataModule.guides
-      } else if (lang === 'ms') {
-        dataModule = await import('@/datas/guides-ms.js')
-        guidesDataToSet = dataModule.guides
-      } else {
-        // Default to English
-        dataModule = await import('@/datas/guides.js')
-        guidesDataToSet = dataModule.guides
+      // Try to load from new modular structure first
+      try {
+        guidesDataToSet = await loadGuidesFromModules(lang)
+        console.log(`Loaded ${guidesDataToSet.length} guides from modular structure for ${lang}`)
+      } catch (modularError) {
+        console.warn(
+          `Failed to load from modular structure for ${lang}, falling back to legacy files:`,
+          modularError,
+        )
+
+        // Fallback to legacy single files
+        let dataModule
+        if (lang === 'zh') {
+          dataModule = await import('@/datas/guides-zh.js')
+          guidesDataToSet = dataModule.guidesZh
+        } else if (lang === 'ru') {
+          dataModule = await import('@/datas/guides-ru.js')
+          guidesDataToSet = dataModule.guidesRu
+        } else if (lang === 'fil') {
+          dataModule = await import('@/datas/guides-fil.js')
+          guidesDataToSet = dataModule.guides
+        } else if (lang === 'ms') {
+          dataModule = await import('@/datas/guides-ms.js')
+          guidesDataToSet = dataModule.guides
+        } else {
+          // Default to English
+          dataModule = await import('@/datas/guides.js')
+          guidesDataToSet = dataModule.guides
+        }
       }
 
-      if (guidesDataToSet) {
+      if (guidesDataToSet && guidesDataToSet.length > 0) {
         rawGuides.value = guidesDataToSet
         console.log(`Successfully loaded ${rawGuides.value.length} raw guides for locale: ${lang}`)
         guides.value = rawGuides.value.map((guide) => ({
@@ -73,11 +118,8 @@ export function useGuides() {
           `Processed ${guides.value.length} guides with route objects for locale: ${lang}`,
         )
       } else {
-        console.error(
-          `Failed to access the correct export from data module for locale ${lang}. Module content:`,
-          dataModule,
-        )
-        error.value = new Error(`Could not find expected export in data file for locale ${lang}`)
+        console.error(`No guides data found for locale ${lang}`)
+        error.value = new Error(`Could not find guides data for locale ${lang}`)
         guides.value = []
         rawGuides.value = []
       }

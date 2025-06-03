@@ -82,8 +82,33 @@ const linkClass = computed(() => {
   if (href === currentPathValue) {
     classes.push(props.exactActiveClass)
     classes.push(props.activeClass)
-  } else if (href !== '/' && currentPathValue.startsWith(href)) {
-    classes.push(props.activeClass)
+  } else {
+    // 特殊处理导航激活状态
+    const isGuideDetailPage = /\/cookingdom-game-level-\d+$/.test(currentPathValue)
+    const isGuidesLink = href.endsWith('/guides')
+    const isHomeLink = href === '/' || /^\/[a-z]{2,3}\/?$/.test(href)
+
+    if (isGuideDetailPage && isGuidesLink) {
+      // 关卡详情页应该激活指南导航
+      classes.push(props.activeClass)
+    } else if (
+      !isGuideDetailPage &&
+      !isHomeLink &&
+      href !== '/' &&
+      currentPathValue.startsWith(href)
+    ) {
+      // 非关卡详情页且非首页链接使用前缀匹配逻辑
+      classes.push(props.activeClass)
+    } else if (isHomeLink && !isGuideDetailPage) {
+      // 首页链接只在特定条件下激活
+      const pathAfterLang = currentPathValue.replace(/^\/[a-z]{2,3}/, '') || '/'
+      const hrefAfterLang = href.replace(/^\/[a-z]{2,3}/, '') || '/'
+
+      // 只有当路径完全匹配首页时才激活首页链接
+      if (pathAfterLang === '/' && hrefAfterLang === '/') {
+        classes.push(props.activeClass)
+      }
+    }
   }
 
   return classes

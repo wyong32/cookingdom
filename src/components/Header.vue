@@ -266,6 +266,8 @@ function changeLocale(event) {
   color: #ff85a2;
   display: flex;
   align-items: center;
+  line-height: 1.2;
+  max-width: 300px;
 }
 .logo img {
   width: 30px;
@@ -471,24 +473,35 @@ function changeLocale(event) {
   }
   .logo {
     font-size: 1.3rem;
+    max-width: 250px;
   }
 }
 
 /* Mobile Styles (<= 767px) */
 @media (max-width: 767px) {
   .header {
-    padding: 0.8rem 0;
+    padding: 0.6rem 0;
   }
 
   .header > .container {
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     margin: 0;
     max-width: 100%;
     justify-content: space-between;
+    align-items: center;
   }
 
   .logo {
-    font-size: 1.2rem;
+    font-size: 0.85rem;
+    line-height: 1.1;
+    max-width: 140px;
+    flex-shrink: 1;
+  }
+
+  .logo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.3rem;
   }
 
   /* 隐藏桌面导航 */
@@ -505,13 +518,32 @@ function changeLocale(event) {
     display: none; /* 隐藏吉祥物 */
   }
 
+  .mascot-placeholder-header {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    align-items: center;
+  }
+
   .language-switcher {
     margin-left: 0;
   }
 
-  .mascot-placeholder-header {
-    flex-wrap: wrap;
-    justify-content: right;
+  .language-switcher select {
+    padding: 0.2rem 0.3rem;
+    font-size: 0.8rem;
+    min-width: 80px;
+  }
+
+  .hamburger-menu {
+    padding: 8px;
+    margin-right: 0;
+  }
+
+  .hamburger-menu span {
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
   }
 
   /* 移动端导航样式调整 */
@@ -520,7 +552,11 @@ function changeLocale(event) {
   }
 
   .mobile-nav-header .logo {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    line-height: 1.1;
+    max-width: 160px;
+    word-wrap: break-word;
+    hyphens: auto;
   }
 
   .mobile-nav a {
