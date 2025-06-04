@@ -163,12 +163,12 @@ const loadSwiperComponents = async () => {
 }
 
 // 广告脚本加载状态
-let adScriptLoaded = false
+const loadedScripts = new Set()
 
-// 加载广告脚本（只加载一次）
-const loadAdScript = () => {
+// 通用广告脚本加载函数
+const loadAdScript = (scriptUrl) => {
   return new Promise((resolve) => {
-    if (adScriptLoaded) {
+    if (loadedScripts.has(scriptUrl)) {
       resolve()
       return
     }
@@ -176,130 +176,114 @@ const loadAdScript = () => {
     const script = document.createElement('script')
     script.async = true
     script.type = 'application/javascript'
-    script.src = 'https://a.magsrv.com/ad-provider.js'
+    script.src = scriptUrl
     document.head.appendChild(script)
 
     script.onload = () => {
-      adScriptLoaded = true
-      console.log('广告脚本已加载')
+      loadedScripts.add(scriptUrl)
+      console.log(`广告脚本已加载: ${scriptUrl}`)
       resolve()
     }
   })
 }
 
-// 广告1加载函数
-const loadAd1 = () => {
+// 通用广告加载函数
+const loadAd = (config) => {
   setTimeout(() => {
-    loadAdScript().then(() => {
+    loadAdScript(config.scriptUrl).then(() => {
       const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e2'
-      ins.setAttribute('data-zoneid', '5632176')
-      ad1Container.value.appendChild(ins)
+      ins.className = config.className
+      ins.setAttribute('data-zoneid', config.zoneId)
+
+      if (config.container && typeof config.container === 'function') {
+        const containerElement = config.container()
+        if (containerElement) {
+          containerElement.appendChild(ins)
+        } else {
+          document.body.appendChild(ins)
+        }
+      } else {
+        document.body.appendChild(ins)
+      }
+
       ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告1已加载')
+      console.log(`${config.name}已加载`)
     })
-  }, 1000)
+  }, config.delay || 1000)
 }
 
-// 广告2加载函数
-const loadAd2 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e17'
-      ins.setAttribute('data-zoneid', '5632182')
-
-      // 直接添加到body，简单展示
-      document.body.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告2已加载')
-    })
-  }, 1000)
+// 广告配置
+const adConfigs = {
+  ad1: {
+    name: '广告1',
+    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
+    className: 'eas6a97888e2',
+    zoneId: '5632176',
+    container: () => ad1Container.value,
+    delay: 4000,
+  },
+  ad2: {
+    name: '广告2',
+    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
+    className: 'eas6a97888e17',
+    zoneId: '5632182',
+    delay: 5000,
+  },
+  ad3: {
+    name: '广告3',
+    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
+    className: 'eas6a97888e17',
+    zoneId: '5632204',
+    delay: 1000,
+  },
+  ad4: {
+    name: '广告4',
+    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
+    className: 'eas6a97888e10',
+    zoneId: '5632278',
+    container: () => ad4Container.value,
+    delay: 1000,
+  },
+  ad5: {
+    name: '广告5',
+    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
+    className: 'eas6a97888e14',
+    zoneId: '5632280',
+    delay: 1000,
+  },
+  ad6: {
+    name: '广告6',
+    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
+    className: 'eas6a97888e20',
+    zoneId: '5632312',
+    container: () => ad6Container.value,
+    delay: 1000,
+  },
+  ad7: {
+    name: '广告7（点击类）',
+    scriptUrl: 'https://a.pemsrv.com/ad-provider.js',
+    className: 'eas6a97888e35',
+    zoneId: '5632322',
+    delay: 1000,
+  },
+  ad8: {
+    name: '广告8',
+    scriptUrl: 'https://a.pemsrv.com/ad-provider.js',
+    className: 'eas6a97888e33',
+    zoneId: '5632326',
+    delay: 1000,
+  },
 }
 
-// 广告3加载函数
-const loadAd3 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e17'
-      ins.setAttribute('data-zoneid', '5632204')
-      document.body.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告3已加载')
-    })
-  }, 1000)
-}
-
-// 广告4加载函数
-const loadAd4 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e10'
-      ins.setAttribute('data-zoneid', '5632278')
-      ad4Container.value.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告4已加载')
-    })
-  }, 1000)
-}
-
-// 广告5加载函数
-const loadAd5 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e14'
-      ins.setAttribute('data-zoneid', '5632280')
-      document.body.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告5已加载')
-    })
-  }, 1000)
-}
-
-// 广告6加载函数
-const loadAd6 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e20'
-      ins.setAttribute('data-zoneid', '5632312')
-      ad6Container.value.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告6已加载')
-    })
-  }, 1000)
-}
-
-// 广告7加载函数
-const loadAd7 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e35'
-      ins.setAttribute('data-zoneid', '5632322')
-      document.body.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告7已加载')
-    })
-  }, 1000)
-}
-
-// 广告8加载函数
-const loadAd8 = () => {
-  setTimeout(() => {
-    loadAdScript().then(() => {
-      const ins = document.createElement('ins')
-      ins.className = 'eas6a97888e33'
-      ins.setAttribute('data-zoneid', '5632326')
-      document.body.appendChild(ins)
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log('广告8已加载')
-    })
-  }, 1000)
-}
+// 广告加载函数
+const loadAd1 = () => loadAd(adConfigs.ad1)
+const loadAd2 = () => loadAd(adConfigs.ad2)
+const loadAd3 = () => loadAd(adConfigs.ad3)
+const loadAd4 = () => loadAd(adConfigs.ad4)
+const loadAd5 = () => loadAd(adConfigs.ad5)
+const loadAd6 = () => loadAd(adConfigs.ad6)
+const loadAd7 = () => loadAd(adConfigs.ad7)
+const loadAd8 = () => loadAd(adConfigs.ad8)
 
 // 组件挂载时检测设备类型并加载数据
 onMounted(() => {
