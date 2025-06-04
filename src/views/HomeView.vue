@@ -71,6 +71,9 @@ function getLocalizedRoute(name, params = {}) {
 // 控制指南部分是否显示
 const showGuides = ref(false)
 
+// 广告容器引用
+const ad1Container = ref(null)
+
 // 简化的加载函数
 const loadGuides = () => {
   console.log('显示指南部分')
@@ -157,6 +160,75 @@ const loadSwiperComponents = async () => {
   }
 }
 
+// 广告脚本加载状态
+let adScriptLoaded = false
+
+// 加载广告脚本（只加载一次）
+const loadAdScript = () => {
+  return new Promise((resolve) => {
+    if (adScriptLoaded) {
+      resolve()
+      return
+    }
+
+    const script = document.createElement('script')
+    script.async = true
+    script.type = 'application/javascript'
+    script.src = 'https://a.magsrv.com/ad-provider.js'
+    document.head.appendChild(script)
+
+    script.onload = () => {
+      adScriptLoaded = true
+      console.log('广告脚本已加载')
+      resolve()
+    }
+  })
+}
+
+// 广告1加载函数
+const loadAd1 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e2'
+      ins.setAttribute('data-zoneid', '5632176')
+      ad1Container.value.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告1已加载')
+    })
+  }, 1000)
+}
+
+// 广告2加载函数
+const loadAd2 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e17'
+      ins.setAttribute('data-zoneid', '5632182')
+
+      // 直接添加到body，简单展示
+      document.body.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告2已加载')
+    })
+  }, 1000)
+}
+
+// 广告2加载函数
+const loadAd3 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e17'
+      ins.setAttribute('data-zoneid', '5632204')
+      document.body.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告3已加载')
+    })
+  }, 1000)
+}
+
 // 组件挂载时检测设备类型并加载数据
 onMounted(() => {
   // 检测设备类型
@@ -164,6 +236,11 @@ onMounted(() => {
 
   // 监听窗口大小变化，重新检测设备类型
   window.addEventListener('resize', checkDeviceType)
+
+  // 加载广告
+  loadAd1()
+  loadAd2()
+  loadAd3()
 
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
@@ -297,6 +374,11 @@ onMounted(() => {
           </div>
         </div>
       </section>
+
+      <!-- 广告1 -->
+      <div class="ad-container">
+        <div ref="ad1Container"></div>
+      </div>
 
       <!-- Features Section -->
       <section class="features-section" id="features-section">
@@ -770,6 +852,15 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* 广告容器样式 */
+.ad-container {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #fafafa;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 /* Features Section */

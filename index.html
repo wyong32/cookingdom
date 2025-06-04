@@ -266,17 +266,24 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-    <!-- 广告脚本，手动添加 -->
-    <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script>
-    <ins class="eas6a97888e2" data-zoneid="5632176"></ins>
-    <script>
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-    </script>
 
-    <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script>
-    <ins class="eas6a97888e17" data-zoneid="5632182"></ins>
-    <script>
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-    </script>
+    <!-- 广告2 -->
+    <!-- <script>
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var script = document.createElement('script')
+          script.async = true
+          script.type = 'application/javascript'
+          script.src = 'https://a.magsrv.com/ad-provider.js'
+          document.head.appendChild(script)
+
+          var ins = document.createElement('ins')
+          ins.className = 'eas6a97888e17'
+          ins.setAttribute('data-zoneid', '5632182')
+          document.body.appendChild(ins)
+          ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+        }, 4500)
+      })
+    </script> -->
   </body>
 </html>
