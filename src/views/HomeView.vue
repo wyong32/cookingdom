@@ -74,6 +74,7 @@ const showGuides = ref(false)
 // 广告容器引用
 const ad1Container = ref(null)
 const ad4Container = ref(null)
+const ad6Container = ref(null)
 
 // 简化的加载函数
 const loadGuides = () => {
@@ -258,6 +259,48 @@ const loadAd5 = () => {
   }, 1000)
 }
 
+// 广告6加载函数
+const loadAd6 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e20'
+      ins.setAttribute('data-zoneid', '5632312')
+      ad6Container.value.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告6已加载')
+    })
+  }, 1000)
+}
+
+// 广告7加载函数
+const loadAd7 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e35'
+      ins.setAttribute('data-zoneid', '5632322')
+      document.body.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告7已加载')
+    })
+  }, 1000)
+}
+
+// 广告8加载函数
+const loadAd8 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e33'
+      ins.setAttribute('data-zoneid', '5632326')
+      document.body.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告8已加载')
+    })
+  }, 1000)
+}
+
 // 组件挂载时检测设备类型并加载数据
 onMounted(() => {
   // 检测设备类型
@@ -272,9 +315,13 @@ onMounted(() => {
     loadAd1()
     loadAd2()
     loadAd3()
+    loadAd6()
+    loadAd7()
   } else {
     loadAd4()
     loadAd5()
+    loadAd6()
+    loadAd8()
   }
 
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
@@ -534,6 +581,11 @@ onMounted(() => {
           </div>
         </div>
       </section>
+
+      <!-- 广告6 -->
+      <div class="ad-container">
+        <div ref="ad6Container"></div>
+      </div>
 
       <!-- About Game Section (Modified from About Us) -->
       <section class="about-section">
