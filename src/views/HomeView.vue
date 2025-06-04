@@ -73,6 +73,7 @@ const showGuides = ref(false)
 
 // 广告容器引用
 const ad1Container = ref(null)
+const ad4Container = ref(null)
 
 // 简化的加载函数
 const loadGuides = () => {
@@ -215,7 +216,7 @@ const loadAd2 = () => {
   }, 1000)
 }
 
-// 广告2加载函数
+// 广告3加载函数
 const loadAd3 = () => {
   setTimeout(() => {
     loadAdScript().then(() => {
@@ -225,6 +226,34 @@ const loadAd3 = () => {
       document.body.appendChild(ins)
       ;(AdProvider = window.AdProvider || []).push({ serve: {} })
       console.log('广告3已加载')
+    })
+  }, 1000)
+}
+
+// 广告4加载函数
+const loadAd4 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e10'
+      ins.setAttribute('data-zoneid', '5632278')
+      ad4Container.value.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告4已加载')
+    })
+  }, 1000)
+}
+
+// 广告5加载函数
+const loadAd5 = () => {
+  setTimeout(() => {
+    loadAdScript().then(() => {
+      const ins = document.createElement('ins')
+      ins.className = 'eas6a97888e14'
+      ins.setAttribute('data-zoneid', '5632280')
+      document.body.appendChild(ins)
+      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
+      console.log('广告5已加载')
     })
   }, 1000)
 }
@@ -243,6 +272,9 @@ onMounted(() => {
     loadAd1()
     loadAd2()
     loadAd3()
+  } else {
+    loadAd4()
+    loadAd5()
   }
 
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
@@ -381,6 +413,11 @@ onMounted(() => {
       <!-- 广告1 -->
       <div class="ad-container">
         <div ref="ad1Container"></div>
+      </div>
+
+      <!-- 广告4 -->
+      <div class="ad-container">
+        <div ref="ad4Container"></div>
       </div>
 
       <!-- Features Section -->
@@ -864,13 +901,6 @@ main {
   background-color: #fafafa;
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
-}
-
-/* 768px 以下样式 */
-@media (max-width: 768px) {
-  .ad-container {
-    display: none;
-  }
 }
 
 /* Features Section */
