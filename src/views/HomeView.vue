@@ -237,10 +237,13 @@ onMounted(() => {
   // 监听窗口大小变化，重新检测设备类型
   window.addEventListener('resize', checkDeviceType)
 
-  // 加载广告
-  loadAd1()
-  loadAd2()
-  loadAd3()
+  // 只在桌面端加载广告
+  if (!isMobile.value) {
+    // 加载广告
+    loadAd1()
+    loadAd2()
+    loadAd3()
+  }
 
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
@@ -861,6 +864,13 @@ main {
   background-color: #fafafa;
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
+}
+
+/* 768px 以下样式 */
+@media (max-width: 768px) {
+  .ad-container {
+    display: none;
+  }
 }
 
 /* Features Section */
