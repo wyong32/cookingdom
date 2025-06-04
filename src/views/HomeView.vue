@@ -220,14 +220,14 @@ const adConfigs = {
     className: 'eas6a97888e2',
     zoneId: '5632176',
     container: () => ad1Container.value,
-    delay: 4000,
+    delay: 1000,
   },
   ad2: {
     name: '广告2',
     scriptUrl: 'https://a.magsrv.com/ad-provider.js',
     className: 'eas6a97888e17',
     zoneId: '5632182',
-    delay: 5000,
+    delay: 1000,
   },
   ad3: {
     name: '广告3',
