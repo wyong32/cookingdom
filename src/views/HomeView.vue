@@ -1,5 +1,7 @@
 <script setup>
 import { ref, onMounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
+import AdComponent from '@/components/AdComponent.vue'
+import { adConfigs } from '@/config/adConfig.js'
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -71,10 +73,7 @@ function getLocalizedRoute(name, params = {}) {
 // 控制指南部分是否显示
 const showGuides = ref(false)
 
-// 广告容器引用
-const ad1Container = ref(null)
-const ad4Container = ref(null)
-const ad6Container = ref(null)
+// 广告容器引用已移除，现在使用AdComponent组件
 
 // 简化的加载函数
 const loadGuides = () => {
@@ -130,7 +129,11 @@ const isMobile = ref(false)
 const checkDeviceType = () => {
   // 使用媒体查询检测移动设备
   isMobile.value = window.matchMedia('(max-width: 767px)').matches
-  console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备')
+  console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备', {
+    windowWidth: window.innerWidth,
+    mediaQuery: window.matchMedia('(max-width: 767px)').matches,
+    userAgent: navigator.userAgent,
+  })
 
   // 如果不是移动设备，则加载 Swiper
   if (!isMobile.value && !swiperLoaded.value) {
@@ -162,151 +165,24 @@ const loadSwiperComponents = async () => {
   }
 }
 
-// 广告脚本加载状态
-const loadedScripts = new Set()
+// 广告加载逻辑已移至AdComponent组件中
 
-// 通用广告脚本加载函数
-const loadAdScript = (scriptUrl) => {
-  return new Promise((resolve) => {
-    if (loadedScripts.has(scriptUrl)) {
-      resolve()
-      return
-    }
+// 广告配置现在从配置文件导入
 
-    const script = document.createElement('script')
-    script.async = true
-    script.type = 'application/javascript'
-    script.src = scriptUrl
-    document.head.appendChild(script)
+// 广告加载函数已移除，现在使用AdComponent组件自动处理
 
-    script.onload = () => {
-      loadedScripts.add(scriptUrl)
-      console.log(`广告脚本已加载: ${scriptUrl}`)
-      resolve()
-    }
-  })
-}
-
-// 通用广告加载函数
-const loadAd = (config) => {
-  setTimeout(() => {
-    loadAdScript(config.scriptUrl).then(() => {
-      const ins = document.createElement('ins')
-      ins.className = config.className
-      ins.setAttribute('data-zoneid', config.zoneId)
-
-      if (config.container && typeof config.container === 'function') {
-        const containerElement = config.container()
-        if (containerElement) {
-          containerElement.appendChild(ins)
-        } else {
-          document.body.appendChild(ins)
-        }
-      } else {
-        document.body.appendChild(ins)
-      }
-
-      ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-      console.log(`${config.name}已加载`)
-    })
-  }, config.delay || 1000)
-}
-
-// 广告配置
-const adConfigs = {
-  ad1: {
-    name: '广告1',
-    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
-    className: 'eas6a97888e2',
-    zoneId: '5632176',
-    container: () => ad1Container.value,
-    delay: 1000,
-  },
-  ad2: {
-    name: '广告2',
-    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
-    className: 'eas6a97888e17',
-    zoneId: '5632182',
-    delay: 1000,
-  },
-  ad3: {
-    name: '广告3',
-    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
-    className: 'eas6a97888e17',
-    zoneId: '5632204',
-    delay: 1000,
-  },
-  ad4: {
-    name: '广告4',
-    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
-    className: 'eas6a97888e10',
-    zoneId: '5632278',
-    container: () => ad4Container.value,
-    delay: 1000,
-  },
-  ad5: {
-    name: '广告5',
-    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
-    className: 'eas6a97888e14',
-    zoneId: '5632280',
-    delay: 1000,
-  },
-  ad6: {
-    name: '广告6',
-    scriptUrl: 'https://a.magsrv.com/ad-provider.js',
-    className: 'eas6a97888e20',
-    zoneId: '5632312',
-    container: () => ad6Container.value,
-    delay: 1000,
-  },
-  ad7: {
-    name: '广告7（点击类）',
-    scriptUrl: 'https://a.pemsrv.com/ad-provider.js',
-    className: 'eas6a97888e35',
-    zoneId: '5632322',
-    delay: 1000,
-  },
-  ad8: {
-    name: '广告8',
-    scriptUrl: 'https://a.pemsrv.com/ad-provider.js',
-    className: 'eas6a97888e33',
-    zoneId: '5632326',
-    delay: 1000,
-  },
-}
-
-// 广告加载函数
-const loadAd1 = () => loadAd(adConfigs.ad1)
-const loadAd2 = () => loadAd(adConfigs.ad2)
-const loadAd3 = () => loadAd(adConfigs.ad3)
-const loadAd4 = () => loadAd(adConfigs.ad4)
-const loadAd5 = () => loadAd(adConfigs.ad5)
-const loadAd6 = () => loadAd(adConfigs.ad6)
-const loadAd7 = () => loadAd(adConfigs.ad7)
-const loadAd8 = () => loadAd(adConfigs.ad8)
+// 在组件创建时立即检测设备类型
+checkDeviceType()
 
 // 组件挂载时检测设备类型并加载数据
 onMounted(() => {
-  // 检测设备类型
+  // 再次检测设备类型（确保准确）
   checkDeviceType()
 
   // 监听窗口大小变化，重新检测设备类型
   window.addEventListener('resize', checkDeviceType)
 
-  // 只在桌面端加载广告
-  if (!isMobile.value) {
-    // 加载广告
-    loadAd1()
-    loadAd2()
-    loadAd3()
-    loadAd6()
-    loadAd7()
-  } else {
-    loadAd4()
-    loadAd5()
-    loadAd6()
-    loadAd8()
-  }
+  // 广告加载现在由AdComponent组件自动处理
 
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
@@ -441,15 +317,11 @@ onMounted(() => {
         </div>
       </section>
 
-      <!-- 广告1 -->
-      <div class="ad-container">
-        <div ref="ad1Container"></div>
-      </div>
+      <!-- 广告1 - 使用新组件 -->
+      <AdComponent :adConfig="adConfigs.ad1" :isMobile="isMobile" />
 
-      <!-- 广告4 -->
-      <div class="ad-container">
-        <div ref="ad4Container"></div>
-      </div>
+      <!-- 广告4 - 使用新组件 -->
+      <AdComponent :adConfig="adConfigs.ad4" :isMobile="isMobile" />
 
       <!-- Features Section -->
       <section class="features-section" id="features-section">
@@ -566,10 +438,15 @@ onMounted(() => {
         </div>
       </section>
 
-      <!-- 广告6 -->
-      <div class="ad-container">
-        <div ref="ad6Container"></div>
-      </div>
+      <!-- 广告6 - 使用新组件 -->
+      <AdComponent :adConfig="adConfigs.ad6" :isMobile="isMobile" />
+
+      <!-- 无容器广告 - 根据设备自动显示 -->
+      <AdComponent :adConfig="adConfigs.ad2" :isMobile="isMobile" />
+      <AdComponent :adConfig="adConfigs.ad3" :isMobile="isMobile" />
+      <AdComponent :adConfig="adConfigs.ad5" :isMobile="isMobile" />
+      <AdComponent :adConfig="adConfigs.ad7" :isMobile="isMobile" />
+      <AdComponent :adConfig="adConfigs.ad8" :isMobile="isMobile" />
 
       <!-- About Game Section (Modified from About Us) -->
       <section class="about-section">
