@@ -10,11 +10,12 @@ const GuidesSection = defineAsyncComponent({
   timeout: 5000,
   // 加载时显示的组件
   loadingComponent: {
-    template: '<div class="async-loading">加载指南内容中...</div>',
+    template: '<div class="async-loading">Loading guide content...</div>',
   },
   // 出错时显示的组件
   errorComponent: {
-    template: '<div class="async-error">加载失败，请刷新页面重试</div>',
+    template:
+      '<div class="async-error">Loading failed, please refresh the page and try again</div>',
   },
 })
 
@@ -39,24 +40,20 @@ const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(local
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
   {
-    id: 'cookingdom-game-level-51',
-    title: 'Cookingdom Level 51 American Breakfast Walkthrough',
+    id: 'cookingdom-game-level-56',
+    title: 'Cookingdom Level 56 Pelmeni Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-52',
-    title: 'Cookingdom Level 52 Beans Sweet Soup Walkthrough',
+    id: 'cookingdom-game-level-57',
+    title: 'Cookingdom Level 57 Picnic Sandwich Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-53',
-    title: 'Cookingdom Level 53 City IceCream Cone Walkthrough',
+    id: 'cookingdom-game-level-58',
+    title: 'Cookingdom Level 58 Pavlova Walkthrough',
   },
   {
-    id: 'cookingdom-game-level-54',
-    title: 'Cookingdom Level 54 Arroz Cardo Walkthrough',
-  },
-  {
-    id: 'cookingdom-game-level-55',
-    title: 'Cookingdom Level 55 Jamaican Pineapple Jerk Chicken Walkthrough',
+    id: 'cookingdom-game-level-59',
+    title: 'Cookingdom Level 59 Mochi Walkthrough',
   },
 ])
 
@@ -196,7 +193,7 @@ onMounted(() => {
         }
       })
     },
-    { threshold: 0.1 }
+    { threshold: 0.1 },
   ) // 当10%的元素可见时触发
 
   // 开始观察指南部分
@@ -870,7 +867,9 @@ main {
   padding: 1.5rem;
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 4px 10px rgba(160, 142, 230, 0.1); /* Soft purple shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   contain: layout style; /* 防止布局偏移 */
   min-height: 200px; /* 设置最小高度，防止内容加载时的布局偏移 */
   width: 100%; /* 确保宽度固定 */
@@ -1029,7 +1028,10 @@ main {
   font-size: 0.95rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    box-shadow 0.3s ease;
   box-shadow: 0 2px 4px rgba(160, 142, 230, 0.05);
 }
 
@@ -1058,7 +1060,9 @@ main {
   border-radius: 10px; /* Slightly less rounded */
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05); /* Lighter shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   border: 1px solid #fff0f5;
   text-align: center;
 }
@@ -1198,7 +1202,9 @@ main {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
   text-decoration: none;
   width: 80%; /* Make button wider */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

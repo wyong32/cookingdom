@@ -326,9 +326,9 @@ export const levels51to60 = [
 
   {
     id: 'cookingdom-game-level-55',
-    title: 'Cookingdom 关卡55 牙买加菠萝烤鸡攻略',
-    pageTitle: 'Cookingdom 关卡55 牙买加菠萝烤鸡攻略',
-    pageSubtitle: '在Cookingdom关卡55中烤制辛辣且热带风味的牙买加菜肴。',
+    title: 'Cookingdom 第55关 牙买加菠萝杰克鸡通关攻略',
+    pageTitle: 'Cookingdom 第55关 牙买加菠萝杰克鸡通关攻略',
+    pageSubtitle: '在 Cookingdom 第55关中烧烤一道辛辣又热带风味的牙买加菜肴。',
     category: '51-60',
     publishDate: '2025-06-03',
     isSpecial: false,
@@ -336,64 +336,422 @@ export const levels51to60 = [
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-55' } },
     iframeUrl: 'https://www.youtube.com/embed/ALGQO1rDj8',
     seo: {
-      title: 'Cookingdom 关卡55 牙买加菠萝烤鸡攻略与指南',
+      title: 'Cookingdom 第55关 牙买加菠萝杰克鸡通关攻略',
       description:
-        '提升你的烹饪技巧，在Cookingdom关卡55中掌握牙买加菠萝烤鸡的准备、烤制和高效上菜方法。',
-      keywords: 'cookingdom 关卡55, 烤鸡, 菠萝烤鸡, 牙买加食谱, 攻略指南, cookingdom 烧烤关卡',
+        '在 Cookingdom 第55关中挑战牙买加风味杰克鸡，学习如何腌制、烧烤并高效上菜，掌握热带风味料理技巧。',
+      keywords:
+        'Cookingdom 第55关, 牙买加杰克鸡, 菠萝鸡, 烧烤关卡, 烹饪通关攻略, tropical 烹饪, 烧烤技巧',
     },
     sidebarData: {
       sidebarImageUrl: '/images/guides_55.webp',
       levelInfoHtml:
-        '<h3>牙买加菠萝烤鸡</h3><p><strong>难度：</strong> 高</p><p><strong>预计时间：</strong> 4分钟</p><p><strong>奖励：</strong> 3星 + 额外食材</p>',
+        '<h3>牙买加菠萝杰克鸡</h3><p><strong>难度：</strong>高</p><p><strong>预计时间：</strong>4 分钟</p><p><strong>奖励：</strong>三星 + 奖励食材</p>',
       featuredGuides: [
         {
           id: 'cookingdom-game-level-54',
-          title: 'Cookingdom 关卡54 Arroz Cardo攻略',
+          title: 'Cookingdom 第54关 Arroz Cardo 通关攻略',
           imageUrl: '/images/guides_54.webp',
           detailsRoute: {
             name: 'guide-detail',
             params: { id: 'cookingdom-game-level-54' },
           },
         },
+        {
+          id: 'cookingdom-game-level-56',
+          title: 'Cookingdom 第56关 俄式饺子 Pelmeni 通关攻略',
+          imageUrl: '/images/guides_56.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-56' },
+          },
+        },
       ],
     },
-    detailsHtml: `<h2>关卡概述</h2>
-    <p>关卡55带来充满活力的加勒比风味，主打牙买加菠萝烤鸡。此关卡重点考验精准的烧烤技巧、腌制准备和快速摆盘能力。</p>
-    
-    <h2>所需食材</h2>
-    <ul>
-      <li><strong>鸡腿肉：</strong>主要蛋白质，需要腌制并烤制。</li>
-      <li><strong>Jerk腌料：</strong>辣甜酱汁，含有苏格兰辣椒、五香粉、大蒜和百里香。</li>
-      <li><strong>菠萝片：</strong>烤至焦糖色并作为配菜。</li>
-      <li><strong>可选配菜：</strong>部分顾客会点米饭和豌豆或炸香蕉片。</li>
-    </ul>
-    
-    <h2>烹饪步骤</h2>
-    <h3>1. 腌制鸡肉</h3>
-    <p>用Jerk腌料涂抹鸡肉，稍作腌制。腌制使味道更丰富且带辣味。</p>
-    
-    <h3>2. 烧烤鸡肉</h3>
-    <p>将腌好的鸡肉放在烤架上烧烤。注意火候——Jerk酱含糖，容易烧焦。翻面一次以确保均匀烤熟。</p>
-    
-    <h3>3. 烤菠萝片</h3>
-    <p>将菠萝片放在烤架上，烤出金黄色烤痕并保持多汁。不要烤过头以防变干。</p>
-    
-    <h3>4. 准备可选配菜</h3>
-    <p>部分顾客会点米饭或炸香蕉片。要快速准备并装盘，避免延误。</p>
-    
-    <h3>5. 装盘并上菜</h3>
-    <p>将烤好的Jerk鸡肉与菠萝及配菜摆盘。若有要求，可用葱段或青柠片点缀。趁热上桌！</p>
-    
-    <h2>技巧与窍门</h2>
-    <ul>
-      <li><strong>注意烤架：</strong>鸡肉和菠萝都容易烧焦，烤制时要盯紧。</li>
-      <li><strong>提前腌制多批次：</strong>如果空间允许，提前腌制多份鸡肉以加快服务速度。</li>
-      <li><strong>同步烤制：</strong>同时烤鸡肉和菠萝以提高效率。</li>
-      <li><strong>升级烤架：</strong>更大更快的烤架对本关帮助很大。</li>
-      <li><strong>配菜准备时机：</strong>在主菜烤制时开始准备米饭或炸香蕉片。</li>
-    </ul>
-    
-    <h2>总结</h2>
-    <p>关卡55以大胆的加勒比风味提升难度。平衡辣味、烤制时间和配菜管理是成功关键。掌握这道菜将解锁新奖励、特殊食材，并为更复杂的国际菜谱做准备。</p>`,
+    detailsHtml: `<h2>关卡简介</h2>
+  <p>第55关引入了加勒比地区的热辣风味——牙买加菠萝杰克鸡。本关重点在于精准烧烤、腌料制作和快速装盘。</p>
+
+  <h2>所需食材</h2>
+  <ul>
+    <li><strong>鸡腿肉：</strong>主角食材，需要腌制并烧烤。</li>
+    <li><strong>杰克腌料：</strong>由苏格兰辣椒、五香粉、大蒜和百里香调配而成的辛甜风味。</li>
+    <li><strong>菠萝片：</strong>需烤至表面焦糖色，是配菜之一。</li>
+    <li><strong>可选配菜：</strong>部分顾客可能要求米饭与豆子或炸香蕉片。</li>
+  </ul>
+
+  <h2>烹饪流程</h2>
+  <h3>1. 腌制鸡肉</h3>
+  <p>将鸡腿肉裹上杰克腌料，静置片刻。腌制是风味的关键。</p>
+
+  <h3>2. 烧烤鸡肉</h3>
+  <p>将腌好的鸡肉放上烤架。注意翻面，杰克酱含糖，容易烤焦。</p>
+
+  <h3>3. 烤菠萝</h3>
+  <p>将菠萝片放上烤架，烤至金黄色、有焦纹但不干柴。</p>
+
+  <h3>4. 准备配菜</h3>
+  <p>有些顾客会要求配菜，如米饭或炸香蕉片。提前准备以节省时间。</p>
+
+  <h3>5. 装盘与上菜</h3>
+  <p>将鸡肉、菠萝与配菜整齐摆盘，根据提示可加上葱花或青柠点缀。趁热上菜！</p>
+
+  <h2>小贴士</h2>
+  <ul>
+    <li><strong>看紧烤架：</strong>鸡肉和菠萝都容易烤焦，避免走神。</li>
+    <li><strong>批量腌制：</strong>若有空间，可提前腌好多份鸡肉以提升效率。</li>
+    <li><strong>并行烧烤：</strong>同时烤鸡肉和菠萝，节省时间。</li>
+    <li><strong>升级烤架：</strong>更大或更快的烤架能大幅提升表现。</li>
+    <li><strong>合理安排配菜：</strong>主菜烧烤时同步处理米饭或香蕉片。</li>
+  </ul>
+
+  <h2>总结</h2>
+  <p>Cookingdom 第55关带来了热辣的加勒比风情。掌握辛辣腌制、精准烧烤与高效配菜，将获得额外奖励并解锁新食材。准备好迎接更具挑战性的国际料理关卡吧！</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-56',
+    title: 'Cookingdom 第 56 关攻略：俄式饺子 Pelmeni',
+    pageTitle: 'Cookingdom 第 56 关攻略：俄式饺子 Pelmeni',
+    pageSubtitle: '掌握制作俄式饺子的技巧，在 Cookingdom 第 56 关中展现你的烹饪技艺。',
+    category: '51-60',
+    publishDate: '2025-06-10',
+    isSpecial: false,
+    imageUrl: '/images/guides_56.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-56' } },
+    iframeUrl: 'https://www.youtube.com/embed/P_lbpvJvrd8',
+    seo: {
+      title: 'Cookingdom 第 56 关攻略：俄式饺子 Pelmeni 制作指南',
+      description:
+        '学习在 Cookingdom 第 56 关中如何准备、煮制和上菜 Pelmeni。优化流程，高效处理复杂顾客订单。',
+      keywords:
+        'cookingdom 第 56 关, pelmeni, 俄式饺子, 通关攻略, 制作教程, Cookingdom 饺子, Cookingdom 通关指导',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_56.webp',
+      levelInfoHtml:
+        '<h3>俄式饺子 Pelmeni</h3><p><strong>难度：</strong>困难</p><p><strong>预计时间：</strong>3–4 分钟</p><p><strong>奖励：</strong>3 星 + 奖励金币</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-55',
+          title: 'Cookingdom 第 55 关攻略：牙买加菠萝烤鸡',
+          imageUrl: '/images/guides_55.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-55' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-57',
+          title: 'Cookingdom 第 57 关攻略：野餐三明治',
+          imageUrl: '/images/guides_57.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-57' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>关卡介绍</h2>
+<p>第 56 关介绍了<strong>Pelmeni</strong>，一种来自东欧的传统饺子料理。本关对玩家的操作要求更高，包括揉面、填馅，以及精准煮制。想要及时完成顾客订单，多任务处理非常关键。</p>
+
+<h2>目标</h2>
+<p>成功制作并上菜多份 Pelmeni 饺子。要获得高分，需要高效的准备和煮制流程。速度与准确度将直接影响星级。</p>
+
+<h2>Pelmeni 制作流程</h2>
+<h3>准备面团和馅料：</h3>
+<ul>
+  <li><strong>面团：</strong>从材料盘中选择面团，擀成薄片圆形。</li>
+  <li><strong>肉馅：</strong>将绞肉馅填入每片面团的中心位置。</li>
+</ul>
+
+<h3>包饺子成型：</h3>
+<ul>
+  <li>将面团对折，捏紧边缘，形成经典的 Pelmeni 饺子形状。</li>
+  <li>注意不能漏馅，否则会影响煮熟后的外观和口感。</li>
+</ul>
+
+<h3>煮饺子：</h3>
+<ul>
+  <li>将包好的饺子放入沸水中煮。</li>
+  <li><strong>注意计时：</strong>煮得不够会偏硬，煮过头则容易散开。</li>
+</ul>
+
+<h3>上菜：</h3>
+<ul>
+  <li>煮熟后取出装盘。</li>
+  <li>根据顾客需求可添加酸奶油或香草作为装饰。</li>
+  <li>务必及时送达正确顾客，延误或错误将扣分。</li>
+</ul>
+
+<h2>技巧与建议</h2>
+<ul>
+  <li><strong>多任务处理：</strong>煮一锅时可同时准备下一批，避免空档。</li>
+  <li><strong>双锅操作：</strong>本关支持两个锅并行操作，善用可提高效率。</li>
+  <li><strong>密封饺子：</strong>边缘封口务必严实，避免煮破。</li>
+  <li><strong>关注顾客要求：</strong>有些顾客会要特殊装饰，留意订单泡泡提示。</li>
+  <li><strong>补充食材：</strong>在间隙及时补满面团和肉馅以应对后续订单。</li>
+</ul>
+
+<h2>小结</h2>
+<p>Cookingdom 第 56 关是一场烹饪速度与技巧的考验。Pelmeni 的制作流程涉及多个阶段——和面、填馅、成型、煮制、上菜，全都要在时间限制下完成。掌握本关后可解锁更多东欧食谱及煮锅升级！</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-57',
+    title: 'Cookingdom 第57关攻略：野餐三明治',
+    pageTitle: 'Cookingdom 第57关攻略：野餐三明治',
+    pageSubtitle: '在第57关中快速组装新鲜美味的野餐三明治，满足公园里饥饿的游客。',
+    category: '51-60',
+    publishDate: '2025-06-10',
+    isSpecial: false,
+    imageUrl: '/images/guides_57.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-57' } },
+    iframeUrl: 'https://www.youtube.com/embed/WsviDpDspp0',
+    seo: {
+      title: 'Cookingdom 第57关 野餐三明治 攻略与指南',
+      description:
+        '学习如何在 Cookingdom 第57关中用正确的食材快速组装野餐三明治。包含快速叠层和多任务操作技巧。',
+      keywords:
+        'cookingdom 第57关, 野餐三明治, 三明治攻略, Cookingdom 野餐关卡, Cookingdom 指南, 三明治食谱, 多任务操作, 游戏策略',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_57.webp',
+      levelInfoHtml:
+        '<h3>野餐三明治</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>2–3分钟</p><p><strong>奖励：</strong>3星 + 野餐篮奖励</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-56',
+          title: 'Cookingdom 第56关攻略：俄式饺子',
+          imageUrl: '/images/guides_56.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-56' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-58',
+          title: 'Cookingdom 第58关攻略：帕芙洛娃蛋白霜',
+          imageUrl: '/images/guides_58.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-58' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>游戏简介</h2>
+<p>在第57关，你将在公园里为饥饿的游客制作美味的<strong>野餐三明治</strong>。这一关引入了更快速的操作节奏，有多种叠加食材和不同风格的三明治选择，营造出轻松愉快的野餐氛围。你需要准确高效地组装每个三明治。</p>
+
+<h2>第57关目标</h2>
+<p>组装并送出多份日益复杂的野餐三明治订单。送得越快，获得的金币和星星奖励就越多。</p>
+
+<h2>野餐三明治制作流程</h2>
+<h3>步骤1：准备食材</h3>
+<ul>
+  <li><strong>面包片：</strong>从备料区取用新鲜的三明治面包片。</li>
+  <li><strong>主食材：</strong>选择火腿、火鸡肉或烤蔬菜作为主料。</li>
+  <li><strong>配料：</strong>根据顾客要求添加奶酪、生菜、番茄或酸黄瓜等。</li>
+</ul>
+
+<h3>步骤2：组装三明治</h3>
+<ul>
+  <li>以一片面包为底，依序叠上主料和配料。</li>
+  <li>再盖上一片面包，完成三明治结构。</li>
+  <li>注意层次清晰且顺序正确 —— 顾客会拒收错误的三明治。</li>
+</ul>
+
+<h3>步骤3：送餐</h3>
+<ul>
+  <li>将三明治直接交给顾客。</li>
+  <li>注意特殊要求，例如“不要酸黄瓜”或“多加奶酪”。</li>
+  <li>快速送餐可提升分数和满意度评分。</li>
+</ul>
+
+<h2>提示与技巧</h2>
+<ul>
+  <li><strong>记住常见订单：</strong>熟悉常见搭配可加快准备速度。</li>
+  <li><strong>提前预组装：</strong>如果游戏允许，可在空档先准备基础三明治结构。</li>
+  <li><strong>留意定制要求：</strong>有些顾客有个性化需求，忽略会被扣分。</li>
+  <li><strong>时间管理：</strong>速度和准确性同等重要 —— 拖延会降低顾客耐心。</li>
+  <li><strong>利用视觉提示：</strong>食材图标可帮助你检查是否漏放某项材料。</li>
+</ul>
+
+<h2>总结</h2>
+<p>Cookingdom 第57关的核心是如何在压力下高效制作完美的野餐三明治。面对多层新鲜食材和复杂的顾客订单，你需要提升反应速度、记忆力和细节观察力。成功通关后将解锁更多野餐主题食材和户外厨房用具。记住 —— 最好的三明治，既美味又快速！</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-58',
+    title: 'Cookingdom 第 58 关攻略：巴甫洛娃蛋白甜饼',
+    pageTitle: 'Cookingdom 第 58 关攻略：巴甫洛娃蛋白甜饼',
+    pageSubtitle: '在第 58 关中掌握制作轻盈优雅的巴甫洛娃蛋白甜饼的技巧。',
+    category: '51-60',
+    publishDate: '2025-06-10',
+    isSpecial: false,
+    imageUrl: '/images/guides_58.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-58' } },
+    iframeUrl: 'https://www.youtube.com/embed/V_ugITqDKZM',
+    seo: {
+      title: 'Cookingdom 第 58 关巴甫洛娃蛋白甜饼攻略与指南',
+      description:
+        '学习如何在 Cookingdom 第 58 关中打发、烘焙并装饰完美的巴甫洛娃甜点。包括时机掌控、水果装饰和酥脆蛋白霜的技巧。',
+      keywords:
+        'cookingdom 第58关, pavlova 攻略, 蛋白甜饼做法, cookingdom 甜点关卡, 蛋白霜, 鲜奶油, 水果装饰',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_58.webp',
+      levelInfoHtml:
+        '<h3>巴甫洛娃蛋白甜饼</h3><p><strong>难度：</strong>困难</p><p><strong>预计时间：</strong>3-4 分钟</p><p><strong>奖励：</strong>3 星 + 甜点加成</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-57',
+          title: 'Cookingdom 第 57 关攻略：野餐三明治',
+          imageUrl: '/images/guides_57.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-57' },
+          },
+        },
+        {
+          id: 'cookingdom-game-level-59',
+          title: 'Cookingdom 第 59 关攻略：麻糬',
+          imageUrl: '/images/guides_59.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-59' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>游戏介绍</h2>
+<p>第 58 关将挑战玩家制作精致轻盈的甜点——<strong>巴甫洛娃蛋白甜饼</strong>。本关强调精准烘焙与细致操作，注重时机、外观和准确性。你需要打发出完美的蛋白霜，精准烘焙，并用水果与奶油进行装饰。</p>
+
+<h2>关卡目标</h2>
+<p>为多位顾客制作并端出装饰精美的巴甫洛娃甜点。注意蛋白霜的火候与装饰搭配，以获取高分。</p>
+
+<h2>制作流程</h2>
+<h3>第一步：准备蛋白霜基础</h3>
+<ul>
+  <li><strong>蛋白：</strong>用搅拌机打发蛋白至软性发泡。</li>
+  <li><strong>细砂糖：</strong>逐渐加入糖以稳定蛋白霜，并打出光泽感。</li>
+  <li><strong>打发至硬性发泡：</strong>继续搅拌直至硬性发泡，切勿过度打发！</li>
+</ul>
+
+<h3>第二步：烘焙蛋白霜</h3>
+<ul>
+  <li>将蛋白霜转移到烤盘上，整理形状。</li>
+  <li>低温慢烤——时间掌控关键，以保证外酥内嫩。</li>
+  <li><strong>提示：</strong>尽量避免频繁打开烤箱门，以保持温度稳定。</li>
+</ul>
+
+<h3>第三步：添加奶油与水果</h3>
+<ul>
+  <li>冷却后，在蛋白饼上均匀抹上鲜奶油。</li>
+  <li>根据顾客需求，摆上草莓、奇异果、蓝莓或百香果等新鲜水果。</li>
+  <li>注重摆盘美感！整齐有序可获得额外加分。</li>
+</ul>
+
+<h3>第四步：上菜</h3>
+<ul>
+  <li>快速上菜，避免奶油融化或蛋白霜回潮。</li>
+  <li>每位顾客可能有不同的水果喜好或摆盘要求。</li>
+</ul>
+
+<h2>技巧提示</h2>
+<ul>
+  <li><strong>观察搅拌状态：</strong>过度打发会导致颗粒状蛋白霜。达到光滑硬性发泡后立刻停止。</li>
+  <li><strong>掌握烘焙时间：</strong>宁愿略微欠烤也不要烤焦——巴甫洛娃对时间非常敏感。</li>
+  <li><strong>临上菜前装饰：</strong>奶油抹得太早会让底部变软，控制好时机。</li>
+  <li><strong>水果高效利用：</strong>提前规划装饰顺序，避免频繁切换水果种类。</li>
+  <li><strong>摆盘讲究：</strong>外观精致能带来额外加分和顾客满意度。</li>
+</ul>
+
+<h2>总结</h2>
+<p>Cookingdom 第 58 关是甜点爱好者的极致挑战。要想掌握巴甫洛娃蛋白甜饼，就需兼顾精准操作、速度与美感。轻盈的蛋白饼底、甜美的奶油和多彩的水果组合，考验着你的细致度与烘焙技巧。通关后你将解锁高级甜点，并提升厨房设备等级！</p>`,
+  },
+
+  {
+    id: 'cookingdom-game-level-59',
+    title: 'Cookingdom 第59关 糯米糍通关指南',
+    pageTitle: 'Cookingdom 第59关 糯米糍通关指南',
+    pageSubtitle: '学习如何在 Cookingdom 第59关中制作柔软、有嚼劲又色彩缤纷的糯米糍。',
+    category: '51-60',
+    publishDate: '2025-06-10',
+    isSpecial: false,
+    imageUrl: '/images/guides_59.webp',
+    detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-59' } },
+    iframeUrl: 'https://www.youtube.com/embed/CNo2a-NPWl8',
+    seo: {
+      title: 'Cookingdom 第59关 糯米糍制作通关指南',
+      description:
+        '掌握在 Cookingdom 第59关中制作糯米糍的传统工艺。学习如何蒸、揉、填馅并完美封口，满足每一位顾客的口味。',
+      keywords:
+        'cookingdom 第59关, 糯米糍制作, 糯米团子, 日式甜点, 糯米糍通关, cookingdom 糖点, 糯米甜品, 红豆馅糯米糍',
+    },
+    sidebarData: {
+      sidebarImageUrl: '/images/guides_59.webp',
+      levelInfoHtml:
+        '<h3>糯米糍</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>3 分钟</p><p><strong>奖励：</strong>3 星 + 传统加成</p>',
+      featuredGuides: [
+        {
+          id: 'cookingdom-game-level-58',
+          title: 'Cookingdom 第58关 Pavlova 通关指南',
+          imageUrl: '/images/guides_58.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-58' },
+          },
+        },
+      ],
+    },
+    detailsHtml: `<h2>游戏简介</h2>
+<p>在 Cookingdom 第59关中，你将接触到传统的日式甜点：<strong>糯米糍</strong>。本关卡重点考验玩家对糯米团制作的掌握，包括正确的蒸煮时间、揉捏技巧以及馅料的填充与成型。顾客的需求多样，想要做出有嚼劲又美观的糯米糍，必须讲究速度与精准度。</p>
+
+<h2>第59关目标</h2>
+<p>根据顾客的订单蒸煮、揉捏、填充并送上糯米糍。每个糯米糍都必须达到理想的口感、味道与外观，才能获得满分评价。</p>
+
+<h2>糯米糍制作流程</h2>
+<h3>步骤1：蒸糯米团</h3>
+<ul>
+  <li><strong>糯米面团：</strong>将糯米放入蒸锅中开始蒸煮。</li>
+  <li><strong>蒸煮时间：</strong>等待米团变得柔软粘糯，注意不要蒸过头。</li>
+</ul>
+
+<h3>步骤2：揉捏面团</h3>
+<ul>
+  <li>蒸好后，将糯米团移至揉捏板上。</li>
+  <li>使用揉面工具，将糯米团揉至顺滑且有弹性。</li>
+  <li><strong>提示：</strong>充分揉捏可防止裂开，提升延展性。</li>
+</ul>
+
+<h3>步骤3：填充馅料</h3>
+<ul>
+  <li>根据顾客需求选择正确的馅料（如红豆沙、草莓果酱、抹茶奶油）。</li>
+  <li>将馅料置于中心，小心地包住并封口。</li>
+  <li>必须完全密封，防止馅料溢出。</li>
+</ul>
+
+<h3>步骤4：塑形与装饰</h3>
+<ul>
+  <li>将糯米糍团揉成光滑的圆球。</li>
+  <li>可根据订单要求撒上糖粉、抹茶粉或芝麻粉进行表面装饰。</li>
+</ul>
+
+<h3>步骤5：上菜</h3>
+<ul>
+  <li>将完成的糯米糍放入托盘并送达指定顾客。</li>
+  <li>形状与馅料的准确性越高，得分越多。</li>
+</ul>
+
+<h2>技巧与小贴士</h2>
+<ul>
+  <li><strong>蒸煮精准：</strong>糯米糍要软但不能烂，密切关注定时器。</li>
+  <li><strong>高效揉捏：</strong>掌握好节奏可节省宝贵时间。</li>
+  <li><strong>封口完整：</strong>馅料泄露会扣分，务必检查封口。</li>
+  <li><strong>订单对应：</strong>顾客对颜色与馅料要求严格，不可混淆。</li>
+  <li><strong>造型加分：</strong>表面圆润、装饰整洁的糯米糍可获得额外星星。</li>
+</ul>
+
+<h2>总结</h2>
+<p>Cookingdom 第59关让你深入了解日式传统甜点的制作过程。蒸煮、揉捏、包馅、装饰，每一步都考验玩家的操作节奏与对细节的把控。通关后可解锁更多国际甜品，提升你的 Cookingdom 糕点技能！</p>`,
   },
 ]
