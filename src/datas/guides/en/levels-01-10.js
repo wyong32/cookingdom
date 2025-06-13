@@ -9,7 +9,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',

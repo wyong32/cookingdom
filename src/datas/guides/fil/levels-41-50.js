@@ -254,7 +254,7 @@ export const levels41to50 = [
       'Master ang sining ng paggawa ng tsokolate — matunaw, hulmahin, at ihain nang perpekto sa matamis at malinamnam na hamon ng Level 44.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_44.webp', // Placeholder na larawan
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Palitan ng tamang video
@@ -502,7 +502,7 @@ export const levels41to50 = [
       'Mag-ipon ng masasarap at balanseng lunch box sa Antas 47. Maging organisado upang pamahalaan ang iba t ibang sangkap at matugunan ang maraming order ng customer.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_47.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',

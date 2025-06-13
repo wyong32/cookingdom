@@ -260,7 +260,7 @@ export const levels41to50 = [
       'Master the art of chocolate crafting — melt, mold, and serve perfectly in this sweet and rich Level 44 challenge.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_44.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Replace with actual video
@@ -508,7 +508,7 @@ export const levels41to50 = [
       'Assemble delicious and balanced lunch box in Level 47. Stay organized to manage diverse ingredients and satisfy multiple custom orders.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_47.webp', // Placeholder image
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8', // Replace with actual video ID

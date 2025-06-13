@@ -254,7 +254,7 @@ export const levels41to50 = [
       'Освойте искусство приготовления шоколада — растапливайте, формуйте и подавайте идеально в этом сладком и насыщенном испытании уровня 44.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_44.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Заменить на реальное видео
@@ -502,7 +502,7 @@ export const levels41to50 = [
       'Собирайте вкусные и сбалансированные ланчбоксы на уровне 47. Организованность поможет управлять разнообразными ингредиентами и удовлетворять множественные заказы.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_47.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',

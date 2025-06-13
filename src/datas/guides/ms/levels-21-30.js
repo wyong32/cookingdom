@@ -825,7 +825,7 @@ export const levels21to30 = [
       'Ketahui cara menyediakan croissant berlapis sempurna dalam Tahap 28 permainan Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_28.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI',

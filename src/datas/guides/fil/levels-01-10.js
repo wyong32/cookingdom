@@ -7,7 +7,7 @@ export const levels01to10 = [
       'Masterin ang mga pangunahing kaalaman sa Cookingdom sa pamamagitan ng paggawa ng iyong unang pizza sa Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'Cookingdom-Level-1-First-Pizza-Guide' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',

@@ -88,7 +88,7 @@ export const levels51to60 = [
     pageSubtitle: '在 Cookingdom 第52关中高效掌握制作甜豆汤的技巧。',
     category: '51-60',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_52.webp',
     detailsRoute: {
       name: 'guide-detail',

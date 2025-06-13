@@ -250,7 +250,7 @@ export const levels41to50 = [
       '掌握巧克力制作的艺术——融化、成型并完美出品，在这甜蜜浓郁的第44关挑战中大展身手。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_44.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // 替换为实际视频链接
@@ -495,7 +495,7 @@ export const levels41to50 = [
     pageSubtitle: '在第47关组装美味且均衡的午餐盒。保持有序管理多样食材，满足多个定制订单。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_47.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',

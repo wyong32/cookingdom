@@ -124,7 +124,7 @@ export const levels31to40 = [
     pageSubtitle: 'Belajar cara menyediakan burger klasik di Level 32 Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_32.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/V_JKX3tFHTE',

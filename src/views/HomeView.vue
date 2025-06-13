@@ -41,19 +41,19 @@ const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(local
 const latestLevels = ref([
   {
     id: 'cookingdom-game-level-56',
-    title: 'Cookingdom Level 56 Pelmeni Walkthrough',
+    titleKey: 'home.hero.latestLevels.level56',
   },
   {
     id: 'cookingdom-game-level-57',
-    title: 'Cookingdom Level 57 Picnic Sandwich Walkthrough',
+    titleKey: 'home.hero.latestLevels.level57',
   },
   {
     id: 'cookingdom-game-level-58',
-    title: 'Cookingdom Level 58 Pavlova Walkthrough',
+    titleKey: 'home.hero.latestLevels.level58',
   },
   {
     id: 'cookingdom-game-level-59',
-    title: 'Cookingdom Level 59 Mochi Walkthrough',
+    titleKey: 'home.hero.latestLevels.level59',
   },
 ])
 
@@ -193,7 +193,7 @@ onMounted(() => {
         }
       })
     },
-    { threshold: 0.1 },
+    { threshold: 0.1 }
   ) // 当10%的元素可见时触发
 
   // 开始观察指南部分
@@ -231,7 +231,7 @@ onMounted(() => {
                     :to="getLocalizedRoute('guide-detail', { id: level.id })"
                     class="level-link"
                   >
-                    {{ level.title }}
+                    {{ $t(level.titleKey) }}
                   </RouterLink>
                 </li>
               </ul>
@@ -320,41 +320,6 @@ onMounted(() => {
       <!-- 广告4 - 使用新组件 -->
       <AdComponent :adConfig="adConfigs.ad4" :isMobile="isMobile" />
 
-      <!-- Features Section -->
-      <section class="features-section" id="features-section">
-        <div class="container">
-          <h2>{{ $t('home.features.title') }}</h2>
-          <p>{{ $t('home.features.description') }}</p>
-          <div class="features-grid">
-            <div class="feature-card">
-              <div class="icon">🍳</div>
-              <h3>{{ $t('home.features.card1.title') }}</h3>
-              <p>{{ $t('home.features.card1.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">🎮</div>
-              <h3>{{ $t('home.features.card2.title') }}</h3>
-              <p>{{ $t('home.features.card2.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">✨</div>
-              <h3>{{ $t('home.features.card3.title') }}</h3>
-              <p>{{ $t('home.features.card3.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">😊</div>
-              <h3>{{ $t('home.features.card4.title') }}</h3>
-              <p>{{ $t('home.features.card4.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">📱</div>
-              <h3>{{ $t('home.features.card5.title') }}</h3>
-              <p>{{ $t('home.features.card5.description') }}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Guides Section (使用异步组件和懒加载数据) -->
       <div id="guides-section">
         <h2>{{ $t('guides.title') }}</h2>
@@ -392,6 +357,41 @@ onMounted(() => {
           </div>
         </template>
       </div>
+
+      <!-- Features Section -->
+      <section class="features-section" id="features-section">
+        <div class="container">
+          <h2>{{ $t('home.features.title') }}</h2>
+          <p>{{ $t('home.features.description') }}</p>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="icon">🍳</div>
+              <h3>{{ $t('home.features.card1.title') }}</h3>
+              <p>{{ $t('home.features.card1.description') }}</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">🎮</div>
+              <h3>{{ $t('home.features.card2.title') }}</h3>
+              <p>{{ $t('home.features.card2.description') }}</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">✨</div>
+              <h3>{{ $t('home.features.card3.title') }}</h3>
+              <p>{{ $t('home.features.card3.description') }}</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">😊</div>
+              <h3>{{ $t('home.features.card4.title') }}</h3>
+              <p>{{ $t('home.features.card4.description') }}</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">📱</div>
+              <h3>{{ $t('home.features.card5.title') }}</h3>
+              <p>{{ $t('home.features.card5.description') }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Downloads Section -->
       <section class="downloads-section" id="downloads-section">
@@ -442,8 +442,8 @@ onMounted(() => {
       <AdComponent :adConfig="adConfigs.ad2" :isMobile="isMobile" />
       <AdComponent :adConfig="adConfigs.ad3" :isMobile="isMobile" />
       <AdComponent :adConfig="adConfigs.ad5" :isMobile="isMobile" />
-      <AdComponent :adConfig="adConfigs.ad7" :isMobile="isMobile" />
-      <AdComponent :adConfig="adConfigs.ad8" :isMobile="isMobile" />
+      <!-- <AdComponent :adConfig="adConfigs.ad7" :isMobile="isMobile" /> -->
+      <!-- <AdComponent :adConfig="adConfigs.ad8" :isMobile="isMobile" /> -->
 
       <!-- About Game Section (Modified from About Us) -->
       <section class="about-section">
@@ -867,9 +867,7 @@ main {
   padding: 1.5rem;
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 4px 10px rgba(160, 142, 230, 0.1); /* Soft purple shadow */
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   contain: layout style; /* 防止布局偏移 */
   min-height: 200px; /* 设置最小高度，防止内容加载时的布局偏移 */
   width: 100%; /* 确保宽度固定 */
@@ -1028,10 +1026,7 @@ main {
   font-size: 0.95rem;
   font-weight: 500;
   cursor: pointer;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 4px rgba(160, 142, 230, 0.05);
 }
 
@@ -1060,9 +1055,7 @@ main {
   border-radius: 10px; /* Slightly less rounded */
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05); /* Lighter shadow */
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid #fff0f5;
   text-align: center;
 }
@@ -1202,9 +1195,7 @@ main {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  transition:
-    background-color 0.3s ease,
-    transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
   text-decoration: none;
   width: 80%; /* Make button wider */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

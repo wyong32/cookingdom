@@ -88,7 +88,7 @@ export const levels51to60 = [
     pageSubtitle: 'Kuasi cara memasak Sup Manis Kacang dengan cekap di Tahap 52 Cookingdom.',
     category: '51-60',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_52.webp',
     detailsRoute: {
       name: 'guide-detail',

@@ -89,7 +89,7 @@ export const levels51to60 = [
       'Освойте искусство приготовления сладкого фасолевого супа в Cookingdom на уровне 52.',
     category: '51-60',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_52.webp',
     detailsRoute: {
       name: 'guide-detail',

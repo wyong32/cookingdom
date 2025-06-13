@@ -124,7 +124,7 @@ export const levels31to40 = [
     pageSubtitle: '学习如何在Cookingdom第32关组装经典汉堡。',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_32.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/V_JKX3tFHTE', // 占位视频

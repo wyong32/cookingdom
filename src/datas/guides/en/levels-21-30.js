@@ -878,7 +878,7 @@ export const levels21to30 = [
     pageSubtitle: 'Learn to make the perfect flaky Croissant in Level 28 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_28.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI', // Placeholder

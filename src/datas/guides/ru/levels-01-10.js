@@ -6,7 +6,7 @@ export const levels01to10 = [
     pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',

@@ -6,7 +6,7 @@ export const levels01to10 = [
     pageSubtitle: '在料理王国第一关，通过制作你的第一块披萨来掌握基础知识。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'Cookingdom-Level-1-First-Pizza-Guide' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',

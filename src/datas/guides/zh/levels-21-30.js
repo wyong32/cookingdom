@@ -837,7 +837,7 @@ export const levels21to30 = [
     pageSubtitle: '在 Cookingdom 第 28 关学习如何制作完美酥脆的羊角面包。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_28.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI',

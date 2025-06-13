@@ -6,7 +6,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasai asas Cookingdom dengan membuat pizza pertama anda di Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',

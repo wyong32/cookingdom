@@ -92,7 +92,7 @@ export const levels51to60 = [
       'Master the art of cooking Beans Sweet Soup efficiently in Level 52 of Cookingdom.',
     category: '51-60',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_52.webp',
     detailsRoute: {
       name: 'guide-detail',

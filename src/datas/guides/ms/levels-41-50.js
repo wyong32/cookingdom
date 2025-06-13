@@ -253,7 +253,7 @@ export const levels41to50 = [
       'Kuasi seni pembuatan coklat — cairkan, bentuk, dan hidangkan dengan sempurna dalam cabaran manis dan kaya di Level 44 ini.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_44.webp', // Gambar tempat letak
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Ganti dengan video sebenar
@@ -501,7 +501,7 @@ export const levels41to50 = [
       'Sediakan dan susun kotak makan tengah hari yang lazat dan seimbang di Tahap 47. Kekal teratur untuk mengurus pelbagai bahan dan memuaskan banyak pesanan pelanggan.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_47.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',

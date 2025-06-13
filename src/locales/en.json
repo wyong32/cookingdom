@@ -56,7 +56,11 @@
       "title": "Cookingdom Game: Complete Walkthrough Guides",
       "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom Level Walkthrough Guides, simple cheats, and video walkthroughs.",
       "latestLevels": {
-        "title": "🔥 Latest level update"
+        "title": "🔥 Latest level update",
+        "level56": "Cookingdom Level 56 Pelmeni Walkthrough",
+        "level57": "Cookingdom Level 57 Picnic Sandwich Walkthrough",
+        "level58": "Cookingdom Level 58 Pavlova Walkthrough",
+        "level59": "Cookingdom Level 59 Mochi Walkthrough"
       },
       "button": {
         "viewGuides": "View Cookingdom Walkthrough Guides",
@@ -199,7 +203,7 @@
     "notFoundTitle": "Guide Not Found | Cookingdom"
   },
   "guides": {
-    "title": "📖 cookingdom Level Walkthrough Guides",
+    "title": "📖 Cookingdom Level Walkthrough Guides",
     "title1": "Step-by-Step Strategies to Master Every Cooking Challenge!",
     "tabs": {
       "special": "Special Levels",

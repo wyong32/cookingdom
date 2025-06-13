@@ -128,7 +128,7 @@ export const levels31to40 = [
     pageSubtitle: 'Learn to assemble the classic Hamburger in Level 32 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_32.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-32' } },
     iframeUrl: 'https://www.youtube.com/embed/V_JKX3tFHTE', // Placeholder
