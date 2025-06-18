@@ -607,7 +607,7 @@ export const levels01to10 = [
       name: 'guide-detail',
       params: { id: 'cookingdom-game-level-8' },
     },
-    iframeUrl: 'https://www.youtube.com/embed/vrGNwEY_6hE',
+    iframeUrl: 'https://www.youtube.com/embed/qxPUF3cKPrs',
     seo: {
       title: 'Cookingdom 第8关攻略：牛排 | 技巧与策略',
       description:
