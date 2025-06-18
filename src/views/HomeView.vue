@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
+import Adsense from '@/components/Adsense.vue'
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -195,17 +196,15 @@ onUnmounted(() => {
 <template>
   <div class="home-view">
     <div class="home-main-with-ads">
-      <!-- 侧边左1广告 -->
-      <!-- <aside class="ads-left">
-        <ins
-          class="adsbygoogle"
-          style="display: block"
-          data-ad-client="ca-pub-4224010041977181"
-          data-ad-slot="7552815638"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </aside> -->
+      <!-- 侧边左1广告（使用Adsense组件） -->
+      <aside class="ads-left">
+        <Adsense
+          adClient="ca-pub-4224010041977181"
+          adSlot="7552815638"
+          adFormat="auto"
+          :fullWidthResponsive="true"
+        />
+      </aside>
       <main>
         <!-- Hero Section -->
         <section class="hero-section">
@@ -551,17 +550,15 @@ onUnmounted(() => {
           </div>
         </section>
       </main>
-      <!-- 侧边右1广告 -->
-      <!-- <aside class="ads-right">
-        <ins
-          class="adsbygoogle"
-          style="display: block"
-          data-ad-client="ca-pub-4224010041977181"
-          data-ad-slot="1956039879"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      </aside> -->
+      <!-- 侧边右1广告（使用Adsense组件） -->
+      <aside class="ads-right">
+        <Adsense
+          adClient="ca-pub-4224010041977181"
+          adSlot="1956039879"
+          adFormat="auto"
+          :fullWidthResponsive="true"
+        />
+      </aside>
     </div>
   </div>
 </template>
