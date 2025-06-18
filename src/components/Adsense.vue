@@ -56,6 +56,9 @@ const showDebug = ref(false)
 const adWidth = ref(0)
 const parentWidth = ref(0)
 
+// 全局广告管理
+let globalAdPushInProgress = false
+
 // 更新调试信息
 const updateDebugInfo = () => {
   const adEl = adElement.value
@@ -71,8 +74,21 @@ const forceRefreshAd = () => {
   adKey.value += 1
   showFallback.value = false
   nextTick(() => {
+    // 重新初始化广告元素
+    reinitAd()
     updateDebugInfo()
     pushAd()
+  })
+}
+
+// 清理页面上所有其他 adsbygoogle 元素
+const clearAllAds = () => {
+  const allAds = document.querySelectorAll('.adsbygoogle')
+  allAds.forEach((ad) => {
+    if (ad !== adElement.value) {
+      ad.innerHTML = ''
+      ad.classList.remove('adsbygoogle')
+    }
   })
 }
 
@@ -98,17 +114,30 @@ const pushAd = (retryCount = 0) => {
       return
     }
 
+    // 检查是否有其他广告正在 push
+    if (globalAdPushInProgress) {
+      console.log('AdSense: Another ad push in progress, retrying...')
+      setTimeout(() => pushAd(retryCount), 100)
+      return
+    }
+
+    // 清理页面上所有其他 adsbygoogle 元素
+    clearAllAds()
+
     if (window.adsbygoogle) {
       try {
+        globalAdPushInProgress = true
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
         console.log('AdSense: Ad pushed successfully')
         setTimeout(() => {
+          globalAdPushInProgress = false
           if (adEl.innerHTML.trim() === '') {
             console.warn('AdSense: Ad failed to load, showing fallback')
             showFallback.value = true
           }
         }, 3000)
       } catch (e) {
+        globalAdPushInProgress = false
         console.error('AdSense push error:', e)
         if (e.message && e.message.includes('already have ads')) {
           console.log('AdSense: Ad already exists, skipping')
@@ -148,8 +177,25 @@ const pushAd = (retryCount = 0) => {
 const clearAd = () => {
   const adEl = adElement.value
   if (adEl) {
+    // 移除所有子元素，包括 iframe
     adEl.innerHTML = ''
+    // 移除 adsbygoogle 类，让 Google 认为这是一个新元素
+    adEl.classList.remove('adsbygoogle')
     showFallback.value = false
+  }
+}
+
+// 重新初始化广告元素
+const reinitAd = () => {
+  const adEl = adElement.value
+  if (adEl) {
+    // 重新添加 adsbygoogle 类
+    adEl.classList.add('adsbygoogle')
+    // 重新设置属性
+    adEl.setAttribute('data-ad-client', props.adClient)
+    adEl.setAttribute('data-ad-slot', props.adSlot)
+    adEl.setAttribute('data-ad-format', props.adFormat)
+    adEl.setAttribute('data-full-width-responsive', props.fullWidthResponsive.toString())
   }
 }
 
@@ -163,6 +209,8 @@ watch(
     adKey.value += 1
     showFallback.value = false // 重置降级状态
     nextTick(() => {
+      // 重新初始化广告元素
+      reinitAd()
       // 立即尝试 push，不等待额外延迟
       pushAd()
     })
