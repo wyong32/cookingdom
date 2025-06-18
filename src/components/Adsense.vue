@@ -68,16 +68,56 @@ const updateDebugInfo = () => {
 }
 
 // 强制刷新广告（用于调试）
-const forceRefreshAd = () => {
+const forceRefreshAd = async () => {
   // 先清理旧的广告内容
   clearAd()
   adKey.value += 1
   showFallback.value = false
+
+  // 重新加载 AdSense 脚本
+  await reloadAdSenseScript()
+
+  // 等待一段时间，确保 Google 的内部状态完全重置
+  await new Promise((resolve) => setTimeout(resolve, 500))
+
   nextTick(() => {
     // 重新初始化广告元素
     reinitAd()
     updateDebugInfo()
     pushAd()
+  })
+}
+
+// 重新加载 AdSense 脚本
+const reloadAdSenseScript = () => {
+  return new Promise((resolve) => {
+    // 移除现有的 AdSense 脚本
+    const existingScript = document.querySelector('script[src*="adsbygoogle.js"]')
+    if (existingScript) {
+      existingScript.remove()
+    }
+
+    // 重置全局变量
+    window.adsbygoogle = []
+
+    // 创建新的 AdSense 脚本
+    const script = document.createElement('script')
+    script.async = true
+    script.src =
+      'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181'
+    script.crossOrigin = 'anonymous'
+
+    script.onload = () => {
+      console.log('AdSense script reloaded successfully')
+      resolve()
+    }
+
+    script.onerror = () => {
+      console.error('Failed to reload AdSense script')
+      resolve()
+    }
+
+    document.head.appendChild(script)
   })
 }
 
@@ -202,12 +242,19 @@ const reinitAd = () => {
 // 路由变化时刷新广告
 watch(
   () => route.path,
-  (newPath, oldPath) => {
+  async (newPath, oldPath) => {
     if (newPath === oldPath) return
     // 先清理旧的广告内容
     clearAd()
     adKey.value += 1
     showFallback.value = false // 重置降级状态
+
+    // 重新加载 AdSense 脚本
+    await reloadAdSenseScript()
+
+    // 等待一段时间，确保 Google 的内部状态完全重置
+    await new Promise((resolve) => setTimeout(resolve, 500))
+
     nextTick(() => {
       // 重新初始化广告元素
       reinitAd()
