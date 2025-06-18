@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import { ref, watch, nextTick, onMounted } from 'vue'
+import { ref, watch, nextTick, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const props = defineProps({
@@ -51,8 +51,15 @@ const showFallback = ref(false)
 const pushAd = (retryCount = 0) => {
   const adEl = adElement.value
   const parentEl = adEl?.parentElement
+
   // 检查广告容器和父容器宽度
   if (adEl && adEl.offsetWidth > 0 && parentEl && parentEl.offsetWidth > 0) {
+    // 检查当前元素是否已经有广告内容
+    if (adEl.innerHTML.trim() !== '' && adEl.querySelector('iframe')) {
+      console.log('AdSense: Ad already loaded, skipping push')
+      return
+    }
+
     console.log(
       `AdSense: Container width is ${adEl.offsetWidth}px, parent width is ${parentEl.offsetWidth}px, attempting to push ad`
     )
@@ -103,6 +110,16 @@ watch(
   () => route.path,
   (newPath, oldPath) => {
     if (newPath === oldPath) return
+
+    // 清理所有旧的 .adsbygoogle 元素，但保留当前组件的元素
+    const oldAds = document.querySelectorAll('.adsbygoogle')
+    oldAds.forEach((el) => {
+      // 只清理不是当前组件的广告元素
+      if (el !== adElement.value && el.parentNode) {
+        el.parentNode.removeChild(el)
+      }
+    })
+
     adKey.value += 1
     showFallback.value = false // 重置降级状态
     nextTick(() => {
@@ -118,6 +135,14 @@ onMounted(() => {
     // 给更多时间让DOM完全渲染
     setTimeout(() => pushAd(), 100)
   })
+})
+
+// 组件卸载时清理广告元素
+onUnmounted(() => {
+  const adEl = adElement.value
+  if (adEl && adEl.parentNode) {
+    adEl.parentNode.removeChild(adEl)
+  }
 })
 </script>
 
