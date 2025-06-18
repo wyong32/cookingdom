@@ -1,9 +1,14 @@
 <template>
   <div class="guide-detail-page">
     <!-- Left Ad -->
-    <div class="ads-left">
-      <Adsense />
-    </div>
+    <aside class="ads-left">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="7552815638"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
 
     <!-- Main Content Container -->
     <div class="guide-detail-content">
@@ -110,9 +115,14 @@
     </div>
 
     <!-- Right Ad -->
-    <div class="ads-right">
-      <Adsense />
-    </div>
+    <aside class="ads-right">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="1956039879"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
   </div>
 </template>
 

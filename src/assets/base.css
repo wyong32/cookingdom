@@ -2,24 +2,24 @@
 
 /* 通用左右侧广告样式 */
 .ads-left, .ads-right {
-  width: 180px;
-  min-width: 160px;
-  max-width: 220px;
-  min-height: 320px;
+  width: 180px !important;
+  min-width: 160px !important;
+  max-width: 220px !important;
+  min-height: 320px !important;
   background: #fff;
   border: 1px solid #eee;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
-  position: sticky;
-  top: 80px;
-  z-index: 10;
+  margin: 0 10px !important;
+  position: sticky !important;
+  top: 80px !important;
+  z-index: 10 !important;
 }
 @media (max-width: 1200px) {
   .ads-left, .ads-right {
-    display: none;
+    display: none !important;
   }
 }
 

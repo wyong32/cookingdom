@@ -69,14 +69,14 @@ watch(listError, (newError) => {
 <template>
   <div class="blog-detail-page">
     <!-- Left Ad -->
-    <div class="ads-left">
+    <aside class="ads-left">
       <Adsense
         adClient="ca-pub-4224010041977181"
         adSlot="7552815638"
         adFormat="auto"
         :fullWidthResponsive="true"
       />
-    </div>
+    </aside>
 
     <!-- Main Content Container -->
     <div class="blog-detail-content">
@@ -121,14 +121,14 @@ watch(listError, (newError) => {
     </div>
 
     <!-- Right Ad -->
-    <div class="ads-right">
+    <aside class="ads-right">
       <Adsense
         adClient="ca-pub-4224010041977181"
         adSlot="1956039879"
         adFormat="auto"
         :fullWidthResponsive="true"
       />
-    </div>
+    </aside>
   </div>
 </template>
 
@@ -147,12 +147,6 @@ watch(listError, (newError) => {
   min-height: 800px;
   width: 100%;
   box-sizing: border-box;
-}
-
-.ads-left,
-.ads-right {
-  flex: 0 0 200px;
-  padding: 10px;
 }
 
 .loading-message,
@@ -262,10 +256,6 @@ hr {
     padding: 1rem;
     margin: 0;
     min-height: 600px;
-  }
-  .ads-left,
-  .ads-right {
-    flex: 0 0 100%;
   }
   .blog-post-content {
     min-height: 400px;
