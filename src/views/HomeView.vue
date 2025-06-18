@@ -1956,21 +1956,7 @@ main {
   flex: 1;
   min-width: 0;
 }
-.ads-left,
-.ads-right {
-  width: 160px;
-  min-width: 120px;
-  max-width: 200px;
-  margin: 0 10px;
-  position: sticky;
-  top: 80px;
-  z-index: 10;
-}
 @media (max-width: 1200px) {
-  .ads-left,
-  .ads-right {
-    display: none;
-  }
   .home-main-with-ads {
     flex-direction: column;
   }
