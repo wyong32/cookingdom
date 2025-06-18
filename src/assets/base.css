@@ -1,1 +1,24 @@
 /* color palette from <https://github.com/vuejs/theme> */
+
+/* 通用左右侧广告样式 */
+.ads-left, .ads-right {
+  width: 180px;
+  min-width: 160px;
+  max-width: 220px;
+  min-height: 320px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+}
+@media (max-width: 1200px) {
+  .ads-left, .ads-right {
+    display: none;
+  }
+}
