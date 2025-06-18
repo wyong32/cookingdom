@@ -16,6 +16,12 @@
         <span>Advertisement</span>
       </div>
     </div>
+    <!-- 调试信息 -->
+    <div v-if="showDebug" class="ad-debug">
+      <div>Width: {{ adWidth }}px</div>
+      <div>Parent: {{ parentWidth }}px</div>
+      <button @click="forceRefreshAd">Refresh</button>
+    </div>
   </div>
 </template>
 
@@ -46,15 +52,42 @@ const route = useRoute()
 const adKey = ref(0)
 const adElement = ref(null)
 const showFallback = ref(false)
+const showDebug = ref(true)
+const adWidth = ref(0)
+const parentWidth = ref(0)
+
+// 更新调试信息
+const updateDebugInfo = () => {
+  const adEl = adElement.value
+  const parentEl = adEl?.parentElement
+  adWidth.value = adEl?.offsetWidth || 0
+  parentWidth.value = parentEl?.offsetWidth || 0
+}
+
+// 强制刷新广告（用于调试）
+const forceRefreshAd = () => {
+  adKey.value += 1
+  showFallback.value = false
+  nextTick(() => {
+    updateDebugInfo()
+    pushAd()
+  })
+}
 
 // 智能激活广告 - 添加宽度检查和重试机制
 const pushAd = (retryCount = 0) => {
   const adEl = adElement.value
   const parentEl = adEl?.parentElement
-  // 检查广告容器和父容器宽度
-  if (adEl && adEl.offsetWidth > 0 && parentEl && parentEl.offsetWidth > 0) {
+
+  // 更新调试信息
+  updateDebugInfo()
+
+  // 检查广告容器宽度，放宽父容器宽度要求
+  if (adEl && adEl.offsetWidth > 0) {
     console.log(
-      `AdSense: Container width is ${adEl.offsetWidth}px, parent width is ${parentEl.offsetWidth}px, attempting to push ad`
+      `AdSense: Container width is ${adEl.offsetWidth}px, parent width is ${
+        parentEl?.offsetWidth || 0
+      }px, attempting to push ad`
     )
     if (window.adsbygoogle) {
       try {
@@ -79,10 +112,10 @@ const pushAd = (retryCount = 0) => {
     }
   } else {
     if (retryCount < 15) {
-      console.log(`AdSense: Container or parent width is 0, retry ${retryCount + 1}/15`)
+      console.log(`AdSense: Container width is 0, retry ${retryCount + 1}/15`)
       setTimeout(() => pushAd(retryCount + 1), 200)
     } else {
-      console.warn('AdSense: Container or parent width is 0 after 15 retries')
+      console.warn('AdSense: Container width is 0 after 15 retries')
       if (adEl) {
         console.log('AdSense debug info:', {
           offsetWidth: adEl.offsetWidth,
@@ -106,17 +139,21 @@ watch(
     adKey.value += 1
     showFallback.value = false // 重置降级状态
     nextTick(() => {
-      // 给更多时间让DOM完全渲染
-      setTimeout(() => pushAd(), 100)
+      // 立即尝试 push，不等待额外延迟
+      pushAd()
     })
   }
 )
 
 // 首次挂载时激活广告
 onMounted(() => {
+  // 立即尝试 push，不等待 nextTick
+  updateDebugInfo()
+  pushAd()
+  // 同时也在 nextTick 后再次尝试，确保 DOM 完全渲染
   nextTick(() => {
-    // 给更多时间让DOM完全渲染
-    setTimeout(() => pushAd(), 100)
+    updateDebugInfo()
+    setTimeout(() => pushAd(), 50)
   })
 })
 </script>
@@ -147,5 +184,37 @@ onMounted(() => {
   color: #6c757d;
   font-size: 12px;
   font-weight: 500;
+}
+
+.ad-debug {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.ad-debug div {
+  margin-bottom: 10px;
+}
+
+.ad-debug button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ad-debug button:hover {
+  background-color: #0056b3;
 }
 </style> 
