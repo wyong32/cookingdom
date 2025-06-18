@@ -22,3 +22,51 @@
     display: none;
   }
 }
+
+/* 通用主内容+广告布局 */
+.main-with-ads,
+.guide-view-main-with-ads,
+.guide-detail-main-with-ads,
+.blog-view-main-with-ads,
+.blog-detail-main-with-ads,
+.download-main-with-ads,
+.mod-download-main-with-ads {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 主内容区自适应宽度 */
+.main-with-ads main,
+.guide-view-main-with-ads main,
+.guide-detail-main-with-ads main,
+.blog-view-main-with-ads main,
+.blog-detail-main-with-ads main,
+.download-main-with-ads main,
+.mod-download-main-with-ads main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 页面级广告布局 - GuideDetail 和 BlogDetailView */
+.guide-detail-page,
+.blog-detail-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 页面级主内容区自适应宽度 */
+.guide-detail-content,
+.blog-detail-content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+}

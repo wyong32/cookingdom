@@ -1,104 +1,117 @@
 <template>
   <div class="guide-detail-page">
-    <!-- Optional: Breadcrumbs can go here -->
-    <div v-if="currentGuide" class="guide-layout">
-      <!-- Main Content Area (Left) -->
-      <main class="main-content">
-        <!-- Back link -->
+    <!-- Left Ad -->
+    <div class="ads-left">
+      <Adsense />
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="guide-detail-content">
+      <!-- Optional: Breadcrumbs can go here -->
+      <div v-if="currentGuide" class="guide-layout">
+        <!-- Main Content Area (Left) -->
+        <main class="main-content">
+          <!-- Back link -->
+          <router-link :to="{ name: 'guides' }" class="back-link">{{
+            $t('guideDetail.backLink')
+          }}</router-link>
+
+          <!-- New H1 using pageTitle -->
+          <h1 class="page-main-title">{{ currentGuide.pageTitle }}</h1>
+          <!-- New Subtitle -->
+          <p class="page-subtitle" v-if="currentGuide.pageSubtitle">
+            {{ currentGuide.pageSubtitle }}
+          </p>
+
+          <!-- Display YouTube video if iframeUrl exists -->
+          <div v-if="currentGuide.iframeUrl" class="iframe-container">
+            <YouTubeFacade
+              :videoUrl="currentGuide.iframeUrl"
+              :title="$t('guideDetail.iframeTitle')"
+              :customThumbnail="getVideoThumbnail(currentGuide)"
+            />
+          </div>
+
+          <!-- Render HTML content using v-html (Now last) -->
+          <div v-html="currentGuide.detailsHtml" class="guide-html-content"></div>
+
+          <!-- You could add more sections here, e.g., comments -->
+        </main>
+
+        <!-- Sidebar Area (Right) -->
+        <aside class="sidebar">
+          <!-- Sidebar Image -->
+          <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
+            <img
+              :src="currentGuide.sidebarData.sidebarImageUrl"
+              alt="Cookingdom Level"
+              fetchpriority="high"
+              loading="eager"
+            />
+          </div>
+
+          <!-- Level Info Box -->
+          <div
+            class="level-info-box"
+            v-if="currentGuide.sidebarData?.levelInfoHtml"
+            v-html="currentGuide.sidebarData.levelInfoHtml"
+          ></div>
+
+          <!-- Featured Guides Section -->
+          <div
+            class="featured-guides"
+            v-if="
+              currentGuide.sidebarData?.featuredGuides &&
+              currentGuide.sidebarData.featuredGuides.length > 0
+            "
+          >
+            <h4>{{ $t('guideDetail.featuredLevelsTitle') }}</h4>
+            <ul>
+              <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
+                <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
+                  <img
+                    :src="featured.imageUrl"
+                    alt="Cookingdom Level"
+                    class="featured-guide-img"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <span v-html="featured.title"></span>
+                </router-link>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Loading / Not Found State -->
+      <div v-else-if="isLoadingList && !currentGuide" class="loading-or-not-found">
+        <p>Loading guide details...</p>
+      </div>
+      <div v-else-if="listError" class="loading-or-not-found">
+        <p>{{ listError.message || 'Error loading guides.' }}</p>
         <router-link :to="{ name: 'guides' }" class="back-link">{{
           $t('guideDetail.backLink')
         }}</router-link>
-
-        <!-- New H1 using pageTitle -->
-        <h1 class="page-main-title">{{ currentGuide.pageTitle }}</h1>
-        <!-- New Subtitle -->
-        <p class="page-subtitle" v-if="currentGuide.pageSubtitle">
-          {{ currentGuide.pageSubtitle }}
+      </div>
+      <div v-else-if="!isLoadingList && !currentGuide && guideId" class="loading-or-not-found">
+        <p>{{ $t('guideDetail.loadingOrNotFound') }}</p>
+        <p>{{ $t('guideDetail.idNotFound', { id: guideId }) }}</p>
+        <router-link :to="{ name: 'guides' }" class="back-link">{{
+          $t('guideDetail.backLink')
+        }}</router-link>
+      </div>
+      <div v-else-if="!guideId" class="loading-or-not-found">
+        <p>
+          {{ t('guide.invalidGuideId', 'No guide ID specified.') }}
+          <RouterLink :to="{ name: 'guides' }">Back to Guides</RouterLink>
         </p>
-
-        <!-- Display YouTube video if iframeUrl exists -->
-        <div v-if="currentGuide.iframeUrl" class="iframe-container">
-          <YouTubeFacade
-            :videoUrl="currentGuide.iframeUrl"
-            :title="$t('guideDetail.iframeTitle')"
-            :customThumbnail="getVideoThumbnail(currentGuide)"
-          />
-        </div>
-
-        <!-- Render HTML content using v-html (Now last) -->
-        <div v-html="currentGuide.detailsHtml" class="guide-html-content"></div>
-
-        <!-- You could add more sections here, e.g., comments -->
-      </main>
-
-      <!-- Sidebar Area (Right) -->
-      <aside class="sidebar">
-        <!-- Sidebar Image -->
-        <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
-          <img
-            :src="currentGuide.sidebarData.sidebarImageUrl"
-            alt="Cookingdom Level"
-            fetchpriority="high"
-            loading="eager"
-          />
-        </div>
-
-        <!-- Level Info Box -->
-        <div
-          class="level-info-box"
-          v-if="currentGuide.sidebarData?.levelInfoHtml"
-          v-html="currentGuide.sidebarData.levelInfoHtml"
-        ></div>
-
-        <!-- Featured Guides Section -->
-        <div
-          class="featured-guides"
-          v-if="
-            currentGuide.sidebarData?.featuredGuides &&
-            currentGuide.sidebarData.featuredGuides.length > 0
-          "
-        >
-          <h4>{{ $t('guideDetail.featuredLevelsTitle') }}</h4>
-          <ul>
-            <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
-              <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
-                <img
-                  :src="featured.imageUrl"
-                  alt="Cookingdom Level"
-                  class="featured-guide-img"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <span v-html="featured.title"></span>
-              </router-link>
-            </li>
-          </ul>
-        </div>
-      </aside>
+      </div>
     </div>
 
-    <!-- Loading / Not Found State -->
-    <div v-else-if="isLoadingList && !currentGuide" class="loading-or-not-found">
-      <p>Loading guide details...</p>
-    </div>
-    <div v-else-if="listError" class="loading-or-not-found">
-      <p>{{ listError.message || 'Error loading guides.' }}</p>
-      <router-link :to="{ name: 'guides' }" class="back-link">{{
-        $t('guideDetail.backLink')
-      }}</router-link>
-    </div>
-    <div v-else-if="!isLoadingList && !currentGuide && guideId" class="loading-or-not-found">
-      <p>{{ $t('guideDetail.loadingOrNotFound') }}</p>
-      <p>{{ $t('guideDetail.idNotFound', { id: guideId }) }}</p>
-      <router-link :to="{ name: 'guides' }" class="back-link">{{
-        $t('guideDetail.backLink')
-      }}</router-link>
-    </div>
-    <div v-else-if="!guideId" class="loading-or-not-found">
-      <p>
-        {{ t('guide.invalidGuideId', 'No guide ID specified.') }}
-        <RouterLink :to="{ name: 'guides' }">Back to Guides</RouterLink>
-      </p>
+    <!-- Right Ad -->
+    <div class="ads-right">
+      <Adsense />
     </div>
   </div>
 </template>
@@ -429,34 +442,39 @@ watch(currentGuide, (newVal) => {
 
 <style scoped>
 .guide-detail-page {
-  max-width: 1200px; /* Wider max-width for two columns */
+  /* 页面级布局样式已在 base.css 中定义 */
+}
+
+.guide-detail-content {
+  /* 页面级主内容区样式已在 base.css 中定义 */
+  max-width: 1200px;
   margin: 2rem auto;
-  padding: 0 1rem; /* Add padding for overall page */
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 100vh; /* 确保页面有足够的高度 */
-  display: block; /* 确保正确的显示模式 */
+  padding: 0 1rem;
+  contain: layout style;
+  min-height: 100vh;
+  display: block;
 }
 
 .guide-layout {
   display: flex;
-  gap: 2rem; /* Space between main content and sidebar */
-  min-height: 800px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  contain: layout; /* 防止布局偏移 */
+  gap: 2rem;
+  min-height: 800px;
+  contain: layout;
 }
 
 .main-content {
-  flex: 1; /* Takes up remaining space */
-  min-width: 0; /* Prevents content overflow */
+  flex: 1;
+  min-width: 0;
   background-color: #ffffff;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  contain: layout style; /* 防止布局偏移 */
+  contain: layout style;
 }
 
 .sidebar {
-  flex: 0 0 300px; /* Fixed width for sidebar */
-  contain: layout style; /* 防止布局偏移 */
+  flex: 0 0 300px;
+  contain: layout style;
 }
 
 .back-link {
@@ -480,7 +498,7 @@ watch(currentGuide, (newVal) => {
 }
 
 .level-info-box {
-  background-color: #f8f9fa; /* Light background for info box */
+  background-color: #f8f9fa;
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1.5rem;
@@ -509,10 +527,10 @@ watch(currentGuide, (newVal) => {
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #eee;
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 200px; /* 设置最小高度 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
+  contain: layout style;
+  min-height: 200px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .featured-guides h4 {
@@ -528,14 +546,14 @@ watch(currentGuide, (newVal) => {
   list-style: none;
   padding: 0;
   margin: 0;
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 50px; /* 设置最小高度 */
+  contain: layout style;
+  min-height: 50px;
 }
 
 .featured-guides li {
   margin-bottom: 0.8rem;
-  height: 60px; /* 固定高度 */
-  contain: layout style; /* 防止布局偏移 */
+  height: 60px;
+  contain: layout style;
 }
 
 .featured-guide-link {
@@ -547,9 +565,9 @@ watch(currentGuide, (newVal) => {
   transition: background-color 0.2s ease;
   padding: 0.4rem;
   border-radius: 4px;
-  height: 100%; /* 填充父容器高度 */
-  contain: layout style; /* 防止布局偏移 */
-  box-sizing: border-box; /* 确保padding不影响总高度 */
+  height: 100%;
+  contain: layout style;
+  box-sizing: border-box;
 }
 
 .featured-guide-link:hover {
@@ -557,13 +575,13 @@ watch(currentGuide, (newVal) => {
 }
 
 .featured-guide-img {
-  width: 50px; /* Fixed width */
-  height: 50px; /* Fixed height */
+  width: 50px;
+  height: 50px;
   border-radius: 4px;
   object-fit: cover;
-  aspect-ratio: 1 / 1; /* 确保宽高比固定 */
-  background-color: #f0f0f0; /* 加载前的背景色 */
-  contain: layout paint; /* 防止布局偏移 */
+  aspect-ratio: 1 / 1;
+  background-color: #f0f0f0;
+  contain: layout paint;
 }
 
 .featured-guide-link span {
@@ -575,8 +593,8 @@ watch(currentGuide, (newVal) => {
 .guide-html-content {
   line-height: 1.7;
   color: #333;
-  content-visibility: auto; /* 优化渲染性能 */
-  contain-intrinsic-size: 1000px; /* 提供估计高度，防止布局偏移 */
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
 }
 
 .guide-html-content :deep(h1),
@@ -631,36 +649,39 @@ watch(currentGuide, (newVal) => {
 
 /* Responsive Adjustments */
 @media (max-width: 992px) {
-  /* Adjust breakpoint as needed */
   .guide-layout {
-    flex-direction: column; /* Stack content and sidebar */
+    flex-direction: column;
   }
   .sidebar {
-    flex: 0 0 auto; /* Reset flex properties */
-    width: 100%; /* Sidebar takes full width */
+    flex: 0 0 auto;
+    width: 100%;
   }
 }
 
 @media (max-width: 767px) {
   .guide-detail-page {
+    flex-direction: column;
+    padding: 0;
+  }
+  .guide-detail-content {
     padding: 0;
     margin: 0;
-    min-height: 100vh; /* 确保移动端也有足够高度 */
+    min-height: 100vh;
   }
   .guide-layout {
     padding: 0;
     margin: 0;
-    min-height: 600px; /* 移动端减少最小高度 */
+    min-height: 600px;
   }
   .main-content {
     padding: 0 1rem;
     margin: 0;
-    min-height: 400px; /* 确保主内容区有最小高度 */
+    min-height: 400px;
   }
   .sidebar {
     padding: 0 1rem;
     margin: 0;
-    min-height: 200px; /* 确保侧边栏有最小高度 */
+    min-height: 200px;
   }
   h1 {
     font-size: 1.5rem;
@@ -670,12 +691,11 @@ watch(currentGuide, (newVal) => {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
-  /* 确保特色指南在移动端也有固定高度 */
   .featured-guides {
     min-height: 150px;
   }
   .featured-guides li {
-    height: 50px; /* 移动端减少高度 */
+    height: 50px;
   }
 }
 </style>
