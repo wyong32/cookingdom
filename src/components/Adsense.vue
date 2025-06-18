@@ -1,5 +1,6 @@
 <template>
   <ins
+    ref="adElement"
     :key="adKey"
     class="adsbygoogle"
     style="display: block"
@@ -35,17 +36,33 @@ const props = defineProps({
 
 const route = useRoute()
 const adKey = ref(0)
+const adElement = ref(null)
 
-// 智能激活广告
-const pushAd = () => {
-  if (window.adsbygoogle) {
-    try {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-    } catch (e) {
-      console.error('AdSense push error:', e)
+// 智能激活广告 - 添加宽度检查和重试机制
+const pushAd = (retryCount = 0) => {
+  // 使用 ref 获取当前组件的广告元素
+  const adEl = adElement.value
+
+  // 检查广告容器是否有宽度
+  if (adEl && adEl.offsetWidth > 0) {
+    if (window.adsbygoogle) {
+      try {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (e) {
+        console.error('AdSense push error:', e)
+      }
+    } else {
+      // adsbygoogle 未加载，延迟重试
+      setTimeout(() => pushAd(retryCount), 100)
     }
   } else {
-    setTimeout(pushAd, 50)
+    // 宽度为0，延迟重试
+    if (retryCount < 10) {
+      // 最多重试10次
+      setTimeout(() => pushAd(retryCount + 1), 200)
+    } else {
+      console.warn('AdSense: Container width is 0 after 10 retries')
+    }
   }
 }
 
@@ -56,7 +73,8 @@ watch(
     if (newPath === oldPath) return
     adKey.value += 1
     nextTick(() => {
-      pushAd()
+      // 给更多时间让DOM完全渲染
+      setTimeout(() => pushAd(), 100)
     })
   }
 )
@@ -64,7 +82,8 @@ watch(
 // 首次挂载时激活广告
 onMounted(() => {
   nextTick(() => {
-    pushAd()
+    // 给更多时间让DOM完全渲染
+    setTimeout(() => pushAd(), 100)
   })
 })
 </script> 
