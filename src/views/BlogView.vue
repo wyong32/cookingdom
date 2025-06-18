@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 import { useBlogPosts } from '@/composables/useBlogPosts'
+import Adsense from '@/components/Adsense.vue'
 
 const { t, locale } = useI18n()
 
@@ -18,30 +19,55 @@ const formatDate = (dateString) => {
 </script>
 
 <template>
-  <div class="blog-view">
-    <h1>{{ $t('nav.blog') }}</h1>
+  <div class="blog-view-main-with-ads">
+    <aside class="ads-left">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="7552815638"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
+    <main>
+      <div class="blog-view">
+        <h1>{{ $t('nav.blog') }}</h1>
 
-    <div v-if="isLoading" class="loading-message">
-      <p>Loading posts...</p>
-    </div>
+        <div v-if="isLoading" class="loading-message">
+          <p>Loading posts...</p>
+        </div>
 
-    <div v-else-if="blogPosts.length > 0" class="blog-post-list">
-      <article v-for="post in blogPosts" :key="post.id" class="blog-post-card">
-        <RouterLink :to="{ name: 'blog-detail', params: { id: post.id } }" class="post-link">
-          <img v-if="post.imageUrl" :src="post.imageUrl" :alt="post.listTitle" class="post-image" />
-          <div class="post-content">
-            <h2 class="post-title" v-html="post.listTitle"></h2>
-            <p class="post-date">{{ formatDate(post.publishDate) }}</p>
-            <!-- 可以在这里显示摘要 (如果之后加回 excerpt 字段) -->
-            <!-- <p class="post-excerpt">{{ post.excerpt }}</p> -->
-          </div>
-        </RouterLink>
-      </article>
-    </div>
+        <div v-else-if="blogPosts.length > 0" class="blog-post-list">
+          <article v-for="post in blogPosts" :key="post.id" class="blog-post-card">
+            <RouterLink :to="{ name: 'blog-detail', params: { id: post.id } }" class="post-link">
+              <img
+                v-if="post.imageUrl"
+                :src="post.imageUrl"
+                :alt="post.listTitle"
+                class="post-image"
+              />
+              <div class="post-content">
+                <h2 class="post-title" v-html="post.listTitle"></h2>
+                <p class="post-date">{{ formatDate(post.publishDate) }}</p>
+                <!-- 可以在这里显示摘要 (如果之后加回 excerpt 字段) -->
+                <!-- <p class="post-excerpt">{{ post.excerpt }}</p> -->
+              </div>
+            </RouterLink>
+          </article>
+        </div>
 
-    <div v-else class="no-posts-message">
-      <p>{{ $t('blog.placeholder_text', 'No blog posts available yet.') }}</p>
-    </div>
+        <div v-else class="no-posts-message">
+          <p>{{ $t('blog.placeholder_text', 'No blog posts available yet.') }}</p>
+        </div>
+      </div>
+    </main>
+    <aside class="ads-right">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="1956039879"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
   </div>
 </template>
 

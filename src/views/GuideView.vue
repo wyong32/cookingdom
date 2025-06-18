@@ -8,6 +8,7 @@ import { RouterLink } from 'vue-router' // Keep if needed elsewhere, maybe not h
 import GuidesSection from '@/components/GuidesSection.vue'
 // Assuming useGuides composable exists and handles locale-based fetching + route object creation
 import { useGuides } from '@/composables/useGuides' // We'll likely need to create/refactor this
+import Adsense from '@/components/Adsense.vue'
 
 const { t, locale } = useI18n()
 
@@ -17,14 +18,34 @@ const { guides, isLoading, error } = useGuides(locale)
 </script>
 
 <template>
-  <div class="guide-view">
-    <!-- Added fallback text -->
-    <h1>{{ $t('guides.title') }}</h1>
-    <h2>{{ $t('guides.title1') }}</h2>
+  <div class="guide-view-main-with-ads">
+    <aside class="ads-left">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="7552815638"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
+    <main>
+      <div class="guide-view">
+        <!-- Added fallback text -->
+        <h1>{{ $t('guides.title') }}</h1>
+        <h2>{{ $t('guides.title1') }}</h2>
 
-    <!-- Use the GuidesSection component, passing the reactive data as props -->
-    <!-- Note: prop names are kebab-case in template -->
-    <GuidesSection :guides="guides" :is-loading="isLoading" :error="error" />
+        <!-- Use the GuidesSection component, passing the reactive data as props -->
+        <!-- Note: prop names are kebab-case in template -->
+        <GuidesSection :guides="guides" :is-loading="isLoading" :error="error" />
+      </div>
+    </main>
+    <aside class="ads-right">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="1956039879"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
   </div>
 </template>
 

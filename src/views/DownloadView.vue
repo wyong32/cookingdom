@@ -1,74 +1,98 @@
 <script setup>
 // No script logic needed for now, just displaying static content
 import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not already
+import Adsense from '@/components/Adsense.vue'
 </script>
 
 <template>
-  <div class="download-page-view">
-    <!-- Reusing the structure and i18n keys from HomeView's download section -->
-    <section class="downloads-section">
-      <div class="container">
-        <div class="section-header">
-          <!-- Using nav.download key for the main title of this page -->
-          <h1>{{ $t('nav.download') }}</h1>
-        </div>
-        <h2>{{ $t('home.downloads.description') }}</h2>
-        <div class="downloads-grid">
-          <div class="download-card">
-            <div class="download-icon">📱</div>
-            <h3>{{ $t('home.downloads.ios.title') }}</h3>
-            <p>{{ $t('home.downloads.ios.description') }}</p>
-            <div class="download-meta">
-              <span class="file-type">{{ $t('home.downloads.ios.meta.type') }}</span>
-              <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
+  <div class="download-main-with-ads">
+    <aside class="ads-left">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="7552815638"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
+    <main>
+      <div class="download-page-view">
+        <!-- Reusing the structure and i18n keys from HomeView's download section -->
+        <section class="downloads-section">
+          <div class="container">
+            <div class="section-header">
+              <!-- Using nav.download key for the main title of this page -->
+              <h1>{{ $t('nav.download') }}</h1>
             </div>
-            <a
-              href="https://apps.apple.com/us/app/cookingdom/id6742222069"
-              class="btn btn-download"
-              rel="noopener noreferrer"
-            >
-              {{ $t('home.downloads.ios.button') }}
-            </a>
-          </div>
-          <div class="download-card">
-            <div class="download-icon">🤖</div>
-            <h3>{{ $t('home.downloads.android.title') }}</h3>
-            <p>{{ $t('home.downloads.android.description') }}</p>
-            <div class="download-meta">
-              <span class="file-type">{{ $t('home.downloads.android.meta.type') }}</span>
-              <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
+            <h2>{{ $t('home.downloads.description') }}</h2>
+            <div class="downloads-grid">
+              <div class="download-card">
+                <div class="download-icon">📱</div>
+                <h3>{{ $t('home.downloads.ios.title') }}</h3>
+                <p>{{ $t('home.downloads.ios.description') }}</p>
+                <div class="download-meta">
+                  <span class="file-type">{{ $t('home.downloads.ios.meta.type') }}</span>
+                  <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
+                </div>
+                <a
+                  href="https://apps.apple.com/us/app/cookingdom/id6742222069"
+                  class="btn btn-download"
+                  rel="noopener noreferrer"
+                >
+                  {{ $t('home.downloads.ios.button') }}
+                </a>
+              </div>
+              <div class="download-card">
+                <div class="download-icon">🤖</div>
+                <h3>{{ $t('home.downloads.android.title') }}</h3>
+                <p>{{ $t('home.downloads.android.description') }}</p>
+                <div class="download-meta">
+                  <span class="file-type">{{ $t('home.downloads.android.meta.type') }}</span>
+                  <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
+                </div>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+                  class="btn btn-download"
+                  rel="noopener noreferrer"
+                >
+                  {{ $t('home.downloads.android.button') }}
+                </a>
+              </div>
+              <!-- New Card for Mod Download Page -->
+              <div class="download-card mod-access-card">
+                <div class="download-icon">✨</div>
+                <!-- Using the sparkle icon -->
+                <h3>{{ $t('home.downloads.modCard.title') }}</h3>
+                <p>{{ $t('home.downloads.modCard.description') }}</p>
+                <!-- Meta can be omitted or be very generic if desired -->
+                <!-- <div class="download-meta">
+                  <span class="file-type">{{ $t('downloadView.modCard.meta.type') }}</span>
+                </div> -->
+                <RouterLink
+                  :to="{ name: 'mod-download' }"
+                  class="btn btn-download btn-secondary-style"
+                >
+                  {{ $t('home.downloads.modCard.button') }}
+                </RouterLink>
+              </div>
             </div>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
-              class="btn btn-download"
-              rel="noopener noreferrer"
-            >
-              {{ $t('home.downloads.android.button') }}
-            </a>
+            <div class="disclaimer-section">
+              <p>
+                <strong>{{ $t('home.downloads.disclaimerTitle') }}</strong>
+                {{ $t('home.downloads.disclaimerBody') }}
+              </p>
+            </div>
           </div>
-          <!-- New Card for Mod Download Page -->
-          <div class="download-card mod-access-card">
-            <div class="download-icon">✨</div>
-            <!-- Using the sparkle icon -->
-            <h3>{{ $t('home.downloads.modCard.title') }}</h3>
-            <p>{{ $t('home.downloads.modCard.description') }}</p>
-            <!-- Meta can be omitted or be very generic if desired -->
-            <!-- <div class="download-meta">
-              <span class="file-type">{{ $t('downloadView.modCard.meta.type') }}</span>
-            </div> -->
-            <RouterLink :to="{ name: 'mod-download' }" class="btn btn-download btn-secondary-style">
-              {{ $t('home.downloads.modCard.button') }}
-            </RouterLink>
-          </div>
-        </div>
-        <div class="disclaimer-section">
-          <p>
-            <strong>{{ $t('home.downloads.disclaimerTitle') }}</strong>
-            {{ $t('home.downloads.disclaimerBody') }}
-          </p>
-        </div>
+        </section>
       </div>
-    </section>
+    </main>
+    <aside class="ads-right">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="1956039879"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
   </div>
 </template>
 

@@ -3,6 +3,7 @@ import { computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useBlogPosts } from '@/composables/useBlogPosts'
+import Adsense from '@/components/Adsense.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -66,48 +67,70 @@ watch(listError, (newError) => {
 </script>
 
 <template>
-  <div class="blog-detail-view">
-    <div v-if="isLoadingList && !currentPost" class="loading-message">
-      <p>Loading post...</p>
-    </div>
+  <div class="blog-detail-main-with-ads">
+    <aside class="ads-left">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="7552815638"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
+    <main>
+      <div class="blog-detail-view">
+        <div v-if="isLoadingList && !currentPost" class="loading-message">
+          <p>Loading post...</p>
+        </div>
 
-    <div v-else-if="listError" class="error-message">
-      <p>
-        {{ listError.message || 'Error loading blog posts.' }}
-        <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
-      </p>
-    </div>
+        <div v-else-if="listError" class="error-message">
+          <p>
+            {{ listError.message || 'Error loading blog posts.' }}
+            <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
+          </p>
+        </div>
 
-    <div v-else-if="!isLoadingList && !currentPost && postId" class="error-message">
-      <p>
-        {{ t('blog.postNotFound', 'Post not found.') }}
-        <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
-      </p>
-    </div>
+        <div v-else-if="!isLoadingList && !currentPost && postId" class="error-message">
+          <p>
+            {{ t('blog.postNotFound', 'Post not found.') }}
+            <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
+          </p>
+        </div>
 
-    <article v-else-if="currentPost" class="blog-post-content">
-      <h1>{{ currentPost.detailTitle }}</h1>
-      <p class="subtitle">{{ currentPost.detailSubtitle }}</p>
-      <hr />
-      <div v-html="currentPost.detailContentHtml" class="post-body"></div>
-      <div class="back-link-container">
-        <RouterLink :to="{ name: 'blog' }" class="back-link">
-          ← {{ t('guideDetail.backLink', 'Back to Blog') }}
-        </RouterLink>
+        <article v-else-if="currentPost" class="blog-post-content">
+          <h1>{{ currentPost.detailTitle }}</h1>
+          <p class="subtitle">{{ currentPost.detailSubtitle }}</p>
+          <hr />
+          <div v-html="currentPost.detailContentHtml" class="post-body"></div>
+          <div class="back-link-container">
+            <RouterLink :to="{ name: 'blog' }" class="back-link">
+              ← {{ t('guideDetail.backLink', 'Back to Blog') }}
+            </RouterLink>
+          </div>
+        </article>
+
+        <div v-else-if="!postId" class="error-message">
+          <p>
+            {{ t('blog.invalidPostId', 'No post ID specified.') }}
+            <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
+          </p>
+        </div>
       </div>
-    </article>
-
-    <div v-else-if="!postId" class="error-message">
-      <p>
-        {{ t('blog.invalidPostId', 'No post ID specified.') }}
-        <RouterLink :to="{ name: 'blog' }">Back to Blog</RouterLink>
-      </p>
-    </div>
+    </main>
+    <aside class="ads-right">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="1956039879"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
   </div>
 </template>
 
 <style scoped>
-.blog-detail-view {
+.blog-detail-main-with-ads {
+  display: flex;
+  flex-direction: row;
   padding: 40px 20px;
   max-width: 900px; /* Content width */
   margin: 20px auto;
@@ -118,6 +141,12 @@ watch(listError, (newError) => {
   min-height: 800px; /* 设置最小高度，防止内容加载时的布局偏移 */
   width: 100%; /* 确保宽度固定 */
   box-sizing: border-box; /* 确保padding不影响总宽度 */
+}
+
+.ads-left,
+.ads-right {
+  flex: 0 0 200px; /* Adjust as needed */
+  padding: 10px;
 }
 
 .loading-message,
@@ -219,10 +248,15 @@ hr {
 }
 
 @media (max-width: 767px) {
-  .blog-detail-view {
+  .blog-detail-main-with-ads {
+    flex-direction: column;
     padding: 1rem;
     margin: 0;
     min-height: 600px; /* 移动端减少最小高度 */
+  }
+  .ads-left,
+  .ads-right {
+    flex: 0 0 100%;
   }
   .blog-post-content {
     min-height: 400px; /* 移动端减少最小高度 */

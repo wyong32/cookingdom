@@ -111,6 +111,7 @@ import { useGuides } from '@/composables/useGuides'
 import { defaultLang } from '@/i18n'
 import { updateMetaTag } from '@/utils/head'
 import YouTubeFacade from '@/components/YouTubeFacade.vue'
+import Adsense from '@/components/Adsense.vue'
 
 const route = useRoute()
 const { t, locale } = useI18n()

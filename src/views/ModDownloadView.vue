@@ -1,142 +1,163 @@
 <script setup>
+import Adsense from '@/components/Adsense.vue'
 // No script logic needed for now, just displaying static content
 // Version and size are now directly in i18n files
 </script>
 
 <template>
-  <div class="mod-download-page-view download-page-view">
-    <section class="mod-content-section">
-      <div class="container">
-        <div class="section-header">
-          <h1>{{ $t('modDownload.pageHeadline') }}</h1>
-        </div>
-        <p class="page-intro">{{ $t('modDownload.pageIntro') }}</p>
+  <div class="mod-download-main-with-ads">
+    <aside class="ads-left">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="7552815638"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
+    <main>
+      <div class="mod-download-page-view download-page-view">
+        <section class="mod-content-section">
+          <div class="container">
+            <div class="section-header">
+              <h1>{{ $t('modDownload.pageHeadline') }}</h1>
+            </div>
+            <p class="page-intro">{{ $t('modDownload.pageIntro') }}</p>
 
-        <!-- Main Mod Download Card -->
-        <div class="main-mod-card">
-          <div class="card-header">
-            <span class="mod-icon">✨</span>
-            <h3>{{ $t('modDownload.mainMod.title') }}</h3>
+            <!-- Main Mod Download Card -->
+            <div class="main-mod-card">
+              <div class="card-header">
+                <span class="mod-icon">✨</span>
+                <h3>{{ $t('modDownload.mainMod.title') }}</h3>
+              </div>
+              <p>{{ $t('modDownload.mainMod.description') }}</p>
+
+              <div class="mod-features-box">
+                <h4>{{ $t('modDownload.modInfo.title') }}</h4>
+                <ul>
+                  <li v-for="feature in $tm('modDownload.modInfo.features')" :key="feature">
+                    {{ feature }}
+                  </li>
+                </ul>
+              </div>
+
+              <div class="download-meta-detailed">
+                <span>{{ $t('modDownload.mainMod.meta.type') }}</span>
+                <span>{{ $t('modDownload.mainMod.meta.size') }}</span>
+              </div>
+              <a
+                :href="$t('modDownload.mainMod.downloadLink')"
+                class="btn btn-download btn-prominent"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ $t('modDownload.mainMod.button') }}
+              </a>
+            </div>
+
+            <!-- APK Details Section -->
+            <div class="details-section apk-details-section">
+              <h2>{{ $t('modDownload.apkDetails.title') }}</h2>
+              <ul>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.version') }}:</strong>
+                  {{ $t('modDownload.apkDetails.versionValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.lastUpdated') }}:</strong>
+                  {{ $t('modDownload.apkDetails.lastUpdatedValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.size') }}:</strong>
+                  {{ $t('modDownload.apkDetails.sizeValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.price') }}:</strong>
+                  {{ $t('modDownload.apkDetails.priceValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.category') }}:</strong>
+                  {{ $t('modDownload.apkDetails.categoryValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.contentRating') }}:</strong>
+                  {{ $t('modDownload.apkDetails.contentRatingValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.supportAndroid') }}:</strong>
+                  {{ $t('modDownload.apkDetails.supportAndroidValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.appPackage') }}:</strong>
+                  {{ $t('modDownload.apkDetails.appPackageValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.rootRequired') }}:</strong>
+                  {{ $t('modDownload.apkDetails.rootRequiredValue') }}
+                </li>
+                <li>
+                  <strong>{{ $t('modDownload.apkDetails.inAppPurchases') }}:</strong>
+                  {{ $t('modDownload.apkDetails.inAppPurchasesValue') }}
+                </li>
+              </ul>
+            </div>
+
+            <!-- Other Download Links Section -->
+            <div class="details-section other-links-section">
+              <h2>{{ $t('modDownload.otherLinks.title') }}</h2>
+              <div class="other-links-grid">
+                <a
+                  :href="$t('modDownload.otherLinks.originalApk.link')"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >{{ $t('modDownload.otherLinks.originalApk.text') }}</a
+                >
+                <a
+                  :href="$t('modDownload.otherLinks.googlePlay.link')"
+                  class="btn btn-secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >{{ $t('modDownload.otherLinks.googlePlay.text') }}</a
+                >
+              </div>
+            </div>
+
+            <!-- All Versions Section -->
+            <div class="details-section all-versions-section">
+              <h2>{{ $t('modDownload.allVersions.title') }}</h2>
+              <ul>
+                <li v-for="version in $tm('modDownload.allVersions.versions')" :key="version.name">
+                  <a :href="version.link" target="_blank" rel="noopener noreferrer">{{
+                    version.name
+                  }}</a>
+                  ({{ version.size }})
+                </li>
+              </ul>
+            </div>
+
+            <!-- Developer Description Section -->
+            <div class="details-section developer-description-section">
+              <h2>{{ $t('modDownload.developerDescription.title') }}</h2>
+              <p>{{ $t('modDownload.developerDescription.text') }}</p>
+            </div>
+            <div class="disclaimer-section">
+              <p>
+                <strong>{{ $t('modDownload.disclaimerTitle') }}</strong>
+                {{ $t('modDownload.disclaimerBody') }}
+              </p>
+            </div>
           </div>
-          <p>{{ $t('modDownload.mainMod.description') }}</p>
-
-          <div class="mod-features-box">
-            <h4>{{ $t('modDownload.modInfo.title') }}</h4>
-            <ul>
-              <li v-for="feature in $tm('modDownload.modInfo.features')" :key="feature">
-                {{ feature }}
-              </li>
-            </ul>
-          </div>
-
-          <div class="download-meta-detailed">
-            <span>{{ $t('modDownload.mainMod.meta.type') }}</span>
-            <span>{{ $t('modDownload.mainMod.meta.size') }}</span>
-          </div>
-          <a
-            :href="$t('modDownload.mainMod.downloadLink')"
-            class="btn btn-download btn-prominent"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {{ $t('modDownload.mainMod.button') }}
-          </a>
-        </div>
-
-        <!-- APK Details Section -->
-        <div class="details-section apk-details-section">
-          <h2>{{ $t('modDownload.apkDetails.title') }}</h2>
-          <ul>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.version') }}:</strong>
-              {{ $t('modDownload.apkDetails.versionValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.lastUpdated') }}:</strong>
-              {{ $t('modDownload.apkDetails.lastUpdatedValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.size') }}:</strong>
-              {{ $t('modDownload.apkDetails.sizeValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.price') }}:</strong>
-              {{ $t('modDownload.apkDetails.priceValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.category') }}:</strong>
-              {{ $t('modDownload.apkDetails.categoryValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.contentRating') }}:</strong>
-              {{ $t('modDownload.apkDetails.contentRatingValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.supportAndroid') }}:</strong>
-              {{ $t('modDownload.apkDetails.supportAndroidValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.appPackage') }}:</strong>
-              {{ $t('modDownload.apkDetails.appPackageValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.rootRequired') }}:</strong>
-              {{ $t('modDownload.apkDetails.rootRequiredValue') }}
-            </li>
-            <li>
-              <strong>{{ $t('modDownload.apkDetails.inAppPurchases') }}:</strong>
-              {{ $t('modDownload.apkDetails.inAppPurchasesValue') }}
-            </li>
-          </ul>
-        </div>
-
-        <!-- Other Download Links Section -->
-        <div class="details-section other-links-section">
-          <h2>{{ $t('modDownload.otherLinks.title') }}</h2>
-          <div class="other-links-grid">
-            <a
-              :href="$t('modDownload.otherLinks.originalApk.link')"
-              class="btn btn-secondary"
-              target="_blank"
-              rel="noopener noreferrer"
-              >{{ $t('modDownload.otherLinks.originalApk.text') }}</a
-            >
-            <a
-              :href="$t('modDownload.otherLinks.googlePlay.link')"
-              class="btn btn-secondary"
-              target="_blank"
-              rel="noopener noreferrer"
-              >{{ $t('modDownload.otherLinks.googlePlay.text') }}</a
-            >
-          </div>
-        </div>
-
-        <!-- All Versions Section -->
-        <div class="details-section all-versions-section">
-          <h2>{{ $t('modDownload.allVersions.title') }}</h2>
-          <ul>
-            <li v-for="version in $tm('modDownload.allVersions.versions')" :key="version.name">
-              <a :href="version.link" target="_blank" rel="noopener noreferrer">{{
-                version.name
-              }}</a>
-              ({{ version.size }})
-            </li>
-          </ul>
-        </div>
-
-        <!-- Developer Description Section -->
-        <div class="details-section developer-description-section">
-          <h2>{{ $t('modDownload.developerDescription.title') }}</h2>
-          <p>{{ $t('modDownload.developerDescription.text') }}</p>
-        </div>
-        <div class="disclaimer-section">
-          <p>
-            <strong>{{ $t('modDownload.disclaimerTitle') }}</strong>
-            {{ $t('modDownload.disclaimerBody') }}
-          </p>
-        </div>
+        </section>
       </div>
-    </section>
+    </main>
+    <aside class="ads-right">
+      <Adsense
+        adClient="ca-pub-4224010041977181"
+        adSlot="1956039879"
+        adFormat="auto"
+        :fullWidthResponsive="true"
+      />
+    </aside>
   </div>
 </template>
 
