@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import { ref, watch, nextTick, onMounted } from 'vue'
+import { ref, watch, nextTick, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const props = defineProps({
@@ -52,7 +52,7 @@ const route = useRoute()
 const adKey = ref(0)
 const adElement = ref(null)
 const showFallback = ref(false)
-const showDebug = ref(true)
+const showDebug = ref(false)
 const adWidth = ref(0)
 const parentWidth = ref(0)
 
@@ -66,6 +66,8 @@ const updateDebugInfo = () => {
 
 // 强制刷新广告（用于调试）
 const forceRefreshAd = () => {
+  // 先清理旧的广告内容
+  clearAd()
   adKey.value += 1
   showFallback.value = false
   nextTick(() => {
@@ -89,6 +91,13 @@ const pushAd = (retryCount = 0) => {
         parentEl?.offsetWidth || 0
       }px, attempting to push ad`
     )
+
+    // 检查广告是否已经存在
+    if (adEl.innerHTML.trim() !== '' && !adEl.querySelector('iframe')) {
+      console.log('AdSense: Ad already exists, skipping push')
+      return
+    }
+
     if (window.adsbygoogle) {
       try {
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
@@ -101,6 +110,10 @@ const pushAd = (retryCount = 0) => {
         }, 3000)
       } catch (e) {
         console.error('AdSense push error:', e)
+        if (e.message && e.message.includes('already have ads')) {
+          console.log('AdSense: Ad already exists, skipping')
+          return
+        }
         if (e.message && e.message.includes('403')) {
           console.warn('AdSense: 403 error detected, showing fallback')
           showFallback.value = true
@@ -131,11 +144,22 @@ const pushAd = (retryCount = 0) => {
   }
 }
 
+// 清理广告内容
+const clearAd = () => {
+  const adEl = adElement.value
+  if (adEl) {
+    adEl.innerHTML = ''
+    showFallback.value = false
+  }
+}
+
 // 路由变化时刷新广告
 watch(
   () => route.path,
   (newPath, oldPath) => {
     if (newPath === oldPath) return
+    // 先清理旧的广告内容
+    clearAd()
     adKey.value += 1
     showFallback.value = false // 重置降级状态
     nextTick(() => {
@@ -155,6 +179,11 @@ onMounted(() => {
     updateDebugInfo()
     setTimeout(() => pushAd(), 50)
   })
+})
+
+// 组件卸载时清理逻辑
+onUnmounted(() => {
+  clearAd()
 })
 </script>
 
