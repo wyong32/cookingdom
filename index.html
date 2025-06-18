@@ -202,22 +202,6 @@
       })
     </script>
 
-    <!-- 延迟加载广告脚本 -->
-    <script>
-      window.addEventListener('load', function () {
-        setTimeout(function () {
-          var adScript = document.createElement('script')
-          adScript.async = true
-          adScript.src =
-            'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181'
-          adScript.crossOrigin = 'anonymous'
-          document.head.appendChild(adScript)
-
-          console.log('Google Ads 已延迟加载')
-        }, 3000) // 页面加载后延迟3秒
-      })
-    </script>
-
     <!-- JSON-LD 结构化数据 -->
     <script type="application/ld+json">
       {
@@ -262,28 +246,12 @@
         }
       }
     </script>
+
+    <!-- Google AdSense 主脚本 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-
-    <!-- 广告2 -->
-    <!-- <script>
-      window.addEventListener('load', function () {
-        setTimeout(function () {
-          var script = document.createElement('script')
-          script.async = true
-          script.type = 'application/javascript'
-          script.src = 'https://a.magsrv.com/ad-provider.js'
-          document.head.appendChild(script)
-
-          var ins = document.createElement('ins')
-          ins.className = 'eas6a97888e17'
-          ins.setAttribute('data-zoneid', '5632182')
-          document.body.appendChild(ins)
-          ;(AdProvider = window.AdProvider || []).push({ serve: {} })
-        }, 4500)
-      })
-    </script> -->
   </body>
 </html>

@@ -1,7 +1,5 @@
 <script setup>
-import { ref, onMounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
-import AdComponent from '@/components/AdComponent.vue'
-import { adConfigs } from '@/config/adConfig.js'
+import { ref, onMounted, onUnmounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -70,38 +68,17 @@ function getLocalizedRoute(name, params = {}) {
 // 控制指南部分是否显示
 const showGuides = ref(false)
 
-// 广告容器引用已移除，现在使用AdComponent组件
-
 // 简化的加载函数
 const loadGuides = () => {
   console.log('显示指南部分')
   showGuides.value = true
 }
 
-// Ref to track the active tab (currently unused, reserved for future filtering)
-// const activeTab = ref('1-10') // Default to '1-10'
-
-// Function to change the active tab (currently unused, reserved for future filtering)
-// const setActiveTab = (tabName) => {
-//   activeTab.value = tabName
-//   // Later: Add logic here to filter guides based on the tab
-// }
-
 // Function to scroll to a specific section smoothly
 const scrollToSection = (sectionId) => {
   const element = document.getElementById(sectionId)
   if (element) {
-    // Calculate offset based on fixed header height if necessary
-    // const headerOffset = 70; // Example offset, adjust based on your header's actual height
-    // const elementPosition = element.getBoundingClientRect().top;
-    // const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-    // window.scrollTo({
-    //   top: offsetPosition,
-    //   behavior: "smooth"
-    // });
-
-    // Simpler approach: scrollIntoView (might be slightly covered by fixed header initially)
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' }) // scrolls to the top of the element
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 }
 
@@ -119,23 +96,16 @@ const sliderImages = ref([
   '/images/banner10.webp',
 ])
 
-// 检测是否为移动设备
 const isMobile = ref(false)
 
-// 检查设备类型
 const checkDeviceType = () => {
-  // 使用媒体查询检测移动设备
   isMobile.value = window.matchMedia('(max-width: 767px)').matches
   console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备', {
     windowWidth: window.innerWidth,
     mediaQuery: window.matchMedia('(max-width: 767px)').matches,
     userAgent: navigator.userAgent,
+    time: Date.now(),
   })
-
-  // 如果不是移动设备，则加载 Swiper
-  if (!isMobile.value && !swiperLoaded.value) {
-    loadSwiperComponents()
-  }
 }
 
 // 动态加载 Swiper 组件
@@ -162,24 +132,9 @@ const loadSwiperComponents = async () => {
   }
 }
 
-// 广告加载逻辑已移至AdComponent组件中
-
-// 广告配置现在从配置文件导入
-
-// 广告加载函数已移除，现在使用AdComponent组件自动处理
-
-// 在组件创建时立即检测设备类型
-checkDeviceType()
-
-// 组件挂载时检测设备类型并加载数据
 onMounted(() => {
-  // 再次检测设备类型（确保准确）
-  checkDeviceType()
-
-  // 监听窗口大小变化，重新检测设备类型
+  checkDeviceType() // 只在挂载时调用一次
   window.addEventListener('resize', checkDeviceType)
-
-  // 广告加载现在由AdComponent组件自动处理
 
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
@@ -204,377 +159,392 @@ onMounted(() => {
     }
   }, 1000) // 延迟1秒，确保DOM已渲染
 
-  // 组件卸载时清理
-  return () => {
-    window.removeEventListener('resize', checkDeviceType)
-    observer.disconnect()
+  // 激活所有adsbygoogle广告
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach(() => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+    } catch (e) {}
   }
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkDeviceType)
 })
 </script>
 
 <template>
   <div class="home-view">
-    <main>
-      <!-- Hero Section -->
-      <section class="hero-section">
-        <div class="container">
-          <div class="hero-content">
-            <h1>{{ $t('home.hero.title') }}</h1>
-            <p>{{ $t('home.hero.description') }}</p>
+    <div class="home-main-with-ads">
+      <!-- 侧边左1广告 -->
+      <aside class="ads-left">
+        <ins
+          class="adsbygoogle"
+          style="display: block"
+          data-ad-client="ca-pub-4224010041977181"
+          data-ad-slot="7552815638"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </aside>
+      <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+          <div class="container">
+            <div class="hero-content">
+              <h1>{{ $t('home.hero.title') }}</h1>
+              <p>{{ $t('home.hero.description') }}</p>
 
-            <!-- Latest Levels Section -->
-            <div class="latest-levels">
-              <h3>{{ $t('home.hero.latestLevels.title') }}</h3>
-              <ul class="latest-levels-list">
-                <li v-for="level in latestLevels" :key="level.id">
-                  <RouterLink
-                    :to="getLocalizedRoute('guide-detail', { id: level.id })"
-                    class="level-link"
-                  >
-                    {{ $t(level.titleKey) }}
-                  </RouterLink>
-                </li>
-              </ul>
+              <!-- Latest Levels Section -->
+              <div class="latest-levels">
+                <h3>{{ $t('home.hero.latestLevels.title') }}</h3>
+                <ul class="latest-levels-list">
+                  <li v-for="level in latestLevels" :key="level.id">
+                    <RouterLink
+                      :to="getLocalizedRoute('guide-detail', { id: level.id })"
+                      class="level-link"
+                    >
+                      {{ $t(level.titleKey) }}
+                    </RouterLink>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="hero-buttons">
+                <button class="btn btn-primary" @click="scrollToSection('guides-section')">
+                  {{ $t('home.hero.button.viewGuides') }}
+                </button>
+              </div>
+            </div>
+            <!-- 移动端显示单张图片 -->
+            <div v-if="isMobile" class="hero-single-image-container">
+              <img
+                :src="sliderImages[0]"
+                alt="Banner Image"
+                class="hero-single-image"
+                width="350"
+                height="280"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+              />
             </div>
 
-            <div class="hero-buttons">
-              <button class="btn btn-primary" @click="scrollToSection('guides-section')">
-                {{ $t('home.hero.button.viewGuides') }}
-              </button>
-            </div>
-          </div>
-          <!-- 移动端显示单张图片 -->
-          <div v-if="isMobile" class="hero-single-image-container">
-            <img
-              :src="sliderImages[0]"
-              alt="Banner Image"
-              class="hero-single-image"
-              width="350"
-              height="280"
-              loading="eager"
-              fetchpriority="high"
-              decoding="async"
-            />
-          </div>
-
-          <!-- 桌面端轮播图 - 仅在组件加载完成后显示 -->
-          <div v-else-if="!isMobile && swiperLoaded" class="hero-swiper-container card-slider">
-            <component
-              :is="Swiper"
-              :modules="swiperModulesComponents"
-              :effect="'coverflow'"
-              :grab-cursor="true"
-              :centered-slides="true"
-              :slides-per-view="'auto'"
-              :loop="true"
-              :coverflow-effect="{
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: false,
-              }"
-              :autoplay="{
-                delay: 3000,
-                disableOnInteraction: false,
-              }"
-              class="hero-swiper"
-            >
+            <!-- 桌面端轮播图 - 仅在组件加载完成后显示 -->
+            <div v-else-if="!isMobile && swiperLoaded" class="hero-swiper-container card-slider">
               <component
-                :is="SwiperSlide"
-                v-for="(image, index) in sliderImages"
-                :key="index"
-                class="hero-swiper-slide"
+                :is="Swiper"
+                :modules="swiperModulesComponents"
+                :effect="'coverflow'"
+                :grab-cursor="true"
+                :centered-slides="true"
+                :slides-per-view="'auto'"
+                :loop="true"
+                :coverflow-effect="{
+                  rotate: 50,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 1,
+                  slideShadows: false,
+                }"
+                :autoplay="{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }"
+                class="hero-swiper"
               >
-                <img
-                  :src="image"
-                  :alt="`Cookingdom Game Screenshot ${index + 1}`"
-                  class="slider-image"
-                  width="300"
-                  height="400"
-                  loading="lazy"
-                />
+                <component
+                  :is="SwiperSlide"
+                  v-for="(image, index) in sliderImages"
+                  :key="index"
+                  class="hero-swiper-slide"
+                >
+                  <img
+                    :src="image"
+                    :alt="`Cookingdom Game Screenshot ${index + 1}`"
+                    class="slider-image"
+                    width="300"
+                    height="400"
+                    loading="lazy"
+                  />
+                </component>
               </component>
-            </component>
+            </div>
+
+            <!-- 桌面端加载中状态 -->
+            <div v-else-if="!isMobile && !swiperLoaded" class="hero-loading-container">
+              <img
+                :src="sliderImages[0]"
+                alt="Banner Image"
+                class="hero-single-image"
+                width="350"
+                height="280"
+                loading="eager"
+                fetchpriority="high"
+              />
+              <div class="loading-indicator">loading...</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Guides Section (使用异步组件和懒加载数据) -->
+        <div id="guides-section">
+          <h2>{{ $t('guides.title') }}</h2>
+
+          <!-- 未显示状态 - 显示占位内容 -->
+          <div v-if="!showGuides" class="guides-placeholder">
+            <div class="placeholder-item" v-for="i in 6" :key="i"></div>
           </div>
 
-          <!-- 桌面端加载中状态 -->
-          <div v-else-if="!isMobile && !swiperLoaded" class="hero-loading-container">
-            <img
-              :src="sliderImages[0]"
-              alt="Banner Image"
-              class="hero-single-image"
-              width="350"
-              height="280"
-              loading="eager"
-              fetchpriority="high"
+          <!-- 显示状态 - 根据加载状态显示不同内容 -->
+          <template v-else>
+            <!-- 加载状态 -->
+            <div v-if="guidesLoading" class="guides-loading">
+              <div class="loading-spinner"></div>
+              <p>Loading guide content...</p>
+            </div>
+
+            <!-- 错误状态 -->
+            <div v-else-if="guidesError" class="guides-error">
+              <p>Loading failed, please refresh the page and try again</p>
+              <button @click="loadGuides" class="btn btn-retry">Retry</button>
+            </div>
+
+            <!-- 内容已加载 -->
+            <GuidesSection
+              v-else-if="guides && guides.length > 0"
+              :guides="guides"
+              :is-loading="guidesLoading"
+              :error="guidesError"
             />
-            <div class="loading-indicator">loading...</div>
-          </div>
-        </div>
-      </section>
 
-      <!-- 广告1 - 使用新组件 -->
-      <AdComponent :adConfig="adConfigs.ad1" :isMobile="isMobile" />
-
-      <!-- 广告4 - 使用新组件 -->
-      <AdComponent :adConfig="adConfigs.ad4" :isMobile="isMobile" />
-
-      <!-- Guides Section (使用异步组件和懒加载数据) -->
-      <div id="guides-section">
-        <h2>{{ $t('guides.title') }}</h2>
-
-        <!-- 未显示状态 - 显示占位内容 -->
-        <div v-if="!showGuides" class="guides-placeholder">
-          <div class="placeholder-item" v-for="i in 6" :key="i"></div>
+            <!-- 无数据状态 -->
+            <div v-else class="guides-empty">
+              <p>No guide content</p>
+            </div>
+          </template>
         </div>
 
-        <!-- 显示状态 - 根据加载状态显示不同内容 -->
-        <template v-else>
-          <!-- 加载状态 -->
-          <div v-if="guidesLoading" class="guides-loading">
-            <div class="loading-spinner"></div>
-            <p>Loading guide content...</p>
-          </div>
-
-          <!-- 错误状态 -->
-          <div v-else-if="guidesError" class="guides-error">
-            <p>Loading failed, please refresh the page and try again</p>
-            <button @click="loadGuides" class="btn btn-retry">Retry</button>
-          </div>
-
-          <!-- 内容已加载 -->
-          <GuidesSection
-            v-else-if="guides && guides.length > 0"
-            :guides="guides"
-            :is-loading="guidesLoading"
-            :error="guidesError"
-          />
-
-          <!-- 无数据状态 -->
-          <div v-else class="guides-empty">
-            <p>No guide content</p>
-          </div>
-        </template>
-      </div>
-
-      <!-- Features Section -->
-      <section class="features-section" id="features-section">
-        <div class="container">
-          <h2>{{ $t('home.features.title') }}</h2>
-          <p>{{ $t('home.features.description') }}</p>
-          <div class="features-grid">
-            <div class="feature-card">
-              <div class="icon">🍳</div>
-              <h3>{{ $t('home.features.card1.title') }}</h3>
-              <p>{{ $t('home.features.card1.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">🎮</div>
-              <h3>{{ $t('home.features.card2.title') }}</h3>
-              <p>{{ $t('home.features.card2.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">✨</div>
-              <h3>{{ $t('home.features.card3.title') }}</h3>
-              <p>{{ $t('home.features.card3.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">😊</div>
-              <h3>{{ $t('home.features.card4.title') }}</h3>
-              <p>{{ $t('home.features.card4.description') }}</p>
-            </div>
-            <div class="feature-card">
-              <div class="icon">📱</div>
-              <h3>{{ $t('home.features.card5.title') }}</h3>
-              <p>{{ $t('home.features.card5.description') }}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Downloads Section -->
-      <section class="downloads-section" id="downloads-section">
-        <div class="container">
-          <div class="section-header">
-            <h2>{{ $t('home.downloads.title') }}</h2>
-          </div>
-          <p>{{ $t('home.downloads.description') }}</p>
-          <div class="downloads-grid">
-            <div class="download-card">
-              <div class="download-icon">📱</div>
-              <h3>{{ $t('home.downloads.ios.title') }}</h3>
-              <p>{{ $t('home.downloads.ios.description') }}</p>
-              <div class="download-meta">
-                <span class="file-type">{{ $t('home.downloads.ios.meta.type') }}</span>
-                <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
+        <!-- Features Section -->
+        <section class="features-section" id="features-section">
+          <div class="container">
+            <h2>{{ $t('home.features.title') }}</h2>
+            <p>{{ $t('home.features.description') }}</p>
+            <div class="features-grid">
+              <div class="feature-card">
+                <div class="icon">🍳</div>
+                <h3>{{ $t('home.features.card1.title') }}</h3>
+                <p>{{ $t('home.features.card1.description') }}</p>
               </div>
-              <a
-                class="btn btn-download"
-                href="https://apps.apple.com/us/app/cookingdom/id6742222069"
-                target="_blank"
-                >{{ $t('home.downloads.ios.button') }}</a
-              >
-            </div>
-            <div class="download-card">
-              <div class="download-icon">🤖</div>
-              <h3>{{ $t('home.downloads.android.title') }}</h3>
-              <p>{{ $t('home.downloads.android.description') }}</p>
-              <div class="download-meta">
-                <span class="file-type">{{ $t('home.downloads.android.meta.type') }}</span>
-                <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
+              <div class="feature-card">
+                <div class="icon">🎮</div>
+                <h3>{{ $t('home.features.card2.title') }}</h3>
+                <p>{{ $t('home.features.card2.description') }}</p>
               </div>
-              <a
-                class="btn btn-download"
-                href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
-                target="_blank"
-                >{{ $t('home.downloads.android.button') }}</a
-              >
+              <div class="feature-card">
+                <div class="icon">✨</div>
+                <h3>{{ $t('home.features.card3.title') }}</h3>
+                <p>{{ $t('home.features.card3.description') }}</p>
+              </div>
+              <div class="feature-card">
+                <div class="icon">😊</div>
+                <h3>{{ $t('home.features.card4.title') }}</h3>
+                <p>{{ $t('home.features.card4.description') }}</p>
+              </div>
+              <div class="feature-card">
+                <div class="icon">📱</div>
+                <h3>{{ $t('home.features.card5.title') }}</h3>
+                <p>{{ $t('home.features.card5.description') }}</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- 广告6 - 使用新组件 -->
-      <AdComponent :adConfig="adConfigs.ad6" :isMobile="isMobile" />
-
-      <!-- 无容器广告 - 根据设备自动显示 -->
-      <AdComponent :adConfig="adConfigs.ad2" :isMobile="isMobile" />
-      <AdComponent :adConfig="adConfigs.ad3" :isMobile="isMobile" />
-      <AdComponent :adConfig="adConfigs.ad5" :isMobile="isMobile" />
-      <!-- <AdComponent :adConfig="adConfigs.ad7" :isMobile="isMobile" /> -->
-      <!-- <AdComponent :adConfig="adConfigs.ad8" :isMobile="isMobile" /> -->
-
-      <!-- About Game Section (Modified from About Us) -->
-      <section class="about-section">
-        <div class="container">
-          <div class="about-content">
-            <div class="text-wrapper">
-              <h2>{{ $t('home.about.title') }}</h2>
-              <p>{{ $t('home.about.description1') }}</p>
-              <p>{{ $t('home.about.description2') }}</p>
-              <p>{{ $t('home.about.description3') }}</p>
+        <!-- Downloads Section -->
+        <section class="downloads-section" id="downloads-section">
+          <div class="container">
+            <div class="section-header">
+              <h2>{{ $t('home.downloads.title') }}</h2>
             </div>
+            <p>{{ $t('home.downloads.description') }}</p>
+            <div class="downloads-grid">
+              <div class="download-card">
+                <div class="download-icon">📱</div>
+                <h3>{{ $t('home.downloads.ios.title') }}</h3>
+                <p>{{ $t('home.downloads.ios.description') }}</p>
+                <div class="download-meta">
+                  <span class="file-type">{{ $t('home.downloads.ios.meta.type') }}</span>
+                  <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
+                </div>
+                <a
+                  class="btn btn-download"
+                  href="https://apps.apple.com/us/app/cookingdom/id6742222069"
+                  target="_blank"
+                  >{{ $t('home.downloads.ios.button') }}</a
+                >
+              </div>
+              <div class="download-card">
+                <div class="download-icon">🤖</div>
+                <h3>{{ $t('home.downloads.android.title') }}</h3>
+                <p>{{ $t('home.downloads.android.description') }}</p>
+                <div class="download-meta">
+                  <span class="file-type">{{ $t('home.downloads.android.meta.type') }}</span>
+                  <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
+                </div>
+                <a
+                  class="btn btn-download"
+                  href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
+                  target="_blank"
+                  >{{ $t('home.downloads.android.button') }}</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <div class="game-stats">
-              <h3>{{ $t('home.stats.title') }}</h3>
-              <div class="stats-grid">
-                <div class="stat-card">
-                  <strong>1M+</strong>
-                  <span>{{ $t('home.stats.downloads') }}</span>
-                </div>
-                <div class="stat-card">
-                  <strong>150+</strong>
-                  <span>{{ $t('home.stats.countries') }}</span>
-                </div>
-                <div class="stat-card">
-                  <strong>50+</strong>
-                  <span>{{ $t('home.stats.recipes') }}</span>
-                </div>
-                <div class="stat-card">
-                  <strong>4.8/5</strong>
-                  <span>{{ $t('home.stats.rating') }}</span>
+        <!-- About Game Section (Modified from About Us) -->
+        <section class="about-section">
+          <div class="container">
+            <div class="about-content">
+              <div class="text-wrapper">
+                <h2>{{ $t('home.about.title') }}</h2>
+                <p>{{ $t('home.about.description1') }}</p>
+                <p>{{ $t('home.about.description2') }}</p>
+                <p>{{ $t('home.about.description3') }}</p>
+              </div>
+
+              <div class="game-stats">
+                <h3>{{ $t('home.stats.title') }}</h3>
+                <div class="stats-grid">
+                  <div class="stat-card">
+                    <strong>1M+</strong>
+                    <span>{{ $t('home.stats.downloads') }}</span>
+                  </div>
+                  <div class="stat-card">
+                    <strong>150+</strong>
+                    <span>{{ $t('home.stats.countries') }}</span>
+                  </div>
+                  <div class="stat-card">
+                    <strong>50+</strong>
+                    <span>{{ $t('home.stats.recipes') }}</span>
+                  </div>
+                  <div class="stat-card">
+                    <strong>4.8/5</strong>
+                    <span>{{ $t('home.stats.rating') }}</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- How to Play Section (NEW) -->
-      <section class="how-to-play-section">
-        <div class="container">
-          <h2>{{ $t('home.howToPlay.title') }}</h2>
-          <div class="play-steps-list">
-            <div class="play-step">
-              <div class="step-number">1</div>
-              <div class="step-content">
-                <h3>{{ $t('home.howToPlay.step1.title') }}</h3>
-                <p>{{ $t('home.howToPlay.step1.description') }}</p>
+        <!-- How to Play Section (NEW) -->
+        <section class="how-to-play-section">
+          <div class="container">
+            <h2>{{ $t('home.howToPlay.title') }}</h2>
+            <div class="play-steps-list">
+              <div class="play-step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h3>{{ $t('home.howToPlay.step1.title') }}</h3>
+                  <p>{{ $t('home.howToPlay.step1.description') }}</p>
+                </div>
               </div>
-            </div>
-            <div class="play-step">
-              <div class="step-number">2</div>
-              <div class="step-content">
-                <h3>{{ $t('home.howToPlay.step2.title') }}</h3>
-                <p>{{ $t('home.howToPlay.step2.description') }}</p>
+              <div class="play-step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h3>{{ $t('home.howToPlay.step2.title') }}</h3>
+                  <p>{{ $t('home.howToPlay.step2.description') }}</p>
+                </div>
               </div>
-            </div>
-            <div class="play-step">
-              <div class="step-number">3</div>
-              <div class="step-content">
-                <h3>{{ $t('home.howToPlay.step3.title') }}</h3>
-                <p>{{ $t('home.howToPlay.step3.description') }}</p>
+              <div class="play-step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h3>{{ $t('home.howToPlay.step3.title') }}</h3>
+                  <p>{{ $t('home.howToPlay.step3.description') }}</p>
+                </div>
               </div>
-            </div>
-            <div class="play-step">
-              <div class="step-number">4</div>
-              <div class="step-content">
-                <h3>{{ $t('home.howToPlay.step4.title') }}</h3>
-                <p>{{ $t('home.howToPlay.step4.description') }}</p>
+              <div class="play-step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                  <h3>{{ $t('home.howToPlay.step4.title') }}</h3>
+                  <p>{{ $t('home.howToPlay.step4.description') }}</p>
+                </div>
               </div>
-            </div>
-            <div class="play-step">
-              <div class="step-number">5</div>
-              <div class="step-content">
-                <h3>{{ $t('home.howToPlay.step5.title') }}</h3>
-                <p>{{ $t('home.howToPlay.step5.description') }}</p>
+              <div class="play-step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                  <h3>{{ $t('home.howToPlay.step5.title') }}</h3>
+                  <p>{{ $t('home.howToPlay.step5.description') }}</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Tips & Tricks Section (NEW) -->
-      <section class="tips-tricks-section">
-        <div class="container">
-          <h2>{{ $t('home.tips.title') }}</h2>
-          <p>{{ $t('home.tips.description') }}</p>
-          <ul class="tips-list">
-            <li>
-              <strong>{{ $t('home.tips.tip1_title') }}</strong> {{ $t('home.tips.tip1_text') }}
-            </li>
-            <li>
-              <strong>{{ $t('home.tips.tip2_title') }}</strong> {{ $t('home.tips.tip2_text') }}
-            </li>
-            <li>
-              <strong>{{ $t('home.tips.tip3_title') }}</strong> {{ $t('home.tips.tip3_text') }}
-            </li>
-            <li>
-              <strong>{{ $t('home.tips.tip4_title') }}</strong> {{ $t('home.tips.tip4_text') }}
-            </li>
-            <li>
-              <strong>{{ $t('home.tips.tip5_title') }}</strong> {{ $t('home.tips.tip5_text') }}
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- FAQ Section (NEW) -->
-      <section class="faq-section">
-        <div class="container">
-          <h2>{{ $t('home.faq.title') }}</h2>
-          <div class="faq-grid">
-            <details class="faq-item">
-              <summary>{{ $t('home.faq.q1.question') }}</summary>
-              <p>{{ $t('home.faq.q1.answer') }}</p>
-            </details>
-            <details class="faq-item">
-              <summary>{{ $t('home.faq.q2.question') }}</summary>
-              <p>{{ $t('home.faq.q2.answer') }}</p>
-            </details>
-            <details class="faq-item">
-              <summary>{{ $t('home.faq.q3.question') }}</summary>
-              <p>{{ $t('home.faq.q3.answer') }}</p>
-            </details>
-            <details class="faq-item">
-              <summary>{{ $t('home.faq.q4.question') }}</summary>
-              <p>{{ $t('home.faq.q4.answer') }}</p>
-            </details>
+        <!-- Tips & Tricks Section (NEW) -->
+        <section class="tips-tricks-section">
+          <div class="container">
+            <h2>{{ $t('home.tips.title') }}</h2>
+            <p>{{ $t('home.tips.description') }}</p>
+            <ul class="tips-list">
+              <li>
+                <strong>{{ $t('home.tips.tip1_title') }}</strong> {{ $t('home.tips.tip1_text') }}
+              </li>
+              <li>
+                <strong>{{ $t('home.tips.tip2_title') }}</strong> {{ $t('home.tips.tip2_text') }}
+              </li>
+              <li>
+                <strong>{{ $t('home.tips.tip3_title') }}</strong> {{ $t('home.tips.tip3_text') }}
+              </li>
+              <li>
+                <strong>{{ $t('home.tips.tip4_title') }}</strong> {{ $t('home.tips.tip4_text') }}
+              </li>
+              <li>
+                <strong>{{ $t('home.tips.tip5_title') }}</strong> {{ $t('home.tips.tip5_text') }}
+              </li>
+            </ul>
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
+
+        <!-- FAQ Section (NEW) -->
+        <section class="faq-section">
+          <div class="container">
+            <h2>{{ $t('home.faq.title') }}</h2>
+            <div class="faq-grid">
+              <details class="faq-item">
+                <summary>{{ $t('home.faq.q1.question') }}</summary>
+                <p>{{ $t('home.faq.q1.answer') }}</p>
+              </details>
+              <details class="faq-item">
+                <summary>{{ $t('home.faq.q2.question') }}</summary>
+                <p>{{ $t('home.faq.q2.answer') }}</p>
+              </details>
+              <details class="faq-item">
+                <summary>{{ $t('home.faq.q3.question') }}</summary>
+                <p>{{ $t('home.faq.q3.answer') }}</p>
+              </details>
+              <details class="faq-item">
+                <summary>{{ $t('home.faq.q4.question') }}</summary>
+                <p>{{ $t('home.faq.q4.answer') }}</p>
+              </details>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- 侧边右1广告 -->
+      <aside class="ads-right">
+        <ins
+          class="adsbygoogle"
+          style="display: block"
+          data-ad-client="ca-pub-4224010041977181"
+          data-ad-slot="1956039879"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </aside>
+    </div>
   </div>
 </template>
 
@@ -802,15 +772,6 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-/* 广告容器样式 */
-.ad-container {
-  padding: 2rem 0;
-  text-align: center;
-  background-color: #fafafa;
-  border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
 }
 
 /* Features Section */
@@ -1968,6 +1929,31 @@ main {
   .faq-item p {
     padding: 1rem;
     font-size: 0.9rem;
+  }
+}
+
+.home-main-with-ads {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ads-left,
+.ads-right {
+  width: 160px;
+  min-width: 120px;
+  max-width: 200px;
+  margin: 0 10px;
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+}
+@media (max-width: 1200px) {
+  .ads-left,
+  .ads-right {
+    display: none;
+  }
+  .home-main-with-ads {
+    flex-direction: column;
   }
 }
 </style>

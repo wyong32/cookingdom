@@ -3,9 +3,6 @@
     <div class="container">
       <h1 class="page-title">{{ $t('about.title') }}</h1>
 
-      <!-- 广告1 - 页面顶部 -->
-      <!-- <AdComponent :adConfig="adConfigs.ad1" :isMobile="isMobile" /> -->
-
       <div class="about-content">
         <div class="about-section">
           <h2>{{ $t('about.whoWeAre.title') }}</h2>
@@ -20,9 +17,6 @@
           <h2>{{ $t('about.ourMission.title') }}</h2>
           <p v-html="$t('about.ourMission.description')"></p>
         </div>
-
-        <!-- 广告2 - 内容中间 -->
-        <!-- <AdComponent :adConfig="adConfigs.ad2" :isMobile="isMobile" /> -->
 
         <div class="about-section">
           <h2>{{ $t('about.ourValues.title') }}</h2>
@@ -45,9 +39,6 @@
           </div>
         </div>
       </div>
-
-      <!-- 广告3 - 页面底部 -->
-      <!-- <AdComponent :adConfig="adConfigs.ad3" :isMobile="isMobile" /> -->
     </div>
   </div>
 </template>
@@ -56,14 +47,8 @@
 import { onMounted } from 'vue'
 import { updateMetaTag } from '@/utils/head'
 import { useI18n } from 'vue-i18n'
-// import AdComponent from '@/components/AdComponent.vue'
-// import { adConfigs } from '@/config/adConfig.js'
-// import { useDeviceDetection } from '@/composables/useDeviceDetection.js'
 
 const { t } = useI18n()
-
-// 设备检测
-// const { isMobile } = useDeviceDetection()
 
 // Update meta tags when component mounts
 onMounted(() => {
