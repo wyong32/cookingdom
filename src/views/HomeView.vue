@@ -143,18 +143,18 @@ watch(
   { immediate: true }
 )
 
-function activateAds() {
-  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-    try {
-      document.querySelectorAll('.adsbygoogle').forEach((el) => {
-        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-      })
-    } catch (e) {}
-  } else {
-    // 脚本还没加载好，延迟重试
-    setTimeout(activateAds, 500)
-  }
-}
+// function activateAds() {
+//   if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+//     try {
+//       document.querySelectorAll('.adsbygoogle').forEach((el) => {
+//         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+//       })
+//     } catch (e) {}
+//   } else {
+//     // 脚本还没加载好，延迟重试
+//     setTimeout(activateAds, 500)
+//   }
+// }
 
 onMounted(() => {
   checkDeviceType() // 只在挂载时调用一次
@@ -184,7 +184,7 @@ onMounted(() => {
   }, 1000) // 延迟1秒，确保DOM已渲染
 
   // 激活Google广告（带重试）
-  activateAds()
+  // activateAds()
 })
 
 onUnmounted(() => {
@@ -196,7 +196,7 @@ onUnmounted(() => {
   <div class="home-view">
     <div class="home-main-with-ads">
       <!-- 侧边左1广告 -->
-      <aside class="ads-left">
+      <!-- <aside class="ads-left">
         <ins
           class="adsbygoogle"
           style="display: block"
@@ -205,7 +205,7 @@ onUnmounted(() => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-      </aside>
+      </aside> -->
       <main>
         <!-- Hero Section -->
         <section class="hero-section">
@@ -552,7 +552,7 @@ onUnmounted(() => {
         </section>
       </main>
       <!-- 侧边右1广告 -->
-      <aside class="ads-right">
+      <!-- <aside class="ads-right">
         <ins
           class="adsbygoogle"
           style="display: block"
@@ -561,7 +561,7 @@ onUnmounted(() => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-      </aside>
+      </aside> -->
     </div>
   </div>
 </template>
