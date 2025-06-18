@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, onUnmounted, defineAsyncComponent, shallowRef } from 'vue' // Import necessary Vue functions
+import { ref, onMounted, onUnmounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -132,6 +132,30 @@ const loadSwiperComponents = async () => {
   }
 }
 
+// 自动在桌面端加载Swiper组件
+watch(
+  () => isMobile.value,
+  (val) => {
+    if (!val && !swiperLoaded.value) {
+      loadSwiperComponents()
+    }
+  },
+  { immediate: true }
+)
+
+function activateAds() {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+    } catch (e) {}
+  } else {
+    // 脚本还没加载好，延迟重试
+    setTimeout(activateAds, 500)
+  }
+}
+
 onMounted(() => {
   checkDeviceType() // 只在挂载时调用一次
   window.addEventListener('resize', checkDeviceType)
@@ -159,14 +183,8 @@ onMounted(() => {
     }
   }, 1000) // 延迟1秒，确保DOM已渲染
 
-  // 激活所有adsbygoogle广告
-  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-    try {
-      document.querySelectorAll('.adsbygoogle').forEach(() => {
-        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-      })
-    } catch (e) {}
-  }
+  // 激活Google广告（带重试）
+  activateAds()
 })
 
 onUnmounted(() => {
@@ -1936,6 +1954,10 @@ main {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+.home-main-with-ads main {
+  flex: 1;
+  min-width: 0;
 }
 .ads-left,
 .ads-right {
