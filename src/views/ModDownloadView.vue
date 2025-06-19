@@ -7,10 +7,17 @@ import { onMounted } from 'vue'
 const loadAds = () => {
   if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
-      // 只处理还没有加载广告的元素
-      const adElements = document.querySelectorAll('.adsbygoogle:not([data-ad-status])')
+      // 直接处理所有广告元素，但添加错误处理
+      const adElements = document.querySelectorAll('.adsbygoogle')
       adElements.forEach((el) => {
-        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        try {
+          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        } catch (pushError) {
+          // 忽略重复加载错误
+          if (!pushError.message.includes('already have ads')) {
+            console.error('广告加载失败:', pushError)
+          }
+        }
       })
     } catch (e) {
       console.error('广告加载失败:', e)
