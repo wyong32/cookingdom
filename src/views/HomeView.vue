@@ -147,16 +147,60 @@ watch(
 
 // 手动触发广告加载
 const loadAds = () => {
+  console.log('开始加载广告...')
+  console.log('window.adsbygoogle:', window.adsbygoogle)
+
+  const adElements = document.querySelectorAll('.adsbygoogle')
+  console.log('找到广告元素数量:', adElements.length)
+
+  adElements.forEach((el, index) => {
+    console.log(`广告元素 ${index + 1}:`, {
+      offsetWidth: el.offsetWidth,
+      offsetHeight: el.offsetHeight,
+      clientWidth: el.clientWidth,
+      clientHeight: el.clientHeight,
+      style: el.style.cssText,
+      parentElement: el.parentElement?.className,
+    })
+  })
+
   if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
     try {
-      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+      adElements.forEach((el, index) => {
+        console.log(`正在加载广告 ${index + 1}...`)
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
       })
       console.log('广告加载成功')
+
+      // 检查广告是否真的加载了
+      setTimeout(() => {
+        adElements.forEach((el, index) => {
+          const hasAdContent = el.innerHTML.trim() !== '' && el.querySelector('iframe')
+          console.log(`广告 ${index + 1} 加载后:`, {
+            innerHTML: el.innerHTML,
+            hasIframe: el.querySelector('iframe') !== null,
+            hasAdContent: hasAdContent,
+          })
+
+          // 如果广告没有加载成功，显示占位符
+          if (!hasAdContent) {
+            const placeholder = el.parentElement?.querySelector('.ad-placeholder')
+            if (placeholder) {
+              placeholder.style.display = 'block'
+              console.log(`广告 ${index + 1} 加载失败，显示占位符`)
+            }
+          }
+        })
+      }, 3000)
     } catch (e) {
       console.error('广告加载失败:', e)
+      // 显示所有占位符
+      document.querySelectorAll('.ad-placeholder').forEach((placeholder) => {
+        placeholder.style.display = 'block'
+      })
     }
   } else {
+    console.log('adsbygoogle 不可用，延迟重试...')
     // 如果 adsbygoogle 还没加载，延迟重试
     setTimeout(loadAds, 500)
   }
@@ -211,6 +255,13 @@ onUnmounted(() => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
+        <!-- 广告加载失败时的占位符 -->
+        <div
+          class="ad-placeholder"
+          style="display: none; text-align: center; color: #999; font-size: 12px; padding: 20px"
+        >
+          Advertisement
+        </div>
       </aside>
       <main>
         <!-- Hero Section -->
@@ -567,6 +618,13 @@ onUnmounted(() => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
+        <!-- 广告加载失败时的占位符 -->
+        <div
+          class="ad-placeholder"
+          style="display: none; text-align: center; color: #999; font-size: 12px; padding: 20px"
+        >
+          Advertisement
+        </div>
       </aside>
     </div>
   </div>
