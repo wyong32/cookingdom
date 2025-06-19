@@ -190,9 +190,11 @@ const loadAds = () => {
         validAdElements.forEach((el, index) => {
           const hasAdContent = el.innerHTML.trim() !== '' && el.querySelector('iframe')
           console.log(`广告 ${index + 1} 加载后:`, {
-            innerHTML: el.innerHTML,
+            innerHTML: el.innerHTML.substring(0, 200) + '...', // 只显示前200个字符
             hasIframe: el.querySelector('iframe') !== null,
             hasAdContent: hasAdContent,
+            iframeCount: el.querySelectorAll('iframe').length,
+            iframeSrc: el.querySelector('iframe')?.src || '无iframe',
           })
 
           // 如果广告没有加载成功，显示占位符
