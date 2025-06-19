@@ -7,15 +7,16 @@
   max-width: 220px !important;
   min-height: 320px !important;
   background: #fff;
-  border: 1px solid #eee;
+  border: 2px solid #ff0000 !important; /* 添加红色边框用于调试 */
   box-sizing: border-box;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   margin: 0 10px !important;
   position: sticky !important;
   top: 80px !important;
   z-index: 10 !important;
+  overflow: visible !important; /* 确保内容不被裁剪 */
 }
 
 /* 确保广告元素本身有正确的尺寸 */
@@ -25,6 +26,17 @@
   height: 100% !important;
   min-height: 320px !important;
   display: block !important;
+  border: 1px solid #00ff00 !important; /* 添加绿色边框用于调试 */
+}
+
+/* 确保广告容器内的iframe可见 */
+.ads-left iframe,
+.ads-right iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 320px !important;
+  display: block !important;
+  border: 1px solid #0000ff !important; /* 添加蓝色边框用于调试 */
 }
 
 @media (max-width: 1200px) {
