@@ -72,7 +72,8 @@ const showGuides = ref(false)
 
 // 简化的加载函数
 const loadGuides = () => {
-  guidesVisible.value = true
+  console.log('显示指南部分')
+  showGuides.value = true
 }
 
 // Function to scroll to a specific section smoothly
@@ -100,7 +101,13 @@ const sliderImages = ref([
 const isMobile = ref(false)
 
 const checkDeviceType = () => {
-  isMobile.value = window.innerWidth <= 768
+  isMobile.value = window.matchMedia('(max-width: 767px)').matches
+  console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备', {
+    windowWidth: window.innerWidth,
+    mediaQuery: window.matchMedia('(max-width: 767px)').matches,
+    userAgent: navigator.userAgent,
+    time: Date.now(),
+  })
 }
 
 // 动态加载 Swiper 组件
@@ -121,6 +128,7 @@ const loadSwiperComponents = async () => {
     await import('swiper/css/effect-coverflow')
 
     swiperLoaded.value = true
+    console.log('Swiper 组件加载完成')
   } catch (error) {
     console.error('加载 Swiper 组件失败:', error)
   }
@@ -190,18 +198,13 @@ onMounted(() => {
     }
   }, 1000) // 延迟1秒，确保DOM已渲染
 
-  // 加载广告 - 1000毫秒延迟
+  // 加载广告
   setTimeout(loadAds, 1000)
 })
 
 onUnmounted(() => {
   window.removeEventListener('resize', checkDeviceType)
 })
-
-// Swiper 组件加载完成后的回调
-const onSwiper = (swiper) => {
-  // Swiper 实例已准备就绪
-}
 </script>
 
 <template>
@@ -217,13 +220,6 @@ const onSwiper = (swiper) => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-        <!-- 广告加载失败时的占位符 -->
-        <div
-          class="ad-placeholder"
-          style="display: none; text-align: center; color: #999; font-size: 12px; padding: 20px"
-        >
-          Advertisement
-        </div>
       </aside>
       <main>
         <!-- Hero Section -->
