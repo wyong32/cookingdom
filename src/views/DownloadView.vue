@@ -9,8 +9,8 @@ import { onMounted } from 'vue'
 const loadAds = () => {
   if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
-      // 直接处理所有广告元素
-      const adElements = document.querySelectorAll('.adsbygoogle')
+      // 只处理还没有加载广告的元素
+      const adElements = document.querySelectorAll('.adsbygoogle:not([data-ad-status])')
       adElements.forEach((el) => {
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
       })
