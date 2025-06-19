@@ -1,5 +1,4 @@
 <script setup>
-import Adsense from '@/components/Adsense.vue'
 // No script logic needed for now, just displaying static content
 // Version and size are now directly in i18n files
 </script>
@@ -7,12 +6,17 @@ import Adsense from '@/components/Adsense.vue'
 <template>
   <div class="mod-download-main-with-ads">
     <aside class="ads-left">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="7552815638"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="7552815638"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
     <main>
       <div class="mod-download-page-view download-page-view">
@@ -151,12 +155,17 @@ import Adsense from '@/components/Adsense.vue'
       </div>
     </main>
     <aside class="ads-right">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="1956039879"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="1956039879"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
   </div>
 </template>

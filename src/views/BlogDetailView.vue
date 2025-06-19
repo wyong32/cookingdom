@@ -3,7 +3,6 @@ import { computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useBlogPosts } from '@/composables/useBlogPosts'
-import Adsense from '@/components/Adsense.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -70,12 +69,17 @@ watch(listError, (newError) => {
   <div class="blog-detail-page">
     <!-- Left Ad -->
     <aside class="ads-left">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="7552815638"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="7552815638"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
 
     <!-- Main Content Container -->
@@ -122,12 +126,17 @@ watch(listError, (newError) => {
 
     <!-- Right Ad -->
     <aside class="ads-right">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="1956039879"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="1956039879"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
   </div>
 </template>

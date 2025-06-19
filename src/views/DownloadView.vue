@@ -1,18 +1,24 @@
 <script setup>
 // No script logic needed for now, just displaying static content
 import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not already
-import Adsense from '@/components/Adsense.vue'
+// 移除 Adsense 组件导入
+// import Adsense from '@/components/Adsense.vue'
 </script>
 
 <template>
   <div class="download-main-with-ads">
     <aside class="ads-left">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="7552815638"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="7552815638"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
     <main>
       <div class="download-page-view">
@@ -34,13 +40,15 @@ import Adsense from '@/components/Adsense.vue'
                   <span class="file-size">{{ $t('home.downloads.ios.meta.size') }}</span>
                 </div>
                 <a
-                  href="https://apps.apple.com/us/app/cookingdom/id6742222069"
                   class="btn btn-download"
+                  href="https://apps.apple.com/us/app/cookingdom/id6742222069"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   {{ $t('home.downloads.ios.button') }}
                 </a>
               </div>
+
               <div class="download-card">
                 <div class="download-icon">🤖</div>
                 <h3>{{ $t('home.downloads.android.title') }}</h3>
@@ -50,14 +58,15 @@ import Adsense from '@/components/Adsense.vue'
                   <span class="file-size">{{ $t('home.downloads.android.meta.size') }}</span>
                 </div>
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.abi.cook.chill"
                   class="btn btn-download"
+                  href="https://play.google.com/store/apps/details?id=com.joypac.cookingdom"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   {{ $t('home.downloads.android.button') }}
                 </a>
               </div>
-              <!-- New Card for Mod Download Page -->
+
               <div class="download-card mod-access-card">
                 <div class="download-icon">✨</div>
                 <!-- Using the sparkle icon -->
@@ -86,12 +95,17 @@ import Adsense from '@/components/Adsense.vue'
       </div>
     </main>
     <aside class="ads-right">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="1956039879"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="1956039879"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
   </div>
 </template>

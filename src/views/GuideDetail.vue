@@ -2,12 +2,17 @@
   <div class="guide-detail-page">
     <!-- Left Ad -->
     <aside class="ads-left">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="7552815638"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="7552815638"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
 
     <!-- Main Content Container -->
@@ -46,52 +51,50 @@
         <!-- Sidebar Area (Right) -->
         <aside class="sidebar">
           <!-- Sidebar Image -->
-          <div class="sidebar-image-container" v-if="currentGuide.sidebarData?.sidebarImageUrl">
+          <div class="sidebar-image-container">
             <img
               :src="currentGuide.sidebarData.sidebarImageUrl"
-              alt="Cookingdom Level"
-              fetchpriority="high"
-              loading="eager"
+              :alt="currentGuide.title"
+              class="sidebar-image"
+              width="300"
+              height="200"
+              loading="lazy"
             />
           </div>
 
-          <!-- Level Info Box -->
-          <div
-            class="level-info-box"
-            v-if="currentGuide.sidebarData?.levelInfoHtml"
-            v-html="currentGuide.sidebarData.levelInfoHtml"
-          ></div>
+          <!-- Level Info -->
+          <div class="level-info" v-html="currentGuide.sidebarData.levelInfoHtml"></div>
 
-          <!-- Featured Guides Section -->
-          <div
-            class="featured-guides"
-            v-if="
-              currentGuide.sidebarData?.featuredGuides &&
-              currentGuide.sidebarData.featuredGuides.length > 0
-            "
-          >
-            <h4>{{ $t('guideDetail.featuredLevelsTitle') }}</h4>
-            <ul>
-              <li v-for="featured in currentGuide.sidebarData.featuredGuides" :key="featured.id">
-                <router-link :to="getFeaturedGuideLinkProps(featured)" class="featured-guide-link">
-                  <img
-                    :src="featured.imageUrl"
-                    alt="Cookingdom Level"
-                    class="featured-guide-img"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  <span v-html="featured.title"></span>
-                </router-link>
-              </li>
-            </ul>
+          <!-- Featured Guides -->
+          <div class="featured-guides">
+            <h3>{{ $t('guideDetail.featuredGuides') }}</h3>
+            <div class="featured-guides-list">
+              <router-link
+                v-for="guide in currentGuide.sidebarData.featuredGuides"
+                :key="guide.id"
+                :to="guide.detailsRoute"
+                class="featured-guide-item"
+              >
+                <img
+                  :src="guide.imageUrl"
+                  :alt="guide.title"
+                  class="featured-guide-image"
+                  width="80"
+                  height="60"
+                  loading="lazy"
+                />
+                <div class="featured-guide-info">
+                  <h4 v-html="guide.title"></h4>
+                </div>
+              </router-link>
+            </div>
           </div>
         </aside>
       </div>
 
-      <!-- Loading / Not Found State -->
-      <div v-else-if="isLoadingList && !currentGuide" class="loading-or-not-found">
-        <p>Loading guide details...</p>
+      <!-- Loading or Error States -->
+      <div v-else-if="isLoadingList" class="loading-or-not-found">
+        <p>{{ $t('guideDetail.loadingOrNotFound') }}</p>
       </div>
       <div v-else-if="listError" class="loading-or-not-found">
         <p>{{ listError.message || 'Error loading guides.' }}</p>
@@ -116,12 +119,17 @@
 
     <!-- Right Ad -->
     <aside class="ads-right">
-      <Adsense
-        adClient="ca-pub-4224010041977181"
-        adSlot="1956039879"
-        adFormat="auto"
-        :fullWidthResponsive="true"
-      />
+      <ins
+        class="adsbygoogle"
+        style="display: block"
+        data-ad-client="ca-pub-4224010041977181"
+        data-ad-slot="1956039879"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        ;(adsbygoogle = window.adsbygoogle || []).push({})
+      </script>
     </aside>
   </div>
 </template>
@@ -134,7 +142,6 @@ import { useGuides } from '@/composables/useGuides'
 import { defaultLang } from '@/i18n'
 import { updateMetaTag } from '@/utils/head'
 import YouTubeFacade from '@/components/YouTubeFacade.vue'
-import Adsense from '@/components/Adsense.vue'
 
 const route = useRoute()
 const { t, locale } = useI18n()
