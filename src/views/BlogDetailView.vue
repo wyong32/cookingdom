@@ -63,6 +63,25 @@ watch(listError, (newError) => {
     updateMetaTag('keywords', '')
   }
 })
+
+const loadAds = () => {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+      console.log('广告加载成功')
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    setTimeout(loadAds, 500)
+  }
+}
+
+onMounted(() => {
+  setTimeout(loadAds, 1000)
+})
 </script>
 
 <template>
@@ -77,9 +96,6 @@ watch(listError, (newError) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
 
     <!-- Main Content Container -->
@@ -134,18 +150,11 @@ watch(listError, (newError) => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
   </div>
 </template>
 
 <style scoped>
-.blog-detail-page {
-  /* 页面级布局样式已在 base.css 中定义 */
-}
-
 .blog-detail-content {
   /* 页面级主内容区样式已在 base.css 中定义 */
   padding: 40px 20px;

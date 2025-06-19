@@ -1,8 +1,31 @@
 <script setup>
 // No script logic needed for now, just displaying static content
 import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not already
+import { onMounted } from 'vue'
 // 移除 Adsense 组件导入
 // import Adsense from '@/components/Adsense.vue'
+
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+      console.log('广告加载成功')
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 500)
+  }
+}
+
+onMounted(() => {
+  // 加载广告
+  setTimeout(loadAds, 1000)
+})
 </script>
 
 <template>
@@ -16,9 +39,6 @@ import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not 
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
     <main>
       <div class="download-page-view">
@@ -103,9 +123,6 @@ import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not 
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
   </div>
 </template>

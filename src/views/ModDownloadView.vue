@@ -1,6 +1,29 @@
 <script setup>
+import { onMounted } from 'vue'
 // No script logic needed for now, just displaying static content
 // Version and size are now directly in i18n files
+
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+      console.log('广告加载成功')
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 500)
+  }
+}
+
+onMounted(() => {
+  // 加载广告
+  setTimeout(loadAds, 1000)
+})
 </script>
 
 <template>
@@ -14,9 +37,6 @@
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
     <main>
       <div class="mod-download-page-view download-page-view">
@@ -163,9 +183,6 @@
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
   </div>
 </template>

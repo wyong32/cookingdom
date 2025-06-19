@@ -145,18 +145,22 @@ watch(
   { immediate: true }
 )
 
-// function activateAds() {
-//   if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-//     try {
-//       document.querySelectorAll('.adsbygoogle').forEach((el) => {
-//         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-//       })
-//     } catch (e) {}
-//   } else {
-//     // 脚本还没加载好，延迟重试
-//     setTimeout(activateAds, 500)
-//   }
-// }
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+      console.log('广告加载成功')
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 500)
+  }
+}
 
 onMounted(() => {
   checkDeviceType() // 只在挂载时调用一次
@@ -185,8 +189,8 @@ onMounted(() => {
     }
   }, 1000) // 延迟1秒，确保DOM已渲染
 
-  // 激活Google广告（带重试）
-  // activateAds()
+  // 加载广告
+  setTimeout(loadAds, 1000)
 })
 
 onUnmounted(() => {
@@ -207,9 +211,6 @@ onUnmounted(() => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-        <script>
-          ;(adsbygoogle = window.adsbygoogle || []).push({})
-        </script>
       </aside>
       <main>
         <!-- Hero Section -->
@@ -566,9 +567,6 @@ onUnmounted(() => {
           data-ad-format="auto"
           data-full-width-responsive="true"
         ></ins>
-        <script>
-          ;(adsbygoogle = window.adsbygoogle || []).push({})
-        </script>
       </aside>
     </div>
   </div>

@@ -2,6 +2,7 @@
 // Keep necessary imports, remove unused ones
 // import { ref, watch, computed } from 'vue' // ref, watch, computed might be implicitly handled by useGuides
 import { useI18n } from 'vue-i18n'
+import { onMounted } from 'vue'
 // import { defaultLang } from '@/i18n' // defaultLang likely needed inside useGuides
 import { RouterLink } from 'vue-router' // Keep if needed elsewhere, maybe not here directly
 // Import the refactored GuidesSection component
@@ -16,6 +17,28 @@ const { t, locale } = useI18n()
 // Use the composable to get reactive data
 // Pass locale ref to composable. It will handle reactivity.
 const { guides, isLoading, error } = useGuides(locale)
+
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+      console.log('广告加载成功')
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 500)
+  }
+}
+
+onMounted(() => {
+  // 加载广告
+  setTimeout(loadAds, 1000)
+})
 </script>
 
 <template>
@@ -29,9 +52,6 @@ const { guides, isLoading, error } = useGuides(locale)
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
     <main>
       <div class="guide-view">
@@ -53,9 +73,6 @@ const { guides, isLoading, error } = useGuides(locale)
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>
-        ;(adsbygoogle = window.adsbygoogle || []).push({})
-      </script>
     </aside>
   </div>
 </template>

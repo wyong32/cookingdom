@@ -165,303 +165,72 @@ const currentGuide = computed(() => {
   return guides.value.find((g) => g.id === guideId.value)
 })
 
-// Watch for changes in currentGuide to update TDK or handle not found
+// Helper function to get video thumbnail
+const getVideoThumbnail = (guide) => {
+  if (!guide || !guide.iframeUrl) return null
+  // Extract video ID from YouTube URL and generate thumbnail
+  const videoIdMatch = guide.iframeUrl.match(/embed\/([^?]+)/)
+  if (videoIdMatch) {
+    return `https://img.youtube.com/vi/${videoIdMatch[1]}/maxresdefault.jpg`
+  }
+  return null
+}
+
+// Watch for guide changes and update meta tags
 watch(
   currentGuide,
-  (newGuide) => {
-    if (isLoadingList.value) return // Don't do anything if the list is still loading
+  (newGuide, oldGuide) => {
+    if (isLoadingList.value) return
 
     if (newGuide) {
-      // 保存当前查看的guide ID到localStorage，以便在返回时自动选择正确的tab
-      try {
-        console.log(`Saving guide ID to localStorage: ${newGuide.id}`)
-        localStorage.setItem('last-viewed-guide-id', newGuide.id)
-        // 同时保存当前的category，以防guide ID不能正确映射到category
-        if (newGuide.category) {
-          console.log(`Saving guide category to localStorage: ${newGuide.category}`)
-          localStorage.setItem('last-viewed-guide-category', newGuide.category)
-        }
-      } catch (e) {
-        console.error('Error saving guide ID to localStorage:', e)
-      }
-
-      const seoTitle = newGuide.seo?.title || t('meta.guideDetail.title', 'Guide Detail')
-      const seoDescription =
-        newGuide.seo?.description ||
-        t('meta.guideDetail.description', 'Detailed guide information.')
-      const seoKeywords =
-        newGuide.seo?.keywords || t('meta.defaultKeywords', 'guide, tutorial, walkthrough')
-
-      document.title = seoTitle
-      updateMetaTag('description', seoDescription)
-      updateMetaTag('keywords', seoKeywords)
-      updateMetaTag('og:title', seoTitle)
-      updateMetaTag('og:description', seoDescription)
-      updateMetaTag('twitter:title', seoTitle)
-      updateMetaTag('twitter:description', seoDescription)
-
-      let specificImageUrl = newGuide.imageUrl || newGuide.sidebarData?.sidebarImageUrl
-      if (specificImageUrl) {
-        if (specificImageUrl.startsWith('/')) {
-          specificImageUrl = `${window.location.origin}${
-            import.meta.env.BASE_URL || '/'
-          }${specificImageUrl.substring(1)}`
-        }
-        updateMetaTag('og:image', specificImageUrl)
-        updateMetaTag('twitter:image', specificImageUrl)
-      } else {
-        // Optional: Fallback image logic could go here
-      }
+      document.title = newGuide.seo?.title || t('meta.guideDetail.title', 'Guide Detail')
+      updateMetaTag('description', newGuide.seo?.description)
+      updateMetaTag('keywords', newGuide.seo?.keywords)
     } else if (!isLoadingList.value && guideId.value && !listError.value) {
-      // Guide not found after list has loaded and no error in loading list
       document.title = t('meta.notFoundTitle', 'Guide Not Found')
       updateMetaTag(
         'description',
         t('meta.notFoundDescription', 'The guide you are looking for could not be found.')
       )
       updateMetaTag('keywords', '')
-      updateMetaTag('og:title', document.title)
-      updateMetaTag('og:description', '')
     }
   },
   { immediate: true, deep: true }
 )
 
-// Watch for listError from the composable to set error TDK
+// Watch for list errors
 watch(listError, (newError) => {
   if (newError) {
     document.title = t('meta.errorTitle', 'Error Loading Guide')
     updateMetaTag('description', 'There was an error loading the guide content.')
     updateMetaTag('keywords', '')
-    updateMetaTag('og:title', document.title)
-    updateMetaTag('og:description', '')
   }
 })
 
-// The local loadGuide function is removed.
-// Watches for guideId and locale are implicitly handled by currentGuide reacting to guides (from composable)
-// and guideId.
-
-// onMounted is no longer strictly needed for an initial loadGuide call,
-// as the composable handles initial loading and currentGuide will react.
-
-const getFeaturedGuideLinkProps = (featured) => {
-  // This function might need adjustment if featured.id is not sufficient
-  // or if the routeObject is already prepared in useGuides.js for featured guides.
-  // For now, assuming it generates links similarly to how it was done before.
-  const currentLocaleValue = locale.value
-  const isDefault = currentLocaleValue === defaultLang
-  let routeName = isDefault ? 'guide-detail' : 'guide-detail-lang'
-  let routeParams = { id: featured.id }
-  if (!isDefault) {
-    routeParams.lang = currentLocaleValue
-  }
-
-  // 当用户点击featured guide时，保存guide ID和category到localStorage
-  try {
-    console.log(`Saving featured guide ID to localStorage: ${featured.id}`)
-    localStorage.setItem('last-viewed-guide-id', featured.id)
-
-    // 查找featured guide的完整数据以获取category
-    const featuredGuideData = guides.value.find((g) => g.id === featured.id)
-    if (featuredGuideData && featuredGuideData.category) {
-      console.log(`Saving featured guide category to localStorage: ${featuredGuideData.category}`)
-      localStorage.setItem('last-viewed-guide-category', featuredGuideData.category)
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+    try {
+      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+      console.log('广告加载成功')
+    } catch (e) {
+      console.error('广告加载失败:', e)
     }
-  } catch (e) {
-    console.error('Error saving featured guide data to localStorage:', e)
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 500)
   }
-
-  // If featured guides in the data already have a pre-calculated routeObject from useGuides,
-  // you could potentially use that directly: return featured.routeObject
-  return { name: routeName, params: routeParams }
-}
-
-// 动态插入结构化数据，提升 Google 索引能力
-const addStructuredData = (guideObj) => {
-  if (!guideObj) return
-
-  let thumb = guideObj.sidebarData?.sidebarImageUrl || guideObj.imageUrl
-  if (thumb && thumb.startsWith('/')) {
-    thumb = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumb.substring(1)}`
-  }
-  if (!thumb) {
-    thumb = 'https://www.cookingdom.co/images/banner1.webp'
-  }
-
-  // 更新页面的社交分享图片（避免与watch中的重复）
-  updateMetaTag('og:image', thumb)
-  updateMetaTag('twitter:image', thumb)
-
-  // 主要的HowTo结构化数据
-  const howToSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: guideObj.seo?.title || guideObj.pageTitle,
-    description: guideObj.seo?.description || guideObj.pageSubtitle || guideObj.pageTitle,
-    image: thumb,
-    author: {
-      '@type': 'Organization',
-      name: 'Cookingdom Fansite',
-      url: 'https://www.cookingdom.co/',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Cookingdom Fansite',
-      url: 'https://www.cookingdom.co/',
-      logo: {
-        '@type': 'ImageObject',
-        url: `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`,
-        width: 240,
-        height: 240,
-      },
-    },
-    datePublished: guideObj.publishDate
-      ? `${guideObj.publishDate}T00:00:00Z`
-      : new Date().toISOString(),
-    dateModified: new Date().toISOString(),
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': window.location.href,
-    },
-    about: {
-      '@type': 'VideoGame',
-      name: 'Cookingdom',
-      genre: 'Cooking Simulation',
-    },
-    keywords:
-      guideObj.seo?.keywords || 'cookingdom, game guide, walkthrough, cooking game, level guide',
-    inLanguage: locale.value,
-    isPartOf: {
-      '@type': 'WebSite',
-      name: 'Cookingdom Fansite',
-      url: 'https://www.cookingdom.co/',
-    },
-  }
-
-  // 面包屑导航结构化数据
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: 'https://www.cookingdom.co/',
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Guides',
-        item: 'https://www.cookingdom.co/guides',
-      },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: guideObj.seo?.title || guideObj.pageTitle,
-        item: window.location.href,
-      },
-    ],
-  }
-
-  // 如果有视频，添加视频结构化数据
-  let videoSchema = null
-  if (guideObj.iframeUrl) {
-    videoSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'VideoObject',
-      name: guideObj.seo?.title || guideObj.pageTitle,
-      description: guideObj.seo?.description || guideObj.pageSubtitle || guideObj.pageTitle,
-      thumbnailUrl: thumb,
-      embedUrl: guideObj.iframeUrl,
-      uploadDate: guideObj.publishDate
-        ? `${guideObj.publishDate}T00:00:00Z`
-        : new Date().toISOString(),
-      author: {
-        '@type': 'Organization',
-        name: 'Cookingdom Fansite',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Cookingdom Fansite',
-        logo: {
-          '@type': 'ImageObject',
-          url: `${window.location.origin}${import.meta.env.BASE_URL || '/'}images/logo.webp`,
-        },
-      },
-    }
-  }
-
-  // 移除旧的结构化数据
-  const oldHowTo = document.getElementById('howto-schema')
-  const oldVideo = document.getElementById('video-schema')
-  const oldBreadcrumb = document.getElementById('breadcrumb-schema')
-  if (oldHowTo) oldHowTo.remove()
-  if (oldVideo) oldVideo.remove()
-  if (oldBreadcrumb) oldBreadcrumb.remove()
-
-  // 添加HowTo结构化数据
-  const howToScript = document.createElement('script')
-  howToScript.type = 'application/ld+json'
-  howToScript.id = 'howto-schema'
-  howToScript.text = JSON.stringify(howToSchema)
-  document.head.appendChild(howToScript)
-
-  // 添加面包屑结构化数据
-  const breadcrumbScript = document.createElement('script')
-  breadcrumbScript.type = 'application/ld+json'
-  breadcrumbScript.id = 'breadcrumb-schema'
-  breadcrumbScript.text = JSON.stringify(breadcrumbSchema)
-  document.head.appendChild(breadcrumbScript)
-
-  // 如果有视频，添加视频结构化数据
-  if (videoSchema) {
-    const videoScript = document.createElement('script')
-    videoScript.type = 'application/ld+json'
-    videoScript.id = 'video-schema'
-    videoScript.text = JSON.stringify(videoSchema)
-    document.head.appendChild(videoScript)
-  }
-}
-
-// 获取视频缩略图
-const getVideoThumbnail = (guide) => {
-  if (!guide) return null
-
-  // 优先使用侧边栏图片或主图片作为缩略图
-  let thumbnail = guide.sidebarData?.sidebarImageUrl || guide.imageUrl
-
-  // 确保路径是绝对路径
-  if (thumbnail && thumbnail.startsWith('/')) {
-    thumbnail = `${window.location.origin}${import.meta.env.BASE_URL || '/'}${thumbnail.substring(
-      1
-    )}`
-  }
-
-  return thumbnail
 }
 
 onMounted(() => {
-  // 延迟添加结构化数据，避免阻塞首屏渲染
-  setTimeout(() => {
-    addStructuredData(currentGuide.value)
-  }, 100)
-})
-watch(currentGuide, (newVal) => {
-  if (newVal) {
-    setTimeout(() => {
-      addStructuredData(newVal)
-    }, 100)
-  }
+  // 加载广告
+  setTimeout(loadAds, 1000)
 })
 </script>
 
 <style scoped>
-.guide-detail-page {
-  /* 页面级布局样式已在 base.css 中定义 */
-}
-
 .guide-detail-content {
   /* 页面级主内容区样式已在 base.css 中定义 */
   max-width: 1200px;
