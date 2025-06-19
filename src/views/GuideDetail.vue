@@ -209,9 +209,19 @@ watch(listError, (newError) => {
 
 // 手动触发广告加载
 const loadAds = () => {
-  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
-      document.querySelectorAll('.adsbygoogle').forEach((el) => {
+      // 只处理有正确尺寸的广告元素（我们的侧边栏广告）
+      const validAdElements = Array.from(document.querySelectorAll('.adsbygoogle')).filter(
+        (el) =>
+          (el.offsetWidth > 0 &&
+            el.offsetHeight > 0 &&
+            el.offsetWidth < 300 && // 侧边栏广告宽度应该小于300px
+            el.parentElement?.classList.contains('ads-left')) ||
+          el.parentElement?.classList.contains('ads-right')
+      )
+
+      validAdElements.forEach((el) => {
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
       })
       console.log('广告加载成功')

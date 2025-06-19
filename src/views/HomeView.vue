@@ -164,9 +164,22 @@ const loadAds = () => {
     })
   })
 
-  if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
+  // 修复检查逻辑：window.adsbygoogle 是对象，不是数组
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
-      adElements.forEach((el, index) => {
+      // 只处理有正确尺寸的广告元素（我们的侧边栏广告）
+      const validAdElements = Array.from(adElements).filter(
+        (el) =>
+          (el.offsetWidth > 0 &&
+            el.offsetHeight > 0 &&
+            el.offsetWidth < 300 && // 侧边栏广告宽度应该小于300px
+            el.parentElement?.classList.contains('ads-left')) ||
+          el.parentElement?.classList.contains('ads-right')
+      )
+
+      console.log('有效的广告元素数量:', validAdElements.length)
+
+      validAdElements.forEach((el, index) => {
         console.log(`正在加载广告 ${index + 1}...`)
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
       })
@@ -174,7 +187,7 @@ const loadAds = () => {
 
       // 检查广告是否真的加载了
       setTimeout(() => {
-        adElements.forEach((el, index) => {
+        validAdElements.forEach((el, index) => {
           const hasAdContent = el.innerHTML.trim() !== '' && el.querySelector('iframe')
           console.log(`广告 ${index + 1} 加载后:`, {
             innerHTML: el.innerHTML,
