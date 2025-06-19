@@ -64,65 +64,43 @@ const languageOptions = [
   { code: 'ms', name: 'Bahasa Melayu' },
 ]
 
-function changeLocale(event) {
-  console.log('--- changeLocale function entered ---')
-
-  const newLang = event.target.value
-  console.log(`Target language value: ${newLang}`)
-
+const changeLocale = (newLang) => {
+  // 检查语言是否在支持的语言列表中
   if (!supportedLangs.includes(newLang)) {
-    console.log('Selected language is not in supportedLangs, exiting.')
     return
   }
 
-  const currentPathValue = currentPath.value
-  let basePath = currentPathValue
+  // 获取当前路径
+  const currentPath = router.currentRoute.value.path
 
-  // Check if the path starts with any known language prefix (including default)
-  for (const lang of supportedLangs) {
-    const prefix = `/${lang}`
-    if (currentPathValue.startsWith(prefix + '/')) {
-      // e.g., /zh/some/path or /en/some/path
-      basePath = currentPathValue.substring(prefix.length) // -> /some/path
-      console.log(`Stripped prefix '${prefix}', basePath is now: ${basePath}`)
-      break // Found and removed prefix
-    } else if (currentPathValue === prefix) {
-      // e.g., exactly /zh or /en
+  // 移除当前语言前缀
+  let basePath = currentPath
+  const currentLang = locale.value
+  const prefix = `/${currentLang}`
+
+  if (currentPath.startsWith(prefix)) {
+    basePath = currentPath.substring(prefix.length)
+    if (basePath === '') {
       basePath = '/'
-      console.log(`Path was exactly prefix '${prefix}', basePath is now: /`)
-      break // Found and removed prefix
     }
   }
 
-  let newPath = basePath
-  // If the target language is not the default, add the prefix
-  if (newLang !== defaultLang) {
-    // Ensure basePath starts with '/', unless it IS '/'
-    const pathSegment = basePath === '/' ? '' : basePath
-    newPath = `/${newLang}${pathSegment}`
-  }
-
-  // Final check: if newPath is empty, make it root
-  if (newPath === '') newPath = '/'
-
-  console.log(
-    `Current Path: ${currentPathValue}, Calculated Base Path: ${basePath}, Target New Path: ${newPath}`
-  )
-  localStorage.setItem('userLanguage', newLang)
-
-  // Only push if the path actually changes to avoid redundant navigation
-  if (currentPathValue !== newPath) {
-    console.log('使用安全导航到:', newPath)
-    safePush(newPath)
+  // 构建新路径
+  let newPath
+  if (newLang === 'en') {
+    newPath = basePath
   } else {
-    console.log('New path is the same as current path, navigation skipped.')
-    // Even if path is same, locale might need update if v-model didn't trigger watcher
-    // Though unlikely with current setup, we ensure locale sync here
-    if (locale.value !== newLang) {
-      console.log('Path same, but ensuring i18n locale matches selected language.')
-      locale.value = newLang
-    }
+    newPath = `/${newLang}${basePath}`
   }
+
+  // 如果路径相同，只更新语言
+  if (newPath === currentPath) {
+    locale.value = newLang
+    return
+  }
+
+  // 导航到新路径
+  safePush(newPath)
 }
 </script>
 

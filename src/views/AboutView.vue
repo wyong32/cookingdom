@@ -55,7 +55,36 @@ onMounted(() => {
   document.title = t('meta.about.title')
   updateMetaTag('description', t('meta.about.description'))
   updateMetaTag('keywords', t('meta.about.keywords'))
+
+  // 加载广告 - 1000毫秒延迟
+  setTimeout(loadAds, 1000)
 })
+
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+    try {
+      // 只处理有正确尺寸的广告元素（我们的侧边栏广告）
+      const validAdElements = Array.from(document.querySelectorAll('.adsbygoogle')).filter(
+        (el) =>
+          (el.offsetWidth > 0 &&
+            el.offsetHeight > 0 &&
+            el.offsetWidth < 300 && // 侧边栏广告宽度应该小于300px
+            el.parentElement?.classList.contains('ads-left')) ||
+          el.parentElement?.classList.contains('ads-right')
+      )
+
+      validAdElements.forEach((el) => {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      })
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 500)
+  }
+}
 </script>
 
 <style scoped>

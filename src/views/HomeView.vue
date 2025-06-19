@@ -72,8 +72,7 @@ const showGuides = ref(false)
 
 // 简化的加载函数
 const loadGuides = () => {
-  console.log('显示指南部分')
-  showGuides.value = true
+  guidesVisible.value = true
 }
 
 // Function to scroll to a specific section smoothly
@@ -101,13 +100,7 @@ const sliderImages = ref([
 const isMobile = ref(false)
 
 const checkDeviceType = () => {
-  isMobile.value = window.matchMedia('(max-width: 767px)').matches
-  console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备', {
-    windowWidth: window.innerWidth,
-    mediaQuery: window.matchMedia('(max-width: 767px)').matches,
-    userAgent: navigator.userAgent,
-    time: Date.now(),
-  })
+  isMobile.value = window.innerWidth <= 768
 }
 
 // 动态加载 Swiper 组件
@@ -128,7 +121,6 @@ const loadSwiperComponents = async () => {
     await import('swiper/css/effect-coverflow')
 
     swiperLoaded.value = true
-    console.log('Swiper 组件加载完成')
   } catch (error) {
     console.error('加载 Swiper 组件失败:', error)
   }
@@ -147,28 +139,10 @@ watch(
 
 // 手动触发广告加载
 const loadAds = () => {
-  console.log('开始加载广告...')
-  console.log('window.adsbygoogle:', window.adsbygoogle)
-
-  const adElements = document.querySelectorAll('.adsbygoogle')
-  console.log('找到广告元素数量:', adElements.length)
-
-  adElements.forEach((el, index) => {
-    console.log(`广告元素 ${index + 1}:`, {
-      offsetWidth: el.offsetWidth,
-      offsetHeight: el.offsetHeight,
-      clientWidth: el.clientWidth,
-      clientHeight: el.clientHeight,
-      style: el.style.cssText,
-      parentElement: el.parentElement?.className,
-    })
-  })
-
-  // 修复检查逻辑：window.adsbygoogle 是对象，不是数组
   if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
       // 只处理有正确尺寸的广告元素（我们的侧边栏广告）
-      const validAdElements = Array.from(adElements).filter(
+      const validAdElements = Array.from(document.querySelectorAll('.adsbygoogle')).filter(
         (el) =>
           (el.offsetWidth > 0 &&
             el.offsetHeight > 0 &&
@@ -177,45 +151,13 @@ const loadAds = () => {
           el.parentElement?.classList.contains('ads-right')
       )
 
-      console.log('有效的广告元素数量:', validAdElements.length)
-
-      validAdElements.forEach((el, index) => {
-        console.log(`正在加载广告 ${index + 1}...`)
+      validAdElements.forEach((el) => {
         ;(window.adsbygoogle = window.adsbygoogle || []).push({})
       })
-      console.log('广告加载成功')
-
-      // 检查广告是否真的加载了
-      setTimeout(() => {
-        validAdElements.forEach((el, index) => {
-          const hasAdContent = el.innerHTML.trim() !== '' && el.querySelector('iframe')
-          console.log(`广告 ${index + 1} 加载后:`, {
-            innerHTML: el.innerHTML.substring(0, 200) + '...', // 只显示前200个字符
-            hasIframe: el.querySelector('iframe') !== null,
-            hasAdContent: hasAdContent,
-            iframeCount: el.querySelectorAll('iframe').length,
-            iframeSrc: el.querySelector('iframe')?.src || '无iframe',
-          })
-
-          // 如果广告没有加载成功，显示占位符
-          if (!hasAdContent) {
-            const placeholder = el.parentElement?.querySelector('.ad-placeholder')
-            if (placeholder) {
-              placeholder.style.display = 'block'
-              console.log(`广告 ${index + 1} 加载失败，显示占位符`)
-            }
-          }
-        })
-      }, 3000)
     } catch (e) {
       console.error('广告加载失败:', e)
-      // 显示所有占位符
-      document.querySelectorAll('.ad-placeholder').forEach((placeholder) => {
-        placeholder.style.display = 'block'
-      })
     }
   } else {
-    console.log('adsbygoogle 不可用，延迟重试...')
     // 如果 adsbygoogle 还没加载，延迟重试
     setTimeout(loadAds, 500)
   }
@@ -248,13 +190,18 @@ onMounted(() => {
     }
   }, 1000) // 延迟1秒，确保DOM已渲染
 
-  // 加载广告
+  // 加载广告 - 1000毫秒延迟
   setTimeout(loadAds, 1000)
 })
 
 onUnmounted(() => {
   window.removeEventListener('resize', checkDeviceType)
 })
+
+// Swiper 组件加载完成后的回调
+const onSwiper = (swiper) => {
+  // Swiper 实例已准备就绪
+}
 </script>
 
 <template>

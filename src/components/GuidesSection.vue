@@ -147,8 +147,6 @@ const autoSelectTabFromUrl = () => {
     // 首先尝试从localStorage获取保存的category
     const savedCategory = localStorage.getItem('last-viewed-guide-category')
     if (savedCategory) {
-      console.log(`Found saved category ${savedCategory} for guide ID ${lastViewedGuideId}`)
-
       // 清除localStorage中的数据
       localStorage.removeItem('last-viewed-guide-id')
       localStorage.removeItem('last-viewed-guide-category')
@@ -164,19 +162,15 @@ const autoSelectTabFromUrl = () => {
     // 如果没有保存的category或无法映射，尝试从guides数据中获取
     const categoryTab = getCategoryTabForGuide(lastViewedGuideId)
     if (categoryTab) {
-      console.log(`Found category tab ${categoryTab} for guide ID ${lastViewedGuideId}`)
       // 清除最后访问的guideId
       localStorage.removeItem('last-viewed-guide-id')
       // 设置tab
       return categoryTab
-    } else {
-      console.log(`Could not find category tab for guide ID ${lastViewedGuideId}`)
     }
   }
 
   // 如果没有最后访问的guideId或找不到对应的tab，则使用保存的tab
   const savedTab = getSavedTab()
-  console.log(`Using saved tab: ${savedTab}`)
   return savedTab
 }
 
@@ -200,11 +194,8 @@ watch(
   (newPath) => {
     // 检查是否是guides页面（考虑多语言路径）
     if (newPath === '/guides' || /^\/[a-z]{2}\/guides$/.test(newPath)) {
-      console.log(`Navigated to guides page: ${newPath}`)
       const newTab = autoSelectTabFromUrl()
-      console.log(`Selected tab: ${newTab}, current tab: ${activeTab.value}`)
       if (newTab && newTab !== activeTab.value) {
-        console.log(`Setting active tab to: ${newTab}`)
         setActiveTab(newTab)
       }
     }
@@ -240,6 +231,45 @@ const filteredGuides = computed(() => {
     return props.guides.filter((guide) => possibleCategories.includes(guide.category))
   }
 })
+
+// 保存最后查看的指南信息
+const saveLastViewedGuide = (guideId, category, tab) => {
+  localStorage.setItem('lastViewedGuideId', guideId)
+  localStorage.setItem('lastViewedGuideCategory', category)
+  localStorage.setItem('lastViewedGuideTab', tab)
+}
+
+// 恢复最后查看的指南信息
+const restoreLastViewedGuide = () => {
+  const lastViewedGuideId = localStorage.getItem('lastViewedGuideId')
+  if (lastViewedGuideId) {
+    const savedCategory = localStorage.getItem('lastViewedGuideCategory')
+    const savedTab = localStorage.getItem('lastViewedGuideTab')
+
+    if (savedCategory) {
+      const categoryTab = getCategoryTabForGuide(savedCategory)
+      if (categoryTab) {
+        activeTab.value = categoryTab
+      }
+    }
+
+    if (savedTab) {
+      activeTab.value = savedTab
+    }
+  }
+}
+
+// 导航到指南详情页
+const navigateToGuide = (guideId) => {
+  const currentTab = activeTab.value
+  const newPath = getLocalizedRoute('guide-detail', { id: guideId })
+
+  // 保存当前标签页信息
+  saveLastViewedGuide(guideId, getCurrentCategory(), currentTab)
+
+  // 导航到指南详情页
+  router.push(newPath)
+}
 </script>
 
 <style scoped>
