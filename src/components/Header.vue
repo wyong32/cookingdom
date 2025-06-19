@@ -267,7 +267,7 @@ function changeLocale(event) {
   display: flex;
   align-items: center;
   line-height: 1.2;
-  max-width: 300px;
+  max-width: 400px;
 }
 .logo img {
   width: 30px;
