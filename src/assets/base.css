@@ -2,20 +2,20 @@
 
 /* 通用左右侧广告样式 */
 .ads-left, .ads-right {
-  /* width: 180px;
+  width: 180px;
   min-width: 160px;
   max-width: 220px;
   background: #fff;
   border: 1px solid #eee;
   box-sizing: border-box;
-  display: flex !important;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px !important;
-  position: sticky !important;
-  top: 80px !important;
-  z-index: 10 !important;
-  overflow: visible !important; */
+  margin: 0 10px;
+  position: sticky;
+  top: 80px;
+  z-index: 10;
+  overflow: visible;
 }
 
 /* 确保广告元素本身有正确的尺寸 */
