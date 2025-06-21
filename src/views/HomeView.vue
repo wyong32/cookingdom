@@ -320,6 +320,17 @@ onUnmounted(() => {
           </div>
         </section>
 
+        <aside class="ads-content1">
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-4224010041977181"
+            data-ad-slot="6083907013"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </aside>
+
         <!-- Guides Section (使用异步组件和懒加载数据) -->
         <div id="guides-section">
           <h2>{{ $t('guides.title') }}</h2>
