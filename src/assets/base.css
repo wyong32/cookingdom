@@ -2,10 +2,9 @@
 
 /* 通用左右侧广告样式 */
 .ads-left, .ads-right {
-  width: 180px !important;
-  min-width: 160px !important;
-  max-width: 220px !important;
-  min-height: 320px !important;
+  /* width: 180px;
+  min-width: 160px;
+  max-width: 220px;
   background: #fff;
   border: 1px solid #eee;
   box-sizing: border-box;
@@ -16,25 +15,25 @@
   position: sticky !important;
   top: 80px !important;
   z-index: 10 !important;
-  overflow: visible !important; /* 确保内容不被裁剪 */
+  overflow: visible !important; */
 }
 
 /* 确保广告元素本身有正确的尺寸 */
 .ads-left .adsbygoogle,
 .ads-right .adsbygoogle {
-  width: 100% !important;
+  /* width: 100% !important;
   height: 100% !important;
   min-height: 320px !important;
-  display: block !important;
+  display: block !important; */
 }
 
 /* 确保广告容器内的iframe可见 */
 .ads-left iframe,
 .ads-right iframe {
-  width: 100% !important;
+  /* width: 100% !important;
   height: 100% !important;
   min-height: 320px !important;
-  display: block !important;
+  display: block !important; */
 }
 
 @media (max-width: 1200px) {
