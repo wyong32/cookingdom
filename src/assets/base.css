@@ -41,6 +41,7 @@
   height: 160px;
   margin: 1rem 0;
   overflow: hidden;
+  text-align: center;
 }
 .ads-content1 .adsbygoogle{
   width: 100%;
@@ -52,6 +53,7 @@
   height: 300px;
   margin: 1rem 0;
   overflow: hidden;
+  text-align: center;
 }
 .ads-content2 .adsbygoogle{
   width: 100%;
