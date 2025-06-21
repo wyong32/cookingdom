@@ -62,6 +62,17 @@
           <!-- Level Info -->
           <div class="level-info" v-html="currentGuide.sidebarData.levelInfoHtml"></div>
 
+          <aside class="ads-content2">
+            <ins
+              class="adsbygoogle"
+              style="display: block"
+              data-ad-client="ca-pub-4224010041977181"
+              data-ad-slot="1956039879"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </aside>
+
           <!-- Featured Guides -->
           <div class="featured-guides">
             <h3>{{ $t('guideDetail.featuredGuides') }}</h3>
