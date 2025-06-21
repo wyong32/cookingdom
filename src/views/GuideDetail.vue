@@ -74,7 +74,7 @@
           <!-- Level Info -->
           <div class="level-info" v-html="currentGuide.sidebarData.levelInfoHtml"></div>
 
-          <aside class="ads-content2" style="height: 300px !important">
+          <aside class="ads-content2">
             <ins
               class="adsbygoogle"
               style="display: block"
