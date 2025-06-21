@@ -6,7 +6,7 @@ export const levels01to10 = [
     pageSubtitle: '在料理王国第一关，通过制作你的第一块披萨来掌握基础知识。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'Cookingdom-Level-1-First-Pizza-Guide' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
@@ -315,7 +315,7 @@ export const levels01to10 = [
     pageSubtitle: '掌握Cookingdom第5关中烤鱼的技巧。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -411,7 +411,7 @@ export const levels01to10 = [
     pageSubtitle: '学习在 Cookingdom 第6关中冲煮完美的意式浓缩咖啡。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -506,7 +506,7 @@ export const levels01to10 = [
     pageSubtitle: '学习在第7关完美煎出阳光煎蛋。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -601,7 +601,7 @@ export const levels01to10 = [
     pageSubtitle: '学习如何在 Cookingdom 第8关完美烹饪牛排。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -717,7 +717,7 @@ export const levels01to10 = [
     pageSubtitle: '掌握烹饪完美意大利面的技巧，轻松过关第9关。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',

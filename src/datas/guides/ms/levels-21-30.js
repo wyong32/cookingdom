@@ -246,7 +246,7 @@ export const levels21to30 = [
       'Pelajari cara membuat Bûche de Noël, kek klasik musim perayaan, di Tahap 23 Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_23.webp', // Gantian
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
     iframeUrl: 'https://www.youtube.com/embed/3Eg2387hpaE', // Gantian
@@ -705,7 +705,7 @@ export const levels21to30 = [
       'Pelajari cara menyusun sandwich yang sempurna dalam Tahap 27 permainan Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_27.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY',
@@ -825,7 +825,7 @@ export const levels21to30 = [
       'Ketahui cara menyediakan croissant berlapis sempurna dalam Tahap 28 permainan Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_28.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI',

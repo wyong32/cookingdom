@@ -7,7 +7,7 @@ export const levels01to10 = [
       'Masterin ang mga pangunahing kaalaman sa Cookingdom sa pamamagitan ng paggawa ng iyong unang pizza sa Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'Cookingdom-Level-1-First-Pizza-Guide' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
@@ -331,7 +331,7 @@ export const levels01to10 = [
     pageSubtitle: 'Masterin ang pag-ihaw ng isda sa Antas 5 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -428,7 +428,7 @@ export const levels01to10 = [
     pageSubtitle: 'Alamin kung paano gumawa ng perpektong espresso sa Antas 6 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -524,7 +524,7 @@ export const levels01to10 = [
     pageSubtitle: 'Matutong magluto ng perpektong sunny-side-up na itlog sa Cookingdom Antas 7.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -631,7 +631,7 @@ export const levels01to10 = [
     pageSubtitle: 'Masterin ang mausok at malinamnam na Texas BBQ sa Antas 8 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -734,7 +734,7 @@ export const levels01to10 = [
     pageSubtitle: 'Magsanay sa paggawa ng perpektong spaghetti sa Cookingdom Level 9.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',

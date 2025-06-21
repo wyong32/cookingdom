@@ -349,12 +349,12 @@ const filteredGuides = computed(() => {
 }
 
 .guide-content {
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .guide-content h3 {
   margin: 0; /* Remove default margin */
-  font-size: 1rem; /* Slightly smaller font */
+  font-size: 0.8rem; /* Slightly smaller font */
   color: #5b4b8a; /* Darker purple */
   line-height: 1.4;
   /* Removed height/line-height/display grid centering */
@@ -390,9 +390,6 @@ const filteredGuides = computed(() => {
     /* Change to 4 columns */
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
-  }
-  .guide-content h3 {
-    font-size: 0.9rem;
   }
 }
 

@@ -6,7 +6,7 @@ export const levels01to10 = [
     pageSubtitle: 'Освойте основы Cookingdom, приготовив свою первую пиццу на Уровне 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
@@ -322,7 +322,7 @@ export const levels01to10 = [
     pageSubtitle: 'Освойте искусство жарки рыбы в 5 уровне Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -419,7 +419,7 @@ export const levels01to10 = [
     pageSubtitle: 'Узнайте, как приготовить идеальный эспрессо в Cookingdom Уровень 6.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -515,7 +515,7 @@ export const levels01to10 = [
     pageSubtitle: 'Научитесь готовить идеальную яичницу-глазунью в Cookingdom, уровень 7.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -612,7 +612,7 @@ export const levels01to10 = [
       'Овладейте искусством дымного и ароматного техасского барбекю на уровне 8 в игре Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -719,7 +719,7 @@ export const levels01to10 = [
     pageSubtitle: 'Овладейте искусством приготовления идеальных спагетти на уровне 9 в Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',

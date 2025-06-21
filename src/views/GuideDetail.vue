@@ -430,7 +430,7 @@ onMounted(() => {
 }
 .guide-html-content :deep(ul),
 .guide-html-content :deep(ol) {
-  margin-left: 1.5em;
+  padding-left: 1.5em;
   margin-bottom: 1em;
 }
 .guide-html-content :deep(li) {
@@ -499,14 +499,34 @@ onMounted(() => {
     margin-bottom: 1rem;
   }
   .page-main-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  .page-subtitle {
+    font-size: 0.8rem;
+    line-height: 1.2;
   }
   .featured-guides {
     min-height: 150px;
   }
   .featured-guides li {
     height: 50px;
+  }
+
+  .guide-html-content :deep(h2) {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    line-height: 1;
+  }
+  .guide-html-content :deep(h3) {
+    font-size: 1em;
+    margin: 0.5em 0;
+    line-height: 1;
+  }
+  .guide-html-content :deep(p) {
+    font-size: 1rem;
+    line-height: 1.2;
   }
 }
 </style>

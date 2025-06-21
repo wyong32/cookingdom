@@ -246,7 +246,7 @@ export const levels21to30 = [
       'Овладейте праздничным тортом «Полено» (Bûche de Noël) на уровне 23 в Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_23.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
     iframeUrl: 'https://www.youtube.com/embed/3Eg2387hpaE', // Заглушка
@@ -722,7 +722,7 @@ export const levels21to30 = [
     pageSubtitle: 'Научитесь собирать идеальный сэндвич в Уровне 27 игры Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_27.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY',
@@ -841,7 +841,7 @@ export const levels21to30 = [
       'Узнайте, как приготовить идеальный слоёный круассан в Уровне 28 игры Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_28.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI',

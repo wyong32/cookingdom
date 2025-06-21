@@ -684,7 +684,7 @@ export const levels51to60 = [
       'Pelajari cara membuat mochi yang lembut, kenyal dan berwarna-warni dalam Tahap 59 Cookingdom.',
     category: '51-60',
     publishDate: '2025-06-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_59.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-59' } },
     iframeUrl: 'https://www.youtube.com/embed/CNo2a-NPWl8',

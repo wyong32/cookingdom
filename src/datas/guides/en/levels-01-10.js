@@ -9,7 +9,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the basics of Cookingdom by making your first pizza in Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
@@ -327,7 +327,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the art of grilling fish in Cookingdom Level 5.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -434,7 +434,7 @@ export const levels01to10 = [
     pageSubtitle: 'Learn to brew the perfect espresso in Cookingdom Level 6.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -540,7 +540,7 @@ export const levels01to10 = [
     pageSubtitle: 'Learn to cook perfect sunny-side-up eggs in Cookingdom Level 7.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -647,7 +647,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 8 of Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -783,7 +783,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the art of cooking perfect spaghetti in Cookingdom Level 9.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',

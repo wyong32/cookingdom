@@ -9,7 +9,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make perfect popcorn in Cookingdom Level 11.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/B1RSotgn3Bo',
@@ -327,7 +327,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make sophisticated Salmon with Minestrone in Cookingdom Level 14.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_14.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
     iframeUrl: 'https://www.youtube.com/embed/NqPuIo5iASQ', // Placeholder
@@ -670,7 +670,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make the perfect Café Macchiato in Level 17 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_17.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/Zwv2uvuWHwI', // Placeholder

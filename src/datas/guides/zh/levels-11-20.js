@@ -6,7 +6,7 @@ export const levels11to20 = [
     pageSubtitle: '学习如何在 Cookingdom 第11关制作完美爆米花。',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/B1RSotgn3Bo',
@@ -292,7 +292,7 @@ export const levels11to20 = [
     pageSubtitle: '学习如何在 Cookingdom 第14关制作精致的三文鱼配蔬菜汤。',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_14.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
     iframeUrl: 'https://www.youtube.com/embed/NqPuIo5iASQ', // 占位视频
@@ -622,7 +622,7 @@ export const levels11to20 = [
     pageSubtitle: '学习如何在Cookingdom第17关制作完美的咖啡玛奇朵。',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_17.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/Zwv2uvuWHwI',

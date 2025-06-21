@@ -240,7 +240,7 @@ export const levels21to30 = [
     pageSubtitle: '掌握 Cookingdom 第23关的节日甜点 —— 圣诞树根蛋糕（Bûche de Noël）。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_23.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-23' } },
     iframeUrl: 'https://www.youtube.com/embed/3Eg2387hpaE', // 占位视频链接
@@ -719,7 +719,7 @@ export const levels21to30 = [
     pageSubtitle: '学习在 Cookingdom 第27关中制作完美的三明治。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_27.webp', // 占位符
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY', // 占位符
@@ -837,7 +837,7 @@ export const levels21to30 = [
     pageSubtitle: '在 Cookingdom 第 28 关学习如何制作完美酥脆的羊角面包。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_28.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-28' } },
     iframeUrl: 'https://www.youtube.com/embed/mqwmQRn8jQI',

@@ -6,7 +6,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasai asas Cookingdom dengan membuat pizza pertama anda di Level 1.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_01.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-1' } },
     iframeUrl: 'https://www.youtube.com/embed/ItLXkQrpelU',
@@ -322,7 +322,7 @@ export const levels01to10 = [
     pageSubtitle: 'Pelajari seni menggoreng ikan dalam Tahap 5 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_05.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -419,7 +419,7 @@ export const levels01to10 = [
     pageSubtitle: 'Ketahui cara menyeduh espresso yang sempurna dalam Cookingdom Tahap 6.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -515,7 +515,7 @@ export const levels01to10 = [
     pageSubtitle: 'Belajar memasak telur matahari yang sempurna di Cookingdom Tahap 7.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_07.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -622,7 +622,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasi BBQ Texas yang berasap dan penuh rasa dalam Tahap 8 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -747,7 +747,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasi seni memasak spaghetti sempurna pada tahap 9 dalam Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',

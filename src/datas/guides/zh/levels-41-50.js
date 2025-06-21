@@ -87,7 +87,7 @@ export const levels41to50 = [
       '掌握这道麻辣鲜香的中国菜麻婆豆腐，重点练习炒锅技巧和辣味管理，轻松完成42关挑战。',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_42.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
     iframeUrl: 'https://www.youtube.com/embed/ekB2_ZAvJqg',
@@ -169,7 +169,7 @@ export const levels41to50 = [
     pageSubtitle: '掌握精致又富有节日气氛的月饼，在第43关中挑战包馅与烘焙的精准度。',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false, // 如果认为是节日关卡可以设为 true
+    isSpecial: true, // 如果认为是节日关卡可以设为 true
     imageUrl: '/images/guides_43.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // 占位视频链接 - 请替换为实际视频ID
@@ -250,7 +250,7 @@ export const levels41to50 = [
       '掌握巧克力制作的艺术——融化、成型并完美出品，在这甜蜜浓郁的第44关挑战中大展身手。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_44.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // 替换为实际视频链接
@@ -332,7 +332,7 @@ export const levels41to50 = [
     pageSubtitle: '准备层层丰富的意面、肉酱和奶油贝沙梅尔酱，在这道希腊风味的烹饪挑战中大展身手。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_45.webp', // 占位图片
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // 替换为实际视频链接
@@ -415,7 +415,7 @@ export const levels41to50 = [
       '用软糯香甜的红薯布丁打动顾客。在这个考验时间管理的关卡中，蒸制、搅拌并完美呈现这道甜点。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_46.webp', // 占位图片
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
     iframeUrl: 'https://www.youtube.com/embed/arOpSIeqAlw', // 请替换为实际视频ID
@@ -495,7 +495,7 @@ export const levels41to50 = [
     pageSubtitle: '在第47关组装美味且均衡的午餐盒。保持有序管理多样食材，满足多个定制订单。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_47.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',
@@ -658,7 +658,7 @@ export const levels41to50 = [
     pageSubtitle: '学习在Cookingdom第49关中组装并快速送出完美的冰淇淋甜筒。',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
     iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',
@@ -745,7 +745,7 @@ export const levels41to50 = [
     pageSubtitle: '掌握在Cookingdom第50关中完美烤制澳洲金目鲈的技巧。',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_50.webp',
     detailsRoute: {
       name: 'guide-detail',

@@ -684,7 +684,7 @@ export const levels51to60 = [
       'Alamin kung paano gumawa ng malambot, makunat, at makulay na mochi sa Cookingdom Antas 59.',
     category: '51-60',
     publishDate: '2025-06-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_59.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-59' } },
     iframeUrl: 'https://www.youtube.com/embed/CNo2a-NPWl8',

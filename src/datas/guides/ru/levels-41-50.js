@@ -89,7 +89,7 @@ export const levels41to50 = [
       'Освойте острое и пряное китайское блюдо Мапо Тофу, уделяя внимание приготовлению в воке и контролю остроты на уровне 42.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_42.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
     iframeUrl: 'https://www.youtube.com/embed/ekB2_ZAvJqg',
@@ -172,7 +172,7 @@ export const levels41to50 = [
       'Освойте искусство приготовления традиционного лунного пирога: точность при выборе начинки и выпечке решает всё!',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false, // Установите true, если уровень считается праздничным
+    isSpecial: true, // Установите true, если уровень считается праздничным
     imageUrl: '/images/guides_43.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // Замените на актуальный ID видео
@@ -254,7 +254,7 @@ export const levels41to50 = [
       'Освойте искусство приготовления шоколада — растапливайте, формуйте и подавайте идеально в этом сладком и насыщенном испытании уровня 44.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_44.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Заменить на реальное видео
@@ -337,7 +337,7 @@ export const levels41to50 = [
       'Приготовьте сытные слои пасты, мясного соуса и кремового соуса бешамель в этом кулинарном испытании в греческом стиле.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_45.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Заменить на актуальное видео
@@ -420,7 +420,7 @@ export const levels41to50 = [
       'Удивите клиентов тягучим и теплым пудингом из сладкого картофеля. Готовьте на пару, смешивайте и подавайте идеальный десерт в условиях ограниченного времени.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_46.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
     iframeUrl: 'https://www.youtube.com/embed/arOpSIeqAlw',
@@ -502,7 +502,7 @@ export const levels41to50 = [
       'Собирайте вкусные и сбалансированные ланчбоксы на уровне 47. Организованность поможет управлять разнообразными ингредиентами и удовлетворять множественные заказы.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_47.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8',
@@ -668,7 +668,7 @@ export const levels41to50 = [
       'Научитесь собирать и подавать идеальные рожки с мороженым в уровне 49 игры Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -751,7 +751,7 @@ export const levels41to50 = [
       'Освойте приготовление и подачу гриллованного австралийского баррамунди в 50-м уровне Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_50.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
     iframeUrl: 'https://www.youtube.com/embed/6iXtoAjQu-4',

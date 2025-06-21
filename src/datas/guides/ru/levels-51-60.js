@@ -685,7 +685,7 @@ export const levels51to60 = [
       'Узнайте, как приготовить мягкие, жевательные и яркие моти в 59 уровне Cookingdom.',
     category: '51-60',
     publishDate: '2025-06-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_59.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-59' } },
     iframeUrl: 'https://www.youtube.com/embed/CNo2a-NPWl8',

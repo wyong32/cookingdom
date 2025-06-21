@@ -93,7 +93,7 @@ export const levels41to50 = [
       'Master the bold and spicy Chinese dish Mapo Tofu, focusing on wok skills and spice management in Level 42.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false, // Assuming it's not special unless specified
+    isSpecial: true, // Assuming it's not special unless specified
     imageUrl: '/images/guides_42.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-42' } },
     iframeUrl: 'https://www.youtube.com/embed/ekB2_ZAvJqg', // Placeholder - Replace with actual video ID
@@ -177,7 +177,7 @@ export const levels41to50 = [
       'Master the delicate and festive Moon Cake, testing precision with fillings and baking in Level 43.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false, // Can be set to true if considered a special/festive level
+    isSpecial: true, // Can be set to true if considered a special/festive level
     imageUrl: '/images/guides_43.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // Placeholder - Replace with actual video ID
@@ -260,7 +260,7 @@ export const levels41to50 = [
       'Master the art of chocolate crafting — melt, mold, and serve perfectly in this sweet and rich Level 44 challenge.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_44.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-44' } },
     iframeUrl: 'https://www.youtube.com/embed/FIW3IVrAW6Q', // Replace with actual video
@@ -343,7 +343,7 @@ export const levels41to50 = [
       'Prepare hearty layers of pasta, meat sauce, and creamy béchamel in this Greek-inspired culinary challenge.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_45.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Replace with actual video
@@ -426,7 +426,7 @@ export const levels41to50 = [
       'Delight customers with chewy, warm sweet potato pudding. Steam, mix, and serve the perfect dessert in this level’s time-sensitive kitchen.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_46.webp', // Placeholder image
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-46' } },
     iframeUrl: 'https://www.youtube.com/embed/arOpSIeqAlw', // Replace with actual video ID
@@ -508,7 +508,7 @@ export const levels41to50 = [
       'Assemble delicious and balanced lunch box in Level 47. Stay organized to manage diverse ingredients and satisfy multiple custom orders.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_47.webp', // Placeholder image
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-47' } },
     iframeUrl: 'https://www.youtube.com/embed/GHndNcqlIj8', // Replace with actual video ID
@@ -672,7 +672,7 @@ export const levels41to50 = [
     pageSubtitle: 'Learn to assemble and serve perfect ice cream cones in Level 49 of Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
     iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',
@@ -750,7 +750,7 @@ export const levels41to50 = [
     pageSubtitle: 'Grill and serve perfect barramundi fillets with sides in Cookingdom Level 50.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_50.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-50' } },
     iframeUrl: 'https://www.youtube.com/embed/6iXtoAjQu-4',

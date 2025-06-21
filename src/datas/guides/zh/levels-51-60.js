@@ -676,7 +676,7 @@ export const levels51to60 = [
     pageSubtitle: '学习如何在 Cookingdom 第59关中制作柔软、有嚼劲又色彩缤纷的糯米糍。',
     category: '51-60',
     publishDate: '2025-06-10',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_59.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-59' } },
     iframeUrl: 'https://www.youtube.com/embed/CNo2a-NPWl8',
