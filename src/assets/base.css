@@ -59,6 +59,10 @@
   width: 100%;
   height: 100%;
 }
+.ads-content2 iframe{
+  width: 100%;
+  height: 100%;
+}
 
 
 @media (max-width: 1200px) {
