@@ -21,19 +21,19 @@
 /* 确保广告元素本身有正确的尺寸 */
 .ads-left .adsbygoogle,
 .ads-right .adsbygoogle {
-  /* width: 100% !important;
+  width: 100% !important;
   height: 100% !important;
   min-height: 320px !important;
-  display: block !important; */
+  display: block !important;
 }
 
 /* 确保广告容器内的iframe可见 */
 .ads-left iframe,
 .ads-right iframe {
-  /* width: 100% !important;
+  width: 100% !important;
   height: 100% !important;
   min-height: 320px !important;
-  display: block !important; */
+  display: block !important;
 }
 
 @media (max-width: 1200px) {
