@@ -14,6 +14,17 @@
 
     <!-- Main Content Container -->
     <div class="guide-detail-content">
+      <aside class="ads-content1 ads-ph">
+        <ins
+          class="adsbygoogle"
+          style="display: inline-block; width: 250px; height: 100px"
+          data-ad-client="ca-pub-4224010041977181"
+          data-ad-slot="3712377621"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </aside>
+
       <!-- Optional: Breadcrumbs can go here -->
       <div v-if="currentGuide" class="guide-layout">
         <!-- Main Content Area (Left) -->
@@ -74,7 +85,7 @@
           <!-- Level Info -->
           <div class="level-info" v-html="currentGuide.sidebarData.levelInfoHtml"></div>
 
-          <!-- <aside class="ads-content2">
+          <aside class="ads-content2">
             <ins
               class="adsbygoogle"
               style="display: inline-block; width: 200px; height: 200px"
@@ -83,7 +94,7 @@
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
-          </aside> -->
+          </aside>
 
           <!-- Featured Guides -->
           <div class="featured-guides">
