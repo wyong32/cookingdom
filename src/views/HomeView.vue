@@ -210,6 +210,7 @@ onUnmounted(() => {
   <div class="home-view">
     <div class="home-main-with-ads">
       <!-- 侧边左1广告（直接嵌入HTML） -->
+
       <aside class="ads-left">
         <ins
           class="adsbygoogle"
@@ -228,7 +229,7 @@ onUnmounted(() => {
               <h1>{{ $t('home.hero.title') }}</h1>
               <p>{{ $t('home.hero.description') }}</p>
 
-              <aside class="ads-content1 ads-ph">
+              <aside class="ads-wrapper ads-ph">
                 <ins
                   class="adsbygoogle"
                   style="display: block"
@@ -331,7 +332,8 @@ onUnmounted(() => {
           </div>
         </section>
 
-        <aside class="ads-content1">
+        <!-- 广告2 -->
+        <aside class="ads-wrapper">
           <ins
             class="adsbygoogle"
             style="display: block"
@@ -379,7 +381,8 @@ onUnmounted(() => {
             </div>
           </template>
 
-          <aside class="ads-content1 ads-ph">
+          <!-- 广告3 -->
+          <aside class="ads-wrapper ads-ph">
             <ins
               class="adsbygoogle"
               style="display: block"
