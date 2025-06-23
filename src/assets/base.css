@@ -44,7 +44,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+.ads-wrapper .adsbygoogle{
+  width: 100% !important;
+  height: 100%;
 }
 
 .ads-wrapper ins{
