@@ -26,7 +26,7 @@
           <!-- New H1 using pageTitle -->
           <h1 class="page-main-title">{{ currentGuide.pageTitle }}</h1>
 
-          <aside class="ads-content1 ads-ph">
+          <aside class="ads-wrapper ads-ph">
             <ins
               class="adsbygoogle"
               style="display: block"
@@ -86,7 +86,7 @@
           <!-- Level Info -->
           <div class="level-info" v-html="currentGuide.sidebarData.levelInfoHtml"></div>
 
-          <aside class="ads-content2">
+          <aside class="ads-wrapper">
             <ins
               class="adsbygoogle"
               style="display: block"
