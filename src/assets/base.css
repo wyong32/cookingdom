@@ -22,6 +22,9 @@
 .ads-left .adsbygoogle,
 .ads-right .adsbygoogle {
   width: 100% !important;
+  height: 100% !important;
+  min-height: 320px !important;
+  display: block !important;
 }
 
 /* 确保广告容器内的iframe可见 */
@@ -43,6 +46,7 @@
 }
 .ads-content1 .adsbygoogle{
   width: 100% !important;
+  height: 100%;
 }
 
 .ads-content2{
@@ -55,6 +59,7 @@
 }
 .ads-content2 .adsbygoogle{
   width: 100% !important;
+  height: 100%;
 }
 .ads-content2 iframe{
   width: 100%;
