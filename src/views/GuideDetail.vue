@@ -40,7 +40,7 @@
           </div>
 
           <!-- 移动端横幅广告 -->
-          <aside class="ads-content ads-ph">
+          <!-- <aside class="ads-content ads-ph">
             <ins
               class="adsbygoogle"
               style="display: block"
@@ -49,7 +49,7 @@
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
-          </aside>
+          </aside> -->
 
           <!-- Render HTML content using v-html (Now last) -->
           <div v-html="currentGuide.detailsHtml" class="guide-html-content"></div>
@@ -74,16 +74,16 @@
           <!-- Level Info -->
           <div class="level-info" v-html="currentGuide.sidebarData.levelInfoHtml"></div>
 
-          <aside class="ads-content2">
+          <!-- <aside class="ads-content2">
             <ins
               class="adsbygoogle"
-              style="display: block"
+              style="display: inline-block; width: 200px; height: 200px"
               data-ad-client="ca-pub-4224010041977181"
               data-ad-slot="4968753003"
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
-          </aside>
+          </aside> -->
 
           <!-- Featured Guides -->
           <div class="featured-guides">

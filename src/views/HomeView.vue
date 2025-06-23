@@ -228,6 +228,17 @@ onUnmounted(() => {
               <h1>{{ $t('home.hero.title') }}</h1>
               <p>{{ $t('home.hero.description') }}</p>
 
+              <aside class="ads-content1 ads-ph">
+                <ins
+                  class="adsbygoogle"
+                  style="display: inline-block; width: 250px; height: 100px"
+                  data-ad-client="ca-pub-4224010041977181"
+                  data-ad-slot="3712377621"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"
+                ></ins>
+              </aside>
+
               <!-- Latest Levels Section -->
               <div class="latest-levels">
                 <h3>{{ $t('home.hero.latestLevels.title') }}</h3>
@@ -367,6 +378,17 @@ onUnmounted(() => {
               <p>No guide content</p>
             </div>
           </template>
+
+          <aside class="ads-content1 ads-ph">
+            <ins
+              class="adsbygoogle"
+              style="display: inline-block; width: 250px; height: 100px"
+              data-ad-client="ca-pub-4224010041977181"
+              data-ad-slot="1086214288"
+              data-ad-format="auto"
+              data-full-width-responsive="true"
+            ></ins>
+          </aside>
         </div>
 
         <!-- Features Section -->
