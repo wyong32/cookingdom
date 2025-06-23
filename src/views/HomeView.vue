@@ -231,7 +231,7 @@ onUnmounted(() => {
               <aside class="ads-content1 ads-ph">
                 <ins
                   class="adsbygoogle"
-                  style="display: inline-block; width: 250px; height: 100px"
+                  style="display: block"
                   data-ad-client="ca-pub-4224010041977181"
                   data-ad-slot="3712377621"
                   data-ad-format="auto"
@@ -382,7 +382,7 @@ onUnmounted(() => {
           <aside class="ads-content1 ads-ph">
             <ins
               class="adsbygoogle"
-              style="display: inline-block; width: 250px; height: 100px"
+              style="display: block"
               data-ad-client="ca-pub-4224010041977181"
               data-ad-slot="1086214288"
               data-ad-format="auto"

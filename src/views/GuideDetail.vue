@@ -29,7 +29,7 @@
           <aside class="ads-content1 ads-ph">
             <ins
               class="adsbygoogle"
-              style="display: inline-block; width: 250px; height: 100px"
+              style="display: block"
               data-ad-client="ca-pub-4224010041977181"
               data-ad-slot="3712377621"
               data-ad-format="auto"
@@ -89,7 +89,7 @@
           <aside class="ads-content2">
             <ins
               class="adsbygoogle"
-              style="display: inline-block; width: 200px; height: 200px"
+              style="display: block"
               data-ad-client="ca-pub-4224010041977181"
               data-ad-slot="4968753003"
               data-ad-format="auto"
