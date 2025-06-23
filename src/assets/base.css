@@ -53,6 +53,10 @@
   margin: 0 auto;
 }
 
+.ads-height{
+  height: 100px;
+}
+
 .ads-content1 {
   width: 100%;
   height: 160px;
