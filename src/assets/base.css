@@ -45,10 +45,12 @@
   align-items: center;
   justify-content: center;
   margin: 1rem auto;
+  text-align: center;
 }
 
 .ads-wrapper ins{
   display: block;
+  margin: 0 auto;
 }
 
 .ads-content1 {
