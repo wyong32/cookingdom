@@ -235,8 +235,6 @@ onUnmounted(() => {
                   style="display: inline-block; width: 300px; height: 100px"
                   data-ad-client="ca-pub-4224010041977181"
                   data-ad-slot="3712377621"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"
                 ></ins>
               </aside>
 
@@ -339,8 +337,6 @@ onUnmounted(() => {
             style="display: inline-block; width: 300px; height: 100px"
             data-ad-client="ca-pub-4224010041977181"
             data-ad-slot="6083907013"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
           ></ins>
         </aside>
 
@@ -388,8 +384,6 @@ onUnmounted(() => {
               style="display: inline-block; width: 300px; height: 100px"
               data-ad-client="ca-pub-4224010041977181"
               data-ad-slot="1086214288"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
             ></ins>
           </aside>
         </div>
