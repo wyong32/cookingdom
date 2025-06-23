@@ -87,7 +87,7 @@
           <aside class="ads-wrapper">
             <ins
               class="adsbygoogle"
-              style="display: inline-block; width: 300px; height: 100px"
+              style="display: inline-block; width: 300px; height: 300px"
               data-ad-client="ca-pub-4224010041977181"
               data-ad-slot="4968753003"
             ></ins>
