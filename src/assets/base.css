@@ -57,6 +57,11 @@
   height: 100px;
 }
 
+.adsbygoogle{
+  width: 100%;
+  height: 100%;
+}
+
 .ads-content1 {
   width: 100%;
   height: 160px;
