@@ -45,8 +45,8 @@
   box-sizing: border-box;
 }
 .ads-content1 .adsbygoogle{
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .ads-content2{
@@ -58,8 +58,8 @@
   box-sizing: border-box;
 }
 .ads-content2 .adsbygoogle{
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
 .ads-content2 iframe{
   width: 100%;
