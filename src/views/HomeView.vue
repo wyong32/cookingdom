@@ -330,8 +330,20 @@ onUnmounted(() => {
           </div>
         </section>
 
-        <!-- 广告2 -->
-        <aside class="ads-wrapper">
+        <!-- 横幅广告-PC -->
+        <aside class="ads-wrapper ads-pc">
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-4224010041977181"
+            data-ad-slot="5082952007"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </aside>
+
+        <!-- 横幅广告-PH -->
+        <aside class="ads-wrapper ads-ph">
           <ins
             class="adsbygoogle"
             style="display: inline-block; width: 300px; height: 100px"
