@@ -65,11 +65,30 @@ onMounted(() => {
       <div class="guide-view">
         <!-- Added fallback text -->
         <h1>{{ $t('guides.title') }}</h1>
+
+        <aside class="ads-wrapper ads-ph">
+          <ins
+            class="adsbygoogle"
+            style="display: inline-block; width: 300px; height: 100px"
+            data-ad-client="ca-pub-4224010041977181"
+            data-ad-slot="3712377621"
+          ></ins>
+        </aside>
+
         <h2>{{ $t('guides.title1') }}</h2>
 
         <!-- Use the GuidesSection component, passing the reactive data as props -->
         <!-- Note: prop names are kebab-case in template -->
         <GuidesSection :guides="guides" :is-loading="isLoading" :error="error" />
+
+        <aside class="ads-wrapper ads-ph">
+          <ins
+            class="adsbygoogle"
+            style="display: inline-block; width: 300px; height: 300px"
+            data-ad-client="ca-pub-4224010041977181"
+            data-ad-slot="4968753003"
+          ></ins>
+        </aside>
       </div>
     </main>
     <aside class="ads-right">
