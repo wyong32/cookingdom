@@ -1,48 +1,48 @@
 export const levels61to70 = [
-    {
-        "id": "cookingdom-game-level-61",
-        "title": "Cookingdom Level 61 Backyard Barbecue Walkthrough",
-        "pageTitle": "Cookingdom Level 61 Backyard Barbecue Walkthrough",
-        "pageSubtitle": "Master the art of grilling in Level 61 of Cookingdom with the Backyard Barbecue.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_61.webp",
-        "detailsRoute": {
-            "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-61" }
+  {
+    id: "cookingdom-game-level-61",
+    title: "Cookingdom Level 61 Backyard Barbecue Walkthrough",
+    pageTitle: "Cookingdom Level 61 Backyard Barbecue Walkthrough",
+    pageSubtitle: "Master the art of grilling in Level 61 of Cookingdom with the Backyard Barbecue.",
+    category: "61-70",
+    publishDate: "2025-06-23",
+    isSpecial: false,
+    imageUrl: "/images/guides_61.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-61" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/9jKvvxWmZWg",
+    seo: {
+      title: "Cookingdom Level 61 Backyard Barbecue Walkthrough & Tips",
+      "description": "Learn how to master the Backyard Barbecue in Cookingdom Level 61. Follow the grilling process to serve the best barbecue for a 3-star rating.",
+      "keywords": "cookingdom level 61, backyard barbecue, grilling, barbecue recipe, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_61.webp",
+      levelInfoHtml: "<h3>Backyard Barbecue</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 3–4 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-60",
+          title: "Cookingdom Level 60 Bouillabaisse Walkthrough",
+          imageUrl: "/images/guides_60.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-60" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
-        "seo": {
-            "title": "Cookingdom Level 61 Backyard Barbecue Walkthrough & Tips",
-            "description": "Learn how to master the Backyard Barbecue in Cookingdom Level 61. Follow the grilling process to serve the best barbecue for a 3-star rating.",
-            "keywords": "cookingdom level 61, backyard barbecue, grilling, barbecue recipe, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_61.webp",
-            "levelInfoHtml": "<h3>Backyard Barbecue</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 3–4 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-60",
-                    "title": "Cookingdom Level 60 Bouillabaisse Walkthrough",
-                    "imageUrl": "/images/guides_60.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-60" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          id: "cookingdom-game-level-62",
+          title: "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+          imageUrl: "/images/guides_62.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-62" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
       <h2>Level Overview</h2>
       
       <p>Level 61 introduces the art of grilling with the Backyard Barbecue. You'll need to prepare various meats and vegetables, ensuring they’re grilled to perfection and served with the right sauces and sides.</p>
@@ -92,52 +92,52 @@ export const levels61to70 = [
       
       <p>Level 61 challenges you to perfect your grilling skills, multitask with sides and sauces, and manage timing effectively to serve customers. Mastering the Backyard Barbecue will unlock new grill recipes and allow you to upgrade your barbecue station.</p>
       `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-62",
-        "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-        "pageTitle": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-        "pageSubtitle": "Master the art of slow-cooking Campfire Beef Stew in Level 62 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_62.webp",
-        "detailsRoute": {
-            "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-62" }
+  {
+    id: "cookingdom-game-level-62",
+    title: "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+    pageTitle: "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+    pageSubtitle: "Master the art of slow-cooking Campfire Beef Stew in Level 62 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-23",
+    isSpecial: false,
+    imageUrl: "/images/guides_62.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-62" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/Dptm7wVOCg4",
+    seo: {
+      title: "Cookingdom Level 62 Campfire Beef Stew Walkthrough & Tips",
+      "description": "Learn how to cook the perfect Campfire Beef Stew in Cookingdom Level 62. Follow the slow-cooking process to serve a hearty meal with the right ingredients for a 3-star rating.",
+      "keywords": "cookingdom level 62, campfire beef stew, beef stew, slow-cooking, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_62.webp",
+      levelInfoHtml: "<h3>Campfire Beef Stew</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Est. Time:</strong> 5–6 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-61",
+          title: "Cookingdom Level 61 Backyard Barbecue Walkthrough",
+          imageUrl: "/images/guides_61.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-61" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
-        "seo": {
-            "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough & Tips",
-            "description": "Learn how to cook the perfect Campfire Beef Stew in Cookingdom Level 62. Follow the slow-cooking process to serve a hearty meal with the right ingredients for a 3-star rating.",
-            "keywords": "cookingdom level 62, campfire beef stew, beef stew, slow-cooking, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_62.webp",
-            "levelInfoHtml": "<h3>Campfire Beef Stew</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Est. Time:</strong> 5–6 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-61",
-                    "title": "Cookingdom Level 61 Backyard Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_61.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-61" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          id: "cookingdom-game-level-63",
+          title: "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          imageUrl: "/images/guides_63.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
       <h2>Level Overview</h2>
       
       <p>Level 62 introduces a hearty and slow-cooked dish: Campfire Beef Stew. This level focuses on managing the slow-cooking process and adding the right ingredients at the right time to create a flavorful stew.</p>
@@ -194,52 +194,52 @@ export const levels61to70 = [
       
       <p>Level 62 tests your ability to manage time and ingredients effectively, as you prepare a delicious Campfire Beef Stew from scratch. Success in this level requires patience, timing, and the ability to multitask in a slow-cooking environment. Master this level to unlock more hearty stew recipes and campfire cooking upgrades.</p>
       `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-63",
-        "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-        "pageTitle": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-        "pageSubtitle": "Master the art of grilling in the beautiful beachside setting of Level 63 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_63.webp",
-        "detailsRoute": {
-            "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-63" }
+  {
+    id: "cookingdom-game-level-63",
+    title: "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+    pageTitle: "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+    pageSubtitle: "Master the art of grilling in the beautiful beachside setting of Level 63 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-23",
+    isSpecial: false,
+    imageUrl: "/images/guides_63.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-63" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/mjk0e7uV8Cs",
+    seo: {
+      title: "Cookingdom Level 63 Beachside Barbecue Walkthrough & Tips",
+      "description": "Learn how to prepare a perfect Beachside Barbecue in Cookingdom Level 63. Follow the grilling steps and serve with the right sides for a 3-star rating.",
+      "keywords": "cookingdom level 63, beachside barbecue, grilling, beach barbecue recipe, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_63.webp",
+      levelInfoHtml: "<h3>Beachside Barbecue</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 4–5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-62",
+          title: "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+          imageUrl: "/images/guides_62.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-62" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
-        "seo": {
-            "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough & Tips",
-            "description": "Learn how to prepare a perfect Beachside Barbecue in Cookingdom Level 63. Follow the grilling steps and serve with the right sides for a 3-star rating.",
-            "keywords": "cookingdom level 63, beachside barbecue, grilling, beach barbecue recipe, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_63.webp",
-            "levelInfoHtml": "<h3>Beachside Barbecue</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 4–5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-64",
-                    "title": "Cookingdom Level 64 Dimsum Walkthrough",
-                    "imageUrl": "/images/guides_64.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          id: "cookingdom-game-level-64",
+          title: "Cookingdom Level 64 Dimsum Walkthrough",
+          imageUrl: "/images/guides_64.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
       <h2>Level Overview</h2>
       
       <p>Level 63 brings a fun and relaxed Beachside Barbecue experience. You’ll need to grill various meats and seafood, serve fresh sides, and make sure everything is cooked to perfection while managing the beach setting.</p>
@@ -289,43 +289,43 @@ export const levels61to70 = [
       
       <p>Level 63 challenges your ability to manage grilling, side preparation, and serving all in a relaxed beach setting. Balancing the grill times and multitasking between sides and sauces will be key to completing this level with a high rating. Master this level to unlock more beachside barbecue recipes and upgrade your grilling station.</p>
       `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-64",
-        "title": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_64.webp",
-        "detailsRoute": {
-            "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-64" }
-        },
-        "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
-        "seo": {
-            "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
-            "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
-            "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_64.webp",
-            "levelInfoHtml": "<h3>Dimsum</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 4–5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+  {
+    id: "cookingdom-game-level-64",
+    title: "Cookingdom Level 64 Dimsum Walkthrough",
+    pageTitle: "Cookingdom Level 64 Dimsum Walkthrough",
+    pageSubtitle: "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-23",
+    isSpecial: false,
+    imageUrl: "/images/guides_64.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-64" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/7p54zH2mLgs",
+    seo: {
+      title: "Cookingdom Level 64 Dimsum Walkthrough & Tips",
+      "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
+      "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_64.webp",
+      levelInfoHtml: "<h3>Dimsum</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 4–5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-63",
+          title: "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          imageUrl: "/images/guides_63.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
       <h2>Level Overview</h2>
       
       <p>Level 64 introduces Dimsum, a variety of bite-sized dumplings, buns, and other traditional treats. You'll need to master the art of preparing and steaming these delicate dishes while keeping an eye on timing and customer orders.</p>
@@ -375,7 +375,7 @@ export const levels61to70 = [
       
       <p>Level 64 is all about precision and timing as you prepare Dimsum, a traditional and delicate dish. Mastering dough handling, filling the dumplings and buns correctly, and perfectly timing the steaming process will be crucial for success. Completing this level will unlock more advanced Dimsum recipes and allow you to upgrade your kitchen for faster preparation.</p>
       `
-    }
+  }
 
 
 

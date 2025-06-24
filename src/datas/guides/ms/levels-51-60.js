@@ -761,5 +761,101 @@ export const levels51to60 = [
 
 <h2>Ringkasan</h2>
 <p>Tahap 59 Cookingdom membawa anda lebih dekat kepada seni pencuci mulut tradisional Jepun melalui pembuatan mochi. Tahap ini menguji kecekapan masa, kemahiran membentuk, dan pengetahuan bahan. Selesaikan tahap ini untuk membuka lebih banyak pencuci mulut antarabangsa dan meningkatkan kemahiran anda dalam Cookingdom!</p>`,
+  },
+
+  {
+    "id": "cookingdom-game-level-60",
+    "title": "Cookingdom Tahap 60 Bouillabaisse Panduan",
+    "pageTitle": "Cookingdom Tahap 60 Bouillabaisse Panduan",
+    "pageSubtitle": "Menguasai seni menyediakan Bouillabaisse pada Tahap 60 dalam Cookingdom.",
+    "category": "51-60",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_60.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-60" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/FhFxDFvyM7U",
+    "seo": {
+      "title": "Cookingdom Tahap 60 Bouillabaisse Panduan & Petua",
+      "description": "Pelajari cara menyediakan Bouillabaisse dengan sempurna di Cookingdom Tahap 60. Ikuti langkah penyediaan yang tepat dan hiasi dengan garnis yang betul untuk mendapatkan penarafan 3 bintang.",
+      "keywords": "cookingdom tahap 60, bouillabaisse, sup makanan laut, panduan, petua memasak, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_60.webp",
+      "levelInfoHtml": "<h3>Bouillabaisse</h3><p><strong>Kebolehan:</strong> Sukar</p><p><strong>Masa Dijangka:</strong> 4–5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-59",
+          "title": "Cookingdom Tahap 59 Mochi Panduan",
+          "imageUrl": "/images/guides_59.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-59" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-61" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+    <h2>Gambaran Tahap</h2>
+    
+    <p>Tahap 60 memperkenalkan hidangan makanan laut yang mencabar: Bouillabaisse, sup makanan laut tradisional Perancis. Hidangan ini melibatkan mendidihkan pelbagai jenis makanan laut, menambah kaldu, dan memastikan hiasan yang betul untuk persembahan yang sempurna.</p>
+    
+    <h2>Objektif</h2>
+    
+    <p>Sediakan dan hidangkan gabungan Bouillabaisse yang betul kepada semua pelanggan sebelum masa tamat. Fokus pada penyediaan makanan laut yang tepat, mengawal ketebalan kaldu, dan menghias dengan betul.</p>
+    
+    <h2>Proses Memasak</h2>
+    
+    <h3>Langkah 1: Sediakan Makanan Laut</h3>
+    
+    <ul>
+      <li>Mula dengan memilih bahan makanan laut—ikan, kerang, dan ketam—mengikut pesanan.</li>
+      <li>Letakkan mereka dalam periuk untuk mula dimasak. Kacau sesekali untuk mengelakkan makanan laut terlalu masak.</li>
+    </ul>
+    
+    <h3>Langkah 2: Tambahkan Kaldu</h3>
+    
+    <ul>
+      <li>Setelah makanan laut dimasak, tambahkan satu senduk kaldu yang kaya ke dalam periuk.</li>
+      <li>Pastikan ketebalan kaldu adalah tepat. Kaldu yang terlalu pekat atau terlalu cair akan menjejaskan kualiti hidangan.</li>
+    </ul>
+    
+    <h3>Langkah 3: Hias Bouillabaisse</h3>
+    
+    <ul>
+      <li>Hiasan yang biasa termasuk roti bakar, pasli, dan hirisan lemon.</li>
+      <li>Seret dan letakkan hiasan yang betul mengikut pesanan pelanggan, pastikan tidak terlepas sebarang permintaan khas.</li>
+    </ul>
+    
+    <h3>Langkah 4: Hidangkan</h3>
+    
+    <p>Setelah Bouillabaisse disediakan, hidangkan segera kepada pelanggan. Kelewatan atau hiasan yang salah akan menjejaskan penarafan anda.</p>
+    
+    <h2>Petua dan Trik</h2>
+    
+    <ul>
+      <li><strong>Jejak Masa Memasak Makanan Laut:</strong> Jenis makanan laut yang berbeza dimasak pada kadar yang berbeza. Perhatikan setiap jenis makanan laut dengan teliti.</li>
+      <li><strong>Ketebalan Kaldu:</strong> Pantau kaldu dengan teliti dan sesuaikan jumlah yang ditambah untuk mengekalkan ketebalan yang ideal.</li>
+      <li><strong>Kuasai Urutan Hiasan:</strong> Sesetengah pelanggan lebih suka hiasan tertentu pada awal atau akhir. Ingat keutamaan mereka.</li>
+      <li><strong>Berbilang Tugas dengan Efisien:</strong> Sediakan hidangan makanan laut yang seterusnya sementara anda menghias pesanan semasa untuk menjimatkan masa.</li>
+      <li><strong>Gunakan Penentu Masa dengan Bijak:</strong> Mulakan lebih awal, dan cuba untuk menghidangkan Bouillabaisse sebelum masa hampir tamat untuk penarafan yang lebih baik.</li>
+    </ul>
+    
+    <h2>Ringkasan</h2>
+    
+    <p>Tahap 60 menguji kemahiran multitasking anda, kerana anda perlu menguruskan penyediaan makanan laut, ketebalan kaldu, dan hiasan dengan cepat dan tepat. Menguasai tahap ini akan membuka lebih banyak resipi makanan laut dan meningkatkan peralatan memasak dalam permainan.</p>
+    `
   }
+
 ]

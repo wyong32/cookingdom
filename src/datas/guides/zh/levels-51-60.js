@@ -754,4 +754,100 @@ export const levels51to60 = [
 <h2>总结</h2>
 <p>Cookingdom 第59关让你深入了解日式传统甜点的制作过程。蒸煮、揉捏、包馅、装饰，每一步都考验玩家的操作节奏与对细节的把控。通关后可解锁更多国际甜品，提升你的 Cookingdom 糕点技能！</p>`,
   },
+
+  {
+    "id": "cookingdom-game-level-60",
+    "title": "Cookingdom 第60关 法式海鲜炖汤攻略",
+    "pageTitle": "Cookingdom 第60关 法式海鲜炖汤攻略",
+    "pageSubtitle": "在 Cookingdom 第60关掌握法式海鲜炖汤的制作技巧。",
+    "category": "51-60",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_60.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-60" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/FhFxDFvyM7U",
+    "seo": {
+      "title": "Cookingdom 第60关 法式海鲜炖汤攻略与技巧",
+      "description": "学习如何完美制作法式海鲜炖汤。在 Cookingdom 第60关，跟随正确的烹饪步骤和合适的配菜，轻松获得三星评价。",
+      "keywords": "cookingdom 第60关, 法式海鲜炖汤, 海鲜炖汤, 攻略, 烹饪技巧, cookingdom 提示"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_60.webp",
+      "levelInfoHtml": "<h3>法式海鲜炖汤</h3><p><strong>难度:</strong> 困难</p><p><strong>预计时间:</strong> 4–5 分钟</p><p><strong>奖励:</strong> 3 星 + 奖励金币</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-59",
+          "title": "Cookingdom 第59关 麻糬攻略",
+          "imageUrl": "/images/guides_59.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-59" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom 第61关 后院烧烤攻略",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-61" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+    <h2>关卡概览</h2>
+    
+    <p>第60关带来了一个具有挑战性的海鲜菜肴：法式海鲜炖汤（Bouillabaisse），这是一道传统的法式海鲜炖菜。此菜肴需要将各种海鲜炖煮，加入高汤，并确保正确的配菜以完美呈现。</p>
+    
+    <h2>目标</h2>
+    
+    <p>在限定时间内，准备并为所有顾客提供正确的法式海鲜炖汤。重点是准确搭配海鲜，控制高汤的浓稠度，并合理摆放配菜。</p>
+    
+    <h2>烹饪过程</h2>
+    
+    <h3>步骤1：准备海鲜</h3>
+    
+    <ul>
+      <li>根据订单选择海鲜配料——鱼、贝类和螃蟹。</li>
+      <li>将它们放入锅中开始炖煮。确保偶尔搅拌，避免海鲜过熟。</li>
+    </ul>
+    
+    <h3>步骤2：加入高汤</h3>
+    
+    <ul>
+      <li>海鲜炖煮完成后，加入一勺浓郁的高汤。</li>
+      <li>确保高汤的浓稠度恰到好处。高汤过厚或过薄都会影响菜肴的质量。</li>
+    </ul>
+    
+    <h3>步骤3：为海鲜炖汤加配菜</h3>
+    
+    <ul>
+      <li>常见的配菜有烤面包丁、香菜和柠檬片。</li>
+      <li>根据顾客的要求，拖放正确的配菜，确保不漏掉任何特定的要求。</li>
+    </ul>
+    
+    <h3>步骤4：上菜</h3>
+    
+    <p>法式海鲜炖汤准备好后，要尽快上菜。延迟或错误的配菜会对评分产生负面影响。</p>
+    
+    <h2>技巧与窍门</h2>
+    
+    <ul>
+      <li><strong>跟踪海鲜的烹饪时间：</strong>不同种类的海鲜烹饪时间不同。注意每种海鲜的烹饪进度。</li>
+      <li><strong>高汤浓稠度：</strong>小心监控高汤的浓稠度，根据需要调整加入的量。</li>
+      <li><strong>掌握配菜顺序：</strong>有些顾客会偏好特定的配菜顺序。记住他们的偏好。</li>
+      <li><strong>高效多任务操作：</strong>在给当前订单加配菜的同时，准备下一批海鲜。</li>
+      <li><strong>合理使用计时器：</strong>尽早开始，并尽量在计时器即将结束之前上菜，以获得最佳评分。</li>
+    </ul>
+    
+    <h2>总结</h2>
+    
+    <p>第60关考验你的多任务处理能力，你需要在有限时间内兼顾海鲜的准备、汤底的浓稠度以及配菜的摆放，快速而准确地为顾客上菜。掌握这一关后，将解锁更多海鲜菜谱，并能够升级你的烹饪设备。</p>
+    `
+  }
+
 ]

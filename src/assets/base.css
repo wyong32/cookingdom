@@ -109,6 +109,9 @@
 }
 
 @media (max-width: 991px) {
+  .ads-pc{
+    display: none !important;
+  }
   .ads-ph{
     display: block !important;
   }

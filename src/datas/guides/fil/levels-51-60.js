@@ -761,5 +761,101 @@ export const levels51to60 = [
 
 <h2>Buod</h2>
 <p>Ang Antas 59 ng Cookingdom ay nagpapalapit sa iyo sa sining ng paggawa ng Japanese na mochi. Kumbinasyon ito ng timing, galing sa pagbubuo, at kaalaman sa sangkap upang mapasaya ang mga customer. Tapusin ito para ma-unlock pa ang mas maraming internasyonal na panghimagas at mapataas ang iyong dessert mastery sa Cookingdom!</p>`,
+  },
+
+  {
+    "id": "cookingdom-game-level-60",
+    "title": "Cookingdom Antas 60 Bouillabaisse Gabay",
+    "pageTitle": "Cookingdom Antas 60 Bouillabaisse Gabay",
+    "pageSubtitle": "Masterin ang sining ng paghahanda ng Bouillabaisse sa Antas 60 ng Cookingdom.",
+    "category": "51-60",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_60.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-60" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/FhFxDFvyM7U",
+    "seo": {
+      "title": "Cookingdom Antas 60 Bouillabaisse Gabay at Mga Tip",
+      "description": "Matutunan kung paano maghanda ng Bouillabaisse nang perpekto sa Cookingdom Antas 60. Sundin ang tamang hakbang ng pagluluto at maghain ng tamang garnitura para makakuha ng 3-star na rating.",
+      "keywords": "cookingdom antas 60, bouillabaisse, seafood stew, gabay, mga tip sa pagluluto, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_60.webp",
+      "levelInfoHtml": "<h3>Bouillabaisse</h3><p><strong>Antas ng Hirap:</strong> Mahirap</p><p><strong>Inaasahang Oras:</strong> 4–5 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonus na Pera</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-59",
+          "title": "Cookingdom Antas 59 Mochi Gabay",
+          "imageUrl": "/images/guides_59.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-59" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom Antas 61 Backyard Barbecue Gabay",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-61" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+    <h2>Pagtingin sa Antas</h2>
+    
+    <p>Ang Antas 60 ay nagdadala ng isang hamon sa pagkain ng dagat: Bouillabaisse, isang tradisyunal na French seafood stew. Kasama sa paghahanda ng dish na ito ang pagpapakulo ng iba't ibang uri ng seafood, pagdagdag ng sabaw, at tinitiyak na tama ang garnitura para sa isang perpektong presentasyon.</p>
+    
+    <h2>Layunin</h2>
+    
+    <p>Ihanda at ihain ang tamang kumbinasyon ng Bouillabaisse sa lahat ng mga customer bago matapos ang timer. Magtuon sa tamang kombinasyon ng seafood, kontrolin ang kapal ng sabaw, at maglagay ng tamang garnitura.</p>
+    
+    <h2>Proseso ng Pagluluto</h2>
+    
+    <h3>Hakbang 1: Ihanda ang Seafood</h3>
+    
+    <ul>
+      <li>Simulan sa pagpili ng mga seafood ingredients—isda, shellfish, at alimango—batay sa order.</li>
+      <li>Ilagay ang mga ito sa kaldereta at simulan ang pagluluto. Siguraduhing haluin paminsan-minsan upang hindi maluto ng husto.</li>
+    </ul>
+    
+    <h3>Hakbang 2: Magdagdag ng Sabaw</h3>
+    
+    <ul>
+      <li>Kapag lutong-luto na ang seafood, magdagdag ng isang ladle ng masarap na sabaw sa kaldereta.</li>
+      <li>Siguraduhing tama ang kapal ng sabaw. Kung masyadong makapal o masyadong manipis, maaapektohan ang kalidad ng dish.</li>
+    </ul>
+    
+    <h3>Hakbang 3: Maglagay ng Garnitura sa Bouillabaisse</h3>
+    
+    <ul>
+      <li>Ang mga karaniwang garnitura ay tinapay na inihaw, perehil, at hiwa ng limon.</li>
+      <li>I-drag at i-drop ang tamang garnitura batay sa order ng customer, siguraduhing walang nakakalimutang espesyal na kahilingan.</li>
+    </ul>
+    
+    <h3>Hakbang 4: Ihain</h3>
+    
+    <p>Kapag ang Bouillabaisse ay handa na, ihain ito kaagad sa customer. Ang pagkaantala o maling garnitura ay makakaapekto sa iyong rating.</p>
+    
+    <h2>Mga Tip at Trik</h2>
+    
+    <ul>
+      <li><strong>Subaybayan ang Oras ng Pagluluto ng Seafood:</strong> Ang bawat uri ng seafood ay may sariling oras ng pagluluto. Pansinin ang progreso ng bawat uri ng seafood.</li>
+      <li><strong>Kontrolin ang Kapal ng Sabaw:</strong> Bantayan ang sabaw at ayusin ang dami ng idinadagdag upang mapanatili ang tamang kapal.</li>
+      <li><strong>Masterin ang Pagkakasunod-sunod ng Garnitura:</strong> May mga customer na may partikular na preference sa pagkakasunod ng garnitura. Tandaan ang mga kahilingang ito.</li>
+      <li><strong>Gamitin ang Multitasking nang Epektibo:</strong> Maghanda ng susunod na batch ng seafood habang inaayos ang garnitura ng kasalukuyang order upang makatipid ng oras.</li>
+      <li><strong>Gamitin ng Tama ang Timer:</strong> Magsimula nang maaga at subukang ihain ang Bouillabaisse bago magtapos ang timer para sa pinakamahusay na rating.</li>
+    </ul>
+    
+    <h2>Buod</h2>
+    
+    <p>Ang Antas 60 ay sumusubok sa iyong kakayahan sa multitasking, dahil kailangan mong sabay-sabay na maghanda ng seafood, kontrolin ang kapal ng sabaw, at maglagay ng garnitura upang maghain ng Bouillabaisse nang mabilis at tumpak. Pagkatapos makumpleto ang antas na ito, magbubukas ang mga bagong seafood recipe at maaari mong i-upgrade ang iyong kagamitan sa pagluluto sa laro.</p>
+    `
   }
+
 ]
