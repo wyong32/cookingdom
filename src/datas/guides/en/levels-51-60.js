@@ -711,6 +711,15 @@ export const levels51to60 = [
             params: { id: 'cookingdom-game-level-58' },
           },
         },
+        {
+          id: 'cookingdom-game-level-60',
+          title: 'Cookingdom Level 60 Bouillabaisse Walkthrough',
+          imageUrl: '/images/guides_60.webp',
+          detailsRoute: {
+            name: 'guide-detail',
+            params: { id: 'cookingdom-game-level-60' },
+          },
+        },
       ],
     },
     detailsHtml: `<h2>Game Introduction</h2>
@@ -764,4 +773,100 @@ export const levels51to60 = [
 <h2>Summary</h2>
 <p>Cookingdom Level 59 brings you closer to traditional Japanese desserts through mochi-making. This level combines timing, shaping skills, and ingredient knowledge to delight customers. Complete it to unlock more global sweets and increase your dessert mastery in Cookingdom!</p>`,
   },
+
+  {
+    id: "cookingdom-game-level-60",
+    title: "Cookingdom Level 60 Bouillabaisse Walkthrough",
+    pageTitle: "Cookingdom Level 60 Bouillabaisse Walkthrough",
+    pageSubtitle: "Master the art of preparing Bouillabaisse in Level 60 of Cookingdom.",
+    category: "51-60",
+    publishDate: "2025-06-23",
+    isSpecial: false,
+    imageUrl: "/images/guides_60.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-60" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/FhFxDFvyM7U",
+    seo: {
+      title: "Cookingdom Level 60 Bouillabaisse Walkthrough & Tips",
+      "description": "Learn how to prepare Bouillabaisse perfectly in Cookingdom Level 60. Follow the exact cooking sequence and serve with the right garnish for a 3-star rating.",
+      "keywords": "cookingdom level 60, bouillabaisse, seafood stew, walkthrough, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_60.webp",
+      levelInfoHtml: "<h3>Bouillabaisse</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Est. Time:</strong> 4–5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-59",
+          title: "Cookingdom Level 59 Mochi Walkthrough",
+          imageUrl: "/images/guides_59.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-59" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-61",
+          title: "Cookingdom Level 61 Backyard Barbecue Walkthrough",
+          imageUrl: "/images/guides_61.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-61" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+  <h2>Level Overview</h2>
+  
+  <p>Level 60 introduces a challenging seafood dish: Bouillabaisse, a traditional French seafood stew. This dish involves simmering various seafood, adding broth, and ensuring the right garnish for a perfect presentation.</p>
+  
+  <h2>Objective</h2>
+  
+  <p>Prepare and serve the correct Bouillabaisse combinations to all customers before the timer ends. Focus on accurately combining seafood, controlling the broth consistency, and garnishing appropriately.</p>
+  
+  <h2>Cooking Process</h2>
+  
+  <h3>Step 1: Prepare the Seafood</h3>
+  
+  <ul>
+    <li>Start by selecting the seafood ingredients—fish, shellfish, and crab—based on the order.</li>
+    <li>Place them in the pot to begin cooking. Make sure to stir occasionally to prevent overcooking.</li>
+  </ul>
+  
+  <h3>Step 2: Add Broth</h3>
+  
+  <ul>
+    <li>Once the seafood is cooked, add a ladle of rich broth to the pot.</li>
+    <li>Ensure the right consistency. A too-thick or too-thin broth may affect the dish’s quality.</li>
+  </ul>
+  
+  <h3>Step 3: Garnish the Bouillabaisse</h3>
+  
+  <ul>
+    <li>Common garnishes include croutons, parsley, and a slice of lemon.</li>
+    <li>Drag and drop the correct garnish according to customer orders, ensuring you do not miss any specific requests.</li>
+  </ul>
+  
+  <h3>Step 4: Serve</h3>
+  
+  <p>Once the Bouillabaisse is prepared, serve it immediately to the customer. Delays or incorrect garnishes will negatively impact your rating.</p>
+  
+  <h2>Tips and Tricks</h2>
+  
+  <ul>
+    <li><strong>Track Seafood Cooking Times:</strong> Different seafood types cook at different rates. Pay attention to each type’s cooking progress.</li>
+    <li><strong>Broth Consistency:</strong> Monitor the broth carefully and adjust the amount added to maintain an ideal consistency.</li>
+    <li><strong>Master Garnish Order:</strong> Some customers prefer specific garnishes at the start or end. Keep track of these preferences.</li>
+    <li><strong>Multi-task Efficiently:</strong> Prepare the next batch of seafood while garnishing the current order to save time.</li>
+    <li><strong>Use Timer Wisely:</strong> Start early, and try to serve Bouillabaisse before the timer is close to running out for optimal ratings.</li>
+  </ul>
+  
+  <h2>Summary</h2>
+  
+  <p>Level 60 tests your multitasking skills, as you must juggle seafood preparation, broth consistency, and garnish placements to serve Bouillabaisse quickly and accurately. Master this level to unlock additional seafood recipes and upgrade your cooking equipment in the game.</p>
+  `
+  }
+
 ]

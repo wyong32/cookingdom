@@ -27,6 +27,9 @@
         <button :class="{ active: activeTab === '51-60' }" @click="setActiveTab('51-60')">
           {{ $t('guides.tabs.levels51_60') }}
         </button>
+        <button :class="{ active: activeTab === '61-70' }" @click="setActiveTab('61-70')">
+          {{ $t('guides.tabs.levels61_70') }}
+        </button>
         <!-- Add more tabs if needed -->
       </div>
 
@@ -134,6 +137,8 @@ const getCategoryTabForGuide = (guideId) => {
   if (category === '21-30') return '21-30'
   if (category === '31-40') return '31-40'
   if (category === '41-50') return '41-50'
+  if (category === '51-60') return '51-60'
+  if (category === '61-70') return '61-70'
 
   return category
 }
@@ -159,6 +164,8 @@ const autoSelectTabFromUrl = () => {
       if (savedCategory === '21-30') return '21-30'
       if (savedCategory === '31-40') return '31-40'
       if (savedCategory === '41-50') return '41-50'
+      if (savedCategory === '51-60') return '51-60'
+      if (savedCategory === '61-70') return '61-70'
     }
 
     // 如果没有保存的category或无法映射，尝试从guides数据中获取
@@ -231,6 +238,8 @@ const filteredGuides = computed(() => {
       '21-30': ['21-30'],
       '31-40': ['31-40'],
       '41-50': ['41-50'],
+      '51-60': ['51-60'],
+      '61-70': ['61-70'],
     }
 
     // Get the possible category values for the active tab

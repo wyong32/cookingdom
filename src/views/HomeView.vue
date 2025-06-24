@@ -331,7 +331,7 @@ onUnmounted(() => {
         </section>
 
         <!-- 横幅广告-PC -->
-        <aside class="ads-wrapper ads-height ads-pc">
+        <aside class="ads-wrapper ads-pc">
           <ins
             class="adsbygoogle"
             style="display: block"
