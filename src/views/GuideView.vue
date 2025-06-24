@@ -9,10 +9,12 @@ import { RouterLink } from 'vue-router' // Keep if needed elsewhere, maybe not h
 import GuidesSection from '@/components/GuidesSection.vue'
 // Assuming useGuides composable exists and handles locale-based fetching + route object creation
 import { useGuides } from '@/composables/useGuides' // We'll likely need to create/refactor this
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 // 移除 Adsense 组件导入
 // import Adsense from '@/components/Adsense.vue'
 
 const { t, locale } = useI18n()
+const { isMobile } = useDeviceDetection()
 
 // Use the composable to get reactive data
 // Pass locale ref to composable. It will handle reactivity.
@@ -51,7 +53,7 @@ onMounted(() => {
 
 <template>
   <div class="guide-view-main-with-ads">
-    <aside class="ads-left">
+    <aside class="ads-left" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -66,7 +68,7 @@ onMounted(() => {
         <!-- Added fallback text -->
         <h1>{{ $t('guides.title') }}</h1>
 
-        <aside class="ads-wrapper ads-ph">
+        <aside class="ads-wrapper" v-if="isMobile">
           <ins
             class="adsbygoogle"
             style="display: inline-block; width: 300px; height: 100px"
@@ -81,7 +83,7 @@ onMounted(() => {
         <!-- Note: prop names are kebab-case in template -->
         <GuidesSection :guides="guides" :is-loading="isLoading" :error="error" />
 
-        <aside class="ads-wrapper ads-ph">
+        <aside class="ads-wrapper" v-if="isMobile">
           <ins
             class="adsbygoogle"
             style="display: inline-block; width: 300px; height: 300px"
@@ -91,7 +93,7 @@ onMounted(() => {
         </aside>
       </div>
     </main>
-    <aside class="ads-right">
+    <aside class="ads-right" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"

@@ -24,6 +24,7 @@ import { useGuides } from '@/composables/useGuides'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 import { defaultLang } from '@/i18n'
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 
 // 使用 shallowRef 存储动态导入的组件
 const Swiper = shallowRef(null)
@@ -33,6 +34,7 @@ const swiperLoaded = ref(false)
 
 // Use i18n locale for useGuides
 const { locale } = useI18n()
+const { isMobile } = useDeviceDetection()
 
 // 直接使用 useGuides，但通过显示控制实现懒加载效果
 const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(locale)
@@ -98,18 +100,6 @@ const sliderImages = ref([
   '/images/banner10.webp',
 ])
 
-const isMobile = ref(false)
-
-const checkDeviceType = () => {
-  isMobile.value = window.matchMedia('(max-width: 767px)').matches
-  console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备', {
-    windowWidth: window.innerWidth,
-    mediaQuery: window.matchMedia('(max-width: 767px)').matches,
-    userAgent: navigator.userAgent,
-    time: Date.now(),
-  })
-}
-
 // 动态加载 Swiper 组件
 const loadSwiperComponents = async () => {
   try {
@@ -171,9 +161,6 @@ const loadAds = () => {
 }
 
 onMounted(() => {
-  checkDeviceType() // 只在挂载时调用一次
-  window.addEventListener('resize', checkDeviceType)
-
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
     (entries) => {
@@ -201,9 +188,7 @@ onMounted(() => {
   setTimeout(loadAds, 1000)
 })
 
-onUnmounted(() => {
-  window.removeEventListener('resize', checkDeviceType)
-})
+onUnmounted(() => {})
 </script>
 
 <template>
@@ -211,7 +196,7 @@ onUnmounted(() => {
     <div class="home-main-with-ads">
       <!-- 侧边左1广告（直接嵌入HTML） -->
 
-      <aside class="ads-left">
+      <aside class="ads-left" v-if="!isMobile">
         <ins
           class="adsbygoogle"
           style="display: block"
@@ -229,7 +214,7 @@ onUnmounted(() => {
               <h1>{{ $t('home.hero.title') }}</h1>
               <p>{{ $t('home.hero.description') }}</p>
 
-              <aside class="ads-wrapper ads-ph">
+              <aside class="ads-wrapper" v-if="isMobile">
                 <ins
                   class="adsbygoogle"
                   style="display: inline-block; width: 300px; height: 100px"
@@ -343,7 +328,7 @@ onUnmounted(() => {
         </aside>
 
         <!-- 横幅广告-PH -->
-        <aside class="ads-wrapper ads-ph">
+        <aside class="ads-wrapper" v-if="isMobile">
           <ins
             class="adsbygoogle"
             style="display: inline-block; width: 300px; height: 100px"
@@ -390,7 +375,7 @@ onUnmounted(() => {
           </template>
 
           <!-- 广告3 -->
-          <aside class="ads-wrapper ads-ph">
+          <aside class="ads-wrapper" v-if="isMobile">
             <ins
               class="adsbygoogle"
               style="display: inline-block; width: 300px; height: 100px"
@@ -608,7 +593,7 @@ onUnmounted(() => {
         </section>
       </main>
       <!-- 侧边右1广告（直接嵌入HTML） -->
-      <aside class="ads-right">
+      <aside class="ads-right" v-if="!isMobile">
         <ins
           class="adsbygoogle"
           style="display: block"

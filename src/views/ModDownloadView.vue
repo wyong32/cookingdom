@@ -1,7 +1,10 @@
 <script setup>
 import { onMounted } from 'vue'
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 // No script logic needed for now, just displaying static content
 // Version and size are now directly in i18n files
+
+const { isMobile } = useDeviceDetection()
 
 // 手动触发广告加载
 const loadAds = () => {
@@ -36,7 +39,7 @@ onMounted(() => {
 
 <template>
   <div class="mod-download-main-with-ads">
-    <aside class="ads-left">
+    <aside class="ads-left" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -182,7 +185,7 @@ onMounted(() => {
         </section>
       </div>
     </main>
-    <aside class="ads-right">
+    <aside class="ads-right" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"

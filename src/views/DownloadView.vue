@@ -2,8 +2,11 @@
 // No script logic needed for now, just displaying static content
 import { RouterLink } from 'vue-router' // Ensure RouterLink is imported if not already
 import { onMounted } from 'vue'
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 // 移除 Adsense 组件导入
 // import Adsense from '@/components/Adsense.vue'
+
+const { isMobile } = useDeviceDetection()
 
 // 手动触发广告加载
 const loadAds = () => {
@@ -38,7 +41,7 @@ onMounted(() => {
 
 <template>
   <div class="download-main-with-ads">
-    <aside class="ads-left">
+    <aside class="ads-left" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -122,7 +125,7 @@ onMounted(() => {
         </section>
       </div>
     </main>
-    <aside class="ads-right">
+    <aside class="ads-right" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"

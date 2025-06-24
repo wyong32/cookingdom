@@ -1,7 +1,7 @@
 <template>
   <div class="guide-detail-page">
     <!-- Left Ad -->
-    <aside class="ads-left">
+    <aside class="ads-left" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -26,7 +26,7 @@
           <!-- New H1 using pageTitle -->
           <h1 class="page-main-title">{{ currentGuide.pageTitle }}</h1>
 
-          <aside class="ads-wrapper ads-ph">
+          <aside class="ads-wrapper" v-if="isMobile">
             <ins
               class="adsbygoogle"
               style="display: inline-block; width: 300px; height: 100px"
@@ -50,7 +50,7 @@
           </div>
 
           <!-- 移动端横幅广告 -->
-          <!-- <aside class="ads-content ads-ph">
+          <aside class="ads-content" v-if="isMobile">
             <ins
               class="adsbygoogle"
               style="display: block"
@@ -59,7 +59,7 @@
               data-ad-format="auto"
               data-full-width-responsive="true"
             ></ins>
-          </aside> -->
+          </aside>
 
           <!-- Render HTML content using v-html (Now last) -->
           <div v-html="currentGuide.detailsHtml" class="guide-html-content"></div>
@@ -146,7 +146,7 @@
     </div>
 
     <!-- Right Ad -->
-    <aside class="ads-right">
+    <aside class="ads-right" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -167,9 +167,11 @@ import { useGuides } from '@/composables/useGuides'
 import { defaultLang } from '@/i18n'
 import { updateMetaTag } from '@/utils/head'
 import YouTubeFacade from '@/components/YouTubeFacade.vue'
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 
 const route = useRoute()
 const { t, locale } = useI18n()
+const { isMobile } = useDeviceDetection()
 
 // Use the composable for guides list, loading state, and error state
 const { guides, isLoading: isLoadingList, error: listError } = useGuides()

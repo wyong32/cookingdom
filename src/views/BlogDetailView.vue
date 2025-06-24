@@ -3,10 +3,12 @@ import { computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useBlogPosts } from '@/composables/useBlogPosts'
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 
 const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
+const { isMobile } = useDeviceDetection()
 
 const { blogPosts, isLoading: isLoadingList, error: listError } = useBlogPosts()
 
@@ -96,7 +98,7 @@ onMounted(() => {
 <template>
   <div class="blog-detail-page">
     <!-- Left Ad -->
-    <aside class="ads-left">
+    <aside class="ads-left" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -150,7 +152,7 @@ onMounted(() => {
     </div>
 
     <!-- Right Ad -->
-    <aside class="ads-right">
+    <aside class="ads-right" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"

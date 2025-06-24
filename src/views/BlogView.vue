@@ -3,8 +3,10 @@ import { computed, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 import { useBlogPosts } from '@/composables/useBlogPosts'
+import { useDeviceDetection } from '@/composables/useDeviceDetection'
 
 const { t, locale } = useI18n()
+const { isMobile } = useDeviceDetection()
 
 // Use the composable to get blog posts and loading state
 const { blogPosts, isLoading, error } = useBlogPosts()
@@ -49,7 +51,7 @@ onMounted(() => {
 
 <template>
   <div class="blog-view-main-with-ads">
-    <aside class="ads-left">
+    <aside class="ads-left" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
@@ -91,7 +93,7 @@ onMounted(() => {
         </div>
       </div>
     </main>
-    <aside class="ads-right">
+    <aside class="ads-right" v-if="!isMobile">
       <ins
         class="adsbygoogle"
         style="display: block"
