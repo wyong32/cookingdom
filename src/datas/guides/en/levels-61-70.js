@@ -322,6 +322,15 @@ export const levels61to70 = [
             name: "guide-detail",
             params: { id: "cookingdom-game-level-63" }
           }
+        },
+        {
+          id: "cookingdom-game-level-65",
+          title: "Cookingdom Level 65 Matcha Walkthrough",
+          imageUrl: "/images/guides_65.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+          }
         }
       ]
     },
@@ -375,7 +384,94 @@ export const levels61to70 = [
       
       <p>Level 64 is all about precision and timing as you prepare Dimsum, a traditional and delicate dish. Mastering dough handling, filling the dumplings and buns correctly, and perfectly timing the steaming process will be crucial for success. Completing this level will unlock more advanced Dimsum recipes and allow you to upgrade your kitchen for faster preparation.</p>
       `
+  },
+
+  {
+    id: "cookingdom-game-level-65",
+    title: "Cookingdom Level 65 Matcha Walkthrough",
+    pageTitle: "Cookingdom Level 65 Matcha Walkthrough",
+    pageSubtitle: "Brew the perfect cup of matcha in Level 65 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_65.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-65" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom Level 65 Matcha Walkthrough & Tips",
+      description: "Discover how to prepare traditional matcha tea in Cookingdom Level 65. Follow our step-by-step guide to serve the perfect brew and earn a 3-star rating.",
+      keywords: "cookingdom level 65, matcha, tea ceremony, matcha preparation, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_65.webp",
+      levelInfoHtml: "<h3>Matcha</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 4–6 minutes</p><p><strong>Reward:</strong> 3 Stars + Special Ingredient</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-64",
+          title: "Cookingdom Level 64 Dimsum Walkthrough",
+          imageUrl: "/images/guides_64.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-64" }
+          }
+        },
+      ]
+    },
+    detailsHtml: `
+      <h2>Level Overview</h2>
+  
+      <p>Level 65 introduces the traditional Japanese art of making Matcha tea. In this level, your goal is to master the brewing process, combining precision and calm to satisfy tea ceremony guests with the perfect cup of matcha.</p>
+  
+      <h2>Objective</h2>
+  
+      <p>Prepare and serve matcha tea to customers using authentic techniques—measure the powder, whisk with precision, and deliver a serene tea experience within the time limit.</p>
+  
+      <h2>Brewing Process</h2>
+  
+      <h3>Step 1: Prepare the Matcha Powder</h3>
+  
+      <ul>
+        <li>Select the right grade of matcha powder according to the customer's order—ceremonial or culinary.</li>
+        <li>Use a bamboo scoop (chashaku) to measure the correct amount into the tea bowl.</li>
+      </ul>
+  
+      <h3>Step 2: Add Hot Water</h3>
+  
+      <ul>
+        <li>Heat water to the appropriate temperature (not boiling). Pour the water gently over the powder.</li>
+        <li>Be precise—too much or too little water will affect the flavor.</li>
+      </ul>
+  
+      <h3>Step 3: Whisk the Matcha</h3>
+  
+      <ul>
+        <li>Use a bamboo whisk (chasen) to whisk the mixture into a frothy, uniform tea.</li>
+        <li>Whisk in a zig-zag motion to evenly blend the powder and water.</li>
+      </ul>
+  
+      <h3>Step 4: Serve the Matcha</h3>
+  
+      <p>Gently present the matcha to the customer with the bowl facing the right direction. The presentation matters—take care with your final touches.</p>
+  
+      <h2>Tips and Tricks</h2>
+  
+      <ul>
+        <li><strong>Keep Calm:</strong> The matcha ceremony is about balance and precision. Don't rush—focus on each step with care.</li>
+        <li><strong>Watch Water Temperature:</strong> Use visual cues like steam intensity or thermometer indicators to keep the water perfect.</li>
+        <li><strong>Whisk Consistently:</strong> Practice the zig-zag motion to build muscle memory for a smooth frothy texture.</li>
+        <li><strong>Follow Guest Preferences:</strong> Some guests may request stronger or lighter brews—pay attention to the order details.</li>
+        <li><strong>Efficient Setup:</strong> Prepare scoops and whisks ahead of time to reduce prep delays.</li>
+      </ul>
+  
+      <h2>Summary</h2>
+  
+      <p>Cookingdom Level 65 offers a calming yet challenging task: crafting the perfect matcha tea. Mastering ingredient proportions, water temperature, and whisking technique will lead you to a flawless ceremony and unlock the next set of Japanese-themed recipes and tea tools.</p>
+    `
   }
+
 
 
 

@@ -375,7 +375,94 @@ export const levels61to70 = [
         
         <p>El nivel 64 trata sobre la precisión y el tiempo mientras preparas Dimsum, un plato tradicional y delicado. Dominar el manejo de la masa, el relleno de las empanadillas y bollos correctamente, y el tiempo perfecto para la cocción al vapor será crucial para el éxito. Completar este nivel desbloqueará más recetas avanzadas de Dimsum y te permitirá mejorar tu cocina para una preparación más rápida.</p>
         `
+    },
+
+    {
+        id: "cookingdom-game-level-65",
+        title: "Cookingdom Antas 65 Matcha Walkthrough",
+        pageTitle: "Cookingdom Antas 65 Matcha Walkthrough",
+        pageSubtitle: "Magtimpla ng perpektong tasa ng matcha sa Antas 65 ng Cookingdom.",
+        category: "61-70",
+        publishDate: "2025-06-30",
+        isSpecial: false,
+        imageUrl: "/images/guides_65.webp",
+        detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+        },
+        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Palitan ng tunay na video ID
+        seo: {
+            title: "Cookingdom Antas 65 Matcha Walkthrough at Tips",
+            description: "Alamin kung paano maghanda ng tradisyonal na matcha tea sa Antas 65 ng Cookingdom. Sundan ang step-by-step guide upang makamit ang 3-star na rating.",
+            keywords: "cookingdom antas 65, matcha, seremonya ng tsaa, paghahanda ng matcha, gabay sa pagluluto, cookingdom tips"
+        },
+        sidebarData: {
+            sidebarImageUrl: "/images/guides_65.webp",
+            levelInfoHtml: "<h3>Matcha</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Inaasahang Oras:</strong> 4–6 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Espesyal na Sangkap</p>",
+            featuredGuides: [
+                {
+                    id: "cookingdom-game-level-64",
+                    title: "Cookingdom Antas 64 Dimsum Walkthrough",
+                    imageUrl: "/images/guides_64.webp",
+                    detailsRoute: {
+                        name: "guide-detail",
+                        params: { id: "cookingdom-game-level-64" }
+                    }
+                }
+            ]
+        },
+        detailsHtml: `
+          <h2>Pangkalahatang-ideya ng Antas</h2>
+      
+          <p>Sa Antas 65, ipakikilala ang tradisyunal na sining ng seremonyang Hapones sa tsaa gamit ang matcha. Layunin mong paghusayin ang paraan ng pagbubrew nang may katumpakan at katahimikan upang mapalugod ang mga bisita gamit ang isang perpektong tasa ng tsaa.</p>
+      
+          <h2>Layon</h2>
+      
+          <p>Maghanda at maghain ng matcha tea gamit ang tunay na mga teknik—sukatin ang tamang dami ng pulbos, whisking na may kasanayan, at mabilis na serbisyo sa loob ng limitadong oras.</p>
+      
+          <h2>Paraan ng Pagtitimpla</h2>
+      
+          <h3>Hakbang 1: Ihanda ang Matcha Powder</h3>
+      
+          <ul>
+            <li>Pumili ng tamang uri ng matcha powder ayon sa order ng customer—seremonya o pangluto.</li>
+            <li>Gamitin ang bamboo scoop (chashaku) upang ilagay ang tamang dami sa tea bowl.</li>
+          </ul>
+      
+          <h3>Hakbang 2: Magdagdag ng Mainit na Tubig</h3>
+      
+          <ul>
+            <li>Initin ang tubig sa tamang temperatura (hindi dapat kumukulo), at ibuhos ito nang dahan-dahan sa matcha powder.</li>
+            <li>Dapat eksakto ang dami ng tubig—sobra o kulang ay makaaapekto sa lasa.</li>
+          </ul>
+      
+          <h3>Hakbang 3: I-whisk ang Matcha</h3>
+      
+          <ul>
+            <li>Gamitin ang bamboo whisk (chasen) upang ihalo at pabulain ang tsaa nang pantay.</li>
+            <li>Whisk sa zig-zag na galaw upang mahusay na maghalo ang pulbos at tubig.</li>
+          </ul>
+      
+          <h3>Hakbang 4: Ihain ang Matcha</h3>
+      
+          <p>Maingat na ihain ang matcha sa customer, siguraduhing tama ang oryentasyon ng bowl. Mahalaga ang presentasyon—bigyang-pansin ang huling detalye.</p>
+      
+          <h2>Mga Tip at Teknik</h2>
+      
+          <ul>
+            <li><strong>Manatiling Kalma:</strong> Ang seremonya ng tsaa ay tungkol sa balanse at katumpakan. Huwag magmadali—magpokus sa bawat hakbang.</li>
+            <li><strong>Obserbahan ang Temperatura ng Tubig:</strong> Gamitin ang mga palatandaan gaya ng singaw o thermometer para sa perpektong temperatura.</li>
+            <li><strong>Sanayin ang Whisking:</strong> Paulit-ulit na gawin ang zig-zag na pag-whisk para sa magandang bula.</li>
+            <li><strong>Unawain ang Gusto ng Customer:</strong> Ang ilan ay maaaring gusto ng mas matapang o mas mahinang lasa—basahing mabuti ang order.</li>
+            <li><strong>Ihanda nang Maaga ang Mga Kagamitan:</strong> Ihanda ang scoop at whisk bago magsimula upang makatipid sa oras.</li>
+          </ul>
+      
+          <h2>Buod</h2>
+      
+          <p>Ang Antas 65 ng Cookingdom ay isang mapayapa ngunit mapanghamong antas: ang paggawa ng perpektong matcha tea. Kapag napagtagumpayan mo ang tamang proporsyon, temperatura, at whisking technique, mabubuksan mo ang mga bagong Japanese-themed recipe at tea tools.</p>
+        `
     }
+
 
 
 

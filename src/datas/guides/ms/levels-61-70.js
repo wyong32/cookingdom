@@ -375,7 +375,94 @@ export const levels61to70 = [
         
         <p>Level 64 adalah tentang ketepatan dan masa apabila anda menyediakan Dimsum, hidangan tradisional yang halus. Menguasai cara mengendalikan doh, meletakkan inti dengan betul, dan menyiapkan masa mengukus dengan sempurna adalah kunci kejayaan. Menyelesaikan tahap ini akan membuka resipi Dimsum yang lebih maju dan membolehkan anda menaik taraf dapur anda untuk penyediaan yang lebih pantas.</p>
         `
+    },
+
+    {
+        id: "cookingdom-game-level-65",
+        title: "Panduan Cookingdom Tahap 65 - Teh Matcha",
+        pageTitle: "Panduan Cookingdom Tahap 65 - Teh Matcha",
+        pageSubtitle: "Bancuh secawan teh matcha yang sempurna dalam Tahap 65 Cookingdom.",
+        category: "61-70",
+        publishDate: "2025-06-30",
+        isSpecial: false,
+        imageUrl: "/images/guides_65.webp",
+        detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+        },
+        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Gantikan dengan ID video sebenar
+        seo: {
+            title: "Panduan & Tips Cookingdom Tahap 65 - Teh Matcha",
+            description: "Pelajari cara menyediakan teh matcha tradisional Jepun dalam Tahap 65 Cookingdom. Ikuti panduan langkah demi langkah untuk memperoleh penarafan 3 bintang.",
+            keywords: "cookingdom tahap 65, matcha, upacara teh, penyediaan matcha, panduan memasak, tips cookingdom"
+        },
+        sidebarData: {
+            sidebarImageUrl: "/images/guides_65.webp",
+            levelInfoHtml: "<h3>Matcha</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4–6 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bahan Istimewa</p>",
+            featuredGuides: [
+                {
+                    id: "cookingdom-game-level-64",
+                    title: "Panduan Cookingdom Tahap 64 - Dim Sum",
+                    imageUrl: "/images/guides_64.webp",
+                    detailsRoute: {
+                        name: "guide-detail",
+                        params: { id: "cookingdom-game-level-64" }
+                    }
+                }
+            ]
+        },
+        detailsHtml: `
+          <h2>Gambaran Tahap</h2>
+      
+          <p>Tahap 65 memperkenalkan seni tradisional Jepun dalam menyediakan teh matcha. Dalam tahap ini, matlamat anda adalah untuk menguasai proses membancuh dengan ketepatan dan ketenangan demi memuaskan pelanggan upacara teh dengan secawan matcha yang sempurna.</p>
+      
+          <h2>Objektif</h2>
+      
+          <p>Sediakan dan hidangkan teh matcha menggunakan teknik autentik — sukatan serbuk yang tepat, pukulan yang seimbang, dan perkhidmatan yang cepat dalam masa yang ditetapkan.</p>
+      
+          <h2>Proses Membancuh</h2>
+      
+          <h3>Langkah 1: Sediakan Serbuk Matcha</h3>
+      
+          <ul>
+            <li>Pilih gred serbuk matcha yang betul mengikut pesanan pelanggan — gred upacara atau kulinari.</li>
+            <li>Gunakan sudu buluh (chashaku) untuk menyenduk kuantiti yang betul ke dalam mangkuk teh.</li>
+          </ul>
+      
+          <h3>Langkah 2: Tambah Air Panas</h3>
+      
+          <ul>
+            <li>Panaskan air ke suhu yang sesuai (jangan sehingga mendidih), dan tuangkan dengan lembut ke atas serbuk matcha.</li>
+            <li>Kuantiti air mesti tepat — terlalu banyak atau sedikit akan menjejaskan rasa.</li>
+          </ul>
+      
+          <h3>Langkah 3: Pukul Matcha</h3>
+      
+          <ul>
+            <li>Gunakan pemukul buluh (chasen) untuk memukul campuran hingga berbuih dan sekata.</li>
+            <li>Gunakan gerakan zig-zag untuk memastikan serbuk dan air tercampur rata.</li>
+          </ul>
+      
+          <h3>Langkah 4: Hidangkan Matcha</h3>
+      
+          <p>Hidangkan teh matcha dengan cermat kepada pelanggan, pastikan posisi mangkuk betul. Penyampaian memainkan peranan penting — perhatikan sentuhan akhir anda.</p>
+      
+          <h2>Petua dan Trik</h2>
+      
+          <ul>
+            <li><strong>Tenang dan Fokus:</strong> Upacara teh menekankan keseimbangan dan ketepatan. Jangan tergesa-gesa — tumpukan perhatian pada setiap langkah.</li>
+            <li><strong>Perhatikan Suhu Air:</strong> Gunakan petunjuk visual seperti wap atau termometer untuk mendapatkan suhu yang sempurna.</li>
+            <li><strong>Latihan Pukulan:</strong> Amalkan gerakan zig-zag untuk menghasilkan buih yang halus dan sekata.</li>
+            <li><strong>Patuhi Kegemaran Pelanggan:</strong> Sesetengah pelanggan mungkin mahukan rasa yang lebih kuat atau lebih ringan — baca pesanan dengan teliti.</li>
+            <li><strong>Persediaan Awal:</strong> Sediakan semua peralatan lebih awal untuk mengelakkan kelewatan semasa menyediakan.</li>
+          </ul>
+      
+          <h2>Ringkasan</h2>
+      
+          <p>Tahap 65 Cookingdom memberikan cabaran yang menenangkan namun memerlukan ketelitian — menyediakan teh matcha yang sempurna. Kuasai sukatan bahan, suhu air, dan teknik pukulan untuk mencapai kejayaan dan membuka resipi Jepun serta peralatan teh yang baharu.</p>
+        `
     }
+
 
 
 

@@ -375,7 +375,94 @@ export const levels61to70 = [
         
         <p>64级是关于精确性和时间掌控的挑战，在这里你将准备传统的精致点心。掌握面团处理、填充饺子和包子的技巧，正确掌握蒸制的时间，是成功的关键。完成此关卡后，将解锁更多进阶的点心食谱，并升级你的厨房以提高准备效率。</p>
         `
+    },
+
+    {
+        id: "cookingdom-game-level-65",
+        title: "Cookingdom 第65关 抹茶通关攻略",
+        pageTitle: "Cookingdom 第65关 抹茶通关攻略",
+        pageSubtitle: "在 Cookingdom 第65关中，冲泡完美的一杯抹茶。",
+        category: "61-70",
+        publishDate: "2025-06-30",
+        isSpecial: false,
+        imageUrl: "/images/guides_65.webp",
+        detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+        },
+        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // 替换为真实视频ID
+        seo: {
+            title: "Cookingdom 第65关抹茶通关攻略与技巧",
+            description: "在 Cookingdom 第65关中学习如何准备传统抹茶茶道。按照我们的步骤指南冲泡完美的一杯抹茶，赢得三星评分。",
+            keywords: "cookingdom 第65关, 抹茶, 茶道, 抹茶冲泡, 烹饪指南, cookingdom 技巧"
+        },
+        sidebarData: {
+            sidebarImageUrl: "/images/guides_65.webp",
+            levelInfoHtml: "<h3>抹茶</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>4–6分钟</p><p><strong>奖励：</strong>三星 + 特殊食材</p>",
+            featuredGuides: [
+                {
+                    id: "cookingdom-game-level-64",
+                    title: "Cookingdom 第64关 点心通关攻略",
+                    imageUrl: "/images/guides_64.webp",
+                    detailsRoute: {
+                        name: "guide-detail",
+                        params: { id: "cookingdom-game-level-64" }
+                    }
+                }
+            ]
+        },
+        detailsHtml: `
+          <h2>关卡概览</h2>
+      
+          <p>第65关引入了传统的日本抹茶茶道艺术。在这一关中，你的目标是掌握冲泡过程，结合精准与冷静，为茶道客人奉上完美的一杯抹茶。</p>
+      
+          <h2>关卡目标</h2>
+      
+          <p>使用地道的冲泡技巧准备并上抹茶茶饮——测量茶粉、精准搅拌，在时间限制内完成宁静的茶道体验。</p>
+      
+          <h2>冲泡流程</h2>
+      
+          <h3>步骤一：准备抹茶粉</h3>
+      
+          <ul>
+            <li>根据顾客的订单选择正确等级的抹茶粉——仪式用或料理用。</li>
+            <li>使用茶杓（Chashaku）将适量抹茶粉放入茶碗中。</li>
+          </ul>
+      
+          <h3>步骤二：添加热水</h3>
+      
+          <ul>
+            <li>将水加热至适当温度（不要沸腾），将水轻柔地倒在抹茶粉上。</li>
+            <li>保持精准——水量太多或太少都会影响口感。</li>
+          </ul>
+      
+          <h3>步骤三：搅拌抹茶</h3>
+      
+          <ul>
+            <li>使用茶筅（Chasen）将茶粉和热水搅拌成泡沫状、均匀一致的抹茶。</li>
+            <li>以“之”字形快速搅拌，使粉水充分融合。</li>
+          </ul>
+      
+          <h3>步骤四：上茶</h3>
+      
+          <p>当抹茶准备好后，将其轻柔地呈给顾客，确保茶碗方向正确。呈现仪式也很关键——注意细节。</p>
+      
+          <h2>技巧与建议</h2>
+      
+          <ul>
+            <li><strong>保持冷静：</strong>茶道讲究平衡与精准，勿急躁，专注每一步。</li>
+            <li><strong>注意水温：</strong>观察水蒸气强度或使用温度计，确保水温刚刚好。</li>
+            <li><strong>持续搅拌训练：</strong>多练习“之”字搅拌法，培养肌肉记忆，搅出完美泡沫。</li>
+            <li><strong>遵循顾客喜好：</strong>部分顾客可能偏好浓或淡，请仔细查看订单需求。</li>
+            <li><strong>准备充分：</strong>提前准备好茶杓和茶筅，避免浪费时间。</li>
+          </ul>
+      
+          <h2>总结</h2>
+      
+          <p>Cookingdom 第65关是一个令人平静却又颇具挑战的关卡：冲泡完美的抹茶。掌握材料比例、水温控制和搅拌技巧，将带你完成一场无可挑剔的茶道体验，并解锁下一组日式料理与茶具升级。</p>
+        `
     }
+
 
 
 
