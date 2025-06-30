@@ -3,26 +3,22 @@ import { ref, onMounted, onUnmounted } from 'vue'
 export function useDeviceDetection() {
   const isMobile = ref(false)
 
-  const checkDeviceType = () => {
-    isMobile.value = window.matchMedia('(max-width: 767px)').matches
-    console.log('设备检测:', isMobile.value ? '移动设备' : '桌面设备')
+  const updateDeviceStatus = () => {
+    if (typeof window !== 'undefined') {
+      isMobile.value = window.innerWidth <= 767
+    }
   }
 
-  // 立即检测设备类型
-  checkDeviceType()
-
   onMounted(() => {
-    // 监听窗口大小变化
-    window.addEventListener('resize', checkDeviceType)
+    updateDeviceStatus()
+    window.addEventListener('resize', updateDeviceStatus)
   })
 
   onUnmounted(() => {
-    // 清理事件监听器
-    window.removeEventListener('resize', checkDeviceType)
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('resize', updateDeviceStatus)
+    }
   })
 
-  return {
-    isMobile,
-    checkDeviceType
-  }
+  return { isMobile }
 }

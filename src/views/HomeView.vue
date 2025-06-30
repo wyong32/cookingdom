@@ -257,10 +257,11 @@ onUnmounted(() => {})
                 decoding="async"
               />
             </div>
-            <!-- 桌面端显示Swiper轮播 -->
-            <div v-if="!isMobile && swiperLoaded" class="hero-swiper-container card-slider">
+            <!-- 桌面端轮播图: 立即渲染占位符，JS加载后接管 -->
+            <div v-else class="hero-swiper-container card-slider">
+              <!-- Swiper 加载完成后的真实轮播 -->
               <Swiper
-                v-if="Swiper"
+                v-if="swiperLoaded && Swiper"
                 :modules="swiperModulesComponents"
                 :effect="'coverflow'"
                 :grabCursor="true"
@@ -298,20 +299,22 @@ onUnmounted(() => {})
                   </SwiperSlide>
                 </template>
               </Swiper>
-            </div>
-
-            <!-- 桌面端加载中状态 -->
-            <div v-else-if="!isMobile && !swiperLoaded" class="hero-loading-container">
-              <img
-                :src="sliderImages[0]"
-                alt="Banner Image"
-                class="hero-single-image"
-                width="350"
-                height="280"
-                loading="eager"
-                fetchpriority="high"
-              />
-              <div class="loading-indicator">loading...</div>
+              <!-- Swiper 加载前的占位符 -->
+              <div v-else class="hero-swiper-placeholder">
+                <div class="hero-swiper-slide">
+                  <img
+                    :src="sliderImages[0]"
+                    alt="Banner Image"
+                    class="slider-image"
+                    width="300"
+                    height="400"
+                    loading="eager"
+                    fetchpriority="high"
+                    decoding="async"
+                  />
+                </div>
+                <div class="loading-indicator">loading...</div>
+              </div>
             </div>
           </div>
         </section>
