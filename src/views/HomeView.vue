@@ -257,18 +257,17 @@ onUnmounted(() => {})
                 decoding="async"
               />
             </div>
-
-            <!-- 桌面端轮播图 - 仅在组件加载完成后显示 -->
-            <div v-else-if="!isMobile && swiperLoaded" class="hero-swiper-container card-slider">
-              <component
-                :is="Swiper"
+            <!-- 桌面端显示Swiper轮播 -->
+            <div v-if="!isMobile && swiperLoaded" class="hero-swiper-container card-slider">
+              <Swiper
+                v-if="Swiper"
                 :modules="swiperModulesComponents"
                 :effect="'coverflow'"
-                :grab-cursor="true"
-                :centered-slides="true"
-                :slides-per-view="'auto'"
+                :grabCursor="true"
+                :centeredSlides="true"
+                :slidesPerView="'auto'"
                 :loop="true"
-                :coverflow-effect="{
+                :coverflowEffect="{
                   rotate: 50,
                   stretch: 0,
                   depth: 100,
@@ -281,22 +280,24 @@ onUnmounted(() => {})
                 }"
                 class="hero-swiper"
               >
-                <component
-                  :is="SwiperSlide"
-                  v-for="(image, index) in sliderImages"
-                  :key="index"
-                  class="hero-swiper-slide"
-                >
-                  <img
-                    :src="image"
-                    :alt="`Cookingdom Game Screenshot ${index + 1}`"
-                    class="slider-image"
-                    width="300"
-                    height="400"
-                    loading="lazy"
-                  />
-                </component>
-              </component>
+                <template v-if="SwiperSlide">
+                  <SwiperSlide
+                    v-for="(image, index) in sliderImages"
+                    :key="index"
+                    class="hero-swiper-slide"
+                  >
+                    <img
+                      :src="image"
+                      :alt="`Cookingdom Game Screenshot ${index + 1}`"
+                      class="slider-image"
+                      width="300"
+                      height="400"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </SwiperSlide>
+                </template>
+              </Swiper>
             </div>
 
             <!-- 桌面端加载中状态 -->
