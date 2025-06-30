@@ -180,10 +180,10 @@ onMounted(() => {
     if (guidesSection) {
       observer.observe(guidesSection)
     }
-  }, 1000) // 延迟1秒，确保DOM已渲染
+  }, 2000) // 延迟3秒，确保DOM已渲染
 
   // 加载广告
-  setTimeout(loadAds, 1000)
+  setTimeout(loadAds, 2000)
 })
 </script>
 
