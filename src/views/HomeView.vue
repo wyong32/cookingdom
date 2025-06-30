@@ -1,7 +1,5 @@
 <script setup>
-import { ref, onMounted, onUnmounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
-// 移除 Adsense 组件导入
-// import Adsense from '@/components/Adsense.vue'
+import { ref, onMounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -187,8 +185,6 @@ onMounted(() => {
   // 加载广告
   setTimeout(loadAds, 1000)
 })
-
-onUnmounted(() => {})
 </script>
 
 <template>
@@ -1571,86 +1567,6 @@ main {
   color: #7c6f9f;
   line-height: 1.7;
   margin-top: -0.5rem; /* Adjust spacing */
-}
-
-/* Footer Styles - REMOVED */
-/* .footer { ... } */
-/* .footer-content { ... } */
-/* .footer-about { ... } */
-/* .social-icons a { ... } */
-/* .footer-links { ... } */
-/* .link-column { ... } */
-/* .link-column h4 { ... } */
-/* .link-column ul { ... } */
-/* .link-column li { ... } */
-/* .link-column a { ... } */
-/* .footer-bottom { ... } */
-/* .footer-bottom .heart { ... } */
-/* .footer-content { ... } */
-/* .footer-bottom { ... } */
-
-/* Adjust styles that previously relied on full-width sections if necessary */
-
-/* Example adjustment: If a section had max-width previously, it might need removal */
-/* Example: .about-section, .faq-section, .downloads-grid used max-width before. */
-/* Since the parent container now limits width, these might not be needed, */
-/* but double-check layout. For now, let's keep them to maintain internal spacing. */
-
-/* The direct children of the container within header need alignment - REMOVED */
-
-/* Sections themselves can remove max-width if they had it, as container handles it */
-/* e.g., remove max-width from .about-section, .faq-section, .downloads-grid, etc. */
-/* Let's try removing them for cleaner structure */
-
-.downloads-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 0 auto;
-  max-width: 800px; /* Re-add if needed for specific layout */
-}
-
-.about-section {
-  padding: 4rem 0;
-  display: flex;
-  gap: 3rem;
-  align-items: center;
-  background-color: #fffafa;
-  margin: 2rem 0;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.faq-section {
-  padding: 4rem 0;
-  background-color: #ffffff;
-  margin: 2rem 0;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-/* Footer content is already wrapped, .footer-content had max-width, remove it - REMOVED */
-
-/* Also remove max-width from section headers and paragraph helpers if they exist */
-.guides-section .section-header,
-.guides-section > p {
-  max-width: none; /* Remove max-width */
-  margin-left: 0; /* Adjust if centering is lost */
-  margin-right: 0;
-}
-
-.guides-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin: 0 auto; /* Center grid within its parent section */
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin: 0 auto;
 }
 
 /* --- Media Queries for Responsiveness --- */
