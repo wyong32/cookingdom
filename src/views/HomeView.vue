@@ -35,7 +35,7 @@ const { locale } = useI18n()
 const { isMobile } = useDeviceDetection()
 
 // 直接使用 useGuides，但通过显示控制实现懒加载效果
-const { guides, isLoading: guidesLoading, error: guidesError } = useGuides(locale)
+const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesData } = useGuides()
 
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
@@ -165,25 +165,23 @@ onMounted(() => {
       entries.forEach((entry) => {
         // 当指南部分进入视口时加载数据
         if (entry.isIntersecting) {
-          loadGuides()
+          loadGuidesData(locale.value)
           // 加载后取消观察
           observer.disconnect()
         }
       })
     },
-    { threshold: 0.1 }
-  ) // 当10%的元素可见时触发
+    { threshold: 0.1 } // 当10%的元素可见时触发
+  )
 
   // 开始观察指南部分
-  setTimeout(() => {
-    const guidesSection = document.getElementById('guides-section')
-    if (guidesSection) {
-      observer.observe(guidesSection)
-    }
-  }, 2000) // 延迟3秒，确保DOM已渲染
+  const guidesSection = document.getElementById('guides-section')
+  if (guidesSection) {
+    observer.observe(guidesSection)
+  }
 
-  // 加载广告
-  setTimeout(loadAds, 2000)
+  // 延迟加载广告，避免阻塞 LCP
+  setTimeout(loadAds, 3000)
 })
 </script>
 
@@ -341,38 +339,8 @@ onMounted(() => {
         <div id="guides-section">
           <h2>{{ $t('guides.title') }}</h2>
 
-          <!-- 未显示状态 - 显示占位内容 -->
-          <div v-if="!showGuides" class="guides-placeholder">
-            <div class="placeholder-item" v-for="i in 6" :key="i"></div>
-          </div>
-
-          <!-- 显示状态 - 根据加载状态显示不同内容 -->
-          <template v-else>
-            <!-- 加载状态 -->
-            <div v-if="guidesLoading" class="guides-loading">
-              <div class="loading-spinner"></div>
-              <p>Loading guide content...</p>
-            </div>
-
-            <!-- 错误状态 -->
-            <div v-else-if="guidesError" class="guides-error">
-              <p>Loading failed, please refresh the page and try again</p>
-              <button @click="loadGuides" class="btn btn-retry">Retry</button>
-            </div>
-
-            <!-- 内容已加载 -->
-            <GuidesSection
-              v-else-if="guides && guides.length > 0"
-              :guides="guides"
-              :is-loading="guidesLoading"
-              :error="guidesError"
-            />
-
-            <!-- 无数据状态 -->
-            <div v-else class="guides-empty">
-              <p>No guide content</p>
-            </div>
-          </template>
+          <!-- GuidesSection 现在总是渲染，但其内部会根据 props 显示加载状态或数据 -->
+          <GuidesSection :guides="guides" :is-loading="guidesLoading" :error="guidesError" />
 
           <!-- 广告3 -->
           <aside class="ads-wrapper" v-if="isMobile">

@@ -70,7 +70,8 @@ async function loadGuidesFromModules(lang) {
 export function useGuides() {
   const { locale } = useI18n()
 
-  async function loadGuides(lang) {
+  async function load(lang) {
+    if (isLoading.value) return // 防止重复加载
     isLoading.value = true
     error.value = null
     console.log(`Attempting to load guides for locale: ${lang}`)
@@ -136,18 +137,18 @@ export function useGuides() {
 
   // 监听 locale 变化，并在变化时重新加载数据
   // immediate: true 确保在 composable 首次被调用时就执行一次加载
-  watch(
-    locale,
-    (newLocale) => {
-      loadGuides(newLocale)
-    },
-    { immediate: true },
-  )
+  watch(locale, (newLocale) => {
+    // 仅在语言切换时加载，初始加载由手动触发
+    if (guides.value.length > 0) {
+      load(newLocale)
+    }
+  })
 
   // 返回响应式数据和状态
   return {
     guides,
     isLoading,
     error,
+    load, // 导出 load 方法
   }
 }
