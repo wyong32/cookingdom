@@ -1,48 +1,48 @@
 export const levels61to70 = [
-    {
-        "id": "cookingdom-game-level-61",
-        "title": "Cookingdom 第61关 后院烧烤攻略",
-        "pageTitle": "Cookingdom 第61关 后院烧烤攻略",
-        "pageSubtitle": "在 Cookingdom 第61关掌握后院烧烤的艺术。",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_61.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-61",
+    "title": "Cookingdom 第61关 后院烧烤攻略",
+    "pageTitle": "Cookingdom 第61关 后院烧烤攻略",
+    "pageSubtitle": "在 Cookingdom 第61关掌握后院烧烤的艺术。",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_61.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-61" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
+    "seo": {
+      "title": "Cookingdom 第61关 后院烧烤攻略与技巧",
+      "description": "学习如何在 Cookingdom 第61关掌握后院烧烤。跟随烧烤过程，提供最好的烧烤，获得3星评价。",
+      "keywords": "cookingdom 第61关, 后院烧烤, 烧烤, 烧烤食谱, 烹饪攻略, cookingdom 提示"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_61.webp",
+      "levelInfoHtml": "<h3>后院烧烤</h3><p><strong>难度:</strong> 中等</p><p><strong>预计时间:</strong> 3–4 分钟</p><p><strong>奖励:</strong> 3 星 + 奖励金币</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-60",
+          "title": "Cookingdom 第60关 法式海鲜炖汤攻略",
+          "imageUrl": "/images/guides_60.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-61" }
+            "params": { "id": "cookingdom-game-level-60" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
-        "seo": {
-            "title": "Cookingdom 第61关 后院烧烤攻略与技巧",
-            "description": "学习如何在 Cookingdom 第61关掌握后院烧烤。跟随烧烤过程，提供最好的烧烤，获得3星评价。",
-            "keywords": "cookingdom 第61关, 后院烧烤, 烧烤, 烧烤食谱, 烹饪攻略, cookingdom 提示"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_61.webp",
-            "levelInfoHtml": "<h3>后院烧烤</h3><p><strong>难度:</strong> 中等</p><p><strong>预计时间:</strong> 3–4 分钟</p><p><strong>奖励:</strong> 3 星 + 奖励金币</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-60",
-                    "title": "Cookingdom 第60关 法式海鲜炖汤攻略",
-                    "imageUrl": "/images/guides_60.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-60" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom 第62关 篝火炖牛肉攻略",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom 第62关 篝火炖牛肉攻略",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-62" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>关卡概览</h2>
         
         <p>第61关介绍了烧烤的艺术，在后院烧烤中，您需要准备各种肉类和蔬菜，确保它们被完美烧烤并配上正确的酱料和配菜。</p>
@@ -92,52 +92,52 @@ export const levels61to70 = [
         
         <p>第61关考验你的烧烤技巧、同时处理配菜和酱料的能力，并有效管理时间以为顾客提供优质的烧烤。掌握后院烧烤后，你将解锁新的烧烤食谱，并能升级你的烧烤站。</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-62",
-        "title": "Cookingdom 第62关 篝火炖牛肉攻略",
-        "pageTitle": "Cookingdom 第62关 篝火炖牛肉攻略",
-        "pageSubtitle": "在 Cookingdom 第62关掌握慢炖篝火炖牛肉的技巧。",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_62.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-62",
+    "title": "Cookingdom 第62关 篝火炖牛肉攻略",
+    "pageTitle": "Cookingdom 第62关 篝火炖牛肉攻略",
+    "pageSubtitle": "在 Cookingdom 第62关掌握慢炖篝火炖牛肉的技巧。",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_62.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-62" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
+    "seo": {
+      "title": "Cookingdom 第62关 篝火炖牛肉攻略与技巧",
+      "description": "在 Cookingdom 第62关中学习如何烹饪完美的篝火炖牛肉。遵循慢炖的过程，用正确的食材提供一顿丰盛的炖菜，获得 3 星评价。",
+      "keywords": "cookingdom 第62关, 篝火炖牛肉, 牛肉炖菜, 慢炖, 烹饪指南, cookingdom 技巧"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_62.webp",
+      "levelInfoHtml": "<h3>篝火炖牛肉</h3><p><strong>难度:</strong> 高</p><p><strong>预计时间:</strong> 5-6 分钟</p><p><strong>奖励:</strong> 3 星 + 奖励金币</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom 第61关 后院烧烤攻略",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-62" }
+            "params": { "id": "cookingdom-game-level-61" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
-        "seo": {
-            "title": "Cookingdom 第62关 篝火炖牛肉攻略与技巧",
-            "description": "在 Cookingdom 第62关中学习如何烹饪完美的篝火炖牛肉。遵循慢炖的过程，用正确的食材提供一顿丰盛的炖菜，获得 3 星评价。",
-            "keywords": "cookingdom 第62关, 篝火炖牛肉, 牛肉炖菜, 慢炖, 烹饪指南, cookingdom 技巧"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_62.webp",
-            "levelInfoHtml": "<h3>篝火炖牛肉</h3><p><strong>难度:</strong> 高</p><p><strong>预计时间:</strong> 5-6 分钟</p><p><strong>奖励:</strong> 3 星 + 奖励金币</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-61",
-                    "title": "Cookingdom 第61关 后院烧烤攻略",
-                    "imageUrl": "/images/guides_61.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-61" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom 第63关 海滩烧烤攻略",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom 第63关 海滩烧烤攻略",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>关卡概述</h2>
         
         <p>第62关引入了一道丰盛的慢炖菜肴：篝火炖牛肉。此关卡的重点是管理慢炖过程，并在适当的时间加入正确的食材，以创造出美味的炖菜。</p>
@@ -194,52 +194,52 @@ export const levels61to70 = [
         
         <p>第62关考验你如何有效地管理时间和食材，在慢炖的过程中准备一顿美味的篝火炖牛肉。要成功完成这一关，需要耐心、精准的时机把控以及多任务处理的能力。掌握这一关后，你将解锁更多丰盛的炖菜食谱，并能够升级篝火烹饪设备。</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-63",
-        "title": "Cookingdom 第63关 海滨烧烤攻略",
-        "pageTitle": "Cookingdom 第63关 海滨烧烤攻略",
-        "pageSubtitle": "在Cookingdom第63关的美丽海滨环境中，掌握烧烤艺术。",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_63.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-63",
+    "title": "Cookingdom 第63关 海滨烧烤攻略",
+    "pageTitle": "Cookingdom 第63关 海滨烧烤攻略",
+    "pageSubtitle": "在Cookingdom第63关的美丽海滨环境中，掌握烧烤艺术。",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_63.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-63" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
+    "seo": {
+      "title": "Cookingdom 第63关 海滨烧烤攻略与技巧",
+      "description": "学习如何在Cookingdom第63关准备完美的海滨烧烤。按照烧烤步骤并搭配合适的配菜，为你赢得3星评价。",
+      "keywords": "cookingdom 第63关, 海滨烧烤, 烧烤, 海滨烧烤食谱, 烹饪指南, cookingdom技巧"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_63.webp",
+      "levelInfoHtml": "<h3>海滨烧烤</h3><p><strong>难度:</strong> 中等</p><p><strong>预计时间:</strong> 4-5分钟</p><p><strong>奖励:</strong> 3星 + 奖励金币</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom 第62关 营火炖牛肉攻略",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-63" }
+            "params": { "id": "cookingdom-game-level-62" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
-        "seo": {
-            "title": "Cookingdom 第63关 海滨烧烤攻略与技巧",
-            "description": "学习如何在Cookingdom第63关准备完美的海滨烧烤。按照烧烤步骤并搭配合适的配菜，为你赢得3星评价。",
-            "keywords": "cookingdom 第63关, 海滨烧烤, 烧烤, 海滨烧烤食谱, 烹饪指南, cookingdom技巧"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_63.webp",
-            "levelInfoHtml": "<h3>海滨烧烤</h3><p><strong>难度:</strong> 中等</p><p><strong>预计时间:</strong> 4-5分钟</p><p><strong>奖励:</strong> 3星 + 奖励金币</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom 第62关 营火炖牛肉攻略",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-64",
-                    "title": "Cookingdom 第64关 点心攻略",
-                    "imageUrl": "/images/guides_64.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-64",
+          "title": "Cookingdom 第64关 点心攻略",
+          "imageUrl": "/images/guides_64.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>关卡概述</h2>
         
         <p>第63关带来了一个有趣又放松的海滨烧烤体验。你需要烤制各种肉类和海鲜，配上新鲜的配菜，确保一切都烤制完美，同时还要管理海滨环境。</p>
@@ -289,43 +289,43 @@ export const levels61to70 = [
         
         <p>第63关考验了你在海滨环境中管理烧烤、配菜和上菜的能力。合理把控烤制时间，并在配菜和调味酱的多任务处理中取得平衡，将是完成此关并获得高评分的关键。掌握此关后，你将解锁更多海滨烧烤食谱，并可升级烧烤站。</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-64",
-        "title": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_64.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-64",
+    "title": "Cookingdom 第63关 点心攻略",
+    "pageTitle": "Cookingdom 第63关 点心攻略",
+    "pageSubtitle": "Cookingdom 第63关 点心攻略.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_64.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-64" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
+    "seo": {
+      "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
+      "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
+      "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_64.webp",
+      "levelInfoHtml": "<h3>Dimsum</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>4-5分钟</p><p><strong>奖励：</strong>3星 + 奖励金币</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-64" }
-        },
-        "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
-        "seo": {
-            "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
-            "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
-            "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_64.webp",
-            "levelInfoHtml": "<h3>Dimsum</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>4-5分钟</p><p><strong>奖励：</strong>3星 + 奖励金币</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>关卡概述</h2>
         
         <p>64级介绍了传统的小点心——点心，种类繁多，包括小笼包、蒸饺、蒸包等。你需要掌握制作和蒸制这些精致点心的技巧，同时保持对时间和顾客订单的关注。</p>
@@ -375,43 +375,43 @@ export const levels61to70 = [
         
         <p>64级是关于精确性和时间掌控的挑战，在这里你将准备传统的精致点心。掌握面团处理、填充饺子和包子的技巧，正确掌握蒸制的时间，是成功的关键。完成此关卡后，将解锁更多进阶的点心食谱，并升级你的厨房以提高准备效率。</p>
         `
-    },
+  },
 
-    {
-        id: "cookingdom-game-level-65",
-        title: "Cookingdom 第65关 抹茶通关攻略",
-        pageTitle: "Cookingdom 第65关 抹茶通关攻略",
-        pageSubtitle: "在 Cookingdom 第65关中，冲泡完美的一杯抹茶。",
-        category: "61-70",
-        publishDate: "2025-06-30",
-        isSpecial: false,
-        imageUrl: "/images/guides_65.webp",
-        detailsRoute: {
+  {
+    id: "cookingdom-game-level-65",
+    title: "Cookingdom 第65关 抹茶通关攻略",
+    pageTitle: "Cookingdom 第65关 抹茶通关攻略",
+    pageSubtitle: "在 Cookingdom 第65关中，冲泡完美的一杯抹茶。",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_65.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-65" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom 第65关抹茶通关攻略与技巧",
+      description: "在 Cookingdom 第65关中学习如何准备传统抹茶茶道。按照我们的步骤指南冲泡完美的一杯抹茶，赢得三星评分。",
+      keywords: "cookingdom 第65关, 抹茶, 茶道, 抹茶冲泡, 烹饪指南, cookingdom 技巧"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_65.webp",
+      levelInfoHtml: "<h3>抹茶</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>4–6分钟</p><p><strong>奖励：</strong>三星 + 特殊食材</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-64",
+          title: "Cookingdom 第64关 点心通关攻略",
+          imageUrl: "/images/guides_64.webp",
+          detailsRoute: {
             name: "guide-detail",
-            params: { id: "cookingdom-game-level-65" }
-        },
-        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // 替换为真实视频ID
-        seo: {
-            title: "Cookingdom 第65关抹茶通关攻略与技巧",
-            description: "在 Cookingdom 第65关中学习如何准备传统抹茶茶道。按照我们的步骤指南冲泡完美的一杯抹茶，赢得三星评分。",
-            keywords: "cookingdom 第65关, 抹茶, 茶道, 抹茶冲泡, 烹饪指南, cookingdom 技巧"
-        },
-        sidebarData: {
-            sidebarImageUrl: "/images/guides_65.webp",
-            levelInfoHtml: "<h3>抹茶</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>4–6分钟</p><p><strong>奖励：</strong>三星 + 特殊食材</p>",
-            featuredGuides: [
-                {
-                    id: "cookingdom-game-level-64",
-                    title: "Cookingdom 第64关 点心通关攻略",
-                    imageUrl: "/images/guides_64.webp",
-                    detailsRoute: {
-                        name: "guide-detail",
-                        params: { id: "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        detailsHtml: `
+            params: { id: "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
           <h2>关卡概览</h2>
       
           <p>第65关引入了传统的日本抹茶茶道艺术。在这一关中，你的目标是掌握冲泡过程，结合精准与冷静，为茶道客人奉上完美的一杯抹茶。</p>
@@ -461,7 +461,7 @@ export const levels61to70 = [
       
           <p>Cookingdom 第65关是一个令人平静却又颇具挑战的关卡：冲泡完美的抹茶。掌握材料比例、水温控制和搅拌技巧，将带你完成一场无可挑剔的茶道体验，并解锁下一组日式料理与茶具升级。</p>
         `
-    }
+  }
 
 
 

@@ -1,48 +1,48 @@
 export const levels61to70 = [
-    {
-        "id": "cookingdom-game-level-61",
-        "title": "Cookingdom Уровень 61 Барбекю на Заднем Дворе Руководство",
-        "pageTitle": "Cookingdom Уровень 61 Барбекю на Заднем Дворе Руководство",
-        "pageSubtitle": "Освойте искусство гриля на уровне 61 в Cookingdom с Барбекю на Заднем Дворе.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_61.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-61",
+    "title": "Cookingdom Уровень 61 Барбекю на Заднем Дворе Руководство",
+    "pageTitle": "Cookingdom Уровень 61 Барбекю на Заднем Дворе Руководство",
+    "pageSubtitle": "Освойте искусство гриля на уровне 61 в Cookingdom с Барбекю на Заднем Дворе.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_61.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-61" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
+    "seo": {
+      "title": "Cookingdom Уровень 61 Барбекю на Заднем Дворе Руководство и Советы",
+      "description": "Узнайте, как освоить Барбекю на Заднем Дворе в Cookingdom Уровень 61. Следуйте процессу жарки, чтобы подать лучшее барбекю для 3-звездочного рейтинга.",
+      "keywords": "cookingdom уровень 61, барбекю на заднем дворе, гриль, рецепт барбекю, кулинарное руководство, cookingdom советы"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_61.webp",
+      "levelInfoHtml": "<h3>Барбекю на Заднем Дворе</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Ожидаемое время:</strong> 3–4 минуты</p><p><strong>Награда:</strong> 3 Звезды + Бонусные монеты</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-60",
+          "title": "Cookingdom Уровень 60 Буйабесса Руководство",
+          "imageUrl": "/images/guides_60.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-61" }
+            "params": { "id": "cookingdom-game-level-60" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
-        "seo": {
-            "title": "Cookingdom Уровень 61 Барбекю на Заднем Дворе Руководство и Советы",
-            "description": "Узнайте, как освоить Барбекю на Заднем Дворе в Cookingdom Уровень 61. Следуйте процессу жарки, чтобы подать лучшее барбекю для 3-звездочного рейтинга.",
-            "keywords": "cookingdom уровень 61, барбекю на заднем дворе, гриль, рецепт барбекю, кулинарное руководство, cookingdom советы"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_61.webp",
-            "levelInfoHtml": "<h3>Барбекю на Заднем Дворе</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Ожидаемое время:</strong> 3–4 минуты</p><p><strong>Награда:</strong> 3 Звезды + Бонусные монеты</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-60",
-                    "title": "Cookingdom Уровень 60 Буйабесса Руководство",
-                    "imageUrl": "/images/guides_60.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-60" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Уровень 62 Тушеное Мясо на Костре Руководство",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom Уровень 62 Тушеное Мясо на Костре Руководство",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-62" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Обзор Уровня</h2>
         
         <p>Уровень 61 знакомит вас с искусством жарки на барбекю. Вам нужно будет готовить различные виды мяса и овощей, ensuring they’re grilled to perfection and served with the right sauces and sides.</p>
@@ -92,52 +92,52 @@ export const levels61to70 = [
         
         <p>Уровень 61 проверяет ваши навыки жарки на гриле, многозадачность при подготовке гарниров и соусов, а также способность эффективно управлять временем, чтобы обслужить клиентов. Освоив барбекю на заднем дворе, вы откроете новые рецепты для гриля и сможете улучшить свою барбекю станцию.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-62",
-        "title": "Cookingdom Уровень 62 Тушеная говядина на костре Прохождение",
-        "pageTitle": "Cookingdom Уровень 62 Тушеная говядина на костре Прохождение",
-        "pageSubtitle": "Освойте искусство медленного приготовления тушеной говядины на костре на уровне 62 в Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_62.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-62",
+    "title": "Cookingdom Уровень 62 Тушеная говядина на костре Прохождение",
+    "pageTitle": "Cookingdom Уровень 62 Тушеная говядина на костре Прохождение",
+    "pageSubtitle": "Освойте искусство медленного приготовления тушеной говядины на костре на уровне 62 в Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_62.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-62" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
+    "seo": {
+      "title": "Cookingdom Уровень 62 Тушеная говядина на костре Прохождение и Советы",
+      "description": "Узнайте, как приготовить идеальную тушеную говядину на костре на уровне 62 в Cookingdom. Следуйте процессу медленного приготовления, чтобы подать сытное блюдо с правильными ингредиентами и получить 3-звездочный рейтинг.",
+      "keywords": "cookingdom уровень 62, тушеная говядина на костре, тушеное мясо, медленное приготовление, кулинарный гид, советы cookingdom"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_62.webp",
+      "levelInfoHtml": "<h3>Тушеная говядина на костре</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Ожидаемое время:</strong> 5–6 минут</p><p><strong>Награда:</strong> 3 звезды + бонусные монеты</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom Уровень 61 Барбекю на заднем дворе Прохождение",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-62" }
+            "params": { "id": "cookingdom-game-level-61" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
-        "seo": {
-            "title": "Cookingdom Уровень 62 Тушеная говядина на костре Прохождение и Советы",
-            "description": "Узнайте, как приготовить идеальную тушеную говядину на костре на уровне 62 в Cookingdom. Следуйте процессу медленного приготовления, чтобы подать сытное блюдо с правильными ингредиентами и получить 3-звездочный рейтинг.",
-            "keywords": "cookingdom уровень 62, тушеная говядина на костре, тушеное мясо, медленное приготовление, кулинарный гид, советы cookingdom"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_62.webp",
-            "levelInfoHtml": "<h3>Тушеная говядина на костре</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Ожидаемое время:</strong> 5–6 минут</p><p><strong>Награда:</strong> 3 звезды + бонусные монеты</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-61",
-                    "title": "Cookingdom Уровень 61 Барбекю на заднем дворе Прохождение",
-                    "imageUrl": "/images/guides_61.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-61" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Уровень 63 Барбекю на пляже Прохождение",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Уровень 63 Барбекю на пляже Прохождение",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Обзор уровня</h2>
         
         <p>Уровень 62 представляет собой сытное и медленно готовящееся блюдо: тушеную говядину на костре. Этот уровень фокусируется на управлении процессом медленного приготовления и добавлении правильных ингредиентов в нужное время, чтобы создать ароматное тушеное мясо.</p>
@@ -194,52 +194,52 @@ export const levels61to70 = [
         
         <p>Уровень 62 проверяет вашу способность эффективно управлять временем и ингредиентами, готовя вкусное тушеное мясо на костре с нуля. Успех в этом уровне требует терпения, точности в соблюдении времени и способности к многозадачности в процессе медленного приготовления. Освоив этот уровень, вы откроете новые сытные рецепты тушеного мяса и сможете улучшить свою кухню на костре.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-63",
-        "title": "Cookingdom Уровень 63 Барбекю у моря Подсказки",
-        "pageTitle": "Cookingdom Уровень 63 Барбекю у моря Подсказки",
-        "pageSubtitle": "Освойте искусство барбекю на пляже на Уровне 63 в Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_63.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-63",
+    "title": "Cookingdom Уровень 63 Барбекю у моря Подсказки",
+    "pageTitle": "Cookingdom Уровень 63 Барбекю у моря Подсказки",
+    "pageSubtitle": "Освойте искусство барбекю на пляже на Уровне 63 в Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_63.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-63" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
+    "seo": {
+      "title": "Cookingdom Уровень 63 Барбекю у моря Подсказки и Советы",
+      "description": "Узнайте, как приготовить идеальное барбекю у моря на Уровне 63 в Cookingdom. Следуйте шагам по приготовлению и подавайте с подходящими гарнирами для оценки 3 звезды.",
+      "keywords": "cookingdom уровень 63, барбекю у моря, гриль, рецепты барбекю, кулинарные советы, cookingdom советы"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_63.webp",
+      "levelInfoHtml": "<h3>Барбекю у моря</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Предполагаемое время:</strong> 4-5 минут</p><p><strong>Награда:</strong> 3 звезды + бонусные монеты</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom Уровень 62 Тушеная говядина на костре Подсказки",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-63" }
+            "params": { "id": "cookingdom-game-level-62" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
-        "seo": {
-            "title": "Cookingdom Уровень 63 Барбекю у моря Подсказки и Советы",
-            "description": "Узнайте, как приготовить идеальное барбекю у моря на Уровне 63 в Cookingdom. Следуйте шагам по приготовлению и подавайте с подходящими гарнирами для оценки 3 звезды.",
-            "keywords": "cookingdom уровень 63, барбекю у моря, гриль, рецепты барбекю, кулинарные советы, cookingdom советы"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_63.webp",
-            "levelInfoHtml": "<h3>Барбекю у моря</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Предполагаемое время:</strong> 4-5 минут</p><p><strong>Награда:</strong> 3 звезды + бонусные монеты</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Уровень 62 Тушеная говядина на костре Подсказки",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-64",
-                    "title": "Cookingdom Уровень 64 Димсам Подсказки",
-                    "imageUrl": "/images/guides_64.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-64",
+          "title": "Cookingdom Уровень 64 Димсам Подсказки",
+          "imageUrl": "/images/guides_64.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Обзор уровня</h2>
         
         <p>Уровень 63 приносит увлекательный и расслабляющий опыт с барбекю у моря. Вам предстоит жарить различные мясные и рыбные блюда, подавать свежие гарниры и следить за тем, чтобы все было приготовлено до совершенства, одновременно управляя атмосферой пляжа.</p>
@@ -289,43 +289,43 @@ export const levels61to70 = [
         
         <p>Уровень 63 проверяет вашу способность управлять процессом жарки, подготовкой гарниров и подачей блюд в расслабленной обстановке пляжа. Балансировка времени жарки и многозадачность при подготовке гарниров и соусов будет ключом к успешному завершению уровня и получению высокой оценки. Освоив этот уровень, вы откроете новые рецепты для барбекю на пляже и сможете улучшить свою станцию гриля.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-64",
-        "title": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_64.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-64",
+    "title": "Cookingdom Уровень 64 Dimsum Прохождение",
+    "pageTitle": "Cookingdom Уровень 64 Dimsum Прохождение",
+    "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_64.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-64" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
+    "seo": {
+      "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
+      "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
+      "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_64.webp",
+      "levelInfoHtml": "<h3>Димсам</h3><p><strong>Сложность:</strong> Средний</p><p><strong>Ожидаемое время:</strong> 4–5 минут</p><p><strong>Награда:</strong> 3 звезды + бонусные монеты</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-64" }
-        },
-        "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
-        "seo": {
-            "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
-            "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
-            "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_64.webp",
-            "levelInfoHtml": "<h3>Димсам</h3><p><strong>Сложность:</strong> Средний</p><p><strong>Ожидаемое время:</strong> 4–5 минут</p><p><strong>Награда:</strong> 3 звезды + бонусные монеты</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Обзор уровня</h2>
         
         <p>Уровень 64 вводит димсам — разнообразные крошечные пельмени, булочки и другие традиционные блюда. Вам нужно будет освоить искусство приготовления и пароварки этих изысканных блюд, внимательно следя за временем и заказами клиентов.</p>
@@ -375,43 +375,43 @@ export const levels61to70 = [
         
         <p>Уровень 64 — это проверка на точность и время, когда вы готовите димсам, традиционное и деликатное блюдо. Освоение обработки теста, правильная начиночка для пельменей и булочек, а также точное время приготовления на пару — ключ к успеху. Пройдите этот уровень и откроются новые рецепты димсам и возможности для улучшения вашей кухни для более быстрой подготовки.</p>
         `
-    },
+  },
 
-    {
-        id: "cookingdom-game-level-65",
-        title: "Cookingdom Уровень 65 — Руководство по Матча",
-        pageTitle: "Cookingdom Уровень 65 — Руководство по Матча",
-        pageSubtitle: "Заварите идеальную чашку матча на уровне 65 в игре Cookingdom.",
-        category: "61-70",
-        publishDate: "2025-06-30",
-        isSpecial: false,
-        imageUrl: "/images/guides_65.webp",
-        detailsRoute: {
+  {
+    id: "cookingdom-game-level-65",
+    title: "Cookingdom Уровень 65 — Руководство по Матча",
+    pageTitle: "Cookingdom Уровень 65 — Руководство по Матча",
+    pageSubtitle: "Заварите идеальную чашку матча на уровне 65 в игре Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_65.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-65" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Замените на действительный ID видео
+    seo: {
+      title: "Cookingdom Уровень 65 — Матча: Прохождение и Советы",
+      description: "Узнайте, как правильно готовить традиционный японский чай матча в Cookingdom на уровне 65. Следуйте пошаговому руководству и получите 3 звезды за идеальную чашку.",
+      keywords: "cookingdom уровень 65, матча, чайная церемония, приготовление матча, руководство по готовке, советы cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_65.webp",
+      levelInfoHtml: "<h3>Матча</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Время выполнения:</strong> 4–6 минут</p><p><strong>Награда:</strong> 3 звезды + Особый ингредиент</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-64",
+          title: "Cookingdom Уровень 64 — Руководство по Димсам",
+          imageUrl: "/images/guides_64.webp",
+          detailsRoute: {
             name: "guide-detail",
-            params: { id: "cookingdom-game-level-65" }
-        },
-        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Замените на действительный ID видео
-        seo: {
-            title: "Cookingdom Уровень 65 — Матча: Прохождение и Советы",
-            description: "Узнайте, как правильно готовить традиционный японский чай матча в Cookingdom на уровне 65. Следуйте пошаговому руководству и получите 3 звезды за идеальную чашку.",
-            keywords: "cookingdom уровень 65, матча, чайная церемония, приготовление матча, руководство по готовке, советы cookingdom"
-        },
-        sidebarData: {
-            sidebarImageUrl: "/images/guides_65.webp",
-            levelInfoHtml: "<h3>Матча</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Время выполнения:</strong> 4–6 минут</p><p><strong>Награда:</strong> 3 звезды + Особый ингредиент</p>",
-            featuredGuides: [
-                {
-                    id: "cookingdom-game-level-64",
-                    title: "Cookingdom Уровень 64 — Руководство по Димсам",
-                    imageUrl: "/images/guides_64.webp",
-                    detailsRoute: {
-                        name: "guide-detail",
-                        params: { id: "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        detailsHtml: `
+            params: { id: "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
           <h2>Обзор Уровня</h2>
       
           <p>Уровень 65 посвящён искусству традиционной японской чайной церемонии с матчей. Ваша задача — овладеть процессом заваривания, проявив точность и спокойствие, чтобы угодить каждому гостю идеальной чашкой чая.</p>
@@ -461,7 +461,7 @@ export const levels61to70 = [
       
           <p>Cookingdom Уровень 65 — это умиротворяющее, но требующее мастерства испытание: заварить идеальную чашку матча. Освойте пропорции, температуру и технику взбивания, чтобы добиться успеха и открыть новые японские рецепты и инструменты.</p>
         `
-    }
+  }
 
 
 
