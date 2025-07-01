@@ -41,23 +41,23 @@ const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesDa
 const latestLevels = ref([
   {
     id: 'cookingdom-game-level-61',
-    titleKey: 'home.hero.latestLevels.level56',
+    titleKey: 'home.hero.latestLevels.level61',
   },
   {
     id: 'cookingdom-game-level-62',
-    titleKey: 'home.hero.latestLevels.level57',
+    titleKey: 'home.hero.latestLevels.level62',
   },
   {
     id: 'cookingdom-game-level-63',
-    titleKey: 'home.hero.latestLevels.level58',
+    titleKey: 'home.hero.latestLevels.level63',
   },
   {
     id: 'cookingdom-game-level-64',
-    titleKey: 'home.hero.latestLevels.level59',
+    titleKey: 'home.hero.latestLevels.level64',
   },
   {
     id: 'cookingdom-game-level-65',
-    titleKey: 'home.hero.latestLevels.level60',
+    titleKey: 'home.hero.latestLevels.level65',
   },
 ])
 
