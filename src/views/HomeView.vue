@@ -150,40 +150,26 @@ watch(
 
 // 手动触发广告加载
 const loadAds = () => {
-  if (typeof window === 'undefined') return
-
-  // 检查 AdSense 脚本是否已加载
-  if (!window.adsbygoogle) {
-    console.log('AdSense script not yet loaded, retrying...')
-    setTimeout(loadAds, 2000)
-    return
-  }
-
-  try {
-    // 获取所有广告元素
-    const adElements = document.querySelectorAll('.adsbygoogle:not([data-adsbygoogle-status])')
-
-    if (adElements.length === 0) {
-      console.log('No uninitialized ads found')
-      return
-    }
-
-    console.log(`Initializing ${adElements.length} ad units`)
-
-    adElements.forEach((element, index) => {
-      try {
-        // 使用更现代的方式初始化广告
-        if (window.adsbygoogle && Array.isArray(window.adsbygoogle)) {
-          setTimeout(() => {
-            window.adsbygoogle.push({})
-          }, index * 100) // 错开初始化时间
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+    try {
+      // 直接处理所有广告元素，但添加错误处理
+      const adElements = document.querySelectorAll('.adsbygoogle')
+      adElements.forEach((el) => {
+        try {
+          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        } catch (pushError) {
+          // 忽略重复加载错误
+          if (!pushError.message.includes('already have ads')) {
+            console.error('广告加载失败:', pushError)
+          }
         }
-      } catch (error) {
-        console.warn(`Failed to initialize ad unit ${index}:`, error)
-      }
-    })
-  } catch (error) {
-    console.error('Error in loadAds function:', error)
+      })
+    } catch (e) {
+      console.error('广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 1000)
   }
 }
 

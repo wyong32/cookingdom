@@ -247,27 +247,10 @@
       }
     </script>
 
-    <!-- Google AdSense 主脚本 - 使用更现代的加载方式 -->
-    <script>
-      // 延迟加载 AdSense，减少对首屏性能的影响
-      window.addEventListener('load', function() {
-        setTimeout(function() {
-          var adsScript = document.createElement('script');
-          adsScript.async = true;
-          adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181';
-          adsScript.crossOrigin = 'anonymous';
-          adsScript.onload = function() {
-            console.log('AdSense script loaded');
-            // 确保 adsbygoogle 数组存在
-            window.adsbygoogle = window.adsbygoogle || [];
-          };
-          adsScript.onerror = function() {
-            console.warn('AdSense script failed to load');
-          };
-          document.head.appendChild(adsScript);
-        }, 3000); // 延迟3秒加载
-      });
-    </script>
+
+
+    <!-- Google AdSense 主脚本 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="app"></div>
