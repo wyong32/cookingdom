@@ -37,6 +37,9 @@ const { isMobile } = useDeviceDetection()
 // 直接使用 useGuides，但通过显示控制实现懒加载效果
 const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesData } = useGuides()
 
+// 跟踪攻略数据是否已经开始加载
+const guidesLoadTriggered = ref(false)
+
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
   {
@@ -169,6 +172,7 @@ onMounted(() => {
       entries.forEach((entry) => {
         // 当指南部分进入视口时加载数据
         if (entry.isIntersecting) {
+          guidesLoadTriggered.value = true
           loadGuidesData(locale.value)
           // 加载后取消观察
           observer.disconnect()
@@ -344,7 +348,11 @@ onMounted(() => {
           <h2>{{ $t('guides.title') }}</h2>
 
           <!-- GuidesSection 现在总是渲染，但其内部会根据 props 显示加载状态或数据 -->
-          <GuidesSection :guides="guides" :is-loading="guidesLoading" :error="guidesError" />
+          <GuidesSection
+            :guides="guides"
+            :is-loading="guidesLoading || !guidesLoadTriggered"
+            :error="guidesError"
+          />
 
           <!-- 广告3 -->
           <aside class="ads-wrapper" v-if="isMobile">

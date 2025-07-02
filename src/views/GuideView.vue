@@ -18,7 +18,7 @@ const { isMobile } = useDeviceDetection()
 
 // Use the composable to get reactive data
 // Pass locale ref to composable. It will handle reactivity.
-const { guides, isLoading, error } = useGuides(locale)
+const { guides, isLoading, error, load } = useGuides()
 
 // 手动触发广告加载
 const loadAds = () => {
@@ -46,6 +46,9 @@ const loadAds = () => {
 }
 
 onMounted(() => {
+  // 立即加载攻略数据，因为这是攻略页面
+  load(locale.value)
+
   // 加载广告
   setTimeout(loadAds, 1000)
 })

@@ -136,10 +136,10 @@ export function useGuides() {
   }
 
   // 监听 locale 变化，并在变化时重新加载数据
-  // immediate: true 确保在 composable 首次被调用时就执行一次加载
   watch(locale, (newLocale) => {
-    // 仅在语言切换时加载，初始加载由手动触发
-    if (guides.value.length > 0) {
+    // 语言切换时重新加载数据（如果已经有数据的话）
+    // 初始加载仍需手动触发，但语言切换后会自动重新加载
+    if (guides.value.length > 0 || isLoading.value) {
       load(newLocale)
     }
   })
