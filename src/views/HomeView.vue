@@ -133,16 +133,37 @@ const loadSwiperComponents = async () => {
 watch(
   () => isMobile.value,
   (val) => {
+    // 完全延迟Swiper加载，直到用户交互或页面完全稳定
     if (!val && !swiperLoaded.value) {
-      // 使用 requestIdleCallback 在浏览器空闲时加载 Swiper
-      if (window.requestIdleCallback) {
-        window.requestIdleCallback(() => {
-          setTimeout(loadSwiperComponents, 1000)
-        })
-      } else {
-        // 降级方案：延迟更久一些
-        setTimeout(loadSwiperComponents, 2000)
+      // 延迟到页面加载完成后的10秒，或者用户开始交互时
+      const loadSwiperAfterStable = () => {
+        if (window.requestIdleCallback) {
+          window.requestIdleCallback(
+            () => {
+              loadSwiperComponents()
+            },
+            { timeout: 10000 }
+          )
+        } else {
+          setTimeout(loadSwiperComponents, 10000)
+        }
       }
+
+      // 监听用户交互，提前加载
+      const earlyLoadEvents = ['scroll', 'mousemove', 'click', 'touchstart']
+      const handleEarlyLoad = () => {
+        loadSwiperComponents()
+        earlyLoadEvents.forEach((event) => {
+          document.removeEventListener(event, handleEarlyLoad, { passive: true })
+        })
+      }
+
+      earlyLoadEvents.forEach((event) => {
+        document.addEventListener(event, handleEarlyLoad, { passive: true, once: true })
+      })
+
+      // 备用延迟加载
+      setTimeout(loadSwiperAfterStable, 3000)
     }
   },
   { immediate: true }
@@ -174,40 +195,47 @@ const loadAds = () => {
 }
 
 onMounted(() => {
-  // 使用 requestIdleCallback 来延迟非关键任务
-  const scheduleNonCriticalTasks = () => {
-    // 设置 IntersectionObserver
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          // 当指南部分进入视口时加载数据
-          if (entry.isIntersecting) {
-            guidesLoadTriggered.value = true
-            loadGuidesData(locale.value)
-            // 加载后取消观察
-            observer.disconnect()
-          }
-        })
-      },
-      { threshold: 0.1 } // 当10%的元素可见时触发
-    )
+  // 最小化初始化任务，只保留最关键的
+  const criticalTasks = () => {
+    // 延迟所有非关键操作到页面稳定后
+    setTimeout(() => {
+      const scheduleNonCriticalTasks = () => {
+        // 设置 IntersectionObserver
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                guidesLoadTriggered.value = true
+                loadGuidesData(locale.value)
+                observer.disconnect()
+              }
+            })
+          },
+          { threshold: 0.1 }
+        )
 
-    // 开始观察指南部分
-    const guidesSection = document.getElementById('guides-section')
-    if (guidesSection) {
-      observer.observe(guidesSection)
-    }
+        const guidesSection = document.getElementById('guides-section')
+        if (guidesSection) {
+          observer.observe(guidesSection)
+        }
 
-    // 延迟加载广告，避免阻塞 LCP
-    setTimeout(loadAds, 5000) // 增加到5秒
+        // 进一步延迟广告加载
+        setTimeout(loadAds, 8000)
+      }
+
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(scheduleNonCriticalTasks, { timeout: 5000 })
+      } else {
+        setTimeout(scheduleNonCriticalTasks, 2000)
+      }
+    }, 100) // 给关键内容渲染留出时间
   }
 
-  // 使用 requestIdleCallback 在浏览器空闲时执行非关键任务
-  if (window.requestIdleCallback) {
-    window.requestIdleCallback(scheduleNonCriticalTasks, { timeout: 3000 })
+  // 使用最小延迟执行关键任务
+  if (window.requestAnimationFrame) {
+    window.requestAnimationFrame(criticalTasks)
   } else {
-    // 降级方案
-    setTimeout(scheduleNonCriticalTasks, 1000)
+    setTimeout(criticalTasks, 16) // ~1 frame at 60fps
   }
 })
 </script>
@@ -265,21 +293,21 @@ onMounted(() => {
                 </button>
               </div>
             </div>
-            <!-- 移动端显示单张图片 -->
-            <!-- <div v-if="isMobile" class="hero-single-image-container">
+            <!-- 移动端显示单张图片 - 优化加载 -->
+            <div v-if="isMobile" class="hero-single-image-container">
               <img
                 :src="sliderImages[0]"
-                alt="Banner Image"
+                alt="Cookingdom Game Banner"
                 class="hero-single-image"
                 width="350"
                 height="280"
                 loading="eager"
                 fetchpriority="high"
-                decoding="async"
+                decoding="sync"
               />
-            </div> -->
+            </div>
             <!-- 桌面端轮播图: 立即渲染占位符，JS加载后接管 -->
-            <div v-if="!isMobile" class="hero-swiper-container card-slider">
+            <div v-else class="hero-swiper-container card-slider">
               <!-- Swiper 加载完成后的真实轮播 -->
               <Swiper
                 v-if="swiperLoaded && Swiper"
@@ -325,16 +353,16 @@ onMounted(() => {
                 <div class="hero-swiper-slide">
                   <img
                     :src="sliderImages[0]"
-                    alt="Banner Image"
+                    alt="Cookingdom Game Banner"
                     class="slider-image"
                     width="300"
                     height="400"
                     loading="eager"
                     fetchpriority="high"
-                    decoding="async"
+                    decoding="sync"
                   />
                 </div>
-                <div class="loading-indicator">loading...</div>
+                <div class="loading-indicator">Loading...</div>
               </div>
             </div>
           </div>
