@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
+import { ref, onMounted, defineAsyncComponent, shallowRef, watch, nextTick } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -111,19 +111,24 @@ const sliderImages = ref([
 // 动态加载 Swiper 组件
 const loadSwiperComponents = async () => {
   try {
-    // 动态导入 Swiper 组件
-    const swiperModule = await import('swiper/vue')
+    // 使用动态导入，但增加性能优化
+    const [swiperModule, modulesModule] = await Promise.all([
+      import('swiper/vue'),
+      import('swiper/modules'),
+    ])
+
     Swiper.value = swiperModule.Swiper
     SwiperSlide.value = swiperModule.SwiperSlide
-
-    // 动态导入 Swiper 模块
-    const modulesModule = await import('swiper/modules')
     swiperModulesComponents.value = [modulesModule.Autoplay, modulesModule.EffectCoverflow]
 
-    // 动态导入 CSS
-    await import('swiper/css')
-    await import('swiper/css/autoplay')
-    await import('swiper/css/effect-coverflow')
+    // 延迟加载CSS，避免阻塞
+    requestIdleCallback(() => {
+      Promise.all([
+        import('swiper/css'),
+        import('swiper/css/autoplay'),
+        import('swiper/css/effect-coverflow'),
+      ]).catch((error) => console.warn('Swiper CSS 加载失败:', error))
+    })
 
     swiperLoaded.value = true
     console.log('Swiper 组件加载完成')
@@ -132,73 +137,138 @@ const loadSwiperComponents = async () => {
   }
 }
 
-// 自动在桌面端加载Swiper组件
+// 自动在桌面端加载Swiper组件，但使用 requestIdleCallback 优化时机
 watch(
   () => isMobile.value,
   (val) => {
     if (!val && !swiperLoaded.value) {
-      loadSwiperComponents()
+      // 使用 requestIdleCallback 延迟加载，不阻塞主线程
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(() => loadSwiperComponents(), { timeout: 2000 })
+      } else {
+        setTimeout(loadSwiperComponents, 100)
+      }
     }
   },
   { immediate: true }
 )
 
-// 手动触发广告加载
+// 优化广告加载函数
 const loadAds = () => {
-  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
-    try {
-      // 直接处理所有广告元素，但添加错误处理
-      const adElements = document.querySelectorAll('.adsbygoogle')
-      adElements.forEach((el) => {
-        try {
-          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-        } catch (pushError) {
-          // 忽略重复加载错误
-          if (!pushError.message.includes('already have ads')) {
-            console.error('广告加载失败:', pushError)
-          }
+  if (typeof window === 'undefined' || !window.adsbygoogle) {
+    console.warn('AdSense not available, skipping ad loading')
+    return
+  }
+
+  try {
+    const adElements = document.querySelectorAll('.adsbygoogle:not([data-loaded])')
+    if (adElements.length === 0) return
+
+    adElements.forEach((el) => {
+      try {
+        el.setAttribute('data-loaded', 'true')
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (pushError) {
+        if (!pushError.message?.includes('already have ads')) {
+          console.warn('单个广告加载失败:', pushError)
         }
-      })
-    } catch (e) {
-      console.error('广告加载失败:', e)
-    }
-  } else {
-    // 限制重试次数，避免无限重试导致的性能问题
-    console.warn('AdSense not ready, skipping ad loading to maintain performance')
+      }
+    })
+  } catch (e) {
+    console.warn('广告加载失败:', e)
   }
 }
 
+// 优化图片预加载函数
+const preloadCriticalImages = () => {
+  if (typeof window === 'undefined') return
+
+  const criticalImages = ['/images/banner1.webp']
+
+  criticalImages.forEach((src) => {
+    if (document.querySelector(`link[href="${src}"]`)) return // 已预加载
+
+    const link = document.createElement('link')
+    link.rel = 'preload'
+    link.as = 'image'
+    link.href = src
+    link.type = 'image/webp'
+    document.head.appendChild(link)
+  })
+}
+
+// 图片加载处理函数
+const onImageLoad = (event) => {
+  const img = event.target
+  img.classList.add('loaded')
+  console.log('图片加载完成:', img.src)
+}
+
+const onImageError = (event) => {
+  const img = event.target
+  console.warn('图片加载失败:', img.src)
+  // 可以设置fallback图片或隐藏
+  img.style.opacity = '0'
+}
+
 onMounted(() => {
+  // 优先预加载关键图片
+  preloadCriticalImages()
+
   // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        // 当指南部分进入视口时加载数据
         if (entry.isIntersecting) {
           guidesLoadTriggered.value = true
-          loadGuidesData(locale.value)
-          // 加载后取消观察
+          // 使用 requestIdleCallback 优化数据加载时机
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => loadGuidesData(locale.value))
+          } else {
+            loadGuidesData(locale.value)
+          }
           observer.disconnect()
         }
       })
     },
-    { threshold: 0.1 } // 当10%的元素可见时触发
+    {
+      threshold: 0.1,
+      rootMargin: '50px', // 提前50px开始加载
+    }
   )
 
-  // 开始观察指南部分
-  const guidesSection = document.getElementById('guides-section')
-  if (guidesSection) {
-    observer.observe(guidesSection)
+  // 使用 nextTick 确保DOM已渲染
+  nextTick(() => {
+    const guidesSection = document.getElementById('guides-section')
+    if (guidesSection) {
+      observer.observe(guidesSection)
+    }
+  })
+
+  // 更激进的广告延迟加载
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(
+      () => {
+        setTimeout(loadAds, 3000)
+      },
+      { timeout: 5000 }
+    )
+  } else {
+    setTimeout(loadAds, 4000)
   }
 
-  // 延迟加载广告，避免阻塞 LCP
-  setTimeout(loadAds, 3000)
-
-  // 移动端广告延迟显示，但时间缩短
+  // 移动端广告更严格的延迟
   if (isMobile.value) {
     setTimeout(() => {
       showMobileAds.value = true
-    }, 3500) // 缩短到3.5秒
+      nextTick(() => {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadAds)
+        } else {
+          setTimeout(loadAds, 500)
+        }
+      })
+    }, 2000)
   }
 })
 </script>
@@ -267,6 +337,8 @@ onMounted(() => {
                 loading="eager"
                 fetchpriority="high"
                 decoding="async"
+                @load="onImageLoad"
+                @error="onImageError"
               />
             </div>
             <!-- 桌面端轮播图: 立即渲染占位符，JS加载后接管 -->
@@ -307,6 +379,8 @@ onMounted(() => {
                       height="400"
                       loading="lazy"
                       decoding="async"
+                      @load="onImageLoad"
+                      @error="onImageError"
                     />
                   </SwiperSlide>
                 </template>
@@ -323,6 +397,8 @@ onMounted(() => {
                     loading="eager"
                     fetchpriority="high"
                     decoding="async"
+                    @load="onImageLoad"
+                    @error="onImageError"
                   />
                 </div>
                 <div class="loading-indicator">loading...</div>
