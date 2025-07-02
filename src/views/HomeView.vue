@@ -160,8 +160,8 @@ const loadAds = () => {
       console.error('广告加载失败:', e)
     }
   } else {
-    // 如果 adsbygoogle 还没加载，延迟重试
-    setTimeout(loadAds, 1000)
+    // 限制重试次数，避免无限重试导致的性能问题
+    console.warn('AdSense not ready, skipping ad loading to maintain performance')
   }
 }
 
