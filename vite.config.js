@@ -408,23 +408,8 @@ export default defineConfig(({ command, mode }) => {
           },
         },
       },
-      // 启用更严格的压缩
-      minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true,
-          pure_funcs: ['console.log', 'console.info'],
-          reduce_vars: true,
-          reduce_funcs: true,
-        },
-        mangle: {
-          safari10: true,
-        },
-        format: {
-          comments: false,
-        },
-      },
+      // 启用压缩
+      minify: true,
       // 启用 CSS 代码分割
       cssCodeSplit: true,
       // 更严格的 chunk 大小警告限制

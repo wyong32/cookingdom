@@ -39,312 +39,103 @@
     <!-- 广告，手动添加 -->
     <meta name="6a97888e-site-verification" content="5078bd8b28757b6bbf310fc848f72fbd" />
 
-    <!-- 优化资源预加载策略 -->
-    <link
-      rel="preload"
-      href="/images/banner1.webp"
-      as="image"
-      type="image/webp"
-      fetchpriority="high"
-    />
-    <link rel="preload" href="/logo.webp" as="image" type="image/webp" />
-    <link rel="modulepreload" href="/src/main.js" />
-    <link rel="modulepreload" href="/src/App.vue" />
-    <link rel="modulepreload" href="/src/views/HomeView.vue" />
-    <link rel="modulepreload" href="/src/components/Header.vue" />
+    <!-- 只预加载最关键的资源 -->
+    <link rel="preload" href="/images/banner1.webp" as="image" type="image/webp" fetchpriority="high" />
 
     <!-- DNS 预解析 -->
     <link rel="dns-prefetch" href="//www.googletagmanager.com" />
     <link rel="dns-prefetch" href="//pagead2.googlesyndication.com" />
-    <link rel="dns-prefetch" href="//www.google-analytics.com" />
 
-    <!-- 字体优化 -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- 关键 CSS 内联 -->
+    <!-- 最小化关键 CSS -->
     <style>
-      /* 关键渲染路径 CSS - 只包含首屏必需的样式 */
       * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
       }
 
-      html {
-        font-display: swap;
-        -webkit-tap-highlight-color: transparent;
-      }
-
       body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-          'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         background-color: #fff0f5;
         color: #5b4b8a;
         line-height: 1.6;
         min-height: 100vh;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        contain: layout style;
-      }
-
-      #app {
-        min-height: 100vh;
-        contain: layout style paint;
-        isolation: isolate;
       }
 
       .container {
         width: 100%;
         max-width: 1400px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        contain: layout style;
-      }
-
-      /* 关键图片样式内联 */
-      .guide-image-placeholder {
-        width: 100%;
-        height: 150px;
-        background-color: #f0f0f0;
-        position: relative;
-        overflow: hidden;
-        contain: layout paint;
-        will-change: transform;
-        transform: translateZ(0);
-        backface-visibility: hidden;
-      }
-
-      .guide-image-placeholder img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translateZ(0);
-      }
-
-      /* 首屏 Hero 区域关键样式 */
-      .hero-section {
-        background-color: #fff0f5;
-        padding: 0 0 3rem;
-        contain: layout style paint;
-      }
-
-      .hero-section .container {
-        max-width: 1200px;
         margin: 0 auto;
         padding: 0 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1.5rem;
       }
 
+      /* 关键图片样式 */
       .hero-single-image-container {
         margin: 1rem auto;
         width: 100%;
         max-width: 350px;
-        height: auto;
+        aspect-ratio: 350 / 280;
         border-radius: 15px;
         overflow: hidden;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        contain: layout style paint;
-        aspect-ratio: 350 / 280;
-        background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+        background: #f0f0f0;
       }
 
       .hero-single-image {
-        display: block;
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
-        border-radius: 15px;
-        transform: translateZ(0);
-        will-change: auto;
-        opacity: 0;
-        transition: opacity 0.3s ease;
+        display: block;
       }
 
-      .hero-single-image.loaded {
-        opacity: 1;
-      }
-
-      /* 加载指示器优化 */
-      .loading-spinner {
-        width: 40px;
-        height: 40px;
-        border: 4px solid rgba(160, 142, 230, 0.3);
-        border-radius: 50%;
-        border-top-color: #a08ee6;
-        animation: spin 1s ease-in-out infinite;
-        margin: 20px auto;
-        will-change: transform;
-      }
-
-      @keyframes spin {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      /* 防止布局偏移的占位符 */
-      .content-placeholder {
-        min-height: 200px;
+      /* 简单的加载状态 */
+      .loading {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(135deg, #f8f8f8 0%, #eeeeee 100%);
-        border-radius: 8px;
-        contain: layout style paint;
+        min-height: 200px;
+        color: #a08ee6;
       }
 
       /* 移动端优化 */
       @media (max-width: 767px) {
-        .hero-section .container {
-          flex-direction: column;
-          padding: 2rem 1rem;
-        }
-
         .hero-single-image-container {
           width: 90%;
-          max-width: 350px;
-          min-height: 280px;
           margin: 1rem auto;
-          aspect-ratio: 350 / 280;
         }
-
         .container {
-          padding-left: 0.75rem;
-          padding-right: 0.75rem;
+          padding: 0 0.75rem;
         }
-      }
-
-      /* 性能优化的关键样式 */
-      img {
-        content-visibility: auto;
-        contain-intrinsic-size: 0 150px;
-      }
-
-      .async-component {
-        contain: layout style;
-        min-height: 100px;
-      }
-
-      /* 减少重绘和回流 */
-      .performance-optimized {
-        transform: translateZ(0);
-        will-change: auto;
-        backface-visibility: hidden;
-        perspective: 1000px;
-      }
-
-      /* 文本渲染优化 */
-      h1, h2, h3, h4, h5, h6 {
-        text-rendering: optimizeLegibility;
-        font-kerning: auto;
-        font-variant-ligatures: common-ligatures;
-      }
-
-      /* 减少不必要的层叠上下文 */
-      .z-context {
-        isolation: isolate;
-      }
-
-      /* 滚动性能优化 */
-      .scroll-container {
-        -webkit-overflow-scrolling: touch;
-        overscroll-behavior: contain;
       }
     </style>
-
-    <!-- 延迟加载 Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2YMT7YQPR"></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
-      gtag('config', 'G-F2YMT7YQPR')
-    </script>
-
-    <!-- Google AdSense -->
-    <script
-      async
-      defer
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- 性能监控脚本 -->
-    <script>
-      // 简单的性能监控
-      if ('PerformanceObserver' in window) {
-        // 监控 LCP
-        new PerformanceObserver((entryList) => {
-          const entries = entryList.getEntries()
-          const lastEntry = entries[entries.length - 1]
-          console.log('LCP:', lastEntry.startTime)
-        }).observe({ entryTypes: ['largest-contentful-paint'] })
-
-        // 监控 FCP
-        new PerformanceObserver((entryList) => {
-          const entries = entryList.getEntries()
-          entries.forEach((entry) => {
-            if (entry.name === 'first-contentful-paint') {
-              console.log('FCP:', entry.startTime)
-            }
-          })
-        }).observe({ entryTypes: ['paint'] })
-
-        // 监控 CLS
-        new PerformanceObserver((entryList) => {
-          let clsValue = 0
-          const entries = entryList.getEntries()
-          entries.forEach((entry) => {
-            if (!entry.hadRecentInput) {
-              clsValue += entry.value
-            }
-          })
-          console.log('CLS:', clsValue)
-        }).observe({ entryTypes: ['layout-shift'] })
-      }
-
-      // 图片加载优化
-      document.addEventListener('DOMContentLoaded', function() {
-        const images = document.querySelectorAll('img')
-        images.forEach(img => {
-          img.addEventListener('load', function() {
-            this.classList.add('loaded')
-          })
-          
-          // 错误处理
-          img.addEventListener('error', function() {
-            this.style.display = 'none'
-          })
-        })
-      })
-
-      // 预加载关键资源
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-          // 预加载下一页可能需要的资源
-          const link = document.createElement('link')
-          link.rel = 'prefetch'
-          link.href = '/src/components/GuidesSection.vue'
-          document.head.appendChild(link)
-        })
-      }
-    </script>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    
+    <!-- 延迟加载非关键脚本 -->
+    <script>
+      // 延迟加载 Google Analytics
+      setTimeout(() => {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-F2YMT7YQPR';
+        document.head.appendChild(script);
+        
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-F2YMT7YQPR');
+      }, 3000);
+
+      // 延迟加载 AdSense
+      setTimeout(() => {
+        const adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4224010041977181';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }, 4000);
+    </script>
   </body>
 </html>

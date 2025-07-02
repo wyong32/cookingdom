@@ -108,166 +108,87 @@ const sliderImages = ref([
   '/images/banner10.webp',
 ])
 
-// 动态加载 Swiper 组件
+// 简化的 Swiper 组件加载
 const loadSwiperComponents = async () => {
   try {
-    // 使用动态导入，但增加性能优化
-    const [swiperModule, modulesModule] = await Promise.all([
-      import('swiper/vue'),
-      import('swiper/modules'),
-    ])
+    const swiperModule = await import('swiper/vue')
+    const modulesModule = await import('swiper/modules')
 
     Swiper.value = swiperModule.Swiper
     SwiperSlide.value = swiperModule.SwiperSlide
     swiperModulesComponents.value = [modulesModule.Autoplay, modulesModule.EffectCoverflow]
 
-    // 延迟加载CSS，避免阻塞
-    requestIdleCallback(() => {
-      Promise.all([
-        import('swiper/css'),
-        import('swiper/css/autoplay'),
-        import('swiper/css/effect-coverflow'),
-      ]).catch((error) => console.warn('Swiper CSS 加载失败:', error))
-    })
+    // 同时加载CSS
+    await Promise.all([
+      import('swiper/css'),
+      import('swiper/css/autoplay'),
+      import('swiper/css/effect-coverflow'),
+    ])
 
     swiperLoaded.value = true
-    console.log('Swiper 组件加载完成')
   } catch (error) {
     console.error('加载 Swiper 组件失败:', error)
   }
 }
 
-// 自动在桌面端加载Swiper组件，但使用 requestIdleCallback 优化时机
+// 自动在桌面端加载Swiper组件
 watch(
   () => isMobile.value,
   (val) => {
     if (!val && !swiperLoaded.value) {
-      // 使用 requestIdleCallback 延迟加载，不阻塞主线程
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => loadSwiperComponents(), { timeout: 2000 })
-      } else {
-        setTimeout(loadSwiperComponents, 100)
-      }
+      loadSwiperComponents()
     }
   },
   { immediate: true }
 )
 
-// 优化广告加载函数
+// 简化的广告加载函数
 const loadAds = () => {
-  if (typeof window === 'undefined' || !window.adsbygoogle) {
-    console.warn('AdSense not available, skipping ad loading')
-    return
-  }
-
-  try {
-    const adElements = document.querySelectorAll('.adsbygoogle:not([data-loaded])')
-    if (adElements.length === 0) return
-
-    adElements.forEach((el) => {
-      try {
-        el.setAttribute('data-loaded', 'true')
-        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-      } catch (pushError) {
-        if (!pushError.message?.includes('already have ads')) {
-          console.warn('单个广告加载失败:', pushError)
+  if (window.adsbygoogle) {
+    try {
+      const adElements = document.querySelectorAll('.adsbygoogle')
+      adElements.forEach((el) => {
+        try {
+          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        } catch (error) {
+          // 忽略重复加载错误
         }
-      }
-    })
-  } catch (e) {
-    console.warn('广告加载失败:', e)
+      })
+    } catch (e) {
+      console.warn('广告加载失败:', e)
+    }
   }
-}
-
-// 优化图片预加载函数
-const preloadCriticalImages = () => {
-  if (typeof window === 'undefined') return
-
-  const criticalImages = ['/images/banner1.webp']
-
-  criticalImages.forEach((src) => {
-    if (document.querySelector(`link[href="${src}"]`)) return // 已预加载
-
-    const link = document.createElement('link')
-    link.rel = 'preload'
-    link.as = 'image'
-    link.href = src
-    link.type = 'image/webp'
-    document.head.appendChild(link)
-  })
-}
-
-// 图片加载处理函数
-const onImageLoad = (event) => {
-  const img = event.target
-  img.classList.add('loaded')
-  console.log('图片加载完成:', img.src)
-}
-
-const onImageError = (event) => {
-  const img = event.target
-  console.warn('图片加载失败:', img.src)
-  // 可以设置fallback图片或隐藏
-  img.style.opacity = '0'
 }
 
 onMounted(() => {
-  // 优先预加载关键图片
-  preloadCriticalImages()
-
-  // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
+  // 使用 Intersection Observer 检测指南部分
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           guidesLoadTriggered.value = true
-          // 使用 requestIdleCallback 优化数据加载时机
-          if ('requestIdleCallback' in window) {
-            requestIdleCallback(() => loadGuidesData(locale.value))
-          } else {
-            loadGuidesData(locale.value)
-          }
+          loadGuidesData(locale.value)
           observer.disconnect()
         }
       })
     },
-    {
-      threshold: 0.1,
-      rootMargin: '50px', // 提前50px开始加载
-    }
+    { threshold: 0.1 }
   )
 
-  // 使用 nextTick 确保DOM已渲染
-  nextTick(() => {
-    const guidesSection = document.getElementById('guides-section')
-    if (guidesSection) {
-      observer.observe(guidesSection)
-    }
-  })
-
-  // 更激进的广告延迟加载
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(
-      () => {
-        setTimeout(loadAds, 3000)
-      },
-      { timeout: 5000 }
-    )
-  } else {
-    setTimeout(loadAds, 4000)
+  // 观察指南部分
+  const guidesSection = document.getElementById('guides-section')
+  if (guidesSection) {
+    observer.observe(guidesSection)
   }
 
-  // 移动端广告更严格的延迟
+  // 延迟加载广告
+  setTimeout(loadAds, 3000)
+
+  // 移动端广告延迟显示
   if (isMobile.value) {
     setTimeout(() => {
       showMobileAds.value = true
-      nextTick(() => {
-        if ('requestIdleCallback' in window) {
-          requestIdleCallback(loadAds)
-        } else {
-          setTimeout(loadAds, 500)
-        }
-      })
+      setTimeout(loadAds, 1000)
     }, 2000)
   }
 })
@@ -337,8 +258,6 @@ onMounted(() => {
                 loading="eager"
                 fetchpriority="high"
                 decoding="async"
-                @load="onImageLoad"
-                @error="onImageError"
               />
             </div>
             <!-- 桌面端轮播图: 立即渲染占位符，JS加载后接管 -->
@@ -379,8 +298,6 @@ onMounted(() => {
                       height="400"
                       loading="lazy"
                       decoding="async"
-                      @load="onImageLoad"
-                      @error="onImageError"
                     />
                   </SwiperSlide>
                 </template>
@@ -397,8 +314,6 @@ onMounted(() => {
                     loading="eager"
                     fetchpriority="high"
                     decoding="async"
-                    @load="onImageLoad"
-                    @error="onImageError"
                   />
                 </div>
                 <div class="loading-indicator">loading...</div>
