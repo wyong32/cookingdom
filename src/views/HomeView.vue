@@ -266,7 +266,7 @@ onMounted(() => {
               </div>
             </div>
             <!-- 移动端显示单张图片 -->
-            <div v-if="isMobile" class="hero-single-image-container">
+            <!-- <div v-if="isMobile" class="hero-single-image-container">
               <img
                 :src="sliderImages[0]"
                 alt="Banner Image"
@@ -277,9 +277,9 @@ onMounted(() => {
                 fetchpriority="high"
                 decoding="async"
               />
-            </div>
+            </div> -->
             <!-- 桌面端轮播图: 立即渲染占位符，JS加载后接管 -->
-            <div v-else class="hero-swiper-container card-slider">
+            <div v-if="!isMobile" class="hero-swiper-container card-slider">
               <!-- Swiper 加载完成后的真实轮播 -->
               <Swiper
                 v-if="swiperLoaded && Swiper"
