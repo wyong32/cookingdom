@@ -194,13 +194,11 @@ onMounted(() => {
   // 延迟加载广告，避免阻塞 LCP
   setTimeout(loadAds, 3000)
 
-  // 移动端广告延迟更久，避免阻塞 LCP
+  // 移动端广告延迟显示，但时间缩短
   if (isMobile.value) {
     setTimeout(() => {
       showMobileAds.value = true
-      // 再次触发广告加载，处理移动端的广告
-      setTimeout(loadAds, 500)
-    }, 5000) // 5秒后才显示移动端广告
+    }, 3500) // 缩短到3.5秒
   }
 })
 </script>

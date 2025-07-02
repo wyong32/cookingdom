@@ -1,15 +1,10 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 export function useDeviceDetection() {
-  // 提供更稳定的初始值，基于 User Agent
+  // 简化设备检测，只基于屏幕宽度
   const getInitialValue = () => {
     if (typeof window === 'undefined') return false
-    // 先尝试基于 User Agent 进行初始判断
-    const userAgent = navigator.userAgent.toLowerCase()
-    const isMobileUA = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent)
-    // 结合屏幕宽度进行判断
-    const isMobileScreen = window.innerWidth <= 767
-    return isMobileUA || isMobileScreen
+    return window.innerWidth <= 767
   }
 
   const isMobile = ref(getInitialValue())
