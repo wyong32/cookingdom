@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, defineAsyncComponent, shallowRef, watch, nextTick } from 'vue' // Import necessary Vue functions
+import { ref, onMounted, defineAsyncComponent, shallowRef, watch } from 'vue' // Import necessary Vue functions
 
 // 使用异步组件加载 GuidesSection
 const GuidesSection = defineAsyncComponent({
@@ -39,9 +39,6 @@ const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesDa
 
 // 跟踪攻略数据是否已经开始加载
 const guidesLoadTriggered = ref(false)
-
-// 控制移动端广告的显示时机
-const showMobileAds = ref(false)
 
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
@@ -108,24 +105,25 @@ const sliderImages = ref([
   '/images/banner10.webp',
 ])
 
-// 简化的 Swiper 组件加载
+// 动态加载 Swiper 组件
 const loadSwiperComponents = async () => {
   try {
+    // 动态导入 Swiper 组件
     const swiperModule = await import('swiper/vue')
-    const modulesModule = await import('swiper/modules')
-
     Swiper.value = swiperModule.Swiper
     SwiperSlide.value = swiperModule.SwiperSlide
+
+    // 动态导入 Swiper 模块
+    const modulesModule = await import('swiper/modules')
     swiperModulesComponents.value = [modulesModule.Autoplay, modulesModule.EffectCoverflow]
 
-    // 同时加载CSS
-    await Promise.all([
-      import('swiper/css'),
-      import('swiper/css/autoplay'),
-      import('swiper/css/effect-coverflow'),
-    ])
+    // 动态导入 CSS
+    await import('swiper/css')
+    await import('swiper/css/autoplay')
+    await import('swiper/css/effect-coverflow')
 
     swiperLoaded.value = true
+    console.log('Swiper 组件加载完成')
   } catch (error) {
     console.error('加载 Swiper 组件失败:', error)
   }
@@ -142,55 +140,56 @@ watch(
   { immediate: true }
 )
 
-// 简化的广告加载函数
+// 手动触发广告加载
 const loadAds = () => {
-  if (window.adsbygoogle) {
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
+      // 直接处理所有广告元素，但添加错误处理
       const adElements = document.querySelectorAll('.adsbygoogle')
       adElements.forEach((el) => {
         try {
           ;(window.adsbygoogle = window.adsbygoogle || []).push({})
-        } catch (error) {
+        } catch (pushError) {
           // 忽略重复加载错误
+          if (!pushError.message.includes('already have ads')) {
+            console.error('广告加载失败:', pushError)
+          }
         }
       })
     } catch (e) {
-      console.warn('广告加载失败:', e)
+      console.error('广告加载失败:', e)
     }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 1000)
   }
 }
 
 onMounted(() => {
-  // 使用 Intersection Observer 检测指南部分
+  // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
+        // 当指南部分进入视口时加载数据
         if (entry.isIntersecting) {
           guidesLoadTriggered.value = true
           loadGuidesData(locale.value)
+          // 加载后取消观察
           observer.disconnect()
         }
       })
     },
-    { threshold: 0.1 }
+    { threshold: 0.1 } // 当10%的元素可见时触发
   )
 
-  // 观察指南部分
+  // 开始观察指南部分
   const guidesSection = document.getElementById('guides-section')
   if (guidesSection) {
     observer.observe(guidesSection)
   }
 
-  // 延迟加载广告
+  // 延迟加载广告，避免阻塞 LCP
   setTimeout(loadAds, 3000)
-
-  // 移动端广告延迟显示
-  if (isMobile.value) {
-    setTimeout(() => {
-      showMobileAds.value = true
-      setTimeout(loadAds, 1000)
-    }, 2000)
-  }
 })
 </script>
 
@@ -217,7 +216,7 @@ onMounted(() => {
               <h1>{{ $t('home.hero.title') }}</h1>
               <p>{{ $t('home.hero.description') }}</p>
 
-              <aside class="ads-wrapper" v-if="isMobile && showMobileAds">
+              <aside class="ads-wrapper" v-if="isMobile">
                 <ins
                   class="adsbygoogle"
                   style="display: inline-block; width: 300px; height: 100px"
@@ -335,7 +334,7 @@ onMounted(() => {
         </aside>
 
         <!-- 横幅广告-PH -->
-        <aside class="ads-wrapper" v-if="isMobile && showMobileAds">
+        <aside class="ads-wrapper" v-if="isMobile">
           <ins
             class="adsbygoogle"
             style="display: inline-block; width: 300px; height: 100px"
@@ -356,7 +355,7 @@ onMounted(() => {
           />
 
           <!-- 广告3 -->
-          <aside class="ads-wrapper" v-if="isMobile && showMobileAds">
+          <aside class="ads-wrapper" v-if="isMobile">
             <ins
               class="adsbygoogle"
               style="display: inline-block; width: 300px; height: 100px"

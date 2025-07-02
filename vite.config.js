@@ -318,7 +318,7 @@ export default defineConfig(({ command, mode }) => {
       // 启用代码分割和优化
       rollupOptions: {
         output: {
-          // 更激进的代码分割配置
+          // 优化的代码分割配置
           manualChunks(id) {
             // Vue 核心库
             if (
@@ -336,88 +336,37 @@ export default defineConfig(({ command, mode }) => {
             if (id.includes('node_modules/swiper/')) {
               return 'swiper-vendor'
             }
-
-            // 按语言分割指南数据文件
-            if (id.includes('/src/datas/guides/en/')) {
-              return 'guides-en'
-            }
-            if (id.includes('/src/datas/guides/zh/')) {
-              return 'guides-zh'
-            }
-            if (id.includes('/src/datas/guides/ru/')) {
-              return 'guides-ru'
-            }
-            if (id.includes('/src/datas/guides/fil/')) {
-              return 'guides-fil'
-            }
-            if (id.includes('/src/datas/guides/ms/')) {
-              return 'guides-ms'
-            }
-            // 其他指南相关文件
-            if (id.includes('/src/datas/guides/')) {
-              return 'guides-core'
-            }
-
-            // 按语言分割博客数据文件
-            if (id.includes('/src/datas/blog-posts-zh.js')) {
-              return 'blog-zh'
-            }
-            if (id.includes('/src/datas/blog-posts-ru.js')) {
-              return 'blog-ru'
-            }
-            if (id.includes('/src/datas/blog-posts-fil.js')) {
-              return 'blog-fil'
-            }
-            if (id.includes('/src/datas/blog-posts-ms.js')) {
-              return 'blog-ms'
-            }
-            if (id.includes('/src/datas/blog-posts')) {
-              return 'blog-en'
-            }
-
-            // 组合式函数
-            if (id.includes('/src/composables/')) {
-              return 'composables'
-            }
-            // 视图组件
-            if (id.includes('/src/views/')) {
-              return 'views'
-            }
             // 其他 node_modules 依赖
             if (id.includes('node_modules/')) {
               return 'vendor'
             }
           },
           // 优化文件名
-          chunkFileNames: 'js/[name]-[hash:8].js',
-          entryFileNames: 'js/[name]-[hash:8].js',
+          chunkFileNames: 'js/[name]-[hash].js',
+          entryFileNames: 'js/[name]-[hash].js',
           assetFileNames: (assetInfo) => {
             const fileName = assetInfo.names?.[0] || assetInfo.name || 'asset'
             const info = fileName.split('.')
             const ext = info[info.length - 1]
             if (/\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/i.test(fileName)) {
-              return `media/[name]-[hash:8].${ext}`
+              return `media/[name]-[hash].${ext}`
             }
             if (/\.(png|jpe?g|gif|svg|webp|avif)(\?.*)?$/i.test(fileName)) {
-              return `images/[name]-[hash:8].${ext}`
+              return `images/[name]-[hash].${ext}`
             }
             if (ext === 'css') {
-              return `css/[name]-[hash:8].${ext}`
+              return `css/[name]-[hash].${ext}`
             }
-            return `assets/[name]-[hash:8].${ext}`
+            return `assets/[name]-[hash].${ext}`
           },
         },
       },
-      // 启用压缩
+      // 启用压缩（使用默认的 esbuild）
       minify: true,
       // 启用 CSS 代码分割
       cssCodeSplit: true,
-      // 更严格的 chunk 大小警告限制
-      chunkSizeWarningLimit: 800,
-      // 压缩图片等静态资源
-      assetsInlineLimit: 4096, // 4kb 以下的资源内联
-      // 减少输出大小
-      reportCompressedSize: false,
+      // 设置 chunk 大小警告限制
+      chunkSizeWarningLimit: 1000,
     },
     // 优化依赖预构建
     optimizeDeps: {
@@ -428,4 +377,3 @@ export default defineConfig(({ command, mode }) => {
     },
   }
 })
-
