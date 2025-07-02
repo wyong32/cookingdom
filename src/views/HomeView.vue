@@ -40,6 +40,9 @@ const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesDa
 // 跟踪攻略数据是否已经开始加载
 const guidesLoadTriggered = ref(false)
 
+// 控制移动端广告的显示时机
+const showMobileAds = ref(false)
+
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
   {
@@ -190,6 +193,15 @@ onMounted(() => {
 
   // 延迟加载广告，避免阻塞 LCP
   setTimeout(loadAds, 3000)
+
+  // 移动端广告延迟更久，避免阻塞 LCP
+  if (isMobile.value) {
+    setTimeout(() => {
+      showMobileAds.value = true
+      // 再次触发广告加载，处理移动端的广告
+      setTimeout(loadAds, 500)
+    }, 5000) // 5秒后才显示移动端广告
+  }
 })
 </script>
 
@@ -216,7 +228,7 @@ onMounted(() => {
               <h1>{{ $t('home.hero.title') }}</h1>
               <p>{{ $t('home.hero.description') }}</p>
 
-              <aside class="ads-wrapper" v-if="isMobile">
+              <aside class="ads-wrapper" v-if="isMobile && showMobileAds">
                 <ins
                   class="adsbygoogle"
                   style="display: inline-block; width: 300px; height: 100px"
@@ -334,7 +346,7 @@ onMounted(() => {
         </aside>
 
         <!-- 横幅广告-PH -->
-        <aside class="ads-wrapper" v-if="isMobile">
+        <aside class="ads-wrapper" v-if="isMobile && showMobileAds">
           <ins
             class="adsbygoogle"
             style="display: inline-block; width: 300px; height: 100px"
@@ -355,7 +367,7 @@ onMounted(() => {
           />
 
           <!-- 广告3 -->
-          <aside class="ads-wrapper" v-if="isMobile">
+          <aside class="ads-wrapper" v-if="isMobile && showMobileAds">
             <ins
               class="adsbygoogle"
               style="display: inline-block; width: 300px; height: 100px"
