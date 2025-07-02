@@ -134,7 +134,15 @@ watch(
   () => isMobile.value,
   (val) => {
     if (!val && !swiperLoaded.value) {
-      loadSwiperComponents()
+      // 使用 requestIdleCallback 在浏览器空闲时加载 Swiper
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(() => {
+          setTimeout(loadSwiperComponents, 1000)
+        })
+      } else {
+        // 降级方案：延迟更久一些
+        setTimeout(loadSwiperComponents, 2000)
+      }
     }
   },
   { immediate: true }
@@ -166,30 +174,41 @@ const loadAds = () => {
 }
 
 onMounted(() => {
-  // 使用 Intersection Observer 检测元素是否进入视口，实现懒加载
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        // 当指南部分进入视口时加载数据
-        if (entry.isIntersecting) {
-          guidesLoadTriggered.value = true
-          loadGuidesData(locale.value)
-          // 加载后取消观察
-          observer.disconnect()
-        }
-      })
-    },
-    { threshold: 0.1 } // 当10%的元素可见时触发
-  )
+  // 使用 requestIdleCallback 来延迟非关键任务
+  const scheduleNonCriticalTasks = () => {
+    // 设置 IntersectionObserver
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // 当指南部分进入视口时加载数据
+          if (entry.isIntersecting) {
+            guidesLoadTriggered.value = true
+            loadGuidesData(locale.value)
+            // 加载后取消观察
+            observer.disconnect()
+          }
+        })
+      },
+      { threshold: 0.1 } // 当10%的元素可见时触发
+    )
 
-  // 开始观察指南部分
-  const guidesSection = document.getElementById('guides-section')
-  if (guidesSection) {
-    observer.observe(guidesSection)
+    // 开始观察指南部分
+    const guidesSection = document.getElementById('guides-section')
+    if (guidesSection) {
+      observer.observe(guidesSection)
+    }
+
+    // 延迟加载广告，避免阻塞 LCP
+    setTimeout(loadAds, 5000) // 增加到5秒
   }
 
-  // 延迟加载广告，避免阻塞 LCP
-  setTimeout(loadAds, 3000)
+  // 使用 requestIdleCallback 在浏览器空闲时执行非关键任务
+  if (window.requestIdleCallback) {
+    window.requestIdleCallback(scheduleNonCriticalTasks, { timeout: 3000 })
+  } else {
+    // 降级方案
+    setTimeout(scheduleNonCriticalTasks, 1000)
+  }
 })
 </script>
 
@@ -247,7 +266,7 @@ onMounted(() => {
               </div>
             </div>
             <!-- 移动端显示单张图片 -->
-            <!-- <div v-if="isMobile" class="hero-single-image-container">
+            <div v-if="isMobile" class="hero-single-image-container">
               <img
                 :src="sliderImages[0]"
                 alt="Banner Image"
@@ -258,9 +277,9 @@ onMounted(() => {
                 fetchpriority="high"
                 decoding="async"
               />
-            </div> -->
+            </div>
             <!-- 桌面端轮播图: 立即渲染占位符，JS加载后接管 -->
-            <div v-if="!isMobile" class="hero-swiper-container card-slider">
+            <div v-else class="hero-swiper-container card-slider">
               <!-- Swiper 加载完成后的真实轮播 -->
               <Swiper
                 v-if="swiperLoaded && Swiper"
