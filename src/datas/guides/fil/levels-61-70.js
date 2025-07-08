@@ -1,48 +1,48 @@
 export const levels61to70 = [
-    {
-        "id": "cookingdom-game-level-61",
-        "title": "Cookingdom Antas 61 Backyard Barbecue Gabay",
-        "pageTitle": "Cookingdom Antas 61 Backyard Barbecue Gabay",
-        "pageSubtitle": "Masterin ang sining ng paghahanda ng Backyard Barbecue sa Antas 61 ng Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_61.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-61",
+    "title": "Cookingdom Antas 61 Backyard Barbecue Gabay",
+    "pageTitle": "Cookingdom Antas 61 Backyard Barbecue Gabay",
+    "pageSubtitle": "Masterin ang sining ng paghahanda ng Backyard Barbecue sa Antas 61 ng Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_61.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-61" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
+    "seo": {
+      "title": "Cookingdom Antas 61 Backyard Barbecue Gabay at Mga Tip",
+      "description": "Matutunan kung paano mag-master ng Backyard Barbecue sa Cookingdom Antas 61. Sundin ang proseso ng pagluluto ng barbecue para makuha ang 3-star na rating.",
+      "keywords": "cookingdom antas 61, backyard barbecue, grilling, resipe ng barbecue, gabay sa pagluluto, cookingdom mga tip"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_61.webp",
+      "levelInfoHtml": "<h3>Backyard Barbecue</h3><p><strong>Antas ng Hirap:</strong> Katamtaman</p><p><strong>Inaasahang Oras:</strong> 3–4 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonus na Pera</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-60",
+          "title": "Cookingdom Antas 60 Bouillabaisse Gabay",
+          "imageUrl": "/images/guides_60.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-61" }
+            "params": { "id": "cookingdom-game-level-60" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
-        "seo": {
-            "title": "Cookingdom Antas 61 Backyard Barbecue Gabay at Mga Tip",
-            "description": "Matutunan kung paano mag-master ng Backyard Barbecue sa Cookingdom Antas 61. Sundin ang proseso ng pagluluto ng barbecue para makuha ang 3-star na rating.",
-            "keywords": "cookingdom antas 61, backyard barbecue, grilling, resipe ng barbecue, gabay sa pagluluto, cookingdom mga tip"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_61.webp",
-            "levelInfoHtml": "<h3>Backyard Barbecue</h3><p><strong>Antas ng Hirap:</strong> Katamtaman</p><p><strong>Inaasahang Oras:</strong> 3–4 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonus na Pera</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-60",
-                    "title": "Cookingdom Antas 60 Bouillabaisse Gabay",
-                    "imageUrl": "/images/guides_60.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-60" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Antas 62 Campfire Beef Stew Gabay",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom Antas 62 Campfire Beef Stew Gabay",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-62" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Pangkalahatang-ideya ng Antas</h2>
         
         <p>Ang Antas 61 ay nagdadala ng sining ng grilling sa pamamagitan ng Backyard Barbecue. Kailangan mong maghanda ng iba't ibang mga karne at gulay, tinitiyak na sila ay nai-grill ng perpekto at inihahain kasama ng tamang mga sarsa at side dishes.</p>
@@ -92,52 +92,52 @@ export const levels61to70 = [
         
         <p>Ang Antas 61 ay sumusubok sa iyong kasanayan sa grilling, multitasking sa paghahanda ng side dishes at sauces, at mahusay na pamamahala ng oras upang makapaglingkod ng mabilis at tumpak sa mga customer. Ang pag-master ng Backyard Barbecue ay magbubukas ng mga bagong recipe ng grilling at magpapahintulot sa iyo na mag-upgrade ng iyong BBQ station.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-62",
-        "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-        "pageTitle": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-        "pageSubtitle": "Master the art of slow-cooking Campfire Beef Stew in Level 62 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_62.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-62",
+    "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+    "pageTitle": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+    "pageSubtitle": "Master the art of slow-cooking Campfire Beef Stew in Level 62 of Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_62.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-62" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
+    "seo": {
+      "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough & Tips",
+      "description": "Learn how to cook the perfect Campfire Beef Stew in Cookingdom Level 62. Follow the slow-cooking process to serve a hearty meal with the right ingredients for a 3-star rating.",
+      "keywords": "cookingdom level 62, campfire beef stew, beef stew, slow-cooking, cooking guide, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_62.webp",
+      "levelInfoHtml": "<h3>Campfire Beef Stew</h3><p><strong>Dificultad:</strong> Alta</p><p><strong>Tiempo estimado:</strong> 5-6 minutos</p><p><strong>Recompensa:</strong> 3 Estrellas + Monedas Extra</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom Level 61 Backyard Barbecue Walkthrough",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-62" }
+            "params": { "id": "cookingdom-game-level-61" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
-        "seo": {
-            "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough & Tips",
-            "description": "Learn how to cook the perfect Campfire Beef Stew in Cookingdom Level 62. Follow the slow-cooking process to serve a hearty meal with the right ingredients for a 3-star rating.",
-            "keywords": "cookingdom level 62, campfire beef stew, beef stew, slow-cooking, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_62.webp",
-            "levelInfoHtml": "<h3>Campfire Beef Stew</h3><p><strong>Dificultad:</strong> Alta</p><p><strong>Tiempo estimado:</strong> 5-6 minutos</p><p><strong>Recompensa:</strong> 3 Estrellas + Monedas Extra</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-61",
-                    "title": "Cookingdom Level 61 Backyard Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_61.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-61" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Pangkalahatang-ideya ng Level</h2>
         
         <p>Ipinakikilala ng Level 62 ang isang masustansyang ulam na lutong mabagal: Campfire Beef Stew. Ang level na ito ay nakatuon sa pamamahala ng mabagal na pagluluto at pagdaragdag ng mga tamang sangkap sa tamang oras upang makalikha ng masarap na stew.</p>
@@ -194,52 +194,52 @@ export const levels61to70 = [
         
         <p>Sinusubok ng Level 62 ang iyong kakayahan sa pamamahala ng oras at mga sangkap, habang niluluto ang masarap na Campfire Beef Stew mula sa simula. Ang tagumpay sa level na ito ay nangangailangan ng pasensya, tamang timing, at kakayahang mag-multitask sa isang mabagal na proseso ng pagluluto. Kapag na-master mo ito, makakakuha ka ng mas marami pang recipe ng stew at mga upgrade sa iyong campfire cooking station.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-63",
-        "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-        "pageTitle": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-        "pageSubtitle": "Master the art of grilling in the beautiful beachside setting of Level 63 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_63.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-63",
+    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+    "pageTitle": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+    "pageSubtitle": "Master the art of grilling in the beautiful beachside setting of Level 63 of Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_63.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-63" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
+    "seo": {
+      "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough & Tips",
+      "description": "Learn how to prepare a perfect Beachside Barbecue in Cookingdom Level 63. Follow the grilling steps and serve with the right sides for a 3-star rating.",
+      "keywords": "cookingdom level 63, beachside barbecue, grilling, beach barbecue recipe, cooking guide, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_63.webp",
+      "levelInfoHtml": "<h3>Beachside Barbecue</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Estimated Time:</strong> 4-5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-63" }
+            "params": { "id": "cookingdom-game-level-62" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
-        "seo": {
-            "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough & Tips",
-            "description": "Learn how to prepare a perfect Beachside Barbecue in Cookingdom Level 63. Follow the grilling steps and serve with the right sides for a 3-star rating.",
-            "keywords": "cookingdom level 63, beachside barbecue, grilling, beach barbecue recipe, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_63.webp",
-            "levelInfoHtml": "<h3>Beachside Barbecue</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Estimated Time:</strong> 4-5 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonus Coins</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Level 62 Campfire Beef Stew Walkthrough",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-64",
-                    "title": "Cookingdom Level 64 Dimsum Walkthrough",
-                    "imageUrl": "/images/guides_64.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-64",
+          "title": "Cookingdom Level 64 Dimsum Walkthrough",
+          "imageUrl": "/images/guides_64.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Level Overview</h2>
         
         <p>Level 63 brings a fun and relaxed Beachside Barbecue experience. You’ll need to grill various meats and seafood, serve fresh sides, and make sure everything is cooked to perfection while managing the beach setting.</p>
@@ -289,43 +289,43 @@ export const levels61to70 = [
         
         <p>Level 63 challenges your ability to manage grilling, side preparation, and serving all in a relaxed beach setting. Balancing the grill times and multitasking between sides and sauces will be key to completing this level with a high rating. Master this level to unlock more beachside barbecue recipes and upgrade your grilling station.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-64",
-        "title": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_64.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-64",
+    "title": "Cookingdom Level 64 Dimsum Walkthrough",
+    "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
+    "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_64.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-64" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
+    "seo": {
+      "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
+      "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
+      "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_64.webp",
+      "levelInfoHtml": "<h3>Dimsum</h3><p><strong>Dificultad:</strong> Medio</p><p><strong>Tiempo Estimado:</strong> 4–5 minutos</p><p><strong>Recompensa:</strong> 3 Estrellas + Monedas de bono</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-64" }
-        },
-        "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
-        "seo": {
-            "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
-            "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
-            "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_64.webp",
-            "levelInfoHtml": "<h3>Dimsum</h3><p><strong>Dificultad:</strong> Medio</p><p><strong>Tiempo Estimado:</strong> 4–5 minutos</p><p><strong>Recompensa:</strong> 3 Estrellas + Monedas de bono</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Resumen del Nivel</h2>
         
         <p>El nivel 64 presenta el Dimsum, una variedad de empanadillas, bollos al vapor y otros manjares tradicionales. Tendrás que dominar el arte de preparar y cocer al vapor estos delicados platos mientras sigues el tiempo y las órdenes de los clientes.</p>
@@ -375,43 +375,43 @@ export const levels61to70 = [
         
         <p>El nivel 64 trata sobre la precisión y el tiempo mientras preparas Dimsum, un plato tradicional y delicado. Dominar el manejo de la masa, el relleno de las empanadillas y bollos correctamente, y el tiempo perfecto para la cocción al vapor será crucial para el éxito. Completar este nivel desbloqueará más recetas avanzadas de Dimsum y te permitirá mejorar tu cocina para una preparación más rápida.</p>
         `
-    },
+  },
 
-    {
-        id: "cookingdom-game-level-65",
-        title: "Cookingdom Antas 65 Matcha Walkthrough",
-        pageTitle: "Cookingdom Antas 65 Matcha Walkthrough",
-        pageSubtitle: "Magtimpla ng perpektong tasa ng matcha sa Antas 65 ng Cookingdom.",
-        category: "61-70",
-        publishDate: "2025-06-30",
-        isSpecial: false,
-        imageUrl: "/images/guides_65.webp",
-        detailsRoute: {
+  {
+    id: "cookingdom-game-level-65",
+    title: "Cookingdom Antas 65 Matcha Walkthrough",
+    pageTitle: "Cookingdom Antas 65 Matcha Walkthrough",
+    pageSubtitle: "Magtimpla ng perpektong tasa ng matcha sa Antas 65 ng Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_65.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-65" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Palitan ng tunay na video ID
+    seo: {
+      title: "Cookingdom Antas 65 Matcha Walkthrough at Tips",
+      description: "Alamin kung paano maghanda ng tradisyonal na matcha tea sa Antas 65 ng Cookingdom. Sundan ang step-by-step guide upang makamit ang 3-star na rating.",
+      keywords: "cookingdom antas 65, matcha, seremonya ng tsaa, paghahanda ng matcha, gabay sa pagluluto, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_65.webp",
+      levelInfoHtml: "<h3>Matcha</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Inaasahang Oras:</strong> 4–6 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Espesyal na Sangkap</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-64",
+          title: "Cookingdom Antas 64 Dimsum Walkthrough",
+          imageUrl: "/images/guides_64.webp",
+          detailsRoute: {
             name: "guide-detail",
-            params: { id: "cookingdom-game-level-65" }
-        },
-        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Palitan ng tunay na video ID
-        seo: {
-            title: "Cookingdom Antas 65 Matcha Walkthrough at Tips",
-            description: "Alamin kung paano maghanda ng tradisyonal na matcha tea sa Antas 65 ng Cookingdom. Sundan ang step-by-step guide upang makamit ang 3-star na rating.",
-            keywords: "cookingdom antas 65, matcha, seremonya ng tsaa, paghahanda ng matcha, gabay sa pagluluto, cookingdom tips"
-        },
-        sidebarData: {
-            sidebarImageUrl: "/images/guides_65.webp",
-            levelInfoHtml: "<h3>Matcha</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Inaasahang Oras:</strong> 4–6 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Espesyal na Sangkap</p>",
-            featuredGuides: [
-                {
-                    id: "cookingdom-game-level-64",
-                    title: "Cookingdom Antas 64 Dimsum Walkthrough",
-                    imageUrl: "/images/guides_64.webp",
-                    detailsRoute: {
-                        name: "guide-detail",
-                        params: { id: "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        detailsHtml: `
+            params: { id: "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
           <h2>Pangkalahatang-ideya ng Antas</h2>
       
           <p>Sa Antas 65, ipakikilala ang tradisyunal na sining ng seremonyang Hapones sa tsaa gamit ang matcha. Layunin mong paghusayin ang paraan ng pagbubrew nang may katumpakan at katahimikan upang mapalugod ang mga bisita gamit ang isang perpektong tasa ng tsaa.</p>
@@ -461,7 +461,190 @@ export const levels61to70 = [
       
           <p>Ang Antas 65 ng Cookingdom ay isang mapayapa ngunit mapanghamong antas: ang paggawa ng perpektong matcha tea. Kapag napagtagumpayan mo ang tamang proporsyon, temperatura, at whisking technique, mabubuksan mo ang mga bagong Japanese-themed recipe at tea tools.</p>
         `
-    }
+  },
+
+  {
+    id: "cookingdom-game-level-66",
+    title: "Cookingdom Antas 66 Walkthrough: Mainit na Bato na Steak",
+    pageTitle: "Cookingdom Antas 66 Walkthrough: Mainit na Bato na Steak",
+    pageSubtitle: "Masterin ang sining ng perpektong pag-ihaw ng steak sa Antas 66 ng Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-08",
+    isSpecial: false,
+    imageUrl: "/images/guides_66.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-66" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/Zp9CiNCzDXY", // Palitan ng tunay na video ID
+    seo: {
+      title: "Cookingdom Antas 66 Walkthrough at Tips: Mainit na Bato na Steak",
+      description: "I-grill ang perpektong steak gamit ang mainit na bato sa Cookingdom Antas 66. Sundan ang aming step-by-step na walkthrough para makuha ang tatlong bituin at mapabilib ang iyong mga bisita.",
+      keywords: "cookingdom antas 66, steak sa mainit na bato, pag-ihaw ng steak, gabay sa pagluluto, sizzling steak, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_66.webp",
+      levelInfoHtml: "<h3>Mainit na Bato na Steak</h3><p><strong>Hirap:</strong> Katamtaman–Mataas</p><p><strong>Tinatayang Oras:</strong> 5–7 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Apoy-Infused na Asin</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-65",
+          title: "Cookingdom Antas 65 Walkthrough: Matcha",
+          imageUrl: "/images/guides_65.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-67",
+          title: "Cookingdom Antas 67 Walkthrough: Tacos",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+        <h2>Pangkalahatang-ideya ng Antas</h2>
+    
+        <p>Sa Antas 66, hinahamon ka ng Cookingdom na magluto ng steak sa tradisyunal na mainit na bato. Kinakailangan ng timing at katumpakan para makamit ang eksaktong luto na nais ng iyong mga bisita.</p>
+    
+        <h2>Layon</h2>
+    
+        <p>Magluto at magsilbi ng steak ayon sa ninanais na luto (hilaw, medium, o well-done), gamit ang tamang pampalasa at presentasyon. Huwag hayaang masunog ang karne!</p>
+    
+        <h2>Proseso ng Pag-ihaw</h2>
+    
+        <h3>Hakbang 1: Painitin ang Bato</h3>
+    
+        <ul>
+          <li>Siguraduhing mainit na mainit ang bato bago ilagay ang steak.</li>
+          <li>Hanapin ang pulang glow at usok bilang senyales ng kahandaan.</li>
+        </ul>
+    
+        <h3>Hakbang 2: Ilagay at I-sear ang Steak</h3>
+    
+        <ul>
+          <li>Gamitin ang sipit para dahan-dahang ilagay ang steak—makinig sa “sizzle” na tunog.</li>
+          <li>I-flip ang steak ayon sa kinakailangang oras para sa gusto nilang luto.</li>
+        </ul>
+    
+        <h3>Hakbang 3: Timplahan Habang Niluluto</h3>
+    
+        <ul>
+          <li>Timplahan ng asin, paminta, at opsyonal na sangkap (tulad ng garlic butter o rosemary) habang iniihaw.</li>
+          <li>Timing ang mahalaga—kung maaga o huli ang timpla, hindi optimal ang lasa.</li>
+        </ul>
+    
+        <h3>Hakbang 4: Ihain ang Steak</h3>
+    
+        <p>Kapag luto na, ilipat ang steak sa kahoy na board o ceramic na pinggan. Dagdagan ng garnishing (microgreens, inihaw na bawang) at ihain nang may estilo.</p>
+    
+        <h2>Mga Tip at Teknik</h2>
+    
+        <ul>
+          <li><strong>Kabisaduhin ang Oras ng Pagluto:</strong> Hilaw (10s bawat gilid), Medium (15s bawat gilid), Well-done (20s bawat gilid).</li>
+          <li><strong>Huwag Sobrang Dami:</strong> Mag-ihaw lamang ng 1–2 steak nang sabay para di bumaba ang init.</li>
+          <li><strong>Gamitin ang Visual Cues:</strong> Obserbahan ang juice at texture para matukoy ang pagkakaluto.</li>
+          <li><strong>Panatilihing Malinis ang Sipit:</strong> Punasan o palitan ito sa bawat steak para maiwasan ang halo ng lasa.</li>
+          <li><strong>Ihain Agad:</strong> Ang pagka-antala ay magdudulot ng sobrang luto habang nasa mainit na bato pa ito.</li>
+        </ul>
+    
+        <h2>Buod</h2>
+    
+        <p>Sa Cookingdom Antas 66, mainit ang laban sa pag-ihaw ng steak. Ang mastery sa luto, tamang timpla, at mabilis na pagplating ay magbibigay sa iyo ng 3 bituin at magbubukas ng bagong sangkap at gamit para sa susunod na mga antas.</p>
+      `
+  },
+
+  {
+    id: "cookingdom-game-level-67",
+    title: "Gabayan sa Cookingdom Level 67: Taco",
+    pageTitle: "Gabayan sa Cookingdom Level 67: Taco",
+    pageSubtitle: "Buuin ang perpektong taco na may bilis at tamang timpla sa Level 67 ng Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_67.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-67" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/K7OtMtUtQCM", // Palitan ng totoong video ID
+    seo: {
+      title: "Gabayan at Tips sa Cookingdom Level 67: Taco",
+      description: "Maghanda ng masarap na taco sa Cookingdom Level 67. Sundan ang aming walkthrough upang pagsamahin ang sariwang sangkap at masiyahan ang bawat kostumer.",
+      keywords: "cookingdom level 67, taco, paggawa ng taco, gabay sa pagluluto, pagkaing Mexicano, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_67.webp",
+      levelInfoHtml: "<h3>Taco</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 4–6 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Spicy Salsa na Unlocked</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-66",
+          title: "Gabayan sa Cookingdom Level 66: Mainit na Bato na Steak",
+          imageUrl: "/images/guides_66.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-66" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+  
+      <p>Maligayang pagdating sa Level 67 kung saan papasok ka sa masiglang mundo ng taco! Sa antas na ito, kailangang mabilis at tumpak kang bumuo ng mga taco na may tamang timpla. Piliin ang tamang balot, protina, at toppings ayon sa panlasa ng bawat kostumer.</p>
+  
+      <h2>Layunin</h2>
+  
+      <p>Gumawa ng taco ayon sa order gamit ang iba't ibang balot, palaman, at palamuti. Tiyaking tumutugma ito sa kagustuhan ng kostumer habang pinapanatili ang bilis at katumpakan.</p>
+  
+      <h2>Paraan ng Paghahanda</h2>
+  
+      <h3>Hakbang 1: Pumili ng Taco Shell</h3>
+  
+      <ul>
+        <li>Pumili mula sa soft flour tortillas, crunchy corn shells, o matigas na taco shells depende sa order.</li>
+        <li>Initin muna nang bahagya kung kinakailangan.</li>
+      </ul>
+  
+      <h3>Hakbang 2: Idagdag ang Protina</h3>
+  
+      <ul>
+        <li>Piliin ang tamang protina: baka, manok, isda, o vegetarian (gaya ng beans o tokwa).</li>
+        <li>Tiyaking ang dami ay tama (regular o double meat).</li>
+      </ul>
+  
+      <h3>Hakbang 3: Ilagay ang Mga Toppings</h3>
+  
+      <ul>
+        <li>Magdagdag ng mga sangkap tulad ng lettuce, kamatis, keso, guacamole, sibuyas, o jalapeño.</li>
+        <li>May ilang kostumer na magrerequest ng “walang keso” o “sobrang anghang” — suriing mabuti ang ticket.</li>
+      </ul>
+  
+      <h3>Hakbang 4: Lagyan ng Sauce at Ihain</h3>
+  
+      <p>Tapusin gamit ang salsa (banayad, katamtaman, o maanghang) o sour cream. Ibalot nang maayos at ihain nang malinis at kaaya-aya.</p>
+  
+      <h2>Mga Tips at Teknik</h2>
+  
+      <ul>
+        <li><strong>Kabisaduhin ang Mga Kombinasyon:</strong> Karaniwang umuulit ang mga order — tandaan ang mga paboritong tulad ng “baka + cheddar + banayad na salsa.”</li>
+        <li><strong>Balanse ng Bilis at Katumpakan:</strong> Ang pagmamadali ay pwedeng magresulta sa pagkakamali — panatilihin ang tamang balanse.</li>
+        <li><strong>Ayusin ang Workstation:</strong> Ilagay ang mga sangkap sa lohikal na pagkakasunod-sunod para sa mabilisang paggawa.</li>
+        <li><strong>Mga Espesyal na Order:</strong> May ilan na gustong gluten-free o dairy-free — bantayan ang mga icon o notes.</li>
+        <li><strong>Gamitin ang Kulay ng Ticket:</strong> Gumagamit ng kulay ang tickets para ipakita ang level ng anghang o espesyal na kahilingan.</li>
+      </ul>
+  
+      <h2>Buod</h2>
+  
+      <p>Ang Cookingdom Level 67 ay isang mabilisang hamon sa pagbuo ng masarap na taco. Pag-aralan ang tamang sangkap, bilis ng pag-assemble, at personalisasyon ng order upang makakuha ng 3 bituin. Matapos makumpleto, maa-unlock mo ang bagong sangkap gaya ng maanghang na mango salsa at blue corn tortillas.</p>
+    `
+  }
+
+
 
 
 

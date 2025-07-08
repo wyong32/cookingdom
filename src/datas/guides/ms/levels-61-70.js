@@ -1,48 +1,48 @@
 export const levels61to70 = [
-    {
-        "id": "cookingdom-game-level-61",
-        "title": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan",
-        "pageTitle": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan",
-        "pageSubtitle": "Kuasa seni memanggang pada Tahap 61 dalam Cookingdom dengan BBQ Belakang Rumah.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_61.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-61",
+    "title": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan",
+    "pageTitle": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan",
+    "pageSubtitle": "Kuasa seni memanggang pada Tahap 61 dalam Cookingdom dengan BBQ Belakang Rumah.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_61.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-61" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
+    "seo": {
+      "title": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan & Petua",
+      "description": "Pelajari cara menguasai BBQ Belakang Rumah di Cookingdom Tahap 61. Ikuti proses memanggang untuk menyajikan BBQ terbaik bagi mendapatkan penarafan 3-bintang.",
+      "keywords": "cookingdom tahap 61, BBQ belakang rumah, memanggang, resipi BBQ, panduan memasak, petua cookingdom"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_61.webp",
+      "levelInfoHtml": "<h3>BBQ Belakang Rumah</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Masa Dijangka:</strong> 3–4 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-60",
+          "title": "Cookingdom Tahap 60 Bouillabaisse Panduan",
+          "imageUrl": "/images/guides_60.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-61" }
+            "params": { "id": "cookingdom-game-level-60" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/9jKvvxWmZWg",
-        "seo": {
-            "title": "Cookingdom Tahap 61 BBQ Belakang Rumah Panduan & Petua",
-            "description": "Pelajari cara menguasai BBQ Belakang Rumah di Cookingdom Tahap 61. Ikuti proses memanggang untuk menyajikan BBQ terbaik bagi mendapatkan penarafan 3-bintang.",
-            "keywords": "cookingdom tahap 61, BBQ belakang rumah, memanggang, resipi BBQ, panduan memasak, petua cookingdom"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_61.webp",
-            "levelInfoHtml": "<h3>BBQ Belakang Rumah</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Masa Dijangka:</strong> 3–4 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-60",
-                    "title": "Cookingdom Tahap 60 Bouillabaisse Panduan",
-                    "imageUrl": "/images/guides_60.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-60" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Tahap 62 Stew Daging Perap Api Panduan",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom Tahap 62 Stew Daging Perap Api Panduan",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-62" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Gambaran Tahap</h2>
         
         <p>Tahap 61 memperkenalkan seni memanggang dengan BBQ Belakang Rumah. Anda perlu menyediakan pelbagai jenis daging dan sayur-sayuran, memastikan ia dipanggang dengan sempurna dan dihidangkan dengan sos serta hidangan sampingan yang betul.</p>
@@ -92,52 +92,52 @@ export const levels61to70 = [
         
         <p>Tahap 61 menguji kemahiran memanggang anda, kemampuan untuk menguruskan hidangan sampingan dan sos, serta menguruskan masa dengan efektif untuk melayani pelanggan. Menguasai BBQ Belakang Rumah akan membuka lebih banyak resipi panggang dan membolehkan anda menaik taraf stesen BBQ anda.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-62",
-        "title": "Cookingdom Tahap 62 Stew Daging Api Perkemahan Panduan",
-        "pageTitle": "Cookingdom Tahap 62 Stew Daging Api Perkemahan Panduan",
-        "pageSubtitle": "Kuasi seni memasak Stew Daging Api Perkemahan secara perlahan di Tahap 62 Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_62.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-62",
+    "title": "Cookingdom Tahap 62 Stew Daging Api Perkemahan Panduan",
+    "pageTitle": "Cookingdom Tahap 62 Stew Daging Api Perkemahan Panduan",
+    "pageSubtitle": "Kuasi seni memasak Stew Daging Api Perkemahan secara perlahan di Tahap 62 Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_62.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-62" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
+    "seo": {
+      "title": "Cookingdom Tahap 62 Stew Daging Api Perkemahan Panduan & Petua",
+      "description": "Pelajari cara memasak Stew Daging Api Perkemahan yang sempurna di Tahap 62 Cookingdom. Ikuti proses memasak perlahan untuk menyediakan hidangan yang kaya dengan bahan yang betul bagi mendapat 3 bintang.",
+      "keywords": "cookingdom tahap 62, stew daging api perkemahan, stew daging, memasak perlahan, panduan memasak, petua cookingdom"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_62.webp",
+      "levelInfoHtml": "<h3>Stew Daging Api Perkemahan</h3><p><strong>Kebolehan:</strong> Sukar</p><p><strong>Waktu yang Dijangkakan:</strong> 5–6 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bonus Wang</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-61",
+          "title": "Cookingdom Tahap 61 Barbeku Taman Belakang Panduan",
+          "imageUrl": "/images/guides_61.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-62" }
+            "params": { "id": "cookingdom-game-level-61" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/Dptm7wVOCg4",
-        "seo": {
-            "title": "Cookingdom Tahap 62 Stew Daging Api Perkemahan Panduan & Petua",
-            "description": "Pelajari cara memasak Stew Daging Api Perkemahan yang sempurna di Tahap 62 Cookingdom. Ikuti proses memasak perlahan untuk menyediakan hidangan yang kaya dengan bahan yang betul bagi mendapat 3 bintang.",
-            "keywords": "cookingdom tahap 62, stew daging api perkemahan, stew daging, memasak perlahan, panduan memasak, petua cookingdom"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_62.webp",
-            "levelInfoHtml": "<h3>Stew Daging Api Perkemahan</h3><p><strong>Kebolehan:</strong> Sukar</p><p><strong>Waktu yang Dijangkakan:</strong> 5–6 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bonus Wang</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-61",
-                    "title": "Cookingdom Tahap 61 Barbeku Taman Belakang Panduan",
-                    "imageUrl": "/images/guides_61.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-61" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Tahap 63 Barbeku Pantai Panduan",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Tahap 63 Barbeku Pantai Panduan",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Gambaran Tahap</h2>
         
         <p>Tahap 62 memperkenalkan hidangan yang dimasak perlahan yang memuaskan: Stew Daging Api Perkemahan. Tahap ini memberi tumpuan kepada pengurusan proses memasak perlahan dan menambah bahan yang betul pada masa yang tepat untuk menghasilkan stew yang penuh rasa.</p>
@@ -194,52 +194,52 @@ export const levels61to70 = [
         
         <p>Tahap 62 menguji kebolehan anda untuk menguruskan masa dan bahan dengan berkesan, apabila menyediakan Stew Daging Api Perkemahan yang lazat dari awal. Kejayaan dalam tahap ini memerlukan kesabaran, ketepatan masa, dan kemampuan untuk multitask dalam persekitaran memasak perlahan. Menguasai tahap ini akan membuka resipi stew yang lebih berkhasiat dan membolehkan anda menaik taraf peralatan memasak api perkemahan anda.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-63",
-        "title": "Cookingdom Tahap 63 BBQ Pantai Panduan",
-        "pageTitle": "Cookingdom Tahap 63 BBQ Pantai Panduan",
-        "pageSubtitle": "Kuasa seni memasak BBQ pantai di Tahap 63 Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_63.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-63",
+    "title": "Cookingdom Tahap 63 BBQ Pantai Panduan",
+    "pageTitle": "Cookingdom Tahap 63 BBQ Pantai Panduan",
+    "pageSubtitle": "Kuasa seni memasak BBQ pantai di Tahap 63 Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_63.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-63" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
+    "seo": {
+      "title": "Cookingdom Tahap 63 BBQ Pantai Panduan & Petua",
+      "description": "Pelajari cara menyediakan BBQ pantai yang sempurna di Cookingdom Tahap 63. Ikuti langkah-langkah memasak dan hidangkan dengan sisi yang tepat untuk mendapatkan penarafan 3 bintang.",
+      "keywords": "cookingdom tahap 63, BBQ pantai, memasak, resipi BBQ pantai, panduan memasak, petua cookingdom"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_63.webp",
+      "levelInfoHtml": "<h3>BBQ Pantai</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4-5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bonus Koin</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-62",
+          "title": "Cookingdom Tahap 62 Stew Daging Api Panduan",
+          "imageUrl": "/images/guides_62.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-63" }
+            "params": { "id": "cookingdom-game-level-62" }
+          }
         },
-        "iframeUrl": "https://www.youtube.com/embed/mjk0e7uV8Cs",
-        "seo": {
-            "title": "Cookingdom Tahap 63 BBQ Pantai Panduan & Petua",
-            "description": "Pelajari cara menyediakan BBQ pantai yang sempurna di Cookingdom Tahap 63. Ikuti langkah-langkah memasak dan hidangkan dengan sisi yang tepat untuk mendapatkan penarafan 3 bintang.",
-            "keywords": "cookingdom tahap 63, BBQ pantai, memasak, resipi BBQ pantai, panduan memasak, petua cookingdom"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_63.webp",
-            "levelInfoHtml": "<h3>BBQ Pantai</h3><p><strong>Kebolehan:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4-5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bonus Koin</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-62",
-                    "title": "Cookingdom Tahap 62 Stew Daging Api Panduan",
-                    "imageUrl": "/images/guides_62.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-62" }
-                    }
-                },
-                {
-                    "id": "cookingdom-game-level-64",
-                    "title": "Cookingdom Tahap 64 Dimsum Panduan",
-                    "imageUrl": "/images/guides_64.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+        {
+          "id": "cookingdom-game-level-64",
+          "title": "Cookingdom Tahap 64 Dimsum Panduan",
+          "imageUrl": "/images/guides_64.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Gambaran Tahap</h2>
         
         <p>Tahap 63 membawa pengalaman BBQ pantai yang menyeronokkan dan santai. Anda perlu memanggang pelbagai jenis daging dan makanan laut, menyediakan sisi segar, dan memastikan semuanya dimasak dengan sempurna sambil menguruskan suasana pantai.</p>
@@ -289,43 +289,43 @@ export const levels61to70 = [
         
         <p>Tahap 63 menguji kebolehan anda untuk menguruskan memanggang, penyediaan sisi, dan hidangan semuanya dalam suasana pantai yang santai. Menyeimbangkan masa memanggang dan mengendalikan kerja banyak perkara pada masa yang sama antara sisi dan sos adalah kunci untuk menyelesaikan tahap ini dengan penarafan yang tinggi. Kuasai tahap ini untuk membuka lebih banyak resipi BBQ pantai dan meningkatkan stesen grill anda.</p>
         `
-    },
+  },
 
-    {
-        "id": "cookingdom-game-level-64",
-        "title": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
-        "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
-        "category": "61-70",
-        "publishDate": "2025-06-23",
-        "isSpecial": false,
-        "imageUrl": "/images/guides_64.webp",
-        "detailsRoute": {
+  {
+    "id": "cookingdom-game-level-64",
+    "title": "Cookingdom Level 64 Dimsum Walkthrough",
+    "pageTitle": "Cookingdom Level 64 Dimsum Walkthrough",
+    "pageSubtitle": "Master the art of making delicious Dimsum in Level 64 of Cookingdom.",
+    "category": "61-70",
+    "publishDate": "2025-06-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_64.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-64" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
+    "seo": {
+      "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
+      "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
+      "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_64.webp",
+      "levelInfoHtml": "<h3>Dimsum</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4–5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-63",
+          "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
+          "imageUrl": "/images/guides_63.webp",
+          "detailsRoute": {
             "name": "guide-detail",
-            "params": { "id": "cookingdom-game-level-64" }
-        },
-        "iframeUrl": "https://www.youtube.com/embed/7p54zH2mLgs",
-        "seo": {
-            "title": "Cookingdom Level 64 Dimsum Walkthrough & Tips",
-            "description": "Learn how to make perfect Dimsum in Cookingdom Level 64. Follow the cooking steps to prepare a variety of dumplings and steamed buns for a 3-star rating.",
-            "keywords": "cookingdom level 64, dimsum, dumplings, steamed buns, cooking guide, cookingdom tips"
-        },
-        "sidebarData": {
-            "sidebarImageUrl": "/images/guides_64.webp",
-            "levelInfoHtml": "<h3>Dimsum</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4–5 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Syiling Bonus</p>",
-            "featuredGuides": [
-                {
-                    "id": "cookingdom-game-level-63",
-                    "title": "Cookingdom Level 63 Beachside Barbecue Walkthrough",
-                    "imageUrl": "/images/guides_63.webp",
-                    "detailsRoute": {
-                        "name": "guide-detail",
-                        "params": { "id": "cookingdom-game-level-63" }
-                    }
-                }
-            ]
-        },
-        "detailsHtml": `
+            "params": { "id": "cookingdom-game-level-63" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
         <h2>Gambaran Tahap</h2>
         
         <p>Level 64 memperkenalkan dimsum, pelbagai jenis dumpling, bun kukus, dan hidangan tradisional lainnya. Anda perlu menguasai seni menyediakan dan mengukus hidangan yang halus ini sambil memantau masa dan pesanan pelanggan.</p>
@@ -375,43 +375,43 @@ export const levels61to70 = [
         
         <p>Level 64 adalah tentang ketepatan dan masa apabila anda menyediakan Dimsum, hidangan tradisional yang halus. Menguasai cara mengendalikan doh, meletakkan inti dengan betul, dan menyiapkan masa mengukus dengan sempurna adalah kunci kejayaan. Menyelesaikan tahap ini akan membuka resipi Dimsum yang lebih maju dan membolehkan anda menaik taraf dapur anda untuk penyediaan yang lebih pantas.</p>
         `
-    },
+  },
 
-    {
-        id: "cookingdom-game-level-65",
-        title: "Panduan Cookingdom Tahap 65 - Teh Matcha",
-        pageTitle: "Panduan Cookingdom Tahap 65 - Teh Matcha",
-        pageSubtitle: "Bancuh secawan teh matcha yang sempurna dalam Tahap 65 Cookingdom.",
-        category: "61-70",
-        publishDate: "2025-06-30",
-        isSpecial: false,
-        imageUrl: "/images/guides_65.webp",
-        detailsRoute: {
+  {
+    id: "cookingdom-game-level-65",
+    title: "Panduan Cookingdom Tahap 65 - Teh Matcha",
+    pageTitle: "Panduan Cookingdom Tahap 65 - Teh Matcha",
+    pageSubtitle: "Bancuh secawan teh matcha yang sempurna dalam Tahap 65 Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_65.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-65" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Gantikan dengan ID video sebenar
+    seo: {
+      title: "Panduan & Tips Cookingdom Tahap 65 - Teh Matcha",
+      description: "Pelajari cara menyediakan teh matcha tradisional Jepun dalam Tahap 65 Cookingdom. Ikuti panduan langkah demi langkah untuk memperoleh penarafan 3 bintang.",
+      keywords: "cookingdom tahap 65, matcha, upacara teh, penyediaan matcha, panduan memasak, tips cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_65.webp",
+      levelInfoHtml: "<h3>Matcha</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4–6 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bahan Istimewa</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-64",
+          title: "Panduan Cookingdom Tahap 64 - Dim Sum",
+          imageUrl: "/images/guides_64.webp",
+          detailsRoute: {
             name: "guide-detail",
-            params: { id: "cookingdom-game-level-65" }
-        },
-        iframeUrl: "https://www.youtube.com/embed/2K0nJsSecuE", // Gantikan dengan ID video sebenar
-        seo: {
-            title: "Panduan & Tips Cookingdom Tahap 65 - Teh Matcha",
-            description: "Pelajari cara menyediakan teh matcha tradisional Jepun dalam Tahap 65 Cookingdom. Ikuti panduan langkah demi langkah untuk memperoleh penarafan 3 bintang.",
-            keywords: "cookingdom tahap 65, matcha, upacara teh, penyediaan matcha, panduan memasak, tips cookingdom"
-        },
-        sidebarData: {
-            sidebarImageUrl: "/images/guides_65.webp",
-            levelInfoHtml: "<h3>Matcha</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4–6 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Bahan Istimewa</p>",
-            featuredGuides: [
-                {
-                    id: "cookingdom-game-level-64",
-                    title: "Panduan Cookingdom Tahap 64 - Dim Sum",
-                    imageUrl: "/images/guides_64.webp",
-                    detailsRoute: {
-                        name: "guide-detail",
-                        params: { id: "cookingdom-game-level-64" }
-                    }
-                }
-            ]
-        },
-        detailsHtml: `
+            params: { id: "cookingdom-game-level-64" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
           <h2>Gambaran Tahap</h2>
       
           <p>Tahap 65 memperkenalkan seni tradisional Jepun dalam menyediakan teh matcha. Dalam tahap ini, matlamat anda adalah untuk menguasai proses membancuh dengan ketepatan dan ketenangan demi memuaskan pelanggan upacara teh dengan secawan matcha yang sempurna.</p>
@@ -461,7 +461,190 @@ export const levels61to70 = [
       
           <p>Tahap 65 Cookingdom memberikan cabaran yang menenangkan namun memerlukan ketelitian — menyediakan teh matcha yang sempurna. Kuasai sukatan bahan, suhu air, dan teknik pukulan untuk mencapai kejayaan dan membuka resipi Jepun serta peralatan teh yang baharu.</p>
         `
-    }
+  },
+
+  {
+    id: "cookingdom-game-level-66",
+    title: "Panduan Cookingdom Level 66: Stik Batu Panas",
+    pageTitle: "Panduan Cookingdom Level 66: Stik Batu Panas",
+    pageSubtitle: "Kuasi seni memanggang stik sempurna di atas batu panas dalam Level 66 Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-08",
+    isSpecial: false,
+    imageUrl: "/images/guides_66.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-66" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/Zp9CiNCzDXY", // Gantikan dengan ID video sebenar
+    seo: {
+      title: "Panduan & Tip Cookingdom Level 66: Stik Batu Panas",
+      description: "Panggang stik sempurna di atas batu panas dalam Cookingdom Level 66. Ikuti panduan langkah demi langkah kami untuk memperoleh tiga bintang dan kagumkan tetamu anda.",
+      keywords: "cookingdom level 66, stik batu panas, panggang stik, panduan memasak, stik berdesis, tip cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_66.webp",
+      levelInfoHtml: "<h3>Stik Batu Panas</h3><p><strong>Kesukaran:</strong> Sederhana–Tinggi</p><p><strong>Anggaran Masa:</strong> 5–7 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Garam Berinfusi Api</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-65",
+          title: "Panduan Cookingdom Level 65: Matcha",
+          imageUrl: "/images/guides_65.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-67",
+          title: "Panduan Cookingdom Level 67: Tacos",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+        <h2>Gambaran Tahap</h2>
+    
+        <p>Level 66 memperkenalkan cabaran baru yang panas—memasak stik menggunakan panggangan batu panas tradisional. Masa dan ketepatan adalah kunci untuk memenuhi permintaan tetamu terhadap tahap kemasakan.</p>
+    
+        <h2>Objektif</h2>
+    
+        <p>Masak dan hidangkan stik mengikut tahap kemasakan yang diminta (mentah, sederhana, atau masak sepenuhnya), dengan perasa dan penyajian yang betul. Jangan sampai hangus!</p>
+    
+        <h2>Proses Memanggang</h2>
+    
+        <h3>Langkah 1: Panaskan Batu</h3>
+    
+        <ul>
+          <li>Pastikan batu cukup panas sebelum meletakkan stik di atasnya.</li>
+          <li>Lihat warna merah menyala dan wap sebagai petanda kesiapan.</li>
+        </ul>
+    
+        <h3>Langkah 2: Letak & Panggang Stik</h3>
+    
+        <ul>
+          <li>Gunakan penyepit untuk letakkan stik perlahan-lahan di atas batu panas—dengar bunyi desisan.</li>
+          <li>Balikkan stik pada masa yang sesuai mengikut tahap kemasakan yang diminta.</li>
+        </ul>
+    
+        <h3>Langkah 3: Perasakan Semasa Memasak</h3>
+    
+        <ul>
+          <li>Perasakan dengan garam, lada, dan bahan pilihan lain (seperti mentega bawang putih atau rosemary) ketika memanggang.</li>
+          <li>Masa adalah penting—terlalu awal atau lewat akan menjejaskan rasa.</li>
+        </ul>
+    
+        <h3>Langkah 4: Hidangkan Stik</h3>
+    
+        <p>Setelah masak, pindahkan stik ke papan kayu atau pinggan seramik. Hiasi dengan daun hiasan (microgreens, bawang putih panggang) dan hidangkan dengan gaya.</p>
+    
+        <h2>Petua & Helah</h2>
+    
+        <ul>
+          <li><strong>Hafal Masa Memasak:</strong> Mentah (10s/sisi), Sederhana (15s/sisi), Masak Penuh (20s/sisi).</li>
+          <li><strong>Jangan Terlalu Padat:</strong> Masak hanya 1–2 stik sekali gus untuk elakkan suhu turun.</li>
+          <li><strong>Gunakan Petunjuk Visual:</strong> Perhatikan jus dan tekstur untuk tentukan tahap kemasakan.</li>
+          <li><strong>Bersihkan Penyepit:</strong> Lap atau tukar antara stik untuk elakkan rasa bercampur.</li>
+          <li><strong>Hidang Segera:</strong> Kelewatan dalam penyajian boleh menyebabkan stik terus masak di atas batu.</li>
+        </ul>
+    
+        <h2>Ringkasan</h2>
+    
+        <p>Cookingdom Level 66 membakar semangat dengan cabaran stik atas batu panas. Kuasai tahap kemasakan, masa perasa, dan penyajian pantas untuk dapatkan 3 bintang dan buka bahan serta alat memanggang baru untuk tahap seterusnya.</p>
+      `
+  },
+
+  {
+    id: "cookingdom-game-level-67",
+    title: "Panduan Cookingdom Level 67: Taco",
+    pageTitle: "Panduan Cookingdom Level 67: Taco",
+    pageSubtitle: "Racik taco yang sempurna dengan kepantasan dan rasa dalam Level 67 Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_67.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-67" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/K7OtMtUtQCM", // Gantikan dengan ID video sebenar
+    seo: {
+      title: "Panduan & Tips Cookingdom Level 67: Taco",
+      description: "Hidangkan taco lazat dalam Level 67 Cookingdom. Ikuti panduan kami untuk gabungkan bahan-bahan segar dan puaskan setiap pelanggan yang mengidam rasa.",
+      keywords: "cookingdom level 67, taco, penyediaan taco, panduan memasak, makanan Mexico, tips cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_67.webp",
+      levelInfoHtml: "<h3>Taco</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 4–6 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Salsa Pedas Dibuka</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-66",
+          title: "Panduan Cookingdom Level 66: Stik Batu Panas",
+          imageUrl: "/images/guides_66.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-66" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Gambaran Tahap</h2>
+  
+      <p>Selamat datang ke Level 67! Di sini anda akan masuk ke dunia taco yang penuh warna. Cabaran anda adalah menyediakan taco dengan pantas, tepat, dan lazat. Pilih kulit, protein dan topping yang betul mengikut selera pelanggan.</p>
+  
+      <h2>Objektif</h2>
+  
+      <p>Sediakan taco mengikut pesanan dengan pelbagai jenis kulit, inti, dan hiasan. Pastikan setiap satu mengikut kehendak pelanggan dengan ketepatan dan kepantasan.</p>
+  
+      <h2>Proses Penyediaan</h2>
+  
+      <h3>Langkah 1: Pilih Kulit Taco</h3>
+  
+      <ul>
+        <li>Pilih antara tortilla lembut, kulit jagung rangup, atau kulit taco keras bergantung kepada pesanan.</li>
+        <li>Panaskan kulit taco jika perlu sebelum mula menyediakan.</li>
+      </ul>
+  
+      <h3>Langkah 2: Tambah Protein</h3>
+  
+      <ul>
+        <li>Pilih protein yang betul: daging lembu, ayam, ikan, atau pilihan vegetarian (kacang atau tauhu).</li>
+        <li>Pastikan saiz hidangan sepadan dengan permintaan pelanggan (biasa atau daging berganda).</li>
+      </ul>
+  
+      <h3>Langkah 3: Letak Topping</h3>
+  
+      <ul>
+        <li>Tambah sayur-sayuran seperti salad, tomato, keju, guacamole, bawang, atau cili jalapeño.</li>
+        <li>Sesetengah pelanggan mungkin minta "tanpa keju" atau "ekstra pedas" — semak tiket pesanan dengan teliti.</li>
+      </ul>
+  
+      <h3>Langkah 4: Tambah Sos & Hidangkan</h3>
+  
+      <p>Akhiri dengan salsa (lembut, sederhana, pedas) atau krim masam. Lipat atau bungkus taco dan hidangkan dengan kemas supaya bentuk dan isiannya kekal elok.</p>
+  
+      <h2>Tips dan Helah</h2>
+  
+      <ul>
+        <li><strong>Hafal Kombinasi:</strong> Pesanan popular kerap berulang — ingat kombinasi seperti “daging lembu + keju cheddar + salsa lembut.”</li>
+        <li><strong>Keseimbangan Laju & Tepat:</strong> Terlalu laju boleh sebabkan kesilapan — jaga keseimbangan antara kelajuan dan ketepatan.</li>
+        <li><strong>Stesen Tersusun:</strong> Susun bahan dengan logik untuk mempercepat proses penyediaan.</li>
+        <li><strong>Pesanan Khas:</strong> Ada pelanggan yang minta kulit bebas gluten atau tanpa tenusu — perhatikan ikon atau catatan pada tiket.</li>
+        <li><strong>Guna Kod Warna:</strong> Warna pada tiket menandakan tahap kepedasan atau permintaan khas pelanggan.</li>
+      </ul>
+  
+      <h2>Ringkasan</h2>
+  
+      <p>Level 67 Cookingdom menuntut anda menyusun rasa dalam suasana pantas. Menguasai taco sempurna bermakna anda perlu mahir dengan kombinasi bahan, kelajuan penyediaan, dan penyesuaian ikut pesanan. Sempurnakan semua ini untuk raih 3 bintang dan buka bahan baru seperti salsa mangga pedas dan kulit jagung biru!</p>
+    `
+  }
+
+
 
 
 

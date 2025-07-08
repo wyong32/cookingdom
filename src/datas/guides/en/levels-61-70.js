@@ -418,6 +418,15 @@ export const levels61to70 = [
             params: { id: "cookingdom-game-level-64" }
           }
         },
+        {
+          id: "cookingdom-game-level-66",
+          title: "Cookingdom Level 66 Hot Stone Steak Walkthrough",
+          imageUrl: "/images/guides_66.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-66" }
+          }
+        },
       ]
     },
     detailsHtml: `
@@ -470,7 +479,190 @@ export const levels61to70 = [
   
       <p>Cookingdom Level 65 offers a calming yet challenging task: crafting the perfect matcha tea. Mastering ingredient proportions, water temperature, and whisking technique will lead you to a flawless ceremony and unlock the next set of Japanese-themed recipes and tea tools.</p>
     `
+  },
+
+  {
+    id: "cookingdom-game-level-66",
+    title: "Cookingdom Level 66 Hot Stone Steak Walkthrough",
+    pageTitle: "Cookingdom Level 66 Hot Stone Steak Walkthrough",
+    pageSubtitle: "Master the art of sizzling perfection in Level 66 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-08",
+    isSpecial: false,
+    imageUrl: "/images/guides_66.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-66" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/Zp9CiNCzDXY", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom Level 66 Hot Stone Steak Walkthrough & Tips",
+      description: "Grill the perfect steak on a sizzling hot stone in Cookingdom Level 66. Follow our step-by-step walkthrough to earn all three stars and impress your guests.",
+      keywords: "cookingdom level 66, hot stone steak, steak grilling, cooking guide, sizzling steak, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_66.webp",
+      levelInfoHtml: "<h3>Hot Stone Steak</h3><p><strong>Difficulty:</strong> Medium–High</p><p><strong>Est. Time:</strong> 5–7 minutes</p><p><strong>Reward:</strong> 3 Stars + Flame-Infused Salt</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-65",
+          title: "Cookingdom Level 65 Matcha Walkthrough",
+          imageUrl: "/images/guides_65.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-67",
+          title: "Cookingdom Level 67 Tacos Walkthrough",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Level Overview</h2>
+  
+      <p>Level 66 takes players to a sizzling new challenge—preparing a perfectly seared steak using a traditional hot stone grill. Timing and precision are everything as you cook to your guests' exact preferences.</p>
+  
+      <h2>Objective</h2>
+  
+      <p>Cook and serve hot stone steaks with the desired doneness (rare, medium, or well-done), using proper seasoning and plating techniques. Don't let the meat burn!</p>
+  
+      <h2>Grilling Process</h2>
+  
+      <h3>Step 1: Preheat the Stone</h3>
+  
+      <ul>
+        <li>Ensure the hot stone reaches optimal searing temperature before placing the steak.</li>
+        <li>Watch for the glowing red color and steam to indicate readiness.</li>
+      </ul>
+  
+      <h3>Step 2: Place and Sear the Steak</h3>
+  
+      <ul>
+        <li>Use tongs to gently lay the steak onto the hot surface—listen for the sizzle.</li>
+        <li>Flip the steak at the right interval depending on the doneness level requested.</li>
+      </ul>
+  
+      <h3>Step 3: Season While Cooking</h3>
+  
+      <ul>
+        <li>Season the steak with salt, pepper, and optional ingredients (e.g., garlic butter or rosemary) while it sears.</li>
+        <li>Timing is crucial—season too early or too late and the flavor won't be optimal.</li>
+      </ul>
+  
+      <h3>Step 4: Plate the Steak</h3>
+  
+      <p>Once cooked, transfer the steak to a wooden board or ceramic plate. Add garnish (microgreens, roasted garlic) and serve with elegance.</p>
+  
+      <h2>Tips and Tricks</h2>
+  
+      <ul>
+        <li><strong>Memorize Cook Times:</strong> Learn the searing time for rare (10s/side), medium (15s/side), and well-done (20s/side).</li>
+        <li><strong>Don’t Overcrowd:</strong> Only cook 1–2 steaks at a time to avoid temperature drops.</li>
+        <li><strong>Use Visual Cues:</strong> Watch for juice levels and texture changes to judge doneness if you're unsure.</li>
+        <li><strong>Keep Tongs Clean:</strong> Wipe or switch utensils between steaks to avoid cross-flavors.</li>
+        <li><strong>Serve Immediately:</strong> Delay in plating causes the steak to overcook slightly on the hot stone.</li>
+      </ul>
+  
+      <h2>Summary</h2>
+  
+      <p>Cookingdom Level 66 raises the heat with hot stone steak preparation. Mastering steak doneness, seasoning timing, and quick plating will earn you three stars and unlock new grilling ingredients and tools for future levels.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-67",
+    title: "Cookingdom Level 67 Tacos Walkthrough",
+    pageTitle: "Cookingdom Level 67 Tacos Walkthrough",
+    pageSubtitle: "Assemble the perfect tacos with flavor and speed in Level 67 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_67.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-67" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/K7OtMtUtQCM", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom Level 67 Tacos Walkthrough & Tips",
+      description: "Craft delicious tacos in Cookingdom Level 67. Follow our walkthrough to combine fresh ingredients and satisfy every customer's craving for flavor.",
+      keywords: "cookingdom level 67, tacos, taco assembly, cooking guide, mexican food, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_67.webp",
+      levelInfoHtml: "<h3>Tacos</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 4–6 minutes</p><p><strong>Reward:</strong> 3 Stars + Spicy Salsa Unlock</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-66",
+          title: "Cookingdom Level 66 Hot Stone Steak Walkthrough",
+          imageUrl: "/images/guides_66.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-66" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Level Overview</h2>
+  
+      <p>Welcome to Level 67, where you'll enter the vibrant world of tacos! This level challenges you to quickly assemble tacos with precision and flavor. Choose the right shell, protein, and toppings to meet each customer's taste.</p>
+  
+      <h2>Objective</h2>
+  
+      <p>Build tacos to order using a variety of shells, fillings, and garnishes. Match customer preferences exactly while maintaining speed and accuracy.</p>
+  
+      <h2>Assembly Process</h2>
+  
+      <h3>Step 1: Select the Shell</h3>
+  
+      <ul>
+        <li>Choose between soft flour tortillas, crunchy corn shells, or hard taco shells based on the order.</li>
+        <li>Heat the shell lightly if needed before assembly.</li>
+      </ul>
+  
+      <h3>Step 2: Add the Protein</h3>
+  
+      <ul>
+        <li>Select the correct protein: beef, chicken, fish, or vegetarian (beans or tofu).</li>
+        <li>Ensure the portion size matches customer preference (regular or double meat).</li>
+      </ul>
+  
+      <h3>Step 3: Layer the Toppings</h3>
+  
+      <ul>
+        <li>Add toppings like shredded lettuce, tomatoes, cheese, guacamole, onions, or jalapeños.</li>
+        <li>Some guests may request “no cheese” or “extra spicy” — check each ticket carefully.</li>
+      </ul>
+  
+      <h3>Step 4: Add Sauce and Serve</h3>
+  
+      <p>Top off with salsa (mild, medium, hot) or sour cream. Fold or wrap the taco, and serve it with care to keep everything intact and appealing.</p>
+  
+      <h2>Tips and Tricks</h2>
+  
+      <ul>
+        <li><strong>Memorize Combinations:</strong> Common orders repeat—memorize combos like “beef + cheddar + mild salsa.”</li>
+        <li><strong>Speed vs. Accuracy:</strong> Rushing may lead to incorrect toppings. Balance speed with precision.</li>
+        <li><strong>Keep Station Organized:</strong> Arrange toppings logically for faster assembly.</li>
+        <li><strong>Special Orders:</strong> Some guests may ask for gluten-free shells or dairy-free options—watch for icons or notes.</li>
+        <li><strong>Use Color Cues:</strong> Taco tickets use colored tags to denote spice level and special requests.</li>
+      </ul>
+  
+      <h2>Summary</h2>
+  
+      <p>Cookingdom Level 67 serves up fast-paced flavor building. Mastering the perfect taco means juggling ingredients, speed, and customization. Nail each detail to earn 3 stars and unlock new ingredients like spicy mango salsa and blue corn tortillas.</p>
+    `
   }
+
+
 
 
 

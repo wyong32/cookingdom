@@ -461,7 +461,190 @@ export const levels61to70 = [
       
           <p>Cookingdom 第65关是一个令人平静却又颇具挑战的关卡：冲泡完美的抹茶。掌握材料比例、水温控制和搅拌技巧，将带你完成一场无可挑剔的茶道体验，并解锁下一组日式料理与茶具升级。</p>
         `
+  },
+
+  {
+    id: "cookingdom-game-level-66",
+    title: "Cookingdom 第66关 热石牛排通关攻略",
+    pageTitle: "Cookingdom 第66关 热石牛排通关攻略",
+    pageSubtitle: "在第66关中掌握 sizzling 牛排的完美火候。",
+    category: "61-70",
+    publishDate: "2025-07-08",
+    isSpecial: false,
+    imageUrl: "/images/guides_66.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-66" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/Zp9CiNCzDXY", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom 第66关 热石牛排攻略与技巧",
+      description: "在 Cookingdom 第66关中用热石板煎出完美牛排。按照我们的逐步攻略，赢取三星评价并让客人赞不绝口！",
+      keywords: "cookingdom 第66关, 热石牛排, 牛排烧烤, 烹饪指南, sizzling 牛排, cookingdom 技巧"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_66.webp",
+      levelInfoHtml: "<h3>热石牛排</h3><p><strong>难度：</strong>中等偏高</p><p><strong>预计耗时：</strong>5–7分钟</p><p><strong>奖励：</strong>三星 + 火焰注盐</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-65",
+          title: "Cookingdom 第65关 抹茶通关攻略",
+          imageUrl: "/images/guides_65.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-65" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-67",
+          title: "Cookingdom 第67关 墨西哥卷通关攻略",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>关卡概览</h2>
+  
+      <p>第66关带来炽热挑战——使用传统热石板烹制完美煎牛排。时机与精度是成功的关键，你需要满足客人对不同熟度的要求。</p>
+  
+      <h2>目标</h2>
+  
+      <p>根据客人要求的熟度（生、五分熟、全熟）来烹制并上菜，掌握调味时机与装盘技巧。注意别把牛排烤糊！</p>
+  
+      <h2>烧烤流程</h2>
+  
+      <h3>步骤一：预热石板</h3>
+  
+      <ul>
+        <li>确保热石板加热至最佳煎制温度后再放牛排。</li>
+        <li>观察是否呈现出红光与蒸汽，作为准备就绪的信号。</li>
+      </ul>
+  
+      <h3>步骤二：放上牛排并煎制</h3>
+  
+      <ul>
+        <li>用夹子轻轻将牛排放到热石上——听见滋滋声表示温度够了。</li>
+        <li>根据所需熟度把握翻面时机。</li>
+      </ul>
+  
+      <h3>步骤三：煎制过程中调味</h3>
+  
+      <ul>
+        <li>在煎制时撒上盐和胡椒，也可加上大蒜奶油或迷迭香等可选材料。</li>
+        <li>时机很重要——调味过早或过晚都会影响风味。</li>
+      </ul>
+  
+      <h3>步骤四：装盘</h3>
+  
+      <p>煎好后，将牛排移至木板或瓷盘上。加入装饰（如芽菜或烤蒜），优雅上菜。</p>
+  
+      <h2>小贴士与技巧</h2>
+  
+      <ul>
+        <li><strong>记熟各熟度时间：</strong>生（每面10秒）、五分熟（每面15秒）、全熟（每面20秒）。</li>
+        <li><strong>避免拥挤：</strong>一次最多煎1–2块牛排，避免温度下降。</li>
+        <li><strong>观察视觉线索：</strong>通过汁水多少与表面质地判断熟度。</li>
+        <li><strong>保持夹子干净：</strong>在处理不同牛排之间擦拭或更换工具，避免味道串味。</li>
+        <li><strong>立即上菜：</strong>若拖延装盘，牛排可能在热石上继续熟化。</li>
+      </ul>
+  
+      <h2>总结</h2>
+  
+      <p>Cookingdom 第66关挑战你的煎牛排技巧。掌握熟度、调味与装盘时机，就能赢得三星，并解锁后续关卡的新食材与烹饪工具！</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-67",
+    title: "Cookingdom 第67关 墨西哥卷通关攻略",
+    pageTitle: "Cookingdom 第67关 墨西哥卷通关攻略",
+    pageSubtitle: "在第67关中，以速度与风味完美打造墨西哥卷。",
+    category: "61-70",
+    publishDate: "2025-06-30",
+    isSpecial: false,
+    imageUrl: "/images/guides_67.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-67" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/K7OtMtUtQCM", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom 第67关 墨西哥卷通关攻略与技巧",
+      description: "在 Cookingdom 第67关中打造美味墨西哥卷。按照我们的通关攻略，搭配新鲜食材，满足每位顾客对风味的渴望。",
+      keywords: "cookingdom 第67关, 墨西哥卷, 卷饼制作, 烹饪指南, 墨西哥美食, cookingdom 技巧"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_67.webp",
+      levelInfoHtml: "<h3>墨西哥卷</h3><p><strong>难度：</strong>中等</p><p><strong>预计耗时：</strong>4–6分钟</p><p><strong>奖励：</strong>3星 + 解锁辣味莎莎酱</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-66",
+          title: "Cookingdom 第66关 热石牛排通关攻略",
+          imageUrl: "/images/guides_66.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-66" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>关卡概览</h2>
+  
+      <p>欢迎来到第67关，你将进入充满活力的墨西哥卷世界！本关考验你快速、精准地制作美味卷饼。根据每位顾客的口味选择正确的饼皮、蛋白质和配料。</p>
+  
+      <h2>目标</h2>
+  
+      <p>根据订单选择不同的卷饼皮、内馅和配菜，快速精准地制作出符合顾客要求的墨西哥卷。</p>
+  
+      <h2>制作流程</h2>
+  
+      <h3>步骤1：选择饼皮</h3>
+  
+      <ul>
+        <li>根据订单选择柔软面粉饼皮、香脆玉米壳，或硬质卷饼壳。</li>
+        <li>必要时可先稍加加热。</li>
+      </ul>
+  
+      <h3>步骤2：添加蛋白质</h3>
+  
+      <ul>
+        <li>选择正确的主料：牛肉、鸡肉、鱼肉，或素食选项（如豆类或豆腐）。</li>
+        <li>确认分量是否为普通或加量（双倍肉）。</li>
+      </ul>
+  
+      <h3>步骤3：添加配料</h3>
+  
+      <ul>
+        <li>依次加入生菜丝、番茄、奶酪、鳄梨酱、洋葱或辣椒等配料。</li>
+        <li>注意顾客备注，如“不加奶酪”或“特辣”——仔细查看订单标签。</li>
+      </ul>
+  
+      <h3>步骤4：加酱并上菜</h3>
+  
+      <p>选择莎莎酱（微辣、中辣或特辣）或酸奶油作为最后调味。将卷饼折好或包裹整齐，小心上菜，保持外观美观。</p>
+  
+      <h2>小贴士与技巧</h2>
+  
+      <ul>
+        <li><strong>记住常见搭配：</strong>常见订单会重复出现，记住例如“牛肉 + 切达奶酪 + 微辣莎莎”组合。</li>
+        <li><strong>速度与准确并重：</strong>过快容易出错，平衡速度和准确性非常关键。</li>
+        <li><strong>工作台整洁有序：</strong>将配料合理排列可提升制作效率。</li>
+        <li><strong>留意特殊订单：</strong>某些顾客会要求无麸质或无奶制品——留意标签上的图标或文字说明。</li>
+        <li><strong>使用颜色提示：</strong>订单标签颜色代表辣度或特殊需求，一目了然。</li>
+      </ul>
+  
+      <h2>总结</h2>
+  
+      <p>Cookingdom 第67关带来节奏快速的风味挑战。掌握食材搭配、操作速度与个性化定制，是获得三星的关键。通关后将解锁新食材，如辣芒果莎莎酱与蓝玉米卷饼皮！</p>
+    `
   }
+
+
 
 
 
