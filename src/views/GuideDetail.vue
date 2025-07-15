@@ -95,7 +95,7 @@
 
           <!-- Featured Guides -->
           <div class="featured-guides">
-            <h3>{{ $t('guideDetail.featuredGuides') }}</h3>
+            <h3>{{ $t('guideDetail.featuredLevelsTitle') }}</h3>
             <div class="featured-guides-list">
               <router-link
                 v-for="guide in currentGuide.sidebarData.featuredGuides"
@@ -174,7 +174,7 @@ const { t, locale } = useI18n()
 const { isMobile } = useDeviceDetection()
 
 // Use the composable for guides list, loading state, and error state
-const { guides, isLoading: isLoadingList, error: listError } = useGuides()
+const { guides, isLoading: isLoadingList, error: listError, load } = useGuides()
 
 const guideId = computed(() => route.params.id)
 
@@ -260,6 +260,11 @@ const loadAds = () => {
 }
 
 onMounted(() => {
+  // 加载指南数据（如果还没有加载的话）
+  if (!guides.value.length && !isLoadingList.value) {
+    load(locale.value)
+  }
+
   // 加载广告
   setTimeout(loadAds, 1000)
 })

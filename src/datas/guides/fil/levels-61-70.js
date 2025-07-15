@@ -589,6 +589,15 @@ export const levels61to70 = [
             name: "guide-detail",
             params: { id: "cookingdom-game-level-66" }
           }
+        },
+        {
+          id: "cookingdom-game-level-68",
+          title: "Cookingdom Antas 68: Takoyaki Walkthrough",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
         }
       ]
     },
@@ -642,7 +651,150 @@ export const levels61to70 = [
   
       <p>Ang Cookingdom Level 67 ay isang mabilisang hamon sa pagbuo ng masarap na taco. Pag-aralan ang tamang sangkap, bilis ng pag-assemble, at personalisasyon ng order upang makakuha ng 3 bituin. Matapos makumpleto, maa-unlock mo ang bagong sangkap gaya ng maanghang na mango salsa at blue corn tortillas.</p>
     `
+  },
+
+  {
+    id: "cookingdom-game-level-68",
+    title: "Cookingdom Antas 68: Takoyaki Walkthrough",
+    pageTitle: "Cookingdom Antas 68: Takoyaki Walkthrough",
+    pageSubtitle: "Masterin ang sining ng malutong na takoyaki sa Antas 68 ng Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: false,
+    imageUrl: "/images/guides_68.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-68" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/kA13PQ7iQSU", // Palitan ng aktwal na video ID
+    seo: {
+      title: "Cookingdom Antas 68 Takoyaki Walkthrough at Tips",
+      description: "Lutuin ang masarap na Japanese takoyaki sa Cookingdom Antas 68. Sundan ang aming detalyadong walkthrough para i-flip, lagyan ng palaman, at palamutian nang perpekto ang mga octopus balls.",
+      keywords: "cookingdom antas 68, takoyaki, pagkaing hapon, octopus balls, tips sa cookingdom, gabay sa pagluluto"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_68.webp",
+      levelInfoHtml: "<h3>Takoyaki</h3><p><strong>Kahirapan:</strong> Mahirap</p><p><strong>Inaasahang Oras:</strong> 5–7 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Bonito Flakes Unlock</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-67",
+          title: "Cookingdom Antas 67: Tacos Walkthrough",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-69",
+          title: "Cookingdom Antas 69: Matcha Set Walkthrough",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Cookingdom Antas 68</h2>
+      <p>Ang Antas 68 ay nagdadala sa iyo sa mundo ng Japanese street food gamit ang takoyaki — malutong na mga octopus balls na kailangang lutuing mabuti, lagyan ng palaman, at palamutian nang maayos. Kailangan sa antas na ito ang bilis, tamang timing ng pag-flip, at maingat na pag-obserba sa mga detalye ng order.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-69",
+    title: "Cookingdom Antas 69: Matcha Set Walkthrough",
+    pageTitle: "Cookingdom Antas 69: Matcha Set Walkthrough",
+    pageSubtitle: "Magluto ng may pagkakaisa at kagandahan gamit ang perpektong Matcha Set sa Antas 69 ng Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_69.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-69" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/DXGO3KdYm9U", // Palitan ng totoong video ID
+    seo: {
+      title: "Cookingdom Antas 69 Matcha Set Walkthrough at Mga Tip",
+      description: "Masterin ang kagandahan ng tradisyonal na Matcha Set sa Cookingdom Antas 69. Magbabad ng tunay na matcha, itambal ito sa mga matatamis, at ihatid ang isang mapayapang karanasan sa tsaa.",
+      keywords: "cookingdom antas 69, matcha set, tsaa ng matcha, seremonya ng tsaa ng hapón, gabay sa pagluluto, wagashi, mga tip sa cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_69.webp",
+      levelInfoHtml: "<h3>Matcha Set</h3><p><strong>Kahirapan:</strong> Eksperto</p><p><strong>Tinatayang Oras:</strong> 6–8 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Unlock ng Iba't Ibang Wagashi</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-68",
+          title: "Cookingdom Antas 68: Takoyaki Walkthrough",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-70",
+          title: "Cookingdom Antas 70: Lyonnaise Salad Walkthrough",
+          imageUrl: "/images/guides_70.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-70" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+  
+      <p>Ipinapakilala ng Antas 69 ang tahimik at pino na mundo ng matcha. Bilang isang artisan ng tsaa, ang tungkulin mo ay ihanda ang isang kumpletong Matcha Set na may bagong whisked na matcha at maselang wagashi (matamis na pagkaing Hapón). Bawat hakbang ay nangangailangan ng kagandahan, tiyempo, at maalab na pagninilay.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-70",
+    title: "Cookingdom Antas 70: Lyonnaise Salad Walkthrough",
+    pageTitle: "Cookingdom Antas 70: Lyonnaise Salad Walkthrough",
+    pageSubtitle: "Gumawa ng perpektong mainit na Lyonnaise Salad na may poached egg, crispy bacon, at kasanayan sa Cookingdom Antas 70.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_70.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-70" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/EuuaLlpKsRA", // Palitan ng tunay na video ID
+    seo: {
+      title: "Cookingdom Antas 70 Lyonnaise Salad Walkthrough at Mga Tip",
+      description: "Tapusin ang Cookingdom Antas 70 gamit ang perpektong Lyonnaise Salad. Masterin ang poached eggs, ginisang bacon, frisée lettuce, at vinaigrette para sa panghuling hamon ng gourmet.",
+      keywords: "cookingdom antas 70, lyonnaise salad, poached egg, French salad, bacon at mga gulay, gabay sa pagluluto, mga tip sa cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_70.webp",
+      levelInfoHtml: "<h3>Lyonnaise Salad</h3><p><strong>Kahirapan:</strong> Advanced</p><p><strong>Tinatayang Oras:</strong> 5–7 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Unlock ng French Bistro Set</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-69",
+          title: "Cookingdom Antas 69: Matcha Set Walkthrough",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+  
+      <p>Ang Antas 70 ay isang gourmet na pagtatapos ng kasalukuyang kabanata ng Cookingdom. Ihahanda mo ang Lyonnaise Salad — isang mainit, malinamnam na French salad na binubuo ng frisée greens, crispy bacon, ginisang shallots, croutons, at isang maselan na poached egg. Dapat mong masterin ang timing, temperatura, at plating upang magtagumpay.</p>
+    `
   }
+
+
+
 
 
 

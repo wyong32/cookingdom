@@ -589,6 +589,15 @@ export const levels61to70 = [
             name: "guide-detail",
             params: { id: "cookingdom-game-level-66" }
           }
+        },
+        {
+          id: "cookingdom-game-level-68",
+          title: "Cookingdom 第68关 章鱼烧攻略",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
         }
       ]
     },
@@ -642,7 +651,150 @@ export const levels61to70 = [
   
       <p>Cookingdom 第67关带来节奏快速的风味挑战。掌握食材搭配、操作速度与个性化定制，是获得三星的关键。通关后将解锁新食材，如辣芒果莎莎酱与蓝玉米卷饼皮！</p>
     `
+  },
+
+  {
+    id: "cookingdom-game-level-68",
+    title: "Cookingdom 第68关 章鱼烧攻略",
+    pageTitle: "Cookingdom 第68关 章鱼烧攻略",
+    pageSubtitle: "在 Cookingdom 第68关中掌握酥脆章鱼烧的烹饪艺术。",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: false,
+    imageUrl: "/images/guides_68.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-68" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/kA13PQ7iQSU", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom 第68关章鱼烧攻略与技巧",
+      description: "在 Cookingdom 第68关中烹制美味的日本章鱼烧。跟随我们的详细攻略，完美翻转、填馅并装饰这些章鱼丸子。",
+      keywords: "cookingdom 第68关, 章鱼烧, 日本美食, 章鱼丸, cookingdom 攻略, 烹饪指南"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_68.webp",
+      levelInfoHtml: "<h3>章鱼烧</h3><p><strong>难度：</strong>困难</p><p><strong>预计时间：</strong>5–7分钟</p><p><strong>奖励：</strong>3星 + 解锁木鱼花</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-67",
+          title: "Cookingdom 第67关 墨西哥卷饼攻略",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-69",
+          title: "Cookingdom 第69关 抹茶套餐攻略",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Cookingdom 第68关</h2>
+      <p>第68关将你带入日本街头美食的世界 —— 章鱼烧。这些酥脆的章鱼丸子需要精准地烹饪、填馅与装饰。该关卡考验你的速度、翻转时机的把握，以及对订单细节的观察力。</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-69",
+    title: "Cookingdom 第69关 抹茶套餐攻略",
+    pageTitle: "Cookingdom 第69关 抹茶套餐攻略",
+    pageSubtitle: "在 Cookingdom 第69关中，以和谐与优雅泡制完美的抹茶套餐。",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_69.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-69" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/DXGO3KdYm9U", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom 第69关 抹茶套餐攻略与技巧",
+      description: "在 Cookingdom 第69关中掌握传统抹茶套餐的优雅艺术。冲泡地道抹茶，搭配和果子，营造一场宁静的茶之体验。",
+      keywords: "cookingdom 第69关, 抹茶套餐, 抹茶, 日本茶道, 烹饪攻略, 和果子, cookingdom 技巧"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_69.webp",
+      levelInfoHtml: "<h3>抹茶套餐</h3><p><strong>难度：</strong>专家级</p><p><strong>预计时间：</strong>6–8分钟</p><p><strong>奖励：</strong>3星 + 解锁和果子品种</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-68",
+          title: "Cookingdom 第68关 章鱼烧攻略",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-70",
+          title: "Cookingdom 第70关 里昂沙拉攻略",
+          imageUrl: "/images/guides_70.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-70" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>关卡概览</h2>
+  
+      <p>第69关将你带入宁静且富有仪式感的抹茶世界。作为茶艺师，你需要准备一整套抹茶套餐：现打抹茶搭配精致的和果子。每一个步骤都需展现出优雅、精准的时间掌控与专注。</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-70",
+    title: "Cookingdom 第70关 里昂沙拉攻略",
+    pageTitle: "Cookingdom 第70关 里昂沙拉攻略",
+    pageSubtitle: "在 Cookingdom 第70关中，精心制作完美的温热里昂沙拉，搭配水波蛋、香脆培根与精致手艺。",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_70.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-70" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/EuuaLlpKsRA", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom 第70关 里昂沙拉攻略与技巧",
+      description: "通过完美制作里昂沙拉完成 Cookingdom 第70关。掌握水波蛋、炒培根、菊苣生菜与油醋汁，为最终的美食挑战画上句点。",
+      keywords: "cookingdom 第70关, 里昂沙拉, 水波蛋, 法式沙拉, 培根与生菜, 烹饪攻略, cookingdom 技巧"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_70.webp",
+      levelInfoHtml: "<h3>里昂沙拉</h3><p><strong>难度：</strong>进阶</p><p><strong>预计时间：</strong>5–7分钟</p><p><strong>奖励：</strong>3星 + 解锁法式小馆套装</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-69",
+          title: "Cookingdom 第69关 抹茶套餐攻略",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>关卡概览</h2>
+  
+      <p>第70关是当前章节的美食终章。你将制作一道里昂沙拉 —— 一道温热、咸香的法式沙拉，由菊苣生菜、香脆培根、炒青葱、烤面包丁和精致水波蛋组成。要想通关，必须掌握时机、温度与摆盘的完美平衡。</p>
+    `
   }
+
+
+
 
 
 

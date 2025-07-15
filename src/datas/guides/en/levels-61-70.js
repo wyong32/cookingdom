@@ -607,6 +607,15 @@ export const levels61to70 = [
             name: "guide-detail",
             params: { id: "cookingdom-game-level-66" }
           }
+        },
+        {
+          id: "cookingdom-game-level-68",
+          title: "Cookingdom Level 68 Takoyaki Walkthrough",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
         }
       ]
     },
@@ -660,7 +669,150 @@ export const levels61to70 = [
   
       <p>Cookingdom Level 67 serves up fast-paced flavor building. Mastering the perfect taco means juggling ingredients, speed, and customization. Nail each detail to earn 3 stars and unlock new ingredients like spicy mango salsa and blue corn tortillas.</p>
     `
+  },
+
+  {
+    id: "cookingdom-game-level-68",
+    title: "Cookingdom Level 68 Takoyaki Walkthrough",
+    pageTitle: "Cookingdom Level 68 Takoyaki Walkthrough",
+    pageSubtitle: "Master the art of crispy takoyaki perfection in Level 68 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: false,
+    imageUrl: "/images/guides_68.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-68" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/kA13PQ7iQSU", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom Level 68 Takoyaki Walkthrough & Tips",
+      description: "Cook delicious Japanese takoyaki in Cookingdom Level 68. Follow our detailed walkthrough to flip, fill, and garnish these octopus balls to perfection.",
+      keywords: "cookingdom level 68, takoyaki, japanese food, octopus balls, cookingdom tips, cooking guide"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_68.webp",
+      levelInfoHtml: "<h3>Takoyaki</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Est. Time:</strong> 5–7 minutes</p><p><strong>Reward:</strong> 3 Stars + Bonito Flakes Unlock</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-67",
+          title: "Cookingdom Level 67 Tacos Walkthrough",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-69",
+          title: "Cookingdom Level 69 Matcha Set Walkthrough",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Cookingdom Level 68</h2>
+      <p>Level 68 takes you into the world of Japanese street food with takoyaki—crispy octopus balls that must be cooked, filled, and garnished precisely. The level demands speed, attention to flipping timing, and keen observation of order details.</p>
+ `
+  },
+
+  {
+    id: "cookingdom-game-level-69",
+    title: "Cookingdom Level 69 Matcha Set Walkthrough",
+    pageTitle: "Cookingdom Level 69 Matcha Set Walkthrough",
+    pageSubtitle: "Brew harmony and grace with the perfect Matcha Set in Level 69 of Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_69.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-69" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/DXGO3KdYm9U", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom Level 69 Matcha Set Walkthrough & Tips",
+      description: "Master the elegance of the traditional Matcha Set in Cookingdom Level 69. Brew authentic matcha, pair it with sweets, and deliver a serene tea experience.",
+      keywords: "cookingdom level 69, matcha set, matcha tea, japanese tea ceremony, cooking guide, wagashi, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_69.webp",
+      levelInfoHtml: "<h3>Matcha Set</h3><p><strong>Difficulty:</strong> Expert</p><p><strong>Est. Time:</strong> 6–8 minutes</p><p><strong>Reward:</strong> 3 Stars + Wagashi Variety Unlock</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-68",
+          title: "Cookingdom Level 68 Takoyaki Walkthrough",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-70",
+          title: "Cookingdom Level 70 Lyonnaise Salad Walkthrough",
+          imageUrl: "/images/guides_70.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-70" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Level Overview</h2>
+  
+      <p>Level 69 introduces the serene and sophisticated world of matcha. As a tea artisan, your task is to prepare a complete Matcha Set with fresh whisked matcha and a delicate wagashi (Japanese confection). Every step must reflect grace, timing, and mindfulness.</p>
+      `
+  },
+
+  {
+    id: "cookingdom-game-level-70",
+    title: "Cookingdom Level 70 Lyonnaise Salad Walkthrough",
+    pageTitle: "Cookingdom Level 70 Lyonnaise Salad Walkthrough",
+    pageSubtitle: "Craft the perfect warm Lyonnaise Salad with poached egg, crispy bacon, and finesse in Cookingdom Level 70.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_70.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-70" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/EuuaLlpKsRA", // 替换为真实视频ID
+    seo: {
+      title: "Cookingdom Level 70 Lyonnaise Salad Walkthrough & Tips",
+      description: "Complete Cookingdom Level 70 with the perfect Lyonnaise Salad. Master poached eggs, sautéed bacon, frisée lettuce, and vinaigrette for the final gourmet challenge.",
+      keywords: "cookingdom level 70, lyonnaise salad, poached egg, french salad, bacon and greens, cooking guide, cookingdom tips"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_70.webp",
+      levelInfoHtml: "<h3>Lyonnaise Salad</h3><p><strong>Difficulty:</strong> Advanced</p><p><strong>Est. Time:</strong> 5–7 minutes</p><p><strong>Reward:</strong> 3 Stars + French Bistro Set Unlock</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-69",
+          title: "Cookingdom Level 69 Matcha Set Walkthrough",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Level Overview</h2>
+  
+      <p>Level 70 is a gourmet finale to the current chapter of Cookingdom. You’ll prepare Lyonnaise Salad—a warm, savory French salad composed of frisée greens, crispy bacon, sautéed shallots, croutons, and a delicate poached egg. Timing, temperature, and plating must be mastered to succeed.</p>
+  
+        `
   }
+
+
 
 
 

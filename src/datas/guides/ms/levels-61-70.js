@@ -589,6 +589,15 @@ export const levels61to70 = [
             name: "guide-detail",
             params: { id: "cookingdom-game-level-66" }
           }
+        },
+        {
+          id: "cookingdom-game-level-68",
+          title: "Panduan Cookingdom Tahap 68: Takoyaki",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
         }
       ]
     },
@@ -642,7 +651,150 @@ export const levels61to70 = [
   
       <p>Level 67 Cookingdom menuntut anda menyusun rasa dalam suasana pantas. Menguasai taco sempurna bermakna anda perlu mahir dengan kombinasi bahan, kelajuan penyediaan, dan penyesuaian ikut pesanan. Sempurnakan semua ini untuk raih 3 bintang dan buka bahan baru seperti salsa mangga pedas dan kulit jagung biru!</p>
     `
+  },
+
+  {
+    id: "cookingdom-game-level-68",
+    title: "Panduan Cookingdom Tahap 68: Takoyaki",
+    pageTitle: "Panduan Cookingdom Tahap 68: Takoyaki",
+    pageSubtitle: "Kuasi seni menyediakan takoyaki rangup dalam Tahap 68 permainan Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: false,
+    imageUrl: "/images/guides_68.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-68" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/kA13PQ7iQSU", // Gantikan dengan ID video sebenar
+    seo: {
+      title: "Panduan & Petua Cookingdom Tahap 68: Takoyaki",
+      description: "Masak takoyaki Jepun yang lazat dalam Tahap 68 Cookingdom. Ikuti panduan terperinci kami untuk membalik, mengisi, dan menghias bebola sotong ini dengan sempurna.",
+      keywords: "cookingdom tahap 68, takoyaki, makanan jepun, bebola sotong, petua cookingdom, panduan memasak"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_68.webp",
+      levelInfoHtml: "<h3>Takoyaki</h3><p><strong>Tahap Kesukaran:</strong> Sukar</p><p><strong>Anggaran Masa:</strong> 5–7 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Membuka Serpihan Bonito</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-67",
+          title: "Panduan Cookingdom Tahap 67: Tacos",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-69",
+          title: "Panduan Cookingdom Tahap 69: Set Matcha",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Tahap 68 Cookingdom</h2>
+      <p>Tahap 68 membawa anda ke dunia makanan jalanan Jepun dengan takoyaki — bebola sotong yang rangup yang mesti dimasak, diisi, dan dihias dengan tepat. Tahap ini menuntut kepantasan, ketepatan masa membalik, dan pemerhatian teliti terhadap butiran pesanan.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-69",
+    title: "Panduan Cookingdom Tahap 69: Set Matcha",
+    pageTitle: "Panduan Cookingdom Tahap 69: Set Matcha",
+    pageSubtitle: "Bancuh keharmonian dan keanggunan dengan Set Matcha yang sempurna dalam Tahap 69 Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_69.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-69" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/DXGO3KdYm9U", // Gantikan dengan ID video sebenar
+    seo: {
+      title: "Panduan & Petua Cookingdom Tahap 69: Set Matcha",
+      description: "Kuasi keanggunan penyediaan Set Matcha tradisional dalam Cookingdom Tahap 69. Bancuh matcha asli, padankan dengan wagashi, dan cipta pengalaman teh yang tenang.",
+      keywords: "cookingdom tahap 69, set matcha, teh matcha, upacara teh jepun, panduan memasak, wagashi, petua cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_69.webp",
+      levelInfoHtml: "<h3>Set Matcha</h3><p><strong>Tahap Kesukaran:</strong> Pakar</p><p><strong>Anggaran Masa:</strong> 6–8 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Buka Kunci Pelbagai Jenis Wagashi</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-68",
+          title: "Panduan Cookingdom Tahap 68: Takoyaki",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-70",
+          title: "Panduan Cookingdom Tahap 70: Salad Lyonnaise",
+          imageUrl: "/images/guides_70.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-70" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Gambaran Tahap</h2>
+  
+      <p>Tahap 69 memperkenalkan dunia matcha yang tenang dan penuh ketelitian. Sebagai seorang artisan teh, tugas anda adalah menyediakan satu Set Matcha lengkap dengan matcha segar yang dipukul dan wagashi (manisan Jepun) yang halus. Setiap langkah memerlukan ketenangan, ketepatan masa dan kesedaran sepenuhnya.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-70",
+    title: "Panduan Cookingdom Tahap 70: Salad Lyonnaise",
+    pageTitle: "Panduan Cookingdom Tahap 70: Salad Lyonnaise",
+    pageSubtitle: "Sediakan Salad Lyonnaise panas yang sempurna dengan telur poached, bacon rangup dan kemahiran dalam Cookingdom Tahap 70.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_70.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-70" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/EuuaLlpKsRA", // Gantikan dengan ID video sebenar
+    seo: {
+      title: "Panduan & Petua Cookingdom Tahap 70: Salad Lyonnaise",
+      description: "Selesaikan Cookingdom Tahap 70 dengan Salad Lyonnaise yang sempurna. Kuasai telur poached, bacon goreng, salad frisée, dan vinaigrette untuk cabaran gourmet terakhir.",
+      keywords: "cookingdom tahap 70, salad lyonnaise, telur poached, salad perancis, bacon dan sayur, panduan memasak, petua cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_70.webp",
+      levelInfoHtml: "<h3>Salad Lyonnaise</h3><p><strong>Tahap Kesukaran:</strong> Lanjutan</p><p><strong>Anggaran Masa:</strong> 5–7 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Buka Kunci Set Bistro Perancis</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-69",
+          title: "Panduan Cookingdom Tahap 69: Set Matcha",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Gambaran Tahap</h2>
+  
+      <p>Tahap 70 merupakan kemuncak gourmet kepada bab terkini Cookingdom. Anda akan menyediakan Salad Lyonnaise — salad Perancis yang hangat dan lazat yang terdiri daripada daun salad frisée, bacon rangup, bawang merah goreng, roti bakar, dan telur poached yang halus. Penguasaan masa, suhu dan penyediaan pinggan perlu dikuasai untuk berjaya.</p>
+    `
   }
+
+
+
 
 
 

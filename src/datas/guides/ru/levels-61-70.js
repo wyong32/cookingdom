@@ -589,6 +589,15 @@ export const levels61to70 = [
             name: "guide-detail",
             params: { id: "cookingdom-game-level-66" }
           }
+        },
+        {
+          id: "cookingdom-game-level-68",
+          title: "Прохождение Cookingdom Уровень 68: Такояки",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
         }
       ]
     },
@@ -642,7 +651,150 @@ export const levels61to70 = [
   
       <p>В 67 уровне Cookingdom вы собираете вкус на высокой скорости. Освойте баланс ингредиентов, скорость и индивидуальные настройки, чтобы заработать 3 звезды и разблокировать новые ингредиенты, такие как острая манговая сальса и лепешки из синей кукурузы.</p>
     `
+  },
+
+  {
+    id: "cookingdom-game-level-68",
+    title: "Прохождение Cookingdom Уровень 68: Такояки",
+    pageTitle: "Прохождение Cookingdom Уровень 68: Такояки",
+    pageSubtitle: "Овладейте искусством приготовления хрустящих такояки на уровне 68 в Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: false,
+    imageUrl: "/images/guides_68.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-68" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/kA13PQ7iQSU", // Замените на настоящий ID видео
+    seo: {
+      title: "Прохождение и советы по уровню 68: Такояки в Cookingdom",
+      description: "Приготовьте вкусные японские такояки на уровне 68 в Cookingdom. Следуйте нашему подробному гайду, чтобы идеально обжарить, нафаршировать и украсить эти шарики с осьминогом.",
+      keywords: "cookingdom уровень 68, такояки, японская еда, шарики с осьминогом, советы cookingdom, кулинарный гайд"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_68.webp",
+      levelInfoHtml: "<h3>Такояки</h3><p><strong>Сложность:</strong> Высокая</p><p><strong>Время выполнения:</strong> 5–7 минут</p><p><strong>Награда:</strong> 3 звезды + открытие стружки бонито</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-67",
+          title: "Прохождение Cookingdom Уровень 67: Тако",
+          imageUrl: "/images/guides_67.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-67" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-69",
+          title: "Прохождение Cookingdom Уровень 69: Матча-сет",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Уровень 68 в Cookingdom</h2>
+      <p>Уровень 68 переносит вас в мир японской уличной еды — такояки. Эти хрустящие шарики с осьминогом нужно правильно приготовить, нафаршировать и украсить. Уровень требует быстроты, точного тайминга переворота и внимательности к деталям заказа.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-69",
+    title: "Прохождение Cookingdom Уровень 69: Набор Матча",
+    pageTitle: "Прохождение Cookingdom Уровень 69: Набор Матча",
+    pageSubtitle: "Завари гармонию и утонченность с идеальным набором матча на уровне 69 в Cookingdom.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_69.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-69" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/DXGO3KdYm9U", // Замените на настоящий ID видео
+    seo: {
+      title: "Прохождение и советы Cookingdom Уровень 69: Набор Матча",
+      description: "Овладей искусством традиционного набора матча в Cookingdom Уровень 69. Завари настоящий чай матча, подай его с японскими сладостями и создай атмосферу умиротворения.",
+      keywords: "cookingdom уровень 69, набор матча, чай матча, японская чайная церемония, кулинарный гайд, вагаси, советы cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_69.webp",
+      levelInfoHtml: "<h3>Набор Матча</h3><p><strong>Сложность:</strong> Эксперт</p><p><strong>Время выполнения:</strong> 6–8 минут</p><p><strong>Награда:</strong> 3 звезды + Разблокировка ассортимента вагаси</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-68",
+          title: "Прохождение Cookingdom Уровень 68: Такояки",
+          imageUrl: "/images/guides_68.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-68" }
+          }
+        },
+        {
+          id: "cookingdom-game-level-70",
+          title: "Прохождение Cookingdom Уровень 70: Лионский салат",
+          imageUrl: "/images/guides_70.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-70" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Обзор уровня</h2>
+  
+      <p>Уровень 69 погружает вас в спокойный и изысканный мир матча. В роли чайного мастера ваша задача — подготовить полноценный набор: свежевзбитый чай матча и изысканные вагаси (японские сладости). Каждый этап требует грации, точности во времени и осознанности.</p>
+    `
+  },
+
+  {
+    id: "cookingdom-game-level-70",
+    title: "Прохождение Cookingdom Уровень 70: Салат по-Лионски",
+    pageTitle: "Прохождение Cookingdom Уровень 70: Салат по-Лионски",
+    pageSubtitle: "Приготовьте идеальный тёплый лионский салат с яйцом пашот, хрустящим беконом и мастерством в Cookingdom, уровень 70.",
+    category: "61-70",
+    publishDate: "2025-07-14",
+    isSpecial: true,
+    imageUrl: "/images/guides_70.webp",
+    detailsRoute: {
+      name: "guide-detail",
+      params: { id: "cookingdom-game-level-70" }
+    },
+    iframeUrl: "https://www.youtube.com/embed/EuuaLlpKsRA", // Замените на реальный ID видео
+    seo: {
+      title: "Прохождение и советы Cookingdom Уровень 70: Салат по-Лионски",
+      description: "Завершите уровень 70 в Cookingdom с идеальным лионским салатом. Освойте яйца пашот, обжаренный бекон, салат фризе и винегрет, чтобы справиться с финальным гастрономическим испытанием.",
+      keywords: "cookingdom уровень 70, лионский салат, яйцо пашот, французский салат, бекон и зелень, кулинарный гайд, советы cookingdom"
+    },
+    sidebarData: {
+      sidebarImageUrl: "/images/guides_70.webp",
+      levelInfoHtml: "<h3>Салат по-Лионски</h3><p><strong>Сложность:</strong> Продвинутый</p><p><strong>Примерное время:</strong> 5–7 минут</p><p><strong>Награда:</strong> 3 звезды + Разблокировка французского бистро-набора</p>",
+      featuredGuides: [
+        {
+          id: "cookingdom-game-level-69",
+          title: "Прохождение Cookingdom Уровень 69: Набор Матча",
+          imageUrl: "/images/guides_69.webp",
+          detailsRoute: {
+            name: "guide-detail",
+            params: { id: "cookingdom-game-level-69" }
+          }
+        }
+      ]
+    },
+    detailsHtml: `
+      <h2>Обзор уровня</h2>
+  
+      <p>Уровень 70 — это гастрономическое завершение текущей главы Cookingdom. Вам предстоит приготовить лионский салат — тёплый, сытный французский салат из листьев фризе, хрустящего бекона, обжаренного шалота, гренок и нежного яйца пашот. Чтобы пройти уровень, нужно мастерски управлять временем, температурой и подачей блюда.</p>
+    `
   }
+
+
+
 
 
 
