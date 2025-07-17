@@ -11,7 +11,7 @@ export const levels21to30 = [
     pageSubtitle: 'Learn how to make the perfect Boba Milk Tea in Level 21 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05', // Updated category
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_21.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
     iframeUrl: 'https://www.youtube.com/embed/Gx6cF0wkSek', // Placeholder
@@ -143,7 +143,7 @@ export const levels21to30 = [
     pageSubtitle: 'Learn how to blend the perfect Easy Smoothie in Level 22 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_22.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
     iframeUrl: 'https://www.youtube.com/embed/Xdrg_MknwEQ', // Placeholder
@@ -389,7 +389,7 @@ export const levels21to30 = [
       'Master the art of making delicious Vietnamese Beef Pho in Level 24 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_24.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
     iframeUrl: 'https://www.youtube.com/embed/wTjgf3r0fAc', // Placeholder
@@ -759,7 +759,7 @@ export const levels21to30 = [
     pageSubtitle: 'Learn to assemble the perfect Sandwich in Level 27 of Cookingdom.',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_27.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY', // Placeholder

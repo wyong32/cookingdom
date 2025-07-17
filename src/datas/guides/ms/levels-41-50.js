@@ -6,7 +6,7 @@ export const levels41to50 = [
     pageSubtitle: 'Kuasi cabaran manis dan pantas membuat Donut di Level 41 Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_41.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
     iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E',
@@ -171,7 +171,7 @@ export const levels41to50 = [
       'Kuasi seni membuat Kuih Bulan yang tradisional dan istimewa — tepat dalam memilih inti dan masa membakar adalah kunci kejayaan!',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_43.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY',
@@ -336,7 +336,7 @@ export const levels41to50 = [
       'Sediakan lapisan pasta, sos daging, dan sos béchamel berkrim dalam cabaran masakan bertemakan Greek ini.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_45.webp', // Gambar sementara
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Gantikan dengan video sebenar
@@ -667,7 +667,7 @@ export const levels41to50 = [
       'Pelajari cara menyusun dan menghidangkan aiskrim kon yang sempurna dalam Tahap 49 Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: {
       name: 'guide-detail',

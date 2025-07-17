@@ -83,7 +83,7 @@ export const levels01to10 = [
     pageSubtitle: 'Learn to make crispy fried potatoes in Cookingdom Level 2 .',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -166,7 +166,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the art of rolling ice cream in Cookingdom Level 3.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -247,7 +247,7 @@ export const levels01to10 = [
     pageSubtitle: 'Prepare a fresh and healthy Simple Salad in Cookingdom Level 4.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -434,7 +434,7 @@ export const levels01to10 = [
     pageSubtitle: 'Learn to brew the perfect espresso in Cookingdom Level 6.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -647,7 +647,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the smoky and flavorful Texas BBQ in Level 8 of Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -783,7 +783,7 @@ export const levels01to10 = [
     pageSubtitle: 'Master the art of cooking perfect spaghetti in Cookingdom Level 9.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -895,7 +895,7 @@ export const levels01to10 = [
     pageSubtitle: 'Learn to make perfect Salmon Sushi in Cookingdom Level 10.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: {
       name: 'guide-detail',

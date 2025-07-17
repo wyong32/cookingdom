@@ -11,7 +11,7 @@ export const levels41to50 = [
       'Master the sweet and fast-paced challenge of making Donut in Level 41 of Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-07', // Start of new category
-    isSpecial: false, // Assuming it's not special unless specified
+    isSpecial: true, // Assuming it's not special unless specified
     imageUrl: '/images/guides_41.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
     iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E', // Placeholder - Replace with actual video ID
@@ -177,7 +177,7 @@ export const levels41to50 = [
       'Master the delicate and festive Moon Cake, testing precision with fillings and baking in Level 43.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: true, // Can be set to true if considered a special/festive level
+    isSpecial: false, // Can be set to true if considered a special/festive level
     imageUrl: '/images/guides_43.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // Placeholder - Replace with actual video ID
@@ -343,7 +343,7 @@ export const levels41to50 = [
       'Prepare hearty layers of pasta, meat sauce, and creamy béchamel in this Greek-inspired culinary challenge.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_45.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Replace with actual video
@@ -672,7 +672,7 @@ export const levels41to50 = [
     pageSubtitle: 'Learn to assemble and serve perfect ice cream cones in Level 49 of Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
     iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',

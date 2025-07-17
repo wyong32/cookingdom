@@ -565,7 +565,7 @@ export const levels61to70 = [
     pageSubtitle: "Buuin ang perpektong taco na may bilis at tamang timpla sa Level 67 ng Cookingdom.",
     category: "61-70",
     publishDate: "2025-06-30",
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: "/images/guides_67.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -709,7 +709,7 @@ export const levels61to70 = [
     pageSubtitle: "Magluto ng may pagkakaisa at kagandahan gamit ang perpektong Matcha Set sa Antas 69 ng Cookingdom.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_69.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -759,7 +759,7 @@ export const levels61to70 = [
     pageSubtitle: "Gumawa ng perpektong mainit na Lyonnaise Salad na may poached egg, crispy bacon, at kasanayan sa Cookingdom Antas 70.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_70.webp",
     detailsRoute: {
       name: "guide-detail",

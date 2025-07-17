@@ -565,7 +565,7 @@ export const levels61to70 = [
     pageSubtitle: "Racik taco yang sempurna dengan kepantasan dan rasa dalam Level 67 Cookingdom.",
     category: "61-70",
     publishDate: "2025-06-30",
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: "/images/guides_67.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -709,7 +709,7 @@ export const levels61to70 = [
     pageSubtitle: "Bancuh keharmonian dan keanggunan dengan Set Matcha yang sempurna dalam Tahap 69 Cookingdom.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_69.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -759,7 +759,7 @@ export const levels61to70 = [
     pageSubtitle: "Sediakan Salad Lyonnaise panas yang sempurna dengan telur poached, bacon rangup dan kemahiran dalam Cookingdom Tahap 70.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_70.webp",
     detailsRoute: {
       name: "guide-detail",

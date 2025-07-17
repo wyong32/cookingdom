@@ -583,7 +583,7 @@ export const levels61to70 = [
     pageSubtitle: "Assemble the perfect tacos with flavor and speed in Level 67 of Cookingdom.",
     category: "61-70",
     publishDate: "2025-06-30",
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: "/images/guides_67.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -727,7 +727,7 @@ export const levels61to70 = [
     pageSubtitle: "Brew harmony and grace with the perfect Matcha Set in Level 69 of Cookingdom.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_69.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -777,7 +777,7 @@ export const levels61to70 = [
     pageSubtitle: "Craft the perfect warm Lyonnaise Salad with poached egg, crispy bacon, and finesse in Cookingdom Level 70.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_70.webp",
     detailsRoute: {
       name: "guide-detail",

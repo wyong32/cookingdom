@@ -64,6 +64,33 @@
           <!-- Render HTML content using v-html (Now last) -->
           <div v-html="currentGuide.detailsHtml" class="guide-html-content"></div>
 
+          <!-- Popular Special Levels Section -->
+          <section v-if="specialGuides.length > 0" class="popular-special-levels">
+            <h2>{{ $t('guideDetail.popularSpecialLevelsTitle', 'Popular Special Levels') }}</h2>
+            <div class="special-levels-grid">
+              <router-link
+                v-for="guide in specialGuides"
+                :key="guide.id"
+                :to="guide.routeObject"
+                class="special-level-card"
+              >
+                <div class="special-level-image-placeholder">
+                  <img
+                    :src="guide.imageUrl"
+                    :alt="guide.title"
+                    class="special-level-image"
+                    width="300"
+                    height="150"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="special-level-content">
+                  <h3 v-html="guide.title"></h3>
+                </div>
+              </router-link>
+            </div>
+          </section>
+
           <!-- You could add more sections here, e.g., comments -->
         </main>
 
@@ -190,6 +217,18 @@ const currentGuide = computed(() => {
     return null
   }
   return guides.value.find((g) => g.id === guideId.value)
+})
+
+// Computed property to get special guides (excluding current guide)
+const specialGuides = computed(() => {
+  if (!guides.value || guides.value.length === 0) return []
+
+  return guides.value
+    .filter((guide) => guide.isSpecial === true && guide.id !== guideId.value)
+    .map((guide) => ({
+      ...guide,
+      routeObject: guide.routeObject,
+    }))
 })
 
 // Helper function to get video thumbnail
@@ -560,6 +599,84 @@ onMounted(() => {
   color: #666;
 }
 
+/* Popular Special Levels Section Styles */
+.popular-special-levels {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.popular-special-levels h2 {
+  font-size: 1.8rem;
+  color: #a08ee6;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.special-levels-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.special-level-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.special-level-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(160, 142, 230, 0.2);
+}
+
+.special-level-image-placeholder {
+  width: 100%;
+  height: 150px;
+  background-color: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+  contain: layout paint;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 150px;
+}
+
+.special-level-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+.special-level-content {
+  padding: 0.5rem 1rem;
+}
+
+.special-level-content h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #5b4b8a;
+  line-height: 1.4;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 992px) {
   .guide-layout {
@@ -568,6 +685,31 @@ onMounted(() => {
   .sidebar {
     flex: 0 0 auto;
     width: 100%;
+  }
+  .special-levels-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .special-levels-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+  .special-level-image-placeholder {
+    height: 120px;
+  }
+  .special-level-content {
+    padding: 0.6rem;
+  }
+  .special-level-content h3 {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+  .popular-special-levels h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 

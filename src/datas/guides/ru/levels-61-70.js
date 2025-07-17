@@ -565,7 +565,7 @@ export const levels61to70 = [
     pageSubtitle: "Соберите идеальные тако быстро и вкусно в уровне 67 игры Cookingdom.",
     category: "61-70",
     publishDate: "2025-06-30",
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: "/images/guides_67.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -709,7 +709,7 @@ export const levels61to70 = [
     pageSubtitle: "Завари гармонию и утонченность с идеальным набором матча на уровне 69 в Cookingdom.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_69.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -759,7 +759,7 @@ export const levels61to70 = [
     pageSubtitle: "Приготовьте идеальный тёплый лионский салат с яйцом пашот, хрустящим беконом и мастерством в Cookingdom, уровень 70.",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_70.webp",
     detailsRoute: {
       name: "guide-detail",

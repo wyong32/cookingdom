@@ -249,7 +249,7 @@ export const levels31to40 = [
       'Learn to prepare the luxurious Alaskan Steamed Lobster in Level 33 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_33.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-33' } },
     iframeUrl: 'https://www.youtube.com/embed/BDtqpxQBHEw', // Placeholder
@@ -358,7 +358,7 @@ export const levels31to40 = [
     pageSubtitle: 'Learn to prepare the exquisite King Crab in Level 34 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_34.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-34' } },
     iframeUrl: 'https://www.youtube.com/embed/5FLk6Yq4GPo', // Placeholder
@@ -469,7 +469,7 @@ export const levels31to40 = [
       'Learn to prepare rich and creamy Spaghetti with Mushroom Cream Sauce in Level 35 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_35.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-35' } },
     iframeUrl: 'https://www.youtube.com/embed/kykU7FrPi9s', // Placeholder
@@ -707,7 +707,7 @@ export const levels31to40 = [
     pageSubtitle: 'Learn to make flavorful Kimchi Rice in Level 37 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_37.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-37' } },
     iframeUrl: 'https://www.youtube.com/embed/Oz9L0TFbgro', // Placeholder
@@ -909,7 +909,7 @@ export const levels31to40 = [
       'Prepare hearty Red Borscht in Level 39 of Cookingdom. Balance beetroot, cabbage, and sour cream to satisfy your customers.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_39.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-39' } },
     iframeUrl: 'https://www.youtube.com/embed/x_XC8x_TBko', // Placeholder
@@ -993,7 +993,7 @@ export const levels31to40 = [
     pageSubtitle: 'Master the elegant and complex Beef Wellington in Level 40 of Cookingdom.',
     category: '31-40',
     publishDate: '2025-05-06',
-    isSpecial: true, // Marked as special due to complexity and description
+    isSpecial: false, // Marked as special due to complexity and description
     imageUrl: '/images/guides_40.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-40' } },
     iframeUrl: 'https://www.youtube.com/embed/O6RrVnSHTzU', // Placeholder - Replace with actual video ID

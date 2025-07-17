@@ -7,7 +7,7 @@ export const levels41to50 = [
       'Masterin ang matamis at mabilis na hamon ng paggawa ng Donuts sa Antas 41 ng Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_41.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
     iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E',
@@ -172,7 +172,7 @@ export const levels41to50 = [
       'Masterin ang maselan at tradisyunal na Moon Cake — subukan ang iyong husay sa pagpili ng palaman at tamang pagbake sa Antas 43!',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_43.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY',
@@ -337,7 +337,7 @@ export const levels41to50 = [
       'Maghanda ng masasarap na layer ng pasta, meat sauce, at creamy béchamel sa hamong lutuin na hango sa Greek na putaheng ito.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_45.webp', // Placeholder na larawan
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Palitan ng totoong video
@@ -668,7 +668,7 @@ export const levels41to50 = [
       'Matutunan kung paano gumawa at mag-serve ng perpektong ice cream cones sa Level 49 ng Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: {
       name: 'guide-detail',

@@ -565,7 +565,7 @@ export const levels61to70 = [
     pageSubtitle: "在第67关中，以速度与风味完美打造墨西哥卷。",
     category: "61-70",
     publishDate: "2025-06-30",
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: "/images/guides_67.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -709,7 +709,7 @@ export const levels61to70 = [
     pageSubtitle: "在 Cookingdom 第69关中，以和谐与优雅泡制完美的抹茶套餐。",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_69.webp",
     detailsRoute: {
       name: "guide-detail",
@@ -759,7 +759,7 @@ export const levels61to70 = [
     pageSubtitle: "在 Cookingdom 第70关中，精心制作完美的温热里昂沙拉，搭配水波蛋、香脆培根与精致手艺。",
     category: "61-70",
     publishDate: "2025-07-14",
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: "/images/guides_70.webp",
     detailsRoute: {
       name: "guide-detail",

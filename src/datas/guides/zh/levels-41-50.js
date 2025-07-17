@@ -6,7 +6,7 @@ export const levels41to50 = [
     pageSubtitle: '掌握 Cookingdom 第41关中甜甜圈的甜美快速挑战。',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_41.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
     iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E',
@@ -169,7 +169,7 @@ export const levels41to50 = [
     pageSubtitle: '掌握精致又富有节日气氛的月饼，在第43关中挑战包馅与烘焙的精准度。',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: true, // 如果认为是节日关卡可以设为 true
+    isSpecial: false, // 如果认为是节日关卡可以设为 true
     imageUrl: '/images/guides_43.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // 占位视频链接 - 请替换为实际视频ID
@@ -332,7 +332,7 @@ export const levels41to50 = [
     pageSubtitle: '准备层层丰富的意面、肉酱和奶油贝沙梅尔酱，在这道希腊风味的烹饪挑战中大展身手。',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_45.webp', // 占位图片
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // 替换为实际视频链接
@@ -658,7 +658,7 @@ export const levels41to50 = [
     pageSubtitle: '学习在Cookingdom第49关中组装并快速送出完美的冰淇淋甜筒。',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-49' } },
     iframeUrl: 'https://www.youtube.com/embed/OFr7WLO1Gto',

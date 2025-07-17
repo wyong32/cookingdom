@@ -86,7 +86,7 @@ export const levels01to10 = [
     pageSubtitle: 'Matutong gumawa ng malutong na pritong patatas sa Antas 2 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -170,7 +170,7 @@ export const levels01to10 = [
       'Masterin ang sining ng paggawa ng pinagulong na ice cream sa Antas 3 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -251,7 +251,7 @@ export const levels01to10 = [
     pageSubtitle: 'Maghanda ng sariwa at malusog na Simpleng Salad sa Cookingdom Antas 4.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -428,7 +428,7 @@ export const levels01to10 = [
     pageSubtitle: 'Alamin kung paano gumawa ng perpektong espresso sa Antas 6 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -631,7 +631,7 @@ export const levels01to10 = [
     pageSubtitle: 'Masterin ang mausok at malinamnam na Texas BBQ sa Antas 8 ng Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -734,7 +734,7 @@ export const levels01to10 = [
     pageSubtitle: 'Magsanay sa paggawa ng perpektong spaghetti sa Cookingdom Level 9.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -836,7 +836,7 @@ export const levels01to10 = [
       'Matutunan kung paano maghanda ng perpektong salmon sushi sa Cookingdom Level 10.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: {
       name: 'guide-detail',

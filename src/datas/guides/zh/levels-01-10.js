@@ -74,7 +74,7 @@ export const levels01to10 = [
     pageSubtitle: '在 Cookingdom 第2关学习制作酥脆的炸薯条。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -156,7 +156,7 @@ export const levels01to10 = [
     pageSubtitle: '掌握 Cookingdom 第 3 关中制作冰淇淋卷的艺术。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -236,7 +236,7 @@ export const levels01to10 = [
     pageSubtitle: '在 Cookingdom 第4关制作新鲜健康的简单沙拉。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -411,7 +411,7 @@ export const levels01to10 = [
     pageSubtitle: '学习在 Cookingdom 第6关中冲煮完美的意式浓缩咖啡。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -601,7 +601,7 @@ export const levels01to10 = [
     pageSubtitle: '学习如何在 Cookingdom 第8关完美烹饪牛排。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -717,7 +717,7 @@ export const levels01to10 = [
     pageSubtitle: '掌握烹饪完美意大利面的技巧，轻松过关第9关。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -818,7 +818,7 @@ export const levels01to10 = [
     pageSubtitle: '学习如何在Cookingdom第10关制作完美的三文鱼寿司。',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: {
       name: 'guide-detail',

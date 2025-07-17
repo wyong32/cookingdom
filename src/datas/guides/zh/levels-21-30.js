@@ -6,7 +6,7 @@ export const levels21to30 = [
     pageSubtitle: '学习如何在Cookingdom第21关制作完美的珍珠奶茶。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_21.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-21' } },
     iframeUrl: 'https://www.youtube.com/embed/Gx6cF0wkSek',
@@ -124,7 +124,7 @@ export const levels21to30 = [
     pageSubtitle: '学习如何在Cookingdom第22关调制完美的简单奶昔。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_22.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-22' } },
     iframeUrl: 'https://www.youtube.com/embed/Xdrg_MknwEQ',
@@ -362,7 +362,7 @@ export const levels21to30 = [
     pageSubtitle: '在 Cookingdom 第24关中掌握制作美味越南牛肉河粉的技巧。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_24.webp', // 占位图
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-24' } },
     iframeUrl: 'https://www.youtube.com/embed/wTjgf3r0fAc', // 占位视频链接
@@ -719,7 +719,7 @@ export const levels21to30 = [
     pageSubtitle: '学习在 Cookingdom 第27关中制作完美的三明治。',
     category: '21-30',
     publishDate: '2025-05-05',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_27.webp', // 占位符
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-27' } },
     iframeUrl: 'https://www.youtube.com/embed/EdWqB5U12HY', // 占位符

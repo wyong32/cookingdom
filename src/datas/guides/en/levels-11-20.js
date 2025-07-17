@@ -9,7 +9,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make perfect popcorn in Cookingdom Level 11.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_11.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-11' } },
     iframeUrl: 'https://www.youtube.com/embed/B1RSotgn3Bo',
@@ -110,7 +110,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make hearty and complex Ramen in Cookingdom Level 12.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_12.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-12' } },
     iframeUrl: 'https://www.youtube.com/embed/cWCa8cDO_hw', // Placeholder
@@ -327,7 +327,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make sophisticated Salmon with Minestrone in Cookingdom Level 14.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_14.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-14' } },
     iframeUrl: 'https://www.youtube.com/embed/NqPuIo5iASQ', // Placeholder
@@ -430,7 +430,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make crispy and juicy Chicken Fried in Level 15 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_15.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-15' } },
     iframeUrl: 'https://www.youtube.com/embed/bW0rp5c8cIc', // Placeholder
@@ -550,7 +550,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to cook the perfect steak to order in Cookingdom Level 16.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_16.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-16' } },
     iframeUrl: 'https://www.youtube.com/embed/WXZqYDMjCCI', // Placeholder
@@ -670,7 +670,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn to make the perfect Café Macchiato in Level 17 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_17.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-17' } },
     iframeUrl: 'https://www.youtube.com/embed/Zwv2uvuWHwI', // Placeholder
@@ -911,7 +911,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn how to bake the perfect Pumpkin Pie in Level 19 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_19.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-19' } },
     iframeUrl: 'https://www.youtube.com/embed/1n_bblOOYDo', // Placeholder
@@ -1040,7 +1040,7 @@ export const levels11to20 = [
     pageSubtitle: 'Learn how to prepare the perfect Roast Turkey in Level 20 of Cookingdom.',
     category: '11-20',
     publishDate: '2025-05-04',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_20.webp', // Placeholder
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-20' } },
     iframeUrl: 'https://www.youtube.com/embed/QeQSbWgrtWs', // Placeholder

@@ -7,7 +7,7 @@ export const levels41to50 = [
       'Освойте сладкий и динамичный вызов приготовления пончиков в уровне 41 Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_41.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-41' } },
     iframeUrl: 'https://www.youtube.com/embed/3F7i3VTh75E',
@@ -172,7 +172,7 @@ export const levels41to50 = [
       'Освойте искусство приготовления традиционного лунного пирога: точность при выборе начинки и выпечке решает всё!',
     category: '41-50',
     publishDate: '2025-05-07',
-    isSpecial: true, // Установите true, если уровень считается праздничным
+    isSpecial: false, // Установите true, если уровень считается праздничным
     imageUrl: '/images/guides_43.webp',
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-43' } },
     iframeUrl: 'https://www.youtube.com/embed/Z54lx5vePrY', // Замените на актуальный ID видео
@@ -337,7 +337,7 @@ export const levels41to50 = [
       'Приготовьте сытные слои пасты, мясного соуса и кремового соуса бешамель в этом кулинарном испытании в греческом стиле.',
     category: '41-50',
     publishDate: '2025-05-22',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_45.webp', // Заглушка
     detailsRoute: { name: 'guide-detail', params: { id: 'cookingdom-game-level-45' } },
     iframeUrl: 'https://www.youtube.com/embed/6W5FMGubMDY', // Заменить на актуальное видео
@@ -668,7 +668,7 @@ export const levels41to50 = [
       'Научитесь собирать и подавать идеальные рожки с мороженым в уровне 49 игры Cookingdom.',
     category: '41-50',
     publishDate: '2025-05-29',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_49.webp',
     detailsRoute: {
       name: 'guide-detail',

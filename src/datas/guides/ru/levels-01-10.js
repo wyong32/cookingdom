@@ -78,7 +78,7 @@ export const levels01to10 = [
     pageSubtitle: 'Научитесь готовить хрустящую жареную картошку на уровне 2 в Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -161,7 +161,7 @@ export const levels01to10 = [
     pageSubtitle: 'Освойте искусство приготовления ролл-мороженого в уровне 3 игры Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -242,7 +242,7 @@ export const levels01to10 = [
     pageSubtitle: 'Приготовьте свежий и полезный простой салат в Cookingdom Уровень 4.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -419,7 +419,7 @@ export const levels01to10 = [
     pageSubtitle: 'Узнайте, как приготовить идеальный эспрессо в Cookingdom Уровень 6.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -612,7 +612,7 @@ export const levels01to10 = [
       'Овладейте искусством дымного и ароматного техасского барбекю на уровне 8 в игре Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -719,7 +719,7 @@ export const levels01to10 = [
     pageSubtitle: 'Овладейте искусством приготовления идеальных спагетти на уровне 9 в Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -821,7 +821,7 @@ export const levels01to10 = [
     pageSubtitle: 'Научитесь готовить идеальное лососевое суши на уровне 10 в Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: {
       name: 'guide-detail',

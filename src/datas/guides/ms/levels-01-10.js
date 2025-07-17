@@ -78,7 +78,7 @@ export const levels01to10 = [
     pageSubtitle: 'Belajar cara menggoreng kentang rangup dalam Tahap 2 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_02.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -161,7 +161,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasaikan seni menggulung ais krim dalam Tahap 3 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_03.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -242,7 +242,7 @@ export const levels01to10 = [
     pageSubtitle: 'Sediakan Salad Simple yang segar dan sihat dalam Cookingdom Tahap 4.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_04.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -419,7 +419,7 @@ export const levels01to10 = [
     pageSubtitle: 'Ketahui cara menyeduh espresso yang sempurna dalam Cookingdom Tahap 6.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: true,
+    isSpecial: false,
     imageUrl: '/images/guides_06.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -622,7 +622,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasi BBQ Texas yang berasap dan penuh rasa dalam Tahap 8 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_08.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -747,7 +747,7 @@ export const levels01to10 = [
     pageSubtitle: 'Kuasi seni memasak spaghetti sempurna pada tahap 9 dalam Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_09.webp',
     detailsRoute: {
       name: 'guide-detail',
@@ -849,7 +849,7 @@ export const levels01to10 = [
     pageSubtitle: 'Pelajari cara menyediakan sushi salmon yang sempurna di tahap 10 Cookingdom.',
     category: '01-10',
     publishDate: '2025-05-03',
-    isSpecial: false,
+    isSpecial: true,
     imageUrl: '/images/guides_10.webp',
     detailsRoute: {
       name: 'guide-detail',
