@@ -28,7 +28,6 @@ import AppFooter from '@/components/Footer.vue'
   flex: 1; /* Allow main content to grow and push footer down */
   /* Add padding or other styles if needed */
   padding-top: 60px; /* Example: Adjust based on your header's height */
-  contain: layout style; /* 防止布局偏移 */
   min-height: 800px; /* 设置最小高度，防止内容加载时的布局偏移 */
   width: 100%; /* 确保宽度固定 */
   box-sizing: border-box; /* 确保padding不影响总宽度 */
@@ -45,18 +44,5 @@ import AppFooter from '@/components/Footer.vue'
 :deep(img) {
   background-color: #f0f0f0; /* 图片加载前的背景色 */
   transition: opacity 0.3s ease; /* 平滑过渡效果 */
-  transform: translateZ(0); /* 启用GPU加速 */
-  backface-visibility: hidden; /* 防止闪烁 */
-  will-change: transform; /* 提示浏览器这个元素会变化 */
-  image-rendering: -webkit-optimize-contrast; /* 提高图片渲染质量 */
-}
-
-:deep([data-v-f2a2c12e]) {
-  contain: layout style paint; /* 防止布局偏移 */
-}
-
-:deep(.featured-guides),
-:deep(.guide-detail-page) {
-  contain: layout style; /* 防止布局偏移 */
 }
 </style>

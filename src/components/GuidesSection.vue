@@ -71,14 +71,9 @@
 </template>
 
 <script setup>
-// Import ref and computed from Vue, and RouterLink from vue-router
 // Import ref, computed, and defineProps from Vue
-import { ref, computed, defineProps, onMounted, watch } from 'vue'
+import { ref, computed, defineProps } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
-// 移除静态导入
-// import allGuidesData from '@/datas/guides.json'
-// 移除 useGuides composable 导入
-// import { useGuides } from '@/composables/useGuides'
 
 // 定义 props
 const props = defineProps({
@@ -111,7 +106,6 @@ const getSavedTab = () => {
     const savedTab = localStorage.getItem(STORAGE_KEY)
     return savedTab || 'special'
   } catch (e) {
-    console.error('Error accessing localStorage:', e)
     return 'special'
   }
 }
@@ -130,7 +124,6 @@ const getCategoryTabForGuide = (guideId) => {
   }
 
   // 返回guide的category，确保格式一致
-  // 处理可能的格式差异，例如'1-10'和'01-10'
   const category = guide.category
   if (category === '1-10' || category === '01-10') return '01-10'
   if (category === '11-20') return '11-20'
@@ -143,51 +136,24 @@ const getCategoryTabForGuide = (guideId) => {
   return category
 }
 
-// 检查URL中是否有guide ID，如果有则自动切换到对应的tab
+// 简化的tab选择逻辑
 const autoSelectTabFromUrl = () => {
-  // 如果是从详情页返回，检查localStorage中是否有记录的最后访问的guideId
-  const lastViewedGuideId = localStorage.getItem('last-viewed-guide-id')
+  // 检查URL中是否有guide ID
+  const urlParams = new URLSearchParams(window.location.search)
+  const guideId = urlParams.get('guide')
 
-  if (lastViewedGuideId) {
-    // 首先尝试从localStorage获取保存的category
-    const savedCategory = localStorage.getItem('last-viewed-guide-category')
-    if (savedCategory) {
-      console.log(`Found saved category ${savedCategory} for guide ID ${lastViewedGuideId}`)
-
-      // 清除localStorage中的数据
-      localStorage.removeItem('last-viewed-guide-id')
-      localStorage.removeItem('last-viewed-guide-category')
-
-      // 根据category确定tab
-      if (savedCategory === '01-10' || savedCategory === '1-10') return '01-10'
-      if (savedCategory === '11-20') return '11-20'
-      if (savedCategory === '21-30') return '21-30'
-      if (savedCategory === '31-40') return '31-40'
-      if (savedCategory === '41-50') return '41-50'
-      if (savedCategory === '51-60') return '51-60'
-      if (savedCategory === '61-70') return '61-70'
-    }
-
-    // 如果没有保存的category或无法映射，尝试从guides数据中获取
-    const categoryTab = getCategoryTabForGuide(lastViewedGuideId)
+  if (guideId) {
+    const categoryTab = getCategoryTabForGuide(guideId)
     if (categoryTab) {
-      console.log(`Found category tab ${categoryTab} for guide ID ${lastViewedGuideId}`)
-      // 清除最后访问的guideId
-      localStorage.removeItem('last-viewed-guide-id')
-      // 设置tab
       return categoryTab
-    } else {
-      console.log(`Could not find category tab for guide ID ${lastViewedGuideId}`)
     }
   }
 
-  // 如果没有最后访问的guideId或找不到对应的tab，则使用保存的tab
-  const savedTab = getSavedTab()
-  console.log(`Using saved tab: ${savedTab}`)
-  return savedTab
+  // 使用保存的tab
+  return getSavedTab()
 }
 
-// Ref to track the active tab - 根据URL或localStorage获取初始值
+// Ref to track the active tab
 const activeTab = ref(autoSelectTabFromUrl())
 
 // Function to change the active tab
@@ -197,26 +163,9 @@ const setActiveTab = (tab) => {
   try {
     localStorage.setItem(STORAGE_KEY, tab)
   } catch (e) {
-    console.error('Error saving to localStorage:', e)
+    // 忽略localStorage错误
   }
 }
-
-// 监听路由变化，当返回到guides页面时自动选择正确的tab
-watch(
-  () => route.path,
-  (newPath) => {
-    // 检查是否是guides页面（考虑多语言路径）
-    if (newPath === '/guides' || /^\/[a-z]{2}\/guides$/.test(newPath)) {
-      console.log(`Navigated to guides page: ${newPath}`)
-      const newTab = autoSelectTabFromUrl()
-      console.log(`Selected tab: ${newTab}, current tab: ${activeTab.value}`)
-      if (newTab && newTab !== activeTab.value) {
-        console.log(`Setting active tab to: ${newTab}`)
-        setActiveTab(newTab)
-      }
-    }
-  }
-)
 
 // Define the regex for removing <br> tags
 const brRegex = /<br\s*\/?\s*>/gi

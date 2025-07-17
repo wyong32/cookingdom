@@ -4,6 +4,7 @@ import { useRoute, useRouter, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useBlogPosts } from '@/composables/useBlogPosts'
 import { useDeviceDetection } from '@/composables/useDeviceDetection'
+import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
 
 const route = useRoute()
 const router = useRouter()
@@ -27,25 +28,35 @@ const currentPost = computed(() => {
   return blogPosts.value.find((p) => p.id === postId.value)
 })
 
-const updateMetaTag = (name, content) => {
-  let metaTag = document.querySelector(`meta[name="${name}"]`)
-  if (!metaTag) {
-    metaTag = document.createElement('meta')
-    metaTag.setAttribute('name', name)
-    document.head.appendChild(metaTag)
-  }
-  metaTag.setAttribute('content', content || '')
-}
-
 watch(
   currentPost,
   (newPost, oldPost) => {
     if (isLoadingList.value) return
 
     if (newPost) {
+      // 更新基础meta标签
       document.title = newPost.seo?.title || t('meta.blogDetail.title', 'Blog Post')
       updateMetaTag('description', newPost.seo?.description)
       updateMetaTag('keywords', newPost.seo?.keywords)
+
+      // 更新Open Graph标签
+      updateMetaTag('og:title', newPost.seo?.title || newPost.detailTitle)
+      updateMetaTag('og:description', newPost.seo?.description)
+      updateMetaTag('og:type', 'article')
+      updateMetaTag('og:url', window.location.href)
+      updateMetaTag('og:image', newPost.imageUrl)
+
+      // 更新Twitter标签
+      updateMetaTag('twitter:card', 'summary_large_image')
+      updateMetaTag('twitter:title', newPost.seo?.title || newPost.detailTitle)
+      updateMetaTag('twitter:description', newPost.seo?.description)
+      updateMetaTag('twitter:image', newPost.imageUrl)
+
+      // 更新canonical URL
+      updateCanonicalTag(window.location.href)
+
+      // 添加结构化数据
+      addBlogStructuredData(newPost)
     } else if (!isLoadingList.value && postId.value && !listError.value) {
       document.title = t('meta.notFoundTitle', 'Post Not Found')
       updateMetaTag(
@@ -53,6 +64,7 @@ watch(
         t('meta.notFoundDescription', 'The blog post you are looking for could not be found.')
       )
       updateMetaTag('keywords', '')
+      updateCanonicalTag(window.location.href)
     }
   },
   { immediate: true, deep: true }
@@ -93,6 +105,84 @@ const loadAds = () => {
 onMounted(() => {
   setTimeout(loadAds, 1000)
 })
+
+// 添加博客结构化数据函数
+const addBlogStructuredData = (post) => {
+  if (typeof document === 'undefined') return
+
+  // 移除现有的结构化数据
+  const existingScript = document.querySelector('script[data-structured-data="blog"]')
+  if (existingScript) {
+    existingScript.remove()
+  }
+
+  // 创建新的结构化数据
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.seo?.title || post.detailTitle,
+    description: post.seo?.description,
+    image: post.imageUrl,
+    author: {
+      '@type': 'Organization',
+      name: 'Cookingdom Fansite',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Cookingdom Fansite',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.cookingdom.co/logo.webp',
+      },
+    },
+    datePublished: post.publishDate,
+    dateModified: post.publishDate,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': window.location.href,
+    },
+    about: {
+      '@type': 'VideoGame',
+      name: 'Cookingdom',
+      genre: 'Cooking Simulation',
+    },
+    articleSection: 'Blog',
+    keywords: post.seo?.keywords || 'Cookingdom, blog, news, gaming',
+  }
+
+  // 添加面包屑结构化数据
+  const breadcrumbData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.cookingdom.co/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Blog',
+        item: 'https://www.cookingdom.co/blog',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: post.detailTitle,
+        item: window.location.href,
+      },
+    ],
+  }
+
+  // 创建script标签并添加到head
+  const script = document.createElement('script')
+  script.type = 'application/ld+json'
+  script.setAttribute('data-structured-data', 'blog')
+  script.textContent = JSON.stringify([structuredData, breadcrumbData])
+  document.head.appendChild(script)
+}
 </script>
 
 <template>

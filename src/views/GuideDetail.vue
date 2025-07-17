@@ -165,7 +165,7 @@ import { useRoute, RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useGuides } from '@/composables/useGuides'
 import { defaultLang } from '@/i18n'
-import { updateMetaTag } from '@/utils/head'
+import { updateMetaTag, updateCanonicalTag } from '@/utils/head'
 import YouTubeFacade from '@/components/YouTubeFacade.vue'
 import { useDeviceDetection } from '@/composables/useDeviceDetection'
 
@@ -203,6 +203,84 @@ const getVideoThumbnail = (guide) => {
   return null
 }
 
+// 添加结构化数据函数
+const addStructuredData = (guide) => {
+  if (typeof document === 'undefined') return
+
+  // 移除现有的结构化数据
+  const existingScript = document.querySelector('script[data-structured-data="guide"]')
+  if (existingScript) {
+    existingScript.remove()
+  }
+
+  // 创建新的结构化数据
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.seo?.title || guide.title,
+    description: guide.seo?.description,
+    image: guide.imageUrl,
+    author: {
+      '@type': 'Organization',
+      name: 'Cookingdom Fansite',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Cookingdom Fansite',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.cookingdom.co/logo.webp',
+      },
+    },
+    datePublished: guide.publishDate,
+    dateModified: guide.publishDate,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': window.location.href,
+    },
+    about: {
+      '@type': 'VideoGame',
+      name: 'Cookingdom',
+      genre: 'Cooking Simulation',
+    },
+    articleSection: 'Game Guides',
+    keywords: guide.seo?.keywords || 'Cookingdom, game guide, walkthrough',
+  }
+
+  // 添加面包屑结构化数据
+  const breadcrumbData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://www.cookingdom.co/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Guides',
+        item: 'https://www.cookingdom.co/guides',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: guide.title,
+        item: window.location.href,
+      },
+    ],
+  }
+
+  // 创建script标签并添加到head
+  const script = document.createElement('script')
+  script.type = 'application/ld+json'
+  script.setAttribute('data-structured-data', 'guide')
+  script.textContent = JSON.stringify([structuredData, breadcrumbData])
+  document.head.appendChild(script)
+}
+
 // Watch for guide changes and update meta tags
 watch(
   currentGuide,
@@ -210,9 +288,29 @@ watch(
     if (isLoadingList.value) return
 
     if (newGuide) {
+      // 立即更新meta标签，确保SEO
       document.title = newGuide.seo?.title || t('meta.guideDetail.title', 'Guide Detail')
       updateMetaTag('description', newGuide.seo?.description)
       updateMetaTag('keywords', newGuide.seo?.keywords)
+
+      // 更新Open Graph标签
+      updateMetaTag('og:title', newGuide.seo?.title || newGuide.title)
+      updateMetaTag('og:description', newGuide.seo?.description)
+      updateMetaTag('og:type', 'article')
+      updateMetaTag('og:url', window.location.href)
+      updateMetaTag('og:image', newGuide.imageUrl)
+
+      // 更新Twitter标签
+      updateMetaTag('twitter:card', 'summary_large_image')
+      updateMetaTag('twitter:title', newGuide.seo?.title || newGuide.title)
+      updateMetaTag('twitter:description', newGuide.seo?.description)
+      updateMetaTag('twitter:image', newGuide.imageUrl)
+
+      // 更新canonical URL
+      updateCanonicalTag(window.location.href)
+
+      // 添加结构化数据
+      addStructuredData(newGuide)
     } else if (!isLoadingList.value && guideId.value && !listError.value) {
       document.title = t('meta.notFoundTitle', 'Guide Not Found')
       updateMetaTag(
@@ -276,7 +374,6 @@ onMounted(() => {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1rem;
-  contain: layout style;
   min-height: 100vh;
   display: block;
 }
@@ -285,7 +382,6 @@ onMounted(() => {
   display: flex;
   gap: 2rem;
   min-height: 800px;
-  contain: layout;
 }
 
 .main-content {
@@ -295,12 +391,10 @@ onMounted(() => {
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  contain: layout style;
 }
 
 .sidebar {
   flex: 0 0 300px;
-  contain: layout style;
 }
 
 .back-link {
@@ -353,7 +447,6 @@ onMounted(() => {
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #eee;
-  contain: layout style;
   min-height: 200px;
   width: 100%;
   box-sizing: border-box;
@@ -372,14 +465,12 @@ onMounted(() => {
   list-style: none;
   padding: 0;
   margin: 0;
-  contain: layout style;
   min-height: 50px;
 }
 
 .featured-guides li {
   margin-bottom: 0.8rem;
   height: 60px;
-  contain: layout style;
 }
 
 .featured-guide-link {
@@ -392,7 +483,6 @@ onMounted(() => {
   padding: 0.4rem;
   border-radius: 4px;
   height: 100%;
-  contain: layout style;
   box-sizing: border-box;
 }
 
@@ -407,7 +497,6 @@ onMounted(() => {
   object-fit: cover;
   aspect-ratio: 1 / 1;
   background-color: #f0f0f0;
-  contain: layout paint;
 }
 
 .featured-guide-link span {
@@ -419,8 +508,6 @@ onMounted(() => {
 .guide-html-content {
   line-height: 1.7;
   color: #333;
-  content-visibility: auto;
-  contain-intrinsic-size: 1000px;
 }
 
 .guide-html-content :deep(h1),

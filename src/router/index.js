@@ -3,11 +3,11 @@ import { nextTick } from 'vue'
 // 只有首页同步加载，其他页面都懒加载
 import HomeView from '../views/HomeView.vue'
 
-// 懒加载所有其他视图组件 - 带有错误处理
+// 懒加载所有其他视图组件 - 简化错误处理
 const GuideDetail = () =>
   import('../views/GuideDetail.vue').catch((err) => {
     console.error('Failed to load GuideDetail:', err)
-    return import('../views/HomeView.vue') // 回退到首页
+    return import('../views/HomeView.vue')
   })
 const GuideView = () =>
   import('../views/GuideView.vue').catch((err) => {

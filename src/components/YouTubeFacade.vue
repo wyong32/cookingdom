@@ -19,12 +19,6 @@
           <path class="play-button-icon" d="M 45,24 27,14 27,34"></path>
         </svg>
       </div>
-
-      <!-- 加载提示 -->
-      <!-- <div class="placeholder-info">
-        <p class="click-to-load">{{ loadText }}</p>
-        <p class="performance-note">{{ performanceText }}</p>
-      </div> -->
     </div>
 
     <!-- YouTube iframe (仅在点击后加载) -->
@@ -41,7 +35,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const props = defineProps({
@@ -99,10 +93,6 @@ const thumbnailUrl = computed(() => {
   return '/images/video-placeholder.webp'
 })
 
-// 本地化文本
-const loadText = computed(() => t('youtube.clickToLoad', '点击加载视频'))
-const performanceText = computed(() => t('youtube.performanceNote', '延迟加载以提高页面性能'))
-
 // 方法：加载YouTube视频
 const loadYouTube = () => {
   isLoaded.value = true
@@ -116,38 +106,6 @@ const loadYouTube = () => {
     })
   }
 }
-
-// 生命周期钩子
-onMounted(() => {
-  // 可以在这里添加视频预加载逻辑
-  // 例如，当用户悬停在视频上时预连接到YouTube域名
-
-  const preconnectYouTube = () => {
-    const links = [
-      { rel: 'preconnect', href: 'https://www.youtube.com' },
-      { rel: 'preconnect', href: 'https://www.youtube-nocookie.com' },
-      { rel: 'preconnect', href: 'https://i.ytimg.com' },
-    ]
-
-    links.forEach((linkData) => {
-      const link = document.createElement('link')
-      link.rel = linkData.rel
-      link.href = linkData.href
-      document.head.appendChild(link)
-    })
-  }
-
-  // 当用户与页面交互后预连接
-  document.addEventListener(
-    'mousemove',
-    () => {
-      preconnectYouTube()
-      // 只执行一次
-      document.removeEventListener('mousemove', preconnectYouTube)
-    },
-    { once: true }
-  )
-})
 </script>
 
 <style scoped>

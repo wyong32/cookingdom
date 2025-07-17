@@ -15,7 +15,6 @@ export function useBlogPosts() {
   async function loadBlogPosts(lang) {
     isLoading.value = true
     error.value = null
-    console.log(`Attempting to load blog posts for locale: ${lang}`)
     try {
       let dataModule
       let postsDataToSet
@@ -48,9 +47,6 @@ export function useBlogPosts() {
           // For instance, if blog posts also need dynamic route objects based on lang:
           // routeObject: getBlogPostLinkProps(post, lang) // You'd need to define this function
         }))
-        console.log(
-          `Successfully loaded and processed ${blogPosts.value.length} blog posts for locale: ${lang}`,
-        )
       } else {
         console.error(
           `Failed to access the correct export from blog data module for locale ${lang}. Module content:`,

@@ -2,8 +2,7 @@ import { useRouter, useRoute } from 'vue-router'
 import { ref, computed } from 'vue'
 
 /**
- * 安全的 router 和 route 使用 composable
- * 提供 fallback 机制，防止 router 注入失败
+ * 简化的 router 和 route 使用 composable
  */
 export function useRouterSafe() {
   let router = null
@@ -14,44 +13,28 @@ export function useRouterSafe() {
     router = useRouter()
     route = useRoute()
     isRouterAvailable = true
-    console.log('useRouterSafe: Router 可用')
   } catch (error) {
-    console.warn('useRouterSafe: Router 不可用，使用 fallback:', error)
-    
-    // 创建 fallback router
+    console.warn('useRouterSafe: Router 不可用:', error)
+
+    // 简化的 fallback router
     router = {
       push: (to) => {
-        console.log('Fallback router.push:', to)
         if (typeof to === 'string') {
           window.location.href = to
         } else if (to.path) {
           window.location.href = to.path
-        } else {
-          console.warn('无法导航到:', to)
         }
       },
       replace: (to) => {
-        console.log('Fallback router.replace:', to)
         if (typeof to === 'string') {
           window.location.replace(to)
         } else if (to.path) {
           window.location.replace(to.path)
-        } else {
-          console.warn('无法替换到:', to)
         }
-      },
-      go: (delta) => {
-        window.history.go(delta)
-      },
-      back: () => {
-        window.history.back()
-      },
-      forward: () => {
-        window.history.forward()
       }
     }
 
-    // 创建 fallback route
+    // 简化的 fallback route
     route = ref({
       path: window.location.pathname,
       name: 'home',
@@ -64,13 +47,12 @@ export function useRouterSafe() {
     })
   }
 
-  // 安全的导航函数
+  // 简化的导航函数
   const safePush = (to) => {
     try {
       if (isRouterAvailable && router.push) {
         return router.push(to)
       } else {
-        // 使用 fallback
         if (typeof to === 'string') {
           window.location.href = to
         } else if (to.path) {
@@ -79,7 +61,6 @@ export function useRouterSafe() {
       }
     } catch (error) {
       console.error('导航失败:', error)
-      // 最后的 fallback
       if (typeof to === 'string') {
         window.location.href = to
       } else if (to.path) {
@@ -88,13 +69,11 @@ export function useRouterSafe() {
     }
   }
 
-  // 安全的替换函数
   const safeReplace = (to) => {
     try {
       if (isRouterAvailable && router.replace) {
         return router.replace(to)
       } else {
-        // 使用 fallback
         if (typeof to === 'string') {
           window.location.replace(to)
         } else if (to.path) {
@@ -103,7 +82,6 @@ export function useRouterSafe() {
       }
     } catch (error) {
       console.error('替换失败:', error)
-      // 最后的 fallback
       if (typeof to === 'string') {
         window.location.replace(to)
       } else if (to.path) {

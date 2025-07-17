@@ -65,13 +65,9 @@ const languageOptions = [
 ]
 
 function changeLocale(event) {
-  console.log('--- changeLocale function entered ---')
-
   const newLang = event.target.value
-  console.log(`Target language value: ${newLang}`)
 
   if (!supportedLangs.includes(newLang)) {
-    console.log('Selected language is not in supportedLangs, exiting.')
     return
   }
 
@@ -84,12 +80,10 @@ function changeLocale(event) {
     if (currentPathValue.startsWith(prefix + '/')) {
       // e.g., /zh/some/path or /en/some/path
       basePath = currentPathValue.substring(prefix.length) // -> /some/path
-      console.log(`Stripped prefix '${prefix}', basePath is now: ${basePath}`)
       break // Found and removed prefix
     } else if (currentPathValue === prefix) {
       // e.g., exactly /zh or /en
       basePath = '/'
-      console.log(`Path was exactly prefix '${prefix}', basePath is now: /`)
       break // Found and removed prefix
     }
   }
@@ -105,21 +99,15 @@ function changeLocale(event) {
   // Final check: if newPath is empty, make it root
   if (newPath === '') newPath = '/'
 
-  console.log(
-    `Current Path: ${currentPathValue}, Calculated Base Path: ${basePath}, Target New Path: ${newPath}`
-  )
   localStorage.setItem('userLanguage', newLang)
 
   // Only push if the path actually changes to avoid redundant navigation
   if (currentPathValue !== newPath) {
-    console.log('使用安全导航到:', newPath)
     safePush(newPath)
   } else {
-    console.log('New path is the same as current path, navigation skipped.')
     // Even if path is same, locale might need update if v-model didn't trigger watcher
     // Though unlikely with current setup, we ensure locale sync here
     if (locale.value !== newLang) {
-      console.log('Path same, but ensuring i18n locale matches selected language.')
       locale.value = newLang
     }
   }

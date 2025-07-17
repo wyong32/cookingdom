@@ -1,19 +1,11 @@
 <script setup>
-// Keep necessary imports, remove unused ones
-// import { ref, watch, computed } from 'vue' // ref, watch, computed might be implicitly handled by useGuides
 import { useI18n } from 'vue-i18n'
 import { onMounted } from 'vue'
-// import { defaultLang } from '@/i18n' // defaultLang likely needed inside useGuides
-import { RouterLink } from 'vue-router' // Keep if needed elsewhere, maybe not here directly
-// Import the refactored GuidesSection component
 import GuidesSection from '@/components/GuidesSection.vue'
-// Assuming useGuides composable exists and handles locale-based fetching + route object creation
-import { useGuides } from '@/composables/useGuides' // We'll likely need to create/refactor this
+import { useGuides } from '@/composables/useGuides'
 import { useDeviceDetection } from '@/composables/useDeviceDetection'
-// 移除 Adsense 组件导入
-// import Adsense from '@/components/Adsense.vue'
 
-const { t, locale } = useI18n()
+const { locale } = useI18n()
 const { isMobile } = useDeviceDetection()
 
 // Use the composable to get reactive data

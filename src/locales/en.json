@@ -197,11 +197,16 @@
     "backLink": "← Back to Guides",
     "iframeTitle": "Embedded Content",
     "featuredLevelsTitle": "Featured Levels",
-    "loadingOrNotFound": "Loading guide details or guide not found..."
+    "loadingOrNotFound": "Loading guide details or guide not found...",
+    "idNotFound": "Guide not found"
   },
   "seo": {
     "defaultTitle": "Cookingdom Guide",
-    "notFoundTitle": "Guide Not Found | Cookingdom"
+    "notFoundTitle": "Guide Not Found | Cookingdom",
+    "errorTitle": "Error Loading Guide | Cookingdom",
+    "guideDetail": {
+      "title": "Guide Detail"
+    }
   },
   "guides": {
     "title": "📖 Cookingdom Level Walkthrough Guides",
@@ -216,7 +221,8 @@
       "levels51_60": "Levels 51-60",
       "levels61_70": "Levels 61-70"
     },
-    "noGuidesAvailable": "No guides available for this category yet."
+    "noGuidesAvailable": "No guides available for this category yet.",
+    "invalidGuideId": "No guide ID specified."
   },
   "page": {
     "privacy": {
@@ -507,6 +513,7 @@
     "defaultDescription": "Your default description for Cookingdom site.",
     "defaultKeywords": "cookingdom, game, guide, cooking, simulation, fun",
     "notFoundTitle": "Page Not Found | Cookingdom",
+    "notFoundDescription": "The guide you are looking for could not be found.",
     "errorTitle": "Error | Cookingdom",
     "home": {
       "title": "Cookingdom Level Walkthrough – Cookingdom.co",

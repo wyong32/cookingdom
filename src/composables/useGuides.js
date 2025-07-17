@@ -22,10 +22,6 @@ function getGuideLinkProps(level, currentLocale) {
     if (currentLocale && typeof currentLocale === 'string') {
       routeParams = { id: level.id, lang: currentLocale }
     } else {
-      // Fallback or error handling if locale is invalid
-      console.warn(
-        `Invalid locale detected: ${currentLocale}. Falling back to default route for guide ${level.id}`,
-      )
       routeName = 'guide-detail'
       routeParams = { id: level.id }
     }
@@ -56,10 +52,8 @@ async function loadGuidesFromModules(lang) {
 
       if (levelData && Array.isArray(levelData)) {
         allGuides.push(...levelData)
-        console.log(`Loaded ${levelData.length} guides from levels-${range}.js for ${lang}`)
       }
     } catch (err) {
-      console.warn(`Failed to load levels-${range}.js for ${lang}:`, err)
       // Continue loading other ranges even if one fails
     }
   }
@@ -74,20 +68,14 @@ export function useGuides() {
     if (isLoading.value) return // 防止重复加载
     isLoading.value = true
     error.value = null
-    console.log(`Attempting to load guides for locale: ${lang}`)
+
     try {
       let guidesDataToSet
 
       // Try to load from new modular structure first
       try {
         guidesDataToSet = await loadGuidesFromModules(lang)
-        console.log(`Loaded ${guidesDataToSet.length} guides from modular structure for ${lang}`)
       } catch (modularError) {
-        console.warn(
-          `Failed to load from modular structure for ${lang}, falling back to legacy files:`,
-          modularError,
-        )
-
         // Fallback to legacy single files
         let dataModule
         if (lang === 'zh') {
@@ -111,22 +99,16 @@ export function useGuides() {
 
       if (guidesDataToSet && guidesDataToSet.length > 0) {
         rawGuides.value = guidesDataToSet
-        console.log(`Successfully loaded ${rawGuides.value.length} raw guides for locale: ${lang}`)
         guides.value = rawGuides.value.map((guide) => ({
           ...guide,
           routeObject: getGuideLinkProps(guide, lang),
         }))
-        console.log(
-          `Processed ${guides.value.length} guides with route objects for locale: ${lang}`,
-        )
       } else {
-        console.error(`No guides data found for locale ${lang}`)
         error.value = new Error(`Could not find guides data for locale ${lang}`)
         guides.value = []
         rawGuides.value = []
       }
     } catch (err) {
-      console.error(`Failed to load or process guides for locale ${lang}:`, err)
       error.value = err
       guides.value = [] // Ensure guides is empty on error
       rawGuides.value = []
@@ -138,7 +120,6 @@ export function useGuides() {
   // 监听 locale 变化，并在变化时重新加载数据
   watch(locale, (newLocale) => {
     // 语言切换时重新加载数据（如果已经有数据的话）
-    // 初始加载仍需手动触发，但语言切换后会自动重新加载
     if (guides.value.length > 0 || isLoading.value) {
       load(newLocale)
     }

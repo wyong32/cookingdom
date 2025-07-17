@@ -44,6 +44,9 @@
       "credits": "Dibuat dengan ♡ oleh Peminat | Hak cipta permainan Cookingdom adalah milik pembangunnya.",
       "disclaimer": "Penafian: Laman web ini (www.cookingdom.co) adalah laman peminat tidak rasmi yang dicipta oleh peminat dan tidak mempunyai kaitan dengan permainan rasmi Cookingdom atau penerbitnya. Untuk tujuan maklumat dan hiburan sahaja."
     },
+    "copyright": {
+      "linkText": "Hak Cipta"
+    },
     "privacy": "Dasar Privasi",
     "terms": "Terma Perkhidmatan",
     "defaultKeywords": "permainan memasak, simulasi, permainan mudah alih, strategi, menyeronokkan, resipi, dapur"
@@ -194,11 +197,13 @@
     "backLink": "← Kembali ke Panduan",
     "iframeTitle": "Kandungan Berkongsi",
     "featuredLevelsTitle": "Tahap Terpilih",
-    "loadingOrNotFound": "Memuatkan butiran panduan atau panduan tidak ditemui..."
+    "loadingOrNotFound": "Memuatkan butiran panduan atau panduan tidak ditemui...",
+    "idNotFound": "Panduan tidak ditemui"
   },
   "seo": {
     "defaultTitle": "Panduan Cookingdom",
-    "notFoundTitle": "Panduan Tidak Ditemui | Cookingdom"
+    "notFoundTitle": "Panduan Tidak Ditemui | Cookingdom",
+    "notFoundDescription": "Panduan yang anda cari tidak dapat ditemui."
   },
   "guides": {
     "title": "📖 Semua Panduan Tahap Cookingdom",
@@ -210,9 +215,11 @@
       "levels21_30": "Tahap 21-30",
       "levels31_40": "Tahap 31-40",
       "levels41_50": "Tahap 41-50",
-      "levels51_60": "Tahap 51-60"
+      "levels51_60": "Tahap 51-60",
+      "levels61_70": "Tahap 61-70"
     },
-    "noGuidesAvailable": "Tiada panduan tersedia untuk kategori ini."
+    "noGuidesAvailable": "Tiada panduan tersedia untuk kategori ini.",
+    "invalidGuideId": "ID panduan tidak ditentukan."
   },
   "page": {
     "privacy": {

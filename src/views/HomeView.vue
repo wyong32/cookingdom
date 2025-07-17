@@ -34,11 +34,8 @@ const swiperLoaded = ref(false)
 const { locale } = useI18n()
 const { isMobile } = useDeviceDetection()
 
-// 直接使用 useGuides，但通过显示控制实现懒加载效果
+// 直接使用 useGuides，简化加载逻辑
 const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesData } = useGuides()
-
-// 跟踪攻略数据是否已经开始加载
-const guidesLoadTriggered = ref(false)
 
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
@@ -74,15 +71,6 @@ function getLocalizedRoute(name, params = {}) {
   }
 }
 
-// 控制指南部分是否显示
-const showGuides = ref(false)
-
-// 简化的加载函数
-const loadGuides = () => {
-  console.log('显示指南部分')
-  showGuides.value = true
-}
-
 // Function to scroll to a specific section smoothly
 const scrollToSection = (sectionId) => {
   const element = document.getElementById(sectionId)
@@ -105,7 +93,7 @@ const sliderImages = ref([
   '/images/banner10.webp',
 ])
 
-// 动态加载 Swiper 组件
+// 简化Swiper组件加载
 const loadSwiperComponents = async () => {
   try {
     // 动态导入 Swiper 组件
@@ -123,47 +111,19 @@ const loadSwiperComponents = async () => {
     await import('swiper/css/effect-coverflow')
 
     swiperLoaded.value = true
-    console.log('Swiper 组件加载完成')
+    // Swiper 组件加载完成
   } catch (error) {
     console.error('加载 Swiper 组件失败:', error)
   }
 }
 
-// 自动在桌面端加载Swiper组件
+// 简化Swiper加载触发
 watch(
   () => isMobile.value,
   (val) => {
-    // 完全延迟Swiper加载，直到用户交互或页面完全稳定
     if (!val && !swiperLoaded.value) {
-      // 延迟到页面加载完成后的10秒，或者用户开始交互时
-      const loadSwiperAfterStable = () => {
-        if (window.requestIdleCallback) {
-          window.requestIdleCallback(
-            () => {
-              loadSwiperComponents()
-            },
-            { timeout: 10000 }
-          )
-        } else {
-          setTimeout(loadSwiperComponents, 10000)
-        }
-      }
-
-      // 监听用户交互，提前加载
-      const earlyLoadEvents = ['scroll', 'mousemove', 'click', 'touchstart']
-      const handleEarlyLoad = () => {
-        loadSwiperComponents()
-        earlyLoadEvents.forEach((event) => {
-          document.removeEventListener(event, handleEarlyLoad, { passive: true })
-        })
-      }
-
-      earlyLoadEvents.forEach((event) => {
-        document.addEventListener(event, handleEarlyLoad, { passive: true, once: true })
-      })
-
-      // 备用延迟加载
-      setTimeout(loadSwiperAfterStable, 3000)
+      // 简化延迟加载
+      setTimeout(loadSwiperComponents, 2000)
     }
   },
   { immediate: true }
@@ -195,48 +155,12 @@ const loadAds = () => {
 }
 
 onMounted(() => {
-  // 最小化初始化任务，只保留最关键的
-  const criticalTasks = () => {
-    // 延迟所有非关键操作到页面稳定后
-    setTimeout(() => {
-      const scheduleNonCriticalTasks = () => {
-        // 设置 IntersectionObserver
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                guidesLoadTriggered.value = true
-                loadGuidesData(locale.value)
-                observer.disconnect()
-              }
-            })
-          },
-          { threshold: 0.1 }
-        )
+  // 简化初始化逻辑
+  // 立即加载攻略数据
+  loadGuidesData(locale.value)
 
-        const guidesSection = document.getElementById('guides-section')
-        if (guidesSection) {
-          observer.observe(guidesSection)
-        }
-
-        // 进一步延迟广告加载
-        setTimeout(loadAds, 8000)
-      }
-
-      if (window.requestIdleCallback) {
-        window.requestIdleCallback(scheduleNonCriticalTasks, { timeout: 5000 })
-      } else {
-        setTimeout(scheduleNonCriticalTasks, 2000)
-      }
-    }, 100) // 给关键内容渲染留出时间
-  }
-
-  // 使用最小延迟执行关键任务
-  if (window.requestAnimationFrame) {
-    window.requestAnimationFrame(criticalTasks)
-  } else {
-    setTimeout(criticalTasks, 16) // ~1 frame at 60fps
-  }
+  // 延迟加载广告
+  setTimeout(loadAds, 2000)
 })
 </script>
 
@@ -394,12 +318,8 @@ onMounted(() => {
         <div id="guides-section">
           <h2>{{ $t('guides.title') }}</h2>
 
-          <!-- GuidesSection 现在总是渲染，但其内部会根据 props 显示加载状态或数据 -->
-          <GuidesSection
-            :guides="guides"
-            :is-loading="guidesLoading || !guidesLoadTriggered"
-            :error="guidesError"
-          />
+          <!-- GuidesSection 简化使用 -->
+          <GuidesSection :guides="guides" :is-loading="guidesLoading" :error="guidesError" />
 
           <!-- 广告3 -->
           <aside class="ads-wrapper" v-if="isMobile">
@@ -776,15 +696,11 @@ main {
   margin: 1rem auto;
   width: 100%;
   max-width: 350px;
-  min-height: 280px; /* 设置最小高度，防止布局偏移 */
+  min-height: 280px;
   height: auto;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  /* 优化图片容器的渲染性能 */
-  contain: layout style paint;
-  will-change: transform;
-  /* 防止布局偏移 */
   aspect-ratio: 350 / 280;
 }
 
@@ -794,10 +710,6 @@ main {
   height: auto;
   object-fit: cover;
   border-radius: 15px;
-  /* 优化图片渲染性能 */
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  transform: translateZ(0); /* 启用硬件加速 */
 }
 
 /* 加载中状态样式 */
@@ -806,12 +718,11 @@ main {
   margin: 1rem auto;
   width: 100%;
   max-width: 350px;
-  min-height: 280px; /* 设置最小高度，防止布局偏移 */
+  min-height: 280px;
   height: auto;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  /* 防止布局偏移 */
   aspect-ratio: 350 / 280;
 }
 
@@ -871,26 +782,24 @@ main {
 .features-section {
   padding: 4rem 0;
   text-align: center;
-  background: linear-gradient(135deg, #f8f4ff 0%, #fff0f8 100%); /* Soft gradient */
-  contain: layout style paint; /* 防止布局偏移 */
-  min-height: 600px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
-  overflow: hidden; /* 防止内容溢出导致的布局偏移 */
+  background: linear-gradient(135deg, #f8f4ff 0%, #fff0f8 100%);
+  min-height: 600px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .features-section > .container {
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 450px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
+  min-height: 450px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .features-section h2 {
   font-size: 2rem;
-  color: #a08ee6; /* Kawaii purple */
+  color: #a08ee6;
   margin-bottom: 0.5rem;
-  min-height: 2.5rem; /* 设置最小高度，防止内容加载时的布局偏移 */
+  min-height: 2.5rem;
 }
 
 .features-section > .container > p {
@@ -900,34 +809,30 @@ main {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  min-height: 1.5em; /* 设置最小高度，防止内容加载时的布局偏移 */
+  min-height: 1.5em;
 }
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
-  grid-template-rows: repeat(auto-fit, minmax(200px, auto)); /* 固定行高 */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, auto));
   gap: 1.5rem;
   margin: 0 auto;
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 300px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
-  place-items: stretch; /* 确保所有项目填满网格 */
+  min-height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  place-items: stretch;
 }
 
 .feature-card {
-  background-color: #fdf6ff; /* Very light lavender */
+  background-color: #fdf6ff;
   padding: 1.5rem;
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 4px 10px rgba(160, 142, 230, 0.1); /* Soft purple shadow */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(160, 142, 230, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  contain: layout style; /* 防止布局偏移 */
-  min-height: 200px; /* 设置最小高度，防止内容加载时的布局偏移 */
-  width: 100%; /* 确保宽度固定 */
-  box-sizing: border-box; /* 确保padding不影响总宽度 */
-  transform: translateZ(0); /* 启用硬件加速，减少重绘 */
-  will-change: transform; /* 提示浏览器优化变换 */
+  min-height: 200px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .feature-card:hover {
@@ -937,23 +842,22 @@ main {
 
 .feature-card .icon {
   font-size: 2rem;
-  color: #ff85a2; /* Kawaii pink */
+  color: #ff85a2;
   margin-bottom: 0.8rem;
-  /* Consider using actual icons later */
-  min-height: 2rem; /* 设置最小高度，防止内容加载时的布局偏移 */
+  min-height: 2rem;
 }
 
 .feature-card h3 {
   font-size: 1.2rem;
   color: #5b4b8a;
   margin-bottom: 0.5rem;
-  min-height: 1.5rem; /* 设置最小高度，防止内容加载时的布局偏移 */
+  min-height: 1.5rem;
 }
 
 .feature-card p {
   font-size: 0.9rem;
   color: #7c6f9f;
-  min-height: 4rem; /* 设置最小高度，防止内容加载时的布局偏移 */
+  min-height: 4rem;
 }
 
 /* Guides Section */
@@ -1042,7 +946,6 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
-  /* 设置最小高度，防止布局偏移 */
   min-height: 500px;
 }
 
@@ -1052,8 +955,6 @@ main {
   border-radius: 15px;
   animation: shimmer 1.5s linear infinite;
   background-size: 200% 100%;
-  /* 防止布局偏移 */
-  contain: layout style paint;
 }
 
 @keyframes shimmer {

@@ -44,6 +44,9 @@
       "credits": "由粉丝用 ♡ 制作 | 料理王国游戏版权归其开发者所有。",
       "disclaimer": "免责声明：本网站（www.cookingdom.co）是由爱好者创建的非官方粉丝网站，与官方料理王国游戏或其发行商无关。仅供参考和娱乐目的。"
     },
+    "copyright": {
+      "linkText": "版权"
+    },
     "privacy": "隐私政策",
     "terms": "服务条款"
   },
@@ -193,7 +196,8 @@
     "backLink": "← 返回指南列表",
     "iframeTitle": "嵌入内容",
     "featuredLevelsTitle": "推荐关卡",
-    "loadingOrNotFound": "正在加载指南详情或未找到指南..."
+    "loadingOrNotFound": "正在加载指南详情或未找到指南...",
+    "idNotFound": "指南未找到"
   },
   "seo": {
     "defaultTitle": "料理王国指南",
@@ -209,9 +213,11 @@
       "levels21_30": "关卡 21-30",
       "levels31_40": "关卡 31-40",
       "levels41_50": "关卡 41-50",
-      "levels51_60": "关卡 51-60"
+      "levels51_60": "关卡 51-60",
+      "levels61_70": "关卡 61-70"
     },
-    "noGuidesAvailable": "该分类下暂无指南。"
+    "noGuidesAvailable": "该分类下暂无指南。",
+    "invalidGuideId": "未指定指南ID。"
   },
   "page": {
     "privacy": {
@@ -496,6 +502,7 @@
     "defaultDescription": "这是Cookingdom站点的默认描述。",
     "defaultKeywords": "料理王国, 游戏, 指南, 烹饪, 模拟, 有趣",
     "notFoundTitle": "页面未找到 | 料理王国",
+    "notFoundDescription": "您要查找的指南未找到。",
     "errorTitle": "错误 | 料理王国",
     "home": {
       "title": "《烹饪大师》游戏策略指南——精通每一关",

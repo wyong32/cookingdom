@@ -44,6 +44,9 @@
       "credits": "Ginawa nang may ♡ ng mga Tagahanga - Ang copyright ng larong Cookingdom ay pagmamay-ari ng mga developer nito.",
       "disclaimer": "Paunawa: Ang website na ito (www.cookingdom.co) ay isang di-opisyal na fansite na ginawa ng mga tagahanga at hindi konektado sa opisyal na larong Cookingdom o sa mga publisher nito. Para sa layuning impormasyon at libangan lamang."
     },
+    "copyright": {
+      "linkText": "Copyright"
+    },
     "privacy": "Patakaran sa Privacy",
     "terms": "Mga Tuntunin ng Serbisyo",
     "defaultKeywords": "larong pagluluto, simulation, mobile game, strategy, kasiyahan, mga recipe, kusina"
@@ -194,11 +197,13 @@
     "backLink": "← Bumalik sa Mga Gabay",
     "iframeTitle": "Nilalaman na Ibinahagi",
     "featuredLevelsTitle": "Mga Tampok na Antas",
-    "loadingOrNotFound": "Nagloload ng mga detalye ng gabay o gabay hindi nahanap..."
+    "loadingOrNotFound": "Nagloload ng mga detalye ng gabay o gabay hindi nahanap...",
+    "idNotFound": "Hindi nahanap ang gabay"
   },
   "seo": {
     "defaultTitle": "Gabay ng Cookingdom",
-    "notFoundTitle": "Gabay Hindi Nahanap | Cookingdom"
+    "notFoundTitle": "Gabay Hindi Nahanap | Cookingdom",
+    "notFoundDescription": "Hindi mahanap ang gabay na hinahanap mo."
   },
   "guides": {
     "title": "📖 Lahat ng Gabay sa Level ng Cookingdom",
@@ -210,9 +215,11 @@
       "levels21_30": "Mga Antas 21-30",
       "levels31_40": "Mga Antas 31-40",
       "levels41_50": "Mga Antas 41-50",
-      "levels51_60": "Mga Antas 51-60"
+      "levels51_60": "Mga Antas 51-60",
+      "levels61_70": "Mga Antas 61-70"
     },
-    "noGuidesAvailable": "Walang gabay na available para sa kategoryang ito."
+    "noGuidesAvailable": "Walang gabay na available para sa kategoryang ito.",
+    "invalidGuideId": "Walang tinukoy na ID ng gabay."
   },
   "page": {
     "terms": {
