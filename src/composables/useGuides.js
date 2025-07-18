@@ -44,6 +44,8 @@ async function loadGuidesFromModules(lang) {
     { range: '61-70', exportName: 'levels61to70' },
   ]
 
+  let loadedCount = 0
+
   // Load each level range module
   for (const { range, exportName } of levelRanges) {
     try {
@@ -52,10 +54,17 @@ async function loadGuidesFromModules(lang) {
 
       if (levelData && Array.isArray(levelData)) {
         allGuides.push(...levelData)
+        loadedCount++
       }
     } catch (err) {
+      console.warn(`Failed to load levels-${range}.js for ${lang}:`, err)
       // Continue loading other ranges even if one fails
     }
+  }
+
+  // If no modules were loaded successfully, throw an error
+  if (loadedCount === 0) {
+    throw new Error(`Failed to load any guide modules for language: ${lang}`)
   }
 
   return allGuides
@@ -72,29 +81,12 @@ export function useGuides() {
     try {
       let guidesDataToSet
 
-      // Try to load from new modular structure first
+      // Load from modular structure
       try {
         guidesDataToSet = await loadGuidesFromModules(lang)
       } catch (modularError) {
-        // Fallback to legacy single files
-        let dataModule
-        if (lang === 'zh') {
-          dataModule = await import('@/datas/guides-zh.js')
-          guidesDataToSet = dataModule.guidesZh
-        } else if (lang === 'ru') {
-          dataModule = await import('@/datas/guides-ru.js')
-          guidesDataToSet = dataModule.guidesRu
-        } else if (lang === 'fil') {
-          dataModule = await import('@/datas/guides-fil.js')
-          guidesDataToSet = dataModule.guides
-        } else if (lang === 'ms') {
-          dataModule = await import('@/datas/guides-ms.js')
-          guidesDataToSet = dataModule.guides
-        } else {
-          // Default to English
-          dataModule = await import('@/datas/guides.js')
-          guidesDataToSet = dataModule.guides
-        }
+        console.error(`Failed to load guides for ${lang}:`, modularError)
+        guidesDataToSet = []
       }
 
       if (guidesDataToSet && guidesDataToSet.length > 0) {
