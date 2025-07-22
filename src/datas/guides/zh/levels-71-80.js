@@ -282,7 +282,176 @@ export const levels71to80 = [
       
           <p>Cookingdom第73关教你制作美味酥脆的Gozleme。通过掌握面团准备、折叠技巧及适当烤制温度，你将赢得3星奖励，并解锁更多馅料，为未来的Gozleme挑战做准备。</p>
         `
+  },
+
+  {
+    "id": "cookingdom-game-level-74",
+    "title": "Cookingdom 第74关 烤冬季鱼通关攻略",
+    "pageTitle": "Cookingdom 第74关 烤冬季鱼通关攻略",
+    "pageSubtitle": "掌握在第74关中完美烤制冬季鱼的技巧，结合风味与烹饪技术，做出一道令人垂涎的佳肴。",
+    "category": "71-80",
+    "publishDate": "2025-07-21",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_74.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-74" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/__zbBY6ylUw",
+    "seo": {
+      "title": "Cookingdom 第74关 烤冬季鱼攻略与技巧",
+      "description": "学习如何在Cookingdom第74关中完美烤制冬季鱼。通过本攻略掌握烤制技巧、调味要点与摆盘方法。",
+      "keywords": "Cookingdom 第74关, 烤冬季鱼, 烤鱼技巧, 烹饪攻略, 冬季鱼食谱, Cookingdom 小贴士"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_74.webp",
+      "levelInfoHtml": "<h3>烤冬季鱼</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>8–10分钟</p><p><strong>奖励：</strong>3星 + 解锁柑橘釉汁</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-73",
+          "title": "Cookingdom 第73关 Gozleme 攻略",
+          "imageUrl": "/images/guides_73.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-73" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-75",
+          "title": "Cookingdom 第75关 乌冬面通关攻略",
+          "imageUrl": "/images/guides_75.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-75" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>关卡概览</h2>
+  
+      <p>欢迎来到第74关！你将在这里烹制一道美味且精致的烤冬季鱼。通过本关卡你将学习如何完美烤鱼，平衡调味、火候与摆盘，为顾客献上一道令人满意的料理。</p>
+  
+      <h2>目标</h2>
+  
+      <p>你的目标是将冬季鱼烤至完美熟度，利用适当的调味和配菜提升风味，并将鱼优雅地装盘并趁热上桌，才能获得最佳评价。</p>
+  
+      <h2>烹饪流程</h2>
+  
+      <h3>步骤1：准备鱼肉</h3>
+      <ul>
+        <li>选择一片新鲜的冬季鱼鱼柳。如果是冷冻鱼，请先解冻，并去除鱼骨和鱼鳞。</li>
+        <li>用橄榄油、盐、黑胡椒和几滴柠檬汁腌制，打造清新基础风味。</li>
+      </ul>
+  
+      <h3>步骤2：预热烤架</h3>
+      <ul>
+        <li>将烤架加热至中高火。预热充分可确保鱼肉受热均匀、外皮焦香。</li>
+        <li>轻轻刷油在烤网表面，避免鱼皮粘黏。</li>
+      </ul>
+  
+      <h3>步骤3：烤制鱼肉</h3>
+      <ul>
+        <li>将鱼放在烤架上（如有鱼皮，皮朝下），每面烤4–5分钟，视鱼片厚度而定。</li>
+        <li>翻面时要轻柔操作，避免鱼肉断裂。烤至鱼肉用叉子轻松拨开且呈现不透明状态即可。</li>
+      </ul>
+  
+      <h3>步骤4：装饰与上菜</h3>
+      <p>鱼烤好后，将其装盘，可搭配新鲜香草、一点柑橘釉汁（如已解锁）和蔬菜或清爽沙拉，打造完整精致的一餐。</p>
+  
+      <h2>小贴士</h2>
+      <ul>
+        <li><strong>检查熟度：</strong>鱼肉应呈不透明状态并可轻松用叉子撕开。避免过度烹煮导致干柴。</li>
+        <li><strong>使用新鲜鱼：</strong>优质的新鲜鱼可呈现最佳风味。尽可能选择本地或可持续捕捞的品种。</li>
+        <li><strong>漂亮的烤痕：</strong>想要美观的烤痕，不要频繁翻动鱼片，让它在烤架上安静“作画”。</li>
+        <li><strong>调味创意：</strong>除基本调味外，可尝试百里香、莳萝或迷迭香等香料，为鱼增添层次。</li>
+        <li><strong>注重摆盘：</strong>赏心悦目的摆盘至关重要。可搭配绿叶菜或酸味酱汁，提升色彩与对比度。</li>
+      </ul>
+  
+      <h2>总结</h2>
+      <p>Cookingdom 第74关带你进入烤鱼的世界。掌握调味、烤制与摆盘技巧，你将获得3星评价，并解锁美味的柑橘釉汁，为后续菜品增添风味亮点！</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-75",
+    "title": "Cookingdom 第75关 乌冬面攻略解析",
+    "pageTitle": "Cookingdom 第75关 乌冬面攻略解析",
+    "pageSubtitle": "学习在Cookingdom第75关中制作完美的乌冬面和美味的汤底，带来地道的日式美食体验。",
+    "category": "71-80",
+    "publishDate": "2025-07-21",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_75.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-75" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/K1ZMWnICu3c",
+    "seo": {
+      "title": "Cookingdom 第75关 乌冬面攻略解析与技巧",
+      "description": "掌握在Cookingdom第75关中准备乌冬面和汤底的技巧。跟随本攻略制作完美的日式乌冬面汤。",
+      "keywords": "cookingdom level 75, 乌冬面, udon noodles, 日式汤面, 烹饪攻略, 乌冬汤底, cookingdom技巧"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_75.webp",
+      "levelInfoHtml": "<h3>乌冬面</h3><p><strong>难度：</strong> 中等</p><p><strong>预计用时：</strong> 10–12分钟</p><p><strong>奖励：</strong> 3星 + 解锁配料</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-74",
+          "title": "Cookingdom 第74关 烤冬鱼攻略",
+          "imageUrl": "/images/guides_74.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-74" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>关卡概述</h2>
+      <p>欢迎来到第75关，这里你将制作完美的一碗乌冬面！本关你需要准备粗厚有嚼劲的乌冬面和鲜美的汤底，乌冬面作为日本经典美食，讲究面条、汤底和配料的完美搭配，带来地道的味觉享受。</p>
+  
+      <h2>目标</h2>
+      <p>你的目标是将乌冬面煮至适当的口感，熬制浓郁美味的汤底，将所有元素完美结合，搭配合适的配料，打造一道令顾客满意的乌冬面。</p>
+  
+      <h2>制作流程</h2>
+  
+      <h3>步骤1：准备汤底</h3>
+      <ul>
+        <li>先将汤底熬煮。将出汁（dashi）、酱油和味醂混合放入锅中，小火慢煮。</li>
+        <li>让汤底熬煮约10分钟，使各种风味充分融合，必要时调节咸淡（盐、酱油等）。</li>
+      </ul>
+  
+      <h3>步骤2：煮乌冬面</h3>
+      <ul>
+        <li>另起锅烧开水，煮乌冬面约5-7分钟，面条应软硬适中且富有嚼劲。</li>
+        <li>煮熟后，将面条沥干，并用冷水快速冲洗，停止加热过程并去除多余淀粉。</li>
+      </ul>
+  
+      <h3>步骤3：组合面条与汤底</h3>
+      <ul>
+        <li>将煮好的乌冬面放入碗中，浇上热腾腾的汤底，确保面条充分吸附汤汁。</li>
+        <li>确保汤底足够热，以避免面条变软影响口感。</li>
+      </ul>
+  
+      <h3>步骤4：添加配料</h3>
+      <p>在乌冬面上加入传统配料，如葱花、溏心蛋、天妇罗虾或芝麻。根据顾客口味灵活调整配料，有些人可能喜欢加多些配料或不加。</p>
+  
+      <h2>小贴士</h2>
+      <ul>
+        <li><strong>掌握面条火候：</strong>乌冬面应有弹牙口感，煮过头会变软烂。</li>
+        <li><strong>慢火熬汤：</strong>汤底应小火慢炖，充分提取风味，避免大火沸腾破坏味道。</li>
+        <li><strong>个性化配料：</strong>顾客口味不同，注意每单是否有特别要求，如加天妇罗或蘑菇等。</li>
+        <li><strong>选用新鲜食材：</strong>汤底用料新鲜尤为关键，选用高品质出汁和酱油提升风味。</li>
+        <li><strong>热食最佳：</strong>乌冬面应热食，确保面条和汤底都保持最佳温度。</li>
+      </ul>
+  
+      <h2>总结</h2>
+      <p>Cookingdom第75关带你领略乌冬面的魅力。掌握面条、汤底和配料的平衡，将令顾客赞不绝口。完成后还能解锁新配料，如天妇罗或辣味调料，让你未来的料理更具多样性。用心制作这碗暖心的乌冬面，赢得3星评价！</p>
+    `
   }
+
+
 
 
 

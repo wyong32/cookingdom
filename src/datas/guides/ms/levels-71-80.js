@@ -282,7 +282,174 @@ export const levels71to80 = [
     
         <p>Cookingdom Tahap 73 mengajar anda seni membuat Gozleme yang rangup dan lazat. Dengan menguasai penyediaan doh, teknik lipatan, dan memanggang pada suhu yang betul, anda boleh memperoleh 3 bintang dan membuka lebih banyak pilihan inti untuk ciptaan Gozleme anda yang akan datang.</p>
       `
+  },
+
+  {
+    "id": "cookingdom-game-level-74",
+    "title": "Cookingdom Tahap 74 Panduan Penyelesaian Ikan Musim Sejuk Bakar",
+    "pageTitle": "Cookingdom Tahap 74 Panduan Penyelesaian Ikan Musim Sejuk Bakar",
+    "pageSubtitle": "Kuasi seni membakar Ikan Musim Sejuk yang sempurna di Tahap 74 Cookingdom, menggabungkan rasa dan teknik untuk hidangan yang lazat.",
+    "category": "71-80",
+    "publishDate": "2025-07-21",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_74.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-74" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/__zbBY6ylUw",
+    "seo": {
+      "title": "Cookingdom Tahap 74 Panduan Penyelesaian & Tips Ikan Musim Sejuk Bakar",
+      "description": "Pelajari cara membakar Ikan Musim Sejuk dengan sempurna dalam Cookingdom Tahap 74. Ikuti panduan ini untuk menguasai proses membakar, perasa, dan penyajian.",
+      "keywords": "cookingdom tahap 74, ikan musim sejuk bakar, membakar ikan, panduan memasak, resipi ikan musim sejuk, tips cookingdom"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_74.webp",
+      "levelInfoHtml": "<h3>Ikan Musim Sejuk Bakar</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 8–10 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Pelepasan Glasir Sitrus</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-73",
+          "title": "Cookingdom Tahap 73 Panduan Gozleme",
+          "imageUrl": "/images/guides_73.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-73" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-75",
+          "title": "Cookingdom Tahap 75 Panduan Penyelesaian Udon",
+          "imageUrl": "/images/guides_75.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-75" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Gambaran Tahap</h2>
+      <p>Selamat datang ke Tahap 74, di mana anda akan menyediakan Ikan Musim Sejuk Bakar yang lazat dan lembut! Tahap ini mengajar anda cara membakar ikan dengan sempurna, mengimbangkan perasa, masa membakar, dan penyajian untuk menghasilkan hidangan yang memuaskan citarasa pelanggan anda.</p>
+  
+      <h2>Objektif</h2>
+      <p>Matlamat anda adalah membakar Ikan Musim Sejuk hingga tahap kematangan yang tepat, memastikan rasa ditingkatkan dengan perasa dan hiasan yang betul. Hidangkan ikan dengan cantik dan panas untuk hasil terbaik.</p>
+  
+      <h2>Proses Penyediaan</h2>
+  
+      <h3>Langkah 1: Sediakan Ikan</h3>
+      <ul>
+        <li>Pilih fillet ikan musim sejuk yang segar. Pastikan ikan dicairkan jika beku, dan buang tulang atau sisik.</li>
+        <li>Perasakan ikan dengan sedikit minyak zaitun, garam, lada, dan sedikit jus lemon untuk asas rasa yang ringan dan sedap.</li>
+      </ul>
+  
+      <h3>Langkah 2: Panaskan Gril</h3>
+      <ul>
+        <li>Panaskan gril pada suhu sederhana-tinggi. Gril yang cukup panas akan memastikan ikan masak dengan rata dan mendapat lapisan yang cantik.</li>
+        <li>Sapukan sedikit minyak pada jaring gril untuk elakkan ikan melekat.</li>
+      </ul>
+  
+      <h3>Langkah 3: Bakar Ikan</h3>
+      <ul>
+        <li>Letakkan ikan di atas gril dengan bahagian kulit menghadap ke bawah (jika ada), dan masak selama kira-kira 4-5 minit setiap sisi, bergantung pada ketebalan ikan.</li>
+        <li>Balikkan ikan dengan berhati-hati untuk elakkan ia hancur. Bakar sehingga ikan mudah mengelupas dengan garpu dan warnanya tidak lagi lutsinar.</li>
+      </ul>
+  
+      <h3>Langkah 4: Hiaskan dan Hidang</h3>
+      <p>Setelah ikan dibakar dengan sempurna, susun di pinggan dan hiaskan dengan herba segar, sapuan glasir sitrus (jika ada), serta hidangkan bersama sayur atau salad ringan untuk hidangan lengkap.</p>
+  
+      <h2>Tips dan Trik</h2>
+      <ul>
+        <li><strong>Periksa Kematangan:</strong> Ikan harus mudah mengelupas dan tidak lutsinar. Elakkan memasak terlalu lama agar tidak kering.</li>
+        <li><strong>Gunakan Ikan Segar:</strong> Ikan yang segar dan berkualiti tinggi memberikan rasa terbaik. Jika boleh, gunakan ikan tempatan atau lestari.</li>
+        <li><strong>Corak Gril:</strong> Untuk corak gril yang cantik, elakkan menggerakkan ikan terlalu kerap. Biarkan ia masak secukupnya pada setiap sisi.</li>
+        <li><strong>Eksperimen dengan Perasa:</strong> Walaupun garam dan lada asas sudah mencukupi, anda boleh mencuba herba seperti thyme, dill, atau rosemary untuk aroma tambahan.</li>
+        <li><strong>Penyajian Penting:</strong> Hidangan yang disusun dengan baik sangat penting. Pertimbangkan menghidangkan ikan bakar bersama sayur hijau segar atau sos berasid untuk warna dan kontras.</li>
+      </ul>
+  
+      <h2>Ringkasan</h2>
+      <p>Tahap 74 Cookingdom membawa anda ke dunia membakar dengan hidangan Ikan Musim Sejuk Bakar. Dengan menguasai seni perasa, pembakaran, dan penyajian, anda akan memperoleh 3 bintang dan membuka kunci glasir sitrus baru untuk menambah perisa pada hidangan anda yang akan datang.</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-75",
+    "title": "Cookingdom Tahap 75 Panduan Lengkap Penyelesaian Udon",
+    "pageTitle": "Cookingdom Tahap 75 Panduan Lengkap Penyelesaian Udon",
+    "pageSubtitle": "Belajar cara membuat mee Udon yang sempurna dan kuah yang sedap dalam Tahap 75 Cookingdom, menghidupkan hidangan Jepun yang asli.",
+    "category": "71-80",
+    "publishDate": "2025-07-21",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_75.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-75" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/K1ZMWnICu3c",
+    "seo": {
+      "title": "Cookingdom Tahap 75 Panduan Lengkap Penyelesaian Udon & Tip",
+      "description": "Kuasi seni menyediakan mee Udon dan kuah dalam Cookingdom Tahap 75. Ikuti panduan ini untuk mencipta sup mee Jepun yang sempurna.",
+      "keywords": "cookingdom level 75, udon, mee udon, sup jepun, panduan memasak, kuah udon, tip cookingdom"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_75.webp",
+      "levelInfoHtml": "<h3>Udon</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 10–12 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Buka Topping Baru</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-74",
+          "title": "Cookingdom Tahap 74 Panduan Lengkap Ikan Musim Sejuk Bakar",
+          "imageUrl": "/images/guides_74.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-74" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Gambaran Keseluruhan Tahap</h2>
+      <p>Selamat datang ke Tahap 75, di mana anda akan menyediakan semangkuk mee Udon yang sempurna! Dalam tahap ini, anda akan menyediakan mee tebal dan kenyal serta kuah sedap yang menjadikan Udon hidangan kegemaran dalam masakan Jepun. Matlamat anda adalah untuk mengimbangi mee, kuah, dan topping supaya menghasilkan hidangan yang lazat dan asli.</p>
+  
+      <h2>Objektif</h2>
+      <p>Matlamat anda adalah untuk memasak mee Udon dengan tekstur yang betul, menghasilkan kuah yang kaya dan berperisa, serta menggabungkan semuanya untuk mencipta hidangan Udon yang sempurna. Hiaskan dengan garnis yang sesuai bagi memberikan kepuasan kepada pelanggan.</p>
+  
+      <h2>Proses Penyediaan</h2>
+  
+      <h3>Langkah 1: Sediakan Kuah</h3>
+      <ul>
+        <li>Mula dengan memasak kuah. Gabungkan dashi, kicap soya, dan mirin dalam periuk dan biarkan mendidih perlahan.</li>
+        <li>Biarkan kuah mendidih perlahan selama kira-kira 10 minit untuk menggabungkan rasa, dan laraskan perasa jika perlu (garam, kicap soya, dll.).</li>
+      </ul>
+  
+      <h3>Langkah 2: Masak Mee Udon</h3>
+      <ul>
+        <li>Dalam periuk berasingan, didihkan air dan masak mee Udon selama kira-kira 5-7 minit atau sehingga mee lembut tetapi masih kenyal.</li>
+        <li>Setelah dimasak, tos mee dan bilas dengan air sejuk seketika untuk menghentikan proses memasak dan menghilangkan lebihan kanji.</li>
+      </ul>
+  
+      <h3>Langkah 3: Gabungkan Mee dan Kuah</h3>
+      <ul>
+        <li>Letakkan mee Udon yang telah dimasak ke dalam mangkuk dan tuangkan kuah panas ke atasnya. Pastikan mee disaluti kuah yang kaya rasa.</li>
+        <li>Pastikan kuah panas sebelum dihidangkan supaya mee tidak menjadi lembik.</li>
+      </ul>
+  
+      <h3>Langkah 4: Tambah Topping</h3>
+      <p>Hiaskan Udon dengan garnis tradisional seperti daun bawang hiris, telur rebus, tempura udang, atau taburan biji bijan. Laraskan topping mengikut citarasa pelanggan, kerana sesetengah pelanggan mungkin mahu tambahan topping atau tiada langsung.</p>
+  
+      <h2>Tip dan Trik</h2>
+      <ul>
+        <li><strong>Masak Mee Dengan Betul:</strong> Mee Udon perlu mempunyai tekstur yang kenyal dan tidak terlalu lembut. Masak terlalu lama akan menyebabkan mee menjadi lembik.</li>
+        <li><strong>Masak Kuah Perlahan:</strong> Biarkan kuah mendidih perlahan untuk mengeluarkan semua rasa tanpa merebus dengan kuat.</li>
+        <li><strong>Personalisasi Topping:</strong> Sesetengah pelanggan mungkin suka topping tambahan seperti tempura atau cendawan. Semak setiap pesanan dengan teliti.</li>
+        <li><strong>Gunakan Bahan Segar:</strong> Bahan segar terutama untuk kuah akan meningkatkan rasa dengan ketara. Gunakan dashi dan kicap soya berkualiti tinggi.</li>
+        <li><strong>Hidangkan Panas:</strong> Udon paling sedap dihidangkan panas, pastikan mee dan kuah berada pada suhu sempurna sebelum dihidangkan.</li>
+      </ul>
+  
+      <h2>Ringkasan</h2>
+      <p>Cookingdom Tahap 75 memperkenalkan seni penyediaan Udon, hidangan mee klasik Jepun. Dengan menguasai keseimbangan mee, kuah dan topping, anda akan mengagumkan pelanggan dan membuka topping baru seperti tempura atau perasa pedas untuk hidangan akan datang. Raih 3 bintang dengan menyediakan semangkuk Udon yang menyelerakan dengan penuh kasih sayang!</p>
+    `
   }
+
+
 
 
 
