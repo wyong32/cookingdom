@@ -455,49 +455,136 @@ export const levels51to60 = [
         },
       ],
     },
-    detailsHtml: `<h2>Pengenalan Permainan</h2>
-<p>Tahap 56 memperkenalkan <strong>Pelmeni</strong>, sejenis ladu tradisional dari Eropah Timur. Tahap ini mencabar pemain dengan langkah penyediaan yang lebih kompleks seperti membentuk doh, mengisi daging, dan merebus dengan tepat. Keupayaan untuk melakukan pelbagai tugas pada masa yang sama sangat penting untuk memenuhi pesanan pelanggan yang menuntut.</p>
+    detailsHtml: `
+    <h2>Cookingdom Tahap 56: Menguasai Dumpling Berperasaan Chef</h2>
+<p>Selamat datang ke **Cookingdom Tahap 56**! Di sini, misi kulinari anda adalah untuk menyempurnakan **hidangan berperasaan chef, memberi tumpuan kepada pembuatan dumpling yang lazat. Tahap ini menawarkan persekitaran santai tanpa pemasa, membolehkan anda meningkatkan ketepatan dengan penggunaan alat, susunan bahan, dan masa pelaksanaan.</p>
+<p>Panduan terperinci ini akan memandu anda melalui setiap langkah penting, bahan, tindakan, dan penempatan, memastikan kejayaan anda dalam menyediakan hidangan istimewa ini.</p>
 
-<h2>Matlamat Tahap 56</h2>
-<p>Sediakan dan hidangkan beberapa pesanan Pelmeni dengan berjaya. Kecekapan dalam penyediaan dan merebus diperlukan untuk mencapai skor tinggi. Ketepatan dan kelajuan akan diberi ganjaran.</p>
+<h2>Bahan yang Diperlukan untuk Hidangan Berperasaan Ini</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gandum Serbaguna</td>
+      <td>1 mangkuk</td>
+      <td>Untuk membuat doh dumpling.</td>
+    </tr>
+    <tr>
+      <td>Telur Segar</td>
+      <td>3 biji</td>
+      <td>Bahan utama untuk konsistensi doh dumpling.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>Secukupnya</td>
+      <td>Digunakan untuk doh, inti, dan merebus dumpling.</td>
+    </tr>
+    <tr>
+      <td>Minyak Masak</td>
+      <td>1 botol</td>
+      <td>Sedikit untuk memperkaya doh.</td>
+    </tr>
+    <tr>
+      <td>Garam Halus</td>
+      <td>Secukup rasa</td>
+      <td>Untuk perasa doh, inti, dan air rebusan.</td>
+    </tr>
+    <tr>
+      <td>Daging Pilihan</td>
+      <td>1 pinggan</td>
+      <td>Kelihatan seperti daging lembu atau babi, untuk inti savory.</td>
+    </tr>
+    <tr>
+      <td>Ubi Bawang Putih</td>
+      <td>1 biji</td>
+      <td>Untuk dicincang bagi inti yang berperisa.</td>
+    </tr>
+    <tr>
+      <td>Ubi Bawang Merah</td>
+      <td>1 biji</td>
+      <td>Dikopek dan dicincang untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Daun Bawang Segar</td>
+      <td>1 ikat</td>
+      <td>Dicincang untuk inti dan hiasan berwarna-warni.</td>
+    </tr>
+    <tr>
+      <td>Lada Hitam</td>
+      <td>Secukup rasa</td>
+      <td>Untuk perasa inti dan air rebusan.</td>
+    </tr>
+    <tr>
+      <td>Sour Cream</td>
+      <td>1 mangkuk</td>
+      <td>Untuk topping hidangan.</td>
+    </tr>
+    <tr>
+      <td>Vodka</td>
+      <td>1 botol</td>
+      <td>Hidangan istimewa dari tetamu beruang anda.</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2>Proses Penyediaan Pelmeni</h2>
-<h3>Sediakan Doh dan Inti:</h3>
+<h2>Panduan Langkah demi Langkah untuk Membuat Hidangan Berperasaan Chef</h2>
+
+<h3>Langkah 1: Menyediakan Doh Dumpling</h3>
+<p>Di dalam mangkuk besar, campurkan **gandum** dari mangkuk ungu, **tiga telur** dari bakul, **air** dari jug, sedikit **minyak** dari botol, dan secubit **garam** dari bekas garam. Ambil **pembancuh** dan kacau semua bahan sehingga menjadi adunan yang lancar. Tuangkan adunan ke atas papan pemotong kayu dan uli hingga menjadi bola doh yang padat. Letakkan bola doh yang siap ke dalam mangkuk kecil yang bertabur.</p>
 <ul>
-  <li><strong>Doh:</strong> Ambil doh dari dulang ramuan dan canaikan menjadi bulatan nipis.</li>
-  <li><strong>Inti:</strong> Letakkan campuran daging cincang di tengah-tengah doh.</li>
+  <li>**Petua Chef:** Pastikan semua lima bahan penting (gandum, telur, air, minyak, garam) dimasukkan ke dalam mangkuk *sebelum* mula mengacau untuk mendapatkan konsistensi doh yang terbaik.</li>
 </ul>
 
-<h3>Bentuk Ladu:</h3>
+<h3>Langkah 2: Menyediakan Inti Daging Savory</h3>
+<p>Letakkan **daging mentah** di atas papan pemotong, potong menjadi kepingan kecil, kemudian pindahkan ke dalam **blender**. Hidupkan blender untuk mencincang daging. Sementara blender bekerja, cincang halus **bawang putih**, kopek dan cincang **bawang merah**, serta cincang **daun bawang**. Letakkan setiap bahan yang disediakan ke dalam mangkuk berasingan. Dalam mangkuk besar, campurkan daging cincang dari blender dengan bawang putih cincang, bawang merah cincang, dan daun bawang cincang. Tambahkan sedikit **air** dari jug bersama **garam** dan **lada hitam**. Gaul rata semua bahan dengan sudu.</p>
 <ul>
-  <li>Lipat doh menjadi separuh dan tekan tepi supaya tertutup rapat membentuk bentuk Pelmeni klasik.</li>
-  <li>Pastikan tiada inti yang terkeluar — ini memberi kesan kepada masakan dan penyampaian.</li>
+  <li>**Petua Chef:** Penting untuk mencincang daging dalam blender *terlebih dahulu* sebelum mencampurkannya dengan sayuran lain.</li>
 </ul>
 
-<h3>Rebus Pelmeni:</h3>
+<h3>Langkah 3: Mengumpulkan Pelmeni (Dumpling) Anda</h3>
+<p>Pindah ke stesen penyusunan. Letakkan bola doh di atas tikar penggelek biru. Taburkan sedikit **gandum** dari mangkuk ungu kecil. Gunakan **penggelek** untuk menggiling doh menjadi kepingan nipis yang rata. Ambil pemotong bulat dan potong beberapa bulatan doh yang sempurna dari kepingan tersebut. Letakkan sedikit inti daging di tengah setiap bulatan doh. Kini, untuk bentuk tanda tangan: lipat setiap bulatan yang diisi itu menjadi separuh, kemudian tekan sudut dengan berhati-hati untuk membentuk pelmeni tradisional.</p>
 <ul>
-  <li>Masukkan Pelmeni yang telah dibentuk ke dalam air mendidih.</li>
-  <li><strong>Perhatikan pemasa:</strong> masa rebusan yang betul adalah penting — jika kurang masak, ia liat; jika terlebih masak, ia hancur.</li>
+  <li>**Petua Chef:** Ingat proses lipatan dua langkah: pertama lipat separuh, kemudian sambungkan kedua-dua hujung dengan kemas. Pastikan anda mengisi dan melipat setiap bulatan dengan teliti.</li>
 </ul>
 
-<h3>Hidangkan Pelmeni:</h3>
+<h3>Langkah 4: Memasak dan Menghias Pelmeni Anda</h3>
+<p>Isi **periuk** ungu dengan **air** dari sinki. Letakkan periuk di atas dapur mudah alih dan hidupkan api. Setelah air mendidih, dengan berhati-hati, masukkan **pelmeni** yang telah disediakan. Perasakan air mendidih dengan **garam** dan **lada hitam**. Akan muncul pemasa yang menunjukkan masa memasak yang ideal. Setelah siap, matikan dapur. Gunakan **senduk berlubang** untuk memindahkan pelmeni yang telah dimasak ke dalam mangkuk hidangan. Selesaikan dengan sesudu besar **sour cream** dan taburkan **daun bawang** yang dicincang untuk kesegaran.</p>
 <ul>
-  <li>Apabila masak sempurna, angkat dan hidangkan atas pinggan.</li>
-  <li>Tambah hiasan seperti krim masam atau herba jika diminta pelanggan.</li>
-  <li>Hidangkan segera kepada pelanggan yang betul untuk mengelakkan penalti.</li>
+  <li>**Petua Chef:** Jangan lupa untuk perasakan air mendidih dengan garam dan lada hitam! Langkah kecil ini sangat meningkatkan rasa dumpling itu sendiri.</li>
 </ul>
 
-<h2>Petua dan Strategi</h2>
+<h3>Langkah 5: Pengalaman Hidangan Berperasaan</h3>
+<p>Letakkan mangkuk pelmeni yang siap di atas alas meja, bersama garpu dan segelas air. Tetamu istimewa anda, beruang, akan muncul di meja, bersedia untuk menikmati hidangan. Setelah beruang mencuba, dia akan menawarkan anda botol **vodka**. Tuangkan vodka ke dalam gelas. Beruang akan memberikan isyarat untuk lebih banyak, pada ketika itu anda perlu menambah sesudu lagi **sour cream** ke dalam mangkuk pelmeni. Beruang akan mencuba lagi, memberikan reaksi puas hati yang membawa anda penilaian 3 bintang sempurna!</p>
 <ul>
-  <li><strong>Pelbagai tugas:</strong> Sediakan batch baru semasa satu batch sedang direbus untuk jimat masa.</li>
-  <li><strong>Gunakan semua stesen rebus:</strong> Jika ada dua periuk, gunakan kedua-duanya untuk kekal pantas.</li>
-  <li><strong>Ketepatan:</strong> Pastikan ladu ditutup rapat supaya tidak pecah dalam air.</li>
-  <li><strong>Permintaan khas pelanggan:</strong> Sesetengah pelanggan mungkin mahukan hiasan tambahan — perhatikan ikon pesanan.</li>
-  <li><strong>Stok ramuan:</strong> Isikan semula doh dan daging antara batch untuk kekal selangkah ke hadapan.</li>
+  <li>**Petua Chef:** Fasa hidangan ini sangat interaktif! Perhatikan isyarat bukan lisan beruang untuk mengetahui bila perlu menuangkan minuman dan menambah sour cream yang ekstra untuk berjaya menyelesaikan tahap ini.</li>
 </ul>
 
-<h2>Ringkasan</h2>
-<p>Tahap 56 menguji kecekapan, ketepatan, dan kebolehan anda untuk melakukan pelbagai tugas. Menyediakan Pelmeni melibatkan beberapa langkah — doh, inti, membentuk, merebus, dan menghidang — semuanya dalam masa yang terhad. Kuasai tahap ini untuk membuka resipi Eropah Timur baharu dan alat merebus lanjutan. Layani pelanggan dengan cekap untuk memperoleh bintang maksimum!</p>`,
+<h2>Tips untuk Kejayaan & Kesilapan Biasa yang Perlu Dielakkan</h2>
+
+<h3>Tips Utama untuk Hidangan Berperasaan Anda</h3>
+<ul>
+  <li>**Ikut Urutan yang Tepat:** Sentiasa ikuti urutan resipi dengan tepat: pertama doh, kemudian inti, kemudian pengumpulan dan akhirnya memasak. Permainan ini akan menguatkuasakan urutan ini.</li>
+  <li>**Persiapan Daging Adalah Penting:** Apabila menyediakan inti, pastikan daging dicincang dengan sempurna dalam blender *sebelum* mencampurkannya dengan sayur-sayuran lain.</li>
+  <li>**Hidangan Interaktif:** Perhatikan dengan teliti semasa fasa hidangan; anda *perlu* bertindak balas terhadap tindakan beruang dengan menuangkan minuman dan menambah sour cream lagi.</li>
+  <li>**Perasakan Segala-Galanya:** Jangan lupa untuk menambah perasa di setiap tahap yang diperlukan: doh, inti, dan terutamanya air rebusan.</li>
+</ul>
+
+<h3>Cabaran Biasa yang Perlu Diperhatikan</h3>
+<ul>
+  <li>**Doh Tidak Sempurna:** Jika anda terlupa untuk menambah salah satu daripada lima bahan penting (gandum, telur, air, minyak, garam) ke dalam doh sebelum mengacau.</li>
+  <li>**Kesilapan Inti:** Jika bahan inti tidak dicampurkan dengan betul setelah daging tidak dicincang dengan sempurna dalam blender.</li>
+  <li>**Pemasakan Terlalu Awal:** Jika pelmeni dimasukkan ke dalam periuk sebelum air mendidih.</li>
+  <li>**Air Tidak Diperasakan:** Jika anda terlupa untuk menambah garam dan lada hitam dalam air rebusan, rasa pelmeni akan berkurangan.</li>
+  <li>**Kesilapan Pemberian Hidangan:** Jika anda tidak mengikuti isyarat beruang dan terlupa untuk menuangkan minuman atau menambah sour cream pada waktu yang tepat, tahap ini tidak akan selesai.</li>
+</ul>
+
+    `,
   },
 
   {

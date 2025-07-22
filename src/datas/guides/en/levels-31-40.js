@@ -500,71 +500,131 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 35 Game Overview</h2>
-<p>In Cookingdom Level 35, you'll be preparing a savory and satisfying classic: Spaghetti with Mushroom Cream Sauce! This comforting Italian-inspired dish combines perfectly cooked pasta with a creamy, umami-rich mushroom sauce. Timing, ingredient prep, and sauce consistency are key to succeeding in this level.</p>
-<p>This walkthrough will guide you through each step of creating the perfect plate of spaghetti in Level 35, from boiling the pasta to preparing the mushroom sauce and assembling the final dish.</p>
+    <h2>Cookingdom Level 35 Walkthrough: Crafting the Perfect chocolate.</h2>
+<p>Welcome to **Cookingdom Level 35**! This level guides players through an intuitive yet precise cooking experience in a relaxed, no-timer environment, focusing on creating a perfect **Chocolate**.</p>
+<p>This walkthrough provides detailed, step-by-step instructions to ensure your success in Cookingdom Level 35, covering every ingredient, action, and placement needed.</p>
 
-<h2 id="goal">Cookingdom Level 35 Objectives</h2>
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cacao Pods</td>
+    <td>Multiple (1 Red needed)</td>
+      <td>Harvested via the slingshot minigame from a cacao tree.</td>
+    </tr>
+    <tr>
+      <td>Cacao Beans</td>
+      <td>1 Pod's worth</td>
+      <td>Extracted from the harvested pod, initially covered in white pulp.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 Spoonful</td>
+      <td>From a red-lidded pot.</td>
+    </tr>
+    <tr>
+      <td>Milk/Cream</td>
+      <td>1 Spoonful</td>
+      <td>From a white bowl with a spoon.</td>
+    </tr>
+    <tr>
+      <td>Rainbow Sprinkles</td>
+      <td>1 Container</td>
+      <td>Used for decoration.</td>
+    </tr>
+    <tr>
+      <td>Chopped Nuts</td>
+      <td>1 Container</td>
+      <td>Used for decoration (appears to be peanuts/almonds).</td>
+    </tr>
+    <tr>
+      <td>Gummy Candies/Fruit Pieces</td>
+      <td>1 Container</td>
+      <td>Colorful mix used for decoration.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Guide to Success</h2>
+
+<h3>Step 1: Harvest Cacao Pod (Slingshot Minigame)</h3>
+<p>Engage in the **slingshot minigame**. Drag back the slingshot and aim to hit the **cacao pods** hanging on the tree. Successfully hit a **red cacao pod** to collect it and proceed.</p>
 <ul>
-  <li>Boil the spaghetti to al dente texture.</li>
-  <li>Sauté mushrooms with garlic and herbs.</li>
-  <li>Prepare a creamy sauce with butter, cream, and cheese.</li>
-  <li>Combine and serve the dish attractively.</li>
+  <li>**Tip:** Aim slightly ahead if the pods are swinging. Focus on hitting any red pod.</li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 35 Step-by-Step Guide</h2>
-<ol>
-  <li>
-    <h3>Cook the Spaghetti</h3>
-    <p>Start by boiling a pot of water and adding a pinch of salt. Once the water boils, add the spaghetti and cook it until it reaches an al dente texture.</p>
-    <p><strong>Tip:</strong> Don’t overcook the pasta. Al dente means it’s tender but firm to the bite—perfect for absorbing the sauce later.</p>
-  </li>
-  <li>
-    <h3>Sauté the Mushrooms</h3>
-    <p>While the pasta is cooking, sauté sliced mushrooms in a pan with butter or olive oil. Add minced garlic and a pinch of salt for extra flavor.</p>
-    <p><strong>Tip:</strong> Don’t overcrowd the pan—this allows the mushrooms to brown properly and develop a deep, savory flavor.</p>
-  </li>
-  <li>
-    <h3>Make the Cream Sauce</h3>
-    <p>Once the mushrooms are browned, pour in heavy cream and simmer gently. Stir in grated Parmesan cheese and a bit of black pepper to create a rich, creamy texture.</p>
-    <p><strong>Tip:</strong> If the sauce is too thick, add a splash of pasta water to thin it out and help it cling to the spaghetti.</p>
-  </li>
-  <li>
-    <h3>Combine and Serve</h3>
-    <p>Drain the cooked pasta and add it directly to the mushroom cream sauce. Toss everything together until the spaghetti is well coated.</p>
-    <p>Plate the pasta and garnish with freshly chopped parsley and a sprinkle of Parmesan.</p>
-    <p><strong>Tip:</strong> Presentation counts! Serve in a wide bowl and neatly twist the pasta for a professional look.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Pro Tips for Cookingdom Level 35 Success</h2>
+<h3>Step 2: Extract & Prepare Cacao Beans</h3>
+<p>Place the harvested cacao pod on the work surface. Use the **white wedge/chisel tool** to crack open the pod. Use the tool again to dislodge the beans covered in white pulp. Drag the beans into the **purple mortar**. Cover the mortar with **plastic wrap**.</p>
 <ul>
-  <li>
-    <h3>Use Fresh Mushrooms</h3>
-    <p>Fresh mushrooms like cremini or shiitake offer more flavor and texture than canned ones. Slice them evenly for even cooking.</p>
-  </li>
-  <li>
-    <h3>Don’t Skip the Garlic</h3>
-    <p>Garlic is essential for boosting the savory depth of the sauce. Sauté it until just golden—not burnt—to avoid bitterness.</p>
-  </li>
-  <li>
-    <h3>Balance the Creaminess</h3>
-    <p>If your sauce becomes too rich, a squeeze of lemon juice or a touch of white wine can cut through the creaminess and add freshness.</p>
-  </li>
-  <li>
-    <h3>Cheese for the Win</h3>
-    <p>Parmesan adds umami and saltiness. Grate it fresh if possible, and use it both in the sauce and as a finishing touch.</p>
-  </li>
-  <li>
-    <h3>Cook Sauce and Pasta Simultaneously</h3>
-    <p>Timing is important. Aim to finish the sauce just as the pasta is ready so everything combines while hot and fresh.</p>
-  </li>
+  <li>**Tip:** Drag the tool across the pod to crack and extract. Ensure all beans are transferred to the mortar before covering.</li>
 </ul>
 
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 35, you’ll master the art of creating Spaghetti with Mushroom Cream Sauce—a rich and comforting dish that requires skillful coordination of pasta, mushrooms, and a creamy sauce. The key to success is proper timing, balancing the richness of the cream with the earthiness of the mushrooms, and presenting the dish attractively.</p>
-<p>Follow this walkthrough to deliver a delicious and elegant meal that will impress your virtual customers and earn you top ratings in Cookingdom!</p>
-`,
+<h3>Step 3: Crush Cacao Beans</h3>
+<p>The beans in the mortar have now turned brown (fermented/roasted). Place the mortar's contents (beans) onto the **grey cutting board**. Use the **wooden mallet tool** to crush the beans into smaller nibs.</p>
+<ul>
+  <li>**Tip:** Drag the mallet over the beans repeatedly until they are fully crushed. A **heart icon** confirms completion.</li>
+</ul>
+
+<h3>Step 4: Blend Chocolate Mixture</h3>
+<p>Transfer the crushed cacao nibs from the cutting board into the **yellow blender jar**. Add one spoonful of **sugar** from the red-lidded pot and one spoonful of **milk/cream** from the white bowl into the blender. Place the lid on the blender and press the power button to blend until smooth.</p>
+<ul>
+  <li>**Tip:** Ensure nibs, sugar, and milk are all added before blending. Wait for the blending animation to finish.</li>
+</ul>
+
+<h3>Step 5: Mold the Chocolate</h3>
+<p>Pour the liquid chocolate mixture from the blender jar (now in a mug) into the various shapes in the **mold tray** (heart, bear, cloud, window, star, plus).</p>
+<ul>
+  <li>**Tip:** Carefully drag the mug over each mold shape to fill it completely.</li>
+</ul>
+
+<h3>Step 6: Cool and Solidify Chocolate</h3>
+<p>Place the filled mold tray into the **blue cooling machine/freezer** (set to 0°C). Wait for the timer/progress bar to complete, indicating the chocolates have solidified.</p>
+<ul>
+  <li>**Tip:** Ensure the tray is correctly placed inside. A **heart icon** signifies completion.</li>
+</ul>
+
+<h3>Step 7: Decorate the Chocolates</h3>
+<p>Take the tray of solidified chocolates out. Use the provided toppings (**rainbow sprinkles, chopped nuts, gummy candies**) to decorate specific chocolates. Drag sprinkles onto the plus and bear shapes. Drag nuts onto the heart and star shapes. Drag gummy candies onto the window/bar shape.</p>
+<ul>
+  <li>**Tip:** Drag the toppings carefully onto the correct chocolate pieces. Not all shapes need decoration.</li>
+</ul>
+
+<h3>Step 8: Package the Chocolates</h3>
+<p>Take the empty **chocolate box insert**. Drag each finished chocolate from the tray into a compartment in the box insert. Once filled, place the insert into the **brown gift box base**. Finally, place the **gift box lid** (with red ribbon and tag) onto the box to complete packaging.</p>
+<ul>
+  <li>**Tip:** Arrange the chocolates neatly in the insert. Ensure the insert goes into the base before adding the lid.</li>
+</ul>
+
+<h2>Tips for Success & Common Pitfalls</h2>
+
+<h3>Tips and Tricks</h3>
+<ul>
+  <li>The slingshot minigame requires precise aiming.</li>
+  <li>Follow the exact sequence for processing the cacao beans.</li>
+  <li>Make sure to add sugar and milk/cream to the blender for the correct flavor.</li>
+  <li>Fill the molds fully with the liquid chocolate.</li>
+  <li>Apply decorations only to the specified chocolate shapes.</li>
+  <li>Place chocolates correctly in the box before closing it.</li>
+</ul>
+
+<h3>Common Pitfalls</h3>
+<ul>
+  <li>Repeatedly missing pods in the slingshot minigame.</li>
+  <li>Forgetting to cover the beans in the mortar with plastic wrap.</li>
+  <li>Not crushing the beans thoroughly with the mallet.</li>
+  <li>Forgetting to add sugar or milk before blending.</li>
+  <li>Removing chocolates from the cooler too early.</li>
+  <li>Decorating the wrong chocolates or applying toppings messily.</li>
+  <li>Placing the lid on the gift box before putting the chocolate insert inside.</li>
+</ul>
+    `,
   },
 
   {
@@ -738,84 +798,166 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">CCookingdom Level 37 Game Overview</h2>
-<p>In Cookingdom Level 37, you’ll be preparing a flavorful and tangy dish: Kimchi Rice. This iconic Korean dish is made with kimchi, a traditional fermented vegetable dish, mixed with rice, and often accompanied by vegetables and a fried egg on top. It’s a simple yet flavorful meal that offers a satisfying balance of spicy, sour, and savory flavors. The key challenge in this level is properly blending the kimchi with the rice and other ingredients to create a dish that’s perfectly seasoned and well-cooked.</p>
-<p>This Cookingdom Level 37 guide will walk you through each step of preparing delicious Kimchi Rice, ensuring you create a dish full of flavor and texture.</p>
+    <h2>Cookingdom Level 37 Walkthrough: Crafting the Perfect kimchi rice.</h2>
+<p>Welcome to **Cookingdom Level 37**! This level guides players through an intuitive yet precise cooking experience in a relaxed, no-timer environment, focusing on creating a perfect **Kimchi Rice**.</p>
+<p>This walkthrough provides detailed, step-by-step instructions to ensure your success in Cookingdom Level 37, covering every ingredient, action, and placement needed.</p>
 
-<h2 id="goal">Cookingdom Level 37 Objectives</h2>
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Napa Cabbage</td>
+      <td>1 Head</td>
+      <td>Washed and trimmed.</td>
+    </tr>
+    <tr>
+      <td>Garlic</td>
+      <td>2 Cloves</td>
+      <td>Peeled and chopped.</td>
+    </tr>
+    <tr>
+      <td>Pear</td>
+      <td>1/2</td>
+      <td>Sliced.</td>
+    </tr>
+    <tr>
+      <td>Carrots</td>
+      <td>2</td>
+      <td>Sliced.</td>
+    </tr>
+    <tr>
+      <td>Scallions (Green Onions)</td>
+      <td>1 Bunch</td>
+      <td>Chopped.</td>
+    </tr>
+    <tr>
+      <td>Ginger & Chilies</td>
+      <td>1 Plate</td>
+      <td>Ginger root, red and green chilies, chopped together.</td>
+    </tr>
+    <tr>
+      <td>Onions</td>
+      <td>2</td>
+      <td>Peeled and chopped.</td>
+    </tr>
+    <tr>
+      <td>Glutinous Rice Flour Paste / Cooked Sweet Rice (?)</td>
+      <td>1 Small Bowl</td>
+      <td>White paste/rice added to blender for kimchi paste.</td>
+    </tr>
+    <tr>
+      <td>Salt (?)</td>
+      <td>1 Small Bowl</td>
+      <td>White powder added to blender for kimchi paste.</td>
+    </tr>
+    <tr>
+      <td>Soy Sauce</td>
+      <td>1 Bowl</td>
+      <td>Added to blender for kimchi paste and used for cooking pork.</td>
+    </tr>
+    <tr>
+      <td>Chili Paste (Gochujang?)</td>
+      <td>1 Bottle</td>
+      <td>Red paste added to blender for kimchi paste.</td>
+    </tr>
+    <tr>
+      <td>Rice</td>
+      <td>1 Bag + 1 Small Bowl</td>
+      <td>Cooked in rice cooker and a small portion used for final plating.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>As needed</td>
+      <td>For washing vegetables and cooking rice.</td>
+    </tr>
+    <tr>
+      <td>Pork Belly</td>
+      <td>1 Block</td>
+      <td>Raw, red-streaked meat, diced.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 Bottle</td>
+      <td>Used for cooking pork belly.</td>
+    </tr>
+    <tr>
+      <td>Sugar (?)</td>
+      <td>1 Bowl</td>
+      <td>White granules added to pan when cooking pork.</td>
+    </tr>
+    <tr>
+      <td>Fried Egg</td>
+      <td>1</td>
+      <td>Sunny-side up, used as topping.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Guide to Success</h2>
+
+<h3>Step 1: Prepare Kimchi Vegetables</h3>
+<p>Wash **Napa cabbage** in the sink. On the cutting board, chop **garlic**, slice **pear**, chop **ginger/chili mix**, chop **onions**, chop **scallions**, and slice **carrots**, placing each into separate plates/bowls. Trim the base and any bad outer leaves from the washed cabbage.</p>
 <ul>
-    <li>Prepare the rice as a base.</li>
-    <li>Stir-fry the kimchi and other ingredients to create the perfect balance of flavors.</li>
-    <li>Serve the Kimchi Rice with a fried egg and garnish.</li>
+  <li>**Tip:** Consistent chopping sizes help ensure even mixing and fermentation.</li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 37 Step-by-Step Guide to Master Kimchi Rice</h2>
-<ol>
-    <li>
-        <h3>Prepare the Rice</h3>
-        <p>The base of Kimchi Rice is, of course, the rice. Start by cooking steamed rice (white rice or short-grain rice works best) if you don’t already have leftover rice.</p>
-        <p><strong>Tip:</strong> For best results, use day-old rice as it is drier and less sticky, making it easier to stir-fry and absorb flavors.</p>
-    </li>
-    <li>
-        <h3>Sauté the Kimchi</h3>
-        <p>In Cookingdom Level 37 , you’ll need to sauté the kimchi (fermented cabbage) in a pan to bring out its rich and tangy flavor.</p>
-        <p><strong>Tip:</strong> Cut the kimchi into smaller pieces before adding it to the pan for even cooking.</p>
-        <p>Add a small amount of oil to a pan and sauté the kimchi for about 2-3 minutes. This will soften the kimchi and enhance its natural flavor.</p>
-        <p><strong>Tip:</strong> If you like extra spice, you can also add a bit of gochujang (Korean chili paste) or gochugaru (Korean chili flakes) at this stage to make the dish spicier.</p>
-    </li>
-    <li>
-        <h3>Stir-fry the Rice</h3>
-        <p>Once the kimchi is sautéed, add the cooked rice to the pan and stir well. Mix the kimchi and rice together until the rice is evenly coated with the kimchi juices.</p>
-        <p><strong>Tip:</strong> Stir-fry the rice for about 5 minutes on medium heat to allow the rice to absorb the flavors of the kimchi and seasonings.</p>
-        <p><strong>Tip:</strong> You can add a little bit of soy sauce or sesame oil for an extra layer of flavor.</p>
-    </li>
-    <li>
-        <h3>Add Vegetables (Optional)</h3>
-        <p>If desired, you can add vegetables to your Kimchi Rice, such as carrots, green onions, or peas, to add more texture and flavor.</p>
-        <p><strong>Tip:</strong> If adding vegetables, make sure to sauté them briefly with the kimchi before mixing them into the rice.</p>
-    </li>
-    <li>
-        <h3>Fry an Egg</h3>
-        <p>Kimchi Rice is often served with a fried egg on top, adding richness and creaminess to the dish.</p>
-        <p>In Cookingdom Level 37 , fry an egg to your liking. The runny yolk can be stirred into the rice, giving it a creamy texture.</p>
-        <p><strong>Tip:</strong> To make the dish even more decadent, you can add a little drizzle of sesame oil or soy sauce on top of the fried egg.</p>
-    </li>
-    <li>
-        <h3>Serve the Kimchi Rice</h3>
-        <p>Once the Kimchi Rice is cooked and well-seasoned, it’s time to serve.</p>
-        <p>In Cookingdom Level 37 , serve the rice in a bowl or on a plate and place the fried egg on top.</p>
-        <p><strong>Tip:</strong> Garnish with chopped green onions or sesame seeds for added flavor and a pop of color.</p>
-        <p><strong>Tip:</strong> You can also add a small side of kimchi for an extra kick of flavor.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Pro Tips for Cookingdom Level 37 Success</h2>
+<h3>Step 2: Make Kimchi Paste</h3>
+<p>Add the following to the blender: **salt (?), chopped **ginger/chili mix**, sliced **carrots**, chopped **garlic**, chopped **scallions**, **glutinous rice flour paste/sweet rice (?)**, sliced **pear**, **soy sauce**, and **chili paste (gochujang?)**. Close the lid and blend until a smooth red paste is formed.</p>
 <ul>
-    <li>
-        <h3>Use Day-Old Rice</h3>
-        <p>Day-old rice works best for Kimchi Rice as it is less sticky and will stir-fry better. If you’re using fresh rice, make sure it cools down a bit before using it to prevent clumping.</p>
-    </li>
-    <li>
-        <h3>Perfect Your Kimchi Flavor</h3>
-        <p>Sautéing the kimchi is essential for bringing out its tangy, umami-rich flavors. If you like your Kimchi Rice spicier, feel free to add more gochujang or gochugaru to the mix.</p>
-    </li>
-    <li>
-        <h3>Adjust the Spice Level</h3>
-        <p>Depending on how spicy you want your dish, you can adjust the amount of gochujang (Korean chili paste) and gochugaru (Korean chili flakes) used in the recipe. For a milder version, use less or omit entirely.</p>
-    </li>
-    <li>
-        <h3>Fried Egg is Key</h3>
-        <p>A fried egg on top of the Kimchi Rice adds richness and depth to the dish. Make sure the egg yolk is slightly runny for the best texture, as it mixes wonderfully with the rice.</p>
-    </li>
-    <li>
-        <h3>Garnish for Visual Appeal</h3>
-        <p>Garnishing with green onions and sesame seeds adds both texture and color, making your Kimchi Rice look as good as it tastes.</p>
-    </li>
+  <li>**Tip:** Ensure all ingredients are added before blending for a complete paste.</li>
 </ul>
 
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 37, preparing Kimchi Rice is all about balancing the rich, spicy, and tangy flavors of kimchi with the neutral rice. Stir-fry the kimchi with the rice, add a bit of soy sauce or sesame oil, and top the dish with a fried egg to complete the meal. Whether you’re using vegetables or just focusing on the kimchi, this dish is sure to satisfy your customers with its bold and comforting flavors.</p>
-<p>By following this Cookingdom Level 37 walkthrough guide, you’ll master the art of making Kimchi Rice, a delicious and satisfying dish that combines traditional Korean flavors with simple ingredients.</p>
+<h3>Step 3: Ferment Kimchi & Cook Rice</h3>
+<p>Pour the blended kimchi paste over the trimmed **Napa cabbage** in a container. A timer appears, indicating fermentation. Concurrently, add **rice** from the bag and **water** to the rice cooker pot, close the lid, and start cooking.</p>
+<ul>
+  <li>**Tip:** Start both processes around the same time, as they take a while.</li>
+</ul>
+
+<h3>Step 4: Cook Pork Belly</h3>
+<p>Place a pan on the induction cooktop and turn it on. Add **cooking oil**. Add **sugar (?)** and **soy sauce**. Add chopped **garlic** and **onions**. Dice the block of **pork belly** on the cutting board. Add the diced pork belly to the pan. Stir-fry with a spatula until cooked.</p>
+<ul>
+  <li>**Tip:** Ensure the pan is hot before adding ingredients. Cook pork belly thoroughly.</li>
+</ul>
+
+<h3>Step 5: Prepare Final Kimchi</h3>
+<p>Once the fermentation timer finishes, place the finished **kimchi** on the cutting board. Chop the kimchi into bite-sized pieces. Place the chopped kimchi onto a plate.</p>
+<ul>
+  <li>**Tip:** Chopping the kimchi makes it easier to mix and eat with the rice.</li>
+</ul>
+
+<h3>Step 6: Assemble Kimchi Rice Bowl</h3>
+<p>Once the rice cooker finishes, scoop a generous portion of cooked **rice** into a serving bowl. Add the cooked **pork belly mixture** and the chopped **kimchi** on top of the rice. Place a **fried egg** in the center. Add the small bowl of extra **rice (?)**. Garnish generously with chopped **scallions**.</p>
+<ul>
+  <li>**Tip:** Layer the ingredients attractively in the bowl. The final scallion garnish adds color and freshness.</li>
+</ul>
+
+<h2>Tips for Success & Common Pitfalls</h2>
+
+<h3>Tips and Tricks</h3>
+<ul>
+  <li>Washing and prepping all vegetables first streamlines the process.</li>
+  <li>Blending the kimchi paste thoroughly ensures smooth coating and flavor distribution.</li>
+  <li>Cooking the rice and fermenting the kimchi can happen simultaneously to save time.</li>
+  <li>Render some fat from the pork belly for extra flavor before adding other ingredients.</li>
+  <li>Don't overcrowd the pan when cooking the pork belly.</li>
+</ul>
+
+<h3>Common Pitfalls</h3>
+<ul>
+  <li>Forgetting an ingredient in the kimchi paste blender.</li>
+  <li>Not allowing enough time for kimchi fermentation (though instant in-game).</li>
+  <li>Burning the garlic, onions, or sugar when cooking the pork.</li>
+  <li>Undercooking the rice or the pork belly.</li>
+  <li>Forgetting the fried egg or scallion garnish during assembly.</li>
+  <li>Chopping kimchi too large or too small.</li>
+</ul>
 `,
   },
 
@@ -857,45 +999,167 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 38 Game Overview</h2>
-<p>In Level 38, you'll master a delicious stir-fry: <strong>Pan Fried Chicken With Vegetables</strong>. Timing and order of ingredients are crucial in this multitasking challenge.</p>
+    <h2>Cookingdom Level 38 Guide: Perfect Pan-Seared Chicken & Roasted Roots</h2>
+<p>Welcome, culinary adventurers, to **Cookingdom Level 38**! Your mission here is to master the art of preparing a delectable **pan-seared chicken with roasted vegetables**. This level is designed to refine your cooking instincts, focusing on precision and timing in a relaxed, no-pressure environment.</p>
+<p>This comprehensive guide will walk you through each critical step, ensuring you select the right ingredients, utilize the appropriate tools, and execute every action flawlessly to achieve culinary success.</p>
 
-<h2 id="goal">🎯 Cookingdom Level 38 Goal</h2>
+<h2>Essential Ingredients for Your Dish</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Preparation Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fresh Carrots</td>
+      <td>2 units</td>
+      <td>Straight from your garden plot</td>
+    </tr>
+    <tr>
+      <td>Earthy Beets</td>
+      <td>2 units</td>
+      <td>Garden-fresh harvest</td>
+    </tr>
+    <tr>
+      <td>Crisp Radishes (Daikon)</td>
+      <td>2 units</td>
+      <td>Another garden bounty</td>
+    </tr>
+    <tr>
+      <td>Pure Water</td>
+      <td>As needed</td>
+      <td>For cleansing your produce</td>
+    </tr>
+    <tr>
+      <td>Fine Sea Salt</td>
+      <td>To taste</td>
+      <td>Key for seasoning vegetables and enhancing sauces</td>
+    </tr>
+    <tr>
+      <td>Cracked Black Pepper</td>
+      <td>To taste</td>
+      <td>For vegetable roasting and chicken seasoning</td>
+    </tr>
+    <tr>
+      <td>Aromatic Rosemary</td>
+      <td>1 Sprig (or small portion)</td>
+      <td>Infuses flavor into vegetables, chicken, and garnishes</td>
+    </tr>
+    <tr>
+      <td>Aluminum Foil</td>
+      <td>1 Sheet</td>
+      <td>Essential for perfect vegetable roasting</td>
+    </tr>
+    <tr>
+      <td>Premium Chicken Breast</td>
+      <td>1 fillet</td>
+      <td>Raw, ready for searing</td>
+    </tr>
+    <tr>
+      <td>Golden Cooking Liquid (Oil/Stock)</td>
+      <td>1 Jug</td>
+      <td>Base for chicken searing and rich sauces</td>
+    </tr>
+    <tr>
+      <td>Fresh Garlic Cloves</td>
+      <td>1 Bulb (approx. 4-5 cloves)</td>
+      <td>Peeled and ready to infuse flavor into chicken and sauce</td>
+    </tr>
+    <tr>
+      <td>Creamy Butter</td>
+      <td>1 Block (sliced)</td>
+      <td>Enriches chicken during cooking</td>
+    </tr>
+    <tr>
+      <td>Sweet Red Onion</td>
+      <td>1/2 (sliced)</td>
+      <td>Aromatic foundation for your second sauce</td>
+    </tr>
+    <tr>
+      <td>Savory Brown Sauce Base</td>
+      <td>1 Bowl</td>
+      <td>Foundation for a luscious gravy</td>
+    </tr>
+    <tr>
+      <td>Velvety Cream / Yogurt</td>
+      <td>1 Bowl</td>
+      <td>Elegant drizzle for plating</td>
+    </tr>
+    <tr>
+      <td>Bright Lemon Slices</td>
+      <td>2 slices</td>
+      <td>For vibrant garnish</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Mastering Each Step for Culinary Perfection</h2>
+
+<h3>Step 1: Gather Your Garden's Bounty</h3>
+<p>Begin by taking your **trowel** to the garden plot. Carefully harvest **2 carrots**, **2 beets**, and **2 radishes**, placing them into your basket.</p>
 <ul>
-  <li>Serve at least 25 Pan-Fried Chicken Dishes</li>
-  <li>Customer satisfaction stays above 80%</li>
-  <li>Finish in under 4 minutes</li>
+  <li>**Pro Tip:** Accuracy is key here! Ensure you collect the exact number of each specified vegetable.</li>
 </ul>
 
-<h2 id="ingredients">🥘 Ingredients for Level 38</h2>
+<h3>Step 2: Cleanse and Prepare Your Produce</h3>
+<p>Bring your basket to the sink station. Position your cutting board and various bowls. Fill the sink with **water** and thoroughly wash all your freshly harvested vegetables (carrots, beets, and radishes). One by one, transfer them to the cutting board, use your **knife** to trim off any leafy tops, and then sort the prepared vegetables into separate bowls (carrots in orange, beets in pink, radishes in white). Remember to dispose of the trimmings in the waste bin.</p>
 <ul>
-  <li>Chicken slices</li>
-  <li>Mixed vegetables (bell peppers, carrots, broccoli)</li>
-  <li>Oil and soy-based stir-fry sauce</li>
-  <li>Optional garnish: sesame seeds or scallions</li>
+  <li>**Pro Tip:** Thorough washing and meticulous trimming of inedible parts are crucial for a clean and appealing dish.</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Step-by-Step Strategy</h2>
-<ol>
-  <li>Heat both pans with oil before starting.</li>
-  <li>Begin frying chicken first, as it takes longer to cook.</li>
-  <li>Once chicken is half-cooked, add mixed vegetables and sauce.</li>
-  <li>Stir-fry until vegetables are tender-crisp and chicken is golden.</li>
-  <li>Plate and serve, then immediately begin next batch.</li>
-</ol>
-
-<h2 id="tips">🔥 Pro Tips for Success</h2>
+<h3>Step 3: Achieve Perfectly Roasted Vegetables</h3>
+<p>Move to the oven station. Arrange the trimmed carrots, beets, and radishes in a **baking tray**. Sprinkle liberally with **rosemary sprigs**, then season generously with **pepper** and **salt**. Cover the tray snugly with **kitchen foil**. Carefully place the covered tray into the preheated **oven**, and watch as the timer (initially displaying "1000") begins its countdown.</p>
 <ul>
-  <li><strong>Preheat Pans:</strong> Hot pans speed up cooking from the start.</li>
-  <li><strong>Don’t Overcrowd:</strong> Too much in the pan lowers heat efficiency.</li>
-  <li><strong>Alternate Pans:</strong> Use both pans in rotation to serve quickly.</li>
+  <li>**Pro Tip:** Covering the vegetables with foil creates a steamy environment, ensuring they become tender and flavorful.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes</h2>
+<h3>Step 4: Pan-Sear the Chicken to Golden Perfection</h3>
+<p>Head to the stovetop. Place a **frying pan** on the induction cooktop and activate the heat. Pour in a measure of the **yellow cooking liquid (oil or stock)**. Season your **chicken breast** generously with **pepper**. Gently place the seasoned chicken into the hot pan. Add peeled **garlic cloves** and more **rosemary sprigs** to the pan to infuse flavor. Allow the chicken to sear on one side (a timer will appear) until golden, then flip it. As the second side cooks, add sliced **butter** to the pan. Continue cooking until the chicken is thoroughly cooked through.</p>
 <ul>
-  <li>Adding sauce too early — causes sogginess.</li>
-  <li>Leaving chicken undercooked — results in penalties.</li>
-  <li>Forgetting garnishes — reduces final score bonuses.</li>
+  <li>**Pro Tip:** A sufficiently hot pan is essential for achieving a beautiful golden-brown sear on your chicken. Basting the chicken with the melted butter throughout cooking will add incredible richness.</li>
+</ul>
+
+<h3>Step 5: Craft a Rich Pan Sauce (Gravy)</h3>
+<p>Using the same stovetop, place a clean pan and turn on the heat. Add more **yellow cooking liquid**. Introduce peeled **garlic cloves** and sliced **red onion**, along with a sprig of **rosemary**. Sauté these aromatics until fragrant (a timer will appear). Add the bowl of **brown sauce base**. Add **salt**. Let it simmer (a timer will appear). Strain the sauce using a **sieve** into a clean bowl.</p>
+<ul>
+  <li>**Pro Tip:** Sautéing the aromatics first builds a flavorful base for your sauce. Straining ensures a smooth consistency, preventing any unwanted bits in your elegant gravy.</li>
+</ul>
+
+<h3>Step 6: Prepare Roasted Vegetables & Slice Chicken</h3>
+<p>Remove the perfectly roasted vegetables from the oven. Carefully transfer them to the cutting board. Slice the roasted **carrots, beets, and radishes** into uniform, bite-sized pieces. Next, place the cooked **chicken breast** on the cutting board and slice it neatly.</p>
+<ul>
+  <li>**Pro Tip:** Allowing the chicken to rest for a minute or two before slicing helps retain its precious juices, ensuring a tender and flavorful bite. Cut your vegetables into even pieces for an aesthetically pleasing presentation.</li>
+</ul>
+
+<h3>Step 7: Assemble Your Culinary Masterpiece</h3>
+<p>It's time for the grand finale! Arrange the sliced roasted vegetables (**carrots, beets, radishes**) artistically onto a **serving plate**. Carefully place the sliced **chicken breast** over the vibrant vegetables. Elegantly spoon the strained **gravy** over the chicken. Drizzle the velvety **white cream/yogurt sauce**. For a final flourish, garnish your dish with **lemon slices** and a fresh **rosemary sprig**.</p>
+<ul>
+  <li>**Pro Tip:** Thoughtful arrangement of each component on the plate is key to achieving a professional and appetizing presentation.</li>
+</ul>
+
+<h2>Tips for Success & Common Pitfalls to Avoid</h2>
+
+<h3>Tips and Tricks for a Flawless Dish</h3>
+<ul>
+  <li>**Precise Harvesting:** Collecting the correct vegetables and quantities is your very first, crucial step.</li>
+  <li>**Cleanliness Counts:** Never skip thoroughly washing and carefully trimming your vegetables.</li>
+  <li>**Perfectly Tender Veggies:** Roast your vegetables until they are tender; this process unlocks their natural sweetness.</li>
+  <li>**Golden Crust, Happy Palate:** Aim for a beautiful golden-brown crust on your chicken for superior flavor and visual appeal.</li>
+  <li>**Flavorful Foundations:** Building layers of flavor in your pan sauces is paramount to a truly delicious dish.</li>
+</ul>
+
+<h3>Common Pitfalls to Watch Out For</h3>
+<ul>
+  <li>**Incorrect Harvest:** Grabbing the wrong vegetables or an incorrect quantity can derail your entire dish.</li>
+  <li>**Skipped Prep:** Neglecting to wash or trim your vegetables properly will impact taste and presentation.</li>
+  <li>**Roasting Mishaps:** Under-roasting will leave your vegetables tough, while over-roasting can make them mushy.</li>
+  <li>**Burnt Bits:** Burning the chicken, garlic, or rosemary during pan-frying will introduce bitter flavors.</li>
+  <li>**Lack of Seasoning:** Forgetting to season with salt and pepper at various stages will result in a bland dish.</li>
+  <li>**Sauce Consistency Issues:** Making your sauces too thin (watery) or too thick (gummy) can ruin the texture of the meal.</li>
+  <li>**Presentation Fails:** Messy plating or overlooking essential garnish elements (lemon, rosemary, cream) can detract from your masterpiece.</li>
 </ul>
 `,
   },

@@ -494,70 +494,131 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 35 Cookingdom</h2>
-<p>Di Tahap 35 Cookingdom, anda akan menyediakan hidangan klasik yang kaya dan menyelerakan: Spaghetti Dengan Sos Krim Cendawan! Hidangan berinspirasikan Itali ini menggabungkan pasta yang dimasak sempurna dengan sos krim cendawan yang kaya dengan rasa umami. Masa, penyediaan bahan dan konsistensi sos adalah kunci kejayaan tahap ini.</p>
-<p>Panduan ini akan membimbing anda langkah demi langkah dalam menyediakan pinggan spaghetti yang sempurna di Tahap 35, daripada merebus pasta hingga menyediakan sos cendawan dan menyusun hidangan akhir.</p>
+<h2>Cookingdom Tahap 35 Panduan: Membuat Coklat Sempurna</h2>
+<p>Selamat datang ke **Cookingdom Tahap 35**! Tahap ini membimbing pemain melalui pengalaman memasak yang intuitif dan tepat dalam persekitaran yang santai tanpa had masa, dengan fokus pada pembuatan **Coklat Sempurna**.</p>
+<p>Panduan ini memberikan arahan langkah demi langkah yang terperinci untuk memastikan kejayaan anda dalam Cookingdom Tahap 35, meliputi setiap bahan, tindakan, dan penempatan yang diperlukan.</p>
 
-<h2 id="goal">Objektif Tahap 35 Cookingdom</h2>
+<h2>Bahan Yang Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kakao Pod</td>
+      <td>Beberapa (1 Pod Merah Diperlukan)</td>
+      <td>Dipetik melalui mini-permainan pelontar batu dari pokok kakao.</td>
+    </tr>
+    <tr>
+      <td>Kakao Beans</td>
+      <td>1 Pod</td>
+      <td>Diambil dari pod yang dipetik, awalnya diliputi dengan pulp putih.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 Sudu</td>
+      <td>Dari periuk dengan penutup merah.</td>
+    </tr>
+    <tr>
+      <td>Susu/Krim</td>
+      <td>1 Sudu</td>
+      <td>Dari mangkuk putih dengan sudu.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Pelangi</td>
+      <td>1 Bekas</td>
+      <td>Digunakan untuk hiasan.</td>
+    </tr>
+    <tr>
+      <td>Kacang Cincang</td>
+      <td>1 Bekas</td>
+      <td>Digunakan untuk hiasan (kelihatan seperti kacang tanah/almond).</td>
+    </tr>
+    <tr>
+      <td>Gula-gula Getah/Potongan Buah</td>
+      <td>1 Bekas</td>
+      <td>Kombinasi berwarna untuk hiasan.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Panduan Langkah demi Langkah untuk Kejayaan</h2>
+
+<h3>Langkah 1: Petik Kakao Pod (Mini-permainan Pelontar Batu)</h3>
+<p>Mainkan **mini-permainan pelontar batu**. Tarik pelontar batu dan sasarkan untuk memukul **kakao pod** yang tergantung pada pokok. Pukul **kakao pod merah** untuk mengumpulkannya dan teruskan.</p>
 <ul>
-  <li>Rebus spaghetti sehingga teksturnya al dente.</li>
-  <li>Tumis cendawan bersama bawang putih dan herba.</li>
-  <li>Sediakan sos krim dengan mentega, krim, dan keju.</li>
-  <li>Gabungkan dan hidangkan hidangan dengan menarik.</li>
+  <li>**Tip:** Sasarkan sedikit di depan jika pod sedang berayun. Fokus untuk memukul mana-mana pod merah.</li>
 </ul>
 
-<h2 id="steps">Panduan Langkah Demi Langkah Tahap 35 Cookingdom</h2>
-<ol>
-  <li>
-    <h3>Masak Spaghetti</h3>
-    <p>Mula-mula, didihkan air dan tambahkan sedikit garam. Setelah air mendidih, masukkan spaghetti dan masak sehingga mencapai tekstur al dente.</p>
-    <p><strong>Tip:</strong> Jangan terlebih masak pasta. Al dente bermaksud pasta lembut tetapi masih sedikit kenyal — sesuai untuk menyerap sos kemudian.</p>
-  </li>
-  <li>
-    <h3>Tumis Cendawan</h3>
-    <p>Sambil memasak pasta, tumis hirisan cendawan dalam kuali dengan mentega atau minyak zaitun. Tambah bawang putih cincang dan sedikit garam untuk menambah rasa.</p>
-    <p><strong>Tip:</strong> Jangan terlalu penuhkan kuali supaya cendawan dapat masak dengan sempurna dan menghasilkan rasa yang kaya.</p>
-  </li>
-  <li>
-    <h3>Sediakan Sos Krim</h3>
-    <p>Setelah cendawan bertukar perang, tuangkan krim pekat dan reneh dengan perlahan. Kacau keju Parmesan parut dan sedikit lada hitam untuk menghasilkan tekstur yang kaya dan berkrim.</p>
-    <p><strong>Tip:</strong> Jika sos terlalu pekat, tambahkan sedikit air rebusan pasta untuk mencairkannya dan membantu sos melekat pada spaghetti.</p>
-  </li>
-  <li>
-    <h3>Gabungkan dan Hidangkan</h3>
-    <p>Tos spaghetti yang telah dimasak dan masukkan terus ke dalam sos krim cendawan. Gaul rata sehingga spaghetti disaluti sos dengan sempurna.</p>
-    <p>Hidangkan pasta dan hias dengan daun pasli segar dan taburan Parmesan.</p>
-    <p><strong>Tip:</strong> Penyajian adalah penting! Hidangkan dalam pinggan lebar dan gulung pasta dengan kemas untuk penampilan profesional.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua Pakar Untuk Kejayaan Tahap 35 Cookingdom</h2>
+<h3>Langkah 2: Mengambil dan Menyediakan Biji Kakao</h3>
+<p>Letakkan **kakao pod** yang dipetik di atas permukaan kerja. Gunakan **alat pemecah putih** untuk memecahkan pod. Gunakan alat yang sama untuk mengeluarkan biji yang diliputi dengan pulp putih. Pindahkan biji ke dalam **lesung ungu** dan tutup dengan **plastik pembalut**.</p>
 <ul>
-  <li>
-    <h3>Gunakan Cendawan Segar</h3>
-    <p>Cendawan segar seperti cremini atau shiitake menawarkan rasa dan tekstur yang lebih baik daripada cendawan tin. Hiriskan dengan saiz yang sama untuk memasak sekata.</p>
-  </li>
-  <li>
-    <h3>Jangan Tinggalkan Bawang Putih</h3>
-    <p>Bawang putih penting untuk menambah kedalaman rasa pada sos. Tumis sehingga keemasan sahaja — jangan sampai hangit untuk elak rasa pahit.</p>
-  </li>
-  <li>
-    <h3>Kawal Kepekatan Krim</h3>
-    <p>Jika sos terlalu pekat, perah sedikit jus lemon atau tambahkan sedikit wain putih untuk mengurangkan kepedapan dan menambah kesegaran.</p>
-  </li>
-  <li>
-    <h3>Keju Untuk Rasa Hebat</h3>
-    <p>Parmesan menambah rasa umami dan masin. Parut keju segar jika boleh, dan gunakan dalam sos serta sebagai hiasan akhir.</p>
-  </li>
-  <li>
-    <h3>Masak Sos dan Pasta Serentak</h3>
-    <p>Masa sangat penting. Usahakan supaya sos siap tepat ketika pasta sudah masak agar kedua-duanya dapat digabungkan dengan panas dan segar.</p>
-  </li>
+  <li>**Tip:** Seret alat ke atas pod untuk memecahkannya dan mengeluarkan biji. Pastikan semua biji dipindahkan ke dalam lesung sebelum menutupnya.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Di Tahap 35 Cookingdom, anda akan menguasai seni menyediakan Spaghetti Dengan Sos Krim Cendawan — hidangan yang kaya dan menyenangkan yang memerlukan penyelarasan yang baik antara pasta, cendawan dan sos berkrim. Kunci kejayaan adalah masa yang tepat, keseimbangan rasa krim dan kepekatan cendawan, serta penyajian yang menarik.</p>
-<p>Ikuti panduan ini untuk menyediakan hidangan yang lazat dan elegan yang akan mengagumkan pelanggan maya anda dan memperoleh penilaian tertinggi di Cookingdom!</p>
+<h3>Langkah 3: Mengisar Biji Kakao</h3>
+<p>Biji-biji di dalam lesung kini telah menjadi coklat (fermentasi/dimasak). Letakkan kandungan lesung (biji) ke atas **papan pemotong kelabu**. Gunakan **alat pemalu kayu** untuk menghancurkan biji tersebut menjadi kepingan kecil.</p>
+<ul>
+  <li>**Tip:** Seret pemalu kayu ke atas biji berulang kali sehingga mereka hancur sepenuhnya. **Ikon hati** menandakan ia selesai.</li>
+</ul>
+
+<h3>Langkah 4: Campurkan Campuran Coklat</h3>
+<p>Pindahkan biji kakao yang dihancurkan dari papan pemotong ke dalam **balang pengisar kuning**. Tambahkan satu sudu **gula** dari periuk bertutup merah dan satu sudu **susu/krim** dari mangkuk putih ke dalam pengisar. Pasangkan penutup pengisar dan tekan butang kuasa untuk mengisar sehingga halus.</p>
+<ul>
+  <li>**Tip:** Pastikan biji, gula, dan susu ditambah sebelum mengisar. Tunggu sehingga animasi pengisaran selesai.</li>
+</ul>
+
+<h3>Langkah 5: Isikan Coklat ke Dalam Acuan</h3>
+<p>Tuangkan campuran coklat cair dari balang pengisar (sekarang di dalam cawan) ke dalam pelbagai bentuk pada **pinggan acuan** (hati, beruang, awan, tingkap, bintang, tambah).</p>
+<ul>
+  <li>**Tip:** Gerakkan cawan ke atas setiap bentuk dengan teliti untuk mengisinya sepenuhnya.</li>
+</ul>
+
+<h3>Langkah 6: Sejukkan dan Keras Coklat</h3>
+<p>Letakkan pinggan acuan yang diisi ke dalam **mesin penyejuk/penyaman udara biru** (tetapkan pada 0°C). Tunggu sehingga bar kemajuan tamat, menandakan coklat telah mengeras.</p>
+<ul>
+  <li>**Tip:** Pastikan pinggan diletakkan dengan betul ke dalam mesin. **Ikon hati** menunjukkan ia selesai.</li>
+</ul>
+
+<h3>Langkah 7: Hias Coklat</h3>
+<p>Keluarkan pinggan coklat yang telah mengeras. Gunakan topping yang disediakan (**serbuk pelangi, kacang cincang, gula-gula getah**) untuk menghias coklat tertentu. Seret serbuk pelangi ke atas bentuk tambah dan beruang. Seret kacang ke atas bentuk hati dan bintang. Seret gula-gula getah ke atas bentuk tingkap/bar.</p>
+<ul>
+  <li>**Tip:** Gerakkan topping dengan berhati-hati ke atas coklat yang betul. Tidak semua bentuk memerlukan hiasan.</li>
+</ul>
+
+<h3>Langkah 8: Bungkus Coklat</h3>
+<p>Ambil **masukkan kotak coklat** yang kosong. Pindahkan setiap coklat yang siap dari pinggan ke dalam setiap ruang di kotak tersebut. Setelah diisi, letakkan masukkan itu ke dalam **dasar kotak hadiah coklat**. Akhirnya, letakkan **penutup kotak** (dengan reben merah dan label) di atas kotak untuk menyelesaikan pembungkusan.</p>
+<ul>
+  <li>**Tip:** Susun coklat dengan kemas di dalam kotak. Pastikan masukkan masuk ke dalam dasar sebelum meletakkan penutup.</li>
+</ul>
+
+<h2>Tips untuk Kejayaan & Kesilapan yang Biasa</h2>
+
+<h3>Tips dan Trik</h3>
+<ul>
+  <li>Mini-permainan pelontar batu memerlukan sasaran yang tepat.</li>
+  <li>Ikuti urutan yang betul untuk memproses biji kakao.</li>
+  <li>Pastikan untuk menambah gula dan susu/krim ke dalam pengisar untuk rasa yang betul.</li>
+  <li>Isikan acuan sepenuhnya dengan coklat cair.</li>
+  <li>Hias hanya coklat yang ditentukan dengan topping yang betul.</li>
+  <li>Letakkan coklat dengan betul dalam kotak sebelum menutupnya.</li>
+</ul>
+
+<h3>Kesilapan yang Biasa</h3>
+<ul>
+  <li>Memukul pod yang salah dalam mini-permainan pelontar batu.</li>
+  <li>Lupa menutup biji dalam lesung dengan plastik pembalut.</li>
+  <li>Tidak menghancurkan biji dengan cukup dengan pemalu kayu.</li>
+  <li>Lupa menambah gula atau susu sebelum mengisar.</li>
+  <li>Keluarkan coklat dari penyejuk terlalu awal.</li>
+  <li>Hias coklat yang salah atau menambah topping dengan tidak kemas.</li>
+  <li>Meletakkan penutup kotak hadiah sebelum masukkan coklat diletakkan ke dalam dasar.</li>
+</ul>
+
 `,
   },
 
@@ -729,83 +790,167 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Cookingdom Level 37</h2>
-<p>Pada Level 37 Cookingdom, anda akan menyediakan hidangan yang beraroma dan berperisa iaitu Nasi Goreng Kimchi. Hidangan tradisional Korea ini disediakan menggunakan kimchi — sayur yang diperam — dicampur dengan nasi, sering bersama sayur-sayuran dan telur goreng di atasnya. Hidangan ini ringkas namun penuh dengan rasa pedas, masam dan masin yang seimbang. Objektif utama adalah untuk menggabungkan kimchi dengan nasi dan bahan lain dengan tepat untuk mendapatkan rasa dan tekstur yang sempurna.</p>
-<p>Panduan ini akan membawa anda langkah demi langkah menyediakan Nasi Goreng Kimchi yang lazat dengan rasa dan tekstur yang memukau.</p>
+<h2>Panduan Masakan Cookingdom Level 37: Memasak Nasi Kimchi Sempurna</h2>
+<p>Selamat datang ke **Cookingdom Level 37**! Tahap ini membawa pemain melalui pengalaman memasak yang intuitif dan tepat dalam persekitaran yang santai tanpa had masa, dengan fokus untuk mencipta **Nasi Kimchi** yang sempurna.</p>
+<p>Panduan ini memberikan arahan langkah demi langkah yang terperinci untuk memastikan kejayaan anda di **Cookingdom Level 37**, meliputi setiap bahan, tindakan, dan penempatan yang diperlukan.</p>
 
-<h2 id="goal">Matlamat Level Cookingdom 37</h2>
+<h2>Bahan-bahan Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kubis Napa</td>
+      <td>1 Kepala</td>
+      <td>Dicuci dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Bawang Putih</td>
+      <td>2 Ulas</td>
+      <td>Dikupas dan dicincang.</td>
+    </tr>
+    <tr>
+      <td>Pir</td>
+      <td>1/2</td>
+      <td>Diiris.</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>2</td>
+      <td>Diiris.</td>
+    </tr>
+    <tr>
+      <td>Bawang Merah (Bawang Hijau)</td>
+      <td>1 Ikat</td>
+      <td>Dicincang.</td>
+    </tr>
+    <tr>
+      <td>Halia dan Cili</td>
+      <td>1 Pinggan</td>
+      <td>Halia dan cili merah serta hijau dicincang bersama.</td>
+    </tr>
+    <tr>
+      <td>Bawang</td>
+      <td>2</td>
+      <td>Dikupas dan dicincang.</td>
+    </tr>
+    <tr>
+      <td>Pasta Tepung Beras Ketan / Nasi Manis (?)</td>
+      <td>1 Mangkuk Kecil</td>
+      <td>Ditambah ke dalam pengisar untuk membuat pes kimchi.</td>
+    </tr>
+    <tr>
+      <td>Garam (?)</td>
+      <td>1 Mangkuk Kecil</td>
+      <td>Serbuk putih ditambah ke dalam pengisar untuk pes kimchi.</td>
+    </tr>
+    <tr>
+      <td>Sos Kecap</td>
+      <td>1 Mangkuk</td>
+      <td>Ditambah ke dalam pengisar untuk pes kimchi dan digunakan untuk memasak daging babi.</td>
+    </tr>
+    <tr>
+      <td>Pasta Cili (Gochujang?)</td>
+      <td>1 Botol</td>
+      <td>Pasta merah ditambah ke dalam pengisar untuk pes kimchi.</td>
+    </tr>
+    <tr>
+      <td>Beras</td>
+      <td>1 Beg + 1 Mangkuk Kecil</td>
+      <td>Dimasak dalam periuk nasi dan sebahagian digunakan untuk hidangan akhir.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>Sesuai Keperluan</td>
+      <td>Untuk mencuci sayur-sayuran dan memasak nasi.</td>
+    </tr>
+    <tr>
+      <td>Perut Babi</td>
+      <td>1 Ketulan</td>
+      <td>Daging mentah, bertompok merah, dipotong dadu.</td>
+    </tr>
+    <tr>
+      <td>Minyak Masak</td>
+      <td>1 Botol</td>
+      <td>Digunakan untuk memasak perut babi.</td>
+    </tr>
+    <tr>
+      <td>Gula (?)</td>
+      <td>1 Mangkuk</td>
+      <td>Granula putih ditambah ke dalam kuali semasa memasak perut babi.</td>
+    </tr>
+    <tr>
+      <td>Telur Goreng</td>
+      <td>1</td>
+      <td>Digoreng dengan bahagian atas yang garing, digunakan sebagai hiasan.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Panduan Langkah demi Langkah untuk Kejayaan</h2>
+
+<h3>Langkah 1: Sediakan Sayuran Kimchi</h3>
+<p>Cuci **kubis napa** di dalam singki. Di papan pemotong, cincang **bawang putih**, iris **pir**, cincang campuran **halia/cili**, cincang **bawang merah**, cincang **bawang hijau**, dan iris **carrot**, letakkan setiap satu dalam pinggan/mangkuk yang berasingan. Potong bahagian bawah dan daun luar yang buruk daripada kubis yang telah dicuci.</p>
 <ul>
-  <li>Masak nasi sebagai asas hidangan.</li>
-  <li>Tumis kimchi dan bahan lain untuk mendapatkan rasa yang seimbang.</li>
-  <li>Sajikan Nasi Goreng Kimchi bersama telur goreng dan garnis.</li>
+  <li>**Tip:** Pastikan saiz potongan sayur yang konsisten untuk membantu memastikan pencampuran dan penapaian yang sekata.</li>
 </ul>
 
-<h2 id="steps">Langkah demi Langkah Memasak Nasi Goreng Kimchi (Level 37)</h2>
-<ol>
-  <li>
-    <h3>Masak Nasi</h3>
-    <p>Asas Nasi Goreng Kimchi ialah nasi. Mulakan dengan memasak nasi yang telah diperap (beras putih atau beras bulat pendek sesuai), jika tiada nasi yang dimasak sebelumnya.</p>
-    <p><strong>Tip:</strong> Lebih baik menggunakan nasi yang dimasak sehari sebelumnya kerana ia lebih kering dan kurang melekat, sesuai untuk menumis dan menyerap rasa.</p>
-  </li>
-  <li>
-    <h3>Tumis Kimchi</h3>
-    <p>Tumis kimchi (kubis yang diperam) dalam kuali untuk mengeluarkan rasa yang kaya dan masam.</p>
-    <p><strong>Tip:</strong> Potong kimchi kepada kepingan kecil untuk menumis lebih sekata.</p>
-    <p>Tambah sedikit minyak dalam kuali dan tumis kimchi selama 2-3 minit supaya ia menjadi lembut dan rasa lebih terserlah.</p>
-    <p><strong>Tip:</strong> Untuk rasa pedas yang lebih kuat, tambahkan sedikit gochujang (pes cili Korea) atau gochugaru (serpihan cili Korea).</p>
-  </li>
-  <li>
-    <h3>Tumis Nasi dengan Kimchi</h3>
-    <p>Selepas menumis kimchi, tambah nasi ke dalam kuali dan kacau rata supaya nasi menyerap jus kimchi.</p>
-    <p><strong>Tip:</strong> Tumis nasi selama kira-kira 5 minit pada api sederhana supaya nasi menyerap rasa kimchi dan rempah.</p>
-    <p><strong>Tip:</strong> Tambahkan sedikit kicap atau minyak bijan untuk aroma tambahan.</p>
-  </li>
-  <li>
-    <h3>Tambah Sayur-sayuran (Pilihan)</h3>
-    <p>Jika mahu, tambah sayur-sayuran seperti lobak merah, daun bawang, atau kacang peas untuk tekstur dan rasa tambahan.</p>
-    <p><strong>Tip:</strong> Jika tambah sayur, tumis bersama kimchi sebelum mencampur dengan nasi.</p>
-  </li>
-  <li>
-    <h3>Goreng Telur</h3>
-    <p>Nasi Goreng Kimchi biasanya disajikan dengan telur goreng di atasnya, memberikan rasa dan tekstur yang kaya.</p>
-    <p>Goreng telur mengikut kesukaan anda. Kuning telur yang cair akan mencampurkan rasa krim dengan nasi.</p>
-    <p><strong>Tip:</strong> Untuk rasa lebih sedap, boleh tambah sedikit minyak bijan atau kicap di atas telur goreng.</p>
-  </li>
-  <li>
-    <h3>Sajikan Nasi Goreng Kimchi</h3>
-    <p>Selepas memasak dan membumbui, hidangkan Nasi Goreng Kimchi di dalam mangkuk atau pinggan, letakkan telur goreng di atasnya.</p>
-    <p><strong>Tip:</strong> Hiaskan dengan daun bawang cincang atau bijan untuk rasa dan warna yang menarik.</p>
-    <p><strong>Tip:</strong> Boleh juga sajikan dengan sedikit kimchi sebagai garnis tambahan.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua Berguna untuk Berjaya di Level 37</h2>
+<h3>Langkah 2: Buat Pes Kimchi</h3>
+<p>Tambah bahan-bahan berikut ke dalam pengisar: **garam (?)**, campuran **halia/cili**, iris **carrot**, cincang **bawang putih**, cincang **bawang hijau**, **pasta tepung beras ketan/nasi manis (?)**, iris **pir**, **sos kecap**, dan **pasta cili (gochujang?)**. Tutup penutup dan kisar hingga menjadi pes merah yang licin.</p>
 <ul>
-  <li>
-    <h3>Gunakan Nasi Semalam</h3>
-    <p>Nasi yang dimasak sehari sebelumnya lebih sesuai untuk Nasi Goreng Kimchi kerana kurang melekit dan lebih mudah ditumis. Jika menggunakan nasi baru, biarkan ia sejuk dahulu supaya tidak melekat.</p>
-  </li>
-  <li>
-    <h3>Rasa Kimchi Yang Sempurna</h3>
-    <p>Menumis kimchi adalah kunci untuk mendapatkan rasa masam dan umami yang seimbang. Untuk rasa pedas lebih kuat, tambahkan lebih gochujang atau gochugaru.</p>
-  </li>
-  <li>
-    <h3>Laraskan Tahap Kepedasan</h3>
-    <p>Laraskan kuantiti gochujang dan gochugaru mengikut citarasa. Untuk kurang pedas, gunakan kurang atau tidak sama sekali.</p>
-  </li>
-  <li>
-    <h3>Telur Goreng adalah Rahsia</h3>
-    <p>Telur goreng di atas nasi menambah rasa dan tekstur yang kaya. Pastikan kuning telur sedikit cair untuk tekstur terbaik.</p>
-  </li>
-  <li>
-    <h3>Hiasan</h3>
-    <p>Hiaskan dengan daun bawang dan bijan untuk menambah rasa dan penampilan yang menarik.</p>
-  </li>
+  <li>**Tip:** Pastikan semua bahan dimasukkan sebelum mengisar untuk menghasilkan pes yang lengkap.</li>
 </ul>
 
-<h2 id="summary">Kesimpulan</h2>
-<p>Level 37 Cookingdom mengajar anda menyediakan Nasi Goreng Kimchi dengan gabungan rasa pedas, masam dan umami yang seimbang dengan nasi yang netral. Tumis kimchi bersama nasi, tambah sedikit kicap atau minyak bijan, dan letakkan telur goreng di atasnya. Sama ada anda menambah sayur atau menonjolkan kimchi, hidangan ini pasti memuaskan pelanggan dengan rasa yang kaya dan menyelerakan.</p>
-<p>Dengan panduan ini, anda akan mahir menyediakan Nasi Goreng Kimchi yang sedap dan mengenyangkan dengan rasa tradisional Korea dan bahan yang mudah didapati.</p>
+<h3>Langkah 3: Penapaian Kimchi & Memasak Nasi</h3>
+<p>Tuangkan pes kimchi yang telah dikisar ke atas **kubis napa** dalam bekas. Pemasa akan muncul, menunjukkan masa penapaian. Secara serentak, masukkan **beras** dari beg dan **air** ke dalam periuk nasi, tutup penutup dan mulakan memasak.</p>
+<ul>
+  <li>**Tip:** Mulakan kedua-dua proses ini serentak kerana mereka mengambil masa yang agak lama.</li>
+</ul>
+
+<h3>Langkah 4: Masak Perut Babi</h3>
+<p>Letakkan kuali di atas dapur induksi dan hidupkan. Tambah **minyak masak**. Masukkan **gula (?)** dan **sos kecap**. Tambahkan **bawang putih** dan **bawang merah** yang telah dicincang. Potong **perut babi** menjadi dadu dan masukkan ke dalam kuali. Goreng dengan spatula sehingga masak.</p>
+<ul>
+  <li>**Tip:** Pastikan kuali cukup panas sebelum menambah bahan-bahan. Masak perut babi dengan sempurna.</li>
+</ul>
+
+<h3>Langkah 5: Sediakan Kimchi Akhir</h3>
+<p>Setelah pemasa penapaian selesai, letakkan **kimchi** yang telah siap di atas papan pemotong dan potong menjadi kepingan kecil. Letakkan kimchi yang dipotong di atas pinggan.</p>
+<ul>
+  <li>**Tip:** Potong kimchi menjadi saiz yang lebih kecil untuk memudahkan pencampuran dengan nasi.</li>
+</ul>
+
+<h3>Langkah 6: Sediakan Nasi Kimchi dalam Mangkuk</h3>
+<p>Setelah periuk nasi selesai, sendukkan sebahagian besar **nasi** yang telah dimasak ke dalam mangkuk hidangan. Tambahkan campuran **perut babi** yang telah dimasak dan **kimchi** yang telah dipotong di atas nasi. Letakkan **telur goreng** di tengah. Tambahkan sedikit **beras (?)**. Hiaskan dengan **bawang hijau** yang dicincang.</p>
+<ul>
+  <li>**Tip:** Susun bahan-bahan dengan menarik dalam mangkuk. Hiasan bawang hijau memberi warna dan kesegaran kepada hidangan.</li>
+</ul>
+
+<h2>Tip untuk Kejayaan & Kesilapan Umum</h2>
+
+<h3>Tips dan Trik</h3>
+<ul>
+  <li>Mencuci dan menyiapkan semua sayur terlebih dahulu akan memudahkan proses.</li>
+  <li>Pengisaran pes kimchi yang sempurna memastikan pengagihan rasa yang sekata.</li>
+  <li>Memasak nasi dan penapaian kimchi boleh dilakukan serentak untuk menjimatkan masa.</li>
+  <li>Jadikan lemak daripada perut babi untuk rasa tambahan sebelum menambah bahan lain.</li>
+  <li>Jangan sesakkan kuali ketika memasak perut babi.</li>
+</ul>
+
+<h3>Kesilapan Umum</h3>
+<ul>
+  <li>Terlepas bahan dalam pengisar pes kimchi.</li>
+  <li>Tidak memberi cukup masa untuk penapaian kimchi (walaupun dalam permainan ini berlaku dengan segera).</li>
+  <li>Terbakar bawang putih, bawang merah, atau gula semasa memasak perut babi.</li>
+  <li>Gagal memasak nasi atau perut babi dengan sempurna.</li>
+  <li>Lupa menambah telur goreng atau hiasan bawang hijau semasa penyediaan.</li>
+  <li>Memotong kimchi terlalu besar atau terlalu kecil.</li>
+</ul>
+
 `,
   },
 
@@ -848,46 +993,169 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Cookingdom Level 38</h2>
-  <p>Dalam Level 38, anda akan menguasai hidangan tumis yang lazat: <strong>Ayam Goreng Pan dengan Sayur-sayuran</strong>. Masa dan urutan bahan adalah penting dalam cabaran multitugas ini.</p>
-  
-  <h2 id="goal">🎯 Matlamat Cookingdom Level 38</h2>
-  <ul>
-    <li>Sajikan sekurang-kurangnya 25 hidangan Ayam Goreng Pan</li>
-    <li>Kepuasan pelanggan kekal melebihi 80%</li>
-    <li>Selesaikan dalam masa kurang dari 4 minit</li>
-  </ul>
-  
-  <h2 id="ingredients">🥘 Bahan-bahan untuk Level 38</h2>
-  <ul>
-    <li>Irisan ayam</li>
-    <li>Sayur campur (lada benggala, lobak merah, brokoli)</li>
-    <li>Minyak dan sos tumis berasaskan soya</li>
-    <li>Hiasan pilihan: biji bijan atau daun bawang</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Strategi Langkah demi Langkah</h2>
-  <ol>
-    <li>Panaskan kedua-dua kuali dengan minyak sebelum memulakan.</li>
-    <li>Mula goreng ayam dahulu, kerana ia mengambil masa lebih lama untuk dimasak.</li>
-    <li>Apabila ayam sudah separuh masak, tambah sayur campur dan sos.</li>
-    <li>Tumis sehingga sayur menjadi lembut rangup dan ayam kekuningan.</li>
-    <li>Hidang dan teruskan dengan batch seterusnya dengan segera.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Tips Pro untuk Berjaya</h2>
-  <ul>
-    <li><strong>Panaskan Kuali:</strong> Kuali panas mempercepatkan proses memasak dari awal.</li>
-    <li><strong>Jangan Terlalu Penuhkan Kuali:</strong> Terlalu banyak bahan dalam kuali akan mengurangkan kecekapan haba.</li>
-    <li><strong>Gilirkan Kuali:</strong> Gunakan kedua-dua kuali secara bergilir untuk penyajian yang lebih cepat.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Kesilapan Lazim</h2>
-  <ul>
-    <li>Menambah sos terlalu awal — menyebabkan makanan menjadi lembik.</li>
-    <li>Meninggalkan ayam kurang masak — menyebabkan penalti.</li>
-    <li>Lupa hiasan — mengurangkan bonus skor akhir.</li>
-  </ul>
+  <h2>Panduan Cookingdom Level 38: Ayam Panggang dengan Sayuran Panggang</h2>
+<p>Selamat datang, penggemar masakan, ke **Cookingdom Level 38**! Misi anda di sini adalah untuk menguasai seni penyediaan **ayam panggang dengan sayuran panggang** yang lazat. Tahap ini direka untuk meningkatkan naluri masakan anda, dengan penekanan kepada ketepatan dan masa dalam persekitaran yang santai dan tanpa tekanan.</p>
+<p>Panduan terperinci ini akan membawa anda melalui setiap langkah penting, memastikan anda memilih bahan yang betul, menggunakan alat yang sesuai, dan melaksanakan setiap tindakan dengan sempurna untuk mencapai kejayaan masakan.</p>
+
+<h2>Bahan-bahan Utama untuk Hidangan Anda</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota Penyediaan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Carrot Segar</td>
+      <td>2 biji</td>
+      <td>Terus dari kebun anda</td>
+    </tr>
+    <tr>
+      <td>Beetroot (Ubi Bit) Segar</td>
+      <td>2 biji</td>
+      <td>Hasil kebun segar</td>
+    </tr>
+    <tr>
+      <td>Daikon (Lobak Putih) Segar</td>
+      <td>2 biji</td>
+      <td>Hasil kebun yang lain</td>
+    </tr>
+    <tr>
+      <td>Air Suling</td>
+      <td>Seperti yang diperlukan</td>
+      <td>Untuk mencuci sayuran</td>
+    </tr>
+    <tr>
+      <td>Garam Laut Halus</td>
+      <td>Secukup rasa</td>
+      <td>Utama untuk perasa sayuran dan memperkayakan sos</td>
+    </tr>
+    <tr>
+      <td>Lada Hitam Giling</td>
+      <td>Secukup rasa</td>
+      <td>Untuk memanggang sayuran dan perasa ayam</td>
+    </tr>
+    <tr>
+      <td>Rosemary Wangi</td>
+      <td>1 ranting (atau sedikit)</td>
+      <td>Memberikan rasa kepada sayuran, ayam, dan hiasan</td>
+    </tr>
+    <tr>
+      <td>Aluminium Foil</td>
+      <td>1 helaian</td>
+      <td>Perlu untuk memanggang sayuran dengan sempurna</td>
+    </tr>
+    <tr>
+      <td>Fillet Dada Ayam Premium</td>
+      <td>1 fillet</td>
+      <td>Mentah, sedia untuk digoreng</td>
+    </tr>
+    <tr>
+      <td>Cairan Masakan Emas (Minyak/Stock)</td>
+      <td>1 botol</td>
+      <td>Asas untuk menggoreng ayam dan menyediakan sos kaya</td>
+    </tr>
+    <tr>
+      <td>Ulas Bawang Putih Segar</td>
+      <td>1 kepala (anggaran 4-5 ulas)</td>
+      <td>Dikupas dan sedia untuk memberikan rasa kepada ayam dan sos</td>
+    </tr>
+    <tr>
+      <td>Mentega Krim</td>
+      <td>1 blok (dipotong)</td>
+      <td>Memperkaya rasa ayam semasa memasak</td>
+    </tr>
+    <tr>
+      <td>Bawang Merah Manis</td>
+      <td>1/2 (dipotong)</td>
+      <td>Asas aromatik untuk sos kedua</td>
+    </tr>
+    <tr>
+      <td>Asas Sos Coklat Pekat</td>
+      <td>1 mangkuk</td>
+      <td>Asas untuk sos yang lazat</td>
+    </tr>
+    <tr>
+      <td>Krim Lembut / Yogurt</td>
+      <td>1 mangkuk</td>
+      <td>Siram yang elegan untuk hiasan</td>
+    </tr>
+    <tr>
+      <td>Potongan Lemon Cerah</td>
+      <td>2 hirisan</td>
+      <td>Untuk hiasan yang cerah</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Menguasai Setiap Langkah untuk Kesempurnaan Masakan</h2>
+
+<h3>Langkah 1: Kumpulkan Hasil Kebun Anda</h3>
+<p>Mulakan dengan mengambil **sekop** anda dan pergi ke kebun. Dengan berhati-hati, kumpulkan **2 batang carrot**, **2 beetroot**, dan **2 daikon**, letakkan semuanya dalam bakul.</p>
+<ul>
+  <li>**Tip Profesional:** Ketepatan adalah kunci di sini! Pastikan anda mengumpul jumlah sayuran yang tepat seperti yang diperlukan.</li>
+</ul>
+
+<h3>Langkah 2: Cuci dan Sediakan Sayuran Anda</h3>
+<p>Bawa bakul anda ke stesen mencuci. Letakkan papan pemotong dan pelbagai mangkuk. Isi singki dengan **air** dan cuci semua sayuran yang baru dipetik (carrot, beetroot, dan daikon) dengan teliti. Pindahkan satu persatu ke papan pemotong, gunakan **pisau** untuk membuang bahagian yang tidak boleh dimakan, dan susun sayuran yang telah disediakan dalam mangkuk berasingan (carrot dalam mangkuk oren, beetroot dalam mangkuk merah jambu, daikon dalam mangkuk putih). Buang sisa yang tidak diperlukan ke dalam tong sampah.</p>
+<ul>
+  <li>**Tip Profesional:** Pencucian dan pemotongan yang teliti adalah penting untuk memastikan hidangan bersih dan menarik.</li>
+</ul>
+
+<h3>Langkah 3: Memasak Sayuran Panggang yang Sempurna</h3>
+<p>Pindah ke stesen ketuhar. Susun carrot, beetroot, dan daikon yang telah dipotong dalam **loyang pembakar**. Taburkan dengan **ranting rosemary**, kemudian musim dengan **lada** dan **garam**. Tutup loyang dengan **kerajang aluminium**. Letakkan loyang yang tertutup dalam **ketuhar** yang telah dipanaskan, dan perhatikan waktu yang dimulakan (dengan masa “1000” ditunjukkan). </p>
+<ul>
+  <li>**Tip Profesional:** Menutup sayuran dengan kerajang aluminium mencipta persekitaran berwap, memastikan ia menjadi lembut dan berperisa.</li>
+</ul>
+
+<h3>Langkah 4: Goreng Ayam dengan Sempurna</h3>
+<p>Ke stesen dapur. Letakkan **kuali penggoreng** di atas induksi dan hidupkan api. Tuangkan sedikit **cairan masakan emas (minyak atau stok)**. Musimkan **dada ayam** dengan **lada** secukupnya. Letakkan ayam yang telah diperap ke dalam kuali yang panas. Tambahkan **ulas bawang putih** yang dikupas dan beberapa ranting **rosemary** untuk menambah rasa. Biarkan ayam digoreng di satu sisi (akan muncul masa pada skrin) hingga berwarna keemasan, kemudian terbalikkan. Setelah sisi kedua masak, masukkan **mentega** yang telah dipotong ke dalam kuali. Teruskan memasak sehingga ayam masak sepenuhnya.</p>
+<ul>
+  <li>**Tip Profesional:** Pastikan kuali cukup panas untuk mendapatkan kerak keemasan yang cantik pada ayam. Membasahi ayam dengan mentega cair semasa memasak akan menambah kekayaan rasa.</li>
+</ul>
+
+<h3>Langkah 5: Sediakan Sos Kaya (Gravy)</h3>
+<p>Gunakan kuali bersih dan hidupkan api. Tambah lagi **cairan masakan emas**. Masukkan **ulas bawang putih** yang dikupas dan **bawang merah** yang dihiris, serta ranting **rosemary**. Tumis bahan-bahan ini hingga naik bau (akan muncul masa). Masukkan **asas sos coklat pekat**. Masukkan **garam**. Biarkan ia mereneh (akan muncul masa). Kemudian tapis sos menggunakan **penapis** ke dalam mangkuk yang bersih.</p>
+<ul>
+  <li>**Tip Profesional:** Menumis bahan aromatik terlebih dahulu membantu membina asas rasa yang lazat untuk sos. Menapis sos menjamin tekstur yang halus tanpa ketulan yang tidak diingini.</li>
+</ul>
+
+<h3>Langkah 6: Sediakan Sayuran Panggang & Potong Ayam</h3>
+<p>Ambil sayuran panggang yang sempurna dari ketuhar. Pindahkan dengan berhati-hati ke papan pemotong. Potong **carrot, beetroot, dan daikon** kepada potongan kecil yang seragam. Selepas itu, letakkan **dada ayam** yang telah dimasak di papan pemotong dan potong dengan kemas.</p>
+<ul>
+  <li>**Tip Profesional:** Biarkan ayam rehat selama satu atau dua minit sebelum dipotong untuk memastikan ia mengekalkan jus dan memastikan setiap gigitan lembut dan berperisa. Potong sayuran dengan saiz yang seragam untuk persembahan yang lebih menarik.</li>
+</ul>
+
+<h3>Langkah 7: Susun Karya Masakan Anda</h3>
+<p>Kini tiba masanya untuk penyelesaian! Susun potongan sayuran panggang (**carrot, beetroot, daikon**) dengan seni pada **pinggan hidangan**. Letakkan potongan **ayam** yang dipotong dengan berhati-hati di atas sayuran yang berwarna-warni. Tuangkan **gravy** yang ditapis dengan elegan ke atas ayam. Siram dengan **krim putih/yogurt** yang lembut. Untuk sentuhan akhir, hias dengan **hirisan lemon** dan ranting **rosemary** segar.</p>
+<ul>
+  <li>**Tip Profesional:** Susunan setiap komponen di atas pinggan dengan teliti adalah kunci untuk mencapai penyajian yang profesional dan menyelerakan.</li>
+</ul>
+
+<h2>Petua untuk Kejayaan & Kesalahan Umum yang Harus Dielakkan</h2>
+
+<h3>Petua dan Trik untuk Hidangan Tanpa Kesalahan</h3>
+<ul>
+  <li>**Tuai dengan tepat:** Mengumpul sayuran yang betul dan dalam kuantiti yang tepat adalah langkah pertama yang sangat penting.</li>
+  <li>**Kebersihan itu penting:** Jangan sesekali skip mencuci dan memotong sayuran dengan teliti.</li>
+  <li>**Sayuran yang lembut dan lazat:** Panggang sayuran sehingga lembut; ini akan mengeluarkan rasa manis semulajadi mereka.</li>
+  <li>**Kerak keemasan, kegembiraan rasa:** Pastikan ayam mempunyai kerak keemasan yang cantik untuk rasa yang lebih baik dan penampilan yang menarik.</li>
+  <li>**Asas rasa yang kaya:** Membangun lapisan rasa dalam sos adalah kunci kepada hidangan yang betul-betul lazat.</li>
+</ul>
+
+<h3>Kesalahan Umum yang Harus Dielakkan</h3>
+<ul>
+  <li>**Tuai yang salah:** Mengambil sayuran yang salah atau kuantiti yang salah boleh merosakkan hidangan anda.</li>
+  <li>**Persediaan yang terlupa:** Mengabaikan mencuci atau memotong sayuran dengan betul akan mempengaruhi rasa dan penampilan hidangan.</li>
+  <li>**Kesalahan dalam memanggang:** Sayuran yang tidak cukup dipanggang akan keras, manakala yang terlalu dipanggang akan menjadi lembek.</li>
+  <li>**Makanan yang terbakar:** Menggoreng ayam, bawang putih, atau rosemary sehingga terbakar akan menambah rasa pahit kepada hidangan.</li>
+  <li>**Kekurangan perasa:** Lupa untuk menambah garam dan lada pada pelbagai tahap memasak akan menjadikan hidangan anda tawar.</li>
+  <li>**Isu konsistensi sos:** Jika sos terlalu cair (berair) atau terlalu pekat (meleleh), ini akan merosakkan tekstur hidangan.</li>
+  <li>**Kesalahan dalam penyajian:** Penyajian yang tidak kemas atau mengabaikan elemen hiasan penting (lemon, rosemary, krim) boleh menurunkan estetik hidangan anda.</li>
+</ul>
+
   `,
   },
 

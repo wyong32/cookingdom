@@ -125,41 +125,235 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Panimula ng Laro</h2>
-<p>Sa Antas 2, matututo ang mga manlalaro kung paano gumawa ng pritong patatas. Bagama’t tila madali, nangangailangan ito ng mahusay na pamamahala sa oras at mabilis na aksyon, lalo na kapag may sabay-sabay na customer. Dito mo rin unang makikilala ang proseso ng pagprito gamit ang fryer para makapaglingkod ng masarap na fries nang mabilis.</p>
-<h2>Layon ng Antas 2</h2>
+    detailsHtml: `
+      <h2>Maligayang Pagdating sa Cookingdom Level 2: Gabay at Walkthrough para sa Fried Potatoes</h2>
+<p>
+  Maligayang pagdating sa <strong>Cookingdom Level 2</strong>, kung saan ang iyong misyon ay gumawa ng perpektong
+  <strong>Fried Potatoes</strong> gamit ang tamang mga kagamitan, tamang pagkakasunod-sunod, at tamang timing.
+  Ipinapakilala ng level na ito ang mga manlalaro sa intuitive ngunit tumpak na mekaniks ng pagluluto ng Cookingdom sa isang
+  relaxed na kapaligiran na walang timer.
+</p>
+<p>
+  Ang walkthrough na ito ay nagbibigay ng eksaktong mga hakbang upang magtagumpay sa <strong>Cookingdom Level 2</strong>,
+  na nagdedetalye ng bawat sangkap, aksyon, at tamang paglalagay.
+</p>
+
+---
+
+<h2>Kailangang Mga Sangkap</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Patatas</td>
+      <td>3</td>
+      <td>Nakukuha mula sa mini-game ng pag-aani ng patatas.</td>
+    </tr>
+    <tr>
+      <td>Tubig</td>
+      <td>ayon sa pangangailangan</td>
+      <td>Ginagamit para sa paghuhugas at blanching.</td>
+    </tr>
+    <tr>
+      <td>Panablas</td>
+      <td>1</td>
+      <td>Ginagamit para sa pagbabalat ng patatas.</td>
+    </tr>
+    <tr>
+      <td>Kutsilyo</td>
+      <td>1</td>
+      <td>Ginagamit para sa paghiwa ng patatas upang maging fries.</td>
+    </tr>
+    <tr>
+      <td>Hawakan sa Pagputol</td>
+      <td>1</td>
+      <td>Pinaglalagyan para sa pagbabalat at paghiwa.</td>
+    </tr>
+    <tr>
+      <td>Saluhan</td>
+      <td>1 (asul)</td>
+      <td>Para paglagyan ng hiniwang fries bago i-blanch.</td>
+    </tr>
+    <tr>
+      <td>Palayok</td>
+      <td>1</td>
+      <td>Ginagamit para sa blanching ng fries.</td>
+    </tr>
+    <tr>
+      <td>Takip ng Palayok</td>
+      <td>1</td>
+      <td>Ginagamit upang pabilisin ang pagpakulo ng tubig.</td>
+    </tr>
+    <tr>
+      <td>Induction Cooktop</td>
+      <td>1</td>
+      <td>Pinagmumulan ng init para sa blanching at pagprito.</td>
+    </tr>
+    <tr>
+      <td>Spider Strainer / Skimmer</td>
+      <td>1</td>
+      <td>Ginagamit para alisin ang fries mula sa tubig at mantika.</td>
+    </tr>
+    <tr>
+      <td>Paper Towel</td>
+      <td>2 piraso</td>
+      <td>Ginagamit para patuyuin ang blanch at pritong patatas.</td>
+    </tr>
+    <tr>
+      <td>Tray</td>
+      <td>1 (abo)</td>
+      <td>Kasama ng paper towel para patuyuin.</td>
+    </tr>
+    <tr>
+      <td>Prityan</td>
+      <td>1</td>
+      <td>Ginagamit para sa deep frying ng fries.</td>
+    </tr>
+    <tr>
+      <td>Langis sa Pagluluto</td>
+      <td>1 bote</td>
+      <td>Para sa pagprito.</td>
+    </tr>
+    <tr>
+      <td>Harina</td>
+      <td>1 mangkok</td>
+      <td>Para balutin ang fries bago iprito.</td>
+    </tr>
+    <tr>
+      <td>Plastic Container na may Takip</td>
+      <td>1</td>
+      <td>Ginagamit para i-shake at balutin ng harina ang fries.</td>
+    </tr>
+    <tr>
+      <td>Salt Shaker</td>
+      <td>1</td>
+      <td>Para sa pag-season ng huling putahe.</td>
+    </tr>
+    <tr>
+      <td>Bote ng Ketchup</td>
+      <td>1</td>
+      <td>Para sa sawsawan.</td>
+    </tr>
+    <tr>
+      <td>Munting Mangkok para sa Sawasawan</td>
+      <td>1</td>
+      <td>Para pagsilbihan ng ketchup.</td>
+    </tr>
+    <tr>
+      <td>Plato</td>
+      <td>1 (puti)</td>
+      <td>Para sa huling presentasyon.</td>
+    </tr>
+    <tr>
+      <td>Tinidor</td>
+      <td>1</td>
+      <td>Bilang bahagi ng final plating.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hakbang-hakbang na Gabay sa Fried Potatoes</h2>
+
+<h3>Hakbang 1. Ani ng Patatas (Mini-game)</h3>
+<p>
+  Pindutin at hawakan ang <strong>tangkay ng halaman ng patatas</strong> para hilahin ang mga patatas mula sa lupa.
+  I-drag ang mga mabubuting patatas na nakasabit sa mga ugat papunta sa <strong>sako sa kaliwa</strong> (may markang simbolo ng patatas).
+  Iwasan ang sako sa kanan (may markang 'X').
+</p>
+<p>
+  💡 <strong>Tip:</strong> Mabilisang i-drag lahat ng patatas papunta sa tamang sako bago ito bumalik.
+</p>
+
+<h3>Hakbang 2. Hugasan ang Patatas</h3>
+<p>
+  Sa istasyon ng lababo, pindutin ang <strong>buton ng drain plug</strong>. Buksan ang <strong>gripo</strong> sa pamamagitan ng pag-tap para punuin ang lababo ng tubig.
+  I-drag ang maruming patatas mula sa sako papunta sa lababo isa-isa. Kapag malinis na (kumikislap), i-drag papunta sa <strong>pink na tray</strong> na malapit.
+  Patayin ang gripo.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Siguraduhing hugasan nang mabuti lahat ng patatas hanggang kumislap.
+</p>
+
+<h3>Hakbang 3. Balatan at Hiwa-hiwain ang Patatas</h3>
+<p>
+  Ilagay ang isang patatas sa <strong>cutting board</strong>. Piliin ang <strong>peeler</strong> at i-drag ito sa patatas hanggang sa mabalat nang buo.
+  Piliin ang <strong>kutsilyo</strong>. I-drag ito pababa sa gitnang guide, pagkatapos ay paulit-ulit na i-drag ito pahalang sa mga guide para hiwain ang patatas na parang fries.
+  Ilagay ang hiniwang fries sa <strong>asul na mangkok</strong>. Ulitin para sa natitirang dalawang patatas.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Sundin nang tama ang mga gabay sa paghiwa para pantay-pantay ang fries.
+</p>
+
+<h3>Hakbang 4. Blanch ang fries sa kumukulong tubig</h3>
+<p>
+  Ilagay ang <strong>palayok</strong> sa ilalim ng gripo at punuin ito ng tubig.
+  Ilipat ang palayok sa <strong>induction cooktop</strong>.
+  Takpan ang palayok gamit ang <strong>takip</strong> at buksan ang cooktop.
+  Maghintay hanggang kumulo ang tubig (makikita sa bula).
+  Alisin ang takip at ilagay ang hiniwang fries mula sa asul na mangkok sa kumukulong tubig.
+  Hintayin na medyo pumuti ang kulay ng fries (blanched).
+  Gamitin ang <strong>spider strainer</strong> para hanguin ang fries at ilagay sa <strong>tray na may paper towel</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Huwag palagpasin ang pagluluto sa blanching; sandali lang ang kailangan.
+</p>
+
+<h3>Hakbang 5. Iprito ang Patatas</h3>
+<p>
+  Ilagay ang <strong>frying pan</strong> sa cooktop at buksan.
+  Maglagay ng <strong>mantika</strong> mula sa bote sa kawali at hintayin na uminit (magkikislap).
+  Ibuhos ang <strong>harina</strong> mula sa mangkok sa <strong>plastic container</strong>.
+  Ilagay ang blanched fries sa loob ng container.
+  Isara ang takip at haluin nang mabuti (pindutin/drag nang mabilis) hanggang pantay ang harina sa fries.
+  Buksan ang takip. Ilagay ang mga harina-coated fries sa mainit na mantika sa kawali.
+  Iprito hanggang maging gintong kayumanggi.
+  Gamitin ang <strong>spider strainer</strong> para hanguin ang lutong fries at ilagay sa bagong paper towel sa tray.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Siguraduhing mainit ang mantika bago ilagay ang fries. Haluin nang mabuti para pantay ang harina.
+  Iprito hanggang maging magandang kulay ginto.
+</p>
+
+<h3>Hakbang 6. Ihain ang Fried Potatoes</h3>
+<p>
+  Ilipat ang lutong fries mula sa paper towel papunta sa <strong>puting plato</strong>.
+  Piliin ang <strong>salt shaker</strong> at budburan ng asin ang fries.
+  Piliin ang <strong>boteng ketchup</strong> at pisilin ang ketchup sa <strong>maliit na mangkok</strong> para sa sawsawan.
+  Ilagay ang mangkok ng ketchup sa plato katabi ng fries.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ayusin nang maayos ang fries, at huwag kalimutang lagyan ng asin at ketchup dip.
+</p>
+
+<h2>Mga Tip at Tricks para sa Cookingdom Level 2</h2>
 <ul>
-  <li><strong>Gumawa ng Pritong Patatas:</strong> Matutunan ang tamang paraan ng paggamit ng fryer kahit wala pa ang mas komplikadong hakbang tulad ng sa oven.</li>
-  <li><strong>Hawak ang Maramihang Customer:</strong> Asahan ang mas maraming customer kaysa sa unang antas, kaya kailangang maging mabilis at episyente.</li>
-  <li><strong>Pahusayin ang Kusina:</strong> Gumamit ng mga kagamitan sa kusina tulad ng fryer at chopping area upang mapabilis ang trabaho.</li>
+  <li>Sa mini-game, siguraduhing ilalagay ang mga patatas sa sako na may simbolo ng patatas lamang.</li>
+  <li>Hugasan nang maigi ang bawat patatas sa lababo.</li>
+  <li>Balatan nang buo at sundin ang mga gabay sa paghiwa para pantay ang pagluto.</li>
+  <li>Ang blanching nang panandalian ay tumutulong upang maging malambot ang loob at malutong ang labas ng fries.</li>
+  <li>Siguraduhing mainit nang husto ang mantika bago magprito para sa tamang lutong malutong.</li>
+  <li>Haluin nang mabuti ang container para pantay ang harina sa fries.</li>
+  <li>Patuyuin nang maayos ang fries pagkatapos blanching at pagprito.</li>
 </ul>
-<h2>Mga Hakbang sa Pagprito ng Patatas</h2>
-<h3>Ihanda ang Patatas:</h3>
-<p>Kunin ang patatas mula sa imbakan at hiwain ito sa manipis na strips. Puwedeng maghanda bago dumating ang order o habang nagluluto.</p>
+
+<h2>Mga Karaniwang Pagkakamali na Iwasan sa Cookingdom Level 2</h2>
 <ul>
-  <li><strong>Tip:</strong> Kung marami nang customer, mainam na maghanda ng strips nang mas maaga upang mas mapabilis ang serbisyo.</li>
+  <li>Paglalagay ng patatas sa maling sako habang nag-aani.</li>
+  <li>Pagkakamaling hindi paghuhugas o pagbabalat ng patatas.</li>
+  <li>Pagpuputol ng fries nang masyadong makapal o hindi pantay.</li>
+  <li>Paglalagay ng fries sa malamig na tubig para sa blanching o malamig na mantika para sa pagprito.</li>
+  <li>Pagluluto nang sobra o kulang sa oras habang blanching o pagprito.</li>
+  <li>Hindi wastong pagbalot ng fries gamit ang harina.</li>
+  <li>Pagkakamaling hindi pagdagdag ng asin o ketchup sa paghahain.</li>
 </ul>
-<h3>Iprito ang Patatas:</h3>
-<p>Ilagay ang hiniwang patatas sa fryer. Bantayan ang oras ng pagprito upang lumabas na malutong sa labas at malambot sa loob.</p>
-<ul>
-  <li>Obserbahan ang kulay ng patatas habang piniprito upang hindi ito masunog o sumobra sa mantika.</li>
-  <li><strong>Tip:</strong> Kapag kulay ginto na at lumulutang na sa mantika, handa na itong hanguin.</li>
-</ul>
-<h3>Magdagdag ng Pampalasa:</h3>
-<p>Pagkatapos iprito, maglagay ng asin, paminta, o iba pang pampalasa upang mapataas ang satisfaction ng customer.</p>
-<h3>Ihatid sa Customer:</h3>
-<p>Agad na ihatid ang pritong patatas. Mabilis man itong gawin, kailangang hindi pa rin matagalan ang serbisyo.</p>
-<h2>Mga Tip at Teknik</h2>
-<ul>
-  <li><strong>Maghanda ng Maaga:</strong> Sa dami ng posibleng order, mahalagang handa na ang hiniwang patatas at maiinit ang fryer.</li>
-  <li><strong>Kontrolin ang Oras ng Pagprito:</strong> Ang sobra ay magiging sunog o mamantika, ang kulang ay hindi magiging crispy. Tingnan ang hitsura at pagkilos sa fryer.</li>
-  <li><strong>Gamitin ang Kitchen Boosters:</strong> Maaari kang makakuha ng mabilis na fryer o extra trays. Gamitin ito tuwing maraming order.</li>
-  <li><strong>I-prioritize ang Mga Customer:</strong> Unahin ang customer na matagal nang naghihintay. Mas mataas ang posibilidad na umalis sila kapag inantala.</li>
-  <li><strong>Maglingkod Agad:</strong> Ang bilis sa serbisyo ay susi. Samantalang mabilis gawin ang fries, gamitin ang oras para sa paghahanda ng susunod na order o paglilinis.</li>
-</ul>
-<h2>Buod</h2>
-<p>Ang pritong patatas sa Antas 2 ay simple pero nangangailangan ng mahusay na kontrol sa oras at kusina. Matututo kang gumamit ng fryer at asikasuhin ang maraming customer. Sa pag-abante mo sa laro, magiging mas komplikado ang mga resipe kaya ang kahusayan sa kusina ang susi sa tagumpay.</p>
-<p>Kapag natapos mo ang Antas 2, maa-unlock mo ang mas maraming resipe at kagamitan para sa mas mataas na antas.</p>`,
+
+    `,
   },
 
   {
@@ -209,39 +403,171 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Panimula sa Laro</h2>
-<p>Sa Antas 3, ipakikilala sa iyo ang paggawa ng ice cream na pinagulong. Ang panghimagas na ito ay nangangailangan ng masusing timing at kontrol, at itinuturo kung paano gamitin ang mga freezing plate, panatilihin ang tamang lapot, at magdekorasyon gamit ang toppings.</p>
-<h2>Layunin ng Antas 3</h2>
+    detailsHtml: `
+      <h2>Maligayang Pagdating sa Cookingdom Level 3: Gabay at Walkthrough para sa Rolled Ice-Cream</h2>
+<p>
+  Maligayang pagdating sa <strong>Cookingdom Level 3</strong>, kung saan ang iyong misyon ay gumawa ng perpektong
+  <strong>rolled ice cream</strong> gamit ang tamang mga kagamitan, tamang pagkakasunod-sunod, at tamang timing.
+  Ipinapakilala ng level na ito ang mga manlalaro sa intuitive ngunit eksaktong mekaniks ng pagluluto ng Cookingdom
+  sa isang relaxed na kapaligiran na walang timer.
+</p>
+<p>
+  Ang walkthrough na ito ay nagbibigay sa iyo ng eksaktong mga hakbang upang magtagumpay sa <strong>Cookingdom Level 3</strong>,
+  na nagdedetalye ng bawat sangkap, aksyon, at tamang lugar na kinakailangan.
+</p>
+
+<h2>Mga Kailangan na Sangkap</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ice Cream Base (Puti)</td>
+      <td>4 na scoop kabuuan (2 bawat mangkok)</td>
+      <td>Ang pangunahing base para sa rolled ice cream.</td>
+    </tr>
+    <tr>
+      <td>Saging</td>
+      <td>Tinatayang 1/2</td>
+      <td>Hiniwa, para sa unang variation.</td>
+    </tr>
+    <tr>
+      <td>Kiwi</td>
+      <td>Tinatayang 1/2</td>
+      <td>Dinice, para sa ikalawang variation.</td>
+    </tr>
+    <tr>
+      <td>Gatas</td>
+      <td>1 karton</td>
+      <td>Ibubuhos sa halo sa malamig na plato (ginagamit ng dalawang beses).</td>
+    </tr>
+    <tr>
+      <td>Makukulay na Sprinkles/Kendi Bits</td>
+      <td>1 pinggan</td>
+      <td>Ginagamit bilang toppings para sa parehong mangkok.</td>
+    </tr>
+    <tr>
+      <td>Mga Ipil-ipil na Chocolate Syrup</td>
+      <td>1 pinggan</td>
+      <td>Pre-made swirls bilang topping para sa parehong mangkok.</td>
+    </tr>
+    <tr>
+      <td>Chocolate Bars</td>
+      <td>1 pinggan</td>
+      <td>Mga piraso na ginamit bilang topping para sa parehong mangkok.</td>
+    </tr>
+    <tr>
+      <td>Wafer Sticks/Pocky</td>
+      <td>1 tasa</td>
+      <td>Ginagamit bilang garnish na topping para sa parehong mangkok.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk na Pang-hain (Bughaw)</td>
+      <td>2</td>
+      <td>Para sa paglalagay ng tapos na rolled ice cream.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hakbang-hakbang na Walkthrough ng Rolled Ice-Cream</h2>
+
+<h3>Hakbang 1. Idagdag ang Base at Prutas</h3>
+<p>
+  Gamit ang scoop, ilagay ang <strong>dalawang scoop ng puting ice cream base</strong> sa malamig na plato.
+  Piliin ang alinman sa <strong>saging o kiwi</strong> at ilagay ang mga piraso ng prutas sa base.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Siguraduhing idagdag ang prutas bago haluin. Lalabas ang icon ng puso bilang kumpirmasyon ng tamang paglalagay.
+</p>
+
+<h3>Hakbang 2. Hiwain at Haluin ang Prutas</h3>
+<p>
+  Gamit ang <strong>dalawang spatula</strong>, paulit-ulit na hiwain ang prutas sa ice cream base sa malamig na plato, haluing mabuti.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Haluin hanggang sa maging pantay ang prutas at base. Lalabas ang icon ng puso kapag sapat na ang paghahalo.
+</p>
+
+<h3>Hakbang 3. Ibuhos ang Gatas 🥛</h3>
+<p>
+  Ibuhos ang <strong>gatas</strong> mula sa karton sa ibabaw ng hinabing prutas at ice cream mixture sa plato.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ibuhos nang pantay-pantay sa buong mixture. Maghintay sa kumpirmasyon ng icon ng puso.
+</p>
+
+<h3>Hakbang 4. Pantayin ang Mixture nang Manipis</h3>
+<p>
+  Mabilis na gamitin ang <strong>spatula</strong> para pantayin ang likidong mixture sa isang <strong>manipis at pantay na parihaba</strong>
+  sa buong malamig na plato. Gamitin ang spatula para gawing patayong linya at hatiin ang layer sa mga strip.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Mabilisang gawin bago ito tumigas. Mahalaga ang manipis at pantay na layer para sa magandang gulungan.
+  Lalabas ang icon ng puso pagkatapos mapantay.
+</p>
+
+<h3>Hakbang 5. I-roll ang Ice Cream</h3>
+<p>
+  Ilagay ang isang <strong>spatula</strong> sa ilalim ng isang strip. Itulak nang matatag ng mga 45-degree na anggulo
+  upang mailabas mula sa plato ang layer ng ice cream at ito ay gumulong. Ulitin para sa lahat ng strip.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Mahalaga ang tamang pressure at anggulo para sa maayos na gulungan. Lalabas ang icon ng puso kapag lahat ng strip ay na-roll.
+</p>
+
+<h3>Hakbang 6. Ilipat ang mga Gulungan sa Mangkuk</h3>
+<p>
+  Maingat na gamitin ang <strong>spatula</strong> para kunin ang bawat gulung na ice cream at ilagay ito ng patayo sa
+  <strong>bughaw na mangkuk</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ayusin nang maayos ang mga gulungan para mapuno ang mangkuk.
+</p>
+
+<h3>Hakbang 7. Idagdag ang Toppings 🎉</h3>
+<p>
+  Budburan ang <strong>makukulay na candy bits</strong> sa ibabaw ng mga gulungan ng ice cream sa mangkuk.
+  Idagdag ang <strong>chocolate syrup swirls</strong>. Sa huli, ilagay ang mga piraso ng <strong>chocolate bar</strong> at <strong>wafer sticks</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Sundin ang tamang pagkakasunod-sunod ng toppings: Sprinkles -> Syrup Swirls -> Chocolate/Wafers.
+  Lalabas ang icon ng puso pagkatapos idagdag ang syrup at chocolate/wafer.
+</p>
+
+<h3>Hakbang 8. Ulitin para sa Pangalawang Variation</h3>
+<p>
+  Gumawa ng pangalawang mangkuk ng rolled ice cream gamit ang <em>ibang</em> prutas (kung ginamit ang saging sa una,
+  kiwi naman ngayon, at kabaliktaran). Sundin lahat ng naunang hakbang (1-7) para sa pangalawang mangkuk.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Kailangan ng customer ang parehong variation (Saging at Kiwi) para makumpleto ang level.
+</p>
+
+<h2>Mga Tip at Trick para sa Cookingdom Level 3</h2>
 <ul>
-  <li><strong>Masterin ang Pag-roll:</strong> Ibuhos at patigasin ang ice cream base, saka ito igulong nang maayos para sa magandang itsura.</li>
-  <li><strong>Kreatibong Toppings:</strong> Magdagdag ng prutas, kendi, o sarsa para masiyahan ang customer.</li>
-  <li><strong>Oras at Sunod-sunod:</strong> Pamahalaan ang pagyeyelo at pag-roll nang mahusay upang maiwasan ang pagkaantala.</li>
+  <li>✔️ <strong>Mahalaga ang bilis</strong> sa pag-spread ng mixture sa malamig na plato.</li>
+  <li>✔️ Siguraduhing <strong>manipis na manipis</strong> ang layer para madaling i-roll.</li>
+  <li>✔️ Mahalaga ang <strong>tamang anggulo ng scraping</strong> para sa perpektong gulungan na hindi mababasag.</li>
+  <li>✔️ Huwag kalimutan gawin ang <strong>parehong banana at kiwi variations</strong> para matuwa ang customer.</li>
+  <li>✔️ Magdagdag ng toppings ayon sa <strong>tamang pagkakasunod-sunod</strong> na ipinakita sa video.</li>
 </ul>
-<h2>Mga Hakbang sa Paggawa ng Ice Cream na Pinagulong</h2>
-<h3>Ihanda ang Base:</h3>
-<p>Pumili ng tamang base ng ice cream mula sa ingredients area. Ibuhos ito nang pantay sa malamig na plato para tumigas.</p>
+
+<h2>Karaniwang Mali na Iwasan sa Cookingdom Level 3</h2>
 <ul>
-  <li><strong>Tip:</strong> Ikalat ito nang manipis para sa mas mabilis na pagyeyelo at madaling pag-roll.</li>
+  <li>Pagkakapal ng ice cream base na masyadong makapal, kaya mahirap i-roll.</li>
+  <li>Hindi sapat na paghahalo ng prutas at base.</li>
+  <li>Pag-roll nang mabagal o mali ang pressure/anggulo na nagreresulta sa pagkabasag ng gulungan.</li>
+  <li>Pagkakalimot magdagdag ng gatas.</li>
+  <li>Hindi paglalagay ng lahat ng toppings o maling pagkakasunod-sunod ng mga ito.</li>
+  <li>Paghahanda ng isa lang sa dalawang kinakailangang prutas variation.</li>
 </ul>
-<h3>Patigasin at I-roll:</h3>
-<p>Hayaan munang tumigas ang base sa plato. Gamitin ang spatula para ikayod at igulong ang nagyelong layer.</p>
-<ul>
-  <li>Pagmasdan nang mabuti—simulan ang pag-roll kapag matigas na ngunit hindi bato sa tigas.</li>
-  <li><strong>Tip:</strong> Pantay at maayos na pag-roll ang susi sa mabilis at mataas na rating ng customer.</li>
-</ul>
-<h3>Magdagdag ng Toppings:</h3>
-<p>Pumili ng toppings tulad ng strawberry, tsokolate syrup, o sprinkles. Ilagay agad bago ihain.</p>
-<h3>Ihain sa Customer:</h3>
-<p>Ihatid kaagad ang ice cream roll na may dekorasyon. Mahalaga ang bilis at presentasyon para sa customer satisfaction.</p>
-<h2>Mga Tip at Teknik</h2>
-<ul>
-  <li><strong>Gumawa nang Maramihan:</strong> Ihanda ang maraming base at paikutin ang freezing process para tuloy-tuloy ang paggawa lalo na kapag maraming customer.</li>
-  <li><strong>Tamang Pagyeyelo:</strong> Mahalaga ang timing. Kapag kulang sa yelo, hindi maganda ang roll; kapag sobra, mahirap igulong.</li>
-  <li><strong>Mabilis na Dekorasyon:</strong> Ihanda na ang toppings para maikabit agad matapos ang pag-roll.</li>
-  <li><strong>I-upgrade ang Kagamitan:</strong> Mag-unlock ng mas mabilis na freezer o mas mahusay na spatula para mapabilis ang trabaho.</li>
-</ul>
-<h2>Buod</h2>
-<p>Ang Antas 3 ng Cookingdom ay nagpapakilala ng bagong gameplay mechanic sa pamamagitan ng paggawa ng ice cream na pinagulong. Kailangan mong balansehin ang oras ng pagyeyelo, husay sa pag-roll, at tamang dekorasyon para makalikha ng perpektong panghimagas. Sa paulit-ulit na pagsasanay, magiging bihasa ka sa mabilis at magandang serbisyo. Humanda na sa mas hamon pang mga antas!</p>`,
+
+    `,
   },
 
   {
@@ -290,38 +616,223 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Pagpapakilala sa Laro</h2>
-<p>Ipinapakilala ng Antas 4 ang mga manlalaro sa isang sariwa at malusog na putahe: Simpleng Salad. Bagama't mukhang madali, ang hamon ay nasa mabilis na pagproseso ng mga order at paghahanda ng mga sangkap. Mahalaga ang katumpakan, bilis, at multitasking para magtagumpay.</p>
-<h2>Layunin ng Antas 4</h2>
+    detailsHtml: `
+    <h2>Maligayang Pagdating sa Cookingdom Level 4: Simpleng Salad Walkthrough & Gabay 🥗</h2>
+<p>
+  Maligayang pagdating sa <strong>Cookingdom Level 4</strong>, kung saan ang iyong misyon ay gumawa ng perpektong
+  <strong>Simpleng Salad</strong> gamit ang tamang kagamitan, pagkakasunod-sunod, at tamang oras. Ipinapakilala ng level na ito
+  ang mga manlalaro sa intuitive ngunit tumpak na mekaniks ng pagluluto sa Cookingdom sa isang relaxed na kapaligiran na walang timer.
+</p>
+<p>
+  Ang walkthrough na ito ay nagbibigay ng eksaktong mga hakbang upang magtagumpay sa <strong>Cookingdom Level 4</strong>,
+  na nagdedetalye ng bawat sangkap, aksyon, at tamang pag-aayos na kinakailangan.
+</p>
+
+<h2>Mga Kinakailangang Sangkap</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lettuce (Letsugas)</td>
+      <td>1 ulo</td>
+      <td>Kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Avocado</td>
+      <td>1</td>
+      <td>Kailangang hugasan, balatan, at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Kamatis</td>
+      <td>1</td>
+      <td>Kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td> Sibuyas</td>
+      <td>1</td>
+      <td>Kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Red Cabbage (Pulangkabis)</td>
+      <td>1 piraso</td>
+      <td>Kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Carrot (Karot)</td>
+      <td>1</td>
+      <td>Kailangang hugasan, balatan, at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Tubig</td>
+      <td>Gaano man ang kailangan</td>
+      <td>Ginagamit sa paghuhugas ng mga gulay sa lababo.</td>
+    </tr>
+    <tr>
+      <td>Panabong Pang-balatan (Peeler)</td>
+      <td>1</td>
+      <td>Ginagamit para sa pagbabalat ng karot at avocado.</td>
+    </tr>
+    <tr>
+      <td>Kutsilyo</td>
+      <td>1</td>
+      <td>Ginagamit sa paghiwa ng lahat ng gulay.</td>
+    </tr>
+    <tr>
+      <td>Tabla sa Pagputol</td>
+      <td>1</td>
+      <td>Hulugan para sa pagbabalat at paghiwa.</td>
+    </tr>
+    <tr>
+      <td>Mga Lalagyan</td>
+      <td>3</td>
+      <td>
+        Pansamantalang lagayan para sa mga hugas at inihandang gulay (berde, rosas, at lila na mga gilid).
+      </td>
+    </tr>
+    <tr>
+      <td>Mangkuk para sa Paghahalo</td>
+      <td>1 (lila)</td>
+      <td>Ginagamit para pagsamahin at ihalo ang mga sangkap ng salad.</td>
+    </tr>
+    <tr>
+      <td>Mga Sandok/Panghalo</td>
+      <td>2 (kahoy)</td>
+      <td>Ginagamit sa paghahalo ng salad.</td>
+    </tr>
+    <tr>
+      <td>Plato para sa Paghain</td>
+      <td>1 (may lila na gilid)</td>
+      <td>Para sa huling presentasyon.</td>
+    </tr>
+    <tr>
+      <td>Malalaking Dahon ng Lettuce</td>
+      <td>2-3</td>
+      <td>Ginagamit bilang base sa pagplato ng salad.</td>
+    </tr>
+    <tr>
+      <td>Salad Dressing</td>
+      <td>1 bote</td>
+      <td>Kewpie style na bote, ginagamit para sa huling pagbudbod.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hakbang-hakbang na Gabay sa Simpleng Salad</h2>
+
+<h3>Hakbang 1. Hugasan ang Mga Gulay</h3>
+<p>
+  Buksan ang <strong>gripo</strong> sa lababo. Isa-isang ilagay ang <strong>lettuce, avocado, kamatis, sibuyas, pulangkabis, at karot</strong> sa lababo.
+  Hintayin na kumislap ang bawat isa na nangangahulugang malinis na ito. Ilagay ang mga hinugasan na gulay sa <strong>pansamantalang mga lalagyan</strong>.
+  Patayin ang gripo.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Siguraduhing kumislap ang bawat gulay bago ilabas mula sa lababo.
+</p>
+
+<h3>Hakbang 2. Hiwaing ang Lettuce</h3>
+<p>
+  Ilagay ang hinugasan na <strong>lettuce</strong> sa <strong>tabla sa pagputol</strong>. Piliin ang <strong>kutsilyo</strong>.
+  Sundan ang mga gabay sa screen para hiwain ang lettuce. Ilipat ang hiniwang lettuce sa <strong>berdeng lalagyan</strong>.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Sundan nang maayos ang mga gabay upang makuha ang tamang sukat at hugis.
+</p>
+
+<h3>Hakbang 3. Hiwaing ang Pulang Kabis</h3>
+<p>
+  Ilagay ang hinugasan na <strong>pulangkabis</strong> sa tabla sa pagputol. Piliin ang kutsilyo at sundan ang mga gabay para sa paghiwa.
+  Ilipat ang hiniwang pulangkabis sa <strong>lilang lalagyan na may gilid</strong>.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Ang tamang paghiwa ayon sa gabay ay mahalaga para sa wastong pag-shred.
+</p>
+
+<h3>Hakbang 4. Hiwaing ang Sibuyas</h3>
+<p>
+  Ilagay ang hinugasan na <strong>sibuyas</strong> sa tabla sa pagputol. Piliin ang kutsilyo at sundan ang gabay para hiwain; ang balat ay kusang matatanggal.
+  Ilipat ang hiniwang sibuyas sa <strong>rosas na lalagyan na may gilid</strong>.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Ang paghiwa ayon sa gabay ay awtomatikong nagtatanggal ng balat.
+</p>
+
+<h3>Hakbang 5. Hiwaing ang Kamatis</h3>
+<p>
+  Ilagay ang hinugasan na <strong>kamatis</strong> sa tabla sa pagputol. Piliin ang kutsilyo at sundan ang gabay sa paghiwa.
+  Ilipat ang hiniwang kamatis sa rosas na lalagyan.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Ang matatag na paghiwa ayon sa linya ay nagreresulta ng perpektong hiwa.
+</p>
+
+<h3>Hakbang 6. Balatan at Hiwaing ang Karot</h3>
+<p>
+  Ilagay ang hinugasan na <strong>karot</strong> sa tabla sa pagputol. Piliin ang <strong>panabong pang-balatan</strong> at balatan ang karot nang buo.
+  Palitan sa kutsilyo at sundan ang gabay para hiwain. Ilipat ang hiniwang karot sa lilang lalagyan na may gilid.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Siguraduhing lubos na nabalatan ang karot bago hiwain.
+</p>
+
+<h3>Hakbang 7. Balatan at Hiwaing ang Avocado</h3>
+<p>
+  Ilagay ang hinugasan na <strong>avocado</strong> sa tabla sa pagputol. Piliin ang panabong pang-balatan at balatan ang avocado.
+  Palitan sa kutsilyo at sundan ang gabay para hiwain (kusang tinatanggal ang buto).
+  Ilipat ang hiniwang avocado sa berdeng lalagyan.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Mas madali ang paghiwa kapag nauna nang nabalatan; sundan ang gabay.
+</p>
+
+<h3>Hakbang 8. Haluin ang Salad</h3>
+<p>
+  Lalabas ang eksena kay Chef Capybara. Ilagay lahat ng inihandang sangkap
+  (hiniwang lettuce, pulangkabis, sibuyas, kamatis, karot, at avocado) mula sa mga lalagyan
+  sa malaking <strong>lilang mangkuk para sa paghahalo</strong>. Gamitin ang dalawang kahoy na sandok para haluin ang salad
+  sa pamamagitan ng pag-tap o paghila hanggang mapuno ang progress bar.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Siguraduhing lahat ng sangkap ay nasa mangkuk bago haluin nang mabuti.
+</p>
+
+<h3>Hakbang 9. Ihain at Lagyan ng Dressing ang Salad</h3>
+<p>
+  Ayusin ang <strong>malalaking dahon ng lettuce</strong> sa <strong>plato para sa paghain</strong> bilang base.
+  Ibuhos ang hinalong salad mula sa lilang mangkuk sa ibabaw ng mga dahon ng lettuce. Piliin ang
+  <strong>boteng salad dressing</strong> at ipahid ang dressing sa salad gamit ang crisscross na pattern.
+</p>
+<p>
+  💡 <strong>Tips:</strong> Gumawa ng magandang base gamit ang lettuce at pantay-pantayin ang dressing gaya ng ipinakita.
+</p>
+
+<h2>Mga Tips at Tricks para sa Cookingdom Level 4</h2>
 <ul>
-  <li><strong>Tadtarin at Ihalo:</strong> Maingat na ihanda ang mga sangkap ng salad sa pamamagitan ng pagtadtad ng mga gulay at paghahalo sa tamang ayos.</li>
-  <li><strong>Magsilbi nang Mabilis:</strong> Inaasahan ng mga customer ang mabilis na serbisyo; panatilihin ang maayos na daloy ng trabaho para maiwasan ang pagkaantala.</li>
-  <li><strong>Pangasiwaan ang Kasariwaan:</strong> Huwag hayaang matagal ang mga sangkap o baka masira o tanggihan ng mga pihikang customer.</li>
+  <li>✔️ Hugasan ang mga gulay hanggang kumislap para siguraduhing malinis.</li>
+  <li>✔️ Sundin nang maingat ang mga gabay sa pagputol upang makuha ang tamang sukat at hugis.</li>
+  <li>✔️ Huwag kalimutan balatan ang karot at avocado bago hiwain.</li>
+  <li>✔️ Haluin ang salad hanggang mapuno ang progress bar.</li>
+  <li>✔️ Gamitin ang malalaking dahon ng lettuce bilang dekorasyon at base sa pagplato.</li>
+  <li>✔️ Sundin ang crisscross na pattern sa paglalagay ng dressing para sa pinakamagandang presentasyon.</li>
 </ul>
-<h2>Mga Hakbang sa Paggawa ng Simpleng Salad</h2>
-<h3>Kunin ang mga Sangkap:</h3>
-<p>Kolektahin ang mga gulay: letsugas, kamatis, at pipino. Ang mga sangkap ay nasa istasyon ng mga sangkap—i-tap upang ilipat sa prep board.</p>
+
+<h2>Karaniwang Mali na Iwasan sa Cookingdom Level 4</h2>
 <ul>
-  <li><strong>Tips:</strong> Laging maghanda ng ilang mga sangkap habang walang ginagawa.</li>
+  <li>Hindi maingat na paghuhugas ng lahat ng gulay.</li>
+  <li>Pagkakaligtaan ng pagbabalat ng karot o avocado.</li>
+  <li>Maling paghiwa ng mga gulay (hindi pagsunod sa gabay).</li>
+  <li>Paglalagay ng mga sangkap sa mangkuk sa maling pagkakasunod-sunod (bagamat kadalasan ay walang penalty).</li>
+  <li>Hindi sapat na paghahalo ng salad (hindi napupuno ang progress bar).</li>
+  <li>Pagkakaligtaan ng paglalagay ng base ng dahon ng lettuce sa plato.</li>
+  <li>Hindi paglalagay o magulo ang paglalagay ng salad dressing.</li>
 </ul>
-<h3>Tadtarin ang Gulay:</h3>
-<p>Gamitin ang kutsilyo upang tadtarin ang mga sangkap. Mahalaga ang katumpakan—kung mabagal, maghihintay ang mga customer; kung mabilis nang sobra, baka magkamali.</p>
-<h3>Ihalo at Ayusin:</h3>
-<p>Ilagay ang mga tinadtad na gulay sa mangkok ng salad sa tamang pagkakasunod-sunod. May ilang customer na humihiling ng partikular na kombinasyon.</p>
-<ul>
-  <li><strong>Tips:</strong> Pansinin ang mga bubble ng order na nagpapakita ng mga kagustuhan ng customer.</li>
-</ul>
-<h3>Magsilbi sa Customer:</h3>
-<p>Ihatid ang salad nang mabilis pagkatapos itong ihanda. Kapag nahuli, bababa ang kasiyahan ng customer.</p>
-<h2>Mga Tip at Trick</h2>
-<ul>
-  <li><strong>Maghanda ng Karaniwang Gulay nang Maaga:</strong> Ang letsugas at kamatis ay madalas lumabas sa mga order, kaya ang maagang paghahanda nito ay nagpapabilis ng serbisyo.</li>
-  <li><strong>Pansinin ang Hilera ng Order:</strong> Maghanda para sa susunod na order habang inaasikaso ang kasalukuyang order para mapanatili ang daloy sa panahon ng rush.</li>
-  <li><strong>Mag-upgrade ng Mga Kasangkapan:</strong> I-unlock ang mas mabilis na kutsilyo o awtomatikong pangtadtad para madagdagan ang bilis at katumpakan.</li>
-  <li><strong>Pamahalaan ang Oras:</strong> Mahalaga ang pagbalanse ng mga order at kasariwaan. Iwasang mag-imbak nang sobra para maiwasan ang pag-aaksaya.</li>
-</ul>
-<h2>Buod</h2>
-<p>Ang Cookingdom Antas 4 ay tungkol sa bilis at katumpakan. Bagama't simple ang salad, ang mabilis na mga order at mga espesyal na kahilingan ay susubok sa iyong kakayahan na pamahalaan ang mga sangkap, oras ng paghahanda, at daloy ng serbisyo. Maghanda para sa mas mahihirap na putahe sa mga susunod na antas!</p>`,
+
+    `,
   },
 
   {
@@ -671,59 +1182,182 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Pangkalahatang-ideya ng Laro sa Antas 8 ng Cookingdom</h2>
-  <p>Sa Antas 8 ng Cookingdom, dadalhin mo sa iyong kusina ang malakas at malinamnam na lasa ng Texas BBQ. Ang antas na ito ay hamon sa iyong kakayahan sa pagluluto ng masarap na BBQ na may kasamang iba’t ibang karne, sarsa, at mga side dish.</p>
-  <p>Maghahanda ka ng BBQ meats tulad ng ribs o brisket, kasabay ng mga klasikong panig gaya ng cornbread, baked beans, at coleslaw. Ang hamon dito ay ang maayos na pagsabay-sabay ng pagluluto upang mainit at masarap itong maihain.</p>
-  
-  <h2 id="goal">Mga Layunin sa Antas 8</h2>
-  <ul>
-    <li><strong>Lutuin ang BBQ na Karne (Ribs o Brisket):</strong> Kailangang maluto ito nang malambot, makatas, at puno ng usok-lasa.</li>
-    <li><strong>Ihanda ang BBQ Sauce:</strong> Napakahalaga ng tamang timpla ng sarsa para makuha ang tunay na Texas BBQ flavor.</li>
-    <li><strong>Lutuin ang mga Side Dish:</strong> Isabay ang pagluluto ng cornbread, baked beans, at coleslaw habang nagluluto ng karne.</li>
-    <li><strong>Maghain Agad:</strong> Kailangang mainit at sariwa ang BBQ sa paghatid upang makakuha ng mataas na rating mula sa mga customer.</li>
-  </ul>
-  
-  <h2 id="steps">Mga Hakbang sa Pagluluto ng Texas BBQ</h2>
-  <ol>
-    <li>
-      <h3>Lutuin ang BBQ Meat (Ribs o Brisket):</h3>
-      <p>Simulan sa paglalagay ng ibinigay na pampalasa. Ilagay sa grill o smoker at hayaang maluto ng dahan-dahan. Baliktarin paminsan-minsan.</p>
-      <p><strong>Tip:</strong> Huwag labis ang luto—mawawala ang tamang lambot at katas ng karne.</p>
-    </li>
-    <li>
-      <h3>Ihanda ang BBQ Sauce:</h3>
-      <p>Gamitin ang sangkap gaya ng ketchup, suka, at brown sugar upang makabuo ng makapal at flavorful na sarsa. Haluin paminsan-minsan upang hindi masunog.</p>
-    </li>
-    <li>
-      <h3>Lutuin ang mga Side Dish:</h3>
-      <ul>
-        <li><strong>Cornbread:</strong> Matamis-tamis at malambot na tinapay.</li>
-        <li><strong>Baked Beans:</strong> Malinamnam na beans na may sarsa.</li>
-        <li><strong>Coleslaw:</strong> Malutong at preskong salad bilang pantapat sa BBQ.</li>
-      </ul>
-    </li>
-    <li>
-      <h3>Ihanda ang Plato:</h3>
-      <p>Isalansan ang BBQ meat at mga side dish sa plato—maayos, masarap tingnan, at handang ihain.</p>
-    </li>
-    <li>
-      <h3>Ihain ang Texas BBQ:</h3>
-      <p>Ihatid agad ang pagkaing mainit para sa pinakamataas na puntos.</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Mga Tip at Teknik sa Antas 8</h2>
-  <ul>
-    <li><strong>Bagalan ang Pagluluto ng Karne:</strong> Dahan-dahan pero tiyak ang proseso—iyan ang susi sa malambot at masarap na BBQ.</li>
-    <li><strong>Perpektuhin ang BBQ Sauce:</strong> Panatilihing balanse ang alat, tamis, at asim. Huwag hayaang masunog habang niluluto.</li>
-    <li><strong>Maging Mahusay sa Multitasking:</strong> Habang nagluluto ng karne, bantayan din ang mga side dish.</li>
-    <li><strong>Ihain Nang Mainit:</strong> Agarang paghatid = mataas na customer rating.</li>
-    <li><strong>I-upgrade ang Kusina:</strong> Mag-invest sa mas mabilis na grill o gamit upang makatugon sa mas maraming order.</li>
-  </ul>
-  
-  <h2 id="summary">Buod</h2>
-  <p>Sa Antas 8 ng Cookingdom, kailangan mong masterin ang mabagal na pagluluto ng karne, BBQ sauce, at mga side dish. Ang tagumpay ay nasa tamang timing, multitasking, at masarap na lasa ng bawat bahagi ng putahe.</p>
-  <p>Kung maayos mong mapagsasabay ang mga ito, makakamit mo ang 5-bituing rating at masasayahan ang iyong mga customer sa bawat kagat ng Texas BBQ.</p>
+ <h2>Maligayang Pagdating sa Cookingdom Level 8: Texas BBQ Walkthrough & Gabay</h2>
+<p>
+  Maligayang pagdating sa <strong>Cookingdom Level 8</strong>, kung saan ang iyong misyon ay lumikha ng perpektong <strong>Texas BBQ</strong> gamit ang tamang mga kasangkapan, tamang pagkakasunod-sunod, at tamang oras.
+  Ang lebel na ito ay nagpapakilala sa mga manlalaro sa mga intuitive ngunit tumpak na mekanika ng pagluluto ng Cookingdom sa isang relaxed, walang timer na kapaligiran.
+</p>
+<p>
+  Ang gabay na ito ay magbibigay sa iyo ng mga eksaktong hakbang upang magtagumpay sa <strong>Cookingdom Level 8</strong>, na detalyado ang bawat sangkap, aksyon, at pag-aayos na kinakailangan.
+</p>
+
+<h2>Kailangan na mga Sangkap</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pork Ribs</td>
+      <td>1 rack (4 ribs)</td>
+      <td>Makukuha mula sa boar mini-game gamit ang karot.</td>
+    </tr>
+    <tr>
+      <td>Paper Towel</td>
+      <td>1 roll</td>
+      <td>Ginagamit upang patuyuin ang ribs.</td>
+    </tr>
+    <tr>
+      <td>Red Seasoning (Paprika/Cili?)</td>
+      <td>1 shaker</td>
+      <td>Ipinapahid sa ribs pagkatapos itong patuyuin at putulin.</td>
+    </tr>
+    <tr>
+      <td>Asin</td>
+      <td>1 shaker</td>
+      <td>Inilalagay sa ribs pagkatapos ng red seasoning.</td>
+    </tr>
+    <tr>
+      <td>Bawang</td>
+      <td>1 ulo</td>
+      <td>Pinipiga at tinutuklap para sa sarsa.</td>
+    </tr>
+    <tr>
+      <td>Spring Onions</td>
+      <td>1 bunot</td>
+      <td>Pinutol para sa sarsa.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 cube</td>
+      <td>Ginagamit upang simulan ang sarsa sa kawali.</td>
+    </tr>
+    <tr>
+      <td>Asukal</td>
+      <td>1 mangkok</td>
+      <td>Idinadagdag sa sarsa.</td>
+    </tr>
+    <tr>
+      <td>Red Sauce Base (Ketchup/BBQ Base?)</td>
+      <td>1 mangkok</td>
+      <td>Ang pangunahing likidong bahagi ng BBQ sarsa.</td>
+    </tr>
+    <tr>
+      <td>Salad Mix</td>
+      <td>1 mangkok</td>
+      <td>Komponent para sa huling paghahain.</td>
+    </tr>
+    <tr>
+      <td>Salad Dressing</td>
+      <td>1 mangkok</td>
+      <td>Idinadagdag sa salad habang inilalagay sa plato.</td>
+    </tr>
+    <tr>
+      <td>Fried Egg</td>
+      <td>1</td>
+      <td>Komponent para sa huling paghahain.</td>
+    </tr>
+    <tr>
+      <td>Cooked BBQ Sauce</td>
+      <td>1 mangkok</td>
+      <td>Ang natapos na sarsa, ginagamit para sa pag-baste at paghahain.</td>
+    </tr>
+    <tr>
+      <td>Karot</td>
+      <td>1</td>
+      <td>Ginagamit lamang sa boar mini-game.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Texas BBQ Walkthrough</h2>
+
+<h3>Step 1. Kumuha ng Karne ng Baboy (Mini-game)</h3>
+<p>
+  Sa labas, maghintay para dumating ang <strong>kuneho</strong> na may dala na <strong>karot</strong>.
+  Hilahin ang <strong>karot</strong> papunta sa <strong>boar</strong> na nakatago sa palumpong.
+  Kainin ng boar ang karot at tumakbo, iniiwan ang karne ng baboy.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Maging handa na hilahin ang karot agad kapag dinala ito ng kuneho.
+</p>
+
+<h3>Step 2. Ihanda ang Ribs</h3>
+<p>
+  Ilagay ang <strong>ribs</strong> sa <strong>cutting board</strong>.
+  Gamitin ang <strong>paper towel</strong> upang punasan ng tuyo ang tatlong itinatampok na bahagi.
+  Piliin ang <strong>kutsilyo</strong> at putulin nang pahaba sa pagitan ng mga buto (3 hiwa).
+  Ipinapahid ang <strong>red seasoning</strong>, pagkatapos ay ang <strong>asin</strong> sa ribs.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Siguraduhin na ang lahat ng bahagi ay tuyo at tumpak ang mga hiwa. Pantay ang paglalagay ng seasoning.
+</p>
+
+<h3>Step 3. Ihanda ang Mga Aromatikong Sangkap</h3>
+<p>
+  Ilagay ang <strong>bawang</strong> sa walang laman na cutting board.
+  I-tap nang paulit-ulit upang paghiwalayin ang mga cloves.
+  Piliin ang <strong>kutsilyo</strong> at i-tap upang i-mince ang mga cloves. Ilagay ang bawang sa isang tabi.
+  Ilagay ang <strong>spring onions</strong> sa board, piliin ang <strong>kutsilyo</strong> at i-tap upang putulin ang puti at berdeng bahagi.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ang paulit-ulit na pag-tap ay nagpapabilis sa mincing at chopping.
+</p>
+
+<h3>Step 4. Lutuin ang BBQ Sauce</h3>
+<p>
+  I-on ang <strong>induction cooktop</strong>. Ilagay ang <strong>pan</strong> dito.
+  Maglagay ng <strong>butter</strong> at hayaan itong matunaw.
+  Idagdag ang <strong>bawang na mincing</strong> at mag-saute nang saglit.
+  Gamitin ang <strong>spoon</strong> upang magdagdag ng <strong>asukal</strong> mula sa mangkok; haluin.
+  Idagdag ang <strong>red sauce base</strong> at haluin. Ilagay ang <strong>chopped spring onions</strong> at haluin hanggang mag-simmer ang sarsa.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Idagdag ang mga sangkap sa tamang pagkakasunod-sunod at haluin pagkatapos ng bawat karagdagan.
+</p>
+
+<h3>Step 5. I-grill ang Ribs</h3>
+<p>
+  Ilagay ang <strong>grill plate</strong> sa cooktop. Ilagay ang mga inihandang <strong>ribs</strong> sa mainit na grill.
+  Gamitin ang <strong>spoon</strong> upang kumuha ng <strong>BBQ sauce</strong> mula sa mangkok at paulit-ulit na ipahid ito sa ribs habang ito ay niluluto.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Siguraduhin na ang lahat ng ribs ay maayos na na-baste ng maraming beses para sa magandang glaze. Maghintay para sa heart confirmation.
+</p>
+
+<h3>Step 6. Ihain ang Texas BBQ</h3>
+<p>
+  Sa isang malinis na plato, unang ilagay ang <strong>salad mix</strong>.
+  Gamitin ang <strong>spoon</strong> upang maglagay ng <strong>salad dressing</strong> sa salad.
+  Ilagay ang <strong>grilled ribs</strong> sa tabi ng salad. Idagdag ang <strong>fried egg</strong> sa tabi ng ribs.
+  Huling ilagay ang <strong>BBQ sauce</strong> sa ribs gamit ang <strong>spoon</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ayusin ang mga sangkap nang maayos tulad ng ipinapakita sa huling larawan ng ulam para sa pinakamagandang presentasyon.
+</p>
+
+<h2>Mga Tip at Trik para sa Cookingdom Level 8</h2>
+<ul>
+  <li>✔️ Ang unang mini-game ay nangangailangan ng mabilis na aksyon gamit ang karot.</li>
+  <li>✔️ Mahalaga ang tamang pag-pat dry, pag-putol, at pag-season ng ribs.</li>
+  <li>✔️ Sundin ang tamang pagkakasunod-sunod kapag nagluluto ng sarsa.</li>
+  <li>✔️ Ang masaganang pag-baste habang nag-i-grill ay lumilikha ng tamang BBQ glaze.</li>
+  <li>✔️ Ang maayos na pag-plating ay nakakatulong sa huling iskor.</li>
+</ul>
+
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 8</h2>
+<ul>
+  <li>Pagkawala ng timing sa boar mini-game.</li>
+  <li>Pagkakalimutang patuyuin ang ribs o maling mga hiwa.</li>
+  <li>Pagdagdag ng mga sangkap ng sarsa sa maling pagkakasunod-sunod o hindi paghahalo.</li>
+  <li>Kulang ang pag-baste habang nag-i-grill ng ribs.</li>
+  <li>Magulong pag-aayos ng mga bagay sa huling plato.</li>
+</ul>
+
   `,
   },
 
@@ -774,57 +1408,194 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Pagsusuri ng Laro</h2>
-<p>Sa Cookingdom, bawat level ay may bagong mga putahe at mas mapanuring mga customer. Sa Level 9, ang iyong gawain ay maghanda ng Spaghetti, isang klasikong Italianong pagkain na nangangailangan ng maingat na pagluluto at tamang timing. Ang pagluluto ng spaghetti at paghahanda ng sarsa ay panimula lamang. Para mapaligaya ang mga customer, kailangan mong bigyang-pansin ang mga detalye, mula sa pagkakaluto ng pasta hanggang sa pagpili ng tamang sarsa at toppings.</p>
-<p>Habang sumusulong ka sa Cookingdom, makakatagpo ka ng mas komplikadong mga order, at ang paghahanda ng spaghetti ay susubok sa iyong multitasking at pamamahala ng oras. Tara, sundan natin ang mga hakbang para maging eksperto ka sa putaheng ito!</p>
+<h2>Maligayang pagdating sa Cookingdom Level 9: Gabay sa Spaghetti</h2>
+<p>
+  Maligayang pagdating, mag-aaral ng pagluluto! Sa **Cookingdom Level 9**, ang iyong hamon sa pagluluto ay ang gawing perpekto ang isang masarap na plato ng **spaghetti**. Ang level na ito ay dinisenyo upang masanay ka sa mga tumpak na mekanika ng pagluluto ng Cookingdom sa isang kalmado at walang pagmamadali na kapaligiran.
+</p>
+<p>
+  Ang gabay na ito ay magbibigay ng eksaktong mga hakbang upang magtagumpay sa **Cookingdom Level 9**, kasama ang bawat sangkap, aksyon, at tamang paglalagay.
+</p>
 
-<h2 id="goal">Mga Layunin sa Level 9</h2>
+<h2>Sangkap para sa Iyong Perpektong Spaghetti</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dry Spaghetti</td>
+      <td>1 bahagi</td>
+      <td>Hilaw na pasta.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>1 mangkok</td>
+      <td>Kailangan para pakuluin ang pasta.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 lalagyan</td>
+      <td>Para timplahan ang tubig na pinakuluan.</td>
+    </tr>
+    <tr>
+      <td>Tomatoes</td>
+      <td>1 mangkok</td>
+      <td>Buong kamatis, para hiwain sa sos at gamitin din sa garnish.</td>
+    </tr>
+    <tr>
+      <td>Onion</td>
+      <td>1 mangkok</td>
+      <td>Buong sibuyas, para hiwain sa sos.</td>
+    </tr>
+    <tr>
+      <td>Basil Leaves</td>
+      <td>1 mangkok</td>
+      <td>Preskong basil, para sa huling garnish.</td>
+    </tr>
+    <tr>
+      <td>Ground Meat</td>
+      <td>1 mangkok</td>
+      <td>Hilaw na giniling na karne para sa iyong Bolognese.</td>
+    </tr>
+    <tr>
+      <td>Oil/Butter</td>
+      <td>1 mangkok</td>
+      <td>Gamitin sa pagluluto ng sos.</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>1 shaker</td>
+      <td>Para sa pag-season ng sos.</td>
+    </tr>
+    <tr>
+      <td>Tomato Sauce Base</td>
+      <td>1 garapon</td>
+      <td>Ang pangunahing tomato base para sa iyong meat sauce.</td>
+    </tr>
+    <tr>
+      <td>Shredded Cheese</td>
+      <td>1 mangkok</td>
+      <td>Pinatibay na Parmesan, para iwisik sa ibabaw ng spaghetti.</td>
+    </tr>
+    <tr>
+      <td>Cream Sauce Topping</td>
+      <td>1 garapon</td>
+      <td>Isang patak ng puting sos para sa gitna habang nilalagay sa plato.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Spaghetti Mastery: Gabay sa Hakbang-hakbang</h2>
+
+<h3>Hakbang 1. Pakuluin ang Tubig at Lagyan ng Asin</h3>
+<p>
+  Una, buksan ang <strong>hot plate</strong>. Ibuhos ang <strong>tubig</strong> mula sa mangkok papunta sa <strong>kaserola</strong>. Hintaying kumulo ang tubig (maraming bula!), pagkatapos ay magdagdag ng <strong>asin</strong> mula sa lalagyan.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Huwag magmadali! Siguraduhin na kumukulo ang tubig bago magdagdag ng asin o pasta. Ito ay mahalaga para sa tamang pagluluto.
+</div>
+
+<h3>Hakbang 2. Lutuin ang Spaghetti Hanggang Al Dente</h3>
+<p>
+  Ngayon, dahan-dahang ilagay ang <strong>dry spaghetti</strong> sa kumukulong tubig na may asin. Maghintay ng mahinahon hanggang maluto ang pasta.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang spaghetti ay maghihina at babagsak nang kusa. Maghintay ng isang sparkle animation – iyon ang tanda na perpekto na ang luto!
+</div>
+
+<h3>Hakbang 3. Salain ang Nilutong Spaghetti</h3>
+<p>
+  Kumuha ng <strong>spider strainer tool</strong>. Maingat na hilahin ang nilutong spaghetti mula sa kaserola at ilipat ito sa <strong>plato ng paghahain</strong>.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhing makuha ang bawat piraso ng spaghetti mula sa kaserola!
+</div>
+
+<h3>Hakbang 4. Hiwain ang mga Kamatis ng Tumpak</h3>
+<p>
+  Ilagay ang <strong>whole tomatoes</strong> sa <strong>cutting board</strong>. Piliin ang <strong>knife</strong> at sundin ang mga gabay sa screen upang hiwain muna at saka dicing ang mga kamatis. Ilagay ang diced na kamatis pabalik sa mangkok nito.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang tumpak na pagdices ayon sa mga gabay ng laro ay mahalaga para sa mataas na iskor. Maglaan ng oras dito!
+</div>
+
+<h3>Hakbang 5. Hiwain ang Sibuyas ng Maingat</h3>
+<p>
+  Ilagay ang <strong>sibuyas</strong> sa <strong>cutting board</strong>. Gamitin ang <strong>knife tool</strong>, sundin ang mga gabay sa screen, upang hiwain at saka dicing ang sibuyas. Ilagay ang diced na sibuyas sa mangkok nito.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang tamang pag-gamit ng kutsilyo ay magreresulta sa pantay na pagluluto mamaya.
+</div>
+
+<h3>Hakbang 6. Simulan ang Sos Bolognese</h3>
+<p>
+  Ilagay ang malinis na <strong>kaserola</strong> sa <strong>hot plate</strong>. Magdagdag ng <strong>minyak/mentega</strong> mula sa mangkok nito. I-timpla ng kaunting <strong>lada</strong> mula sa shaker. Pagkatapos, idagdag ang <strong>tomato at sibuyas na hinati</strong> sa kaserola.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Hayaang uminit ang langis o mantikilya bago idagdag ang mga gulay.
+</div>
+
+<h3>Hakbang 7. Igisa ang mga Gulay at Lutuin ang Karne</h3>
+<p>
+  Gamitin ang <strong>ladle</strong> upang haluin ang mga kamatis at sibuyas sa kaserola. Ngayon, idagdag ang <strong>ground meat</strong>. Magpatuloy sa paghalo at durugin ang karne habang luto ito hanggang magbago ang kulay at maluto ng buo.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Palaging haluin! Pinipigilan nito ang pagdikit at sinisiguro na pantay ang pagluluto ng karne.
+</div>
+
+<h3>Hakbang 8. Hayaang Kumulo ang Matamis na Sos</h3>
+<p>
+  Ibuhos ang <strong>tomato sauce base</strong> mula sa garapon sa kaserola kasama ang nilutong karne at gulay. Haluin ng mabuti gamit ang <strong>ladle</strong> upang pagsamahin ang lahat ng sangkap. Hayaang kumulo ang sos hanggang maging handa.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang sos ay magiging mas makapal habang ito'y kumukulo. Magkakaroon ng sparkle animation bilang senyales na tapos na ito!
+</div>
+
+<h3>Hakbang 9. Ihain ang Spaghetti at Sos</h3>
+<p>
+  Sa iyong nilutong spaghetti na nasa plato ng paghahain, gamitin ang <strong>ladle</strong> upang maglagay ng maraming <strong>Bolognese sauce</strong> sa ibabaw ng pasta.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhing pantay-pantay ang pagtakip ng masarap na sos sa spaghetti.
+</div>
+
+<h3>Hakbang 10. Garnish para sa Isang Masterpiece</h3>
+<p>
+  Maingat na ayusin ang <strong>sliced tomato garnishes</strong> sa paligid ng pasta. Maglagay ng patak ng <strong>cream sauce topping</strong> sa gitna. Magwiwisik ng <strong>shredded cheese</strong> sa Bolognese sauce. Sa huli, ilagay ang sariwang <strong>basil leaves</strong> sa ibabaw bilang huling pirma.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Mahalaga ang eksaktong paglalagay ng bawat garnish, ayon sa mga visual na gabay, upang makuha ang pinakamataas na rating na 'Taste explosion!'
+</div>
+
+<h2>Top Tips para sa Tagumpay sa Cookingdom Level 9</h2>
 <ul>
-  <li><strong>Lutuin nang perpekto ang Spaghetti:</strong> Ang pangunahing layunin ay maluto nang tama ang spaghetti—al dente! Mahalaga ang tamang lutong pasta para sa kasiyahan ng mga customer. Kapag sobra ang luto o kulang, bababa ang iyong score.</li>
-  <li><strong>Ihanda ang Sarsa:</strong> Hindi lang tungkol sa noodles ang spaghetti. Sa Cookingdom, kailangang ihanda ang tamang sarsa—pwedeng tomato sauce, cream-based sauce, o pesto. Ang sarsa ay dapat malinamnam at swak sa pasta.</li>
-  <li><strong>Maghatid nang Mabilis:</strong> Tulad ng ibang levels, mahalaga ang bilis at katumpakan. Naghihintay ang mga customer, kaya ang paghahain ng perpektong spaghetti sa tamang temperatura ay susi para makakuha ng mataas na rating.</li>
+  <li>
+    ✔️ **Pansinin ang visual at tunog na senyales** tulad ng sparkle at tunog — ipinapakita nito kung kailan natapos ang mga proseso ng pagluluto (pasta at sos).
+  </li>
+  <li>
+    ✔️ **Tumpak na pagdices** ng mga gulay at **tamang paglalagay** ng huling garnish ay susi sa mataas na marka.
+  </li>
+  <li>
+    ✔️ **Laging haluin ang Bolognese sauce** sa bawat hakbang, lalo na pagkatapos idagdag ang karne at tomato base, upang matiyak na maganda ang pagkakasama ng mga sangkap.
+  </li>
+  <li>
+    ✔️ Sundin ang **tamang pagkakasunod-sunod ng mga hakbang** na ipinapakita sa laro upang maiwasan ang mga pagkakamali.
+  </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paggawa ng Spaghetti</h2>
-<ol>
-  <li>
-    <h3>Pakuluan ang Tubig:</h3>
-    <p>Una, punuin ang isang kaldero ng tubig at pakuluan ito. Kailangan ng sapat na tubig para maluto nang maayos ang spaghetti, kaya siguraduhing malaki ang kaldero.</p>
-    <p><strong>Tip:</strong> Magdagdag ng asin sa tubig para lumasa ang pasta at mas maging maganda ang texture nito.</p>
-  </li>
-  <li>
-    <h3>Lutuin ang Spaghetti:</h3>
-    <p>Kapag kumukulo na ang tubig, ilagay ang spaghetti. Siguraduhing nakalubog nang buo ang pasta para maluto nang pantay. Sa Cookingdom, aabot ng 7-10 minuto ang pagluluto depende sa nais mong lutong pasta.</p>
-    <p><strong>Tip:</strong> Haluin paminsan-minsan para hindi dumikit ang pasta. Bantayan ang timer dahil kapag sobra ang luto, magiging malambot at malata ang pasta.</p>
-  </li>
-  <li>
-    <h3>Ihanda ang Sarsa:</h3>
-    <p>Habang niluluto ang pasta, oras na para ihanda ang sarsa. May iba't ibang uri ng sarsa sa Cookingdom, kaya siguraduhing tama ang ginagawa base sa order ng customer. Para sa tomato sauce, igisa ang sibuyas at bawang sa olive oil, idagdag ang canned tomatoes, at pakuluan. Para sa cream sauce, tunawin ang butter at cream, lagyan ng asin at paminta.</p>
-    <p><strong>Tip:</strong> Pakuluan ang sarsa ng ilang minuto para lumabas ang lasa. Maaari ring magdagdag ng herbs tulad ng basil, oregano, o parsley para mas sumarap.</p>
-  </li>
-  <li>
-    <h3>Salain at Pagsamahin:</h3>
-    <p>Kapag luto na ang pasta, salain ito nang maingat, at magtabi ng kaunting tubig ng pasta (para ayusin ang sarsa kung kinakailangan). Ilagay ang pasta sa kawali kasama ng sarsa, at haluing mabuti para pantay na masaluhan ng sarsa ang pasta.</p>
-    <p><strong>Tip:</strong> Kapag masyadong malapot ang sarsa, dagdagan ng kaunting tubig mula sa pasta para lumambot ito at mas maganda ang pagkakababad sa pasta.</p>
-  </li>
-  <li>
-    <h3>Ihain ang Spaghetti:</h3>
-    <p>Kapag maganda na ang pagkakahalo ng pasta at sarsa, ihain ito sa plato. Lagyan ng toppings tulad ng grated cheese, sariwang herbs, o patak ng olive oil. Sa Cookingdom, may mga customer na humihiling ng espesyal na toppings, kaya siguraduhing suriin ang kanilang mga order.</p>
-    <p><strong>Tip:</strong> Ihain agad ang spaghetti para hindi ito masobrahan ng luto o lumamig. Inaasahan ng mga customer ng Cookingdom ang mainit at sariwang pagkain, kaya mahalaga ang mabilis na paghahain.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip at Trick</h2>
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 9</h2>
 <ul>
-  <li><strong>Perpektong Timing:</strong> Ang pinakamahalaga sa pagluluto ng spaghetti ay ang timing. Kapag sobra ang luto, magiging malata; kapag kulang naman, magiging matigas. May timer ang Cookingdom para sa bawat putahe, kaya bantayan ito nang mabuti.</li>
-  <li><strong>Paghahanda ng Sarsa:</strong> Kasinghalaga ng pasta ang sarsa! Siguraduhing malinamnam at tama ang timpla. Madalas humiling ang mga customer ng partikular na sarsa o toppings, kaya alamin nang mabuti ang kanilang order.</li>
-  <li><strong>Upgrade ang Kagamitan sa Kusina:</strong> Habang umuusad ka sa laro, maaari kang mag-unlock ng bagong kagamitan na makakatulong sa pagpapabilis ng pagluluto ng pasta. Ang pag-upgrade ng stove o paggamit ng mas malaking kaldero ay makakatulong upang makapagluto ng maraming order nang sabay-sabay.</li>
-  <li><strong>Paghawak ng Maramihang Order:</strong> Sa Cookingdom, madalas kang may sabay-sabay na order. Ihanda ang spaghetti at sarsa para sa bawat isa nang sabay, at ihain agad kapag tapos na. Bigyang prayoridad ang mga matagal nang naka-queue at siguraduhing tama ang sarsa para sa bawat order.</li>
-  <li><strong>Kasiya-siyang Customer:</strong> Napaka-picky ng mga customer sa Cookingdom pagdating sa kalidad at bilis ng serbisyo. Para mapasaya sila, ihain ang spaghetti nang mabilis at tiyaking perpekto ang lasa at hitsura.</li>
+  <li>Hindi paghihintay na kumulo ang tubig bago maglagay ng spaghetti.</li>
+  <li>Pagkuha ng pasta o sos ng masyadong maaga bago pa ang signal ng pagkakatapos (sparkle effect).</li>
+  <li>Hindi tumpak o magulo ang paggupit ng kamatis at sibuyas.</li>
+  <li>Hindi pantay na pagluluto ng ground meat dahil sa hindi sapat na paghahalo.</li>
+  <li>Hindi tamang paglalagay o hindi pagkakaroon ng garnish sa final na plating.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Ang Level 9 ng Cookingdom ay isang masayang hamon sa pagluluto ng spaghetti. Kailangan mo ng maingat na pamamahala ng oras at multitasking upang makagawa ng perpektong pasta at sarsa. Sa pamamagitan ng tamang paghahanda, mabilis na pagluluto, at maayos na paghahain, makakamit mo ang mataas na score at mapasaya ang mga customer. Gamitin ang mga tip na ito at i-level up ang iyong kakayahan sa pagluluto sa Cookingdom!</p>
   `,
   },
 
@@ -876,63 +1647,211 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Pagsusuri ng Cookingdom Level 10</h2>
-<p>Sa Level 10 ng Cookingdom, nakamit mo na ang mga pangunahing kaalaman at handa nang maghanda ng mas komplikadong mga ulam. Ang salmon sushi ay isang putaheng nangangailangan ng sining sa paghahanda ng perpektong kanin para sa sushi, maingat na paghiwa ng salmon, at maayos na pag-roll ng sushi. Hindi tulad ng mga naunang level, ang level na ito ay nangangailangan ng katumpakan sa paghahanda at presentasyon.</p>
-<p>Sa level na ito, kailangang maghanda ang mga manlalaro ng mga order nang mabilis at tama, bigyang pansin ang mga maliliit na sangkap sa salmon sushi. Oras na para paunlarin ang iyong kasanayan sa paggamit ng kutsilyo at paghahanda ng kanin!</p>
+<h2>Maligayang Pagdating sa Cookingdom Level 10: Gabay at Hakbang ng Sushi Salmon</h2>
+<p>
+  Maligayang pagdating, sushi artisan! Sa **Cookingdom Level 10**, ang iyong misyon ay gumawa ng masarap na **sushi ng salmon**. Ang level na ito ay magpapakilala sa iyo sa mga eksaktong mekanika ng pagluluto ng Cookingdom sa isang tahimik at hindi-mabilis na kapaligiran.
+</p>
+<p>
+  Ang gabay na ito ay magdadala sa iyo sa bawat hakbang na kinakailangan upang magtagumpay sa **Cookingdom Level 10**, na naglalaman ng mga detalye ng bawat sangkap, aksyon, at tamang posisyon.
+</p>
 
-<h2 id="goal">Mga Layunin ng Cookingdom Level 10</h2>
-<ul>
-  <li><strong>Maghanda ng kanin para sa sushi:</strong> Ang pundasyon ng magandang sushi ay ang kanin na lutong-luto nang tama. Sa Cookingdom, kailangang hugasan nang mabuti ang kanin, lutuin ito, at timplahan gamit ang suka, asukal, at asin.</li>
-  <li><strong>Hiwain ang sariwang salmon:</strong> Ang salmon ang pangunahing sangkap ng ulam na ito, at ang kasariwaan at kapal ng hiwa ay mahalaga sa tamang lasa. Maingat na hiwain ang salmon ng manipis at pantay na piraso.</li>
-  <li><strong>I-assemble ang sushi:</strong> Matapos ihanda ang kanin at salmon, i-roll ang sushi nang maayos upang maging pantay at maganda ang hugis.</li>
-  <li><strong>I-serve ang sushi:</strong> Mahalaga ang oras — ihain agad ang sushi upang mapanatili ang kasariwaan nito.</li>
-</ul>
+<h2>Mga Sangkap na Kailangan para sa Sushi</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Isda</td>
+      <td>5</td>
+      <td>Iba't ibang uri, nahuli sa unang mini-game ng pangingisda. Iwasan ang basura!</td>
+    </tr>
+    <tr>
+      <td>Kanin</td>
+      <td>1 mangkok</td>
+      <td>Kailangan hugasan ng tubig sa isang palayok, pagkatapos ay lutuin sa rice cooker.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>Kailangan</td>
+      <td>Ginagamit sa paghuhugas at pagluluto ng kanin sa palayok.</td>
+    </tr>
+    <tr>
+      <td>Karot</td>
+      <td>1</td>
+      <td>Kailangan balatan, pagkatapos ay hiwain sa manipis na piraso (julienne).</td>
+    </tr>
+    <tr>
+      <td>Abukado</td>
+      <td>1</td>
+      <td>Kailangan balatan (gamitin ang kutsilyo) at hiwain ng maayos.</td>
+    </tr>
+    <tr>
+      <td>Kamatis</td>
+      <td>1</td>
+      <td>Kailangan balatan (gamitin ang kutsilyo) at hiwain sa manipis na piraso.</td>
+    </tr>
+    <tr>
+      <td>Salmon</td>
+      <td>1 bahagi (hiwa)</td>
+      <td>Pre-sliced, ngunit kailangan pang i-cut ng mas manipis na piraso para sa pag-fill.</td>
+    </tr>
+    <tr>
+      <td>Nori (Sheet ng Seaweed)</td>
+      <td>3 piraso</td>
+      <td>Ang mahalagang pambalot para sa iyong sushi rolls.</td>
+    </tr>
+    <tr>
+      <td>Wasabi</td>
+      <td>1 bahagi</td>
+      <td>Kaunting halaga para sa loob ng roll (optional), at isang kutsara para sa paghain.</td>
+    </tr>
+    <tr>
+      <td>Pickled Ginger (Gari)</td>
+      <td>1 bahagi</td>
+      <td>Ibinibigay nang maayos sa tabi ng iyong sushi sa huling pinggan.</td>
+    </tr>
+    <tr>
+      <td>Parsley/Garnish</td>
+      <td>1 tangkay</td>
+      <td>Para sa huling dekorasyon sa iyong platter.</td>
+    </tr>
+    <tr>
+      <td>Peeler</td>
+      <td>1</td>
+      <td>Ginagamit para sa pagbalat ng karot.</td>
+    </tr>
+    <tr>
+      <td>Kutsilyo</td>
+      <td>1</td>
+      <td>Ang iyong pangunahing gamit sa pagbalat, paghiwa, pagputol ng piraso, at pagputol ng mga natapos na roll.</td>
+    </tr>
+    <tr>
+      <td>Cutting Board</td>
+      <td>2</td>
+      <td>Isa para sa paghahanda ng sangkap, isa para sa paglilinis ng mga sushi rolls.</td>
+    </tr>
+    <tr>
+      <td>Palayok</td>
+      <td>1</td>
+      <td>Para sa paghuhugas ng kanin at paglilipat nito sa rice cooker.</td>
+    </tr>
+    <tr>
+      <td>Rice Cooker</td>
+      <td>1</td>
+      <td>Ang iyong espesyal na kagamitan para sa perpektong lutong kanin.</td>
+    </tr>
+    <tr>
+      <td>Sink & Faucet</td>
+      <td>1</td>
+      <td>Para sa tamang paghuhugas ng kanin.</td>
+    </tr>
+    <tr>
+      <td>Bamboo Rolling Mat (Makisu)</td>
+      <td>1</td>
+      <td>Ang hindi mawawala na kagamitan para sa mahigpit na pag-roll ng sushi.</td>
+    </tr>
+    <tr>
+      <td>Containers</td>
+      <td>Marami</td>
+      <td>Para sa pansamantalang pagtatago ng mga hinandang sangkap at natapos na mga roll.</td>
+    </tr>
+    <tr>
+      <td>Serving Platter</td>
+      <td>1 (itim, pahaba)</td>
+      <td>Ang eleganteng lugar para sa iyong huling sushi presentation.</td>
+    </tr>
+    <tr>
+      <td>Small Bowls/Dishes</td>
+      <td>2</td>
+      <td>Para sa paghahain ng wasabi at pickled ginger sa platter.</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="steps">Mga Hakbang sa Paghahanda ng Salmon Sushi sa Cookingdom Level 10</h2>
-<ol>
-  <li>
-    <h3>Paghahanda ng Kanin para sa Sushi</h3>
-    <p>Ang unang hakbang ay ang paghahanda ng kanin. Hugasan nang mabuti ang kanin nang ilang ulit upang matanggal ang labis na almirol upang hindi maging masyadong malagkit ang kanin.</p>
-    <p><strong>Tip:</strong> Hugasan ang kanin hanggang sa maging malinaw ang tubig para sa tamang tekstura.</p>
-    <p>Lutuin ang kanin gamit ang rice cooker o karaniwang palayok. Pagkatapos maluto, ilipat ang kanin sa isang malaking mangkok at hayaang bahagyang lumamig. Pagkatapos, haluin ito gamit ang pinaghalong suka ng bigas, asukal, at asin.</p>
-    <p><strong>Tip:</strong> Dahan-dahang haluin ang kanin gamit ang kahoy na kutsara upang hindi mabasag ang mga butil ng kanin. Siguraduhing lumamig ang kanin bago gamitin.</p>
-  </li>
-  <li>
-    <h3>Paghiwa ng Sariwang Salmon</h3>
-    <p>Habang lumalamig ang kanin, simulan ang paghiwa ng salmon. Gumamit ng matalim na kutsilyo upang makakuha ng manipis at pantay na hiwa na humigit-kumulang 1/8 pulgada ang kapal para sa pinakamahusay na tekstura.</p>
-    <p><strong>Tip:</strong> Piliin ang pinakasariwang salmon para sa pinakamahusay na lasa. Sa laro, maaari kang pumili ng pinakasariwang sangkap.</p>
-  </li>
-  <li>
-    <h3>Pagsasaayos ng Sushi</h3>
-    <p>Maglagay ng kaunting kanin sa bamboo mat o malinis na ibabaw. Pantayin ang kanin nang manipis at pantay.</p>
-    <p><strong>Tip:</strong> Huwag pisilin nang sobra ang kanin upang manatiling magaan at malambot ang sushi.</p>
-    <p>Ilagay ang hiwa ng salmon sa gitna ng kanin nang pantay.</p>
-    <p><strong>Tip:</strong> Kung may dagdag na sangkap tulad ng wasabi o pickled ginger, huwag kalimutang ilagay para sa mas autentikong lasa.</p>
-  </li>
-  <li>
-    <h3>Pag-roll ng Sushi</h3>
-    <p>Gamitin ang bamboo mat upang mahigpit na i-roll ang kanin at salmon. Dapat maging compact ngunit hindi masyadong masikip upang hindi masira ang hugis ng sushi.</p>
-    <p><strong>Tip:</strong> I-roll nang dahan-dahan at maingat upang mapanatili ang hugis ng sushi.</p>
-  </li>
-  <li>
-    <h3>Paghiwa at Paghain ng Sushi</h3>
-    <p>Pagkatapos i-roll, hiwain ang sushi sa mga piraso na isang kagat ang laki gamit ang matalim na kutsilyo para sa pantay at malinis na hiwa.</p>
-    <p><strong>Tip:</strong> Ang pantay-pantay at magkakaparehong hiwa ay nagbibigay ng mas autentikong hitsura.</p>
-    <p>Ihain agad ang sushi pagkatapos hiwain upang mapanatili ang kasariwaan nito.</p>
-  </li>
-</ol>
+<h2>Mastery ng Sushi Salmon: Hakbang-hakbang na Gabay</h2>
 
-<h2 id="tips">Mga Tips at Tricks sa Cookingdom Level 10</h2>
-<ul>
-  <li><strong>Perpektong kanin para sa sushi:</strong> Sundin nang eksakto ang mga hakbang sa paghuhugas, pagluluto, at pagtimpla ng kanin. Subukan ang iba't ibang timpla ng suka, asukal, at asin para sa balanseng lasa.</li>
-  <li><strong>Gumamit ng matalim na kutsilyo:</strong> Tinitiyak ng matalim na kutsilyo ang malinis na paghiwa ng salmon nang hindi nasisira ang laman. Sa laro, maaari mong i-upgrade ang iyong kutsilyo para sa pinakamagandang resulta.</li>
-  <li><strong>Huwag sobrahan ang laman sa pag-roll:</strong> Mahalaga ang tamang dami ng laman para madaling i-roll at maganda ang hugis ng sushi.</li>
-  <li><strong>Multitasking:</strong> Habang lumalamig ang kanin, simulan ang paghahanda ng ibang sangkap o pagkain para mas efficient.</li>
-  <li><strong>Pagpapaganda at Presentasyon:</strong> Magdagdag ng wasabi, pickled ginger, at iba pang garnish para mas kaakit-akit ang hitsura at mas mataas ang score sa mga customer.</li>
-</ul>
+<h3>Hakbang 1. Mini-Game ng Pangingisda</h3>
+<p>
+  Pumasok sa ilalim ng dagat bilang ang capybara chef. Ang iyong layunin ay manghuli ng **5 isda** mula sa iba't ibang uri sa pamamagitan ng paglangoy papunta sa kanila. Mag-ingat na **iwasan ang basura** tulad ng mga plastik na bote, bote ng salamin, at lata. Kapag nahuli mo na ang limang isda, awtomatikong ililipat ito sa iyong bangka.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Magplano ng iyong landas ng paglangoy upang manghuli ng isda nang epektibo habang maingat na iniiwasan ang mga basura.
+</div>
 
-<h2 id="summary">Konklusyon</h2>
-<p>Ang Cookingdom Level 10 ay isang pagsubok ng katumpakan, pamamahala ng oras, at multitasking. Mula sa paghahanda ng kanin hanggang sa paghiwa ng isda at pag-roll ng sushi, bawat hakbang ay nangangailangan ng detalye. Ang susi sa tagumpay ay kasariwaan, katumpakan, at mabilis na paghain. Ang pag-master ng salmon sushi ay maghahanda sa iyo para sa mas komplikadong mga ulam sa mga susunod na level at magpapasaya sa mga customer ng iyong restawran.</p>
+<h3>Hakbang 2. Lutuin ang Kanin ng Perpekto</h3>
+<p>
+  Ilagay ang mangkok ng **kanin** sa **palayok**. Ilipat ang palayok sa **lababo** at magdagdag ng sapat na **tubig** upang masakop ang kanin para sa paghuhugas. Pagkatapos, ilipat ang palayok (kasama ang kanin at tubig) sa **rice cooker**. Isara ang takip. Awtomatikong magsisimula ang rice cooker, na tinandaan ng liwanag at singaw.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Huwag kalimutan magdagdag ng tubig sa kanin *bago* ilagay ang palayok sa rice cooker para sa wastong paghuhugas at pagluluto.
+</div>
+
+<h3>Hakbang 3. Ihanda ang Karot</h3>
+<p>
+  Ilagay ang **karot** sa **cutting board**. Gamitin ang **peeler tool** upang balatan ito, pagkatapos ay itapon ang balat. Palitan ito ng **kutsilyo** at sundin ang mga gabay sa screen upang hiwain ang karot sa mahahabang manipis na piraso (julienne). Ilagay ang mga hiniwang karot sa **container**.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Siguraduhing maayos na nababalatan ang karot bago hiwain ito ayon sa mga gabay.
+</div>
+
+<h3>Hakbang 4. Ihanda ang Avokado</h3>
+<p>
+  Ilagay ang **avokado** sa **cutting board**. Gamitin ang **kutsilyo** upang hatiin ito (ang buto ay awtomatikong aalisin). Pagkatapos, gamitin muli ang **kutsilyo** (gamitin ito bilang peeler) upang dahan-dahang balatan ang kalahating bahagi ng avokado. Itapon ang balat. Sundin ang mga gabay at hiwain ang laman ng avokado ng manipis. Ilagay ang mga hiniwang avokado sa **container**.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Gumamit ng kutsilyo para sa pagbalat, kaya sundin ang mga gabay ng maayos.
+</div>
+
+<h3>Hakbang 5. Ihanda ang Kamatis</h3>
+<p>
+  Ilagay ang **kamatis** sa **cutting board**. Gamitin ang **kutsilyo** at sundin ang gabay upang hiwain ito sa manipis na piraso. Ilagay ang mga hiniwang kamatis sa **container**.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Siguraduhin na ang mga piraso ng kamatis ay makakapit at pantay-pantay sa lahat ng bahagi ng sushi.
+</div>
+
+<h3>Hakbang 6. Ihanda ang mga Salmon Strips</h3>
+<p>
+  Ilagay ang **pre-sliced salmon** sa **cutting board**. Gamitin ang **kutsilyo** at sundin ang mga gabay upang hiwain ang mga hiwa ng salmon sa mas manipis na strips na perpekto para sa iyong sushi. Ilagay ang mga strips ng salmon sa **container**.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> I-cut nang tumpak ang mga piraso ng salmon upang makuha ang tamang porma para sa sushi rolls.
+</div>
+
+<h3>Hakbang 7. Kunin ang Nasi na Lutong</h3>
+<p>
+  Buksan ang **rice cooker lid** at kunin ang palayok na naglalaman ng perpektong lutong kanin. Ilagay ang palayok sa ibabaw ng mesa ng paghahanda.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Ang kanin ay dapat naglalabas ng singaw, na nangangahulugang ito ay niluto nang perpekto at handa na para sa pag-roll.
+</div>
+
+<h3>Hakbang 8. I-roll ang iyong Sushi (Tatlong beses!)</h3>
+<p>
+  Ilagay ang isang piraso ng **Nori** sa **bamboo rolling mat**. Gamitin ang isang bahagi ng **kanin** at i-spread ito nang pantay-pantay sa ibabaw ng Nori, mag-iwan ng kaunting space sa dulo. Maaari kang maglagay ng manipis na linya ng **wasabi** sa ibabaw ng kanin. I-lay ang **cucumber, carrot, avocado, at salmon** nang pahalang sa kanin, malapit sa ilalim na bahagi. Dahan-dahan iangat ang dulo ng mat at i-roll ang Nori at mga sangkap upang maging isang cylinder. Ilagay ang tapos na roll sa **container**. Kailangan mong **ulitin ang proseso ng paggawa ng tatlong rolls**.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Siguraduhing manipis at pantay-pantay ang pag-kalat ng kanin at gamitin ang mat para maging solid at mahigpit ang pag-roll ng sushi upang hindi ito matanggal.
+</div>
+
+<h3>Hakbang 9. I-cut ang Sushi Rolls ng Eksakto</h3>
+<p>
+  Ilagay ang isang tapos na sushi roll sa **clean cutting board**. Gamitin ang **kutsilyo** at sundin ang mga gabay sa pagputol upang gawing 4 na pantay na piraso. Ulitin ang proseso para sa iba pang mga roll.
+</p>
+<div class="tip">
+  💡 <strong>Tip ng Pro:</strong> Gumamit ng matalim na kutsilyo at mabilis na pagputol upang makuha ang malinis na edges. Siguraduhing pare-pareho ang kapal ng bawat piraso ng sushi.
+</div>
+
+<h3>Hakbang 10. Huwag kalimutan ang Panghuling Pagplano</h3>
+<p>
+  I-arrange ang cut sushi pieces sa **black serving platter** (12 pieces). Siguraduhin na ang wasabi at pickled ginger ay nakaayos sa tamang lugar.
+</p>
+
   `,
   },
 ]

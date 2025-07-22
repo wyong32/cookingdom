@@ -37,97 +37,187 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Cookingdom Level 21</h2>
-<p>Sa Level 21 ng Cookingdom, maghahanda tayo ng isang popular at nakakapreskong inumin — ang Bobba Milk Tea. Kilala rin bilang bubble tea, ito ay gawa sa tsaa, gatas, at chewy tapioca pearls. Layunin ng level na ito ang balansihin ang lasa ng tsaa, gatas, at asukal, pati na rin ang pagluluto ng tapioca pearls nang perpekto upang makagawa ng masarap at malinamnam na inumin.</p>
-<p>Ang susi sa tagumpay sa Level 21 ay ang tamang pagluluto ng tapioca pearls, pag-brew ng tsaa, at mabilis na paghahanda ng inumin. Tingnan natin ang mga hakbang at tip upang makagawa ka ng perpektong Bobba Milk Tea at makuha ang pinakamataas na rating!</p>
+<h2>Maligayang Pagdating sa Cookingdom Level 21: Gabay at Walkthrough ng Boba Milk Tea</h2>
+<p>
+  Maligayang pagdating, mga mahilig sa bubble tea! Sa **Cookingdom Level 21**, ang iyong misyon ay magluto ng perpektong **Boba Milk Tea**. Gabay ang level na ito sa mga intuitive ngunit eksaktong mekanika ng pagluluto ng Cookingdom sa isang relaxed na kapaligiran, na walang timer, upang matutunan mong master ang sikat na inuming ito.
+</p>
+<p>
+  Ang gabay na ito ay magbibigay ng eksaktong mga hakbang upang malampasan ang Cookingdom Level 21, detalyado ang bawat sangkap, aksyon, at tamang paglalagay na kinakailangan upang makagawa ng masarap na boba tea.
+</p>
 
-<h2 id="goal">Mga Layunin ng Cookingdom Level 21</h2>
+<h2>Mga Sangkap na Kailangan Mo para sa Iyong Boba Milk Tea</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fresh Green Tea Leaves</td>
+      <td>Marami</td>
+      <td>Pinili mula sa mga halamang tsaa.</td>
+    </tr>
+    <tr>
+      <td>Wilted/Brown Tea Leaves</td>
+      <td>Marami</td>
+      <td>Ibinubukod at itinatapon sa proseso ng pagsasala.</td>
+    </tr>
+    <tr>
+      <td>Tubig</td>
+      <td>1 Pitcher</td>
+      <td>Ginagamit para gumawa ng syrup at para pakuluan ang tapioca pearls.</td>
+    </tr>
+    <tr>
+      <td>Brown Sugar</td>
+      <td>1 Mangkuk</td>
+      <td>Pangunahing sangkap sa paggawa ng matamis na syrup.</td>
+    </tr>
+    <tr>
+      <td>Tapioca Starch Balls (Pre-made)</td>
+      <td>1 Mangkuk</td>
+      <td>Puting bola, pinakuluan muna sa syrup.</td>
+    </tr>
+    <tr>
+      <td>Cooked Tapioca Dough</td>
+      <td>1 Mangkuk</td>
+      <td>Malasakit na swirl, ginagamit para gumawa ng fresh tapioca pearls.</td>
+    </tr>
+    <tr>
+      <td>Tapioca Starch/Flour</td>
+      <td>Sprinkled</td>
+      <td>Ginagamit upang maiwasan ang pagdikit habang gumugulong ng fresh tapioca dough.</td>
+    </tr>
+    <tr>
+      <td>Gatas</td>
+      <td>1 Karton</td>
+      <td>Base ng creamy milk tea.</td>
+    </tr>
+    <tr>
+      <td>Black Tea Leaves (Dried)</td>
+      <td>1 Jar</td>
+      <td>Ginagamit sa paggawa ng milk tea base.</td>
+    </tr>
+    <tr>
+      <td>Cooked Tapioca Pearls in Syrup</td>
+      <td>1 Mangkuk</td>
+      <td>Inihandang tapioca pearls na may syrup, ginagamit bilang topping.</td>
+    </tr>
+    <tr>
+      <td>Ice Cubes</td>
+      <td>1 Mangkuk</td>
+      <td>Idinadagdag para palamigin ang inumin.</td>
+    </tr>
+    <tr>
+      <td>Green Jelly Cubes</td>
+      <td>1 Plato</td>
+      <td>Makulay at may magandang texture, ginagamit bilang topping.</td>
+    </tr>
+    <tr>
+      <td>Yellow Mango/Pudding Cubes</td>
+      <td>1 Plato</td>
+      <td>Isa pang masarap at kaakit-akit na topping.</td>
+    </tr>
+    <tr>
+      <td>Whipped Cream/Foam Topping</td>
+      <td>1 Serving</td>
+      <td>Red swirl na may cherry at sprinkles sa itaas.</td>
+    </tr>
+    <tr>
+      <td>Dango Skewer</td>
+      <td>1</td>
+      <td>Tatlong matamis na bola sa isang stick, ginagamit bilang garnish.</td>
+    </tr>
+    <tr>
+      <td>Plastic Cup</td>
+      <td>1</td>
+      <td>Ang lalagyan ng iyong Boba Milk Tea.</td>
+    </tr>
+    <tr>
+      <td>Boba Straw</td>
+      <td>1</td>
+      <td>Malapad na pink na straw, perpekto para sa boba.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Boba Milk Tea Mastery: Isang Gabay sa Bawat Hakbang</h2>
+
+<h3>Hakbang 1. Pagsasala ng mga Daun ng Tsaa</h3>
+<p>
+  Pansinin ang tatlong nakatanim na tsaa sa paso. I-drag ang **malusog at berdeng dahon** sa kaliwang basket (na may green check). I-drag ang mga **nalalanta, brown, o may butas na dahon** sa kanang basket (na may red X).
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Maging mabilis ngunit tumpak sa iyong pagsasala. Lalabas ang isang heart icon kapag tama ang pagkakasala ng lahat ng dahon.
+</div>
+
+<h3>Hakbang 2. Paghahanda ng Brown Sugar Syrup</h3>
+<p>
+  Ibuhos ang **tubig** mula sa pitcher sa palayok na nakapatong sa mainit na plate. Gamitin ang **kutsara** upang kumuha ng **brown sugar** mula sa mangkuk at ilagay sa palayok. I-on ang mainit na plate (magsisimula ang timer) at hintaying mag-init at mag-reduce ang mixture hanggang maging syrup.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Maghintay ng pasensya hanggang matapos ang timer sa mainit na plate upang matiyak na umabot ang syrup sa tamang konsistensiya.
+</div>
+
+<h3>Hakbang 3. Lutuin ang Paunang Tapioca Pearls</h3>
+<p>
+  Idagdag ang **puting tapioca starch balls** mula sa mangkuk sa kumukulong brown sugar syrup. Haluin gamit ang **kutsara**. Patuloy na initin hanggang maging kulay brown ang mga pearl at luto na (makikita ito kapag natapos ang timer at nagkaroon ng visual na pagbabago). Kunin ang mga luto na tapioca pearls at syrup sa isang maliit na mangkok.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Patuloy na haluin upang matiyak na pantay-pantay ang pagluto ng mga pearls. Lalabas ang heart icon kapag natapos na ito.
+</div>
+
+<h3>Hakbang 4. Gumawa ng Fresh Tapioca Pearls</h3>
+<p>
+  Kumuha ng **luto na tapioca dough** (krim na swirl) at ilagay sa cutting board. I-sprinkle ang **tapioca starch/flour** sa ibabaw gamit ang kutsara upang maiwasan ang pagkadikit. Gamitin ang **rolling pin** upang patagin ang dough at gawing mahahabang rectangle. Gamitin ang **kutsilyo** upang gupitin ang rectangle sa maliliit na parisukat. Huwag kalimutang gumulong ng mga parisukat upang gawing maliliit na bola.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing pantay ang pagkaka-gulong ng mga dough upang magkaroon ng pantay-pantay na tapioca pearls. Siguraduhing lahat ng parisukat ay naging bola.
+</div>
+
+<h3>Hakbang 5. Lutuin ang Fresh Tapioca Pearls</h3>
+<p>
+  Ibuhos ang **tubig** sa palayok sa mainit na plate at hayaang kumulo. Idagdag ang mga bagong gulong **tapioca balls** sa kumukulong tubig. Haluin. Hintayin na maluto (tutunog ang timer kapag tapos na). Gamitin ang **slotted spoon** upang kunin ang mga luto na tapioca pearls at ilagay ang mga ito sa mangkok na naglalaman ng brown sugar syrup.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing kumukulo ang tubig bago idagdag ang pearls. Lalabas ang heart icon kapag matagumpay na nailipat.
+</div>
+
+<h3>Hakbang 6. Mag-brew ng Milk Tea Infusion</h3>
+<p>
+  Ibuhos ang **gatas** mula sa karton sa palayok na nakapatong sa mainit na plate. Ilagay ang **metal strainer** sa ibabaw ng palayok. Idagdag ang **dried black tea leaves** mula sa jar sa strainer. Idagdag din ang **fresh green tea leaves** sa strainer. I-on ang heat (magsisimula ang timer) at hayaang mag-infuse ang tsaa sa gatas. Kapag tapos na, alisin ang strainer at gamitin ang **ladle/spoon** upang ilipat ang brewed milk tea sa isang walang laman na mangkok.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Maghintay ng tamang oras para sa infuser na matapos. Magiging tanda ang heart icon kapag tapos na ang brewing.
+</div>
+
+<h3>Hakbang 7. Pagbuo ng Boba Milk Tea</h3>
+<p>
+  Ilagay ang **plastic cup** sa workspace. Ibuhos ang **brewed milk tea** mula sa pitcher papunta sa cup. Gamitin ang **slotted spoon** upang magdagdag ng seskuwensiyal na **tapioca pearls na inihanda sa syrup**. Idagdag ang **ice cubes** mula sa mangkok. Idagdag ang **green jelly cubes** mula sa plato. Idagdag ang **yellow mango/pudding cubes** mula sa plato. Ilagay ang **whipped cream/foam topping**. Maglagay ng **dango skewer** sa ibabaw bilang garnish. Huli, ilagay ang **boba straw**.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Sundin ang eksaktong order ng mga sangkap. Siguraduhin na ang lahat ng bahagi ay isinama para sa isang kumpletong inumin.
+</div>
+
+<h2>Pinakamahusay na Mga Tip para sa Tagumpay sa Cookingdom Level 21</h2>
 <ul>
-    <li>
-        <strong>Lutuin ang tapioca pearls:</strong> Unang hakbang ay ang pagluluto ng tapioca pearls. Dapat maluto ang mga ito hanggang sa maging malambot at chewy sa loob, na may bahagyang malagkit sa labas.
-    </li>
-    <li>
-        <strong>I-brew ang tsaa:</strong> Sunod na hakbang ay ang paggawa ng matapang na tsaa. Kadalasang gumagamit ng itim na tsaa, ngunit maaaring gumamit ng green tea o oolong depende sa panlasa.
-    </li>
-    <li>
-        <strong>Ihanda ang gatas:</strong> Idagdag ang gatas o alternatibong gatas upang maging creamy at malasa ang inumin. Mahalaga ang tamang balanse ng gatas at tsaa.
-    </li>
-    <li>
-        <strong>Ihanda at ihain ang inumin:</strong> Pagsamahin ang nilutong tapioca pearls, brewed tea, at gatas sa baso, at ihain nang malamig gamit ang malapad na straw para madali ang pag-inom ng pearls.
-    </li>
+  <li>✔️ Mag-ingat sa **mga timer** sa mainit na plate para sa bawat hakbang ng pagluluto, mula sa syrup hanggang sa tapioca pearls at brewing tea.</li>
+  <li>✔️ **Tumpakness** ay mahalaga, lalo na sa pagsasala ng mga dahon ng tsaa at paggawa ng mga fresh tapioca pearls (gupitin at igulong ang mga ito).</li>
+  <li>✔️ Sundin ang **specifc na order** ng mga hakbang sa pagtatapos ng inumin; ang mga layer ay mahalaga para sa presentation at lasa.</li>
+  <li>✔️ Makikita ang mga **heart pop-ups** sa bawat matagumpay na hakbang kaya't mag-ingat sa mga ito!</li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paggawa ng Bobba Milk Tea sa Cookingdom Level 21</h2>
-<ol>
-    <li>
-        <h3>Lutuin ang tapioca pearls:</h3>
-        <p>Magsimula sa paglalaga ng tapioca pearls. Pakuluan ang maraming tubig sa malaking kaserola at ilagay ang pearls habang hinahalo ng dahan-dahan upang hindi magdikit.</p>
-        <p><strong>Tip:</strong> Lutuin ayon sa instruksyon sa pakete (karaniwang 20-30 minuto). Dapat maluto nang husto ngunit chewy ang texture. Kung sobra sa pagluto, magiging sobrang lambot ang pearls; kung kulang naman, matigas ito sa loob.</p>
-        <p><strong>Tip:</strong> Pagkatapos maluto, banlawan ang pearls gamit ang malamig na tubig para itigil ang pagluluto at maiwasan ang pagdikit.</p>
-    </li>
-    <li>
-        <h3>I-brew ang tsaa:</h3>
-        <p>Habang niluluto ang pearls, i-brew ang matapang na tsaa. Gumamit ng itim na tsaa o ibang uri ayon sa panlasa. I-brew ng 3-5 minuto para sa mas malakas na lasa.</p>
-        <p><strong>Tip:</strong> Gumawa ng mas matapang na tsaa para hindi ma-dilute ang lasa kapag dinagdagan ng gatas at asukal.</p>
-        <p><strong>Tip:</strong> Para sa kakaibang lasa, maaaring gumamit ng jasmine o oolong tea, pero tradisyonal na itim na tsaa ang gamit.</p>
-    </li>
-    <li>
-        <h3>Ihanda ang gatas:</h3>
-        <p>Idagdag ang gusto mong gatas — buong gatas, almond milk, o iba pang plant-based milk.</p>
-        <p><strong>Tip:</strong> Para sa creamy na lasa, gumamit ng buong gatas o coconut milk. Para sa magaan na inumin, gamitin ang low-fat milk o oat milk.</p>
-        <p><strong>Tip:</strong> Unti-unting idagdag ang gatas at tikman hanggang makuha ang tamang balanse ng tsaa at gatas.</p>
-    </li>
-    <li>
-        <h3>Magdagdag ng pampatamis:</h3>
-        <p>Maglagay ng asukal o ibang pampatamis at haluin nang mabuti. Maaari mong baguhin ang dami ng tamis ayon sa panlasa para mabalanse ang pait ng tsaa.</p>
-        <p><strong>Tip:</strong> Gumamit ng honey, syrup, o iba pang sweetener ayon sa gusto. Ayusin ang tamis ayon sa panlasa ng customer.</p>
-    </li>
-    <li>
-        <h3>Pagsamahin ang inumin:</h3>
-        <p>Sa baso, ilagay muna ang nilutong tapioca pearls, pagkatapos ay lagyan ng yelo.</p>
-        <p><strong>Tip:</strong> Gumamit ng sapat na yelo para malamig ang inumin pero hindi masyadong matunaw at maapektuhan ang lasa.</p>
-        <p>Ibuhos ang tsaa na may gatas sa baso.</p>
-        <p><strong>Tip:</strong> Para sa dekorasyon, maaaring maglagay ng kaunting syrup o honey sa ibabaw.</p>
-    </li>
-    <li>
-        <h3>Ihain ang Bobba Milk Tea:</h3>
-        <p>Ihain gamit ang malapad na straw para madaling inumin ang tapioca pearls. Siguraduhing haluin bago inumin.</p>
-        <p><strong>Tip:</strong> Palamutihan gamit ang dagdag na pearls o prutas tulad ng lemon slices o mint leaves.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Mga Tip at Rekomendasyon para sa Cookingdom Level 21</h2>
+<h2>Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 21</h2>
 <ul>
-    <li>
-        <h3>Perpektong tapioca pearls:</h3>
-        <p>Mahalaga ang texture ng pearls — dapat malambot at chewy, na may bahagyang malagkit sa labas.</p>
-        <p><strong>Tip:</strong> Huwag lutuin ng sobra at ihain nang sariwa para hindi dumikit.</p>
-    </li>
-    <li>
-        <h3>Balanse ng gatas at tsaa:</h3>
-        <p>Kapag sobra ang gatas, mawawala ang lasa ng tsaa; kapag kulang, magiging mapait ang inumin.</p>
-        <p><strong>Tip:</strong> Tikman at ayusin ang balanse para sa tamang lasa.</p>
-    </li>
-    <li>
-        <h3>Katatamis:</h3>
-        <p>Dapat ang tamis ay nagpapalasa, hindi nangingibabaw.</p>
-        <p><strong>Tip:</strong> Tikman bago ihain at ayusin ang tamis ayon sa panlasa.</p>
-    </li>
-    <li>
-        <h3>Palamigin ang tsaa at pearls:</h3>
-        <p>Pinakamainam na inumin kapag malamig.</p>
-        <p><strong>Tip:</strong> Itago sa ref ang tsaa at tapioca pearls bago pagsamahin.</p>
-    </li>
-    <li>
-        <h3>Mga malikhaing bersyon:</h3>
-        <p>Pwede kang magdagdag ng toppings gaya ng red beans, prutas, o pudding.</p>
-        <p><strong>Tip:</strong> Subukan ang iba't ibang uri ng tsaa para sa kakaibang lasa.</p>
-    </li>
+  <li>Maling pag-sorting ng mga dahon ng tsaa (halimbawa, paghahalo ng tamang dahon at mga brown leaves).</li>
+  <li>Nasusunog na brown sugar syrup o hindi ganap na naluto ang tapioca pearls.</li>
+  <li>Ang mga tapioca pearls ay hindi pantay-pantay ang sukat, na maaaring makaapekto sa texture.</li>
+  <li>Nakalimutang magdagdag ng isang sangkap o nagdagdag ng toppings sa maling order sa proseso ng assembly.</li>
+  <li>Hindi pag-hihintay sa tamang oras ng mga timer para sa bawat bahagi ng pagluluto at brewing.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Ang paggawa ng perpektong Bobba Milk Tea sa Level 21 ay nangangailangan ng tamang pagluluto ng tapioca pearls, pag-brew ng tsaa, at pagsasaayos ng gatas at tamis. Siguraduhin ang tamang texture ng pearls at balanse ng lasa upang makagawa ng masarap na inumin.</p>
-<p>Sa tamang paghahanda, sariwang sangkap, at kaunting pagkamalikhain, maaari mong pasayahin ang mga customer at matagumpay na matapos ang Level 21 sa Cookingdom!</p>
 `,
   },
 
@@ -170,71 +260,137 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Antas 22 sa Cookingdom</h2>
-<p>Sa Antas 22 ng Cookingdom, ipakikilala sa iyo ang isang masarap at masustansyang inumin — ang Simpleng Smoothie. Perpekto ito para sa mga customer na gustong uminom ng masarap na prutas na inumin. Ang layunin mo ay makagawa nito nang mabilis at tama.</p>
-<p>Ang pangunahing hamon ay ang pagpili ng tamang kombinasyon ng prutas, tamang pag-blend, at tamang texture. Maging ito man ay tropical mango smoothie o berry mix, mahalaga ang lasa at lapot.</p>
+<h2>Maligayang Pagdating sa Cookingdom Level 22: Gabay at Hakbang sa Paghahanda ng Madaling Smoothie</h2>
+<p>
+  Maligayang pagdating, maestro ng smoothie! Sa **Cookingdom Level 22**, ang iyong misyon ay lumikha ng perpektong **Madaling Smoothie** para sa tatlong magkakaibang customer. Gabay ang level na ito sa mga intuitive ngunit tumpak na mekanika ng pagluluto ng Cookingdom sa isang relax na kapaligiran na walang timer, na magbibigay-daan sa iyo upang mapagtagumpayan ang bawat masarap na timpla.
+</p>
+<p>
+  Nagbibigay ang gabay na ito ng mga eksaktong hakbang upang mapagtagumpayan ang Cookingdom Level 22, na nililinaw ang bawat sangkap, aksyon, at tamang paglalagay na kailangan para sa isang smoothie sensation.
+</p>
 
-<h2 id="goal">Mga Layunin sa Antas 22</h2>
+<h2>Sangkap na Kakailanganin Mo para sa Iyong Smoothies</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mga Hiwa ng Avocado</td>
+      <td>1 bahagi</td>
+      <td>Ginagamit para sa unang (berde) na smoothie. Nakuha mula sa unang yugto ng pagputol.</td>
+    </tr>
+    <tr>
+      <td>Blueberry</td>
+      <td>1 bahagi</td>
+      <td>Ginagamit para sa pangalawang (lila) na smoothie. Nakuha mula sa yugto ng pagputol.</td>
+    </tr>
+    <tr>
+      <td>Ubas</td>
+      <td>1 bahagi</td>
+      <td>Ginagamit para sa pangalawang (lila) na smoothie. Nakuha mula sa yugto ng pagputol.</td>
+    </tr>
+    <tr>
+      <td>Mga Hiwa ng Pakwan</td>
+      <td>1 bahagi</td>
+      <td>Ginagamit para sa pangatlong (tropikal) na smoothie. Nakuha mula sa yugto ng pagputol.</td>
+    </tr>
+    <tr>
+      <td>Mga Hiwa ng Kahel</td>
+      <td>1 bahagi</td>
+      <td>Ginagamit para sa pangatlong (tropikal) na smoothie at bilang garnish. Nakuha mula sa yugto ng pagputol.</td>
+    </tr>
+    <tr>
+      <td>Mga Piraso ng Asukal</td>
+      <td>Ayon sa pangangailangan</td>
+      <td>Idinadagdag sa lila at tropikal na smoothie.</td>
+    </tr>
+    <tr>
+      <td>Honey</td>
+      <td>Ayon sa pangangailangan</td>
+      <td>Idinadagdag sa lila at tropikal na smoothie (idagdag gamit ang kutsara).</td>
+    </tr>
+    <tr>
+      <td>Gatas</td>
+      <td>Ayon sa pangangailangan</td>
+      <td>Ang likidong base para sa pangatlong (tropikal) na smoothie.</td>
+    </tr>
+    <tr>
+      <td>Mga Piraso ng Yelo</td>
+      <td>Ayon sa pangangailangan</td>
+      <td>Idinadagdag sa lila at tropikal na smoothies *matapos* i-blend.</td>
+    </tr>
+    <tr>
+      <td>Striped Straw</td>
+      <td>1</td>
+      <td>Isang garnish para sa pangatlong (tropikal) na smoothie.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Perpekto sa Madaling Smoothie: Gabay Hakbang-hakbang</h2>
+
+<h3>Hakbang 1. Hiwaing ang mga Kinakailangang Prutas</h3>
+<p>
+  Magsisimula ka sa isang mini-game ng pagputol ng prutas. Mag-swipe sa screen upang putulin ang mga dumating na prutas: **Pakwan, Kahel, Avocado, Blueberry, at Ubas**. Siguraduhing putulin ang tamang bilang ng bawat prutas na ipinapakita sa mga counter sa itaas ng screen (halimbawa, "x3 Pakwan," "x4 Kahel," at iba pa).
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Mag-target ng combos sa pamamagitan ng pagputol ng maraming prutas sa isang swipe para sa kahusayan. Ang mga kinakailangang bilang ng prutas ay bababa habang pinuputol mo sila.
+</div>
+
+<h3>Hakbang 2. Gawin ang Avocado Smoothie (Customer 1)</h3>
+<p>
+  Ang unang customer (isang capybara na may suot na pink na sumbrero) ay nais ng **berdeng smoothie**. I-drag ang baso na naglalaman ng **mga hiwa ng avocado** sa blender. Isara ang takip, pagkatapos pindutin ang power button upang i-blend. (Ang icon ng puso ay nagpapatunay ng matagumpay na pagbabalat). Buksan ang takip, pagkatapos ay ibuhos ang blended smoothie sa walang laman na baso sa counter. Sa wakas, i-drag ang natapos na berdeng smoothie sa customer.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Ang berdeng kulay sa bubble ng pagsasalita ng customer ay ang iyong palatandaan na Avocado ang pangunahing sangkap na kinakailangan.
+</div>
+
+<h3>Hakbang 3. Gawin ang Berry at Honey Smoothie (Customer 2) 💜🍯🧊</h3>
+<p>
+  Ang pangalawang customer (isang capybara na may straw hat) ay humihiling ng **lila smoothie** na may **honey** at **yelo**. I-drag ang jar ng **piraso ng asukal**, pagkatapos ay ang **honey** (gamit ang kutsara), pagkatapos ay ang baso ng **blueberry**, at sa wakas ang baso ng **ubas** sa blender. I-blend. Ibuhos ang smoothie sa walang laman na baso. I-drag ang lalagyan ng **kiyub ng yelo** sa baso upang magdagdag ng yelo. Ihain ang lila na smoothie sa customer na ito.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Maglaan ng pansin sa mga icon sa bubble ng pagsasalita: kulay lila para sa mga berry, ang icon ng jar ng honey, at ang icon ng mga piraso ng yelo. Tiyaking kasama lahat ng ito!
+</div>
+
+<h3>Hakbang 4. Gawin ang Tropikal na Smoothie (Customer 3) 🍊🌴🧊</h3>
+<p>
+  Ang pangatlong customer (isang capybara sa suit) ay humihiling ng **tropikal na smoothie** na may **gatas, honey, yelo, straw**, at **garnish ng kahel**. Idagdag ang **karton ng gatas**, jar ng **piraso ng asukal**, at **honey** (gamit ang kutsara) sa blender. Sunod, idagdag ang baso ng **mga hiwa ng pakwan** at baso ng **mga hiwa ng kahel** sa blender. I-blend. Ibuhos ang smoothie sa walang laman na baso. Magdagdag ng **yelo**, pagkatapos ay kumuha ng **striped straw** at ilagay ito sa baso. Sa wakas, idagdag ang **garnish ng hiwa ng kahel** mula sa mangkok sa istante sa gilid ng baso. Ihain ang natapos na smoothie.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing suriin ang bubble ng pagsasalita para sa *lahat* ng mga bahagi: kulay brown/orange para sa prutas, karton ng gatas, honey, yelo, straw, at mga hiwa ng kahel.
+</div>
+
+<h3>Hakbang 5. Final na Eksena & Tapusin ang Level</h3>
+<p>
+  Kapag naihain mo ang huling smoothie sa capybara sa suit, magsisimula ang isang maikling cutscene kung saan ibinabahagi niya ang kanyang inumin sa isa pang capybara. Susundan ito ng resulta ng screen, na magpapakita ng iyong performance.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Mag-target ng "Superb cooking!" na may 3 bituin upang tiyakin na ang lahat ng hakbang ay isinagawa nang perpekto at tumpak.
+</div>
+
+<h2>Mga Tip para sa Tagumpay sa Cookingdom Level 22</h2>
 <ul>
-  <li><strong>Pumili ng mga Prutas:</strong> Gumamit ng saging, strawberry, blueberry, o mangga bilang base.</li>
-  <li><strong>Magdagdag ng Yogurt o Likido:</strong> Maaaring gumamit ng gatas, almond milk, orange juice, o yogurt.</li>
-  <li><strong>I-blend nang Mabuti:</strong> Gamitin ang blender hanggang makinis — huwag labis para hindi maging sobrang malabnaw.</li>
-  <li><strong>Ihain:</strong> Ibuhos sa baso at dekorasyunan kung gusto.</li>
+  <li>✔️ **Pansinin nang mabuti ang bubble ng pagsasalita ng customer** upang matukoy ang lahat ng kinakailangang sangkap, dagdag (tulad ng asukal at honey), at garnishes para sa bawat partikular na smoothie.</li>
+  <li>✔️ Sa yugto ng pagputol ng prutas, **putulin lamang ang tamang bilang** ng bawat uri ng prutas ayon sa ipinapakita ng mga counter upang maiwasan ang sobrang pagputol.</li>
+  <li>✔️ Siguraduhin na ang lahat ng dagdag (tulad ng honey at asukal) at likido (tulad ng gatas) ay ilalagay sa **blender *bago*** pindutin ang blend button.</li>
+  <li>✔️ Siguraduhin na ang lahat ng garnishes (tulad ng yelo, straw, at mga hiwa ng kahel) ay idinadagdag sa **baso *matapos*** ibuhos ang smoothie, hindi sa blender.</li>
+  <li>✔️ Bawat tamang pagkilos (pagdagdag ng sangkap, pag-blend, pagdagdag ng garnishes, paghahain) ay karaniwang kinukumpirma ng isang **heart icon pop-up**.</li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paggawa ng Simpleng Smoothie</h2>
-<ol>
-  <li>
-    <h3>Pagpili ng Prutas</h3>
-    <p>Pumili ng prutas ayon sa gusto. Para sa tropical flavor, gamitin ang mangga at pinya. Para sa berry flavor, gamitin ang strawberry at blueberry.</p>
-    <p><strong>Tip:</strong> Magdagdag ng kaunting coconut milk para sa mas tropical na lasa.</p>
-  </li>
-  <li>
-    <h3>Magdagdag ng Likido</h3>
-    <p>Magdagdag ng yogurt, gatas, o plant-based milk (tulad ng almond milk) para sa tamang consistency.</p>
-    <p><strong>Tip:</strong> Mas malapot kung Greek yogurt ang gagamitin.</p>
-  </li>
-  <li>
-    <h3>I-blend</h3>
-    <p>Simulan sa mababang bilis, unti-unting dagdagan hanggang makuha ang pantay na timpla.</p>
-  </li>
-  <li>
-    <h3>Suriin ang Texture</h3>
-    <p>Ang smoothie ay handa kapag ito ay makinis at may tamang lapot. Maaaring magdagdag ng mas maraming prutas o likido kung kailangan.</p>
-  </li>
-  <li>
-    <h3>Paghahain</h3>
-    <p>Ibuhos sa baso. Maaaring magdekorasyon gamit ang prutas, dahon ng mint, o chia seeds. Ihain kaagad.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Kapaki-pakinabang na Tip</h2>
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 22</h2>
 <ul>
-  <li>
-    <h3>Gamitin ang Prutas na Frozen</h3>
-    <p>Mas nagpapalamig at nagpapalapot ng smoothie nang hindi na kailangan ng yelo.</p>
-  </li>
-  <li>
-    <h3>Kontrolin ang Tamís</h3>
-    <p>Tikman muna bago magdagdag ng honey, maple syrup, o juice.</p>
-  </li>
-  <li>
-    <h3>Magdagdag ng Nutrisyon</h3>
-    <p>Maaaring magdagdag ng chia seeds, flaxseed, protein powder, o spinach para sa dagdag sustansya.</p>
-  </li>
-  <li>
-    <h3>Huwag Mag-overblend</h3>
-    <p>30–45 segundo lang ay sapat na. Kapag sobra, magiging sobrang malabnaw ito.</p>
-  </li>
-  <li>
-    <h3>Ihain Kaagad</h3>
-    <p>Pinakamainam ang smoothie kapag bagong gawa. Kung kailangan itago, ilagay sa airtight container at ilagay sa ref, ngunit inumin sa loob ng 24 oras.</p>
-  </li>
+  <li>Ang pagkawala ng isang sangkap o garnish na partikular na hiningi sa order ng customer (halimbawa, nakakalimutan ang honey, yelo, o straw).</li>
+  <li>Pagkakamali sa kumbinasyon ng prutas para sa partikular na smoothie na hinihingi ng customer.</li>
+  <li>Paglalagay ng garnishes tulad ng yelo o straw direkta sa blender imbis na sa baso na ihahain.</li>
+  <li>Hindi sapat na pagputol ng bawat kinakailangang prutas sa yugto ng mini-game.</li>
+  <li>Pagdagdag ng sangkap sa maling pagkakasunod-sunod, lalo na ang mga garnishes bago ibuhos ang smoothie sa baso, na maaaring magdulot ng mga isyu.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Sa Antas 22 ng Cookingdom, mahalaga ang pagpili ng prutas, wastong blending, at magandang presentasyon. Gamit ang tamang diskarte, madali mong makukuha ang 5 bituin!</p>
-<p>Pagkatapos mong makabisado ang Simpleng Smoothie, handa ka na para sa mas mahirap na hamon sa susunod na antas!</p>
 `,
   },
 
@@ -276,67 +432,151 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Cookingdom Antas 23</h2>
-<p>Maligayang pagdating sa Antas 23 ng Cookingdom! Dito ay gagawa ka ng isang klasikong dessert para sa kapaskuhan — ang Yule Log Cake o Bûche de Noël. Ang antas na ito ay nangangailangan ng maingat na paghahalo, pagbake, pag-roll, at dekorasyon ng sponge cake na may tsokolate at palaman sa loob. Kailangan mo ng tiyaga at tamang timing!</p>
+<h2>Cookingdom Level 23 Walkthrough: Paglikha ng Perpektong Yule Log Cake</h2>
+<p>Maligayang pagdating sa **Cookingdom Level 23**! Ang level na ito ay gumagabay sa mga manlalaro sa isang intuitive ngunit tumpak na karanasan sa pagluluto sa isang relaxed na environment na walang timer, na nakatuon sa paggawa ng perpektong **Yule Log Cake**.</p>
+<p>Ang walkthrough na ito ay nagbibigay ng detalyadong hakbang-hakbang na mga tagubilin upang matiyak ang iyong tagumpay sa Cookingdom Level 23, na tumatalakay sa bawat sangkap, aksyon, at tamang paglalagay na kinakailangan.</p>
 
-<h2 id="goal">Mga Layunin sa Antas 23</h2>
+<h2>Mga Sangkap na Kailangan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Itlog</td>
+      <td>4</td>
+      <td>Hatiin sa mga pula (pink na mangkok) at puti (blue na mangkok).</td>
+    </tr>
+    <tr>
+      <td>Gatas</td>
+      <td>1 pitcher</td>
+      <td>Ilagay sa pula ng itlog.</td>
+    </tr>
+    <tr>
+      <td>Langis</td>
+      <td>1 bote</td>
+      <td>Ilagay sa pula ng itlog.</td>
+    </tr>
+    <tr>
+      <td>Harina</td>
+      <td>1 mangkok</td>
+      <td>I-sift sa pula ng itlog gamit ang salaan.</td>
+    </tr>
+    <tr>
+      <td>Vanilla Extract</td>
+      <td>1 jar</td>
+      <td>Ilagay sa pula ng itlog gamit ang maliit na asul na kutsara.</td>
+    </tr>
+    <tr>
+      <td>Asukal</td>
+      <td>1 mangkok</td>
+      <td>Idagdag sa puti ng itlog habang binubugahan gamit ang maliit na asul na kutsara.</td>
+    </tr>
+    <tr>
+      <td>Chocolate Frosting</td>
+      <td>1 piping bag</td>
+      <td>Gamitin para sa paglalagay sa pagitan ng mga layer at sa pangwakas na coating sa labas.</td>
+    </tr>
+    <tr>
+      <td>Dekorasyon</td>
+      <td>1 plato</td>
+      <td>Kabilang ang meringue mushrooms, pulang berries, pine cones, holly leaves, at chocolate curls/rolls.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Guide para sa Tagumpay</h2>
+
+<h3>Step 1: Hatiin ang Itlog</h3>
+<p>I-drag ang bawat itlog papunta sa mangkok. Awtomatikong magbabasag ang itlog. Siguraduhing ang pula ng itlog ay mapunta sa **pink na mangkok**, at ang puti ng itlog ay mapunta sa **blue na mangkok**.</p>
 <ul>
-  <li>Maghurno ng malambot at nababaluktot na sponge cake.</li>
-  <li>Maghanda at maglagay ng creamy filling.</li>
-  <li>Maayos na i-roll ang cake nang hindi ito nababasag.</li>
-  <li>Takpan ng tsokolateng frosting o ganache.</li>
-  <li>Gamitin ang mga dekorasyong pampasko.</li>
-  <li>I-deliver ang mga cake sa tamang oras.</li>
+  <li>**Tip:** Mag-ingat na i-drag ang mga itlog sa tamang mangkok. Ang laro ay awtomatikong naghihiwalay ng itlog kapag nabasag sa mangkok. Ang **heart icon** ay magpapakita kapag lahat ng 4 na itlog ay nahati na.</li>
 </ul>
 
-<h2 id="steps">Step-by-Step na Gabay sa Paggawa ng Yule Log Cake</h2>
-<ol>
-  <li>
-    <h3>Ihanda ang Batter ng Sponge Cake</h3>
-    <p>Pagsamahin ang itlog, asukal, harina, at cocoa powder. Haluin hanggang magaan at malambot.</p>
-    <p><strong>Tip:</strong> Huwag i-overmix para hindi tumigas ang sponge.</p>
-  </li>
-  <li>
-    <h3>I-bake ang Sponge</h3>
-    <p>Ilagay sa tray na may parchment paper at i-bake ng mga 10 minuto.</p>
-    <p><strong>Tip:</strong> Huwag i-overbake para hindi mabasag sa pag-roll.</p>
-  </li>
-  <li>
-    <h3>I-roll Habang Mainit</h3>
-    <p>Pagkalabas ng oven, agad itong i-roll kasama ang parchment paper habang mainit pa.</p>
-    <p><strong>Mahalaga:</strong> Pinipigilan nito ang pagbitak sa final roll.</p>
-  </li>
-  <li>
-    <h3>Ihanda ang Palaman</h3>
-    <p>Paluin ang heavy cream, kaunting asukal, at vanilla. Puwedeng lagyan ng kape o cocoa para sa dagdag na lasa.</p>
-  </li>
-  <li>
-    <h3>Pahiran at I-roll Muli</h3>
-    <p>Buksan ang pinalamig na sponge, pahiran ng cream, at i-roll ulit nang maayos.</p>
-    <p><strong>Tip:</strong> Gawing masikip ang roll para sa magandang spiral kapag hiniwa.</p>
-  </li>
-  <li>
-    <h3>I-frost ang Cake</h3>
-    <p>Takpan ng tsokolateng frosting o ganache. Gumamit ng tinidor upang makagawa ng texture na parang kahoy.</p>
-    <p><strong>Tip:</strong> I-chill ng bahagya para tumigas ang frosting bago dekorasyon.</p>
-  </li>
-  <li>
-    <h3>Magdekorasyon</h3>
-    <p>Gamitin ang powdered sugar na parang niyebe. Maglagay ng holly, berries, o chocolate mushrooms.</p>
-    <p><strong>Tip mula sa gabay:</strong> Ang pagiging malikhain sa dekorasyon ay nagbibigay ng mas mataas na rating!</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip para sa Antas 23</h2>
+<h3>Step 2: Ihalo ang Pula ng Itlog</h3>
+<p>Sa **pink na mangkok** (pula ng itlog), idagdag ang **gatas**, pagkatapos ang **langis**. Piliin ang **salain** at ilagay ito sa ibabaw ng pink na mangkok, pagkatapos ay idagdag ang **harina** at isala ito. Idagdag ang **vanilla extract** gamit ang **maliit na asul na kutsara**. Ang panghampas ay awtomatikong lilitaw; i-drag ito sa pabilog na galaw hanggang sa maging makinis ang batter.</p>
 <ul>
-  <li><strong>Tamang Timing</strong> — Iwasan ang overbaking ng sponge.</li>
-  <li><strong>Pagdekorasyon ang Susi</strong> — Mas festive, mas mataas ang score.</li>
-  <li><strong>Practice pa More</strong> — Maaari itong ulitin para makuha ang perpektong roll.</li>
-  <li><strong>Combo Bonus</strong> — Sunod-sunod na delivery = mas mataas na puntos.</li>
+  <li>**Tip:** Siguraduhing idagdag lahat ng sangkap bago simulan ang paghahalo. Ihalo hanggang lumitaw ang **heart icon**.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Sa Antas 23 ng Cookingdom, kailangan mong pagsamahin ang kakayahan sa baking, tamang timing, at artistikong dekorasyon upang makagawa ng perpektong Yule Log Cake. Gamit ang gabay na ito, magtatagumpay ka sa antas na ito at magdadala ng tuwa sa iyong mga customer ngayong kapaskuhan!</p>
+<h3>Step 3: Paghahalo ng Puti ng Itlog</h3>
+<p>Piliin ang **electric hand mixer** at ilagay ito sa **blue na mangkok** (puti ng itlog). Awtomatikong magsisimula ang mixer. Habang naghahalo, piliin ang **maliit na asul na kutsara**, isawsaw ito sa **asukal**, at idagdag ito sa puti ng itlog. Magpatuloy sa paghahalo hanggang mabuo ang mga stiff peaks.</p>
+<ul>
+  <li>**Tip:** Idagdag ang asukal habang umaandar ang mixer. Titigil ang mixer nang awtomatiko kapag naabot ng puti ng itlog ang tamang consistency (**heart icon**).</li>
+</ul>
+
+<h3>Step 4: Pagsamahin ang mga Batters</h3>
+<p>Piliin ang **blue spatula**. Gamitin ito upang kunin ang puti ng itlog mula sa blue na mangkok at dahan-dahang ihalo ito sa batter ng pula ng itlog sa pink na mangkok. Haluing maingat hanggang maghalo nang maayos.</p>
+<ul>
+  <li>**Tip:** Ihalo nang mahinahon upang mapanatili ang airiness. Tumigil sa paghahalo kapag lumitaw ang **heart icon**.</li>
+</ul>
+
+<h3>Step 5: I-spread at I-bake</h3>
+<p>Piliin muli ang **spatula**. Gamitin ito upang kunin ang pinagsamang batter mula sa pink na mangkok at ilagay ito sa **rectangular baking sheet**. I-spread ang batter nang pantay-pantay. I-drag ang baking sheet papunta sa **oven**.</p>
+<ul>
+  <li>**Tip:** Siguraduhing pantay-pantay ang pagkalat ng batter upang magluto ng pantay. Maghintay para sa timer ng oven (progress bar) na matapos.</li>
+</ul>
+
+<h3>Step 6: Ihiwa ang Baked Cake</h3>
+<p>Ang cake sheet na naluto ay awtomatikong lalabas sa wooden board. Piliin ang **knife tool**. Gawin ang tatlong patayong hiwa ayon sa mga guide lines upang hatiin ang cake sa apat na pantay-pantay na strips.</p>
+<ul>
+  <li>**Tip:** Sundin nang maayos ang mga guhit na putus-putus para sa malinis na hiwa. Ang **heart icon** ay magpapakita bilang kumpirmasyon.</li>
+</ul>
+
+<h3>Step 7: Maglagay ng Filling</h3>
+<p>Piliin ang **chocolate frosting piping bag**. Mag-pipe ng zigzag pattern ng frosting sa pangalawa, pangatlo, at pang-apat na cake strips (iwanang walang laman ang unang strip). Piliin ang **offset spatula** at i-drag ito upang ikalat ang frosting nang pantay-pantay sa mga strips.</p>
+<ul>
+  <li>**Tip:** Mag-pipe ng maayos sa loob ng mga boundaries ng strip. I-spread ang frosting nang pantay-pantay sa buong surface ng tatlong strips.</li>
+</ul>
+
+<h3>Step 8: I-roll ang Cake</h3>
+<p>Gamitin ang unang (plain) cake strip at i-drag ito papunta sa ilalim ng board upang i-roll nang mahigpit. Pagkatapos, i-drag ang pangalawang (frosted) strip upang ibalot ang unang roll. Ulitin ito gamit ang pangatlo at pang-apat na strips, patuloy na i-roll ang log hanggang sa maging mas malaki.</p>
+<ul>
+  <li>**Tip:** I-roll ng mahigpit at siguraduhin na naka-align ang mga strips ng maayos. Ang huling log form ay awtomatikong mabubuo pagkatapos idagdag ang huling strip. Ang **heart icon** ay magpapakita bilang kumpirmasyon.</li>
+</ul>
+
+<h3>Step 9: I-frost ang Exterior at Magbigay ng Texture</h3>
+<p>Ang rolled cake ay awtomatikong ilalagay sa isang white cake stand. Piliin muli ang **chocolate frosting piping bag** at i-drag ito sa buong exterior ng log (itaas at gilid) upang i-coat ito. Piliin ang **fork tool** at i-drag ito sa kahabaan ng log upang lumikha ng bark-like texture.</p>
+<ul>
+  <li>**Tip:** Siguraduhing maayos ang pag-coat ng frosting sa buong log. I-drag ang tinidor ng maayos upang lumikha ng realistic na texture. Ang **heart icon** ay magpapakita bilang kumpirmasyon.</li>
+</ul>
+
+<h3>Step 10: I-dekorasyunan ang Yule Log</h3>
+<p>Piliin ang **plate of decorations**. I-drag ang meringue mushrooms, pulang berries, holly leaves, pine cones, at chocolate curls/rolls sa cake, ilagay ang mga ito sa mga itinalagang lugar.</p>
+<ul>
+  <li>**Tip:** Siguraduhing mailagay ang mga dekorasyon sa mga highlight na lugar ng cake. Lahat ng dekorasyon ay kailangang mailagay nang tama.</li>
+</ul>
+
+<h3>Step 11: Kumpletuhin ang Level</h3>
+<p>Kapag nailagay na lahat ng dekorasyon, ang cake ay kumikislap, at isang mensahe ng 'Maligayang Pasko' ang lilitaw pansamantala. Matapos nito, makikita ang resulta screen ng 'Taste explosion!' na may 3 stars.</p>
+<ul>
+  <li>**Tip:** I-enjoy ang iyong festive creation!</li>
+</ul>
+
+<h2>Mga Tips para sa Tagumpay & Mga Karaniwang Pagkakamali</h2>
+
+<h3>Mga Tips at Tricks</h3>
+<ul>
+  <li>Sundin nang maayos ang mga drag-and-drop na utos para sa pagdaragdag ng mga sangkap at paggamit ng mga tool.</li>
+  <li>Mag-ingat sa mga visual na pahiwatig tulad ng mga lugar na naka-highlight at mga guide lines.</li>
+  <li>Maghintay para sa **heart icon confirmation** pagkatapos ng mga pangunahing hakbang tulad ng paghahalo, pagluluto, o pagdekorasyon.</li>
+  <li>Magtrabaho nang maayos at tumpak, lalo na sa pag-frost at pag-roll.</li>
+</ul>
+
+<h3>Karaniwang Pagkakamali</h3>
+<ul>
+  <li>Pag-drag ng mga sangkap sa maling mangkok (halimbawa, pula ng itlog sa mangkok ng puti).</li>
+  <li>Pagkawala ng isang sangkap (halimbawa, vanilla o asukal sa puti ng itlog).</li>
+  <li>Hindi tamang paghahalo o pagpukpok ng batter.</li>
+  <li>Pagkalat ng batter o frosting nang hindi pantay.</li>
+  <li>Hindi maayos na paghiwa o pag-roll.</li>
+  <li>Pagkakamali sa paglalagay ng huling dekorasyon.</li>
+</ul>
+
 `,
   },
 

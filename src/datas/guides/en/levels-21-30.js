@@ -42,98 +42,239 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 21 Game Overview</h2>
-<p>In Cookingdom Level 21 , Level 21 introduces a trendy and refreshing drink: Boba Milk Tea. This popular Taiwanese beverage, also known as bubble tea, is made with tea, milk, and chewy tapioca pearls. The challenge in this level is to perfectly balance the tea, milk, and sugar while ensuring the boba pearls are cooked just right for a satisfying and flavorful drink.</p>
-<p>In Cookingdom Level 21 , the key to success in Level 21 is precision in brewing the tea, cooking the boba pearls, and assembling the drink quickly. Let's dive into the steps and tips for creating the perfect Boba Milk Tea and earning top ratings!</p>
+      <h2>Welcome to Cookingdom Level 21: Boba Milk Tea Walkthrough & Guide</h2>
+<p>
+  Welcome, bubble tea enthusiast! In **Cookingdom Level 21**, your mission is
+  to craft the perfect **Boba Milk Tea**. This level guides you through
+  Cookingdom's intuitive yet precise cooking mechanics in a relaxed, no-timer
+  environment, allowing you to master this popular beverage.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 21,
+  detailing every ingredient, action, and precise placement needed for a
+  delightful boba tea.
+</p>
 
-<h2 id="goal">Cookingdom Level 21 Goals</h2>
+<h2>Ingredients You'll Need for Your Boba Milk Tea</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fresh Green Tea Leaves</td>
+      <td>Multiple</td>
+      <td>Sorted from potted tea plants.</td>
+    </tr>
+    <tr>
+      <td>Wilted/Brown Tea Leaves</td>
+      <td>Multiple</td>
+      <td>These are to be discarded during the sorting process.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>1 pitcher</td>
+      <td>Used for making syrup and for boiling the tapioca pearls.</td>
+    </tr>
+    <tr>
+      <td>Brown Sugar</td>
+      <td>1 bowl</td>
+      <td>Essential for making the rich syrup.</td>
+    </tr>
+    <tr>
+      <td>Tapioca Starch Balls (Pre-made)</td>
+      <td>1 bowl</td>
+      <td>White balls, cooked first in syrup.</td>
+    </tr>
+    <tr>
+      <td>Cooked Tapioca Dough</td>
+      <td>1 bowl</td>
+      <td>A creamy swirl, used to make fresh tapioca pearls.</td>
+    </tr>
+    <tr>
+      <td>Tapioca Starch/Flour</td>
+      <td>Sprinkled</td>
+      <td>Used to prevent sticking when rolling fresh pearl dough.</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>1 carton</td>
+      <td>The creamy base for the milk tea.</td>
+    </tr>
+    <tr>
+      <td>Black Tea Leaves (Dried)</td>
+      <td>1 jar</td>
+      <td>Used for brewing the milk tea base.</td>
+    </tr>
+    <tr>
+      <td>Cooked Tapioca Pearls in Syrup</td>
+      <td>1 bowl</td>
+      <td>The result of cooking pearls, served as a topping.</td>
+    </tr>
+    <tr>
+      <td>Ice Cubes</td>
+      <td>1 bowl</td>
+      <td>Added to chill the finished drink.</td>
+    </tr>
+    <tr>
+      <td>Green Jelly Cubes</td>
+      <td>1 plate</td>
+      <td>A colorful and textural topping.</td>
+    </tr>
+    <tr>
+      <td>Yellow Mango/Pudding Cubes</td>
+      <td>1 plate</td>
+      <td>Another delicious and visually appealing topping.</td>
+    </tr>
+    <tr>
+      <td>Whipped Cream/Foam Topping</td>
+      <td>1 serving</td>
+      <td>A reddish swirl with a cherry and sprinkles, for the top.</td>
+    </tr>
+    <tr>
+      <td>Dango Skewer</td>
+      <td>1</td>
+      <td>Three sweet balls on a stick, served as a garnish.</td>
+    </tr>
+    <tr>
+      <td>Plastic Cup</td>
+      <td>1</td>
+      <td>The container for your finished boba milk tea.</td>
+    </tr>
+    <tr>
+      <td>Boba Straw</td>
+      <td>1</td>
+      <td>A wide, pink striped straw, perfect for boba.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Boba Milk Tea Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Sort Tea Leaves</h3>
+<p>
+  Observe the three potted tea plants. Drag the **healthy, vibrant green leaves**
+  into the left basket (marked with a green check). Drag any **wilted, brown,
+  or holey leaves** into the right basket (marked with a red X).
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Be quick but accurate with your sorting. A heart
+  icon will appear once all leaves are correctly sorted.
+</div>
+
+<h3>Step 2. Prepare Brown Sugar Syrup</h3>
+<p>
+  Pour **water** from the pitcher into the pot placed on the hot plate. Use the
+  **spoon** to scoop **brown sugar** from its bowl and add it to the pot. Turn
+  on the hot plate (this is implied by a timer starting), and wait for the
+  mixture to heat and reduce into a thick syrup.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Wait patiently for the timer on the hot plate to
+  complete, ensuring the syrup reaches the right consistency.
+</div>
+
+<h3>Step 3. Cook Initial Tapioca Pearls</h3>
+<p>
+  Add the **white tapioca starch balls** from their bowl into the simmering
+  brown sugar syrup. Stir with the **spoon**. Continue heating until the
+  pearls turn a rich brown color and are cooked through (indicated by the timer
+  completion and a visual change). Scoop the cooked pearls and syrup into a
+  separate small bowl.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Stirring continuously helps the pearls cook
+  evenly. Watch the timer closely. A heart icon confirms completion.
+</div>
+
+<h3>Step 4. Make Fresh Tapioca Pearls</h3>
+<p>
+  Take the **cooked tapioca dough** (the creamy swirl) and place it on the
+  cutting board. Sprinkle **tapioca starch/flour** over it using the spoon to
+  prevent sticking. Use the **rolling pin** to flatten the dough into a long
+  rectangle. Use the **knife** to cut the rectangle into small squares. Finally,
+  drag your finger over the squares to roll them into small, perfectly round
+  balls.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Roll the dough evenly for uniform pearls. Ensure
+  every single square is rolled into a ball.
+</div>
+
+<h3>Step 5. Cook Fresh Tapioca Pearls</h3>
+<p>
+  Pour **water** into the pot on the hot plate and bring it to a rolling boil.
+  Add the freshly rolled **tapioca balls** to the boiling water. Stir. Wait for
+  them to cook (the timer will complete). Use the **slotted spoon** to scoop
+  the cooked pearls out of the water and place them into the bowl containing
+  the brown sugar syrup prepared earlier.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the water is boiling before adding the
+  pearls. A heart icon will appear once they are correctly transferred.
+</div>
+
+<h3>Step 6. Brew milk tea infusion.</h3>
+<p>
+  Pour **milk** from the carton into the pot on the hot plate. Place the **metal
+  strainer** over the pot. Add **dried black tea leaves** from the jar into the
+  strainer. Also add your sorted **fresh green tea leaves** into the strainer.
+  Turn on the heat (a timer will start), and let the tea infuse into the milk.
+  Once done, remove the strainer and use a **ladle/spoon** to transfer the
+  brewed milk tea into an empty bowl.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Wait for the infusion timer to complete fully. A
+  heart icon will signal successful brewing.
+</div>
+
+<h3>Step 7. Assemble Boba Milk Tea</h3>
+<p>
+  Place the empty **plastic cup** on the workspace. Pour the brewed **milk
+  tea** from the pitcher into the cup. Use the **slotted spoon** to add a scoop
+  of the **cooked tapioca pearls in brown sugar syrup**. Add **ice cubes** from
+  the bowl. Add **green jelly cubes** from the plate. Add **yellow mango/pudding
+  cubes** from the plate. Add the **whipped cream/foam topping**. Place the
+  **dango skewer** garnish on top. Finally, insert the wide, pink **boba straw**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Follow the exact order of ingredient addition.
+  Ensure all components are included for a complete drink.
+</div>
+
+<h2>Top Tips for Cookingdom Level 21 Success</h2>
 <ul>
-    <li>
-        <strong>Prepare the Boba Pearls:</strong> The first step in making Boba Milk Tea is cooking the tapioca pearls. These pearls need to be cooked to perfection to achieve the right texture – soft and chewy on the inside, with a slightly firm exterior.
-    </li>
-    <li>
-        <strong>Brew the Tea:</strong> Next, brew a strong tea base. Traditionally, black tea is used, but you can choose green tea or oolong tea depending on your preference.
-    </li>
-    <li>
-        <strong>Prepare the Milk:</strong> Add milk or a dairy-free alternative to the tea to create a creamy, smooth texture. The right balance of milk and tea is crucial for the flavor of the drink.
-    </li>
-    <li>
-        <strong>Assemble and Serve:</strong> Combine the cooked boba pearls, brewed tea, and milk in a glass, and serve it chilled over ice with a wide straw for sipping the boba pearls.
-    </li>
+  <li>
+    ✔️ Pay close attention to **timers** on the hot plate for all cooking steps,
+    from syrup to pearls to tea brewing.
+  </li>
+  <li>
+    ✔️ **Accuracy** is paramount, especially when sorting tea leaves and when
+    crafting the fresh tapioca pearls (both cutting and rolling them).
+  </li>
+  <li>
+    ✔️ Follow the **specific order** precisely when assembling the final drink;
+    layering matters for presentation and taste.
+  </li>
+  <li>
+    ✔️ Each major successful stage is consistently confirmed with a satisfying
+    **'heart' pop-up**, so watch for those cues!
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 21 Steps to Make Boba Milk Tea</h2>
-<ol>
-    <li>
-        <h3>Cook the Boba Pearls:</h3>
-        <p>Start by cooking the tapioca pearls. In Cookingdom Level 21 , the first thing you need to do is bring a large pot of water to a boil. Once the water is boiling, add the tapioca pearls and stir them gently to prevent clumping.</p>
-        <p><strong>Tip:</strong> Cook the pearls according to the package instructions (usually for about 20-30 minutes). Make sure the pearls are fully cooked but still chewy. Overcooking them can make them too soft, and undercooking them can leave them hard in the center.</p>
-        <p><strong>Tip:</strong> After cooking, rinse the pearls in cold water to stop the cooking process and prevent them from sticking together.</p>
-    </li>
-    <li>
-        <h3>Brew the Tea:</h3>
-        <p>While the boba pearls are cooking, brew the tea. In Cookingdom Level 21 , use a strong black tea (or any tea of your choice). Steep the tea for about 3-5 minutes to get a strong, flavorful base.</p>
-        <p><strong>Tip:</strong> For a richer flavor, you can brew the tea slightly stronger than usual. This will help the tea flavor come through after adding milk and sweetness.</p>
-        <p><strong>Tip:</strong> If you want a more unique flavor, consider using flavored teas like jasmine or oolong, but black tea remains the most traditional choice.</p>
-    </li>
-    <li>
-        <h3>Prepare the Milk:</h3>
-        <p>Once the tea is brewed, add your choice of milk. You can use whole milk, almond milk, or any other dairy or non-dairy alternative you prefer.</p>
-        <p><strong>Tip:</strong> For an extra creamy texture, use whole milk or coconut milk. For a lighter drink, try skim milk or oat milk.</p>
-        <p><strong>Tip:</strong> Add the milk gradually and taste to ensure the right balance between the tea and the milk. You want the drink to be creamy but still have a strong tea flavor.</p>
-    </li>
-    <li>
-        <h3>Sweeten the Tea:</h3>
-        <p>In Cookingdom Level 21 , the sweetness of the drink is crucial. Add sugar or a sweetener to the brewed tea and stir well to dissolve. The amount of sugar will depend on your personal preference, but it should complement the bitterness of the tea without overpowering it.</p>
-        <p><strong>Tip:</strong> You can also use honey, syrup, or other sweeteners instead of regular sugar. Adjust the sweetness to match your customer's taste preferences.</p>
-    </li>
-    <li>
-        <h3>Assemble the Drink:</h3>
-        <p>Now it's time to assemble the Boba Milk Tea. In Cookingdom Level 21 , pour the cooked tapioca pearls into a glass first. Then, add ice cubes to keep the drink cold and refreshing.</p>
-        <p><strong>Tip:</strong> If the drink is served chilled, make sure to use a generous amount of ice to keep the tea cool and refreshing. Avoid adding too much ice, though, as it may dilute the drink.</p>
-        <p>Pour the prepared tea and milk mixture over the pearls and ice.</p>
-        <p><strong>Tip:</strong> For an added visual appeal, you can drizzle some syrup or honey on top of the tea before serving.</p>
-    </li>
-    <li>
-        <h3>Serve the Boba Milk Tea:</h3>
-        <p>Once the Boba Milk Tea is assembled, serve it with a wide straw for easy sipping. Be sure to serve it cold, and don't forget to stir it before drinking to mix the milk, tea, and boba together.</p>
-        <p><strong>Tip:</strong> Garnish with extra boba pearls or even some extra fruit, like a slice of lemon or a sprig of mint, for added flavor and presentation.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 21 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 21</h2>
 <ul>
-    <li>
-        <h3>Perfect Boba Pearls:</h3>
-        <p>The key to a good Boba Milk Tea is the texture of the tapioca pearls. They should be soft and chewy, with just the right amount of firmness on the outside.</p>
-        <p><strong>Tip:</strong> Don't overcook the pearls; they should have a slight chew to them. If the pearls sit too long after cooking, they can become sticky, so serve them fresh.</p>
-    </li>
-    <li>
-        <h3>Balance the Milk and Tea:</h3>
-        <p>The right balance of milk and tea is crucial in Boba Milk Tea. Too much milk will overwhelm the tea, while too little will make the drink too bitter.</p>
-        <p><strong>Tip:</strong> Taste the tea after adding the milk and adjust the ratio according to your preference. The ideal ratio should be creamy but still allow the tea to shine.</p>
-    </li>
-    <li>
-        <h3>Sweetness Is Key:</h3>
-        <p>The sweetness of the Boba Milk Tea is important, but don't go overboard. A little sweetness enhances the flavor without making the drink overly sugary.</p>
-        <p><strong>Tip:</strong> Always taste the tea before serving to ensure that the sweetness is just right. If it's too sweet, add more tea; if it's not sweet enough, add a little more sugar.</p>
-    </li>
-    <li>
-        <h3>Chill the Tea and Boba:</h3>
-        <p>Ensure that both the tea and the boba pearls are cold before serving. A cold drink is more refreshing and enjoyable, especially on a hot day.</p>
-        <p><strong>Tip:</strong> If you're in a hurry, chill the brewed tea in the refrigerator before serving, and store cooked boba pearls in the fridge until ready to use.</p>
-    </li>
-    <li>
-        <h3>Creative Variations:</h3>
-        <p>You can add extra toppings like red bean paste, fruit, or even pudding to make your Boba Milk Tea more exciting and unique.</p>
-        <p><strong>Tip:</strong> Experiment with different flavors of tea, such as jasmine, oolong, or green tea, to create a signature drink that stands out.</p>
-    </li>
+  <li>Incorrectly sorting tea leaves (e.g., mixing good and bad leaves).</li>
+  <li>Burning the brown sugar syrup or undercooking the tapioca pearls.</li>
+  <li>Making unevenly sized fresh tapioca pearls, which can affect texture.</li>
+  <li>Forgetting an ingredient or adding toppings in the wrong order during assembly.</li>
+  <li>Not waiting for cooking or brewing timers to complete for each component.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 21 , making the perfect Boba Milk Tea requires precision in cooking the tapioca pearls, brewing the tea, and balancing the milk and sweetness. Pay attention to the texture of the boba and ensure that the tea and milk complement each other for a satisfying and delicious drink.</p>
-<p>With proper preparation, boba pearls, and a touch of creativity, you'll be able to impress your customers and continue your journey through Cookingdom Level 21 !</p>
-`,
+    `,
   },
   {
     // Add entry for Level 22
@@ -173,90 +314,182 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 22 Game Overview</h2>
-<p>In Cookingdom Level 22 ,introduces a delicious and healthy treat: the Easy Smoothie. This refreshing drink is perfect for a quick and nutritious snack, and it's all about balancing the right amount of fruit, yogurt, and other ingredients to create a creamy, smooth, and flavorful blend. The goal is to prepare the perfect smoothie quickly to satisfy your customers and advance to the next level.</p>
-<p>In Cookingdom Level 22 , the Easy Smoothie level focuses on preparing a refreshing drink with precision. You'll need to choose the right fruits, blend them to perfection, and serve it with the correct consistency. Whether it's a tropical mango smoothie or a berry burst smoothie, the key to success lies in getting the right texture and flavor.</p>
+      <h2>Welcome to Cookingdom Level 22: Easy Smoothie Walkthrough & Guide</h2>
+<p>
+  Welcome, smoothie maestro! In **Cookingdom Level 22**, your mission is to
+  craft the perfect **Easy Smoothie** for three different customers. This level
+  guides you through Cookingdom's intuitive yet precise cooking mechanics in a
+  relaxed, no-timer environment, allowing you to master each refreshing blend.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 22,
+  detailing every ingredient, action, and precise placement needed for a
+  smoothie sensation.
+</p>
 
-<h2 id="goal">Cookingdom Level 22 Level 22 Goals</h2>
+<h2>Ingredients You'll Need for Your Smoothies</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Avocado Slices</td>
+      <td>1 portion</td>
+      <td>Used for the first (green) smoothie. Obtained from the initial slicing phase.</td>
+    </tr>
+    <tr>
+      <td>Blueberry</td>
+      <td>1 portion</td>
+      <td>Used for the second (purple) smoothie. Obtained from the slicing phase.</td>
+    </tr>
+    <tr>
+      <td>Grapes</td>
+      <td>1 portion</td>
+      <td>Used for the second (purple) smoothie. Obtained from the slicing phase.</td>
+    </tr>
+    <tr>
+      <td>Watermelon Slices</td>
+      <td>1 portion</td>
+      <td>Used for the third (tropical) smoothie. Obtained from the slicing phase.</td>
+    </tr>
+    <tr>
+      <td>Orange Slices</td>
+      <td>1 portion</td>
+      <td>Used for the third (tropical) smoothie and as a garnish. Obtained from the slicing phase.</td>
+    </tr>
+    <tr>
+      <td>Sugar Cubes</td>
+      <td>As needed</td>
+      <td>An additive for the purple and tropical smoothies.</td>
+    </tr>
+    <tr>
+      <td>Honey</td>
+      <td>As needed</td>
+      <td>An additive for the purple and tropical smoothies (added via spoon).</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>As needed</td>
+      <td>The liquid base for the third (tropical) smoothie.</td>
+    </tr>
+    <tr>
+      <td>Ice Cubes</td>
+      <td>As needed</td>
+      <td>Added to the purple and tropical smoothies *after* blending.</td>
+    </tr>
+    <tr>
+      <td>Striped Straw</td>
+      <td>1</td>
+      <td>A garnish for the third (tropical) smoothie.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Easy Smoothie Perfection: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Slice the Required Fruits</h3>
+<p>
+  You'll enter a fruit slicing mini-game first. Swipe across the screen to
+  slice the incoming fruits: **Watermelon, Orange, Avocado, Blueberry, and
+  Grapes**. Make sure to slice the exact number of each fruit indicated by the
+  counters at the top of the screen (e.g., "x3 Watermelon," "x4 Orange," etc.).
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Aim for combos by slicing multiple fruits in a
+  single swipe for efficiency. The required fruit counts will decrease as you
+  slice them.
+</div>
+
+<h3>Step 2. Make the Avocado Smoothie (Customer 1)</h3>
+<p>
+  The first customer (a capybara wearing a pink hat) wants a **green smoothie**.
+  Drag the glass containing the **Avocado slices** into the blender. Close the
+  lid, then press the power button to blend. (A heart icon confirms successful
+  blending). Open the lid, then pour the blended smoothie into the empty glass
+  on the counter. Finally, drag the finished green smoothie to the customer.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> The green color in the customer's speech bubble
+  is your cue that Avocado is the primary ingredient needed.
+</div>
+
+<h3>Step 3. Make the Berry & Honey Smoothie (Customer 2) 💜🍯🧊</h3>
+<p>
+  The second customer (a capybara with a straw hat) requests a **purple
+  smoothie** with **honey** and **ice**. Drag the **Sugar Cubes** jar, then
+  the **Honey** (using the spoon), followed by the glass of **Blueberries**,
+  and finally the glass of **Grapes** into the blender. Blend. Pour the smoothie
+  into the empty glass. Drag the **Ice Cubes** container to the glass to add
+  ice. Serve the purple smoothie to this customer.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Pay close attention to the speech bubble icons:
+  purple color for berries, the honey jar icon, and the ice cubes. Include all
+  of them!
+</div>
+
+<h3>Step 4. Make the Tropical Smoothie (Customer 3)  tropical drink straw garnish</h3>
+<p>
+  The third customer (a capybara in a suit) asks for a **tropical smoothie** with **milk, honey, ice, a straw**, and an **orange garnish**. Add the **milk carton, sugar cubes** jar, and **honey** (using the spoon) to the blender. Next, add the glass of **watermelon slices** and the glass of **orange slices** to the blender. Blend. Pour the smoothie into the empty glass. Add **ice cubes. Add a **striped straw** from its container. Finally, add an **orange slice garnish** from the shelf bowl to the rim of the glass. Serve your completed smoothie.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Carefully check the speech bubble for *all*
+  components: brownish/orange color for the fruit blend, milk carton, honey,
+  ice, straw, and orange slice icons.
+</div>
+
+<h3>Step 5. Final Scene & Complete Level</h3>
+<p>
+  Serving the final smoothie to the capybara in the suit will trigger a short
+  cutscene where he shares his drink with another capybara. This will then be
+  followed by the results screen, indicating your performance.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Aim for "Superb cooking!" with 3 stars to
+  confirm all steps were performed perfectly and accurately.
+</div>
+
+<h2>Top Tips for Cookingdom Level 22 Success</h2>
 <ul>
-    <li>
-        <strong>Choose the Fruit:</strong> Select the fruit base for your smoothie. You can use a combination of fruits like bananas, strawberries, blueberries, or mangoes to create a delicious and balanced flavor.
-    </li>
-    <li>
-        <strong>Add Yogurt or Liquid:</strong> Choose yogurt or a liquid base, like milk, almond milk, or orange juice, to help blend the fruits into a smooth consistency.
-    </li>
-    <li>
-        <strong>Blend to Perfection:</strong> Once you've added the ingredients, blend them together until smooth. Be careful not to overblend or underblend, as this affects the texture of the smoothie.
-    </li>
-    <li>
-        <strong>Serve the Smoothie:</strong> After blending, pour the smoothie into a glass and serve it immediately. You can add a garnish or extra fruit for a decorative touch.
-    </li>
+  <li>
+    ✔️ **Watch the customer's speech bubble carefully** to identify all
+    required ingredients, additives (like sugar and honey), and garnishes for each
+    specific smoothie.
+  </li>
+  <li>
+    ✔️ In the fruit-slicing phase, **slice only the exact required amount** of
+    each fruit type as shown by the counters to avoid over-slicing.
+  </li>
+  <li>
+    ✔️ Ensure all additives (like honey and sugar) and liquids (like milk) go into
+    the **blender *before*** you press the blend button.
+  </li>
+  <li>
+    ✔️ Make sure all garnishes (like ice, straws, and orange slices) are added
+    to the **glass *after*** the smoothie has been poured, not into the
+    blender.
+  </li>
+  <li>
+    ✔️ Each correctly performed action (adding an ingredient, blending,
+    garnishing, serving) is typically confirmed with a helpful **heart icon
+    pop-up**.
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 22 Steps to Make the Easy Smoothie</h2>
-<ol>
-    <li>
-        <h3>Choose Your Fruit:</h3>
-        <p>The first step in making a great Easy Smoothie is selecting your fruit. In Cookingdom Level 22, you have various options, from tropical fruits like mango and pineapple to classic choices like strawberries, blueberries, or bananas.</p>
-        <p><strong>Tip:</strong> For a tropical smoothie, combine mango, pineapple, and a little coconut milk for a refreshing treat. For a berry smoothie, mix strawberries, blueberries, and raspberries for a tangy and sweet flavor.</p>
-    </li>
-    <li>
-        <h3>Add Yogurt or Liquid Base:</h3>
-        <p>After selecting the fruit, you'll need to add a creamy base to help blend the ingredients. Choose yogurt for a thicker, creamier smoothie, or go with milk, almond milk, or orange juice for a lighter consistency.</p>
-        <p><strong>Tip:</strong> If you want a dairy-free option, almond milk or coconut milk works great as a liquid base. For a richer smoothie, opt for full-fat yogurt or even Greek yogurt for extra protein and creaminess.</p>
-        <p><strong>Tip:</strong> For added flavor and creaminess, you can also include honey, agave, or maple syrup to sweeten the smoothie.</p>
-    </li>
-    <li>
-        <h3>Blend the Ingredients:</h3>
-        <p>Once you've added the fruit and liquid base, it's time to blend. In Cookingdom Level 22, you'll need to blend the ingredients thoroughly until you achieve a smooth and creamy texture. Be sure to blend for just the right amount of time—overblending can make the smoothie too thin, while underblending can leave chunks of fruit.</p>
-        <p><strong>Tip:</strong> Start by blending at a low speed and gradually increase to ensure everything mixes evenly. Add a little extra liquid if the smoothie is too thick or if your blender is having trouble.</p>
-    </li>
-    <li>
-        <h3>Check the Consistency:</h3>
-        <p>After blending, check the consistency of the smoothie. It should be thick, creamy, and easy to drink with a straw. If it's too thick, add a splash of liquid to loosen it up. If it's too thin, blend in a few more pieces of fruit or a little more yogurt.</p>
-        <p><strong>Tip:</strong> If the smoothie is too chunky or lumpy, blend it for a few more seconds to achieve the desired smoothness.</p>
-    </li>
-    <li>
-        <h3>Serve the Smoothie:</h3>
-        <p>Once you're happy with the consistency, it's time to serve the smoothie. Pour the smoothie into a chilled glass and garnish with extra fruit or a sprinkle of chia seeds, flax seeds, or granola for texture.</p>
-        <p><strong>Tip:</strong> For a beautiful presentation, you can also add a colorful straw or a few mint leaves as a garnish.</p>
-        <p><strong>Tip:</strong> Serve the smoothie immediately after blending for the best taste and texture.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 22 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 22</h2>
 <ul>
-    <li>
-        <h3>Use Frozen Fruit for a Thicker Smoothie:</h3>
-        <p>Frozen fruit is a great addition to smoothies as it thickens the drink and makes it cold and refreshing.</p>
-        <p><strong>Tip:</strong> If you're using fresh fruit, consider freezing it beforehand, especially bananas or berries, to give your smoothie the perfect texture.</p>
-    </li>
-    <li>
-        <h3>Adjust Sweetness to Taste:</h3>
-        <p>Taste your smoothie before serving and adjust the sweetness if needed. You can add honey, agave syrup, or a splash of fruit juice to sweeten it.</p>
-        <p><strong>Tip:</strong> If you prefer a sugar-free smoothie, opt for naturally sweet fruits like mangoes or bananas and skip the added sweeteners.</p>
-    </li>
-    <li>
-        <h3>Experiment with Add-ins:</h3>
-        <p>In Cookingdom Level 22, you can get creative with your smoothies by adding extra ingredients like chia seeds, flax seeds, protein powder, or even spinach for an extra boost of nutrition.</p>
-        <p><strong>Tip:</strong> Adding a handful of spinach won't affect the flavor much but will boost the smoothie's health benefits.</p>
-    </li>
-    <li>
-        <h3>Don't Overblend:</h3>
-        <p>Be careful not to overblend the ingredients. While blending is essential to get a smooth texture, overblending can cause the smoothie to become too watery or thin.</p>
-        <p><strong>Tip:</strong> Blend for 30-45 seconds, then check the consistency. If necessary, blend for a few more seconds.</p>
-    </li>
-    <li>
-        <h3>Serve Immediately:</h3>
-        <p>Smoothies are best served fresh, so be sure to serve your smoothie immediately after blending to preserve its texture and flavor.</p>
-        <p><strong>Tip:</strong> If you need to store the smoothie for later, keep it in an airtight container in the refrigerator for up to 24 hours, but it's best enjoyed fresh.</p>
-    </li>
+  <li>Missing an ingredient or garnish specifically requested in the customer's order (e.g., forgetting honey, ice, or the straw).</li>
+  <li>Using the wrong fruit combination for the specific smoothie requested by the customer.</li>
+  <li>Adding garnishes like ice or straws directly to the blender instead of to the final serving glass.</li>
+  <li>Not slicing enough of each required fruit type during the initial mini-game.</li>
+  <li>Adding ingredients in the wrong order, especially garnishes before the smoothie is poured into the glass, which can lead to issues.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Level 22 of Cookingdom, making the Easy Smoothie is all about choosing the right fruits, blending them with a creamy base, and achieving the perfect consistency. Keep the texture smooth, adjust the sweetness, and serve it cold with a decorative touch for maximum customer satisfaction.</p>
-<p>Mastering the Easy Smoothie will not only enhance your Cookingdom Level 22 skills but also set you up for success in future levels where you'll create even more complex dishes and drinks!</p>
-`,
+    `,
   },
   {
     // Add entry for Level 23
@@ -297,88 +530,151 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 23 Game Overview</h2>
-<p>Welcome to Cookingdom Level 23 game, where your baking skills are put to the test with the classic holiday dessert – the Yule Log Cake (also known as Bûche de Noël). This level challenges players to carefully bake, roll, and decorate a festive sponge cake filled with cream and coated in rich chocolate. Precision and timing are key to completing this intricate dessert and delighting your virtual customers.</p>
-<p>The Cookingdom Level 23 walkthrough guides help you navigate each step of this level to ensure your Yule Log Cake is not only delicious but also visually appealing.</p>
+      <h2>Cookingdom Level 23 Walkthrough: Crafting the Perfect Yule Log Cake</h2>
+<p>Welcome to **Cookingdom Level 23**! This level guides players through an intuitive yet precise cooking experience in a relaxed, no-timer environment, focusing on creating a perfect **Yule Log Cake**.</p>
+<p>This walkthrough provides detailed, step-by-step instructions to ensure your success in Cookingdom Level 23, covering every ingredient, action, and placement needed.</p>
 
-<h2 id="goal">Cookingdom Level 23 Objectives</h2>
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Eggs</td>
+      <td>4</td>
+      <td>Separated into yolks (pink bowl) and whites (blue bowl).</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>1 pitcher</td>
+      <td>Added to egg yolks.</td>
+    </tr>
+    <tr>
+      <td>Oil</td>
+      <td>1 bottle</td>
+      <td>Added to egg yolks.</td>
+    </tr>
+    <tr>
+      <td>Flour</td>
+      <td>1 bowl</td>
+      <td>Sifted into egg yolk mixture using a sieve.</td>
+    </tr>
+    <tr>
+      <td>Vanilla Extract</td>
+      <td>1 jar</td>
+      <td>Added to egg yolk mixture using a small blue spoon.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 bowl</td>
+      <td>Portion added to egg whites during whipping using a small blue spoon.</td>
+    </tr>
+    <tr>
+      <td>Chocolate Frosting</td>
+      <td>1 piping bag</td>
+      <td>Used for filling between layers and for the final exterior coating.</td>
+    </tr>
+    <tr>
+      <td>Decorations</td>
+      <td>1 plate</td>
+      <td>Includes meringue mushrooms, red berries, pine cones, holly leaves, and chocolate curls/rolls.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Guide to Success</h2>
+
+<h3>Step 1: Separate Eggs</h3>
+<p>Drag each of the 4 eggs over the bowls. They will crack automatically. Ensure yolks land in the **pink bowl**, and whites land in the **blue bowl**.</p>
 <ul>
-    <li>Bake a light, flexible sponge cake.</li>
-    <li>Prepare and spread a creamy filling.</li>
-    <li>Roll the sponge without cracking.</li>
-    <li>Frost the log with chocolate icing.</li>
-    <li>Decorate with holiday-themed toppings.</li>
-    <li>Deliver perfect cakes within time limits.</li>
+  <li>**Tip:** Be precise when dragging to the correct bowl. The game automatically separates them once cracked over the bowl. A **heart icon** confirms all 4 are separated.</li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 23 Step-by-Step Guide to Master the Yule Log Cake</h2>
-<ol>
-    <li>
-        <h3>Prepare the Sponge Cake Batter</h3>
-        <p>In Cookingdom Level 23, start by mixing eggs, sugar, flour, and cocoa powder.</p>
-        <p><strong>Tip:</strong> Whisk the eggs and sugar until light and fluffy — this gives your sponge its airy texture.</p>
-        <p><strong>Cookingdom Level 23 game tip:</strong> Avoid overmixing the flour to keep the batter soft.</p>
-    </li>
-    <li>
-        <h3>Bake the Sponge</h3>
-        <p>Pour the batter onto a baking tray lined with parchment.</p>
-        <p>Bake in a preheated oven until just set – about 10 minutes in-game time.</p>
-        <p><strong>Tip:</strong> The sponge must remain flexible to roll without breaking.</p>
-    </li>
-    <li>
-        <h3>Roll While Warm</h3>
-        <p>Immediately after baking, roll the sponge (with the parchment paper) while it’s still warm.</p>
-        <p>Let it cool in the rolled shape — this “trains” the cake and prevents cracks later.</p>
-        <p><strong>Cookingdom Level 23 walkthrough guides stress that skipping this step risks a broken cake!</strong></p>
-    </li>
-    <li>
-        <h3>Prepare the Cream Filling</h3>
-        <p>In Cookingdom Level 23 , whip heavy cream with a bit of vanilla and sugar.</p>
-        <p>Optional: Add a dash of espresso or cocoa for extra depth.</p>
-    </li>
-    <li>
-        <h3>Fill and Roll</h3>
-        <p>Carefully unroll the cooled sponge, spread the cream evenly, and gently re-roll it.</p>
-        <p>Use steady hands to prevent tearing.</p>
-        <p><strong>Tip:</strong> Keep the roll tight for a better spiral effect when sliced.</p>
-    </li>
-    <li>
-        <h3>Frost the Log</h3>
-        <p>Cover the roll in chocolate ganache or buttercream.</p>
-        <p>Use a fork to create “bark” texture — a key detail in the Cookingdom Level 23 that boosts your score.</p>
-        <p><strong>Tip:</strong> Chill the cake briefly to set the frosting before decorating.</p>
-    </li>
-    <li>
-        <h3>Add Festive Decorations</h3>
-        <p>Use powdered sugar for a snow-dusted effect.</p>
-        <p>Add holly, berries, or edible mushrooms.</p>
-        <p><strong>The Cookingdom Level 23 walkthrough guides encourage creativity here — decoration boosts your star rating!</strong></p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 23 Tips </h2>
+<h3>Step 2: Mix Yolk Batter</h3>
+<p>To the **pink bowl** (yolks), add **milk**, then add **oil**. Select the **sieve** and place it over the pink bowl, then add the **flour** to sift it in. Add **vanilla extract** using the **small blue spoon**. A whisk appears automatically; drag it in circles until the batter is smooth.</p>
 <ul>
-    <li>
-        <h3>Timing Is Everything</h3>
-        <p>Don’t overbake the sponge; it must be soft enough to roll.</p>
-    </li>
-    <li>
-        <h3>Decoration Matters</h3>
-        <p>The Cookingdom Level 23 rewards players who take time to decorate. The more festive, the better!</p>
-    </li>
-    <li>
-        <h3>Practice Makes Perfect</h3>
-        <p>This level may require a few tries to master the rolling and filling.</p>
-    </li>
-    <li>
-        <h3>Combo Streaks</h3>
-        <p>Complete multiple cakes quickly to trigger bonus combos for higher scores.</p>
-    </li>
+  <li>**Tip:** Ensure all ingredients are added before whisking. Whisk until the **heart icon** appears.</li>
 </ul>
 
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 23, mastering the Yule Log Cake means balancing baking skill, precision timing, and creativity. From whipping the perfect sponge to decorating your cake with holiday flair, this level tests everything you’ve learned so far. With the help of Cookingdom walkthrough guides, you’ll roll your way to victory and leave your customers full of holiday cheer!</p>
-`,
+<h3>Step 3: Whip Egg Whites</h3>
+<p>Select the **electric hand mixer** and place it in the **blue bowl** (egg whites). It will start automatically. While mixing, select the **small blue spoon**, dip it into the **sugar**, and add it to the whipping whites. Continue mixing until stiff peaks form.</p>
+<ul>
+  <li>**Tip:** Add the sugar while the mixer is running. The mixer stops automatically when the whites reach the correct consistency (**heart icon**).</li>
+</ul>
+
+<h3>Step 4: Combine Batters</h3>
+<p>Select the **blue spatula**. Use it to scoop the whipped egg whites from the blue bowl and gently fold them into the yolk batter in the pink bowl. Stir gently with the spatula until just combined.</p>
+<ul>
+  <li>**Tip:** Fold gently to maintain airiness. Stop mixing when the **heart icon** appears.</li>
+</ul>
+
+<h3>Step 5: Spread and Bake</h3>
+<p>Select the **spatula** again. Use it to scoop the combined batter from the pink bowl onto the **rectangular baking sheet**. Spread the batter evenly across the sheet. Drag the baking sheet into the **oven**.</p>
+<ul>
+  <li>**Tip:** Ensure the batter is spread evenly for uniform baking. Wait for the oven timer (progress bar) to complete.</li>
+</ul>
+
+<h3>Step 6: Slice Baked Cake</h3>
+<p>The baked cake sheet automatically comes out onto a wooden board. Select the **knife tool**. Make three vertical cuts along the guide lines to divide the cake into four equal long strips.</p>
+<ul>
+  <li>**Tip:** Follow the dashed lines precisely for clean cuts. A **heart icon** confirms.</li>
+</ul>
+
+<h3>Step 7: Apply Filling</h3>
+<p>Select the **chocolate frosting piping bag**. Pipe a zigzag pattern of filling onto the second, third, and fourth cake strips (leaving the first one plain). Select the **offset spatula** and drag it across the frosted strips to spread the filling evenly.</p>
+<ul>
+  <li>**Tip:** Pipe neatly within the strip boundaries. Spread the frosting smoothly across the entire surface of the three strips.</li>
+</ul>
+
+<h3>Step 8: Roll the Cake</h3>
+<p>Drag the first (plain) cake strip towards the bottom of the board to roll it up tightly. Then, drag the second (frosted) strip to wrap around the first roll. Repeat with the third and fourth strips, continuing to roll the log larger.</p>
+<ul>
+  <li>**Tip:** Roll tightly and align the strips properly. The final log form is automatically after the last strip is added. A **heart icon** confirms.</li>
+</ul>
+
+<h3>Step 9: Frost Exterior & Texture</h3>
+<p>The rolled cake is automatically placed on a white cake stand. Select the **chocolate frosting piping bag** again and drag it over the entire exterior surface (top and sides) of the log to coat it. Select the **fork tool** and drag it along the length of the log to create a bark-like texture.</p>
+<ul>
+  <li>**Tip:** Ensure full coverage with the frosting. Drag the fork smoothly for a realistic texture. A **heart icon** confirms.</li>
+</ul>
+
+<h3>Step 10: Decorate the Yule Log</h3>
+<p>Select the **plate of decorations**. Drag the meringue mushrooms, red berries, holly leaves, pine cones, and chocolate curls/rolls onto the cake, placing them in the indicated spots.</p>
+<ul>
+  <li>**Tip:** Match the decorations to the highlighted areas on the cake. All decorations must be placed correctly.</li>
+</ul>
+
+<h3>Step 11: Complete Level</h3>
+<p>Once all decorations are placed, the cake sparkles, a 'Merry Christmas' message appears briefly, and the level completes, showing the 'Taste explosion!' result screen with 3 stars.</p>
+<ul>
+  <li>**Tip:** Enjoy your festive creation!</li>
+</ul>
+
+<h2>Tips for Success & Common Pitfalls</h2>
+
+<h3>Tips and Tricks</h3>
+<ul>
+  <li>Follow the drag-and-drop prompts carefully for ingredient additions and tool usage.</li>
+  <li>Pay attention to visual cues like highlighted areas and guide lines.</li>
+  <li>Wait for the **heart icon confirmation** after completing major mixing, baking, or decorating steps.</li>
+  <li>Work smoothly and accurately, especially when frosting and rolling.</li>
+</ul>
+
+<h3>Common Pitfalls</h3>
+<ul>
+  <li>Dragging ingredients to the wrong bowl (e.g., egg yolks into whites).</li>
+  <li>Forgetting to add an ingredient (like vanilla or sugar to whites).</li>
+  <li>Not mixing/whipping batters sufficiently.</li>
+  <li>Uneven spreading of batter or frosting.</li>
+  <li>Sloppy slicing or rolling.</li>
+  <li>Misplacing the final decorations.</li>
+</ul>
+    `,
   },
   {
     // Add entry for Level 24

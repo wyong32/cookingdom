@@ -37,68 +37,143 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Pagsusuri ng Cookingdom Antas 11</h2>
-<p>Ang Cookingdom Antas 11 ay nagdadala ng isang magaan ngunit mahalagang hamon: paggawa ng perpektong Popcorn. Bagamat tila simple ang putahe na ito, nangangailangan ito ng tamang timing at maingat na pag-aalaga, lalo na kapag gumagawa ng malaking batch para sa maraming customer. Ang popcorn ay isang paboritong meryenda, at sa Cookingdom, susubukin nito ang iyong kakayahang kontrolin ang init, lasa, at bilis sa ilalim ng presyon.</p>
-<p>Habang umuusad ka sa laro, ipinapakilala ng Cookingdom ang mga putahe na mukhang diretso lamang ngunit nangangailangan ng epektibong multitasking para makasabay sa lumalaking demand ng mga customer. Maghanda nang gawing perpekto ang bawat butil ng mais!</p>
+<h2>Maligayang Pagdating sa Cookingdom Antas 11: Gabay at Tutorial sa Popcorn</h2>
+<p>
+  Maligayang pagdating, master ng meryenda! Sa **Cookingdom Antas 11**, ang iyong misyon ay gumawa ng perpektong batch ng **Popcorn**. Ang antas na ito ay nag-aalok ng isang relaks na kapaligiran na walang timer, kaya't maaari mong tutukan ang mga intuitive ngunit tumpak na mekanika ng pagluluto sa Cookingdom.
+</p>
+<p>
+  Ang gabay na ito ay magbibigay sa iyo ng bawat hakbang na kailangan mong sundin upang magtagumpay sa **Cookingdom Antas 11**, na detalyado ang bawat sangkap, aksyon, at tamang paglalagay na kinakailangan.
+</p>
 
-<h2 id="goal">Mga Layunin ng Cookingdom Antas 11</h2>
+<h2>Mga Sangkap na Kailangan Para sa Perpektong Popcorn</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mga Talon ng Mais</td>
+      <td>5</td>
+      <td>Inaani nang sariwa mula sa maisan.</td>
+    </tr>
+    <tr>
+      <td>Mga Butil ng Mais</td>
+      <td>1 mangkok</td>
+      <td>Kinuha sa pamamagitan ng pagtanggal sa mga inihandang talon ng mais.</td>
+    </tr>
+    <tr>
+      <td>Bloke ng Coklat na Sangkap</td>
+      <td>1</td>
+      <td>Isang blokeng pampalasa, marahil mantikilya o pampatamis, na kailangang i-chop o i-shave.</td>
+    </tr>
+    <tr>
+      <td>Piraso ng Mantikilya</td>
+      <td>1 maliit na parisukat</td>
+      <td>Idinagdag direkta sa mga butil ng mais para sa kasaganaan.</td>
+    </tr>
+    <tr>
+      <td>Langis</td>
+      <td>1 bote</td>
+      <td>Ibubuhos sa popcorn machine upang mapadali ang popping.</td>
+    </tr>
+    <tr>
+      <td>Asukal</td>
+      <td>1 kutsara</td>
+      <td>Kunin mula sa isang bag at ihalo sa mga butil ng mais para sa matamis na lasa.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pag-master ng Popcorn: Gabay na Hakbang-hakbang</h2>
+
+<h3>Hakbang 1. Mag-ani ng Mais</h3>
+<p>
+  Sa eksena ng maisan, magsimula sa paggamit ng **magnifying glass** sa mukha ng scarecrow upang magsimula ang susunod na aksyon. Pagkatapos, dahan-dahang hilahin ang **5 mature na talon ng mais** mula sa kanilang tangkay at ilagay sa pugad/hukay na matatagpuan sa ibabang bahagi ng screen.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Tiyaking makolekta ang **5 talon ng mais** nang tumpak. Magkakaroon ng heart icon bilang kumpirmasyon ng tagumpay sa hakbang na ito.
+</div>
+
+<h3>Hakbang 2. Ihanda ang Talon ng Mais</h3>
+<p>
+  Kumuha ng isang talon ng mais at alisin ang parehong mga layer ng berdeng balat sa pamamagitan ng pag-drag nito pababa mula sa kaliwa at kanang bahagi. Pagkatapos, alisin ang tatlong bahagi ng brown na tela ng mais sa pamamagitan ng pag-drag nito mula sa talon.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang pagkumpleto ng parehong pag-alis ng balat at tela ng mais ay magdudulot ng heart icons bilang tanda ng matagumpay na paghahanda.
+</div>
+
+<h3>Hakbang 3. Kolektahin ang mga Butil ng Mais</h3>
+<p>
+  I-drag ang iyong daliri (na ipinapakita ng isang puting tuldok) pataas at pababa sa talon ng mais na ngayon ay naka-expose. Ang aksyon na ito ay magtatanggal ng lahat ng mga dilaw na butil at ilalagay ito sa naghihintay na puting mangkok.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhing tanggalin ang bawat butil ng mais mula sa talon. Magkakaroon ng heart icon pagkatapos ng pagtapos.
+</div>
+
+<h3>Hakbang 4. I-chop ang Coklat na Sangkap</h3>
+<p>
+  Gamitin ang **kutsilyo** upang paulit-ulit na i-slice o i-shave ang blokeng coklat na matatagpuan sa cutting board. Magpatuloy hanggang sa maproseso ang buong bloke.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Kinakailangan ang tuloy-tuloy na pag-chop dito. Magkakaroon ng heart icon bilang tanda ng pagkumpleto.
+</div>
+
+<h3>Hakbang 5. Ihalo ang mga Sangkap at Ihanda ang Makina</h3>
+<p>
+  Una, ibuhos ang **langis** mula sa bote direkta sa pulang popcorn machine. Pagkatapos, idagdag ang maliit na **piraso ng mantikilya**, ang **chopped brown ingredient**, at isang kutsara ng **asukal** sa mangkok na naglalaman ng mga butil ng mais.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Suriing mabuti ang mga pagkakalagay: ang langis ay pupunta sa makina, habang ang mantikilya, ang chopped block, at asukal ay pupunta sa mangkok ng mais.
+</div>
+
+<h3>Hakbang 6. Gumawa ng Popcorn!</h3>
+<p>
+  Gamitin ang **scoop** upang ilipat ang mga pinaghalong butil mula sa kanilang mangkok papunta sa itaas na bukas ng popcorn machine. Pagkatapos, pindutin ang **power button** sa makina. Ngayon, maghintay lamang upang magsimula ang popping ng popcorn at mapuno ang may guhit na bucket sa ibaba.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang makina ay magsisimulang mag-pop ng popcorn nang awtomatiko kapag ito ay in-on.
+</div>
+
+<h3>Hakbang 7. Ihain Para sa Movie Night</h3>
+<p>
+  Ang eksena ay lilipat sa isang komportableng sala kung saan ang dalawang capybara ay masayang nanonood ng TV. Ang capybara lalaki ay dadalhin ang bagong popped na balde ng popcorn at ibabahagi ito sa capybara babae.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang huling eksenang ito ay simbolo ng tagumpay sa antas at magdadala sa iyo sa screen ng mga resulta.
+</div>
+
+<h2>Mga Nangungunang Tip para sa Tagumpay sa Cookingdom Antas 11</h2>
 <ul>
-  <li><strong>Patunugin ang mga Butil ng Mais:</strong> Pangunahing gawain sa antas na ito ang pag-popping ng mga butil ng mais sa tamang temperatura at timing. Kailangan mong tiyakin na bawat batch ay mapipatunog nang hindi nasusunog.</li>
-  <li><strong>Magdagdag ng Pampalasa:</strong> Pagkatapos mapatunog ang mga butil, kailangang timplahan ang popcorn nang perpekto. Kung ito man ay butter, cheese, o caramel, ang pampalasa ang magpapataas ng kalidad ng putahe.</li>
-  <li><strong>Magsilbi nang Mabilis:</strong> Inaasahan ng mga customer sa Cookingdom Antas 11 ang mabilis na serbisyo. Siguraduhing maipamahagi ang bagong lutong at na-season na popcorn agad upang mapasaya sila.</li>
+  <li>
+    ✔️ Laging sundin ang **visual cues sa screen** (tulad ng magnifying glass targets, drag paths, at cutting lines).
+  </li>
+  <li>
+    ✔️ Siguraduhing **kumpletuhin ang bawat aksyon** (halimbawa, lahat ng balat ay naalis, lahat ng butil ng mais ay tinanggal, ang brown na bloke ay lubos na pinutol).
+  </li>
+  <li>
+    ✔️ Mag-ingat sa **tamang paglalagay ng mga sangkap**—ang langis ay para sa makina, at ang iba pang mga sangkap ay para sa mangkok ng mais.
+  </li>
+  <li>
+    ✔️ Ang **heart pop-up animations** ay nagbibigay kumpirmasyon na matagumpay ang bawat sub-step.
+  </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paggawa ng Popcorn sa Cookingdom Antas 11</h2>
-<ol>
-  <li>
-    <h3>Painitin ang Popcorn Machine:</h3>
-    <p>Simulan sa pagpainit ng popcorn machine o kawali. Sa Cookingdom Antas 11, bibigyan ka ng popcorn maker o kalan upang lutuin ang popcorn. Siguraduhing naka-preheat ang makina upang pantay ang pag-popping at maiwasan ang pagsunog.</p>
-    <p><strong>TIPS:</strong> Sa Cookingdom Antas 11, maaaring may opsyon kang i-upgrade ang kagamitan upang mapabilis at maging mas episyente ang proseso ng pag-popping. Ang pag-upgrade ng popcorn machine ay makakatipid ng oras at mababawasan ang pagkakamali.</p>
-  </li>
-  <li>
-    <h3>Idagdag ang mga Butil ng Mais:</h3>
-    <p>Kapag mainit na ang makina, maingat na idagdag ang mga butil ng mais. Siguraduhing pantay ang pagkakalagay ng mga butil para sa pantay na pag-popping. Ang sobrang dami ay maaaring magdulot ng pagsisiksikan at hindi pantay na pag-popping, habang ang kaunti naman ay sayang at magpapabagal sa progreso.</p>
-    <p><strong>TIPS:</strong> Sa Cookingdom Antas 11, may visual na indikasyon o timer na magpapakita kung kailan nagsisimula at natatapos ang pag-popping. Pakinggan ang tunog at tingnan ang mga visual cues para malaman kung kailan ititigil ang proseso.</p>
-  </li>
-  <li>
-    <h3>Hintayin ang Proseso ng Pag-popping:</h3>
-    <p>Hayaan ang mga butil na pumutok, pakinggan nang mabuti ang pagbagal ng tunog ng popping. Ito ang senyales upang itigil ang proseso. Ang sobrang popping ay maaaring magdulot ng pagsunog, habang ang kulang ay mag-iiwan ng mga hindi pumutok na butil.</p>
-    <p><strong>TIPS:</strong> Huwag iwanang walang bantay ang makina! Sa Cookingdom Antas 11, maaaring kailanganin mong mag-manage ng maramihang gawain kaya't bantayan nang mabuti ang popcorn.</p>
-  </li>
-  <li>
-    <h3>Season ang Popcorn:</h3>
-    <p>Kapag handa na ang popcorn, oras na para lagyan ng pampalasa. Sa Cookingdom Antas 11, maraming pagpipilian sa pampalasa tulad ng butter, asin, keso, o caramel. Siguraduhing piliin ang tamang pampalasa para sa bawat order ng customer.</p>
-    <p><strong>TIPS:</strong> Maaari kang maglagay ng maraming layers ng pampalasa para mapalakas ang lasa. Halimbawa, simulan sa butter, pagkatapos ay budburan ng asin o keso para sa dagdag na sarap.</p>
-  </li>
-  <li>
-    <h3>Ihain ang Popcorn:</h3>
-    <p>Kapag na-season na ang popcorn, oras na upang ihain ito. Siguraduhing mainit at sariwa pa ang popcorn pag ibibigay sa customer.</p>
-    <p><strong>TIPS:</strong> Mas sariwa ang popcorn, mas maganda ang rating na matatanggap mo. Ang mga customer sa Cookingdom Antas 11 ay maselan sa pagiging sariwa ng pagkain.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip at Trick sa Cookingdom Antas 11</h2>
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Antas 11</h2>
 <ul>
-  <li>
-    <strong>Perpektong Oras ng Pag-popping:</strong> Mahalagang-maganda ang timing sa pag-popping ng popcorn. Ang sobrang init o sobrang tagal ay maaaring magsunog ng popcorn, habang ang kulang naman ay mag-iiwan ng hindi pumutok na mga butil.
-  </li>
-  <li>
-    <strong>Pag-customize ng Pampalasa:</strong> Sa Cookingdom Antas 11, susi sa tagumpay ang pagtugon sa kagustuhan ng mga customer. Ang ilan ay gusto ng plain popcorn, habang ang iba ay gusto ng buttery, cheesy, o caramel-coated popcorn. Siguraduhing basahin nang mabuti ang bawat order at lagyan ng tamang pampalasa upang mapasaya ang mga customer.
-  </li>
-  <li>
-    <strong>I-upgrade ang Iyong Kagamitan:</strong> Habang sumusulong sa Cookingdom Antas 11, isaalang-alang ang pag-upgrade ng iyong popcorn machine.
-  </li>
-  <li>
-    <strong>Bilis at Kahusayan:</strong> Kinakailangan ng Cookingdom Antas 11 ng mabilis na serbisyo. Sikaping ihain agad ang popcorn kapag ito ay bagong luto at na-season na. Mas mabilis ka mag-serve, mas mataas ang posibilidad ng magandang rating mula sa mga customer.
-  </li>
-  <li>
-    <strong>Mag-handle ng Maraming Order:</strong> Habang dumarami ang mga customer, kailangan mong gumawa ng maraming order ng popcorn nang sabay-sabay.
-  </li>
+  <li>Hindi makita ang punto ng interaksyon ng scarecrow sa unang hakbang.</li>
+  <li>May naiwang talon ng mais sa harvesting phase.</li>
+  <li>Hindi kumpletong pagtanggal ng balat o tela ng mais mula sa talon.</li>
+  <li>Hindi lubos na natanggal ang mga butil ng mais mula sa talon.</li>
+  <li>Hindi lubos na napatag ang blokeng coklat na sangkap.</li>
+  <li>Hindi tamang paglalagay ng asukal, mantikilya, o chopped block sa makina imbes sa mangkok ng mais.</li>
+  <li>Nakalimutang maglagay ng langis sa makina o mga butil ng mais sa itaas ng makina.</li>
+  <li>Nakalimutang buksan ang popcorn machine pagkatapos itong punan.</li>
 </ul>
 
-<h2 id="conclusion">Konklusyon</h2>
-<p>Ang Cookingdom Antas 11 ay isang masayang hamon para sa mga mahilig sa mabilisang pagluluto at multitasking. Ang paggawa ng perpektong popcorn ay hindi lang tungkol sa lasa, kundi pati sa bilis, tamang timing, at tamang pagpapalasa. Sa pagsunod sa gabay na ito, magiging madali para sa iyo ang antas na ito at mapapabuti mo ang iyong mga resulta.</p>
-<p>Maghanda nang maging isang popcorn master sa Cookingdom Antas 11!</p>
 `,
   },
 
@@ -235,66 +310,197 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Pagsusuri ng Cookingdom Antas 13</h2>
-<p>Sa Cookingdom Antas 13, ipakikilala ka sa isang paboritong fast food: ang Hotdog. Bagamat simple ito, ang paggawa ng perpektong hotdog ay nangangailangan ng atensyon sa detalye, lalo na sa pamamahala ng mga order ng customer at tamang timing. Sa antas na ito, kailangan mong magpokus sa pagluluto ng tamang luto ng sausage, pag-grill ng tinapay, at paglalagay ng tamang palaman upang masiyahan ang mga customer.</p>
-<p>Ang hamon sa Cookingdom Antas 13 ay ang pagtugon sa tumataas na demand ng mga customer habang sinisigurong mabilis at perpekto ang bawat hotdog na naihahain.</p>
+<h2>Maligayang Pagdating sa Cookingdom Level 13: Gabay sa Hotdog</h2>
+<p>
+  Maligayang pagdating, mga hotdog enthusiast! Sa **Cookingdom Level 13**, ang iyong misyon ay gumawa ng **perpektong hotdog**. Ang level na ito ay maggagabay sa iyo sa mga intuitive at eksaktong mekanika ng pagluluto sa isang relaxed na kapaligiran na walang timer.
+</p>
+<p>
+  Ang gabay na ito ay magbibigay ng mga tamang hakbang upang magtagumpay sa **Cookingdom Level 13**, na detalyado ang bawat sangkap, aksyon, at tamang paglalagay na kinakailangan para sa tagumpay.
+</p>
 
-<h2 id="goal">Mga Layunin sa Cookingdom Antas 13</h2>
+<h2>Mga Sangkap para sa Iyong Perpektong Hotdog</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Onion</td>
+      <td>1</td>
+      <td>Gupitin ng pino para sa masarap na topping.</td>
+    </tr>
+    <tr>
+      <td>Pickle</td>
+      <td>1</td>
+      <td>Gupitin ng pino para sa maasim at malutong na topping.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 piraso</td>
+      <td>Ginagamit para sa pag-saute ng sibuyas hanggang maging golden brown.</td>
+    </tr>
+    <tr>
+      <td>Sausage</td>
+      <td>1 (mula sa 2)</td>
+      <td>Pinakuluan sa tubig. Isang piraso lang ang gagamitin para sa final na hotdog.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>1 mangkok</td>
+      <td>Para sa pagpapakulo ng mga sausage.</td>
+    </tr>
+    <tr>
+      <td>Mayonnaise</td>
+      <td>1 bote</td>
+      <td>Base ng iyong espesyal na hotdog sauce.</td>
+    </tr>
+    <tr>
+      <td>Mustard Sauce</td>
+      <td>1 bote (sauce) + 1 bote (topping)</td>
+      <td>Ginagamit sa sauce mixture at bilang huling topping.</td>
+    </tr>
+    <tr>
+      <td>Green Liquid (Pickle Relish/Juice)</td>
+      <td>1 maliit na mangkok</td>
+      <td>Nagbibigay ng unique na asim sa sauce mix.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 mangkok</td>
+      <td>Pangunahing pampalasa para sa iyong sauce.</td>
+    </tr>
+    <tr>
+      <td>Garlic Powder</td>
+      <td>1 mangkok</td>
+      <td>Nagdadagdag ng aroma sa sauce.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 mangkok</td>
+      <td>Nagbabalanse ng lasa sa sauce.</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>1 shaker</td>
+      <td>Para sa konting anghang sa sauce.</td>
+    </tr>
+    <tr>
+      <td>Hotdog Bun</td>
+      <td>1</td>
+      <td>Hatiin at handa na para sa assembly.</td>
+    </tr>
+    <tr>
+      <td>Lettuce</td>
+      <td>1 lalagyan</td>
+      <td>Magiging base layer ng fresh sa loob ng bun.</td>
+    </tr>
+    <tr>
+      <td>Chili/Ketchup Sauce</td>
+      <td>1 bote</td>
+      <td>Isang makulay na red sauce na ginagamit bilang huling topping.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hotdog Mastery: Gabay na Hakbang-Hakbang</h2>
+
+<h3>Hakbang 1. Gupitin ng Pino ang Sibuyas</h3>
+<p>
+  I-drag ang **sibuyas** sa **cutting board**. Gamitin ang iyong **kutsilyo** para hatiin ito, pagkatapos ay patuloy na gupitin ang kalahati hanggang maging pino. Siguraduhing sundin ang mga visual guide sa screen para sa tamang pagputol.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhing ang kutsilyo mo ay tumutok sa mga highlighted na lugar habang pinipino ang sibuyas. Lilitaw ang isang heart icon upang kumpirmahin na tamang-tama ang pagkagupit ng sibuyas.
+</div>
+
+<h3>Hakbang 2. Dice ang Pickle</h3>
+<p>
+  Ilagay ang **pickle** sa cutting board. Gamitin ang **kutsilyo** upang gupitin ito ng pahaba, pagkatapos ay dice ang pickle sa pamamagitan ng paulit-ulit na paggupit sa kabuuan nito, ayon sa mga guide.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Sundin ang mga guide sa paggupit para sa perpektong diced na pickle. Lilitaw ang heart icon bilang tanda ng tagumpay.
+</div>
+
+<h3>Hakbang 3. Saute ang Sibuyas</h3>
+<p>
+  Ilagay ang **butter** sa **pan** sa **cooktop** at buksan ang apoy. Kapag natunaw na ang butter, idagdag ang **pino na sibuyas** at lutuin hanggang mapuno ang progress bar at maging golden ang kulay.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Pakinggan ang tunog ng pagsizzling at tingnan ang pagbabago ng kulay ng sibuyas, indikasyon na tama ang lutong. Lilitaw ang heart icon kapag tapos na.
+</div>
+
+<h3>Hakbang 4. Pakuluin ang Sosej</h3>
+<p>
+  Ibuhos ang **tubig** sa **pan** at buksan ang **cooktop** upang pakuluin ito. Kapag kumulo na ang tubig, ilagay ang **sosej**. Lutuin ito hanggang matanggap ang kumpletong progress bar. Gamitin ang **fork** upang maingat na alisin ang isang sosej at ilagay ito sa plato (isang piraso lamang ang kailangan para sa final hotdog).
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Palaging hintayin na kumulo ang tubig bago ilagay ang mga sosej. Pakinggan ang 'ding' sound upang malaman kung kailan ito handa na. Lilitaw ang heart icon pagkatapos ng matagumpay na pagtanggal ng sosej.
+</div>
+
+<h3>Hakbang 5. Ihalo ang Special Sauce</h3>
+<p>
+  Sa **mixing bowl**, pagsamahin ang **mayonnaise, mustard, green liquid** (pickles/jus), **salt, garlic powder, sugar, at pepper**. Gamitin ang **spoon** upang haluin ang lahat ng sangkap hanggang maghalo ng mabuti at maging makinis.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhing idagdag ang **lahat** ng sangkap bago mag-umpisa sa paghahalo. Patuloy na haluin hanggang maging pareho ang kulay at consistency ng mixture. Lilitaw ang heart icon kapag tapos na.
+</div>
+
+<h3>Hakbang 6. Ihanda ang Bun</h3>
+<p>
+  Ilagay ang **hotdog bun** sa **cutting board**. Gamitin ang **kutsilyo** upang hatiin ito ng pahaba, ayon sa dotted guide line.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang malinis at tamang hati ay mahalaga upang maayos na maihanda ang bun para sa assembly.
+</div>
+
+<h3>Hakbang 7. I-assemble ang Iyong Hotdog</h3>
+<p>
+  Ngayon na ang panahon para sa assembly! Una, ikalat ang **hinalong sos** sa loob ng bun. Sunod, maglagay ng **fresh lettuce**, tapos ang **sautéed onions**, at pagkatapos ay **diced pickles**. Ilagay ng maingat ang **sosej** sa ibabaw ng mga sangkap na ito.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Sundin ang tamang pagkakasunod-sunod ng mga sangkap: Sos → Lettuce → Onions → Pickles → Sosej.
+</div>
+
+<h3>Hakbang 8. Magdagdag ng Final Toppings</h3>
+<p>
+  Halos tapos na! Pumiga ng **mustard sauce** sa ibabaw ng sosej gamit ang zig-zag na pattern. Pagkatapos, gumawa ng parehong zig-zag na pattern gamit ang **chili/ketchup sauce**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ilapat ang mga sauce ng pantay-pantay para sa perpektong huling touch at magandang presentasyon. Lilitaw ang heart icon, tanda na natapos mo na ang iyong masterpiece na hotdog!
+</div>
+
+<h2>Top Tips para sa Tagumpay sa Cookingdom Level 13</h2>
 <ul>
-  <li><strong>Lutuin ang mga Sausage:</strong> Ang sausage ang bida sa hotdog. Kailangang i-grill ito ng tama upang magkaroon ng tamang lutong crispy nang hindi nasusunog.</li>
-  <li><strong>I-grill ang Tinapay:</strong> Ang tinapay ay kailangang bahagyang i-toast para magkaroon ng malutong na texture at mas mapalasa ang hotdog.</li>
-  <li><strong>Magdagdag ng mga Palaman at Toppings:</strong> I-customize ang bawat hotdog gamit ang mga sikat na palaman tulad ng ketchup, mustard, relish, sibuyas, at iba pang toppings.</li>
-  <li><strong>Mabilis na Paghain:</strong> Tulad ng lahat ng pagkain sa Cookingdom Antas 13, mahalaga ang mabilis na paghain. Mas mabilis kang makapaghain, mas masaya ang mga customer.</li>
+  <li>
+    ✔️ Magbigay pansin sa **visual cues** tulad ng progress bars, subtle na pagbabago ng kulay, at ang nakakakilig na heart icons, na magsasabi kung natapos mo ang bawat hakbang ng tama.
+  </li>
+  <li>
+    ✔️ **Tama ang pagputol at paghiwa** ng mga sangkap ay may epekto sa overall presentation at score ng iyong hotdog.
+  </li>
+  <li>
+    ✔️ Siguraduhing **lahat ng sangkap ng sauce ay nailagay** sa mixing bowl bago simulan ang paghahalo.
+  </li>
+  <li>
+    ✔️ I-assemble ang hotdog layers sa **tamang pagkakasunod-sunod** tulad ng itinuro sa walkthrough para sa magandang presentation.
+  </li>
+  <li>
+    ✔️ Ang level na ito ay may ilang mga distinct na hakbang; siguraduhing **maayos ang transition** sa bawat isa para sa mas epektibong pagluluto.
+  </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paggawa ng Hotdog sa Cookingdom Antas 13</h2>
-<ol>
-  <li>
-    <h3>Pagluluto ng Sausage</h3>
-    <p>Simulan sa pagluluto ng mga sausage. Sa Cookingdom Antas 13, bibigyan ka ng grill o stove para painitin ang mga sausage. Bantayan nang maigi ang oras ng pagluluto—kung sobra, masusunog; kung kulang, hilaw pa.</p>
-  </li>
-  <li>
-    <h3>Pag-grill ng Tinapay</h3>
-    <p>Habang niluluto ang sausage, maaari mong i-toast ang tinapay. Ilagay ang mga tinapay sa grill o griddle hanggang maging bahagyang browned at malutong sa labas pero malambot sa loob.</p>
-  </li>
-  <li>
-    <h3>Paghahanda ng mga Palaman at Toppings</h3>
-    <p>Sa Cookingdom Antas 13, maaari kang maglagay ng iba't ibang palaman sa iyong hotdog. Kadalasang opsyon ay:</p>
-    <ul>
-      <li>Ketchup</li>
-      <li>Mustard</li>
-      <li>Relish</li>
-      <li>Sibuyas</li>
-      <li>Sauerkraut</li>
-      <li>Keso</li>
-      <li>Pickles</li>
-      <li>Jalapeños</li>
-    </ul>
-    <p>Siguraduhing basahin nang mabuti ang bawat order ng customer para makapaglagay ng tamang palaman at toppings. May mga customer na gusto lang ng basic hotdog, at may iba naman na gusto ng extra toppings.</p>
-  </li>
-  <li>
-    <h3>Pagsasama-sama ng Hotdog</h3>
-    <p>Kapag lutong-luto na ang sausage at na-toast na ang tinapay, oras na para pagsamahin ang hotdog. Ilagay ang sausage sa tinapay at idagdag ang mga hinihinging palaman at toppings. Sa Cookingdom Antas 13, maaari mong i-customize ang bawat order kaya maging maingat sa detalye!</p>
-  </li>
-  <li>
-    <h3>Paghain ng Hotdog</h3>
-    <p>Pagkatapos i-assemble ang hotdog, ihain agad ito. Siguraduhing mainit at sariwa pa ito. Inaasahan ng mga customer na mainit at masarap ang pagkain kaya huwag hayaang matagal ito bago ihain.</p>
-    <p><strong>Tip:</strong> Mas sariwa ang hotdog, mas mataas ang rating mo. Maghain nang mabilis upang mapaligaya ang mga customer.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip at Tricks sa Cookingdom Antas 13</h2>
+<h2>Mga Karaniwang Pagkakamali na Iwasan sa Cookingdom Level 13</h2>
 <ul>
-  <li><strong>Bantayan ang Oras ng Pagluluto:</strong> Mahalaga ang timing sa pag-grill ng sausage at tinapay. Hindi masarap ang sausage na kulang sa luto, at ang sobra sa luto ay tuyo. Bantayan ang proseso para makuha ang tamang lutong.</li>
-  <li><strong>Mahalaga ang Customization:</strong> Madalas may kanya-kanyang gusto ang mga customer sa kanilang hotdog. May gusto ng dagdag mustard, may gusto ng simple lang. Laging basahin ang order at iayon ang hotdog sa gusto nila.</li>
-  <li><strong>Gumamit ng Matulis na Kutsilyo para sa Toppings:</strong> Kung maglalagay ka ng toppings tulad ng sibuyas o pickles, siguraduhing manipis ang hiwa. Ang maayos na presentasyon ay nagpapaganda ng hitsura ng hotdog.</li>
-  <li><strong>I-upgrade ang Iyong Kagamitan:</strong> Habang sumusulong ka sa Cookingdom Antas 13, magandang i-upgrade ang grill o stove mo. Mas mabilis na pagluluto ay makakatulong para makapag-handle ng mas maraming order.</li>
-  <li><strong>Maghain nang Mabilis:</strong> Pinapaboran ng Cookingdom Antas 13 ang mabilis na serbisyo. Mas mabilis mong maihain, mas masaya ang mga customer.</li>
+  <li>Hindi tamang paggupit ng sibuyas o pickle.</li>
+  <li>Nasunog o hindi sapat ang lutong sibuyas.</li>
+  <li>Inalis ang sosej mula sa kumukulong tubig nang maaga (hindi luto) o huli (overcooked).</li>
+  <li>Nakalimutang maglagay ng sangkap sa sauce mixture o hindi maayos na nahalo ito hanggang magmukhang smooth.</li>
+  <li>Hindi tama ang pagkakasunod-sunod ng mga sangkap habang inia-assemble ang hotdog.</li>
+  <li>Hindi pantay na paglalagay ng final sauce toppings, na nagiging sanhi ng hindi magandang presentation.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Sa Cookingdom Antas 13, ang paggawa ng perpektong hotdog ay tungkol sa tamang timing at customization. Ang pagluluto ng sausage at pag-toast ng tinapay nang maayos, paglalagay ng tamang palaman, at mabilis na paghahain ang mga susi sa tagumpay. Tulad ng lahat ng antas sa Cookingdom, mahalaga ang multitasking. Panatilihing gumagana nang sabay ang grill at toaster habang naghahanda ng toppings upang mapabilis ang proseso.</p>
-<p>Ang pag-master ng klasikong fast food na ito ay tutulong sa iyo upang umusad sa Cookingdom Antas 13. Kung simple man o may maraming toppings ang hotdog, ang atensyon sa detalye at bilis ay malaking tulong upang makakuha ng mataas na rating mula sa mga customer.</p>
 `,
   },
 
@@ -440,74 +646,252 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Antas 15 sa Cookingdom</h2>
-<p>Sa Antas 15 ng Cookingdom, magluluto ka ng klasikong putahe — inihaw na manok. Ang antas na ito ay nangangailangan ng paggawa ng malutong at ginintuang kulay na manok kasama ang mga angkop na side dish upang makagawa ng masustansyang pagkain. Maaaring mukhang madali ang proseso, ngunit may mga hamon ang laro na panatilihing alerto ka. Mahalaga ang oras, temperatura, at pampalasa upang maging malutong at malinamnam ang manok, at masiyahan ang mga customer.</p>
-<p>Para makagawa ng perpektong inihaw na manok sa Cookingdom Antas 15, kailangan mo ng pokus at bilis. Tingnan natin ang mga hakbang para magtagumpay sa paghahanda ng masarap na pagkain!</p>
+<h2>Maligayang Pagdating sa Cookingdom Level 15: Gabay at Tutorial sa Pagprito ng Manok</h2>
+<p>
+  Maligayang pagdating, mga mahilig magprito! Sa **Cookingdom Level 15**, ang iyong misyon ay maghanda ng perpektong **manok na pinirito**. Ang level na ito ay nagpapakilala sa iyo sa mga intuitive ngunit tumpak na mekanika ng pagluluto ng Cookingdom sa isang relaxed na kapaligiran na walang timer, na nagbibigay-daan sa iyo upang mag-focus sa perpeksyon.
+</p>
+<p>
+  Ang gabay na ito ay magbibigay ng eksaktong mga hakbang upang malampasan ang **Cookingdom Level 15**, na nagsasaad ng bawat sangkap, aksyon, at tamang paglalagay na kinakailangan para sa malutong at masarap na resulta.
+</p>
 
-<h2 id="goal">Layunin ng Antas 15 sa Cookingdom</h2>
+<h2>Sangkap na Kailangan para sa Malutong na Manok</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hilaw na Piraso ng Manok</td>
+      <td>4-5 piraso (pakpak/o peh)</td>
+      <td>Ipinapakita sa isang plato, handa na para sa paghahanda.</td>
+    </tr>
+    <tr>
+      <td>Dark Sauce</td>
+      <td>1 bahagi</td>
+      <td>Posibleng soy sauce o isang maalat na base para sa marinade.</td>
+    </tr>
+    <tr>
+      <td>Ketchup</td>
+      <td>1 bahagi</td>
+      <td>Nagbibigay ng kaunting tamis at asim sa marinade.</td>
+    </tr>
+    <tr>
+      <td>Mustard</td>
+      <td>1 bahagi</td>
+      <td>Nagbibigay ng maasim na lasa sa marinade.</td>
+    </tr>
+    <tr>
+      <td>Mayonnaise</td>
+      <td>1 bahagi</td>
+      <td>Para sa malambot na texture sa marinade.</td>
+    </tr>
+    <tr>
+      <td>Black Pepper</td>
+      <td>1 pampalasa</td>
+      <td>Mula sa shaker, isang klasikong pampalasa para sa marinade.</td>
+    </tr>
+    <tr>
+      <td>Asin</td>
+      <td>1 pampalasa</td>
+      <td>Mula sa shaker, para sa seasoning ng marinade.</td>
+    </tr>
+    <tr>
+      <td>Mi Noodle Seasoning Packet</td>
+      <td>1 pakete</td>
+      <td>Magbibigay ng natatanging lasa sa marinade ng manok.</td>
+    </tr>
+    <tr>
+      <td>Harina</td>
+      <td>1 bahagi</td>
+      <td>Pangunahing base (puting pulbos) para sa breading mix.</td>
+    </tr>
+    <tr>
+      <td>Yellow Powder 1</td>
+      <td>1 bahagi</td>
+      <td>Posibleng cornmeal o isang espesyal na spice mix para sa breading.</td>
+    </tr>
+    <tr>
+      <td>Asin (para sa breading)</td>
+      <td>1 pampalasa</td>
+      <td>Mula sa shaker, idinagdag direkta sa breading mix.</td>
+    </tr>
+    <tr>
+      <td>Red Powder</td>
+      <td>1 bahagi</td>
+      <td>Posibleng paprika o chili powder para sa kulay at kaunting anghang sa breading.</td>
+    </tr>
+    <tr>
+      <td>Yellow Powder 2</td>
+      <td>1 bahagi</td>
+      <td>Iba pang spice mix para mapabuti ang flavor ng breading.</td>
+    </tr>
+    <tr>
+      <td>Langis ng Pagluluto</td>
+      <td>Sapat para sa deep frying</td>
+      <td>Ipinapakita mula sa bote papunta sa kawali para magprito.</td>
+    </tr>
+    <tr>
+      <td>Letus</td>
+      <td>1 bahagi</td>
+      <td>Para sa sariwang base sa iyong serving plate.</td>
+    </tr>
+    <tr>
+      <td>Sos Cili</td>
+      <td>1 bahagi</td>
+      <td>Mula sa bote, perpekto para sa dipping sauce.</td>
+    </tr>
+    <tr>
+      <td>Pranses na Pritong Patatas</td>
+      <td>1 mangkok</td>
+      <td>Ipinapakita na luto na para sa madaling pag-plating.</td>
+    </tr>
+    <tr>
+      <td>Malaking Mangkuk na Salamin</td>
+      <td>2</td>
+      <td>Isa para sa paghahanda ng marinade, isa para sa breading mix.</td>
+    </tr>
+    <tr>
+      <td>Maliit na Mangkuk</td>
+      <td>Marami</td>
+      <td>Para maglaman ng bawat sangkap para sa marinade at breading bago haluin.</td>
+    </tr>
+    <tr>
+      <td>Spoon</td>
+      <td>1</td>
+      <td>Ginagamit para tiyakin na maayos na nahalo ang marinade.</td>
+    </tr>
+    <tr>
+      <td>Whisk</td>
+      <td>1</td>
+      <td>Ginagamit para tiyakin na ang mga dry ingredients sa breading ay halo-halo nang pantay.</td>
+    </tr>
+    <tr>
+      <td>Induction Cooktop</td>
+      <td>1</td>
+      <td>Ang pinagmumulan ng init para sa pagprito ng manok.</td>
+    </tr>
+    <tr>
+      <td>Frying Pan</td>
+      <td>1</td>
+      <td>Ang kawali para sa deep frying.</td>
+    </tr>
+    <tr>
+      <td>Spider Strainer</td>
+      <td>1</td>
+      <td>Mahahalagang gamit para ligtas na tanggalin ang piniritong manok mula sa mainit na langis.</td>
+    </tr>
+    <tr>
+      <td>Absorbent Paper</td>
+      <td>1 sheet (Ipinahiwatig)</td>
+      <td>Para tanggalin ang sobrang langis mula sa piniritong manok.</td>
+    </tr>
+    <tr>
+      <td>Serving Plate</td>
+      <td>1</td>
+      <td>Ang huling ibabaw para ilagay ang masarap na pagkain.</td>
+    </tr>
+    <tr>
+      <td>Small Dipping Bowl</td>
+      <td>1</td>
+      <td>Para maglaman ng chili sauce para sa madaliang dipping.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pag-master ng Pagprito ng Manok: Gabay sa Hakbang-hakbang</h2>
+
+<h3>Hakbang 1. Ihanda ang Iyong Lasa ng Marinade</h3>
+<p>
+  Sa isang malaking mangkuk salamin, pagsamahin ang **dark sauce, ketchup, mustard, mayonnaise, black pepper, salt**, at ang buong nilalaman ng **noodle seasoning packet**. Gamitin ang **spoon** upang haluin lahat ng mga sangkap nang mabuti hanggang sa maghalo ng maayos.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhin na ang lahat ng mga sauces at seasonings ay maayos na halo upang makamit ang pantay-pantay na lasa sa bawat kagat.
+</div>
+
+<h3>Hakbang 2. I-marinate ang Piraso ng Manok</h3>
+<p>
+  Ilagay ang hilaw na **piraso ng manok** sa mangkok ng marinade na iyong inihanda. Haluin o i-toss ang manok upang matiyak na bawat piraso ay buo ang pagkaka-coat ng marinade.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Huwag magmadali, siguraduhing bawat piraso ng manok ay may magandang pagkaka-coat ng marinade upang mag-absorb ng masarap na lasa.
+</div>
+
+<h3>Hakbang 3. Ihanda ang Breading Mix</h3>
+<p>
+  Sa isang pangalawang malaking mangkuk salamin, pagsamahin ang **harina (puting pulbos), yellow powder 1, salt, red powder**, at **yellow powder 2**. Gamitin ang **whisk** upang haluin ang mga dry ingredients hanggang sa magsanib ng pantay-pantay.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Mahalaga ang maayos na paghahalo ng mga dry ingredients upang matiyak na makakamtan ang tamang crispy crust.
+</div>
+
+<h3>Hakbang 4. Painitin ang Langis ng Pagprito</h3>
+<p>
+  Ibuhos ang **langis ng pagluluto** mula sa bote patungo sa **frying pan** na nakalagay na sa **induction cooktop**. I-on ang cooktop upang simulan ang pag-init ng langis.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhin na mainit na ang langis bago ilagay ang manok. Kung hindi sapat ang init, magiging oily ang manok imbes na crispy.
+</div>
+
+<h3>Hakbang 5. I-bread at I-prito ang Manok</h3>
+<p>
+  Kunin ang bawat piraso ng marinated **manok** at lubos na isawsaw ito sa **breading mix**, siguraduhing buong-buo ang pagkaka-coat nito. Dahan-dahang ilagay ang bawat breaded na manok sa mainit na langis sa kawali. Iprito ang mga ito hanggang maging golden brown at crispy, at tiyak na luto ang mga piraso.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Saluti ng maayos ang manok sa breading. Huwag sobrang punuin ang kawali; magprito sa batches kung kinakailangan upang mapanatili ang tamang temperatura ng langis at masiguro ang pantay-pantay na pagluluto.
+</div>
+
+<h3>Hakbang 6. I-drain ang Piniritong Manok</h3>
+<p>
+  Gamitin ang **spider strainer**, maingat na kunin ang mga **piniritong piraso ng manok** mula sa mainit na langis. Ilagay ito sa **absorbent paper** (na ipinahiwatig sa laro) upang matanggal ang sobrang langis.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Mahalaga ang tamang draining upang mapanatili ang pagiging crispy ng manok at hindi maging oily.
+</div>
+
+<h3>Hakbang 7. Ihanda ang Iyong Masarap na Pagkain</h3>
+<p>
+  I-arrange ang sariwang **lettuce leaves** sa isang **piring handa**. Ilagay ang mga piniritong **piraso ng manok** sa ibabaw ng lettuce. I-distribute ang **chili sauce** mula sa bote patungo sa **small dipping bowl**. Sa wakas, ayusin ang **pranses na patatas** at mangkok ng sauce sa tabi ng manok sa piring handa.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Ayusin ang lahat ng mga sangkap ng maayos upang magbigay ng maganda at presentableng pagkain!
+</div>
+
+<h2>Mga Top Tips para sa Tagumpay sa Cookingdom Level 15</h2>
 <ul>
-  <li><strong>Maghanda ng manok:</strong> Dapat balutan ang manok sa malinamnam na batter at iprito hanggang maging ginintuang kulay.</li>
-  <li><strong>Lutuin ang mga side dish:</strong> Karaniwang sinasamahan ang inihaw na manok ng mga side dish tulad ng mashed patatas, repolyo salad, o pritong patatas.</li>
-  <li><strong>Ihain nang mabilis:</strong> Tulad ng lahat ng antas sa Cookingdom, mahalaga ang mabilis na serbisyo para mapasaya ang mga customer.</li>
+  <li>
+    ✔️ Siguraduhing **buong halo** ang mga sangkap ng marinade bago idagdag ang manok.
+  </li>
+  <li>
+    ✔️ **Saluti ang manok ng pantay-pantay** sa marinade, at pagkatapos ay **pino-pino sa breading mixture** para sa isang pantay-pantay na crust.
+  </li>
+  <li>
+    ✔️ Laging tiyakin na ang **langis ay sapat ang init** bago magprito, kung hindi ay magiging oily ang manok.
+  </li>
+  <li>
+    ✔️ Iprito ang manok hanggang maging **golden brown at crispy**; ang oras ng pagluluto ay nakadepende sa laki ng mga piraso ng manok.
+  </li>
+  <li>
+    ✔️ **I-drain ang manok ng maayos** pagkatapos magprito upang alisin ang sobrang langis at mapanatili ang pagiging crispy.
+  </li>
+  <li>
+    ✔️ **Ayusin ang piring** nang maayos at tiyaking nandoon ang **lahat ng sangkap** (manok, lettuce, fries, at dipping sauce) at naipapakita nang maayos.
+  </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Pagluluto ng Inihaw na Manok sa Cookingdom Antas 15</h2>
-<ol>
-  <li>
-    <h3>Paghahanda ng Manok:</h3>
-    <p>Simulan sa pagbibigay lasa sa mga hiwa ng manok. Sa Cookingdom, babalutin mo ang manok sa malinamnam na batter, pagkatapos ay ilalagay ito sa mainit na kawali o fryer.</p>
-    <p><strong>Tip:</strong> Siguraduhing pantay ang pagkakabalot ng batter para makuha ang malutong at ginintuang balat. Timplahan ang batter para dagdagan ang lasa, at kontrolin ang init ng langis. Kapag masyadong mainit ang langis, masusunog ang labas ngunit hilaw ang loob ng manok.</p>
-    <p><strong>Tip:</strong> Haluin ang manok paminsan-minsan habang nag-iiprto para pantay ang luto at makuha ang tamang tekstura ng pagiging malutong.</p>
-  </li>
-  <li>
-    <h3>Pagluluto ng mga Side Dish:</h3>
-    <p>Habang nag-iiprto ng manok, ihanda ang mga side dish. Karaniwang side dish para sa inihaw na manok ay:</p>
-    <ul>
-      <li><strong>Mashed Patatas:</strong> Sa Cookingdom Antas 15, kailangan mong pakuluan at durugin ang patatas, pagkatapos ay lagyan ng mantikilya, gatas, at pampalasa.</li>
-      <li><strong>Repolyo Salad:</strong> Mabilis na ihanda ang salad sa pamamagitan ng paggupit ng mga gulay at paghalo ng creamy dressing.</li>
-      <li><strong>Pritong Patatas:</strong> Kung kasama sa menu ang pritong patatas, iprito hanggang malutong at ginintuang kulay.</li>
-    </ul>
-    <p><strong>Tip:</strong> Maaari mong sabay-sabay na lutuin ang mga side dish kasama ang inihaw na manok. Kung kaya mong mag-multitask, siguraduhing walang sobra o kulang sa pagluluto ng side dish.</p>
-  </li>
-  <li>
-    <h3>Pagsasaayos ng Ulam:</h3>
-    <p>Kapag luto na nang maayos ang inihaw na manok at handa na ang mga side dish, ayusin ang ulam. Ilagay ang inihaw na manok sa plato, idagdag ang mga side dish, at palamutian ng parsley o sarsa.</p>
-  </li>
-  <li>
-    <h3>Paghain ng Inihaw na Manok:</h3>
-    <p>Matapos maayos ang ulam, ihain agad habang mainit pa. Inaasahan ng mga customer sa Cookingdom Antas 15 ang sariwang ulam, kaya mas mabilis mong maihain, mas mataas ang puntos mo.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip at Gabay para sa Cookingdom Antas 15</h2>
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 15</h2>
 <ul>
-  <li>
-    <h3>Perpektong Inihaw na Manok:</h3>
-    <p>Ang susi sa perpektong inihaw na manok ay ang tamang temperatura ng langis. Kapag masyadong mainit ang langis, masusunog ang batter bago maluto nang husto ang manok. Kapag masyadong malamig naman, masisipsip ng manok ang langis at magiging mamantika.</p>
-  </li>
-  <li>
-    <h3>Pamahalaan ang mga Side Dish:</h3>
-    <p>Nangangailangan ng multitasking ang Cookingdom Antas 15, kaya kasinghalaga ang pamamahala ng mga side dish gaya ng pagprito ng manok. Bantayan ang oras upang walang side dish na sobra o kulang ang luto.</p>
-    <p><strong>Tip:</strong> Simulan ang pagluluto ng mga side dish kaagad pagkasimula ng pagprito ng manok. Mabilis maluto ang mashed patatas at pritong patatas, at maaaring ihanda nang maaga ang salad.</p>
-  </li>
-  <li>
-    <h3>Pampalasa:</h3>
-    <p>Mahalaga ang pampalasa. Dapat may tamang dami ng asin, paminta, at mga spices ang batter. Huwag kalimutan timplahan din ang mga side dish upang maging balanse ang lasa.</p>
-    <p><strong>Tip:</strong> Maaari mong i-adjust ang pampalasa ayon sa panlasa ng customer, halimbawa dagdagan ang spices para sa gusto ng maanghang.</p>
-  </li>
-  <li>
-    <h3>Pag-upgrade ng Kagamitan:</h3>
-    <p>Habang umuusad ka sa Cookingdom Antas 15, isaalang-alang ang pag-upgrade ng fryer at kalan. Mas mabilis na pagluluto ang makakatulong sa iyo na maiproseso ang dumaraming orders sa mga susunod na antas.</p>
-    <p><strong>Tip:</strong> Ang upgrades ay magpapabilis ng pagprito at pagluluto ng mga side dish.</p>
-  </li>
-  <li>
-    <h3>Huwag Hayaan Bumaba ang Init ng Langis:</h3>
-    <p>Kinakailangan ng Cookingdom Antas 15 na panatilihin ang mataas na temperatura ng langis para sa mabilis at pantay na pagprito.</p>
-  </li>
+  <li>Pagkakaroon ng hindi pantay na marinade o breading mix, na nagdudulot ng hindi pantay na lasa at texture.</li>
+  <li>Hindi pantay na coating ng manok, na nagdudulot ng hindi perpektong crust.</li>
+  <li>Pagprito ng manok sa langis na hindi sapat ang init, kaya nagiging oily ang manok.</li>
+  <li>Pagkakaroon ng manok na sobra o kulang ang luto, na apektado ang lambot at kaligtasan nito.</li>
+  <li>Pagkakalimutang i-drain ang manok pagkatapos magprito, na nagiging sanhi ng sobrang langis.</li>
+  <li>Kalimutang isama ang mga sangkap sa pagpaplating o hindi maayos na pag-aayos na makakaapekto sa iyong score.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Ang Cookingdom Antas 15 ay nag-aalok ng klasikong hamon — maghanda ng malutong at masarap na inihaw na manok kasama ang mga side dish. Mahalaga ang pagkontrol sa init ng langis, pamamahala ng oras sa pagluluto ng mga side dish, at mabilis na paghahain sa mga customer. Sa pagsunod sa mga tip na ito, madali kang makakakuha ng 5 bituin at matatapos ang antas na ito.</p>
 `,
   },
 
@@ -550,83 +934,216 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Pangkalahatang-ideya ng Laro</h2>
-  <p>Sa Cookingdom, bawat bagong level ay hamon sa iyo na lumikha ng mas komplikadong putahe. Hindi naiiba ang Level 16, kung saan kailangang lutuin ang perpektong steak. Ang pagkaing ito ay nangangailangan ng tamang timing, kontrol sa init, at matinding pansin sa mga order ng mga customer. Habang sumusulong ka sa Cookingdom, ang pagluluto ng steak ay magiging isang mahalagang bahagi ng menu, kaya mahalaga na matutunan ang tamang antas ng pagkakaluto upang masiyahan ang mga customer.</p>
-  <p>Sa level na ito, kailangan mong pamahalaan ang iyong kusina nang maayos habang tinitiyak na bawat steak ay naluluto ayon sa gusto—rare, medium, o well-done. Tuklasin natin ang mga hakbang sa pagluluto ng perpektong steak!</p>
-  
-  <h2 id="goal">Layunin ng Level 16</h2>
-  <ul>
-    <li><strong>Magluto ng Perpektong Steak:</strong> Kinakailangan mong lutuin ang steak sa tamang antas ng pagkakaluto: rare, medium, at well-done. May kanya-kanyang preference ang mga customer kaya mahalaga ang pagiging eksakto upang mapunan ang kanilang inaasahan.</li>
-    <li><strong>Pamahalaan ang Maramihang Order ng Steak:</strong> Tulad ng mga naunang level, kritikal ang kakayahan mong mag-manage ng sabay-sabay na mga order habang tinitiyak na bawat steak ay naluluto ng tama.</li>
-    <li><strong>Ihain nang Mabilis ang Steak:</strong> Madali magmamadali ang mga customer, kaya ang mabilis na pag-serve ng steak pagkatapos maluto ay mahalaga upang makakuha ng mataas na rating.</li>
-  </ul>
-  
-  <h2 id="steps">Mga Hakbang sa Pagluluto ng Steak</h2>
-  <ol>
-    <li>
-      <h3>Initin ang Pan o Grill:</h3>
-      <p>Bago magluto, painitin ang pan o grill sa mataas na temperatura. Ang sikreto sa magandang steak ay ang pagkakaroon ng mainit na surface para magkaroon ng masarap na crust sa labas habang nananatiling juicy sa loob. Maglagay ng konting mantika o butter para hindi dumikit ang steak.</p>
-      <p><strong>Tip:</strong> Mahalaga ang mainit na pan o grill upang makuha ang tamang crust ng steak.</p>
-    </li>
-    <li>
-      <h3>I-season ang Steak:</h3>
-      <p>Kapag mainit na ang pan, i-season ang steak ng asin, paminta, at iba pang herbs o spices na gusto mo. Maaaring may espesyal na request ang customer kaya siguraduhing suriin ang kanilang order nang mabuti.</p>
-      <p><strong>Tip:</strong> Siguraduhing season ang magkabilang side ng steak para mas masarap ang lasa.</p>
-    </li>
-    <li>
-      <h3>Ipagluto ang Steak:</h3>
-      <p>Ilagay ang steak sa mainit na pan o grill. Depende sa gusto ng customer, ito ang tinatayang oras ng pagluluto bawat side:</p>
-      <ul>
-        <li>Rare: 2-3 minuto bawat side.</li>
-        <li>Medium: 4-5 minuto bawat side.</li>
-        <li>Well-Done: 6-7 minuto bawat side.</li>
-      </ul>
-      <p><strong>Tip:</strong> Baliktarin lang ang steak isang beses upang hindi lumabas ang juice. Gamitin ang tongs upang maingat na ibaliktad.</p>
-    </li>
-    <li>
-      <h3>Suriin ang Antas ng Pagkaluto:</h3>
-      <p>Gamitin ang visual cues at touch para masuri ang pagkakaluto:</p>
-      <ul>
-        <li>Rare: Malambot kapag hinawakan, kulay pula sa gitna.</li>
-        <li>Medium: Medyo matigas na may pink na gitna.</li>
-        <li>Well-Done: Matigas at brown na, walang pink sa loob.</li>
-      </ul>
-      <p><strong>Tip:</strong> Sa Cookingdom, maaaring may visual indicator o timer para malaman kung kailan luto na ang steak para maiwasan ang overcooking.</p>
-    </li>
-    <li>
-      <h3>Pahingahin ang Steak:</h3>
-      <p>Kapag luto na, alisin ang steak sa pan o grill at hayaan itong magpahinga ng isa o dalawang minuto. Nakakatulong ito para maipamahagi ang juice nang pantay sa loob ng steak para mas malasa at malambot.</p>
-      <p><strong>Tip:</strong> Huwag palampasin ang hakbang na ito! Mahalaga ang pagpapahinga upang mapanatili ang moisture at lasa.</p>
-    </li>
-    <li>
-      <h3>Ihain ang Steak:</h3>
-      <p>Pagkatapos magpahinga, ilagay ang steak sa plato at ihain sa customer. Pwede mong lagyan ng sides tulad ng mashed potatoes, gulay, o sauces depende sa order.</p>
-      <p><strong>Tip:</strong> Ihain agad ang steak habang mainit pa para masaya ang customer at maiwasan ang pagkabigo dahil sa mabagal na serbisyo.</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Mga Tip at Teknik</h2>
-  <ul>
-    <li>
-      <strong>Masterin ang Antas ng Pagkaluto:</strong> Sa Cookingdom, mahalagang lutuin ang steak ayon sa eksaktong level na gusto ng customer para sa mataas na rating. Bigyang pansin ang kanilang order at gamitin ang tamang oras ng pagluluto para makagawa ng perpektong steak.
-    </li>
-    <li>
-      <strong>Epektibong Pamamahala ng Mga Order:</strong> Kapag dumami ang mga customer, kailangan mong mag-handle ng maraming steak order sabay-sabay. Prayoridad ang mga order base sa oras ng paghihintay. Siguraduhing i-check ang pagkakaluto ng bawat steak at iwasang masunog habang nagluluto ng iba.
-    </li>
-    <li>
-      <strong>Pag-upgrade ng Kagamitan:</strong> Habang sumusulong sa Cookingdom, puwede mong i-upgrade ang mga gamit sa kusina. Ang mas magagandang pan at grill ay makakatulong magluto ng steak nang mas mabilis at mas maayos. Isaalang-alang ang pag-upgrade para mapabilis ang proseso at mapaganda ang resulta.
-    </li>
-    <li>
-      <strong>Paggamit ng Boosts at Speed-ups:</strong> Nagbibigay ang Cookingdom ng mga boost para matulungan kang mag-manage ng oras lalo na sa peak hours. Gamitin ito para mapabilis ang pagluluto o pagseserbisyo lalo na kapag maraming steak order.
-    </li>
-    <li>
-      <strong>Kasiya ng Customer:</strong> Mahalaga ang pasensya ng customer. Kapag matagal silang naghintay ng steak, malamang magdudulot ito ng pagkadismaya. Siguraduhing mainit at mabilis ang pag-serve upang mapanatili ang kanilang kasiyahan.
-    </li>
-  </ul>
-  
-  <h2 id="summary">Buod</h2>
-  <p>Sa Cookingdom Level 16, ang paglikha ng perpektong steak ay tungkol sa tamang timing at pagtiyak na naluluto ang steak ayon sa gusto ng customer. Kakailanganin mong maging eksperto sa grilling at pan-cooking, mag-manage ng sabay-sabay na order, at mag-serve ng steak habang mainit pa at juicy.</p>
-  <p>Sa pagtatapos ng level na ito, magkakaroon ka ng mahalagang kasanayan sa pagluluto ng steak na magagamit mo sa mga mas mahirap na level sa hinaharap. Sa tamang detalye at mabilis na serbisyo, magiging pro ka na sa pag-handle ng steak orders at mapapanatili mo ang mga customer na masaya!</p>
+  <h2>Maligayang Pagdating sa Cookingdom Level 16: Gabay sa Steak</h2>
+<p>
+  Maligayang pagdating, chef! Sa **Cookingdom Level 16**, ang iyong misyon ay mag-ihaw at maghain ng perpektong **steak**. Ang level na ito ay nagpapakilala sa iyo sa intuitive ngunit tumpak na mekanika ng pagluluto ng Cookingdom sa isang relaxed na kapaligiran na walang timer, na nagbibigay-daan sa iyo upang mag-focus sa pagiging perpekto.
+</p>
+<p>
+  Ang gabay na ito ay naglalaman ng eksaktong mga hakbang upang magtagumpay sa **Cookingdom Level 16**, na detalyado ang bawat sangkap, aksyon, at tamang pagkakasunod-sunod na kinakailangan para makamit ang isang five-star na ulam.
+</p>
+
+<h2>Mga Sangkap na Kailangan Mo para sa Iyong Steak Dinner</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Steak</td>
+      <td>2 piraso</td>
+      <td>Ang pangunahing protina para sa iyong ulam.</td>
+    </tr>
+    <tr>
+      <td>Asin</td>
+      <td>Depende sa panlasa</td>
+      <td>Mahalagang pampalasa para sa steak.</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>Depende sa panlasa</td>
+      <td>Pangalawang mahalagang pampalasa para sa lasa.</td>
+    </tr>
+    <tr>
+      <td>Bawang</td>
+      <td>1 ulo para sa paggiling, 1 ulo (itaas na bahagi para sa pag-sear)</td>
+      <td>Nagbibigay ng malalim na lasa sa steak at mga gulay sa gilid.</td>
+    </tr>
+    <tr>
+      <td>Langis</td>
+      <td>Kahit konti</td>
+      <td>Para i-marinade ang steak bago lutuin.</td>
+    </tr>
+    <tr>
+      <td>Patatas</td>
+      <td>1 piraso (hinati sa gitna)</td>
+      <td>Isang masustansiyang gulay na side dish.</td>
+    </tr>
+    <tr>
+      <td>Karot</td>
+      <td>1 buo</td>
+      <td>Isang matamis at makulay na gulay sa gilid.</td>
+    </tr>
+    <tr>
+      <td>Green Peppercorns</td>
+      <td>1 tangkay</td>
+      <td>Nagbibigay ng natatanging lasa at garnish.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 piraso</td>
+      <td>Ginagamit sa pag-sear ng steak at pagluluto ng mga side dish.</td>
+    </tr>
+    <tr>
+      <td>Sos na Soy (botelya na may label na 'Sos')</td>
+      <td>Depende sa panlasa</td>
+      <td>Ang base ng iyong savory pan sauce.</td>
+    </tr>
+    <tr>
+      <td>Parsley</td>
+      <td>1 tangkay</td>
+      <td>Isang sariwang garnish para sa eleganteng plating.</td>
+    </tr>
+    <tr>
+      <td>Cherry Tomatoes</td>
+      <td>2 (hinati sa gitna)</td>
+      <td>Isang makulay na side dish/garnish na idinadagdag sa pag-ayos.</td>
+    </tr>
+    <tr>
+      <td>Yellow Dipping Sauce (halimbawa, Hollandaise o Béarnaise)</td>
+      <td>1 maliit na mangkok</td>
+      <td>Isang creamy na sauce na ihahain kasama ng steak.</td>
+    </tr>
+    <tr>
+      <td>Serving Plate</td>
+      <td>1</td>
+      <td>Ang panghuling ibabaw para sa paghahain ng iyong obra maestra.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Perpeksyon ng Steak: Hakbang-hakbang na Gabay</h2>
+
+<h3>Hakbang 1. Pumili ng Iyong Resipe</h3>
+<p>
+  Mag-umpisa sa pagbukas ng cookbook at piliin ang **Recipe No. 8 (Steak)**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhin na mayroon kang mga kinakailangang sangkap na na-unlock bago magsimula!
+</div>
+
+<h3>Hakbang 2. Season ang Iyong Steaks</h3>
+<p>
+  Ilagay ang dalawang **steak** sa isang plato. I-drag ang **asin** sa ibabaw ng parehong steak upang matabasang mabuti. Pagkatapos, gawin din ito sa **pepper shaker**, at ikalat ang pepper sa parehong steak.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhin na ang magkabilang panig ng steak ay maayos na nasis seasoning sa pamamagitan ng pag-drag ng cursor sa buong ibabaw ng steak.
+</div>
+
+<h3>Hakbang 3. Ihanda at Idagdag ang Minced Garlic</h3>
+<p>
+  Kumuha ng isang **bawang** at ilagay ito sa **papan ng pagputol**. Gamitin ang **kutsilyo** upang gilingin ang bawang hanggang maging pino. Pagkatapos na maggiling, ilagay ang bawang sa ibabaw ng mga steak na naseson na.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Gilingin ang bawang ng mabuti upang masigurado na pantay ang lasa. May lilitaw na heart icon kapag ang bawang ay nailagay ng tama.
+</div>
+
+<h3>Hakbang 4. Maglagay ng Langis</h3>
+<p>
+  I-pour ang **langis** mula sa bote at ibuhos ito sa ibabaw ng mga steak na naseson na at bawang na giniling.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhing pantay ang pagkakalagay ng langis sa steak. May lilitaw na heart icon kapag ito ay nailagay ng tama.
+</div>
+
+<h3>Hakbang 5. Ihanda ang Mga Gulay sa Gilid (Unang Pagputol)</h3>
+<p>
+  Ilagay ang **patatas** sa **papan ng pagputol** at i-cut ito ng maayos sa gitna. Pagkatapos, kumuha ng pangalawang **bawang**, ilagay ito sa board at putulin lamang ang tuktok nito.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang mga gulay ay pinaprepare na, ngunit sila ay lulutuin mamaya sa kawali, at masisipsip nila ang mga natirang lasa mula sa steak.
+</div>
+
+<h3>Hakbang 6. Painitin ang Kawali at I-sear ang Steak</h3>
+<p>
+  Ilagay ang **kawali** sa **stove** at buksan ang apoy. Idagdag ang **mantikilya** at hayaang matunaw ng buo. Kapag natunaw na at mainit, dahan-dahang ilagay ang mga **steak** sa kawali at lutuin hanggang mag-sear ang isang bahagi nito na may magandang crust.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Pakinggan ang tunog ng sizzling! Huwag magpuno ng kawali, bigyan ng espasyo ang mga steak upang mag-sear ng maayos.
+</div>
+
+<h3>Hakbang 7. Alisin ang Steak, Lutuin ang Sayuran</h3>
+<p>
+  Alisin ang **steak** mula sa kawali at ilagay muna sa **papan ng pagputol**. Ngayon, ilagay ang mga inihandang gulay – ang hiniwang **bawang**, **patatas**, **karot**, at **green peppercorns** – sa parehong kawali na may natirang mantikilya at sabaw ng steak. I-tumis hanggang maluto at malutong-tender.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ang pagluluto ng mga gulay sa parehong kawali ay nagbibigay-daan sa kanila na sumipsip ng lahat ng masarap na lasa mula sa steak.
+</div>
+
+<h3>Hakbang 8. Alisin ang Gulay at Gumawa ng Pan Sauce</h3>
+<p>
+  Kapag luto na, alisin ang mga gulay mula sa kawali at ilagay sa isang tray. Ngayon, ibuhos ang **soy sauce** (mula sa bote na may label na 'Sos') sa mainit na kawali. Hayaang kumulo at kumonti upang makagawa ng masarap na pan sauce.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> I-scrape ang mga browned bits mula sa ilalim ng kawali at idagdag ito sa sauce; puno ito ng dagdag na lasa!
+</div>
+
+<h3>Hakbang 9. Hiwain ang Steak</h3>
+<p>
+  Kumuha ng isang **steak** at ilagay ito sa **papan ng pagputol**. Gamitin ang **kutsilyo** upang hiwain ang steak sa pantay-pantay na piraso.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Para sa tunay na lambot, dapat i-slice ang steak laban sa hibla, ngunit sa laro, sundin ang mga visual na gabay para sa pantay na hiwa.
+</div>
+
+<h3>Hakbang 10. Ihain ang Iyong Obra Maestra</h3>
+<p>
+  Ilagay ang sariwang **parsley** sa malaking **serving plate**. Ayusin ang mga hiwang **steak** sa ibabaw ng parsley. Ngayon, idagdag ang mga lutong gulay – ang **bawang, karot, patatas, at peppercorns** – pati na rin ang mga hiniwang **tomato ceri** sa paligid ng steak.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ayusin ang lahat ng mga sangkap nang maayos at estetik para sa pinakamagandang presentation score!
+</div>
+
+<h3>Hakbang 11. Magdagdag ng Sos at Ihain!</h3>
+<p>
+  Gamitin ang **sandok** upang magdagdag ng **pan sauce** na ginawa mula sa kawali sa ibabaw ng mga hiwang steak. Sa huli, ilagay ang maliit na mangkok ng **yellow dipping sauce** (tulad ng Hollandaise o Béarnaise) sa tabi ng steak na nakahain.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Siguraduhin na ang pan sauce ay pantay-pantay na kumalat sa steak. Ang dipping sauce ang huling touch na magpapaganda sa iyong ulam.
+</div>
+
+<h2>Mga Tip para sa Tagumpay sa Cookingdom Level 16</h2>
+<ul>
+  <li>
+    ✔️ **Season ang steak ng maayos** gamit ang asin, pepper, at minced garlic bago magluto.
+  </li>
+  <li>
+    ✔️ Palaging tiyakin na **mainit ang kawali** bago magdagdag ng mantikilya at steak upang makuha ang perpektong sear.
+  </li>
+  <li>
+    ✔️ **Lutuin ang mga gulay sa parehong kawali** agad pagkatapos ng steak; sisisipsip nila ang lahat ng lasa.
+  </li>
+  <li>
+    ✔️ Huwag kalimutan ang **final pan sauce drizzle** sa ibabaw ng steak at **yellow dipping sauce**; parehong mahalaga para sa pagtatapos ng ulam.
+  </li>
+  <li>
+    ✔️ **Ayusin ang lahat ng sangkap nang maayos at estetik** sa plato para sa pinakamagandang presentation score.
+  </li>
+</ul>
+
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 16</h2>
+<ul>
+  <li>Hindi pagkakaroon ng tamang seasoning sa steak gamit ang asin, pepper, o garlic.</li>
+  <li>Paglalagay ng steak sa **malamig na kawali**, na magpapahirap sa steak na mag-sear ng maayos.</li>
+  <li>Pagka-burn ng **mantikilya, bawang, o gulay** habang nagluluto.</li>
+  <li>**Pagka-luto ng steak ng sobra**, na nagiging dahilan ng hindi magandang texture.</li>
+  <li>Pagkakalimot magdagdag ng tamang pan sauce o yellow dipping sauce.</li>
+  <li>Pagkakaroon ng magulong plating o kakulangan ng mga importanteng gulay tulad ng cherry tomatoes.</li>
+</ul>
+
   `,
   },
 
@@ -669,70 +1186,171 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Cookingdom Antas 17</h2>
-<p>Sa Cookingdom Antas 17, ihahanda mo ang isang masarap at sopistikadong inumin: ang Café Macchiato. Ang antas na ito ay hamon para ihanda ang isang makinis na espresso na may tuktok na buhawi ng gatas, habang pinapanatili ang tamang timing at katumpakan. Isa itong klasiko sa mga coffee shop na nangangailangan ng atensyon sa detalye at multitasking.</p>
-<p>Popular ang Café Macchiato sa mga coffee shop sa buong mundo. Ang tamang paghahanda nito ay makakapagpasaya ng iyong mga customer at makakatulong sa iyong pag-level up sa Cookingdom Antas 17. Hatiin natin ang proseso para gabayan ka sa paggawa ng perpektong Café Macchiato.</p>
+<h2>Maligayang pagdating sa Cookingdom Level 17: Gabay at Tutorial ng Café Macchiato</h2>
+<p>
+  Maligayang pagdating, mga eksperto sa kape! Sa **Cookingdom Level 17**, ang iyong misyon ay gumawa ng perpektong **Café Macchiato**. Itinuturo ng level na ito ang mga makapangyarihang mekanika ng pagluluto sa Cookingdom sa isang relaks na kapaligiran na walang timer, upang ma-master mo ang paglikha ng layered na kape.
+</p>
+<p>
+  Ang gabay na ito ay nagbibigay ng eksaktong mga hakbang upang mapagtagumpayan ang Cookingdom Level 17, na naglalarawan ng bawat sangkap, aksyon, at tamang pag-aayos na kinakailangan para sa isang eleganteng at masarap na macchiato.
+</p>
 
-<h2 id="goal">Mga Layunin ng Cookingdom Antas 17</h2>
+<h2>Mga Sangkap na Kakailanganin para sa Iyong Macchiato</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cherry ng Kape</td>
+      <td>1 basket</td>
+      <td>Kinokolekta mula sa mga palumpong ng kape sa simula.</td>
+    </tr>
+    <tr>
+      <td>Tubig</td>
+      <td>1 pitsel</td>
+      <td>Isang mahalagang bahagi para sa paggawa ng syrup.</td>
+    </tr>
+    <tr>
+      <td>Asukal</td>
+      <td>1 mangkok</td>
+      <td>Pampatamis para sa homemade syrup.</td>
+    </tr>
+    <tr>
+      <td>Limonsito</td>
+      <td>1 mangkok</td>
+      <td>Ang katas na ipipiga sa syrup para sa tamang tamis.</td>
+    </tr>
+    <tr>
+      <td>Gatas</td>
+      <td>1 karton</td>
+      <td>Ginagamit para sa steaming at pagbuo ng malapot na foam.</td>
+    </tr>
+    <tr>
+      <td>Yelo</td>
+      <td>1 mangkok</td>
+      <td>Idadagdag sa serving glass bago ang espresso.</td>
+    </tr>
+    <tr>
+      <td>Pang-adorno na Bulaklak</td>
+      <td>1 tasa</td>
+      <td>Ang huling detalyadong touch para sa presentation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pagpapahusay ng Café Macchiato: Hakbang-hakbang na Gabay</h2>
+
+<h3>Hakbang 1. Mag-ani ng Cherry ng Kape</h3>
+<p>
+  Magsimula sa pamamagitan ng pag-alis ng malalaking dahon na sumasakop sa **mga palumpong ng kape**. Kapag ito ay nahayag, pindutin ang mga kumpol ng **cherry ng kape** upang kolektahin ang mga ito. Magpatuloy hanggang sa mapuno ang basket.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Tiyaking makolekta ang *lahat* ng kumpol ng cherry. Lalabas ang icon ng puso kapag puno na ang basket, tanda ng tagumpay.
+</div>
+
+<h3>Hakbang 2. Proseso ng Cherry (Pagtanggal ng Balat)</h3>
+<p>
+  I-drag ang puno ng basket ng **cherry** papunta sa pulping machine na may pang-ikot na kamay. Pagkatapos, i-ikot ang pang-ikot na hawakan ng machine para iproseso ang cherries at alisin ang mga buto papunta sa purple na mangkok.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Patuloy na i-ikot ang hawakan hanggang sa matapos ang proseso. Makikita ang mga heart icon bilang tanda ng matagumpay na pagkolekta at proseso.
+</div>
+
+<h3>Hakbang 3. Patuyuin ang mga Biji</h3>
+<p>
+  I-pour ang mga pulped **buto** mula sa purple na mangkok sa drying tray. Pagkatapos, i-swipe ang mga ulap na nagtatakip sa araw na icon sa ibabaw ng tray. Maghintay hanggang matapos ang timer habang natutuyo at nagiging pantay-pantay ang kulay ng mga buto.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Mahalaga na alisin ang mga ulap upang magsimula ang proseso ng pagkatuyo. Lalabas ang heart icon kapag ang mga buto ay ganap na natuyo.
+</div>
+
+<h3>Hakbang 4. I-roast ang mga Biji habang Hinahalo</h3>
+<p>
+  I-on ang **hotplate**. Gamitin ang **scoop** upang ilipat ang mga tuyong **buto** sa pan na nakalagay sa hotplate. Pagkatapos, kumuha ng **spatula** at patuloy na ihalo ang mga buto habang pinapalakas at dumidilim.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Ang patuloy na paghalo ay mahalaga upang maiwasan ang pagsunog at tiyakin ang pantay na pag-roast. Lalabas ang mga heart icon pagkatapos ilagay ang mga buto at pagkatapos magtagumpay sa paghalo.
+</div>
+
+<h3>Hakbang 5. Gilingin ang mga Biji</h3>
+<p>
+  I-pour ang mga roasted **buto** mula sa pan papunta sa yellow **blender**. I-secure ang takip at pindutin ang power button. Maghintay habang giniginhawa ng blender ang mga buto at ginagawang pinong powder ng kape.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing naka-secure ang takip bago pindutin ang power button. Lalabas ang heart icon kapag natapos na ang paggiling.
+</div>
+
+<h3>Hakbang 6. Gumawa ng Syrup</h3>
+<p>
+  I-on ang **hotplate**. Ilagay ang **asukal** mula sa mangkok at **tubig** mula sa pitsel sa pan. Haluin gamit ang **spatula**. Piga ng katas mula sa **limonsito** at idagdag ito sa pan. Magpatuloy sa paghahalo hanggang sa magsimula ang syrup at maging makintab at malapot.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Sundin ang tamang pagkakasunod-sunod ng pagdagdag ng mga sangkap at patuloy na haluin. Lalabas ang heart icon sa bawat hakbang: pagdagdag ng sangkap, pagpapiga ng limon, at sa huli kapag tapos na ang syrup.
+</div>
+
+<h3>Hakbang 7. I-steam ang Gatas</h3>
+<p>
+  I-pour ang **gatas** mula sa karton papunta sa beaker ng baso. Ilagay ang beaker sa maliit na oven/steamer machine. Maghintay hanggang matapos ang timer at umabot ang gatas sa tamang temperatura.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing maayos ang pagkakalagay ng beaker sa machine. Lalabas ang heart icon kapag tapos na ang steaming.
+</div>
+
+<h3>Hakbang 8. I-froth ang Gatas</h3>
+<p>
+  Alisin ang beaker ng steamed gatas mula sa machine. Ilagay ang **immersion blender** sa beaker at i-operate ito hanggang maging malapot at buhaghag ang gatas.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Patuloy na i-blend ang gatas hanggang sa makuha ang tamang buhaghag na consistency. Lalabas ang heart icon bilang tanda ng tagumpay.
+</div>
+
+<h3>Hakbang 9. Mag-brew ng Espresso</h3>
+<p>
+  Gamitin ang **spoon** upang ilagay ang ground coffee powder sa **portafilter** ng espresso machine. Gamitin ang **tamper** upang maayos at pantay na ipress ang grounds. Ilagay ang portafilter sa machine, maglagay ng maliit na puting tasa sa ilalim, at pindutin ang brew button. Maghintay hanggang ang espresso ay mag-brew sa tasa.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Ang bawat hakbang (pagdagdag ng grounds, tampering, brewing) ay kailangang gawin ng tama upang makuha ang perpektong espresso. Lalabas ang heart icons pagkatapos ng bawat hakbang.
+</div>
+
+<h3>Hakbang 10. Pagsamahin ang Macchiato</h3>
+<p>
+  Ilagay ang mataas na baso sa purple na plate. Idagdag ang **yelo** mula sa mangkok sa baso. Pagkatapos, dahan-dahan ibuhos ang freshly brewed **espresso** sa ibabaw ng yelo. Pagkatapos, dahan-dahan ibuhos ang maganda at frothy **gatas** sa ibabaw ng espresso. Sa huli, dahan-dahan i-drizzle ang iyong **syrup** sa ibabaw ng frothy gatas sa isang anyo ng puso. Magdagdag ng **pang-adorno na bulaklak** para sa huling touch.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Mag-layer ng maayos ang mga sangkap para sa visual appeal. Ang drizzle ng syrup ay kailangang magtaglay ng isang malinaw na hugis ng puso. Lalabas ang heart icon sa bawat hakbang ng pagdagdag ng yelo, espresso, gatas, at syrup drizzle.
+</div>
+
+<h2>Top Tips para sa Tagumpay sa Cookingdom Level 17</h2>
 <ul>
-  <li><strong>Ihanda ang Espresso:</strong> Ang base ng Café Macchiato ay isang malakas at mayamang espresso shot.</li>
-  <li><strong>I-foam ang Gatas:</strong> Kailangang i-foam ang gatas sa tamang texture at temperatura.</li>
-  <li><strong>Ihain ang Inumin:</strong> Pagkatapos ihanda ang espresso at foam ng gatas, pagsamahin ito sa tamang proporsyon at ihain habang mainit at sariwa pa.</li>
-  <li><strong>Ihain nang Mabilis:</strong> Tulad ng dati sa Cookingdom Antas 17, mahalaga ang bilis. Mas mabilis mong maihain ang Café Macchiato, mas mataas ang iyong rating. Ang kasariwaan ay susi para mapanatili ang pinakamainam na lasa at texture.</li>
+  <li>
+    ✔️ Laging mag-obserba sa mga **heart icon**; sila ang mga pinakamainam na indikasyon na natapos ang bawat micro-step nang tama.
+  </li>
+  <li>
+    ✔️ Mag-ingat sa bawat aksyon, lalo na sa paghahalo, pag-froth ng gatas, at pagsunod sa pattern ng syrup drizzle.
+  </li>
+  <li>
+    ✔️ Huwag kalimutan ang mga mahalagang hakbang tulad ng **pagtanggal ng mga ulap** para sa proseso ng pagkatuyo o tiyakin na **nakatakip ang blender** nang maayos.
+  </li>
+  <li>
+    ✔️ **I-manage ng tama ang timers** para sa pagkatuyo, pagpapakulo, steaming, at brewing upang tiyakin na lahat ng bahagi ay handa sa tamang oras.
+  </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paggawa ng Café Macchiato sa Cookingdom Antas 17</h2>
-<ol>
-  <li>
-    <h3>Ihanda ang Espresso:</h3>
-    <p>Magsimula sa paggawa ng espresso shot. Sa Cookingdom Antas 17, gagamitin mo ang espresso machine para makagawa ng perpektong espresso. Siguraduhing pantay ang pag-tamp ng coffee grounds upang makuha ang tamang extraction.</p>
-    <p><strong>Tip:</strong> Bantayan nang mabuti ang espresso para maiwasan ang over-extraction o under-extraction.</p>
-    <p><strong>Tip:</strong> Ang perpektong espresso shot ang susi sa lasa ng Café Macchiato.</p>
-  </li>
-  <li>
-    <h3>I-foam ang Gatas:</h3>
-    <p>Sunod, ituon ang pansin sa gatas. Kailangan mong i-froth ang gatas hanggang maging creamy at airy ito, hindi masyadong makapal.</p>
-    <p><strong>Tip:</strong> Huwag masyadong painitin ang gatas — ang ideal na temperatura ay mga 65°C (150°F).</p>
-    <p><strong>Tip:</strong> Kapag nag-foam, layunin ang makinis at creamy na texture na may maliliit na bula.</p>
-  </li>
-  <li>
-    <h3>Pagsamahin ang Espresso at Gatas:</h3>
-    <p>Kapag handa na ang espresso at foam ng gatas, ibuhos ang espresso sa tasa at maglagay ng maliit na tuktok ng foam sa ibabaw.</p>
-    <p><strong>Tip:</strong> Ang susi ng Café Macchiato ay ang balanse sa pagitan ng malakas na espresso at malambot na foam ng gatas.</p>
-  </li>
-  <li>
-    <h3>Ihain ang Café Macchiato:</h3>
-    <p>Pagkatapos gawin, ihain ang inumin nang mabilis habang mainit pa at sariwa pa ang foam ng gatas.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip at Tricks sa Cookingdom Antas 17</h2>
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 17</h2>
 <ul>
-  <li>
-    <h3>Perpektong Espresso Shot:</h3>
-    <p>Siguraduhing pantay ang pag-tamp ng coffee grounds at bantayan ang timing para makagawa ng rich at balanced na espresso.</p>
-  </li>
-  <li>
-    <h3>I-foam ang Gatas nang Perpekto:</h3>
-    <p>Dapat ang foam ng gatas ay makinis, creamy, at magaan — hindi masyadong makapal o bula-bula. Pakinggan ang tunog ng steam, dapat ito ay malambing at hindi maingay.</p>
-  </li>
-  <li>
-    <h3>Pagtuunan ng Pansin ang Timing:</h3>
-    <p>Ang Cookingdom Antas 17 ay tungkol sa multitasking at tamang timing. Habang nag-e-espresso, simulan na ang pag-foam ng gatas para makatipid ng oras.</p>
-  </li>
-  <li>
-    <h3>Huwag Sobrahan ang Foam ng Gatas:</h3>
-    <p>Sa Café Macchiato, kaunting foam lang ang kailangan para hindi matabunan ang malakas na lasa ng espresso.</p>
-  </li>
-  <li>
-    <h3>Ihain Nang Sariwa at Mainit:</h3>
-    <p>Dapat ihain ang Café Macchiato agad pagkatapos gawin para mapanatili ang lasa at texture.</p>
-  </li>
+  <li>Hindi makolekta ang mga kumpol ng cherry ng kape sa unang ani.</li>
+  <li>Hindi na-proproseso ang lahat ng cherries sa pulping machine.</li>
+  <li>Hindi pag-aalis ng ulap sa proseso ng pagkatuyo o hindi paghihintay na matapos ang timer ng pagkatuyo.</li>
+  <li>Hindi sapat na paghahalo habang nagro-roast, na nagiging sanhi ng sunog na mga buto o hindi pantay na pag-roast.</li>
+  <li>Hindi tamang pagkakapareho ng consistency ng syrup o nakakalimutang magdagdag ng limon.</li>
+  <li>Hindi tamang temperatura o consistency ng gatas pagkatapos i-steam o i-froth.</li>
+  <li>Magulo ang pagsasama, lalo na kapag hindi pantay ang pag-drizzle ng syrup o maling paglagay ng pang-adorno.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Sa Cookingdom Antas 17, ang paggawa ng Café Macchiato ay nangangailangan ng atensyon sa detalye at tamang timing. Ang paggawa ng perpektong espresso at foam ng gatas ang susi upang makagawa ng klasiko at masarap na inumin na ito. Sa maingat na paghahanda, makakapaghain ka ng makinis at mayamang Café Macchiato na tiyak na magugustuhan ng iyong mga customer.</p>
-<p>Mag-multitask nang mahusay, bantayan ang oras, at ihain nang mainit at sariwa para makamit ang mataas na rating sa Cookingdom Antas 17!</p>
 `,
   },
 
@@ -870,77 +1488,182 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Cookingdom Antas 19</h2>
-<p>Sa Antas 19 ng Cookingdom, maghahanda ka ng matamis at masarap na pumpkin pie. Ang klasikong dessert na ito ay kilala sa maraming kultura, lalo na tuwing tag-lagas. Ang paggawa ng pumpkin pie ay nangangailangan ng makinis na pumpkin filling, perpektong crust, at tamang pagluluto upang maging golden brown. Mahalaga ang tamang balanse ng mga sangkap, oras ng pagluluto, at presentasyon upang maging masaya ang mga customer.</p>
-<p>Sa antas na ito, kailangan mong maingat na pamahalaan ang mga sangkap at mga hakbang para makamit ang perpektong crust at filling. Tingnan natin ang hakbang-hakbang na gabay sa paggawa ng pinakamagandang pumpkin pie!</p>
+<h2>Maligayang pagdating sa Cookingdom Level 19: Gabay sa Paggawa ng Pumpkin Pie</h2>
+<p>
+  Maligayang pagdating, dekorador ng panghimagas! Sa **Cookingdom Level 19**, ang iyong misyon ay gumawa ng perpektong **pumpkin pie**. Ang lebel na ito ay gagabay sa iyo sa mga intuitive ngunit tumpak na mekanika ng pagluluto sa isang relaxed, walang-timer na kapaligiran, na nagbibigay-daan sa iyo upang ma-master ang bawat matamis na hakbang.
+</p>
+<p>
+  Ang gabay na ito ay nagbibigay ng eksaktong mga hakbang upang magtagumpay sa Cookingdom Level 19, na nagdedetalye ng bawat sangkap, aksyon, at tamang paglalagay na kinakailangan para sa isang masarap na pumpkin pie.
+</p>
 
-<h2 id="goal">Mga Layunin ng Cookingdom Antas 19</h2>
+<h2>Mga Sangkap na Kailangan Mo para sa Iyong Pumpkin Pie</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Harina</td>
+      <td>1 mangkok</td>
+      <td>Puting pulbos, idinagdag sa food processor para sa crust ng pie.</td>
+    </tr>
+    <tr>
+      <td>Asin</td>
+      <td>1 bahagi</td>
+      <td>Idinagdag gamit ang kutsara mula sa tasa papunta sa food processor para sa crust.</td>
+    </tr>
+    <tr>
+      <td>Asukal</td>
+      <td>1 bahagi</td>
+      <td>Idinagdag gamit ang kutsara mula sa tasa papunta sa food processor para sa crust.</td>
+    </tr>
+    <tr>
+      <td>Tubig/Liquid</td>
+      <td>1 botelya</td>
+      <td>Idinagdag mula sa botelya papunta sa food processor para sa crust.</td>
+    </tr>
+    <tr>
+      <td>Spice na Brown (Cinnamon/Pumpkin Spice)</td>
+      <td>1 mangkok</td>
+      <td>Cinnamon o pumpkin spice powder, idinagdag sa food processor para sa crust.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 piraso</td>
+      <td>Idinagdag mula sa tray papunta sa food processor para sa crust.</td>
+    </tr>
+    <tr>
+      <td>Crema</td>
+      <td>1 karton</td>
+      <td>Mayamang base, idinagdag sa mangkok para sa pagpuno.</td>
+    </tr>
+    <tr>
+      <td>Puree ng Kalabasa/Hiwa ng Kalabasa</td>
+      <td>1 plato</td>
+      <td>Ang pangunahing sangkap na may kulay orange, idinagdag sa mangkok para sa pagpuno.</td>
+    </tr>
+    <tr>
+      <td>Rum</td>
+      <td>1 bote</td>
+      <td>Nagbibigay ng kakaibang lasa, idinagdag sa mangkok para sa pagpuno.</td>
+    </tr>
+    <tr>
+      <td>Gatas</td>
+      <td>1 pitsel</td>
+      <td>Nagbibigay ng makinis na konsistensya sa pagpuno.</td>
+    </tr>
+    <tr>
+      <td>Ground Spice (Nutmeg/Ginger?)</td>
+      <td>1 mangkok</td>
+      <td>Pinong dilaw/cinnamon na mga himaymay, idinagdag sa mangkok para sa pagpuno.</td>
+    </tr>
+    <tr>
+      <td>Itlog</td>
+      <td>3 (ipinapalagay)</td>
+      <td>Pinatulo mula sa plato papunta sa mangkok para sa pagpuno.</td>
+    </tr>
+    <tr>
+      <td>Whipped Cream</td>
+      <td>1 piping bag</td>
+      <td>Ginagamit para sa dekorasyon pagkatapos maghurno.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Perpektong Pumpkin Pie: Isang Gabay sa Hakbang-Hakbang</h2>
+
+<h3>Hakbang 1. Ihanda ang Flaky Crust Dough</h3>
+<p>
+  Buksan ang **food processor**. Ilagay ang **asin, asukal, harina, tubig, spice**, at **butter**. Isara ang takip nang maayos at i-blend hanggang maging isang cohesive na dough.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing nailagay lahat ng sangkap para sa crust sa processor bago mag-blend. Magkakaroon ng icon ng puso kapag handa na ang dough.
+</div>
+
+<h3>Hakbang 2. I-roll Out ang Crust</h3>
+<p>
+  Alisin ang handang **dough** mula sa food processor at ilagay ito sa wooden board. Gamitin ang **rolling pin** at igulong ito pabalik at pasulong hanggang magka-crack at maging perpektong bilog ang dough.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Patuloy na pagulong hanggang magpakita ang sparkle effect na nagsasabing ang dough ay fully rolled out na sa tamang laki at kapal.
+</div>
+
+<h3>Hakbang 3. Bumuo ng Crust sa Pan</h3>
+<p>
+  Dahan-dahang kunin ang **dough** mula sa board at ilagay ito nang maingat sa **pie pan**. I-push ito ng maingat upang mabuo ang crust shape.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Ang icon ng puso ay magpapakita bilang kumpirmasyon na ang crust ay na-press nang maayos at in-place sa loob ng pie pan.
+</div>
+
+<h3>Hakbang 4. Blind Bake ang Crust</h3>
+<p>
+  Buksan ang **oven door**. Ilagay ang **pie pan** na may raw crust sa loob ng oven. Isara ang pinto at maghintay hanggang ito ay maluto.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Kinakailangan ang hakbang na ito, na tinatawag na 'blind baking,' bago ilagay ang filling para hindi maging malambot ang crust.
+</div>
+
+<h3>Hakbang 5. Ihanda ang Creamy Pumpkin Filling</h3>
+<p>
+  Habang binabake ang crust, magsimula nang maghanda ng filling! Ilagay ang **cream, pumpkin puree, rum, milk, grated spice**, at **eggs** (mula sa plato) sa isang malaking mixing bowl. Gamitin ang **whisk tool** at haluin nang mabuti hanggang ang lahat ng sangkap ay maging smooth.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Haluin hanggang magkaruon ng smooth na filling na may uniform na orange/brown color. May lilitaw na icon ng puso kapag natapos na ang paghahalo.
+</div>
+
+<h3>Hakbang 6. I-fill ang Pie Crust</h3>
+<p>
+  Alisin ang pre-baked **crust** mula sa oven. Dahan-dahang ibuhos ang handang **pumpkin filling** mula sa mixing bowl papunta sa crust.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Siguraduhing pantay ang pag-pour ng filling sa crust para pantay ang pagkakaluto.
+</div>
+
+<h3>Hakbang 7. I-bake ang Pumpkin Pie</h3>
+<p>
+  Buksan muli ang **oven door**. Ilagay nang maingat ang **pie pan** na may filling sa oven. Isara ang pinto at maghintay para matapos ang huling baking process.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> Ang icon ng puso ay magpapakita sa oven kapag ang iyong pumpkin pie ay handa na!
+</div>
+
+<h3>Hakbang 8. I-dekorasyon gamit ang Whipped Cream</h3>
+<p>
+  Alisin ang lutong **pie** mula sa oven. Ilagay ito sa **serving plate**. Pumili ng **piping bag** at ilagay ang **6 na malinis na dollops ng whipped cream** sa gilid ng pie.
+</p>
+<div class="tip">
+  💡 <strong>Tip:</strong> I-tap o i-drag nang tumpak upang gumawa ng maayos at pantay-pantay na dollops. Pagkatapos ng huling hakbang ng dekorasyon, tapos na ang iyong resipe!
+</div>
+
+<h2>Top Tips para sa Tagumpay sa Cookingdom Level 19</h2>
 <ul>
-  <li><strong>Gumawa ng pie crust:</strong> Simulan sa buttery at flaky na crust. Pagsamahin ang mga sangkap para sa crust, i-roll out, at ilagay sa pie dish.</li>
-  <li><strong>Gumawa ng pumpkin filling:</strong> Binubuo ng pumpkin puree, itlog, asukal, at pampalasa (cinnamon, nutmeg, ginger). Kailangang maging makinis at mabango ang timpla.</li>
-  <li><strong>I-assemble at i-bake ang pie:</strong> Ibuhos ang filling sa crust at i-bake hanggang sa maging golden brown ang crust at maluto ang filling.</li>
-  <li><strong>I-serve ang pumpkin pie:</strong> Ihain ang mainit-init na pie at hiwain nang maayos para sa pinakamagandang presentasyon sa mga customer.</li>
+  <li>
+    ✔️ Sundin ang hakbang na tama: **gumawa ng crust, blind bake crust, gumawa ng filling, fill ang crust, i-bake ang filled pie, at pagkatapos ay dekorasyon.**
+  </li>
+  <li>
+    ✔️ Siguraduhing ang lahat ng sangkap ay **hinalo nang husto** sa parehong dough at filling stages para sa pinakamahusay na texture at lasa.
+  </li>
+  <li>
+    ✔️ Mag-ingat sa **pagpipipe ng whipped cream**; ang maayos na mga dollops ay makakatulong para magmukhang professional ang iyong pie at mas mataas ang score.
+  </li>
+  <li>
+    ✔️ Pansinin ang **heart icons**; ito ay tanda na matagumpay mong natapos ang bawat hakbang.
+  </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paghahanda ng Pumpkin Pie</h2>
-<ol>
-  <li>
-    <h3>Paghahanda ng crust:</h3>
-    <p>Pagsamahin ang harina, mantikilya, at kaunting tubig hanggang maging dough. Dahan-dahang i-knead at i-roll out hanggang pantay ang kapal.</p>
-    <p><strong>Tips:</strong> Huwag masyadong basa o tuyong crust. Kung tuyo, magdagdag ng kaunting tubig; kung basa, dagdagan ng harina.</p>
-    <p>Ilagay ang dough sa pie dish at putulin ang sobrang bahagi para malinis ang gilid.</p>
-    <p><strong>Tips:</strong> Palamigin ang dough sa refrigerator ng 15 minuto bago i-bake para sa mas magandang hugis.</p>
-  </li>
-  <li>
-    <h3>Paghahanda ng filling:</h3>
-    <p>Pagsamahin ang pumpkin puree, itlog, asukal, at pampalasa. Kailangang maging pantay at creamy ang timpla.</p>
-    <p><strong>Tips:</strong> Gumamit ng fresh o canned pumpkin puree at ihalo ng maigi ang mga pampalasa. I-adjust ang tamis ayon sa panlasa.</p>
-    <p><strong>Tips:</strong> Haluing mabuti upang walang buo-buong bahagi.</p>
-  </li>
-  <li>
-    <h3>Pagsasama ng pie:</h3>
-    <p>Ibuhos ang filling sa crust at pakinisin ang ibabaw.</p>
-    <p><strong>Tips:</strong> Huwag lagyan ng sobra upang may kaunting espasyo sa gilid.</p>
-  </li>
-  <li>
-    <h3>Pagluluto:</h3>
-    <p>Preheat ang oven sa 190°C at i-bake hanggang maging golden brown ang crust at maluto ang filling.</p>
-    <p><strong>Tips:</strong> Bantayan ang pie: dapat bahagyang malambot ang filling, hindi pumutok, at golden brown ang crust.</p>
-    <p><strong>Tips:</strong> Kung mabilis ma-brown ang gilid, takpan ng aluminum foil.</p>
-  </li>
-  <li>
-    <h3>Palamigin at ihain:</h3>
-    <p>Pahintulutan ang pie na lumamig nang bahagya bago hiwain at ihain nang mainit.</p>
-    <p><strong>Tips:</strong> Lagyan ng whipped cream o budburan ng cinnamon para sa mas magandang lasa at itsura.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tips at Rekomendasyon</h2>
+<h2>Mga Karaniwang Pagkakamali at Paano Iwasan sa Cookingdom Level 19</h2>
 <ul>
-  <li>
-    <h3>Perpektong crust:</h3>
-    <p>Tiyakin na malamig ang dough at huwag masyadong i-knead para hindi tumigas.</p>
-  </li>
-  <li>
-    <h3>Malinaw na filling:</h3>
-    <p>Haluin nang mabuti ang pumpkin puree upang walang buo-buong bahagi.</p>
-  </li>
-  <li>
-    <h3>Pagluluto:</h3>
-    <p>Bantayan ang oras ng pagluluto para sa malambot na filling at hindi tuyo.</p>
-  </li>
-  <li>
-    <h3>Paghahanda at pag-serve:</h3>
-    <p>I-dekorasyon ang pie para sa magandang presentasyon sa mga customer.</p>
-  </li>
-  <li>
-    <h3>Mainit na serve:</h3>
-    <p>Mas gusto ng mga customer ang mainit-init na pie.</p>
-  </li>
+  <li>Pagkakalimutan ang isang sangkap sa crust o pumpkin filling.</li>
+  <li>Hindi maayos na paghalo ng dough o filling mixture.</li>
+  <li>Pagbuhos ng pumpkin filling sa pie crust *bago* ang blind baking step.</li>
+  <li>Hindi maayos o hindi pantay na paglalagay ng whipped cream dollops sa huling dekorasyon.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Ang Cookingdom Antas 19 ay nangangailangan ng maingat na pag-asikaso sa bawat hakbang ng paggawa ng pumpkin pie — mula sa perpektong crust, masarap na filling, hanggang sa tamang pagluluto. Sundin ang gabay na ito para mapaligaya ang mga customer sa masarap na dessert!</p>
 `,
   },
 
@@ -983,105 +1706,217 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Antas 20 ng Cookingdom</h2>
-<p>Sa antas 20 ng Cookingdom, maghahanda ka ng isang masarap at tradisyonal na putahe — inihaw na pabo. Ang putahe na ito ay kilala lalo na tuwing mga pista at espesyal na okasyon. Ang pag-ihaw ng pabo ay nangangailangan ng tamang balanse ng marination, paghahanda, at tamang oras sa pagluluto. Sa antas na ito, kailangang matiyak mong luto nang husto ang pabo at ihain ito nang kaagad kasama ng mga tamang side dishes.</p>
-<p>Para magtagumpay sa antas 20, kailangan mong kontrolin ang ilang proseso ng sabay-sabay — pag-marinate, pag-ihaw, at pagbuhos ng sarsa upang maging malasa at juicy ang pabo. Sa tamang teknik, makakapag-ihaw ka ng pabo na may gintong kulay at masarap para sa mga customer bago mag-level up.</p>
+<h2>Maligayang Pagdating sa Cookingdom Level 20: Gabay sa Pagluluto ng Inihaw na Pabo</h2>
+<p>
+  Maligayang pagdating, chef ng kapistahan! Sa **Cookingdom Level 20**, ang iyong misyon ay magluto ng **perpektong inihaw na pabo**. Gagabayan ka ng level na ito sa pamamagitan ng intuitive at tumpak na mekanika ng pagluluto sa isang relaxed, walang timer na kapaligiran, na nagbibigay-daan sa iyong maging eksperto sa klasikong pagkain para sa holiday.
+</p>
+<p>
+  Ang gabay na ito ay nagbibigay ng eksaktong mga hakbang upang malampasan ang **Cookingdom Level 20**, at isinasalaysay ang bawat sangkap, aksyon, at tumpak na paglalagay na kinakailangan para sa isang gintong kayumangging pabo.
+</p>
 
-<h2 id="goal">Mga Layunin sa Antas 20 ng Cookingdom</h2>
+<h2>Mga Sangkap na Kailangan Mo para sa Iyong Inihaw na Pabo</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Paliwanag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frozen na Pabo</td>
+      <td>1</td>
+      <td>Inilalagay sa plastic wrap sa cutting board.</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>1</td>
+      <td>Pulang apple, kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Onion</td>
+      <td>1</td>
+      <td>Pulang sibuyas, kailangang hugasan at hiwain sa pabilog.</td>
+    </tr>
+    <tr>
+      <td>Kailan</td>
+      <td>1 ulo</td>
+      <td>Kailangang hugasan at hiwain sa florets.</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>3</td>
+      <td>Kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Limonsito</td>
+      <td>2</td>
+      <td>Limonsito na dilaw, kailangang hugasan at kiskisin ang balat.</td>
+    </tr>
+    <tr>
+      <td>Parsley</td>
+      <td>1 buo</td>
+      <td>Kailangang hugasan at hiwain.</td>
+    </tr>
+    <tr>
+      <td>Paper Towel</td>
+      <td>1 rolyo</td>
+      <td>Gagamitin upang tuyuin ang pabo.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 bote</td>
+      <td>Gagamitin upang magtimpla ng stuffing base.</td>
+    </tr>
+    <tr>
+      <td>White Wine</td>
+      <td>1 bote</td>
+      <td>Ipinapasok sa stuffing base upang magdagdag ng lasa.</td>
+    </tr>
+    <tr>
+      <td>Salt Shaker</td>
+      <td>1</td>
+      <td>Para sa seasoning ng stuffing base.</td>
+    </tr>
+    <tr>
+      <td>Pepper Shaker</td>
+      <td>1</td>
+      <td>Para sa seasoning ng stuffing base.</td>
+    </tr>
+    <tr>
+      <td>Spice Shaker</td>
+      <td>1</td>
+      <td>Parang chili flakes, para sa seasoning ng stuffing base.</td>
+    </tr>
+    <tr>
+      <td>Garnishes</td>
+      <td>Assorted</td>
+      <td>Mga piraso ng parsley, hiwa ng lemon, hiwa ng tomato, hiwa ng onion, hiwa ng apple para sa huling paghahain.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pagsasanay sa Pagluluto ng Inihaw na Pabo: Gabay sa Hakbang</h2>
+
+<h3>Hakbang 1. I-thaw ang Pabo</h3>
+<p>
+  Simulan sa pamamagitan ng pagtanggal ng plastic wrap mula sa **frozen na pabo**. Buksan ang **gripo ng tubig** at ilagay ang pabo sa **lababo** na puno ng tubig upang mag-thaw. Kapag ito ay ganap nang natunaw (nawala ang epekto ng yelo), ibalik ito sa **cutting board**.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Siguraduhing ang pabo ay ganap na natunaw sa pamamagitan ng pagiging lubos na nakalubog o hinugasan ng maigi hanggang sa mawala ang mga visual na epekto ng yelo.
+</div>
+
+<h3>Hakbang 2. Hugasan ang Lahat ng Mga Sangkap</h3>
+<p>
+  Ilipat ang bawat sangkap—**apple, onion, kailan, tomato, limonsito**, at **parsley**—sa **lababo** na may umaagos na tubig upang hugasan ang mga ito ng mabuti.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ang bawat item ay kailangang ilipat isa-isa sa agos ng tubig upang ito'y maitala bilang nahugasan.
+</div>
+
+<h3>Hakbang 3. Patuyuin at Ilagay ang Pabo sa Pinggan</h3>
+<p>
+  Pumili ng **paper towel**. I-drag ang paper towel sa ibabaw ng natunaw na pabo sa cutting board upang patuyuin ito ng maayos. Kapag tuyo na, ilagay ang pabo sa malaking **oval na pinggan**.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Siguraduhing ang pabo ay visual na tuyo (wala nang mga mantsa ng tubig). Ang isang icon ng puso ay magpapakita bilang kumpirmasyon ng tagumpay.
+</div>
+
+<h3>Hakbang 4. Ihanda ang Lahat ng Sangkap at Kiskisin ang Lemon</h3>
+<p>
+  Ilagay ang bawat isa sa mga nahugasang sangkap (apple, onion, kailan, tomato, limonsito, parsley) sa **cutting board** isa-isa. Gamitin ang **kutsilyo** (o pang-grate para sa balat ng limonsito) upang hiwain, paghiwain, o kiskisin ang mga ito ayon sa ipinapakita ng laro. Ilagay ang bawat sangkap sa nakatakdang maliliit na pinggan.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Sundin ang lahat ng mga tagubilin sa pagputol at pag-grate ng eksakto. Magpapakita ang mga icon ng puso upang tiyakin ang tamang paghahanda ng bawat sangkap.
+</div>
+
+<h3>Hakbang 5. Lutuin ang Stuffing Base</h3>
+<p>
+  Pumunta sa stove area. Ibuhos ang **mantika** sa kawali ng **induction cooker** at i-on. Idagdag ang lahat ng mga sangkap na inihanda (apple, onion, kailan, parsley, lemon zest, at tomato) sa mainit na kawali. Pagkatapos, idagdag ang **puting alak, asin, paminta**, at ang laman ng **spice shaker** (chili flakes).
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Bagaman hindi palaging mahigpit ang pagkakasunod-sunod ng mga sangkap, ang pagsunod sa pagkakasunod-sunod na ipinapakita sa screen ay karaniwang nakakatulong upang maiwasan ang mga isyu.
+</div>
+
+<h3>Hakbang 6. Isauté at Tapusin ang Sos</h3>
+<p>
+  Gamitin ang **spatula** upang maayos na haluin ang mga sangkap sa kawali. Magpatuloy sa paghahalo hanggang ang mixture ay maging isang makapal, kaakit-akit na orange-brown na sos o stuffing base. Alisin ang kawali mula sa init.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Patuloy na haluin upang maiwasan ang pagkasunog at tiyakin ang pantay na pagluluto. Magpapakita ang icon ng puso kapag ang mixture ay handa na.
+</div>
+
+<h3>Hakbang 7. I-coat ang Pabo</h3>
+<p>
+  Ilipat ang pabo mula sa pinggan pabalik sa **cutting board**. Gamitin ang **spatula** upang kunin ang nilutong **stuffing base** mula sa kawali at ikalat ito nang pantay-pantay sa ibabaw ng pabo hanggang ito ay ganap na ma-coat.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Siguraduhing ang buong ibabaw ng pabo ay natakpan ng sos. Magbabago ang kulay ng pabo. Ang icon ng puso ay magpapakita bilang kumpirmasyon ng tagumpay.
+</div>
+
+<h3>Hakbang 8. Ilagay ang Coated na Pabo sa Pinggan (Pre-Roast)</h3>
+<p>
+  Ilipat ang coated na pabo mula sa cutting board pabalik sa malaking **oval na pinggan**.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ito ay isang simpleng hakbang upang ihanda ang pabo para sa pag-roast.
+</div>
+
+<h3>Hakbang 9. I-roast ang Pabo sa Oven</h3>
+<p>
+  Pumunta sa oven area. Buksan ang **pinto ng oven**. Maingat na ilagay ang pinggan na may coated na pabo sa loob. Isara ang pinto. Ngayon, ayusin ang **knob ng oven** upang itakda ang tamang temperatura at oras ng pag-roast ayon sa mga tagubilin sa laro.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ang tamang pag-set ng mga knob ay mahalaga para sa perpektong inihaw na pabo. Ang mga icon ng puso ay magpapakita para sa tamang mga setting. Maghintay para sa tunog ng timer o visual cue ng oven.
+</div>
+
+<h3>Hakbang 10. Ihanda ang Garnish Plate</h3>
+<p>
+  Habang ang pabo ay nag-roast (o pagkatapos itong maluto), pumunta sa huling bahagi ng paghahain. Ilipat ang mga **garnish** (ranting parsley, hiwa ng lemon, hiwa ng tomato, hiwa ng onion, at hiwa ng apple) sa **malaking pinggan na may purple na gilid**.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ilagay ang garnishes nang maayos at kaakit-akit sa paligid ng gilid ng pinggan ayon sa halimbawa sa laro.
+</div>
+
+<h3>Hakbang 11. Huling Paghahain</h3>
+<p>
+  Kapag natapos na ang timer ng oven at ang pabo ay maganda nang inihaw (naipakita sa tunog ng oven at isang visual na pagbabago), buksan ang pinto ng oven. Ilipat ang inihaw na pabo (nasa oval na pinggan pa) mula sa oven papunta sa gitna ng iyong naihandang **pinggan ng paghahain**.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ilagay ang pabo nang sentral at simetriko sa iyong pinggan na inihanda. Ang sparkle animation ay magsasaad ng pagtatapos ng iyong magandang inihaw na pabo!
+</div>
+
+<h2>Mga Top Tips para sa Tagumpay sa Cookingdom Level 20</h2>
 <ul>
   <li>
-    <strong>Paghahanda ng Pabo:</strong> Linisin ang pabo, pahiran ng marinade, at lagyan ng herbs at spices para sa mas malinamnam na lasa.
+    ✔️ Laging sundin ang **mga visual cue at heart pop-ups**; ito ay nagpapatunay na matagumpay ang bawat aksyon.
   </li>
   <li>
-    <strong>Pag-ihaw ng Pabo:</strong> Siguraduhing tamang temperatura at oras ng pagluluto upang maging malutong ang balat at malambot ang laman.
+    ✔️ Siguraduhin na ang lahat ng mga sangkap ay **lubos na nahugasan at tamang-napaghandaan** (hiniwa, hiniwa, kiskis) bago magsimula sa mga hakbang sa pagluluto.
   </li>
   <li>
-    <strong>Pagbuhos ng Sarsa:</strong> Ibuhos ang katas o butter sauce habang niluluto para mapanatili ang katas ng pabo.
+    ✔️ **I-coat ang pabo nang pantay-pantay** ng stuffing base para sa pantay-pantay na pagluto at lasa.
   </li>
   <li>
-    <strong>Paghahain ng Pabo:</strong> Kapag luto na, hiwain agad at ihain upang mapanatili ang lasa at lambot.
+    ✔️ Bigyan ng matinding pansin ang **tamang setting ng oven** para sa parehong temperatura at oras.
+  </li>
+  <li>
+    ✔️ **Maayos na paghahain ng garnishes** ay mahalaga at malaki ang epekto sa iyong final presentation score.
   </li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Paghahanda ng Inihaw na Pabo sa Cookingdom Antas 20</h2>
-<ol>
-  <li>
-    <h3>Paghahanda ng Pabo:</h3>
-    <p>Linisin ang pabo, alisin ang laman loob, at patuyuin gamit ang paper towel para maging malutong ang balat.</p>
-    <p><strong>Tip:</strong> Pahiran ng olive oil, bawang, asin, at paminta. Magdagdag ng fresh herbs tulad ng rosemary, thyme, at sage.</p>
-    <p><strong>Tip:</strong> Lagyan ng sibuyas, bawang, at citrus fruits (lemon o orange) sa loob ng pabo para sa aroma at moisture.</p>
-  </li>
-  <li>
-    <h3>Pag-marinate:</h3>
-    <p>Ihalo ang spices at i-rub sa loob at labas ng pabo. Karaniwang sangkap ay rosemary, thyme, sage, asin, paminta, at bawang.</p>
-    <p><strong>Tip:</strong> Siguraduhing malagyan ng marinade ang loob ng pabo para sa mas malalim na lasa.</p>
-    <p><strong>Tip:</strong> Kung may oras, i-marinate sa refrigerator nang ilang oras o magdamag.</p>
-  </li>
-  <li>
-    <h3>Pag-ihaw:</h3>
-    <p>Painitin ang oven sa 175°C (350°F). Ilagay ang pabo sa oven rack o baking tray na may aluminum foil para makahuli ng juice.</p>
-    <p><strong>Tip:</strong> Takpan ang pabo ng aluminum foil sa unang bahagi ng pag-ihaw para mapanatili ang moisture.</p>
-    <p><strong>Tip:</strong> I-ihaw ng mga 13–15 minuto kada 450 gramo hanggang umabot sa internal temperature na 75°C (165°F).</p>
-    <p><strong>Tip:</strong> Kung masyadong mabilis maluto ang balat, bawasan ang temperature ng oven.</p>
-  </li>
-  <li>
-    <h3>Pagbuhos ng Sarsa:</h3>
-    <p>Bawat 30–45 minuto, ibuhos ang juice ng pabo o melted butter na may chicken stock.</p>
-    <p><strong>Tip:</strong> Iwasang madalas buksan ang oven para hindi bumaba ang temperatura.</p>
-  </li>
-  <li>
-    <h3>Pagsusuri ng Lutong Pabo:</h3>
-    <p>Sukatin ang temperature sa pinakamakapal na parte ng hita, iwasan ang buto.</p>
-    <p><strong>Tip:</strong> Kapag umabot sa 75°C (165°F), luto na ang pabo at puwede nang ilabas.</p>
-  </li>
-  <li>
-    <h3>Pahingain ang Pabo:</h3>
-    <p>Hayaan munang magpahinga ng 15–20 minuto para mag-distribute ang juices.</p>
-    <p><strong>Tip:</strong> Takpan ng aluminum foil para mapanatili ang init.</p>
-  </li>
-  <li>
-    <h3>Hiwain ang Pabo:</h3>
-    <p>Hiwain gamit ang matalim na kutsilyo, hatiin sa dibdib, hita, at pakpak.</p>
-    <p><strong>Tip:</strong> Hiwain laban sa grain para mas malambot ang karne.</p>
-  </li>
-  <li>
-    <h3>Paghahain:</h3>
-    <p>Ihain kasama ang mga side dishes tulad ng mashed potatoes, stuffing, gravy, at cranberry sauce.</p>
-    <p><strong>Tip:</strong> Ibuhos ang gravy para sa dagdag lasa.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Tip para sa Cookingdom Antas 20</h2>
+<h2>Mga Karaniwang Pagkakamali na Dapat Iwasan sa Cookingdom Level 20</h2>
 <ul>
-  <li>
-    <h3>Tamang Temperatura sa Pag-ihaw:</h3>
-    <p>Iwasan ang sobrang init para hindi masunog ang balat at hindi matuyo ang laman.</p>
-    <p><strong>Tip:</strong> Takpan ang pabo sa unang bahagi ng pag-ihaw at alisin sa huling bahagi para maging crispy ang balat.</p>
-  </li>
-  <li>
-    <h3>Huwag Mag-overcook:</h3>
-    <p>Ang sobrang luto na pabo ay matutuyo at hindi na masarap. Gamitin ang thermometer para masigurong tama ang luto.</p>
-    <p><strong>Tip:</strong> Para sa maliit na pabo, mas maiksi ang oras ng pagluluto. Bantayan nang maigi.</p>
-  </li>
-  <li>
-    <h3>Regular na Pagbuhos ng Sarsa:</h3>
-    <p>Nagpapanatili ng moisture at lasa ng pabo.</p>
-    <p><strong>Tip:</strong> Huwag kalimutang buhusan para sa pinakamahusay na resulta.</p>
-  </li>
-  <li>
-    <h3>Pahingain Bago Hiwa:</h3>
-    <p>Pinapalambot at pinapanatili ang juice ng karne.</p>
-    <p><strong>Tip:</strong> Takpan habang nagpapahinga para mapanatiling mainit.</p>
-  </li>
-  <li>
-    <h3>Maayos na Paghiwa:</h3>
-    <p>Nagpapadali sa paghain at pagkain.</p>
-    <p><strong>Tip:</strong> Hiwain laban sa grain para sa lambot.</p>
-  </li>
+  <li>Hindi paggawa ng thawing o pagpatuyo ng pabo.</li>
+  <li>Hindi tamang paghihiwa, pagputol, o paghahanda ng alinman sa mga gulay o prutas.</li>
+  <li>Pag-burn ng stuffing base habang sinasauté sa kawali.</li>
+  <li>Hindi pantay o hindi kumpletong pagkakalapat ng stuffing base sa pabo.</li>
+  <li>Pag-set ng maling oras o temperatura sa mga knob ng oven.</li>
+  <li>Paglalagay ng garnishes nang magulo o mali sa huling pinggan.</li>
+  <li>Pagtangkang ilagay ang pabo sa huling pinggan **bago** maglagay ng garnishes.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Ang Antas 20 ng Cookingdom ay susubok sa iyong kakayahan sa pagluluto ng perpektong inihaw na pabo. Mula sa paghahanda, pag-marinate, pag-ihaw, hanggang sa pagbuhos ng sarsa, mahalagang sundin ang bawat hakbang para makagawa ng masarap at juicy na putahe. Kapag na-master mo na ito, handa ka nang harapin ang mas mahihirap na recipe sa mga susunod na antas!</p>
   `,
   },
 ]

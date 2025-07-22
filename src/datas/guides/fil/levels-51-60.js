@@ -455,49 +455,136 @@ export const levels51to60 = [
         },
       ],
     },
-    detailsHtml: `<h2>Panimula sa Laro</h2>
-<p>Ipinapakilala ng Antas 56 ang <strong>Pelmeni</strong>, isang tradisyonal na dumpling mula sa Silangang Europa. Sa antas na ito, susubukin ang iyong kakayahan sa mas kumplikadong paghahanda tulad ng paggawa ng masa, paglalagay ng palaman, at tamang pagpapakulo. Mahalaga ang multitasking upang maabot ang mga demanding na order ng customer sa oras.</p>
+    detailsHtml: `
+    <h2>Cookingdom Antas 56: Pag-master ng Heartfelt Dumplings ng Chef</h2>
+<p>Maligayang pagdating sa **Cookingdom Antas 56**! Dito, ang iyong layunin sa pagluluto ay perpekto ang **heartfelt dish ng chef, na nakatuon sa masusing paggawa ng masasarap na dumpling. Ang antas na ito ay nag-aalok ng isang relaxed, walang timer na kapaligiran, na nagbibigay-daan sa iyo upang mapahusay ang iyong katumpakan sa paggamit ng mga kagamitan, pagkakasunud-sunod ng mga sangkap, at timing ng paggawa.</p>
+<p>Ang detalyadong gabay na ito ay gagabay sa iyo sa bawat hakbang na kailangan, sangkap, aksyon, at paglalagay, upang matiyak ang iyong tagumpay sa paggawa ng espesyal na pagkain na ito.</p>
 
-<h2>Layon ng Antas 56</h2>
-<p>Gumawa at maghain ng maraming order ng Pelmeni. Kailangan ng bilis at husay sa parehong paghahanda at pagpapakulo upang makakuha ng mataas na iskor. Ginagantimpalaan ang pagiging tumpak at mabilis.</p>
+<h2>Sangkap na Kailangan para sa Heartfelt Dish na Ito</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All-Purpose Flour</td>
+      <td>1 mangkok</td>
+      <td>Para sa paggawa ng dumpling dough.</td>
+    </tr>
+    <tr>
+      <td>Fresh Eggs</td>
+      <td>3 piraso</td>
+      <td>Key para sa consistency ng dumpling dough.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>Kung kinakailangan</td>
+      <td>Ginagamit para sa dough, filling, at pagpapakulo ng dumplings.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 bote</td>
+      <td>Konting dami upang pahusayin ang dough.</td>
+    </tr>
+    <tr>
+      <td>Fine Salt</td>
+      <td>Sa panlasa</td>
+      <td>Mahalaga para sa pag-season ng dough, filling, at tubig na pinapakulo.</td>
+    </tr>
+    <tr>
+      <td>Choice Meat</td>
+      <td>1 plato</td>
+      <td>Posibleng karne ng baka o baboy, para sa savory filling.</td>
+    </tr>
+    <tr>
+      <td>Garlic Head</td>
+      <td>1 ulo</td>
+      <td>Para i-chop para sa flavorful filling.</td>
+    </tr>
+    <tr>
+      <td>Red Onion</td>
+      <td>1 piraso</td>
+      <td>Balatan at i-chop para sa filling.</td>
+    </tr>
+    <tr>
+      <td>Fresh Scallions (Green Onions)</td>
+      <td>1 bungkos</td>
+      <td>I-chop para sa filling at bilang garnish.</td>
+    </tr>
+    <tr>
+      <td>Black Pepper</td>
+      <td>Sa panlasa</td>
+      <td>Para sa seasoning ng filling at ng tubig na pinapakulo.</td>
+    </tr>
+    <tr>
+      <td>Creamy Sour Cream</td>
+      <td>1 mangkok</td>
+      <td>Masarap na topping para sa serving.</td>
+    </tr>
+    <tr>
+      <td>Vodka</td>
+      <td>1 bote</td>
+      <td>Isang espesyal na alok mula sa iyong bisitang oso.</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2>Proseso ng Paggawa ng Pelmeni</h2>
-<h3>Ihanda ang Masa at Palaman:</h3>
+<h2>Step-by-Step na Gabay sa Pag-gawa ng Heartfelt Dish ng Chef</h2>
+
+<h3>Hakbang 1: Paghahanda ng Dumpling Dough</h3>
+<p>Sa isang malaking mangkok, pagsamahin ang **flour** mula sa purple na mangkok, **tatlong itlog** mula sa basket, **tubig** mula sa pitcher, kaunting **oil** mula sa bote, at isang kurot ng **salt** mula sa shaker. Gamitin ang **whisk** at haluin ang mga sangkap hanggang makuha ang isang makinis na batter. Ilagay ang batter sa isang kahoy na cutting board at i-knead ito hanggang maging isang firm na bola ng dough. Ilagay ang iyong tapos na bola ng dough sa maliit na patterned na mangkok.</p>
 <ul>
-  <li><strong>Masa:</strong> Piliin ang masa mula sa tray ng sangkap at gilingin ito hanggang sa maging manipis na bilog.</li>
-  <li><strong>Palaman:</strong> Ilagay ang giniling na karne sa gitna ng bawat bilog ng masa.</li>
+  <li>**Insight ng Chef:** Siguraduhing ang limang mahahalagang sangkap (flour, itlog, tubig, oil, salt) ay naidagdag sa mangkok *bago* magsimula sa paghahalo para sa pinakamahusay na consistency ng dough.</li>
 </ul>
 
-<h3>Hubugin ang Dumplings:</h3>
+<h3>Hakbang 2: Pag-gawa ng Savory Meat Filling</h3>
+<p>Ilagay ang **raw meat** sa cutting board, hiwain ito sa mga piraso, pagkatapos ay ilipat ito sa **blender**. I-activate ang blender para magmensahe ng daging. Habang gumagana ang blender, i-chop nang pino ang **garlic**, balatan at i-chop ang **red onion**, at i-chop ang **scallions**. Ilagay ang bawat sangkap sa mga magkahiwalay na mangkok. Sa isang malaking mangkok, pagsamahin ang minced meat mula sa blender kasama ang chopped garlic, red onion, at scallions. Magdagdag ng konting **tubig** mula sa pitcher pati na rin ang **salt** at **black pepper**. Gamitin ang isang kutsara upang haluin ang mga sangkap.</p>
 <ul>
-  <li>Tiklopin ang masa at iselyo nang maigi ang mga gilid upang makabuo ng klasikong hugis ng Pelmeni.</li>
-  <li>Tiyaking walang tagas ng palaman — makakaapekto ito sa lutong at presentasyon.</li>
+  <li>**Insight ng Chef:** Mahalaga na i-mince muna ang karne sa blender *bago* ito ihalo sa mga chopped na gulay.</li>
 </ul>
 
-<h3>Pakuluan ang Pelmeni:</h3>
+<h3>Hakbang 3: Pagtitipon ng Iyong Pelmeni (Dumplings)</h3>
+<p>Mag-move na sa assembly station. Ilagay ang bola ng dough sa asul na rolling mat. Magtabi ng konting **flour** mula sa maliit na purple na mangkok. Gamitin ang **rolling pin** upang i-flatten ang dough hanggang maging isang malaking, pantay-pantay na sheet. Gamitin ang circular metal cutter upang maghiwa ng mga perpektong bilog mula sa sheet. Ilagay ang isang maliit na kutsara ng iyong meat filling sa gitna ng bawat bilog ng dough. Ngayon, para sa signature shape: i-fold ang bawat bilog na puno sa kalahati, at pagkatapos ay maingat na i-pinched ang mga gilid upang makuha ang tradisyonal na pelmeni form.</p>
 <ul>
-  <li>Ilubog ang mga Pelmeni sa kumukulong tubig.</li>
-  <li><strong>Bantayan ang timer:</strong> Mahalaga ang tamang oras ng pagpapakulo — ang kulang sa luto ay matigas, at ang sobra ay madaling masira.</li>
+  <li>**Insight ng Chef:** Tandaan ang dalawang hakbang sa pag-fold: una, i-fold ito sa kalahati, at pagkatapos ay maingat na pagsamahin ang dalawang gilid. Siguraduhing punuin at maingat na i-fold ang bawat hiwa na bilog.</li>
 </ul>
 
-<h3>Ihain ang Pelmeni:</h3>
+<h3>Hakbang 4: Pagluluto at Pag-garnish ng Pelmeni</h3>
+<p>Punuin ang purple na **pot** ng **tubig** mula sa lababo. Ilagay ang pot sa portable stove at buksan ang apoy. Kapag kumulo na ang tubig, maingat na idagdag ang **pelmeni**. Perasakan ang kumukulong tubig ng **salt** at **black pepper**. Magpapakita ng timer na magpapaalam kung gaano katagal ang cooking time. Pagkatapos maluto, patayin ang stove. Gamitin ang **slotted spoon** upang ilipat ang mga pelmeni sa isang serving bowl. Tapusin sa pamamagitan ng pagdagdag ng isang malaking kutsara ng **sour cream** at maglagay ng chopped **scallions** para sa freshness.</p>
 <ul>
-  <li>Kapag luto na, alisin at ihain ang Pelmeni sa plato.</li>
-  <li>Magdagdag ng toppings gaya ng sour cream o herbs kung hinihingi ng customer.</li>
-  <li>Ihain agad sa tamang customer upang maiwasan ang penalty.</li>
+  <li>**Insight ng Chef:** Huwag kalimutang i-season ang kumukulong tubig ng salt at pepper! Ang maliit na hakbang na ito ay nagpapaganda ng lasa ng dumplings mismo.</li>
 </ul>
 
-<h2>Mga Tip at Estratehiya</h2>
+<h3>Hakbang 5: Ang Heartfelt Serving Experience</h3>
+<p>Ilapat ang mangkok ng pelmeni sa isang placemat, kasama ang isang tinidor at isang baso ng tubig. Ang iyong espesyal na bisita, ang oso, ay lalapit sa mesa, handang mag-enjoy. Pagkatapos niyang kumain, mag-aalok siya ng bote ng **vodka**. Ibuhos ang vodka sa baso. Maghihingi pa ang oso ng higit pa, kaya't magdagdag ng isa pang kutsara ng **sour cream** sa mangkok ng pelmeni. Matapos muling kumain ang oso, magbibigay siya ng masayang reaksyon na magdadala sa iyo ng isang perpektong 3-star rating!</p>
 <ul>
-  <li><strong>Mag-multitask:</strong> Habang kumukulo ang isang batch, maghanda ng isa pa upang hindi masayang ang oras.</li>
-  <li><strong>Panatilihing aktibo ang mga lutuan:</strong> Gamitin ang dalawang kaserola kung mayroon, para makahabol sa demand.</li>
-  <li><strong>Katumpakan:</strong> Laging tiyaking maayos ang pagselyo ng dumplings upang hindi ito masira sa tubig.</li>
-  <li><strong>Hiling ng customer:</strong> May ilan na may ekstrang toppings — bantayan ang order bubble.</li>
-  <li><strong>Stock ng sangkap:</strong> Punan agad ang masa at karne sa pagitan ng mga batch para di maubusan.</li>
+  <li>**Insight ng Chef:** Ang fasa ng pagpapakain ay lubos na interaktibo! Dapat kang magbantay sa mga hindi berbal na kilos ng oso upang malaman kung kailan magbubuhos ng inumin at magdagdag ng karagdagang sour cream upang matagumpay na matapos ang antas.</li>
 </ul>
 
-<h2>Buod</h2>
-<p>Ang Antas 56 ng Cookingdom ay pagsubok sa bilis, katumpakan, at galing mo sa multitasking. Ang paggawa ng Pelmeni ay may maraming hakbang — masa, palaman, paghubog, pagpapakulo, at paghahain — lahat sa ilalim ng pressure ng oras. Kapag na-master mo ito, magbubukas ka ng mga bagong resipi mula sa Silangang Europa at makakakuha ng mga advanced na gamit sa kusina. Maglingkod nang mabilis at kumita ng pinakamataas na bituin!</p>`,
+<h2>Mga Tip para sa Tagumpay & Mga Karaniwang Pagkakamali na Iwasan</h2>
+
+<h3>Mga Key Tips para sa Iyong Heartfelt Dish</h3>
+<ul>
+  <li>**Tamang Sekwensya:** Sundin palagi ang tamang pagkakasunod-sunod ng recipe: unang dough, pagkatapos filling, pagkatapos assembly, at sa wakas pagluluto. Susundin ito ng laro.</li>
+  <li>**Mahalaga ang Meat Prep:** Kapag inihahanda ang filling, siguraduhin na ang karne ay maayos na minsa sa blender *bago* ito ihalo sa mga gulay.</li>
+  <li>**Interactive na Pagbibigay ng Pagkain:** Magbantay ng mabuti sa yugto ng pagpapakain; kailangan mong mag-react sa mga partikular na kilos ng oso sa pamamagitan ng pagbubuhos ng inumin at pagdagdag ng sour cream.</li>
+  <li>**Perasakan Lahat:** Huwag kalimutan ang pag-season sa bawat hakbang na kailangan: ang dough, ang filling, at lalo na ang kumukulong tubig.</li>
+</ul>
+
+<h3>Mga Karaniwang Hamon na Kailangang Bantayan</h3>
+<ul>
+  <li>**Incomplete Dough:** Kung nakalimutan mong idagdag ang kahit isa sa limang mahahalagang sangkap (flour, itlog, tubig, oil, salt) bago magwhisk.</li>
+  <li>**Filling Faux Pas:** Kung hindi na mince ng tama ang karne sa blender bago ito haluin sa mga gulay.</li>
+  <li>**Premature Boiling:** Kung inilagay ang pelmeni sa pot bago pa kumulo ang tubig.</li>
+  <li>**Unseasoned Water:** Kung nakalimutan mong i-season ang kumukulong tubig ng salt at pepper, maapektohan ang lasa ng dumplings.</li>
+  <li>**Serving Slip-ups:** Kung hindi mo sinunod ang visual cues ng oso at nakalimutan magbuhos ng inumin o magdagdag ng sour cream sa tamang oras.</li>
+</ul>
+
+    `,
   },
 
   {

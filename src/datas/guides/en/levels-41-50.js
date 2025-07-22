@@ -42,45 +42,143 @@ export const levels41to50 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 41 Game Overview</h2>
-<p><strong>Cookingdom Level 41</strong> brings the sweet and fast-paced challenge of making <strong>Donut</strong>. With deep frying, glazing, and topping variations, you’ll need sharp focus and quick hands to keep up with customer demand.</p>
+    <h2>Cookingdom Level 41 Guide: Crafting the Perfect Donuts</h2>
+<p>Welcome to **Cookingdom Level 41**! Your mission here is to master the art of creating delicious **donuts**. This level guides you through precise cooking mechanics in a relaxed, no-timer environment, focusing on proper tool usage, sequence, and timing.</p>
+<p>This comprehensive walkthrough details every ingredient, action, and placement needed to ensure your success in Cookingdom Level 41.</p>
 
-<h2 id="goal">🎯Cookingdom Level 41 Goal</h2>
+<h2>Essential Ingredients for Your Donut Creation</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milk</td>
+      <td>1 Glass + 1 Glass</td>
+      <td>Used for both the donut dough and the glaze base.</td>
+    </tr>
+    <tr>
+      <td>Eggs</td>
+      <td>4 (2 for dough, 2 for glaze)</td>
+      <td>Integral to both the dough structure and the glaze consistency.</td>
+    </tr>
+    <tr>
+      <td>Yeast</td>
+      <td>1 Bowl</td>
+      <td>The leavening agent for your donut dough.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 Bowl</td>
+      <td>Adds sweetness to the dough.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 Bowl</td>
+      <td>Balances flavors in the dough.</td>
+    </tr>
+    <tr>
+      <td>Flour</td>
+      <td>1 Bowl + 1 Bowl</td>
+      <td>Forms the base of the donut dough and is sifted for the glaze.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 Plate (sliced) + 1 Block</td>
+      <td>A block for the dough, and sliced for the glaze base.</td>
+    </tr>
+    <tr>
+      <td>Oil</td>
+      <td>1 Bottle</td>
+      <td>For frying your donuts to golden perfection.</td>
+    </tr>
+    <tr>
+      <td>Plastic Wrap</td>
+      <td>1 Roll</td>
+      <td>Used for proofing the dough and covering glaze bowls.</td>
+    </tr>
+    <tr>
+      <td>Food Coloring (Blue/Teal)</td>
+      <td>1 Tube</td>
+      <td>To create a vibrant blue/teal glaze.</td>
+    </tr>
+    <tr>
+      <td>Food Coloring (Pink)</td>
+      <td>1 Tube</td>
+      <td>To create a lovely pink glaze.</td>
+    </tr>
+    <tr>
+      <td>Sprinkles</td>
+      <td>1 Bowl</td>
+      <td>Colorful decoration for your finished donuts.</td>
+    </tr>
+    <tr>
+      <td>Piping Bag (with chocolate/dark icing)</td>
+      <td>1</td>
+      <td>For drizzling decorative patterns.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Guide to Donut Perfection</h2>
+
+<h3>Step 1: Prepare the Donut Dough Base</h3>
+<p>Pour **milk** into a large bowl. Crack **2 eggs** into the same bowl. Add **yeast** and **sugar**. Using a whisk, combine these ingredients thoroughly. Next, add **flour** and **salt**. Switch to a spatula and mix everything until a cohesive dough ball forms.</p>
 <ul>
-  <li>Serve at least 28 donut</li>
-  <li>Maintain 90% or higher satisfaction</li>
-  <li>Finish within 3 minutes</li>
+  <li>**Pro Tip:** Ensure yeast and sugar are well dissolved with the wet ingredients before incorporating the flour for optimal activation.</li>
 </ul>
 
-<h2 id="ingredients">🍩 Cookingdom Level 41 Ingredients</h2>
+<h3>Step 2: Knead and Proof Your Dough</h3>
+<p>Transfer the dough ball onto a cutting board. Place a **block of butter** directly on top of the dough. Begin kneading the butter into the dough until it's fully incorporated. Once kneaded, return the dough to the bowl. Cover the bowl tightly with **plastic wrap**. Allow the dough to proof (a timer will indicate progress).</p>
 <ul>
-  <li>Donut dough (plain)</li>
-  <li>Frying oil</li>
-  <li>Chocolate glaze / sugar glaze</li>
-  <li>Toppings (sprinkles, nuts)</li>
+  <li>**Pro Tip:** Knead until the butter is completely blended and the dough feels smooth and elastic. Proofing in a virtual warm spot helps the dough rise properly.</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Cookingdom Level 41 Step-by-Step Strategy</h2>
-<ol>
-  <li>Drop multiple dough pieces into the fryer at once.</li>
-  <li>Monitor fry timer carefully — remove before overcooking.</li>
-  <li>Dip into requested glaze (chocolate or sugar).</li>
-  <li>Add correct topping and serve immediately.</li>
-  <li>Queue next batch of donut while serving current ones.</li>
-</ol>
-
-<h2 id="tips">🔥 Cookingdom Level 41 Pro Tips</h2>
+<h3>Step 3: Perfectly Shape Your Donuts</h3>
+<p>Remove the proofed dough from the bowl and place it onto the cutting board. Use a **rolling pin** to flatten the dough evenly. Take a **pizza cutter** and divide the flattened dough into 4 equal pieces. Roll each piece into a small ball, then flatten each ball again with the **rolling pin**. Finally, use a **small round cutter** to punch a hole in the center of each flattened piece. Place the newly shaped donuts onto individual squares.</p>
 <ul>
-  <li><strong>Batch Fry:</strong> Always keep the fryer full to save time.</li>
-  <li><strong>Know the Patterns:</strong> Certain customers always request the same combo — memorize them.</li>
-  <li><strong>Upgrade Fryer:</strong> Speeds up cooking and reduces burn risk.</li>
+  <li>**Pro Tip:** Aim for uniform thickness and size when shaping to ensure consistent frying results.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Cookingdom Level 41 Common Mistakes</h2>
+<h3>Step 4: Fry the Donuts to Golden Brown</h3>
+<p>Pour **oil** into a frying pan and heat it on the stove. Carefully place the shaped donuts into the hot oil. Fry them until they achieve a golden-brown color (a timer will indicate readiness), then use a spatula to flip and fry the other side until it's also golden brown. Once fried, remove the donuts with the spatula and return them to their individual squares.</p>
 <ul>
-  <li>Over-frying donut — timing is everything in this level.</li>
-  <li>Wrong glaze or topping — pay close attention to orders.</li>
-  <li>Fryer downtime — leads to combo break and low star ratings.</li>
+  <li>**Pro Tip:** Maintain a stable oil temperature to prevent burning or undercooking. If your pan is small, fry in batches to avoid overcrowding.</li>
+</ul>
+
+<h3>Step 5: Prepare Your Donut Glazes</h3>
+<p>In a clean bowl, combine **milk**, the remaining **2 eggs**, and **sliced butter**. Sift **flour** into this bowl to avoid lumps. Use a spatula to mix these ingredients into a smooth glaze base. Divide this glaze base evenly into two separate small bowls. Add **blue/teal food coloring** to one bowl and **pink food coloring** to the other. Mix each until the color is uniform throughout. Cover both bowls with **plastic wrap**. Place a pan with **water** on the stove and heat it. Gently place the covered glaze bowls into the hot water bath to warm and slightly melt.</p>
+<ul>
+  <li>**Pro Tip:** Sifting flour is crucial for a smooth glaze. Warming the glaze gently over a water bath will give it the ideal dipping consistency.</li>
+</ul>
+
+<h3>Step 6: Decorate & Present Your Donuts</h3>
+<p>Remove the warmed glazes from the water bath. Take your fried donuts. Dip one donut into the **blue/teal glaze** and another into the **pink glaze**. Place these glazed donuts onto a sheet on the cutting board. Dip the third donut into the **blue/teal glaze**. Use the **piping bag** to drizzle **chocolate/dark icing** over this third (blue/teal) donut. Finally, sprinkle colorful **sprinkles** over the first blue/teal donut and the pink donut. Arrange your three beautifully decorated donuts attractively on a cake stand.</p>
+<ul>
+  <li>**Pro Tip:** Allow any excess glaze to drip off before placing donuts down. Decorate promptly while the glaze is still slightly wet to ensure toppings adhere well.</li>
+</ul>
+
+<h2>Tips for Success & Common Pitfalls to Avoid</h2>
+
+<h3>Key Tips for Donut Mastery</h3>
+<ul>
+  <li>**Proofing is Paramount:** Ensure your dough proofs sufficiently; it should roughly double in size, indicating active yeast.</li>
+  <li>**Fry to Perfection:** Fry donuts until they are a consistent golden brown on both sides to guarantee a cooked interior.</li>
+  <li>**Glaze Consistency:** Pay attention to your glaze. If it's too thick, add a tiny bit more milk; if too thin, a touch more sifted powdered sugar (if available in-game) can help, otherwise, adhere strictly to the guided steps.</li>
+  <li>**Speedy Decorating:** Work efficiently when glazing and decorating before the glaze has a chance to set completely.</li>
+</ul>
+
+<h3>Common Donut-Making Challenges</h3>
+<ul>
+  <li>**Dough Disasters:** Dough failing to rise properly due to inactive yeast or incorrect proofing temperatures.</li>
+  <li>**Frying Fails:** Burning the donuts by using oil that's too hot, or frying for an excessive duration.</li>
+  <li>**Raw Centers:** Under-frying the donuts, leading to an unappetizing raw interior.</li>
+  <li>**Glaze Woes:** Glaze being either too thick for smooth coating or too thin, resulting in a sparse application.</li>
+  <li>**Messy Finishes:** Sloppy or uneven decoration application can detract from your donut's appeal.</li>
 </ul>
 `,
   },
@@ -457,46 +555,167 @@ export const levels41to50 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 46 Game Overview</h2>
-<p><strong>Cookingdom Level 46</strong> brings a delicious challenge with <strong>Sweet Potato Chewy Pudding</strong>. This soft and sticky dessert requires careful timing with steaming and mixing to maintain its perfect chewy texture.</p>
+    <h2>Cookingdom Level 46 Guide: Crafting the Perfect Sweet Potato Chewy Pudding (Chè)</h2>
+<p>Welcome to **Cookingdom Level 46**! Your mission is to create a delightful **Sweet Potato Chewy Pudding (Chè)**. This level immerses you in Cookingdom's precise and intuitive mechanics, allowing you to focus on the perfect sequence and timing in a relaxed, no-timer environment.</p>
+<p>This comprehensive walkthrough provides every detail—ingredients, actions, and placements—needed to achieve culinary mastery in Cookingdom Level 46.</p>
 
-<h2 id="goal">🎯 Cookingdom Level 46 Goal</h2>
+<h2>Ingredients You'll Need for Your Chewy Pudding</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Yellow Sweet Potato</td>
+      <td>1</td>
+      <td>Requires washing, peeling, dicing, and steaming.</td>
+    </tr>
+    <tr>
+      <td>Purple Sweet Potato</td>
+      <td>1</td>
+      <td>Requires washing, peeling, dicing, and steaming.</td>
+    </tr>
+    <tr>
+      <td>Green Sweet Potato (or similar)</td>
+      <td>1</td>
+      <td>Peeled, diced, and steamed (implied for third color).</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>Sufficient amount</td>
+      <td>Used for washing, dough preparation, and boiling.</td>
+    </tr>
+    <tr>
+      <td>Tapioca Flour/Starch</td>
+      <td>Approx. 4 small bowls</td>
+      <td>Crucial for all three sweet potato doughs and tapioca pearls.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>To taste (from shaker)</td>
+      <td>Sweetens cooked sweet potato pieces and tapioca pearls.</td>
+    </tr>
+    <tr>
+      <td>Fresh Coconut</td>
+      <td>1 whole</td>
+      <td>Needs cracking, meat scooping, and dicing.</td>
+    </tr>
+    <tr>
+      <td>Peanuts</td>
+      <td>1 small bowl</td>
+      <td>Requires roasting and grinding into a coarse powder.</td>
+    </tr>
+    <tr>
+      <td>Coconut Water/Juice</td>
+      <td>1 small pitcher</td>
+      <td>Base for your rich coconut sauce.</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>1 small carton/pitcher</td>
+      <td>Complements the coconut water in the sauce.</td>
+    </tr>
+    <tr>
+      <td>Cornstarch/Thickener</td>
+      <td>1 small bowl</td>
+      <td>Used to achieve the perfect consistency for the coconut sauce.</td>
+    </tr>
+    <tr>
+      <td>Pandan Leaves</td>
+      <td>Few sprigs</td>
+      <td>For an elegant and aromatic garnish.</td>
+    </tr>
+    <tr>
+      <td>Blue Shaved Ice</td>
+      <td>1 small bowl</td>
+      <td>A refreshing topping.</td>
+    </tr>
+    <tr>
+      <td>Tapioca Pearls (small, white)</td>
+      <td>1 small bowl (cooked)</td>
+      <td>Prepared from scratch using tapioca flour and water, then boiled and sweetened.</td>
+    </tr>
+    <tr>
+      <td>Shredded Coconut</td>
+      <td>1 small bowl</td>
+      <td>An additional topping, distinct from diced fresh coconut meat.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Guide to Success</h2>
+
+<h3>Step 1: Prepare and Steam Sweet Potatoes</h3>
+<p>Wash the **yellow** and **purple sweet potatoes** in the sink. Use a **peeler** to remove their skins, discarding peels into the recycling bin. Dice both peeled sweet potatoes on a **cutting board** and place them into separate bowls. A third (**green sweet potato**) is also prepared similarly. Place the diced yellow and purple sweet potatoes into separate tiers of a **steamer** set on a **portable gas stove**. Add the diced green sweet potato to one of the tiers as well. Cover with a **lid**, turn on the stove, and steam until fully cooked.</p>
 <ul>
-  <li>Serve at least 25 puddings</li>
-  <li>Keep customer satisfaction above 88%</li>
-  <li>Complete the level within 3 minutes</li>
+  <li>**Pro Tip:** Dice your sweet potatoes into roughly even pieces to ensure uniform steaming and tenderness.</li>
 </ul>
 
-<h2 id="ingredients">🍠 Cookingdom Level 46 Ingredients</h2>
+<h3>Step 2: Craft Your Sweet Potato Doughs</h3>
+<p>Transfer the steamed yellow, purple, and green sweet potato pieces into three separate bowls. To each bowl, add a portion of **tapioca flour/starch** and a small amount of **water** from a pitcher. Using a **wooden spoon**, mix each sweet potato mixture thoroughly until you form a pliable, distinctively colored dough (yellow, purple, and green).</p>
 <ul>
-  <li>Mashed sweet potato</li>
-  <li>Tapioca starch or rice flour</li>
-  <li>Coconut milk (optional topping)</li>
-  <li>Steamer for cooking</li>
+  <li>**Pro Tip:** Add water very gradually. The ideal dough consistency should be firm enough to handle and cut easily, but not overly dry or crumbly.</li>
 </ul>
 
-<h2 id="steps">👨‍🍳 Cookingdom Level 46 Step-by-Step Strategy</h2>
-<ol>
-  <li>Mix mashed sweet potato with starch to create the pudding base.</li>
-  <li>Spoon mixture into molds and place in the steamer.</li>
-  <li>Steam until soft and chewy. Watch the timing carefully!</li>
-  <li>Serve with optional coconut milk topping if requested.</li>
-  <li>Begin preparing the next batch while one is steaming.</li>
-</ol>
-
-<h2 id="tips">🔥 Cookingdom Level 46 Pro Tips</h2>
+<h3>Step 3: Shape and Cut Sweet Potato Doughs</h3>
+<p>Take each colored sweet potato dough (purple, yellow, green) one by one. Place it on a **cutting board**, flatten it slightly, and then use a **knife** to cut it into small, uniform, bite-sized pieces. Transfer the cut pieces of each color onto separate plates.</p>
 <ul>
-  <li><strong>Keep the steamer full:</strong> Always have pudding cooking to avoid idle time.</li>
-  <li><strong>Pre-mix extra batter:</strong> This minimizes lag during high-order periods.</li>
-  <li><strong>Watch for topping cues:</strong> Not every order needs coconut milk — save time when possible.</li>
+  <li>**Pro Tip:** Aim for consistent size and shape for all the chewy pieces. This not only aids in even cooking but also contributes to a more attractive final presentation.</li>
 </ul>
 
-<h2 id="mistakes">🚫 Common Mistakes in Level 46</h2>
+<h3>Step 4: Cook Sweet Potato Pieces and Sweeten</h3>
+<p>Place a large **pot** on a **portable gas stove** and turn it on. Pour **water** from a pitcher into the pot and bring it to a rolling boil. Carefully add the cut purple, yellow, and green sweet potato dough pieces into the boiling water. Cover with a **lid** and cook until the pieces float to the surface, indicating they are fully cooked. Use a **slotted spoon** to remove the cooked pieces of each color and place them onto separate plates. Finally, generously sprinkle **sugar** from a shaker over the cooked pieces on each plate.</p>
 <ul>
-  <li>Oversteaming — results in sticky or burnt pudding, reducing satisfaction.</li>
-  <li>Forgetting toppings — causes partial scores for orders that request it.</li>
-  <li>Idle mixing — prep batter in advance to maintain rhythm.</li>
+  <li>**Pro Tip:** Avoid overcrowding the pot; cook in small batches if necessary. When cooked, the pieces will puff up slightly and become tender.</li>
 </ul>
+
+<h3>Step 5: Prepare Toppings: Fresh Coconut and Ground Peanuts</h3>
+<p>For the **fresh coconut**: Use a **hammer** to crack open a whole coconut. Then, use a **spoon** to carefully scoop out the fresh coconut meat. Place the coconut meat on a **cutting board** and dice it into small, uniform pieces; transfer these to a bowl or plate. Discard the empty shell. For the **peanuts**: Place raw peanuts in a small **frying pan** on a **portable gas stove**. Turn on the stove and roast the peanuts, stirring continuously with **chopsticks**, until they are lightly browned and fragrant. Transfer the roasted peanuts to a **mortar** and grind them into a coarse powder using a **pestle**. Finally, transfer the ground peanuts to a small bowl.</p>
+<ul>
+  <li>**Pro Tip:** Exercise caution when cracking the coconut. Roast peanuts over medium heat to prevent burning and ensure even toasting.</li>
+</ul>
+
+<h3>Step 6: Create the Rich Coconut Sauce</h3>
+<p>Place a medium **pot** on a **portable gas stove** and turn it on. Pour **coconut water/juice** from a small pitcher and **milk** from a carton into the pot. Add **cornstarch/thickener** from a small bowl using a **spoon**. Stir the mixture continuously with a **wooden spoon** until it thickens to a smooth sauce consistency. Turn off the stove and pour the prepared coconut sauce into a clean bowl.</p>
+<ul>
+  <li>**Pro Tip:** Constant stirring while adding the thickener is crucial to prevent lumps and achieve a perfectly smooth, creamy sauce.</li>
+</ul>
+
+<h3>Step 7: Prepare and Sweeten Tapioca Pearls</h3>
+<p>In a bowl, mix **tapioca flour/starch** with **water** to form a dough (this step is visually condensed in the game but implied by the ingredients). Roll this dough and cut it into small pieces. Roll these small pieces between your palms to form perfectly round, small **tapioca pearls**. Place the formed pearls onto a plate. Bring **water** to a boil in a pot on the stove. Add the raw tapioca pearls to the boiling water and stir gently with **chopsticks**. Cook until the pearls become translucent and float to the surface. Use a **slotted spoon** to remove the cooked tapioca pearls and place them into a bowl. Add **sugar** from a shaker to the cooked pearls and stir to combine evenly.</p>
+<ul>
+  <li>**Pro Tip:** Cook tapioca pearls until they are completely translucent, with no white center. This ensures they have the desired chewy texture.</li>
+</ul>
+
+<h3>Step 8: Assemble Your Sweet Potato Chewy Pudding (Chè)</h3>
+<p>In a large, patterned **serving bowl**, begin layering your ingredients: start by arranging the cooked **green, purple, and yellow sweet potato pieces**. Next, add the cooked **tapioca pearls** and the diced **fresh coconut meat** (or shredded coconut, if preferred). For an aesthetic touch, garnish with a few **pandan leaves**. Sprinkle the fragrant **ground roasted peanuts** and add a refreshing scoop of **blue shaved ice**. Finally, generously pour the prepared **sweet coconut sauce** over all the ingredients. Place a spoon in the bowl and present your magnificent creation on a patterned **placemat**.</p>
+<ul>
+  <li>**Pro Tip:** Thoughtful layering of the colorful ingredients is key to achieving the best visual appeal and a truly "gastronomic triumph."</li>
+</ul>
+
+<h2>Tips for Success & Common Pitfalls to Avoid</h2>
+
+<h3>Key Tips for Crafting the Perfect Chewy Pudding</h3>
+<ul>
+  <li>**Thorough Cooking:** Ensure all sweet potato pieces and tapioca pearls are cooked thoroughly; this is vital for the optimal chewy texture.</li>
+  <li>**Balanced Sweetness:** While the game standardizes sugar, in real cooking, you'd balance the sweetness according to your taste.</li>
+  <li>**Smooth Sauce:** Your coconut sauce should be perfectly smooth and slightly thick – avoid watery or lumpy consistencies.</li>
+</ul>
+
+<h3>Common Challenges to Watch Out For</h3>
+<ul>
+  <li>**Hard Sweet Potatoes:** Undercooking sweet potatoes during steaming will make them difficult to mash into dough.</li>
+  <li>**Dough Disasters:** Dough consistency that is either too wet or too dry will negatively impact both sweet potato pieces and tapioca pearls.</li>
+  <li>**Burnt Peanuts:** Over-roasting or burning peanuts will result in a bitter taste that can spoil the topping.</li>
+  <li>**Lumpy Sauce:** The coconut sauce becoming lumpy is a common issue if not stirred continuously while adding thickener.</li>
+  <li>**Hard Tapioca:** Undercooking tapioca pearls will leave them with an undesirable hard center.</li>
+</ul>
+
+What other delightful Asian desserts would you like to explore in Cookingdom?
 `,
   },
 
@@ -786,52 +1005,165 @@ export const levels41to50 = [
         },
       ],
     },
-    detailsHtml: `<h2>Level Overview</h2>
-<p>Level 50 takes you to the heart of Australian cuisine, where you’ll grill fresh barramundi fillets and serve them with classic sides. This level tests your grill control, timing, and plating skills. Multiple components must be prepared in sync to satisfy customer expectations.</p>
+    detailsHtml: `
+    <h2>Cookingdom Level 50 Mastery: Grilling Aussie Barramundi to Perfection</h2>
+<p>Welcome to **Cookingdom Level 50**, chef! Your mission in this vibrant stage is to craft an exquisite **Grilled Aussie Barramundi**. This level is designed to sharpen your culinary skills, emphasizing precision in tool usage, ingredient sequence, and perfect timing within a relaxed, no-timer game environment.</p>
+<p>This comprehensive walkthrough provides every detail you need for success, from initial ingredient prep to the final, beautiful plating of your dish.</p>
 
-<h2>Objective</h2>
-<p>Grill Aussie barramundi fillets to perfection, plate them with the correct sides, and serve each dish while it’s hot. The challenge lies in managing grill time and multitasking with side preparation.</p>
+<h2>Ingredients for Your Australian Feast</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Preparation Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Whole Barramundi Fish</td>
+      <td>1 unit</td>
+      <td>To be filleted; head and bones will be discarded.</td>
+    </tr>
+    <tr>
+      <td>Fresh Asparagus</td>
+      <td>1 bunch (approx. 5-6 stalks)</td>
+      <td>Requires thorough washing.</td>
+    </tr>
+    <tr>
+      <td>Crisp Carrots</td>
+      <td>3 units</td>
+      <td>Requires thorough washing.</td>
+    </tr>
+    <tr>
+      <td>Zesty Ginger Root</td>
+      <td>1 piece</td>
+      <td>Needs to be finely chopped.</td>
+    </tr>
+    <tr>
+      <td>Cool Cucumber</td>
+      <td>1 unit</td>
+      <td>To be thinly sliced.</td>
+    </tr>
+    <tr>
+      <td>Bright Lemon</td>
+      <td>1 unit</td>
+      <td>To be thinly sliced for garnish and flavor.</td>
+    </tr>
+    <tr>
+      <td>Aromatic Rosemary</td>
+      <td>1 sprig</td>
+      <td>For elegant garnish (additional bunch may appear).</td>
+    </tr>
+    <tr>
+      <td>Grilling Charcoal</td>
+      <td>1 portion</td>
+      <td>The heat source for your grill.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 bowl</td>
+      <td>For brushing ingredients before grilling and in sauce.</td>
+    </tr>
+    <tr>
+      <td>Chili Powder / Paprika</td>
+      <td>To taste (from shaker)</td>
+      <td>For seasoning the Barramundi.</td>
+    </tr>
+    <tr>
+      <td>Ground Pepper</td>
+      <td>To taste (from shaker)</td>
+      <td>For seasoning grilled items and final presentation.</td>
+    </tr>
+    <tr>
+      <td>Fine Salt</td>
+      <td>To taste (from shaker)</td>
+      <td>For seasoning the fish.</td>
+    </tr>
+    <tr>
+      <td>Clear Liquid (Water/Broth)</td>
+      <td>Dash (from bottle)</td>
+      <td>Component for your savory sauce.</td>
+    </tr>
+    <tr>
+      <td>Rich Red Sauce (Tomato-based)</td>
+      <td>Dash (from bottle)</td>
+      <td>Adds depth to the sauce.</td>
+    </tr>
+    <tr>
+      <td>Granulated Sugar</td>
+      <td>Pinch (from box)</td>
+      <td>Balances flavors in the sauce.</td>
+    </tr>
+    <tr>
+      <td>Umami Soy Sauce (Purple Cap)</td>
+      <td>Dash (from shaker)</td>
+      <td>Essential for the sauce.</td>
+    </tr>
+    <tr>
+      <td>"MEZAN" Brand Sauce/Oil (Orange Cap)</td>
+      <td>Dash (from bottle)</td>
+      <td>Unique flavor addition to the sauce.</td>
+    </tr>
+    <tr>
+      <td>Sweet Green Peas</td>
+      <td>1 small tray/handful</td>
+      <td>Adds color and texture to the sauce.</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2>Step-by-Step Guide</h2>
-<h3>Step 1: Prepare the Fish</h3>
+<h2>Step-by-Step Culinary Journey</h2>
+
+<h3>Step 1: Prep Your Fish and Fresh Produce</h3>
+<p>Begin by activating the sink water. Thoroughly wash the **asparagus** and **carrots** by dragging them under the running water, then return them to their designated trays. Place the **ginger** on the cutting board, use your **knife** to chop it finely, and transfer it to an empty tray. Next, neatly slice the **cucumber** on the cutting board, moving the slices to another tray. Repeat this for the **lemon**, slicing it and placing slices on a tray. Transfer the **rosemary** sprig to a tray. Now, place the **whole fish** onto the cutting board. Using your **knife**, expertly create two clean fillets, then drag the fish bones and head to the trash icon. Place the prepared fillets on a clean tray. Finally, turn off the sink water.</p>
 <ul>
-  <li>Select a raw barramundi fillet from the fridge or ingredient tray.</li>
-  <li>Apply seasoning (usually salt, pepper, and lemon juice) as shown in the customer order.</li>
+  <li>**Chef's Tip:** Keep each prepared ingredient on its own tray; this maintains organization and efficiency in your virtual kitchen.</li>
 </ul>
 
-<h3>Step 2: Grill the Fillet</h3>
+<h3>Step 2: Ignition of the Charcoal Grill</h3>
+<p>With your **tongs**, pick up the **charcoal** from its paper and carefully place it into the brazier. Grab the **blowtorch** and ignite the charcoal until it glows a vibrant red, indicating optimal heat. Once ready, position the rectangular wire mesh grilling basket securely on top of the hot brazier.</p>
 <ul>
-  <li>Place the seasoned fillet on the preheated grill.</li>
-  <li>Monitor the timer or color change — flip once halfway for even cooking.</li>
-  <li>A golden-brown texture on both sides indicates perfect doneness.</li>
-  <li><strong>Tip:</strong> Don’t overcook — burned fish lowers customer satisfaction and reduces your score.</li>
+  <li>**Chef's Tip:** Patience is a virtue! Allow the charcoal to fully ignite and achieve a consistent red glow before placing the grill basket. This ensures even heat distribution for perfect grilling.</li>
 </ul>
 
-<h3>Step 3: Prepare the Sides</h3>
+<h3>Step 3: Grilling the Barramundi and Vegetables</h3>
+<p>Dip your brush into the **oil** and generously coat the **asparagus**, then one of the **fish fillets**, and finally the **carrots**. Using a spoon, sprinkle **pepper** from its shaker onto the carrots, then the fish fillet, and finally the asparagus. Next, use the spoon to sprinkle **salt** onto the fish fillet. Add a touch of **chili powder** to the fish fillet with your spoon. Now, using **tongs**, carefully place the seasoned fish fillet onto the grill; it will cook according to its internal timer and flip automatically. Once cooked, remove the fish to an empty tray. Place the seasoned carrots on the grill; cook according to their timer, then remove them to an empty tray. Repeat this process for the seasoned asparagus, grilling until done and removing to a separate tray.</p>
 <ul>
-  <li>Common sides: grilled asparagus, mashed potatoes, or lemon slices.</li>
-  <li>Begin side prep while the fish is grilling to save time.</li>
-  <li>Some sides require boiling or grilling — start these early so they’re ready to plate with the fish.</li>
+  <li>**Chef's Tip:** Season all items thoroughly for maximum flavor. Crucially, watch the cooking timers closely to prevent any overcooking or burning.</li>
 </ul>
 
-<h3>Step 4: Plate and Serve</h3>
+<h3>Step 4: Crafting the Savory Sauce</h3>
+<p>Place the **frying pan** onto the induction cooktop. Use a spoon to add **oil** from its bowl to the pan. Pour in the **clear liquid** from its bottle, followed by the **red sauce** from its bottle. Add a pinch of **sugar** from the box. The cooktop will automatically activate. Stir the mixture continuously with a **spatula** as it heats (a timer will appear). Add **soy sauce** (from the purple-capped shaker), then the unique **'MEZAN' sauce** (from the orange-capped bottle), stirring after each addition (another timer will appear for the MEZAN sauce). Finally, add the chopped **ginger** and **green peas** to the pan. Stir everything well with the spatula until the sauce is perfectly cooked and combined. The cooktop will then switch off.</p>
 <ul>
-  <li>Once the fish and sides are ready, arrange them neatly on the plate.</li>
-  <li>Drag and serve the completed dish to the customer quickly.</li>
-  <li>Timing is essential — lukewarm dishes lead to unhappy customers.</li>
+  <li>**Chef's Tip:** Frequent stirring is vital when preparing the sauce. This ensures all ingredients are evenly incorporated and prevents anything from sticking or burning to the pan.</li>
 </ul>
 
-<h2>Tips and Tricks</h2>
+<h3>Step 5: Artful Plating of Your Aussie Barramundi</h3>
+<p>Gently place the cooked **fish fillet** onto the center of the elegant serving platter. Artistically arrange the sliced **lemon**, grilled **asparagus**, and grilled **carrots** around the fish. Use a spoon to ladle the rich, prepared sauce generously over both the fish and carrots. Finish by sprinkling the entire dish with **pepper** from the shaker. For the final touch, nestle a fresh sprig of **rosemary** on top as an exquisite garnish.</p>
 <ul>
-  <li><strong>Grill Awareness:</strong> Don’t leave the grill unattended — overcooked fish is the most common mistake.</li>
-  <li><strong>Side Dish Prep:</strong> Use downtime during grilling to prepare and pre-load side ingredients.</li>
-  <li><strong>Double-Grill Strategy:</strong> If you have two grill slots, stagger fish prep to serve more customers efficiently.</li>
-  <li><strong>Watch for Order Complexity:</strong> Some customers request sauce or extras (like herbs). Follow orders precisely for bonus tips.</li>
-  <li><strong>Multitask Smart:</strong> Prep one side dish while plating another — keep all elements moving.</li>
+  <li>**Chef's Tip:** Thoughtful and artful plating significantly enhances the visual appeal of your dish, contributing to a higher score. Notice the "Happy Australia Day" sign in the background—a delightful thematic detail!</li>
 </ul>
 
-<h2>Summary</h2>
-<p>Cookingdom Level 50 is a rewarding test of your grilling and plating skills. Success requires close attention to timing, careful side preparation, and quick serving. Nail the fish temperature and garnish correctly for high scores and bonus coins.</p>
-<p>Completing this level unlocks advanced seafood recipes and upgrades for your grill station — a must for later challenges!</p>`,
+<h2>Tips for Success & Common Pitfalls to Avoid</h2>
+
+<h3>Mastering Cookingdom Level 50</h3>
+<ul>
+  <li>**Precision is Key:** Adhere strictly to the correct order for washing, chopping, seasoning, and cooking all components.</li>
+  <li>**Optimal Heat:** Always ensure the charcoal is fully and evenly lit for the best grilling results.</li>
+  <li>**Timer Awareness:** Never leave items on the grill or in the sauce pan beyond the timer's indication; overcooking is easily avoided by paying attention.</li>
+  <li>**Don't Skimp on Seasoning:** Remember all the crucial seasoning steps for both your fish and vegetables to build maximum flavor.</li>
+  <li>**Complete Presentation:** Double-check that all plating elements are present: the fish, asparagus, carrots, lemon slices, sauce, a final dash of pepper, and the fresh rosemary sprig.</li>
+</ul>
+
+<h3>Common Missteps to Avoid</h3>
+<ul>
+  <li>**Preparation Errors:** Incorrect sequence in preparing vegetables or improper filleting of the fish can lead to re-dos.</li>
+  <li>**Grill Goofs:** Insufficiently lighting the charcoal or incorrect setup of the grill can lead to uneven cooking.</li>
+  <li>**Burning Blunders:** Overcooking or burning fish and vegetables by not removing them promptly when their timers end.</li>
+  <li>**Sauce Setbacks:** Forgetting to add any ingredient to the sauce or not stirring it properly can result in an incomplete or lumpy sauce.</li>
+  <li>**Garnish Omissions:** Missing a crucial garnish element during plating, such as the final pepper sprinkle or the rosemary sprig, will affect your score.</li>
+</ul>
+    `,
   },
 ]

@@ -117,41 +117,227 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Pengenalan Permainan</h2>
-<p>Dalam Tahap 2, pemain belajar cara memasak kentang goreng. Walaupun kelihatan mudah, tahap ini memerlukan pengurusan masa dan operasi yang cekap, terutamanya apabila permintaan pelanggan semakin kompleks. Tahap ini memperkenalkan proses menggoreng dan cara menggunakan peralatan dapur untuk mempercepatkan penyediaan kentang goreng yang lazat.</p>
-<h2>Matlamat Tahap 2</h2>
+    detailsHtml: `
+    <h2>Selamat Datang ke Cookingdom Tahap 2: Panduan & Langkah Demi Langkah Kentang Goreng</h2>
+<p>
+  Selamat datang ke <strong>Cookingdom Tahap 2</strong>, di mana misi anda adalah untuk menyediakan
+  <strong>Kentang Goreng</strong> yang sempurna menggunakan alat, urutan, dan masa yang betul. Tahap ini
+  memperkenalkan pemain kepada mekanik memasak Cookingdom yang intuitif tetapi tepat dalam suasana santai tanpa had masa.
+</p>
+<p>
+  Panduan ini memberikan langkah tepat untuk berjaya dalam <strong>Cookingdom Tahap 2</strong>, dengan butiran setiap bahan,
+  tindakan, dan penempatan yang diperlukan.
+</p>
+
+---
+
+<h2>Bahan Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kentang</td>
+      <td>3</td>
+      <td>Diperoleh daripada mini-game menuai kentang.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>secukupnya</td>
+      <td>Digunakan untuk mencuci dan merebus sekejap (blanching).</td>
+    </tr>
+    <tr>
+      <td>Pengupas</td>
+      <td>1</td>
+      <td>Digunakan untuk mengupas kentang.</td>
+    </tr>
+    <tr>
+      <td>Pisau</td>
+      <td>1</td>
+      <td>Digunakan untuk memotong kentang menjadi kepingan kentang goreng.</td>
+    </tr>
+    <tr>
+      <td>Papan Pemotong</td>
+      <td>1</td>
+      <td>Permukaan untuk mengupas dan memotong.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk</td>
+      <td>1 (biru)</td>
+      <td>Untuk menampung kentang yang telah dipotong sebelum direbus sekejap.</td>
+    </tr>
+    <tr>
+      <td>Periuk</td>
+      <td>1</td>
+      <td>Digunakan untuk merebus sekejap kentang goreng.</td>
+    </tr>
+    <tr>
+      <td>Penutup Periuk</td>
+      <td>1</td>
+      <td>Digunakan untuk mempercepatkan air mendidih.</td>
+    </tr>
+    <tr>
+      <td>Dapur Induksi</td>
+      <td>1</td>
+      <td>Sumber haba untuk merebus dan menggoreng.</td>
+    </tr>
+    <tr>
+      <td>Penapis Jaring / Skimmer</td>
+      <td>1</td>
+      <td>Digunakan untuk mengangkat kentang dari air dan minyak.</td>
+    </tr>
+    <tr>
+      <td>Tisu Dapur</td>
+      <td>2 helai</td>
+      <td>Digunakan untuk menadah air selepas kentang direbus dan digoreng.</td>
+    </tr>
+    <tr>
+      <td>Hidangan / Dulang</td>
+      <td>1 (kelabu)</td>
+      <td>Digunakan bersama tisu dapur untuk menadah air.</td>
+    </tr>
+    <tr>
+      <td>Kuali</td>
+      <td>1</td>
+      <td>Digunakan untuk menggoreng kentang goreng secara deep fry.</td>
+    </tr>
+    <tr>
+      <td>Minyak Masak</td>
+      <td>1 botol</td>
+      <td>Untuk menggoreng.</td>
+    </tr>
+    <tr>
+      <td>Gandum Tepung</td>
+      <td>1 mangkuk</td>
+      <td>Untuk melapisi kentang sebelum menggoreng.</td>
+    </tr>
+    <tr>
+      <td>Bekas Plastik Bertutup</td>
+      <td>1</td>
+      <td>Digunakan untuk mengocok dan melapisi kentang dengan tepung.</td>
+    </tr>
+    <tr>
+      <td>Botol Garam</td>
+      <td>1</td>
+      <td>Untuk membumbui hidangan akhir.</td>
+    </tr>
+    <tr>
+      <td>Botol Ketchup</td>
+      <td>1</td>
+      <td>Untuk sos celup.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk Celup Kecil</td>
+      <td>1</td>
+      <td>Untuk menghidangkan ketchup.</td>
+    </tr>
+    <tr>
+      <td>Pinggan</td>
+      <td>1 (putih)</td>
+      <td>Untuk penyajian akhir.</td>
+    </tr>
+    <tr>
+      <td>Garpu</td>
+      <td>1</td>
+      <td>Bahagian dari hiasan akhir.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Langkah Demi Langkah Panduan Kentang Goreng</h2>
+
+<h3>Langkah 1. Menuai Kentang (Mini-game)</h3>
+<p>
+  Ketik dan tahan <strong>batang tanaman kentang</strong> untuk mencabut kentang dari tanah.
+  Seret kentang-kentang yang baik yang tergantung pada akar ke dalam <strong>sak di sebelah kiri</strong> (ditandai dengan simbol kentang).
+  Elakkan sak di sebelah kanan (ditandai dengan 'X').
+</p>
+<p>
+  💡 <strong>Tip:</strong> Seret semua kentang ke dalam sak yang betul dengan cepat sebelum ia menarik balik.
+</p>
+
+<h3>Langkah 2. Cuci Kentang</h3>
+<p>
+  Di stesen singki, ketik butang <strong>penutup saliran</strong>. Hidupkan <strong>paip air</strong> dengan mengetiknya untuk mengisi singki dengan air.
+  Seret kentang kotor dari sak ke dalam singki satu persatu. Setelah bersih (berkilau), seret kentang ke atas <strong>dulang merah jambu</strong> berdekatan. Matikan paip air.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Pastikan semua kentang dicuci sehingga berkilau.
+</p>
+
+<h3>Langkah 3. Kupas dan Potong Kentang</h3>
+<p>
+  Letakkan satu kentang di atas <strong>papan pemotong</strong>. Pilih <strong>alat pengupas</strong> dan seret di atas kentang sehingga habis dikupas.
+  Pilih <strong>pisau</strong>. Seret pisau secara menegak di panduan tengah, kemudian ulangi seretan secara melintang di panduan untuk memotong kentang menjadi kepingan kentang goreng.
+  Pindahkan kentang goreng ke dalam <strong>mangkuk biru</strong>. Ulangi untuk dua kentang lain.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ikuti panduan pemotongan dengan tepat untuk kentang goreng yang sekata.
+</p>
+
+<h3>Langkah 4. Rebus Kentang Goreng dalam Air Mendidih</h3>
+<p>
+  Letakkan <strong>periuk</strong> di bawah paip air dan isi dengan air. Pindahkan periuk ke atas <strong>dapur induksi</strong>.
+  Letakkan <strong>penutup periuk</strong> dan hidupkan dapur. Tunggu air mendidih (ditunjukkan dengan gelembung).
+  Tanggalkan penutup dan masukkan kentang goreng dari mangkuk biru ke dalam air mendidih.
+  Tunggu sehingga kentang menjadi sedikit pucat (direbus sekejap). Gunakan <strong>penapis jaring</strong> untuk mengangkat kentang dan letakkan di atas <strong>dulang kelabu berlapik tisu dapur</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Jangan terlalu lama merebus; hanya perlu sekejap sahaja.
+</p>
+
+<h3>Langkah 5. Goreng Kentang</h3>
+<p>
+  Letakkan <strong>kuali</strong> di atas dapur dan hidupkan. Tuang <strong>minyak</strong> dari botol ke dalam kuali dan tunggu hingga panas (berkilauan).
+  Tuang <strong>tepung</strong> dari mangkuk ke dalam <strong>bekas plastik</strong>.
+  Masukkan kentang yang telah direbus ke dalam bekas tersebut. Tutup penutup dan goncang dengan kuat (ketik/seret dengan cepat) sehingga kentang disalut tepung.
+  Buka penutup dan masukkan kentang bersalut tepung ke dalam minyak panas di dalam kuali.
+  Goreng hingga keemasan. Gunakan <strong>penapis jaring</strong> untuk mengangkat kentang goreng dan letakkan di atas tisu dapur segar di atas dulang.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Pastikan minyak sudah panas sebelum memasukkan kentang.
+  Goncang dengan baik untuk lapisan tepung yang sekata. Goreng hingga warna keemasan yang cantik.
+</p>
+
+<h3>Langkah 6. Hidang Kentang Goreng</h3>
+<p>
+  Pindahkan kentang goreng dari tisu dapur ke atas <strong>pinggan putih</strong>.
+  Pilih <strong>botol garam</strong> dan taburkan garam ke atas kentang.
+  Pilih <strong>botol ketchup</strong> dan perah ketchup ke dalam <strong>mangkuk celup kecil</strong>.
+  Letakkan mangkuk celup di atas pinggan sebelah kentang goreng.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Susun kentang dengan kemas, dan jangan lupa garam serta sos ketchup.
+</p>
+
+<h2>Petua dan Trik untuk Cookingdom Tahap 2</h2>
 <ul>
-  <li><strong>Sediakan Kentang Goreng:</strong> Kuasai teknik menggoreng yang betul menggunakan penggoreng walaupun tidak serumit ketuhar.</li>
-  <li><strong>Kendalikan Pelanggan Berganda:</strong> Jangka lebih ramai pelanggan berbanding tahap sebelumnya, jadi anda perlu cepat dan cekap dalam memenuhi pesanan.</li>
-  <li><strong>Tingkatkan Kecekapan Dapur:</strong> Gunakan peralatan dapur dengan efektif untuk menyediakan dan menggoreng kentang dengan pantas.</li>
+  <li>Dalam mini-game, pastikan kentang hanya dimasukkan ke dalam sak yang bertanda ikon kentang.</li>
+  <li>Cuci setiap kentang dengan teliti di singki.</li>
+  <li>Kupas sepenuhnya dan potong ikut panduan untuk masakan yang sekata.</li>
+  <li>Rebus sekejap membantu menghasilkan kentang yang lembut di dalam dan rangup di luar.</li>
+  <li>Pastikan minyak panas dengan sempurna sebelum menggoreng untuk kerangupan.</li>
+  <li>Goncang bekas dengan baik untuk mendapatkan salutan tepung yang sekata.</li>
+  <li>Perah air kentang dengan baik selepas merebus dan menggoreng.</li>
 </ul>
-<h2>Langkah Penyediaan Kentang Goreng</h2>
-<h3>Sediakan Kentang:</h3>
-<p>Ambil kentang dari kawasan bahan dan potong menjadi jalur. Anda boleh siapkan lebih awal atau semasa pesanan diterima.</p>
+
+<h2>Kesilapan Lazim yang Perlu Dielakkan di Cookingdom Tahap 2</h2>
 <ul>
-  <li><strong>Petua:</strong> Sediakan kentang lebih awal untuk mengurangkan masa menunggu pelanggan, terutamanya semasa waktu sibuk.</li>
+  <li>Memasukkan kentang ke dalam sak yang salah semasa menuai.</li>
+  <li>Lupa mencuci atau mengupas kentang.</li>
+  <li>Memotong kentang goreng terlalu tebal atau tidak sekata.</li>
+  <li>Masukkan kentang ke dalam air sejuk semasa merebus atau minyak sejuk semasa menggoreng.</li>
+  <li>Memasak kentang terlalu lama atau tidak cukup semasa merebus atau menggoreng.</li>
+  <li>Tidak melapisi kentang dengan tepung dengan betul.</li>
+  <li>Lupa menambah garam atau sos ketchup semasa penyediaan akhir.</li>
 </ul>
-<h3>Goreng Kentang:</h3>
-<p>Letakkan kentang dalam penggoreng. Kawal masa menggoreng supaya luarannya rangup dan dalamnya lembut.</p>
-<ul>
-  <li>Perhatikan perubahan warna kentang semasa menggoreng untuk elakkan hangus atau berminyak.</li>
-  <li><strong>Petua:</strong> Kentang biasanya siap apabila berwarna keemasan dan terapung – keluarkan segera.</li>
-</ul>
-<h3>Tambah Perasa:</h3>
-<p>Selepas menggoreng, taburkan garam atau lada untuk menambah rasa dan memuaskan pelanggan.</p>
-<h3>Hidang kepada Pelanggan:</h3>
-<p>Hidangkan kentang goreng dengan segera. Walaupun mudah disediakan, masa layanan tetap penting agar pelanggan tidak menunggu terlalu lama.</p>
-<h2>Petua dan Trik</h2>
-<ul>
-  <li><strong>Sediakan Bahan Awal:</strong> Dengan permintaan pelanggan yang tinggi, menyediakan kentang awal dan memastikan penggoreng siap digunakan sangat membantu.</li>
-  <li><strong>Kawal Masa Menggoreng:</strong> Goreng terlalu lama akan menyebabkan kentang hangus, terlalu sekejap pula akan kurang rangup. Perhatikan rupa dan warna kentang.</li>
-  <li><strong>Gunakan Peralatan Dapur:</strong> Anda mungkin akan membuka kunci penggoreng pantas atau alat tambahan. Gunakan semasa waktu puncak untuk mempercepatkan proses.</li>
-  <li><strong>Utamakan Pesanan Pelanggan:</strong> Jika ramai pelanggan datang serentak, utamakan pelanggan yang menunggu lebih lama dahulu.</li>
-  <li><strong>Layani Dengan Cepat:</strong> Pastikan perkhidmatan kekal cekap. Gunakan masa yang ada untuk siapkan bahan seterusnya atau kemas dapur.</li>
-</ul>
-<h2>Ringkasan</h2>
-<p>Kentang goreng dalam Tahap 2 mungkin mudah, tetapi menuntut kawalan masa dan kecekapan dapur. Anda akan belajar mengendalikan peralatan menggoreng dan memenuhi keperluan pelanggan dengan cekap. Semakin anda maju, semakin mencabar resipi dan tugas — jadi kecekapan adalah kunci kejayaan.</p>
-<p>Melengkapkan Tahap 2 akan membuka lebih banyak resipi dan peralatan untuk tahap yang lebih sukar.</p>`,
+
+    `,
   },
 
   {
@@ -200,39 +386,170 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Pengenalan Permainan</h2>
-<p>Tahap 3 memperkenalkan pemain kepada keseronokan membuat ais krim gulung. Pencuci mulut ini memerlukan ketepatan dan masa yang tepat, serta mengajar cara menggunakan plat sejuk, mengawal konsistensi, dan menghias dengan topping.</p>
-<h2>Matlamat Tahap 3</h2>
+    detailsHtml: `
+    <h2>Selamat datang ke Cookingdom Tahap 3: Panduan & Walkthrough Aiskrim Gulung</h2>
+<p>
+  Selamat datang ke <strong>Cookingdom Tahap 3</strong>, di mana misi anda adalah untuk menghasilkan
+  <strong>aiskrim gulung</strong> yang sempurna menggunakan alat, urutan, dan masa yang betul. Tahap ini
+  memperkenalkan pemain kepada mekanik memasak Cookingdom yang intuitif dan tepat dalam suasana santai tanpa had masa.
+</p>
+<p>
+  Walkthrough ini memberikan langkah tepat untuk berjaya dalam <strong>Cookingdom Tahap 3</strong>,
+  dengan butiran setiap bahan, tindakan, dan penempatan yang diperlukan.
+</p>
+
+<h2>Bahan-bahan Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Asas Aiskrim (Putih)</td>
+      <td>4 sudu besar keseluruhan (2 setiap mangkuk)</td>
+      <td>Asas utama untuk ais krim gulung.</td>
+    </tr>
+    <tr>
+      <td>Pisang</td>
+      <td>Kira-kira 1/2</td>
+      <td>Dipotong hirisan, digunakan untuk variasi pertama.</td>
+    </tr>
+    <tr>
+      <td>Kiwi</td>
+      <td>Kira-kira 1/2</td>
+      <td>Dipotong dadu, digunakan untuk variasi kedua.</td>
+    </tr>
+    <tr>
+      <td>Susu</td>
+      <td>1 kotak</td>
+      <td>Dituangkan ke atas campuran di atas plat sejuk (digunakan dua kali).</td>
+    </tr>
+    <tr>
+      <td>Taburan Warna-warni/Kepingan Gula-gula</td>
+      <td>1 pinggan</td>
+      <td>Digunakan sebagai hiasan untuk kedua-dua mangkuk.</td>
+    </tr>
+    <tr>
+      <td>Kacukan Sirap Coklat Beralun</td>
+      <td>1 pinggan</td>
+      <td>Sirap beralun yang sudah disediakan sebagai hiasan untuk kedua-dua mangkuk.</td>
+    </tr>
+    <tr>
+      <td>Bar Coklat</td>
+      <td>1 pinggan</td>
+      <td>Kepingan yang dipecahkan, digunakan sebagai hiasan untuk kedua-dua mangkuk.</td>
+    </tr>
+    <tr>
+      <td>Stik Wafer/Pocky</td>
+      <td>1 cawan</td>
+      <td>Digunakan sebagai hiasan garnish untuk kedua-dua mangkuk.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk Hidang (Biru)</td>
+      <td>2</td>
+      <td>Untuk memegang ais krim gulung yang siap.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Langkah demi Langkah Walkthrough Aiskrim Gulung</h2>
+
+<h3>Langkah 1. Tambah Asas dan Buah</h3>
+<p>
+  Gunakan sudu untuk meletakkan <strong>dua sudu asas aiskrim putih</strong> ke atas plat sejuk.
+  Pilih sama ada <strong>pisang atau kiwi</strong> dan letakkan kepingan buah di atas asas.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Pastikan buah ditambah sebelum dicampur. Ikon hati akan muncul sebagai pengesahan penempatan betul.
+</p>
+
+<h3>Langkah 2. Potong dan Campur Buah</h3>
+<p>
+  Ambil <strong>dua spatula</strong> dan potong buah berulang kali ke dalam asas aiskrim di atas plat sejuk,
+  kacau hingga sebati.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Kacau sehingga buah sebati dengan asas. Ikon hati muncul apabila cukup dicampur.
+</p>
+
+<h3>Langkah 3. Tambah Susu 🥛</h3>
+<p>
+  Tuangkan <strong>susu</strong> dari kotak ke atas campuran buah dan aiskrim yang telah dicincang di atas plat.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Tuang secara rata ke atas campuran. Tunggu ikon hati sebagai pengesahan.
+</p>
+
+<h3>Langkah 4. Ratakan Campuran dengan Nipis</h3>
+<p>
+  Segera gunakan <strong>spatula</strong> untuk meratakan campuran cair menjadi lapisan nipis dan rata
+  berbentuk segi empat tepat di seluruh plat sejuk. Sapukan garis menegak untuk membahagikan lapisan kepada jalur.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Bertindak cepat sebelum campuran membeku keras. Lapisan nipis dan rata penting untuk gulungan yang baik.
+  Ikon hati akan muncul selepas perataan.
+</p>
+
+<h3>Langkah 5. Gulung Aiskrim</h3>
+<p>
+  Letakkan <strong>spatula</strong> di tepi bawah satu jalur. Tolak ke hadapan dengan tegas pada sudut kira-kira 45 darjah
+  untuk mengikis lapisan aiskrim dari plat, menyebabkan ia menggulung menjadi gulungan. Ulangi untuk semua jalur.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Tekanan dan sudut yang konsisten penting untuk gulungan kemas. Ikon hati muncul apabila semua jalur digulung.
+</p>
+
+<h3>Langkah 6. Pindahkan Gulungan ke Mangkuk</h3>
+<p>
+  Gunakan <strong>spatula</strong> dengan berhati-hati untuk mengangkat setiap gulungan aiskrim siap dan letakkan secara menegak
+  ke dalam <strong>mangkuk hidang biru</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Susun gulungan dengan kemas untuk memenuhi mangkuk.
+</p>
+
+<h3>Langkah 7. Tambah Hiasan 🎉</h3>
+<p>
+  Taburkan <strong>kepingan gula-gula warna-warni</strong> di atas gulungan aiskrim dalam mangkuk.
+  Tambah <strong>kacukan sirap coklat beralun</strong>. Akhir sekali, masukkan kepingan <strong>bar coklat</strong> dan <strong>stik wafer</strong>.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ikuti urutan hiasan yang ditunjukkan: Taburan -> Sirap -> Coklat/Wafer. Ikon hati muncul selepas menambah sirap dan coklat/wafer.
+</p>
+
+<h3>Langkah 8. Ulangi untuk Variasi Kedua</h3>
+<p>
+  Buat mangkuk kedua ais krim gulung menggunakan buah yang *berbeza* (jika pertama menggunakan pisang, kali ini guna kiwi, dan sebaliknya).
+  Ikuti semua langkah sebelum ini (1-7) untuk mangkuk kedua ini.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Pelanggan memerlukan kedua-dua variasi (Pisang dan Kiwi) untuk melengkapkan tahap dengan berjaya.
+</p>
+
+<h2>Petua dan Trik untuk Cookingdom Tahap 3</h2>
 <ul>
-  <li><strong>Kuasai Teknik Gulung:</strong> Tuang dan bekukan asas ais krim, kemudian gulung dengan teliti untuk hasil yang menarik.</li>
-  <li><strong>Gunakan Topping Secara Kreatif:</strong> Tambah buah, gula-gula, atau sos untuk meningkatkan kepuasan pelanggan.</li>
-  <li><strong>Masa dan Urutan:</strong> Urus proses pembekuan dan penggulungan dengan cekap untuk mengelak kelewatan.</li>
+  <li>✔️ <strong>Kepantasan penting</strong> ketika meratakan campuran di atas plat sejuk.</li>
+  <li>✔️ Pastikan campuran diratakan <strong>sangat nipis</strong> untuk memudahkan penggulungan.</li>
+  <li>✔️ Kuasai <strong>sudut pengikisan</strong> untuk mendapatkan gulungan sempurna tanpa patah.</li>
+  <li>✔️ Jangan lupa buat <strong>kedua-dua variasi pisang dan kiwi</strong> untuk memuaskan pelanggan.</li>
+  <li>✔️ Tambah hiasan mengikut <strong>urutan betul</strong> seperti dalam video.</li>
 </ul>
-<h2>Langkah Membuat Ais Krim Gulung</h2>
-<h3>Sediakan Asas:</h3>
-<p>Pilih asas ais krim yang sesuai dari kawasan bahan. Tuang secara rata ke atas plat sejuk untuk pembekuan.</p>
+
+<h2>Kesalahan Lazim yang Perlu Dielakkan dalam Cookingdom Tahap 3</h2>
 <ul>
-  <li><strong>Petua:</strong> Ratakan nipis untuk pembekuan lebih cepat dan mudah digulung.</li>
+  <li>Melapiskan asas aiskrim terlalu tebal, menyukarkan untuk menggulung.</li>
+  <li>Tidak mencampur buah dan asas dengan cukup rata.</li>
+  <li>Melakukan gulungan terlalu perlahan atau dengan tekanan/sudut yang salah menyebabkan gulungan pecah.</li>
+  <li>Lupa menambah susu.</li>
+  <li>Terlepas hiasan atau menambahnya dalam urutan yang salah.</li>
+  <li>Hanya menyediakan satu variasi buah sahaja, bukan dua yang diperlukan.</li>
 </ul>
-<h3>Bekukan dan Gulung:</h3>
-<p>Biarkan asas membeku di atas plat. Gunakan spatula untuk mengikis dan menggulung lapisan beku menjadi gulungan.</p>
-<ul>
-  <li>Perhatikan konsistensi — mula gulung apabila tekstur padat tetapi tidak terlalu keras.</li>
-  <li><strong>Petua:</strong> Gulungan yang licin dan sekata meningkatkan kepuasan pelanggan dan mempercepat penyajian.</li>
-</ul>
-<h3>Tambah Topping:</h3>
-<p>Pilih topping seperti strawberi, sirap coklat, atau taburan. Tambah dengan cepat sebelum menyajikan.</p>
-<h3>Sajikan kepada Pelanggan:</h3>
-<p>Hidangkan ais krim yang telah dihias serta-merta. Persembahan dan kelajuan memberi kesan kepada skor kepuasan.</p>
-<h2>Petua dan Trik</h2>
-<ul>
-  <li><strong>Bekerja dalam Kumpulan:</strong> Sediakan beberapa asas dan bekukan secara berurutan untuk kelancaran semasa waktu sibuk.</li>
-  <li><strong>Perhatikan Pembekuan:</strong> Masa sangat penting. Jika asas kurang beku, ia tidak boleh digulung; jika terlalu beku, sukar dibentuk.</li>
-  <li><strong>Hias dengan Cepat:</strong> Sediakan topping lebih awal supaya dapat dihias sebaik sahaja menggulung, menjimatkan masa.</li>
-  <li><strong>Tingkatkan Peralatan:</strong> Buka pembeku yang lebih pantas atau spatula yang lebih baik untuk mempercepat proses.</li>
-</ul>
-<h2>Ringkasan</h2>
-<p>Tahap 3 dalam Cookingdom menambah keseronokan dengan teknik unik membuat ais krim gulung. Anda akan belajar menyeimbangkan masa pembekuan, kemahiran menggulung dan hiasan untuk mencipta pencuci mulut yang sempurna. Dengan latihan, anda akan dapat menyajikan dengan cepat dan cantik di bawah tekanan masa. Bersedia untuk hidangan yang lebih mencabar pada tahap seterusnya!</p>`,
+
+    `,
   },
 
   {
@@ -281,38 +598,220 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Pengenalan Permainan</h2>
-<p>Tahap 4 memperkenalkan pemain kepada hidangan yang segar dan sihat: Salad Simple. Walaupun kelihatan mudah, cabaran terletak pada pemprosesan pesanan yang pantas dan penyediaan bahan. Ketepatan, kelajuan, dan multitugas adalah kunci kejayaan.</p>
-<h2>Matlamat Tahap 4</h2>
+    detailsHtml: `
+    <h2>Selamat Datang ke Cookingdom Tahap 4: Panduan & Langkah Demi Langkah Salad Ringkas 🥗</h2>
+<p>
+  Selamat datang ke <strong>Cookingdom Tahap 4</strong>, di mana misi anda adalah untuk menyediakan
+  <strong>Salad Ringkas</strong> yang sempurna menggunakan alat, urutan, dan masa yang betul. Tahap ini
+  memperkenalkan pemain kepada mekanik memasak Cookingdom yang intuitif namun tepat dalam suasana santai tanpa pemasa.
+</p>
+<p>
+  Panduan ini memberikan langkah demi langkah yang tepat untuk berjaya dalam <strong>Cookingdom Tahap 4</strong>,
+  dengan setiap bahan, tindakan, dan susunan yang diperlukan.
+</p>
+
+<h2>Bahan-Bahan Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Selada</td>
+      <td>1 kepala</td>
+      <td>Perlu dibasuh dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Avokado</td>
+      <td>1</td>
+      <td>Perlu dibasuh, dikupas dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>1</td>
+      <td>Perlu dibasuh dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Bawang</td>
+      <td>1</td>
+      <td>Perlu dibasuh dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Sawi Merah</td>
+      <td>1 keping</td>
+      <td>Perlu dibasuh dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Wortel</td>
+      <td>1</td>
+      <td>Perlu dibasuh, dikupas dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>Secukupnya</td>
+      <td>Digunakan untuk membasuh sayur di singki.</td>
+    </tr>
+    <tr>
+      <td>Pengupas</td>
+      <td>1</td>
+      <td>Digunakan untuk mengupas wortel dan avokado.</td>
+    </tr>
+    <tr>
+      <td>Pisau</td>
+      <td>1</td>
+      <td>Digunakan untuk memotong semua sayur.</td>
+    </tr>
+    <tr>
+      <td>Papan Pemotong</td>
+      <td>1</td>
+      <td>Tempat untuk mengupas dan memotong.</td>
+    </tr>
+    <tr>
+      <td>Bekas</td>
+      <td>3</td>
+      <td>Tempat sementara untuk sayur yang sudah dibasuh dan disediakan (hiasan hijau, merah jambu, ungu).</td>
+    </tr>
+    <tr>
+      <td>Mangkuk Pengadun</td>
+      <td>1 (ungu)</td>
+      <td>Digunakan untuk menggabungkan dan mengacau bahan salad.</td>
+    </tr>
+    <tr>
+      <td>Sudip Pengadun</td>
+      <td>2 (kayu)</td>
+      <td>Digunakan untuk mengacau salad.</td>
+    </tr>
+    <tr>
+      <td>Pinggan Hidang</td>
+      <td>1 (hiasan ungu)</td>
+      <td>Untuk penyediaan akhir.</td>
+    </tr>
+    <tr>
+      <td>Daun Selada Besar</td>
+      <td>2-3</td>
+      <td>Digunakan sebagai alas untuk menyusun salad.</td>
+    </tr>
+    <tr>
+      <td>Dressings Salad</td>
+      <td>1 botol</td>
+      <td>Botol bergaya Kewpie, digunakan untuk mengalirkan dressing pada akhir.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Langkah Demi Langkah Panduan Salad Ringkas</h2>
+
+<h3>Langkah 1. Basuh Sayur-sayuran</h3>
+<p>
+  Hidupkan <strong>paip air</strong> di stesen singki. Seret satu persatu <strong>selada, avokado, tomato, bawang, sawi merah, dan wortel</strong> ke dalam singki.
+  Tunggu sehingga setiap satu berkilau menandakan sudah bersih. Letakkan sayur yang dibasuh ke dalam <strong>bekas sementara</strong>. Tutup paip air.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Pastikan setiap sayur berkilau sebelum mengeluarkannya dari singki.
+</p>
+
+<h3>Langkah 2. Potong Selada</h3>
+<p>
+  Letakkan <strong>selada</strong> yang telah dibasuh di atas <strong>papan pemotong</strong>. Pilih <strong>pisau</strong>. Ikuti panduan di skrin untuk memotong selada.
+  Pindahkan selada yang dipotong ke dalam <strong>bekas hijau</strong>.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Potong ikut panduan untuk mendapatkan saiz dan bentuk yang betul.
+</p>
+
+<h3>Langkah 3. Potong Sawi Merah</h3>
+<p>
+  Letakkan sekeping <strong>sawi merah</strong> yang telah dibasuh di papan pemotong. Pilih pisau dan potong ikut panduan untuk menghiris sawi.
+  Pindahkan sawi merah yang dipotong ke dalam <strong>bekas ungu berhiasan</strong>.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Potongan tepat di sepanjang panduan memastikan penghirisan yang betul.
+</p>
+
+<h3>Langkah 4. Potong Bawang</h3>
+<p>
+  Letakkan <strong>bawang</strong> yang telah dibasuh di papan pemotong. Pilih pisau dan potong ikut panduan untuk menghiris; kulit luar akan tanggal secara automatik.
+  Pindahkan bawang yang dipotong ke dalam <strong>bekas merah jambu berhiasan</strong>.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Potongan ikut panduan juga akan mengupas bawang secara automatik.
+</p>
+
+<h3>Langkah 5. Potong Tomato</h3>
+<p>
+  Letakkan <strong>tomato</strong> yang telah dibasuh di papan pemotong. Pilih pisau dan potong ikut panduan.
+  Pindahkan tomato yang dipotong ke dalam bekas merah jambu.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Potongan yang stabil dan ikut garisan menghasilkan hirisan yang sempurna.
+</p>
+
+<h3>Langkah 6. Kupas dan Potong Wortel</h3>
+<p>
+  Letakkan <strong>wortel</strong> yang telah dibasuh di papan pemotong. Pilih <strong>pengupas</strong> dan kupas wortel sepenuhnya.
+  Tukar kepada pisau dan potong wortel ikut panduan. Pindahkan ke dalam bekas ungu berhiasan.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Pastikan wortel dikupas sepenuhnya sebelum dipotong.
+</p>
+
+<h3>Langkah 7. Kupas dan Potong Avokado</h3>
+<p>
+  Letakkan <strong>avokado</strong> yang telah dibasuh di papan pemotong. Pilih pengupas dan kupas avokado.
+  Tukar kepada pisau dan potong ikut panduan (biji akan dibuang secara automatik).
+  Pindahkan avokado yang dipotong ke dalam bekas hijau.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Mengupas dahulu memudahkan pemotongan; ikut panduan dengan teliti.
+</p>
+
+<h3>Langkah 8. Gaul Salad</h3>
+<p>
+  Paparan bertukar kepada Chef Capybara. Masukkan semua bahan yang sudah disediakan
+  (selada potong, sawi merah, bawang, tomato, wortel, dan avokado) dari bekas ke dalam
+  <strong>mangkuk pengadun ungu besar</strong>. Gunakan dua sudip kayu untuk mengacau salad
+  dengan mengetik/menyeret sehingga bar kemajuan penuh.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Pastikan semua bahan dimasukkan ke dalam mangkuk sebelum mengacau. Gaul dengan teliti.
+</p>
+
+<h3>Langkah 9. Susun dan Hiaskan Salad</h3>
+<p>
+  Susun <strong>daun selada besar</strong> pada <strong>pinggan hidang</strong> sebagai alas.
+  Tuang salad yang sudah digaul dari mangkuk ungu ke atas daun selada. Pilih botol
+  <strong>dressings salad</strong> dan curahkan dressing secara silang di atas salad.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Buat asas yang menarik dengan daun selada. Curahkan dressing dengan sekata seperti ditunjukkan.
+</p>
+
+<h2>Petua dan Trik untuk Cookingdom Tahap 4</h2>
 <ul>
-  <li><strong>Potong dan Campur:</strong> Sediakan bahan salad dengan tepat dengan memotong sayur-sayuran dan mencampurkannya mengikut susunan yang betul.</li>
-  <li><strong>Sajikan dengan Cepat:</strong> Pelanggan mengharapkan perkhidmatan yang pantas; kekalkan aliran kerja yang lancar untuk mengelakkan kelewatan.</li>
-  <li><strong>Urus Kesegaran:</strong> Jangan biarkan bahan terlalu lama atau ia mungkin rosak atau ditolak oleh pelanggan yang cerewet.</li>
+  <li>✔️ Basuh sayur sehingga berkilau untuk memastikan kebersihan.</li>
+  <li>✔️ Ikut panduan pemotongan dengan teliti untuk setiap bahan bagi mendapatkan saiz dan bentuk yang tepat.</li>
+  <li>✔️ Jangan lupa kupas wortel dan avokado sebelum memotong.</li>
+  <li>✔️ Gaul salad sehingga bar kemajuan penuh.</li>
+  <li>✔️ Gunakan daun selada besar sebagai alas hiasan dan boleh dimakan semasa penyusunan.</li>
+  <li>✔️ Ikut corak dressing secara silang untuk skor persembahan terbaik.</li>
 </ul>
-<h2>Langkah-Langkah Menyediakan Salad Simple</h2>
-<h3>Kumpulkan Bahan:</h3>
-<p>Kumpulkan sayur-sayuran: salad, tomato, dan timun. Bahan-bahan diletakkan di stesen bahan—ketik untuk membawa ke papan penyediaan.</p>
+
+<h2>Kesalahan Biasa yang Perlu Dielakkan di Cookingdom Tahap 4</h2>
 <ul>
-  <li><strong>Tip:</strong> Sentiasa sediakan beberapa bahan semasa waktu tidak sibuk.</li>
+  <li>Tidak membasuh semua sayur dengan teliti.</li>
+  <li>Lupa mengupas wortel atau avokado.</li>
+  <li>Memotong sayur secara salah (tidak ikut panduan).</li>
+  <li>Menambah bahan ke dalam mangkuk mengikut susunan yang salah (walaupun biasanya tidak memberi penalti).</li>
+  <li>Tidak mengacau salad dengan cukup (bar kemajuan tidak penuh).</li>
+  <li>Lupa letakkan daun selada sebagai alas pada pinggan terlebih dahulu.</li>
+  <li>Tidak menambah dressing salad atau menambahnya dengan tidak kemas.</li>
 </ul>
-<h3>Potong Sayur:</h3>
-<p>Gunakan alat pisau untuk memotong bahan. Ketepatan penting—potong terlalu perlahan, pelanggan menunggu; potong terlalu cepat, mungkin silap.</p>
-<h3>Campur dan Susun:</h3>
-<p>Letakkan sayur yang telah dipotong ke dalam mangkuk salad mengikut susunan yang betul. Sesetengah pelanggan mungkin meminta kombinasi tertentu.</p>
-<ul>
-  <li><strong>Tip:</strong> Perhatikan gelembung pesanan yang menunjukkan pilihan pelanggan.</li>
-</ul>
-<h3>Sajikan kepada Pelanggan:</h3>
-<p>Hantar salad dengan cepat selepas penyediaan. Jika lewat, kepuasan pelanggan akan berkurang.</p>
-<h2>Tip dan Trik</h2>
-<ul>
-  <li><strong>Potong Awal Sayur Biasa:</strong> Salad dan tomato sering muncul dalam pesanan, jadi penyediaan awal boleh mempercepat perkhidmatan.</li>
-  <li><strong>Perhatikan Giliran Pesanan:</strong> Sediakan pesanan seterusnya semasa menyediakan pesanan semasa untuk mengekalkan aliran semasa waktu sibuk.</li>
-  <li><strong>Tingkatkan Alat:</strong> Buka pisau lebih cepat atau pemotong automatik untuk meningkatkan kelajuan dan ketepatan.</li>
-  <li><strong>Urus Masa:</strong> Kawal jumlah bahan yang dipotong supaya tidak membazir.</li>
-</ul>
-<h2>Ringkasan</h2>
-<p>Cookingdom Tahap 4 menuntut kelajuan dan ketepatan. Walaupun salad simple, pesanan yang cepat berubah dan permintaan khusus akan menguji kecekapan anda mengurus bahan dan masa. Bersiaplah untuk hidangan lebih mencabar di tahap berikutnya!</p>`,
+
+    `,
   },
 
   {
@@ -662,81 +1161,183 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Umum Tahap 8 Cookingdom</h2>
-  <p>Tahap 8 Cookingdom membawa aroma dan rasa BBQ Texas ke dapur anda. Tahap ini mencabar anda untuk menyediakan hidangan BBQ yang lazat dan berasap dengan pelbagai jenis daging, sos, dan hidangan sampingan.</p>
-  <p>Anda akan memasak daging BBQ seperti rusuk atau brisket, serta menghidangkannya bersama roti jagung, kacang panggang, dan coleslaw. Cabaran utama adalah mengimbangi masa memasak daging dan hidangan sampingan sambil memastikan semuanya dihidangkan panas dan lazat.</p>
-  <p>Jom kita lihat secara terperinci bagaimana untuk menakluk Tahap 8 dan menjadi pakar BBQ Texas!</p>
-  
-  <h2 id="goal">Matlamat Tahap 8 Cookingdom</h2>
-  <ul>
-    <li><strong>Masak Daging BBQ (Rusuk atau Brisket):</strong> Pastikan daging dimasak sempurna — lembut, berjus, dan beraroma asap.</li>
-    <li><strong>Sediakan Sos BBQ:</strong> Sos BBQ yang lazat amat penting untuk rasa asli Texas. Ia mesti seimbang dan sesuai dipadankan dengan daging.</li>
-    <li><strong>Masak Hidangan Sampingan:</strong> Roti jagung, kacang panggang dan coleslaw harus disediakan serentak semasa memasak daging.</li>
-    <li><strong>Hidang Dengan Cepat:</strong> Pelanggan mahukan hidangan BBQ yang panas dan segar. Lebih cepat anda hidangkan, lebih tinggi penilaian yang diterima.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah-langkah untuk Menyediakan BBQ Texas</h2>
-  <ol>
-    <li>
-      <h3>Masak Daging BBQ (Rusuk atau Brisket)</h3>
-      <p>Perapkan daging dengan rempah kering atau perapan yang telah disediakan. Pastikan anda sapu rata pada semua bahagian.</p>
-      <p>Letakkan daging dalam pengasap atau pemanggang. Cookingdom menggunakan teknik memasak perlahan, jadi pastikan anda memantau suhu dan tekstur.</p>
-      <p><strong>Petua:</strong> Balikkan daging dengan kerap agar masak sekata. Daging yang sempurna berkulit rangup di luar dan lembut di dalam.</p>
-      <p><strong>Petua:</strong> Jangan terlalu lama memasak! Masak daging pada waktu yang sesuai untuk hasil terbaik.</p>
-    </li>
-    <li>
-      <h3>Sediakan Sos BBQ</h3>
-      <p>Semasa daging dimasak, sediakan sos BBQ. Gabungan rasa manis, masam dan berasap — biasanya berdasarkan sos tomato, cuka, dan gula perang.</p>
-      <p>Masak semua bahan hingga pekat dan berperisa. Sapukan sos ke atas daging semasa atau selepas masak.</p>
-      <p><strong>Petua:</strong> Kacau sos dari semasa ke semasa agar tidak melekat dan hangus. Ia perlu cukup pekat untuk menyaluti daging dengan sempurna.</p>
-    </li>
-    <li>
-      <h3>Masak Hidangan Sampingan</h3>
-      <p>Jangan lupa sediakan:</p>
-      <ul>
-        <li><strong>Roti Jagung:</strong> Lembut, sedikit manis dan sesuai dipadankan dengan rasa BBQ.</li>
-        <li><strong>Kacang Panggang:</strong> Dimasak perlahan dalam sos lazat, biasanya bersama bacon atau sos BBQ.</li>
-        <li><strong>Coleslaw:</strong> Sayur segar dan rangup untuk imbangi rasa BBQ yang kaya.</li>
-      </ul>
-    </li>
-    <li>
-      <h3>Susun Hidangan</h3>
-      <p>Letakkan daging BBQ yang sudah siap atas pinggan, diikuti roti jagung, kacang panggang, dan coleslaw dalam bahagian yang seimbang.</p>
-    </li>
-    <li>
-      <h3>Hidangkan BBQ Texas</h3>
-      <p>Hidangkan segera selepas siap. Lagi cepat anda hidang, lebih tinggi kepuasan pelanggan.</p>
-      <p><strong>Petua:</strong> Jangan biarkan makanan sejuk terlalu lama. BBQ paling sedap dimakan panas dan segar!</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Petua & Strategi Tahap 8 Cookingdom</h2>
-  <ul>
-    <li>
-      <h3>Masak Perlahan Daging:</h3>
-      <p>Jangan tergesa-gesa. Gunakan api perlahan untuk dapatkan tekstur yang lembut dan rasa BBQ yang mendalam.</p>
-    </li>
-    <li>
-      <h3>Sos BBQ yang Sempurna:</h3>
-      <p>Seimbangkan rasa manis, masam dan berasap. Kacau dengan kerap untuk elak hangus.</p>
-    </li>
-    <li>
-      <h3>Multitugas dengan Bijak:</h3>
-      <p>Perhatikan semua hidangan serentak. Pastikan roti tidak hangus, kacang tidak kering dan coleslaw kekal segar.</p>
-    </li>
-    <li>
-      <h3>Hidang Panas & Segar:</h3>
-      <p>Suhu dan kesegaran sangat penting. Hidang segera selepas semua siap.</p>
-    </li>
-    <li>
-      <h3>Naik Taraf Dapur:</h3>
-      <p>Naik taraf pemanggang atau peralatan lain untuk mempercepatkan masa memasak dan tingkatkan kepuasan pelanggan.</p>
-    </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Tahap 8 Cookingdom, anda akan belajar seni BBQ Texas: masak daging perlahan, sediakan sos BBQ lazat, dan imbangi hidangan sampingan seperti roti jagung, kacang panggang dan coleslaw.</p>
-  <p>Kunci kejayaan adalah masa, kecekapan dan ketepatan. Puaskan pelanggan dengan rasa BBQ sejati dan uruskan dapur anda dengan cekap untuk memperoleh penilaian tertinggi.</p>
+  <h2>Selamat datang ke Cookingdom Tahap 8: Panduan dan Langkah demi Langkah Texas BBQ</h2>
+<p>
+  Selamat datang ke <strong>Cookingdom Tahap 8</strong>, di mana misi anda adalah untuk menyediakan <strong>Texas BBQ</strong> yang sempurna dengan menggunakan alat yang betul, urutan yang tepat, dan masa yang sesuai.
+  Tahap ini memperkenalkan pemain kepada mekanik masakan Cookingdom yang intuitif namun tepat dalam persekitaran yang santai tanpa pemasa.
+</p>
+<p>
+  Panduan ini akan memberi anda langkah-langkah yang tepat untuk berjaya dalam <strong>Cookingdom Tahap 8</strong>, dengan perincian setiap bahan, tindakan, dan penempatan yang diperlukan.
+</p>
+
+<h2>Bahan-bahan yang Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ribs Babi</td>
+      <td>1 rak (4 tulang)</td>
+      <td>Diperoleh dari mini-permainan babi dengan menggunakan lobak merah.</td>
+    </tr>
+    <tr>
+      <td>Kertas Tuala</td>
+      <td>1 gulung</td>
+      <td>Digunakan untuk menyapu ribs kering.</td>
+    </tr>
+    <tr>
+      <td>Perasa Merah (Paprika/Cili?)</td>
+      <td>1 shaker</td>
+      <td>Taburkan ke atas ribs selepas kering dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>1 shaker</td>
+      <td>Taburkan ke atas ribs selepas perasa merah.</td>
+    </tr>
+    <tr>
+      <td>Bawang Putih</td>
+      <td>1 biji</td>
+      <td>Dikupas dan dicincang untuk sos.</td>
+    </tr>
+    <tr>
+      <td>Bawang Daun</td>
+      <td>1 ikat</td>
+      <td>Dipotong untuk sos.</td>
+    </tr>
+    <tr>
+      <td>Mentega</td>
+      <td>1 ketul</td>
+      <td>Digunakan untuk memulakan sos dalam kuali.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 mangkuk</td>
+      <td>Ditambah ke dalam sos.</td>
+    </tr>
+    <tr>
+      <td>Asas Sos Merah (Ketchup/BBQ Base?)</td>
+      <td>1 mangkuk</td>
+      <td>Komponen cecair utama dalam sos BBQ.</td>
+    </tr>
+    <tr>
+      <td>Campuran Salad</td>
+      <td>1 mangkuk</td>
+      <td>Komponen untuk penyediaan akhir.</td>
+    </tr>
+    <tr>
+      <td>Salad Dressing</td>
+      <td>1 mangkuk</td>
+      <td>Ditambah ke dalam salad semasa penyediaan.</td>
+    </tr>
+    <tr>
+      <td>Telur Goreng</td>
+      <td>1 biji</td>
+      <td>Komponen untuk penyediaan akhir.</td>
+    </tr>
+    <tr>
+      <td>Sos BBQ Masak</td>
+      <td>1 mangkuk</td>
+      <td>Sos siap, digunakan untuk mengoles dan penyediaan akhir.</td>
+    </tr>
+    <tr>
+      <td>Lobak Merah</td>
+      <td>1 biji</td>
+      <td>Digunakan hanya dalam mini-permainan babi.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Langkah demi Langkah Panduan Texas BBQ</h2>
+
+<h3>Langkah 1. Dapatkan Daging Babi (Mini-permainan)</h3>
+<p>
+  Di luar, tunggu kelihatan <strong>arnab</strong> dengan <strong>lobak merah</strong>.
+  Seret <strong>lobak merah</strong> ke arah <strong>babi</strong> yang bersembunyi di dalam belukar.
+  Babi akan memakannya dan lari, meninggalkan daging.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Bersiap sedia untuk menyeret lobak merah sebaik sahaja arnab membawa ia.
+</p>
+
+<h3>Langkah 2. Sediakan Ribs</h3>
+<p>
+  Letakkan <strong>ribs</strong> pada <strong>papan pemotong</strong>.
+  Gunakan <strong>kertas tuala</strong> untuk menyapu kering di tiga tempat yang ditandakan.
+  Pilih <strong>pisau</strong> dan potong secara menegak antara tulang (3 potongan).
+  Taburkan <strong>perasa merah</strong>, kemudian taburkan <strong>garam</strong> ke atas ribs.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Pastikan semua tempat kering dan potongan tepat. Taburkan perasa secara sekata.
+</p>
+
+<h3>Langkah 3. Sediakan Bahan Aromatik</h3>
+<p>
+  Letakkan <strong>kepala bawang putih</strong> pada papan pemotong yang kosong.
+  Ketik beberapa kali untuk memisahkan ulas-ulas.
+  Pilih <strong>pisau</strong> dan ketik untuk cincang ulas bawang putih. Ketepikan.
+  Letakkan <strong>bawang daun</strong> pada papan pemotong, pilih <strong>pisau</strong> dan potong bahagian putih dan hijau.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Ketik berulang kali untuk mempercepatkan proses cincang dan potong.
+</p>
+
+<h3>Langkah 4. Masak Sos BBQ</h3>
+<p>
+  Hidupkan <strong>pemanas induksi</strong>. Letakkan <strong>kuali</strong> di atasnya.
+  Masukkan <strong>mentega</strong> dan biarkan ia cair.
+  Tambahkan <strong>bawang putih cincang</strong> dan tumis seketika.
+  Gunakan <strong>senduk</strong> untuk menambah <strong>gula</strong> dari mangkuk, kacau.
+  Kemudian tambah <strong>asas sos merah</strong>, kacau.
+  Masukkan <strong>bawang daun</strong> yang dipotong, kacau sehingga sos mula mendidih.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Masukkan bahan dalam urutan yang betul dan kacau selepas setiap bahan ditambah.
+</p>
+
+<h3>Langkah 5. Gril Ribs</h3>
+<p>
+  Letakkan <strong>gril</strong> pada pemanas. Letakkan <strong>ribs</strong> yang telah diperap di atas gril yang panas.
+  Gunakan <strong>senduk</strong> untuk ambil sos BBQ dari mangkuk dan sapukan secara berulang ke atas ribs semasa ia dimasak.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Pastikan semua ribs disapu sos dengan banyak untuk hasil yang baik. Tunggu pengesahan hati.
+</p>
+
+<h3>Langkah 6. Hidangkan Texas BBQ</h3>
+<p>
+  Di atas pinggan kosong, letakkan <strong>campuran salad</strong>.
+  Gunakan <strong>senduk</strong> untuk menambah <strong>salad dressing</strong>.
+  Letakkan <strong>ribs</strong> yang telah dipanggang di sebelah salad, telur goreng di sebelah ribs.
+  Akhirnya, gunakan <strong>senduk</strong> untuk menuangkan lebih banyak <strong>sos BBQ</strong> ke atas ribs.
+</p>
+<p>
+  💡 <strong>Petua:</strong> Susun bahan-bahan dengan kemas seperti yang ditunjukkan dalam gambar hidangan akhir untuk persembahan terbaik.
+</p>
+
+<h2>Petua dan Trik untuk Cookingdom Tahap 8</h2>
+<ul>
+  <li>✔️ Permainan mini pertama memerlukan tindakan pantas dengan lobak merah.</li>
+  <li>✔️ Penyediaan ribs yang betul adalah sangat penting, termasuk pengeringan, pemotongan dan perasa.</li>
+  <li>✔️ Ikuti urutan yang tepat semasa memasak sos.</li>
+  <li>✔️ Banyakkan penggunaan sos semasa proses gril untuk hasil BBQ yang terbaik.</li>
+  <li>✔️ Penyajian yang kemas memberi markah yang lebih tinggi.</li>
+</ul>
+
+<h2>Kesilapan Biasa untuk Dielakkan dalam Cookingdom Tahap 8</h2>
+<ul>
+  <li>Terlepas masa dalam mini-permainan babi.</li>
+  <li>Melupakan untuk menyapu ribs kering atau membuat potongan yang tidak tepat.</li>
+  <li>Menambah bahan sos dalam urutan yang salah atau tidak mengacau dengan betul.</li>
+  <li>Kurang mengoles ribs semasa proses gril.</li>
+  <li>Susunan bahan pada pinggan yang tidak kemas.</li>
+</ul>
+
   `,
   },
 
@@ -787,58 +1388,194 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-<p>Dalam Cookingdom, setiap tahap memperkenalkan hidangan baru dan pelanggan yang lebih menuntut. Pada tahap 9, misi anda adalah memasak spaghetti, hidangan klasik Itali yang memerlukan kawalan masa yang teliti. Merebus pasta dan menyediakan sos hanyalah permulaan. Untuk memuaskan pelanggan, anda perlu memberi perhatian kepada setiap butiran – dari tahap kemasakan pasta hingga pilihan sos dan hiasan.</p>
-<p>Apabila anda maju dalam Cookingdom, anda akan menghadapi pesanan yang lebih kompleks, dan memasak spaghetti akan menguji kemahiran multitasking dan pengurusan masa anda. Mari lihat langkah-langkah untuk menguasai hidangan ini!</p>
+<h2>Selamat datang ke Cookingdom Level 9: Panduan Spaghetti</h2>
+<p>
+  Selamat datang, calon chef! Di **Cookingdom Level 9**, cabaran masakan anda adalah untuk menyediakan **spaghetti** yang sempurna. Tahap ini direka untuk memperkenalkan anda dengan mekanik masakan yang tepat di dalam Cookingdom dalam suasana yang tenang tanpa tekanan masa.
+</p>
+<p>
+  Panduan ini menyediakan langkah-langkah yang tepat untuk menakluk **Cookingdom Level 9**, merangkumi setiap bahan, tindakan, dan penempatan yang diperlukan.
+</p>
 
-<h2 id="goal">Matlamat Tahap 9</h2>
+<h2>Bahan-bahan untuk Spaghetti Sempurna Anda</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Catatan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spaghetti Kering</td>
+      <td>1 bahagian</td>
+      <td>Spaghetti mentah.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>1 mangkuk</td>
+      <td>Perlu untuk merebus pasta.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>1 bekas</td>
+      <td>Untuk perasakan air rebusan.</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>1 mangkuk</td>
+      <td>Utuh, untuk dipotong dalam sos dan untuk hiasan.</td>
+    </tr>
+    <tr>
+      <td>Bawang</td>
+      <td>1 mangkuk</td>
+      <td>Utuh, untuk dipotong dalam sos.</td>
+    </tr>
+    <tr>
+      <td>Daun Selasih</td>
+      <td>1 mangkuk</td>
+      <td>Segar, untuk hiasan terakhir.</td>
+    </tr>
+    <tr>
+      <td>Daging Cincang</td>
+      <td>1 mangkuk</td>
+      <td>Daging mentah untuk sos Bolognese yang kaya.</td>
+    </tr>
+    <tr>
+      <td>Minyak/ Mentega</td>
+      <td>1 mangkuk</td>
+      <td>Minyak masak untuk memulakan sos.</td>
+    </tr>
+    <tr>
+      <td>Lada</td>
+      <td>1 bekas</td>
+      <td>Untuk perasakan sos dengan sempurna.</td>
+    </tr>
+    <tr>
+      <td>Asas Sos Tomato</td>
+      <td>1 balang</td>
+      <td>Asas tomato pekat untuk sos berperisa.</td>
+    </tr>
+    <tr>
+      <td>Keju Parut</td>
+      <td>1 mangkuk</td>
+      <td>Biasanya Parmesan, untuk ditabur atas spaghetti.</td>
+    </tr>
+    <tr>
+      <td>Sos Krim</td>
+      <td>1 balang</td>
+      <td>Sentuhan sos putih untuk tengah hidangan.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Panduan Langkah demi Langkah Spaghetti</h2>
+
+<h3>Langkah 1. Didihkan Air & Tambah Garam</h3>
+<p>
+  Pertama, hidupkan <strong>plat panas</strong>. Tuangkan <strong>air</strong> dari mangkuk ke dalam <strong>periuk</strong>. Tunggu sehingga air mendidih dengan kuat (banyak buih!), kemudian tambahkan <strong>garam</strong> dari bekasnya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Jangan terburu-buru! Pastikan air benar-benar mendidih sebelum menambah garam atau pasta. Ini adalah kunci untuk memasak dengan betul.
+</div>
+
+<h3>Langkah 2. Masak Spaghetti hingga "Al Dente"</h3>
+<p>
+  Sekarang, letakkan <strong>spaghetti kering</strong> dengan perlahan ke dalam air mendidih yang telah digaramkan. Tunggu dengan sabar sehingga pasta masak sepenuhnya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Spaghetti akan menjadi lembut dan tenggelam dengan sendirinya. Tunggu animasi kilauan — itu petanda bahawa ia sudah dimasak dengan sempurna!
+</div>
+
+<h3>Langkah 3. Toskan Spaghetti yang Telah Dimasak</h3>
+<p>
+  Ambil <strong>penapis labu</strong>. Angkat spaghetti yang telah dimasak dari periuk dan alihkan ke dalam <strong>mangkuk hidangan</strong>.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Pastikan anda mengangkat setiap helai spaghetti dari periuk!
+</div>
+
+<h3>Langkah 4. Potong Tomato dengan Tepat</h3>
+<p>
+  Letakkan <strong>tomato utuh</strong> di atas <strong>papan pemotong</strong>. Pilih <strong>pisau</strong> dan ikut panduan pada skrin untuk memotong tomato menjadi hirisan, kemudian dadu. Letakkan tomato yang telah dipotong ke dalam mangkuknya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Potongan yang tepat mengikut panduan sangat penting untuk mendapat markah tinggi. Ambil masa di sini!
+</div>
+
+<h3>Langkah 5. Potong Bawang dengan Hati-hati</h3>
+<p>
+  Letakkan <strong>bawang</strong> di atas <strong>papan pemotong</strong>. Gunakan <strong>pisau</strong>, mengikuti panduan skrin, untuk memotong bawang dan kemudian dadu. Letakkan bawang yang telah dipotong ke dalam mangkuknya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Kerja pisau yang baik memastikan bahan-bahan masak dengan sekata nanti.
+</div>
+
+<h3>Langkah 6. Mulakan Sos Bolognese Anda</h3>
+<p>
+  Letakkan <strong>periuk</strong> yang bersih di atas <strong>plat panas</strong>. Tambahkan <strong>minyak/mentega</strong> dari mangkuknya. Taburkan sedikit <strong>lada</strong> dari bekas. Kemudian, tambahkan <strong>tomato dan bawang yang telah dipotong</strong> ke dalam periuk.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Biarkan minyak atau mentega sedikit panas sebelum menambah sayuran.
+</div>
+
+<h3>Langkah 7. Tumis Sayuran dan Masak Daging</h3>
+<p>
+  Gunakan <strong>senduk</strong> untuk mengacau tomato dan bawang dalam periuk. Sekarang, tambahkan <strong>daging cincang</strong>. Teruskan mengacau, hancurkan daging sambil memasaknya sehingga ia berubah warna dan masak sepenuhnya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Kacau selalu! Ini akan mengelakkan melekat dan memastikan daging dimasak dengan sekata.
+</div>
+
+<h3>Langkah 8. Rebus Sos yang Kaya</h3>
+<p>
+  Tuangkan <strong>asas sos tomato</strong> dari balang ke dalam periuk yang mengandungi daging dan sayuran yang dimasak. Kacau semua bahan dengan <strong>senduk</strong> untuk mencampurkan semuanya. Biarkan sos mendidih sehingga siap.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Sos akan sedikit mengental semasa mendidih. Animasi kilauan akan mengesahkan bahawa sos sudah siap!
+</div>
+
+<h3>Langkah 9. Hidangkan Spaghetti dan Sos</h3>
+<p>
+  Dengan spaghetti yang telah dimasak dalam mangkuk hidangan, gunakan <strong>senduk</strong> untuk mencurahkan sos Bolognese yang baru dimasak ke atas pasta.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Pastikan sos yang lazat meliputi semua spaghetti dengan rata.
+</div>
+
+<h3>Langkah 10. Hias dengan Cermat</h3>
+<p>
+  Susun <strong>tomato hirisan</strong> di sekitar tepi pasta. Tambahkan sedikit <strong>sos krim</strong> di tengah. Taburkan <strong>keju parut</strong> ke atas sos Bolognese. Akhir sekali, letakkan <strong>daun selasih</strong> segar di atas sebagai sentuhan akhir.
+</p>
+<div class="tip">
+  💡 <strong>Tip Profesional:</strong> Penempatan yang tepat untuk setiap hiasan mengikut panduan visual adalah penting untuk mendapatkan 3 bintang "Ledakan Rasa" yang diidamkan!
+</div>
+
+<h2>Tip Terbaik untuk Kejayaan di Cookingdom Level 9</h2>
 <ul>
-  <li><strong>Memasak spaghetti sempurna:</strong> Matlamat utama ialah memasak spaghetti dengan tepat – al dente! Tahap kemasakan yang betul penting untuk memuaskan pelanggan. Pasta yang terlalu lembut atau keras akan mengurangkan penilaian anda.</li>
-  <li><strong>Menyediakan sos:</strong> Spaghetti bukan sahaja tentang pasta. Dalam Cookingdom, anda perlu menyediakan sos yang betul – tomato, krim, atau pesto. Sos mestilah sedap dan sesuai dengan pasta.</li>
-  <li><strong>Menyajikan hidangan dengan cepat:</strong> Seperti tahap lain, kelajuan dan ketepatan penting. Pelanggan menunggu, dan menyajikan spaghetti yang dimasak sempurna dalam keadaan panas adalah kunci untuk mendapat penilaian tinggi.</li>
+  <li>
+    ✔️ **Perhatikan petunjuk visual dan bunyi** seperti kilauan dan bunyi — ia memberitahu anda apabila proses memasak (pasta dan sos) selesai.
+  </li>
+  <li>
+    ✔️ **Ketepatan dalam memotong** sayur-sayuran dan **penempatan yang tepat** untuk hiasan akhir adalah kunci kepada markah yang tinggi.
+  </li>
+  <li>
+    ✔️ **Kacau sos Bolognese secara konsisten** pada setiap tahap, terutama selepas menambah daging dan asas tomato, untuk memastikan semua bahan tercampur dengan sempurna.
+  </li>
+  <li>
+    ✔️ Ikut **urutan langkah yang tepat** yang ditunjukkan dalam permainan untuk mengelakkan kesilapan.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Memasak Spaghetti</h2>
-<ol>
-  <li>
-    <h3>Didihkan air:</h3>
-    <p>Mula-mula, isi periuk dengan air dan didihkan. Pastikan air cukup untuk merebus pasta secara sekata, dan periuk cukup besar.</p>
-    <p><strong>Petua:</strong> Menambah garam ke dalam air memberi rasa pada pasta dan meningkatkan tekstur.</p>
-  </li>
-  <li>
-    <h3>Rebus spaghetti:</h3>
-    <p>Setelah air mendidih, masukkan spaghetti. Pastikan pasta tenggelam sepenuhnya supaya masak rata. Dalam Cookingdom, pasta dimasak selama kira-kira 7-10 minit bergantung kepada tahap kemasakan yang dikehendaki.</p>
-    <p><strong>Petua:</strong> Kacau pasta sekali-sekala supaya tidak melekat. Perhatikan masa – pasta yang terlebih masak akan menjadi lembik dan hancur.</p>
-  </li>
-  <li>
-    <h3>Sediakan sos:</h3>
-    <p>Sambil pasta direbus, sediakan sos. Dalam Cookingdom, ada pelbagai jenis sos, pastikan anda menyediakan sos yang betul mengikut pesanan pelanggan. Untuk sos tomato, tumis bawang dan bawang putih dalam minyak zaitun, tambah tomato dalam tin dan reneh. Untuk sos krim, cairkan mentega dan krim, perasakan dengan garam dan lada.</p>
-    <p><strong>Petua:</strong> Renehkan sos selama beberapa minit supaya aroma berkembang. Boleh tambah herba seperti basil, oregano, atau parsley untuk menambah rasa.</p>
-  </li>
-  <li>
-    <h3>Toskan air dan campur:</h3>
-    <p>Apabila pasta sudah masak, toskan air, tinggalkan sedikit air rebusan untuk sesuaikan sos. Masukkan pasta ke dalam sos dan kacau rata supaya pasta disaluti sos dengan sekata.</p>
-    <p><strong>Petua:</strong> Jika sos terlalu pekat, tambah sedikit air rebusan untuk memudahkan salutan sos pada pasta.</p>
-  </li>
-  <li>
-    <h3>Sajikan spaghetti:</h3>
-    <p>Setelah pasta dan sos dicampur dengan baik, hidangkan spaghetti ke atas pinggan. Hiaskan dengan keju parut, herba segar, atau sedikit minyak zaitun. Dalam Cookingdom, sesetengah pelanggan mungkin minta hiasan khas, jadi periksa pesanan dengan teliti.</p>
-    <p><strong>Petua:</strong> Hidangkan spaghetti segera supaya tidak terlalu masak atau sejuk. Pelanggan Cookingdom mahu hidangan panas dan segar, jadi kelajuan penyajian penting.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Tips dan Cadangan</h2>
+<h2>Kesilapan Umum yang Perlu Dielakkan di Cookingdom Level 9</h2>
 <ul>
-  <li><strong>Masa yang tepat:</strong> Perkara paling penting dalam memasak spaghetti ialah masa merebus. Jika dimasak terlalu lama, pasta akan hancur; jika kurang, ia keras. Dalam permainan ada pemasa untuk setiap hidangan, pantau masa dengan teliti.</li>
-  <li><strong>Penyediaan sos:</strong> Sos sama penting dengan pasta! Pastikan rasanya sedap dan sesuai dengan pesanan pelanggan. Pelanggan biasanya pesan sos atau hiasan tertentu, baca pesanan dengan teliti.</li>
-  <li><strong>Kemaskini peralatan dapur:</strong> Semasa bermain, anda boleh membuka peralatan dapur baru yang mempercepatkan masa memasak pasta. Penambahbaikan dapur atau periuk besar membolehkan memasak beberapa hidangan serentak.</li>
-  <li><strong>Urus pesanan berbilang:</strong> Dalam Cookingdom, anda sering perlu menyediakan beberapa pesanan serentak. Masak pasta dan sos untuk setiap pesanan secara selari dan hidang bila sudah siap. Utamakan pesanan yang menunggu lama dan pastikan sos sesuai dengan pesanan.</li>
-  <li><strong>Memuaskan pelanggan:</strong> Pelanggan Cookingdom sangat menuntut dari segi kualiti dan kelajuan. Untuk buat mereka gembira, hidangkan spaghetti tepat pada masa dan pada tahap kemasakan yang betul. Pasta yang terlebih atau kurang masak akan menyebabkan ketidakpuasan hati.</li>
+  <li>Tak tunggu air mendidih sebelum menambah spaghetti.</li>
+  <li>Menarik pasta atau sos terlalu awal tanpa menunggu petunjuk siap (kilauan).</li>
+  <li>Memotong tomato dan bawang dengan tidak tepat atau tidak kemas.</li>
+  <li>Daging cincang yang tidak dimasak dengan sekata akibat tidak mengacau dengan betul.</li>
+  <li>Penempatan yang salah atau tiada hiasan di atas hidangan akhir.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Tahap 9 dalam Cookingdom menguji kemahiran anda dalam memasak spaghetti sempurna dengan perhatian pada setiap butiran. Dari mendidihkan air hingga menyediakan sos dan menghidangkan hidangan panas — masa dan kecekapan sangat penting untuk mendapat penilaian tinggi. Urus beberapa pesanan dengan cekap dan pastikan setiap pinggan disajikan dengan sos yang tepat dan keadaan terbaik.</p>
-<p>Kuasi hidangan ini untuk membuka resipi lebih kompleks dan terus tingkatkan kemahiran memasak anda dalam Cookingdom. Asah teknik memasak pasta dan teruskan perjalanan anda!</p>
 `,
   },
 
@@ -889,63 +1626,245 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 10</h2>
-<p>Di tahap 10 Cookingdom, anda telah menguasai asas-asas dan kini bersedia untuk menyediakan hidangan yang lebih kompleks. Sushi salmon adalah hidangan yang memerlukan seni menyediakan nasi sushi yang sempurna, memotong ikan salmon dengan tepat, dan menggulung sushi dengan kemas. Berbeza dengan tahap-tahap sebelumnya, tahap ini menuntut ketepatan dalam penyediaan dan persembahan.</p>
-<p>Pada tahap ini, pemain perlu menyediakan pesanan dengan cepat dan tepat, memberi perhatian kepada bahan-bahan halus dalam sushi salmon. Ini adalah masa untuk meningkatkan kemahiran menggunakan pisau dan penyediaan nasi anda!</p>
+    <h2>Selamat Datang ke Cookingdom Tahap 10: Panduan & Petua Sushi Salmon</h2>
+<p>
+  Selamat datang, tukang masak sushi! Dalam **Cookingdom Tahap 10**, misi anda adalah untuk membuat **sushi salmon** yang eksklusif. Tahap ini memperkenalkan anda dengan mekanik memasak Cookingdom yang tepat dan seni memasak dalam suasana yang tenang dan tidak terburu-buru.
+</p>
+<p>
+  Panduan ini akan membawa anda melalui setiap langkah yang diperlukan untuk berjaya di **Cookingdom Tahap 10**, dengan butiran setiap bahan, tindakan, dan langkah yang tepat.
+</p>
 
-<h2 id="goal">Matlamat Cookingdom Tahap 10</h2>
+<h2>Bahan-bahan yang Diperlukan untuk Sushi</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ikan</td>
+      <td>5 ekor</td>
+      <td>Pilih pelbagai jenis ikan yang ditangkap dalam mini-game memancing. Elakkan sampah!</td>
+    </tr>
+    <tr>
+      <td>Nasi</td>
+      <td>1 mangkuk</td>
+      <td>Perlukan cucian dengan air dalam periuk, kemudian masak dalam penanak nasi.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>Sesuai keperluan</td>
+      <td>Digunakan untuk mencuci dan memasak nasi dalam periuk.</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>1</td>
+      <td>Perlu dikupas, kemudian dipotong menjadi jalur nipis (julienne).</td>
+    </tr>
+    <tr>
+      <td>Avokado</td>
+      <td>1</td>
+      <td>Perlukan kupasan (menggunakan pisau) dan dipotong dengan tepat.</td>
+    </tr>
+    <tr>
+      <td>Timun</td>
+      <td>1</td>
+      <td>Perlukan kupasan (menggunakan pisau) dan dipotong menjadi jalur nipis.</td>
+    </tr>
+    <tr>
+      <td>Salmon</td>
+      <td>1 bahagian (hirisan)</td>
+      <td>Sudah dipotong, tetapi perlu dipotong menjadi jalur nipis untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Nori (Lembaran Rumput Laut)</td>
+      <td>3 helai</td>
+      <td>Pembalut penting untuk gulungan sushi anda.</td>
+    </tr>
+    <tr>
+      <td>Wasabi</td>
+      <td>1 bahagian</td>
+      <td>Sedikit untuk di dalam gulungan (pilihan), dan satu sendukan untuk hidangan.</td>
+    </tr>
+    <tr>
+      <td>Halia Perap (Gari)</td>
+      <td>1 bahagian</td>
+      <td>Dihidangkan bersama sushi di atas pinggan.</td>
+    </tr>
+    <tr>
+      <td>Pertusli/Perhiasan</td>
+      <td>1 tangkai</td>
+      <td>Untuk sentuhan hiasan akhir pada pinggan anda.</td>
+    </tr>
+    <tr>
+      <td>Pengupas</td>
+      <td>1</td>
+      <td>Digunakan khusus untuk mengupas carrot.</td>
+    </tr>
+    <tr>
+      <td>Pisau</td>
+      <td>1</td>
+      <td>Alat serbaguna anda untuk mengupas, memotong, memotong jalur, dan memotong gulungan siap.</td>
+    </tr>
+    <tr>
+      <td>Periuk</td>
+      <td>1</td>
+      <td>Untuk mencuci nasi dan memindahkannya ke dalam penanak nasi.</td>
+    </tr>
+    <tr>
+      <td>Penanak Nasi</td>
+      <td>1</td>
+      <td>Peralatan khusus untuk memasak nasi dengan sempurna.</td>
+    </tr>
+    <tr>
+      <td>Pancuran & Paip</td>
+      <td>1</td>
+      <td>Untuk mencuci nasi dengan teliti.</td>
+    </tr>
+    <tr>
+      <td>Alas Penggulung Bambu (Makisu)</td>
+      <td>1</td>
+      <td>Alat yang sangat diperlukan untuk menggulung sushi dengan rapat.</td>
+    </tr>
+    <tr>
+      <td>Bekas</td>
+      <td>Pelbagai</td>
+      <td>Untuk menyimpan bahan yang telah disediakan dan gulungan yang telah siap.</td>
+    </tr>
+    <tr>
+      <td>Pinggan Hidangan</td>
+      <td>1 (hitam, segi empat tepat)</td>
+      <td>Tempat hidangan sushi akhir yang elegan.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk/Kuali Kecil</td>
+      <td>2</td>
+      <td>Untuk menempatkan wasabi dan halia perap semasa hidangan.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Keahlian Sushi Salmon: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Mini-Game Memancing</h3>
+<p>
+  Masuk ke dunia bawah laut sebagai tukang masak capybara. Matlamat anda adalah untuk mengumpulkan **5 ikan** pelbagai jenis dengan berenang ke arah mereka. Hati-hati untuk **mengelakkan semua sampah** seperti botol plastik, botol kaca, dan tin. Setelah menangkap kesemua 5 ikan, mereka akan dipindahkan secara automatik ke perahu anda.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Rancang laluan berenang anda untuk menangkap ikan dengan berkesan sambil mengelakkan sampah.
+</div>
+
+<h3>Langkah 2. Memasak Nasi dengan Sempurna</h3>
+<p>
+  Letakkan **nasi** ke dalam **periuk**. Pindahkan periuk ke **paip pancuran** dan tambah cukup **air** untuk menutupi nasi untuk mencuci. Seterusnya, pindahkan periuk (bersama nasi dan air) ke dalam **penanak nasi**. Tutup penutupnya. Penanak nasi akan mula berfungsi secara automatik, ditandakan dengan cahaya dan wap.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Jangan lupa untuk menambah air ke dalam nasi *sebelum* memasukkan periuk ke dalam penanak nasi untuk mencuci dan memasak dengan betul.
+</div>
+
+<h3>Langkah 3. Penyediaan Carrot</h3>
+<p>
+  Letakkan **carrot** di atas **meja pemotong**. Gunakan **pengupas** untuk mengupas kulitnya, kemudian buangkan kulit tersebut. Tukar ke **pisau** dan ikut panduan di skrin untuk memotong carrot menjadi jalur panjang dan nipis (julienne). Letakkan carrot yang telah dipotong ke dalam **bekas**.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan carrot dikupas sepenuhnya sebelum memotongnya dengan tepat mengikut garis panduan.
+</div>
+
+<h3>Langkah 4. Penyediaan Avokado</h3>
+<p>
+  Letakkan **avokado** di atas **meja pemotong**. Gunakan **pisau** untuk memotongnya (bijinya akan dikeluarkan secara automatik). Kemudian, gunakan **pisau lagi** (ia berfungsi seperti pengupas di sini) untuk mengupas kulit avokado. Buang kulitnya. Ikuti garis panduan untuk memotong daging avokado menjadi hirisan nipis. Letakkan hirisan dalam **bekas**.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Permainan ini menggunakan pisau untuk mengupas, jadi ikut arahan dengan teliti!
+</div>
+
+<h3>Langkah 5. Penyediaan Timun</h3>
+<p>
+  Letakkan **timun** di atas **meja pemotong**. Gunakan **pisau** (sekali lagi berfungsi sebagai pengupas) untuk mengupas kulitnya, kemudian buang kulit tersebut. Tukar semula ke **pisau** dan ikut panduan untuk memotong timun menjadi jalur nipis dan panjang (julienne). Letakkan timun yang telah dipotong ke dalam **bekas**.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan semua kulit timun dibuang sebelum memulakan pemotongan.
+</div>
+
+<h3>Langkah 6. Penyediaan Jalur Salmon</h3>
+<p>
+  Letakkan **salmon yang telah dipotong** di atas **meja pemotong**. Gunakan **pisau** dan ikut panduan untuk memotong hirisan salmon tersebut menjadi jalur lebih nipis, sesuai untuk inti sushi. Letakkan jalur salmon yang telah dipotong ke dalam **bekas**.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Potong dengan tepat mengikut garis untuk mendapatkan jalur salmon yang seragam untuk gulungan sushi.
+</div>
+
+<h3>Langkah 7. Ambil Nasi yang Telah Dimasak</h3>
+<p>
+  Buka penutup **penanak nasi** dan ambil periuk dengan nasi yang sudah masak dengan sempurna. Letakkan periuk di atas meja persediaan.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Nasi harus berwap dan panas, menunjukkan bahawa ia telah dimasak dengan sempurna dan sedia untuk digulung.
+</div>
+
+<h3>Langkah 8. Gulung Sushi (Tiga Kali!)</h3>
+<p>
+  Letakkan satu helaian **Nori** di atas **penggulung bambu**. Ambil sebahagian **nasi** yang dimasak dan ratakan di atas Nori, tinggalkan sedikit ruang di hujung yang jauh. Anda boleh menambah sedikit **wasabi** melintang di atas nasi jika suka. Susun jalur **timun, carrot, avokado, dan salmon** secara melintang di atas nasi, lebih dekat dengan tepi bawah. Perlahan-lahan angkat tepi penggulung dan gulung Nori bersama bahan-bahan menjadi silinder yang padat. Letakkan gulungan siap di dalam **bekas**. Anda perlu **mengulang proses ini untuk menghasilkan tiga gulungan**.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Ratakan nasi dengan nipis dan gulung dengan padat menggunakan penggulung untuk memastikan gulungan yang kemas dan padat yang tidak akan terburai.
+</div>
+
+<h3>Langkah 9. Potong Gulungan Sushi dengan Tepat</h3>
+<p>
+  Letakkan satu gulungan sushi yang sudah siap di atas **meja pemotong yang bersih**. Gunakan **pisau** dan ikut panduan untuk memotong gulungan tersebut menjadi beberapa bahagian yang sama (jumlahnya akan menjadi 4). Ulangi proses ini untuk gulungan yang lain.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Gunakan pisau yang tajam dan potongan yang tegas untuk tepi yang bersih. Usahakan supaya ketebalan setiap bahagian sushi sama rata.
+</div>
+
+<h3>Langkah 10. Seni Penyajian Sushi</h3>
+<p>
+  Susun potongan sushi dengan kemas di atas **pinggan hitam untuk hidangan** (jumlahnya 12 potongan). Letakkan satu bahagian **wasabi** yang telah disediakan pada pinggan. Kemudian, letakkan sebahagian **halia perap (gari)** pada pinggan. Akhir sekali, letakkan tangkai **peterseli/garni** untuk hiasan akhir.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Susun sushi dengan menarik di atas pinggan dan pastikan wasabi serta hiasan diletakkan dengan tepat seperti dalam gambar akhir.
+</div>
+
+<h2>Tip Terbaik untuk Kejayaan di Cookingdom Tahap 10</h2>
 <ul>
-  <li><strong>Sediakan nasi sushi:</strong> Asas kepada sushi yang baik ialah nasi yang dimasak sempurna. Dalam Cookingdom, anda perlu membasuh nasi dengan teliti, memasaknya, dan membumbui dengan cuka, gula, dan garam.</li>
-  <li><strong>Potong salmon segar:</strong> Salmon adalah bahan utama hidangan ini, dan kesegaran serta ketebalannya penting untuk rasa yang autentik. Potong salmon dengan hati-hati menjadi kepingan nipis dan sekata.</li>
-  <li><strong>Kumpulkan sushi:</strong> Selepas menyediakan nasi dan salmon, gulung sushi dengan kemas memastikan ia kemas dan rata.</li>
-  <li><strong>Hidangkan sushi:</strong> Masa adalah penting — hidangkan sushi dengan cepat untuk mengekalkan kesegarannya.</li>
+  <li>
+    ✔️ Dalam mini-game memancing, **utamakan mengelak sampah** daripada kecepatan; ikan yang bersih adalah kunci.
+  </li>
+  <li>
+    ✔️ Pastikan nasi **dibilas dan dimasak dengan betul** sebelum memulakan gulungannya.
+  </li>
+  <li>
+    ✔️ **Ikuti semua panduan pembersihan dan pemotongan** setiap bahan dengan tepat.
+  </li>
+  <li>
+    ✔️ Semasa menyebarkan nasi pada Nori, **tinggalkan sedikit ruang di atas** untuk membantu menggulung dengan kemas.
+  </li>
+  <li>
+    ✔️ **Gulung sushi dengan padat** menggunakan penggulung bambu untuk memastikan gulungan tidak terburai.
+  </li>
+  <li>
+    ✔️ Gunakan **pisau bersih dan potongan yang pasti** semasa memotong gulungan siap.
+  </li>
+  <li>
+    ✔️ Susun hidangan akhir **dengan kemas dan menarik**, mengikuti pengaturan yang diingini.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Menyediakan Sushi Salmon di Cookingdom Tahap 10</h2>
-<ol>
-  <li>
-    <h3>Menyediakan Nasi Sushi</h3>
-    <p>Langkah pertama adalah menyediakan nasi. Basuh nasi dengan teliti beberapa kali untuk menghilangkan kanji berlebihan supaya nasi tidak menjadi terlalu melekit.</p>
-    <p><strong>Tip:</strong> Basuh nasi sehingga air menjadi jernih untuk tekstur yang sempurna.</p>
-    <p>Masak nasi menggunakan periuk nasi atau periuk biasa. Selepas masak, pindahkan nasi ke dalam mangkuk besar dan biarkan ia sejuk sedikit. Kemudian, gaulkan dengan campuran cuka beras, gula, dan garam.</p>
-    <p><strong>Tip:</strong> Kacau nasi dengan sudu kayu secara perlahan supaya butiran nasi tidak hancur. Pastikan nasi benar-benar sejuk sebelum digunakan.</p>
-  </li>
-  <li>
-    <h3>Memotong Salmon Segar</h3>
-    <p>Sementara nasi sejuk, mulakan memotong salmon. Gunakan pisau yang tajam untuk mendapatkan kepingan nipis dan rata setebal kira-kira 1/8 inci untuk tekstur terbaik.</p>
-    <p><strong>Tip:</strong> Pilih salmon yang segar dan berkualiti tinggi untuk rasa yang terbaik. Dalam permainan, anda boleh memilih bahan paling segar.</p>
-  </li>
-  <li>
-    <h3>Menyusun Sushi</h3>
-    <p>Letakkan sedikit nasi di atas tikar buluh atau permukaan bersih. Ratakan nasi dengan nipis dan sekata.</p>
-    <p><strong>Tip:</strong> Jangan tekan nasi terlalu kuat supaya sushi kekal ringan dan gebu.</p>
-    <p>Letakkan kepingan salmon di tengah-tengah nasi secara rata.</p>
-    <p><strong>Tip:</strong> Jika permainan menawarkan bahan tambahan seperti wasabi atau halia jeruk, jangan lupa tambah untuk rasa autentik.</p>
-  </li>
-  <li>
-    <h3>Menggulung Sushi</h3>
-    <p>Gunakan tikar buluh untuk menggulung nasi dan salmon dengan ketat. Gulungan harus padat tetapi tidak terlalu keras supaya nasi tidak hancur.</p>
-    <p><strong>Tip:</strong> Gulung dengan perlahan dan berhati-hati untuk mengekalkan bentuk sushi.</p>
-  </li>
-  <li>
-    <h3>Memotong dan Menghidang Sushi</h3>
-    <p>Selepas menggulung, potong sushi kepada saiz satu suapan dengan pisau tajam untuk potongan yang rata tanpa serpihan.</p>
-    <p><strong>Tip:</strong> Potongan yang sekata dan seragam memberikan penampilan autentik.</p>
-    <p>Hidangkan sushi segera selepas memotong untuk mengekalkan kesegarannya.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Tips dan Trik Cookingdom Tahap 10</h2>
+<h2>Kesalahan Biasa yang Perlu Dielakkan di Cookingdom Tahap 10</h2>
 <ul>
-  <li><strong>Nasi sushi yang sempurna:</strong> Ikuti langkah tepat untuk membasuh, memasak, dan membumbui nasi. Cuba resipi cuka, gula, dan garam yang berbeza untuk rasa yang seimbang.</li>
-  <li><strong>Gunakan pisau tajam:</strong> Pisau tajam memastikan potongan salmon yang kemas tanpa merosakkan isi ikan. Dalam permainan, anda boleh menaik taraf pisau untuk hasil terbaik.</li>
-  <li><strong>Jangan terlalu penuh gulungan:</strong> Kuantiti isi yang optimum penting untuk menggulung dengan mudah dan bentuk sushi yang baik.</li>
-  <li><strong>Multi-tugasan:</strong> Sementara nasi sejuk, mulakan penyediaan bahan atau hidangan lain untuk efisiensi lebih tinggi.</li>
-  <li><strong>Hiasan dan penyajian:</strong> Tambah wasabi, halia jeruk dan hiasan lain untuk penampilan lebih menarik dan skor pelanggan lebih tinggi.</li>
+  <li>Menangkap sampah dalam mini-game memancing.</li>
+  <li>Melupakan untuk mencuci nasi atau memasaknya dengan tidak betul.</li>
+  <li>Terlepas langkah mengupas carrot/timun/avokado atau tidak mengikuti panduan pemotongan dengan tepat.</li>
+  <li>Menyebarkan nasi terlalu tebal atau tidak rata pada helaian Nori.</li>
+  <li>Gulungan sushi yang terlalu longgar, menyebabkan bahan-bahan terkeluar.</li>
+  <li>Memotong gulungan sushi secara tidak rata atau menggunakan teknik pemotongan yang tidak kemas.</li>
+  <li>Melupakan untuk menambah wasabi, halia perap, atau hiasan semasa penyajian, atau meletakkannya dengan tidak tepat.</li>
 </ul>
 
-<h2 id="summary">Kesimpulan</h2>
-<p>Cookingdom Tahap 10 adalah ujian ketepatan, pengurusan masa dan multi-tugasan. Dari penyediaan nasi ke pemotongan ikan dan penggulungan sushi, setiap langkah memerlukan perhatian pada perincian. Kunci kejayaan adalah kesegaran, ketelitian dan penyajian yang pantas. Menguasai sushi salmon akan mempersiapkan anda untuk hidangan yang lebih rumit di tahap seterusnya dan memuaskan pelanggan restoran anda.</p>
   `,
   },
 ]

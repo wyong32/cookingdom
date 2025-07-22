@@ -582,6 +582,217 @@ onMounted(() => {
   text-decoration: underline;
 }
 
+/* Table Styles for Guide HTML Content */
+.guide-html-content :deep(table) {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.guide-html-content :deep(table thead) {
+  background-color: #a08ee6;
+  color: #ffffff;
+}
+
+.guide-html-content :deep(table thead th) {
+  padding: 1rem 1.2rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  position: relative;
+}
+
+.guide-html-content :deep(table thead th:first-child) {
+  border-top-left-radius: 8px;
+}
+
+.guide-html-content :deep(table thead th:last-child) {
+  border-top-right-radius: 8px;
+}
+
+.guide-html-content :deep(table tbody tr) {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.guide-html-content :deep(table tbody tr:last-child) {
+  border-bottom: none;
+}
+
+.guide-html-content :deep(table tbody tr:hover) {
+  background-color: #f8f9ff;
+}
+
+.guide-html-content :deep(table tbody td) {
+  padding: 1rem 1.2rem;
+  border: none;
+  color: #333;
+  vertical-align: top;
+}
+
+.guide-html-content :deep(table tbody td:first-child) {
+  font-weight: 500;
+  color: #5b4b8a;
+}
+
+/* Responsive table styles */
+@media (max-width: 767px) {
+  .guide-html-content :deep(table) {
+    font-size: 0.85rem;
+    margin: 1rem 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .guide-html-content :deep(table thead th),
+  .guide-html-content :deep(table tbody td) {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .guide-html-content :deep(table thead th) {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .guide-html-content :deep(table tbody td) {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  /* 移动端表格横向滚动处理 */
+  .guide-html-content :deep(.table-responsive) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+
+  .guide-html-content :deep(.table-responsive table) {
+    min-width: 500px;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* 小屏幕手机端优化 */
+@media (max-width: 480px) {
+  .guide-html-content :deep(table) {
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+  }
+
+  .guide-html-content :deep(table thead th),
+  .guide-html-content :deep(table tbody td) {
+    padding: 0.5rem 0.6rem;
+  }
+
+  .guide-html-content :deep(table thead th) {
+    font-size: 0.85rem;
+  }
+
+  .guide-html-content :deep(table tbody td) {
+    font-size: 0.8rem;
+  }
+
+  /* 超小屏幕表格卡片化处理 */
+  .guide-html-content :deep(.table-mobile-cards) {
+    display: block;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards thead) {
+    display: none;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody) {
+    display: block;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody tr) {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f0f0f0;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody tr:last-child) {
+    margin-bottom: 0;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody td) {
+    display: block;
+    padding: 0.3rem 0;
+    border: none;
+    text-align: left;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody td:before) {
+    content: attr(data-label) ': ';
+    font-weight: 600;
+    color: #5b4b8a;
+    display: inline-block;
+    min-width: 80px;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody td:first-child) {
+    font-weight: 500;
+    color: #5b4b8a;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .guide-html-content :deep(.table-mobile-cards tbody td:first-child:before) {
+    display: none;
+  }
+}
+
+/* Table with borders variant */
+.guide-html-content :deep(table.table-bordered) {
+  border: 1px solid #e0e0e0;
+}
+
+.guide-html-content :deep(table.table-bordered th),
+.guide-html-content :deep(table.table-bordered td) {
+  border: 1px solid #e0e0e0;
+}
+
+/* Striped table variant */
+.guide-html-content :deep(table.table-striped tbody tr:nth-child(even)) {
+  background-color: #fafafa;
+}
+
+.guide-html-content :deep(table.table-striped tbody tr:nth-child(even):hover) {
+  background-color: #f0f0ff;
+}
+
+/* Compact table variant */
+.guide-html-content :deep(table.table-compact thead th),
+.guide-html-content :deep(table.table-compact tbody td) {
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* Table caption styles */
+.guide-html-content :deep(table caption) {
+  caption-side: bottom;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 .iframe-container {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -693,6 +904,68 @@ onMounted(() => {
 }
 
 @media (max-width: 767px) {
+  /* 页面布局调整 */
+  .guide-detail-page {
+    flex-direction: column;
+    padding: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .guide-detail-content {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .guide-layout {
+    padding: 0;
+    margin: 0;
+    min-height: 600px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .main-content {
+    padding: 0 1rem;
+    margin: 0;
+    min-height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .sidebar {
+    padding: 0 1rem;
+    margin: 0;
+    min-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* 标题样式调整 */
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .page-main-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  .page-subtitle {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  /* 特色指南调整 */
+  .featured-guides {
+    min-height: 150px;
+  }
+  .featured-guides li {
+    height: 50px;
+  }
+
+  /* 热门关卡网格调整 */
   .special-levels-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.8rem;
@@ -711,53 +984,8 @@ onMounted(() => {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
-}
 
-@media (max-width: 767px) {
-  .guide-detail-page {
-    flex-direction: column;
-    padding: 0;
-  }
-  .guide-detail-content {
-    padding: 0;
-    margin: 0;
-    min-height: 100vh;
-  }
-  .guide-layout {
-    padding: 0;
-    margin: 0;
-    min-height: 600px;
-  }
-  .main-content {
-    padding: 0 1rem;
-    margin: 0;
-    min-height: 400px;
-  }
-  .sidebar {
-    padding: 0 1rem;
-    margin: 0;
-    min-height: 200px;
-  }
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  .page-main-title {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    line-height: 1.2;
-  }
-  .page-subtitle {
-    font-size: 0.8rem;
-    line-height: 1.2;
-  }
-  .featured-guides {
-    min-height: 150px;
-  }
-  .featured-guides li {
-    height: 50px;
-  }
-
+  /* HTML内容样式调整 */
   .guide-html-content :deep(h2) {
     font-size: 1.2em;
     margin: 0.5em 0;
@@ -771,6 +999,62 @@ onMounted(() => {
   .guide-html-content :deep(p) {
     font-size: 0.8rem;
     line-height: 1.2;
+  }
+
+  /* 确保所有内容都在容器内 */
+  .guide-html-content {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  /* 确保图片不会超出容器 */
+  .guide-html-content :deep(img) {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* 确保iframe不会超出容器 */
+  .iframe-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* 超小屏幕设备优化 */
+@media (max-width: 480px) {
+  .guide-detail-page {
+    padding: 0 !important;
+  }
+  .guide-detail-content {
+    padding: 0;
+    margin: 0;
+  }
+  .main-content {
+    padding: 0 0.8rem;
+  }
+  .sidebar {
+    padding: 0 0.8rem;
+  }
+  .page-main-title {
+    font-size: 1.3rem;
+  }
+  .page-subtitle {
+    font-size: 0.75rem;
+  }
+
+  /* 确保所有文本内容都不会换行导致横向滚动 */
+  .guide-html-content :deep(*) {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* 确保长单词也能正确换行 */
+  .guide-html-content :deep(p),
+  .guide-html-content :deep(div),
+  .guide-html-content :deep(span) {
+    word-break: break-word;
   }
 }
 </style>

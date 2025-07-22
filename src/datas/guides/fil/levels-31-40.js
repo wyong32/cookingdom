@@ -495,70 +495,131 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang Pagsusuri sa Cookingdom Antas 35</h2>
-<p>Sa Cookingdom Antas 35, maghahanda ka ng isang masarap at kasiya-siyang klasikong putahe: Spaghetti na may Mushroom Cream Sauce! Pinagsasama ng masarap na putaheng Italyano na ito ang perpektong lutong pasta at creamy na sarsa ng mushroom na puno ng umami. Mahalaga ang tamang oras, paghahanda ng mga sangkap, at tamang lagkit ng sarsa para magtagumpay sa antas na ito.</p>
-<p>Ang gabay na ito ay tutulong sa iyo sa bawat hakbang ng paggawa ng perpektong plato ng spaghetti sa Antas 35, mula sa pagpapakulo ng pasta hanggang sa paghahanda ng sarsa ng mushroom at pag-aayos ng huling putahe.</p>
+<h2>Cookingdom Level 35 Gabay: Paglikha ng Perpektong Tsokolate</h2>
+<p>Maligayang pagdating sa **Cookingdom Level 35**! Ang level na ito ay gabay sa mga manlalaro sa isang intuitive ngunit tumpak na karanasan sa pagluluto sa isang relaxed na kapaligiran na walang timer, na nakatutok sa paggawa ng perpektong **Tsokolate**.</p>
+<p>Ang gabay na ito ay naglalaman ng detalyadong hakbang-hakbang na mga tagubilin upang matiyak ang iyong tagumpay sa Cookingdom Level 35, na sumasaklaw sa bawat sangkap, aksyon, at posisyon na kinakailangan.</p>
 
-<h2 id="goal">Mga Layunin sa Cookingdom Antas 35</h2>
+<h2>Mga Sangkap na Kailangan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cacao Pods</td>
+      <td>Ilang (1 Pula ang Kailangan)</td>
+      <td>Kinokolekta sa pamamagitan ng mini-laro ng slingshot mula sa puno ng cacao.</td>
+    </tr>
+    <tr>
+      <td>Cacao Beans</td>
+      <td>1 Pod</td>
+      <td>Kinuha mula sa pod na kinolekta, karaniwang may puting pulp.</td>
+    </tr>
+    <tr>
+      <td>Asukal</td>
+      <td>1 Kutsara</td>
+      <td>Mula sa kawali na may pulang takip.</td>
+    </tr>
+    <tr>
+      <td>Gatas/Krema</td>
+      <td>1 Kutsara</td>
+      <td>Mula sa puting mangkok na may kutsara.</td>
+    </tr>
+    <tr>
+      <td>Rainbow Sprinkles</td>
+      <td>1 Lalagyan</td>
+      <td>Ginagamit para sa dekorasyon.</td>
+    </tr>
+    <tr>
+      <td>Chopped Nuts</td>
+      <td>1 Lalagyan</td>
+      <td>Ginagamit para sa dekorasyon (karaniwang mani o almond).</td>
+    </tr>
+    <tr>
+      <td>Gummy Candies/Piraso ng Prutas</td>
+      <td>1 Lalagyan</td>
+      <td>Makulay na halo na ginagamit para sa dekorasyon.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hakbang-hakbang na Gabay para sa Tagumpay</h2>
+
+<h3>Hakbang 1: Mag-ani ng Cacao Pod (Mini-laro ng Slingshot)</h3>
+<p>Gampanan ang **mini-laro ng slingshot**. Hilahin ang slingshot at itutok upang tamaan ang **cacao pods** na nakasabit sa puno. Matagumpay na tamaan ang **pulang cacao pod** upang makolekta ito at magpatuloy.</p>
 <ul>
-  <li>Pakuluan ang spaghetti hanggang sa magkaroon ng al dente na texture.</li>
-  <li>Mag-sauté ng mga mushroom kasama ang bawang at mga herbs.</li>
-  <li>Gumawa ng creamy sauce gamit ang butter, cream, at keso.</li>
-  <li>Pagsamahin at ihain ang putahe nang kaakit-akit.</li>
+  <li>**Tip:** Tamaan ng kaunti sa unahan kung ang mga pod ay umaalog. Mag-focus sa pagtama ng anumang pulang pod.</li>
 </ul>
 
-<h2 id="steps">Hakbang-hakbang na Gabay sa Cookingdom Antas 35</h2>
-<ol>
-  <li>
-    <h3>Lutuin ang Spaghetti</h3>
-    <p>Magsimula sa pagpapakulo ng tubig at magdagdag ng isang kurot ng asin. Kapag kumulo na ang tubig, ilagay ang spaghetti at lutuin ito hanggang sa magkaroon ng al dente na texture.</p>
-    <p><strong>Tips:</strong> Huwag i-overcook ang pasta. Ang al dente ay nangangahulugang malambot ngunit may konting tigas sa kagat—perpekto upang masipsip ang sarsa.</p>
-  </li>
-  <li>
-    <h3>Mag-sauté ng Mushroom</h3>
-    <p>Habang niluluto ang pasta, mag-sauté ng hiniwang mushroom sa kawali gamit ang butter o olive oil. Magdagdag ng tinadtad na bawang at isang kurot ng asin para sa dagdag na lasa.</p>
-    <p><strong>Tips:</strong> Huwag masyadong punuin ang kawali upang ang mga mushroom ay maluto nang maayos at magkaroon ng malalim na lasa.</p>
-  </li>
-  <li>
-    <h3>Gumawa ng Cream Sauce</h3>
-    <p>Kapag naluto na ang mushroom, ibuhos ang heavy cream at pakuluan nang dahan-dahan. Ihalo ang gadgad na Parmesan cheese at kaunting itim na paminta para makagawa ng mayamang creamy na texture.</p>
-    <p><strong>Tips:</strong> Kung masyadong malapot ang sauce, magdagdag ng kaunting tubig mula sa pinakuluang pasta upang palabnawin ito at makatulong na dumikit sa spaghetti.</p>
-  </li>
-  <li>
-    <h3>Pagsamahin at Ihain</h3>
-    <p>Salain ang nilutong pasta at direktang ilagay sa mushroom cream sauce. Haluin nang mabuti hanggang pantay na nababalutan ang spaghetti ng sauce.</p>
-    <p>Ihain ang pasta at palamutian ng sariwang tinadtad na parsley at budbod ng Parmesan.</p>
-    <p><strong>Tips:</strong> Mahalaga ang presentasyon! Ihain sa malawak na plato at iikot nang maayos ang pasta para sa propesyonal na hitsura.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Propesyonal na Tip para sa Tagumpay sa Cookingdom Antas 35</h2>
+<h3>Hakbang 2: Kumuha at Ihanda ang Cacao Beans</h3>
+<p>Ilagay ang **cacao pod** na naani sa ibabaw ng work surface. Gamitin ang **puting panghiwa** upang basagin ang pod. Gamitin muli ang kasangkapan upang alisin ang mga beans na natatakpan ng puting pulp. Ilagay ang mga beans sa **purple mortar** at takpan ng **plastic wrap**.</p>
 <ul>
-  <li>
-    <h3>Gumamit ng Sariwang Mushroom</h3>
-    <p>Ang sariwang mushroom tulad ng cremini o shiitake ay nagbibigay ng mas mahusay na lasa at texture kaysa sa de lata. Hiwain nang pantay para sa pantay na pagluluto.</p>
-  </li>
-  <li>
-    <h3>Huwag Kalimutan ang Bawang</h3>
-    <p>Mahalaga ang bawang para sa lalim ng lasa ng sauce. I-sauté ito hanggang maging ginintuang kulay lamang — huwag hayaang masunog upang maiwasan ang pait na lasa.</p>
-  </li>
-  <li>
-    <h3>Ibalanse ang Creaminess</h3>
-    <p>Kung masyadong creamy ang sauce, ang konting katas ng lemon o kaunting puting alak ay makakatulong na paliitin ang creaminess at magdagdag ng freshness.</p>
-  </li>
-  <li>
-    <h3>Kesong Parmesan para sa Lasa</h3>
-    <p>Ang Parmesan ay nagbibigay ng umami at alat. Gamitin ang sariwang gadgad kung maaari, sa sauce at bilang garnish.</p>
-  </li>
-  <li>
-    <h3>Lutuin nang Sabay ang Sauce at Pasta</h3>
-    <p>Mahalaga ang timing. Sikaping matapos ang sauce nang sabay kapag luto na ang pasta upang maghalo ito habang mainit at sariwa.</p>
-  </li>
+  <li>**Tip:** Hilahin ang kasangkapan sa ibabaw ng pod upang basagin at alisin ang beans. Siguraduhing nailipat lahat ng beans sa mortar bago takpan.</li>
 </ul>
 
-<h2 id="summary">Buod</h2>
-<p>Sa Cookingdom Antas 35, matututuhan mong gumawa ng Spaghetti na may Mushroom Cream Sauce—isang masarap at nakakabusog na putahe na nangangailangan ng mahusay na koordinasyon sa pagluluto ng pasta, mushroom, at creamy sauce. Ang susi sa tagumpay ay tamang timing, balanse ng creaminess at lasa ng mushroom, at magandang presentasyon.</p>
-<p>Sundin ang gabay na ito upang makagawa ng isang masarap at eleganteng pagkain na magpapahanga sa iyong mga virtual na customer at magbibigay sa iyo ng pinakamataas na rating sa Cookingdom!</p>
+<h3>Hakbang 3: Durugin ang Cacao Beans</h3>
+<p>Ang mga beans sa mortar ay naging brown na (fermented/roasted). Ilagay ang nilalaman ng mortar (mga beans) sa **grey cutting board**. Gamitin ang **wooden mallet tool** upang durugin ang mga beans at gawing maliliit na piraso.</p>
+<ul>
+  <li>**Tip:** Hilahin ang mallet sa ibabaw ng beans nang paulit-ulit hanggang maging ganap na durog. **Icon ng puso** ang magpapatunay ng pagkakagawa.</li>
+</ul>
+
+<h3>Hakbang 4: I-blend ang Mixture ng Tsokolate</h3>
+<p>Ilipat ang durog na cacao nibs mula sa cutting board sa **yellow blender jar**. Magdagdag ng isang kutsara ng **asukal** mula sa periuk na may pulang takip at isang kutsara ng **gatas/krema** mula sa puting mangkok sa blender. Ilagay ang takip ng blender at pindutin ang power button upang i-blend hanggang maging makinis.</p>
+<ul>
+  <li>**Tip:** Siguraduhing nailagay lahat ng nibs, asukal, at gatas bago mag-blend. Maghintay hanggang matapos ang animasyon ng blending.</li>
+</ul>
+
+<h3>Hakbang 5: Punuin ang Mold ng Tsokolate</h3>
+<p>Ilagay ang likidong mixture ng tsokolate mula sa blender jar (ngayon ay nasa isang mug) sa iba't ibang hugis sa **mold tray** (puso, oso, ulap, bintana, bituin, dagdag).</p>
+<ul>
+  <li>**Tip:** I-drag ang mug sa ibabaw ng bawat mold na may pag-iingat upang punan ito ng buo.</li>
+</ul>
+
+<h3>Hakbang 6: Palamigin at Pagtibayin ang Tsokolate</h3>
+<p>Ilagay ang punong mold tray sa **blue cooling machine/freezer** (itakda sa 0°C). Maghintay para sa timer/progress bar na matapos, na magsasaad na ang mga tsokolate ay matigas na.</p>
+<ul>
+  <li>**Tip:** Siguraduhing maayos ang paglalagay ng tray sa loob. **Icon ng puso** ay magsasaad ng pagkakagawa.</li>
+</ul>
+
+<h3>Hakbang 7: I-dekorasyon ang Tsokolate</h3>
+<p>Kuninh ang tray ng matigas na tsokolate. Gamitin ang mga topping na ibinigay (**rainbow sprinkles, chopped nuts, gummy candies**) upang i-dekorasyon ang mga tiyak na tsokolate. I-drag ang sprinkles sa hugis dagdag at oso. I-drag ang nuts sa hugis puso at bituin. I-drag ang gummy candies sa hugis bintana/bar.</p>
+<ul>
+  <li>**Tip:** I-drag ang mga topping nang maingat sa tamang tsokolateng piraso. Hindi lahat ng hugis ay kailangang i-dekorasyon.</li>
+</ul>
+
+<h3>Hakbang 8: I-pack ang Tsokolate</h3>
+<p>Kunin ang walang laman na **chocolate box insert**. I-drag ang bawat tsokolate mula sa tray papunta sa bawat lalagyan ng kahon. Pagkatapos mapuno, ilagay ang insert sa **brown gift box base**. Sa huli, ilagay ang **gift box lid** (na may pulang ribbon at tag) sa ibabaw ng kahon upang tapusin ang packaging.</p>
+<ul>
+  <li>**Tip:** Ayusin ang mga tsokolate ng maayos sa insert. Siguraduhing nailagay ang insert sa base bago ilagay ang takip.</li>
+</ul>
+
+<h2>Mga Tips para sa Tagumpay at Karaniwang Pagkakamali</h2>
+
+<h3>Mga Tips at Trik</h3>
+<ul>
+  <li>Ang mini-laro ng slingshot ay nangangailangan ng tumpak na pagtutok.</li>
+  <li>Sundin ang tamang pagkakasunod-sunod para sa proseso ng cacao beans.</li>
+  <li>Siguraduhing magdagdag ng asukal at gatas/krema sa blender para sa tamang lasa.</li>
+  <li>Punuin ang mga molds ng lubos na tsokolate.</li>
+  <li>Mag-dekorasyon lamang sa mga itinalagang tsokolateng hugis.</li>
+  <li>Ilagay ang tsokolate ng tama sa loob ng kahon bago isara ito.</li>
+</ul>
+
+<h3>Karaniwang Pagkakamali</h3>
+<ul>
+  <li>Paulit-ulit na hindi tamang pagtama ng mga pod sa mini-laro ng slingshot.</li>
+  <li>Kaligtaan ang pagtutup ng beans sa mortar gamit ang plastic wrap.</li>
+  <li>Hindi durugin ng sapat ang mga beans gamit ang mallet.</li>
+  <li>Kaligtaan ang pagdagdag ng asukal o gatas bago mag-blend.</li>
+  <li>Alisin ang tsokolate mula sa cooler nang masyadong maaga.</li>
+  <li>Mag-dekorasyon sa maling tsokolate o mag-aplay ng topping nang magulo.</li>
+  <li>Ilagay ang takip sa gift box bago ilagay ang chocolate insert sa loob.</li>
+</ul>
+
 `,
   },
 
@@ -731,83 +792,167 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Pangkalahatang-ideya ng Cookingdom Level 37</h2>
-<p>Sa Level 37 ng Cookingdom, gagawa ka ng masarap at malinamnam na Kimchi Fried Rice. Ang tradisyunal na pagkaing Koreano na ito ay gawa sa kimchi — fermented na gulay — na hinaluan ng kanin, at kadalasang may kasamang gulay at pritong itlog sa ibabaw. Simple ngunit puno ng lasa, ang putahe ay nagtataglay ng balanse ng maanghang, maasim, at maalat na lasa. Ang pangunahing layunin ay ang pagsama-sama ng kimchi at kanin kasama ang iba pang sangkap nang tama para makuha ang tamang lasa at tekstura.</p>
-<p>Itong gabay ay magbibigay ng step-by-step na mga hakbang para makagawa ng masarap na Kimchi Fried Rice na may tamang lasa at tekstura.</p>
+<h2>Cookingdom Level 37 Walkthrough: Pagluluto ng Perpektong Kimchi Rice</h2>
+<p>Maligayang pagdating sa **Cookingdom Level 37**! Ang level na ito ay naggagabay sa mga manlalaro sa isang intuitive at tumpak na karanasan sa pagluluto sa isang relaks na kapaligiran na walang oras, na nakatuon sa paggawa ng perpektong **Kimchi Rice**.</p>
+<p>Ang walkthrough na ito ay naglalaan ng detalyadong mga hakbang-hakbang na tagubilin upang matiyak ang iyong tagumpay sa **Cookingdom Level 37**, na sumasaklaw sa bawat sangkap, aksyon, at paglalagay na kinakailangan.</p>
 
-<h2 id="goal">Mga Layunin ng Level 37</h2>
+<h2>Kailangang Sangkap</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Repollong Napa</td>
+      <td>1 Ulo</td>
+      <td>Hinugasan at tinanggalan ng mga hindi magagamit na dahon.</td>
+    </tr>
+    <tr>
+      <td>Bawang</td>
+      <td>2 Bawang</td>
+      <td>Balatan at tinadtad.</td>
+    </tr>
+    <tr>
+      <td>Peras</td>
+      <td>1/2</td>
+      <td>Inusli.</td>
+    </tr>
+    <tr>
+      <td>Karot</td>
+      <td>2</td>
+      <td>Inusli.</td>
+    </tr>
+    <tr>
+      <td>Scallions (Green Onions)</td>
+      <td>1 Bunch</td>
+      <td>Inut-ot.</td>
+    </tr>
+    <tr>
+      <td>Ginger at Chilies</td>
+      <td>1 Pinggan</td>
+      <td>Ginger root, pulang at berdeng chilies, pinagsama at tinadtad.</td>
+    </tr>
+    <tr>
+      <td>Onions</td>
+      <td>2</td>
+      <td>Balatan at tinadtad.</td>
+    </tr>
+    <tr>
+      <td>Glutinous Rice Flour Paste / Nais Cooked Rice (?)</td>
+      <td>1 Mangkuk na Maliit</td>
+      <td>Puting paste/rice na ilalagay sa blender para sa kimchi paste.</td>
+    </tr>
+    <tr>
+      <td>Asin (?)</td>
+      <td>1 Mangkuk na Maliit</td>
+      <td>Puti na pulbos ilalagay sa blender para sa kimchi paste.</td>
+    </tr>
+    <tr>
+      <td>Sos ng Soja</td>
+      <td>1 Mangkuk</td>
+      <td>Idadagdag sa blender para sa kimchi paste at gagamitin sa pagluluto ng baboy.</td>
+    </tr>
+    <tr>
+      <td>Chili Paste (Gochujang?)</td>
+      <td>1 Botelya</td>
+      <td>Pulang paste na idadagdag sa blender para sa kimchi paste.</td>
+    </tr>
+    <tr>
+      <td>Beras</td>
+      <td>1 Bag + 1 Mangkuk na Maliit</td>
+      <td>Ipapaluto sa rice cooker at isang maliit na bahagi ang gagamitin para sa huling pagtatapos.</td>
+    </tr>
+    <tr>
+      <td>Tubig</td>
+      <td>Ayon sa Pangangailangan</td>
+      <td>Para sa paghuhugas ng mga gulay at pagluluto ng rice.</td>
+    </tr>
+    <tr>
+      <td>Perut ng Baboy</td>
+      <td>1 Piraso</td>
+      <td>Hilaw, may mga pulang tinga, tinadtad.</td>
+    </tr>
+    <tr>
+      <td>Langis sa Pagluluto</td>
+      <td>1 Botelya</td>
+      <td>Ginagamit sa pagluluto ng perut ng baboy.</td>
+    </tr>
+    <tr>
+      <td>Asukal (?)</td>
+      <td>1 Mangkuk</td>
+      <td>Puting granula ilalagay sa kawali habang niluluto ang perut ng baboy.</td>
+    </tr>
+    <tr>
+      <td>Piniritong Itlog</td>
+      <td>1</td>
+      <td>Sunny-side up, ginagamit bilang topping.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hakbang-hakbang na Gabay sa Tagumpay</h2>
+
+<h3>Hakbang 1: Ihanda ang Mga Gulay para sa Kimchi</h3>
+<p>Hugasan ang **Repollong Napa** sa lababo. Sa chopping board, tinadtad ang **bawang**, inusli ang **peras**, tinadtad ang **halia/cili mix**, tinadtad ang **sibuyas**, tinadtad ang **scallions**, at inusli ang **karot**, ilagay ang bawat isa sa hiwalay na pinggan/mangkuk.</p>
 <ul>
-  <li>Lutuin ang kanin bilang base ng putahe.</li>
-  <li>Gisang mabuti ang kimchi at mga sangkap para sa balanseng lasa.</li>
-  <li>Ihain ang Kimchi Fried Rice na may pritong itlog at garnis.</li>
+  <li>**Tip:** Ang pare-parehong sukat ng pagputol ay nakakatulong sa pantay na paghahalo at pag-ferment.</li>
 </ul>
 
-<h2 id="steps">Mga Hakbang sa Pagluluto ng Kimchi Fried Rice (Level 37)</h2>
-<ol>
-  <li>
-    <h3>Lutuin ang Kanin</h3>
-    <p>Ang base ng Kimchi Fried Rice ay kanin. Simulan sa pagluluto ng kanin (puting bigas o short grain rice ang angkop), lalo na kung walang pre-cooked rice.</p>
-    <p><strong>Tip:</strong> Mas mainam na gumamit ng leftover rice mula sa nakaraang araw dahil ito ay mas tuyo at hindi madaling dumikit, kaya mas maganda para sa pag-gisa at pagsipsip ng lasa.</p>
-  </li>
-  <li>
-    <h3>Gisa ang Kimchi</h3>
-    <p>I-gisa ang kimchi (fermented na repolyo) sa kawali upang lumabas ang malinamnam at maasim na lasa nito.</p>
-    <p><strong>Tip:</strong> Hiwain ang kimchi nang maliliit para pantay ang pagkaka-gisa.</p>
-    <p>Magdagdag ng kaunting mantika sa kawali at igisa ang kimchi ng 2-3 minuto hanggang lumambot at lumabas ang lasa.</p>
-    <p><strong>Tip:</strong> Para sa mas maanghang na lasa, magdagdag ng kaunting gochujang (Korean chili paste) o gochugaru (Korean chili flakes).</p>
-  </li>
-  <li>
-    <h3>Gisa ang Kanin Kasama ang Kimchi</h3>
-    <p>Pagkatapos i-gisa ang kimchi, idagdag ang kanin sa kawali at haluin upang ma-absorb ng kanin ang katas ng kimchi.</p>
-    <p><strong>Tip:</strong> Igisa ang kanin ng mga 5 minuto sa katamtamang init para mas lalong sumipsip ng lasa mula sa kimchi at mga pampalasa.</p>
-    <p><strong>Tip:</strong> Magdagdag ng kaunting toyo o sesame oil para sa dagdag na aroma.</p>
-  </li>
-  <li>
-    <h3>Magdagdag ng Gulay (Opsyonal)</h3>
-    <p>Kung gusto, magdagdag ng mga gulay tulad ng carrot, scallions, o peas para sa dagdag na texture at lasa.</p>
-    <p><strong>Tip:</strong> Kung magdadagdag ng gulay, i-gisa ito kasama ng kimchi bago haluin sa kanin.</p>
-  </li>
-  <li>
-    <h3>Magprito ng Itlog</h3>
-    <p>Karaniwan ay nilalagyan ng pritong itlog ang Kimchi Fried Rice, na nagbibigay ng rich na lasa at texture.</p>
-    <p>Iprito ang itlog ayon sa gusto mo. Ang malambot na pula ng itlog ay nagbibigay ng creamy na lasa kapag hinalo sa kanin.</p>
-    <p><strong>Tip:</strong> Para sa mas masarap na lasa, magdagdag ng kaunting sesame oil o toyo sa ibabaw ng pritong itlog.</p>
-  </li>
-  <li>
-    <h3>Ihain ang Kimchi Fried Rice</h3>
-    <p>Pagkatapos maluto at maayos ang lasa, ilagay ang Kimchi Fried Rice sa mangkok o plato at ilagay ang pritong itlog sa ibabaw.</p>
-    <p><strong>Tip:</strong> Garnish ng tinadtad na scallions o sesame seeds para sa dagdag na lasa at kulay.</p>
-    <p><strong>Tip:</strong> Maaari ring ihain kasama ang extra kimchi bilang side dish.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Mga Kapaki-pakinabang na Tips para sa Level 37</h2>
+<h3>Hakbang 2: Gawin ang Kimchi Paste</h3>
+<p>Ilagay ang mga sumusunod sa blender: **asin (?)**, tinadtad na **halia/cili mix**, inusli na **karot**, tinadtad na **bawang**, tinadtad na **scallions**, **glutinous rice flour paste/sweet rice (?)**, inusli na **peras**, **soya sauce**, at **chili paste (gochujang?)**. Isara ang takip at i-blend hanggang maging makinis na pulang paste.</p>
 <ul>
-  <li>
-    <h3>Gamitin ang Kanin mula sa Nakaraang Araw</h3>
-    <p>Mas mainam gamitin ang leftover rice dahil mas tuyo ito at hindi madaling dumikit, kaya mas maganda para sa Kimchi Fried Rice. Kung gagamit ng bagong lutong kanin, hayaang lumamig muna bago i-gisa.</p>
-  </li>
-  <li>
-    <h3>Perpektong Lasa ng Kimchi</h3>
-    <p>Ang pag-gisa ng kimchi ang susi para makuha ang balanseng asim at umami. Para mas maanghang, dagdagan ang gochujang o gochugaru.</p>
-  </li>
-  <li>
-    <h3>I-adjust ang Antas ng Aanghang</h3>
-    <p>Iayon ang dami ng gochujang at gochugaru ayon sa iyong panlasa. Kung ayaw ng maanghang, bawasan o huwag nang ilagay.</p>
-  </li>
-  <li>
-    <h3>Ang Pritong Itlog ay Sekreto</h3>
-    <p>Ang pritong itlog sa ibabaw ay nagbibigay ng creamy at rich na texture. Siguraduhing medyo malambot ang pula para sa pinakamahusay na lasa.</p>
-  </li>
-  <li>
-    <h3>Garnish</h3>
-    <p>Maglagay ng scallions at sesame seeds bilang garnish para sa dagdag na lasa at magandang presentasyon.</p>
-  </li>
+  <li>**Tip:** Siguraduhing lahat ng mga sangkap ay nailagay bago i-blend upang makuha ang kumpletong paste.</li>
 </ul>
 
-<h2 id="summary">Konklusyon</h2>
-<p>Sa Level 37 ng Cookingdom, matutunan mong gumawa ng Kimchi Fried Rice na may balanse ng maanghang, asim, at umami na lasa, na may base na malinamnam na kanin. I-gisa ang kimchi kasama ng kanin, magdagdag ng toyo o sesame oil, at lagyan ng pritong itlog sa ibabaw. Maaari ring magdagdag ng gulay para sa dagdag na texture. Siguradong magugustuhan ng mga customer ang malinamnam at masarap na putahe na ito.</p>
-<p>Gamit ang gabay na ito, magiging eksperto ka sa paggawa ng Kimchi Fried Rice na masarap at puno ng tradisyunal na lasa ng Korea gamit ang mga madaling makuhang sangkap.</p>
+<h3>Hakbang 3: Ferment Kimchi at Lutuin ang Nasi</h3>
+<p>Ilagay ang kimchi paste na na-blend sa ibabaw ng tinabas na **Repollong Napa** sa isang lalagyan. Mag-aappear ang timer na nagpapakita ng oras ng fermentasyon. Samantala, ilagay ang **beras** mula sa bag at **tubig** sa rice cooker, isara ang takip, at simulan ang pagluluto.</p>
+<ul>
+  <li>**Tip:** Simulan ang parehong proseso nang sabay dahil magtatagal ito.</li>
+</ul>
+
+<h3>Hakbang 4: Lutuin ang Perut ng Baboy</h3>
+<p>Ilagay ang kawali sa induction cooktop at buksan. Maglagay ng **langis sa pagluluto**. Ilagay ang **asukal (?)** at **soya sauce**. Idagdag ang tinadtad na **bawang** at **sibuyas**. Gupitin ang **perut ng baboy** sa chopping board. Idagdag ang perut ng baboy sa kawali at igisa gamit ang spatula hanggang maluto.</p>
+<ul>
+  <li>**Tip:** Siguraduhing mainit ang kawali bago idagdag ang mga sangkap. Lutuing mabuti ang perut ng baboy.</li>
+</ul>
+
+<h3>Hakbang 5: Ihanda ang Final Kimchi</h3>
+<p>Matapos ang timer ng fermentasyon, ilagay ang natapos na **kimchi** sa chopping board. Gupitin ang kimchi sa mga kagat na piraso. Ilagay ang tinadtad na kimchi sa isang pinggan.</p>
+<ul>
+  <li>**Tip:** Ang pagputol ng kimchi ay ginagawang mas madali itong ihalo at kainin kasama ang nasi.</li>
+</ul>
+
+<h3>Hakbang 6: Assemblihin ang Kimchi Rice Bowl</h3>
+<p>Matapos matapos ang rice cooker, kumuha ng isang malaking bahagi ng **nasi** sa isang mangkok. Ilagay ang nilutong **perut ng baboy** at tinadtad na **kimchi** sa ibabaw ng nasi. Ilagay ang isang **piniritong itlog** sa gitna. Ilagay ang maliit na mangkok ng dagdag na **beras (?)**. Garnish ng masaganang tinadtad na **scallions**.</p>
+<ul>
+  <li>**Tip:** Ilatag ang mga sangkap nang maayos sa mangkok. Ang huling garnish ng scallion ay magbibigay ng kulay at freshness.</li>
+</ul>
+
+<h2>Mga Tip para sa Tagumpay & Mga Karaniwang Pagkakamali</h2>
+
+<h3>Mga Tip at Trik</h3>
+<ul>
+  <li>Ang paghuhugas at paghahanda ng lahat ng gulay muna ay magpapabilis sa proseso.</li>
+  <li>Ang mahusay na pag-blend ng kimchi paste ay nagsisiguro ng makinis na coating at pantay na pamamahagi ng lasa.</li>
+  <li>Ang pagluluto ng rice at fermentasyon ng kimchi ay maaaring gawin nang sabay-sabay upang makatipid ng oras.</li>
+  <li>Mag-render ng ilang taba mula sa perut ng baboy para sa dagdag na lasa bago idagdag ang ibang sangkap.</li>
+  <li>Huwag magsiksik ng sobrang sangkap sa kawali kapag niluluto ang perut ng baboy.</li>
+</ul>
+
+<h3>Mga Karaniwang Pagkakamali</h3>
+<ul>
+  <li>Nakalimutang maglagay ng isang sangkap sa kimchi paste blender.</li>
+  <li>Hindi pagbibigay ng sapat na oras para sa fermentasyon ng kimchi (bagamat agad ito sa laro).</li>
+  <li>Pagkakasunog ng bawang, sibuyas, o asukal habang niluluto ang perut ng baboy.</li>
+  <li>Hindi lutong nasi o perut ng baboy.</li>
+  <li>Pagkakalimutan ang piniritong itlog o scallion garnish sa paghahanda.</li>
+  <li>Pagputol ng kimchi na sobrang laki o sobrang liit.</li>
+</ul>
+
 `,
   },
 
@@ -850,46 +995,169 @@ export const levels31to40 = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Pangkalahatang-ideya ng Cookingdom Level 38</h2>
-  <p>Sa Level 38, pag-aaralan mong lutuin ang masarap na stir-fry: <strong>Pan Fried Chicken na may Gulay</strong>. Mahalaga ang tamang timing at pagkakasunod-sunod ng mga sangkap sa hamong ito.</p>
-  
-  <h2 id="goal">🎯 Layunin ng Cookingdom Level 38</h2>
-  <ul>
-    <li>Magsilbi ng hindi bababa sa 25 na Pan Fried Chicken na putahe</li>
-    <li>Manatiling higit sa 80% ang kasiyahan ng mga customer</li>
-    <li>Matapos ang laro sa loob ng 4 na minuto</li>
-  </ul>
-  
-  <h2 id="ingredients">🥘 Mga Sangkap para sa Level 38</h2>
-  <ul>
-    <li>Hiwa ng manok</li>
-    <li>Halo-halong gulay (bell peppers, carrots, broccoli)</li>
-    <li>Langis at toyo-based na stir-fry sauce</li>
-    <li>Opsyonal na garnish: sesame seeds o scallions</li>
-  </ul>
-  
-  <h2 id="steps">👨‍🍳 Hakbang-hakbang na Estratehiya</h2>
-  <ol>
-    <li>Initin ang parehong kawali na may langis bago magsimula.</li>
-    <li>Simulang iprito ang manok dahil ito ang mas matagal maluto.</li>
-    <li>Kapag kalahating luto na ang manok, idagdag ang halo-halong gulay at sauce.</li>
-    <li>I-stir-fry hanggang sa lumambot pero malutong pa ang gulay at maging gintong-kulay ang manok.</li>
-    <li>Ilagay sa plato at agad na simulan ang susunod na batch.</li>
-  </ol>
-  
-  <h2 id="tips">🔥 Mga Pro Tips para sa Tagumpay</h2>
-  <ul>
-    <li><strong>Painitin ang Kawali:</strong> Mas mabilis maluto kapag mainit ang kawali.</li>
-    <li><strong>Huwag Sosobrahan ang Nilalaman:</strong> Kapag masyadong maraming nilagay sa kawali, bumababa ang init.</li>
-    <li><strong>Palitan ang Kawali:</strong> Gamitin ang dalawang kawali nang palitan para mabilis makapagsilbi.</li>
-  </ul>
-  
-  <h2 id="mistakes">🚫 Mga Karaniwang Mali</h2>
-  <ul>
-    <li>Maagang paglalagay ng sauce — nagiging malata ang pagkain.</li>
-    <li>Hindi lutong manok — magreresulta sa penalty.</li>
-    <li>Nakakalimutang garnish — bumababa ang puntos.</li>
-  </ul>
+  <h2>Cookingdom Level 38 Gabay: Perpektong Manok na Inihaw at Mga Nilutong Gulay</h2>
+<p>Maligayang pagdating, mga tagahanga ng pagluluto, sa **Cookingdom Level 38**! Ang iyong misyon dito ay masterin ang sining ng paghahanda ng masarap na **manok na inihaw na may mga nilutong gulay**. Ang level na ito ay dinisenyo upang pinuhin ang iyong mga instinto sa pagluluto, na may pokus sa katumpakan at tamang oras sa isang relaks na kapaligiran na walang pressure.</p>
+<p>Ang komprehensibong gabay na ito ay magdadala sa iyo sa bawat kritikal na hakbang, tinitiyak na pipiliin mo ang tamang mga sangkap, gagamitin ang mga tamang kagamitan, at isasagawa ang bawat aksyon nang perpekto upang makamit ang tagumpay sa pagluluto.</p>
+
+<h2>Mahahalagang Sangkap para sa Iyong Pagkain</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Sangkap</th>
+      <th>Dami</th>
+      <th>Mga Tala ng Paghahanda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fresh na Carrot</td>
+      <td>2 piraso</td>
+      <td>Diretso mula sa iyong hardin</td>
+    </tr>
+    <tr>
+      <td>Earthy Beets</td>
+      <td>2 piraso</td>
+      <td>Inaani mula sa hardin</td>
+    </tr>
+    <tr>
+      <td>Radish (Daikon)</td>
+      <td>2 piraso</td>
+      <td>Isa pang ani mula sa hardin</td>
+    </tr>
+    <tr>
+      <td>Malinis na Tubig</td>
+      <td>Kailangan</td>
+      <td>Para sa paghuhugas ng mga gulay</td>
+    </tr>
+    <tr>
+      <td>Pinong Asin sa Dagat</td>
+      <td>Sa panlasa</td>
+      <td>Mahalaga sa pagpapalasa ng gulay at pagpapalasa ng mga sos</td>
+    </tr>
+    <tr>
+      <td>Itim na Paminta</td>
+      <td>Sa panlasa</td>
+      <td>Para sa pagpapalasa ng gulay at manok</td>
+    </tr>
+    <tr>
+      <td>Aromatikong Rosemary</td>
+      <td>1 sanga (o maliit na bahagi)</td>
+      <td>Magbibigay ng lasa sa gulay, manok, at palamuti</td>
+    </tr>
+    <tr>
+      <td>Aluminum Foil</td>
+      <td>1 piraso</td>
+      <td>Mahahalaga para sa perpektong nilutong gulay</td>
+    </tr>
+    <tr>
+      <td>Premium na Dada ng Manok</td>
+      <td>1 fillet</td>
+      <td>Hilaw, handa nang iprito</td>
+    </tr>
+    <tr>
+      <td>Gintong Pagluluto (Langis/Stock)</td>
+      <td>1 bote</td>
+      <td>Base para sa pagpaprito ng manok at paggawa ng masarap na sos</td>
+    </tr>
+    <tr>
+      <td>Fresh na Bawang</td>
+      <td>1 ulo (mga 4-5 na piraso)</td>
+      <td>Pinilas at handa nang magbigay ng lasa sa manok at sos</td>
+    </tr>
+    <tr>
+      <td>Malasutla na Mantikilya</td>
+      <td>1 piraso (hiwa)</td>
+      <td>Magpapayaman sa manok habang niluluto</td>
+    </tr>
+    <tr>
+      <td>Pula na Sibuyas</td>
+      <td>1/2 (hiniwa)</td>
+      <td>Aromatikong base para sa pangalawang sos</td>
+    </tr>
+    <tr>
+      <td>Base ng Sos na Kayumanggi</td>
+      <td>1 mangkok</td>
+      <td>Base para sa isang makinis at masarap na gravy</td>
+    </tr>
+    <tr>
+      <td>Malasutla na Cream o Yogurt</td>
+      <td>1 mangkok</td>
+      <td>Eleganteng i-drizzle sa pagplato</td>
+    </tr>
+    <tr>
+      <td>Matitingkad na Lemon Slices</td>
+      <td>2 piraso</td>
+      <td>Para sa makulay na hiyas</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pagtutok sa Bawat Hakbang para sa Perpektong Pagluluto</h2>
+
+<h3>Hakbang 1: Mag-ani ng Iyong Mga Gulay</h3>
+<p>Simulan sa paggamit ng **trowel** sa iyong hardin. Maingat na anihin ang **2 carrot**, **2 beets**, at **2 radishes**, at ilagay ang mga ito sa iyong basket.</p>
+<ul>
+  <li>**Pro Tip:** Mahalaga ang katumpakan dito! Siguraduhing makuha ang tamang bilang ng bawat gulay.</li>
+</ul>
+
+<h3>Hakbang 2: Linisin at Ihanda ang Iyong Mga Gulay</h3>
+<p>Dalhin ang iyong basket sa istasyon ng paghuhugas. Ilagay ang iyong cutting board at mga mangkok. Punuin ang lababo ng **tubig** at hugasan ang lahat ng iyong bagong aning gulay (carrots, beets, at radishes). Ilagay ang mga ito sa cutting board, gamitin ang **kutsilyo** para alisin ang mga hindi kinakailangang bahagi, at pagkatapos ay ilagay ang mga gulay sa kani-kanilang mangkok (carrots sa orange, beets sa pink, radishes sa puti). Itapon ang mga tira sa basurahan.</p>
+<ul>
+  <li>**Pro Tip:** Mahalaga ang maayos na paghuhugas at pagtanggal ng mga hindi kinakailangang bahagi para sa malinis at magarang pagplato.</li>
+</ul>
+
+<h3>Hakbang 3: I-roast ang Mga Gulay ng Tama</h3>
+<p>Pumunta sa istasyon ng oven. Ilagay ang mga naihandang gulay sa **baking tray**. Magdagdag ng **rosemary sprigs**, at pagkatapos ay seasonan ng **pepper** at **salt**. Takpan ang tray ng **aluminum foil**. Ilagay ang tray sa **oven** na preheated at bantayan habang nagsisimula ang timer (ipapakita ang oras na "1000").</p>
+<ul>
+  <li>**Pro Tip:** Ang pagtapon ng foil sa mga gulay ay lumilikha ng isang malambot at masarap na kapaligiran, pinapahintulutan ang gulay na maging malasa at malambot.</li>
+</ul>
+
+<h3>Hakbang 4: I-sear ang Manok ng Perpekto</h3>
+<p>Pumunta sa stovetop. Ilagay ang **frying pan** sa induction cooktop at buhayin ang init. Magdagdag ng **yellow cooking liquid (oil o stock)**. Seasonan ang **chicken breast** ng **pepper**. Dahan-dahang ilagay ang manok sa mainit na pan. Idagdag ang **peeled garlic cloves** at mga sprigs ng **rosemary** upang magbigay ng lasa. Hayaan ang manok na mag-sear sa isang gilid (ipapakita ang timer) hanggang maging golden, pagkatapos ay baliktarin. Habang niluluto ang pangalawang gilid, magdagdag ng **butter** sa pan. Ipagpatuloy ang pagluluto hanggang ang manok ay luto na.</p>
+<ul>
+  <li>**Pro Tip:** Mahalaga ang init ng pan para makamit ang magandang golden brown crust ng manok. Ang pagbabasang ng manok gamit ang natunaw na butter ay magdadagdag ng richness.</li>
+</ul>
+
+<h3>Hakbang 5: Maghanda ng Rich Pan Sauce (Gravy)</h3>
+<p>Gamitin ang isang malinis na pan at buhayin ang init. Magdagdag ng **yellow cooking liquid**. Ilagay ang **peeled garlic cloves** at **sliced red onion**, pati na rin ang isang sprig ng **rosemary**. Igisa ito hanggang sa maglabas ng amoy (ipapakita ang timer). Ilagay ang **brown sauce base** at magdagdag ng **salt**. Hayaan itong mag-simmer (ipapakita ang timer). Salain ang sos gamit ang **strainer** sa isang malinis na mangkok.</p>
+<ul>
+  <li>**Pro Tip:** Ang pag-isa ng mga aromatics sa unang hakbang ay nagtatayo ng masarap na base para sa iyong sos. Ang pagsasala ay nagbibigay ng makinis na consistency sa gravy.</li>
+</ul>
+
+<h3>Hakbang 6: Ihanda ang Mga Gulay at Hiwaing Manok</h3>
+<p>Alisin ang mga perpektong nilutong gulay mula sa oven. Maingat na ilagay ang mga ito sa cutting board. Hiwaing ang mga **carrots, beets, at radishes** sa pantay-pantay na piraso. Pagkatapos, ilagay ang **cooked chicken breast** sa cutting board at hiwain ito ng maayos.</p>
+<ul>
+  <li>**Pro Tip:** Hayaan ang manok na magpahinga ng ilang minuto bago ito hiwain upang mapanatili ang mga juices nito, na nagbibigay ng malasa at malambot na kagat. Siguraduhing pantay-pantay ang paghiwa ng gulay para sa magandang presentation.</li>
+</ul>
+
+<h3>Hakbang 7: I-assemble ang Iyong Culinary Masterpiece</h3>
+<p>Panahon na para sa grand finale! Ayusin ang hiniwang roasted vegetables (**carrots, beets, radishes**) sa isang **serving plate**. Maingat na ilagay ang hiniwang **chicken breast** sa ibabaw ng mga makulay na gulay. Elegantly na magdahan-dahang spoon ng **gravy** sa manok. I-drizzle ang malasutla na **white cream/yogurt sauce**. Para sa huling palamuti, garnish ang iyong pagkain ng **lemon slices** at isang fresh na **rosemary sprig**.</p>
+<ul>
+  <li>**Pro Tip:** Ang tamang pag-aayos ng bawat bahagi sa plato ay susi para sa isang professional at appetizing na presentation.</li>
+</ul>
+
+<h2>Mga Tip para sa Tagumpay at Karaniwang Pagkakamali na Dapat Iwasan</h2>
+
+<h3>Mga Tip at Trik para sa Perpektong Pagluluto</h3>
+<ul>
+  <li>**Tamang Pagtatanim:** Siguraduhing tamang gulay at bilang ang inyong anihin.</li>
+  <li>**Kahalagahan ng Kalinisan:** Huwag kalimutang linisin at ihanda nang maayos ang mga gulay.</li>
+  <li>**Perpektong Lasa ng Gulay:** Roast ang gulay hanggang ito ay maging malambot at malasa.</li>
+  <li>**Golden na Crust, Malasakit na Panlasa:** Tiyaking mayroon kang golden-brown crust sa iyong manok.</li>
+  <li>**Pundasyon ng Lasa:** Ang paggawa ng mga layers ng lasa sa iyong mga sauce ay mahalaga para sa isang masarap na pagkain.</li>
+</ul>
+
+<h3>Mga Karaniwang Pagkakamali na Dapat Iwasan</h3>
+<ul>
+  <li>**Maling Aninong Gulay:** Ang pagpili ng maling gulay o hindi tamang bilang ay makakasira sa iyong dish.</li>
+  <li>**Pagkakaligtaan sa Pag-aayos:** Ang hindi tamang paghuhugas o paggupit ng gulay ay makakaapekto sa lasa at presentation ng pagkain.</li>
+  <li>**Pagkakamali sa Pag-roast:** Ang hindi sapat na pag-roast ay magdudulot ng matigas na gulay, at ang labis na pag-roast ay magpapalambot nito.</li>
+  <li>**Mga Nasusunog na Bahagi:** Ang pagsusunog ng manok, bawang, o rosemary habang piniprito ay magdadagdag ng mapait na lasa.</li>
+  <li>**Kulang na Pagpapalasa:** Ang paglimos ng asin at paminta sa iba't ibang hakbang ng pagluluto ay magdudulot ng malasang pagkain.</li>
+  <li>**Mga Problema sa Sos:** Kung ang sos ay masyadong manipis (tubig) o masyadong makapal (malapot), maaari nitong sirain ang texture ng iyong pagkain.</li>
+  <li>**Pagkakamali sa Pagpapakita:** Ang hindi maayos na presentasyon o pagpapabaya sa mga mahahalagang garnish (lemon, rosemary, cream) ay makakasira sa iyong masterpiece.</li>
+</ul>
+
   `,
   },
 

@@ -122,41 +122,244 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Game Introduction</h2>
-<p>In Level 2, players learn to make Fried Potatoes. While relatively simple, it requires more time management and detailed operation, especially with complex customer demands. This level introduces the frying process, teaching players to use kitchen equipment to speed up cooking and serve delicious fries.</p>
-<h2>Level 2 Goal</h2>
+    detailsHtml: `<h2>Welcome to Cookingdom Level 2: fried potatoes Walkthrough & Guide</h2>
+<p>
+  Welcome to **Cookingdom Level 2**, where your mission is to craft the perfect
+  **Fried Potatoes** using the correct tools, sequence, and timing. This level
+  introduces players to Cookingdom's intuitive yet precise cooking mechanics in
+  a relaxed, no-timer environment.
+</p>
+<p>
+  This walkthrough gives you the exact steps to succeed in **Cookingdom Level
+  2**, detailing every ingredient, action, and placement needed.
+</p>
+
+---
+
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Potatoes</td>
+      <td>3</td>
+      <td>Obtained from the potato harvesting mini-game.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>as needed</td>
+      <td>Used for washing and blanching.</td>
+    </tr>
+    <tr>
+      <td>Peeler</td>
+      <td>1</td>
+      <td>Used for peeling potatoes.</td>
+    </tr>
+    <tr>
+      <td>Knife</td>
+      <td>1</td>
+      <td>Used for cutting potatoes into fries.</td>
+    </tr>
+    <tr>
+      <td>Cutting Board</td>
+      <td>1</td>
+      <td>Surface for peeling and cutting.</td>
+    </tr>
+    <tr>
+      <td>Bowl</td>
+      <td>1 (blue)</td>
+      <td>To hold cut potato fries before blanching.</td>
+    </tr>
+    <tr>
+      <td>Pot</td>
+      <td>1</td>
+      <td>Used for blanching fries.</td>
+    </tr>
+    <tr>
+      <td>Pot Lid</td>
+      <td>1</td>
+      <td>Used to speed up water boiling.</td>
+    </tr>
+    <tr>
+      <td>Induction Cooktop</td>
+      <td>1</td>
+      <td>Heat source for blanching and frying.</td>
+    </tr>
+    <tr>
+      <td>Spider Strainer/Skimmer</td>
+      <td>1</td>
+      <td>Used to remove fries from water and oil.</td>
+    </tr>
+    <tr>
+      <td>Paper Towel</td>
+      <td>2 sheets</td>
+      <td>Used for draining blanched and fried potatoes.</td>
+    </tr>
+    <tr>
+      <td>Tray</td>
+      <td>1 (grey)</td>
+      <td>Used with paper towel for draining.</td>
+    </tr>
+    <tr>
+      <td>Frying Pan</td>
+      <td>1</td>
+      <td>Used for deep frying the fries.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 bottle</td>
+      <td>For frying.</td>
+    </tr>
+    <tr>
+      <td>Flour</td>
+      <td>1 bowl</td>
+      <td>For coating the fries before frying.</td>
+    </tr>
+    <tr>
+      <td>Plastic Container with Lid</td>
+      <td>1</td>
+      <td>Used to shake and coat fries with flour.</td>
+    </tr>
+    <tr>
+      <td>Salt Shaker</td>
+      <td>1</td>
+      <td>For seasoning the final dish.</td>
+    </tr>
+    <tr>
+      <td>Ketchup Bottle</td>
+      <td>1</td>
+      <td>For the dipping sauce.</td>
+    </tr>
+    <tr>
+      <td>Small Dipping Bowl</td>
+      <td>1</td>
+      <td>To serve the ketchup.</td>
+    </tr>
+    <tr>
+      <td>Plate</td>
+      <td>1 (white)</td>
+      <td>For the final presentation.</td>
+    </tr>
+    <tr>
+      <td>Fork</td>
+      <td>1</td>
+      <td>Part of the final plating.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Fried Potato Walkthrough</h2>
+
+<h3>Step 1. Harvest Potatoes (Mini-game)</h3>
+<p>
+  Tap and hold the **potato plant stem** to pull the potatoes out of the ground.
+  Drag the individual good potatoes hanging from the roots into the **sack on
+  the left** (marked with a potato symbol). Avoid the sack on the right (marked
+  with an 'X').
+</p>
+<p>
+  💡 <strong>Tip:</strong> Quickly drag all the potatoes into the correct sack
+  before they retract.
+</p>
+
+<h3>Step 2. Wash Potatoes</h3>
+<p>
+  At the sink station, tap the **drain plug button**. Turn on the **faucet** by
+  tapping it to fill the sink with water. Drag the dirty potatoes from the sack
+  into the sink one by one. Once clean (sparkling), drag them onto the **pink
+  tray** nearby. Turn off the faucet.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Make sure all potatoes are washed until they
+  sparkle.
+</p>
+
+<h3>Step 3. Peel and Cut Potatoes</h3>
+<p>
+  Place one potato on the **cutting board**. Select the **peeler tool** and
+  drag it across the potato until fully peeled. Select the **knife**. Drag it
+  vertically down the center guide, then repeatedly drag it horizontally across
+  the guides to cut it into fries. Move the cut fries into the **blue bowl**.
+  Repeat for the remaining two potatoes.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Follow the cutting guides accurately for uniform
+  fries.
+</p>
+
+<h3>Step 4. Blanch the fries in boiling water</h3>
+<p>
+  Place the **pot** under the faucet and fill it with water. Move the pot onto
+  the **induction cooktop**. Place the **lid** on the pot and turn on the
+  cooktop. Wait for the water to boil (indicated by bubbles). Remove the lid.
+  Add the cut fries from the blue bowl into the boiling water. Wait until they
+  turn slightly pale (blanched). Use the **spider strainer** to scoop the fries
+  out and place them onto the **paper towel-lined grey tray**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Don't overcook during blanching; they just need a
+  brief boil.
+</p>
+
+<h3>Step 5. Fry the Potatoes</h3>
+<p>
+  Place the **frying pan** on the cooktop and turn it on. Add **oil** from the
+  bottle into the pan and wait for it to heat up (shimmering). Pour **flour**
+  from the bowl into the **plastic container**. Add the blanched fries into the
+  container. Close the lid and shake vigorously (tap/drag rapidly) until the
+  fries are coated. Open the lid. Add the flour-coated fries to the hot oil in
+  the pan. Fry until golden brown. Use the **spider strainer** to remove the
+  cooked fries and place them onto the fresh paper towel on the tray.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure the oil is hot before adding fries. Shake
+  well for even flour coating. Fry to a nice golden color.
+</p>
+
+<h3>Step 6. Plate the Fried Potatoes</h3>
+<p>
+  Move the cooked fries from the paper towel onto the **white plate**. Select
+  the **salt shaker** and sprinkle salt over the fries. Select the **ketchup
+  bottle** and squeeze ketchup into the **small dipping bowl**. Place the
+  dipping bowl on the plate next to the fries.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Arrange the fries nicely, and don't forget the salt
+  and ketchup dip.
+</p>
+
+<h2>Tips and Tricks for Cookingdom Level 2</h2>
 <ul>
-  <li><strong>Make Fried Potatoes:</strong> Master the correct frying process using the fryer, even though it lacks the complex steps of an oven.</li>
-  <li><strong>Handle Multiple Customers:</strong> Expect more customers than in previous levels, requiring quick handling of multiple orders and efficient service.</li>
-  <li><strong>Improve Kitchen Efficiency:</strong> Learn to use kitchen equipment effectively, like prepping potatoes quickly and speeding up frying.</li>
+  <li>
+    In the mini-game, be sure to put potatoes only in the sack with the
+    potato icon.
+  </li>
+  <li>Wash each potato thoroughly in the sink.</li>
+  <li>Peel completely and cut following the guides for even cooking.</li>
+  <li>
+    Blanching briefly helps create a fluffy interior and crispy exterior.
+  </li>
+  <li>Ensure oil is properly heated before frying for crispiness.</li>
+  <li>Shake the container well to get an even coating of flour.</li>
+  <li>Drain the fries well after blanching and frying.</li>
 </ul>
-<h2>Fried Potato Making Steps</h2>
-<h3>Prepare Potatoes:</h3>
-<p>Take potatoes from the ingredient area and cut them into strips. You can choose to prep them in advance or when an order comes in.</p>
+
+<h2>Common Mistakes to Avoid in Cookingdom Level 2</h2>
 <ul>
-  <li><strong>Tip:</strong> Prepping potatoes ahead reduces customer wait time, especially with multiple simultaneous arrivals.</li>
-</ul>
-<h3>Fry Potatoes:</h3>
-<p>Place the cut potato strips into the fryer. Control the frying time to ensure they are crispy outside and soft inside.</p>
-<ul>
-  <li>Observe the potatoes' change during frying to avoid over-frying (making them burnt or greasy).</li>
-  <li><strong>Tip:</strong> Potatoes are usually ready when they turn golden brown and float to the surface; remove them promptly.</li>
-</ul>
-<h3>Add Seasoning:</h3>
-<p>After frying, add extra seasonings like salt or pepper to enhance flavor and customer satisfaction.</p>
-<h3>Serve to Customer:</h3>
-<p>Deliver the finished fried potatoes immediately. Though relatively quick to make, timely service is still needed to prevent long waits.</p>
-<h2>Tips and Tricks</h2>
-<ul>
-  <li><strong>Prepare Ingredients in Advance:</strong> With potentially frequent customer demands, prepping potato strips and the fryer is key to efficiency. Prepping saves significant time, especially with multiple waiting customers.</li>
-  <li><strong>Master Frying Time:</strong> Keep frying time within the right range. Too long makes potatoes greasy or burnt; too short makes them not crispy enough. Watch their appearance and changes in the fryer.</li>
-  <li><strong>Utilize Kitchen Equipment:</strong> You might unlock boosters or equipment like a rapid fryer. Use these to speed up cooking during peak times.</li>
-  <li><strong>Prioritize Customer Orders:</strong> Multiple customers might arrive simultaneously. Prioritize those waiting longer to ensure they get their food quickly.</li>
-  <li><strong>Serve Quickly:</strong> Maintain efficient service to minimize wait times. Since fries are quick, use the time saved to prep the next dish or clean the kitchen.</li>
-</ul>
-<h2>Summary</h2>
-<p>Level 3's fried potato making is simple but demands efficient kitchen management and time control. You'll learn to operate frying equipment and handle multiple customer needs. As the game progresses, facing more diverse dishes and complex tasks, improving kitchen efficiency is crucial for success.</p>
-<p>Completing Level 3 unlocks more recipes and equipment, preparing you for higher difficulty levels.</p>`,
+  <li>Placing potatoes in the wrong sack during harvesting.</li>
+  <li>Forgetting to wash or peel the potatoes.</li>
+  <li>Cutting fries too thick or unevenly.</li>
+  <li>Add fries to cold water for blanching or cold oil for frying.</li>
+  <li>Overcooking or undercooking the fries during blanching or frying.</li>
+  <li>Not coating the fries properly with flour.</li>
+  <li>Forgetting to add salt or the ketchup dip during plating.</li>
+</ul>`,
   },
 
   {
@@ -205,39 +408,191 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Game Introduction</h2>
-<p>Level 3 introduces players to the fun of making Rolled Ice Cream. This dessert requires more precision and timing, and teaches players how to use freezing plates, control consistency, and decorate with toppings.</p>
-<h2>Level 3 Goal</h2>
+    detailsHtml: `
+    <h2>Welcome to Cookingdom Level 3: Rolled Ice-Cream Walkthrough & Guide</h2>
+<p>
+  Welcome to **Cookingdom Level 3**, where your mission is to craft the perfect
+  **rolled ice cream** using the correct tools, sequence, and timing. This
+  level introduces players to Cookingdom's intuitive yet precise cooking
+  mechanics in a relaxed, no-timer environment.
+</p>
+<p>
+  This walkthrough gives you the exact steps to succeed in **Cookingdom Level
+  3**, detailing every ingredient, action, and placement needed.
+</p>
+
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ice Cream Base (White)</td>
+      <td>4 scoops total (2 per bowl)</td>
+      <td>The primary base for the rolled ice cream.</td>
+    </tr>
+    <tr>
+      <td>Banana</td>
+      <td>Approx. 1/2</td>
+      <td>Sliced, used for the first variation.</td>
+    </tr>
+    <tr>
+      <td>Kiwi</td>
+      <td>Approx. 1/2</td>
+      <td>Diced, used for the second variation.</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>1 carton</td>
+      <td>Poured onto the mixture on the cold plate (used twice).</td>
+    </tr>
+    <tr>
+      <td>Colorful Sprinkles/Candy Bits</td>
+      <td>1 plate</td>
+      <td>Used as topping for both bowls.</td>
+    </tr>
+    <tr>
+      <td>Chocolate Syrup Swirls</td>
+      <td>1 plate</td>
+      <td>Pre-made swirls used as topping for both bowls.</td>
+    </tr>
+    <tr>
+      <td>Chocolate Bars</td>
+      <td>1 plate</td>
+      <td>Broken pieces used as topping for both bowls.</td>
+    </tr>
+    <tr>
+      <td>Wafer Sticks/Pocky</td>
+      <td>1 cup</td>
+      <td>Used as topping garnish for both bowls.</td>
+    </tr>
+    <tr>
+      <td>Serving Bowl (Blue)</td>
+      <td>2</td>
+      <td>To hold the final rolled ice cream.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Rolled Ice-Cream Walkthrough</h2>
+
+<h3>Step 1. Add Base and Fruit</h3>
+<p>
+  Using the scoop, place **two dollops of white ice cream base** onto the cold
+  plate. Select either **banana or kiwi** and place the fruit pieces onto the
+  base.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure fruit is added before mixing. A heart icon
+  confirms correct placement.
+</p>
+
+<h3>Step 2. Chop and Mix Fruit</h3>
+<p>
+  Take the **two spatulas** and repeatedly chop the fruit into the ice cream
+  base on the cold plate, mixing them thoroughly.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Mix until the fruit is well incorporated. A heart
+  icon appears when sufficiently mixed.
+</p>
+
+<h3>Step 3. Add Milk 🥛</h3>
+<p>
+  Pour **milk** from the carton over the chopped fruit and ice cream mixture
+  spread on the plate.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Pour evenly across the mixture. Wait for the heart
+  icon confirmation.
+</p>
+
+<h3>Step 4. Spread Mixture Thinly</h3>
+<p>
+  Quickly use the **spatulas** to spread the liquid mixture into a **thin, even
+  rectangular layer** across the entire cold plate. Scrape vertical lines to
+  divide the layer into strips.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Work fast before it freezes too hard. An even, thin
+  layer is crucial for good rolls. A heart icon appears after spreading.
+</p>
+
+<h3>Step 5. Roll the Ice Cream</h3>
+<p>
+  Position a **spatula** at the bottom edge of one strip. Push forward firmly
+  at about a 45-degree angle to scrape the ice cream layer off the plate,
+  causing it to curl into a roll. Repeat for all strips.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Consistent pressure and angle are key for neat
+  rolls. A heart icon appears when all strips are rolled.
+</p>
+
+<h3>Step 6. Transfer Rolls to Bowl</h3>
+<p>
+  Carefully use the **spatula** to lift each completed ice cream roll and place
+  it upright into the **blue serving bowl**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Arrange the rolls neatly to fill the bowl.
+</p>
+
+<h3>Step 7. Add Toppings 🎉</h3>
+<p>
+  Sprinkle the **colorful candy bits** over the ice cream rolls in the bowl.
+  Add the **chocolate syrup swirls**. Finally, insert pieces of **chocolate
+  bar** and **wafer sticks**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Follow the topping order shown: Sprinkles -> Syrup
+  Swirls -> Chocolate/Wafers. Heart icons appear after adding syrup and
+  chocolate/wafers.
+</p>
+
+<h3>Step 8. Repeat for Second Variation</h3>
+<p>
+  Make a second bowl of rolled ice cream using the *other* fruit (if you used
+  banana first, use kiwi now, and vice versa). Follow all previous steps (1-7)
+  for this second bowl.
+</p>
+<p>
+  💡 <strong>Tip:</strong> The customer requires both variations (Banana and
+  Kiwi) to complete the level successfully.
+</p>
+
+<h2>Tips and Tricks for Cookingdom Level 4</h2>
 <ul>
-  <li><strong>Master the Roll:</strong> Pour and freeze the ice cream base, then roll it with precision to make visually appealing desserts.</li>
-  <li><strong>Use Toppings Creatively:</strong> Add fruit, candy, or sauces to increase customer satisfaction.</li>
-  <li><strong>Time and Sequence:</strong> Manage the freezing and rolling process efficiently to avoid delays.</li>
+  <li>
+    ✔️ **Speed is important** when spreading the mixture on the cold plate.
+  </li>
+  <li>✔️ Ensure the mixture is spread **very thinly** for easier rolling.</li>
+  <li>
+    ✔️ Mastering the **scraping angle** is key to getting perfect, unbroken
+    rolls.
+  </li>
+  <li>
+    ✔️ Remember to make **both the banana and kiwi variations** to satisfy the
+    customer.
+  </li>
+  <li>✔️ Add toppings in the **correct sequence** shown in the video.</li>
 </ul>
-<h2>Rolled Ice Cream Making Steps</h2>
-<h3>Prepare the Base:</h3>
-<p>Select the right ice cream base from the ingredient area. Pour it evenly onto the cold plate for freezing.</p>
+
+<h2>Common Mistakes to Avoid in Cookingdom Level 3</h2>
 <ul>
-  <li><strong>Tip:</strong> Spread the mixture thin for faster freezing and easier rolling.</li>
+  <li>Spreading the ice cream base too thick, making it hard to roll.</li>
+  <li>Not mixing the fruit and base thoroughly enough.</li>
+  <li>Rolling too slowly or with incorrect pressure/angle, causing rolls to break.</li>
+  <li>Forgetting to add milk.</li>
+  <li>Missing toppings or adding them in the wrong order.</li>
+  <li>Only preparing one fruit variation instead of the required two.</li>
 </ul>
-<h3>Freeze and Roll:</h3>
-<p>Let the base freeze on the plate. Use the spatula to scrape and roll the frozen layer into curls.</p>
-<ul>
-  <li>Watch carefully—start rolling once the base is firm but not rock solid.</li>
-  <li><strong>Tip:</strong> Smooth, even rolling boosts customer ratings and makes serving quicker.</li>
-</ul>
-<h3>Add Toppings:</h3>
-<p>Choose from toppings like strawberries, chocolate syrup, or sprinkles. Add them quickly before serving.</p>
-<h3>Serve to Customer:</h3>
-<p>Deliver the decorated ice cream rolls immediately. Presentation and speed affect satisfaction scores.</p>
-<h2>Tips and Tricks</h2>
-<ul>
-  <li><strong>Work in Batches:</strong> Prepare multiple bases and freeze in sequence to keep production steady during rushes.</li>
-  <li><strong>Watch the Freezing:</strong> Timing is critical. If the base is under-frozen, it won’t roll well; if over-frozen, it’s hard to shape.</li>
-  <li><strong>Decorate Fast:</strong> Have toppings ready to add right after rolling. This minimizes time and maximizes customer delight.</li>
-  <li><strong>Upgrade Equipment:</strong> Unlock faster freezers or better spatulas to reduce effort and speed up the process.</li>
-</ul>
-<h2>Summary</h2>
-<p>Cookingdom Level 3 elevates the gameplay with the unique technique of making rolled ice cream. You’ll learn to balance freezing time, rolling skills, and toppings to craft the perfect treat. With practice, you’ll be able to serve quickly and beautifully under time pressure. Get ready for more advanced dishes in future levels!</p>`,
+    `,
   },
 
   {
@@ -286,38 +641,257 @@ export const levels01to10 = [
         },
       ],
     },
-    detailsHtml: `<h2>Game Introduction</h2>
-<p>Level 4 introduces players to a refreshing and healthy dish: the Simple Salad. While it seems easy, the challenge lies in the fast-paced order processing and ingredient preparation. Precision, speed, and multitasking are key to success here.</p>
-<h2>Level 4 Goal</h2>
+    detailsHtml: `
+    <h2>Welcome to Cookingdom Level 4: Simple Salad Walkthrough & Guide 🥗</h2>
+<p>
+  Welcome to **Cookingdom Level 4**, where your mission is to craft the perfect
+  **Simple Salad** using the correct tools, sequence, and timing. This level
+  introduces players to Cookingdom's intuitive yet precise cooking mechanics in
+  a relaxed, no-timer environment.
+</p>
+<p>
+  This walkthrough gives you the exact steps to succeed in **Cookingdom Level
+  2**, detailing every ingredient, action, and placement needed.
+</p>
+
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lettuce</td>
+      <td>1 head</td>
+      <td>Requires washing and cutting.</td>
+    </tr>
+    <tr>
+      <td>Avocado</td>
+      <td>1</td>
+      <td>Requires washing, peeling, and cutting.</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>1</td>
+      <td>Requires washing and cutting.</td>
+    </tr>
+    <tr>
+      <td>Onion</td>
+      <td>1</td>
+      <td>Requires washing and cutting.</td>
+    </tr>
+    <tr>
+      <td>Red Cabbage</td>
+      <td>1 wedge</td>
+      <td>Requires washing and cutting.</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>1</td>
+      <td>Requires washing, peeling, and cutting.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>As needed</td>
+      <td>Used for washing vegetables in the sink.</td>
+    </tr>
+    <tr>
+      <td>Peeler</td>
+      <td>1</td>
+      <td>Used for peeling carrot and avocado.</td>
+    </tr>
+    <tr>
+      <td>Knife</td>
+      <td>1</td>
+      <td>Used for cutting all vegetables.</td>
+    </tr>
+    <tr>
+      <td>Cutting Board</td>
+      <td>1</td>
+      <td>Surface for peeling and cutting.</td>
+    </tr>
+    <tr>
+      <td>Containers</td>
+      <td>3</td>
+      <td>
+        Temporary holding for washed/prepped vegetables (green, pink, purple
+        trimmed).
+      </td>
+    </tr>
+    <tr>
+      <td>Mixing Bowl</td>
+      <td>1 (purple)</td>
+      <td>Used to combine and toss salad ingredients.</td>
+    </tr>
+    <tr>
+      <td>Mixing Spoons/Servers</td>
+      <td>2 (wooden)</td>
+      <td>Used to toss the salad.</td>
+    </tr>
+    <tr>
+      <td>Serving Plate</td>
+      <td>1 (purple trim)</td>
+      <td>For the final presentation.</td>
+    </tr>
+    <tr>
+      <td>Large Lettuce Leaves</td>
+      <td>2-3</td>
+      <td>Used as a base for plating the salad.</td>
+    </tr>
+    <tr>
+      <td>Salad Dressing</td>
+      <td>1 bottle</td>
+      <td>Kewpie-style bottle, used for the final drizzle.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Simple Salad Walkthrough</h2>
+
+<h3>Step 1. Wash Vegetables</h3>
+<p>
+  At the sink station, turn on the **faucet**. Drag the **lettuce, avocado,
+  tomato, onion, red cabbage, and carrot** into the sink one by one. Wait for
+  each to sparkle, indicating it's clean. Place washed vegetables into the
+  **temporary containers**. Turn off the faucet.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure every vegetable sparkles before removing it
+  from the sink.
+</p>
+
+<h3>Step 2. Cut Lettuce</h3>
+<p>
+  Place the washed **lettuce** onto the **cutting board**. Select the **knife
+  tool**. Follow the on-screen guides to cut the lettuce. Move the cut lettuce
+  into the **green container**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Align cuts with the guides for proper preparation.
+</p>
+
+<h3>Step 3. Cut Red Cabbage</h3>
+<p>
+  Place the washed **red cabbage wedge** onto the **cutting board**. Select the
+  **knife tool** and follow the guides to shred the cabbage. Move the cut red
+  cabbage into the **purple-trimmed container**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Precise cuts along the guides ensure correct
+  shredding.
+</p>
+
+<h3>Step 4. Cut Onion</h3>
+<p>
+  Place the washed **onion** onto the **cutting board**. Select the **knife
+  tool** and follow the guides to slice it; the outer skin will be
+  automatically removed. Move the cut onion into the **pink-trimmed
+  container**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Cutting according to the guides handles the peeling
+  automatically.
+</p>
+
+<h3>Step 5. Cut Tomato</h3>
+<p>
+  Place the washed **tomato** onto the **cutting board**. Select the **knife
+  tool** and follow the guides to slice the tomato. Move the sliced tomato into
+  the **pink-trimmed container**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Steady cuts following the lines create perfect
+  slices.
+</p>
+
+<h3>Step 6. Peel and Cut Carrot</h3>
+<p>
+  Place the washed **carrot** onto the **cutting board**. Select the **peeler
+  tool** and drag it over the carrot to peel it completely. Switch to the
+  **knife tool** and follow the guides to dice the carrot. Move the diced
+  carrot into the **purple-trimmed container**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure the carrot is fully peeled before dicing.
+</p>
+
+<h3>Step 7. Peel and Cut Avocado</h3>
+<p>
+  Place the washed **avocado** onto the **cutting board**. Select the **peeler
+  tool** and peel the avocado. Switch to the **knife tool** and follow the
+  guides to slice the avocado (the pit is removed automatically). Move the
+  sliced avocado into the **green container**.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Peeling first makes slicing easier; follow the
+  guides.
+</p>
+
+<h3>Step 8. Mix the Salad</h3>
+<p>
+  The scene shifts to the Chef Capybara. Add all the prepared ingredients (cut
+  lettuce, red cabbage, onion, tomato, carrot, and avocado) from their containers
+  into the large **purple mixing bowl**. Use the **two wooden servers** to toss
+  the salad by tapping/dragging until the mixing progress bar is full.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure all ingredients are added to the bowl before
+  mixing. Mix thoroughly.
+</p>
+
+<h3>Step 9. Plate and Dress the Salad</h3>
+<p>
+  Arrange the **large lettuce leaves** on the **serving plate** to form a base.
+  Pour the mixed salad from the purple bowl onto the lettuce leaves. Select the
+  **salad dressing bottle** and drizzle the dressing over the salad in a
+  crisscross pattern.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Create an appealing base with the lettuce leaves.
+  Apply the dressing evenly as shown.
+</p>
+
+<h2>Tips and Tricks for Cookingdom Level 4</h2>
 <ul>
-  <li><strong>Chop and Mix:</strong> Accurately prepare salad ingredients by chopping vegetables and mixing them in the correct order.</li>
-  <li><strong>Serve Quickly:</strong> Customers expect quick service; maintain a steady workflow to avoid delays.</li>
-  <li><strong>Manage Freshness:</strong> Don’t leave ingredients out too long or they may spoil or be rejected by picky customers.</li>
+  <li>
+    ✔️ Wash vegetables until they **sparkle** to ensure cleanliness.
+  </li>
+  <li>
+    ✔️ Follow cutting guides carefully for each ingredient to get the **correct
+    size and shape**.
+  </li>
+  <li>✔️ Remember to **peel the carrot and avocado** before cutting.</li>
+  <li>
+    ✔️ Mix the salad until the **progress bar completely fills up**.
+  </li>
+  <li>
+    ✔️ Use the **large lettuce leaves** as a decorative and edible base during
+    plating.
+  </li>
+  <li>
+    ✔️ Replicate the **crisscross dressing pattern** for the best presentation
+    score.
+  </li>
 </ul>
-<h2>Simple Salad Making Steps</h2>
-<h3>Gather Ingredients:</h3>
-<p>Collect the vegetables: lettuce, tomato, and cucumber. Ingredients are placed in the ingredient station—tap them to bring them to the prep board.</p>
+
+<h2>Common Mistakes to Avoid in Cookingdom Level 4</h2>
 <ul>
-  <li><strong>Tip:</strong> Always keep a few of each ingredient prepped during idle moments.</li>
+  <li>Not washing all vegetables thoroughly.</li>
+  <li>Forgetting to peel the carrot or avocado.</li>
+  <li>Cutting vegetables incorrectly (not following the guides).</li>
+  <li>
+    Adding ingredients to the mixing bowl in the wrong order (though usually
+    doesn't penalize).
+  </li>
+  <li>Insufficiently mixing the salad (not filling the progress bar).</li>
+  <li>Forgetting to place the base lettuce leaves on the plate first.</li>
+  <li>Not adding the final salad dressing or applying it messily.</li>
 </ul>
-<h3>Chop Vegetables:</h3>
-<p>Use the knife tool to chop ingredients. Precision is key—chop too slowly, and customers will wait. Chop too fast, and you may make mistakes.</p>
-<h3>Mix and Assemble:</h3>
-<p>Place the chopped vegetables into the salad bowl in the right order. Some customers may request specific ingredient combinations.</p>
-<ul>
-  <li><strong>Tip:</strong> Pay attention to order bubbles showing customer preferences.</li>
-</ul>
-<h3>Serve to Customer:</h3>
-<p>Deliver the salad quickly after assembling. If served late, customer satisfaction will decrease.</p>
-<h2>Tips and Tricks</h2>
-<ul>
-  <li><strong>Pre-Chop Common Veggies:</strong> Lettuce and tomato appear in most orders, so having them ready reduces service time.</li>
-  <li><strong>Watch the Order Queue:</strong> Prepare for the next order while assembling the current one. This helps maintain a flow during peak times.</li>
-  <li><strong>Upgrade Tools:</strong> Unlock a faster knife or an automatic chopper to increase your speed and accuracy.</li>
-  <li><strong>Time Management:</strong> Juggling orders and freshness is crucial. Don't overstock chopped ingredients to avoid waste.</li>
-</ul>
-<h2>Summary</h2>
-<p>Cookingdom Level 4 is all about speed and accuracy. Making a Simple Salad might be basic, but with fast-paced orders and specific requests, you’ll need to manage ingredients, prep time, and service flow efficiently. Get ready for more challenging dishes in the next levels!</p>`,
+    `,
   },
 
   {
@@ -687,92 +1261,195 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-    <h2 id="overview">Cookingdom Level 8 Game Overview</h2>
-<p>In Cookingdom Level 8 brings the bold and flavorful Texas BBQ into the kitchen. This level challenges you to prepare a hearty, smoky BBQ meal with various meats, sauces, and sides.</p>
-<p>At this level, you will be preparing BBQ meats like ribs or brisket, and pairing them with classic BBQ sides like cornbread, baked beans, and coleslaw. The challenge in Cookingdom Level 8 is balancing the cooking times of the meats and sides while ensuring everything is served hot and flavorful.</p>
-<p>Let's dive into the details of Level 8 and master Texas BBQ!</p>
+    <h2>Welcome to Cookingdom Level 8: Texas BBQ Walkthrough & Guide</h2>
+<p>
+  Welcome to **Cookingdom Level 8**, where your mission is to craft the perfect
+  **Texas BBQ** using the correct tools, sequence, and timing. This level
+  introduces players to Cookingdom's intuitive yet precise cooking mechanics in
+  a relaxed, no-timer environment.
+</p>
+<p>
+  This walkthrough gives you the exact steps to succeed in **Cookingdom Level
+  8**, detailing every ingredient, action, and placement needed.
+</p>
 
-<h2 id="goal">Cookingdom Level 8 Goals</h2>
+<h2>Ingredients Needed</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pork Ribs</td>
+      <td>1 rack (4 ribs)</td>
+      <td>Obtained from the boar mini-game using a carrot.</td>
+    </tr>
+    <tr>
+      <td>Paper Towel</td>
+      <td>1 roll</td>
+      <td>Used for patting ribs dry.</td>
+    </tr>
+    <tr>
+      <td>Red Seasoning (Paprika/Chili?)</td>
+      <td>1 shaker</td>
+      <td>Sprinkled on ribs after drying and cutting.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 shaker</td>
+      <td>Sprinkled on ribs after red seasoning.</td>
+    </tr>
+    <tr>
+      <td>Garlic</td>
+      <td>1 bulb</td>
+      <td>Peeled and minced for the sauce.</td>
+    </tr>
+    <tr>
+      <td>Spring Onions</td>
+      <td>1 bunch</td>
+      <td>Chopped for the sauce.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 cube</td>
+      <td>Used to start the sauce in the pan.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 bowl</td>
+      <td>Added to the sauce.</td>
+    </tr>
+    <tr>
+      <td>Red Sauce Base (Ketchup/BBQ Base?)</td>
+      <td>1 bowl</td>
+      <td>Main liquid component of the BBQ sauce.</td>
+    </tr>
+    <tr>
+      <td>Salad Mix</td>
+      <td>1 bowl</td>
+      <td>Component for the final plating.</td>
+    </tr>
+    <tr>
+      <td>Salad Dressing</td>
+      <td>1 bowl</td>
+      <td>Added to the salad during plating.</td>
+    </tr>
+    <tr>
+      <td>Fried Egg</td>
+      <td>1</td>
+      <td>Component for the final plating.</td>
+    </tr>
+    <tr>
+      <td>Cooked BBQ Sauce</td>
+      <td>1 bowl</td>
+      <td>The finished sauce, used for basting and final plating.</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>1</td>
+      <td>Used exclusively in the boar mini-game.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Step-by-Step Texas BBQ Walkthrough</h2>
+
+<h3>Step 1. Gather the Boar Meat (Mini-game)</h3>
+<p>
+  In the outdoor scene, wait for the **rabbit** to appear with a **carrot**.
+  Drag the **carrot** to the **boar** hiding in the bush. The boar eats it and
+  runs off, leaving the meat ingredient.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Be ready to drag the carrot as soon as the rabbit
+  brings it.
+</p>
+
+<h3>Step 2. Prepare the Ribs</h3>
+<p>
+  Place the **rib rack** on the **cutting board**. Drag the **paper towel**
+  over the three highlighted spots to pat dry. Select the **knife** and cut
+  vertically between the bones, following the guides (3 cuts). Sprinkle the
+  **red seasoning**, then the **salt shaker** over the ribs.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure all spots are dried and cuts are precise.
+  Season evenly.
+</p>
+
+<h3>Step 3. Prepare Aromatics</h3>
+<p>
+  Place the **garlic bulb** on the empty cutting board. Tap repeatedly to
+  separate cloves. Select the **knife** and tap the cloves to mince. Move
+  garlic aside. Place **spring onions** on the board. Select the **knife** and
+  tap to chop both the white and green parts.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Repeated tapping speeds up mincing and chopping.
+</p>
+
+<h3>Step 4. Cook the BBQ Sauce</h3>
+<p>
+  Turn on the **induction cooktop**. Place the **pan** on it. Add **butter**
+  and let it melt. Add **minced garlic** and sauté briefly. Use the **spoon**
+  to add **sugar** from its bowl; stir. Use the spoon to add the **red sauce
+  base; stir. Add **chopped spring onions** and stir until the sauce simmers.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Add ingredients in the correct order and stir after
+  each addition.
+</p>
+
+<h3>Step 5. Grill the Ribs</h3>
+<p>
+  Place the **grill plate** on the cooktop. Place the seasoned **ribs** onto
+  the hot grill. Use the **spoon** to take **BBQ sauce** from the bowl and
+  repeatedly drag it over the ribs to baste them as they cook.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Ensure all ribs are thoroughly basted multiple times
+  for a good glaze. Wait for the heart confirmation.
+</p>
+
+<h3>Step 6. Plate the Texas BBQ</h3>
+<p>
+  On the empty plate, first add the **salad mix**. Use the **spoon** to add
+  **dressing** to the salad. Place the **grilled ribs** next to the salad. Add
+  the **fried egg** beside the ribs. Finally, use the **spoon** to drizzle more
+  **BBQ sauce** over the ribs.
+</p>
+<p>
+  💡 <strong>Tip:</strong> Arrange the components neatly as shown in the final
+  dish image for best presentation.
+</p>
+
+<h2>Tips and Tricks for Cookingdom Level 8</h2>
 <ul>
-    <li>
-        <strong>Cook the BBQ Meat (Ribs or Brisket):</strong> You'll need to cook the meat to perfection, making sure it's tender, juicy, and full of smoky flavor.
-    </li>
-    <li>
-        <strong>Prepare the BBQ Sauce:</strong> A good BBQ sauce is crucial for that authentic Texas flavor. You'll need to make sure the sauce is well-seasoned and paired perfectly with the meat.
-    </li>
-    <li>
-        <strong>Cook the Sides:</strong> Texas BBQ is usually served with sides like cornbread, baked beans, and coleslaw. You'll need to keep these cooking while you manage the BBQ meats.
-    </li>
-    <li>
-        <strong>Serve Quickly:</strong> As always in Cookingdom Level 8 , serving your BBQ dishes hot and fresh is important for earning high ratings from customers. The faster you serve, the better your customer satisfaction.
-    </li>
+  <li>
+    ✔️ The initial mini-game requires **quick action** with the carrot.
+  </li>
+  <li>
+    ✔️ Properly **drying, cutting, and seasoning** the ribs is crucial.
+  </li>
+  <li>✔️ Follow the **sequence precisely** when cooking the sauce.</li>
+  <li>
+    ✔️ **Generous basting** during grilling creates the signature BBQ look.
+  </li>
+  <li>✔️ **Neat plating** contributes to the final score.</li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 8 Steps to Make Texas BBQ</h2>
-<ol>
-    <li>
-        <h3>Cook the BBQ Meat (Ribs or Brisket):</h3>
-        <p>Start by seasoning your choice of meat (ribs or brisket) with a dry rub or marinade. In Cookingdom Level 8 , the seasoning will be provided for you, so your task is to apply it evenly to the meat.</p>
-        <p>Once the meat is seasoned, place it in the smoker or grill. Cookingdom Level 8  uses a slow-cooking method, so this process can take time. Monitor the cooking to ensure the meat is tender and perfectly cooked.</p>
-        <p><strong>Tip:</strong> Turn the meat regularly to ensure it cooks evenly on all sides. The ideal BBQ meat will be crispy on the outside, with a juicy and tender inside.</p>
-        <p><strong>Tip:</strong> Don't overcook the meat! In Cookingdom Level 8 , keeping the meat just right will give it the best texture and flavor.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 8 Prepare the BBQ Sauce:</h3>
-        <p>While the meat is cooking, focus on making the BBQ sauce. In Cookingdom Level 8 , the sauce is typically a blend of tangy, sweet, and smoky flavors, often with a base of ketchup or tomato sauce, vinegar, and brown sugar.</p>
-        <p>You'll need to mix the ingredients together and cook them down into a thick, flavorful sauce. Once the sauce is ready, you'll apply it to the meat either during cooking or after the meat is plated.</p>
-        <p><strong>Tip:</strong> Don't let the sauce burn! Stir it occasionally to keep it from sticking to the bottom of the pot. The sauce should be thick enough to coat the meat without being too runny.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 8 Cook the Sides:</h3>
-        <p>While you're focusing on the BBQ meat and sauce, don't forget about the sides! Texas BBQ is typically served with:</p>
-        <ul>
-            <li><strong>Cornbread:</strong> A slightly sweet, moist bread to complement the savory BBQ flavors.</li>
-            <li><strong>Baked Beans:</strong> Slow-cooked beans in a rich sauce, often flavored with BBQ sauce or bacon.</li>
-            <li><strong>Coleslaw:</strong> A cool, crunchy side to balance the richness of the BBQ.</li>
-        </ul>
-
-    </li>
-    <li>
-        <h3>Cookingdom Level 8 Assemble the Dish:</h3>
-        <p>Once the meat is cooked to perfection, and the sides are ready, it's time to plate the Texas BBQ. Start by placing the BBQ meat on the plate, then add generous portions of cornbread, baked beans, and coleslaw.</p>
-
-    </li>
-    <li>
-        <h3>Cookingdom Level 8 Serve the Texas BBQ:</h3>
-        <p>After assembling the dish, serve it quickly while everything is still hot. Cookingdom rewards speed, so the faster you serve, the higher your customer ratings will be.</p>
-        <p><strong>Tip:</strong> Don't let the dish sit too long before serving — BBQ is best enjoyed fresh and hot. Make sure all the components are well-heated and ready to go.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 8 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 8</h2>
 <ul>
-    <li>
-        <h3>Slow-Cook the Meat:</h3>
-        <p>Texas BBQ requires slow-cooked meats, so be patient! The key is not to rush the cooking process. Monitor the grill or smoker carefully and avoid turning the heat up too high. A slow, steady cook is the key to tenderness.</p>
-    </li>
-    <li>
-        <h3>Perfect BBQ Sauce:</h3>
-        <p>The BBQ sauce is what really sets Texas BBQ apart. Make sure it's thick and flavorful, but not too sweet or tangy. Balance the flavors well, and stir frequently to avoid burning the sauce.</p>
-    </li>
-    <li>
-        <h3>Multitask Efficiently:</h3>
-        <p>Cookingdom Level 8  requires multitasking, so while the BBQ meat is cooking, keep an eye on the sides. Make sure the cornbread doesn't burn, the baked beans are simmering to the right consistency, and the coleslaw is fresh and crisp.</p>
-    </li>
-    <li>
-        <h3>Serve Fresh and Hot:</h3>
-        <p>The freshness of Texas BBQ is crucial to customer satisfaction. Serve the dish as soon as all the components are ready and hot. The longer the dish sits, the cooler it becomes, and the less appetizing it will be.</p>
-    </li>
-    <li>
-        <h3>Upgrade Your Kitchen:</h3>
-        <p>As you progress in Cookingdom Level 8 , consider upgrading your grill and other kitchen equipment to speed up the cooking process. A faster grill or smoker will help you keep up with the growing number of customers and reduce wait times.</p>
-    </li>
+  <li>Missing the timing in the boar mini-game.</li>
+  <li>Forgetting to pat the ribs dry or making incorrect cuts.</li>
+  <li>Adding sauce ingredients out of order or not stirring.</li>
+  <li>Insufficient basting while grilling the ribs.</li>
+  <li>Sloppy arrangement of items on the final plate.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Level 8 of Cookingdom Level 8 , preparing Texas BBQ involves mastering the art of slow-cooking meats, perfecting the BBQ sauce, and balancing the sides like cornbread, baked beans, and coleslaw. Timing and multitasking are key to success, as you need to manage both the grilling of the meats and the preparation of the sides.</p>
-<p>By focusing on perfecting the BBQ meat, creating a flavorful sauce, and managing your kitchen efficiently, you'll impress your customers and earn top ratings. The combination of tender BBQ, savory sides, and smoky flavor will keep your customers coming back for more.</p>
-
     `,
   },
 
@@ -823,69 +1500,231 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, each level introduces new dishes and more challenging customers. In Level 9, your task is to prepare Spaghetti, a classic Italian dish that requires careful cooking and precise timing. Cooking the spaghetti and preparing the sauce is just the beginning. To keep your customers satisfied, you'll need to pay attention to the details, from the pasta's doneness to the choice of sauce and toppings.</p>
-<p>As you advance in Cookingdom, you'll encounter more complex orders, and preparing spaghetti will test your multitasking and time-management skills. Let's walk through the steps to ensure you master this dish!</p>
+<h2>Welcome to Cookingdom Level 9: Spaghetti Walkthrough & Guide</h2>
+<p>
+  Welcome, aspiring chef! In **Cookingdom Level 9**, your culinary challenge is
+  to perfect a delicious plate of **spaghetti. This level is designed to
+  familiarize you with Cookingdom's precise cooking mechanics in a calm,
+  no-rush setting.
+</p>
+<p>
+  This walkthrough lays out the exact steps you need to conquer Cookingdom Level
+  9, detailing every ingredient, action, and precise placement.
+</p>
 
-<h2 id="goal">Level 9 Goals</h2>
+<h2>Ingredients for Your Perfect Spaghetti</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dry Spaghetti</td>
+      <td>1 portion</td>
+      <td>The raw pasta strands.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>1 bowl</td>
+      <td>Essential for boiling your pasta.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 container</td>
+      <td>To season the boiling water.</td>
+    </tr>
+    <tr>
+      <td>Tomatoes</td>
+      <td>1 bowl</td>
+      <td>Whole, for dicing into the sauce and slicing for garnish.</td>
+    </tr>
+    <tr>
+      <td>Onion</td>
+      <td>1 bowl</td>
+      <td>Whole, to be diced for the sauce.</td>
+    </tr>
+    <tr>
+      <td>Basil Leaves</td>
+      <td>1 bowl</td>
+      <td>Fresh, for the final elegant garnish.</td>
+    </tr>
+    <tr>
+      <td>Ground Meat</td>
+      <td>1 bowl</td>
+      <td>Raw minced meat for your rich bolognese.</td>
+    </tr>
+    <tr>
+      <td>Oil/Butter</td>
+      <td>1 bowl</td>
+      <td>The cooking fat to begin your sauce.</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>1 shaker</td>
+      <td>For seasoning the sauce to perfection.</td>
+    </tr>
+    <tr>
+      <td>Tomato Sauce Base</td>
+      <td>1 jar</td>
+      <td>The concentrated tomato foundation for your meaty sauce.</td>
+    </tr>
+    <tr>
+      <td>Shredded Cheese</td>
+      <td>1 bowl</td>
+      <td>Likely Parmesan, for sprinkling generously on top.</td>
+    </tr>
+    <tr>
+      <td>Cream Sauce Topping</td>
+      <td>1 jar</td>
+      <td>A touch of white sauce for the center during plating.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Spaghetti Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Get the Water Boiling & Season It</h3>
+<p>
+  First, activate the **hot plate**. Pour the **water** from its bowl into the
+  **pot**. Once you see vigorous boiling (lots of bubbles!), add **salt** from
+  its container.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Don't rush! Make sure the water is at a rolling
+  boil before adding salt or pasta. That's key for proper cooking.
+</div>
+
+<h3>Step 2. Cook Your Spaghetti to Al Dente</h3>
+<p>
+  Now, gently place the **dry spaghetti strands** into the boiling, salted
+  water. Wait patiently until the pasta is fully cooked.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> The spaghetti will soften and settle on its own.
+  Keep an eye out for a sparkle animation – that's your cue that it's perfectly
+  cooked!
+</div>
+
+<h3>Step 3. Drain the Cooked Spaghetti</h3>
+<p>
+  Grab your **spider strainer tool**. Carefully lift the cooked spaghetti from
+  the pot and transfer it directly into the designated **serving bowl**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure you get every last strand out of the pot!
+</div>
+
+<h3>Step 4. Precisely Dice the Tomatoes</h3>
+<p>
+  Move the **whole tomatoes** onto the **cutting board**. Select your **knife**
+  and follow the on-screen guides to first slice and then dice the tomatoes. Put
+  the diced tomatoes back into their bowl.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Accurate dicing according to the game's guides
+  is super important for a high score. Take your time here!
+</div>
+
+<h3>Step 5. Dice the Onion with Care</h3>
+<p>
+  Place the **onion** onto the **cutting board**. Use your **knife tool**,
+  following the on-screen guides, to slice and then dice the onion. Return the
+  diced onion to its bowl.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Good knife work here means your ingredients will
+  cook evenly later on.
+</div>
+
+<h3>Step 6. Begin Your Bolognese Sauce</h3>
+<p>
+  Place a clean **pot** onto the **hot plate**. Add the **oil/butter** from its
+  bowl. Sprinkle in some **pepper** from the shaker. Then, add your previously
+  diced **tomatoes and onions** to the pot.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Let the oil or butter warm up a bit before
+  tossing in the vegetables.
+</div>
+
+<h3>Step 7. Sauté Veggies and Cook the Meat</h3>
+<p>
+  Use the **ladle** to stir the tomatoes and onions in the pot. Now, add the
+  **ground meat**. Keep stirring, breaking up the meat as you go, until it
+  changes color and is fully cooked through.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Stir frequently! This prevents sticking and
+  ensures your meat cooks evenly.
+</div>
+
+<h3>Step 8. Simmer the Rich Sauce</h3>
+<p>
+  Pour the **tomato sauce base** from the jar into the pot with your cooked
+  meat and vegetables. Stir everything thoroughly with the **ladle** to combine
+  all the ingredients. Let the sauce simmer until it's ready.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> The sauce will thicken slightly as it simmers. A
+  sparkle animation will confirm when it's perfectly done!
+</div>
+
+<h3>Step 9. Plate Your Spaghetti and Sauce</h3>
+<p>
+  With your cooked spaghetti already in the serving bowl, use the **ladle** to
+  spoon a generous amount of your freshly made **Bolognese sauce** over the
+  pasta.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Make sure your delicious sauce covers the
+  spaghetti well.
+</div>
+
+<h3>Step 10. Garnish for a Masterpiece</h3>
+<p>
+  Carefully arrange the **sliced tomato garnishes** around the outer edge of
+  the pasta. Add a dollop of the **cream sauce topping** right in the center.
+  Sprinkle the **shredded cheese** over the Bolognese sauce. Finally, place the
+  fresh **basil leaves** right on top as the finishing touch.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Exact placement for each garnish, following the
+  visual guides, is essential for that coveted 3-star 'Taste explosion!' rating.
+</div>
+
+<h2>Top Tips for Cookingdom Level 9 Success</h2>
 <ul>
-    <li><strong>Cook Spaghetti to Perfection:</strong> The main goal of this level is to cook spaghetti correctly — al dente! Getting the pasta just right is important for customer satisfaction. Too soft or too hard will affect your score.</li>
-    <li><strong>Prepare the Sauce:</strong> Spaghetti isn't just about the noodles. In Cookingdom, you'll need to prepare the right sauce to go with your pasta, whether it's a tomato sauce, cream-based sauce, or pesto. The sauce should be flavorful and paired well with the spaghetti.</li>
-    <li><strong>Serve Quickly:</strong> As with other levels, speed and precision are key. Your customers are waiting, and serving a perfect plate of spaghetti at the right temperature is crucial for earning high ratings.</li>
+  <li>
+    ✔️ **Pay attention to visual and sound cues** like sparkles and dings;
+    they tell you when cooking processes (like pasta and sauce) are complete.
+  </li>
+  <li>
+    ✔️ **Precision in dicing** vegetables and **accurate placement** of final
+    garnishes are crucial for your score.
+  </li>
+  <li>
+    ✔️ **Stir your bolognese sauce consistently** at every stage, especially
+    after adding meat and the tomato base, for perfect blending and cooking.
+  </li>
+  <li>
+    ✔️ Stick to the **exact order of operations** shown in the game for each
+    step to avoid errors.
+  </li>
 </ul>
 
-<h2 id="steps">Steps to Make Spaghetti</h2>
-<ol>
-    <li>
-        <h3>Boil the Water:</h3>
-        <p>First, fill a pot with water and bring it to a boil. You'll need enough water to cook the spaghetti properly, so make sure the pot is large enough.</p>
-        <p><strong>Tip:</strong> Adding salt to the water helps season the pasta and improves its texture.</p>
-    </li>
-    <li>
-        <h3>Cook the Spaghetti:</h3>
-        <p>Once the water is boiling, add the spaghetti noodles. Make sure the noodles are fully submerged in the water to cook evenly. In Cookingdom, the pasta will take around 7-10 minutes to cook, depending on your chosen doneness.</p>
-        <p><strong>Tip:</strong> Stir the pasta occasionally to prevent it from sticking together. Keep an eye on the timer, as overcooked pasta will be soft and mushy.</p>
-    </li>
-    <li>
-        <h3>Prepare the Sauce:</h3>
-        <p>While the pasta is cooking, it's time to prepare the sauce. Cookingdom offers different types of sauces, so make sure you are preparing the right one based on the customer's order. For a tomato sauce, sauté onions and garlic in olive oil, add canned tomatoes, and simmer. For a cream sauce, melt butter and cream, then season with salt and pepper.</p>
-        <p><strong>Tip:</strong> Simmer the sauce for a few minutes to allow the flavors to develop. You can also add herbs like basil, oregano, or parsley to enhance the sauce's flavor.</p>
-    </li>
-    <li>
-        <h3>Drain and Combine:</h3>
-        <p>Once the pasta is cooked, drain it carefully, making sure to reserve a little pasta water (for adjusting the sauce if necessary). Add the pasta to the pan with the sauce, and toss it well to coat the noodles evenly.</p>
-        <p><strong>Tip:</strong> If the sauce is too thick, add a bit of the reserved pasta water to loosen it and make the sauce stick better.</p>
-    </li>
-    <li>
-        <h3>Serve the Spaghetti:</h3>
-        <p>Once the pasta and sauce are well combined, plate the spaghetti. Garnish with additional toppings like grated cheese, fresh herbs, or a drizzle of olive oil. In Cookingdom, some customers may ask for specific toppings, so be sure to check their orders carefully.</p>
-        <p><strong>Tip:</strong> Serve the spaghetti as soon as it's ready to avoid overcooking or letting it cool down. Cookingdom customers expect hot, fresh food, so quick service is key.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 9</h2>
 <ul>
-    <li>
-        <strong>Perfect Timing:</strong> The most important aspect of cooking spaghetti is timing. If you cook the noodles for too long, they'll become mushy, and if they're undercooked, they'll be too tough. Cookingdom provides a timer for each dish, so pay attention and don't forget to check your pasta frequently.
-    </li>
-    <li>
-        <strong>Sauce Preparation:</strong> Sauce is just as important as the pasta! Make sure your sauce is flavorful and well-seasoned. In Cookingdom, the customers will often request specific types of sauces or garnishes, so be sure to pay attention to their orders.
-    </li>
-    <li>
-        <strong>Upgrade Your Kitchen Tools:</strong> As you progress through Cookingdom, you can unlock new kitchen equipment that will make your pasta cooking faster and more efficient. Upgrading your stove or adding a larger pot can help you prepare multiple orders of spaghetti at once.
-    </li>
-    <li>
-        <strong>Handling Multiple Orders:</strong> In Cookingdom, you'll often have more than one order to manage at once. Prepare the spaghetti and sauce for each order simultaneously, and serve them as they are completed. Prioritize orders that have been waiting longer and check to ensure you're cooking the correct sauce for each customer.
-    </li>
-    <li>
-        <strong>Customer Satisfaction:</strong> Customers in Cookingdom are very particular about the quality and speed of their orders. To keep them happy, serve the spaghetti promptly and make sure it's cooked to their desired level. Overcooked pasta will disappoint them, and undercooked pasta will cause complaints.
-    </li>
+  <li>Not waiting for the water to boil before adding the spaghetti.</li>
+  <li>Removing pasta or sauce prematurely before the completion cue (sparkle effect).</li>
+  <li>Inaccurate or messy dicing of tomatoes and onions.</li>
+  <li>Unevenly cooked ground meat due to insufficient stirring.</li>
+  <li>Incorrect placement or entirely missing garnishes during the final plating.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Level 9 of Cookingdom, preparing the perfect Spaghetti requires careful attention to detail. From boiling the pasta to preparing the sauce and serving it hot, timing and efficiency are key to earning high ratings. As you juggle multiple orders, make sure each plate of spaghetti is served to perfection with the right sauce and toppings.</p>
-<p>By mastering this dish, you'll unlock more complex recipes and continue to grow your skills in Cookingdom. Perfect your pasta-cooking technique and continue advancing through the game to face new and exciting culinary challenges!</p>
-`,
+    `,
   },
 
   {
@@ -935,76 +1774,303 @@ export const levels01to10 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 10 Game Overview</h2>
-<p>In Cookingdom Level 10 means you've mastered the basics and are now entering more advanced dishes. Cookingdom Level 10 brings a refined challenge with Salmon Sushi — a dish that combines the art of perfecting rice, slicing fish, and assembling it into a beautiful sushi roll. Unlike other levels, Salmon Sushi requires precision in both preparation and presentation.</p>
-<p>At this stage of Cookingdom, customers will expect a quick and flawless delivery of their orders, and you'll need to handle the delicate components of Cookingdom Salmon sushi. It's time to sharpen your knife skills and rice cooking techniques!</p>
+      <h2>Welcome to Cookingdom Level 10: Salmon Sushi Walkthrough & Guide</h2>
+<p>
+  Welcome, sushi artisan! In **Cookingdom Level 10**, your mission is to craft
+  exquisite **salmon sushi. This level gently introduces you to the precise
+  and artful cooking mechanics of Cookingdom in a calm, untimed environment.
+</p>
+<p>
+  This walkthrough will guide you through every exact step to succeed in
+  Cookingdom Level 10, detailing each ingredient, action, and precise
+  placement.
+</p>
 
-<h2 id="goal">Cookingdom Level 10 Goals</h2>
+<h2>Ingredients You'll Need for Sushi</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fish</td>
+      <td>5</td>
+      <td>Various types, caught in the initial fishing mini-game. Avoid trash!</td>
+    </tr>
+    <tr>
+      <td>Rice</td>
+      <td>1 bowl</td>
+      <td>Requires washing with water in a pot, then cooking in the rice cooker.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>As needed</td>
+      <td>Used for washing and cooking rice in the pot.</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>1</td>
+      <td>Needs peeling, then cutting into thin strips (julienne).</td>
+    </tr>
+    <tr>
+      <td>Avocado</td>
+      <td>1</td>
+      <td>Requires peeling (using a knife as shown) and precise slicing.</td>
+    </tr>
+    <tr>
+      <td>Cucumber</td>
+      <td>1</td>
+      <td>Requires peeling (using a knife as shown) and cutting into thin strips.</td>
+    </tr>
+    <tr>
+      <td>Salmon</td>
+      <td>1 portion (slices)</td>
+      <td>Pre-sliced, but requires further cutting into thinner strips for filling.</td>
+    </tr>
+    <tr>
+      <td>Nori (Seaweed Sheet)</td>
+      <td>3 sheets</td>
+      <td>The essential wrapper for your sushi rolls.</td>
+    </tr>
+    <tr>
+      <td>Wasabi</td>
+      <td>1 portion</td>
+      <td>A small amount for inside the roll (optional), and a dollop for serving.</td>
+    </tr>
+    <tr>
+      <td>Pickled Ginger (Gari)</td>
+      <td>1 portion</td>
+      <td>Served elegantly alongside your sushi on the final plate.</td>
+    </tr>
+    <tr>
+      <td>Parsley/Garnish</td>
+      <td>1 sprig/bunch</td>
+      <td>For the final decorative touch on your platter.</td>
+    </tr>
+    <tr>
+      <td>Peeler</td>
+      <td>1</td>
+      <td>Used specifically for peeling the carrot.</td>
+    </tr>
+    <tr>
+      <td>Knife</td>
+      <td>1</td>
+      <td>Your versatile tool for peeling, slicing, cutting strips, and slicing finished rolls.</td>
+    </tr>
+    <tr>
+      <td>Cutting Board</td>
+      <td>2</td>
+      <td>One for ingredient prep, another for clean sushi roll slicing.</td>
+    </tr>
+    <tr>
+      <td>Pot</td>
+      <td>1</td>
+      <td>For washing rice and transferring it to the cooker.</td>
+    </tr>
+    <tr>
+      <td>Rice Cooker</td>
+      <td>1</td>
+      <td>Your dedicated appliance for perfectly cooked rice.</td>
+    </tr>
+    <tr>
+      <td>Sink & Faucet</td>
+      <td>1</td>
+      <td>For thorough rice washing.</td>
+    </tr>
+    <tr>
+      <td>Bamboo Rolling Mat (Makisu)</td>
+      <td>1</td>
+      <td>The indispensable tool for rolling sushi tightly.</td>
+    </tr>
+    <tr>
+      <td>Containers</td>
+      <td>Multiple</td>
+      <td>For temporarily holding prepped ingredients and finished rolls.</td>
+    </tr>
+    <tr>
+      <td>Serving Platter</td>
+      <td>1 (black, rectangular)</td>
+      <td>The elegant stage for your final sushi presentation.</td>
+    </tr>
+    <tr>
+      <td>Small Bowls/Dishes</td>
+      <td>2</td>
+      <td>To hold portions of wasabi and pickled ginger for plating.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Salmon Sushi Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. The Fishing Mini-Game</h3>
+<p>
+  Dive into the underwater scene as the capybara chef. Your goal is to collect
+  **5 fish** of any variety by swimming into them. Be careful to **avoid all
+  trash items** like plastic bottles, glass bottles, and cans. Once you've
+  caught all 5 fish, they'll automatically transfer to your boat.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Strategize your swimming path to grab fish
+  efficiently while expertly dodging any debris.
+</div>
+
+<h3>Step 2. Perfectly Cook Your Rice</h3>
+<p>
+  Place the bowl of **rice** into the metal **pot**. Move the pot to the **sink
+  faucet** and add enough **water** to cover the rice for washing. Next,
+  transfer the pot (with rice and water) into the **rice cooker**. Close the
+  lid. The cooker will begin automatically, indicated by a light and steam.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Don't forget to add water to the rice *before*
+  placing the pot in the cooker for proper washing and cooking.
+</div>
+
+<h3>Step 3. Prepare the Carrot</h3>
+<p>
+  Place the **carrot** on the **cutting board**. Use the **peeler tool** to
+  remove all the skin, then discard the peels. Switch to your **knife tool**
+  and follow the on-screen guides to slice the carrot into long, thin strips
+  (julienne style). Finally, place the cut carrot into a **container**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the carrot is thoroughly peeled before
+  making precise cuts along the guide lines.
+</div>
+
+<h3>Step 4. Prepare the Avocado</h3>
+<p>
+  Place the **avocado** on the **cutting board**. Use your **knife** to cut it
+  (the pit will be removed automatically). Then, use the **knife again** (it
+  acts as a peeler here) to carefully remove the skin from the avocado halves.
+  Discard the skin. Follow the guides with your knife to slice the avocado
+  flesh thinly. Place the slices into a **container**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> The game uses the knife for peeling here, so just
+  follow the prompts carefully!
+</div>
+
+<h3>Step 5. Prepare the Cucumber</h3>
+<p>
+  Place the **cucumber** on the **cutting board**. Use your **knife** (again,
+  acting as a peeler) to remove the skin, then discard it. Switch back to your
+  **knife tool** and follow the guides to cut the cucumber into thin, long
+  strips (julienne). Place the cut cucumber into a **container**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Make sure all the skin is removed before you
+  start cutting your cucumber into strips.
+</div>
+
+<h3>Step 6. Prepare the Salmon Strips</h3>
+<p>
+  Place the **pre-sliced salmon** onto the **cutting board**. Use your **knife
+  tool** and follow the guides to cut these slices into even thinner strips,
+  perfect for your sushi filling. Place the salmon strips into a **container**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Cut precisely along the lines to achieve uniform
+  salmon strips for your rolls.
+</div>
+
+<h3>Step 7. Retrieve Your Cooked Rice</h3>
+<p>
+  Open the **rice cooker lid** and take out the pot containing the perfectly
+  cooked rice. Place the pot on the preparation counter.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> The rice should be steaming, indicating it's
+  cooked to perfection and ready for rolling.
+</div>
+
+<h3>Step 8. Roll Your Sushi (Three Times!)</h3>
+<p>
+  Place one sheet of **Nori** on the **bamboo rolling mat**. Take a portion of
+  your cooked **rice** and spread it evenly over the Nori, remembering to leave
+  a small gap at the far edge. You can optionally spread a thin line of
+  **wasabi** horizontally across the rice. Layer your prepared strips of
+  **cucumber, carrot, avocado, and salmon** horizontally on the rice, closer to
+  the bottom edge. Carefully lift the edge of the mat and roll the Nori and
+  ingredients tightly into a cylinder. Place the finished roll aside in a
+  **container**. You'll need to **repeat this entire process to make a total of
+  three rolls**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Spread the rice thinly and evenly. Roll firmly
+  using the mat to ensure a compact, well-formed roll that won't fall apart.
+</div>
+
+<h3>Step 9. Expertly Cut Your Sushi Rolls</h3>
+<p>
+  Place one finished sushi roll onto a **clean cutting board**. Use your
+  **knife** and follow the cutting guides to slice the roll into several (it
+  will be 4) equal pieces. Repeat this for your other two rolls.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Use sharp, decisive cuts for clean edges. Aim for
+  uniform thickness across all your sushi pieces.
+</div>
+
+<h3>Step 10. Masterful Sushi Plating</h3>
+<p>
+  Arrange your cut sushi pieces neatly on the **black serving platter** (you
+  should have 12 pieces in total). Place a prepared dollop of **wasabi** onto
+  the platter. Next, place a portion of **pickled ginger (gari)** onto the
+  platter. Finally, add the sprig of **parsley/garnish** for a decorative
+  finish.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Arrange the sushi pieces attractively and place
+  the condiments and garnish exactly as shown in the final dish image.
+</div>
+
+<h2>Top Tips for Cookingdom Level 10 Success</h2>
 <ul>
-    <li><strong>Cook Sushi Rice:</strong> The foundation of any great sushi is perfectly cooked rice. In Cookingdom, you'll need to prepare sushi rice, which involves washing, cooking, and seasoning it with vinegar, sugar, and salt.</li>
-    <li><strong>Slice Fresh Salmon:</strong> Salmon is the star of this dish, and its freshness and thickness are crucial to creating an authentic sushi experience. You'll need to carefully slice the salmon to the right thickness and presentation.</li>
-    <li><strong>Assemble the Sushi:</strong> Once your rice and salmon are ready, it's time to assemble the sushi. In Cookingdom, you'll need to roll the rice and salmon together, ensuring that everything is perfectly aligned and neat.</li>
-    <li><strong>Serve the Sushi:</strong> As with any dish in Cookingdom, timing is crucial. Serve the sushi promptly to avoid letting it lose its freshness.</li>
+  <li>
+    ✔️ In the fishing mini-game, **prioritize avoiding trash** over speed;
+    clean fish are key.
+  </li>
+  <li>
+    ✔️ Ensure your rice is **properly washed and cooked** before moving on to
+    the rolling stage.
+  </li>
+  <li>
+    ✔️ **Follow all peeling and cutting guides precisely** for every single
+    ingredient.
+  </li>
+  <li>
+    ✔️ When spreading rice on the Nori, **leave a small border at the top** to
+    help seal the roll securely.
+  </li>
+  <li>
+    ✔️ **Roll the sushi tightly** using the bamboo mat to ensure it stays
+    intact.
+  </li>
+  <li>
+    ✔️ Use a **clean knife and smooth, confident cuts** when slicing your
+    finished rolls.
+  </li>
+  <li>
+    ✔️ Arrange your final platter **neatly and attractively**, mirroring the
+    game's desired presentation.
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 10 Steps to Make Salmon Sushi</h2>
-<ol>
-    <li>
-        <h3>Cookingdom Level 10 Prepare the Sushi Rice:</h3>
-        <p>The first step in making Salmon Sushi is preparing the sushi rice. Start by rinsing the rice thoroughly to remove excess starch. This helps prevent the rice from becoming too sticky.</p>
-        <p><strong>Tip:</strong> Rinse the rice multiple times until the water runs clear to get the perfect texture.</p>
-        <p>Cook the rice in a rice cooker or pot. Once the rice is cooked, transfer it to a large bowl and allow it to cool. After the rice cools slightly, season it with a mixture of rice vinegar, sugar, and salt to give it the signature flavor.</p>
-        <p><strong>Tip:</strong> Stir the rice gently with a wooden spoon to avoid crushing the grains. Let it cool completely before using it for the sushi.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 10 Slice the Fresh Salmon:</h3>
-        <p>While the rice cools, it's time to prepare the salmon. Cookingdom requires you to slice the salmon into thin, even slices. Use a sharp knife to achieve clean, smooth cuts. Each slice should be about 1/8-inch thick for the best sushi texture.</p>
-        <p><strong>Tip:</strong> Use fresh, high-quality salmon for the best taste. In Cookingdom, you'll be able to select the freshest ingredients available, so make sure to pick a top-quality piece of salmon.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 10 Assemble the Sushi:</h3>
-        <p>Now, it's time to assemble the sushi. Lay a small amount of sushi rice on a bamboo mat or clean surface. Gently spread the rice to form a thin, even layer.</p>
-        <p><strong>Tip:</strong> Don't press the rice too hard; just lightly spread it to ensure the sushi remains light and fluffy.</p>
-        <p>Place a slice of fresh salmon on top of the rice, making sure it's centered and evenly spaced.</p>
-        <p><strong>Tip:</strong> If Cookingdom offers you a choice of garnishes, such as wasabi or pickled ginger, don't forget to add these elements for an authentic experience.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 10 Roll the Sushi:</h3>
-        <p>Use the bamboo mat to roll the rice and salmon together tightly. Make sure the roll is firm but not too tight, as this will help hold the sushi together without squashing the rice.</p>
-        <p><strong>Tip:</strong> Roll the sushi slowly and carefully to ensure the rice and salmon stay in place.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 10 Slice and Serve the Sushi:</h3>
-        <p>Once your sushi is rolled, slice it into bite-sized pieces. In Cookingdom, the cut should be clean and smooth, not jagged. A sharp knife is essential for making perfect sushi slices.</p>
-        <p><strong>Tip:</strong> For an authentic look, ensure each slice is uniform in size and shape.</p>
-        <p>Serve Promptly:</p>
-        <p>As with all dishes in Cookingdom, customers prefer their sushi fresh. Serve the sushi immediately after cutting it to ensure it's at its best.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 10 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 10</h2>
 <ul>
-    <li>
-        <strong>Perfect Sushi Rice:</strong> Sushi rice is the foundation of great sushi, so make sure you get it just right. Follow the exact steps to rinse, cook, and season the rice. Cookingdom allows you to fine-tune your rice seasoning, so experiment until you get the perfect balance of vinegar, sugar, and salt.
-    </li>
-    <li>
-        <strong>Use a Sharp Knife for Slicing:</strong> The key to clean, even slices of salmon is a sharp knife. If the knife is dull, the salmon may get squashed or shredded instead of sliced cleanly.
-        <p><strong>Tip:</strong> In Cookingdom, you may be able to upgrade your knife as you progress, so consider improving your tools to ensure perfect sushi slices.</p>
-    </li>
-    <li>
-        <strong>Don't Overfill the Sushi Roll:</strong> While it's tempting to load up on salmon, don't overfill the sushi roll. Too much filling can make it difficult to roll tightly and evenly. The ideal sushi roll has a balanced amount of rice and fish.
-        <p><strong>Tip:</strong> Keep the filling centered and be gentle when rolling to maintain the sushi's shape.</p>
-    </li>
-    <li>
-        <strong>Multitasking:</strong> As more orders come in, you may be asked to prepare other dishes alongside your sushi. In Cookingdom, multitasking is essential. While the rice is cooling, you can start preparing other ingredients or assembling other dishes.
-    </li>
-    <li>
-        <strong>Garnishing and Presentation:</strong> Cookingdom rewards beautiful presentation. Add small garnishes like pickled ginger or wasabi to elevate your dish. Make sure the sushi is plated attractively to improve customer satisfaction and get higher ratings.
-    </li>
+  <li>Hitting trash items during the fishing mini-game.</li>
+  <li>Forgetting to wash the rice or cooking it improperly.</li>
+  <li>Skipping the peeling step for carrot/cucumber/avocado or not following cutting guides accurately.</li>
+  <li>Spreading the rice too thick or unevenly on the Nori sheet.</li>
+  <li>Rolling the sushi too loosely, causing the ingredients to spill out.</li>
+  <li>Cutting the sushi rolls unevenly or using a messy slicing technique.</li>
+  <li>Forgetting to add wasabi, pickled ginger, or the garnish during plating, or placing them incorrectly.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 10 , preparing Salmon Sushi is a challenge that tests your precision, time management, and multitasking skills. From cooking the rice to slicing the fish and rolling the sushi, every step requires attention to detail. The key to success is freshness, accuracy, and quick service.</p>
-<p>Mastering sushi will set you up for success in future levels, as customers will expect more complex and delicate dishes. With practice, you'll be able to create perfect sushi rolls that keep your customers happy and your restaurant thriving.</p>`,
+    `,
   },
 ]

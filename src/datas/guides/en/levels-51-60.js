@@ -458,49 +458,135 @@ export const levels51to60 = [
         },
       ],
     },
-    detailsHtml: `<h2>Game Introduction</h2>
-<p>Level 56 introduces <strong>Pelmeni</strong>, a traditional dumpling dish from Eastern Europe. This level challenges players with more advanced preparation steps, including dough forming, meat filling, and precise boiling. Multitasking is essential to meet demanding customer orders on time.</p>
+    detailsHtml: `
+    <h2>Cookingdom Level 56: Mastering the Chef's Heartfelt Dumplings</h2>
+<p>Welcome to **Cookingdom Level 56**! Here, your culinary quest is to perfect the **chef's heartfelt dish, focusing on the meticulous creation of delicious dumplings. This level offers a relaxed, no-timer environment, allowing you to hone your precision with tools, ingredient sequencing, and execution timing.</p>
+<p>This detailed walkthrough will guide you through every essential step, ingredient, action, and placement, ensuring your success in crafting this special meal.</p>
 
-<h2>Level 56 Goal</h2>
-<p>Successfully prepare and serve multiple orders of Pelmeni. Efficiency in both preparation and boiling is required to achieve a high score. Accuracy and speed are rewarded.</p>
+<h2>Ingredients You'll Need for This Heartfelt Dish</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All-Purpose Flour</td>
+      <td>1 bowl</td>
+      <td>For crafting the dumpling dough.</td>
+    </tr>
+    <tr>
+      <td>Fresh Eggs</td>
+      <td>3 units</td>
+      <td>Key for the dumpling dough's consistency.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>As needed</td>
+      <td>Used for dough, filling, and boiling the dumplings.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 bottle</td>
+      <td>A small amount to enrich the dough.</td>
+    </tr>
+    <tr>
+      <td>Fine Salt</td>
+      <td>To taste</td>
+      <td>Essential for seasoning the dough, filling, and boiling water.</td>
+    </tr>
+    <tr>
+      <td>Choice Meat</td>
+      <td>1 plate</td>
+      <td>Appears to be beef or pork, destined for the savory filling.</td>
+    </tr>
+    <tr>
+      <td>Garlic Head</td>
+      <td>1 unit</td>
+      <td>To be chopped for the flavorful filling.</td>
+    </tr>
+    <tr>
+      <td>Red Onion</td>
+      <td>1 unit</td>
+      <td>Peeled and chopped for the filling.</td>
+    </tr>
+    <tr>
+      <td>Fresh Scallions (Green Onions)</td>
+      <td>1 bunch</td>
+      <td>Chopped for both the filling and a vibrant garnish.</td>
+    </tr>
+    <tr>
+      <td>Black Pepper</td>
+      <td>To taste</td>
+      <td>For seasoning the filling and the boiling water.</td>
+    </tr>
+    <tr>
+      <td>Creamy Sour Cream</td>
+      <td>1 bowl</td>
+      <td>A delightful topping for serving.</td>
+    </tr>
+    <tr>
+      <td>Vodka</td>
+      <td>1 bottle</td>
+      <td>A special offering from your bear guest.</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2>Pelmeni Making Process</h2>
-<h3>Prepare Dough and Filling:</h3>
+<h2>Step-by-Step Guide to Crafting the Chef's Heartfelt Dish</h2>
+
+<h3>Step 1: Preparing the Dumpling Dough</h3>
+<p>In a spacious mixing bowl, combine **flour** from the purple bowl, **three eggs** from the basket, **water** from the pitcher, a dash of **oil** from the bottle, and a pinch of **salt** from the shaker. Take your **whisk** and thoroughly blend all ingredients until you achieve a smooth batter. Pour this batter onto a wooden cutting board and knead it until it forms a firm, cohesive ball of dough. Place your finished dough ball into the small, patterned bowl.</p>
 <ul>
-  <li><strong>Dough:</strong> Select dough from the ingredient tray and roll it out into thin circles.</li>
-  <li><strong>Filling:</strong> Scoop the ground meat mixture into the center of each dough circle.</li>
+  <li>**Chef's Insight:** Double-check that all five crucial ingredients (flour, eggs, water, oil, and salt) are added to the bowl *before* you start whisking for the best dough consistency.</li>
 </ul>
 
-<h3>Shape the Dumplings:</h3>
+<h3>Step 2: Crafting the Savory Meat Filling</h3>
+<p>Place the **raw meat** onto the cutting board, chop it into manageable pieces, then transfer them to the **blender**. Activate the blender to expertly mince the meat. While the blender works its magic, finely chop the **garlic**, peel and chop the **red onion**, and chop the **scallions**, placing each prepared ingredient into separate bowls. In a large mixing bowl, combine the minced meat from the blender with the chopped garlic, chopped red onion, and chopped scallions. Add a splash of **water** from the pitcher, along with **salt** and **pepper**. Use a spoon to thoroughly mix all these components together.</p>
 <ul>
-  <li>Fold the dough in half and seal the edges tightly to form the classic Pelmeni shape.</li>
-  <li>Ensure no filling leaks out — this affects cooking and presentation.</li>
+  <li>**Chef's Insight:** It's critical to mince the meat in the blender *first* before combining it with the other chopped vegetables. Keep an eye out—the bear might peek in the window during this step!</li>
 </ul>
 
-<h3>Boil the Pelmeni:</h3>
+<h3>Step 3: Expertly Assembling Your Pelmeni (Dumplings)</h3>
+<p>Transition to the assembly station. Place the ball of dough onto the blue rolling mat. Lightly dust the dough with **flour** from the small purple bowl. Use the **rolling pin** to flatten the dough into a large, thin, uniform sheet. Take the circular metal cutter and cut out multiple perfect dough circles from the sheet. Place a small spoonful of your meat filling onto the very center of each dough circle. Now, for the signature shape: fold each filled circle in half, then carefully pinch the corners together to create the traditional pelmeni form.</p>
 <ul>
-  <li>Place shaped Pelmeni into boiling water.</li>
-  <li><strong>Watch the timer:</strong> Proper boiling time is key — undercooked dumplings are chewy, overcooked ones fall apart.</li>
+  <li>**Chef's Insight:** Remember the two-step folding process: first fold it in half, then neatly join the two ends. Ensure you fill and meticulously fold every single cut-out circle.</li>
 </ul>
 
-<h3>Serve the Pelmeni:</h3>
+<h3>Step 4: Cooking and Garnishing Your Pelmeni</h3>
+<p>Fill the purple **pot** with **water** from the sink. Place the pot onto the portable stove and turn on the heat. Once the water reaches a rolling boil, carefully add the prepared **pelmeni**. Season the boiling water with both **salt** and **pepper**. A timer will appear, indicating the ideal cooking duration. Once cooked, turn off the stove. Use a **slotted spoon** to transfer all the perfectly cooked pelmeni into a serving bowl. Finish by adding a generous dollop of **sour cream** and a sprinkle of chopped **scallions** for freshness.</p>
 <ul>
-  <li>When perfectly cooked, remove and plate the Pelmeni.</li>
-  <li>Add garnishes such as sour cream or herbs, if requested.</li>
-  <li>Serve immediately to the correct customer to avoid penalties.</li>
+  <li>**Chef's Insight:** Don't overlook seasoning the boiling water with salt and pepper! This subtle step significantly enhances the flavor of the dumplings themselves.</li>
 </ul>
 
-<h2>Tips and Tricks</h2>
+<h3>Step 5: The Heartfelt Serving Experience</h3>
+<p>Place the completed bowl of pelmeni onto a placemat, alongside a fork and a glass of water. Your special guest, the bear, will appear at the table, ready to enjoy. After taking a bite, the bear will offer you a bottle of **vodka**. Pour the vodka into the glass. The bear will then gesture for more, at which point you should add another spoonful of **sour cream** to the bowl of pelmeni. The bear will take another delighted bite, giving a happy, satisfied reaction that earns you a perfect 3-star rating!</p>
 <ul>
-  <li><strong>Multitask:</strong> While one batch is boiling, prepare another to avoid downtime.</li>
-  <li><strong>Keep Boiling Stations Busy:</strong> You may have two boiling pots — utilize both to keep pace with orders.</li>
-  <li><strong>Precision:</strong> Always seal dumplings properly to prevent breaking in water.</li>
-  <li><strong>Customer Preferences:</strong> Some may request extra garnishes — pay attention to order bubbles.</li>
-  <li><strong>Ingredient Stock:</strong> Refill dough and meat trays between batches to stay ahead.</li>
+  <li>**Chef's Insight:** This serving phase is highly interactive! Be attentive to the bear's non-verbal cues to know when to pour the drink and add that extra dollop of sour cream to successfully complete the level.</li>
 </ul>
 
-<h2>Summary</h2>
-<p>Level 56 of Cookingdom is a test of your cooking speed, accuracy, and multitasking skills. Making Pelmeni involves multiple stages — dough, filling, shaping, boiling, and serving — all under time pressure. Mastering this level unlocks new Eastern European recipes and advanced boiling tools. Serve your customers efficiently and earn maximum stars!</p>`,
+<h2>Tips for Success & Common Pitfalls to Avoid</h2>
+
+<h3>Key Tips for Your Heartfelt Dish</h3>
+<ul>
+  <li>**Strict Sequencing:** Always follow the recipe's exact order: first dough, then filling, then assembly, and finally cooking. The game will enforce this progression.</li>
+  <li>**Meat Prep Matters:** When preparing the filling, ensure the meat is thoroughly minced in the blender *before* you mix it with any other vegetables.</li>
+  <li>**Interactive Serving:** Pay very close attention during the serving phase; you *must* react to the bear's specific actions by pouring the drink and adding more sour cream.</li>
+  <li>**Season Everything:** Never forget to season at every required stage: the dough, the filling, and especially the boiling water.</li>
+</ul>
+
+<h3>Common Challenges to Watch Out For</h3>
+<ul>
+  <li>**Incomplete Dough:** Forgetting even one of the five essential ingredients (flour, eggs, water, oil, salt) for the dough before whisking.</li>
+  <li>**Filling Faux Pas:** Mixing all filling ingredients together before the meat has been properly minced in the blender.</li>
+  <li>**Premature Boiling:** Attempting to add the pelmeni to the pot before the water has reached a vigorous boil.</li>
+  <li>**Unseasoned Water:** Forgetting to season the boiling water with salt and pepper, which impacts dumpling flavor.</li>
+  <li>**Serving Slip-ups:** Failing to serve the bear correctly by missing the visual cues to pour the vodka or add the final dollop of sour cream.</li>
+</ul>
+    `,
   },
 
   {

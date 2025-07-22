@@ -215,7 +215,8 @@
       "levels31_40": "关卡 31-40",
       "levels41_50": "关卡 41-50",
       "levels51_60": "关卡 51-60",
-      "levels61_70": "关卡 61-70"
+      "levels61_70": "关卡 61-70",
+      "levels71_80": "关卡 71-80"
     },
     "noGuidesAvailable": "该分类下暂无指南。",
     "invalidGuideId": "未指定指南ID。"

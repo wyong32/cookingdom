@@ -39,69 +39,174 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 11 Game Overview</h2>
-<p>In Cookingdom Level 11 brings a light yet important challenge: making the perfect Popcorn. While this dish may seem simple, it requires precise timing and attention to detail, especially when preparing a large batch for multiple customers. Popcorn is a beloved snack, and in Cookingdom, it will test your ability to manage heat, flavors, and speed under pressure.</p>
-<p>As you move forward in the game, Cookingdom introduces dishes that seem straightforward but require efficient multitasking to keep up with growing customer demands. Get ready to pop those kernels to perfection!</p>
+      <h2>Welcome to Cookingdom Level 11: Popcorn Walkthrough & Guide</h2>
+    <p>
+      Welcome, snack master! In **Cookingdom Level 11**, your mission is to create
+      the perfect batch of **Popcorn**. This level offers a relaxed, no-timer
+      environment, allowing you to focus on Cookingdom's intuitive yet precise
+      cooking mechanics.
+    </p>
+    <p>
+      This walkthrough provides the exact steps you need to succeed in Cookingdom
+      Level 11, detailing every ingredient, action, and placement required.
+    </p>
 
-<h2 id="goal">Cookingdom Level 11 Goals</h2>
-<ul>
-    <li><strong>Pop the Corn Kernels:</strong> The primary task in this level is to pop the corn kernels at the right temperature and timing. You'll need to ensure that each batch pops without burning.</li>
-    <li><strong>Add Flavorings:</strong> After popping the kernels, you'll need to season the popcorn to perfection. Whether it's butter, cheese, or caramel, flavoring the popcorn will elevate the dish.</li>
-    <li><strong>Serve Quickly:</strong> Cookingdom Level 11 customers expect quick service. Make sure to serve the freshly popped and seasoned popcorn as soon as it's ready to keep them happy.</li>
-</ul>
+    <h2>Ingredients You'll Need for Popcorn Perfection</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredient</th>
+          <th>Quantity</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Corn Cobs</td>
+          <td>5</td>
+          <td>Harvested fresh from the cornfield.</td>
+        </tr>
+        <tr>
+          <td>Corn Kernels</td>
+          <td>1 bowl</td>
+          <td>Obtained by stripping the prepared corn cob.</td>
+        </tr>
+        <tr>
+          <td>Brown Ingredient Block</td>
+          <td>1</td>
+          <td>A block of flavor, likely butter or a sweetener, to be chopped/shaved.</td>
+        </tr>
+        <tr>
+          <td>Pat of Butter</td>
+          <td>1 small square</td>
+          <td>Added directly to the kernels for richness.</td>
+        </tr>
+        <tr>
+          <td>Oil</td>
+          <td>1 bottle</td>
+          <td>Poured into the popcorn machine to facilitate popping.</td>
+        </tr>
+        <tr>
+          <td>Sugar</td>
+          <td>1 spoonful</td>
+          <td>Scooped from a bag and mixed with the kernels for a sweet touch.</td>
+        </tr>
+      </tbody>
+    </table>
 
-<h2 id="steps">Cookingdom Level 11 Steps to Make Popcorn</h2>
-<ol>
-    <li>
-        <h3>Heat the Popcorn Machine:</h3>
-        <p>Start by heating the popcorn machine or pan. Cookingdom Level 11 provides you with a popper or stove to cook the popcorn. Make sure the machine is preheated, as this helps the kernels pop evenly and avoids burning.</p>
-        <p><strong>Tip:</strong> In Cookingdom Level 11, you may also have the option to upgrade your equipment to make the popping process faster and more efficient. Upgrading your popcorn machine will save time and reduce mistakes.</p>
-    </li>
-    <li>
-        <h3>Add the Corn Kernels:</h3>
-        <p>Once the machine is hot, carefully add the popcorn kernels. Ensure that the kernels are spread evenly to ensure uniform popping. Too many kernels at once may cause overcrowding and uneven popping, while too few will waste space and delay your progress.</p>
-        <p><strong>Tip:</strong> In Cookingdom Level 11, you'll see a visual indicator or timer showing when the popcorn is popping. Pay attention to the sound and the visual cues to know when to stop the popping process.</p>
-    </li>
-    <li>
-        <h3>Wait for the Popping Process:</h3>
-        <p>Allow the kernels to pop, listening carefully for the sound of popping to slow down. This is your signal to stop the process. Over-popping can burn the popcorn, while under-popping can leave some kernels unpopped.</p>
-        <p><strong>Tip:</strong> Don\'t leave the machine unattended! In Cookingdom Level 11, you might be required to manage multiple tasks, so keep an eye on your popcorn.</p>
-    </li>
-    <li>
-        <h3>Season the Popcorn:</h3>
-        <p>Once the popcorn is ready, it's time to season it. Cookingdom Level 11 offers a variety of seasoning options, such as butter, salt, cheese, or caramel. Be sure to choose the right seasoning for each customer order.</p>
-        <p><strong>Tip:</strong> You can add multiple layers of seasoning to enhance the flavor. For example, start with butter, then sprinkle on some salt or cheese for extra taste.</p>
-    </li>
-    <li>
-        <h3>Serve the Popcorn:</h3>
-        <p>Once the popcorn is seasoned, it\'s time to serve it. Make sure the popcorn is still hot and fresh when you hand it to the customer.</p>
-        <p><strong>Tip:</strong> The fresher the popcorn, the better the ratings you'll receive. Cookingdom Level 11 customers are very particular about freshness.</p>
-    </li>
-</ol>
+    <h2>Popcorn Mastery: A Step-by-Step Guide</h2>
 
-<h2 id="tips">Cookingdom Level 11 Tips & Tricks</h2>
-<ul>
-    <li>
-        <strong>Perfect Popping Time:</strong> Timing is everything when it comes to popping popcorn. Too much heat or too long of a wait can burn the popcorn, while too little heat can leave kernels unpopped.
-    </li>
-    <li>
-        <strong>Flavor Customization:</strong> In Cookingdom Level 11 , the key to success is catering to your customers' preferences. Some customers may want plain popcorn, while others may want buttery, cheesy, or caramel-coated popcorn. Make sure to read each order carefully and apply the right flavoring to keep your customers satisfied.
-    </li>
-    <li>
-        <strong>Upgrade Your Equipment:</strong> As you progress through Cookingdom Level 11 , consider upgrading your popcorn machine.
-    </li>
-    <li>
-        <strong>Speed and Efficiency:</strong> Cookingdom Level 11 requires quick service, Try to serve the popcorn as soon as it's popped and flavored. The faster you serve, the higher your chances of getting a positive rating from your customers.
-    </li>
-    <li>
-        <strong>Handle Multiple Orders:</strong> As more customers arrive, you'll need to prepare multiple orders of popcorn at once.
-    </li>
-</ul>
+    <h3>Step 1. Harvest Your Corn</h3>
+    <p>
+      In the cornfield scene, start by using the **magnifying glass** on the
+      scarecrow's face to trigger the next action. Then, carefully drag **5 ripe
+      corn cobs** from their stalks into the nest/hole located at the bottom of the
+      screen.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> Ensure you gather precisely 5 corn cobs. A
+      heart icon will appear to confirm you've completed this step successfully.
+    </div>
 
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 11 making Popcorn seems simple but requires attention to detail in timing and seasoning. Perfectly popped kernels, the right amount of seasoning, and fast service will ensure your customers leave happy. </p>
-<p>As you continue in Cookingdom Level 11 , the complexity of managing orders will increase, but mastering popcorn will give you the foundation you need to tackle more complex dishes. Keep up with your upgrades, asty popcorn to keep your customers coming back for more!</p>
-`,
+    <h3>Step 2. Prepare the Corn Cob</h3>
+    <p>
+      Take one corn cob and peel back both layers of the green husk by dragging
+      them downwards from the left and right sides. Next, remove the three sections
+      of brown corn silk by dragging them off the cob.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> Completing both the husk peeling and silk removal
+      will trigger heart icons, signaling successful preparation.
+    </div>
+
+    <h3>Step 3. Collect the Kernels</h3>
+    <p>
+      Drag your finger (indicated by a white dot) repeatedly up and down the now
+      exposed corn cob. This action will strip all the yellow kernels directly into
+      the waiting white bowl.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> Make sure every single kernel is removed from
+      the cob. A heart will appear once you're done.
+    </div>
+
+    <h3>Step 4. Chop the Brown Ingredient</h3>
+    <p>
+      Use your **knife tool** to repeatedly slice or shave the brown block
+      positioned on the cutting board. Continue until the entire block has been
+      processed.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> A continuous chopping motion is required here. A
+      heart icon will confirm completion.
+    </div>
+
+    <h3>Step 5. Mix Ingredients & Prep Machine</h3>
+    <p>
+      First, pour **oil** from the bottle directly into the red popcorn machine.
+      Then, add the small **pat of butter**, the **chopped brown ingredient**, and a
+      spoonful of **sugar** to the bowl containing your corn kernels.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> Double-check your placements: oil goes into the
+      machine, while butter, the chopped block, and sugar go into the kernel bowl.
+    </div>
+
+    <h3>Step 6. Make That Popcorn!</h3>
+    <p>
+      Use the **scoop** to transfer the mixed kernels from their bowl into the top
+      opening of the popcorn machine. Next, press the **power button** on the
+      machine. Now, simply wait for the popcorn to begin popping and fill the
+      striped bucket below.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> The machine will automatically start popping once
+      it's switched on.
+    </div>
+
+    <h3>Step 7. Serve for Movie Night</h3>
+    <p>
+      The scene will transition to a cozy living room where two capybaras are
+      enjoying TV. The male capybara will bring the freshly popped bucket of
+      popcorn and share it with the female capybara.
+    </p>
+    <div class="tip">
+      💡 <strong>Pro Tip:</strong> This final heartwarming scene signifies the
+      completion of the level and will lead you to the results screen.
+    </div>
+
+    <h2>Top Tips for Cookingdom Level 11 Success</h2>
+    <ul>
+      <li>
+        ✔️ Always follow the **on-screen visual cues** (like magnifying glass
+        targets, drag paths, and cutting lines).
+      </li>
+      <li>
+        ✔️ Ensure **each action is fully completed** (e.g., all husk removed, all
+        kernels stripped, the brown block entirely chopped).
+      </li>
+      <li>
+        ✔️ Pay close attention to **placing ingredients correctly**—oil into the
+        machine, and other mix-ins into the kernel bowl.
+      </li>
+      <li>
+        ✔️ The **heart pop-up animations** are your reliable confirmations for
+        successful completion of each sub-step.
+      </li>
+    </ul>
+
+    <h2>Common Mistakes to Avoid in Cookingdom Level 11</h2>
+    <ul>
+      <li>Not finding the scarecrow's interaction point in the initial step.</li>
+      <li>Missing a corn cob during the harvesting phase.</li>
+      <li>Incomplete peeling of the husk or removal of corn silk from the cob.</li>
+      <li>Not fully stripping all kernels from the corn cob.</li>
+      <li>Failing to chop the brown ingredient block completely.</li>
+      <li>Accidentally putting sugar, butter, or the chopped block into the machine instead of the kernel bowl.</li>
+      <li>Forgetting to add oil to the machine or the mixed kernels into the machine's top.</li>
+      <li>Forgetting to turn the popcorn machine on after loading it.</li>
+    </ul>
+    `,
   },
   {
     id: 'cookingdom-game-level-12',
@@ -246,78 +351,234 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">cookingdom level 13 Game Overview</h2>
-<p>In Cookingdom Level 13 introduces you to a beloved fast food classic: the Hotdog. While it may seem simple, preparing the perfect hotdog requires attention to detail, especially when managing customer orders and timing. In this level, you'll need to focus on cooking the perfect sausage, grilling the buns, and adding just the right condiments to satisfy your customers' cravings.</p>
-<p>The challenge in cookingdom level 13 lies in keeping up with the increasing customer demand while ensuring each hotdog is served quickly and to perfection. </p>
+    <h2>Welcome to Cookingdom Level 13: Hotdog Walkthrough & Guide</h2>
+<p>
+  Welcome, hotdog enthusiast! In **Cookingdom Level 13**, your mission is to
+  craft the perfect **hot dog. This level guides you through Cookingdom's
+  intuitive yet precise cooking mechanics in a relaxed, no-timer environment.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 13,
+  detailing every ingredient, action, and precise placement needed for success.
+</p>
 
-<h2 id="goal">cookingdom Level 13 Goals</h2>
+<h2>Ingredients for Your Perfect Hotdog</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Onion</td>
+      <td>1</td>
+      <td>To be finely chopped for a delicious topping.</td>
+    </tr>
+    <tr>
+      <td>Pickle</td>
+      <td>1</td>
+      <td>Diced for a tangy, crunchy topping.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 pat</td>
+      <td>Used for sautéing the onions to golden perfection.</td>
+    </tr>
+    <tr>
+      <td>Sausage</td>
+      <td>1 (from 2)</td>
+      <td>Boiled in water. Only one is used in the final assembly.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>1 bowl</td>
+      <td>For boiling the sausages.</td>
+    </tr>
+    <tr>
+      <td>Mayonnaise</td>
+      <td>1 bottle</td>
+      <td>The creamy base for your special hotdog sauce.</td>
+    </tr>
+    <tr>
+      <td>Mustard Sauce</td>
+      <td>1 bottle (sauce) + 1 bottle (topping)</td>
+      <td>Used both in the sauce mixture and as a final drizzle.</td>
+    </tr>
+    <tr>
+      <td>Green Liquid (Pickle Relish/Juice)</td>
+      <td>1 small bowl</td>
+      <td>Adds a unique tang to the sauce mix.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 bowl</td>
+      <td>A key seasoning for your sauce.</td>
+    </tr>
+    <tr>
+      <td>Garlic Powder</td>
+      <td>1 bowl</td>
+      <td>Adds aromatic depth to the sauce.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 bowl</td>
+      <td>Balances the flavors in the sauce.</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>1 shaker</td>
+      <td>For a touch of spice in the sauce.</td>
+    </tr>
+    <tr>
+      <td>Hotdog Bun</td>
+      <td>1</td>
+      <td>Sliced open and ready for assembly.</td>
+    </tr>
+    <tr>
+      <td>Lettuce</td>
+      <td>1 container</td>
+      <td>Forms a fresh base layer inside the bun.</td>
+    </tr>
+    <tr>
+      <td>Chili/Ketchup Sauce</td>
+      <td>1 bottle</td>
+      <td>A vibrant red sauce used as a final topping.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Hotdog Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Finely Chop the Onion</h3>
+<p>
+  Drag the **onion** onto the **cutting board**. Use your **knife** to slice it
+  in half, then repeatedly chop the halves until they are finely minced. Make
+  sure to follow the on-screen guides for precise cuts.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure your knife covers the highlighted areas
+  during chopping. A heart icon will confirm when your onion is perfectly
+  chopped.
+</div>
+
+<h3>Step 2. Dice the Pickle</h3>
+<p>
+  Place the **pickle** onto the cutting board. Use your **knife** to make
+  lengthwise cuts, then dice the pickle by repeatedly cutting across,
+  following the guides.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Follow the cutting guides precisely for perfectly
+  diced pickle pieces. A heart icon confirms success.
+</div>
+
+<h3>Step 3. Sauté the Onions</h3>
+<p>
+  Place the **butter** in the **pan** on the **cooktop** and turn the cooktop
+  on. Once the butter has melted, add your finely sliced **onions** and cook
+  them until the progress bar fills and they turn a beautiful golden color.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Listen for the sizzling sound and watch for the
+  visual change in the onions, indicating they're perfectly cooked. A heart
+  icon will appear to confirm.
+</div>
+
+<h3>Step 4. Boil the Sausages</h3>
+<p>
+  Pour **water** into the **pan** and turn on the **cooktop** to bring it to a
+  boil. Once the water is vigorously boiling, add the **sausages**. Cook them
+  until the progress bar completes. Use the **fork** to carefully remove one
+  cooked sausage onto a plate. (Only one sausage is needed for the final dog, even though two may appear.)
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Always wait for the water to boil before adding
+  the sausages. Listen for the 'ding' sound to know when they're ready to be
+  removed. A heart icon will appear after you've successfully removed the sausage.
+</div>
+
+<h3>Step 5. Mix the Special Sauce</h3>
+<p>
+  In the **mixing bowl**, combine the **mayonnaise, mustard, green liquid**
+  (relish/juice), **salt, garlic powder, sugar, and pepper**. Use the **spoon**
+  to stir everything vigorously until the mixture is fully combined and smooth.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Add *all* ingredients before you start stirring.
+  Continue stirring until the mixture has a uniform color and consistency. A
+  heart icon confirms completion.
+</div>
+
+<h3>Step 6. Prepare the Bun</h3>
+<p>
+  Place the **hotdog bun** on the **cutting board**. Use your **knife** to
+  slice it open lengthwise, carefully following the dotted guide line.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> A clean, precise slice down the middle is essential
+  to open the bun properly for assembly.
+</div>
+
+<h3>Step 7. Assemble Your Hotdog</h3>
+<p>
+  Now for assembly! First, spread your delicious **mixed sauce** inside the
+  sliced bun. Then, layer in the fresh **lettuce**, followed by the sautéed
+  **onions**, and finally the diced **pickles**. Carefully place the cooked
+  **sausage** on top of all these flavorful fillings.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Follow the layering order strictly: Sauce →
+  Lettuce → Onions → Pickles → Sausage.
+</div>
+
+<h3>Step 8. Add Final Toppings</h3>
+<p>
+  Almost done! Squeeze **mustard sauce** over the sausage in a zig-zag pattern.
+  Then, similarly squeeze the red **chili/ketchup sauce** over the sausage.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Apply both sauces evenly for that perfect final
+  touch and appealing presentation. A heart icon will appear, signifying the
+  completion of your hotdog masterpiece!
+</div>
+
+<h2>Top Tips for Cookingdom Level 13 Success</h2>
 <ul>
-    <li><strong>Cook the Sausages:</strong> The sausage is the star of the hotdog. You'll need to grill it to just the right level of crispiness without overcooking it.</li>
-    <li><strong>Grill the Buns:</strong> The buns must be toasted lightly to add a nice crunch and enhance the flavor of the hotdog.</li>
-    <li><strong>Add Condiments and Toppings:</strong> Customize each hotdog with popular condiments like ketchup, mustard, relish, onions, and other toppings.</li>
-    <li><strong>Serve Quickly:</strong> As with all dishes in cookingdom level 13 , serving the hotdog quickly is key. The faster you serve, the happier your customers will be.</li>
+  <li>
+    ✔️ Pay close attention to **visual cues** like progress bars, subtle
+    color changes, and the satisfying heart icons, as they confirm each step's
+    correct completion.
+  </li>
+  <li>
+    ✔️ **Accuracy in chopping and slicing** your ingredients directly impacts
+    the overall presentation and score of your hotdog.
+  </li>
+  <li>
+    ✔️ Always ensure **all sauce ingredients are added** to the mixing bowl
+    before you begin stirring them together.
+  </li>
+  <li>
+    ✔️ Assemble the hotdog layers in the **correct sequence** as shown in the
+    walkthrough for optimal presentation.
+  </li>
+  <li>
+    ✔️ This level has several distinct stages; try to **manage transitions
+    smoothly** between them for efficiency.
+  </li>
 </ul>
 
-<h2 id="steps">cookingdom Level 13 Steps to Make Hotdog</h2>
-<ol>
-    <li>
-        <h3>cookingdom Level 13 Cook the Sausages:</h3>
-        <p>Start by cooking the sausages. In cookingdom Level 13 , you'll be provided with a grill or stovetop where you can heat the sausages. Be sure to monitor the cooking time closely — too long, and they'll become burnt, too short, and they'll be undercooked.</p>
-        </li>
-    <li>
-        <h3>cookingdom Level 13 Grill the Buns:</h3>
-        <p>While the sausages are cooking, you can toast the buns. Place the buns on the grill or griddle, ensuring they become lightly browned and slightly crispy. In Cookingdom, the buns should be soft on the inside but have a slight crunch on the outside.</p>
-            </li>
-    <li>
-        <h3>cookingdom Level 13 Prepare the Condiments and Toppings:</h3>
-        <p>cookingdom Level 13 allows you to add a variety of condiments to your hotdog. Common options include:</p>
-        <ul>
-            <li>Ketchup</li>
-            <li>Mustard</li>
-            <li>Relish</li>
-            <li>Onions</li>
-            <li>Sauerkraut</li>
-            <li>Cheese</li>
-            <li>Pickles</li>
-            <li>Jalapeños</li>
-        </ul>
-        <p>Ensure you read each customer order carefully to add the right condiments and toppings. Some customers may prefer a basic hotdog, while others want extra toppings.</p>
-
-    </li>
-    <li>
-        <h3>cookingdom Level 13 Assemble the Hotdog:</h3>
-        <p>Once the sausage is perfectly cooked and the buns are toasted, it's time to assemble the hotdog. Place the sausage in the bun and add the requested condiments and toppings. cookingdom Level 13 allows you to customize each order, so pay attention to detail!</p>
-            </li>
-    <li>
-        <h3>cookingdom Level 13 Serve the Hotdog:</h3>
-        <p>After assembling the hotdog, it's time to serve it. Make sure it's still warm and fresh. cookingdom Level 13 customers expect their food to be hot and delicious, so don't leave it sitting out too long.</p>
-        <p><strong>Tip:</strong> The fresher the hotdog, the better your rating will be. Serve it quickly to keep your customers satisfied.</p>
-    </li>
-</ol>
-
-<h2 id="tips">cookingdom Level 13 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 13</h2>
 <ul>
-    <li>
-        <strong>Monitor Cooking Time:</strong> Timing is crucial when grilling the sausages and buns. Under-cooked sausages won't taste right, and overcooked sausages will be dry. Keep a close eye on the cooking process to get the perfect balance.
-    </li>
-    <li>
-        <strong>Customization is Key:</strong> In cookingdom Level 13, customers often have specific preferences for their hotdogs. Some may want extra mustard, while others prefer a simpler version. Always read each order carefully and customize the hotdog to match what's requested.
-    </li>
-    <li>
-        <strong>Use a Sharp Knife for Toppings:</strong> If you're adding toppings like onions or pickles, make sure you slice them thinly. In cookingdom Level 13, neat presentation is important, and well-sliced toppings make the hotdog more visually appealing.
-    </li>
-    <li>
-        <strong>Upgrade Your Equipment:</strong> As you progress in cookingdom Level 13 , consider upgrading your grill or stove. A faster cooking process can help you handle multiple orders at once, improving your efficiency in a busy kitchen.
-        <p><strong>Tip:</strong> You can also upgrade your bun toaster to make the toasting process quicker, allowing you to keep up with the increased customer demand.</p>
-    </li>
-    <li>
-        <strong>Serve Quickly:</strong> cookingdom Level 13 rewards quick service. The faster you assemble and serve the hotdog, the better the customer satisfaction.
-    </li>
+  <li>Incomplete chopping of the onion or pickle.</li>
+  <li>Burning or undercooking the sautéed onions.</li>
+  <li>Removing sausages from the boiling water too early (undercooked) or too late (overcooked).</li>
+  <li>Forgetting an ingredient when mixing the special sauce or not mixing it thoroughly until smooth.</li>
+  <li>Incorrectly layering the ingredients during the hotdog assembly.</li>
+  <li>Applying the final sauce toppings messily, impacting the presentation score.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In cookingdom Level 13, preparing the perfect Hotdog is all about timing and customization. Cooking the sausages and buns to perfection, adding the right condiments, and serving quickly are the key to success. As with all levels in Cookingdom, multitasking is essential. Keep the grill and bun toaster working in tandem while preparing the toppings to maximize efficiency.</p>
-<p>Mastering this fast food classic will help you continue to progress in cookingdom Level 13. Whether you're serving a simple hotdog or one loaded with toppings, attention to detail and speed will make all the difference in earning those high ratings from your customers.</p>
 `,
   },
   {
@@ -461,84 +722,289 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 15 Game Overview</h2>
-<p>In Cookingdom Level 15 introduces a classic comfort food: Chicken Fried. This level challenges you to prepare crispy, golden-brown fried chicken, paired with the perfect sides to create a satisfying meal. The process may seem straightforward, but the game adds its own set of challenges to ensure you stay on your toes. Timing, temperature, and seasoning will play a crucial role in making the chicken crispy and juicy while keeping your customers satisfied.</p>
-<p>Cooking the perfect Chicken Fried in Cookingdom Level 15 requires both focus and speed. Let's dive into the steps to successfully prepare this hearty dish!</p>
+<h2>Welcome to Cookingdom Level 15: Chicken Fried Walkthrough & Guide</h2>
+<p>
+  Welcome, frying aficionado! In **Cookingdom Level 15**, your mission is to
+  craft the perfect **chicken fried** dish. This level introduces you to
+  Cookingdom's intuitive yet precise cooking mechanics in a relaxed, no-timer
+  environment, letting you focus on perfection.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 15,
+  detailing every ingredient, action, and precise placement needed for crispy,
+  delicious results.
+</p>
 
-<h2 id="goal">Cookingdom Level 15 Goals</h2>
+<h2>Ingredients You'll Need for Crispy Chicken</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Raw Chicken Pieces</td>
+      <td>4-5 (drumettes/wings)</td>
+      <td>Provided on a plate, ready for preparation.</td>
+    </tr>
+    <tr>
+      <td>Dark Sauce</td>
+      <td>1 portion</td>
+      <td>Likely soy sauce or a similar savory base for the marinade.</td>
+    </tr>
+    <tr>
+      <td>Ketchup</td>
+      <td>1 portion</td>
+      <td>Adds a touch of sweetness and tang to the marinade.</td>
+    </tr>
+    <tr>
+      <td>Mustard</td>
+      <td>1 portion</td>
+      <td>Contributes a pungent kick to the marinade.</td>
+    </tr>
+    <tr>
+      <td>Mayonnaise</td>
+      <td>1 portion</td>
+      <td>For a creamy texture in the marinade.</td>
+    </tr>
+    <tr>
+      <td>Black Pepper</td>
+      <td>1 shake</td>
+      <td>From shaker, a classic seasoning for the marinade.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 shake</td>
+      <td>From shaker, for seasoning the marinade.</td>
+    </tr>
+    <tr>
+      <td>Noodle Seasoning Packet</td>
+      <td>1 packet</td>
+      <td>A unique flavor boost for your chicken marinade.</td>
+    </tr>
+    <tr>
+      <td>Flour</td>
+      <td>1 portion</td>
+      <td>The primary base (white powder) for your breading mix.</td>
+    </tr>
+    <tr>
+      <td>Yellow Powder 1</td>
+      <td>1 portion</td>
+      <td>Could be cornmeal or a specialized spice mix for breading.</td>
+    </tr>
+    <tr>
+      <td>Salt (for breading)</td>
+      <td>1 shake</td>
+      <td>From shaker, added directly to the breading mixture.</td>
+    </tr>
+    <tr>
+      <td>Red Powder</td>
+      <td>1 portion</td>
+      <td>Likely paprika or chili powder for color and subtle heat in breading.</td>
+    </tr>
+    <tr>
+      <td>Yellow Powder 2</td>
+      <td>1 portion</td>
+      <td>A different spice mix to enhance the breading flavor.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>Sufficient for deep frying</td>
+      <td>Poured from a flask into the pan for frying.</td>
+    </tr>
+    <tr>
+      <td>Lettuce</td>
+      <td>1 portion</td>
+      <td>For a fresh base on your serving plate.</td>
+    </tr>
+    <tr>
+      <td>Chili Sauce</td>
+      <td>1 portion</td>
+      <td>From bottle, perfect as a dipping accompaniment.</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>1 bowl</td>
+      <td>Appears ready-made for convenient plating.</td>
+    </tr>
+    <tr>
+      <td>Large Glass Bowl</td>
+      <td>2</td>
+      <td>One for creating the marinade, the other for the breading mix.</td>
+    </tr>
+    <tr>
+      <td>Small Bowls</td>
+      <td>Multiple</td>
+      <td>To hold individual marinade and breading ingredients before mixing.</td>
+    </tr>
+    <tr>
+      <td>Spoon</td>
+      <td>1</td>
+      <td>Used for thoroughly mixing the marinade ingredients.</td>
+    </tr>
+    <tr>
+      <td>Whisk</td>
+      <td>1</td>
+      <td>Used to evenly combine the dry breading ingredients.</td>
+    </tr>
+    <tr>
+      <td>Induction Cooktop</td>
+      <td>1</td>
+      <td>The heating element for frying your chicken.</td>
+    </tr>
+    <tr>
+      <td>Frying Pan</td>
+      <td>1</td>
+      <td>The vessel for deep frying.</td>
+    </tr>
+    <tr>
+      <td>Spider Strainer</td>
+      <td>1</td>
+      <td>The essential tool to safely remove cooked chicken from hot oil.</td>
+    </tr>
+    <tr>
+      <td>Absorbent Paper</td>
+      <td>1 sheet (Implied)</td>
+      <td>For draining excess oil from the fried chicken.</td>
+    </tr>
+    <tr>
+      <td>Serving Plate</td>
+      <td>1</td>
+      <td>The final surface for presenting your delicious meal.</td>
+    </tr>
+    <tr>
+      <td>Small Dipping Bowl</td>
+      <td>1</td>
+      <td>To hold the chili sauce for easy dipping.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Chicken Fried Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Prepare Your Flavorful Marinade</h3>
+<p>
+  In a large glass bowl, combine the **dark sauce, ketchup, mustard, mayonnaise,
+  black pepper, salt**, and the full contents of the **noodle seasoning
+  packet**. Use the **spoon** to mix all these ingredients thoroughly until
+  they're perfectly blended.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure all sauces and seasonings are well
+  combined; this is crucial for an even, delicious flavor in every bite.
+</div>
+
+<h3>Step 2. Marinate the Chicken Pieces</h3>
+<p>
+  Add the raw **chicken pieces** to the bowl containing your freshly prepared
+  marinade. Toss or stir the chicken to ensure every single piece is completely
+  coated with the marinade.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Take your time to ensure every part of the
+  chicken makes good contact with the marinade for maximum flavor absorption.
+</div>
+
+<h3>Step 3. Prepare the Crispy Breading Mix whisk</h3>
+<p>
+  In a second large glass bowl, add the **flour (white powder), yellow powder 1,
+  salt, red powder**, and **yellow powder 2**. Use the **whisk** to combine
+  these dry ingredients evenly until they form a consistent mixture.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Mixing the dry ingredients well is key to
+  achieving a uniform, crispy crust on your chicken.
+</div>
+
+<h3>Step 4. Heat Your Frying Oil</h3>
+<p>
+  Pour **cooking oil** from the flask into the **frying pan** that's already
+  placed on the **induction cooktop**. Turn on the cooktop to begin heating the
+  oil.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Make sure the oil reaches a sufficient
+  temperature before you add the chicken. Oil that isn't hot enough will result
+  in greasy, rather than crispy, fried chicken.
+</div>
+
+<h3>Step 5. Bread and Fry the Chicken</h3>
+<p>
+  Take each marinated **chicken piece** and fully dip it into the **breading
+  mixture**, ensuring it's completely coated. Carefully place each breaded
+  chicken piece into the hot oil in the frying pan. Fry them until all pieces
+  are beautifully golden brown and appear thoroughly cooked through.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Coat the chicken generously in breading. Don't
+  crowd the pan; fry in batches if necessary to maintain oil temperature and
+  ensure even cooking.
+</div>
+
+<h3>Step 6. Drain the Fried Chicken</h3>
+<p>
+  Using the **spider strainer**, carefully lift the cooked **fried chicken
+  pieces** out of the hot oil. Place them onto **absorbent paper** (this is
+  implied in the game) to drain any excess oil.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Proper draining is essential for keeping your
+  fried chicken wonderfully crispy, not greasy.
+</div>
+
+<h3>Step 7. Plate Your Delicious Dish</h3>
+<p>
+  Arrange the fresh **lettuce leaves** neatly on the **serving plate** to create
+  a vibrant base. Place the drained **fried chicken pieces** on top of the
+  lettuce. Dispense **chili sauce** from its bottle into the small **dipping
+  bowl**. Finally, position the bowl of **french fries** and the dipping sauce
+  bowl attractively alongside the chicken in the serving area.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Arrange all components aesthetically for a
+  stunning final presentation!
+</div>
+
+<h2>Top Tips for Cookingdom Level 15 Success</h2>
 <ul>
-    <li>
-        <strong>Prepare the Chicken:</strong> The chicken must be coated in a seasoned batter and fried to golden perfection.
-    </li>
-    <li>
-        <strong>Cook the Sides:</strong> Typically, Chicken Fried is served with sides like mashed potatoes, coleslaw, or fries.
-    </li>
-    <li>
-        <strong>Serve Quickly:</strong> As with all levels in Cookingdom Level 15, serving the dish quickly is important for customer satisfaction.
-    </li>
+  <li>
+    ✔️ Ensure your marinade ingredients are **fully mixed** before you add the
+    chicken.
+  </li>
+  <li>
+    ✔️ Coat the chicken **evenly** in marinade, then **thoroughly** in the
+    breading mixture for a consistent crust.
+  </li>
+  <li>
+    ✔️ Always make sure the **oil is hot enough** before frying; otherwise, you'll
+    end up with oily chicken.
+  </li>
+  <li>
+    ✔️ Fry until the chicken is **golden brown and cooked through**; cooking
+    time will depend on the size of your chicken pieces.
+  </li>
+  <li>
+    ✔️ **Drain the chicken well** after frying to remove any excess oil and keep
+    it crispy.
+  </li>
+  <li>
+    ✔️ Plate your dish neatly with **all components present** (chicken, lettuce,
+    fries, and dipping sauce) and arranged as shown in the game.
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 15 Steps to Make Chicken Fried</h2>
-<ol>
-    <li>
-        <h3>Cookingdom Level 15 Prepare the Chicken:</h3>
-        <p>Start by seasoning the chicken pieces. In Cookingdom, you'll dip the chicken into a seasoned batter before placing it into a hot frying pan or deep fryer.</p>
-        <p><strong>Tip:</strong> Make sure the batter is evenly applied to the chicken for a crispy and golden exterior. Season the batter to enhance the flavor, and ensure the oil temperature is correct. If the oil is too hot, the chicken will burn on the outside but remain raw on the inside.</p>
-        <p><strong>Tip:</strong> Turn the chicken pieces periodically while frying to ensure they cook evenly and achieve that perfect crispy texture.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 15 Cook the Sides:</h3>
-        <p>While the chicken is frying, you'll need to prepare the side dishes. Common sides for Chicken Fried include:</p>
-        <ul>
-            <li><strong>Mashed Potatoes:</strong> In Cookingdom Level 15 , you'll need to boil and mash the potatoes, then add butter, milk, and seasoning.</li>
-            <li><strong>Coleslaw:</strong> You can quickly prepare coleslaw by chopping vegetables and mixing them with a creamy dressing.</li>
-            <li><strong>Fries:</strong> If fries are on the menu, make sure to fry them until they are crispy and golden brown.</li>
-        </ul>
-        <p><strong>Cookingdom Level 15 Tip:</strong> You can prepare these sides while the chicken is frying. If you're multitasking, make sure none of the sides are overcooked or undercooked.</p>
-    </li>
-    <li>
-        <h3>Cookingdom Level 15 Assemble the Dish:</h3>
-        <p>Once the chicken is perfectly fried and the sides are ready, it's time to plate the dish. Arrange the fried chicken on the plate and add the sides, ensuring everything is well-presented. You can add garnishes like parsley or a drizzle of gravy for extra flavor.</p>
-           </li>
-    <li>
-        <h3>Cookingdom Level 15 Serve the Chicken Fried:</h3>
-        <p>After plating, serve the dish quickly while it's still hot. Cookingdom Level 15 customers expect freshly cooked meals, and the faster you serve, the higher your ratings will be.</p>
-
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 15 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 15</h2>
 <ul>
-    <li>
-        <h3>Perfect Fried Chicken:</h3>
-        <p>The key to perfect fried chicken is frying at the right temperature. If the oil is too hot, the batter will burn before the chicken is fully cooked inside. If the oil is too cool, the chicken will absorb too much oil and become greasy.</p>
-
-    </li>
-    <li>
-        <h3>Manage the Sides:</h3>
-        <p>Cookingdom Level 15  challenges you to multitask, so managing the cooking of the sides is just as important as frying the chicken. Be sure to keep an eye on the timer to ensure nothing is overcooked.</p>
-        <p><strong>Tip:</strong> Start preparing the sides as soon as the chicken is in the fryer. Mashed potatoes and fries can be prepared quickly, while coleslaw can be made in advance.</p>
-    </li>
-    <li>
-        <h3>Seasoning:</h3>
-        <p>Seasoning is crucial in Cookingdom Level 15 . The chicken batter should have just the right amount of salt, pepper, and spices. Don't forget to season the sides as well for a balanced flavor.</p>
-        <p><strong>Tip:</strong> You can adjust the seasoning based on customer preferences, like adding extra spice to the batter for those who enjoy a bit of heat.</p>
-    </li>
-    <li>
-        <h3>Upgrade Your Equipment:</h3>
-        <p>As you advance in Cookingdom Level 15 , consider upgrading your fryer and stove. A faster cooking process will help you handle the increasing volume of orders in later levels.</p>
-        <p><strong>Tip:</strong> Upgrades to your kitchen equipment will speed up the frying process and ensure your side dishes are cooked quickly.</p>
-    </li>
-    <li>
-        <h3>Don't Let the Oil Cool:</h3>
-        <p>Cookingdom Level 15  requires that the oil remain at a high enough temperature to cook the chicken properly. If the oil cools down too much, the chicken will absorb more oil and lose its crispiness. Keep an eye on the temperature and adjust it as needed.</p>
-    </li>
+  <li>Not mixing the marinade or breading ingredients properly, leading to uneven flavor/texture.</li>
+  <li>Incomplete or uneven coating of the chicken pieces, resulting in inconsistent breading.</li>
+  <li>Frying the chicken in oil that isn't hot enough, which makes the chicken greasy.</li>
+  <li>Overcooking or undercooking the chicken, impacting its tenderness and safety.</li>
+  <li>Forgetting to drain the chicken after frying, leaving it excessively oily.</li>
+  <li>Missing components during plating (like lettuce, fries, or the dipping sauce) or arranging them messily affects your score.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 15 , preparing Chicken Fried involves frying the chicken to crispy perfection and managing sides like mashed potatoes, coleslaw, or fries. Timing and multitasking are essential, as you need to manage both the frying process and the preparation of side dishes at the same time.</p>
-<p>Perfectly seasoned chicken, golden fries, and smooth mashed potatoes will have your customers coming back for more. As always in Cookingdom Level 15 , speed and presentation matter, so make sure to serve everything fresh and hot!</p>
-<p>By mastering Chicken Fried and improving your multitasking abilities, you'll continue to level up and handle even more complex dishes in Cookingdom Level 15 .</p>
 `,
   },
 
@@ -581,84 +1047,257 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Game Overview</h2>
-<p>In Cookingdom, each new level challenges you with a more complex dish. Level 16 is no exception, as you're tasked with preparing a perfectly cooked Steak. This dish requires precise timing, heat control, and careful attention to customer orders. As you move forward in Cookingdom, cooking steak will become a cornerstone of your menu, and handling the complexity of different steak doneness levels will be crucial to keep your customers happy.</p>
-<p>In this level, you'll need to manage your kitchen efficiently while ensuring every steak is cooked to the right level, whether it's rare, medium, or well-done. Let's dive into the details of making the perfect steak!</p>
+    <h2>Welcome to Cookingdom Level 16: Steak Walkthrough & Guide</h2>
+<p>
+  Welcome, culinary artist! In **Cookingdom Level 16**, your mission is to grill
+  and plate the perfect **steak. This level introduces you to Cookingdom's
+  intuitive yet precise cooking mechanics in a relaxed, no-timer environment.
+</p>
+<p>
+  This walkthrough provides the exact steps to succeed in Cookingdom Level 8,
+  detailing every ingredient, action, and precise placement needed for a
+  five-star dish.
+</p>
 
-<h2 id="goal">Level 16 Goals</h2>
+<h2>Ingredients You'll Need for Your Steak Dinner</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Steak</td>
+      <td>2 pieces</td>
+      <td>The main protein for your dish.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>To taste</td>
+      <td>Essential seasoning for the steak.</td>
+    </tr>
+    <tr>
+      <td>Pepper</td>
+      <td>To taste</td>
+      <td>Another crucial seasoning for flavor.</td>
+    </tr>
+    <tr>
+      <td>Garlic</td>
+      <td>1 bulb for mincing, 1 bulb (top cut) for searing</td>
+      <td>Adds rich flavor to both the steak and side vegetables.</td>
+    </tr>
+    <tr>
+      <td>Oil</td>
+      <td>Drizzle</td>
+      <td>For marinating the steak before cooking.</td>
+    </tr>
+    <tr>
+      <td>Potato</td>
+      <td>1 (cut in half)</td>
+      <td>A hearty side vegetable.</td>
+    </tr>
+    <tr>
+      <td>Carrot</td>
+      <td>1 whole</td>
+      <td>A sweet and colorful side vegetable.</td>
+    </tr>
+    <tr>
+      <td>Green Peppercorns</td>
+      <td>1 sprig</td>
+      <td>Adds a unique flavor and garnish.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 pat</td>
+      <td>Used for searing the steak and cooking the sides.</td>
+    </tr>
+    <tr>
+      <td>Soy Sauce (Bottle labeled 'Sauce')</td>
+      <td>To taste</td>
+      <td>The base for your savory pan sauce.</td>
+    </tr>
+    <tr>
+      <td>Parsley</td>
+      <td>1 sprig</td>
+      <td>A fresh garnish for elegant plating.</td>
+    </tr>
+    <tr>
+      <td>Cherry Tomatoes</td>
+      <td>2 (halved)</td>
+      <td>A vibrant side vegetable/garnish, added during plating.</td>
+    </tr>
+    <tr>
+      <td>Yellow Dipping Sauce (e.g., Hollandaise/Béarnaise)</td>
+      <td>1 small bowl</td>
+      <td>A creamy sauce to serve alongside the steak.</td>
+    </tr>
+    <tr>
+      <td>Serving Plate</td>
+      <td>1</td>
+      <td>The final presentation surface for your masterpiece.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Steak Perfection: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Select Your Recipe</h3>
+<p>
+  Begin by opening the cookbook and choosing **Recipe No. 8 (Steak)**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Just make sure you have the necessary ingredients
+  unlocked before you start!
+</div>
+
+<h3>Step 2. Season Your Steaks</h3>
+<p>
+  Place the two **steaks** onto a plate. Drag the **salt shaker** over both
+  steaks to season them generously. Then, do the same with the **pepper
+  shaker**, covering both steaks.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure both sides of each steak are thoroughly
+  seasoned by dragging your cursor over the entire steak area.
+</div>
+
+<h3>Step 3. Prepare and Add Minced Garlic</h3>
+<p>
+  Take one **garlic bulb** and place it onto the **cutting board**. Use your
+  **knife** to repeatedly chop the garlic until it's finely minced. Once
+  minced, drag the prepared garlic onto your seasoned steaks.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Chop the garlic thoroughly for the best flavor
+  distribution. A heart icon will confirm when the garlic is correctly applied.
+</div>
+
+<h3>Step 4. Drizzle with Oil</h3>
+<p>
+  Pour **oil** from the bottle directly over your seasoned steaks and the
+  minced garlic.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the oil coats both steaks evenly. A heart
+  icon will confirm successful application.
+</div>
+
+<h3>Step 5. Prepare Side Vegetables (Preliminary Cuts)</h3>
+<p>
+  Place a **potato** on the **cutting board** and use your **knife** to slice
+  it neatly in half (you'll use both halves later). Next, take the second
+  **garlic bulb**, place it on the board, and simply slice off the top.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> These vegetables are being prepped now, but they
+  will be cooked later in the pan, absorbing residual flavors.
+</div>
+
+<h3>Step 6. Heat Pan and Sear Steaks</h3>
+<p>
+  Place the **frying pan** on the **stove** and turn on the heat. Add the **pat
+  of butter** and allow it to melt completely. Once melted and hot, carefully
+  add your seasoned **steaks** to the pan and cook until one side is perfectly
+  seared with a nice crust.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Listen for that satisfying sizzle! Avoid
+  overcrowding the pan; give your steaks space to sear properly.
+</div>
+
+<h3>Step 7. Remove Steaks, Cook Sides</h3>
+<p>
+  Remove the seared **steaks** from the pan and temporarily set them aside on
+  the **cutting board**. Now, add your prepared side vegetables – the cut
+  **garlic bulb**, **potato halves, carrot**, and **green peppercorns** – to
+  the *same* pan with the residual butter and steak drippings. Sauté until
+  they are cooked through and tender-crisp.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Cooking the vegetables in the same pan allows
+  them to absorb all those delicious, savory flavors left by the steak.
+</div>
+
+<h3>Step 8. Remove Sides and Create Pan Sauce</h3>
+<p>
+  Once cooked, remove the vegetables from the pan and place them on a side
+  tray. Now, pour the **soy sauce** (from the bottle labeled 'Sauce') into the
+  hot pan. Let it bubble and reduce slightly to create a rich pan sauce.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Scrape up any browned bits from the bottom of
+  the pan into the sauce; these bits are packed with extra flavor!
+</div>
+
+<h3>Step 9. Slice the Steak</h3>
+<p>
+  Take one of your seared **steaks** and place it onto the **cutting board**.
+  Use your **knife** to slice the steak into several even pieces.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> For real-world tenderness, you'd slice against
+  the grain, but in the game, simply follow the visual guides for even cuts.
+</div>
+
+<h3>Step 10. Plate Your Masterpiece</h3>
+<p>
+  Place the fresh **parsley sprig** on the large **serving plate**. Arrange
+  your sliced **steak** attractively over the parsley. Now, add your cooked
+  side vegetables – the **garlic, carrots, potatoes, and peppercorns** – along
+  with the halved **cherry tomatoes** around the steak.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Arrange all components thoughtfully and
+  aesthetically for the best possible presentation score.
+</div>
+
+<h3>Step 11. Add Sauces and Serve!</h3>
+<p>
+  Use a **spoon** to drizzle your freshly made **pan sauce** generously over
+  the sliced steak. Finally, place the small bowl of **yellow dipping sauce**
+  (like Hollandaise or Béarnaise) neatly next to your plated steak.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the pan sauce covers the steak nicely. The
+  dipping sauce is the finishing touch that completes your dish.
+</div>
+
+<h2>Top Tips for Cookingdom Level 16 Success</h2>
 <ul>
-  <li><strong>Cook Steak to Perfection:</strong> Cookingdom requires you to cook steak to different levels of doneness: rare, medium, and well-done. Each customer will have their own preference, and it's essential to cook each steak just right to meet those expectations.</li>
-  <li><strong>Handle Multiple Steak Orders:</strong> As with previous levels, managing multiple orders is critical. Cookingdom will test your ability to handle more complex orders at the same time while ensuring each steak is cooked properly.</li>
-  <li><strong>Serve the Steak Promptly:</strong> Customers in Cookingdom get impatient, so serving each steak as soon as it's cooked is essential. Timing is key to earning the best possible ratings.</li>
+  <li>
+    ✔️ **Season the steak generously** with salt, pepper, and minced garlic
+    before you start cooking.
+  </li>
+  <li>
+    ✔️ Always ensure your **pan is hot** before adding butter and steak to
+    achieve a perfect sear and avoid a gray, unappealing crust.
+  </li>
+  <li>
+    ✔️ **Cook the side vegetables in the same pan** immediately after the
+    steak; they'll absorb all those wonderful residual flavors.
+  </li>
+  <li>
+    ✔️ Don't forget the **final pan sauce drizzle** over the steak and the
+    **side dipping sauce**; both are essential for completion.
+  </li>
+  <li>
+    ✔️ Arrange all elements **neatly and attractively** on the plate for the
+    highest presentation score.
+  </li>
 </ul>
 
-<h2 id="steps">Steps to Make Steak</h2>
-<ol>
-  <li>
-      <h3>Prepare the Pan or Grill:</h3>
-      <p>Before cooking, heat your pan or grill to a high temperature. The key to a good steak is getting the pan or grill hot enough to sear the outside while keeping the inside juicy. Add some oil or butter to the pan to prevent the steak from sticking.</p>
-      <p><strong>Tip:</strong> A hot pan or grill is essential to achieving that delicious crust on the steak.</p>
-  </li>
-  <li>
-      <h3>Season the Steak:</h3>
-      <p>Once your pan is hot, season the steak with salt, pepper, and any other spices or herbs you prefer. Some customers in Cookingdom may have specific seasoning requests, so be sure to check their orders for any preferences.</p>
-      <p><strong>Tip:</strong> Use a generous amount of seasoning to enhance the steak's flavor. Don't forget to season both sides of the steak.</p>
-  </li>
-  <li>
-      <h3>Cook the Steak:</h3>
-      <p>Place the steak in the hot pan or on the grill. Depending on the doneness requested by the customer, cook the steak for the following times:</p>
-      <ul>
-          <li>Rare: 2-3 minutes per side.</li>
-          <li>Medium: 4-5 minutes per side.</li>
-          <li>Well-Done: 6-7 minutes per side.</li>
-      </ul>
-      <p><strong>Tip:</strong> Flip the steak only once to avoid losing juices. Use tongs to flip the steak gently.</p>
-  </li>
-  <li>
-      <h3>Check for Doneness:</h3>
-      <p>Use the visual and tactile cues to check the doneness of the steak:</p>
-      <ul>
-          <li>Rare: Cool to the touch and red in the center.</li>
-          <li>Medium: Slightly firm with a pink center.</li>
-          <li>Well-Done: Firm and browned through, with no pink inside.</li>
-      </ul>
-      <p><strong>Tip:</strong> In Cookingdom, you may also see a visual indicator or timer that shows when the steak is ready, helping you avoid overcooking.</p>
-  </li>
-  <li>
-      <h3>Rest the Steak:</h3>
-      <p>Once the steak is cooked to the correct doneness, remove it from the pan or grill and let it rest for a minute or two. This helps redistribute the juices and ensures a tender, juicy steak.</p>
-      <p><strong>Tip:</strong> Don't skip this step! Resting the steak is essential for maintaining its flavor and moisture.</p>
-  </li>
-  <li>
-      <h3>Serve the Steak:</h3>
-      <p>Once the steak has rested, place it on a plate and serve it to the customer. You can garnish the steak with sides like mashed potatoes, vegetables, or sauces, depending on the order.</p>
-      <p><strong>Tip:</strong> Serve the steak as soon as it's ready to keep your customers happy and avoid any dissatisfaction due to slow service.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 16</h2>
 <ul>
-  <li>
-      <strong>Mastering Steak Doneness:</strong> In Cookingdom, cooking the steak to the correct level of doneness is essential. Customers will specify how they want their steak, and delivering it perfectly cooked will earn you high ratings. Pay close attention to their orders and use the correct cooking times to achieve the perfect steak.
-  </li>
-  <li>
-      <strong>Efficient Order Management:</strong> As more customers arrive, you will need to handle multiple steak orders at once. Prioritize based on the time each customer has been waiting. Make sure to check each steak's doneness and avoid overcooking them while managing other dishes.
-  </li>
-  <li>
-      <strong>Upgrades and Equipment:</strong> As you progress through Cookingdom, you can upgrade your cooking equipment. A higher-quality grill or pan will cook steaks faster and more efficiently. Consider upgrading your tools to speed up the cooking process and improve your results.
-  </li>
-  <li>
-      <strong>Use Speed Boosts and Boosters:</strong> Cookingdom offers boosts and speed-ups to help you handle busy times. Use them to speed up cooking or serve your customers faster, especially when you have multiple steak orders to manage at once.
-  </li>
-  <li>
-      <strong>Customer Satisfaction:</strong> Customer patience is a big factor in Cookingdom. If you keep customers waiting too long for their steak, they may leave unhappy. Always aim to serve your steaks hot and promptly, and keep your customers satisfied for the best results.
-  </li>
+  <li>Forgetting to season the steak with any of the required salt, pepper, or garlic.</li>
+  <li>Adding the steak to a cold pan, which will prevent a good, flavorful sear.</li>
+  <li>Burning the butter, garlic, or side vegetables during cooking.</li>
+  <li>Overcooking the steak, resulting in a tough and undesirable texture (often visually represented).</li>
+  <li>Forgetting to add the crucial pan sauce or the accompanying yellow dipping sauce.</li>
+  <li>Messy plating or missing key vegetable components like the cherry tomatoes during the final arrangement.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Level 16 of Cookingdom, preparing the perfect Steak is all about controlling the cooking times and ensuring that each customer's steak is cooked to their preferred level of doneness. You'll need to master grilling and pan-searing techniques, manage multiple orders simultaneously, and serve the steak while it's still fresh and juicy.</p>
-<p>By the end of this level, you'll have gained valuable skills in steak preparation that will help you tackle even more complex dishes in future levels. With careful attention to detail and quick service, you'll be able to handle the steak orders like a pro and keep your customers coming back for more!</p>
-
 `,
   },
 
@@ -701,82 +1340,223 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 17Game Overview</h2>
-<p>In Cookingdom Level 17 , introduces a delightful and sophisticated beverage: the Café Macchiato. This level challenges you to prepare a smooth espresso base topped with a dollop of foamed milk, all while maintaining perfect timing and precision. It's a classic coffeehouse favorite that requires attention to detail and the ability to multitask, as you'll need to perfect the espresso shot and milk foam simultaneously.</p>
-<p>As Café Macchiato is a popular drink in coffee shops around the world, preparing it correctly will impress your customers and help you level up in Cookingdom Level 17. Let's break down the process and guide you to a perfect Café Macchiato.</p>
+    <h2>Welcome to Cookingdom Level 17: Café Macchiato Walkthrough & Guide</h2>
+<p>
+  Welcome, coffee connoisseur! In **Cookingdom Level 17**, your mission is to
+  craft the perfect **Café Macchiato**. This level guides you through
+  Cookingdom's intuitive yet precise cooking mechanics in a relaxed, no-timer
+  environment, allowing you to master this layered coffee creation.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 17,
+  detailing every ingredient, action, and precise placement needed for an
+  elegant and delicious macchiato.
+</p>
 
-<h2 id="goal">Cookingdom Level 17 Goals</h2>
+<h2>Ingredients You'll Need for Your Macchiato</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Coffee Cherries</td>
+      <td>1 basket</td>
+      <td>Harvested from coffee bushes at the very beginning.</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>1 pitcher</td>
+      <td>A key component for creating the syrup.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 bowl</td>
+      <td>Sweetener for your homemade syrup.</td>
+    </tr>
+    <tr>
+      <td>Lemons</td>
+      <td>1 bowl</td>
+      <td>Juice squeezed into the syrup for brightness.</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>1 carton</td>
+      <td>Used for steaming and frothing into a rich foam.</td>
+    </tr>
+    <tr>
+      <td>Ice Cubes</td>
+      <td>1 bowl</td>
+      <td>Added to the serving glass before the espresso.</td>
+    </tr>
+    <tr>
+      <td>Flower Garnish</td>
+      <td>1 cup</td>
+      <td>The final delicate touch for presentation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Café Macchiato Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Harvest Coffee Cherries</h3>
+<p>
+  Begin by swiping away the large leaves that cover the **coffee bushes**. Once
+  revealed, tap the clusters of multi-colored **coffee cherries** to collect
+  them. Continue doing this until the woven basket is completely full.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Make sure to uncover and collect *all* the cherry
+  clusters. A heart icon will appear once the basket is full, confirming
+  completion.
+</div>
+
+<h3>Step 2. Process Cherries (Pulping)</h3>
+<p>
+  Drag the filled basket of **cherries** to pour them into the hopper of the
+  red hand-cranked pulping machine. Then, drag the crank handle in a circular
+  motion to process the cherries, separating the beans into the purple bowl
+  below.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Keep cranking consistently until all cherries
+  are processed. Heart icons will confirm both the pouring and the completion
+  of processing.
+</div>
+
+<h3>Step 3. Dry the Beans</h3>
+<p>
+  Pour the pulped **beans** from the purple bowl onto the drying tray. Next,
+  swipe away any clouds that are covering the sun icon above the tray. Wait for
+  the timer to complete as the beans dry and turn a uniform brown.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Clearing the clouds is essential to start the
+  drying process. A heart icon will appear when the beans are perfectly dry.
+</div>
+
+<h3>Step 4. Roast the beans stirring</h3>
+<p>
+  Turn on the **hotplate**. Use the **scoop** to transfer the dried brown
+  **beans** into the pan placed on the hotplate. Now, grab the **spatula** and
+  continuously stir the beans as they roast and darken.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Constant stirring is vital to prevent burning
+  and ensure even roasting. Heart icons will appear after adding beans and
+  again after successful stirring.
+</div>
+
+<h3>Step 5. Grind the Beans</h3>
+<p>
+  Pour the roasted **beans** from the pan into the yellow **blender**. Place
+  the lid firmly on top, then press the power button. Wait for the blender to
+  grind the beans into a fine coffee powder.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Always ensure the lid is securely on before
+  pressing the power button. A heart icon will confirm the grinding is
+  complete.
+</div>
+
+<h3>Step 6. Make the Syrup</h3>
+<p>
+  Turn on a **hotplate**. Add **sugar** from the bowl and **water** from the
+  pitcher into a pan. Stir well with the **spatula**. Squeeze the juice from a
+  **lemon half** into the pan. Continue stirring until the mixture thickens and
+  transforms into a glossy brown syrup.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Follow the precise sequence of adding
+  ingredients and keep stirring consistently. Heart icons will appear at
+  various stages: adding ingredients, squeezing lemon, and finally, upon syrup
+  completion.
+</div>
+
+<h3>Step 7. Steam Milk</h3>
+<p>
+  Pour **milk** from the carton into the glass beaker. Place the beaker inside
+  the small oven/steamer machine. Wait for the timer to complete as the milk
+  heats up to the perfect temperature.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the beaker is correctly placed in the
+  machine. A heart icon will appear once steaming is complete.
+</div>
+
+<h3>Step 8. Froth Milk</h3>
+<p>
+  Take the beaker of steamed milk out of the machine. Insert the **immersion
+  blender** into the beaker and operate it until the milk becomes wonderfully
+  thick and frothy.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Keep blending until the milk reaches the desired
+  airy, frothy consistency. A heart icon indicates success.
+</div>
+
+<h3>Step 9. Brew Espresso</h3>
+<p>
+  Use the **spoon** to add ground coffee powder into the espresso machine's
+  **portafilter**. Use the **tamper** to press the grounds down firmly and
+  evenly. Lock the portafilter into the machine. Place the small white cup
+  under the spout and press the brew button. Wait for the rich espresso to brew
+  into the cup.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Each action (adding grounds, tamping, brewing)
+  needs to be executed correctly for a perfect shot. Heart icons will confirm
+  each step's completion.
+</div>
+
+<h3>Step 10. Assemble the Macchiato</h3>
+<p>
+  Place the tall glass on the purple plate. Add **ice cubes** from the bowl
+  into the glass. Pour the freshly brewed **espresso** over the ice. Gently
+  pour the beautiful **frothed milk** on top of the espresso. Now, carefully
+  drizzle the prepared **syrup** over the frothed milk in a delicate heart
+  shape. Finally, add the **flower garnish** for decoration.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Layer the ingredients carefully for visual
+  appeal. The syrup drizzle requires tracing a clear heart shape. Heart icons
+  will appear for adding ice, espresso, milk, and the syrup drizzle.
+</div>
+
+<h2>Top Tips for Cookingdom Level 17 Success</h2>
 <ul>
-    <li>
-        <strong>Prepare the Espresso:</strong> The base of the Café Macchiato is a rich, strong espresso shot.
-    </li>
-    <li>
-        <strong>Foam the Milk:</strong> You need to foam the milk to the perfect texture and temperature.
-    </li>
-    <li>
-        <strong>Serve the Drink:</strong> After preparing the espresso and milk foam, combine them in the correct proportions and serve the Café Macchiato while it's still fresh and hot.
-    </li>
-    <li>
-        <strong>Serve Quickly:</strong> As always in Cookingdom Level 17 , speed matters. The faster you serve the Café Macchiato, the better your rating. Freshness is key in ensuring the drink maintains its optimal taste and texture.
-    </li>
+  <li>
+    ✔️ Always watch for the **heart icons**; they are your best indicators that
+    each micro-step has been completed successfully.
+  </li>
+  <li>
+    ✔️ Be **precise** with all your actions, especially stirring, frothing milk,
+    and executing the syrup drizzle pattern.
+  </li>
+  <li>
+    ✔️ Don't overlook crucial intermediate steps like **clearing clouds** for
+    drying or ensuring **lids are placed** on blenders.
+  </li>
+  <li>
+    ✔️ **Manage the timers effectively** for drying, roasting, steaming, and
+    brewing to ensure all components are ready at the right time.
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 17 Steps to Make Café Macchiato</h2>
-<ol>
-    <li>
-        <h3>Prepare the Espresso:</h3>
-        <p>Begin by brewing the espresso shot. In Cookingdom Level 17 , you'll have to use an espresso machine to extract the perfect shot of coffee. The coffee grounds must be tamped evenly to ensure the espresso is brewed to perfection.</p>
-        <p><strong>Tip:</strong> Watch the espresso closely to avoid over-extracting or under-extracting the shot. </p>
-        <p><strong>Tip:</strong> The perfect espresso shot is key to the flavor of the Café Macchiato</p>
-    </li>
-    <li>
-        <h3>Foam the Milk:</h3>
-        <p>Next, focus on the milk. To make the Café Macchiato, you need to froth the milk until it's creamy and airy, but not overly thick. </p>
-        <p><strong>Tip:</strong> Be careful not to overheat the milk — it should reach the ideal temperature of around 150°F (65°C).</p>
-        <p><strong>Tip:</strong> When foaming the milk, you're aiming for a smooth, creamy texture with small bubbles. </p>
-    </li>
-    <li>
-        <h3>Combine the Espresso and Milk:</h3>
-        <p>Once both the espresso and the milk foam are ready, it's time to combine them. For a Café Macchiato, you'll pour the espresso shot into a cup and then add a small dollop of the milk foam on top.</p>
-        <p><strong>Tip:</strong> The key to a Café Macchiato is the balance between the strong, bold espresso and the delicate, creamy foam. </p>
-    </li>
-    <li>
-        <h3>Serve the Café Macchiato:</h3>
-        <p>After preparing the Café Macchiato, serve the drink quickly while it's still hot. In Cookingdom Level 17 , you'll want to serve the drink while the foam is still fresh and the espresso shot hasn't cooled down.</p>
-
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 17 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 17</h2>
 <ul>
-    <li>
-        <h3>Perfect Espresso Shot:</h3>
-        <p>The key to a great Café Macchiato is the espresso. Make sure the coffee grounds are evenly tamped before brewing, and pay attention to the timing to get a rich, balanced shot of espresso.</p>
-
-    </li>
-    <li>
-        <h3>Foam the Milk to Perfection:</h3>
-        <p>The milk foam should be smooth, creamy, and airy — not too thick or frothy. To achieve the right texture, pay attention to the sound of the steamer. It should create a gentle hissing sound, not a loud sputtering noise.</p>
-
-    </li>
-    <li>
-        <h3>Work on Your Timing:</h3>
-        <p>Cookingdom Level 17 is all about multitasking and timing. While the espresso is brewing, start foaming the milk to save time. This will allow you to assemble the Café Macchiato quickly and efficiently.</p>
-
-    </li>
-    <li>
-        <h3>Don't Overdo the Milk Foam:</h3>
-        <p>For a Café Macchiato, only a small amount of foam is needed. The drink should still have the bold, strong flavor of the espresso with just a hint of milk. Too much foam will overpower the coffee and make the drink too milky.</p>
-            </li>
-    <li>
-        <h3>Serve Fresh and Hot:</h3>
-        <p>The Café Macchiato must be served immediately after preparation. As with all drinks in Cookingdom, freshness is important. Hot drinks lose their appeal quickly, so serving it right away is crucial to your success.</p>
-    </li>
+  <li>Missing coffee cherry clusters during the initial harvest.</li>
+  <li>Not processing all cherries in the pulping machine.</li>
+  <li>Forgetting to clear the clouds for the drying process or not waiting for the drying timer to complete.</li>
+  <li>Insufficient stirring during roasting, which can lead to burnt beans or uneven roasting.</li>
+  <li>Making the syrup with incorrect consistency or forgetting to add a required ingredient like lemon juice.</li>
+  <li>Milk not being steamed or frothed to the correct temperature or consistency.</li>
+  <li>Messy assembly, especially an inaccurate or incomplete final syrup heart drizzle and incorrect garnish placement.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 17, preparing the Café Macchiato requires attention to detail and perfect timing. Brewing the espresso to perfection and foaming the milk to the ideal texture is the key to crafting this classic coffeehouse drink. With careful attention to the brewing and foaming process, you'll serve up a smooth, rich Café Macchiato that will delight your customers.</p>
-<p>Multitask efficiently, keep an eye on the timing, and serve the drink hot and fresh to maximize your ratings in Cookingdom Level 17!</p>
 `,
   },
   {
@@ -941,96 +1721,216 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 19 Game Overview</h2>
-<p>In Cookingdom Level 19 ,introduces a sweet and delicious treat: Pumpkin Pie. This classic dessert is a favorite in many cultures, especially during the fall season. Preparing Pumpkin Pie in Cookingdom Level 19 requires you to create a smooth pumpkin filling, prepare the perfect pie crust, and bake it to golden perfection. Timing, ingredient balance, and presentation will be key to achieving the highest customer satisfaction.</p>
-<p>In Cookingdom Level 19 ,you'll need to manage your ingredients and cooking steps carefully to ensure that both the pie crust and the filling are just right. Let's break down the steps and tips for creating the ultimate Pumpkin Pie!</p>
+      <h2>Welcome to Cookingdom Level 19: Pumpkin Pie Walkthrough & Guide</h2>
+<p>
+  Welcome, dessert decorator! In **Cookingdom Level 19**, your mission is to
+  craft the perfect **pumpkin pie. This level guides you through Cookingdom's
+  intuitive yet precise baking mechanics in a relaxed, no-timer environment,
+  allowing you to master each sweet step.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 19,
+  detailing every ingredient, action, and precise placement needed for a
+  delightful pumpkin pie.
+</p>
 
-<h2 id="goal">Cookingdom Level 19 Goals</h2>
+<h2>Ingredients You'll Need for Your Pumpkin Pie</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Flour</td>
+      <td>1 bowl</td>
+      <td>White powder, added to the food processor for the pie crust.</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>1 portion</td>
+      <td>Added via spoon from a cup to the food processor for the crust.</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>1 portion</td>
+      <td>Added via spoon from a cup to the food processor for the crust.</td>
+    </tr>
+    <tr>
+      <td>Water/Liquid</td>
+      <td>1 flask</td>
+      <td>Added from a flask to the food processor for the crust.</td>
+    </tr>
+    <tr>
+      <td>Brown Spice (Cinnamon/Pumpkin Spice)</td>
+      <td>1 bowl</td>
+      <td>Brown powder, added to the food processor for the crust.</td>
+    </tr>
+    <tr>
+      <td>Butter</td>
+      <td>1 block</td>
+      <td>Added from a tray to the food processor for the crust.</td>
+    </tr>
+    <tr>
+      <td>Cream</td>
+      <td>1 carton</td>
+      <td>A rich base, added to the mixing bowl for the filling.</td>
+    </tr>
+    <tr>
+      <td>Pumpkin Puree/Slices</td>
+      <td>1 plate</td>
+      <td>The orange star ingredient, added to the mixing bowl for the filling.</td>
+    </tr>
+    <tr>
+      <td>Rum</td>
+      <td>1 bottle</td>
+      <td>Adds a unique flavor, added to the mixing bowl for the filling.</td>
+    </tr>
+    <tr>
+      <td>Milk</td>
+      <td>1 pitcher</td>
+      <td>Contributes to the smooth consistency of the filling.</td>
+    </tr>
+    <tr>
+      <td>Grated Spice (Nutmeg/Ginger?)</td>
+      <td>1 bowl</td>
+      <td>Fine yellow/brown shreds, added to the mixing bowl for the filling.</td>
+    </tr>
+    <tr>
+      <td>Eggs</td>
+      <td>3 (implied)</td>
+      <td>Cracked from a plate into the mixing bowl for the filling.</td>
+    </tr>
+    <tr>
+      <td>Whipped Cream</td>
+      <td>1 piping bag</td>
+      <td>Used for delightful decoration after baking.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Pumpkin Pie Perfection: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Prepare Your Flaky Crust Dough processor</h3>
+<p>
+  Open the **food processor**. Add the **salt, sugar, flour, water, brown
+  spice**, and **butter**. Close the lid securely and blend until a cohesive
+  dough forms.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Double-check that all crust ingredients are in
+  the processor before you blend. A heart icon will appear when the dough is
+  perfectly ready.
+</div>
+
+<h3>Step 2. Roll Out the Crust</h3>
+<p>
+  Remove the prepared **dough** from the food processor and place it onto the
+  wooden board. Use the **rolling pin**, dragging it back and forth smoothly
+  until the dough flattens into a perfect circle.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Keep rolling until a sparkle effect appears,
+  indicating the dough is fully rolled out to the correct size and thickness.
+</div>
+
+<h3>Step 3. Form the Pie Crust in the Pan</h3>
+<p>
+  Drag the rolled **dough** from the board and carefully place it into the
+  black **pie pan**, pressing it gently to form the crust shape.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> A heart icon will confirm that your crust is
+  correctly placed and shaped within the pan.
+</div>
+
+<h3>Step 4. Blind Bake the Crust</h3>
+<p>
+  Open the **oven door**. Place the **pie pan** containing your raw crust into
+  the oven. Close the door and wait for it to bake.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> The crust needs this pre-baking step (often
+  called 'blind baking') before you add the filling to prevent it from getting
+  soggy.
+</div>
+
+<h3>Step 5. Prepare the Creamy Pumpkin Filling</h3>
+<p>
+  While the crust is baking, start on your filling! Add **cream, pumpkin puree,
+  rum, milk, grated spice**, and the **cracked eggs** (implied to be cracked
+  from a plate into the bowl) to the large mixing bowl. Use the **whisk tool**
+  and swirl it around vigorously to combine all ingredients thoroughly until
+  smooth.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Mix until the filling is perfectly smooth and a
+  uniform orange/brown color. A heart icon (and sometimes a cat meow sound!)
+  will confirm the eggs are added and mixing is complete.
+</div>
+
+<h3>Step 6. Fill the pie crust, pouring</h3>
+<p>
+  Remove the pre-baked **crust** from the oven. Carefully pour your prepared
+  **pumpkin filling** from the mixing bowl directly into the baked crust.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the filling is poured evenly into the
+  crust for consistent baking.
+</div>
+
+<h3>Step 7. Bake the Pumpkin Pie</h3>
+<p>
+  Open the **oven door** again. Carefully place the filled **pie pan** back
+  into the oven. Close the door and wait for the final baking process to
+  complete.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> A heart icon will appear on the oven when your
+  pumpkin pie is fully baked and ready!
+</div>
+
+<h3>Step 8. Decorate with Whipped Cream</h3>
+<p>
+  Remove the fully baked **pie** from the oven. Place it onto the **serving
+  plate**. Select the **piping bag** and apply **6 neat dollops of whipped
+  cream** evenly around the edge of the pie.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Tap or drag precisely to create neat and evenly
+  spaced dollops. Completing this decoration step finishes the recipe!
+</div>
+
+<h2>Top Tips for Cookingdom Level 19 Success</h2>
 <ul>
-    <li>
-        <strong>Prepare the Pie Crust:</strong> The first step is to prepare the buttery and flaky pie crust. You'll need to mix the ingredients to form a dough, roll it out, and fit it into the pie dish.
-    </li>
-    <li>
-        <strong>Make the Pumpkin Filling:</strong> The filling for the pie is made from pureed pumpkin mixed with eggs, sugar, and spices like cinnamon, nutmeg, and ginger. The mixture needs to be smooth and well-seasoned for the perfect flavor.
-    </li>
-    <li>
-        <strong>Assemble and Bake the Pie:</strong> After preparing the crust and filling, you'll need to assemble the pie and bake it until golden brown and set. The baking process is crucial to ensuring the filling firms up without overcooking.
-    </li>
-    <li>
-        <strong>Serve the Pumpkin Pie:</strong> Once the pie is done, serve it hot, fresh, and beautifully sliced for the perfect customer experience.
-    </li>
+  <li>
+    ✔️  Follow the sequence diligently: **make the crust, blind bake the crust, make the filling, fill the pie, bake the filled pie, and then decorate**
+  </li>
+  <li>
+    ✔️ Ensure ingredients are **fully mixed** at both the dough and filling
+    stages for optimal texture and flavor.
+  </li>
+  <li>
+    ✔️ Be **precise** when piping the whipped cream; neat dollops contribute to
+    a professional and high-scoring look.
+  </li>
+  <li>
+    ✔️ Pay close attention to the **heart icons**; they're your confirmation that
+    each step has been successfully completed.
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 19 Steps to Make Pumpkin Pie</h2>
-<ol>
-    <li>
-        <h3>Prepare the Pie Crust:</h3>
-        <p>Start by making the pie crust. In Cookingdom Level 19, this involves mixing flour, butter, and a little bit of water to form a dough. Knead it gently and roll it out until it's thin and even.</p>
-        <p><strong>Tip:</strong> Make sure the dough isn't too sticky. If it's too dry, add a little more water, but don't overdo it. The right consistency will make the crust flaky and crisp once baked.</p>
-        <p>After rolling the dough out, transfer it into the pie dish and trim any excess dough around the edges. Press the edges gently to form a nice border.</p>
-        <p><strong>Tip:</strong> You can refrigerate the pie crust dough for 15 minutes before baking it to help it hold its shape better.</p>
-    </li>
-    <li>
-        <h3>Make the Pumpkin Filling:</h3>
-        <p>Next, it's time to make the pumpkin filling. In Cookingdom Level 19, you'll need to mix together pureed pumpkin, eggs, sugar, and spices like cinnamon, nutmeg, and ginger. The result should be a smooth and creamy mixture.</p>
-        <p><strong>Tip:</strong> Use fresh or canned pumpkin puree for this step. Make sure the spices are well-mixed and adjust the sweetness to your preference. You want the filling to be rich and flavorful, but not overwhelmingly sweet.</p>
-        <p><strong>Tip:</strong> Blend the mixture thoroughly to avoid any lumps. The filling should be smooth and well-combined before pouring it into the pie crust.</p>
-    </li>
-    <li>
-        <h3>Assemble the Pie:</h3>
-        <p>Once both the crust and the filling are ready, pour the pumpkin mixture into the prepared crust. Use a spatula to smooth the top of the filling evenly.</p>
-        <p><strong>Tip:</strong> Be careful not to overfill the pie. The filling should sit just below the edge of the crust to allow room for the pie to rise slightly during baking.</p>
-    </li>
-    <li>
-        <h3>Bake the Pumpkin Pie:</h3>
-        <p>Now it's time to bake the pie. Preheat your oven to the required temperature (usually around 375°F or 190°C). Bake the pie for the recommended amount of time, or until the filling is set and the crust is golden brown.</p>
-        <p><strong>Tip:</strong> Keep an eye on the pie while it bakes. The filling should be firm and slightly puffed, but it shouldn't crack. The crust should be a deep golden brown.</p>
-        <p><strong>Tip:</strong> If the crust is browning too quickly, you can cover the edges with foil to prevent them from burning while the filling continues to bake.</p>
-    </li>
-    <li>
-        <h3>Cool and Serve:</h3>
-        <p>After the pie has finished baking, let it cool for a few minutes before slicing. In Cookingdom Level 19, the pie needs to be served warm, but it shouldn't be too hot to handle.</p>
-        <p><strong>Tip:</strong> You can garnish the pie with whipped cream or a sprinkle of cinnamon for an extra touch of flavor and presentation.</p>
-    </li>
-    <li>
-        <h3>Serve the Pumpkin Pie:</h3>
-        <p>Once the pie has cooled and you've sliced it, serve the Pumpkin Pie immediately. Be sure to serve it with a scoop of whipped cream or a dollop of vanilla ice cream to complete the dessert.</p>
-        <p><strong>Tip:</strong> Serving the pie while it's still warm is key to creating the perfect dessert experience for your customers in Cookingdom Level 19. A warm slice of pumpkin pie with whipped cream will impress every time!</p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 19 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 19</h2>
 <ul>
-    <li>
-        <h3>Perfect Pie Crust:</h3>
-        <p>The key to a great Pumpkin Pie is a perfectly flaky and buttery pie crust. Ensure that the dough is cold when you work with it, and don't overwork it, as this can result in a tough crust.</p>
-        <p><strong>Tip:</strong> Chill the dough before rolling it out to make it easier to handle. Also, make sure you bake the crust until it's golden brown and fully cooked.</p>
-    </li>
-    <li>
-        <h3>Smooth and Creamy Filling:</h3>
-        <p>The filling needs to be smooth and creamy. Mix the pumpkin puree well with the eggs, sugar, and spices to avoid any lumps or uneven texture.</p>
-        <p><strong>Tip:</strong> You can use a hand mixer or blender to make sure the filling is perfectly smooth.</p>
-    </li>
-    <li>
-        <h3>Bake to Perfection:</h3>
-        <p>Baking is the most crucial step in making a Pumpkin Pie. Make sure the pie is baked until the filling is firm but not overly set. The texture should be smooth and custard-like, not runny.</p>
-        <p><strong>Tip:</strong> If the pie is overcooked, the filling can crack and dry out. If it's undercooked, the filling will be too soft. Be sure to test the pie by gently shaking it — the filling should move only slightly when done.</p>
-    </li>
-    <li>
-        <h3>Garnish and Presentation:</h3>
-        <p>A well-presented Pumpkin Pie can really impress your customers in Cookingdom Level 19. Garnish the pie with a dollop of whipped cream, a sprinkle of cinnamon, or a few pumpkin seeds for extra flavor and visual appeal.</p>
-        <p><strong>Tip:</strong> A little creativity in garnishing will elevate the dish and help you earn top ratings.</p>
-    </li>
-    <li>
-        <h3>Serve Fresh and Warm:</h3>
-        <p>As with all dishes in Cookingdom Level 19, freshness is key. Serve the Pumpkin Pie while it's still warm and freshly sliced to give your customers the best experience.</p>
-    </li>
+  <li>Forgetting a single ingredient in either the crust or the pumpkin filling.</li>
+  <li>Not blending the dough or whisking the filling mixtures thoroughly enough.</li>
+  <li>Pouring the pumpkin filling into the pie crust *before* the blind baking step.</li>
+  <li>Messy or uneven placement of the whipped cream dollops during the final decoration.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 19, preparing the Pumpkin Pie requires attention to detail, from making the perfect pie crust to creating a smooth, flavorful pumpkin filling. With careful timing and multitasking, you can create a delicious pie that will impress your customers. Whether it's for a holiday or a regular day, Pumpkin Pie will always be a hit in Cookingdom!</p>
-<p>By perfecting your pie crust, filling, and baking techniques, you'll be ready to tackle even more delicious desserts in the future. Keep an eye on your timing, and don't forget to garnish your pie to make it even more irresistible!</p>
-`,
+    `,
   },
   {
     // Add entry for Level 20
@@ -1071,106 +1971,269 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Cookingdom Level 20 Game Overview</h2>
-<p>In Cookingdom Level 20 ,introduces a festive and flavorful dish: Roast Turkey. As one of the most popular and traditional dishes, especially for celebrations and feasts, Roast Turkey requires a careful balance of seasoning, preparation, and timing. This level is all about roasting the turkey to perfection while also ensuring that the sides and garnishes complement the dish.</p>
-<p>In Cookingdom Level 20 , mastering the art of roasting turkey will require you to manage multiple steps simultaneously, such as marinating, basting, and ensuring the meat cooks evenly. With careful attention, you'll serve up a golden, juicy turkey that will impress your customers and help you advance to the next level!</p>
+    <h2>Welcome to Cookingdom Level 20: Roast Turkey Walkthrough & Guide</h2>
+<p>
+  Welcome, festive chef! In **Cookingdom Level 20**, your mission is to craft
+  the perfect **roast turkey. This level guides you through Cookingdom's
+  intuitive yet precise cooking mechanics in a relaxed, no-timer environment,
+  allowing you to master this grand holiday dish.
+</p>
+<p>
+  This walkthrough provides the exact steps to conquer Cookingdom Level 20,
+  detailing every ingredient, action, and precise placement needed for a
+  golden-brown, delicious turkey.
+</p>
 
-<h2 id="goal">Cookingdom Level 20 Goals</h2>
+<h2>Ingredients You'll Need for Your Roast Turkey</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Ingredient</th>
+      <th>Quantity</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frozen Turkey</td>
+      <td>1</td>
+      <td>Initially wrapped in plastic on the cutting board.</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>1</td>
+      <td>A red apple, needs washing and chopping.</td>
+    </tr>
+    <tr>
+      <td>Onion</td>
+      <td>1</td>
+      <td>A red onion, requires washing and slicing into rings.</td>
+    </tr>
+    <tr>
+      <td>Cauliflower</td>
+      <td>1 head</td>
+      <td>Needs washing and chopping into florets.</td>
+    </tr>
+    <tr>
+      <td>Tomatoes</td>
+      <td>3</td>
+      <td>Requires washing and slicing.</td>
+    </tr>
+    <tr>
+      <td>Lemons</td>
+      <td>2</td>
+      <td>Yellow lemons, need washing and zesting.</td>
+    </tr>
+    <tr>
+      <td>Parsley</td>
+      <td>1 bunch</td>
+      <td>Needs washing and chopping.</td>
+    </tr>
+    <tr>
+      <td>Paper Towels</td>
+      <td>1 roll</td>
+      <td>Used to thoroughly pat the turkey dry.</td>
+    </tr>
+    <tr>
+      <td>Cooking Oil</td>
+      <td>1 bottle</td>
+      <td>Used to sauté the base for your stuffing/sauce.</td>
+    </tr>
+    <tr>
+      <td>White Wine</td>
+      <td>1 bottle</td>
+      <td>Added to the stuffing base during cooking for flavor.</td>
+    </tr>
+    <tr>
+      <td>Salt Shaker</td>
+      <td>1</td>
+      <td>Seasoning for the stuffing base.</td>
+    </tr>
+    <tr>
+      <td>Pepper Shaker</td>
+      <td>1</td>
+      <td>Seasoning for the stuffing base.</td>
+    </tr>
+    <tr>
+      <td>Spice Shaker</td>
+      <td>1</td>
+      <td>Appears to be chili flakes, used for seasoning the stuffing base.</td>
+    </tr>
+    <tr>
+      <td>Garnishes</td>
+      <td>Assorted</td>
+      <td>Parsley sprigs, lemon slices, tomato slices, onion slices, apple slices for final plating.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Roast Turkey Mastery: A Step-by-Step Guide</h2>
+
+<h3>Step 1. Thaw the Turkey</h3>
+<p>
+  Begin by removing the plastic wrap from the **frozen turkey**. Turn on the
+  **sink tap**. Drag the turkey into the **sink** filled with water to thaw it.
+  Once it's fully thawed (the ice effect disappears), drag it back to the
+  **cutting board**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the turkey is completely thawed by being
+  fully submerged or thoroughly rinsed until all ice visuals are gone.
+</div>
+
+<h3>Step 2. Wash All Produce</h3>
+<p>
+  Drag each individual produce item—the **apple, onion, cauliflower, tomatoes,
+  lemons**, and **parsley**—into the **sink** with running water to thoroughly
+  wash them.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Each item needs to be individually dragged into
+  the water stream to register as washed.
+</div>
+
+<h3>Step 3. Dry and Plate Turkey</h3>
+<p>
+  Select the **paper towel roll**. Drag the paper towel over the thawed turkey
+  on the cutting board to pat it completely dry. Once dry, drag the turkey onto
+  the large **oval plate**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the turkey is visually dry (no more water
+  spots). A heart icon will confirm successful drying.
+</div>
+
+<h3>Step 4. Prepare all ingredients, zest</h3>
+<p>
+  Place each washed produce item (apple, onion, cauliflower, tomatoes, lemons,
+  parsley) onto the **cutting board** one by one. Use the **knife** (or the
+  grater for lemon zest) to chop, slice, zest, or mince them as indicated by
+  the game. Place each prepared ingredient onto its designated small plate.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Follow all cutting and zesting guides precisely.
+  Heart icons will confirm correct preparation for each ingredient.
+</div>
+
+<h3>Step 5. Cook Stuffing Base</h3>
+<p>
+  Move to the stove area. Pour **oil** into the pan on the **induction cooker**
+  and turn it on. Add all your prepared ingredients (chopped apple, sliced
+  onion, cauliflower florets, chopped parsley, lemon zest, and sliced tomatoes) to
+  the hot pan. Next, add **white wine, salt, pepper**, and the contents of the
+  **spice shaker** (chili flakes).
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> While the specific order might not always be
+  strict, adding ingredients in the sequence shown on-screen usually helps
+  avoid issues.
+</div>
+
+<h3>Step 6. Sauté and Finish Sauce</h3>
+<p>
+  Use the **spatula** to stir the ingredients vigorously in the pan. Continue
+  stirring until the mixture cooks down into a thick, appealing orange-brown
+  sauce or stuffing base. Remove the pan from the heat.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Stir continuously to prevent burning and ensure
+  even cooking. A heart icon will appear once the mixture changes appearance
+  and is ready.
+</div>
+
+<h3>Step 7. Coat the Turkey </h3>
+<p>
+  Drag the plated raw turkey back onto the **cutting board**. Use the
+  **spatula** to scoop the cooked **stuffing base** from the pan and spread it
+  evenly all over the turkey until it's fully coated.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Ensure the entire surface of the turkey is
+  covered with the sauce. The turkey will visibly change color. A heart icon
+  confirms successful coating.
+</div>
+
+<h3>Step 8. Plate Coated Turkey (Pre-Roast)</h3>
+<p>
+  Drag the coated turkey from the cutting board back onto the large **oval
+  plate**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> This is a simple transfer step to prepare the
+  turkey for roasting.
+</div>
+
+<h3>Step 9. Roast the turkey in the oven</h3>
+<p>
+  Move to the oven area. Open the **oven door**. Carefully place the plated,
+  coated turkey inside. Close the door. Now, interact with the **oven dials**
+  to set the correct temperature and roasting time as indicated by the game.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Setting the dials correctly is absolutely
+  crucial for a perfectly roasted turkey. Heart icons will appear for correct
+  settings. Wait for the oven's timer sound or visual cue.
+</div>
+
+<h3>Step 10. Prepare Garnish Plate</h3>
+<p>
+  While the turkey roasts (or after it's done), move to the final plating area.
+  Drag the various **garnish items** (parsley sprigs, lemon slices, tomato
+  slices, onion slices, apple slices) from the surrounding area onto the large
+  purple-rimmed **serving plate**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Arrange the garnishes neatly and attractively
+  around the edge of the plate as shown in the game's example.
+</div>
+
+<h3>Step 11. Final Plating</h3>
+<p>
+  Once the oven timer finishes and your turkey is beautifully roasted
+  (indicated by the oven's 'ding' and a visual change), the oven door will
+  open. Drag the roasted turkey (still on its oval plate) from the oven onto
+  the center of your pre-garnished **serving plate**.
+</p>
+<div class="tip">
+  💡 <strong>Pro Tip:</strong> Place the turkey centrally and symmetrically on
+  your prepared plate. A sparkle animation signifies the completion of your
+  magnificent roast!
+</div>
+
+<h2>Top Tips for Cookingdom Level 20 Success</h2>
 <ul>
-    <li>
-        <strong>Prepare the Turkey:</strong> Start by preparing the turkey. You'll need to clean, season, and stuff the bird with aromatic herbs and spices to infuse flavor.
-    </li>
-    <li>
-        <strong>Roast the Turkey:</strong> Once the turkey is seasoned, it's time to roast it. This requires careful attention to heat and timing to ensure the turkey is cooked through, golden brown, and juicy.
-    </li>
-    <li>
-        <strong>Baste the Turkey:</strong> Throughout the roasting process, you'll need to baste the turkey to keep it moist and flavorful.
-    </li>
-    <li>
-        <strong>Serve the Roast Turkey:</strong> Once the turkey is perfectly roasted, carve it into portions and serve it quickly to keep it fresh and juicy for your customers.
-    </li>
+  <li>
+    ✔️ Always follow the **visual cues and heart pop-ups**; they confirm each
+    action is successful.
+  </li>
+  <li>
+    ✔️ Ensure all ingredients are **fully washed and correctly prepared**
+    (chopped, sliced, zested) before moving to cooking stages.
+  </li>
+  <li>
+    ✔️ **Coat the turkey evenly** with the stuffing base for a uniform roast and
+    flavor.
+  </li>
+  <li>
+    ✔️ Pay extremely close attention to **setting the oven dials correctly**
+    for both temperature and time.
+  </li>
+  <li>
+    ✔️ **Neat plating of garnishes** is essential and significantly contributes
+    to your final presentation score.
+  </li>
 </ul>
 
-<h2 id="steps">Cookingdom Level 20Steps to Make Roast Turkey</h2>
-<ol>
-    <li>
-        <h3>Prepare the Turkey:</h3>
-        <p>Start by prepping the turkey. In Cookingdom Level 20, this step includes cleaning the bird, removing any giblets, and patting it dry with paper towels. The drier the skin, the crispier it will become during roasting.</p>
-        <p><strong>Tip:</strong> For extra flavor, rub the turkey inside and out with a mixture of olive oil, garlic, salt, and pepper. Add fresh herbs like rosemary, thyme, and sage for an aromatic boost.</p>
-        <p><strong>Tip:</strong> You can stuff the turkey with a variety of ingredients such as onions, garlic, and citrus fruits like lemon or orange. These will infuse the meat with moisture and flavor as it roasts.</p>
-    </li>
-    <li>
-        <h3>Season the Turkey:</h3>
-        <p>After preparing the turkey, it's time to season it. Generously rub the outside of the turkey with a seasoning mixture of your choice. Popular choices include a blend of herbs like rosemary, thyme, and sage, along with salt, pepper, and garlic.</p>
-        <p><strong>Tip:</strong> Make sure to season the cavity of the turkey as well. This ensures the flavor penetrates the meat thoroughly, making each bite flavorful.</p>
-        <p><strong>Tip:</strong> If you have time, let the turkey marinate for a few hours or overnight in the refrigerator. This will allow the flavors to penetrate the meat more deeply.</p>
-    </li>
-    <li>
-        <h3>Roast the Turkey:</h3>
-        <p>Preheat your oven to the recommended temperature (usually around 350°F or 175°C). Place the turkey on a roasting rack or a baking tray lined with foil to catch the drippings.</p>
-        <p><strong>Tip:</strong> To prevent the turkey from drying out, cover the bird loosely with aluminum foil at the start of roasting. This helps it retain moisture while it cooks.</p>
-        <p><strong>Tip:</strong> Roast the turkey for around 13-15 minutes per pound, or until the internal temperature reaches 165°F (75°C) when checked with a meat thermometer.</p>
-        <p><strong>Tip:</strong> If you notice that the turkey is browning too quickly, reduce the oven temperature slightly to allow the meat to cook more evenly.</p>
-    </li>
-    <li>
-        <h3>Baste the Turkey:</h3>
-        <p>Every 30-45 minutes, baste the turkey with its own juices or a marinade of melted butter and broth to keep the skin moist and flavorful.</p>
-        <p><strong>Tip:</strong> Basting is key to achieving that beautiful, golden-brown skin and keeping the meat juicy. Be sure to avoid opening the oven door too often, as this can cause the temperature to fluctuate.</p>
-    </li>
-    <li>
-        <h3>Check the Turkey's Doneness:</h3>
-        <p>After several hours of roasting, check the internal temperature of the turkey. Insert the meat thermometer into the thickest part of the thigh, making sure it doesn't touch the bone.</p>
-        <p><strong>Tip:</strong> Once the turkey reaches an internal temperature of 165°F (75°C), it's ready to be removed from the oven. If it's not quite there yet, continue roasting and baste again to ensure even cooking.</p>
-    </li>
-    <li>
-        <h3>Rest the Turkey:</h3>
-        <p>Once the turkey is done roasting, remove it from the oven and let it rest for about 15-20 minutes before carving. This helps the juices redistribute throughout the meat, keeping it moist.</p>
-        <p><strong>Tip:</strong> Don't carve the turkey immediately after removing it from the oven, as the juices will run out, making the meat dry. Let it rest to retain its moisture.</p>
-    </li>
-    <li>
-        <h3>Carve the Turkey:</h3>
-        <p>After the turkey has rested, carve it into portions using a sharp knife. Slice the breast meat and separate the drumsticks and wings.</p>
-        <p><strong>Tip:</strong> Serve the turkey in neat portions for an attractive presentation. Arrange the slices on a platter and garnish with fresh herbs or cranberry sauce.</p>
-    </li>
-    <li>
-        <h3>Serve the Roast Turkey:</h3>
-        <p>Once carved, serve the Roast Turkey quickly to keep it fresh and juicy. Pair it with traditional sides like mashed potatoes, stuffing, gravy, and cranberry sauce for a complete meal.</p>
-        <p><strong>Tip:</strong> Serving the turkey with its drippings or gravy will enhance the flavor and make the dish even more satisfying.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Cookingdom Level 20 Tips & Tricks</h2>
+<h2>Common Mistakes to Avoid in Cookingdom Level 20</h2>
 <ul>
-    <li>
-        <h3>Perfect Roasting Temperature:</h3>
-        <p>The key to roasting the perfect turkey is controlling the temperature. Don't roast at too high a temperature or you risk over-browning the skin while leaving the inside raw.</p>
-        <p><strong>Tip:</strong> Cover the turkey with foil for the first part of the roasting, then remove it during the last 30 minutes to allow the skin to become crispy and golden.</p>
-    </li>
-    <li>
-        <h3>Don't Overcook the Turkey:</h3>
-        <p>Overcooking can lead to dry turkey. Use a meat thermometer to ensure that the turkey is cooked through but not overdone. Once it reaches 165°F (75°C), it's time to take it out of the oven.</p>
-        <p><strong>Tip:</strong> If the turkey is small, it might cook faster than expected. Keep an eye on the clock, and don't be afraid to adjust the roasting time.</p>
-    </li>
-    <li>
-        <h3>Baste for Moisture:</h3>
-        <p>Basting the turkey periodically ensures a juicy bird. Use melted butter, chicken broth, or turkey drippings to baste the turkey, keeping the skin moist and flavorful.</p>
-        <p><strong>Tip:</strong> Don't skip this step! The basting process adds flavor and moisture, helping you achieve that perfectly crispy skin and tender meat.</p>
-    </li>
-    <li>
-        <h3>Rest the Turkey After Roasting:</h3>
-        <p>Letting the turkey rest after it comes out of the oven is one of the most important steps in achieving a juicy bird. Resting allows the juices to redistribute throughout the meat, preventing dryness.</p>
-        <p><strong>Tip:</strong> Tent the turkey with foil while it rests to keep it warm.</p>
-    </li>
-    <li>
-        <h3>Carve with Precision:</h3>
-        <p>When carving, use a sharp knife and be precise with your cuts. Slice the meat against the grain for the most tender, juicy slices.</p>
-        <p><strong>Tip:</strong> If you're serving a large crowd, make sure to carve the turkey into neat portions to make serving easier and more efficient.</p>
-    </li>
+  <li>Skipping the thawing or drying steps for the turkey.</li>
+  <li>Incorrectly chopping, slicing, or preparing any of the vegetables or fruit.</li>
+  <li>Burning the stuffing base while sautéing it in the pan.</li>
+  <li>Not coating the turkey completely or evenly with the stuffing base.</li>
+  <li>Setting the incorrect time or temperature on the oven dials.</li>
+  <li>Placing garnishes messily or incorrectly on the final plate.</li>
+  <li>Attempting to place the turkey on the final plate *before* adding the garnishes.</li>
 </ul>
-
-<h2 id="summary">Summary</h2>
-<p>In Cookingdom Level 20, preparing the Roast Turkey requires attention to detail, timing, and the right technique. From seasoning the bird to perfectly roasting and basting it, this level is a true test of your culinary skills. With proper temperature control and careful basting, you'll create a golden, juicy turkey that will delight your customers and elevate your Cookingdom experience.</p>
-<p>Master the art of roasting turkey, and you'll be well on your way to handling even more complex dishes in future levels!</p>
-`,
+    `,
   },
 ]

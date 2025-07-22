@@ -37,68 +37,143 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 11</h2>
-<p>Cookingdom Tahap 11 mempersembahkan cabaran ringan tetapi penting: membuat popcorn yang sempurna. Walaupun hidangan ini kelihatan mudah, ia memerlukan masa yang tepat dan perhatian terhadap perincian, terutamanya apabila menyediakan jumlah yang banyak untuk beberapa pelanggan. Popcorn adalah snek kegemaran, dan dalam Cookingdom, ia menguji keupayaan anda menguruskan haba, perisa, dan kelajuan di bawah tekanan.</p>
-<p>Semasa anda maju dalam permainan, Cookingdom memperkenalkan hidangan yang kelihatan mudah tetapi memerlukan multitugas yang cekap untuk memenuhi permintaan pelanggan yang semakin meningkat. Bersedia untuk meletupkan biji jagung itu dengan sempurna!</p>
+    <h2>Selamat datang ke Cookingdom Tahap 11: Panduan & Tutorial Popcorn</h2>
+<p>
+  Selamat datang, master snek! Di **Cookingdom Tahap 11**, misi anda adalah untuk mencipta sekumpulan **popcorn** yang sempurna. Tahap ini menawarkan persekitaran yang santai tanpa had masa, membolehkan anda fokus pada mekanik masakan yang intuitif namun tepat dalam Cookingdom.
+</p>
+<p>
+  Panduan ini memberikan langkah-langkah tepat yang anda perlukan untuk berjaya dalam **Cookingdom Tahap 11**, dengan butiran mengenai setiap bahan, tindakan, dan penempatan yang diperlukan.
+</p>
 
-<h2 id="goal">Matlamat Cookingdom Tahap 11</h2>
+<h2>Bahan-bahan yang Diperlukan untuk Popcorn Sempurna</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tongkol Jagung</td>
+      <td>5</td>
+      <td>Dipetik segar dari ladang jagung.</td>
+    </tr>
+    <tr>
+      <td>Butir Jagung</td>
+      <td>1 mangkuk</td>
+      <td>Diperoleh dengan mengupas tongkol jagung yang disediakan.</td>
+    </tr>
+    <tr>
+      <td>Blok Bahan Coklat</td>
+      <td>1</td>
+      <td>Blok perisa, mungkin mentega atau pemanis, yang perlu dipotong atau disapu.</td>
+    </tr>
+    <tr>
+      <td>Ketulan Mentega</td>
+      <td>1 kotak kecil</td>
+      <td>Ditambah terus ke dalam butir jagung untuk memberikan kekayaan rasa.</td>
+    </tr>
+    <tr>
+      <td>Minyak</td>
+      <td>1 botol</td>
+      <td>Dituangkan ke dalam mesin popcorn untuk memudahkan proses popping.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 sudu besar</td>
+      <td>Ditarik dari beg dan dicampurkan dengan butir jagung untuk sentuhan manis.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Penguasaan Popcorn: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Petik Jagung Anda</h3>
+<p>
+  Dalam adegan ladang jagung, mula-mula gunakan **kaca pembesar** pada muka patung untuk memulakan langkah berikutnya. Kemudian, tarik **5 tongkol jagung matang** dengan berhati-hati dari batangnya ke dalam sarang/lubang yang terletak di bahagian bawah skrin.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Pastikan anda mengumpulkan **5 tongkol jagung** dengan tepat. Ikon hati akan muncul untuk mengesahkan bahawa langkah ini telah diselesaikan dengan berjaya.
+</div>
+
+<h3>Langkah 2. Sediakan Tongkol Jagung</h3>
+<p>
+  Ambil satu tongkol jagung dan kupas kedua-dua lapisan kulit hijau dengan menyeretnya ke bawah dari sisi kiri dan kanan. Kemudian, buang tiga bahagian serat jagung yang berwarna coklat dengan menyeretnya dari tongkol.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Menyelesaikan kedua-dua langkah mengupas kulit dan membuang serat jagung akan memunculkan ikon hati, menandakan bahawa persediaan telah berjaya.
+</div>
+
+<h3>Langkah 3. Kumpulkan Butir Jagung</h3>
+<p>
+  Seret jari anda (ditunjukkan dengan titik putih) berulang kali ke atas dan ke bawah tongkol jagung yang kini terdedah. Tindakan ini akan mengikis semua butir jagung kuning ke dalam mangkuk putih yang menunggu.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Pastikan semua butir jagung diambil dari tongkol. Ikon hati akan muncul selepas anda selesai.
+</div>
+
+<h3>Langkah 4. Potong Bahan Coklat</h3>
+<p>
+  Gunakan **pisau** anda untuk memotong atau mengikis blok bahan coklat yang terletak di atas papan pemotong. Teruskan sehingga keseluruhan blok diproses.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Pergerakan memotong yang berterusan diperlukan di sini. Ikon hati akan muncul untuk mengesahkan penyelesaian.
+</div>
+
+<h3>Langkah 5. Campurkan Bahan & Sediakan Mesin</h3>
+<p>
+  Pertama, tuangkan **minyak** dari botol terus ke dalam mesin popcorn merah. Kemudian, masukkan **ketulan mentega**, **bahan coklat yang dipotong**, dan satu sudu **gula** ke dalam mangkuk yang mengandungi butir jagung.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Periksa semula penempatan bahan: minyak pergi ke mesin, sementara mentega, bahan yang dipotong, dan gula pergi ke mangkuk jagung.
+</div>
+
+<h3>Langkah 6. Sediakan Popcorn!</h3>
+<p>
+  Gunakan **senduk** untuk memindahkan butir jagung yang telah dicampur dari mangkuk ke dalam lubang atas mesin popcorn. Kemudian, tekan butang **kuasa** pada mesin. Sekarang, tunggu sehingga popcorn mula meletup dan memenuhi baldi bergaris di bawah.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Mesin akan secara automatik mula meletupkan popcorn selepas ia dihidupkan.
+</div>
+
+<h3>Langkah 7. Hidangkan untuk Malam Filem</h3>
+<p>
+  Adegan akan beralih ke ruang tamu yang selesa di mana dua capybara sedang menonton TV. Capybara jantan akan membawa baldi popcorn yang baru meletup dan berkongsi dengan capybara betina.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Adegan terakhir yang menyentuh hati ini menandakan penyelesaian tahap ini dan akan membawa anda ke skrin keputusan.
+</div>
+
+<h2>Tip Teratas untuk Kejayaan di Cookingdom Tahap 11</h2>
 <ul>
-  <li><strong>Letupkan Biji Jagung:</strong> Tugas utama di peringkat ini ialah meletupkan biji jagung pada suhu dan masa yang tepat. Anda perlu memastikan setiap kumpulan meletup tanpa terbakar.</li>
-  <li><strong>Tambah Perisa:</strong> Selepas meletupkan biji jagung, anda perlu membumbui popcorn dengan sempurna. Sama ada mentega, keju, atau karamel, perisa akan menaikkan rasa hidangan.</li>
-  <li><strong>Hidangkan Dengan Cepat:</strong> Pelanggan Cookingdom Tahap 11 mengharapkan perkhidmatan cepat. Pastikan popcorn yang baru meletup dan dibumbui dihidangkan dengan segera untuk memastikan mereka gembira.</li>
+  <li>
+    ✔️ Sentiasa ikut **petunjuk visual di skrin** (seperti sasaran kaca pembesar, laluan seretan, dan garis pemotongan).
+  </li>
+  <li>
+    ✔️ Pastikan **setiap tindakan diselesaikan sepenuhnya** (contohnya, semua kulit dikeluarkan, semua butir jagung dikikis, blok coklat dipotong sepenuhnya).
+  </li>
+  <li>
+    ✔️ Perhatikan dengan teliti **penempatan bahan yang betul**—minyak ke dalam mesin, dan bahan lain ke dalam mangkuk jagung.
+  </li>
+  <li>
+    ✔️ **Animasi pop-up hati** adalah pengesahan yang boleh dipercayai untuk penyelesaian setiap langkah.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah-Langkah Membuat Popcorn di Cookingdom Tahap 11</h2>
-<ol>
-  <li>
-    <h3>Panaskan Mesin Popcorn:</h3>
-    <p>Mula dengan memanaskan mesin popcorn atau kuali. Cookingdom Tahap 11 menyediakan anda dengan mesin atau dapur untuk memasak popcorn. Pastikan mesin dipanaskan terlebih dahulu kerana ini membantu biji jagung meletup dengan rata dan mengelakkan terbakar.</p>
-    <p><strong>Tip:</strong> Di Cookingdom Tahap 11, anda juga mungkin mempunyai pilihan untuk menaik taraf peralatan anda bagi mempercepatkan dan menjadikan proses meletup lebih efisien. Menaik taraf mesin popcorn akan menjimatkan masa dan mengurangkan kesilapan.</p>
-  </li>
-  <li>
-    <h3>Masukkan Biji Jagung:</h3>
-    <p>Setelah mesin panas, masukkan biji jagung dengan berhati-hati. Pastikan biji jagung diagihkan dengan rata untuk memastikan meletup yang sekata. Terlalu banyak biji jagung dalam satu masa boleh menyebabkan sesak dan meletup tidak sekata, manakala terlalu sedikit akan membazirkan ruang dan melambatkan kemajuan anda.</p>
-    <p><strong>Tip:</strong> Dalam Cookingdom Tahap 11, anda akan melihat penunjuk visual atau pemasa yang menunjukkan bila popcorn sedang meletup. Perhatikan bunyi dan petunjuk visual untuk tahu bila hendak berhenti meletup.</p>
-  </li>
-  <li>
-    <h3>Tunggu Proses Meletup:</h3>
-    <p>Biar biji jagung meletup, dengar dengan teliti bunyi meletup yang semakin perlahan. Ini adalah isyarat anda untuk berhenti. Meletup berlebihan boleh menyebabkan popcorn terbakar, manakala meletup kurang boleh meninggalkan beberapa biji tidak meletup.</p>
-    <p><strong>Tip:</strong> Jangan tinggalkan mesin tanpa pengawasan! Dalam Cookingdom Tahap 11, anda mungkin perlu menguruskan pelbagai tugas, jadi sentiasa perhatikan popcorn anda.</p>
-  </li>
-  <li>
-    <h3>Perasakan Popcorn:</h3>
-    <p>Setelah popcorn siap, tiba masa untuk membumbuinya. Cookingdom Tahap 11 menawarkan pelbagai pilihan perisa seperti mentega, garam, keju, atau karamel. Pastikan anda memilih perisa yang betul untuk setiap pesanan pelanggan.</p>
-    <p><strong>Tip:</strong> Anda boleh menambah beberapa lapisan perisa untuk menambah rasa. Contohnya, mula dengan mentega, kemudian taburkan sedikit garam atau keju untuk rasa tambahan.</p>
-  </li>
-  <li>
-    <h3>Hidangkan Popcorn:</h3>
-    <p>Setelah popcorn dibumbui, masa untuk menghidangkannya. Pastikan popcorn masih panas dan segar ketika diserahkan kepada pelanggan.</p>
-    <p><strong>Tip:</strong> Semakin segar popcorn, semakin baik penilaian yang anda akan terima. Pelanggan Cookingdom Tahap 11 sangat mementingkan kesegaran.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua & Trik Cookingdom Tahap 11</h2>
+<h2>Kesilapan Biasa yang Perlu Dielakkan di Cookingdom Tahap 11</h2>
 <ul>
-  <li>
-    <strong>Masa Meletup Sempurna:</strong> Masa sangat penting semasa meletupkan popcorn. Terlalu panas atau terlalu lama boleh menyebabkan popcorn terbakar, manakala kurang panas boleh meninggalkan biji jagung tidak meletup.
-  </li>
-  <li>
-    <strong>Penyesuaian Perisa:</strong> Dalam Cookingdom Tahap 11, kunci kejayaan adalah memenuhi keinginan pelanggan anda. Sesetengah pelanggan mahu popcorn biasa, manakala yang lain mahukan popcorn bermentega, berkeju, atau berkaramel. Pastikan anda membaca setiap pesanan dengan teliti dan gunakan perisa yang betul untuk memuaskan pelanggan.
-  </li>
-  <li>
-    <strong>Tingkatkan Peralatan Anda:</strong> Semasa anda maju dalam Cookingdom Tahap 11, pertimbangkan untuk menaik taraf mesin popcorn anda.
-  </li>
-  <li>
-    <strong>Kelajuan dan Kecekapan:</strong> Cookingdom Tahap 11 memerlukan perkhidmatan pantas. Cuba hidangkan popcorn sebaik sahaja ia siap meletup dan dibumbui. Semakin cepat anda hidangkan, semakin tinggi peluang mendapat penilaian positif dari pelanggan anda.
-  </li>
-  <li>
-    <strong>Urus Pelbagai Pesanan:</strong> Apabila lebih ramai pelanggan tiba, anda perlu menyediakan beberapa pesanan popcorn sekaligus.
-  </li>
+  <li>Tidak menemui titik interaksi dengan patung penganut pada langkah pertama.</li>
+  <li>Terlepas satu tongkol jagung semasa menuai.</li>
+  <li>Pengupasan kulit atau penyingkiran serat jagung yang tidak lengkap dari tongkol.</li>
+  <li>Butir jagung tidak dikikis sepenuhnya dari tongkol jagung.</li>
+  <li>Blok bahan coklat tidak dipotong sepenuhnya.</li>
+  <li>Secara tidak sengaja meletakkan gula, mentega, atau blok yang dipotong ke dalam mesin, bukannya mangkuk jagung.</li>
+  <li>Lupa menambah minyak ke dalam mesin atau butir jagung ke dalam bahagian atas mesin.</li>
+  <li>Lupa menghidupkan mesin popcorn selepas memuatkannya.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Dalam Cookingdom Tahap 11, membuat Popcorn nampak mudah tetapi memerlukan perhatian kepada masa dan perisa. Biji jagung yang meletup dengan sempurna, jumlah perisa yang tepat, dan perkhidmatan pantas akan memastikan pelanggan anda berpuas hati.</p>
-<p>Apabila anda meneruskan Cookingdom Tahap 11, kerumitan pengurusan pesanan akan meningkat, tetapi menguasai popcorn akan memberikan anda asas yang diperlukan untuk menangani hidangan yang lebih kompleks. Teruskan menaik taraf peralatan dan buat popcorn yang sedap supaya pelanggan anda akan kembali lagi!</p>
 `,
   },
 
@@ -236,66 +311,197 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 13</h2>
-<p>Di Cookingdom Tahap 13, anda akan diperkenalkan dengan hidangan makanan segera yang popular: Hotdog. Walaupun nampak mudah, menyediakan hotdog yang sempurna memerlukan perhatian pada detail, terutama dalam menguruskan pesanan pelanggan dan masa. Dalam tahap ini, anda perlu fokus memasak sosej dengan sempurna, memanggang roti, dan menambah perasa yang tepat untuk memuaskan kehendak pelanggan.</p>
-<p>Cabaran utama di Cookingdom Tahap 13 adalah untuk menguruskan permintaan pelanggan yang semakin meningkat sambil memastikan setiap hotdog dihidangkan dengan cepat dan sempurna.</p>
+<h2>Selamat Datang ke Cookingdom Tahap 13: Panduan Hotdog</h2>
+<p>
+  Selamat datang, peminat hotdog! Di **Cookingdom Tahap 13**, misi anda adalah untuk membuat **hotdog** yang sempurna. Tahap ini akan memandu anda melalui mekanisme memasak yang intuitif namun tepat dalam suasana santai tanpa tekanan masa.
+</p>
+<p>
+  Panduan ini memberikan langkah-langkah yang tepat untuk menaklukkan **Cookingdom Tahap 13**, dengan perincian tentang setiap bahan, tindakan, dan penempatan yang diperlukan untuk berjaya.
+</p>
 
-<h2 id="goal">Matlamat Cookingdom Tahap 13</h2>
+<h2>Bahan-bahan untuk Hotdog Sempurna Anda</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bawang</td>
+      <td>1</td>
+      <td>Dipotong halus untuk topping yang lazat.</td>
+    </tr>
+    <tr>
+      <td>Timun Jeruk</td>
+      <td>1</td>
+      <td>Dipotong dadu untuk topping yang rangup dan masam.</td>
+    </tr>
+    <tr>
+      <td>Mentega</td>
+      <td>1 ketul</td>
+      <td>Digunakan untuk menumis bawang hingga keemasan.</td>
+    </tr>
+    <tr>
+      <td>Sosej</td>
+      <td>1 (daripada 2)</td>
+      <td>Direbus dalam air. Hanya satu yang digunakan dalam penyediaan hotdog.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>1 mangkuk</td>
+      <td>Untuk merebus sosej.</td>
+    </tr>
+    <tr>
+      <td>Mayo</td>
+      <td>1 botol</td>
+      <td>Asas untuk sos istimewa hotdog.</td>
+    </tr>
+    <tr>
+      <td>Sos Mustard</td>
+      <td>1 botol (sos) + 1 botol (untuk topping)</td>
+      <td>Digunakan dalam campuran sos dan juga sebagai sos atasannya.</td>
+    </tr>
+    <tr>
+      <td>Cecair Hijau (Jeruk Timun/Jus)</td>
+      <td>1 mangkuk kecil</td>
+      <td>Memberikan rasa masam yang unik dalam campuran sos.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>1 mangkuk</td>
+      <td>Perasa utama untuk sos anda.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Bawang Putih</td>
+      <td>1 mangkuk</td>
+      <td>Menambah kedalaman aroma pada sos.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 mangkuk</td>
+      <td>Menyeimbangkan rasa dalam sos.</td>
+    </tr>
+    <tr>
+      <td>Lada</td>
+      <td>1 botol</td>
+      <td>Untuk sedikit kepedasan dalam sos.</td>
+    </tr>
+    <tr>
+      <td>Roti Hotdog</td>
+      <td>1</td>
+      <td>Dipotong terbuka dan siap untuk penyediaan.</td>
+    </tr>
+    <tr>
+      <td>Selada</td>
+      <td>1 bekas</td>
+      <td>Menjadi lapisan asas segar dalam roti.</td>
+    </tr>
+    <tr>
+      <td>Sos Cili/Ketupat</td>
+      <td>1 botol</td>
+      <td>Sos merah terang untuk topping terakhir.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kecekapan Hotdog: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Potong Halus Bawang</h3>
+<p>
+  Seret **bawang** ke atas **papan pemotong**. Gunakan **pisau** untuk memotongnya dua, kemudian teruskan memotongnya sehingga menjadi kepingan halus. Pastikan anda mengikuti panduan di skrin untuk pemotongan yang tepat.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan pisau anda menutup kawasan yang disorot semasa memotong. Ikon hati akan muncul untuk mengesahkan bila bawang dipotong dengan sempurna.
+</div>
+
+<h3>Langkah 2. Potong Timun Jeruk</h3>
+<p>
+  Letakkan **timun jeruk** pada papan pemotong. Gunakan **pisau** untuk memotongnya panjang dan kemudian potong dadu mengikut panduan.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ikuti panduan pemotongan dengan tepat untuk mendapatkan timun jeruk yang dipotong dengan sempurna. Ikon hati akan mengesahkan kejayaan.
+</div>
+
+<h3>Langkah 3. Tumis Bawang</h3>
+<p>
+  Letakkan **mentega** dalam **kuali** di atas **penyedia api** dan hidupkan api. Setelah mentega cair, masukkan **bawang yang dipotong halus** dan tumis sehingga bar kemajuan penuh dan bawang berubah menjadi keemasan.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Dengarkan bunyi mendesis dan lihat perubahan warna bawang, itu menunjukkan ia sudah dimasak dengan sempurna. Ikon hati akan muncul untuk mengesahkan.
+</div>
+
+<h3>Langkah 4. Rebus Sosej</h3>
+<p>
+  Tuangkan **air** ke dalam **kuali** dan hidupkan **penyedia api** untuk mendidihkan air. Setelah air mendidih dengan kuat, masukkan **sosej**. Masak sehingga bar kemajuan penuh. Gunakan **garpu** untuk mengeluarkan satu sosej yang dimasak di atas pinggan (hanya satu sosej diperlukan untuk hotdog).
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Tunggu sehingga air mendidih sebelum memasukkan sosej. Dengarkan bunyi 'ding' untuk mengetahui bila ia siap dikeluarkan. Ikon hati akan muncul setelah anda berjaya mengeluarkan sosej.
+</div>
+
+<h3>Langkah 5. Sediakan Sos Istimewa</h3>
+<p>
+  Dalam **mangkuk pencampur**, gabungkan **mayonis, mustard, cecair hijau** (jus timun), **garam, serbuk bawang putih, gula dan lada**. Gunakan **senduk** untuk mengacau semuanya sehingga rata dan halus.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan semua bahan ditambah sebelum mula mengacau. Teruskan mengacau sehingga campuran menjadi warna dan tekstur yang seragam. Ikon hati akan mengesahkan selesai.
+</div>
+
+<h3>Langkah 6. Sediakan Roti</h3>
+<p>
+  Letakkan **roti hotdog** pada **papan pemotong**. Gunakan **pisau** untuk memotongnya secara panjang mengikut garis yang telah ditanda.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan potongan roti dilakukan dengan bersih dan tepat untuk penyediaan hotdog.
+</div>
+
+<h3>Langkah 7. Susun Hotdog Anda</h3>
+<p>
+  Sekarang untuk penyediaan! Mula-mula, sapukan **sos yang telah dicampur** ke dalam roti yang telah dipotong. Kemudian, letakkan **selada** segar, diikuti oleh **bawang tumis**, dan akhirnya **timun jeruk**. Letakkan dengan teliti **sosej** yang telah dimasak di atas semua bahan tersebut.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Ikuti urutan penyusunan bahan dengan betul: Sos → Selada → Bawang → Timun → Sosej.
+</div>
+
+<h3>Langkah 8. Tambah Sos Akhir</h3>
+<p>
+  Hampir selesai! Sapu **sos mustard** ke atas sosej dengan corak zig-zag. Kemudian, sapu juga **sos cili/ketupat** ke atas sosej.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Sapukan kedua-dua sos dengan rata untuk sentuhan akhir yang sempurna dan persembahan yang menarik. Ikon hati akan muncul, menandakan penyediaan hotdog anda selesai!
+</div>
+
+<h2>Tip Terbaik untuk Kejayaan di Cookingdom Tahap 13</h2>
 <ul>
-  <li><strong>Masak Sosej:</strong> Sosej adalah bintang utama hotdog. Anda perlu memanggangnya sampai cukup rangup tanpa terlebih masak.</li>
-  <li><strong>Memanggang Roti:</strong> Roti mesti dipanggang sedikit supaya menjadi rangup dan menambah rasa pada hotdog.</li>
-  <li><strong>Tambah Perasa dan Topping:</strong> Sesuaikan setiap hotdog dengan perasa popular seperti ketchup, mustard, relish, bawang, dan topping lain.</li>
-  <li><strong>Hidang Dengan Cepat:</strong> Seperti semua hidangan di Cookingdom Tahap 13, penyajian yang pantas adalah kunci. Lebih cepat anda hidang, lebih puas hati pelanggan.</li>
+  <li>
+    ✔️ Perhatikan **petunjuk visual** seperti bar kemajuan, perubahan warna halus, dan ikon hati yang mengesahkan setiap langkah telah dilakukan dengan betul.
+  </li>
+  <li>
+    ✔️ **Ketepatan dalam memotong dan memotong** bahan anda memberi kesan kepada persembahan dan skor hotdog.
+  </li>
+  <li>
+    ✔️ Sentiasa pastikan **semua bahan sos ditambah** dalam mangkuk pencampur sebelum mula mengacau.
+  </li>
+  <li>
+    ✔️ Susun lapisan hotdog mengikut **urutan yang betul** seperti yang ditunjukkan dalam panduan untuk persembahan yang terbaik.
+  </li>
+  <li>
+    ✔️ Tahap ini mempunyai beberapa langkah yang berbeza; pastikan untuk **menguruskan peralihan antara langkah dengan lancar** untuk kecekapan yang lebih tinggi.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah-Langkah Memasak Hotdog di Cookingdom Tahap 13</h2>
-<ol>
-  <li>
-    <h3>Masak Sosej</h3>
-    <p>Mula dengan memasak sosej. Di Cookingdom Tahap 13, anda akan diberi alat pemanggang atau dapur untuk memanaskan sosej. Pastikan masa memasak dipantau dengan teliti — terlalu lama akan menyebabkan sosej hangus, terlalu singkat pula akan menyebabkan sosej kurang masak.</p>
-  </li>
-  <li>
-    <h3>Memanggang Roti</h3>
-    <p>Sementara sosej dimasak, anda boleh memanggang roti. Letakkan roti di atas pemanggang atau kuali rata sehingga sedikit keperangan dan rangup. Roti perlu lembut di dalam tetapi rangup sedikit di luar.</p>
-  </li>
-  <li>
-    <h3>Sediakan Perasa dan Topping</h3>
-    <p>Di Cookingdom Tahap 13, anda boleh menambah pelbagai perasa pada hotdog anda. Pilihan biasa termasuk:</p>
-    <ul>
-      <li>Ketchup</li>
-      <li>Mustard</li>
-      <li>Relish</li>
-      <li>Bawang</li>
-      <li>Sauerkraut</li>
-      <li>Keju</li>
-      <li>Timun jeruk</li>
-      <li>Jalapeños</li>
-    </ul>
-    <p>Baca pesanan pelanggan dengan teliti untuk menambah perasa dan topping yang betul. Ada pelanggan yang mahu hotdog asas, manakala ada yang mahu topping ekstra.</p>
-  </li>
-  <li>
-    <h3>Pasang Hotdog</h3>
-    <p>Setelah sosej dimasak sempurna dan roti dipanggang, masa untuk memasang hotdog. Letakkan sosej dalam roti dan tambah perasa serta topping yang dipesan. Pastikan teliti dalam setiap pesanan!</p>
-  </li>
-  <li>
-    <h3>Hidang Hotdog</h3>
-    <p>Selepas dipasang, hidangkan hotdog dengan cepat. Pastikan ia masih panas dan segar. Pelanggan Cookingdom mengharapkan makanan mereka panas dan sedap, jadi jangan biarkan ia terlalu lama.</p>
-    <p><strong>Tip:</strong> Hotdog yang lebih segar akan mendapat rating lebih baik. Hidang dengan cepat untuk memastikan pelanggan puas hati.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Tips & Trik Cookingdom Tahap 13</h2>
+<h2>Kesilapan Biasa yang Perlu Dielakkan di Cookingdom Tahap 13</h2>
 <ul>
-  <li><strong>Pantau Masa Memasak:</strong> Masa adalah penting semasa memanggang sosej dan roti. Sosej yang kurang masak tidak enak, manakala sosej yang terlebih masak akan kering. Sentiasa perhatikan proses memasak untuk mendapatkan keseimbangan yang tepat.</li>
-  <li><strong>Kustomisasi Penting:</strong> Pelanggan sering mempunyai pilihan peribadi untuk hotdog mereka. Ada yang mahu lebih mustard, ada yang mahu versi ringkas. Sentiasa baca pesanan dengan teliti dan buat kustomisasi yang tepat.</li>
-  <li><strong>Gunakan Pisau Tajam untuk Topping:</strong> Jika menambah topping seperti bawang atau timun jeruk, pastikan dihiris nipis. Penampilan yang kemas menjadikan hotdog lebih menarik.</li>
-  <li><strong>Kemaskini Peralatan:</strong> Semasa anda maju dalam tahap ini, pertimbangkan untuk menaik taraf pemanggang atau dapur anda. Proses memasak yang lebih pantas membantu anda mengurus banyak pesanan sekaligus.</li>
-  <li><strong>Hidang Dengan Cepat:</strong> Penyajian yang cepat akan meningkatkan kepuasan pelanggan dan rating anda.</li>
+  <li>Gagal memotong bawang atau timun dengan sempurna.</li>
+  <li>Bawang yang digoreng terlalu kering atau tidak cukup masak.</li>
+  <li>Mengeluarkan sosej dari air mendidih terlalu awal (tidak masak) atau terlalu lewat (terlalu masak).</li>
+  <li>Melupakan bahan dalam campuran sos atau tidak mengacau campuran sehingga sebati.</li>
+  <li>Susunan bahan yang salah semasa penyediaan hotdog.</li>
+  <li>Melebih-lebihkan sapuan sos akhir, menyebabkan persembahan buruk.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Di Cookingdom Tahap 13, menyediakan hotdog yang sempurna memerlukan masa dan kustomisasi yang tepat. Memasak sosej dan memanggang roti sehingga sempurna, menambah perasa yang betul, dan penyajian pantas adalah kunci kejayaan. Seperti semua tahap dalam Cookingdom, multitugas adalah penting. Pastikan pemanggang dan pemanggang roti berfungsi bersama-sama sambil menyediakan topping untuk meningkatkan kecekapan.</p>
-<p>Penguasaan hidangan klasik ini akan membantu anda terus maju dalam Cookingdom Tahap 13. Sama ada anda menyajikan hotdog asas atau yang penuh dengan topping, perhatian pada detail dan kelajuan akan membuat perbezaan besar dalam mendapatkan penilaian tinggi daripada pelanggan.</p>
 `,
   },
 
@@ -441,74 +647,252 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 15 Cookingdom</h2>
-<p>Pada tahap 15 Cookingdom, anda akan memasak hidangan klasik — ayam goreng. Tahap ini menuntut anda menyediakan ayam yang rangup dan berwarna keemasan bersama hidangan sampingan yang sesuai untuk mencipta hidangan yang mengenyangkan. Prosesnya mungkin kelihatan mudah, tetapi permainan menambah cabaran tersendiri untuk memastikan anda sentiasa berjaga-jaga. Masa, suhu dan perasa memainkan peranan penting agar ayam menjadi rangup dan berjus, dan pelanggan berpuas hati.</p>
-<p>Untuk memasak ayam goreng yang sempurna dalam Cookingdom Tahap 15, anda memerlukan fokus dan kelajuan. Mari kita lihat langkah-langkah untuk berjaya menyediakan hidangan lazat ini!</p>
+<h2>Selamat Datang ke Cookingdom Tahap 15: Panduan & Tutorial Ayam Goreng</h2>
+<p>
+  Selamat datang, peminat penggorengan! Di **Cookingdom Tahap 15**, misi anda adalah untuk menyediakan hidangan **ayam goreng** yang sempurna. Tahap ini memperkenalkan anda kepada mekanik memasak Cookingdom yang intuitif namun tepat dalam persekitaran yang santai tanpa had masa, membolehkan anda fokus untuk mencapai kesempurnaan.
+</p>
+<p>
+  Panduan ini menyediakan langkah-langkah tepat untuk menguasai **Cookingdom Tahap 15**, menerangkan setiap bahan, tindakan, dan penempatan yang diperlukan untuk hasil yang rangup dan lazat.
+</p>
 
-<h2 id="goal">Matlamat Tahap 15 Cookingdom</h2>
+<h2>Bahan yang Diperlukan untuk Ayam Rangup</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Catatan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ketulan Ayam Mentah</td>
+      <td>4-5 ketul (sayap/peha)</td>
+      <td>Diberikan di atas pinggan, sedia untuk disediakan.</td>
+    </tr>
+    <tr>
+      <td>Sos Gelap</td>
+      <td>1 bahagian</td>
+      <td>Kemungkinan sos soya atau sos asas masin untuk perapan.</td>
+    </tr>
+    <tr>
+      <td>Kicap</td>
+      <td>1 bahagian</td>
+      <td>Menambah sedikit kemanisan dan keasidan pada perapan.</td>
+    </tr>
+    <tr>
+      <td>Mustard</td>
+      <td>1 bahagian</td>
+      <td>Memberikan kepedasan pada perapan.</td>
+    </tr>
+    <tr>
+      <td>Mayonis</td>
+      <td>1 bahagian</td>
+      <td>Memberikan tekstur krim pada perapan.</td>
+    </tr>
+    <tr>
+      <td>Lada Hitam</td>
+      <td>1 serbuk</td>
+      <td>Dari pengisar, perasa klasik untuk perapan.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>1 serbuk</td>
+      <td>Dari pengisar, untuk memberi perisa pada perapan.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Perasa Mi</td>
+      <td>1 paket</td>
+      <td>Penambah rasa unik untuk perapan ayam.</td>
+    </tr>
+    <tr>
+      <td>Gandum</td>
+      <td>1 bahagian</td>
+      <td>Bahan asas (serbuk putih) untuk campuran penyalutan.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Kuning 1</td>
+      <td>1 bahagian</td>
+      <td>Boleh jadi tepung jagung atau campuran rempah khas untuk penyalutan.</td>
+    </tr>
+    <tr>
+      <td>Garam (untuk penyalutan)</td>
+      <td>1 serbuk</td>
+      <td>Dari pengisar, ditambah terus ke dalam campuran penyalutan.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Merah</td>
+      <td>1 bahagian</td>
+      <td>Kemungkinan paprika atau serbuk cili untuk warna dan sedikit kepedasan dalam penyalutan.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Kuning 2</td>
+      <td>1 bahagian</td>
+      <td>Campuran rempah lain untuk meningkatkan rasa penyalutan.</td>
+    </tr>
+    <tr>
+      <td>Minyak Masak</td>
+      <td>Cukup untuk menggoreng dalam minyak dalam jumlah yang banyak</td>
+      <td>Dituang dari botol ke dalam kuali untuk menggoreng.</td>
+    </tr>
+    <tr>
+      <td>Daun Salad</td>
+      <td>1 bahagian</td>
+      <td>Untuk alas segar di atas pinggan hidangan.</td>
+    </tr>
+    <tr>
+      <td>Sos Cili</td>
+      <td>1 bahagian</td>
+      <td>Dari botol, sempurna sebagai bahan celup.</td>
+    </tr>
+    <tr>
+      <td>Kentang Goreng</td>
+      <td>1 mangkuk</td>
+      <td>Sudah siap untuk dihidangkan.</td>
+    </tr>
+    <tr>
+      <td>Bekas Mangkuk Kaca Besar</td>
+      <td>2</td>
+      <td>Satu untuk menyediakan perapan, satu lagi untuk campuran penyalutan.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk Kecil</td>
+      <td>Banyak</td>
+      <td>Untuk menampung bahan-bahan perapan dan penyalutan sebelum dicampurkan.</td>
+    </tr>
+    <tr>
+      <td>Sudu</td>
+      <td>1</td>
+      <td>Digunakan untuk mencampurkan bahan perapan dengan teliti.</td>
+    </tr>
+    <tr>
+      <td>Whisk</td>
+      <td>1</td>
+      <td>Digunakan untuk mencampurkan bahan-bahan kering dalam penyalutan dengan sekata.</td>
+    </tr>
+    <tr>
+      <td>Induksi Pemanas</td>
+      <td>1</td>
+      <td>Elemen pemanasan untuk menggoreng ayam.</td>
+    </tr>
+    <tr>
+      <td>Kuali Penggorengan</td>
+      <td>1</td>
+      <td>Untuk menggoreng ayam dalam minyak.</td>
+    </tr>
+    <tr>
+      <td>Saringan Spider</td>
+      <td>1</td>
+      <td>Alat penting untuk mengeluarkan ayam yang sudah digoreng dari minyak panas.</td>
+    </tr>
+    <tr>
+      <td>Kertas Penyerap Minyak</td>
+      <td>1 helaian (secara implied)</td>
+      <td>Untuk menyerap lebihan minyak dari ayam goreng.</td>
+    </tr>
+    <tr>
+      <td>Piring Hidang</td>
+      <td>1</td>
+      <td>Permukaan akhir untuk hidangan yang lazat.</td>
+    </tr>
+    <tr>
+      <td>Mangkuk Celup Kecil</td>
+      <td>1</td>
+      <td>Untuk menampung sos cili untuk mudah dicelup.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Penguasaan Ayam Goreng: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Sediakan Perapan Berperisa Anda</h3>
+<p>
+  Dalam mangkuk kaca besar, campurkan **sos gelap, kicap, mustard, mayonis, lada hitam, garam** dan keseluruhan **paket perasa mi**. Gunakan **sudu** untuk mencampurkan semua bahan dengan teliti sehingga sebati.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan semua sos dan perasa dicampur dengan baik; ini penting untuk memastikan rasa sekata pada setiap suapan.
+</div>
+
+<h3>Langkah 2. Perap Ketulan Ayam</h3>
+<p>
+  Masukkan **ketulan ayam** ke dalam mangkuk yang berisi perapan yang baru disediakan. Kacau ayam tersebut untuk memastikan setiap ketulan dipenuhi dengan perapan.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Luangkan masa untuk memastikan setiap bahagian ayam bersentuhan dengan perapan bagi penyerapan rasa yang maksima.
+</div>
+
+<h3>Langkah 3. Sediakan Campuran Penyalutan Rangup</h3>
+<p>
+  Dalam mangkuk kaca besar kedua, campurkan **gandum (serbuk putih), serbuk kuning 1, garam, serbuk merah** dan **serbuk kuning 2**. Gunakan **whisk** untuk mencampurkan bahan-bahan kering ini dengan sekata.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Mencampurkan bahan kering dengan baik adalah kunci untuk mendapatkan kerak rangup yang sekata pada ayam.
+</div>
+
+<h3>Langkah 4. Panaskan Minyak Penggorengan</h3>
+<p>
+  Tuangkan **minyak masak** dari botol ke dalam **kuali penggorengan** dan letakkan di atas **induksi pemanas**. Hidupkan pemanas untuk memanaskan minyak.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan minyak cukup panas sebelum anda memasukkan ayam. Minyak yang tidak cukup panas akan menghasilkan ayam yang berminyak, bukan rangup.
+</div>
+
+<h3>Langkah 5. Penyalutan dan Penggorengan Ayam</h3>
+<p>
+  Ambil setiap **ketulan ayam** yang telah diperap dan celupkan sepenuhnya ke dalam **campuran penyalutan**, pastikan ia disaluti sepenuhnya. Letakkan setiap ketulan ayam yang telah dipanir ke dalam minyak panas dalam kuali. Goreng sehingga ayam berwarna keemasan dan rangup serta masak sepenuhnya.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Saluti ayam dengan banyak dalam penyalutan. Jangan terlalu banyak meletakkan ayam dalam kuali, goreng dalam batch jika perlu untuk mengekalkan suhu minyak dan memastikan pemasakan sekata.
+</div>
+
+<h3>Langkah 6. Tiriskan Ayam Goreng</h3>
+<p>
+  Gunakan **saringan spider** untuk mengangkat **ketulan ayam goreng** dari minyak panas. Letakkan ayam di atas **kertas penyerap minyak** untuk menapis minyak berlebihan.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Menapis minyak dengan betul adalah penting untuk memastikan ayam kekal rangup, bukan berminyak.
+</div>
+
+<h3>Langkah 7. Hidangkan Hidangan Lazat Anda</h3>
+<p>
+  Susun **daun salad** segar dengan kemas di atas **piring hidang**. Letakkan ketulan **ayam goreng** di atas daun salad. Tuangkan **sos cili** ke dalam **mangkuk celup kecil**. Akhir sekali, susun **kentang goreng** dan mangkuk sos di sebelah ayam di atas piring hidangan.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Susun semua komponen dengan estetik untuk mempersembahkan hidangan yang menarik!
+</div>
+
+<h2>Tips Teratas untuk Kejayaan di Cookingdom Tahap 15</h2>
 <ul>
-  <li><strong>Sediakan ayam:</strong> Ayam perlu disalut dengan adunan tepung berperisa dan digoreng hingga keemasan.</li>
-  <li><strong>Masak hidangan sampingan:</strong> Ayam goreng biasanya disajikan bersama hidangan sampingan seperti kentang lenyek, salad kobis atau kentang goreng.</li>
-  <li><strong>Hidangkan dengan cepat:</strong> Seperti semua tahap Cookingdom, perkhidmatan pantas penting untuk memuaskan pelanggan.</li>
+  <li>
+    ✔️ Pastikan bahan-bahan perapan **dicampurkan dengan baik** sebelum menambah ayam.
+  </li>
+  <li>
+    ✔️ **Saluti ayam** secara sekata dalam perapan, kemudian **panir dengan teliti** dalam campuran penyalutan untuk kerak yang sekata.
+  </li>
+  <li>
+    ✔️ Sentiasa pastikan **minyak cukup panas** sebelum menggoreng; jika tidak, ayam akan menjadi berminyak.
+  </li>
+  <li>
+    ✔️ Goreng sehingga ayam **berwarna keemasan dan rangup**, pastikan ia masak sepenuhnya.
+  </li>
+  <li>
+    ✔️ **Tiriskan ayam** dengan baik selepas menggoreng untuk mengelakkan ayam daripada berminyak.
+  </li>
+  <li>
+    ✔️ Susun hidangan dengan kemas dengan **semua komponen** yang disediakan (ayam, salad, kentang goreng, dan sos celup) seperti yang ditunjukkan dalam permainan.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Memasak Ayam Goreng di Cookingdom Tahap 15</h2>
-<ol>
-  <li>
-    <h3>Penyediaan Ayam:</h3>
-    <p>Mula dengan membumbui kepingan ayam. Dalam Cookingdom, anda mencelup ayam ke dalam adunan tepung berperisa, kemudian letakkan dalam kuali panas atau penggoreng.</p>
-    <p><strong>Petua:</strong> Pastikan adunan tepung menyalut ayam secara sekata untuk mendapatkan kerak yang rangup dan keemasan. Perasakan adunan tepung untuk menambah rasa, dan kawal suhu minyak. Jika minyak terlalu panas, ayam akan hangus di luar tetapi mentah di dalam.</p>
-    <p><strong>Petua:</strong> Kacau ayam dari semasa ke semasa semasa menggoreng supaya masak sekata dan mendapat tekstur rangup yang sempurna.</p>
-  </li>
-  <li>
-    <h3>Memasak Hidangan Sampingan:</h3>
-    <p>Sementara ayam sedang digoreng, sediakan hidangan sampingan. Hidangan sampingan biasa untuk ayam goreng termasuk:</p>
-    <ul>
-      <li><strong>Kentang Lenyek:</strong> Dalam Cookingdom Tahap 15, anda perlu merebus dan melenyek kentang, kemudian tambah mentega, susu dan perasa.</li>
-      <li><strong>Salad Kobis:</strong> Anda boleh menyediakan salad dengan cepat dengan memotong sayur-sayuran dan mencampurkannya dengan dressing krim.</li>
-      <li><strong>Kentang Goreng:</strong> Jika dalam menu ada kentang goreng, goreng hingga rangup dan keemasan.</li>
-    </ul>
-    <p><strong>Petua:</strong> Anda boleh memasak hidangan sampingan serentak dengan ayam goreng. Jika anda boleh melakukan multitugas, pastikan tiada hidangan sampingan terlebih atau kurang masak.</p>
-  </li>
-  <li>
-    <h3>Penyusunan Hidangan:</h3>
-    <p>Apabila ayam goreng sudah masak dengan sempurna dan hidangan sampingan sedia, susun hidangan. Letakkan ayam goreng di atas pinggan, tambah hidangan sampingan dan hias dengan daun parsli atau sos.</p>
-  </li>
-  <li>
-    <h3>Penghidangan Ayam Goreng:</h3>
-    <p>Setelah disusun, hidangkan dengan cepat selagi masih panas. Pelanggan dalam Cookingdom Tahap 15 mengharapkan hidangan segar, dan lebih cepat anda hidang, lebih tinggi markah anda.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua dan Panduan untuk Cookingdom Tahap 15</h2>
+<h2>Kesilapan Biasa yang Perlu Dielakkan di Cookingdom Tahap 15</h2>
 <ul>
-  <li>
-    <h3>Ayam Goreng Sempurna:</h3>
-    <p>Kunci kepada ayam goreng yang sempurna adalah suhu minyak yang betul. Jika minyak terlalu panas, adunan tepung akan hangus sebelum ayam masak sepenuhnya. Jika minyak terlalu sejuk, ayam akan menyerap banyak minyak dan menjadi berminyak.</p>
-  </li>
-  <li>
-    <h3>Pengurusan Hidangan Sampingan:</h3>
-    <p>Cookingdom Tahap 15 memerlukan multitugas, jadi pengurusan hidangan sampingan sama pentingnya dengan menggoreng ayam. Perhatikan masa agar tiada hidangan sampingan terlebih atau kurang masak.</p>
-    <p><strong>Petua:</strong> Mulakan memasak hidangan sampingan sebaik sahaja ayam mula digoreng. Kentang lenyek dan kentang goreng masak dengan cepat, salad boleh disediakan terlebih dahulu.</p>
-  </li>
-  <li>
-    <h3>Perasa:</h3>
-    <p>Perasa sangat penting. Adunan tepung harus mengandungi jumlah garam, lada dan rempah yang betul. Jangan lupa untuk membumbui hidangan sampingan supaya rasa seimbang.</p>
-    <p><strong>Petua:</strong> Anda boleh sesuaikan perasa mengikut citarasa pelanggan, contohnya menambah lebih rempah untuk yang suka pedas.</p>
-  </li>
-  <li>
-    <h3>Peningkatan Peralatan:</h3>
-    <p>Semasa anda maju dalam Cookingdom Tahap 15, pertimbangkan untuk menaik taraf penggoreng dan dapur anda. Memasak yang lebih cepat akan membantu anda mengatasi jumlah pesanan yang bertambah di peringkat berikutnya.</p>
-    <p><strong>Petua:</strong> Peningkatan akan mempercepatkan proses menggoreng dan memasak hidangan sampingan.</p>
-  </li>
-  <li>
-    <h3>Jangan Biarkan Minyak Sejuk:</h3>
-    <p>Cookingdom Tahap 15 memerlukan anda mengekalkan suhu minyak yang tinggi untuk gorengan yang cepat dan sekata.</p>
-  </li>
+  <li>Campuran perapan atau campuran penyalutan yang tidak rata, menyebabkan rasa dan tekstur yang tidak sekata.</li>
+  <li>Penyalutan ayam yang tidak sekata, menyebabkan kerak yang tidak sempurna.</li>
+  <li>Menggoreng ayam dalam minyak yang tidak cukup panas, menyebabkan ayam menjadi berminyak.</li>
+  <li>Ayam yang terlebih masak atau kurang masak, yang mempengaruhi kelembutan dan keselamatannya.</li>
+  <li>Lupa menapis minyak selepas menggoreng, menyebabkan ayam menjadi berminyak.</li>
+  <li>Ketinggalan komponen semasa penyajian atau susunan yang tidak kemas akan menjejaskan markah anda.</li>
 </ul>
 
-<h2 id="summary">Kesimpulan</h2>
-<p>Cookingdom Tahap 15 menawarkan cabaran klasik — menyediakan ayam goreng yang sedap dan rangup dengan hidangan sampingan. Penting untuk mengawal suhu minyak, mengurus masa memasak hidangan sampingan dan menyajikan hidangan dengan cepat kepada pelanggan. Dengan mengikuti petua ini, anda boleh mendapat 5 bintang dengan mudah dan menamatkan tahap ini.</p>
 `,
   },
 
@@ -551,83 +935,216 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-  <h2 id="overview">Gambaran Keseluruhan Permainan</h2>
-  <p>Dalam Cookingdom, setiap tahap baharu mencabar anda dengan hidangan yang lebih kompleks. Tahap 16 tidak terkecuali, di mana anda perlu menyediakan Steak yang dimasak dengan sempurna. Hidangan ini memerlukan pengawalan masa yang tepat, kawalan haba, dan perhatian rapi pada pesanan pelanggan. Semasa anda maju dalam Cookingdom, memasak steak akan menjadi tunjang menu anda, dan mengurus tahap kematangan steak yang berbeza amat penting untuk memastikan pelanggan berpuas hati.</p>
-  <p>Dalam tahap ini, anda perlu menguruskan dapur anda dengan cekap sambil memastikan setiap steak dimasak pada tahap kematangan yang betul, sama ada rare, medium, atau well-done. Mari kita terokai langkah demi langkah membuat steak yang sempurna!</p>
-  
-  <h2 id="goal">Matlamat Tahap 16</h2>
-  <ul>
-    <li><strong>Masak Steak dengan Sempurna:</strong> Cookingdom memerlukan anda memasak steak pada tahap kematangan berbeza: rare, medium, dan well-done. Setiap pelanggan mempunyai keutamaan masing-masing, dan sangat penting untuk memasak setiap steak dengan tepat untuk memenuhi harapan mereka.</li>
-    <li><strong>Kendalikan Pesanan Steak Berganda:</strong> Seperti tahap sebelum ini, mengurus beberapa pesanan pada masa sama adalah kritikal. Cookingdom akan menguji kemampuan anda untuk mengendalikan pesanan yang lebih kompleks sambil memastikan setiap steak dimasak dengan betul.</li>
-    <li><strong>Sajikan Steak dengan Segera:</strong> Pelanggan di Cookingdom mudah tidak sabar, jadi penyajian steak dengan cepat selepas masak adalah penting. Masa adalah kunci untuk mendapatkan penilaian tertinggi.</li>
-  </ul>
-  
-  <h2 id="steps">Langkah-langkah Memasak Steak</h2>
-  <ol>
-    <li>
-      <h3>Sediakan Kuali atau Grill:</h3>
-      <p>Sebelum memasak, panaskan kuali atau grill pada suhu tinggi. Kunci untuk steak yang baik adalah mendapatkan permukaan kuali atau grill yang cukup panas untuk menghasilkan kerak yang sedap pada luar steak sambil memastikan bahagian dalam kekal berjus. Tambah sedikit minyak atau mentega untuk mengelakkan steak melekat.</p>
-      <p><strong>Tip:</strong> Kuali atau grill yang panas sangat penting untuk mendapatkan kerak yang sedap pada steak.</p>
-    </li>
-    <li>
-      <h3>Perasakan Steak:</h3>
-      <p>Setelah kuali panas, perasakan steak dengan garam, lada, dan herba atau rempah yang anda suka. Beberapa pelanggan mungkin mempunyai permintaan perasa khusus, jadi pastikan periksa pesanan mereka dengan teliti.</p>
-      <p><strong>Tip:</strong> Gunakan perasa yang mencukupi untuk meningkatkan rasa steak. Jangan lupa perasakan kedua-dua belah steak.</p>
-    </li>
-    <li>
-      <h3>Masak Steak:</h3>
-      <p>Letakkan steak dalam kuali panas atau di atas grill. Bergantung pada tahap kematangan yang diminta pelanggan, masak steak untuk tempoh berikut:</p>
-      <ul>
-        <li>Rare: 2-3 minit setiap sisi.</li>
-        <li>Medium: 4-5 minit setiap sisi.</li>
-        <li>Well-Done: 6-7 minit setiap sisi.</li>
-      </ul>
-      <p><strong>Tip:</strong> Balikkan steak hanya sekali untuk mengelakkan jus keluar. Gunakan penyepit untuk membalikkan steak dengan perlahan.</p>
-    </li>
-    <li>
-      <h3>Periksa Tahap Kematangan:</h3>
-      <p>Gunakan isyarat visual dan sentuhan untuk periksa tahap kematangan steak:</p>
-      <ul>
-        <li>Rare: Sejuk bila disentuh dan berwarna merah di tengah.</li>
-        <li>Medium: Sedikit keras dengan bahagian tengah berwarna merah jambu.</li>
-        <li>Well-Done: Keras dan perang sepenuhnya, tiada warna merah jambu di dalam.</li>
-      </ul>
-      <p><strong>Tip:</strong> Dalam Cookingdom, mungkin terdapat penunjuk visual atau pemasa yang menunjukkan bila steak sudah siap, membantu anda elak daripada terlebih masak.</p>
-    </li>
-    <li>
-      <h3>Rehatkan Steak:</h3>
-      <p>Setelah steak dimasak pada tahap yang betul, keluarkan dari kuali atau grill dan biarkan ia berehat selama satu atau dua minit. Ini membantu pengagihan semula jus supaya steak lebih lembut dan berjus.</p>
-      <p><strong>Tip:</strong> Jangan abaikan langkah ini! Rehatkan steak adalah penting untuk mengekalkan rasa dan kelembapan.</p>
-    </li>
-    <li>
-      <h3>Sajikan Steak:</h3>
-      <p>Setelah steak berehat, letakkan pada pinggan dan hidangkan kepada pelanggan. Anda boleh hiaskan steak dengan sampingan seperti kentang lenyek, sayur-sayuran, atau sos bergantung pada pesanan.</p>
-      <p><strong>Tip:</strong> Sajikan steak segera selepas siap untuk memastikan pelanggan gembira dan elakkan ketidakpuasan kerana servis lambat.</p>
-    </li>
-  </ol>
-  
-  <h2 id="tips">Tip & Trik</h2>
-  <ul>
-    <li>
-      <strong>Kuasa Penguasaan Tahap Kematangan Steak:</strong> Dalam Cookingdom, memasak steak pada tahap kematangan yang tepat amat penting. Pelanggan akan menentukan bagaimana mereka mahu steak mereka, dan menyajikan dengan sempurna akan memberi anda penilaian tinggi. Beri perhatian pada pesanan mereka dan gunakan masa memasak yang betul untuk menghasilkan steak yang sempurna.
-    </li>
-    <li>
-      <strong>Pengurusan Pesanan Efisien:</strong> Apabila pelanggan bertambah, anda perlu mengendalikan beberapa pesanan steak pada masa sama. Prioritikan mengikut masa menunggu pelanggan. Pastikan setiap steak diperiksa tahap kematangannya dan elak terlebih masak ketika mengurus hidangan lain.
-    </li>
-    <li>
-      <strong>Peningkatan dan Peralatan:</strong> Semasa maju dalam Cookingdom, anda boleh menaik taraf peralatan memasak. Grill atau kuali yang lebih berkualiti akan memasak steak dengan lebih cepat dan efisien. Pertimbangkan untuk menaik taraf peralatan anda untuk mempercepat proses memasak dan memperbaiki hasil.
-    </li>
-    <li>
-      <strong>Gunakan Boost dan Pecutan:</strong> Cookingdom menawarkan boost dan pecutan untuk membantu anda mengendalikan masa sibuk. Gunakan ia untuk mempercepatkan memasak atau melayani pelanggan lebih pantas, terutama bila ada banyak pesanan steak pada masa sama.
-    </li>
-    <li>
-      <strong>Kepuasan Pelanggan:</strong> Kesabaran pelanggan adalah faktor besar dalam Cookingdom. Jika anda buat pelanggan menunggu lama untuk steak mereka, mereka mungkin akan kecewa. Sentiasa pastikan steak disajikan panas dan segera, dan pastikan pelanggan berpuas hati untuk hasil terbaik.
-    </li>
-  </ul>
-  
-  <h2 id="summary">Ringkasan</h2>
-  <p>Dalam Tahap 16 Cookingdom, menyediakan Steak yang sempurna adalah tentang mengawal masa memasak dan memastikan setiap steak dimasak mengikut tahap kematangan yang pelanggan inginkan. Anda perlu menguasai teknik memanggang dan memasak dalam kuali, mengurus pesanan berganda, dan menyajikan steak ketika masih segar dan berjus.</p>
-  <p>Menjelang akhir tahap ini, anda akan memperoleh kemahiran berharga dalam penyediaan steak yang akan membantu anda menangani hidangan lebih kompleks di tahap seterusnya. Dengan perhatian terperinci dan servis pantas, anda akan mampu mengendalikan pesanan steak seperti seorang profesional dan memastikan pelanggan terus kembali!</p>
+  <h2>Selamat datang ke Cookingdom Tahap 16: Panduan Steak</h2>
+<p>
+  Selamat datang, chef! Dalam **Cookingdom Tahap 16**, misi anda adalah untuk memanggang dan menyusun **steak** yang sempurna. Tahap ini memperkenalkan anda kepada mekanik memasak Cookingdom yang intuitif namun tepat dalam persekitaran yang santai tanpa pemasa, membolehkan anda memberi tumpuan kepada kesempurnaan.
+</p>
+<p>
+  Panduan ini memberikan langkah-langkah tepat untuk berjaya dalam **Cookingdom Tahap 16**, dengan perincian tentang setiap bahan, tindakan, dan susunan yang diperlukan untuk menghasilkan hidangan lima bintang.
+</p>
+
+<h2>Bahan-bahan yang anda perlukan untuk makan malam steak</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Catatan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Steak</td>
+      <td>2 keping</td>
+      <td>Protein utama untuk hidangan anda.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>Secukup rasa</td>
+      <td>Perasa penting untuk steak.</td>
+    </tr>
+    <tr>
+      <td>Lada</td>
+      <td>Secukup rasa</td>
+      <td>Perasa penting lain untuk rasa.</td>
+    </tr>
+    <tr>
+      <td>Bawang Putih</td>
+      <td>1 biji untuk dicincang, 1 biji (bahagian atas untuk membakar)</td>
+      <td>Memberikan rasa kaya pada steak dan sayur-sayuran sampingan.</td>
+    </tr>
+    <tr>
+      <td>Minyak</td>
+      <td>Sedikit</td>
+      <td>Untuk merendam steak sebelum dimasak.</td>
+    </tr>
+    <tr>
+      <td>Kentang</td>
+      <td>1 biji (dipotong dua)</td>
+      <td>Sayur sampingan yang berkhasiat.</td>
+    </tr>
+    <tr>
+      <td>Wortel</td>
+      <td>1 biji</td>
+      <td>Sayur manis dan berwarna.</td>
+    </tr>
+    <tr>
+      <td>Daun Lada Hijau</td>
+      <td>1 tangkai</td>
+      <td>Memberikan rasa unik dan juga hiasan.</td>
+    </tr>
+    <tr>
+      <td>Mentega</td>
+      <td>1 keping</td>
+      <td>Digunakan untuk memanggang steak dan memasak sayuran sampingan.</td>
+    </tr>
+    <tr>
+      <td>Kicap (Botol bertanda 'Sos')</td>
+      <td>Secukup rasa</td>
+      <td>Asas untuk sos masakan di kuali.</td>
+    </tr>
+    <tr>
+      <td>Daun Parsli</td>
+      <td>1 tangkai</td>
+      <td>Hiasan segar untuk penyajian yang elegan.</td>
+    </tr>
+    <tr>
+      <td>Tomato Ceri</td>
+      <td>2 biji (dipotong dua)</td>
+      <td>Sayur yang berwarna-warni dan hiasan, ditambah semasa penyajian.</td>
+    </tr>
+    <tr>
+      <td>Sos Kuning (contohnya Hollandaise atau Béarnaise)</td>
+      <td>1 mangkuk kecil</td>
+      <td>Sos berkrim untuk disajikan bersama steak.</td>
+    </tr>
+    <tr>
+      <td>Pinggan Penyajian</td>
+      <td>1 biji</td>
+      <td>Permukaan terakhir untuk menyajikan karya seni anda.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kesempurnaan Steak: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Pilih Resepi</h3>
+<p>
+  Mulakan dengan membuka buku masakan dan pilih **Resepi No. 8 (Steak)**.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan anda telah membuka bahan yang diperlukan sebelum mula!
+</div>
+
+<h3>Langkah 2. Perasakan Steak</h3>
+<p>
+  Letakkan dua **steak** di atas pinggan. Gunakan **penabur garam** dan taburkan secara merata pada kedua-dua steak. Ulangi dengan **penabur lada**, taburkan kedua-dua steak.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan kedua-dua sisi setiap steak diperap dengan baik dengan menggerakkan kursor di seluruh permukaan steak.
+</div>
+
+<h3>Langkah 3. Sediakan dan Tambah Bawang Putih Cincang</h3>
+<p>
+  Ambil satu **biji bawang putih** dan letakkan di atas **papan pemotong**. Gunakan **pisau** untuk mencincang bawang putih hingga halus. Setelah dicincang, letakkan bawang putih yang disediakan ke atas steak yang telah diperap.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Cincang bawang putih dengan teliti untuk pengagihan rasa yang terbaik. Ikon hati akan muncul apabila bawang putih disapukan dengan betul.
+</div>
+
+<h3>Langkah 4. Tuang Minyak</h3>
+<p>
+  Tuangkan **minyak** dari botol secara merata ke atas steak yang telah diperap dan bawang putih yang dicincang.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan minyak meliputi kedua-dua steak dengan sekata. Ikon hati akan muncul untuk mengesahkan aplikasi berjaya.
+</div>
+
+<h3>Langkah 5. Sediakan Sayuran Sampingan (Pemotongan Awal)</h3>
+<p>
+  Letakkan **kentang** di atas **papan pemotong** dan potongkan ia dengan kemas. Kemudian, ambil **biji bawang putih** kedua, letakkan di atas papan dan hanya potong bahagian atasnya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Sayuran-sayuran ini sedang disediakan, namun mereka akan dimasak kemudian dalam kuali, menyerap rasa dari steak.
+</div>
+
+<h3>Langkah 6. Panaskan Kuali dan Panggang Steak</h3>
+<p>
+  Letakkan **kuali** di atas **dapur** dan nyalakan api. Tambahkan **mentega** dan biarkan ia cair sepenuhnya. Setelah cair dan panas, masukkan **steak** yang telah diperap ke dalam kuali dan masak sehingga satu sisi terpanggang dengan sempurna.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Dengarkan bunyi sizzle yang memuaskan! Jangan sesakkan kuali, beri ruang kepada steak untuk memanggang dengan sempurna.
+</div>
+
+<h3>Langkah 7. Keluarkan Steak, Masak Sayuran</h3>
+<p>
+  Keluarkan **steak** yang telah dipanggang dan letakkan di atas **papan pemotong**. Sekarang, masukkan sayuran yang telah disediakan — **bawang putih**, **kentang**, **wortel**, dan **daun lada hijau** — ke dalam kuali yang sama dengan baki mentega dan sisa daging. Tumis hingga masak dan lembut.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Memasak sayuran dalam kuali yang sama akan membolehkan mereka menyerap semua rasa yang ditinggalkan oleh steak.
+</div>
+
+<h3>Langkah 8. Keluarkan Sayuran dan Sediakan Sos Kuali</h3>
+<p>
+  Setelah sayuran masak, keluarkan mereka dari kuali dan letakkan di atas pinggan sampingan. Sekarang, tuangkan **kicap** (dari botol bertanda 'Sos') ke dalam kuali yang panas. Biarkan ia mendidih dan berkurang sedikit untuk menghasilkan sos yang kaya.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Kikis sisa yang tertinggal di dasar kuali ke dalam sos; sisa-sisa ini penuh dengan rasa tambahan!
+</div>
+
+<h3>Langkah 9. Potong Steak</h3>
+<p>
+  Ambil salah satu **steak** yang telah dipanggang dan letakkan di atas **papan pemotong**. Gunakan **pisau** untuk memotong steak menjadi beberapa kepingan yang sekata.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Untuk kelembutan sebenar, anda harus memotong menentang serat, tetapi dalam permainan, hanya ikuti panduan visual untuk potongan yang sekata.
+</div>
+
+<h3>Langkah 10. Susun Hidangan Anda</h3>
+<p>
+  Letakkan **daun parsli** yang segar di atas **pinggan penyajian**. Susun **steak yang dipotong** dengan kemas di atas daun parsli. Sekarang, tambah sayuran sampingan yang dimasak — **bawang putih, wortel, kentang, dan lada hijau** — bersama dengan **tomato ceri** yang dipotong dua di sekitar steak.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Susun semua komponen dengan teliti dan estetik untuk mendapatkan markah penyajian yang terbaik.
+</div>
+
+<h3>Langkah 11. Tambah Sos dan Hidangkan!</h3>
+<p>
+  Gunakan **senduk** untuk mencurahkan **sos kuali** yang baru dimasak ke atas steak yang dipotong. Akhirnya, letakkan mangkuk kecil berisi **sos kuning untuk mencicah** (seperti Hollandaise atau Béarnaise) di sebelah steak yang telah disusun.
+</p>
+<div class="tip">
+  💡 <strong>Tip Pro:</strong> Pastikan sos kuali menutupi steak dengan rata. Sos pencicah adalah sentuhan akhir yang menyempurnakan hidangan anda.
+</div>
+
+<h2>Tips untuk Kejayaan di Cookingdom Tahap 16</h2>
+<ul>
+  <li>
+    ✔️ **Perasakan steak dengan banyak** garam, lada, dan bawang putih cincang sebelum memasak.
+  </li>
+  <li>
+    ✔️ Pastikan **kuali panas** sebelum menambah mentega dan steak untuk mendapatkan kerak yang sempurna.
+  </li>
+  <li>
+    ✔️ **Masak sayuran dalam kuali yang sama** sejurus selepas steak dimasak; mereka akan menyerap semua rasa yang hebat.
+  </li>
+  <li>
+    ✔️ Jangan lupa untuk **menambah sos kuali** ke atas steak dan **sos kuning untuk mencicah**; kedua-duanya penting untuk penyelesaian hidangan.
+  </li>
+  <li>
+    ✔️ **Susun semua komponen dengan teliti dan estetik** di atas pinggan untuk mendapatkan markah penyajian yang terbaik.
+  </li>
+</ul>
+
+<h2>Kesilapan Biasa untuk Dielakkan di Cookingdom Tahap 16</h2>
+<ul>
+  <li>Melupakan untuk memseasonkan steak dengan garam, lada, atau bawang putih.</li>
+  <li>Meletakkan steak dalam **kuali sejuk**, yang akan menghalang kerak yang enak terbentuk.</li>
+  <li>Memasak **mentega, bawang putih, atau sayur-sayuran** terlalu lama.</li>
+  <li>**Memasak steak terlalu lama**, menghasilkan tekstur yang keras dan tidak menyenangkan.</li>
+  <li>Melupakan untuk menambah sos kuali atau sos kuning untuk mencicah.</li>
+  <li>Menempatkan bahan pada pinggan secara tidak teratur atau melupakan komponen penting seperti tomato ceri.</li>
+</ul>
+
   `,
   },
 
@@ -669,70 +1186,171 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 17 Cookingdom</h2>
-<p>Dalam Tahap 17 Cookingdom, anda akan menyediakan minuman yang lazat dan sofistikated: Café Macchiato. Tahap ini menguji kemahiran anda untuk menyediakan espresso yang pekat dan halus dengan lapisan buih susu di atasnya, sambil memastikan masa dan ketepatan yang sempurna. Ia merupakan minuman klasik yang memerlukan perhatian terhadap butiran dan keupayaan multitasking.</p>
-<p>Café Macchiato adalah minuman popular di kedai kopi di seluruh dunia. Penyediaan yang betul akan memukau pelanggan anda dan membantu anda melangkah ke tahap seterusnya. Mari kita pecahkan proses ini dan pandu anda untuk membuat Café Macchiato yang sempurna.</p>
+<h2>Selamat datang ke Cookingdom Level 17: Panduan & Tutorial Café Macchiato</h2>
+<p>
+  Selamat datang, peminat kopi! Dalam **Cookingdom Level 17**, misi anda adalah untuk mencipta **Café Macchiato** yang sempurna. Tahap ini akan membimbing anda melalui mekanik memasak Cookingdom yang intuitif tetapi tepat dalam persekitaran tanpa pemasa, membolehkan anda menguasai penciptaan kopi berlapis ini.
+</p>
+<p>
+  Panduan ini memberikan langkah-langkah tepat untuk menakluk Cookingdom Level 17, merangkumi setiap bahan, tindakan, dan penempatan yang diperlukan untuk macchiato yang elegan dan lazat.
+</p>
 
-<h2 id="goal">Matlamat Tahap 17 Cookingdom</h2>
+<h2>Bahan-bahan yang Anda Perlukan untuk Macchiato Anda</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ceri Kopi</td>
+      <td>1 bakul</td>
+      <td>Dipetik dari pokok kopi pada permulaan.</td>
+    </tr>
+    <tr>
+      <td>Air</td>
+      <td>1 jug</td>
+      <td>Komponen utama untuk membuat sirap.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 mangkuk</td>
+      <td>Pemanis untuk sirap buatan sendiri.</td>
+    </tr>
+    <tr>
+      <td>Limau</td>
+      <td>1 mangkuk</td>
+      <td>Jus yang diperah ke dalam sirap untuk kecerahan.</td>
+    </tr>
+    <tr>
+      <td>Susu</td>
+      <td>1 karton</td>
+      <td>Digunakan untuk mengukus dan menghasilkan buih yang kaya.</td>
+    </tr>
+    <tr>
+      <td>Ais</td>
+      <td>1 mangkuk</td>
+      <td>Ditambah ke dalam gelas sebelum espresso.</td>
+    </tr>
+    <tr>
+      <td>Hiasan Bunga</td>
+      <td>1 cawan</td>
+      <td>Sentuhan akhir untuk persembahan.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Keahlian Café Macchiato: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Petik Ceri Kopi</h3>
+<p>
+  Mulakan dengan menyapu daun besar yang menutupi **pokok kopi**. Setelah ia terbuka, ketik kelompok **ceri kopi** pelbagai warna untuk mengumpulkannya. Teruskan sehingga bakul anda penuh.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan untuk mengumpulkan *semua* kelompok ceri. Ikon hati akan muncul apabila bakul anda penuh, menandakan kejayaan.
+</div>
+
+<h3>Langkah 2. Proses Ceri (Pembersihan)</h3>
+<p>
+  Seret bakul penuh **ceri** ke mesin pembersihan merah. Kemudian, putar pemegang mesin dalam gerakan bulat untuk memproses ceri, memisahkan biji kopi ke dalam mangkuk ungu di bawah.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Teruskan memutar pemegang mesin sehingga semua ceri diproses. Ikon hati akan muncul untuk mengesahkan penuangan dan pemprosesan selesai.
+</div>
+
+<h3>Langkah 3. Keringkan Biji Kopi</h3>
+<p>
+  Tuangkan biji **kopi** yang telah diproses dari mangkuk ungu ke dulang pengering. Kemudian, sapu awan yang menutupi ikon matahari di atas dulang. Tunggu sehingga pengeringan selesai dan biji kopi berubah menjadi coklat seragam.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Menghapuskan awan adalah langkah penting untuk memulakan proses pengeringan. Ikon hati akan muncul apabila biji kopi kering sepenuhnya.
+</div>
+
+<h3>Langkah 4. Panggang Biji Kopi dengan Kerap Mengacau</h3>
+<p>
+  Hidupkan **papan pemanas**. Gunakan **senduk** untuk memindahkan biji **kopi** yang telah kering ke dalam kuali di atas papan pemanas. Kemudian, ambil **spatula** dan kacau biji kopi secara berterusan semasa mereka dipanggang dan menjadi lebih gelap.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Kacau dengan konsisten untuk mengelakkan pembakaran dan memastikan pemanggangan yang sekata. Ikon hati akan muncul selepas menambah biji dan selepas berjaya mengacau.
+</div>
+
+<h3>Langkah 5. Kisar Biji Kopi</h3>
+<p>
+  Tuangkan biji **kopi** yang telah dipanggang dari kuali ke dalam **blender** kuning. Letakkan penutup dengan kemas dan tekan butang kuasa. Tunggu sehingga blender mengisar biji menjadi serbuk kopi halus.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan penutup ditutup rapat sebelum menekan butang kuasa. Ikon hati akan muncul apabila pengisaran selesai.
+</div>
+
+<h3>Langkah 6. Buat Sirap</h3>
+<p>
+  Hidupkan **papan pemanas**. Tambahkan **gula** dari mangkuk dan **air** dari jug ke dalam kuali. Kacau dengan **spatula**. Perah jus dari **setengah limau** ke dalam kuali. Teruskan mengacau sehingga campuran mengental dan menjadi sirap coklat berkilat.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Ikuti urutan tepat untuk menambah bahan dan pastikan untuk mengacau dengan konsisten. Ikon hati akan muncul pada pelbagai tahap: menambah bahan, memerah limau, dan akhirnya ketika sirap siap.
+</div>
+
+<h3>Langkah 7. Kukus Susu</h3>
+<p>
+  Tuangkan **susu** dari karton ke dalam beaker kaca. Letakkan beaker itu ke dalam mesin pengukus kecil. Tunggu sehingga masa tamat dan susu dipanaskan hingga suhu yang sempurna.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan beaker diletakkan dengan betul dalam mesin pengukus. Ikon hati akan muncul apabila proses pengukusan selesai.
+</div>
+
+<h3>Langkah 8. Pukul Susu</h3>
+<p>
+  Keluarkan beaker susu yang telah dikukus dari mesin. Masukkan **blender rendaman** ke dalam beaker dan hidupkan untuk memukul susu sehingga ia menjadi pekat dan berbuih.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Teruskan memukul susu sehingga mencapai konsistensi berbuih yang dikehendaki. Ikon hati akan menandakan kejayaan.
+</div>
+
+<h3>Langkah 9. Bancuh Espresso</h3>
+<p>
+  Gunakan **senduk** untuk menambah serbuk kopi yang telah dikisar ke dalam **portafilter** mesin espresso. Gunakan **tamper** untuk menekan serbuk kopi dengan kuat dan sekata. Masukkan portafilter ke dalam mesin. Letakkan cawan putih kecil di bawah muncung dan tekan butang untuk bancuhan. Tunggu hingga espresso siap.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Setiap tindakan (menambah serbuk, menekan, membancuh) perlu dilakukan dengan betul untuk mendapatkan espresso yang sempurna. Ikon hati akan muncul untuk mengesahkan setiap langkah.
+</div>
+
+<h3>Langkah 10. Susun Macchiato</h3>
+<p>
+  Letakkan gelas tinggi di atas pinggan ungu. Tambahkan **ais** dari mangkuk ke dalam gelas. Kemudian, tuangkan **espresso** yang baru dibancuh ke atas ais. Dengan berhati-hati, tuangkan **susu berbuih** ke atas espresso. Akhir sekali, curahkan **sirap** yang disediakan dalam bentuk hati di atas susu. Tambahkan **hiasan bunga** untuk dekorasi.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Susun bahan dengan teliti untuk kesan visual yang terbaik. Sirap perlu dituangkan dengan bentuk hati yang jelas. Ikon hati akan muncul ketika menambah ais, espresso, susu, dan sirap.
+</div>
+
+<h2>Tips Teratas untuk Kejayaan di Cookingdom Level 17</h2>
 <ul>
-  <li><strong>Sediakan Espresso:</strong> Asas Café Macchiato adalah espresso yang kaya dan kuat.</li>
-  <li><strong>Buihkan Susu:</strong> Susu perlu dibuihkan ke tekstur dan suhu yang ideal.</li>
-  <li><strong>Sajikan Minuman:</strong> Setelah espresso dan buih susu siap, gabungkan dengan nisbah yang betul dan sajikan semasa masih segar dan panas.</li>
-  <li><strong>Sajikan dengan Pantas:</strong> Seperti biasa dalam Tahap 17 Cookingdom, kelajuan sangat penting. Lebih cepat anda menyajikan, lebih tinggi penilaian anda. Kesegaran adalah kunci untuk memastikan rasa dan tekstur yang optimum.</li>
+  <li>
+    ✔️ Sentiasa perhatikan **ikon hati**; mereka adalah petunjuk terbaik bahawa setiap langkah kecil telah dilaksanakan dengan betul.
+  </li>
+  <li>
+    ✔️ **Teliti** dalam setiap tindakan, terutama dalam mengacau, memukul susu, dan menuang sirap dengan betul.
+  </li>
+  <li>
+    ✔️ Jangan abaikan langkah-langkah perantaraan yang penting seperti **menyapu awan** untuk proses pengeringan atau memastikan **penutup blender** diletakkan dengan betul.
+  </li>
+  <li>
+    ✔️ **Uruskankan masa dengan berkesan** untuk memastikan semua komponen disiapkan pada masa yang tepat: untuk pengeringan, pemanggangan, pemanasan, dan bancuhan.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Membuat Café Macchiato di Tahap 17 Cookingdom</h2>
-<ol>
-  <li>
-    <h3>Sediakan Espresso:</h3>
-    <p>Mula dengan membuat espresso. Gunakan mesin espresso untuk mendapatkan kopi yang sempurna. Pastikan kopi ditapis dengan rata supaya espresso diseduh dengan baik.</p>
-    <p><strong>Tip:</strong> Perhatikan proses espresso supaya tidak terlebih atau kurang seduh.</p>
-    <p><strong>Tip:</strong> Espresso yang sempurna adalah kunci kepada rasa Café Macchiato.</p>
-  </li>
-  <li>
-    <h3>Buihkan Susu:</h3>
-    <p>Seterusnya, fokus pada susu. Anda perlu menghasilkan buih susu yang lembut dan berkrim tetapi tidak terlalu pekat.</p>
-    <p><strong>Tip:</strong> Jangan terlalu panas susu — suhu ideal ialah sekitar 65°C (150°F).</p>
-    <p><strong>Tip:</strong> Semasa membuih susu, sasarkan tekstur yang licin dan berkrim dengan buih halus.</p>
-  </li>
-  <li>
-    <h3>Gabungkan Espresso dan Susu:</h3>
-    <p>Setelah espresso dan buih susu siap, tuang espresso ke dalam cawan dan tambah sedikit buih susu di atasnya.</p>
-    <p><strong>Tip:</strong> Kunci Café Macchiato adalah keseimbangan antara espresso yang kuat dan buih susu yang lembut.</p>
-  </li>
-  <li>
-    <h3>Sajikan Café Macchiato:</h3>
-    <p>Selepas penyediaan, sajikan minuman dengan cepat selagi masih panas dan buih susu masih segar.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua dan Trik Tahap 17 Cookingdom</h2>
+<h2>Kesalahan Biasa untuk Dielakkan di Cookingdom Level 17</h2>
 <ul>
-  <li>
-    <h3>Espresso yang Sempurna:</h3>
-    <p>Pastikan kopi ditapis rata dan perhatikan masa penyediaan untuk mendapatkan espresso yang kaya dan seimbang.</p>
-  </li>
-  <li>
-    <h3>Buihkan Susu dengan Sempurna:</h3>
-    <p>Buih susu harus licin, berkrim dan ringan — tidak terlalu pekat atau berbuih. Dengar bunyi stim; ia harus lembut dan tidak bising.</p>
-  </li>
-  <li>
-    <h3>Kawal Masa Anda:</h3>
-    <p>Tahap 17 memerlukan multitasking dan masa yang tepat. Semasa espresso disediakan, mulakan membuih susu untuk menjimatkan masa.</p>
-  </li>
-  <li>
-    <h3>Jangan Terlebih Buih Susu:</h3>
-    <p>Untuk Café Macchiato, hanya sedikit buih susu diperlukan supaya rasa kopi yang kuat tidak terganggu.</p>
-  </li>
-  <li>
-    <h3>Sajikan Segar dan Panas:</h3>
-    <p>Café Macchiato mesti disajikan segera selepas penyediaan untuk mengekalkan rasa dan tekstur terbaik.</p>
-  </li>
+  <li>Terlepas kelompok ceri kopi semasa penuaian pertama.</li>
+  <li>Tidak memproses semua ceri dalam mesin pembersihan.</li>
+  <li>Melupakan untuk menyapu awan semasa proses pengeringan atau tidak menunggu masa pengeringan selesai.</li>
+  <li>Tidak cukup mengacau semasa pemanggangan, menyebabkan biji kopi terbakar atau tidak dipanggang secara sekata.</li>
+  <li>Siru tidak mempunyai konsistensi yang betul atau terlupa menambah jus limau.</li>
+  <li>Susu tidak dipanaskan atau dipukul ke suhu atau konsistensi yang betul.</li>
+  <li>Kesalahan semasa menyusun, terutamanya jika sirap tidak dituangkan dalam bentuk hati atau hiasan tidak diletakkan dengan betul.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Dalam Tahap 17 Cookingdom, penyediaan Café Macchiato memerlukan perhatian terhadap detail dan masa yang tepat. Penyediaan espresso yang sempurna dan buih susu dengan tekstur ideal adalah kunci untuk menghasilkan minuman kopi klasik ini. Dengan perhatian yang teliti terhadap proses penyediaan, anda akan menyajikan Café Macchiato yang halus dan kaya yang pasti memuaskan pelanggan anda.</p>
-<p>Multitasking dengan cekap, pantau masa, dan sajikan minuman panas dan segar untuk mencapai penilaian tertinggi di Tahap 17 Cookingdom!</p>
 `,
   },
 
@@ -893,77 +1511,182 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Cookingdom Tahap 19</h2>
-<p>Di Tahap 19 Cookingdom, anda akan menyediakan pai labu yang manis dan lazat. Pencuci mulut klasik ini popular dalam pelbagai budaya, terutama pada musim luruh. Penyediaan pai labu memerlukan inti labu yang licin, doh yang sempurna dan pembakaran sehingga kekuningan. Penting untuk mengimbangi bahan, masa memasak dan penyajian untuk kepuasan pelanggan maksimum.</p>
-<p>Di tahap ini, anda perlu mengurus bahan dan langkah dengan teliti supaya doh dan inti menjadi sempurna. Mari lihat langkah demi langkah untuk menyediakan pai labu terbaik!</p>
+<h2>Selamat datang ke Cookingdom Tahap 19: Panduan Langkah demi Langkah untuk Kek Labu</h2>
+<p>
+  Selamat datang, penghias pencuci mulut! Dalam **Cookingdom Tahap 19**, misi anda adalah untuk menghasilkan **kek labu** yang sempurna. Tahap ini akan membimbing anda melalui mekanik pembakaran Cookingdom yang intuitif namun tepat dalam persekitaran tanpa pemasa yang santai, membolehkan anda menguasai setiap langkah manis.
+</p>
+<p>
+  Panduan ini menyediakan langkah-langkah yang tepat untuk menakluki Cookingdom Tahap 19, dengan memperincikan setiap bahan, tindakan, dan penempatan tepat yang diperlukan untuk menghasilkan kek labu yang memikat.
+</p>
 
-<h2 id="goal">Matlamat Cookingdom Tahap 19</h2>
+<h2>Bahan-bahan yang Anda Perlukan untuk Kek Labu Anda</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gandum</td>
+      <td>1 mangkuk</td>
+      <td>Serbuk putih, dimasukkan ke dalam pemproses makanan untuk kerak pai.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>1 bahagian</td>
+      <td>Dimasukkan dengan sudu dari cawan ke dalam pemproses makanan untuk kerak pai.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 bahagian</td>
+      <td>Dimasukkan dengan sudu dari cawan ke dalam pemproses makanan untuk kerak pai.</td>
+    </tr>
+    <tr>
+      <td>Air/Cecair</td>
+      <td>1 botol</td>
+      <td>Dimasukkan dari botol ke dalam pemproses makanan untuk kerak pai.</td>
+    </tr>
+    <tr>
+      <td>Rempah Perisa (Kayu Manis/Rempah Labu)</td>
+      <td>1 mangkuk</td>
+      <td>Serbuk coklat, dimasukkan ke dalam pemproses makanan untuk kerak pai.</td>
+    </tr>
+    <tr>
+      <td>Mentega</td>
+      <td>1 ketul</td>
+      <td>Dimasukkan dari dulang ke dalam pemproses makanan untuk kerak pai.</td>
+    </tr>
+    <tr>
+      <td>Krim</td>
+      <td>1 kotak</td>
+      <td>Asas kaya, dimasukkan ke dalam mangkuk pencampur untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Pure Labu/Irisan Labu</td>
+      <td>1 pinggan</td>
+      <td>Bahan utama berwarna oren, dimasukkan ke dalam mangkuk pencampur untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Rum</td>
+      <td>1 botol</td>
+      <td>Memberikan rasa unik, dimasukkan ke dalam mangkuk pencampur untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Susu</td>
+      <td>1 jug</td>
+      <td>Membantu memberikan konsistensi yang halus untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Rempah Parut (Buah Pala/Halia?)</td>
+      <td>1 mangkuk</td>
+      <td>Serpihan kuning/coklat halus, dimasukkan ke dalam mangkuk pencampur untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Telur</td>
+      <td>3 biji (dinyatakan)</td>
+      <td>Dikupas dari pinggan dan dimasukkan ke dalam mangkuk pencampur untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Krim Disebat</td>
+      <td>1 beg pemerah</td>
+      <td>Digunakan untuk hiasan selepas membakar.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kek Labu Sempurna: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Sediakan Doh Kerak Flaky</h3>
+<p>
+  Buka **pemproses makanan**. Masukkan **garam, gula, tepung, air, rempah**, dan **mentega**. Tutup penutup dengan rapat dan kisar hingga menjadi doh yang seragam.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Semak semula bahawa semua bahan kerak sudah ada dalam pemproses sebelum mengisar. Ikon hati akan muncul apabila doh sudah siap.
+</div>
+
+<h3>Langkah 2. Canai Doh</h3>
+<p>
+  Keluarkan **doh** yang disediakan dari pemproses makanan dan letakkannya di atas papan kayu. Gunakan **penggulung**, gulungkannya ke depan dan ke belakang sehingga doh menjadi bulat yang sempurna.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Teruskan menggulung sehingga kesan kilauan muncul, yang menunjukkan doh telah digulung dengan saiz dan ketebalan yang betul.
+</div>
+
+<h3>Langkah 3. Bentuk Kerak Pai dalam Loyang</h3>
+<p>
+  Seret **doh** yang telah digulung dari papan kayu dan letakkan dengan berhati-hati ke dalam **loyang pai** hitam, tekan perlahan untuk membentuk kerak.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Ikon hati akan muncul untuk mengesahkan kerak pai diletakkan dengan betul dan berbentuk sempurna.
+</div>
+
+<h3>Langkah 4. Bakar Kerak Secara Sementara (Blind Baking)</h3>
+<p>
+  Buka **pintu oven**. Letakkan **loyang pai** yang mengandungi kerak mentah ke dalam oven. Tutup pintu dan tunggu sehingga ia dibakar.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Langkah ini (sering dipanggil 'blind baking') perlu dilakukan sebelum menambah inti untuk mengelakkan kerak menjadi lembap.
+</div>
+
+<h3>Langkah 5. Sediakan Inti Labu Berkrim</h3>
+<p>
+  Sementara kerak dibakar, mula sediakan inti! Masukkan **krim, pure labu, rum, susu, rempah parut**, dan **telur** (dari pinggan ke dalam mangkuk) ke dalam mangkuk pencampur besar. Gunakan **penganjal** dan kacau dengan kuat sehingga semua bahan sebati dan menjadi halus.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Kacau hingga inti menjadi halus dan warna oren/coklat yang seragam. Ikon hati akan muncul apabila telur telah dimasukkan dan pencampuran selesai.
+</div>
+
+<h3>Langkah 6. Isikan Kerak dengan Inti</h3>
+<p>
+  Keluarkan **kerak** yang telah dibakar dari oven. Perlahan-lahan tuangkan **inti labu** yang disediakan dari mangkuk ke dalam kerak pai yang telah dibakar.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan inti dituangkan secara merata ke dalam kerak bagi memastikan pembakaran yang sekata.
+</div>
+
+<h3>Langkah 7. Bakar Kek Labu</h3>
+<p>
+  Buka semula **pintu oven**. Perlahan-lahan masukkan **loyang pai** yang berisi inti ke dalam oven. Tutup pintu dan tunggu proses pembakaran selesai.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Ikon hati akan muncul pada oven apabila kek labu telah dibakar sepenuhnya dan siap!
+</div>
+
+<h3>Langkah 8. Hias dengan Krim Disebat</h3>
+<p>
+  Keluarkan **kek** yang telah dibakar sepenuhnya dari oven. Letakkannya di atas **piring hidangan**. Pilih **beg pemerah** dan aplikasikan **6 titik krim disebat** secara rata di sepanjang tepi kek.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Ketik atau seret dengan tepat untuk mencipta titik yang teratur dan jaraknya sekata. Menyelesaikan langkah hiasan ini menandakan resipi siap!
+</div>
+
+<h2>Tips Teratas untuk Kejayaan di Cookingdom Tahap 19</h2>
 <ul>
-  <li><strong>Sediakan doh pai:</strong> Mula dengan doh yang bermentega dan rapuh. Campurkan bahan untuk doh, canai dan susun dalam acuan pai.</li>
-  <li><strong>Sediakan inti labu:</strong> Inti terdiri daripada puri labu, telur, gula dan rempah (kayu manis, pala, halia). Campuran mesti licin dan harum.</li>
-  <li><strong>Susun dan bakar pai:</strong> Tuang inti ke dalam doh dan bakar sehingga doh kekuningan dan inti masak.</li>
-  <li><strong>Hidang pai labu:</strong> Hidangkan pai yang hangat dan potong dengan kemas untuk kesan terbaik kepada pelanggan.</li>
+  <li>
+    ✔️ Ikut urutan langkah dengan teliti: **sediakan kerak, bakar kerak secara sementara, sediakan inti, isikan kerak, bakar kek yang diisi, dan hias**.
+  </li>
+  <li>
+    ✔️ Pastikan bahan-bahan **disatukan sepenuhnya** semasa peringkat doh dan inti untuk tekstur dan rasa yang terbaik.
+  </li>
+  <li>
+    ✔️ Pastikan **tepat** semasa menghias dengan krim disebat; titik yang kemas akan memberikan penampilan yang profesional dan skor yang lebih tinggi.
+  </li>
+  <li>
+    ✔️ Perhatikan **ikon hati**; ia adalah tanda kejayaan setiap langkah.
+  </li>
 </ul>
 
-<h2 id="steps">Langkah Penyediaan Pai Labu</h2>
-<ol>
-  <li>
-    <h3>Menyediakan doh:</h3>
-    <p>Campurkan tepung, mentega dan sedikit air sehingga menjadi doh. Uli dengan lembut dan canai hingga ketebalan rata.</p>
-    <p><strong>Tip:</strong> Doh tidak boleh terlalu melekit atau terlalu kering. Jika kering, tambah sedikit air; jika melekit, tambah sedikit tepung.</p>
-    <p>Susun doh dalam acuan dan potong lebihan doh supaya tepi kemas.</p>
-    <p><strong>Tip:</strong> Sejukkan doh dalam peti sejuk selama 15 minit sebelum dibakar untuk bentuk yang lebih baik.</p>
-  </li>
-  <li>
-    <h3>Menyediakan inti:</h3>
-    <p>Campurkan puri labu, telur, gula dan rempah. Campuran mesti sekata dan berkrim.</p>
-    <p><strong>Tip:</strong> Gunakan puri segar atau tin dan kacau rempah dengan teliti, laraskan kemanisan ikut citarasa.</p>
-    <p><strong>Tip:</strong> Pukul campuran dengan baik supaya tiada ketulan.</p>
-  </li>
-  <li>
-    <h3>Susun pai:</h3>
-    <p>Tuang inti ke dalam doh dan ratakan permukaan.</p>
-    <p><strong>Tip:</strong> Jangan isi terlalu penuh — tinggalkan ruang sedikit dari tepi.</p>
-  </li>
-  <li>
-    <h3>Membakar:</h3>
-    <p>Panaskan ketuhar kepada 190°C dan bakar sehingga doh kekuningan dan inti masak.</p>
-    <p><strong>Tip:</strong> Perhatikan pai: inti harus sedikit bergoyang, tidak retak, dan doh kekuningan.</p>
-    <p><strong>Tip:</strong> Jika tepi cepat keperangan, tutup dengan aluminium foil.</p>
-  </li>
-  <li>
-    <h3>Sejukkan dan hidang:</h3>
-    <p>Biar pai sejuk sedikit, kemudian potong dan hidangkan semasa hangat.</p>
-    <p><strong>Tip:</strong> Hiaskan dengan krim putar atau taburkan kayu manis untuk rasa dan penampilan yang lebih menarik.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Tips dan Cadangan</h2>
+<h2>Kesilapan Biasa untuk Dielakkan di Cookingdom Tahap 19</h2>
 <ul>
-  <li>
-    <h3>Doh yang sempurna:</h3>
-    <p>Pastikan doh sejuk dan jangan uli terlalu lama supaya doh tidak keras.</p>
-  </li>
-  <li>
-    <h3>Inti licin:</h3>
-    <p>Kacau puri dengan baik supaya tiada ketulan.</p>
-  </li>
-  <li>
-    <h3>Pembakaran:</h3>
-    <p>Perhatikan masa memasak supaya inti lembut dan tidak terlalu kering.</p>
-  </li>
-  <li>
-    <h3>Hiasan dan hidangan:</h3>
-    <p>Hias pai untuk kesan terbaik kepada pelanggan.</p>
-  </li>
-  <li>
-    <h3>Hidang panas:</h3>
-    <p>Pai yang hangat lebih disukai pelanggan.</p>
-  </li>
+  <li>Melupakan satu bahan dalam kerak atau inti kek labu.</li>
+  <li>Tidak mengadun doh atau inti dengan cukup baik.</li>
+  <li>Menuangkan inti labu ke dalam kerak *sebelum* bakar secara sementara.</li>
+  <li>Meletakkan titik krim disebat dengan cara yang tidak kemas atau tidak sekata.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Cookingdom Tahap 19 memerlukan perhatian terhadap setiap langkah dalam menyediakan pai labu — dari doh yang sempurna, inti yang enak, hingga pembakaran yang tepat. Ikuti panduan ini untuk memuaskan pelanggan dengan pencuci mulut yang lazat!</p>
 `,
   },
 
@@ -1006,105 +1729,218 @@ export const levels11to20 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 20 Cookingdom</h2>
-<p>Pada tahap 20 Cookingdom, anda akan menyediakan hidangan yang kaya rasa dan tradisional — ayam belanda panggang. Hidangan ini sangat popular terutamanya semasa musim perayaan dan majlis khas. Menyediakan ayam belanda panggang memerlukan keseimbangan antara perapan, penyediaan dan masa memanggang yang tepat. Pada tahap ini, anda perlu memastikan ayam belanda masak sempurna dan disajikan bersama hidangan sampingan yang sesuai.</p>
-<p>Untuk berjaya di tahap 20, anda perlu mengawal beberapa langkah serentak — perapan, penyiraman dan memanggang supaya ayam belanda menjadi rangup dan berjus. Dengan teknik yang betul, anda akan menyajikan ayam belanda yang emas keemasan dan memuaskan pelanggan untuk melangkah ke tahap seterusnya.</p>
+<h2>Selamat Datang ke Cookingdom Tahap 20: Panduan dan Tip Daging Kalkun Panggang</h2>
+<p>
+  Selamat datang, chef perayaan! Dalam **Cookingdom Tahap 20**, misi anda adalah untuk menyediakan **daging kalkun panggang** yang sempurna. Tahap ini memandu anda melalui mekanik memasak yang intuitif dan tepat dalam suasana santai tanpa tekanan masa, membolehkan anda menguasai hidangan perayaan yang besar ini.
+</p>
+<p>
+  Panduan ini memberikan langkah-langkah yang tepat untuk menaklukkan **Cookingdom Tahap 20**, terperinci dengan setiap bahan, tindakan, dan penempatan yang diperlukan untuk menghasilkan kalkun yang berwarna coklat keemasan dan lazat.
+</p>
 
-<h2 id="goal">Matlamat Tahap 20 Cookingdom</h2>
+<h2>Bahan-bahan yang Anda Perlukan untuk Daging Kalkun Panggang</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kalkun Beku</td>
+      <td>1</td>
+      <td>Dibalut dengan plastik pada papan pemotong.</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>1</td>
+      <td>Apple merah, perlu dicuci dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Bawang Merah</td>
+      <td>1</td>
+      <td>Bawang merah, perlu dicuci dan dipotong menjadi cincin.</td>
+    </tr>
+    <tr>
+      <td>Kembang Kol</td>
+      <td>1 kepala</td>
+      <td>Perlu dicuci dan dipotong menjadi bunga.</td>
+    </tr>
+    <tr>
+      <td>Tomato</td>
+      <td>3</td>
+      <td>Perlu dicuci dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Lemon</td>
+      <td>2</td>
+      <td>Lemon kuning, perlu dicuci dan dikisar kulitnya.</td>
+    </tr>
+    <tr>
+      <td>Peterseli</td>
+      <td>1 ikat</td>
+      <td>Perlu dicuci dan dipotong.</td>
+    </tr>
+    <tr>
+      <td>Tisu Kertas</td>
+      <td>1 gulung</td>
+      <td>Digunakan untuk mengeringkan kalkun dengan teliti.</td>
+    </tr>
+    <tr>
+      <td>Minyak Masak</td>
+      <td>1 botol</td>
+      <td>Digunakan untuk menumis bahan asas inti.</td>
+    </tr>
+    <tr>
+      <td>Wain Putih</td>
+      <td>1 botol</td>
+      <td>Ditambah ke dalam inti semasa memasak untuk memberikan rasa.</td>
+    </tr>
+    <tr>
+      <td>Garam</td>
+      <td>1</td>
+      <td>Perasa untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Merica</td>
+      <td>1</td>
+      <td>Perasa untuk inti.</td>
+    </tr>
+    <tr>
+      <td>Serbuk Rempah</td>
+      <td>1</td>
+      <td>Nampaknya serpihan cili, digunakan untuk perasa inti.</td>
+    </tr>
+    <tr>
+      <td>Hiasan</td>
+      <td>Pelbagai</td>
+      <td>Ranting peterseli, hirisan lemon, hirisan tomato, hirisan bawang, hirisan apple untuk hiasan akhir.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kehebatan Daging Kalkun Panggang: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Cairkan Kalkun</h3>
+<p>
+  Mulakan dengan mengeluarkan pembalut plastik dari **kalkun beku**. Buka **paip air** dan letakkan kalkun ke dalam **sink** yang dipenuhi air untuk mencairkannya. Setelah ia cair sepenuhnya (kesan ais hilang), pindahkan kalkun kembali ke **papan pemotong**.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Pastikan kalkun benar-benar cair dengan memastikan ia tenggelam sepenuhnya atau dibilas dengan teliti sehingga semua kesan ais hilang.
+</div>
+
+<h3>Langkah 2. Cuci Semua Bahan</h3>
+<p>
+  Pindahkan setiap bahan seperti **apple, bawang, kembang kol, tomato, lemon**, dan **peterseli** ke dalam **sink** dengan air yang mengalir untuk mencucinya dengan teliti.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Setiap bahan perlu dipindahkan secara individu ke dalam air mengalir untuk mencatatkan bahawa ia telah dicuci.
+</div>
+
+<h3>Langkah 3. Keringkan dan Letakkan Kalkun di atas Pinggan</h3>
+<p>
+  Pilih **tisu kertas** dan lapkan kalkun yang telah dicairkan di papan pemotong sehingga ia benar-benar kering. Setelah kering, letakkan kalkun di atas **pinggan oval** yang besar.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Pastikan kalkun benar-benar kering (tiada kesan air). Ikon hati akan muncul sebagai pengesahan kejayaan.
+</div>
+
+<h3>Langkah 4. Sediakan Semua Bahan dan Kisarkan Lemon</h3>
+<p>
+  Letakkan setiap bahan yang telah dicuci (apple, bawang, kembang kol, tomato, lemon, peterseli) di atas **papan pemotong** satu per satu. Gunakan **pisau** (atau parut untuk kulit lemon) untuk memotong, menghiris, atau mengisar mereka seperti yang diarahkan dalam permainan. Letakkan setiap bahan yang telah disediakan di atas pinggan kecil yang disediakan.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Ikut semua arahan pemotongan dan pengisaran dengan tepat. Ikon hati akan muncul untuk mengesahkan penyediaan bahan dengan betul.
+</div>
+
+<h3>Langkah 5. Masak Asas Inti</h3>
+<p>
+  Pindah ke kawasan dapur. Tuangkan **minyak** ke dalam kuali di **penyusun induksi** dan hidupkan. Masukkan semua bahan yang telah disediakan (apple yang dipotong, bawang yang dihiris, bunga kembang kol, peterseli yang dipotong, kulit lemon, tomato yang dihiris) ke dalam kuali panas. Kemudian, tambah **wain putih, garam, merica**, dan kandungan **serbuk rempah** (serpihan cili).
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Walaupun urutan bahan tidak selalu ketat, menambah bahan mengikut urutan yang ditunjukkan di skrin biasanya membantu mengelakkan masalah.
+</div>
+
+<h3>Langkah 6. Tumis dan Selesaikan Sos</h3>
+<p>
+  Gunakan **spatula** untuk mengacau bahan-bahan dalam kuali dengan kuat. Teruskan mengacau sehingga campuran menjadi sos oren-coklat yang pekat dan menyelerakan atau asas inti. Keluarkan kuali dari haba.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Kacau secara berterusan untuk mengelakkan hangus dan memastikan masakan rata. Ikon hati akan muncul apabila campuran siap.
+</div>
+
+<h3>Langkah 7. Sapukan Sos ke Kalkun</h3>
+<p>
+  Letakkan kalkun yang telah dipersiapkan semula ke atas **papan pemotong**. Gunakan **spatula** untuk mengambil **asas inti** yang telah dimasak dari kuali dan sapukan secara merata ke seluruh permukaan kalkun.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Pastikan seluruh permukaan kalkun disalut dengan sos. Kalkun akan berubah warna. Ikon hati akan muncul untuk mengesahkan kejayaan sapuan.
+</div>
+
+<h3>Langkah 8. Letakkan Kalkun yang Dicoat ke Pinggan (Sebelum Panggang)</h3>
+<p>
+  Pindahkan kalkun yang telah disalut sos dari papan pemotong ke atas **pinggan oval** yang besar.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Langkah mudah untuk mempersiapkan kalkun sebelum dibakar.
+</div>
+
+<h3>Langkah 9. Panggang Kalkun di dalam Oven</h3>
+<p>
+  Pindah ke kawasan oven. Buka **pintu oven**. Letakkan kalkun yang telah disalut di dalam oven dengan hati-hati. Tutup pintu oven. Sekarang, sesuaikan **knob oven** untuk menetapkan suhu dan masa pemanggangan mengikut arahan dalam permainan.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Menetapkan suhu dan masa dengan betul adalah sangat penting untuk kalkun yang dipanggang dengan sempurna. Ikon hati akan muncul untuk pengesahan. Tunggu bunyi atau isyarat visual dari oven.
+</div>
+
+<h3>Langkah 10. Sediakan Pinggan Hiasan</h3>
+<p>
+  Sementara kalkun dipanggang (atau selepas ia siap), pindah ke kawasan penyediaan pinggan. Ambil bahan **hiasan** yang pelbagai (ranting peterseli, hirisan lemon, hirisan tomato, hirisan bawang, hirisan apple) dan susun di pinggan **penganjur yang besar**.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Susun hiasan dengan kemas dan menarik mengikut contoh dalam permainan.
+</div>
+
+<h3>Langkah 11. Penyajian Akhir</h3>
+<p>
+  Apabila loceng oven berbunyi dan kalkun anda telah dipanggang dengan indah (dengan perubahan visual), buka pintu oven. Pindahkan kalkun yang telah dipanggang (masih di atas pinggan oval) ke tengah **pinggan penyajian** yang telah dihias.
+</p>
+<div class="tip">
+  💡 <strong>Petua Pro:</strong> Letakkan kalkun secara simetri di tengah pinggan yang telah dihias. Animasi kilauan menandakan kejayaan hidangan yang menakjubkan!
+</div>
+
+<h2>Tips Terbaik untuk Kejayaan di Cookingdom Tahap 20</h2>
 <ul>
   <li>
-    <strong>Sediakan ayam belanda:</strong> Bersihkan ayam belanda, lumurkan dengan perapan dan isikan dengan herba serta rempah untuk rasa yang mendalam.
+    ✔️ Sentiasa ikuti **petunjuk visual dan pop-up hati**; ia mengesahkan setiap tindakan berjaya.
   </li>
   <li>
-    <strong>Memanggang ayam belanda:</strong> Pastikan suhu dan masa memanggang tepat supaya ayam masak sempurna dan berkulit rangup.
+    ✔️ Pastikan semua bahan **dibasuh dan disediakan dengan betul**
+    (dipotong, dihiris, dikisar) sebelum beralih ke langkah memasak.
   </li>
   <li>
-    <strong>Menyiram ayam belanda:</strong> Siram ayam dengan jus sendiri atau campuran mentega cair supaya ayam kekal berjus.
+    ✔️ **Salutkan kalkun secara rata** dengan asas inti untuk panggang yang sekata dan penuh rasa.
   </li>
   <li>
-    <strong>Sajikan ayam belanda:</strong> Setelah siap, potong ayam dan hidangkan dengan cepat untuk mengekalkan keenakan.
+    ✔️ Berikan perhatian penuh pada **pengaturan suhu dan masa** oven yang betul.
+  </li>
+  <li>
+    ✔️ **Penyusunan hiasan yang kemas** sangat penting dan akan mempengaruhi markah penyajian akhir.
   </li>
 </ul>
 
-<h2 id="steps">Langkah Menyediakan Ayam Belanda Panggang di Cookingdom Tahap 20</h2>
-<ol>
-  <li>
-    <h3>Penyediaan Ayam Belanda:</h3>
-    <p>Bersihkan ayam, buang isi perut dan keringkan dengan tuala kertas supaya kulit mudah rangup.</p>
-    <p><strong>Petua:</strong> Sapukan minyak zaitun, bawang putih, garam dan lada. Tambahkan herba segar seperti rosemary, thyme dan sage.</p>
-    <p><strong>Petua:</strong> Isi ayam dengan bawang, bawang putih dan buah sitrus (limau atau oren) untuk aroma dan kelembapan.</p>
-  </li>
-  <li>
-    <h3>Perapan Ayam:</h3>
-    <p>Lumurkan campuran rempah ke seluruh bahagian luar dan dalam ayam. Campuran popular termasuk rosemary, thyme, sage, garam, lada dan bawang putih.</p>
-    <p><strong>Petua:</strong> Jangan lupa lumurkan bahagian dalam ayam untuk perasa meresap lebih baik.</p>
-    <p><strong>Petua:</strong> Jika ada masa, perap ayam dalam peti sejuk beberapa jam atau semalaman.</p>
-  </li>
-  <li>
-    <h3>Memanggang Ayam:</h3>
-    <p>Panaskan ketuhar pada 175°C (350°F). Letakkan ayam di atas rak atau dulang dengan kertas aluminium untuk mengumpul jus.</p>
-    <p><strong>Petua:</strong> Tutup ayam dengan kertas aluminium pada awal memanggang untuk mengekalkan kelembapan.</p>
-    <p><strong>Petua:</strong> Panggang selama kira-kira 13–15 minit setiap 450 gram sehingga suhu dalam ayam mencapai 75°C (165°F).</p>
-    <p><strong>Petua:</strong> Jika kulit terlalu cepat menjadi gelap, kurangkan suhu ketuhar.</p>
-  </li>
-  <li>
-    <h3>Menyiram Ayam:</h3>
-    <p>Setiap 30–45 minit, siram ayam dengan jus panggang sendiri atau campuran mentega cair dan stok ayam.</p>
-    <p><strong>Petua:</strong> Elakkan membuka ketuhar terlalu kerap supaya suhu tetap stabil.</p>
-  </li>
-  <li>
-    <h3>Periksa Kesempurnaan Memasak:</h3>
-    <p>Periksa suhu di bahagian paling tebal kaki tanpa menyentuh tulang.</p>
-    <p><strong>Petua:</strong> Apabila mencapai 75°C (165°F), ayam sudah masak dan boleh dikeluarkan.</p>
-  </li>
-  <li>
-    <h3>Rehatkan Ayam:</h3>
-    <p>Biarkan ayam berehat selama 15–20 minit supaya jus meresap rata.</p>
-    <p><strong>Petua:</strong> Tutup ayam dengan kertas aluminium untuk mengekalkan kehangatan.</p>
-  </li>
-  <li>
-    <h3>Potong Ayam:</h3>
-    <p>Potong ayam menggunakan pisau tajam, bahagikan kepada bahagian dada, peha dan sayap.</p>
-    <p><strong>Petua:</strong> Potong melawan arah serat supaya lebih lembut.</p>
-  </li>
-  <li>
-    <h3>Sajikan Ayam:</h3>
-    <p>Sajikan bersama lauk tradisional seperti kentang lecek, inti, kuah panggang dan sos kranberi.</p>
-    <p><strong>Petua:</strong> Siram ayam dengan kuah untuk menambah rasa.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua dan Tips untuk Tahap 20 Cookingdom</h2>
+<h2>Kesilapan Biasa yang Perlu Dielakkan di Cookingdom Tahap 20</h2>
 <ul>
-  <li>
-    <h3>Suhu Memanggang yang Sesuai:</h3>
-    <p>Jangan gunakan suhu terlalu tinggi agar kulit tidak terbakar dan ayam masak sempurna.</p>
-    <p><strong>Petua:</strong> Tutup ayam dengan kertas aluminium pada dua pertiga masa memasak, buka untuk kulit rangup di akhir.</p>
-  </li>
-  <li>
-    <h3>Jangan Memasak Berlebihan:</h3>
-    <p>Ayam yang terlalu kering kurang sedap. Gunakan termometer untuk memeriksa suhu tepat.</p>
-    <p><strong>Petua:</strong> Untuk ayam kecil, masa memasak mungkin lebih singkat. Perhatikan dengan teliti.</p>
-  </li>
-  <li>
-    <h3>Sering Menyiram Ayam:</h3>
-    <p>Ini memastikan ayam kekal lembap dan berperisa.</p>
-    <p><strong>Petua:</strong> Jangan abaikan proses menyiram untuk hasil terbaik.</p>
-  </li>
-  <li>
-    <h3>Rehatkan Ayam Setelah Memanggang:</h3>
-    <p>Menjadikan daging lebih lembut dan berjus.</p>
-    <p><strong>Petua:</strong> Simpan ayam dalam keadaan hangat dengan menutupnya menggunakan kertas aluminium.</p>
-  </li>
-  <li>
-    <h3>Potongan yang Kemasan:</h3>
-    <p>Memudahkan penyajian dan hidangan.</p>
-    <p><strong>Petua:</strong> Potong melawan serat daging untuk kelembutan.</p>
-  </li>
+  <li>Melangkau langkah pencairan atau pengeringan kalkun.</li>
+  <li>Mengetik atau memotong sebarang sayur-sayuran atau buah-buahan dengan salah.</li>
+  <li>Menjadi sos inti semasa menumis di dalam kuali.</li>
+  <li>Tidak menyalutkan kalkun dengan sos dengan sekata.</li>
+  <li>Menyalahkan masa atau suhu oven yang salah.</li>
+  <li>Menempatkan hiasan dengan tidak kemas atau salah pada pinggan akhir.</li>
+  <li>Mencuba untuk meletakkan kalkun pada pinggan akhir **sebelum** menambah hiasan.</li>
 </ul>
 
-<h2 id="summary">Ringkasan</h2>
-<p>Tahap 20 Cookingdom menguji kemahiran memasak anda dengan penyediaan ayam belanda panggang yang sempurna. Dari penyediaan, perapan hingga memanggang dan menyiram, setiap langkah penting untuk menghasilkan hidangan yang berjus dan lazat. Setelah menguasai tahap ini, anda bersedia menghadapi resipi yang lebih kompleks pada tahap-tahap berikutnya!</p>
   `,
   },
 ]

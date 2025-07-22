@@ -37,97 +37,187 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Keseluruhan Tahap 21 Cookingdom</h2>
-<p>Tahap 21 dalam Cookingdom menampilkan penyediaan minuman yang popular dan menyegarkan — Bobba Milk Tea. Minuman Taiwan yang dikenali juga sebagai bubble tea ini terdiri daripada teh, susu dan mutiara tapioka yang kenyal. Objektif tahap ini ialah untuk mengimbangi rasa teh, susu dan gula serta menyediakan mutiara tapioka yang sempurna untuk menghasilkan minuman yang kaya dan sedap.</p>
-<p>Kunci kejayaan di tahap 21 adalah ketepatan dalam menyeduh teh, memasak tapioka dan menyediakan minuman dengan cepat. Mari kita lihat langkah dan tip yang akan membantu anda menghasilkan Bobba Milk Tea yang sempurna dan memperoleh penilaian tertinggi!</p>
+<h2>Selamat datang ke Cookingdom Level 21: Panduan & Panduan Boba Milk Tea</h2>
+<p>
+  Selamat datang, peminat teh gelembung! Di **Cookingdom Level 21**, misi anda adalah untuk menyediakan **Boba Milk Tea** yang sempurna. Level ini membimbing anda melalui mekanik memasak Cookingdom yang intuitif namun tepat dalam suasana yang santai tanpa tekanan masa, membolehkan anda menguasai minuman yang popular ini.
+</p>
+<p>
+  Panduan ini memberikan langkah-langkah tepat untuk menakluk Cookingdom Level 21, menerangkan setiap bahan, tindakan, dan penempatan yang diperlukan untuk membuat teh boba yang menyegarkan.
+</p>
 
-<h2 id="goal">Matlamat Tahap 21 Cookingdom</h2>
+<h2>Bahan-bahan yang Anda Perlukan untuk Boba Milk Tea</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Daun Teh Hijau Segar</td>
+      <td>Pelbagai</td>
+      <td>Disusun daripada tumbuhan teh dalam pasu.</td>
+    </tr>
+    <tr>
+      <td>Daun Teh Kering/Coklat</td>
+      <td>Pelbagai</td>
+      <td>Perlu dibuang semasa proses penyusunan.</td>
+    </tr>
+    <tr>
+      <td>AIR</td>
+      <td>1 Jug</td>
+      <td>Digunakan untuk membuat sirap dan merebus mutiara tapioka.</td>
+    </tr>
+    <tr>
+      <td>Gula Perang</td>
+      <td>1 Mangkuk</td>
+      <td>Pentings untuk membuat sirap yang kaya.</td>
+    </tr>
+    <tr>
+      <td>Bola Tepung Tapioka (Sedia Dimakan)</td>
+      <td>1 Mangkuk</td>
+      <td>Bola putih, dimasak terlebih dahulu dalam sirap.</td>
+    </tr>
+    <tr>
+      <td>Adunan Tapioka Masak</td>
+      <td>1 Mangkuk</td>
+      <td>Satu pusaran krim, digunakan untuk membuat mutiara tapioka segar.</td>
+    </tr>
+    <tr>
+      <td>Tepung Tapioka</td>
+      <td>Taburkan</td>
+      <td>Digunakan untuk mengelakkan perekat semasa menggulung doh mutiara segar.</td>
+    </tr>
+    <tr>
+      <td>Susu</td>
+      <td>1 Karton</td>
+      <td>Asas krim untuk teh susu.</td>
+    </tr>
+    <tr>
+      <td>Daun Teh Hitam Kering</td>
+      <td>1 Jar</td>
+      <td>Digunakan untuk menyeduh asas teh susu.</td>
+    </tr>
+    <tr>
+      <td>Mutiara Tapioka yang Dimakan dengan Sirap</td>
+      <td>1 Mangkuk</td>
+      <td>Hasil daripada memasak mutiara, disajikan sebagai topping.</td>
+    </tr>
+    <tr>
+      <td>Kiub Ais</td>
+      <td>1 Mangkuk</td>
+      <td>Ditambah untuk menyejukkan minuman siap.</td>
+    </tr>
+    <tr>
+      <td>Kiub Jelly Hijau</td>
+      <td>1 Piring</td>
+      <td>Topping berwarna-warni dan tekstural.</td>
+    </tr>
+    <tr>
+      <td>Kiub Mango/Puding Kuning</td>
+      <td>1 Piring</td>
+      <td>Topping lazat dan menarik secara visual.</td>
+    </tr>
+    <tr>
+      <td>Krim Putar/Topping Foam</td>
+      <td>1 Hidangan</td>
+      <td>Swirl merah dengan ceri dan taburan untuk bahagian atas.</td>
+    </tr>
+    <tr>
+      <td>Skewer Dango</td>
+      <td>1</td>
+      <td>Tiga bola manis di atas batang, disajikan sebagai hiasan.</td>
+    </tr>
+    <tr>
+      <td>Cawan Plastik</td>
+      <td>1</td>
+      <td>Kontainer untuk boba milk tea siap.</td>
+    </tr>
+    <tr>
+      <td>Straw Boba</td>
+      <td>1</td>
+      <td>Straw lebar bergaris merah jambu, sesuai untuk boba.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Masteri Boba Milk Tea: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Menyusun Daun Teh</h3>
+<p>
+  Lihat tiga tumbuhan teh dalam pasu. Seret **daun teh hijau yang segar dan cerah** ke dalam bakul kiri (bertanda dengan tanda semak hijau). Seret **daun teh yang layu, coklat, atau berlubang** ke dalam bakul kanan (bertanda dengan silang merah).
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Bekerja dengan cepat tetapi tepat semasa menyusun. Ikon hati akan muncul apabila semua daun disusun dengan betul.
+</div>
+
+<h3>Langkah 2. Menyediakan Sirap Gula Perang</h3>
+<p>
+  Tuangkan **air** dari jug ke dalam periuk yang diletakkan di atas pemanas. Gunakan **senduk** untuk mengambil **gula perang** dari mangkuk dan tambahkannya ke dalam periuk. Hidupkan pemanas (ini ditunjukkan oleh permulaan pemasa) dan tunggu sehingga campuran dipanaskan dan mengurang menjadi sirap pekat.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Tunggu dengan sabar sehingga pemasa pada pemanas selesai, memastikan sirap mencapai konsistensi yang betul.
+</div>
+
+<h3>Langkah 3. Memasak Mutiara Tapioka Awal</h3>
+<p>
+  Tambahkan **bola tepung tapioka putih** dari mangkuk ke dalam sirap gula perang yang sedang mendidih. Kacau dengan **senduk**. Teruskan memasak sehingga mutiara menjadi warna coklat yang kaya dan dimasak sepenuhnya (dilihat oleh pemasa yang selesai dan perubahan visual). Ambil mutiara yang telah dimasak dan sirapnya ke dalam mangkuk kecil yang berasingan.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Kacau dengan terus-menerus untuk memastikan mutiara dimasak dengan sekata. Ikon hati akan muncul apabila ia selesai.
+</div>
+
+<h3>Langkah 4. Membuat Mutiara Tapioka Segar</h3>
+<p>
+  Ambil **adunan tapioka yang telah dimasak** (pusaran krim) dan letakkan di atas papan pemotong. Taburkan **tepung tapioka** di atasnya untuk mengelakkan ia melekat. Gunakan **penggulung** untuk meratakan adunan menjadi segi empat panjang. Gunakan **pisau** untuk memotong segi empat panjang menjadi kiub kecil. Akhirnya, seret jari anda ke atas kiub untuk menggulungnya menjadi bola kecil yang sempurna.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Gulung doh dengan sekata untuk menghasilkan mutiara yang seragam. Pastikan setiap kiub digulung menjadi bola.
+</div>
+
+<h3>Langkah 5. Memasak Mutiara Tapioka Segar</h3>
+<p>
+  Tuangkan **air** ke dalam periuk di atas pemanas dan biarkan mendidih. Tambahkan **bola tapioka yang baru digulung** ke dalam air yang sedang mendidih. Kacau. Tunggu sehingga ia dimasak (pemasa akan selesai). Gunakan **senduk berlubang** untuk mengangkat mutiara yang telah dimasak dan letakkan mereka ke dalam mangkuk berisi sirap gula perang yang disediakan sebelumnya.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Pastikan air mendidih sebelum menambah mutiara. Ikon hati akan muncul apabila mereka dipindahkan dengan betul.
+</div>
+
+<h3>Langkah 6. Menyeduh Infusi Teh Susu</h3>
+<p>
+  Tuangkan **susu** dari karton ke dalam periuk yang terletak di atas pemanas. Letakkan **penapis logam** di atas periuk. Tambahkan **daun teh hitam kering** dari jar ke dalam penapis. Juga tambahkan **daun teh hijau segar** yang telah disusun ke dalam penapis. Hidupkan pemanas (pemasa akan bermula) dan biarkan teh diseduh dalam susu. Setelah selesai, keluarkan penapis dan gunakan **senduk** untuk memindahkan teh susu yang telah diseduh ke dalam mangkuk kosong.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Tunggu sehingga pemasa penyeduhan selesai sepenuhnya. Ikon hati akan menandakan penyeduhan yang berjaya.
+</div>
+
+<h3>Langkah 7. Mengumpulkan Boba Milk Tea</h3>
+<p>
+  Letakkan **cawan plastik** kosong di kawasan kerja. Tuangkan **teh susu** yang telah diseduh ke dalam cawan. Gunakan **senduk berlubang** untuk menambah sesudu **mutiara tapioka yang dimasak dalam sirap gula perang**. Tambahkan **kiub ais** dari mangkuk. Tambahkan **kiub jelly hijau** dari piring. Tambahkan **kiub mango/puding kuning** dari piring. Tambahkan **krim putar/penutup buih**. Letakkan **skewer dango** sebagai hiasan di atas. Akhirnya, masukkan **straw boba** yang lebar dan bergaris merah jambu.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Ikuti urutan tepat penambahan bahan. Pastikan semua komponen dimasukkan untuk minuman yang lengkap.
+</div>
+
+<h2>Petua Terbaik untuk Kejayaan Cookingdom Level 21</h2>
 <ul>
-    <li>
-        <strong>Masak mutiara bobba:</strong> Langkah pertama ialah memasak mutiara tapioka. Mutiara perlu dimasak sehingga lembut dan kenyal di dalam, dengan tekstur sedikit liat di luar.
-    </li>
-    <li>
-        <strong>Seduh teh:</strong> Langkah seterusnya ialah menyediakan teh yang pekat. Biasanya menggunakan teh hitam, tetapi boleh juga teh hijau atau oolong mengikut citarasa.
-    </li>
-    <li>
-        <strong>Sediakan susu:</strong> Tambahkan susu atau alternatif susu supaya minuman menjadi berkrim dan lembut. Imbangan susu dan teh sangat penting.
-    </li>
-    <li>
-        <strong>Sediakan dan hidangkan minuman:</strong> Satukan mutiara yang telah dimasak, teh yang diseduh dan susu ke dalam gelas, hidangkan dengan sejuk bersama straw lebar untuk kemudahan minum mutiara.
-    </li>
+  <li>✔️ Perhatikan **pemasa** pada pemanas untuk semua langkah memasak, dari sirap hingga mutiara dan penyeduhan teh.</li>
+  <li>✔️ **Ketepatan** adalah sangat penting, terutamanya semasa menyusun daun teh dan semasa membuat mutiara tapioka segar (baik memotong dan menggulungnya).</li>
+  <li>✔️ Ikuti **urutan tertentu** dengan tepat semasa mengumpul minuman akhir; lapisan adalah penting untuk rasa dan persembahan.</li>
+  <li>✔️ Setiap tahap kejayaan utama akan disahkan dengan **munculnya ikon hati**, jadi perhatikan petunjuk ini!</li>
 </ul>
 
-<h2 id="steps">Langkah-Langkah Membuat Bobba Milk Tea di Cookingdom Tahap 21</h2>
-<ol>
-    <li>
-        <h3>Masak mutiara bobba:</h3>
-        <p>Mula dengan memasak mutiara tapioka. Didihkan air dalam periuk besar dan masukkan mutiara sambil kacau perlahan supaya tidak melekat.</p>
-        <p><strong>Tip:</strong> Masak mengikut arahan pembungkusan (biasanya 20-30 minit). Mutiara perlu dimasak sepenuhnya tapi masih kenyal. Masak terlalu lama akan menjadikan mutiara terlalu lembut, kurang masak pula keras di dalam.</p>
-        <p><strong>Tip:</strong> Setelah masak, bilas mutiara dengan air sejuk untuk hentikan proses memasak dan elak daripada melekat.</p>
-    </li>
-    <li>
-        <h3>Seduh teh:</h3>
-        <p>Semasa mutiara dimasak, seduh teh yang pekat. Gunakan teh hitam atau pilihan lain mengikut citarasa. Seduh selama 3-5 minit untuk rasa yang kaya.</p>
-        <p><strong>Tip:</strong> Seduh sedikit lebih pekat supaya rasa tidak hilang selepas ditambah susu dan gula.</p>
-        <p><strong>Tip:</strong> Untuk rasa unik, boleh guna teh jasmine atau oolong, tetapi teh hitam adalah tradisional.</p>
-    </li>
-    <li>
-        <h3>Sediakan susu:</h3>
-        <p>Tambahkan susu pilihan anda — susu penuh krim, susu badam atau susu berasaskan tumbuhan lain.</p>
-        <p><strong>Tip:</strong> Untuk rasa berkrim, gunakan susu penuh krim atau santan. Untuk minuman ringan, gunakan susu tanpa lemak atau susu oat.</p>
-        <p><strong>Tip:</strong> Tambah susu sedikit demi sedikit dan rasa supaya dapat imbangan yang sempurna antara teh dan susu.</p>
-    </li>
-    <li>
-        <h3>Tambah pemanis:</h3>
-        <p>Masukkan gula atau pemanis lain dan kacau rata. Jumlah gula boleh diubah ikut citarasa supaya menyeimbangkan kepahitan teh.</p>
-        <p><strong>Tip:</strong> Guna madu, sirap atau pemanis lain mengikut keperluan. Laraskan kemanisan mengikut selera pelanggan.</p>
-    </li>
-    <li>
-        <h3>Satukan minuman:</h3>
-        <p>Dalam gelas, letakkan mutiara yang dimasak dahulu, kemudian tambah ais.</p>
-        <p><strong>Tip:</strong> Gunakan ais yang cukup supaya minuman kekal sejuk tapi tidak terlalu cair sehingga merosakkan rasa.</p>
-        <p>Tuang teh yang dicampur susu ke dalam gelas.</p>
-        <p><strong>Tip:</strong> Untuk hiasan, boleh tambah sedikit sirap atau madu di atasnya.</p>
-    </li>
-    <li>
-        <h3>Hidangkan Bobba Milk Tea:</h3>
-        <p>Hidangkan dengan straw lebar supaya mudah minum mutiara. Pastikan kacau sebelum diminum.</p>
-        <p><strong>Tip:</strong> Hiaskan dengan tambahan mutiara atau buah-buahan seperti hirisan lemon atau daun pudina.</p>
-    </li>
-</ol>
-
-<h2 id="tips">Tip dan Cadangan untuk Cookingdom Tahap 21</h2>
+<h2>Kesalahan Biasa yang Perlu Dielakkan dalam Cookingdom Level 21</h2>
 <ul>
-    <li>
-        <h3>Mutiara bobba yang sempurna:</h3>
-        <p>Tekstur mutiara sangat penting. Mesti lembut dan kenyal dengan lapisan luar yang sedikit liat.</p>
-        <p><strong>Tip:</strong> Jangan masak terlalu lama dan hidangkan segar supaya tidak melekat.</p>
-    </li>
-    <li>
-        <h3>Imbangan susu dan teh:</h3>
-        <p>Jika terlalu banyak susu, rasa teh akan hilang, jika kurang susu, minuman jadi pahit.</p>
-        <p><strong>Tip:</strong> Cuba rasa minuman dan laraskan supaya seimbang.</p>
-    </li>
-    <li>
-        <h3>Kemanisan:</h3>
-        <p>Kemanisan perlu melengkapkan rasa dan bukan mendominasi.</p>
-        <p><strong>Tip:</strong> Rasa dahulu dan laraskan kemanisan sebelum hidang.</p>
-    </li>
-    <li>
-        <h3>Sejukkan teh dan mutiara:</h3>
-        <p>Minuman paling sedap apabila disajikan sejuk.</p>
-        <p><strong>Tip:</strong> Simpan teh dalam peti sejuk dan mutiara yang sudah dimasak juga sejukkan sebelum hidang.</p>
-    </li>
-    <li>
-        <h3>Variasi kreatif:</h3>
-        <p>Boleh tambah topping seperti kacang merah, buah-buahan atau puding.</p>
-        <p><strong>Tip:</strong> Cuba guna pelbagai jenis teh untuk rasa yang unik.</p>
-    </li>
+  <li>Salah menyusun daun teh (contohnya, mencampurkan daun yang baik dan buruk).</li>
+  <li>Gula perang terbakar atau mutiara tapioka tidak dimasak dengan sempurna.</li>
+  <li>Saiz mutiara tapioka segar yang tidak seragam, yang boleh menjejaskan tekstur.</li>
+  <li>Lupa satu bahan atau menambah topping dalam urutan yang salah semasa pengumpulan.</li>
+  <li>Tidak menunggu pemasa untuk setiap komponen memasak atau penyeduhan selesai.</li>
 </ul>
 
-<h2 id="summary">Kesimpulan</h2>
-<p>Menyediakan Bobba Milk Tea yang sempurna di tahap 21 memerlukan ketelitian memasak mutiara tapioka, menyeduh teh dan melaraskan susu serta kemanisan dengan tepat. Pastikan tekstur mutiara tepat dan kombinasi susu-teh seimbang untuk menghasilkan minuman yang lazat.</p>
-<p>Dengan persediaan yang betul, bahan segar dan kreativiti, anda boleh memukau pelanggan dan berjaya menamatkan tahap 21 dalam Cookingdom!</p>
 `,
   },
 
@@ -170,71 +260,137 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Umum Tahap 22 dalam Cookingdom</h2>
-<p>Tahap 22 dalam permainan Cookingdom memperkenalkan hidangan menyegarkan dan sihat — Smoothie Mudah. Ia adalah pilihan ringan yang sempurna untuk pelanggan yang ingin menikmati minuman buah yang lazat. Matlamat anda adalah untuk menyediakannya dengan cepat dan tepat.</p>
-<p>Cabaran utama adalah memilih kombinasi buah yang sesuai, mengisar dengan sempurna, dan mencapai tekstur yang ideal. Sama ada anda menyediakan smoothie tropika berasaskan mangga atau campuran beri, tekstur dan rasa yang tepat adalah kunci kejayaan.</p>
+<h2>Selamat datang ke Cookingdom Tahap 22: Panduan & Langkah-langkah Smoothie Mudah</h2>
+<p>
+  Selamat datang, maestro smoothie! Di **Cookingdom Tahap 22**, misi anda adalah untuk menyediakan **Smoothie Mudah** yang sempurna untuk tiga pelanggan yang berbeza. Tahap ini membimbing anda melalui mekanik memasak Cookingdom yang intuitif namun tepat dalam suasana santai tanpa had masa, membolehkan anda menguasai setiap pencampuran yang menyegarkan.
+</p>
+<p>
+  Panduan ini menyediakan langkah-langkah yang tepat untuk menaklukkan Cookingdom Tahap 22, dengan memperincikan setiap bahan, tindakan, dan penempatan yang tepat yang diperlukan untuk sensasi smoothie.
+</p>
 
-<h2 id="goal">Objektif Tahap 22</h2>
+<h2>Bahan yang Anda Perlukan untuk Smoothie Anda</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Potongan Avokado</td>
+      <td>1 bahagian</td>
+      <td>Digunakan untuk smoothie pertama (hijau). Diperoleh dari tahap pemotongan awal.</td>
+    </tr>
+    <tr>
+      <td>Blueberry</td>
+      <td>1 bahagian</td>
+      <td>Digunakan untuk smoothie kedua (ungu). Diperoleh dari tahap pemotongan.</td>
+    </tr>
+    <tr>
+      <td>Anggur</td>
+      <td>1 bahagian</td>
+      <td>Digunakan untuk smoothie kedua (ungu). Diperoleh dari tahap pemotongan.</td>
+    </tr>
+    <tr>
+      <td>Potongan Tembikai</td>
+      <td>1 bahagian</td>
+      <td>Digunakan untuk smoothie ketiga (tropika). Diperoleh dari tahap pemotongan.</td>
+    </tr>
+    <tr>
+      <td>Potongan Oren</td>
+      <td>1 bahagian</td>
+      <td>Digunakan untuk smoothie ketiga (tropika) dan sebagai hiasan. Diperoleh dari tahap pemotongan.</td>
+    </tr>
+    <tr>
+      <td>Kiub Gula</td>
+      <td>Secukupnya</td>
+      <td>Ditambah pada smoothie ungu dan tropika.</td>
+    </tr>
+    <tr>
+      <td>Madu</td>
+      <td>Secukupnya</td>
+      <td>Ditambah pada smoothie ungu dan tropika (ditambah menggunakan sudu).</td>
+    </tr>
+    <tr>
+      <td>Susu</td>
+      <td>Secukupnya</td>
+      <td>Asas cecair untuk smoothie ketiga (tropika).</td>
+    </tr>
+    <tr>
+      <td>Kiub Ais</td>
+      <td>Secukupnya</td>
+      <td>Ditambah pada smoothie ungu dan tropika *selepas* diblend.</td>
+    </tr>
+    <tr>
+      <td>Straw Bergaris</td>
+      <td>1</td>
+      <td>Hiasan untuk smoothie ketiga (tropika).</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Kepakaran Smoothie Mudah: Panduan Langkah demi Langkah</h2>
+
+<h3>Langkah 1. Potong Buah-buahan yang Diperlukan</h3>
+<p>
+  Anda akan memulakan dengan permainan mini memotong buah. Luncurkan jari anda di skrin untuk memotong buah yang datang: **Tembikai, Oren, Avokado, Blueberry, dan Anggur**. Pastikan untuk memotong jumlah yang tepat bagi setiap buah yang ditunjukkan oleh kaunter di atas skrin (contohnya, "x3 Tembikai," "x4 Oren," dan sebagainya).
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Cuba untuk mendapatkan kombo dengan memotong beberapa buah dalam satu luncuran untuk kecekapan. Kaunter yang diperlukan akan berkurangan apabila anda memotong buah.
+</div>
+
+<h3>Langkah 2. Buat Smoothie Avokado (Pelanggan 1)</h3>
+<p>
+  Pelanggan pertama (seekor capybara yang memakai topi merah jambu) mahu **smoothie hijau**. Seret gelas yang mengandungi **potongan avokado** ke dalam pengisar. Tutup penutupnya, kemudian tekan butang kuasa untuk membancuh. (Ikon hati menunjukkan bancuhan berjaya). Buka penutup dan tuangkan smoothie yang telah dibancuh ke dalam gelas kosong di kaunter. Akhir sekali, seret smoothie hijau yang telah siap ke pelanggan.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Warna hijau pada gelembung percakapan pelanggan adalah petunjuk bahawa Avokado adalah bahan utama yang diperlukan.
+</div>
+
+<h3>Langkah 3. Buat Smoothie Berry & Madu (Pelanggan 2) 💜🍯🧊</h3>
+<p>
+  Pelanggan kedua (seorang capybara dengan topi straw) meminta **smoothie ungu** dengan **madu** dan **ais**. Seret balang **kiub gula**, kemudian **madu** (menggunakan sudu), diikuti dengan gelas **blueberry**, dan akhirnya gelas **anggur** ke dalam pengisar. Blend. Tuangkan smoothie ke dalam gelas kosong. Seret bekas **kiub ais** ke gelas untuk menambah ais. Hidangkan smoothie ungu kepada pelanggan ini.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Perhatikan dengan teliti ikon dalam gelembung percakapan pelanggan: warna ungu untuk buah beri, ikon balang madu, dan ikon ais. Pastikan semua bahan dimasukkan!
+</div>
+
+<h3>Langkah 4. Buat Smoothie Tropika (Pelanggan 3) 🍊🌴🧊</h3>
+<p>
+  Pelanggan ketiga (seorang capybara dalam sut) meminta **smoothie tropika** dengan **susu, madu, ais, straw**, dan **hiasan oren**. Tambahkan **karton susu**, balang **kiub gula**, dan **madu** (menggunakan sudu) ke dalam pengisar. Kemudian, tambahkan gelas **potongan tembikai** dan gelas **potongan oren** ke dalam pengisar. Blend. Tuangkan smoothie ke dalam gelas kosong. Tambahkan **ais**, kemudian ambil **straw bergaris** dan letakkan ke dalam gelas. Akhir sekali, tambahkan **hiasan potongan oren** dari mangkuk di rak ke bibir gelas. Hidangkan smoothie yang siap.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Semak gelembung percakapan untuk *semua* komponen: warna coklat/oren untuk campuran buah, karton susu, madu, ais, straw, dan potongan oren.
+</div>
+
+<h3>Langkah 5. Saksi Akhir & Tamatkan Tahap</h3>
+<p>
+  Apabila anda menghidangkan smoothie terakhir kepada capybara dalam sut, sebuah cutscene pendek akan bermula di mana dia berkongsi minumannya dengan capybara yang lain. Ini akan diikuti oleh skrin keputusan, menunjukkan prestasi anda.
+</p>
+<div class="tip">
+  💡 <strong>Petua:</strong> Sasarkan untuk mendapatkan "Memasak Super" dengan 3 bintang untuk mengesahkan bahawa semua langkah dilakukan dengan sempurna dan tepat.
+</div>
+
+<h2>Tips Terbaik untuk Kejayaan di Cookingdom Tahap 22</h2>
 <ul>
-  <li><strong>Pilih Buah-buahan:</strong> Gunakan buah seperti pisang, strawberi, beri biru, atau mangga sebagai asas.</li>
-  <li><strong>Tambahkan Yogurt atau Cecair:</strong> Gunakan susu, susu badam, jus oren, atau yogurt untuk melembutkan campuran.</li>
-  <li><strong>Kisar Sehingga Halus:</strong> Gunakan pengisar sehingga teksturnya licin — jangan terlalu lama untuk elak ia terlalu cair.</li>
-  <li><strong>Penyediaan:</strong> Tuang ke dalam gelas dan hiaskan jika mahu.</li>
+  <li>✔️ **Perhatikan dengan teliti gelembung percakapan pelanggan** untuk mengenal pasti semua bahan yang diperlukan, tambah (seperti gula dan madu), dan hiasan untuk setiap smoothie tertentu.</li>
+  <li>✔️ Dalam fasa memotong buah, **potong hanya jumlah yang diperlukan** bagi setiap jenis buah seperti yang ditunjukkan oleh kaunter untuk mengelakkan pemotongan berlebihan.</li>
+  <li>✔️ Pastikan semua tambah (seperti madu dan gula) dan cecair (seperti susu) dimasukkan ke dalam **pengisar *sebelum* anda menekan butang blend**.</li>
+  <li>✔️ Pastikan semua hiasan (seperti ais, straw, dan potongan oren) dimasukkan ke dalam **gelas *selepas* smoothie dituangkan ke dalam gelas**, bukan ke dalam pengisar.</li>
+  <li>✔️ Setiap tindakan yang dilakukan dengan betul (menambah bahan, membancuh, menghias, menghidang) biasanya disahkan dengan **ikon hati** yang membantu.</li>
 </ul>
 
-<h2 id="steps">Langkah-langkah Menyediakan Smoothie Mudah</h2>
-<ol>
-  <li>
-    <h3>Pemilihan Buah</h3>
-    <p>Pilih buah-buahan mengikut citarasa. Untuk rasa tropika, gunakan mangga dan nanas. Untuk rasa beri, gunakan strawberi dan beri biru.</p>
-    <p><strong>Petua:</strong> Tambahkan sedikit susu kelapa untuk rasa tropika yang lebih kaya.</p>
-  </li>
-  <li>
-    <h3>Tambah Asas Cecair</h3>
-    <p>Tambahkan yogurt, susu, atau alternatif tumbuhan (seperti susu badam atau jus buah) mengikut citarasa dan keperluan konsistensi.</p>
-    <p><strong>Petua:</strong> Yogurt Greek akan memberikan tekstur lebih pekat.</p>
-  </li>
-  <li>
-    <h3>Mengisar</h3>
-    <p>Mula dengan kelajuan rendah, tingkatkan secara beransur-ansur sehingga campuran sebati. Semak tekstur semasa proses.</p>
-  </li>
-  <li>
-    <h3>Periksa Tekstur</h3>
-    <p>Smoothie siap apabila ia licin dan tidak terlalu cair. Laraskan dengan menambah lebih buah atau cecair jika perlu.</p>
-  </li>
-  <li>
-    <h3>Penyediaan dan Hidangan</h3>
-    <p>Tuang ke dalam gelas. Boleh dihias dengan hirisan buah, daun pudina, atau taburan bijian. Hidangkan segera.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua Berguna</h2>
+<h2>Kesalahan Biasa yang Perlu Dielakkan dalam Cookingdom Tahap 22</h2>
 <ul>
-  <li>
-    <h3>Guna Buah Beku</h3>
-    <p>Buah beku menjadikan smoothie lebih sejuk dan pekat tanpa ais tambahan.</p>
-  </li>
-  <li>
-    <h3>Laras Tahap Kem manisan</h3>
-    <p>Rasa dahulu sebelum menambah madu, sirap maple, atau jus tambahan.</p>
-  </li>
-  <li>
-    <h3>Tambahan Sihat</h3>
-    <p>Boleh tambahkan biji chia, biji rami, serbuk protein, atau sayur bayam untuk lebih khasiat.</p>
-  </li>
-  <li>
-    <h3>Elakkan Mengisar Terlalu Lama</h3>
-    <p>30–45 saat sudah mencukupi. Lebih lama boleh menjadikan smoothie terlalu cair.</p>
-  </li>
-  <li>
-    <h3>Hidangkan Segera</h3>
-    <p>Smoothie paling sedap apabila segar. Jika perlu simpan, gunakan bekas kedap udara dan simpan dalam peti sejuk tidak lebih dari 24 jam.</p>
-  </li>
+  <li>Terlepas bahan atau hiasan yang diminta secara khusus dalam pesanan pelanggan (contohnya, terlupa madu, ais, atau straw).</li>
+  <li>Menggunakan kombinasi buah yang salah untuk smoothie tertentu yang diminta oleh pelanggan.</li>
+  <li>Menambah hiasan seperti ais atau straw terus ke dalam pengisar, bukan ke dalam gelas untuk dihidangkan.</li>
+  <li>Memotong jumlah buah yang tidak mencukupi dalam permainan mini pemotongan awal.</li>
+  <li>Menambah bahan dalam urutan yang salah, terutamanya menambah hiasan sebelum smoothie dituangkan ke dalam gelas, yang boleh menyebabkan masalah.</li>
 </ul>
 
-<h2 id="summary">Kesimpulan</h2>
-<p>Tahap 22 dalam Cookingdom memerlukan pemilihan buah yang betul, pengisaran tepat, dan persembahan menarik. Dengan penyediaan yang betul, anda pasti memperoleh 5 bintang!</p>
-<p>Setelah menguasai Smoothie Mudah, anda bersedia untuk cabaran masakan yang lebih mencabar dalam tahap-tahap berikutnya!</p>
 `,
   },
 
@@ -277,66 +433,151 @@ export const levels21to30 = [
       ],
     },
     detailsHtml: `
-<h2 id="overview">Gambaran Umum Cookingdom Tahap 23</h2>
-<p>Selamat datang ke Tahap 23 dalam Cookingdom! Dalam cabaran ini, anda akan menyediakan kek tradisional musim perayaan dari Perancis — Bûche de Noël (kek batang pokok Krismas). Ia melibatkan membakar kek span, menggulung, mengisi krim, melapis dengan aising coklat, dan menghias secara kreatif. Ketepatan dan masa adalah kunci kejayaan.</p>
+<h2>Panduan Tahap 23 Cookingdom: Membuat Kek Log Krismas yang Sempurna</h2>
+<p>Selamat datang ke **Cookingdom Tahap 23**! Tahap ini membawa anda melalui pengalaman memasak yang intuitif dan tepat dalam persekitaran santai tanpa masa, dengan fokus pada penciptaan **Kek Log Krismas** yang sempurna.</p>
+<p>Panduan ini menyediakan arahan langkah demi langkah yang terperinci untuk memastikan kejayaan anda di Tahap 23, merangkumi setiap bahan, tindakan, dan penempatan yang diperlukan.</p>
 
-<h2 id="goal">Matlamat Tahap 23</h2>
+<h2>Bahan-Bahan Diperlukan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Bahan</th>
+      <th>Kuantiti</th>
+      <th>Nota</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Telur</td>
+      <td>4</td>
+      <td>Dipisahkan menjadi kuning (mangkuk merah jambu) dan putih (mangkuk biru).</td>
+    </tr>
+    <tr>
+      <td>Susu</td>
+      <td>1 jug</td>
+      <td>Ditambah ke dalam kuning telur.</td>
+    </tr>
+    <tr>
+      <td>Minyak</td>
+      <td>1 botol</td>
+      <td>Ditambah ke dalam kuning telur.</td>
+    </tr>
+    <tr>
+      <td>Tepung</td>
+      <td>1 mangkuk</td>
+      <td>Disaring ke dalam campuran kuning telur menggunakan saringan.</td>
+    </tr>
+    <tr>
+      <td>Ekstrak Vanila</td>
+      <td>1 balang</td>
+      <td>Ditambah ke dalam campuran kuning telur menggunakan sudu biru kecil.</td>
+    </tr>
+    <tr>
+      <td>Gula</td>
+      <td>1 mangkuk</td>
+      <td>Sebahagian ditambah ke dalam putih telur semasa memukul menggunakan sudu biru kecil.</td>
+    </tr>
+    <tr>
+      <td>Krim Coklat</td>
+      <td>1 beg paip</td>
+      <td>Digunakan untuk mengisi antara lapisan dan untuk lapisan luar kek.</td>
+    </tr>
+    <tr>
+      <td>Hiasan</td>
+      <td>1 pinggan</td>
+      <td>Termasuk cendawan meringue, beri merah, kon pain, daun holly, dan kerinting coklat.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Panduan Langkah demi Langkah untuk Kejayaan</h2>
+
+<h3>Langkah 1: Pisahkan Telur</h3>
+<p>Seret setiap telur ke atas mangkuk. Telur akan retak secara automatik. Pastikan kuning telur masuk ke dalam **mangkuk merah jambu**, dan putih telur masuk ke dalam **mangkuk biru**.</p>
 <ul>
-    <li>Membakar kek span lembut dan fleksibel.</li>
-    <li>Menyediakan krim isian vanila atau mocha.</li>
-    <li>Menggulung kek dengan rapi tanpa retak.</li>
-    <li>Melapis dengan aising coklat seperti kulit kayu.</li>
-    <li>Menghias dengan elemen musim sejuk/krismas.</li>
-    <li>Menyampaikan kek dengan sempurna dan pantas.</li>
+  <li>**Tip:** Pastikan anda menyeret ke mangkuk yang betul. Permainan ini akan memisahkan telur secara automatik apabila ia retak. **Ikon hati** akan muncul apabila semua 4 telur dipisahkan.</li>
 </ul>
 
-<h2 id="steps">Langkah Demi Langkah Menyediakan Bûche de Noël</h2>
-<ol>
-  <li>
-    <h3>Sediakan Adunan Kek Span</h3>
-    <p>Pukul telur dan gula hingga kembang, kemudian masukkan tepung dan serbuk koko.</p>
-    <p><strong>Petua:</strong> Adunan ringan membantu kek menggulung tanpa pecah.</p>
-  </li>
-  <li>
-    <h3>Bakar Dalam Loyang</h3>
-    <p>Tuang ke dalam loyang nipis dan bakar selama 10 minit.</p>
-    <p><strong>Peringatan:</strong> Jangan terlalu kering atau kek akan retak semasa digulung.</p>
-  </li>
-  <li>
-    <h3>Gulung Sementara Panas</h3>
-    <p>Gulung kek terus dari oven dengan kertas pembakar. Biarkan sejuk dalam bentuk gulungan.</p>
-    <p><strong>Penting:</strong> Langkah ini penting untuk bentuk kek yang cantik.</p>
-  </li>
-  <li>
-    <h3>Sediakan Krim Isian</h3>
-    <p>Pukul krim segar bersama vanila atau serbuk koko.</p>
-    <p>Boleh tambah kopi (mocha) untuk variasi rasa.</p>
-  </li>
-  <li>
-    <h3>Sapukan & Gulung</h3>
-    <p>Buka semula kek, sapukan krim, dan gulung semula dengan kemas.</p>
-    <p><strong>Petua:</strong> Gulung padat untuk hasil spiral yang menarik.</p>
-  </li>
-  <li>
-    <h3>Lapiskan Aising Coklat</h3>
-    <p>Sapukan aising coklat atau ganache dan gunakan garpu untuk buat tekstur kulit kayu.</p>
-  </li>
-  <li>
-    <h3>Hiaskan</h3>
-    <p>Tabur gula aising, tambah beri, cendawan fondan, atau dedaun hiasan musim sejuk.</p>
-  </li>
-</ol>
-
-<h2 id="tips">Petua Tambahan</h2>
+<h3>Langkah 2: Campurkan Adunan Kuning Telur</h3>
+<p>Di dalam **mangkuk merah jambu** (kuning telur), tambahkan **susu**, kemudian tambahkan **minyak**. Pilih **saringan** dan letakkan di atas mangkuk merah jambu, kemudian tambahkan **tepung** dan tapis ke dalam adunan. Tambahkan **ekstrak vanila** menggunakan **sudu biru kecil**. Pukul adunan sehingga ia halus dengan **pukul tangan** yang muncul secara automatik.</p>
 <ul>
-  <li><strong>Jangan terlebih bakar</strong> — kek mesti kekal lembut untuk digulung.</li>
-  <li><strong>Hiasan menambah markah</strong> — lebih kreatif, lebih tinggi penilaian!</li>
-  <li><strong>Berlatih</strong> — jangan risau jika gagal pada percubaan pertama.</li>
-  <li><strong>Bonus Kombo</strong> — hantar kek berturut-turut untuk ganjaran tambahan.</li>
+  <li>**Tip:** Pastikan semua bahan ditambah sebelum memukul. Pukul sehingga **ikon hati** muncul.</li>
 </ul>
 
-<h2 id="summary">Kesimpulan</h2>
-<p>Tahap 23 adalah cabaran bakeri sebenar dalam Cookingdom. Jika anda berjaya menggulung dan menghias dengan betul, pelanggan anda pasti gembira — dan anda akan mendapat 5 bintang!</p>
+<h3>Langkah 3: Pukul Putih Telur</h3>
+<p>Pilih **mixer tangan elektrik** dan letakkan ke dalam **mangkuk biru** (putih telur). Mixer akan mula berfungsi secara automatik. Semasa memukul, pilih **sudu biru kecil**, celup ke dalam **gula**, dan tambahkan ke dalam putih telur. Teruskan memukul sehingga puncak keras terbentuk.</p>
+<ul>
+  <li>**Tip:** Tambahkan gula semasa mixer sedang berfungsi. Mixer akan berhenti secara automatik apabila putih telur mencapai konsistensi yang betul (**ikon hati**).</li>
+</ul>
+
+<h3>Langkah 4: Gabungkan Adunan</h3>
+<p>Pilih **spatula biru**. Gunakan untuk memindahkan putih telur yang telah dipukul ke dalam adunan kuning telur di dalam mangkuk merah jambu. Kacau perlahan-lahan sehingga semuanya tercampur.</p>
+<ul>
+  <li>**Tip:** Kacau perlahan-lahan untuk mengekalkan kekentalan. Berhenti kacau apabila **ikon hati** muncul.</li>
+</ul>
+
+<h3>Langkah 5: Sebarkan dan Bakar</h3>
+<p>Pilih **spatula** sekali lagi. Gunakan untuk memindahkan adunan dari mangkuk merah jambu ke **lembaran pembakar segi empat**. Sebarkan adunan dengan rata. Seret lembaran pembakar ke dalam **oven**.</p>
+<ul>
+  <li>**Tip:** Pastikan adunan disebar rata untuk pembakaran yang sekata. Tunggu sehingga pemasa oven selesai (bar kemajuan).</li>
+</ul>
+
+<h3>Langkah 6: Potong Kek yang Telah Dibakar</h3>
+<p>Kek yang dibakar secara automatik akan dikeluarkan ke papan kayu. Pilih **pisau** dan buat tiga potongan menegak mengikut garis panduan untuk membahagikan kek kepada empat jalur panjang yang sama.</p>
+<ul>
+  <li>**Tip:** Ikut garis putus-putus dengan tepat untuk potongan yang bersih. **Ikon hati** akan muncul sebagai pengesahan.</li>
+</ul>
+
+<h3>Langkah 7: Sapukan Isian</h3>
+<p>Pilih **beg paip dengan krim coklat**. Sapukan corak zigzag di atas jalur kedua, ketiga, dan keempat (biarkan yang pertama kosong). Pilih **spatula penyebar** dan ratakan krim coklat ke seluruh permukaan jalur tersebut.</p>
+<ul>
+  <li>**Tip:** Sapukan dengan kemas mengikut sempadan jalur. Ratakan krim coklat ke seluruh permukaan tiga jalur tersebut.</li>
+</ul>
+
+<h3>Langkah 8: Gulung Kek</h3>
+<p>Seret jalur pertama (yang kosong) ke bahagian bawah papan dan gulung dengan ketat. Kemudian, seret jalur kedua (yang telah disapukan dengan krim) untuk membungkus gulungan pertama. Ulangi dengan jalur ketiga dan keempat untuk membentuk gulungan yang lebih besar.</p>
+<ul>
+  <li>**Tip:** Gulung dengan ketat dan pastikan jalur diselaraskan dengan betul. Bentuk gulungan terakhir akan terbentuk secara automatik selepas jalur terakhir ditambah. **Ikon hati** mengesahkan kejayaan.</li>
+</ul>
+
+<h3>Langkah 9: Sapukan Krim Luar & Tekstur</h3>
+<p>Kek gulung secara automatik akan diletakkan di atas pembuat kek putih. Pilih **beg paip dengan krim coklat** sekali lagi dan sapukan ke seluruh permukaan luar (atas dan sisi) gulungan tersebut. Pilih **garpu** dan seret garpu sepanjang gulungan untuk mencipta tekstur kulit pokok.</p>
+<ul>
+  <li>**Tip:** Pastikan krim coklat meliputi seluruh gulungan. Gunakan garpu dengan lembut untuk mencipta tekstur yang realistik. **Ikon hati** akan mengesahkan kejayaan.</li>
+</ul>
+
+<h3>Langkah 10: Hias Kek Log Krismas</h3>
+<p>Pilih **pinggan dengan hiasan**. Letakkan cendawan meringue, beri merah, daun holly, kon pain, dan kerinting coklat ke atas kek mengikut tempat yang ditunjukkan.</p>
+<ul>
+  <li>**Tip:** Letakkan hiasan mengikut tempat yang disorot di atas kek. Semua hiasan mesti diletakkan dengan betul.</li>
+</ul>
+
+<h3>Langkah 11: Selesai Tahap</h3>
+<p>Setelah semua hiasan diletakkan, kek akan bersinar, mesej "Selamat Hari Krismas" muncul seketika, dan tahap akan selesai, memaparkan skrin hasil dengan 3 bintang.</p>
+<ul>
+  <li>**Tip:** Nikmati hasil karya Krismas anda!</li>
+</ul>
+
+<h2>Petua Kejayaan & Kesilapan Umum</h2>
+
+<h3>Petua dan Trik</h3>
+<ul>
+  <li>Ikuti arahan seret-dan-letak dengan teliti untuk menambah bahan dan menggunakan alat.</li>
+  <li>Perhatikan petunjuk visual seperti kawasan yang disorot dan garis panduan.</li>
+  <li>Tunggu **ikon hati** sebagai pengesahan selepas setiap langkah penting seperti mencampur, membakar, atau menghias.</li>
+  <li>Bekerja dengan lancar dan tepat, terutamanya semasa sapuan krim dan penggulungan.</li>
+</ul>
+
+<h3>Kesilapan Umum</h3>
+<ul>
+  <li>Seret bahan ke mangkuk yang salah (contohnya, kuning telur ke dalam mangkuk putih).</li>
+  <li>Lupa menambah bahan (seperti vanila atau gula ke dalam putih telur).</li>
+  <li>Tidak mencampurkan atau memukul adunan dengan secukupnya.</li>
+  <li>Melakukan penyebaran adunan atau krim yang tidak rata.</li>
+  <li>Penggulungan atau pemotongan yang tidak kemas.</li>
+  <li>Meletakkan hiasan akhir dengan salah.</li>
+</ul>
+
 `,
   },
 

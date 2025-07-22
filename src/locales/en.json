@@ -57,11 +57,11 @@
       "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom Level Walkthrough Guides, simple cheats, and video walkthroughs.",
       "latestLevels": {
         "title": "🔥 Latest level update",
-        "level66": "Cookingdom Level 66 Hot Stone Steak Walkthrough",
-        "level67": "Cookingdom Level 67 Tacos Walkthrough",
-        "level68": "Cookingdom Level 68 Takoyaki Walkthrough",
-        "level69": "Cookingdom Level 69 Matcha Set Walkthrough",
-        "level70": "Cookingdom Level 70 Lyonnaise Salad Walkthrough"
+        "level71": "Cookingdom Level 71 Nicoise Salad Solution Walkthrough",
+        "level72": "Cookingdom Level 72 Momos Solution Walkthrough",
+        "level73": "Cookingdom Level 73 Gozleme Solution Walkthrough",
+        "level74": "Cookingdom Level 74 Grilled Winter Fish Solution Walkthrough",
+        "level75": "Cookingdom Level 75 Udon Solution Walkthrough"
       },
       "button": {
         "viewGuides": "View Cookingdom Walkthrough Guides",
@@ -220,7 +220,8 @@
       "levels31_40": "Levels 31-40",
       "levels41_50": "Levels 41-50",
       "levels51_60": "Levels 51-60",
-      "levels61_70": "Levels 61-70"
+      "levels61_70": "Levels 61-70",
+      "levels71_80": "Levels 71-80"
     },
     "noGuidesAvailable": "No guides available for this category yet.",
     "invalidGuideId": "No guide ID specified."
