@@ -23,17 +23,22 @@ const loadGuideIds = () => {
       try {
         if (fs.existsSync(filePath)) {
           const content = fs.readFileSync(filePath, 'utf-8')
-          // Regex to find any guide ID strings
-          const idMatches = content.match(/id:\s*['|"]([^'"]+)['|"]/g)
+          // Regex to find any guide ID strings - support both JSON and JS object formats
+          const idMatches = content.match(/(?:id|"id"):\s*["']([^"']+)["']/g)
           if (idMatches) {
+            console.log(`[Sitemap Plugin] Found ${idMatches.length} IDs in ${lang}/levels-${range}.js`)
             idMatches.forEach((match) => {
-              const idMatch = match.match(/['|"]([^'"]+)['|"]/)
-              if (idMatch && idMatch[1]) {
+              const idMatch = match.match(/["']([^"']+)["']/)
+              if (idMatch && idMatch[1] && idMatch[1].startsWith('cookingdom-game-level-')) {
                 const id = idMatch[1]
                 ids.add(id)
               }
             })
+          } else {
+            console.log(`[Sitemap Plugin] No IDs found in ${lang}/levels-${range}.js`)
           }
+        } else {
+          console.log(`[Sitemap Plugin] File not found: ${filePath}`)
         }
       } catch (e) {
         console.error(`Error reading or parsing ${filePath}:`, e)
@@ -61,12 +66,12 @@ const loadBlogIds = () => {
     try {
       if (fs.existsSync(filePath)) {
         const content = fs.readFileSync(filePath, 'utf-8')
-        // Regex to find any blog post ID strings
-        const idMatches = content.match(/id:\s*['|"]([^'"]+)['|"]/g)
+        // Regex to find any blog post ID strings - support both JSON and JS object formats
+        const idMatches = content.match(/(?:id|"id"):\s*["']([^"']+)["']/g)
         if (idMatches) {
           idMatches.forEach((match) => {
-            const idMatch = match.match(/['|"]([^'"]+)['|"]/)
-            if (idMatch && idMatch[1]) {
+            const idMatch = match.match(/["']([^"']+)["']/)
+            if (idMatch && idMatch[1] && !idMatch[1].startsWith('cookingdom-game-level-')) {
               const id = idMatch[1]
               ids.add(id)
             }
