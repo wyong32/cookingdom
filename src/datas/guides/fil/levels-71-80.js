@@ -47,50 +47,7 @@ export const levels71to80 = [
       
           <p>Maligayang pagdating sa Antas 71, kung saan iyong sisimulan ang sariwa at masiglang mundo ng Nicoise Salad! Sa antas na ito, hamon ang iyong kakayahan na buuin ang tradisyunal na Nicoise Salad na may diin sa mga sariwang sangkap, tamang panahon, at kaayusan. Lumikha ng perpektong balanse ng lasa upang mapaligaya ang mga customer.</p>
       
-          <h2>Layon</h2>
-      
-          <p>Buuin ang isang Nicoise Salad sa pamamagitan ng pagsasama-sama ng iba't ibang sariwang sangkap sa tamang pagkakasunod. Tugunan ang mga kagustuhan ng customer habang tinitiyak na ang presentasyon ng salad ay kasing ganda ng lasa nito.</p>
-      
-          <h2>Proseso ng Pagsasama-sama</h2>
-      
-          <h3>Hakbang 1: Piliin ang Base ng Gulay</h3>
-      
-          <ul>
-            <li>Magsimula sa isang kama ng mixed greens o litsugas. Tiyaking tama ang dami para sa order ng customer.</li>
-            <li>Kung hinihiling, magdagdag ng kaunting olive oil o vinaigrette bilang base ng dressing.</li>
-          </ul>
-      
-          <h3>Hakbang 2: Idagdag ang Protina</h3>
-      
-          <ul>
-            <li>Pumili mula sa tuna, nilagang itlog, o inihaw na manok para sa kinakailangang protina.</li>
-            <li>I-adjust ang dami ng bawat protina ayon sa gusto ng customer (hal. doble ang tuna o itlog). Siguraduhing maayos ang pagkakaayos ng bawat sangkap.</li>
-          </ul>
-      
-          <h3>Hakbang 3: Idagdag ang Mga Gulay</h3>
-      
-          <ul>
-            <li>Maglagay ng sariwang kamatis, green beans, olives, at manipis na hiniwang radish. Ayusin ito nang maayos para sa magandang presentasyon.</li>
-            <li>May ilang customer na humihiling ng dagdag o bawas sa mga gulay (hal. walang olives, dagdag kamatis), kaya suriin nang mabuti ang order.</li>
-          </ul>
-      
-          <h3>Hakbang 4: Lagyan ng Dressing at Garnish</h3>
-      
-          <p>Taposin ang salad gamit ang masaganang serving ng anchovy vinaigrette o simpleng lemon dressing. Lagyan ng mga dahon ng parsley o basil bilang dagdag na lasa at ganda.</p>
-      
-          <h2>Mga Tip at Paraan</h2>
-      
-          <ul>
-            <li><strong>Paglayer ng Mga Sangkap:</strong> Panatilihing maganda ang presentasyon sa pamamagitan ng maingat na paglayer, ilagay ang protina sa gitna at mga gulay sa paligid.</li>
-            <li><strong>Alalahanin ang Karaniwang Order:</strong> Maraming customer ang gusto ng tradisyunal na Nicoise salad, kaya tandaan ang kombinasyon ng tuna, itlog, at gulay para sa mas mabilis na paggawa.</li>
-            <li><strong>Gamitin ang Mga Sariwang Sangkap:</strong> Ang sikreto sa perpektong Nicoise Salad ay ang kasariwaan – siguraduhing sariwa ang lahat ng gulay at protina para sa pinakamagandang lasa.</li>
-            <li><strong>Panatilihing Malinis ang Ayos:</strong> Dahil mahalaga ang presentasyon, maging maingat sa pag-aayos ng bawat sangkap upang maging kaakit-akit ang hitsura.</li>
-            <li><strong>Dobling Suriin ang Espesyal na Mga Order:</strong> May ilang customer na maaaring may espesyal na kahilingan tulad ng gluten-free o dairy-free, kaya siguraduhing basahin ang mga tala o icon sa kanilang ticket.</li>
-          </ul>
-      
-          <h2>Buod</h2>
-      
-          <p>Hinahamon ka ng Cookingdom Antas 71 na pamilyar sa sining ng paggawa ng Nicoise Salad nang may katumpakan at estilo. Sa pamamagitan ng balanseng mga lasa at malinis na presentasyon, makakamit mo ang 3 bituin at ma-unlock ang mga bagong sangkap tulad ng anchovy vinaigrette at inihaw na patatas.</p>
+        
         `
   },
 
@@ -142,50 +99,7 @@ export const levels71to80 = [
       
           <p>Maligayang pagdating sa Antas 72, kung saan iyong sisimulan ang sining ng paggawa ng momos—masasarap na steamed dumplings! Ang antas na ito ay hamon sa iyong kakayahan na maayos na mapuno, matiklop, at ma-steam ang momos nang tama. Mahalaga ang katumpakan at bilis upang matugunan ang mga order ng mga customer.</p>
       
-          <h2>Layon</h2>
-      
-          <p>Gumawa ng perpektong momos sa pamamagitan ng pagsasama-sama ng iba't ibang palaman at maayos na pagtiklop. Tiyakin ang tamang oras ng pag-steam, at ihain ang momos sa tamang temperatura upang mapasaya ang mga customer.</p>
-      
-          <h2>Proseso ng Pagsasama-sama</h2>
-      
-          <h3>Hakbang 1: Ihanda ang Dough</h3>
-      
-          <ul>
-            <li>Simulan sa pag-roll ng dough sa tamang kapal—manipis ngunit hindi masyadong marupok.</li>
-            <li>Kung masyadong makapal ang dough, magiging chewy ito; kung masyadong manipis, maaaring punitin habang pinapa-steam.</li>
-          </ul>
-      
-          <h3>Hakbang 2: Lagyan ng Palaman</h3>
-      
-          <ul>
-            <li>Piliin ang palaman: klasikong manok, vegetarian (mushroom, repolyo, at karot), o baboy.</li>
-            <li>Ilagay ang palaman sa gitna ng bilog na dough. Huwag sobrahan; mag-iwan ng sapat na espasyo para ma-seal.</li>
-          </ul>
-      
-          <h3>Hakbang 3: Tiklupin at Seal</h3>
-      
-          <ul>
-            <li>Maingat na tiklupin ang dough sa hugis kalahating buwan. Pisilin nang mahigpit ang mga gilid upang maiwasan ang pagtagas ng palaman habang pinapa-steam.</li>
-            <li>Para sa dagdag na ganda, gumawa ng pleated design sa gilid.</li>
-          </ul>
-      
-          <h3>Hakbang 4: I-steam at Ihain</h3>
-      
-          <p>Ilagay ang momos sa steamer at lutuin ito sa tamang oras—mga 5 minuto. Kapag luto na, ihain ito nang mainit at sariwa kasama ang side ng dipping sauce.</p>
-      
-          <h2>Mga Tip at Paraan</h2>
-      
-          <ul>
-            <li><strong>Perpektong Tiklop:</strong> Mahalaga ang paraan ng pagtiklop para sa presentasyon at sealing ng palaman. Maglaan ng panahon upang maging malinis ang tiklop.</li>
-            <li><strong>Mahalaga ang Palaman:</strong> Balansihin ang lasa at texture ng palaman. Iwasan ang sobrang basa upang hindi mabasa ang dough.</li>
-            <li><strong>Maingat sa Pag-steam:</strong> Panatilihing mahigpit ang takip ng steamer upang mapanatili ang consistent na init, at siguraduhing tama ang lebel ng tubig para sa pag-steam.</li>
-            <li><strong>Mabilis sa Mga Order:</strong> May ilang customer na maaaring humiling ng specific na klase ng momo o dagdag na pampalasa. Bantayan ang mga espesyal na request at agad kumilos.</li>
-            <li><strong>Suriin ang Oras ng Pag-steam:</strong> Ang sobrang pag-steam ay magpapalambot sa dough, habang ang kulang naman ay magiiwan ng hilaw. Sikaping makamit ang tamang balanse.</li>
-          </ul>
-      
-          <h2>Buod</h2>
-      
-          <p>Dinadala ka ng Cookingdom Antas 72 sa mundo ng maselan at masasarap na momos. Sa pamamagitan ng pag-master ng paghahanda ng dough, pagpili ng palaman, teknik ng pagtiklop, at tamang oras ng pag-steam, maaari kang makakuha ng 3 bituin at ma-unlock ang mga bagong palaman para sa mga susunod na hamon.</p>
+        
         `
   },
 
@@ -237,50 +151,7 @@ export const levels71to80 = [
     
         <p>Maligayang pagdating sa Antas 73, kung saan ikaw ay gagawa ng masarap na Turkish flatbread na tinatawag na Gozleme! Sa antas na ito, matututuhan mong gumawa ng Gozleme na may iba't ibang palaman, tiyaking tama ang pagkaka-fold, pag-ihaw, at paghahain para masiyahan ang iyong mga customer.</p>
     
-        <h2>Layon</h2>
-    
-        <p>Ang iyong layunin ay gumawa ng perpektong Gozleme sa pamamagitan ng paghahanda ng masa, pagpili ng tamang palaman, at pag-ihaw hanggang ito ay maging malutong. Ang susi ay ang tamang balanse ng dami ng palaman at tagal ng pag-ihaw.</p>
-    
-        <h2>Proseso ng Pagbuo</h2>
-    
-        <h3>Hakbang 1: Ihanda ang Masa</h3>
-    
-        <ul>
-          <li>Gawing manipis ang pagkaka-roll ng masa para magkaroon ng malambot ngunit matibay na base para sa Gozleme.</li>
-          <li>Ang masa ay dapat manipis ngunit hindi madaling mapunit. Gumawa ng makinis at bilog na hugis upang maiwasan ang pagkakalas habang iniihaw.</li>
-        </ul>
-    
-        <h3>Hakbang 2: Idagdag ang Palaman</h3>
-    
-        <ul>
-          <li>Pumili mula sa iba't ibang palaman: spinach at feta, giniling na tupa, o keso at mga damo (herbs).</li>
-          <li>Ikalat nang pantay ang palaman sa ibabaw ng masa, ngunit huwag sosobra — mag-iwan ng espasyo para sa pagtiklop ng gilid.</li>
-        </ul>
-    
-        <h3>Hakbang 3: Tiklupin ang Masa</h3>
-    
-        <ul>
-          <li>Tiklupin ang masa sa ibabaw ng palaman, tiyaking nagsasara ang mga gilid para maselyohan ang mga sangkap sa loob.</li>
-          <li>Pindutin nang mabuti ang gilid upang hindi tumagas ang palaman habang iniihaw.</li>
-        </ul>
-    
-        <h3>Hakbang 4: I-ihaw ang Gozleme</h3>
-    
-        <p>Ilagay ang natiklop na Gozleme sa grill at lutuin ang bawat panig hanggang sa ito ay maging ginintuang kayumanggi at malutong. Mag-ingat na huwag masunog habang tinitiyak na luto at mainit ang palaman sa loob.</p>
-    
-        <h2>Mga Tip at Teknik</h2>
-    
-        <ul>
-          <li><strong>Perpektong Pagtiklop:</strong> Ang tamang pagtiklop ay mahalaga upang hindi bumukas ang Gozleme habang iniihaw.</li>
-          <li><strong>Tamang Ratio ng Palaman:</strong> Kapag sobra ang palaman, mahirap itong tiklupin at iihaw nang maayos. Kapag kulang naman, magiging tuyô. Humanap ng tamang balanse.</li>
-          <li><strong>Ihaw sa Katamtamang Init:</strong> Huwag i-grill sa sobrang init upang hindi masunog ang labas bago maluto ang loob. Katamtamang init ang susi.</li>
-          <li><strong>Pansinin ang Espesyal na Hiling:</strong> May ilang customer na hihiling ng dagdag na keso, maanghang na palaman, atbp. Tingnang mabuti ang kanilang mga order.</li>
-          <li><strong>Ihain Habang Mainit:</strong> Pinakamainam na ihain ang Gozleme agad pagkatapos lutuin habang ito ay mainit at malutong.</li>
-        </ul>
-    
-        <h2>Buod</h2>
-    
-        <p>Tinuturuan ka ng Cookingdom Antas 73 kung paano gumawa ng malutong at masarap na Gozleme. Sa pag-master ng paghahanda ng masa, pagtiklop, at tamang pag-ihaw, makakakuha ka ng 3 bituin at makaka-unlock ng bagong mga palaman para sa susunod mong Gozleme creations.</p>
+      
       `
   },
 
@@ -331,43 +202,6 @@ export const levels71to80 = [
       <h2>Pangkalahatang Tanaw ng Antas</h2>
       <p>Maligayang pagdating sa Antas 74, kung saan maghahanda ka ng masarap at maselang Inihaw na Winter Fish! Itinuturo ng antas na ito kung paano i-ihaw nang perpekto ang isda, binabalanse ang pampalasa, oras ng pag-ihaw, at presentasyon upang makagawa ng putahe na tiyak na magugustuhan ng iyong mga customer.</p>
   
-      <h2>Layunin</h2>
-      <p>Ang layunin mo ay i-ihaw ang Winter Fish sa tamang antas ng pagkakaluto, tinitiyak na ang mga lasa ay napapalakas gamit ang tamang pampalasa at garnish. Iayos nang maganda ang isda sa plato at ihain habang mainit para sa pinakamahusay na resulta.</p>
-  
-      <h2>Proseso ng Paghahanda</h2>
-  
-      <h3>Hakbang 1: Ihanda ang Isda</h3>
-      <ul>
-        <li>Piliin ang sariwang fillet ng Winter Fish. Siguraduhing natunaw ang isda kung ito ay frozen, at tanggalin ang mga buto o kaliskis.</li>
-        <li>Timplahan ang isda ng kaunting olive oil, asin, paminta, at isang patak ng lemon juice para sa magaan at masarap na base ng lasa.</li>
-      </ul>
-  
-      <h3>Hakbang 2: Painitin ang Grilya</h3>
-      <ul>
-        <li>Painitin ang grilya sa medium-high na init. Ang mainit na grilya ay makasisiguro na pantay ang pagluto ng isda at magkakaroon ng magandang sear.</li>
-        <li>Maglagay ng bahagyang mantika sa grill grates para hindi dumikit ang isda.</li>
-      </ul>
-  
-      <h3>Hakbang 3: I-ihaw ang Isda</h3>
-      <ul>
-        <li>Ilagay ang isda sa grilya, balat pababa (kung meron), at lutuin ng mga 4-5 minuto bawat side, depende sa kapal ng fillet.</li>
-        <li>Baliktarin nang maingat upang hindi mabiyak. Ihawin hanggang madaling mabiyak gamit ang tinidor at hindi na translucent ang laman.</li>
-      </ul>
-  
-      <h3>Hakbang 4: Palamutian at Ihain</h3>
-      <p>Kapag perpektong naihaw na ang isda, ayusin ito sa plato at palamutian ng sariwang herbs, patak ng citrus glaze (kung meron), at ihain kasama ng gulay o magaan na salad para sa kumpletong putahe.</p>
-  
-      <h2>Mga Tips at Trick</h2>
-      <ul>
-        <li><strong>Suriin ang Pagkaluto:</strong> Dapat madaling mabiyak ang isda at opaque ang kulay. Iwasan ang overcooking para hindi ito matuyo.</li>
-        <li><strong>Gumamit ng Sariwang Isda:</strong> Ang sariwa at de-kalidad na isda ang magbibigay ng pinakamagandang lasa. Kung maaari, gamitin ang lokal o sustainable na isda.</li>
-        <li><strong>Grill Marks:</strong> Para magkaroon ng magandang marka ng grilya, huwag ilipat-lipat ang isda nang madalas. Hayaan itong maluto nang maayos sa bawat side.</li>
-        <li><strong>Mag-eksperimento sa Pampalasa:</strong> Bagamat sapat na ang asin at paminta, maaari kang magdagdag ng herbs gaya ng thyme, dill, o rosemary para sa dagdag na lasa.</li>
-        <li><strong>Mahalaga ang Presentasyon:</strong> Ang maayos na pag-aayos ng pagkain ay importante. Subukang ihain ang inihaw na isda kasama ang mga sariwang gulay o may maasim na dressing para sa kulay at contrast.</li>
-      </ul>
-  
-      <h2>Buod</h2>
-      <p>Pinapasok ka ng Cookingdom Antas 74 sa mundo ng pag-ihaw gamit ang putahe ng Inihaw na Winter Fish. Sa pamamagitan ng pag-master ng tamang pampalasa, pagluluto, at presentasyon, makakamit mo ang 3 bituin at ma-uunlock ang bagong citrus glaze para sa mga susunod mong putahe.</p>
     `
   },
 
@@ -409,48 +243,254 @@ export const levels71to80 = [
       <h2>Level Overview</h2>
       <p>Maligayang pagdating sa Antas 75, kung saan gagawa ka ng perpektong mangkok ng Udon noodles! Sa antas na ito, ihahanda mo ang makapal at chewy na noodles pati na rin ang masarap na sabaw na siyang dahilan kung bakit minamahal ang Udon sa lutuing Hapon. Layunin mong balansehin ang noodles, sabaw, at mga toppings upang makagawa ng masarap at authentic na ulam.</p>
   
-      <h2>Objective</h2>
-      <p>Layunin mong lutuin ang Udon noodles sa tamang tekstura, gawin ang sabaw na mayaman at puno ng lasa, at pagsamahin lahat para makagawa ng perpektong Udon dish. Lagyan ito ng tamang garnishes upang maging kasiya-siya ang karanasan ng mga customer.</p>
-  
-      <h2>Assembly Process</h2>
-  
-      <h3>Step 1: Prepare the Broth</h3>
-      <ul>
-        <li>Simulan sa pagpapakulo ng sabaw. Pagsamahin ang dashi, soy sauce, at mirin sa isang palayok at hayaang kumulo ng dahan-dahan.</li>
-        <li>Pabayaan itong kumulo ng mga 10 minuto upang maghalo ang mga lasa, at ayusin ang pampalasa kung kinakailangan (asin, soy sauce, atbp.).</li>
-      </ul>
-  
-      <h3>Step 2: Cook the Udon Noodles</h3>
-      <ul>
-        <li>Sa hiwalay na palayok, pakuluan ang tubig at lutuin ang Udon noodles ng mga 5-7 minuto, o hanggang sa maging malambot ngunit chewy pa rin.</li>
-        <li>Kapag luto na, salain ang noodles at banlawan nang bahagya sa malamig na tubig upang itigil ang pagluluto at alisin ang sobrang almirol.</li>
-      </ul>
-  
-      <h3>Step 3: Combine Noodles and Broth</h3>
-      <ul>
-        <li>Ilagay ang lutong Udon noodles sa mangkok at ibuhos ang mainit na sabaw sa ibabaw. Siguraduhing nababalutan nang maayos ng sabaw ang noodles.</li>
-        <li>Tiyaking mainit ang sabaw bago ihain upang hindi lumambot ang noodles.</li>
-      </ul>
-  
-      <h3>Step 4: Add Toppings</h3>
-      <p>Lagyan ang Udon ng mga tradisyonal na palamuti tulad ng hiniwang green onions, nilagang itlog, tempura shrimp, o budbod na sesame seeds. Ayusin ang toppings ayon sa gusto ng customer, dahil may ilan na nais ng dagdag o walang toppings.</p>
-  
-      <h2>Tips and Tricks</h2>
-      <ul>
-        <li><strong>Lutuin ang Noodles nang Tama:</strong> Dapat firm at chewy ang Udon noodles. Ang sobra sa pagluluto ay magpapalambot at magiging malata ang noodles.</li>
-        <li><strong>Pakuluan nang Dahan-dahan ang Sabaw:</strong> Hayaan itong kumulo nang mahinahon para ma-extract ang mga lasa nang hindi masyadong malakas ang pagpakulo.</li>
-        <li><strong>I-personalize ang Toppings:</strong> May mga customer na gusto ng dagdag tulad ng tempura o mushrooms. Suriing mabuti ang bawat order para sa customization.</li>
-        <li><strong>Gumamit ng Sariwang Sangkap:</strong> Ang mga sariwang sangkap, lalo na para sa sabaw, ay makakapagpabuti ng lasa nang malaki. Gumamit ng mataas na kalidad na dashi at soy sauce.</li>
-        <li><strong>Ihain nang Mainit:</strong> Pinakamainam ang Udon kapag mainit ang sabaw at noodles bago ihain.</li>
-      </ul>
-  
-      <h2>Summary</h2>
-      <p>Ang Cookingdom Antas 75 ay nagtuturo ng sining ng paggawa ng Udon, isang klasiko at paboritong Japanese noodle dish. Sa pamamagitan ng pagperfect sa balanse ng noodles, sabaw, at toppings, mapapahanga mo ang iyong mga customer at ma-uunlock ang mga bagong toppings tulad ng tempura o maanghang na pampalasa para sa mga susunod na putahe. Kumita ng 3 bituin sa pamamagitan ng maingat na paghahain ng masarap na mangkok ng Udon!</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-76",
+    "title": "Cookingdom Antas 76 Solusyon at Walkthrough ng Frozen Lamb Jelly",
+    "pageTitle": "Cookingdom Antas 76 Solusyon at Walkthrough ng Frozen Lamb Jelly",
+    "pageSubtitle": "Masterin ang natatanging Frozen Lamb Jelly recipe sa Antas 76 ng Cookingdom at matutunan kung paano balansehin ang malamig na texture at mayamang lasa ng tupa.",
+    "category": "71-80",
+    "publishDate": "2025-07-22",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_76.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-76" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/K7Sl9SsqFwg",
+    "seo": {
+      "title": "Cookingdom Antas 76 Frozen Lamb Jelly – Solusyon at Mga Tip",
+      "description": "Alamin kung paano maghanda ng Frozen Lamb Jelly sa Cookingdom Antas 76. Sundan ang gabay na ito para balansehin ang malamig na texture at mayamang lasa ng tupa para sa perpektong ulam.",
+      "keywords": "cookingdom antas 76, frozen lamb jelly, resipe ng tupa, cookingdom tips, jelly recipe, frozen lamb, gabay sa pagluluto"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_76.webp",
+      "levelInfoHtml": "<h3>Frozen Lamb Jelly</h3><p><strong>Kahirapan:</strong> Mahirap</p><p><strong>Tinatayang Oras:</strong> 14–16 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pagbubukas ng Frozen Cuisine</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-75",
+          "title": "Cookingdom Antas 75 Udon Solusyon at Walkthrough",
+          "imageUrl": "/images/guides_75.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-75" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-77",
+          "title": "Cookingdom Antas 77 Cupcake Solusyon at Walkthrough",
+          "imageUrl": "/images/guides_77.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-77" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+      <p>Ang Antas 76 ay nagdadala sa iyo sa advanced na antas ng pagluluto gamit ang Frozen Lamb Jelly. Ang kakaibang recipe na ito ay nangangailangan ng maingat na pagkontrol ng temperatura habang pinapanatili ang masarap na lasa ng tupa. Ang tamang balanse ng gelatin consistency at seasoning ang susi para sa perpektong texture at lasa.</p>
+      <p>Ang iyong gawain ay lutuin ang tupa hanggang sa maging malambot, ihalo ang gelatin base at palamigin ito nang perpekto. Kailangang magdagdag din ang mga manlalaro ng mga pandekorasyon at pampalasa upang mapaganda ang presentasyon at lasa ng ulam.</p>
+      <p>Kapag matagumpay mong natapos ang antas na ito, ma-unlock mo ang mga resipe para sa Frozen Cuisine at madadagdagan ang iyong kakayahan sa pagluluto sa Cookingdom.</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-77",
+    "title": "Cookingdom Antas 77 Solusyon at Walkthrough ng Cupcake",
+    "pageTitle": "Cookingdom Antas 77 Solusyon at Walkthrough ng Cupcake",
+    "pageSubtitle": "Maghurno ng matamis at malambot na cupcake sa Cookingdom Antas 77 gamit ang kumpletong walkthrough na ito, siguraduhing perpekto ang frosting at dekorasyon sa bawat pagkakataon.",
+    "category": "71-80",
+    "publishDate": "2025-07-23",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_77.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-77" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/IkAKwFtvW1Q",
+    "seo": {
+      "title": "Cookingdom Antas 77 Cupcake – Solusyon at Mga Tip",
+      "description": "Masterin ang paghurno ng cupcake sa Cookingdom Antas 77. Sundan ang gabay na ito para sa perpektong batter, oras ng pag-bake, frosting, at dekorasyon upang makuha ang lahat ng gantimpala.",
+      "keywords": "cookingdom antas 77, cupcake, resipe ng cupcake, mga tip sa frosting, paghurno ng cupcake, mga tip sa cookingdom, mga resipe ng panghimagas"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_77.webp",
+      "levelInfoHtml": "<h3>Cupcake</h3><p><strong>Kahirapan:</strong> Madali</p><p><strong>Tinatayang Oras:</strong> 8–10 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pagbubukas ng Dekorasyon ng Panghimagas</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-76",
+          "title": "Cookingdom Antas 76 Frozen Lamb Jelly Solusyon at Walkthrough",
+          "imageUrl": "/images/guides_76.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-76" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-78",
+          "title": "Cookingdom Antas 78 Grilled Skewers Solusyon at Walkthrough",
+          "imageUrl": "/images/guides_78.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-78" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+      <p>Inaanyayahan ng Antas 77 sa Cookingdom ang mga manlalaro na gumawa ng matamis at malambot na mga cupcake, na nakatuon sa perpektong paghahanda ng batter at detalyadong dekorasyon ng frosting. Layunin nito na balansehin ang tamis, tekstura, at presentasyon upang makagawa ng panghimagas na karapat-dapat sa pinakamataas na rating.</p>
+      <p>Simulan sa paghahalo ng iyong cupcake batter gamit ang tamang proporsyon ng asukal, mantikilya, at harina. Mahalaga ang oras; ang sobrang pag-bake ay magdudulot ng tuyong cupcake samantalang ang kulang sa pag-bake ay mag-iiwan ng hilaw sa loob.</p>
+      <p>Kapag naluto na, gagawa ang mga manlalaro ng makinis at kaakit-akit na frosting at maglalagay ng dekorasyong pandekorasyon. Ang katumpakan at pagkamalikhain ay magbibigay ng pinakamataas na bituin at magbubukas ng mga bagong opsyon sa dekorasyon ng panghimagas sa Cookingdom.</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-78",
+    "title": "Cookingdom Antas 78 Solusyon at Walkthrough ng Inihaw na Skewers",
+    "pageTitle": "Cookingdom Antas 78 Solusyon at Walkthrough ng Inihaw na Skewers",
+    "pageSubtitle": "Paganahin ang sining ng pag-ihaw ng skewers sa Cookingdom Antas 78 gamit ang kumpletong walkthrough na ito, na nagsasaayos ng lasa at presentasyon tulad ng isang propesyonal.",
+    "category": "71-80",
+    "publishDate": "2025-07-24",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_78.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-78" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/W1IKXAqXL-M",
+    "seo": {
+      "title": "Cookingdom Antas 78 Inihaw na Skewers – Solusyon at Mga Tip",
+      "description": "Masterin ang pag-ihaw ng skewers sa Cookingdom Antas 78. Sundan ang step-by-step na gabay na ito upang makamit ang perpektong pag-ihaw, pampalasa, at paghahain para sa pinakamataas na gantimpala.",
+      "keywords": "cookingdom antas 78, inihaw na skewers, barbecue skewers, mga tip sa pag-ihaw, recipe ng skewers, mga tip sa cookingdom, gabay sa pagluluto"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_78.webp",
+      "levelInfoHtml": "<h3>Inihaw na Skewers</h3><p><strong>Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 9–11 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pagbubukas ng Barbecue Mastery</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-77",
+          "title": "Cookingdom Antas 77 Cupcake Solusyon at Walkthrough",
+          "imageUrl": "/images/guides_77.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-77" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-79",
+          "title": "Cookingdom Antas 79 Hawaiian Poke Solusyon at Walkthrough",
+          "imageUrl": "/images/guides_79.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-79" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+      <p>Hinihikayat ng Cookingdom Antas 78 ang mga manlalaro na gumawa ng perpektong inihaw na skewers. Binibigyang-diin ng antas ang kahusayan sa temperatura ng pagluluto, oras, at balanse ng pampalasa para sa iba't ibang sangkap kabilang ang karne, gulay, at pagkaing-dagat.</p>
+      <p>Kailangang ihanda ng mga manlalaro ang mga sangkap sa pamamagitan ng pag-marinate upang makamit ang pinakamataas na lasa, maayos na isyu ito sa skewers, at ihawin nang perpekto. Bigyang-pansin ang oras ng pagluluto dahil ang sobra sa luto ay maaaring masunog ang sangkap habang ang kulang naman ay makakaapekto sa kalidad ng lasa.</p>
+      <p>Ang mga panghuling hakbang ay kinabibilangan ng paghahain gamit ang mga kasamang sarsa at pag-aayos ng mga skewers nang kaakit-akit. Ang matagumpay na pagtatapos ng antas ay magbibigay ng 3 Bituin at magbubukas ng tampok na Barbecue Mastery, na nagpapalawak ng iyong mga kasanayan sa pagluluto sa Cookingdom.</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-79",
+    "title": "Cookingdom Antas 79 Solusyon at Walkthrough ng Hawaiian Poke",
+    "pageTitle": "Cookingdom Antas 79 Solusyon at Walkthrough ng Hawaiian Poke",
+    "pageSubtitle": "Matutunan kung paano maghanda ng tunay na Hawaiian Poke sa Cookingdom Antas 79 gamit ang kumpletong walkthrough na ito, na nakatuon sa sariwang mga sangkap at balanseng lasa.",
+    "category": "71-80",
+    "publishDate": "2025-07-25",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_79.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-79" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/Ir7YB7n2hmA",
+    "seo": {
+      "title": "Cookingdom Antas 79 Hawaiian Poke – Solusyon at Mga Tip",
+      "description": "Masterin ang paggawa ng Hawaiian Poke sa Cookingdom Antas 79. Sundin ang gabay na ito upang maghanda ng sariwang isda, perpektong pampalasa, at balanseng toppings.",
+      "keywords": "cookingdom antas 79, hawaiian poke, poke bowl, sariwang mga recipe ng isda, poke seasoning, cookingdom tips, mga pagkaing-dagat"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_79.webp",
+      "levelInfoHtml": "<h3>Hawaiian Poke</h3><p><strong>Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 10–12 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pagbubukas ng Seafood Special</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-78",
+          "title": "Cookingdom Antas 78 Solusyon at Walkthrough ng Grilled Skewers",
+          "imageUrl": "/images/guides_78.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-78" }
+          }
+        },
+        {
+          "id": "cookingdom-game-level-80",
+          "title": "Cookingdom Antas 80 Solusyon at Walkthrough ng Spring Mochi",
+          "imageUrl": "/images/guides_80.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-80" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+      <p>Ang Cookingdom Antas 79 ay nakatuon sa paggawa ng Hawaiian Poke, isang nakakapreskong at malusog na pagkain na binubuo ng sariwa at de-kalidad na isda. Matututuhan ng mga manlalaro kung paano maingat na hiwain ang isda, timplahan ito ng toyo, sesame oil, at sariwang gulay, at ayusin nang maganda ang poke bowl.</p>
+      <p>Kinakailangan ang masusing pagtuon sa kasariwaan ng mga sangkap, tamang teknik sa paghiwa, at balanseng lasa upang magtagumpay sa antas na ito. Ang sobrang pampalasa o hindi maayos na paghiwa ay maaaring makaapekto sa iyong iskor kaya mahalaga ang katumpakan.</p>
+      <p>Ang pagtatapos ng antas ay magbibigay gantimpalang 3 Bituin at magbubukas ng tampok na Seafood Special, na nagpapahintulot sa paggawa ng mas malikhain at iba’t ibang mga pagkaing-dagat sa Cookingdom.</p>
+    `
+  },
+
+  {
+    "id": "cookingdom-game-level-80",
+    "title": "Cookingdom Antas 80 Solusyon at Walkthrough ng Spring Mochi",
+    "pageTitle": "Cookingdom Antas 80 Solusyon at Walkthrough ng Spring Mochi",
+    "pageSubtitle": "Magtamo ng husay sa paggawa ng malambot at makulay na Spring Mochi sa Cookingdom Antas 80 gamit ang kumpletong walkthrough na ito, perpekto para sa mga pista at pagdiriwang.",
+    "category": "71-80",
+    "publishDate": "2025-07-26",
+    "isSpecial": false,
+    "imageUrl": "/images/guides_80.webp",
+    "detailsRoute": {
+      "name": "guide-detail",
+      "params": { "id": "cookingdom-game-level-80" }
+    },
+    "iframeUrl": "https://www.youtube.com/embed/kiUlnW7IWcU",
+    "seo": {
+      "title": "Cookingdom Antas 80 Spring Mochi – Solusyon at Mga Tip",
+      "description": "Matutunan kung paano gumawa ng malambot at makulay na Spring Mochi sa Cookingdom Antas 80. Sundin ang step-by-step na gabay upang makamit ang perpektong texture at presentasyon.",
+      "keywords": "cookingdom antas 80, spring mochi, resipi ng mochi, Japanese dessert, rice cake, cookingdom tips, festive sweets"
+    },
+    "sidebarData": {
+      "sidebarImageUrl": "/images/guides_80.webp",
+      "levelInfoHtml": "<h3>Spring Mochi</h3><p><strong>Hirap:</strong> Mahirap</p><p><strong>Tinatayang Oras:</strong> 12–14 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pagbubukas ng Festive Dessert</p>",
+      "featuredGuides": [
+        {
+          "id": "cookingdom-game-level-79",
+          "title": "Cookingdom Antas 79 Solusyon at Walkthrough ng Hawaiian Poke",
+          "imageUrl": "/images/guides_79.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-79" }
+          }
+        }
+      ]
+    },
+    "detailsHtml": `
+      <h2>Pangkalahatang-ideya ng Antas</h2>
+      <p>Ang Cookingdom Antas 80 ang huling hamon sa set ng 71–80, tampok ang paggawa ng malambot, malagkit, at makulay na Spring Mochi. Madalas itong iniuugnay sa mga seasonal na pagdiriwang at nangangailangan ng tumpak na paggawa upang makamit ang perpektong texture at presentasyon.</p>
+      <p>Gagamit ang mga manlalaro ng glutinous rice flour upang makagawa ng makinis na masa, magdagdag ng banayad na tamis, at isama ang natural na mga kulay para sa festive na hitsura. Mahalaga ang kontrol sa oras at temperatura upang maiwasan ang sobra o pagkadry ng mochi.</p>
+      <p>Ang pagtatapos ng antas na ito nang may pinakamahusay na performance ay magbibigay gantimpalang 3 Bituin at magbubukas ng tampok na Festive Dessert, na nagpapakita ng iyong galing sa dessert category ng Cookingdom.</p>
     `
   }
-
-
-
 
 
 ]
