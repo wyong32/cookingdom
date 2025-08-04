@@ -33,6 +33,9 @@
         <button :class="{ active: activeTab === '71-80' }" @click="setActiveTab('71-80')">
           {{ $t('guides.tabs.levels71_80') }}
         </button>
+        <button :class="{ active: activeTab === '81-90' }" @click="setActiveTab('81-90')">
+          {{ $t('guides.tabs.levels81_90') }}
+        </button>
         <!-- Add more tabs if needed -->
       </div>
 
@@ -136,6 +139,7 @@ const getCategoryTabForGuide = (guideId) => {
   if (category === '51-60') return '51-60'
   if (category === '61-70') return '61-70'
   if (category === '71-80') return '71-80'
+  if (category === '81-90') return '81-90'
 
   return category
 }
@@ -194,6 +198,7 @@ const filteredGuides = computed(() => {
       '51-60': ['51-60'],
       '61-70': ['61-70'],
       '71-80': ['71-80'],
+      '81-90': ['81-90'],
     }
 
     // Get the possible category values for the active tab

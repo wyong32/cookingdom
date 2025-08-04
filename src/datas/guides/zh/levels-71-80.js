@@ -479,6 +479,15 @@ export const levels71to80 = [
             "name": "guide-detail",
             "params": { "id": "cookingdom-game-level-79" }
           }
+        },
+        {
+          "id": "cookingdom-game-level-81",
+          "title": "Cookingdom 第81关 马卡龙解决方案演练",
+          "imageUrl": "/images/guides_81.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-81" }
+          }
         }
       ]
     },

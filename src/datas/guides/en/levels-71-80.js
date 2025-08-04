@@ -487,6 +487,15 @@ export const levels71to80 = [
             "name": "guide-detail",
             "params": { "id": "cookingdom-game-level-79" }
           }
+        },
+        {
+          "id": "cookingdom-game-level-81",
+          "title": "Cookingdom Level 81 Spring Mochi Solution Walkthrough",
+          "imageUrl": "/images/guides_81.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-81" }
+          }
         }
       ]
     },

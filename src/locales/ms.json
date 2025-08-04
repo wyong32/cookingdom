@@ -57,11 +57,11 @@
       "description": "Teman penting anda untuk menguasai permainan Cookingdom ✨ Akses Panduan Lengkap Semua Tahap Cookingdom, cheat mudah, dan panduan video.",
       "latestLevels": {
         "title": "🔥 Kemas kini peringkat terkini",
-        "level76": "Cookingdom Level 76 Frozen Lamb Jelly Solution Walkthrough",
         "level77": "Cookingdom Level 77 Cupcake Solution Walkthrough",
         "level78": "Cookingdom Level 78 Grilled Skewers Solution Walkthrough",
         "level79": "Cookingdom Level 79 Hawaiian Poke Solution Walkthrough",
-        "level80": "Cookingdom Level 80 Spring Mochi Solution Walkthrough"
+        "level80": "Cookingdom Level 80 Spring Mochi Solution Walkthrough",
+        "level81": "Cookingdom Level 81 Panduan Penyelesaian Macaron"
       },
       "button": {
         "viewGuides": "Lihat Panduan Permainan Cookingdom",
@@ -218,7 +218,8 @@
       "levels41_50": "Tahap 41-50",
       "levels51_60": "Tahap 51-60",
       "levels61_70": "Tahap 61-70",
-      "levels71_80": "Tahap 71-80"
+      "levels71_80": "Tahap 71-80",
+      "levels81_90": "Tahap 81-90"
     },
     "noGuidesAvailable": "Tiada panduan tersedia untuk kategori ini.",
     "invalidGuideId": "ID panduan tidak ditentukan."

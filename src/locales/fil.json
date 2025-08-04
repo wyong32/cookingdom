@@ -57,11 +57,11 @@
       "description": "Ang iyong mahalagang kasama sa pag-master ng larong Cookingdom ✨ I-access ang aming detalyadong Cookingdom All Level Walkthrough Guides, simpleng cheats, at mga walkthrough video.",
       "latestLevels": {
         "title": "🔥 Pinakabagong update sa antas",
-        "level76": "Cookingdom Level 76 Frozen Lamb Jelly Solution Walkthrough",
         "level77": "Cookingdom Level 77 Cupcake Solution Walkthrough",
         "level78": "Cookingdom Level 78 Grilled Skewers Solution Walkthrough",
         "level79": "Cookingdom Level 79 Hawaiian Poke Solution Walkthrough",
-        "level80": "Cookingdom Level 80 Spring Mochi Solution Walkthrough"
+        "level80": "Cookingdom Level 80 Spring Mochi Solution Walkthrough",
+        "level81": "Cookingdom Level 81 Walkthrough ng Macaron Solution"
       },
       "button": {
         "viewGuides": "Tingnan ang Mga Gabay sa Paglalaro ng Cookingdom",
@@ -218,7 +218,8 @@
       "levels41_50": "Mga Antas 41-50",
       "levels51_60": "Mga Antas 51-60",
       "levels61_70": "Mga Antas 61-70",
-      "levels71_80": "Mga Antas 71-80"
+      "levels71_80": "Mga Antas 71-80",
+      "levels81_90": "Mga Antas 81-90"
     },
     "noGuidesAvailable": "Walang gabay na available para sa kategoryang ito.",
     "invalidGuideId": "Walang tinukoy na ID ng gabay."

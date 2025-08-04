@@ -43,6 +43,7 @@ async function loadGuidesFromModules(lang) {
     { range: '51-60', exportName: 'levels51to60' },
     { range: '61-70', exportName: 'levels61to70' },
     { range: '71-80', exportName: 'levels71to80' },
+    { range: '81-90', exportName: 'levels81to90' },
   ]
 
   let loadedCount = 0

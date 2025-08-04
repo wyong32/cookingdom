@@ -481,6 +481,15 @@ export const levels71to80 = [
             "name": "guide-detail",
             "params": { "id": "cookingdom-game-level-79" }
           }
+        },
+        {
+          "id": "cookingdom-game-level-81",
+          "title": "Cookingdom Antas 81 Walkthrough ng Macaron Solution",
+          "imageUrl": "/images/guides_81.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-81" }
+          }
         }
       ]
     },

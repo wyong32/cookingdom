@@ -56,11 +56,11 @@
       "description": "Ваш незаменимый помощник в освоении игры Cookingdom game ✨ Получите доступ к нашим подробным руководствам по прохождению всех уровней Cookingdom (Cookingdom all Level Walkthrough Guides), простым читам и видеопрохождениям.",
       "latestLevels": {
         "title": "🔥 Последнее обновление уровня",
-        "level76": "Cookingdom Level 76 Frozen Lamb Jelly Solution Walkthrough",
-        "level77": "Cookingdom Level 77 Cupcake Solution Walkthrough",
-        "level78": "Cookingdom Level 78 Grilled Skewers Solution Walkthrough",
-        "level79": "Cookingdom Level 79 Hawaiian Poke Solution Walkthrough",
-        "level80": "Cookingdom Level 80 Spring Mochi Solution Walkthrough"
+        "level77": "Cookingdom Уровень 77 Решение и Прохождение Капкейков",
+        "level78": "Cookingdom Уровень 78 Решение и Прохождение Шашлыков",
+        "level79": "Cookingdom Уровень 79 Решение и Прохождение Гавайского Поке",
+        "level80": "Cookingdom Уровень 80 Решение и Прохождение Весеннего Моти",
+        "level81": "Cookingdom Уровень 81 Пошаговое руководство по решению Macaron"
       },
       "button": {
         "viewGuides": "Смотреть Руководства Cookingdom",
@@ -369,7 +369,8 @@
       "levels41_50": "Уровни 41-50",
       "levels51_60": "Уровни 51-60",
       "levels61_70": "Уровни 61-70",
-      "levels71_80": "Уровни 71-80"
+      "levels71_80": "Уровни 71-80",
+      "levels81_90": "Уровни 81-90"
     },
     "noGuidesAvailable": "Для этой категории пока нет гайдов.",
     "invalidGuideId": "ID руководства не указан."

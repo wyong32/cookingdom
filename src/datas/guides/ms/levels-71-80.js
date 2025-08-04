@@ -478,6 +478,15 @@ export const levels71to80 = [
             "name": "guide-detail",
             "params": { "id": "cookingdom-game-level-79" }
           }
+        },
+        {
+          "id": "cookingdom-game-level-81",
+          "title": "Cookingdom Tahap 81 Panduan Penyelesaian Macaron",
+          "imageUrl": "/images/guides_81.webp",
+          "detailsRoute": {
+            "name": "guide-detail",
+            "params": { "id": "cookingdom-game-level-81" }
+          }
         }
       ]
     },
