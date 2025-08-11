@@ -56,11 +56,11 @@
       "description": "掌握料理王国游戏 (Cookingdom game) 的必备伙伴 ✨ 查看我们详尽的料理王国全关卡攻略指南 (Cookingdom all Level Walkthrough Guides)、简单技巧和视频演练。",
       "latestLevels": {
         "title": "🔥 最新关卡更新",
-        "level77": "Cookingdom 第77关 纸杯蛋糕通关攻略",
-        "level78": "Cookingdom 第78关 烤串通关攻略",
-        "level79": "Cookingdom 第79关 夏威夷Poke通关攻略",
         "level80": "Cookingdom 第80关 春季麻糬通关攻略",
-        "level81": "Cookingdom 第81关 马卡龙解决方案演练"
+        "level81": "Cookingdom 第81关 马卡龙解决方案演练",
+        "level82": "Cookingdom 第82关 卡布奇诺解决方案演练",
+        "level83": "Cookingdom 第83关 可丽饼解决方案演练",
+        "level84": "Cookingdom 第84关 牛肋卷解决方案演练"
       },
       "button": {
         "viewGuides": "查看料理王国攻略指南",
