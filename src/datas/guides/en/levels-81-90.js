@@ -193,6 +193,17 @@ export const levels81to90 = [
                             "id": "cookingdom-game-level-83"
                         }
                     }
+                },
+                {
+                    "id": "cookingdom-game-level-85",
+                    "title": "Cookingdom Level 85 Karelian Pasty Solution Walkthrough",
+                    "imageUrl": "/images/guides_85.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-85"
+                        }
+                    }
                 }
             ]
         },
@@ -200,6 +211,219 @@ export const levels81to90 = [
           <h2>Level Overview</h2>
           <p>Cookingdom Level 84 marks a significant step up in complexity with the Beef Rib Roulade. This level tests your ability to handle a multi-step recipe with precision. Players must first pound the beef to an even thickness, prepare a flavorful stuffing, roll the beef tightly to prevent unraveling, and then carefully execute both a high-heat sear and a slow-cook phase to ensure the meat is both tender and visually appealing.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-85",
+        "title": "Cookingdom Level 85 Karelian Pasty Solution Walkthrough",
+        "pageTitle": "Cookingdom Level 85 Karelian Pasty Solution Walkthrough",
+        "pageSubtitle": "Learn to craft the traditional Karelian Pasty with perfect crust and savory filling in Cookingdom Level 85. This guide walks you through each step for a delicious and visually appealing result.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_85.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-85"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/rm5NenMt4xg",
+        "seo": {
+            "title": "Cookingdom Level 85 Karelian Pasty Solution Walkthrough & Tips",
+            "description": "Master the traditional Karelian Pasty in Cookingdom Level 85 with this step-by-step guide. Learn how to prepare the dough, assemble the filling, and bake to perfection.",
+            "keywords": "cookingdom level 85, karelian pasty, pastry recipe, baking, cookingdom tips, traditional dish"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_85.webp",
+            "levelInfoHtml": "<h3>Karelian Pasty</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Est. Time:</strong> 12–15 minutes</p><p><strong>Reward:</strong> 3 Stars + Savory Pastry Unlock</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-84",
+                    "title": "Cookingdom Level 84 Beef Rib Roulade Solution Walkthrough",
+                    "imageUrl": "/images/guides_84.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-84"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom Level 86 Mousse Cake Solution Walkthrough",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Level Overview</h2>
+            <p>Cookingdom Level 85 challenges players with the Karelian Pasty, a delicate pastry requiring careful dough preparation and precise filling assembly. Players must roll the thin rye dough, spread the rice or potato filling evenly, fold the edges neatly, and bake until the pasty achieves a golden-brown crust. Attention to detail is key to earning maximum stars and unlocking the savory pastry reward.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-86",
+        "title": "Cookingdom Level 86 Mousse Cake Solution Walkthrough",
+        "pageTitle": "Cookingdom Level 86 Mousse Cake Solution Walkthrough",
+        "pageSubtitle": "Create a luscious layered mousse cake in Cookingdom Level 86. This guide details every step from sponge base to smooth mousse layers and elegant finishing touches.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_86.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-86"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/dYs8OkcjfTs",
+        "seo": {
+            "title": "Cookingdom Level 86 Mousse Cake Solution Walkthrough & Tips",
+            "description": "Master the layered Mousse Cake in Cookingdom Level 86 with this step-by-step walkthrough. Learn to prepare the sponge, layer the mousse, and finish with decorative toppings.",
+            "keywords": "cookingdom level 86, mousse cake, cake recipe, dessert, cookingdom tips, layered cake"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_86.webp",
+            "levelInfoHtml": "<h3>Mousse Cake</h3><p><strong>Difficulty:</strong> Very Hard</p><p><strong>Est. Time:</strong> 15–20 minutes</p><p><strong>Reward:</strong> 3 Stars + Dessert Unlock</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-85",
+                    "title": "Cookingdom Level 85 Karelian Pasty Solution Walkthrough",
+                    "imageUrl": "/images/guides_85.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-85"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom Level 87 Pirozhki Solution Walkthrough",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Level Overview</h2>
+            <p>Cookingdom Level 86 centers on the Mousse Cake, a dessert that requires precision and timing. Players must bake a light sponge base, whip and fold the mousse layers carefully, and layer them evenly for a smooth finish. The final step involves applying decorative toppings, such as fruit or chocolate garnish, to achieve a visually stunning cake that earns full stars and unlocks the dessert reward.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-87",
+        "title": "Cookingdom Level 87 Pirozhki Solution Walkthrough",
+        "pageTitle": "Cookingdom Level 87 Pirozhki Solution Walkthrough",
+        "pageSubtitle": "Master the art of making classic Pirozhki in Cookingdom Level 87. This guide walks you through preparing the dough, filling, and achieving perfectly baked pastries.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_87.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-87"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/JwhUwcn6esQ",
+        "seo": {
+            "title": "Cookingdom Level 87 Pirozhki Solution Walkthrough & Tips",
+            "description": "Learn to make delicious Pirozhki in Cookingdom Level 87 with this step-by-step guide. Prepare the dough, fill the pastries, and bake to golden perfection.",
+            "keywords": "cookingdom level 87, pirozhki, pastry recipe, dough, cookingdom tips, baked goods"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_87.webp",
+            "levelInfoHtml": "<h3>Pirozhki</h3><p><strong>Difficulty:</strong> Hard</p><p><strong>Est. Time:</strong> 12–15 minutes</p><p><strong>Reward:</strong> 3 Stars + Savory Pastry Unlock</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom Level 86 Mousse Cake Solution Walkthrough",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Level 88 Apple Pie Solution Walkthrough",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Level Overview</h2>
+            <p>Cookingdom Level 87 challenges players to prepare Pirozhki, a traditional filled pastry. The level requires carefully rolling out the dough, portioning and adding the filling evenly, and folding each pastry neatly. Baking must be timed precisely to achieve a golden crust without overcooking the filling. Properly executing each step ensures a high score and unlocks the savory pastry reward.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-88",
+        "title": "Cookingdom Level 88 Apple Pie Solution Walkthrough",
+        "pageTitle": "Cookingdom Level 88 Apple Pie Solution Walkthrough",
+        "pageSubtitle": "Bake a perfect, golden apple pie in Cookingdom Level 88. This guide details each step from preparing the crust to assembling the filling and achieving a beautifully baked pie.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_88.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-88"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/06ERPR6v5Oc",
+        "seo": {
+            "title": "Cookingdom Level 88 Apple Pie Solution Walkthrough & Tips",
+            "description": "Follow this step-by-step guide to master Cookingdom Level 88 Apple Pie. Prepare the crust, slice and season the apples, assemble the pie, and bake to perfection.",
+            "keywords": "cookingdom level 88, apple pie, dessert recipe, pie crust, cookingdom tips, baked dessert"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_88.webp",
+            "levelInfoHtml": "<h3>Apple Pie</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 10–12 minutes</p><p><strong>Reward:</strong> 3 Stars + Classic Dessert Unlock</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom Level 87 Pirozhki Solution Walkthrough",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Level Overview</h2>
+            <p>Cookingdom Level 88 tasks players with creating a classic apple pie. Start by preparing the buttery pie crust and rolling it evenly. Next, slice and season the apples with sugar and spices, then layer them carefully within the crust. Cover with a top crust, crimp the edges, and bake to a golden brown. Attention to detail ensures the pie is both visually appealing and delicious, maximizing your score and unlocking the dessert reward.</p>
+        `
     }
+
+
+
+
 
 ]
