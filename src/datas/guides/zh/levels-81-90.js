@@ -191,7 +191,220 @@ export const levels81to90 = [
           <h2>关卡概述</h2>
           <p>Cookingdom 第84关的难度显著提升，挑战制作牛肋卷。这一关考验玩家精准掌控多步骤食谱的能力。玩家首先需要将牛肉敲打至均匀厚度，准备风味十足的填料，紧密卷起牛肉防止松散，然后谨慎完成高温煎制和慢火烹调两个阶段，确保肉质鲜嫩且外观诱人。</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-85",
+        "title": "Cookingdom 第85关 卡累利阿馅饼 解法攻略",
+        "pageTitle": "Cookingdom 第85关 卡累利阿馅饼 解法攻略",
+        "pageSubtitle": "在 Cookingdom 第85关中学习制作传统的卡累利阿馅饼，掌握完美的外皮与美味的馅料。本指南将逐步引导你完成每一个步骤，确保美味又美观的成果。",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_85.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-85"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/rm5NenMt4xg",
+        "seo": {
+            "title": "Cookingdom 第85关 卡累利阿馅饼 解法攻略与技巧",
+            "description": "通过这份逐步指南，在 Cookingdom 第85关中掌握传统卡累利阿馅饼的制作方法。学习如何准备面团、组装馅料并完美烘焙。",
+            "keywords": "cookingdom 第85关, 卡累利阿馅饼, 烘焙食谱, 烘焙, cookingdom 技巧, 传统美食"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_85.webp",
+            "levelInfoHtml": "<h3>卡累利阿馅饼</h3><p><strong>难度：</strong>困难</p><p><strong>预计时间：</strong>12–15 分钟</p><p><strong>奖励：</strong>3 星 + 解锁咸味酥点</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-84",
+                    "title": "Cookingdom 第84关 牛肋卷 解法攻略",
+                    "imageUrl": "/images/guides_84.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-84"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom 第86关 慕斯蛋糕 解法攻略",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>关卡概览</h2>
+            <p>Cookingdom 第85关挑战玩家制作卡累利阿馅饼，这是一种精致的酥点，需要小心处理面团并精准地填充馅料。玩家必须将黑麦面团擀薄，将米饭或土豆馅料均匀铺开，整齐折叠边缘，并烘烤至表皮金黄。注重细节是获得最高评分并解锁咸味酥点奖励的关键。</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-86",
+        "title": "Cookingdom 第86关 慕斯蛋糕 解法攻略",
+        "pageTitle": "Cookingdom 第86关 慕斯蛋糕 解法攻略",
+        "pageSubtitle": "在 Cookingdom 第86关中制作一款层次丰富的慕斯蛋糕。本指南将详细讲解从海绵蛋糕底到丝滑慕斯层，以及优雅装饰收尾的每一步。",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_86.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-86"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/dYs8OkcjfTs",
+        "seo": {
+            "title": "Cookingdom 第86关 慕斯蛋糕 解法攻略与技巧",
+            "description": "通过这份逐步攻略，在 Cookingdom 第86关中掌握多层慕斯蛋糕的制作。学习如何准备海绵蛋糕、叠加慕斯层，并完成精美装饰。",
+            "keywords": "cookingdom 第86关, 慕斯蛋糕, 蛋糕食谱, 甜点, cookingdom 技巧, 分层蛋糕"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_86.webp",
+            "levelInfoHtml": "<h3>慕斯蛋糕</h3><p><strong>难度：</strong>非常困难</p><p><strong>预计时间：</strong>15–20 分钟</p><p><strong>奖励：</strong>3 星 + 解锁甜点</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-85",
+                    "title": "Cookingdom 第85关 卡累利阿馅饼 解法攻略",
+                    "imageUrl": "/images/guides_85.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-85"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom 第87关 皮罗什基 解法攻略",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>关卡概览</h2>
+            <p>Cookingdom 第86关以慕斯蛋糕为核心，这是一道需要精准与时间掌握的甜点。玩家必须先烘焙出轻盈的海绵蛋糕底，再小心地打发并折叠慕斯层，均匀叠放以获得顺滑的效果。最后一步是添加装饰配料，如水果或巧克力点缀，打造视觉精美的蛋糕，从而获得满星评价并解锁甜点奖励。</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-87",
+        "title": "Cookingdom 第87关 皮罗什基 解法与攻略",
+        "pageTitle": "Cookingdom 第87关 皮罗什基 解法与攻略",
+        "pageSubtitle": "在 Cookingdom 第87关中掌握制作经典皮罗什基的技巧。本攻略将带你完成从和面、包馅到烘烤的每一步，助你做出完美的烘焙点心。",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_87.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-87"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/JwhUwcn6esQ",
+        "seo": {
+            "title": "Cookingdom 第87关 皮罗什基 解法与技巧",
+            "description": "通过本逐步攻略，在 Cookingdom 第87关中学习如何制作美味的皮罗什基。从和面、填馅到金黄烘烤，轻松掌握技巧。",
+            "keywords": "cookingdom 第87关, 皮罗什基, 点心食谱, 面团, cookingdom 技巧, 烘焙美食"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_87.webp",
+            "levelInfoHtml": "<h3>皮罗什基</h3><p><strong>难度：</strong>困难</p><p><strong>预计时间：</strong>12–15 分钟</p><p><strong>奖励：</strong>3星 + 解锁咸味点心</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom 第86关 慕斯蛋糕 解法与攻略",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom 第88关 苹果派 解法与攻略",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>关卡概览</h2>
+            <p>Cookingdom 第87关的挑战是制作皮罗什基，这是一种传统的包馅烘焙点心。本关要求玩家小心地擀面、均匀分配馅料并整齐地封口。烘焙过程必须把握精准时间，以确保外皮金黄而不使馅料过熟。正确完成每一步即可获得高分并解锁咸味点心奖励。</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-88",
+        "title": "Cookingdom 第88关 苹果派 解法与攻略",
+        "pageTitle": "Cookingdom 第88关 苹果派 解法与攻略",
+        "pageSubtitle": "在 Cookingdom 第88关中烘焙完美金黄的苹果派。本攻略详细说明从制作派皮、准备馅料到完成美味烘焙的每一个步骤。",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_88.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-88"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/06ERPR6v5Oc",
+        "seo": {
+            "title": "Cookingdom 第88关 苹果派 解法与技巧",
+            "description": "按照本逐步攻略掌握 Cookingdom 第88关苹果派的制作。学习如何准备派皮、切片调味苹果、组装派，并烘烤至完美金黄。",
+            "keywords": "cookingdom 第88关, 苹果派, 甜点食谱, 派皮, cookingdom 技巧, 烘焙甜点"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_88.webp",
+            "levelInfoHtml": "<h3>苹果派</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>10–12 分钟</p><p><strong>奖励：</strong>3星 + 经典甜点解锁</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom 第87关 皮罗什基 解法与攻略",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>关卡概览</h2>
+            <p>Cookingdom 第88关要求玩家制作经典苹果派。首先准备黄油派皮并均匀擀开。接着将苹果切片并加入糖和香料调味，然后小心地铺入派皮中。覆盖顶层派皮，捏紧边缘，烘烤至金黄。注意细节可以确保派既美观又美味，最大化得分并解锁甜点奖励。</p>
+        `
     }
+
+
+
+
 
 
 

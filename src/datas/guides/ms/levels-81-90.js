@@ -191,7 +191,221 @@ export const levels81to90 = [
           <h2>Gambaran Tahap</h2>
           <p>Cookingdom Tahap 84 menandakan peningkatan ketara dalam tahap kesukaran dengan Gulungan Rusuk Lembu. Tahap ini menguji kebolehan anda untuk mengendalikan resepi pelbagai langkah dengan ketepatan. Pemain perlu menumbuk daging lembu sehingga ketebalan sekata, menyediakan inti yang berperisa, menggulung daging dengan kemas supaya tidak terbuka, kemudian dengan berhati-hati melaksanakan proses menggoreng dengan suhu tinggi dan memasak perlahan-lahan untuk memastikan daging lembut dan menarik secara visual.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-85",
+        "title": "Cookingdom Tahap 85 Pai Karelia Penyelesaian & Panduan",
+        "pageTitle": "Cookingdom Tahap 85 Pai Karelia Penyelesaian & Panduan",
+        "pageSubtitle": "Pelajari cara membuat Pai Karelia tradisional dengan kulit sempurna dan inti yang enak dalam Cookingdom Tahap 85. Panduan ini membawa anda langkah demi langkah untuk hasil yang lazat dan menarik.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_85.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-85"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/rm5NenMt4xg",
+        "seo": {
+            "title": "Cookingdom Tahap 85 Pai Karelia Penyelesaian & Tips",
+            "description": "Kuasai cara membuat Pai Karelia tradisional dalam Cookingdom Tahap 85 dengan panduan langkah demi langkah ini. Belajar menyediakan doh, mengisi inti, dan membakar dengan sempurna.",
+            "keywords": "cookingdom tahap 85, pai karelia, resipi pastri, membakar, tips cookingdom, hidangan tradisional"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_85.webp",
+            "levelInfoHtml": "<h3>Pai Karelia</h3><p><strong>Kesukaran:</strong> Sukar</p><p><strong>Anggaran Masa:</strong> 12–15 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Kunci Pastri Masin</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-84",
+                    "title": "Cookingdom Tahap 84 Gulungan Rusuk Daging Lembu Penyelesaian",
+                    "imageUrl": "/images/guides_84.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-84"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom Tahap 86 Kek Mousse Penyelesaian",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Gambaran Tahap</h2>
+            <p>Cookingdom Tahap 85 mencabar pemain dengan Pai Karelia, sejenis pastri halus yang memerlukan penyediaan doh yang teliti dan pengisian inti yang tepat. Pemain mesti menggulung doh rai nipis, menyebarkan inti nasi atau kentang secara sekata, melipat tepi dengan kemas, dan membakar sehingga kerak berwarna keemasan. Perhatian terhadap perincian adalah kunci untuk mendapatkan bintang maksimum dan membuka ganjaran pastri masin.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-86",
+        "title": "Cookingdom Tahap 86 Kek Mousse Penyelesaian & Panduan",
+        "pageTitle": "Cookingdom Tahap 86 Kek Mousse Penyelesaian & Panduan",
+        "pageSubtitle": "Cipta kek mousse berlapis yang lazat dalam Cookingdom Tahap 86. Panduan ini menerangkan setiap langkah daripada asas span, lapisan mousse yang halus, hingga sentuhan akhir yang elegan.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_86.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-86"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/dYs8OkcjfTs",
+        "seo": {
+            "title": "Cookingdom Tahap 86 Kek Mousse Penyelesaian & Tips",
+            "description": "Kuasai kek mousse berlapis dalam Cookingdom Tahap 86 dengan panduan langkah demi langkah ini. Belajar menyediakan span, menyusun mousse, dan menambah hiasan penutup yang indah.",
+            "keywords": "cookingdom tahap 86, kek mousse, resipi kek, pencuci mulut, tips cookingdom, kek berlapis"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_86.webp",
+            "levelInfoHtml": "<h3>Kek Mousse</h3><p><strong>Kesukaran:</strong> Sangat Sukar</p><p><strong>Anggaran Masa:</strong> 15–20 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Buka Kunci Pencuci Mulut</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-85",
+                    "title": "Cookingdom Tahap 85 Pai Karelia Penyelesaian & Panduan",
+                    "imageUrl": "/images/guides_85.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-85"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom Tahap 87 Pirozhki Penyelesaian & Panduan",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Gambaran Tahap</h2>
+            <p>Cookingdom Tahap 86 berpusat pada Kek Mousse, pencuci mulut yang memerlukan ketepatan dan masa yang sesuai. Pemain mesti membakar asas span yang ringan, memukul dan melipat lapisan mousse dengan teliti, dan menyusunnya secara sekata untuk hasil yang licin. Langkah terakhir melibatkan penambahan hiasan seperti buah-buahan atau coklat untuk menghasilkan kek yang menawan, memperoleh markah penuh dan membuka kunci ganjaran pencuci mulut.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-87",
+        "title": "Cookingdom Tahap 87 Pirozhki Penyelesaian & Panduan",
+        "pageTitle": "Cookingdom Tahap 87 Pirozhki Penyelesaian & Panduan",
+        "pageSubtitle": "Kuasa seni membuat Pirozhki klasik dalam Cookingdom Tahap 87. Panduan ini menunjukkan langkah demi langkah untuk menyediakan doh, inti, dan membakar pastri dengan sempurna.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_87.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-87"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/JwhUwcn6esQ",
+        "seo": {
+            "title": "Cookingdom Tahap 87 Pirozhki Penyelesaian & Tips",
+            "description": "Belajar membuat Pirozhki yang lazat dalam Cookingdom Tahap 87 dengan panduan langkah demi langkah ini. Sediakan doh, masukkan inti, dan bakar sehingga keemasan.",
+            "keywords": "cookingdom tahap 87, pirozhki, resipi pastri, doh, tips cookingdom, pastri bakar"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_87.webp",
+            "levelInfoHtml": "<h3>Pirozhki</h3><p><strong>Kesukaran:</strong> Sukar</p><p><strong>Anggaran Masa:</strong> 12–15 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Buka Kunci Pastri Savory</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom Tahap 86 Kek Mousse Penyelesaian & Panduan",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Tahap 88 Pai Epal Penyelesaian & Panduan",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Gambaran Tahap</h2>
+            <p>Cookingdom Tahap 87 mencabar pemain untuk menyediakan Pirozhki, pastri tradisional berinti. Pemain perlu menguli doh dengan teliti, membahagikan dan memasukkan inti secara rata, serta melipat setiap pastri dengan kemas. Masa membakar mesti tepat untuk mendapatkan kerak keemasan tanpa memasak berlebihan inti. Melaksanakan setiap langkah dengan betul memastikan skor tinggi dan membuka ganjaran pastri savory.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-88",
+        "title": "Cookingdom Tahap 88 Pai Epal Penyelesaian & Panduan",
+        "pageTitle": "Cookingdom Tahap 88 Pai Epal Penyelesaian & Panduan",
+        "pageSubtitle": "Bakar pai epal yang sempurna dan keemasan dalam Cookingdom Tahap 88. Panduan ini menerangkan setiap langkah dari menyediakan kulit pai hingga menyusun inti dan membakar pai dengan cantik.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_88.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-88"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/06ERPR6v5Oc",
+        "seo": {
+            "title": "Cookingdom Tahap 88 Pai Epal Penyelesaian & Tips",
+            "description": "Ikuti panduan langkah demi langkah ini untuk menguasai Pai Epal dalam Cookingdom Tahap 88. Sediakan kulit pai, hiris dan perasakan epal, susun pai, dan bakar sehingga sempurna.",
+            "keywords": "cookingdom tahap 88, pai epal, resipi pencuci mulut, kulit pai, tips cookingdom, pencuci mulut bakar"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_88.webp",
+            "levelInfoHtml": "<h3>Pai Epal</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 10–12 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Buka Kunci Pencuci Mulut Klasik</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom Tahap 87 Pirozhki Penyelesaian & Panduan",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Gambaran Tahap</h2>
+            <p>Cookingdom Tahap 88 mencabar pemain untuk menyediakan pai epal klasik. Mulakan dengan menyediakan kulit pai yang bermentega dan canai secara rata. Seterusnya, hiris dan perasakan epal dengan gula dan rempah, kemudian susun dengan rapi dalam kulit pai. Tutup dengan lapisan atas, tekan tepi, dan bakar sehingga keemasan. Perhatian terhadap butiran memastikan pai bukan sahaja cantik dipandang tetapi juga lazat, memaksimumkan skor dan membuka ganjaran pencuci mulut.</p>
+        `
     }
+
+
+
+
+
 
 
 

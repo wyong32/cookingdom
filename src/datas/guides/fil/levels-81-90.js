@@ -191,7 +191,220 @@ export const levels81to90 = [
           <h2>Pangkalahatang-ideya ng Antas</h2>
           <p>Ang Cookingdom Antas 84 ay isang malaking hakbang pataas sa kumplikasyon gamit ang Beef Rib Roulade. Sinusubok ng antas na ito ang iyong kakayahang maghawak ng isang multi-step na resipe nang may katumpakan. Kailangang unahin ng mga manlalaro ang pagtutok ng baka hanggang sa pantay na kapal, paghahanda ng malinamnam na palaman, mahigpit na pag-ikot ng baka upang maiwasan ang pagkalaglag, at pagkatapos ay maingat na pagganap ng parehong high-heat sear at mabagal na pagluluto upang matiyak na ang karne ay malambot at kaakit-akit sa paningin.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-85",
+        "title": "Cookingdom Antas 85 Karelian Pasty Solusyon at Walkthrough",
+        "pageTitle": "Cookingdom Antas 85 Karelian Pasty Solusyon at Walkthrough",
+        "pageSubtitle": "Matutunan kung paano gumawa ng tradisyonal na Karelian Pasty na may perpektong crust at masarap na palaman sa Cookingdom Antas 85. Ang gabay na ito ay magtuturo sa iyo ng bawat hakbang para sa masarap at kaakit-akit na resulta.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_85.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-85"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/rm5NenMt4xg",
+        "seo": {
+            "title": "Cookingdom Antas 85 Karelian Pasty Solusyon at Mga Tip",
+            "description": "Masterin ang tradisyonal na Karelian Pasty sa Cookingdom Antas 85 gamit ang step-by-step na gabay na ito. Alamin kung paano ihanda ang masa, tipunin ang palaman, at maghurno nang perpekto.",
+            "keywords": "cookingdom antas 85, karelian pasty, resipi ng pastry, pagluluto, mga tip sa cookingdom, tradisyonal na pagkain"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_85.webp",
+            "levelInfoHtml": "<h3>Karelian Pasty</h3><p><strong>Kahirapan:</strong> Mahirap</p><p><strong>Tinatayang Oras:</strong> 12–15 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pag-unlock ng Malinamnam na Pastry</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-84",
+                    "title": "Cookingdom Antas 84 Beef Rib Roulade Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_84.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-84"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom Antas 86 Mousse Cake Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Pangkalahatang-ideya ng Antas</h2>
+            <p>Sa Cookingdom Antas 85, haharapin ng mga manlalaro ang hamon ng paggawa ng Karelian Pasty, isang maselang pastry na nangangailangan ng maingat na paghahanda ng masa at eksaktong pagpupuno ng palaman. Kailangang igulong ng mga manlalaro ang manipis na rye dough, pantay na ipahid ang palamang bigas o patatas, tiklupin nang maayos ang mga gilid, at maghurno hanggang maging gintong kayumanggi ang crust. Ang pagbibigay-pansin sa detalye ang susi upang makuha ang pinakamataas na bituin at ma-unlock ang gantimpalang malinamnam na pastry.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-86",
+        "title": "Cookingdom Antas 86 Mousse Cake Solusyon at Walkthrough",
+        "pageTitle": "Cookingdom Antas 86 Mousse Cake Solusyon at Walkthrough",
+        "pageSubtitle": "Gumawa ng masarap na layered mousse cake sa Cookingdom Antas 86. Ang gabay na ito ay naglalahad ng bawat hakbang mula sa sponge base hanggang sa makinis na mousse layers at magarang dekorasyon.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_86.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-86"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/dYs8OkcjfTs",
+        "seo": {
+            "title": "Cookingdom Antas 86 Mousse Cake Solusyon at Mga Tips",
+            "description": "Masterin ang layered Mousse Cake sa Cookingdom Antas 86 gamit ang step-by-step walkthrough na ito. Alamin kung paano ihanda ang sponge, i-layer ang mousse, at tapusin sa dekorasyong topping.",
+            "keywords": "cookingdom antas 86, mousse cake, resipe ng cake, panghimagas, cookingdom tips, layered cake"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_86.webp",
+            "levelInfoHtml": "<h3>Mousse Cake</h3><p><strong>Kahirapan:</strong> Napakahirap</p><p><strong>Tinatayang Oras:</strong> 15–20 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pag-unlock ng Panghimagas</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-85",
+                    "title": "Cookingdom Antas 85 Karelian Pasty Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_85.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-85"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom Antas 87 Pirozhki Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Pangkalahatang-ideya ng Antas</h2>
+            <p>Ang Cookingdom Antas 86 ay nakatuon sa Mousse Cake, isang panghimagas na nangangailangan ng katumpakan at wastong timing. Kailangang maghurno ang mga manlalaro ng magaan na sponge base, maingat na mag-whip at mag-fold ng mousse layers, at magpatong ng pantay-pantay para sa makinis na resulta. Ang huling hakbang ay ang pagdagdag ng mga dekorasyon gaya ng prutas o tsokolate upang makagawa ng kahanga-hangang cake na nakakapagbigay ng full stars at nag-u-unlock ng panghimagas na gantimpala.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-87",
+        "title": "Cookingdom Antas 87 Pirozhki Solusyon at Walkthrough",
+        "pageTitle": "Cookingdom Antas 87 Pirozhki Solusyon at Walkthrough",
+        "pageSubtitle": "Maging dalubhasa sa paggawa ng klasikong Pirozhki sa Cookingdom Antas 87. Ang gabay na ito ay magpapakita sa iyo kung paano ihanda ang dough, ang palaman, at makamit ang perpektong lutong pastriya.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_87.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-87"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/JwhUwcn6esQ",
+        "seo": {
+            "title": "Cookingdom Antas 87 Pirozhki Solusyon at Mga Tips",
+            "description": "Matutunan kung paano gumawa ng masarap na Pirozhki sa Cookingdom Antas 87 gamit ang step-by-step na gabay na ito. Ihanda ang dough, lagyan ng palaman ang pastriya, at i-bake hanggang sa ginintuang perpekto.",
+            "keywords": "cookingdom antas 87, pirozhki, recipe ng pastriya, dough, tips cookingdom, baked goods"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_87.webp",
+            "levelInfoHtml": "<h3>Pirozhki</h3><p><strong>Kahirapan:</strong> Mahirap</p><p><strong>Tinatayang Oras:</strong> 12–15 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pag-unlock ng Savory Pastry</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-86",
+                    "title": "Cookingdom Antas 86 Mousse Cake Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_86.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-86"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Antas 88 Apple Pie Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Pangkalahatang-ideya ng Antas</h2>
+            <p>Ang Cookingdom Antas 87 ay hinahamon ang mga manlalaro na gumawa ng Pirozhki, isang tradisyunal na pastriyang may palaman. Kinakailangan ng antas na maingat na i-roll ang dough, pantay na ilagay ang palaman, at maayos na i-fold ang bawat pastriya. Ang baking ay dapat na eksaktong naka-timing upang makamit ang ginintuang crust nang hindi overcooking ang palaman. Ang tamang pagsunod sa bawat hakbang ay nagsisiguro ng mataas na iskor at nagbubukas ng gantimpalang savory pastry.</p>
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-88",
+        "title": "Cookingdom Antas 88 Apple Pie Solusyon at Walkthrough",
+        "pageTitle": "Cookingdom Antas 88 Apple Pie Solusyon at Walkthrough",
+        "pageSubtitle": "Maghurno ng perpektong gintong apple pie sa Cookingdom Antas 88. Ang gabay na ito ay nagpapakita ng bawat hakbang mula sa paghahanda ng crust, pag-aayos ng palaman, hanggang sa maayos na pagkakaluto ng pie.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_88.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-88"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/06ERPR6v5Oc",
+        "seo": {
+            "title": "Cookingdom Antas 88 Apple Pie Solusyon at Mga Tips",
+            "description": "Sundan ang step-by-step na gabay na ito upang maging dalubhasa sa paggawa ng Apple Pie sa Cookingdom Antas 88. Ihanda ang crust, hiwain at timplahan ang mga mansanas, buuin ang pie, at ihurno nang perpekto.",
+            "keywords": "cookingdom antas 88, apple pie, recipe ng dessert, pie crust, tips cookingdom, baked dessert"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_88.webp",
+            "levelInfoHtml": "<h3>Apple Pie</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 10–12 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pag-unlock ng Classic Dessert</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-87",
+                    "title": "Cookingdom Antas 87 Pirozhki Solusyon at Walkthrough",
+                    "imageUrl": "/images/guides_87.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-87"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+            <h2>Pangkalahatang-ideya ng Antas</h2>
+            <p>Ang Cookingdom Antas 88 ay hinahamon ang mga manlalaro na gumawa ng klasikong apple pie. Magsimula sa paghahanda ng buttery pie crust at i-roll ito nang pantay. Pagkatapos, hiwain at timplahan ang mga mansanas gamit ang asukal at pampalasa, at maingat na ilagay sa crust. Takpan gamit ang top crust, pitpitin ang mga gilid, at i-bake hanggang sa maging gintong kayumanggi. Ang pagtuon sa detalye ay tinitiyak na ang pie ay parehong kaaya-ayang tingnan at masarap, na magpapataas ng score at magbubukas ng gantimpalang dessert.</p>
+        `
     }
+
+
+
+
 
 
 
