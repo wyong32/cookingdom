@@ -40,14 +40,6 @@ const { guides, isLoading: guidesLoading, error: guidesError, load: loadGuidesDa
 // 最新关卡数据 (最后5个关卡)
 const latestLevels = ref([
   {
-    id: 'cookingdom-game-level-84',
-    titleKey: 'home.hero.latestLevels.level84',
-  },
-  {
-    id: 'cookingdom-game-level-85',
-    titleKey: 'home.hero.latestLevels.level85',
-  },
-  {
     id: 'cookingdom-game-level-86',
     titleKey: 'home.hero.latestLevels.level86',
   },
@@ -58,6 +50,14 @@ const latestLevels = ref([
   {
     id: 'cookingdom-game-level-88',
     titleKey: 'home.hero.latestLevels.level88',
+  },
+  {
+    id: 'cookingdom-game-level-89',
+    titleKey: 'home.hero.latestLevels.level89',
+  },
+  {
+    id: 'cookingdom-game-level-90',
+    titleKey: 'home.hero.latestLevels.level90',
   },
 ])
 

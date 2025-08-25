@@ -400,7 +400,112 @@ export const levels81to90 = [
             <h2>Pangkalahatang-ideya ng Antas</h2>
             <p>Ang Cookingdom Antas 88 ay hinahamon ang mga manlalaro na gumawa ng klasikong apple pie. Magsimula sa paghahanda ng buttery pie crust at i-roll ito nang pantay. Pagkatapos, hiwain at timplahan ang mga mansanas gamit ang asukal at pampalasa, at maingat na ilagay sa crust. Takpan gamit ang top crust, pitpitin ang mga gilid, at i-bake hanggang sa maging gintong kayumanggi. Ang pagtuon sa detalye ay tinitiyak na ang pie ay parehong kaaya-ayang tingnan at masarap, na magpapataas ng score at magbubukas ng gantimpalang dessert.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-89",
+        "title": "Cookingdom Antas 89 Solusyon sa Tiramisu",
+        "pageTitle": "Cookingdom Antas 89 Solusyon sa Tiramisu",
+        "pageSubtitle": "Matutunan kung paano gumawa ng eleganteng tiramisu sa Cookingdom Antas 89 na may magkakaibang layers ng lasa at malasutlang texture.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_89.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-89"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/sSCpbFBgRhQ",
+        "seo": {
+            "title": "Cookingdom Antas 89 Solusyon at Mga Tip sa Tiramisu",
+            "description": "Alamin kung paano malampasan ang Cookingdom Antas 89 Tiramisu. Magpokus sa balanse, maayos na layering, at magandang presentasyon upang makuha ang pinakamataas na score at i-unlock ang mga gantimpala.",
+            "keywords": "cookingdom antas 89, tiramisu, mascarpone, ladyfingers, espresso dessert, cookingdom tips"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_89.webp",
+            "levelInfoHtml": "<h3>Tiramisu</h3><p><strong>Hirap:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 8–10 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pag-unlock ng Espresso Dessert</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Antas 88 Solusyon sa Apple Pie",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-90",
+                    "title": "Cookingdom Antas 90 Solusyon sa Pumpkin Soup",
+                    "imageUrl": "/images/guides_90.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-90"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Pangkalahatang-ideya ng Antas</h2>
+          <p>Ang Cookingdom Antas 89 ay tampok ang tiramisu, isang dessert na binibigyang-diin ang balanse, elegansya, at malasutlang texture. Ang antas na ito ay nakatuon sa presentasyon at katumpakan kaysa sa bilis. Ang mga manlalaro na nagpapanatili ng maayos na layers at kaakit-akit na resulta ay makakakuha ng gantimpala.</p>
+    
+          <img src="/images/guides_89_01.webp" alt="Preview ng Tiramisu sa Cookingdom Antas 89" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-90",
+        "title": "Cookingdom Antas 90 Solusyon sa Pumpkin Soup",
+        "pageTitle": "Cookingdom Antas 90 Solusyon sa Pumpkin Soup",
+        "pageSubtitle": "Gumawa ng malasutlang pumpkin soup na may balanseng pampalasa at makinis na texture upang mapagtagumpayan ang Antas 90.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_90.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-90"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/eJ2UnBkZrlQ",
+        "seo": {
+            "title": "Cookingdom Antas 90 Pumpkin Soup: Gabay at Mga Tip",
+            "description": "Alamin kung paano ma-master ang Cookingdom Antas 90 Pumpkin Soup. Sikaping makamit ang malasutlang texture, balanseng pampalasa, at maayos na presentasyon upang makuha ang pinakamataas na puntos.",
+            "keywords": "cookingdom antas 90, pumpkin soup, recipe ng soup, creamy pumpkin, cookingdom tips"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_90.webp",
+            "levelInfoHtml": "<h3>Pumpkin Soup</h3><p><strong>Kahirapan:</strong> Katamtaman</p><p><strong>Tinatayang Oras:</strong> 7–9 minuto</p><p><strong>Gantimpala:</strong> 3 Bituin + Pag-unlock ng Seasonal Soup</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-89",
+                    "title": "Cookingdom Antas 89 Solusyon sa Tiramisu",
+                    "imageUrl": "/images/guides_89.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-89"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Pangkalahatang-ideya ng Antas</h2>
+          <p>Ang Cookingdom Antas 90 ay nakatuon sa paghahanda ng makinis at masarap na pumpkin soup. Ang antas na ito ay nagbibigay ng gantimpala sa mga manlalaro na nakakamit ng malasutlang texture, balanseng pampalasa, at maayos na plating. Ang pokus ay nasa balanse — ang labis na pampalasa o hindi pantay na paghahalo ay makababawas sa kabuuang puntos.</p>
+    
+          <img src="/images/guides_90_01.webp" alt="Preview ng Pumpkin Soup sa Cookingdom Antas 90" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
     }
+
+
 
 
 

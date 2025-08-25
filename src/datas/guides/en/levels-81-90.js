@@ -413,6 +413,17 @@ export const levels81to90 = [
                             "id": "cookingdom-game-level-87"
                         }
                     }
+                },
+                {
+                    "id": "cookingdom-game-level-89",
+                    "title": "Cookingdom Level 89 Tiramisu Solution Walkthrough",
+                    "imageUrl": "/images/guides_89.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-89"
+                        }
+                    }
                 }
             ]
         },
@@ -420,7 +431,113 @@ export const levels81to90 = [
             <h2>Level Overview</h2>
             <p>Cookingdom Level 88 tasks players with creating a classic apple pie. Start by preparing the buttery pie crust and rolling it evenly. Next, slice and season the apples with sugar and spices, then layer them carefully within the crust. Cover with a top crust, crimp the edges, and bake to a golden brown. Attention to detail ensures the pie is both visually appealing and delicious, maximizing your score and unlocking the dessert reward.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-89",
+        "title": "Cookingdom Level 89 Tiramisu Solution Walkthrough",
+        "pageTitle": "Cookingdom Level 89 Tiramisu Solution Walkthrough",
+        "pageSubtitle": "Learn how to prepare the elegant tiramisu in Cookingdom Level 89 with layered flavors and smooth textures.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_89.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-89"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/sSCpbFBgRhQ",
+        "seo": {
+            "title": "Cookingdom Level 89 Tiramisu Solution Walkthrough & Tips",
+            "description": "Discover how to beat Cookingdom Level 89 Tiramisu. Focus on balance, neat layering, and presentation to maximize your score and unlock rewards.",
+            "keywords": "cookingdom level 89, tiramisu, mascarpone, ladyfingers, espresso dessert, cookingdom tips"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_89.webp",
+            "levelInfoHtml": "<h3>Tiramisu</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 8–10 minutes</p><p><strong>Reward:</strong> 3 Stars + Espresso Dessert Unlock</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Level 88 Apple Pie Solution Walkthrough",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-90",
+                    "title": "Cookingdom Level 90 Pumpkin Soup Solution Walkthrough",
+                    "imageUrl": "/images/guides_90.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-90"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Level Overview</h2>
+          <p>Cookingdom Level 89 features tiramisu, a dessert that highlights balance, elegance, and smooth textures. This stage emphasizes presentation and precision rather than speed, rewarding players who maintain clean layers and visually appealing results.</p>
+      
+          <img src="/images/guides_89_01.webp" alt="Cookingdom Level 89 Tiramisu Preview" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-90",
+        "title": "Cookingdom Level 90 Pumpkin Soup Solution Walkthrough",
+        "pageTitle": "Cookingdom Level 90 Pumpkin Soup Solution Walkthrough",
+        "pageSubtitle": "Create a velvety pumpkin soup with balanced seasoning and smooth texture to conquer Level 90.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_90.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-90"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/eJ2UnBkZrlQ",
+        "seo": {
+            "title": "Cookingdom Level 90 Pumpkin Soup Walkthrough & Tips",
+            "description": "Learn how to master Cookingdom Level 90 Pumpkin Soup. Aim for silky texture, balanced seasoning, and clean presentation to maximize score.",
+            "keywords": "cookingdom level 90, pumpkin soup, soup recipe, creamy pumpkin, cookingdom tips"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_90.webp",
+            "levelInfoHtml": "<h3>Pumpkin Soup</h3><p><strong>Difficulty:</strong> Medium</p><p><strong>Est. Time:</strong> 7–9 minutes</p><p><strong>Reward:</strong> 3 Stars + Seasonal Soup Unlock</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-89",
+                    "title": "Cookingdom Level 89 Tiramisu Solution Walkthrough",
+                    "imageUrl": "/images/guides_89.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-89"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Level Overview</h2>
+          <p>Cookingdom Level 90 centers on preparing a smooth, flavorful pumpkin soup. The stage rewards players for achieving a silky texture, consistent seasoning, and tidy plating. Emphasis is placed on balance — too much spice or uneven blending will reduce overall score.</p>
+      
+          <img src="/images/guides_90_01.webp" alt="Cookingdom Level 90 Pumpkin Soup Preview" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
     }
+
+
+
 
 
 

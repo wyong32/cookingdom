@@ -400,7 +400,112 @@ export const levels81to90 = [
             <h2>Gambaran Tahap</h2>
             <p>Cookingdom Tahap 88 mencabar pemain untuk menyediakan pai epal klasik. Mulakan dengan menyediakan kulit pai yang bermentega dan canai secara rata. Seterusnya, hiris dan perasakan epal dengan gula dan rempah, kemudian susun dengan rapi dalam kulit pai. Tutup dengan lapisan atas, tekan tepi, dan bakar sehingga keemasan. Perhatian terhadap butiran memastikan pai bukan sahaja cantik dipandang tetapi juga lazat, memaksimumkan skor dan membuka ganjaran pencuci mulut.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-89",
+        "title": "Cookingdom Tahap 89 Penyelesaian Tiramisu",
+        "pageTitle": "Cookingdom Tahap 89 Penyelesaian Tiramisu",
+        "pageSubtitle": "Belajar cara menyediakan tiramisu yang elegan dalam Cookingdom Tahap 89 dengan lapisan rasa yang seimbang dan tekstur yang lembut.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_89.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-89"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/sSCpbFBgRhQ",
+        "seo": {
+            "title": "Cookingdom Tahap 89 Penyelesaian & Tips Tiramisu",
+            "description": "Ketahui cara untuk menamatkan Cookingdom Tahap 89 Tiramisu. Fokus pada keseimbangan, susunan lapisan yang kemas, dan persembahan untuk memaksimumkan skor dan membuka ganjaran.",
+            "keywords": "cookingdom tahap 89, tiramisu, mascarpone, biskut ladyfinger, pencuci mulut espresso, tips cookingdom"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_89.webp",
+            "levelInfoHtml": "<h3>Tiramisu</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 8–10 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Pencuci Mulut Espresso Terbuka</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Tahap 88 Penyelesaian Pai Epal",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-90",
+                    "title": "Cookingdom Tahap 90 Penyelesaian Sup Labu",
+                    "imageUrl": "/images/guides_90.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-90"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Gambaran Tahap</h2>
+          <p>Cookingdom Tahap 89 menampilkan tiramisu, pencuci mulut yang menekankan keseimbangan, keanggunan, dan tekstur lembut. Peringkat ini memberi penekanan pada persembahan dan ketepatan, bukan kelajuan. Pemain yang mengekalkan lapisan yang kemas dan hasil yang menarik secara visual akan diberi ganjaran.</p>
+    
+          <img src="/images/guides_89_01.webp" alt="Pratonton Tiramisu Cookingdom Tahap 89" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-90",
+        "title": "Cookingdom Tahap 90 Penyelesaian Sup Labu",
+        "pageTitle": "Cookingdom Tahap 90 Penyelesaian Sup Labu",
+        "pageSubtitle": "Cipta sup labu yang lembut dengan perasa seimbang dan tekstur licin untuk menakluk Tahap 90.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_90.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-90"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/eJ2UnBkZrlQ",
+        "seo": {
+            "title": "Cookingdom Tahap 90 Sup Labu: Panduan & Tips",
+            "description": "Ketahui cara menguasai Cookingdom Tahap 90 Sup Labu. Sasarkan tekstur yang licin, perasa yang seimbang, dan persembahan yang kemas untuk memaksimumkan skor.",
+            "keywords": "cookingdom tahap 90, sup labu, resipi sup, labu berkrim, tips cookingdom"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_90.webp",
+            "levelInfoHtml": "<h3>Sup Labu</h3><p><strong>Kesukaran:</strong> Sederhana</p><p><strong>Anggaran Masa:</strong> 7–9 minit</p><p><strong>Ganjaran:</strong> 3 Bintang + Sup Bermusim Terbuka</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-89",
+                    "title": "Cookingdom Tahap 89 Penyelesaian Tiramisu",
+                    "imageUrl": "/images/guides_89.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-89"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Gambaran Tahap</h2>
+          <p>Cookingdom Tahap 90 menumpukan pada penyediaan sup labu yang licin dan penuh rasa. Tahap ini memberi ganjaran kepada pemain yang mencapai tekstur licin, perasa yang konsisten, dan susunan yang kemas. Penekanan diberikan pada keseimbangan — terlalu banyak rempah atau pencampuran yang tidak sekata akan mengurangkan skor keseluruhan.</p>
+    
+          <img src="/images/guides_90_01.webp" alt="Pratonton Sup Labu Cookingdom Tahap 90" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
     }
+
+
 
 
 

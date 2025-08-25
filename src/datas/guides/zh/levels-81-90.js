@@ -400,7 +400,112 @@ export const levels81to90 = [
             <h2>关卡概览</h2>
             <p>Cookingdom 第88关要求玩家制作经典苹果派。首先准备黄油派皮并均匀擀开。接着将苹果切片并加入糖和香料调味，然后小心地铺入派皮中。覆盖顶层派皮，捏紧边缘，烘烤至金黄。注意细节可以确保派既美观又美味，最大化得分并解锁甜点奖励。</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-89",
+        "title": "Cookingdom 第89关 提拉米苏通关攻略",
+        "pageTitle": "Cookingdom 第89关 提拉米苏通关攻略",
+        "pageSubtitle": "学习如何在 Cookingdom 第89关制作优雅的提拉米苏，感受层次丰富的风味与丝滑的口感。",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_89.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-89"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/sSCpbFBgRhQ",
+        "seo": {
+            "title": "Cookingdom 第89关 提拉米苏通关攻略与技巧",
+            "description": "了解如何通关 Cookingdom 第89关 提拉米苏。专注于层次平衡、整齐堆叠和美观呈现，以获得最高分并解锁奖励。",
+            "keywords": "cookingdom 第89关, 提拉米苏, 马斯卡彭, 手指饼干, 浓缩咖啡甜点, cookingdom 技巧"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_89.webp",
+            "levelInfoHtml": "<h3>提拉米苏</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>8–10 分钟</p><p><strong>奖励：</strong>3 星 + 浓缩咖啡甜点解锁</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom 第88关 苹果派通关攻略",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-90",
+                    "title": "Cookingdom 第90关 南瓜汤通关攻略",
+                    "imageUrl": "/images/guides_90.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-90"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>关卡概览</h2>
+          <p>Cookingdom 第89关的主题是提拉米苏，这是一款强调平衡、优雅与丝滑口感的甜点。本关更注重摆盘与精确操作，而不是速度。保持分层整齐、视觉美观的玩家将获得更高奖励。</p>
+    
+          <img src="/images/guides_89_01.webp" alt="Cookingdom 第89关 提拉米苏预览" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-90",
+        "title": "Cookingdom 第90关 南瓜汤通关攻略",
+        "pageTitle": "Cookingdom 第90关 南瓜汤通关攻略",
+        "pageSubtitle": "制作丝滑南瓜汤，掌握平衡调味和顺滑口感，轻松征服第90关。",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_90.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-90"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/eJ2UnBkZrlQ",
+        "seo": {
+            "title": "Cookingdom 第90关 南瓜汤通关攻略与技巧",
+            "description": "了解如何掌握 Cookingdom 第90关 南瓜汤。追求丝滑口感、均衡调味和整洁摆盘，以获得最高分数。",
+            "keywords": "cookingdom 第90关, 南瓜汤, 汤食谱, 奶油南瓜, cookingdom 技巧"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_90.webp",
+            "levelInfoHtml": "<h3>南瓜汤</h3><p><strong>难度：</strong>中等</p><p><strong>预计时间：</strong>7–9 分钟</p><p><strong>奖励：</strong>3 星 + 季节性汤解锁</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-89",
+                    "title": "Cookingdom 第89关 提拉米苏通关攻略",
+                    "imageUrl": "/images/guides_89.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-89"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>关卡概览</h2>
+          <p>Cookingdom 第90关的主题是制作顺滑、风味丰富的南瓜汤。本关奖励那些能够实现丝滑口感、均匀调味和整洁摆盘的玩家。重点在于平衡——过多的香料或混合不均都会降低总分。</p>
+    
+          <img src="/images/guides_90_01.webp" alt="Cookingdom 第90关 南瓜汤预览" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
     }
+
+
 
 
 

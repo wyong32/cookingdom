@@ -400,7 +400,112 @@ export const levels81to90 = [
             <h2>Обзор уровня</h2>
             <p>В Cookingdom Уровень 88 игрокам предлагается приготовить классический яблочный пирог. Начните с подготовки масляного теста и равномерного его раскатывания. Затем нарежьте яблоки, добавьте сахар и специи, и аккуратно уложите их в тесто. Накройте верхним слоем теста, защипните края и выпекайте до золотистой корочки. Внимание к деталям обеспечивает красивый и вкусный пирог, максимизирует ваш результат и открывает награду — десерт.</p>
         `
+    },
+
+    {
+        "id": "cookingdom-game-level-89",
+        "title": "Cookingdom Уровень 89 Решение Тирамису",
+        "pageTitle": "Cookingdom Уровень 89 Решение Тирамису",
+        "pageSubtitle": "Узнайте, как приготовить изысканный тирамису на уровне 89 в Cookingdom с многослойными вкусами и нежной текстурой.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_89.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-89"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/sSCpbFBgRhQ",
+        "seo": {
+            "title": "Cookingdom Уровень 89 Решение Тирамису и Советы",
+            "description": "Узнайте, как пройти Cookingdom Уровень 89 Тирамису. Сосредоточьтесь на балансе, аккуратной укладке слоев и красивой подаче, чтобы набрать максимум очков и открыть награды.",
+            "keywords": "cookingdom уровень 89, тирамису, маскарпоне, савоярди, десерт с эспрессо, советы cookingdom"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_89.webp",
+            "levelInfoHtml": "<h3>Тирамису</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 8–10 минут</p><p><strong>Награда:</strong> 3 звезды + Разблокировка десерта Эспрессо</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-88",
+                    "title": "Cookingdom Уровень 88 Решение Яблочного Пирога",
+                    "imageUrl": "/images/guides_88.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-88"
+                        }
+                    }
+                },
+                {
+                    "id": "cookingdom-game-level-90",
+                    "title": "Cookingdom Уровень 90 Решение Тыквенного Супа",
+                    "imageUrl": "/images/guides_90.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-90"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Обзор уровня</h2>
+          <p>Cookingdom Уровень 89 посвящен тирамису — десерту, который подчеркивает баланс, элегантность и нежную текстуру. Этот этап делает акцент на подаче и точности, а не на скорости. Игроки, которые сохраняют аккуратные слои и привлекательный внешний вид, будут вознаграждены.</p>
+    
+          <img src="/images/guides_89_01.webp" alt="Cookingdom Уровень 89 Тирамису Превью" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
+    },
+
+    {
+        "id": "cookingdom-game-level-90",
+        "title": "Cookingdom Уровень 90 Решение Тыквенного Супа",
+        "pageTitle": "Cookingdom Уровень 90 Решение Тыквенного Супа",
+        "pageSubtitle": "Приготовьте бархатистый тыквенный суп с сбалансированными специями и нежной текстурой, чтобы пройти Уровень 90.",
+        "category": "81-90",
+        "publishDate": "2025-08-25",
+        "isSpecial": true,
+        "imageUrl": "/images/guides_90.webp",
+        "detailsRoute": {
+            "name": "guide-detail",
+            "params": {
+                "id": "cookingdom-game-level-90"
+            }
+        },
+        "iframeUrl": "https://www.youtube.com/embed/eJ2UnBkZrlQ",
+        "seo": {
+            "title": "Cookingdom Уровень 90 Тыквенный Суп: Руководство и Советы",
+            "description": "Узнайте, как освоить Cookingdom Уровень 90 с тыквенным супом. Стремитесь к шелковистой текстуре, сбалансированным специям и аккуратной подаче, чтобы получить максимальный балл.",
+            "keywords": "cookingdom уровень 90, тыквенный суп, рецепт супа, кремовый тыквенный, советы cookingdom"
+        },
+        "sidebarData": {
+            "sidebarImageUrl": "/images/guides_90.webp",
+            "levelInfoHtml": "<h3>Тыквенный Суп</h3><p><strong>Сложность:</strong> Средняя</p><p><strong>Примерное время:</strong> 7–9 минут</p><p><strong>Награда:</strong> 3 звезды + Разблокировка сезонного супа</p>",
+            "featuredGuides": [
+                {
+                    "id": "cookingdom-game-level-89",
+                    "title": "Cookingdom Уровень 89 Решение Тирамису",
+                    "imageUrl": "/images/guides_89.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-89"
+                        }
+                    }
+                }
+            ]
+        },
+        "detailsHtml": `
+          <h2>Обзор уровня</h2>
+          <p>Cookingdom Уровень 90 сосредоточен на приготовлении гладкого, ароматного тыквенного супа. Этап вознаграждает игроков за достижение шелковистой текстуры, равномерного приправления и аккуратной подачи. Основное внимание уделяется балансу — слишком много специй или неравномерное смешивание снизят общий балл.</p>
+    
+          <img src="/images/guides_90_01.webp" alt="Cookingdom Уровень 90 Тыквенный Суп Превью" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
+        `
     }
+
+
 
 
 
