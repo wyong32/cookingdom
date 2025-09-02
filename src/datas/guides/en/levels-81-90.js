@@ -525,6 +525,17 @@ export const levels81to90 = [
                             "id": "cookingdom-game-level-89"
                         }
                     }
+                },
+                {
+                    "id": "cookingdom-game-level-91",
+                    "title": "Cookingdom Level 91 Salmon Sushi Solution Walkthrough",
+                    "imageUrl": "/images/guides_91.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-91"
+                        }
+                    }
                 }
             ]
         },
@@ -535,12 +546,5 @@ export const levels81to90 = [
           <img src="/images/guides_90_01.webp" alt="Cookingdom Level 90 Pumpkin Soup Preview" loading="lazy" style="max-width:100%;height:auto;border-radius:12px;margin:12px 0;" />
         `
     }
-
-
-
-
-
-
-
 
 ]

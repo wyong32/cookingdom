@@ -15,7 +15,7 @@ const loadGuideIds = () => {
   const ids = new Set()
   const guidesDir = fileURLToPath(new URL('./src/datas/guides', import.meta.url))
   const languages = ['en', 'zh', 'ru', 'fil', 'ms']
-  const levelRanges = ['01-10', '11-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-80', '81-90']
+  const levelRanges = ['01-10', '11-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-80', '81-90', '91-100']
 
   languages.forEach((lang) => {
     levelRanges.forEach((range) => {

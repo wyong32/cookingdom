@@ -16,6 +16,7 @@ export function getLevelRanges() {
     { range: '61-70', exportName: 'levels61to70', start: 61, end: 70 },
     { range: '71-80', exportName: 'levels71to80', start: 71, end: 80 },
     { range: '81-90', exportName: 'levels81to90', start: 81, end: 90 },
+    { range: '91-100', exportName: 'levels91to100', start: 91, end: 100 },
   ]
 }
 

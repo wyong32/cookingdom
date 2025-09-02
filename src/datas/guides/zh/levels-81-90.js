@@ -494,6 +494,17 @@ export const levels81to90 = [
                             "id": "cookingdom-game-level-89"
                         }
                     }
+                },
+                {
+                    "id": "cookingdom-game-level-91",
+                    "title": "Cookingdom 第91关 糯米糍通关攻略",
+                    "imageUrl": "/images/guides_91.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-91"
+                        }
+                    }
                 }
             ]
         },

@@ -57,11 +57,11 @@
       "description": "Your essential companion for mastering the Cookingdom game ✨ Access our detailed Cookingdom Level Walkthrough Guides, simple cheats, and video walkthroughs.",
       "latestLevels": {
         "title": "🔥 Latest level update",
-        "level86": "Cookingdom Level 86 Mousse Cake Solution Walkthrough",
         "level87": "Cookingdom Level 87 Pirozhki Solution Walkthrough",
         "level88": "Cookingdom Level 88 Apple Pie Solution Walkthrough",
         "level89": "Cookingdom Level 89 Tiramisu Solution Walkthrough",
-        "level90": "Cookingdom Level 90 Pumpkin Soup Solution Walkthrough"
+        "level90": "Cookingdom Level 90 Pumpkin Soup Solution Walkthrough",
+        "level91": "Cookingdom Level 91 Sticky Rice with Lotus Seeds Solution Walkthrough"
       },
       "button": {
         "viewGuides": "View Cookingdom Walkthrough Guides",
@@ -222,7 +222,8 @@
       "levels51_60": "Levels 51-60",
       "levels61_70": "Levels 61-70",
       "levels71_80": "Levels 71-80",
-      "levels81_90": "Levels 81-90"
+      "levels81_90": "Levels 81-90",
+      "levels91_100": "Levels 91-100"
     },
     "noGuidesAvailable": "No guides available for this category yet.",
     "invalidGuideId": "No guide ID specified."

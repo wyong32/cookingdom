@@ -494,6 +494,17 @@ export const levels81to90 = [
                             "id": "cookingdom-game-level-89"
                         }
                     }
+                },
+                {
+                    "id": "cookingdom-game-level-91",
+                    "title": "Cookingdom Antas 91 Solusyon sa Malagkit na Kanin na may Buto ng Loto",
+                    "imageUrl": "/images/guides_91.webp",
+                    "detailsRoute": {
+                        "name": "guide-detail",
+                        "params": {
+                            "id": "cookingdom-game-level-91"
+                        }
+                    }
                 }
             ]
         },

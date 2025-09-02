@@ -57,11 +57,11 @@
       "description": "Teman penting anda untuk menguasai permainan Cookingdom ✨ Akses Panduan Lengkap Semua Tahap Cookingdom, cheat mudah, dan panduan video.",
       "latestLevels": {
         "title": "🔥 Kemas kini peringkat terkini",
-        "level86": "Cookingdom Tahap 86 Kek Mousse Penyelesaian & Panduan",
         "level87": "Cookingdom Tahap 87 Pirozhki Penyelesaian & Panduan",
         "level88": "Cookingdom Tahap 88 Pai Epal Penyelesaian & Panduan",
         "level89": "Cookingdom Tahap 89 Penyelesaian Tiramisu",
-        "level90": "Cookingdom Tahap 90 Penyelesaian Sup Labu"
+        "level90": "Cookingdom Tahap 90 Penyelesaian Sup Labu",
+        "level91": "Cookingdom Tahap 91 Pulut dengan Biji Teratai — Penyelesaian & Panduan"
       },
       "button": {
         "viewGuides": "Lihat Panduan Permainan Cookingdom",
@@ -219,7 +219,8 @@
       "levels51_60": "Tahap 51-60",
       "levels61_70": "Tahap 61-70",
       "levels71_80": "Tahap 71-80",
-      "levels81_90": "Tahap 81-90"
+      "levels81_90": "Tahap 81-90",
+      "levels91_100": "Tahap 91-100"
     },
     "noGuidesAvailable": "Tiada panduan tersedia untuk kategori ini.",
     "invalidGuideId": "ID panduan tidak ditentukan."
