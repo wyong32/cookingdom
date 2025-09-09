@@ -52,7 +52,7 @@
         <a
           v-for="(guide, index) in filteredGuides"
           :key="guide.id"
-          :href="guide.routeObject"
+          :href="generateGuideUrl(guide)"
           class="guide-card image-card"
         >
           <div class="guide-image-placeholder">
@@ -82,7 +82,7 @@
 <script setup>
 // Import ref, computed, and defineProps from Vue
 import { ref, computed, defineProps } from 'vue'
-import { RouterLink, useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 
 // 定义 props
 const props = defineProps({
@@ -103,8 +103,23 @@ const props = defineProps({
   },
 })
 
-// 获取当前路由
+// 获取当前路由和路由器实例
 const route = useRoute()
+const router = useRouter()
+
+// 生成攻略链接的 URL 路径
+const generateGuideUrl = (guide) => {
+  if (!guide.routeObject) return '#'
+
+  try {
+    // 使用 router.resolve 将路由对象转换为 URL
+    const resolved = router.resolve(guide.routeObject)
+    return resolved.href
+  } catch (error) {
+    console.error('Error generating guide URL:', error)
+    return '#'
+  }
+}
 
 // 使用localStorage存储和恢复tab状态
 const STORAGE_KEY = 'cookingdom-active-tab'
