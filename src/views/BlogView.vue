@@ -71,7 +71,7 @@ onMounted(() => {
 
         <div v-else-if="blogPosts.length > 0" class="blog-post-list">
           <article v-for="post in blogPosts" :key="post.id" class="blog-post-card">
-            <RouterLink :to="{ name: 'blog-detail', params: { id: post.id } }" class="post-link">
+            <a :href="{ name: 'blog-detail', params: { id: post.id } }" class="post-link">
               <img
                 v-if="post.imageUrl"
                 :src="post.imageUrl"
@@ -84,7 +84,7 @@ onMounted(() => {
                 <!-- 可以在这里显示摘要 (如果之后加回 excerpt 字段) -->
                 <!-- <p class="post-excerpt">{{ post.excerpt }}</p> -->
               </div>
-            </RouterLink>
+            </a>
           </article>
         </div>
 

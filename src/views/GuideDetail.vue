@@ -167,7 +167,7 @@
       <div v-else-if="!guideId" class="loading-or-not-found">
         <p>
           {{ t('guide.invalidGuideId', 'No guide ID specified.') }}
-          <RouterLink :to="{ name: 'guides' }">Back to Guides</RouterLink>
+          <a :href="{ name: 'guides' }">Back to Guides</a>
         </p>
       </div>
     </div>

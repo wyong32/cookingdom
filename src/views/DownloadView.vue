@@ -107,12 +107,12 @@ onMounted(() => {
                 <!-- <div class="download-meta">
                   <span class="file-type">{{ $t('downloadView.modCard.meta.type') }}</span>
                 </div> -->
-                <RouterLink
-                  :to="{ name: 'mod-download' }"
+                <a
+                  :href="{ name: 'mod-download' }"
                   class="btn btn-download btn-secondary-style"
                 >
                   {{ $t('home.downloads.modCard.button') }}
-                </RouterLink>
+                </a>
               </div>
             </div>
             <div class="disclaimer-section">

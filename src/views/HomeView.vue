@@ -201,12 +201,12 @@ onMounted(() => {
                 <h3>{{ $t('home.hero.latestLevels.title') }}</h3>
                 <ul class="latest-levels-list">
                   <li v-for="level in latestLevels" :key="level.id">
-                    <RouterLink
-                      :to="getLocalizedRoute('guide-detail', { id: level.id })"
+                    <a
+                      :href="getLocalizedRoute('guide-detail', { id: level.id })"
                       class="level-link"
                     >
                       {{ $t(level.titleKey) }}
-                    </RouterLink>
+                    </a>
                   </li>
                 </ul>
               </div>

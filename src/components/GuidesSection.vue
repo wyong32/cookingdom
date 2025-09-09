@@ -49,10 +49,10 @@
         {{ $t('guides.loadingError', { error: props.error }) }}
       </div>
       <div v-else-if="filteredGuides.length > 0" class="guides-grid image-grid">
-        <router-link
+        <a
           v-for="(guide, index) in filteredGuides"
           :key="guide.id"
-          :to="guide.routeObject"
+          :href="guide.routeObject"
           class="guide-card image-card"
         >
           <div class="guide-image-placeholder">
@@ -69,7 +69,7 @@
           <div class="guide-content">
             <h3 v-html="guide.title"></h3>
           </div>
-        </router-link>
+        </a>
       </div>
       <!-- 显示无结果消息 (现在在 v-else-if 外部) -->
       <p v-else-if="!props.isLoading && filteredGuides.length === 0">

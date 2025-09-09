@@ -29,81 +29,22 @@ function getLocalizedRoute(name, params = {}) {
         <div class="footer-about">
           <h3>{{ t('footer.about.title') }}</h3>
           <p>{{ t('footer.about.description') }}</p>
-          <!-- <div class="social-icons">
-            <a href="https://www.indiehackers.com/kadiyamobi" target="_blank">
-              <img src="/images/icon/indiehackers-icon.webp" alt="indiehackers" srcset="" />
-            </a>
-            <a
-              href="https://share.evernote.com/note/86753e2a-b043-a5c1-4e0a-08315105d166"
-              target="_blank"
-            >
-              <img src="/images/icon/evernote-icon.svg" alt="evernote" srcset="" />
-            </a>
-            <a
-              href="https://www.notion.so/Cookingdom-Walkthrough-Guides-1c27ae35635d80b08283f09ace67d789"
-              target="_blank"
-            >
-              <img src="/images/icon/notion-icon.ico" alt="notion" srcset="" />
-            </a>
-            <a
-              href="https://ko-fi.com/post/Cookingdom-Game-Complete-Walkthrough-Guides-O5O11EKTVN"
-              target="_blank"
-            >
-              <img src="/images/icon/ko-fi-icon.webp" alt="ko-fi" srcset="" />
-            </a>
-            <a
-              href="https://cookingdom1.substack.com/p/cookingdom-game-complete-walkthrough"
-              target="_blank"
-            >
-              <img src="/images/icon/substack-icon.ico" alt="substackcdn" srcset="" />
-            </a>
-            <a href="https://wenyong3.gumroad.com/l/cookingdom-co" target="_blank">
-              <img src="/images/icon/gumroad-icon.webp" alt="gumroad" srcset="" />
-            </a>
-            <a
-              href="https://cookingdom.podia.com/blog/80838bc3-8e1c-4225-9134-cdae7d1b8607"
-              target="_blank"
-            >
-              <img src="/images/icon/podia-icon.ico" alt="podia" srcset="" />
-            </a>
-            <a href="https://jimmy11.kit.com/159110e0c4" target="_blank">
-              <img src="/images/icon/kit-icon.png" alt="kit" srcset="" />
-            </a>
-            <a href="https://www.patreon.com/posts/cookingdom-all-129750664" target="_blank">
-              <img src="/images/icon/patreon-icon.png" alt="patreon" srcset="" />
-            </a>
-            <a href="https://www.pinterest.com/wenyong3124/cookingdomco" target="_blank">
-              <img src="/images/icon/pinterest-icon.png" alt="pinterest" srcset="" />
-            </a>
-            <a href="https://cal.com/wen-yong-ykijtw" target="_blank">
-              <img src="/images/icon/cal-icon.png" alt="cal" srcset="" />
-            </a>
-            <a href="https://linktr.ee/Cookingdom" target="_blank">
-              <img src="/images/icon/linktr-icon.png" alt="linktr" srcset="" />
-            </a>
-            <a
-              href="https://jmmiy.micro.blog/2025/05/26/cookingdom-game-complete-walkthrough-guides.html"
-              target="_blank"
-            >
-              <img src="/images/icon/micro-icon.png" alt="jmmiy" srcset="" />
-            </a>
-          </div> -->
         </div>
         <div class="footer-links">
           <div class="link-column">
             <h4>{{ t('footer.links.quickNav.title') }}</h4>
             <ul>
               <li>
-                <RouterLink :to="getLocalizedRoute('home')">{{ t('nav.home') }}</RouterLink>
+                <a :href="getLocalizedRoute('home')">{{ t('nav.home') }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('guides')">{{ t('nav.guides') }}</RouterLink>
+                <a :href="getLocalizedRoute('guides')">{{ t('nav.guides') }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('blog')">{{ t('nav.blog') }}</RouterLink>
+                <a :href="getLocalizedRoute('blog')">{{ t('nav.blog') }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('download')">{{ t('nav.download') }}</RouterLink>
+                <a :href="getLocalizedRoute('download')">{{ t('nav.download') }}</a>
               </li>
             </ul>
           </div>
@@ -111,27 +52,27 @@ function getLocalizedRoute(name, params = {}) {
             <h4>{{ t('footer.links.popularLevels.title') }}</h4>
             <ul>
               <li>
-                <RouterLink
-                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-5' })"
-                  >{{ t('footer.links.popularLevels.level5') }}</RouterLink
+                <a
+                  :href="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-5' })"
+                  >{{ t('footer.links.popularLevels.level5') }}</a
                 >
               </li>
               <li>
-                <RouterLink
-                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-7' })"
-                  >{{ t('footer.links.popularLevels.level7') }}</RouterLink
+                <a
+                  :herf="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-7' })"
+                  >{{ t('footer.links.popularLevels.level7') }}</a
                 >
               </li>
               <li>
-                <RouterLink
-                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-19' })"
-                  >{{ t('footer.links.popularLevels.level19') }}</RouterLink
+                <a
+                  :href="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-19' })"
+                  >{{ t('footer.links.popularLevels.level19') }}</a
                 >
               </li>
               <li>
-                <RouterLink
-                  :to="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-26' })"
-                  >{{ t('footer.links.popularLevels.level26') }}</RouterLink
+                <a
+                  :href="getLocalizedRoute('guide-detail', { id: 'cookingdom-game-level-26' })"
+                  >{{ t('footer.links.popularLevels.level26') }}</a
                 >
               </li>
             </ul>
@@ -140,29 +81,29 @@ function getLocalizedRoute(name, params = {}) {
             <h4>{{ t('footer.links.help.title') }}</h4>
             <ul>
               <li>
-                <RouterLink :to="getLocalizedRoute('privacy-policy')">{{
+                <a :href="getLocalizedRoute('privacy-policy')">{{
                   t('footer.privacy')
-                }}</RouterLink>
+                }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('terms-of-service')">{{
+                <a :href="getLocalizedRoute('terms-of-service')">{{
                   t('footer.terms')
-                }}</RouterLink>
+                }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('copyright')">{{
+                <a :href="getLocalizedRoute('copyright')">{{
                   t('footer.copyright.linkText')
-                }}</RouterLink>
+                }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('about')">{{
+                <a :href="getLocalizedRoute('about')">{{
                   t('footer.about.linkText')
-                }}</RouterLink>
+                }}</a>
               </li>
               <li>
-                <RouterLink :to="getLocalizedRoute('contact')">{{
+                <a :href="getLocalizedRoute('contact')">{{
                   t('footer.contact.linkText')
-                }}</RouterLink>
+                }}</a>
               </li>
             </ul>
           </div>
